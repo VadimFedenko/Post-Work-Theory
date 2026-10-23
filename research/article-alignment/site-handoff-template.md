@@ -14,9 +14,10 @@
 5. Источники соединять по ID с `data/sources.json`, массив `sources`.
 
 Исследование, картинки и оценки собраны. Поверх данных создано локальное
-приложение на React, TypeScript и Vite. Подготовлены локальный Git-репозиторий,
-проверки GitHub Actions и конфигурация Vercel. Загрузка на GitHub и публикация
-требуют авторизации в соответствующих аккаунтах.
+приложение на React, TypeScript и Vite. Публичный репозиторий:
+[VadimFedenko/Post-Work-Theory](https://github.com/VadimFedenko/Post-Work-Theory).
+GitHub Actions проверяет изменения и публикует ветку `main` на
+[GitHub Pages](https://vadimfedenko.github.io/Post-Work-Theory/).
 Повторный сбор сотен произведений и изображений для первого сайта не нужен.
 
 ## Запуск сайта
@@ -28,7 +29,7 @@ npm run dev
 
 Адрес: http://127.0.0.1:5173. Сборка: `npm run build`. Проверки: `npm test`.
 Требуется Node.js 22.12+; зависимости уже установлены в текущем рабочем каталоге.
-Описание интерфейса, подготовки данных и будущего деплоя через GitHub → Vercel:
+Описание интерфейса, подготовки данных и публикации на GitHub Pages:
 [WEBSITE.md](WEBSITE.md).
 
 ## Состояние

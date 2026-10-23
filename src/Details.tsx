@@ -10,8 +10,8 @@ import SocietyIcon from './SocietyIcon';
 const cache = new Map<string, RecordDetail>();
 let sourceRegistry: Promise<Source[]> | null = null;
 function loadSources() {
-  if (!sourceRegistry) sourceRegistry = Promise.all(['/data/sources.json', '/data/supplemental-sources.json'].map(async path => {
-    const response = await fetch(path); if (!response.ok) throw new Error(String(response.status)); return response.json();
+  if (!sourceRegistry) sourceRegistry = Promise.all(['data/sources.json', 'data/supplemental-sources.json'].map(async path => {
+    const response = await fetch(import.meta.env.BASE_URL + path); if (!response.ok) throw new Error(String(response.status)); return response.json();
   })).then(([main, supplemental]) => [...main.sources, ...(Array.isArray(supplemental) ? supplemental : Object.values(supplemental))] as Source[]).catch(error => { sourceRegistry = null; throw error; });
   return sourceRegistry;
 }
@@ -75,10 +75,10 @@ export default function Details({ selection, lang, familyMembers, visibleIds, on
     if (contentElement.current) contentElement.current.scrollTop = 0;
     if (cardElement.current) cardElement.current.scrollTop = 0;
     setDetail(cache.get(record.id) || null); setSources([]); setError(false);
-    const fetchJSON = async (path: string) => { const response = await fetch(path, { signal: controller.signal }); if (!response.ok) throw new Error(String(response.status)); return response.json(); };
+    const fetchJSON = async (path: string) => { const response = await fetch(import.meta.env.BASE_URL + path, { signal: controller.signal }); if (!response.ok) throw new Error(String(response.status)); return response.json(); };
     (async () => {
       try {
-        const data = cache.get(record.id) || await fetchJSON(`/data/records/${record.id}.json`);
+        const data = cache.get(record.id) || await fetchJSON(`data/records/${record.id}.json`);
         if (controller.signal.aborted) return;
         cache.set(record.id, data); setDetail(data);
         const allSources = await loadSources();
@@ -92,7 +92,7 @@ export default function Details({ selection, lang, familyMembers, visibleIds, on
   const subtitle = societySubtitle(record);
   const core = new Set(['id', 'name', 'work', 'society', 'media', 'description', 'axis', 'utopia_score', 'source_ids', 'popularity_score', 'popularity_assessment']);
   return <div ref={cardElement} className={`society-card ${pinned ? 'pinned' : ''} ${stacked ? 'stacked-card' : ''} ${placement ? 'floating-card' : record.axis.guarantees > .1 ? 'card-left' : ''}`} style={{ ...floatingPlacement, '--card-width': cardSize.height ? `${naturalCardWidth}px` : undefined, '--poster-width': posterWidth ? `${posterWidth}px` : undefined, '--poster-aspect': aspect } as CSSProperties} role="dialog" aria-label={record.name} onPointerEnter={onEnter} onPointerLeave={onLeave}>
-    <div className="card-image"><svg key={record.poster} viewBox={`${cropLeft} ${cropTop} ${imageWidth} ${imageHeight}`} preserveAspectRatio="xMidYMid meet" role="img" aria-label={record.work}><image href={'/' + record.poster} width={canvasWidth} height={canvasHeight} /></svg><div className="card-regime"><span>{String(record.regime).padStart(2, '0')}</span><strong>{regimes[lang][record.regime]}</strong></div></div>
+    <div className="card-image"><svg key={record.poster} viewBox={`${cropLeft} ${cropTop} ${imageWidth} ${imageHeight}`} preserveAspectRatio="xMidYMid meet" role="img" aria-label={record.work}><image href={import.meta.env.BASE_URL + record.poster} width={canvasWidth} height={canvasHeight} /></svg><div className="card-regime"><span>{String(record.regime).padStart(2, '0')}</span><strong>{regimes[lang][record.regime]}</strong></div></div>
     <div className="card-content" ref={contentElement}>
       <header className="card-summary">
       <div className="card-topline"><span>{record.media.map(m => medium[lang][m]).join(' · ')}</span><div><button aria-label={lang === 'ru' ? 'Закрепить карточку' : 'Pin card'} title={lang === 'ru' ? 'Закрепить' : 'Pin'} aria-pressed={pinned} onClick={onPin}><Pin size={13} fill={pinned ? 'currentColor' : 'none'} /></button><button aria-label={t.close} onClick={onClose}><X size={16} /></button></div></div>

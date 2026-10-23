@@ -14,27 +14,36 @@ npm run dev
 Открыть http://127.0.0.1:5173. Для проверки готовой сборки: `npm run build`, затем `npm run preview`.
 Проверки данных и модели карты: `npm test`.
 
-## Деплой GitHub → Vercel
+## Публикация на GitHub Pages
 
-Текущий снимок подготовлен к первой загрузке. Имя публичного репозитория:
-`VadimFedenko/Post-Work-Theory`, основная ветка — `main`.
-По состоянию на 2026-10-23 удалённый репозиторий и деплой ещё не созданы.
+Публичный репозиторий: [VadimFedenko/Post-Work-Theory](https://github.com/VadimFedenko/Post-Work-Theory).
+Основная ветка — `main`. Адрес сайта:
+[vadimfedenko.github.io/Post-Work-Theory/](https://vadimfedenko.github.io/Post-Work-Theory/).
 
-1. Создать репозиторий GitHub и загрузить проект вместе с `data/`, `assets/images/`, `article.txt`, `src/`, `scripts/`, файлами конфигурации и `package-lock.json`.
-2. В Vercel выбрать **Add New → Project → Import Git Repository** и нужный репозиторий.
-3. Root Directory: корень проекта. Framework: **Vite**. Build Command: **npm run build**. Output Directory: **dist**. Node.js: **24.x**. Переменные окружения и серверная база для текущей версии не нужны.
-4. Выполнить Deploy. Следующие изменения в подключённой ветке GitHub будут автоматически пересобирать сайт.
+GitHub Actions (`.github/workflows/ci.yml`) устанавливает зависимости, собирает
+сайт и запускает тесты на Node.js 24. После успешной проверки изменения в
+`main` автоматически публикуются на GitHub Pages. Pull request проверяется
+без публикации. В Settings → Pages выбран источник **GitHub Actions**.
 
-Настройки сборки также заданы в `vercel.json`. Сгенерированные `public/data/`, `public/assets/`, `dist/` и `node_modules/` исключены из Git; они воспроизводятся при сборке. Исходные изображения в `assets/images/` обязательно должны попасть в Git. Оригиналы изображений в веб-сборку не копируются — только используемые обложки и миниатюры.
+Для локальной проверки сборки с адресом проекта:
 
-GitHub Actions (`.github/workflows/ci.yml`) проверяет чистую установку зависимостей,
-сборку и тесты на Node.js 24 при изменениях в `main` и в pull request.
-Сборка выполняется перед тестами, чтобы подготовить производные веб-данные.
+```powershell
+npm run build:pages
+npm run preview -- --base=/Post-Work-Theory/
+```
 
-Для нынешней версии рекомендуемый вариант — GitHub + Vercel. GitHub Pages тоже
-подходит для статического сайта, но при адресе `/<repository>/` потребуется
-адаптировать абсолютные пути `/data/`, `/assets/` и конфигурацию Vite. Для Vercel
-текущие пути уже подходят. Сервер, база данных и переменные окружения не нужны.
+Открыть http://127.0.0.1:4173/Post-Work-Theory/. Команда `build:pages` задаёт
+базовый путь `/Post-Work-Theory/`; данные, карточки, миниатюры и обложки
+используют `import.meta.env.BASE_URL`. Обычная команда `npm run build`
+по-прежнему собирает сайт для корня домена, например при переносе на Vercel.
+Конфигурация `vercel.json` сохранена для такого переноса.
+
+Сгенерированные `public/data/`, `public/assets/`, `dist/` и `node_modules/`
+исключены из Git и воспроизводятся при сборке. Исходные изображения в
+`assets/images/` входят в репозиторий; в веб-сборку копируются только
+используемые обложки и миниатюры. Сборка выполняется перед тестами, чтобы
+подготовить производные веб-данные. Сервер, база данных и секреты для
+публикации не нужны: GitHub Actions использует стандартный `GITHUB_TOKEN`.
 
 ## Данные и поведение
 

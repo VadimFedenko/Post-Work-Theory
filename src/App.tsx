@@ -37,7 +37,7 @@ export default function App() {
   useEffect(() => { document.documentElement.lang = lang; document.title = copy[lang].title; try { localStorage.setItem('atlas-lang', lang); } catch {} }, [lang]);
   useEffect(() => {
     const controller = new AbortController(); setLoadState('loading');
-    fetch('/data/index.json', { signal: controller.signal }).then(r => { if (!r.ok) throw Error(String(r.status)); return r.json(); }).then(d => { setData(d); setLoadState('ready'); }).catch(() => { if (!controller.signal.aborted) setLoadState('error'); });
+    fetch(`${import.meta.env.BASE_URL}data/index.json`, { signal: controller.signal }).then(r => { if (!r.ok) throw Error(String(r.status)); return r.json(); }).then(d => { setData(d); setLoadState('ready'); }).catch(() => { if (!controller.signal.aborted) setLoadState('error'); });
     return () => controller.abort();
   }, [retry]);
   useEffect(() => {
