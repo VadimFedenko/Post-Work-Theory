@@ -1,0 +1,263 @@
+{
+  "batch_id": "batch-021",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0113",
+    "c0114",
+    "c0115",
+    "c0116",
+    "c0117"
+  ],
+  "sources": [
+    {
+      "id": "src-sirens-titan-primary",
+      "title": "The Sirens of Titan",
+      "author": "Kurt Vonnegut; unofficial English transcription on Manuals.plus",
+      "url": "https://manuals.plus/m/741a32b64293cf3c83240ce86217f398960f4c5dc2feb881548bb968b480a791",
+      "kind": "primary_fiction_unofficial_transcription",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public HTML opened; late Titan account and Tralfamadorian origin legend read",
+      "read_scope": "Salo as a machine among machine Tralfamadorians; their manufacture of each other; the explicitly labeled legend of organic creators delegating purposes and then their destruction.",
+      "limitations": "Targeted reading, not the whole novel. The origin account is a legend within the fiction, not a directly depicted constitution. Different Vonnegut books' Tralfamadores are not silently combined."
+    },
+    {
+      "id": "src-silver-eggheads-sfe",
+      "title": "Arts: The Silver Eggheads",
+      "author": "The Encyclopedia of Science Fiction contributors",
+      "url": "https://sf-encyclopedia.com/entry/arts",
+      "kind": "literary_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public entry opened and indexed Leiber paragraph read",
+      "read_scope": "Wordmills produce human commercial fiction; robot authors write authored fiction for robots; original shorter work and expanded novel are distinguished.",
+      "limitations": "Secondary summary of the literary sector, not evidence that all necessities are produced automatically or universally available."
+    },
+    {
+      "id": "src-silver-eggheads-opening-index",
+      "title": "The Silver Eggheads: opening quotation and edition blurb",
+      "author": "Fritz Leiber, quoted by the independent Trash Fiction site",
+      "url": "https://trashfiction.co.uk/silver_eggheads.html",
+      "kind": "primary_excerpt_with_secondary_commentary",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed quotation and quoted book blurb read; direct web opening failed",
+      "read_scope": "Gaspard's wordmill tending and publisher-assigned public persona; the robot Zane Gort described as a self-employed writer for robots.",
+      "limitations": "Only the indexed opening quotation/blurb was consulted, not the complete review or novel. Another public text mirror returned 403 and was not bypassed. No inference about society-wide provisioning is taken from its search presence."
+    },
+    {
+      "id": "src-wanderer-primary",
+      "title": "The Wanderer: Russian translation",
+      "author": "Fritz Leiber; public Lib.Ru transcription",
+      "url": "https://www.lib.ru/INOFANT/LEJBER/wanderer.txt",
+      "kind": "primary_fiction_translation",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public text opened; ordinary HTTPS decoded with its declared charset; selected guest-accommodation and chapter 36 passages read",
+      "read_scope": "Artificial inhabited planet, comfortable guest accommodation, Tigerishka's account of the wider civilization's democratic but restrictive elders, and the Wanderer's dissident aims.",
+      "limitations": "Translation provenance was not independently checked. Guest comfort and planet-building are not universal household rights. The fugitives' aspirations and wider civilization are different scopes; thought-to-object devices are still a stated ambition."
+    },
+    {
+      "id": "src-green-millennium-primary",
+      "title": "The Green Millennium",
+      "author": "Fritz Leiber; Project Gutenberg transcription of the Ace edition",
+      "url": "https://www.gutenberg.org/cache/epub/65482/pg65482-images.html",
+      "kind": "primary_fiction_transcription",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public HTML opened; opening employment/housing, Fun Incorporated sales robots and full ending sequence read",
+      "read_scope": "Phil's repeated job displacement, small rented living space, commercial robot sales and cash collection, and the green-cat resolution.",
+      "limitations": "Targeted passages, not a whole-novel read. No generalized material entitlement or society-wide unemployment rate was established. The ending's emotional harmony is not itself automated food or housing provision."
+    },
+    {
+      "id": "src-grammatizator-primary",
+      "title": "The Great Automatic Grammatizator",
+      "author": "Roald Dahl; unofficial English document transcription hosted by Gumer",
+      "url": "https://detective.gumer.info/txt/dal_2.pdf",
+      "kind": "primary_fiction_unofficial_pdf_transcription",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public 11-page PDF opened; final three complete PDF pages rendered and visually read, with text-layer comparison",
+      "read_scope": "Human operation of the novel machine; lifetime paid nonwriting contracts and name licensing; about seventy percent of the selected list signing; half of English-language fiction production; excluded narrator's hungry children.",
+      "limitations": "Reflowed document transcription, not a verified original-edition facsimile; spellings/OCR vary. Visual pages are one-based PDF pages 9-11. The whole story was not read from this PDF. No full novel/story file was retained or delivered."
+    },
+    {
+      "id": "src-grammatizator-education-text",
+      "title": "The great automatic grammatizator",
+      "author": "Roald Dahl; English teaching transcription on Lengish",
+      "url": "https://lengish.com/texts/text-89.html",
+      "kind": "primary_fiction_educational_transcription",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public HTML opened; construction and business-plan sections read, with the indexed ending compared against the longer PDF",
+      "read_scope": "Commercially directed automatic story generation and the agency's human owners; corroborating lifetime-contract premise.",
+      "limitations": "This educational version omits or compresses passages found in the longer PDF, including details of manual novel controls. It is not called an unabridged original. The PDF supplies the controlling final-contract evidence."
+    }
+  ],
+  "societies": [
+    {
+      "id": "grammatizator-contracted-authors",
+      "candidate_id": "c0117",
+      "name": "The Great Automatic Grammatizator (The contracted authors)",
+      "work": "The Great Automatic Grammatizator",
+      "society": "Authors receiving lifetime payments from Knipe's agency in exchange for ceasing to write",
+      "media": [
+        "short_story"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Dahl's original short-story setting",
+        "period": "After the machine's first full commercial year and the initial contract campaign",
+        "population": "Only the human authors who have signed the paid lifetime nonwriting contracts",
+        "human_population_proxy": false,
+        "exclusions": [
+          "The entire contemporary country",
+          "All English-language writers",
+          "Unsigned authors and their dependents",
+          "Agency operators automatically counted as nonworkers"
+        ],
+        "branch": null,
+        "player_configurable": false,
+        "unit_type": "contract-defined economic cohort"
+      },
+      "description": "Knipe's agency offers writers a continuing income for life in return for stopping their own writing and lending their names to machine-made books. Many actually sign. Within this small contractual group, automation has therefore replaced the work that previously earned the income. The guarantee estimate is moderately favorable and uncertain: a company promises payment, but the amount, purchasing power and protection against default are unspecified. The starving narrator's family remains outside this arrangement.\n\nKnipe and Bohlen control the productive machine, admission and payments. The authors surrender part of their independence without receiving shared control, so the control estimate stays near concentrated human ownership. Machine operation, marketing and management still require people; this is not sovereign AI. Nor does the contract prove that its recipients perform no other useful activity. The reported signing rate concerns a selected list of writers, and the machine's publication share concerns output. Neither measures the nonworking population.",
+      "axis": {
+        "guarantees": -0.3,
+        "control": 0.05,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.65,
+            0.25
+          ],
+          "confidence": "low",
+          "basis": "Actual signatories obtain a contractual annual payment for life, independent of further writing. Amount, necessities coverage, enforcement and default protection remain unspecified; this is neither a universal entitlement nor assured comprehensive care.",
+          "source_ids": [
+            "src-grammatizator-primary",
+            "src-grammatizator-education-text"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.15
+          ],
+          "confidence": "high",
+          "basis": "The two human business organizers retain access to the machine and direct the agency; signatories license their names and relinquish writing without acquiring collective production control.",
+          "source_ids": [
+            "src-grammatizator-primary",
+            "src-grammatizator-education-text"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "A nonwriting obligation is not a prohibition of every useful activity. Seventy percent applies only to the solicited list, and half applies to published fiction output; neither supplies an all-person participation census.",
+          "source_ids": [
+            "src-grammatizator-primary",
+            "src-grammatizator-education-text"
+          ]
+        }
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [
+        3
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-grammatizator-primary",
+        "src-grammatizator-education-text"
+      ],
+      "evidence": [
+        {
+          "claim": "The business buys out authors with annual lifetime payments, forbids further writing and uses their names for machine production; many contracts are signed.",
+          "source_ids": [
+            "src-grammatizator-primary"
+          ],
+          "locator": "One-based PDF pages 10-11",
+          "kind": "depicted_or_author_stated"
+        },
+        {
+          "claim": "The novel machine still needs a practiced human operator using controls and pedals.",
+          "source_ids": [
+            "src-grammatizator-primary"
+          ],
+          "locator": "One-based PDF page 9",
+          "kind": "depicted_or_author_stated"
+        }
+      ],
+      "uncertainties": [
+        "A deliberately narrow contractual cohort, not a claim that the whole surrounding country is post-work.",
+        "Material coverage and corporate payment reliability are unresolved; the guarantee interval crosses into weak support.",
+        "Voluntary useful activity counts as work. Signed contracts do not establish total idleness.",
+        "The machine's human operators and displaced unsigned writers are different economic positions, not hidden inside this cohort."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0113",
+      "status": "boundary_case",
+      "reason": "The current Tralfamadorian population consists of machines; its creators' fate is an internal origin legend.",
+      "source_ids": [
+        "src-sirens-titan-primary"
+      ],
+      "analysis": "The late Titan chapter explicitly identifies Salo and his fellows as machines which manufacture each other (web lines 1501-1510). The organic population's delegation of ever-higher purposes ends in extermination in the legend. The machine civilization has no established resident human denominator, and the legend supplies no dependable access or control constitution for a living biological society. Salo also undertakes an assigned mission and makes art; machine identity is not automatic idleness.",
+      "follow_up": "Preserve as an autonomous-machine and purpose comparison. Reopen the pre-extinction legendary period only as a separately labeled proxy if its production/access structure can be substantiated; never score extermination as human leisure or import Slaughterhouse-Five's aliens."
+    },
+    {
+      "candidate_id": "c0114",
+      "status": "needs_evidence",
+      "reason": "Automatic commercial fiction is verified; society-wide material provision or a deliberate zero-variant employment order is not.",
+      "source_ids": [
+        "src-silver-eggheads-sfe",
+        "src-silver-eggheads-opening-index"
+      ],
+      "analysis": "The reference and indexed primary opening establish wordmills, human tending/persona roles and robot authors working for robot readers. That is a real literary-automation lead, but maintaining equipment is still useful work and a marketing role alone does not establish an economy-wide work-preservation policy. Broad secondary claims that robots do everything need primary confirmation of ordinary access to goods, ownership and household livelihood. Preserved living brains would also require their own active-person scope rather than automatic nonworker status.",
+      "follow_up": "Read primary material on non-literary production, household income and the writers' union before deciding post-work versus zero variant. The consulted text mirror's 403 was respected; indexed fragments are not a completed novel read."
+    },
+    {
+      "candidate_id": "c0115",
+      "status": "needs_evidence",
+      "reason": "The artificial world has immense productive capacity, but durable ordinary provisioning rights remain unverified.",
+      "source_ids": [
+        "src-wanderer-primary"
+      ],
+      "analysis": "Don's comfortable accommodation is guest or captive treatment, not an entitlement census. Chapter 36 distinguishes the wider civilization's democratic, security-focused elders from the Wanderer's dissidents and ambitions (ordinary-fetch lines 9550-9688). Constructed planets, immortality and malleable bodies are not proof of work-independent necessities or AI government. Tigerishka even presents thought-realizing devices as a problem still to solve. Human visitors are not silently substituted for all alien residents.",
+      "follow_up": "Locate actual production and household-allocation passages for the Wanderer's population. If a point is retained, name an alien-person proxy and keep it distinct from the parent civilization; useful exploration, engineering and art still count as work."
+    },
+    {
+      "candidate_id": "c0116",
+      "status": "needs_evidence",
+      "reason": "Repeated robot displacement is direct, but the current evidence does not establish a qualifying general distribution system.",
+      "source_ids": [
+        "src-green-millennium-primary"
+      ],
+      "analysis": "The opening shows Phil losing successive jobs to faster robots and living in subdivided housing; the Fun Incorporated scene shows robots selling commodities for money. Neither one displaced man nor automated retail establishes how most residents obtain necessities. No primary rule deliberately preserving replaceable employment was established either. The ending introduces mood-mediating alien symbionts and political acceptance, rather than a completed new material constitution; emotional peace is not automatic production.",
+      "follow_up": "Check broader production ownership, unemployment support and access conditions before choosing a post-work or zero-variant classification. Keep the before-contact economy separate from the still-unfolding green-cat settlement."
+    },
+    {
+      "candidate_id": "c0117",
+      "status": "included",
+      "reason": "A realized contract-defined author cohort has a durable automation-funded income independent of further writing.",
+      "source_ids": [
+        "src-grammatizator-primary",
+        "src-grammatizator-education-text"
+      ],
+      "society_id": "grammatizator-contracted-authors",
+      "analysis": "The broad publishing-economy lead is narrowed explicitly to actual lifetime-contract signatories. The final PDF pages were visually checked. The record does not extend their payments to unsigned writers, the country's residents or the narrator's hungry dependents; it leaves participation unresolved and discloses the small occupational scope."
+    }
+  ],
+  "review_notes": [
+    "Second pass checked the Sirens origin legend and separate Vonnegut versions, Leiber's uncertain household institutions, and the difference between automation-funded buyouts and preserved employment.",
+    "The Dahl record is a narrow contract-defined population with actual continuing payment arrangements, not an entire civilization inferred from automated publishing. Its output/signature statistics are never used as participation percentages.",
+    "Primary PDF visual checks corrected the educational abridgment's omission of skilled manual novel controls. Useful human operation persists alongside the buyout cohort.",
+    "No new zero variant was asserted without evidence of deliberate replaceable work. Same-researcher evidence review only; goal remains active and images remain deferred."
+  ]
+}

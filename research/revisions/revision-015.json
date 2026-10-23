@@ -1,0 +1,1934 @@
+{
+  "revision_id": "revision-015",
+  "revised_on": "2026-10-17",
+  "reason": "Twelve known screen/game cases retained with explicit best guesses. Megazone’s physical residents and BLAME!’s posthuman cyborgs are distinguished from uploaded humans or independent AI. The Bots and the Bees is resolved as an Earth-model duplicate; Metalhead receives a completed collapse comparison.",
+  "changes": [
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-merits-bike-work-premise",
+        "title": "Fifteen Million Merits: work premise",
+        "author": "IMDb contributors",
+        "url": "https://www.imdb.com/title/tt2089049/faq/",
+        "kind": "secondary_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed work-premise passage read",
+        "read_scope": "Indexed FAQ: continuous bike work earns merits and is ostensibly used for power generation.",
+        "limitations": "The actual usefulness or replaceability of the bikes is not settled; no canonical make-work policy or work census is inferred."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-chapek-elder-shortage-dialogue",
+        "title": "Fear of a Bot Planet: Elder dialogue",
+        "author": "IMSDb transcript contributors",
+        "url": "https://imsdb.com/transcripts/Futurama-Fear-Of-A-Bot-Planet.html",
+        "kind": "secondary_transcript",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed named dialogue excerpt read",
+        "read_scope": "Indexed dialogue: Elders acknowledge a lug-nut shortage and corrupt incompetent government while using a human threat as distraction.",
+        "limitations": "Unofficial transcript excerpt, not a complete new episode viewing; exact household entitlements remain unknown."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-blame-silicon-cyborg-persons",
+        "title": "Silicon Life",
+        "author": "BLAME! Wiki contributors",
+        "url": "https://blame.fandom.com/wiki/Silicon_Life",
+        "kind": "secondary_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed background/biology/culture passages read",
+        "read_scope": "Indexed background, biology and culture passages: transhumanist experimentation, silicon-based organisms, bodily augmentation, nursery and nomadic warrior groups.",
+        "limitations": "Fan account, including NOiSE background; it does not establish an internal welfare charter or make cyborgs identical to Safeguard AI."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-megazone-physical-city-control",
+        "title": "Megazone 23",
+        "author": "The Encyclopedia of Science Fiction editors; entry signed SP",
+        "url": "https://sf-encyclopedia.com/entry/megazone_23",
+        "kind": "secondary_encyclopedia",
+        "accessed_on": "2026-10-17",
+        "access_method": "Bounded public reference sections read",
+        "read_scope": "Plot account: physical spaceship hull, concealed city, Shogo’s ordinary job, Bahamut/Eve guidance, military suppression and later restoration.",
+        "limitations": "Parts I-II are detailed; Part III is mentioned separately. No virtual uploaded population, automatic food law or fictional participation census is established."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-megazone-eden-network-work",
+        "title": "Anime Review: Megazone 23 Part III",
+        "author": "Opinyuns",
+        "url": "https://www.opinyuns.com/post/anime-review-megazone-23-part-iii",
+        "kind": "secondary_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed setting and employment passages read",
+        "read_scope": "Indexed review: Eden is managed by the System under E=X; Eiji is recruited to counter network intruders.",
+        "limitations": "Secondary review, not a new full OVA viewing; exact material allocation and productive ownership remain inference."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-combine-rations-coercion",
+        "title": "The Combine: occupation and ration incentives",
+        "author": "Half-Life Wiki contributors",
+        "url": "https://half-life.fandom.com/wiki/Combine",
+        "kind": "secondary_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed occupation and ration passages read",
+        "read_scope": "Indexed occupation passages: loyalty can earn extra rations or withholding; human-derived military and technical units operate under occupation.",
+        "limitations": "Fan reference; the multidimensional alien hierarchy is not automatically a unitary AI, and rations do not supply a labor census."
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0479",
+        "status": "boundary_case",
+        "reason": "Robot reproduction and occupational identity do not establish a new post-work society.",
+        "source_ids": [
+          "src-b65-bots-bees"
+        ],
+        "analysis": "The episode’s personal family story is not a population-level material regime.",
+        "follow_up": "Continue the queue without full fiction or series reconstruction; reopen only for a readily available economic reference."
+      },
+      "after": {
+        "candidate_id": "c0479",
+        "status": "duplicate",
+        "reason": "Same recurring Earth robot/human labor order as c0477; parenthood and vocational identity do not establish a material access or control change.",
+        "source_ids": [
+          "src-b65-bots-bees"
+        ],
+        "analysis": "Bender and Ben perform meaningful vocational activity. That detail strengthens the retained work interpretation but does not create another society.",
+        "follow_up": "Resolved model overlap; retain as related evidence without increasing the target count.",
+        "society_id": "futurama-earth-robot-work-zero",
+        "reassessed_on": "2026-10-17",
+        "current_policy_review": true
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0461",
+        "status": "boundary_case",
+        "reason": "Robotic hunters do not form a supported human community.",
+        "source_ids": [
+          "src-b64-metalhead"
+        ],
+        "analysis": "The checked plot concerns surviving predation after collapse, not work-independent access.",
+        "follow_up": "Save the comparison or evidence gap and continue; no full episode or fiction reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0461",
+        "status": "boundary_case",
+        "reason": "Completed comparison: robotic hunters and surviving scavengers are depicted after collapse, without a continuing productive or supported recipient community.",
+        "source_ids": [
+          "src-b64-metalhead"
+        ],
+        "analysis": "The dogs hunt surviving humans in a collapsed world. This demonstrates dangerous independent machinery and technological denial of access, but no continuing community whose necessities are supplied by the dogs or their productive system. The survivors’ effort to obtain stored goods is real activity, and deaths do not become people freed from labor. The case is therefore analyzed as a collapse comparison rather than left awaiting deeper lore reading.\n\n The comparison coordinates use extremely weak security, strong autonomous-machine dominance and a low nonworking scenario among living survivors who scavenge and care for one another. Control here describes coercive dominance rather than verified ownership of a productive economy. Wide intervals keep that limitation visible. The stored stock and active hunters are not treated as proof that a new civilization is automatically producing goods. This definite mechanism difference keeps the case outside the target; it is not omitted merely because its welfare laws or precise work census are unknown.",
+        "follow_up": "Completed current-policy collapse comparison; no deep reading requested.",
+        "reassessed_on": "2026-10-17",
+        "current_policy_review": true,
+        "assessment_mode": "best_guess",
+        "comparison_assessment": {
+          "name": "Black Mirror (Metalhead collapse)",
+          "media": [
+            "tv"
+          ],
+          "scope": "Living human survivors under robotic hunting; coercive dominance rather than an established productive polity",
+          "axis": {
+            "guarantees": 0.98,
+            "control": -0.9,
+            "nonworking": 0.15
+          },
+          "intervals": {
+            "guarantees": [
+              0.8,
+              1
+            ],
+            "control": [
+              -1,
+              -0.4
+            ],
+            "nonworking": [
+              0,
+              0.6
+            ]
+          },
+          "confidence": "low",
+          "canon_facts": [
+            "Autonomous robotic dogs hunt human survivors after societal collapse."
+          ],
+          "editorial_assumptions": [
+            "Control measures coercive machine dominance in this comparison, not verified productive ownership.",
+            "The low nonworking scenario retains scavenging and useful care among living survivors."
+          ],
+          "source_ids": [
+            "src-b64-metalhead"
+          ],
+          "counted_toward_goal": false
+        }
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "blackmirror-merits-pedal-zero",
+        "candidate_id": "c0460",
+        "name": "Black Mirror (Fifteen Million Merits)",
+        "work": "Black Mirror: Fifteen Million Merits",
+        "society": "The merit-funded pedal and service enclave",
+        "media": [
+          "tv"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The episode’s own continuity",
+          "period": "The continuing enclave before and around Bing’s performance career",
+          "population": "Living adult residents of the depicted labor-and-service enclave",
+          "human_population_proxy": false,
+          "exclusions": "No national all-age census, proof that the bikes are fake or automatic entitlement for every unseen outsider.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Residents earn merits by cycling or performing other assigned roles, then use purchasing power inside a heavily mediated environment. The bikes are presented as power generation; their complete technical dispensability is not established. The zero-variant interpretation instead treats the enclosed, highly managed service system as technological capacity coexisting with retained labor and commercial access. The weak guarantee best guess reflects dependence on merits rather than a secure unconditional floor.\n\n Human institutional owners and entertainment gatekeepers concentrate authority, with no verified independent AI sovereign. The low nonworking scenario counts cycling, cleaning, performance and useful care as work, even where a task may be ceremonial or technically replaceable. The central estimate is not a calculation from time spent on a bike or a claim that every adult has identical duties. Wide intervals cover the poorly explained population beyond the protagonists. Bing’s change of occupation improves his position without demonstrating a new material order for the enclave or eliminating his continuing performance work.",
+        "axis": {
+          "guarantees": 0.8,
+          "control": 0.05,
+          "nonworking": 0.1
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.35,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Merit-dependent purchasing suggests weak unconditional access, with unknown baseline support left in the interval.",
+            "source_ids": [
+              "src-fifteen-merits-reference",
+              "src-merits-bike-work-premise"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.4
+            ],
+            "confidence": "low",
+            "basis": "Human institutional and entertainment authority is central; screens and automation are not proof of an AI ruler.",
+            "source_ids": [
+              "src-fifteen-merits-reference",
+              "src-merits-bike-work-premise"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.45
+            ],
+            "confidence": "low",
+            "basis": "Visible adult-enclave scenario counts cycling, assigned service, performance and useful care; task hours are not a person fraction.",
+            "source_ids": [
+              "src-fifteen-merits-reference",
+              "src-merits-bike-work-premise"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-fifteen-merits-reference",
+          "src-merits-bike-work-premise"
+        ],
+        "evidence": [
+          {
+            "claim": "Cycling earns merits and is presented as power generation.",
+            "source_ids": [
+              "src-fifteen-merits-reference",
+              "src-merits-bike-work-premise"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Residents also perform service and entertainment roles within the enclave.",
+            "source_ids": [
+              "src-fifteen-merits-reference",
+              "src-merits-bike-work-premise"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The zero-variant qualification assumes meaningful labor-saving capacity in the managed environment, not canonical fake bikes.",
+          "Material rights and participation remain broad editorial scenarios."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the famous labor-retention setting with uncertain replaceability explicit; assigned cycling counts as work.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Cycling earns merits and is presented as power generation.",
+          "Residents also perform service and entertainment roles within the enclave."
+        ],
+        "editorial_assumptions": [
+          "The zero-variant qualification assumes meaningful labor-saving capacity in the managed environment, not canonical fake bikes.",
+          "Material rights and participation remain broad editorial scenarios."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0460",
+        "status": "boundary_case",
+        "reason": "The depicted pedal work earns merits and is presented as power generation, without verified replacement or deliberate make-work policy.",
+        "source_ids": [
+          "src-fifteen-merits-reference"
+        ],
+        "analysis": "An efficiency objection or symbolic interpretation cannot establish a canonical zero variant; cleaning and entertainment also remain useful activity.",
+        "follow_up": "Keep as a labor/attention-economy comparison rather than inventing the unseen infrastructure."
+      },
+      "after": {
+        "candidate_id": "c0460",
+        "status": "zero_variant",
+        "reason": "Retain the famous labor-retention setting with uncertain replaceability explicit; assigned cycling counts as work.",
+        "source_ids": [
+          "src-fifteen-merits-reference",
+          "src-merits-bike-work-premise"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "blackmirror-merits-pedal-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "blackmirror-commercial-cookie-labor-zero",
+        "candidate_id": "c0462",
+        "name": "Black Mirror (commercial assistant cookies)",
+        "work": "Black Mirror: White Christmas",
+        "society": "The commercial personal-assistant cookie order",
+        "media": [
+          "tv"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "White Christmas continuity only",
+          "period": "The established assistant-cookie service relationship",
+          "population": "Active human-derived assistant copies in commercial service",
+          "human_population_proxy": true,
+          "exclusions": "The separate police punishment copy, inactive files and original biological clients are not blended into this participation proxy.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "A cookie reproduces a human mind and is coerced into running its original person’s domestic environment. From the client’s perspective this is automation, but the copied person performs real personal-assistant labor. The support unit is consequently a zero variant about displaced and concealed work rather than a population enjoying leisure. The guarantee best guess is extremely weak because the owner can alter conditions and impose prolonged deprivation or isolation without the copy’s consent.\n\n Human clients and commercial handlers concentrate productive authority. A digital assistant’s embodiment does not make its owners an autonomous AI regime. The central nonworking scenario is zero for the active service cohort because it is defined by recurring assigned duties; the broad interval allows exceptions without turning idle processing cycles into a leisure count. Useful care and management remain work even when coerced. Original people and dormant backups do not multiply the copy population, and the episode’s distinct criminal-punishment mechanism is disclosed as a separate use of the technology rather than a second common entitlement.",
+        "axis": {
+          "guarantees": 0.95,
+          "control": 0,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.65,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Continuation and experienced conditions are controlled by clients and handlers, leaving extremely weak secure access.",
+            "source_ids": [
+              "src-b64-white-christmas"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.3
+            ],
+            "confidence": "low",
+            "basis": "Human owners direct the digital assistant service; copied human minds are not external AI sovereigns.",
+            "source_ids": [
+              "src-b64-white-christmas"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.4
+            ],
+            "confidence": "low",
+            "basis": "Active commercial assistant cohort is defined by ongoing duties; central zero nonworkers counts all assigned labor, with exceptions left broad.",
+            "source_ids": [
+              "src-b64-white-christmas"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b64-white-christmas"
+        ],
+        "evidence": [
+          {
+            "claim": "Human-derived cookies are forced to provide personal-assistant services.",
+            "source_ids": [
+              "src-b64-white-christmas"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Handlers can manipulate their experienced conditions and time as punishment.",
+            "source_ids": [
+              "src-b64-white-christmas"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The active service cohort is treated as having an ongoing assigned role.",
+          "The person-proxy rate does not describe biological clients or dormant copies."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the actual automation-facing service relationship while recognizing the copied person’s work and insecurity.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Human-derived cookies are forced to provide personal-assistant services.",
+          "Handlers can manipulate their experienced conditions and time as punishment."
+        ],
+        "editorial_assumptions": [
+          "The active service cohort is treated as having an ongoing assigned role.",
+          "The person-proxy rate does not describe biological clients or dormant copies."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0462",
+        "status": "boundary_case",
+        "reason": "Cookies perform actual human-derived personal-assistant labor.",
+        "source_ids": [
+          "src-b64-white-christmas"
+        ],
+        "analysis": "Coerced digital work and punishment are not a verified general material-provision constitution.",
+        "follow_up": "Save the comparison or evidence gap and continue; no full episode or fiction reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0462",
+        "status": "zero_variant",
+        "reason": "Retain the actual automation-facing service relationship while recognizing the copied person’s work and insecurity.",
+        "source_ids": [
+          "src-b64-white-christmas"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "blackmirror-commercial-cookie-labor-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "blackmuseum-clayton-exhibit-zero",
+        "candidate_id": "c0463",
+        "name": "Black Mirror (Clayton’s captive exhibit)",
+        "work": "Black Mirror: Black Museum",
+        "society": "The continuing Clayton Leigh exhibit economy",
+        "media": [
+          "tv"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Black Museum continuity only",
+          "period": "The operating exhibit before Nish ends it",
+          "population": "The single active human-derived Clayton exhibit person",
+          "human_population_proxy": true,
+          "exclusions": "Pain souvenirs, other transferred persons and biological visitors are not silently added as independent leisure citizens.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The museum maintains Clayton’s copied consciousness as a continuing exhibit whose suffering can be sold to visitors. Technology removes the need for the original biological body, but it does not create a secure or self-directed life. The guarantee best guess is near the insecure extreme because the operator controls continuation and experienced conditions. This is a narrow captive support unit, not a claim that the surrounding country has become a post-work society.\n\n Human commercial authority controls the exhibit. The central one-person nonworking scenario is zero because the recurring coerced performance is treated as an assigned role, with the alternative one retained if the suffering is interpreted as victimization without an ongoing work role. The interval is binary rather than a fraction of time spent conscious or in pain. The zero-variant label makes the interpretation explicit: technological maintenance and commercial output coexist with imposed human-derived activity. Souvenir copies are not multiplied into a demographic count, and the final destruction ends this arrangement rather than creating a new leisure community.",
+        "axis": {
+          "guarantees": 0.98,
+          "control": 0,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.75,
+              1
+            ],
+            "confidence": "low",
+            "basis": "The human operator controls continuation and inflicts suffering, undermining secure experienced provision.",
+            "source_ids": [
+              "src-b64-black-museum"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.25
+            ],
+            "confidence": "low",
+            "basis": "The exhibit is under concentrated human commercial command, not an independent AI government.",
+            "source_ids": [
+              "src-b64-black-museum"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              1
+            ],
+            "confidence": "low",
+            "basis": "One active Clayton copy: recurring imposed performance is treated as an assigned role, central zero; alternative one is binary, not duration.",
+            "source_ids": [
+              "src-b64-black-museum"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b64-black-museum"
+        ],
+        "evidence": [
+          {
+            "claim": "The museum exploits transferred consciousness and sentient pain as a commercial attraction.",
+            "source_ids": [
+              "src-b64-black-museum"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Clayton is maintained as a captive digital exhibit before the final intervention.",
+            "source_ids": [
+              "src-b64-black-museum"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The recurring commercial exhibit performance is interpreted as assigned work.",
+          "This is a single active copied-person unit, not a count of every souvenir or visitor."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the limited technologically maintained exhibit as an explicit zero-variant person comparison; the labor interpretation and tiny scope are disclosed.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The museum exploits transferred consciousness and sentient pain as a commercial attraction.",
+          "Clayton is maintained as a captive digital exhibit before the final intervention."
+        ],
+        "editorial_assumptions": [
+          "The recurring commercial exhibit performance is interpreted as assigned work.",
+          "This is a single active copied-person unit, not a count of every souvenir or visitor."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0463",
+        "status": "boundary_case",
+        "reason": "Digital suffering is exploited as a product rather than demonstrating general post-work support.",
+        "source_ids": [
+          "src-b64-black-museum"
+        ],
+        "analysis": "Active human-derived persons are acknowledged, but consciousness transfer alone does not establish an economic support order.",
+        "follow_up": "Save the comparison or evidence gap and continue; no full episode or fiction reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0463",
+        "status": "zero_variant",
+        "reason": "Retain the limited technologically maintained exhibit as an explicit zero-variant person comparison; the labor interpretation and tiny scope are disclosed.",
+        "source_ids": [
+          "src-b64-black-museum"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "blackmuseum-clayton-exhibit-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "commonpeople-rivermind-working-household-zero",
+        "candidate_id": "c0465",
+        "name": "Black Mirror (Rivermind subscription household)",
+        "work": "Black Mirror: Common People",
+        "society": "Amanda and Mike’s working subscription household",
+        "media": [
+          "tv"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Common People continuity only",
+          "period": "The functioning early subscription period before later job loss and the final deaths",
+          "population": "Amanda and Mike while both alive and pursuing their regular jobs",
+          "human_population_proxy": false,
+          "exclusions": "Later sleeping hours, death, separate simulated people and company staff are not extra nonworking household members.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Rivermind restores Amanda’s brain function through a continuing subscription, allowing an ordinary working household to keep going. The operation may be free initially, but survival depends on recurring payment and service coverage. The guarantee best guess is therefore very weak despite real technical support. Later tier changes, advertisements and worsening conditions expose that vulnerability; they are qualifications to the support model rather than evidence of an unconditional medical floor.\n\n Human corporate owners set access and price, placing control near concentrated commercial authority. The network’s automatic operation does not establish independent AI sovereignty. The early two-person participation scenario has zero nonworkers because Amanda and Mike both retain jobs. Alternatives of one or two nonworkers are left inside the broad discrete interval, rather than calculated from Amanda’s sleeping hours. The zero variant concerns life-sustaining technology that preserves or increases dependence on earnings. Later job loss and internet humiliation are real changes in work, and the final deaths never become a leisure dividend.",
+        "axis": {
+          "guarantees": 0.95,
+          "control": 0,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.7,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Paid continuation, coverage limits and unilateral tier changes produce extremely weak secure access.",
+            "source_ids": [
+              "src-b64-common-people"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.25
+            ],
+            "confidence": "low",
+            "basis": "Human Rivermind owners and representatives control service terms; automatic brain support is not proof of AI ownership.",
+            "source_ids": [
+              "src-b64-common-people"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Early two-person working-household snapshot gives central zero; alternative person counts are zero, one or two, not sleep fractions.",
+            "source_ids": [
+              "src-b64-common-people"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b64-common-people"
+        ],
+        "evidence": [
+          {
+            "claim": "A working couple pays recurring fees for Amanda’s technologically restored brain function.",
+            "source_ids": [
+              "src-b64-common-people"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Coverage and subscription tiers change, and the couple’s work and finances deteriorate.",
+            "source_ids": [
+              "src-b64-common-people"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The initial functioning period is scored separately from final job loss and death.",
+          "The service is a limited zero variant because support remains dependent on earnings."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the actual continuing life-support household as a zero variant with a discrete two-person work scenario.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "A working couple pays recurring fees for Amanda’s technologically restored brain function.",
+          "Coverage and subscription tiers change, and the couple’s work and finances deteriorate."
+        ],
+        "editorial_assumptions": [
+          "The initial functioning period is scored separately from final job loss and death.",
+          "The service is a limited zero variant because support remains dependent on earnings."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0465",
+        "status": "boundary_case",
+        "reason": "Rivermind preserves a working person’s brain function while making survival depend more tightly on earnings.",
+        "source_ids": [
+          "src-b64-common-people"
+        ],
+        "analysis": "A medical subscription alone does not establish a labor-replacing distribution economy.",
+        "follow_up": "Save the comparison or evidence gap and continue; no full episode or fiction reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0465",
+        "status": "zero_variant",
+        "reason": "Retain the actual continuing life-support household as a zero variant with a discrete two-person work scenario.",
+        "source_ids": [
+          "src-b64-common-people"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "commonpeople-rivermind-working-household-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "callister-infinity-active-copy-economy",
+        "candidate_id": "c0466",
+        "name": "Black Mirror (Infinity’s active copied-person economy)",
+        "work": "Black Mirror: USS Callister: Into Infinity",
+        "society": "The commercial Infinity order experienced by active human copies",
+        "media": [
+          "tv"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Into Infinity continuity, building on USS Callister",
+          "period": "The operating Infinity platform before the crew’s final transfer",
+          "population": "Active autonomous human-derived copies, including the crew and Bob",
+          "human_population_proxy": true,
+          "exclusions": "Biological players, ordinary avatars, inactive data and the ending’s new bodily destination do not enter the same active-person denominator.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The copied crew must obtain credits to survive inside Infinity, while Bob, a copied developer, works continuously on the game. The platform thus offers technologically sustained experience without guaranteeing secure access to its active copied persons. The weak guarantee best guess follows commercial dependence and exploitative ownership rather than the mere fact that bodies are virtual. Credits and a playable landscape are not proof of universal digital abundance.\n\n Human platform owners retain decisive control, even though copies can act independently within the game. The low nonworking scenario counts piracy for resources, navigation, development, care-like help and other recurring useful or assigned roles. Digital work remains work; Bob’s nonstop activity is not an automatic process to erase from the person count. The broad interval applies to active autonomous copies, not every player avatar. The final transfer changes their material host and is an actual ending event, but no settled economy inside the new situation is invented or averaged into the earlier commercial regime.",
+        "axis": {
+          "guarantees": 0.85,
+          "control": 0.05,
+          "nonworking": 0.1
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.4,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Survival credit costs and exploited development support weak secure access despite active digital embodiment.",
+            "source_ids": [
+              "src-b64-callister-infinity"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.4
+            ],
+            "confidence": "low",
+            "basis": "Human platform owners hold decisive substrate and commercial power; in-game agency is not shared server ownership.",
+            "source_ids": [
+              "src-b64-callister-infinity"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "Active copy-person scenario counts resource raids, development, navigation and useful assistance; avatars and processing time are not a census.",
+            "source_ids": [
+              "src-b64-callister-infinity"
+            ]
+          }
+        },
+        "regime_primary": 3,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b64-callister-infinity"
+        ],
+        "evidence": [
+          {
+            "claim": "The copied crew steals credits to survive in Infinity.",
+            "source_ids": [
+              "src-b64-callister-infinity"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Bob is a human-derived developer copy made to work continuously on the game.",
+            "source_ids": [
+              "src-b64-callister-infinity"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Active autonomous copies are recognized as persons doing real work.",
+          "The economic floor and participation share remain editorial scenarios within the operating platform."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the actual active digital labor and survival economy, rather than omitting it for lack of a constitutional description.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The copied crew steals credits to survive in Infinity.",
+          "Bob is a human-derived developer copy made to work continuously on the game."
+        ],
+        "editorial_assumptions": [
+          "Active autonomous copies are recognized as persons doing real work.",
+          "The economic floor and participation share remain editorial scenarios within the operating platform."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0466",
+        "status": "needs_evidence",
+        "reason": "Infinity’s digital crew has survival costs, but the quick reference does not settle an applicable general material-access constitution.",
+        "source_ids": [
+          "src-b64-callister-infinity"
+        ],
+        "analysis": "Crew copies, living player avatars and Bob’s actual continuous development labor are different populations; the ending is not a stable new order.",
+        "follow_up": "Save the comparison or evidence gap and continue; no full episode or fiction reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0466",
+        "status": "included",
+        "reason": "Retain the actual active digital labor and survival economy, rather than omitting it for lack of a constitutional description.",
+        "source_ids": [
+          "src-b64-callister-infinity"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "callister-infinity-active-copy-economy"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "futurama-earth-robot-work-zero",
+        "candidate_id": "c0477",
+        "name": "Futurama (Earth’s human and robot labor economy)",
+        "work": "Futurama",
+        "society": "The recurring thirty-first-century Earth economy",
+        "media": [
+          "tv",
+          "cartoon"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Main animated-series continuity",
+          "period": "The usual Earth consumer and delivery economy, without averaging temporary world-ending plots",
+          "population": "Living human Earth residents, including dependents",
+          "human_population_proxy": false,
+          "exclusions": "Alien and robot persons’ real work is disclosed separately; temporary vacations, dead humans and repeated robot bodies do not determine the human rate.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Robots perform many routine jobs while humans, aliens and artificial persons continue working in delivery, medicine, industry and services. Technical substitution is normal, yet money, employment and unequal resources still shape access. The guarantee best guess allows a limited public floor alongside significant purchase dependence. The series’ comfortable protagonists do not establish equal provision for poor residents, mutants or everyone outside their immediate social circle.\n\n Human and other organic political and commercial institutions retain substantial authority, with some private control dispersed among buyers and firms. Robot citizens’ agency does not make Earth an autonomous AI state. The modest nonworking scenario counts human professions, care and useful informal activity even where machines could replace tasks. It is not a robot-to-human ratio or an inference from comedic unemployment. This zero variant describes the recurring economic baseline. A robot’s occupational chip, family episode or temporary crisis does not create another society unless access or productive control changes materially.",
+        "axis": {
+          "guarantees": 0.35,
+          "control": 0.3,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.4,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Recurring commercial access and inequality suggest a limited floor rather than verified universal material security.",
+            "source_ids": [
+              "src-b65-futurama-robots",
+              "src-b65-bots-bees"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Organic institutions and private firms retain command; active robot citizens do not imply machine sovereignty.",
+            "source_ids": [
+              "src-b65-futurama-robots",
+              "src-b65-bots-bees"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.75
+            ],
+            "confidence": "low",
+            "basis": "Living all-age human baseline counts jobs, care and informal contribution; robot headcounts and temporary episodes are not participation.",
+            "source_ids": [
+              "src-b65-futurama-robots",
+              "src-b65-bots-bees"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b65-futurama-robots",
+          "src-b65-bots-bees"
+        ],
+        "evidence": [
+          {
+            "claim": "Robots perform many menial jobs alongside useful human and alien work.",
+            "source_ids": [
+              "src-b65-futurama-robots",
+              "src-b65-bots-bees"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The recurring Earth economy is estimated to retain commercial dependence and a limited public floor.",
+          "Human participation is separate from the genuine work of robot persons.",
+          "The Bots and the Bees supplies occupational/family detail, not a second material allocation regime."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the widely known recurring robot-labor economy as an explicitly interpreted zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Robots perform many menial jobs alongside useful human and alien work."
+        ],
+        "editorial_assumptions": [
+          "The recurring Earth economy is estimated to retain commercial dependence and a limited public floor.",
+          "Human participation is separate from the genuine work of robot persons.",
+          "The Bots and the Bees supplies occupational/family detail, not a second material allocation regime."
+        ],
+        "related_candidate_ids": [
+          "c0479"
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0477",
+        "status": "needs_evidence",
+        "reason": "Futurama’s robot labor does not settle Earth’s ordinary household access rules.",
+        "source_ids": [
+          "src-b65-futurama-robots"
+        ],
+        "analysis": "Task replacement and human/alien employment remain mixed; no general income floor or employment-preservation constitution is verified.",
+        "follow_up": "Continue the queue without full fiction or series reconstruction; reopen only for a readily available economic reference."
+      },
+      "after": {
+        "candidate_id": "c0477",
+        "status": "zero_variant",
+        "reason": "Retain the widely known recurring robot-labor economy as an explicitly interpreted zero variant.",
+        "source_ids": [
+          "src-b65-futurama-robots",
+          "src-b65-bots-bees"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "futurama-earth-robot-work-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "futurama-chapek9-robot-zero",
+        "candidate_id": "c0478",
+        "name": "Futurama (Chapek 9)",
+        "work": "Futurama: Fear of a Bot Planet",
+        "society": "The robot separatist polity on Chapek 9",
+        "media": [
+          "tv",
+          "cartoon"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named episode’s main-series continuity",
+          "period": "Established robot society under the Elders",
+          "population": "Active robot persons resident on Chapek 9",
+          "human_population_proxy": true,
+          "exclusions": "Visitors Fry and Leela are not permanent human recipients; there is no literal human nonworking percentage.",
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_synthetic_persons"
+        },
+        "description": "Chapek 9 is a continuing robot society with its own institutions, shortages and political manipulation. The Elders acknowledge a lug-nut crisis while using fear of humans to distract residents from misgovernment. That gives material needs a concrete role: artificial persons still require resources, and machine embodiment does not make every component freely available. The guarantee best guess is consequently weak, with a broad interval for the ordinary support rules the episode leaves unclear.\n\n The polity operates independently of human owners, so external control lies near autonomous machine authority. Internally, the Elders concentrate power; independence is not equal ownership among robots. The low nonworking scenario counts manufacturing, services, maintenance, care-like and civic roles among active persons. It is explicitly a synthetic-person proxy, not a claim that absent humans enjoy complete leisure. The zero variant highlights continued jobs and scarcity within a technically self-maintaining society. Temporary human visitors and inactive hardware do not enlarge the resident denominator.",
+        "axis": {
+          "guarantees": 0.45,
+          "control": -0.95,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.45,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "A concrete component shortage and manipulated government support uncertain, relatively weak material access.",
+            "source_ids": [
+              "src-b65-bot-planet",
+              "src-chapek-elder-shortage-dialogue"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              -0.65
+            ],
+            "confidence": "low",
+            "basis": "The robot polity is independent of humans while its Elders retain internal concentrated authority.",
+            "source_ids": [
+              "src-b65-bot-planet",
+              "src-chapek-elder-shortage-dialogue"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "Active robot-person scenario retains manufacturing, services, maintenance and civic roles; absent humans do not supply a leisure fraction.",
+            "source_ids": [
+              "src-b65-bot-planet",
+              "src-chapek-elder-shortage-dialogue"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b65-bot-planet",
+          "src-chapek-elder-shortage-dialogue"
+        ],
+        "evidence": [
+          {
+            "claim": "Chapek 9 is a robot separatist population.",
+            "source_ids": [
+              "src-b65-bot-planet",
+              "src-chapek-elder-shortage-dialogue"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "The Elders acknowledge a lug-nut shortage and use an invented human threat as distraction.",
+            "source_ids": [
+              "src-b65-bot-planet",
+              "src-chapek-elder-shortage-dialogue"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Internal material rights and participation are broad editorial estimates.",
+          "The proxy concerns active robot residents rather than visiting humans."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the active artificial-person polity with its shortages, hierarchy and continued labor visible.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Chapek 9 is a robot separatist population.",
+          "The Elders acknowledge a lug-nut shortage and use an invented human threat as distraction."
+        ],
+        "editorial_assumptions": [
+          "Internal material rights and participation are broad editorial estimates.",
+          "The proxy concerns active robot residents rather than visiting humans."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Participation among active synthetic persons, not a literal human rate.",
+          "control": "Independence from human owners; internal hierarchy and material shortages are assessed separately.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0478",
+        "status": "boundary_case",
+        "reason": "Chapek 9 does not supply an applicable supported human population.",
+        "source_ids": [
+          "src-b65-bot-planet"
+        ],
+        "analysis": "Robot personhood and separatist government do not establish a justified human nonworking denominator or material-support economy.",
+        "follow_up": "Continue the queue without full fiction or series reconstruction; reopen only for a readily available economic reference."
+      },
+      "after": {
+        "candidate_id": "c0478",
+        "status": "zero_variant",
+        "reason": "Retain the active artificial-person polity with its shortages, hierarchy and continued labor visible.",
+        "source_ids": [
+          "src-b65-bot-planet",
+          "src-chapek-elder-shortage-dialogue"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "futurama-chapek9-robot-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "blame-silicon-cyborg-factions",
+        "candidate_id": "c0514",
+        "name": "BLAME! (Silicon Life factions)",
+        "work": "BLAME!",
+        "society": "The active Silicon Life cyborg factions",
+        "media": [
+          "manga"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Original manga, with prequel background only; not the film or Safeguard administration",
+          "period": "The established factional City order during the manga",
+          "population": "Active silicon-based and heavily augmented posthuman persons in the factions",
+          "human_population_proxy": true,
+          "exclusions": "Safeguard AI, Builders, unrelated human tribes, dormant embryos and inactive machinery are excluded from the active person proxy.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Silicon Life combines engineered organisms with extensive cybernetic augmentation, including technological reproduction and bodily maintenance. The factions are not simply a collection of independent robots: their background is connected to transhumanist experimentation, and many retain organism-like bodies beneath machinery. The post-work admission is a best guess that these systems replace substantial ordinary bodily provision while leaving access insecure. No universal faction welfare floor or peaceful common economy is asserted.\n\n Faction leaders and active posthuman members retain practical authority, while external City systems remain hostile constraints. The central control estimate stays near concentrated person authority rather than automatically assigning AI sovereignty to silicon-based biology. The low nonworking scenario counts technical care, reproduction support, exploration, war and other sustained roles. Technologically constructed bodies do not erase that work, and dormant nursery contents do not add leisure citizens. Broad intervals keep the internal economy uncertain. This point remains distinct from the City’s Safeguard administration and from any later human recovery or extermination of the factions.",
+        "axis": {
+          "guarantees": 0.6,
+          "control": 0.1,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.25,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Technological bodily provision is plausible but factional conflict and unknown entitlements suggest insecure access.",
+            "source_ids": [
+              "src-b68-silicon-life",
+              "src-blame-silicon-cyborg-persons"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.55,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "Posthuman/cyborg factions are the central controller; silicon biology is not automatically an external AI sovereign.",
+            "source_ids": [
+              "src-b68-silicon-life",
+              "src-blame-silicon-cyborg-persons"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "Active posthuman-person scenario retains technical maintenance, care, exploration and war roles; embryos and inactive hardware are excluded.",
+            "source_ids": [
+              "src-b68-silicon-life",
+              "src-blame-silicon-cyborg-persons"
+            ]
+          }
+        },
+        "regime_primary": 3,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b68-silicon-life",
+          "src-blame-silicon-cyborg-persons"
+        ],
+        "evidence": [
+          {
+            "claim": "Silicon Life originates in transhumanist experimentation and uses heavy cybernetic augmentation.",
+            "source_ids": [
+              "src-b68-silicon-life",
+              "src-blame-silicon-cyborg-persons"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Nursery technology and nomadic factional warrior cultures appear in the reference account.",
+            "source_ids": [
+              "src-b68-silicon-life",
+              "src-blame-silicon-cyborg-persons"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Bodily and reproductive systems are interpreted as substantial technological provision with uncertain internal allocation.",
+          "The post-work qualification and all population coordinates remain low-confidence editorial judgments."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar manga faction with its cyborg origins and uncertain support system explicitly distinguished from AI city control.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Silicon Life originates in transhumanist experimentation and uses heavy cybernetic augmentation.",
+          "Nursery technology and nomadic factional warrior cultures appear in the reference account."
+        ],
+        "editorial_assumptions": [
+          "Bodily and reproductive systems are interpreted as substantial technological provision with uncertain internal allocation.",
+          "The post-work qualification and all population coordinates remain low-confidence editorial judgments."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0514",
+        "status": "needs_evidence",
+        "reason": "Silicon Life identity and power do not establish a scoped post-work allocation system.",
+        "source_ids": [
+          "src-b68-silicon-life"
+        ],
+        "analysis": "The human enclave’s machine-access problem cannot automatically supply another species’ economy.",
+        "follow_up": "Keep the short comparison/gap and continue without whole manga/anime reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0514",
+        "status": "included",
+        "reason": "Retain the familiar manga faction with its cyborg origins and uncertain support system explicitly distinguished from AI city control.",
+        "source_ids": [
+          "src-b68-silicon-life",
+          "src-blame-silicon-cyborg-persons"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "blame-silicon-cyborg-factions"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "megazone23-bahamut-physical-city-zero",
+        "candidate_id": "c0544",
+        "name": "Megazone 23 (Bahamut’s shipboard Tokyo)",
+        "work": "Megazone 23",
+        "society": "The physical shipboard city maintained by Bahamut",
+        "media": [
+          "anime"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Original Parts I-II continuity before military suppression; not Robotech re-edit",
+          "period": "The concealed Tokyo-like city before the military takeover of its civic AI",
+          "population": "Living embodied human residents aboard Megazone 23",
+          "human_population_proxy": false,
+          "exclusions": "The city imitates Tokyo physically; residents are not assumed uploaded minds. Later destruction, another Megazone and Eden City are separate scopes.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Residents live in a physical shipboard city while believing they inhabit ordinary Tokyo. Bahamut and Eve sustain and guide the concealed environment, while people still hold jobs and pursue useful creative, technical and military roles. Calling the world a simulation does not make its inhabitants digital minds. The guarantee best guess allows continuing life-support infrastructure but assumes household access remains partly tied to the imitated commercial order, with a wide interval because ordinary necessities are not fully described.\n\n Bahamut’s practical civic autonomy places control toward the machine end, qualified by human administration and the later military ability to suppress it. The low nonworking scenario counts ordinary jobs, care and useful creation even when the city’s underlying support is automatic. Its zero-variant qualification concerns retained work inside a highly managed technological habitat, not a verified canonical make-work decree. The period precedes the takeover; later restoration and destruction are not averaged into it. Dead passengers do not become leisure residents, and the city’s physical population remains separate from the AI celebrity guiding it.",
+        "axis": {
+          "guarantees": 0.3,
+          "control": -0.7,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.55,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Physical life-support capacity is actual, but household access in the imitated commercial order is uncertain.",
+            "source_ids": [
+              "src-b70-megazone",
+              "src-megazone-physical-city-control"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.95,
+              0.2
+            ],
+            "confidence": "low",
+            "basis": "Bahamut has substantial civic autonomy before military suppression, while human override remains a real qualification.",
+            "source_ids": [
+              "src-b70-megazone",
+              "src-megazone-physical-city-control"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.7
+            ],
+            "confidence": "low",
+            "basis": "Living human all-age city scenario retains jobs, care and useful creation; physical residence is not uploaded digital leisure.",
+            "source_ids": [
+              "src-b70-megazone",
+              "src-megazone-physical-city-control"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b70-megazone",
+          "src-megazone-physical-city-control"
+        ],
+        "evidence": [
+          {
+            "claim": "The Tokyo-like city is inside a physical spaceship whose status is hidden from most residents.",
+            "source_ids": [
+              "src-b70-megazone",
+              "src-megazone-physical-city-control"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Bahamut/Eve guide the populace; human jobs and later military suppression continue.",
+            "source_ids": [
+              "src-b70-megazone",
+              "src-megazone-physical-city-control"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The habitat is interpreted as a zero variant retaining work despite substantial automatic support.",
+          "No canonical employment-preservation motive or universal material entitlement is invented."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the technologically maintained habitat while correcting the discovery lead’s misleading digital-simulation implication.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The Tokyo-like city is inside a physical spaceship whose status is hidden from most residents.",
+          "Bahamut/Eve guide the populace; human jobs and later military suppression continue."
+        ],
+        "editorial_assumptions": [
+          "The habitat is interpreted as a zero variant retaining work despite substantial automatic support.",
+          "No canonical employment-preservation motive or universal material entitlement is invented."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0544",
+        "status": "needs_evidence",
+        "reason": "A managed Tokyo-like environment does not establish wage-independent necessities for its residents.",
+        "source_ids": [
+          "src-b70-megazone"
+        ],
+        "analysis": "Do not silently treat the physically inhabited ship setting as a population of uploaded minds or merge all three parts’ institutions.",
+        "follow_up": "Keep the concise gap/comparison and continue without whole-series or manga reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0544",
+        "status": "zero_variant",
+        "reason": "Retain the technologically maintained habitat while correcting the discovery lead’s misleading digital-simulation implication.",
+        "source_ids": [
+          "src-b70-megazone",
+          "src-megazone-physical-city-control"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "megazone23-bahamut-physical-city-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "megazone23-eden-system-city",
+        "candidate_id": "c0545",
+        "name": "Megazone 23 Part III (Eden City)",
+        "work": "Megazone 23 Part III",
+        "society": "The later physical Eden City under the System",
+        "media": [
+          "anime"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Part III’s later era, distinct from the shipboard Tokyo of Parts I-II",
+          "period": "Established Eden before the final release and system shutdown",
+          "population": "Living embodied human residents of Eden City",
+          "human_population_proxy": false,
+          "exclusions": "Network programs, the original ship’s dead population and the later unshown independent world are excluded.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Centuries after the shipboard era, Eden is a physical city managed through the System and E=X. Its maintained infrastructure is interpreted as substantial technological support for residents, while the exact relationship between necessities and employment remains uncertain. The guarantee best guess assumes a limited internal floor without claiming unlimited abundance or a universal statute. Eiji’s network-security work is direct evidence that useful human activity continues inside the managed environment.\n\n The control estimate gives the System’s practical administration substantial weight while allowing the authority of human institutions and leaders. A citywide network is not assumed to erase every human decision, and artificial guidance is not the same as equal productive ownership. The modest nonworking scenario counts security, technical maintenance, care, administration and other useful roles. Broad intervals keep participation separate from the city’s paradise imagery. This point precedes the final release and shutdown; those events change access and authority but do not establish a settled successor economy with known allocation rules.",
+        "axis": {
+          "guarantees": -0.2,
+          "control": -0.6,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.75,
+              0.7
+            ],
+            "confidence": "low",
+            "basis": "A limited internal support floor is inferred from maintained Eden; exact household rights and work conditions remain uncertain.",
+            "source_ids": [
+              "src-b71-megazone-eden",
+              "src-megazone-eden-network-work"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.95,
+              0.2
+            ],
+            "confidence": "low",
+            "basis": "System administration and E=X/human leadership coexist; central interpretation emphasizes practical machine dependency.",
+            "source_ids": [
+              "src-b71-megazone-eden",
+              "src-megazone-eden-network-work"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Living human all-age city scenario counts network security, technical roles and care; city management does not supply a census.",
+            "source_ids": [
+              "src-b71-megazone-eden",
+              "src-megazone-eden-network-work"
+            ]
+          }
+        },
+        "regime_primary": 5,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b71-megazone-eden",
+          "src-megazone-eden-network-work"
+        ],
+        "evidence": [
+          {
+            "claim": "The System manages Eden with E=X involved in network control.",
+            "source_ids": [
+              "src-b71-megazone-eden",
+              "src-megazone-eden-network-work"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Eiji is recruited into actual network-security work.",
+            "source_ids": [
+              "src-b71-megazone-eden",
+              "src-megazone-eden-network-work"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Substantial internal material support is inferred rather than established as unconditional welfare.",
+          "No economic constitution is projected onto the unshown post-shutdown world."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the materially distinct later city with explicit best guesses and a physical-human denominator.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The System manages Eden with E=X involved in network control.",
+          "Eiji is recruited into actual network-security work."
+        ],
+        "editorial_assumptions": [
+          "Substantial internal material support is inferred rather than established as unconditional welfare.",
+          "No economic constitution is projected onto the unshown post-shutdown world."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0545",
+        "status": "needs_evidence",
+        "reason": "Eden’s computer-supervised city does not establish ordinary access independent of useful human work.",
+        "source_ids": [
+          "src-b71-megazone-eden"
+        ],
+        "analysis": "Construction and network governance alone do not supply wages, entitlements or control over material production.",
+        "follow_up": "Record the short gap/comparison and continue; do not reconstruct an entire franchise to rescue the lead."
+      },
+      "after": {
+        "candidate_id": "c0545",
+        "status": "included",
+        "reason": "Retain the materially distinct later city with explicit best guesses and a physical-human denominator.",
+        "source_ids": [
+          "src-b71-megazone-eden",
+          "src-megazone-eden-network-work"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "megazone23-eden-system-city"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "portal-glados-testing-zero",
+        "candidate_id": "c0631",
+        "name": "Portal (GLaDOS’s testing order)",
+        "work": "Portal",
+        "society": "The awake compulsory testing unit at Aperture",
+        "media": [
+          "game"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Original 2007 game testing period",
+          "period": "Chell’s active test sequence before the attempted incineration and escape",
+          "population": "Chell, the single living awake human test subject in the scoped sequence",
+          "human_population_proxy": false,
+          "exclusions": "Sleeping subjects, dead staff, personality cores and companion objects do not add active humans; cake is not treated as a proven material guarantee.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Aperture’s automated facility sustains an environment in which GLaDOS assigns Chell repeated physical tests. The machinery replaces an ordinary human operating staff, but the living subject still performs an ongoing required role. The zero-variant interpretation concerns that retained compulsory activity within a technologically managed support unit, with no assertion that every scientific test is useless. The guarantee best guess is extremely weak because the provider ultimately attempts to kill the subject rather than honoring a secure claim to continued support.\n\n Effective command lies near autonomous machine authority during the sequence. Human institutional origins do not give Chell practical control over the facility. The central one-person nonworking scenario is zero because recurring assigned tests count as work; the alternative one is retained if the ordeal is treated only as escape activity without a sustained role. The interval is binary, not the share of time solving puzzles. Stasis and dead staff never create leisure citizens, and neither a promised cake nor later-game institutions is imported as an established welfare floor.",
+        "axis": {
+          "guarantees": 0.98,
+          "control": -0.95,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.7,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Attempted incineration defeats any secure continuation claim; promised rewards are not verified necessities.",
+            "source_ids": [
+              "src-b78-portal"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              -0.75
+            ],
+            "confidence": "low",
+            "basis": "GLaDOS autonomously directs the facility relative to the living subject during the scoped sequence.",
+            "source_ids": [
+              "src-b78-portal"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              1
+            ],
+            "confidence": "low",
+            "basis": "One active Chell: recurring assigned testing counts as work, central zero; alternative one is binary rather than duration or sleeping population.",
+            "source_ids": [
+              "src-b78-portal"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b78-portal"
+        ],
+        "evidence": [
+          {
+            "claim": "Chell wakes from stasis, performs hazardous assigned tests and escapes attempted incineration.",
+            "source_ids": [
+              "src-b78-portal"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "GLaDOS controls the automated facility during the sequence.",
+            "source_ids": [
+              "src-b78-portal"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The narrow testing unit is treated as a zero-variant comparison rather than a general civilian society.",
+          "Assigned testing is counted as work; no claim that all experiments are unnecessary is made."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the famous automated testing order with its tiny scope and interpretive zero-variant qualification explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Chell wakes from stasis, performs hazardous assigned tests and escapes attempted incineration.",
+          "GLaDOS controls the automated facility during the sequence."
+        ],
+        "editorial_assumptions": [
+          "The narrow testing unit is treated as a zero-variant comparison rather than a general civilian society.",
+          "Assigned testing is counted as work; no claim that all experiments are unnecessary is made."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0631",
+        "status": "boundary_case",
+        "reason": "A lethal testing facility and stasis subjects are not an established supported post-work resident society.",
+        "source_ids": [
+          "src-b78-portal"
+        ],
+        "analysis": "Chell performs active tests; dormant people and promised food do not supply a leisure population or durable floor.",
+        "follow_up": "Save the short disposition and continue without whole-game or ARG reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0631",
+        "status": "zero_variant",
+        "reason": "Retain the famous automated testing order with its tiny scope and interpretive zero-variant qualification explicit.",
+        "source_ids": [
+          "src-b78-portal"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "portal-glados-testing-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "halflife2-combine-human-zero",
+        "candidate_id": "c0632",
+        "name": "Half-Life 2 (Combine-occupied Earth)",
+        "work": "Half-Life 2",
+        "society": "The Combine’s occupied human economy",
+        "media": [
+          "game"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Half-Life 2 occupation period only",
+          "period": "Before the uprising and destruction of the Citadel",
+          "population": "Living human residents and conscious human-derived subjects under occupation",
+          "human_population_proxy": false,
+          "exclusions": "The wider alien empire is not a human demographic denominator; unconscious hardware, dead civilians and later refugee arrangements are excluded.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Combine occupation combines advanced technical control with actual human and human-derived labor. Rations can reward cooperation or be withheld, while people are coerced into policing, service and transformed bodily roles. The guarantee best guess is therefore very weak: technological capacity has not become a secure entitlement for occupied humans. The zero-variant interpretation concerns retained dependence and labor within an advanced system, without claiming that every imposed task is technically dispensable.\n\n Authority belongs to the concentrated alien hierarchy and its human collaborators. The Combine is not automatically a unitary AI merely because it uses automated command and synthetic forces; the central control point uses concentrated non-AI authority by analogy, with a broad interval for machine administration. The low nonworking scenario counts assigned duties, resistance work, care and useful informal contribution. Conscious modified humans remain workers rather than hardware to remove from the denominator. The subsequent uprising changes the arrangement, and its deaths or later deprivation are not counted as a leisure dividend.",
+        "axis": {
+          "guarantees": 0.95,
+          "control": 0,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.7,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Conditional ration access and coercion undermine a secure material floor.",
+            "source_ids": [
+              "src-b78-combine",
+              "src-combine-rations-coercion"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.6,
+              0.2
+            ],
+            "confidence": "low",
+            "basis": "A concentrated alien hierarchy with human collaborators is the central analogy; automation alone does not establish an AI sovereign.",
+            "source_ids": [
+              "src-b78-combine",
+              "src-combine-rations-coercion"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "Living human and conscious human-derived scenario counts assigned duties, care, resistance and informal work; modified bodies are not automatically non-person equipment.",
+            "source_ids": [
+              "src-b78-combine",
+              "src-combine-rations-coercion"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b78-combine",
+          "src-combine-rations-coercion"
+        ],
+        "evidence": [
+          {
+            "claim": "The occupation uses coerced human and human-derived workers and forces.",
+            "source_ids": [
+              "src-b78-combine",
+              "src-combine-rations-coercion"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Extra rations or withholding can be used to influence cooperation.",
+            "source_ids": [
+              "src-b78-combine",
+              "src-combine-rations-coercion"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Available technological substitution is interpreted as a zero variant without asserting every retained task is dispensable.",
+          "The control coordinate analogizes alien hierarchical authority to the concentrated non-AI position."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the famous occupied labor order with its alien controllers and conscious human-derived work explicitly distinguished from AI.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The occupation uses coerced human and human-derived workers and forces.",
+          "Extra rations or withholding can be used to influence cooperation."
+        ],
+        "editorial_assumptions": [
+          "Available technological substitution is interpreted as a zero variant without asserting every retained task is dispensable.",
+          "The control coordinate analogizes alien hierarchical authority to the concentrated non-AI position."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0632",
+        "status": "boundary_case",
+        "reason": "Combine occupation retains coerced human and human-derived work.",
+        "source_ids": [
+          "src-b78-combine"
+        ],
+        "analysis": "Alien domination and cybernetic conversion do not establish automatic household production or an AI sovereign.",
+        "follow_up": "Save the short disposition and continue without whole-game or ARG reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0632",
+        "status": "zero_variant",
+        "reason": "Retain the famous occupied labor order with its alien controllers and conscious human-derived work explicitly distinguished from AI.",
+        "source_ids": [
+          "src-b78-combine",
+          "src-combine-rations-coercion"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "halflife2-combine-human-zero"
+      }
+    }
+  ]
+}

@@ -1,0 +1,394 @@
+{
+  "batch_id": "batch-056",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0365",
+    "c0366",
+    "c0367",
+    "c0368",
+    "c0369",
+    "c0370",
+    "c0371",
+    "c0372",
+    "c0373",
+    "c0374",
+    "c0375",
+    "c0376"
+  ],
+  "sources": [
+    {
+      "id": "src-equals-collective-reference",
+      "title": "Equals 2015 film",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Equals_(film)",
+      "kind": "secondary_film_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Film identity and Collective context checked in a short reference pass",
+      "read_scope": "The Collective is the film’s controlled human setting.",
+      "limitations": "No verified automated provisioning or deliberate preservation of dispensable work was found in the short check; no full viewing is claimed."
+    },
+    {
+      "id": "src-passengers-reference",
+      "title": "Passengers 2016 film",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Passengers_(2016_film)",
+      "kind": "secondary_film_plot_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Plot lines 208-223 read",
+      "read_scope": "Two prematurely awakened residents use ship services, undertake emergency repair and live out their lives aboard Avalon.",
+      "limitations": "Hibernating passengers are not an active leisure census. Normal automation still needs human intervention; the 2007 draft is not substituted for the finished film."
+    },
+    {
+      "id": "src-passengers-food-dialogue",
+      "title": "Passengers 2016: Movie Scripts",
+      "author": "Film dialogue transcribed by StockQ",
+      "url": "https://www.stockq.org/moviescript/P/passengers-2016.php",
+      "kind": "primary_film_dialogue_transcription_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded gold-class breakfast and passenger-class dialogue read",
+      "read_scope": "Food service access differs by passenger class.",
+      "limitations": "No full script read or food-system engineering inventory. Class difference is not evidence that every non-gold passenger is denied necessities."
+    },
+    {
+      "id": "src-pandorum-ending-reference",
+      "title": "Pandorum: Ending Explained",
+      "author": "High On Films",
+      "url": "https://www.highonfilms.com/pandorum-2009-movie-ending-explained/",
+      "kind": "secondary_film_explanation_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public stranded-ship, predation and reactor-survival discussion read",
+      "read_scope": "Awake survivors struggle in a failed ship environment.",
+      "limitations": "A colony transport’s capacity and eventual escape do not establish a functioning durable post-work civilian order."
+    },
+    {
+      "id": "src-space-sweepers-netflix",
+      "title": "Netflix Brings a Variety of Entertainment With 7 New Korean Films and Series",
+      "author": "Netflix",
+      "url": "https://about.netflix.com/en/news/netflix-brings-a-variety-of-entertainment-with-7-new-korean-films-and-series",
+      "kind": "official_film_synopsis_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Space Sweepers subsection only read",
+      "read_scope": "Privileged UTS citizens, excluded people and a working salvage crew.",
+      "limitations": "The promotional 95 percent noncitizen figure is not a nonworking percentage. Orbital privilege does not establish automatic universal provision."
+    },
+    {
+      "id": "src-jung-e-reference",
+      "title": "Jung_E",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Jung_E",
+      "kind": "secondary_film_plot_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Shelters, munitions work, medical contract and cloned-combat-AI synopsis read",
+      "read_scope": "Humans and human-derived copies perform actual useful work; one contract pays medical and family expenses.",
+      "limitations": "A paid brain-data bargain is not a general labor-independent support system, and exploited copies are not idle leisure persons."
+    },
+    {
+      "id": "src-vesper-reference",
+      "title": "Vesper film",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Vesper_(film)",
+      "kind": "secondary_film_plot_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Citadel, single-harvest seeds and outside survival passages read",
+      "read_scope": "Biotechnology, oligarchic seed dependence and continued subsistence activity.",
+      "limitations": "Restricting reproduction of seeds is not itself suppression of labor-replacing technology; productive human work remains real."
+    },
+    {
+      "id": "src-mars-express-plot",
+      "title": "Mars Express: Plot",
+      "author": "IMDb plot contributors",
+      "url": "https://www.imdb.com/title/tt26915336/plotsummary/",
+      "kind": "secondary_film_plot_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Noctis, human/robot investigation and brain-farm synopsis read",
+      "read_scope": "A working mixed society with brain exploitation and corporate conflict.",
+      "limitations": "Coexistence does not establish labor-independent distribution."
+    },
+    {
+      "id": "src-mars-express-ending",
+      "title": "Mars Express: explication de la fin, Aline et Carlos",
+      "author": "GTLF film explanation",
+      "url": "https://gtlf.fr/explication-fin-film-mars-express/",
+      "kind": "secondary_film_explanation_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public Aline, Carlos and robot-departure ending paragraph read",
+      "read_scope": "Carlos, a human-derived android, follows departing robots after the conflict.",
+      "limitations": "A departure does not establish a settled recipient community, resource access or a justified all-robot human proxy."
+    },
+    {
+      "id": "src-fantastic-planet-reference",
+      "title": "Fantastic Planet",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Fantastic_Planet",
+      "kind": "secondary_film_plot_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Draag/Om hierarchy, meditation and Om escape synopsis read",
+      "read_scope": "A technologically advanced alien society keeps or persecutes humans.",
+      "limitations": "Alien advancement and human domestication do not establish automatic provisioning, a unified population or nonworking share."
+    },
+    {
+      "id": "src-gandahar-review",
+      "title": "Gandahar review in November 2007 archive",
+      "author": "Electric Sheep",
+      "url": "https://www.electricsheepmagazine.co.uk/2007/11/",
+      "kind": "secondary_film_review_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public plentiful-food, biological-tools and excluded-mutant passages read",
+      "read_scope": "Biological abundance coexists with useful tools and exclusion of experimental beings.",
+      "limitations": "Plentiful food and biological engineering alone do not specify whether production no longer requires human labor or how goods are allocated."
+    },
+    {
+      "id": "src-gandahar-reference",
+      "title": "Gandahar film",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Gandahar_(film)",
+      "kind": "secondary_film_plot_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public Men of Metal and Metamorphis regeneration explanation read",
+      "read_scope": "Captives are used as living resources for an aging brain.",
+      "limitations": "A biological controller is not automatically an AI, and lethal extraction is not human post-work provision."
+    },
+    {
+      "id": "src-alphaville-reference",
+      "title": "Alphaville film",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Alphaville_(film)",
+      "kind": "secondary_film_plot_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public Alpha 60 and prohibited-thought/emotion passages read",
+      "read_scope": "Computer-enforced social control.",
+      "limitations": "Cognitive repression and computer authority do not establish automatic production or household entitlement."
+    }
+  ],
+  "societies": [
+    {
+      "id": "passengers-avalon-awake-residents",
+      "candidate_id": "c0366",
+      "name": "Passengers — Avalon’s prematurely awakened residents",
+      "work": "Passengers",
+      "society": "Jim and Aurora’s continuing shipboard household",
+      "media": [
+        "movie"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Finished 2016 film",
+        "period": "The prematurely awakened pair’s continuing residence, including life after the reactor repair",
+        "population": "Jim and Aurora while alive and awake aboard Avalon",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Hibernating colonists and crew as leisure citizens",
+          "Gus as a durable third resident",
+          "An established Homestead II economy",
+          "Different events in early screenplay drafts"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Jim and Aurora become long-term residents of a largely automatic passenger environment, with living space, meals, entertainment and medical machinery already operating around them. Their continuing support is not paid out of current wages. This makes the pair a narrow post-work household comparison rather than a claim about all future humanity. Passenger class affects food privileges, and serious malfunctions threaten even basic survival, so the guarantee estimate is moderately strong rather than unlimited or secure under every condition.\n\nThe ship’s services enforce a designed hierarchy of passenger and employee permissions. That supports a concentrated institutional-control estimate near zero; a talking interface and automatic flight do not establish an independent AI sovereign. Gus’s employee access helps the pair reach systems that their passenger status cannot command. Human work also remains indispensable when the reactor fails, and Aurora continues writing. Their later home does not supply an exact lifetime participation rate. Sleeping travelers and people not yet born are excluded from the denominator, while the eventual successful voyage is not proof of a post-work colony at its destination.",
+      "axis": {
+        "guarantees": -0.45,
+        "control": 0.05,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.8,
+            0.2
+          ],
+          "confidence": "low",
+          "basis": "Long-term automatic passenger services support the awake pair without current wages, but class restrictions, failed hibernation and infrastructure breakdown qualify security.",
+          "source_ids": [
+            "src-passengers-reference",
+            "src-passengers-food-dialogue"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.2
+          ],
+          "confidence": "medium",
+          "basis": "Access follows concentrated passenger/employee permissions; the ship interface is not shown to own the infrastructure or set an autonomous political constitution.",
+          "source_ids": [
+            "src-passengers-reference",
+            "src-passengers-food-dialogue"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Writing, maintenance and emergency repair remain useful work; neither continuous leisure nor a stable work census follows from the long time aboard.",
+          "source_ids": [
+            "src-passengers-reference",
+            "src-passengers-food-dialogue"
+          ]
+        }
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-passengers-reference",
+        "src-passengers-food-dialogue"
+      ],
+      "evidence": [
+        {
+          "claim": "The pair remain awake with ship services, repair the failing reactor and subsequently live out their lives aboard.",
+          "source_ids": [
+            "src-passengers-reference",
+            "src-passengers-food-dialogue"
+          ],
+          "locator": "Finished-film plot and breakfast-class dialogue",
+          "kind": "secondary_reference_and_primary_dialogue"
+        }
+      ],
+      "uncertainties": [
+        "An accidental but continuing two-human supported household, not a temporary holiday or proof of universal welfare.",
+        "Infrastructure repair is actual human work, not dispensable make-work.",
+        "The guarantee interval reflects both provision and severe technical failure.",
+        "Neither sleeping population ratios nor unknown later descendants create a participation estimate."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0365",
+      "status": "needs_evidence",
+      "reason": "The Collective’s social control is not a verified automatic material-support economy.",
+      "source_ids": [
+        "src-equals-collective-reference"
+      ],
+      "analysis": "The short reference check does not establish labor replacement or work-independent household distribution.",
+      "follow_up": "Skip deeper film reconstruction."
+    },
+    {
+      "candidate_id": "c0366",
+      "status": "included",
+      "reason": "Avalon actually supports a continuing awake household without current wages, with class restrictions and real human repair work disclosed.",
+      "source_ids": [
+        "src-passengers-reference",
+        "src-passengers-food-dialogue"
+      ],
+      "society_id": "passengers-avalon-awake-residents"
+    },
+    {
+      "candidate_id": "c0367",
+      "status": "boundary_case",
+      "reason": "Pandorum’s failed transport and predatory survivors do not form a verified functioning post-work order.",
+      "source_ids": [
+        "src-pandorum-ending-reference"
+      ],
+      "analysis": "Stasis, technical capability and an eventual escape do not establish a durable distribution constitution for awake people.",
+      "follow_up": "Do not count hibernation as leisure or invent the post-escape colony’s economy."
+    },
+    {
+      "candidate_id": "c0368",
+      "status": "needs_evidence",
+      "reason": "UTS privilege and excluded salvage workers do not establish the elite’s labor-independent provisioning mechanism.",
+      "source_ids": [
+        "src-space-sweepers-netflix"
+      ],
+      "analysis": "The official synopsis establishes inequality and useful paid work, not automatic necessities or productive ownership beyond corporate setting.",
+      "follow_up": "Skip deeper lore; do not convert noncitizenship into nonemployment."
+    },
+    {
+      "candidate_id": "c0369",
+      "status": "boundary_case",
+      "reason": "Jung_E depicts real industrial and human-derived military work rather than a demonstrated general post-work support order.",
+      "source_ids": [
+        "src-jung-e-reference"
+      ],
+      "analysis": "A contract buying brain data and paying one family’s expenses does not establish population-wide work independence.",
+      "follow_up": "Keep as a cognitive-labor and personhood comparison."
+    },
+    {
+      "candidate_id": "c0370",
+      "status": "boundary_case",
+      "reason": "Vesper’s seed monopoly still depends on real subsistence and biological production work.",
+      "source_ids": [
+        "src-vesper-reference"
+      ],
+      "analysis": "Artificial scarcity and wealth are not sufficient for a zero variant without available replacement of the relevant productive labor.",
+      "follow_up": "Keep as a biotechnology monopoly comparison; do not infer an unseen citadel welfare constitution."
+    },
+    {
+      "candidate_id": "c0371",
+      "status": "needs_evidence",
+      "reason": "Noctis’s mixed human-robot society does not have a verified work-independent access system in the quick reference.",
+      "source_ids": [
+        "src-mars-express-plot"
+      ],
+      "analysis": "Brain farms and detective work establish actual activity and exploitation, not a general provisioning mechanism.",
+      "follow_up": "Skip deeper film reconstruction."
+    },
+    {
+      "candidate_id": "c0372",
+      "status": "needs_evidence",
+      "reason": "The departing robots do not yet have a verified settled material-access constitution.",
+      "source_ids": [
+        "src-mars-express-ending"
+      ],
+      "analysis": "Carlos’s human-derived identity prevents treating all participants as mere hardware, but departure and autonomy still do not establish support rights or the active community’s economic rules.",
+      "follow_up": "Do not manufacture a new regime from the destination left unspecified."
+    },
+    {
+      "candidate_id": "c0373",
+      "status": "needs_evidence",
+      "reason": "Draag technology and Om subordination do not establish an automatic provision system for a scoped population.",
+      "source_ids": [
+        "src-fantastic-planet-reference"
+      ],
+      "analysis": "Meditation is not a nonworking census, and kept humans and wild Oms cannot be assigned identical access rights.",
+      "follow_up": "Skip deeper film or source-novel reading."
+    },
+    {
+      "candidate_id": "c0374",
+      "status": "needs_evidence",
+      "reason": "Gandahar’s plentiful food and engineered organisms do not resolve productive labor or distribution.",
+      "source_ids": [
+        "src-gandahar-review"
+      ],
+      "analysis": "The ecological utopia has excluded experimental populations, and abundance does not itself show that work has ceased to allocate necessities.",
+      "follow_up": "Skip a full viewing or novel reconstruction; do not mistake biological technology for literal absence of technology."
+    },
+    {
+      "candidate_id": "c0375",
+      "status": "boundary_case",
+      "reason": "Metamorphis uses captive people as biological resources rather than supporting a human post-work community.",
+      "source_ids": [
+        "src-gandahar-reference"
+      ],
+      "analysis": "Machine servants do not make their controller an AI or their human victims leisured beneficiaries.",
+      "follow_up": "Keep as a predatory-production comparison."
+    },
+    {
+      "candidate_id": "c0376",
+      "status": "needs_evidence",
+      "reason": "Alpha 60’s control over thought and behavior does not establish Alphaville’s automatic material economy.",
+      "source_ids": [
+        "src-alphaville-reference"
+      ],
+      "analysis": "An AI ruler can coexist with many different labor and distribution systems; the checked account does not settle which one applies.",
+      "follow_up": "Skip deeper film reconstruction."
+    }
+  ],
+  "review_notes": [
+    "Twelve short-check dispositions and one continuing-household admission.",
+    "Avalon’s long-lived awake residents are scoped separately from hibernating travelers; human repairs, writing and passenger-class restrictions stay visible.",
+    "Unrelated Equals, UTS and Gandahar search hits were discarded. Biological technology is eligible in principle but still needs an actual economic mechanism.",
+    "A human-derived android is recognized as such; that does not supply missing allocation rules for a departing robot population."
+  ]
+}

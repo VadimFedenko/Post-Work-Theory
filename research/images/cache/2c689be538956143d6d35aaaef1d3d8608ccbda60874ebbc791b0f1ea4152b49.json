@@ -1,0 +1,207 @@
+{
+  "data": [
+    {
+      "id": "3023",
+      "type": "manga",
+      "links": {
+        "self": "https://kitsu.io/api/edge/manga/3023"
+      },
+      "attributes": {
+        "createdAt": "2013-12-18T13:50:17.978Z",
+        "updatedAt": "2026-10-17T12:00:53.558Z",
+        "slug": "biomega",
+        "synopsis": "Set in the future, the plot follows Zouichi Kanoe and his AI companion Fuyu Kanoe, whose luminous form is integrated into the system of his motorcycle. They are agents sent by Toha Heavy Industries to retrieve humans with the ability to resist and transmute the N5S infection, which is spreading across the world, turning humans into \"Drones\"; disfigured, zombie-like beings.\n\n(Source: Wikipedia)",
+        "description": "Set in the future, the plot follows Zouichi Kanoe and his AI companion Fuyu Kanoe, whose luminous form is integrated into the system of his motorcycle. They are agents sent by Toha Heavy Industries to retrieve humans with the ability to resist and transmute the N5S infection, which is spreading across the world, turning humans into \"Drones\"; disfigured, zombie-like beings.\n\n(Source: Wikipedia)",
+        "coverImageTopOffset": 1,
+        "titles": {
+          "en": "",
+          "en_jp": "Biomega",
+          "en_us": "BioMega",
+          "ja_jp": "バイオメガ"
+        },
+        "canonicalTitle": "Biomega",
+        "abbreviatedTitles": [],
+        "averageRating": "74.65",
+        "ratingFrequencies": {
+          "2": "1",
+          "3": "1",
+          "4": "5",
+          "5": "1",
+          "6": "9",
+          "7": "0",
+          "8": "15",
+          "9": "0",
+          "10": "34",
+          "11": "2",
+          "12": "94",
+          "13": "7",
+          "14": "221",
+          "15": "6",
+          "16": "181",
+          "17": "14",
+          "18": "102",
+          "19": "3",
+          "20": "66"
+        },
+        "userCount": 2330,
+        "favoritesCount": 27,
+        "startDate": "2004-06-14",
+        "endDate": "2009-01-19",
+        "nextRelease": null,
+        "popularityRank": 805,
+        "ratingRank": 4151,
+        "ageRating": "R",
+        "ageRatingGuide": "Horror",
+        "subtype": "manga",
+        "status": "finished",
+        "tba": "",
+        "posterImage": {
+          "tiny": "https://media.kitsu.app/manga/poster_images/3023/tiny.jpg",
+          "large": "https://media.kitsu.app/manga/poster_images/3023/large.jpg",
+          "small": "https://media.kitsu.app/manga/poster_images/3023/small.jpg",
+          "medium": "https://media.kitsu.app/manga/poster_images/3023/medium.jpg",
+          "original": "https://media.kitsu.app/manga/poster_images/3023/original.jpg",
+          "meta": {
+            "dimensions": {
+              "tiny": {
+                "width": null,
+                "height": null
+              },
+              "large": {
+                "width": null,
+                "height": null
+              },
+              "small": {
+                "width": null,
+                "height": null
+              },
+              "medium": {
+                "width": null,
+                "height": null
+              }
+            }
+          }
+        },
+        "coverImage": {
+          "tiny": "https://media.kitsu.app/manga/cover_images/3023/tiny.jpg",
+          "large": "https://media.kitsu.app/manga/cover_images/3023/large.jpg",
+          "small": "https://media.kitsu.app/manga/cover_images/3023/small.jpg",
+          "original": "https://media.kitsu.app/manga/cover_images/3023/original.jpg",
+          "meta": {
+            "dimensions": {
+              "tiny": {
+                "width": null,
+                "height": null
+              },
+              "large": {
+                "width": null,
+                "height": null
+              },
+              "small": {
+                "width": null,
+                "height": null
+              }
+            }
+          }
+        },
+        "chapterCount": 42,
+        "volumeCount": 6,
+        "serialization": "Ultra Jump",
+        "mangaType": "manga"
+      },
+      "relationships": {
+        "genres": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/manga/3023/relationships/genres",
+            "related": "https://kitsu.io/api/edge/manga/3023/genres"
+          }
+        },
+        "categories": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/manga/3023/relationships/categories",
+            "related": "https://kitsu.io/api/edge/manga/3023/categories"
+          }
+        },
+        "castings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/manga/3023/relationships/castings",
+            "related": "https://kitsu.io/api/edge/manga/3023/castings"
+          }
+        },
+        "installments": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/manga/3023/relationships/installments",
+            "related": "https://kitsu.io/api/edge/manga/3023/installments"
+          }
+        },
+        "mappings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/manga/3023/relationships/mappings",
+            "related": "https://kitsu.io/api/edge/manga/3023/mappings"
+          }
+        },
+        "reviews": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/manga/3023/relationships/reviews",
+            "related": "https://kitsu.io/api/edge/manga/3023/reviews"
+          }
+        },
+        "mediaRelationships": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/manga/3023/relationships/media-relationships",
+            "related": "https://kitsu.io/api/edge/manga/3023/media-relationships"
+          }
+        },
+        "characters": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/manga/3023/relationships/characters",
+            "related": "https://kitsu.io/api/edge/manga/3023/characters"
+          }
+        },
+        "staff": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/manga/3023/relationships/staff",
+            "related": "https://kitsu.io/api/edge/manga/3023/staff"
+          }
+        },
+        "productions": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/manga/3023/relationships/productions",
+            "related": "https://kitsu.io/api/edge/manga/3023/productions"
+          }
+        },
+        "quotes": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/manga/3023/relationships/quotes",
+            "related": "https://kitsu.io/api/edge/manga/3023/quotes"
+          }
+        },
+        "chapters": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/manga/3023/relationships/chapters",
+            "related": "https://kitsu.io/api/edge/manga/3023/chapters"
+          }
+        },
+        "mangaCharacters": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/manga/3023/relationships/manga-characters",
+            "related": "https://kitsu.io/api/edge/manga/3023/manga-characters"
+          }
+        },
+        "mangaStaff": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/manga/3023/relationships/manga-staff",
+            "related": "https://kitsu.io/api/edge/manga/3023/manga-staff"
+          }
+        }
+      }
+    }
+  ],
+  "meta": {
+    "count": 1
+  },
+  "links": {
+    "first": "https://kitsu.io/api/edge/manga?filter%5Btext%5D=Biomega&page%5Blimit%5D=8&page%5Boffset%5D=0",
+    "last": "https://kitsu.io/api/edge/manga?filter%5Btext%5D=Biomega&page%5Blimit%5D=8&page%5Boffset%5D=0"
+  }
+}

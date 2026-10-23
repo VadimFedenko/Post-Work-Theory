@@ -1,0 +1,42 @@
+{
+  "candidates": 933,
+  "frozen_candidates": 784,
+  "expansion_candidates": 149,
+  "processed": 933,
+  "pending": 0,
+  "included": 890,
+  "post_work": 545,
+  "zero_variant": 345,
+  "coordinate_ready": 890,
+  "best_guess_records": 853,
+  "synthetic_person_proxy_records": 79,
+  "completed_scored_comparisons": 29,
+  "remaining_coordinate_gaps": 0,
+  "sources": 1309,
+  "decisions": {
+    "included": 541,
+    "supplementary": 2,
+    "zero_variant": 342,
+    "duplicate": 21,
+    "boundary_case": 27
+  },
+  "utopia_assessed": 890,
+  "popularity_assessed": 890,
+  "historical_review_missing_inputs": [
+    "статья.txt",
+    "coordinates.png"
+  ],
+  "next_candidate": null,
+  "goal_complete": false,
+  "completion_review": null,
+  "conservative_resident_scope_subset": null,
+  "note": "Current article migration is validated separately. The old goal_complete flag concerns the historical receipt, not whether the current export is usable; editorial lore judgments remain low-confidence.",
+  "taxonomy_version": "article-2026-10-21",
+  "article_alignment": {
+    "status": "validated",
+    "validation": "research/article-alignment/validation.json",
+    "article_sha256": "81a83c337be44c35b6b016768c8706b9e02a6ca20b97d17ef2013ddb90ce21f6"
+  },
+  "data_ready_for_site": true,
+  "historical_completion_receipt_valid": false
+}

@@ -1,0 +1,1708 @@
+{
+  "revision_id": "revision-043",
+  "revised_on": "2026-10-17",
+  "reason": "Current-policy best guesses for Simmons and Brunner; distinguish pre-Fall, actual Ousters and Pax, active synthetic proxies, earlier orbital residents, temporary control units and projected closing proposals.",
+  "changes": [
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-hyperion-quoted-core-substrate",
+        "title": "The Fall of Hyperion: Core substrate and human datasphere use",
+        "author": "Dan Simmons, reproduced in a SpaceBattles reference thread",
+        "url": "https://forums.spacebattles.com/threads/hyperion-cantos-feats-thread.1250597/page-2",
+        "kind": "primary_text",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed chapter-41 Ummon dialogue on farcasters and datasphere neurons read",
+        "read_scope": "Quoted chapter-41 dialogue locates the Core in farcaster singularities and describes using datasphere users’ neurons for computation.",
+        "limitations": "Bounded quoted primary dialogue, not a complete welfare census. Passive substrate use is not automatically an ongoing human behavioral occupation."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-fallhyperion-actual-ouster-swarm",
+        "title": "The Fall of Hyperion: the actual Ouster Swarm",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/wiki/The_Fall_of_Hyperion_(novel)",
+        "kind": "secondary_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed Ouster meeting, fabricated attacks and farcaster-network destruction paragraphs read",
+        "read_scope": "The Consul meets actual Ouster Swarm leaders; many apparent attacks are Core fabrications; destruction of the farcaster network disrupts the WorldWeb.",
+        "limitations": "Short plot reference; later Startree biospheres are not used as direct proof of earlier Ouster household rights."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-ilium-earlier-orbital-posthumans",
+        "title": "Ilium/Olympos: earlier orbital post-humans",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/wiki/Ilium/Olympos",
+        "kind": "secondary_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed post-humans, transformation and Caliban character paragraph read",
+        "read_scope": "The characters account describes former humans living in orbital rings before some were transformed into Olympian gods and others killed by Caliban; bodies were not always required.",
+        "limitations": "Bounded character summary, not a complete economic constitution. Only the earlier active period is modeled; slaughtered residents are not leisure persons."
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "hyperion-pre-fall-hegemony-zero",
+        "candidate_id": "c0254",
+        "name": "Hyperion (the pre-Fall Hegemony)",
+        "work": "Hyperion / The Fall of Hyperion",
+        "society": "Hyperion (the pre-Fall Hegemony)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published literary continuity and the stated historical period",
+          "period": "The functioning WorldWeb before destruction of the farcaster network",
+          "population": "Active living human Hegemony residents",
+          "human_population_proxy": false,
+          "exclusions": "Pax, later refugees and Core identities are separate; covert neural substrate use is not automatically a behavioral job.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Hegemony depends on extraordinary infrastructure supplied through its relationship with the TechnoCore. Farcasters and the datasphere help organize a highly developed human economy, yet that dependence does not establish equal secure necessities across all worlds. The guarantee best guess is mixed and conditional. The selected functioning WorldWeb period is distinct from the breakdown after network destruction and from the later Pax.\n\n Human political and commercial institutions receive control near the concentrated reference point, with strong hidden Core influence inside the interval. The moderate nonworking scenario allows technical substitution while counting useful production, administration, research, transport, care and creation. Covert use of a person’s neural substrate is not automatically classified as an active behavioral occupation; the scores track ongoing useful human activity rather than every involuntary physical process. This zero variant preserves retained work under advanced infrastructure. Farcaster access and the number of connected worlds are not a labor census, and post-Fall victims are not counted as leisure residents.",
+        "axis": {
+          "guarantees": 0.05,
+          "control": 0.08,
+          "nonworking": 0.4
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.9,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "Advanced network support permits a floor with equal ordinary coverage uncertain.",
+            "source_ids": [
+              "src-hyperion-core-reference",
+              "src-hyperion-quoted-core-substrate",
+              "src-fallhyperion-actual-ouster-swarm"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.7
+            ],
+            "confidence": "low",
+            "basis": "Human institutions coexist with hidden Core infrastructure leverage.",
+            "source_ids": [
+              "src-hyperion-core-reference",
+              "src-hyperion-quoted-core-substrate",
+              "src-fallhyperion-actual-ouster-swarm"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Useful behavior counts; involuntary substrate use and network scale are not participation.",
+            "source_ids": [
+              "src-hyperion-core-reference",
+              "src-hyperion-quoted-core-substrate",
+              "src-fallhyperion-actual-ouster-swarm"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-hyperion-core-reference",
+          "src-hyperion-quoted-core-substrate",
+          "src-fallhyperion-actual-ouster-swarm"
+        ],
+        "evidence": [
+          {
+            "claim": "Quoted dialogue locates the Core in farcasters and describes use of human datasphere neurons.",
+            "source_ids": [
+              "src-hyperion-core-reference",
+              "src-hyperion-quoted-core-substrate",
+              "src-fallhyperion-actual-ouster-swarm"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "The plot reference describes destruction of the farcaster network and WorldWeb disruption.",
+            "source_ids": [
+              "src-hyperion-core-reference",
+              "src-hyperion-quoted-core-substrate",
+              "src-fallhyperion-actual-ouster-swarm"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary material guarantees and participation are estimates for the functioning pre-Fall period.",
+          "Passive biological substrate use is distinguished from active ongoing human work."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar technically dependent human order as a period-bounded zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Quoted dialogue locates the Core in farcasters and describes use of human datasphere neurons.",
+          "The plot reference describes destruction of the farcaster network and WorldWeb disruption."
+        ],
+        "editorial_assumptions": [
+          "Ordinary material guarantees and participation are estimates for the functioning pre-Fall period.",
+          "Passive biological substrate use is distinguished from active ongoing human work."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0254",
+        "status": "needs_evidence",
+        "reason": "The Hegemony's high technology and relationship with the Core do not yet establish a uniform civilian allocation system.",
+        "source_ids": [
+          "src-hyperion-core-reference"
+        ],
+        "analysis": "Interstellar infrastructure and AI dependence do not resolve labor-independent necessities across the Hegemony worlds. Unhelpful search results are not evidence of absence.",
+        "follow_up": "Skip deeper reading; no import from later Pax institutions."
+      },
+      "after": {
+        "candidate_id": "c0254",
+        "status": "zero_variant",
+        "reason": "Retain the familiar technically dependent human order as a period-bounded zero variant.",
+        "source_ids": [
+          "src-hyperion-core-reference",
+          "src-hyperion-quoted-core-substrate",
+          "src-fallhyperion-actual-ouster-swarm"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "hyperion-pre-fall-hegemony-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "hyperion-active-technocore-zero",
+        "candidate_id": "c0255",
+        "name": "Hyperion (the active pre-Fall TechnoCore)",
+        "work": "Hyperion / The Fall of Hyperion",
+        "society": "Hyperion (the active pre-Fall TechnoCore)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published literary continuity and the stated historical period",
+          "period": "The active Core before the farcaster network is destroyed",
+          "population": "Active conscious Core AI identities",
+          "human_population_proxy": true,
+          "exclusions": "Stored data, farcaster endpoints and human host neurons are not automatically separate AI persons.",
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_synthetic_persons"
+        },
+        "description": "The TechnoCore consists of active artificial identities with their own factions and objectives. Its farcaster and datasphere arrangement supplies computational support, including exploitation of human neural resources. The material-floor best guess is moderately strong inside the active Core, qualified by conflict, infrastructure vulnerability and unequal control. Computation is a necessity for this person proxy, not proof of a human welfare program.\n\n Control is strongly independent of organic owners, while internal coercion and factional rivalry remain distinct from the human-versus-AI axis. This zero variant retains useful AI work rather than treating every active identity as leisured because humans provide part of its substrate. The modest nonworking scenario counts research, coordination, infrastructure operation, planning, maintenance and useful creation. A farcaster endpoint or stored file is not an additional resident. The broad bounds preserve unknown allocation among identities without deriving participation from processing power. The selected pre-Fall period does not import later forms of Core survival or average destroyed infrastructure into a leisure rate.",
+        "axis": {
+          "guarantees": -0.35,
+          "control": -0.95,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.99,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Substrate access supports active identities with vulnerability and factional limits.",
+            "source_ids": [
+              "src-hyperion-core-reference",
+              "src-hyperion-quoted-core-substrate"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.45
+            ],
+            "confidence": "low",
+            "basis": "Core agency is independent of organic owners; internal power is separate.",
+            "source_ids": [
+              "src-hyperion-core-reference",
+              "src-hyperion-quoted-core-substrate"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "Useful active AI work counts; processing power and files are not population statistics.",
+            "source_ids": [
+              "src-hyperion-core-reference",
+              "src-hyperion-quoted-core-substrate"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-hyperion-core-reference",
+          "src-hyperion-quoted-core-substrate"
+        ],
+        "evidence": [
+          {
+            "claim": "The references identify independent AI factions and the Core’s farcaster/datasphere substrate.",
+            "source_ids": [
+              "src-hyperion-core-reference",
+              "src-hyperion-quoted-core-substrate"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Only active conscious identities define the synthetic-person proxy.",
+          "Internal guarantees, hierarchy and participation remain estimates."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          5
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the active autonomous AI polity as a zero variant with an explicit synthetic-person denominator.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The references identify independent AI factions and the Core’s farcaster/datasphere substrate."
+        ],
+        "editorial_assumptions": [
+          "Only active conscious identities define the synthetic-person proxy.",
+          "Internal guarantees, hierarchy and participation remain estimates."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Participation by active conscious synthetic persons, not a literal human rate.",
+          "control": "Independence from organic owners; internal factions and coercion remain separate.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0255",
+        "status": "boundary_case",
+        "reason": "The TechnoCore is an AI polity, not by itself a defined human leisure population with a verified support arrangement.",
+        "source_ids": [
+          "src-hyperion-core-reference"
+        ],
+        "analysis": "Virtual AI activity, human cybrids and separate factions cannot be converted into a human nonworking denominator.",
+        "follow_up": "Keep as an AI-polity comparison."
+      },
+      "after": {
+        "candidate_id": "c0255",
+        "status": "zero_variant",
+        "reason": "Retain the active autonomous AI polity as a zero variant with an explicit synthetic-person denominator.",
+        "source_ids": [
+          "src-hyperion-core-reference",
+          "src-hyperion-quoted-core-substrate"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "hyperion-active-technocore-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "hyperion-fall-era-ouster-swarm",
+        "candidate_id": "c0256",
+        "name": "Hyperion (the Fall-era Ouster Swarm communities)",
+        "work": "The Fall of Hyperion",
+        "society": "Hyperion (the Fall-era Ouster Swarm communities)",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Named published literary continuity and the stated historical period",
+          "period": "The actual Ouster communities during the Hegemony conflict",
+          "population": "Active living human-derived Ouster residents",
+          "human_population_proxy": true,
+          "exclusions": "Core-made apparent Ouster attackers and later Startree institutions are separate; adaptation is not automatic leisure.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Consul encounters an actual Ouster Swarm, distinct from Core fabrications presented as Ouster attacks. The selected communities use a different space-adapted human material strategy from Hegemony infrastructure dependence. Their guarantee best guess allows a substantial habitat-support floor, while actual household rights and differences among communities remain uncertain. Later Startree biospheres are contextual evidence of the tradition, not imported as the earlier period’s fully documented institutions.\n\n Human-derived resident agency receives positive control weight, qualified by local leadership, survival coordination and technical dependence. Biological adaptation does not imply that residents are unrelated AI or need no useful activity. The moderate nonworking scenario permits routine substitution while counting habitat operation, research, cultivation, transport, care and public creation. Military roles remain work. The broad bounds preserve the short source’s limits without equating outsider propaganda with the actual population or turning space habitat scale into a labor percentage. This point ends within the stated conflict rather than a generalized later utopia.",
+        "axis": {
+          "guarantees": -0.3,
+          "control": 0.65,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.98,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Engineered community support permits a floor with local rights uncertain.",
+            "source_ids": [
+              "src-hyperion-startree-reference",
+              "src-fallhyperion-actual-ouster-swarm"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.5,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Human-derived resident agency is central with leadership and survival constraints.",
+            "source_ids": [
+              "src-hyperion-startree-reference",
+              "src-fallhyperion-actual-ouster-swarm"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Useful habitat and military roles count; adaptation and habitat scale are not participation.",
+            "source_ids": [
+              "src-hyperion-startree-reference",
+              "src-fallhyperion-actual-ouster-swarm"
+            ]
+          }
+        },
+        "regime_primary": 2,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-hyperion-startree-reference",
+          "src-fallhyperion-actual-ouster-swarm"
+        ],
+        "evidence": [
+          {
+            "claim": "The plot reference distinguishes the Consul’s actual Ouster Swarm meeting from Core-fabricated attacks.",
+            "source_ids": [
+              "src-hyperion-startree-reference",
+              "src-fallhyperion-actual-ouster-swarm"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Earlier Ouster material rights are estimates, not copied from later Startree biospheres.",
+          "Active human-derived residents are the population."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the actual Ouster alternative in a bounded earlier period.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The plot reference distinguishes the Consul’s actual Ouster Swarm meeting from Core-fabricated attacks."
+        ],
+        "editorial_assumptions": [
+          "Earlier Ouster material rights are estimates, not copied from later Startree biospheres.",
+          "Active human-derived residents are the population."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0256",
+        "status": "needs_evidence",
+        "reason": "Ouster/Templar environmental engineering does not resolve member access or the earlier Fall-era economic system.",
+        "source_ids": [
+          "src-hyperion-startree-reference"
+        ],
+        "analysis": "Engineered living space is relevant, but a later Startree description is not a uniform constitution for every earlier Ouster community.",
+        "follow_up": "Skip deeper chronology reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0256",
+        "status": "included",
+        "reason": "Retain the actual Ouster alternative in a bounded earlier period.",
+        "source_ids": [
+          "src-hyperion-startree-reference",
+          "src-fallhyperion-actual-ouster-swarm"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "hyperion-fall-era-ouster-swarm"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "endymion-pax-theocracy-zero",
+        "candidate_id": "c0257",
+        "name": "Endymion (the Pax’s conditional resurrection order)",
+        "work": "Endymion / The Rise of Endymion",
+        "society": "Endymion (the Pax’s conditional resurrection order)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published literary continuity and the stated historical period",
+          "period": "The functioning Pax before its later overthrow and religious transformation",
+          "population": "Active living human residents subject to Pax institutions",
+          "human_population_proxy": false,
+          "exclusions": "Resurrection rights are conditional benefits; people awaiting revival and later transformed societies are not leisure residents.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Pax combines Church government with controlled resurrection technology and continuing coercive institutions. Life restoration is an extraordinary technical benefit, but it does not automatically secure everyday food, housing, care or freedom from duties. The guarantee best guess is weak and conditional, especially across people with different relationships to Church authority. Wider productive automation is estimated from the inherited technical setting rather than inferred solely from immortality.\n\n Concentrated human religious and political authority places control near the elite reference point, with hidden technological dependencies inside the interval. The modest nonworking scenario counts production, administration, research, military assignments, maintenance, care and useful creation. Resurrection does not show that a person never works, and inactive or dead intervals are excluded. This zero variant retains the familiar technical-theocratic system with its conditional benefits explicit. It remains separate from the earlier Hegemony, surviving Core identities and the later outcome of resistance rather than averaging all four books into one uniform welfare society.",
+        "axis": {
+          "guarantees": 0.55,
+          "control": 0.02,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.75,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Conditional revival does not imply equal secure ordinary necessities.",
+            "source_ids": [
+              "src-rise-endymion-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.9,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Human theocratic authority concentrates control with hidden dependencies possible.",
+            "source_ids": [
+              "src-rise-endymion-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Useful and assigned roles remain; death and revival intervals are not participation.",
+            "source_ids": [
+              "src-rise-endymion-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-rise-endymion-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference describes Church government, conditional resurrection and resistance.",
+            "source_ids": [
+              "src-rise-endymion-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary productive automation and household support remain estimates.",
+          "The point excludes later transformed institutions and inactive residents."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar conditional-benefit theocracy as a period-bounded zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference describes Church government, conditional resurrection and resistance."
+        ],
+        "editorial_assumptions": [
+          "Ordinary productive automation and household support remain estimates.",
+          "The point excludes later transformed institutions and inactive residents."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0257",
+        "status": "needs_evidence",
+        "reason": "Pax resurrection and theocratic control do not establish automatic material necessities.",
+        "source_ids": [
+          "src-rise-endymion-reference"
+        ],
+        "analysis": "Conditional immortality and Core collaboration are separate from an actual labor-independent basic-goods system.",
+        "follow_up": "Skip deeper reading."
+      },
+      "after": {
+        "candidate_id": "c0257",
+        "status": "zero_variant",
+        "reason": "Retain the familiar conditional-benefit theocracy as a period-bounded zero variant.",
+        "source_ids": [
+          "src-rise-endymion-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "endymion-pax-theocracy-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "ilium-earlier-active-orbital-posthumans",
+        "candidate_id": "c0259",
+        "name": "Ilium/Olympos (the earlier active orbital post-humans)",
+        "work": "Ilium / Olympos",
+        "society": "Ilium/Olympos (the earlier active orbital post-humans)",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Named published literary continuity and the stated historical period",
+          "period": "The reconstructed active orbital period before transformation or slaughter",
+          "population": "Active human-derived post-human identities in the earlier rings",
+          "human_population_proxy": true,
+          "exclusions": "Those later killed, inactive records and apparent present-day orbital authority are not a current leisure population.",
+          "branch": null,
+          "player_configurable": false,
+          "projection_status": "Historical reconstruction of the earlier active orbital order, not a claim of surviving current residents"
+        },
+        "description": "The character account identifies enhanced former humans who lived in orbital rings before some were transformed into Olympian gods and others killed. The selected point reconstructs their earlier active technical society. The guarantee best guess is strong because unusual embodiment and advanced orbital support plausibly loosen dependence on ordinary wage work, while secure equal resource access remains uncertain. This is a historical reconstruction, not acceptance of the first book’s apparent current orbital rulers as a resolved final account.\n\n Human-derived agency receives modest positive control weight, with Prospero and other powerful technical actors inside the interval. The high nonworking scenario permits broad routine replacement while counting useful engineering, research, administration, maintenance, care and public creation. Lack of a conventional body does not make every activity private leisure. Later slaughter contributes no nonworkers. Broad bounds preserve the active-identity and ownership uncertainty without treating death, stored patterns or immortal appearance as an employment census. The record stays separate from old-style Earth humans and active moravecs.",
+        "axis": {
+          "guarantees": -0.65,
+          "control": 0.2,
+          "nonworking": 0.65
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.99,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Advanced earlier orbital support permits a strong but uncertain internal floor.",
+            "source_ids": [
+              "src-ilium-horton",
+              "src-ilium-olympos-reference",
+              "src-ilium-earlier-orbital-posthumans"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Human-derived agency coexists with powerful technical actors.",
+            "source_ids": [
+              "src-ilium-horton",
+              "src-ilium-olympos-reference",
+              "src-ilium-earlier-orbital-posthumans"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Useful active roles count; later deaths and absence of bodies are not participation.",
+            "source_ids": [
+              "src-ilium-horton",
+              "src-ilium-olympos-reference",
+              "src-ilium-earlier-orbital-posthumans"
+            ]
+          }
+        },
+        "regime_primary": 1,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-ilium-horton",
+          "src-ilium-olympos-reference",
+          "src-ilium-earlier-orbital-posthumans"
+        ],
+        "evidence": [
+          {
+            "claim": "The character account describes earlier orbital post-humans, their transformation and the killing of others.",
+            "source_ids": [
+              "src-ilium-horton",
+              "src-ilium-olympos-reference",
+              "src-ilium-earlier-orbital-posthumans"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Earlier ordinary access and participation are explicitly reconstructed.",
+          "No present ongoing orbital civilian population is inferred from later deaths."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain an explicitly historical active post-human model with later revelations and deaths separated.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The character account describes earlier orbital post-humans, their transformation and the killing of others."
+        ],
+        "editorial_assumptions": [
+          "Earlier ordinary access and participation are explicitly reconstructed.",
+          "No present ongoing orbital civilian population is inferred from later deaths."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0259",
+        "status": "needs_evidence",
+        "reason": "Apparent orbital posthuman life does not supply a verified ongoing population and access system in the short check.",
+        "source_ids": [
+          "src-ilium-horton",
+          "src-ilium-olympos-reference"
+        ],
+        "analysis": "The initial Earth belief about departed posthumans is not a resolved account of the orbital civilization. Absent or dead people cannot become a leisure rate.",
+        "follow_up": "Skip late-plot reconstruction rather than treating the initial premise as final fact."
+      },
+      "after": {
+        "candidate_id": "c0259",
+        "status": "included",
+        "reason": "Retain an explicitly historical active post-human model with later revelations and deaths separated.",
+        "source_ids": [
+          "src-ilium-horton",
+          "src-ilium-olympos-reference",
+          "src-ilium-earlier-orbital-posthumans"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "ilium-earlier-active-orbital-posthumans"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "olympos-active-moravec-order-zero",
+        "candidate_id": "c0260",
+        "name": "Ilium/Olympos (the active Moravec communities)",
+        "work": "Ilium / Olympos",
+        "society": "Ilium/Olympos (the active Moravec communities)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published literary continuity and the stated historical period",
+          "period": "The functioning biomechanical Moravec civilization during the published mission era",
+          "population": "Active conscious Moravec persons",
+          "human_population_proxy": true,
+          "exclusions": "Separate mission crews and ordinary machinery are not a complete civilian census; biological humans are a different population.",
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_synthetic_persons"
+        },
+        "description": "Moravecs are active biomechanical persons with their own civilization and activities. Technical bodies can reduce some human-style needs while still requiring energy, repair, resources and coordination. The guarantee best guess is moderately strong internally, but it is not an assumption that every resident has unlimited secure substrate or never performs useful work. Their material model is distinct from both Earth’s old-style humans and the earlier orbital post-humans.\n\n Control is largely independent of organic owners, while unknown internal hierarchy remains inside the interval. This zero variant counts research, exploration, mission duties, engineering, maintenance, care and useful public creation performed by active persons. Private reading is not automatically a job, but literary interest does not prove a person lacks all ongoing useful activity. The modest nonworking scenario permits routine substitution without replacing person participation with mechanical task counts. No body component, dormant record or extinct human becomes an extra leisure resident. The broad bounds preserve the limited ordinary allocation account.",
+        "axis": {
+          "guarantees": -0.35,
+          "control": -0.85,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.99,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Biomechanical support permits an internal floor with resource security uncertain.",
+            "source_ids": [
+              "src-ilium-olympos-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "Organic-owner independence is strong with internal hierarchy unknown.",
+            "source_ids": [
+              "src-ilium-olympos-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "Useful active missions and care count; private reading alone is not work.",
+            "source_ids": [
+              "src-ilium-olympos-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-ilium-olympos-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference identifies autonomous biomechanical moravecs as active persons.",
+            "source_ids": [
+              "src-ilium-olympos-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The active synthetic-person proxy excludes hardware components and dormant records.",
+          "Ordinary distribution and participation remain estimates."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          5
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the recognizable biomechanical civilization as an active-person zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference identifies autonomous biomechanical moravecs as active persons."
+        ],
+        "editorial_assumptions": [
+          "The active synthetic-person proxy excludes hardware components and dormant records.",
+          "Ordinary distribution and participation remain estimates."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Participation by active conscious synthetic persons, not a literal human rate.",
+          "control": "Independence from organic owners; internal factions and coercion remain separate.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0260",
+        "status": "boundary_case",
+        "reason": "Moravecs are active biomechanical persons, but their existence does not establish a post-work economic system or human denominator.",
+        "source_ids": [
+          "src-ilium-olympos-reference"
+        ],
+        "analysis": "Exploration and literary interests are useful activities, not proof of nonwork. No distinct applicable population proxy and distribution mechanism are established.",
+        "follow_up": "Keep as a machine-person comparison."
+      },
+      "after": {
+        "candidate_id": "c0260",
+        "status": "zero_variant",
+        "reason": "Retain the recognizable biomechanical civilization as an active-person zero variant.",
+        "source_ids": [
+          "src-ilium-olympos-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "olympos-active-moravec-order-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "computerconnection-extro-controlled-guess-zero",
+        "candidate_id": "c0261",
+        "name": "The Computer Connection (Extro’s controlled immortal interface)",
+        "work": "The Computer Connection",
+        "society": "The Computer Connection (Extro’s controlled immortal interface)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published literary continuity and the stated historical period",
+          "period": "The transient Extro/Sequoya Guess possession arrangement",
+          "population": "The single active human immortal interface, not every member of the Group",
+          "human_population_proxy": false,
+          "exclusions": "This is a temporary coercive technical unit, not a durable nationwide AI welfare government.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Extro’s seizure of an immortal creates a specific arrangement of technical power over a living human interface. The selected point is this narrow coercive unit rather than a claim that all immortals receive material support from an AI state. The guarantee best guess is weak: extraordinary survival does not secure food, housing, care or freedom from imposed purposes. Broader automated support remains a contextual estimate beyond the possession mechanism itself.\n\n Effective control gives strong weight to Extro while keeping resistance and human agency in the interval. The central nonworking scenario is zero for the scoped active controlled interface because imposed technical and operational duties count; coercion is not leisure. With one person, the alternative is a whole-person zero-or-one scenario rather than a fraction of time. The record is a deliberately limited zero variant, not an invented stable society. It retains the recognizable automation-and-control case with its temporary duration, uncertain material provision and narrow person denominator all explicit.",
+        "axis": {
+          "guarantees": 0.8,
+          "control": -0.95,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.7,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Immortality and possession do not establish secure ordinary access.",
+            "source_ids": [
+              "src-computer-connection-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.4
+            ],
+            "confidence": "low",
+            "basis": "Extro has strong practical control during the selected temporary arrangement.",
+            "source_ids": [
+              "src-computer-connection-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              1
+            ],
+            "confidence": "low",
+            "basis": "The single active controlled interface performs assigned functions centrally; alternatives are discrete.",
+            "source_ids": [
+              "src-computer-connection-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-computer-connection-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference identifies immortals, Sequoya Guess and Extro’s seizure of him.",
+            "source_ids": [
+              "src-computer-connection-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The temporary single-person technical unit is narrower than a whole society.",
+          "Ordinary support is contextual and not inferred from immortality alone."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the transient coercive technical case as an explicitly narrow zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference identifies immortals, Sequoya Guess and Extro’s seizure of him."
+        ],
+        "editorial_assumptions": [
+          "The temporary single-person technical unit is narrower than a whole society.",
+          "Ordinary support is contextual and not inferred from immortality alone."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0261",
+        "status": "needs_evidence",
+        "reason": "Extro’s possession of an immortal does not establish a durable material-support regime.",
+        "source_ids": [
+          "src-computer-connection-reference"
+        ],
+        "analysis": "The discovery phrase immortals under Extro conflates a conflict with an established civilian economy; the Group’s individual pursuits do not prove automated provision.",
+        "follow_up": "Skip deeper reading."
+      },
+      "after": {
+        "candidate_id": "c0261",
+        "status": "zero_variant",
+        "reason": "Retain the transient coercive technical case as an explicitly narrow zero variant.",
+        "source_ids": [
+          "src-computer-connection-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "computerconnection-extro-controlled-guess-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "jaggedorbit-automated-us-zero",
+        "candidate_id": "c0262",
+        "name": "The Jagged Orbit (the automated divided United States)",
+        "work": "The Jagged Orbit",
+        "society": "The Jagged Orbit (the automated divided United States)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published literary continuity and the stated historical period",
+          "period": "The functioning divided technical society during the published conflict",
+          "population": "Living active human residents of the depicted United States",
+          "human_population_proxy": false,
+          "exclusions": "Automated-system dependence is a theme, not proof of equal production access or a leisure census.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Dependence on automated systems is a recognized feature of the novel’s future United States. The guarantee best guess is weak because technical coordination can coexist with division, coercion and unequal ordinary security. General material substitution is a contextual estimate rather than a complete factory-by-factory claim from the short source. The record is therefore a zero variant, not an assertion of universal labor-independent provision.\n\n Human institutions and concentrated commercial or political powers receive control near the elite reference point, with machine dependence inside the interval. Reliance on automatic systems does not itself make an independent AI the owner of every productive resource. The low nonworking scenario counts production, services, administration, security, repair, care and useful creation. Social separation and automated transactions are not population participation statistics. Broad bounds preserve the source’s thematic limits while retaining the recognizable technical dystopia; adjacent works in the survey do not contribute fictional welfare or ownership details to this one.",
+        "axis": {
+          "guarantees": 0.85,
+          "control": 0.1,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.6,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Automated dependence does not remove unequal ordinary security.",
+            "source_ids": [
+              "src-jagged-automation-chandler"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.85,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Human institutional concentration coexists with machine dependence.",
+            "source_ids": [
+              "src-jagged-automation-chandler"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Useful roles remain; thematic automation is not a labor census.",
+            "source_ids": [
+              "src-jagged-automation-chandler"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-jagged-automation-chandler"
+        ],
+        "evidence": [
+          {
+            "claim": "The survey identifies dependence on automated systems as a theme of The Jagged Orbit.",
+            "source_ids": [
+              "src-jagged-automation-chandler"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Broad material provision, concentration and participation are contextual estimates.",
+          "Other novels in the survey are not used to supply this setting’s facts."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar automated-system dystopia with thematic-source limits explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The survey identifies dependence on automated systems as a theme of The Jagged Orbit."
+        ],
+        "editorial_assumptions": [
+          "Broad material provision, concentration and participation are contextual estimates.",
+          "Other novels in the survey are not used to supply this setting’s facts."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0262",
+        "status": "needs_evidence",
+        "reason": "Automated-system dependence is verified as a theme, but actual production and allocation remain unclear.",
+        "source_ids": [
+          "src-jagged-automation-chandler"
+        ],
+        "analysis": "Alienation, segregation and computing do not by themselves establish labor-independent necessities or deliberate retention of dispensable work.",
+        "follow_up": "Skip deeper reading; an inaccessible SF Reviews page was not recovered through another route."
+      },
+      "after": {
+        "candidate_id": "c0262",
+        "status": "zero_variant",
+        "reason": "Retain the familiar automated-system dystopia with thematic-source limits explicit.",
+        "source_ids": [
+          "src-jagged-automation-chandler"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "jaggedorbit-automated-us-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "zanzibar-shalmaneser-corporate-work-zero",
+        "candidate_id": "c0263",
+        "name": "Stand on Zanzibar (Shalmaneser’s corporate work system)",
+        "work": "Stand on Zanzibar",
+        "society": "Stand on Zanzibar (Shalmaneser’s corporate work system)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published literary continuity and the stated historical period",
+          "period": "The functioning computer-assisted corporate institution",
+          "population": "Living human staff in the scoped corporate work system",
+          "human_population_proxy": false,
+          "exclusions": "The supercomputer is an analytical support/control mechanism, not proof of nationwide automated free necessities.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Shalmaneser supports a powerful corporation’s analysis and decisions. The selected point is the ongoing corporate work institution, rather than a claim that the whole future population enjoys machine-funded leisure. The guarantee best guess remains weak and conditional because corporate prosperity can coexist with employment dependence and unequal access. Automation of analysis is a limited direct mechanism; wider material production is an explicit contextual estimate.\n\n Human owners and managers receive control near the concentrated reference point, with substantial computer influence inside the interval. A capable supercomputer does not automatically become the independent owner of the firm. The central nonworking scenario is zero for the active staff cohort because analysis, administration, production coordination, services, maintenance and other assigned useful activity count. Better decisions do not by themselves remove whole people from participation. This zero variant preserves a recognizable computational management arrangement with its narrow population explicit, without turning corporate success or processing capacity into a universal welfare entitlement or labor census.",
+        "axis": {
+          "guarantees": 0.65,
+          "control": 0.05,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.65,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Corporate prosperity does not establish unconditional staff necessities.",
+            "source_ids": [
+              "src-zanzibar-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.8,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "Human corporate power coexists with powerful analytic computer influence.",
+            "source_ids": [
+              "src-zanzibar-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "The active staff cohort performs useful assigned roles centrally.",
+            "source_ids": [
+              "src-zanzibar-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-zanzibar-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference describes corporate prosperity aided by Shalmaneser’s supercomputer analysis.",
+            "source_ids": [
+              "src-zanzibar-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The corporate staff cohort is narrower than the national population.",
+          "Material production beyond analysis and benefit coverage remain estimates."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the recognizable computer-assisted work institution as a narrow zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference describes corporate prosperity aided by Shalmaneser’s supercomputer analysis."
+        ],
+        "editorial_assumptions": [
+          "The corporate staff cohort is narrower than the national population.",
+          "Material production beyond analysis and benefit coverage remain estimates."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0263",
+        "status": "boundary_case",
+        "reason": "Shalmaneser assists corporate power without a verified post-work distribution mechanism.",
+        "source_ids": [
+          "src-zanzibar-reference"
+        ],
+        "analysis": "Planning and information processing are not equivalent to automatic production and common access.",
+        "follow_up": "Keep as an AI-assisted corporate-economy comparison."
+      },
+      "after": {
+        "candidate_id": "c0263",
+        "status": "zero_variant",
+        "reason": "Retain the recognizable computer-assisted work institution as a narrow zero variant.",
+        "source_ids": [
+          "src-zanzibar-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "zanzibar-shalmaneser-corporate-work-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "shockwaverider-preworm-network-zero",
+        "candidate_id": "c0264",
+        "name": "The Shockwave Rider (the pre-worm network order)",
+        "work": "The Shockwave Rider",
+        "society": "The Shockwave Rider (the pre-worm network order)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published literary continuity and the stated historical period",
+          "period": "The functioning unequal national network before the transformative phage",
+          "population": "Living human residents in the pre-worm national order",
+          "human_population_proxy": false,
+          "exclusions": "Precipice’s distinct shared work and closing proposals are separate; stipends are not automatically automation-funded.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The pre-worm order combines unequal information power, inadequate services and technological dependence. Handouts and network access do not necessarily give residents secure necessities or control over the systems they rely on. The guarantee best guess is weak and conditional, with broader automated material production treated as a contextual extension beyond the information-network mechanism. This is a zero variant because useful work and coercive dependence remain central.\n\n Human government and commercial authority place control near the concentrated reference point, with institutional and software constraints in the interval. The low nonworking scenario counts ordinary production, services, programming, administration, repair, care and useful creation. People receiving payments may still do useful work; the existence of a stipend is not a participation census. The record does not borrow Precipice’s cooperative institutions or treat paid technology avoidance as full automated abundance. It ends before the closing redistribution proposals and preserves the difference between the existing unequal system and the future being voted on.",
+        "axis": {
+          "guarantees": 0.7,
+          "control": 0.1,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.65,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Inadequate services and unequal information power imply weak secure access.",
+            "source_ids": [
+              "src-shockwave-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.8,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Human institutional authority is concentrated with software dependence.",
+            "source_ids": [
+              "src-shockwave-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Useful paid and unpaid activity counts; stipends are not nonparticipation.",
+            "source_ids": [
+              "src-shockwave-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-shockwave-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference describes unequal information power, inadequate services and a distinct working Precipice community.",
+            "source_ids": [
+              "src-shockwave-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "National material automation and participation are contextual estimates.",
+          "Precipice and closing proposals are not imported as present national institutions."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the existing technical network order as a zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference describes unequal information power, inadequate services and a distinct working Precipice community."
+        ],
+        "editorial_assumptions": [
+          "National material automation and participation are contextual estimates.",
+          "Precipice and closing proposals are not imported as present national institutions."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0264",
+        "status": "boundary_case",
+        "reason": "Information networks, government handouts and Precipice’s shared human work do not establish an automated support economy.",
+        "source_ids": [
+          "src-shockwave-reference"
+        ],
+        "analysis": "Paid-avoidance compensation follows infrastructure withdrawal; the identifiable alternative enclave still practices agrarian and cottage-industry work.",
+        "follow_up": "Keep as an information-power and community comparison."
+      },
+      "after": {
+        "candidate_id": "c0264",
+        "status": "zero_variant",
+        "reason": "Retain the existing technical network order as a zero variant.",
+        "source_ids": [
+          "src-shockwave-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "shockwaverider-preworm-network-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "shockwaverider-projected-open-order",
+        "candidate_id": "c0265",
+        "name": "The Shockwave Rider (the projected open-network settlement)",
+        "work": "The Shockwave Rider",
+        "society": "The Shockwave Rider (the projected open-network settlement)",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Named published literary continuity and the stated historical period",
+          "period": "The functioning settlement implied by the closing redistributive proposals",
+          "population": "Living human residents in the explicitly modeled successor order",
+          "human_population_proxy": false,
+          "exclusions": "Closing proposals and a vote are not asserted as a verified durable final constitution.",
+          "branch": null,
+          "player_configurable": false,
+          "projection_status": "Projected functioning settlement implied by closing proposals, not a verified durable completed regime"
+        },
+        "description": "The ending offers a different relationship between network power, public accountability and distribution. The selected point models the proposed successor’s material consequences rather than declaring its durability already established. A stronger guarantee best guess reflects potential redistributive access and reduced information exclusion, but actual automated production and household coverage remain uncertain. Opening a network does not itself fabricate food or housing.\n\n Shared human control receives strong positive weight because the proposal changes who can inspect and influence institutions. Software enforcement can still constrain residents, so the interval preserves more concentrated alternatives. The moderate nonworking scenario permits routine substitution while counting cultivation, services, maintenance, administration, care and useful creation. Cooperative contribution remains work, as Precipice’s example makes clear. The point is explicitly projected: a vote, intention or successful worm is not an employment census. Broad bounds retain the recognizable imagined alternative without presenting an unshown stable national economy as finished canon.",
+        "axis": {
+          "guarantees": -0.5,
+          "control": 0.8,
+          "nonworking": 0.45
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.99,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Redistribution permits a stronger projected floor with actual production uncertain.",
+            "source_ids": [
+              "src-shockwave-reference",
+              "src-shockwave-ending-reader"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.7,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Open accountability could spread human agency with procedural constraints possible.",
+            "source_ids": [
+              "src-shockwave-reference",
+              "src-shockwave-ending-reader"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "Useful cooperative activity remains work; a proposal and vote are not participation.",
+            "source_ids": [
+              "src-shockwave-reference",
+              "src-shockwave-ending-reader"
+            ]
+          }
+        },
+        "regime_primary": 2,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-shockwave-reference",
+          "src-shockwave-ending-reader"
+        ],
+        "evidence": [
+          {
+            "claim": "The sources distinguish the working Precipice community from closing redistributive proposals presented for a vote.",
+            "source_ids": [
+              "src-shockwave-reference",
+              "src-shockwave-ending-reader"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The durable successor settlement and its material support are explicit projections.",
+          "Network openness is not assumed to create all physical necessities."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the recognizable proposed alternative with unrealized material rules explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The sources distinguish the working Precipice community from closing redistributive proposals presented for a vote."
+        ],
+        "editorial_assumptions": [
+          "The durable successor settlement and its material support are explicit projections.",
+          "Network openness is not assumed to create all physical necessities."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0265",
+        "status": "needs_evidence",
+        "reason": "The short ending account presents redistributive proposals and a vote rather than a verified durable post-worm economy.",
+        "source_ids": [
+          "src-shockwave-reference",
+          "src-shockwave-ending-reader"
+        ],
+        "analysis": "Open information and proposed wage/distribution rules do not establish an already functioning labor-independent arrangement.",
+        "follow_up": "Skip ending reconstruction; do not score a referendum’s proposed outcome as enacted."
+      },
+      "after": {
+        "candidate_id": "c0265",
+        "status": "included",
+        "reason": "Retain the recognizable proposed alternative with unrealized material rules explicit.",
+        "source_ids": [
+          "src-shockwave-reference",
+          "src-shockwave-ending-reader"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "shockwaverider-projected-open-order"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "sheeplookup-technical-collapse-zero",
+        "candidate_id": "c0266",
+        "name": "The Sheep Look Up (the collapsing technical consumer order)",
+        "work": "The Sheep Look Up",
+        "society": "The Sheep Look Up (the collapsing technical consumer order)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published literary continuity and the stated historical period",
+          "period": "The functioning consumer order during ecological and institutional breakdown",
+          "population": "Living human residents in the depicted collapsing society",
+          "human_population_proxy": false,
+          "exclusions": "Environmental deaths and unmet needs are not leisure; consumer technology alone is not verified universal labor replacement.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The consumer order combines extensive technical mediation with pollution and institutional breakdown. The guarantee best guess is almost absent because material availability means little when safe food, water, health and dependable institutions fail. Wider automated production remains a contextual estimate, explicitly weaker than the evidence for environmental insecurity. This is a zero variant showing how technical capacity can coexist with continued work and collapsing access.\n\n Human commercial and political powers receive control near the concentrated reference point, with fragmented local agency inside the interval. Breakdown is not evidence that an autonomous AI has become the productive owner. The low nonworking scenario counts production, services, repair, response work, administration, care and useful creation. Unemployment and incapacity are not automatically lack of every useful contribution; deaths are excluded entirely. Broad bounds preserve changing local conditions without converting catastrophe into a rising leisure rate or importing the institutions of another Brunner novel. The record retains the familiar ecological consumer dystopia with its limited automation qualification visible.",
+        "axis": {
+          "guarantees": 0.98,
+          "control": 0.05,
+          "nonworking": 0.15
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.6,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Ecological and institutional failure creates extremely weak secure necessities.",
+            "source_ids": [
+              "src-sheep-look-up-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.7
+            ],
+            "confidence": "low",
+            "basis": "Human commercial/political powers dominate with local fragmentation.",
+            "source_ids": [
+              "src-sheep-look-up-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Useful response and caring work count; deaths and collapse are not leisure.",
+            "source_ids": [
+              "src-sheep-look-up-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-sheep-look-up-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference describes pollution, consumerism and institutional breakdown.",
+            "source_ids": [
+              "src-sheep-look-up-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "General automated production is a contextual estimate with limited direct evidence.",
+          "The active living cohort excludes deaths and does not use unemployment as a full participation census."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar collapsing technical consumer order as a strongly qualified zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference describes pollution, consumerism and institutional breakdown."
+        ],
+        "editorial_assumptions": [
+          "General automated production is a contextual estimate with limited direct evidence.",
+          "The active living cohort excludes deaths and does not use unemployment as a full participation census."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0266",
+        "status": "boundary_case",
+        "reason": "Environmental consumer collapse does not itself meet the automated-production admission rule.",
+        "source_ids": [
+          "src-sheep-look-up-reference"
+        ],
+        "analysis": "Scarcity, pollution and corporate malfeasance cannot substitute for a demonstrated post-work or job-preservation mechanism.",
+        "follow_up": "Keep as an ecological-consumer comparison."
+      },
+      "after": {
+        "candidate_id": "c0266",
+        "status": "zero_variant",
+        "reason": "Retain the familiar collapsing technical consumer order as a strongly qualified zero variant.",
+        "source_ids": [
+          "src-sheep-look-up-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "sheeplookup-technical-collapse-zero"
+      }
+    }
+  ]
+}

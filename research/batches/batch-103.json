@@ -1,0 +1,537 @@
+{
+  "batch_id": "batch-103",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0913",
+    "c0914",
+    "c0915",
+    "c0916",
+    "c0917",
+    "c0918",
+    "c0919",
+    "c0920"
+  ],
+  "sources": [
+    {
+      "id": "src-b103-logan-book",
+      "title": "Logan’s Run",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Logan%27s_Run",
+      "kind": "secondary_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Original novel has a twenty-one-year death rule and a computer maintaining global infrastructure.",
+      "limitations": "The food-processor and thirty-year material in this combined article describes the film; it is not novel evidence."
+    },
+    {
+      "id": "src-b103-logan-tv",
+      "title": "Logan’s Run television series",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Logan%27s_Run_(TV_series)",
+      "kind": "secondary_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "The television city is secretly governed by older human citizens, unlike the film, and has a thirty-year rule.",
+      "limitations": "Distinct authority is established, but actual household production/access still requires TV-specific evidence; recycled footage is not a complete economic charter."
+    },
+    {
+      "id": "src-b103-baku-words",
+      "title": "Star Trek: Insurrection — Sojef dialogue",
+      "author": "IMDb contributors transcribing film dialogue",
+      "url": "https://www.imdb.com/title/tt0120844/quotes?item=qt5534144",
+      "kind": "community_quote_of_primary",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Sojef explicitly explains the choice not to use labor-saving machines in daily life.",
+      "limitations": "Short dialogue transcription only, corroborated by the film summary; no unsupported egalitarian property or entitlement charter."
+    },
+    {
+      "id": "src-b103-baku-film",
+      "title": "Star Trek: Insurrection",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Insurrection",
+      "kind": "secondary_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Technically advanced Ba’ku deliberately live simply; exile and later threatened displacement qualify the village scope.",
+      "limitations": "The planet’s natural rejuvenation is not itself automated provision; the Son’a are a different population."
+    },
+    {
+      "id": "src-b103-gary",
+      "title": "Gary Goodspeed",
+      "author": "Final Space Wiki contributors",
+      "url": "https://final-space.fandom.com/wiki/Gary_Goodspeed",
+      "kind": "secondary_lore",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Gary serves five years repairing satellites aboard Galaxy One with machine companions.",
+      "limitations": "Corrects the queued Infinity name to Galaxy One. Actual penal maintenance is work, and later lack of proper food is not the initial provision system."
+    },
+    {
+      "id": "src-b103-dwarf-machines",
+      "title": "Vending Machine",
+      "author": "Tongue Tied / Red Dwarf Wiki contributors",
+      "url": "https://reddwarf.fandom.com/wiki/Vending_Machine",
+      "kind": "secondary_lore",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "TV dispensers prepare/deliver goods from cargo/stasis stores through automated tubes; access requires credits or Holly’s permission. Queeg temporarily blocks it.",
+      "limitations": "This is long-term stored-input processing/service, not limitless matter creation; novel details and later series changes are not merged."
+    },
+    {
+      "id": "src-b103-dwarf-crew",
+      "title": "The Crew",
+      "author": "Red Dwarf official website",
+      "url": "https://reddwarf.co.uk/about/the-crew",
+      "kind": "official_series_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Lister returns alive after stasis; Rimmer is an active computer-powered human-derived hologram; Holly operates the ship and Queeg is a prank identity.",
+      "limitations": "Only early aboard-Red-Dwarf scope is used; Cat is feline-derived and machines are not counted as humans. Holly’s later failures and other ships are separate periods."
+    },
+    {
+      "id": "src-b103-exocolony",
+      "title": "Job Events",
+      "author": "I Was a Teenage Exocolonist Wiki contributors",
+      "url": "https://exocolonist.fandom.com/wiki/Job_Events",
+      "kind": "secondary_game_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Colonists and children do actual farming, compost work, repair, care, construction and research alongside technology.",
+      "limitations": "A player’s job menu and robot repair do not establish automated ordinary production or a labor-independent material floor."
+    },
+    {
+      "id": "src-b103-stardweller",
+      "title": "Sufficiently Advanced first edition, indexed Stardweller/economy and technology passages",
+      "author": "Colin Fredericks; rulebook text indexed at Scribd",
+      "url": "https://www.scribd.com/doc/217741950/Sufficiently-Advanced-Ultra-Tech-RPG",
+      "kind": "indexed_rulebook_excerpt",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Stardwellers ensure basics for all; replicators/transmutation underpin production, and peer esteem differs from material poverty.",
+      "limitations": "Only bounded indexed first-edition passages used. The second-edition alternate setting uses Stardwellers more broadly and is not imported."
+    },
+    {
+      "id": "src-b103-stardweller-quote",
+      "title": "FATAL & Friends — first-edition economy quotation",
+      "author": "Something Awful participants quoting Sufficiently Advanced",
+      "url": "https://forums.somethingawful.com/showthread.php?noseen=0&pagenumber=878&perpage=40&threadid=3758962",
+      "kind": "community_quote_of_rulebook",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Quotation explicitly separates secure Stardweller basics from social/emotional exclusion and esteem.",
+      "limitations": "Forum interpretation and political argument are not adopted as canon; no exact all-age labor statistic."
+    },
+    {
+      "id": "src-b103-tao",
+      "title": "Sufficiently Advanced — review",
+      "author": "RPGnet reviewer",
+      "url": "https://www.rpg.net/reviews/archive/13/13780.phtml",
+      "kind": "secondary_review",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "The Tao’s citizens inhabit historical recreations and provide entertainment rather than merely visiting as avatars.",
+      "limitations": "A sample reviewer character is not canon, and maintained historical style is not a verified common material entitlement."
+    },
+    {
+      "id": "src-b103-tao-primary",
+      "title": "Sufficiently Advanced first edition, indexed Tao section",
+      "author": "Colin Fredericks; rulebook text indexed at Scribd",
+      "url": "https://www.scribd.com/doc/217741950/Sufficiently-Advanced-Ultra-Tech-RPG",
+      "kind": "indexed_rulebook_excerpt",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Recreated societies have real generations, mostly nonsentient robot slaves where appropriate, variable local rule and controlled staged conflict.",
+      "limitations": "Not all historical occupations are fake or robotic; the bounded section does not establish one ordinary household access rule across all milieus."
+    }
+  ],
+  "societies": [
+    {
+      "id": "trek-baku-chosen-handwork",
+      "candidate_id": "c0915",
+      "name": "Star Trek — The Ba’ku’s chosen handwork",
+      "work": "Star Trek: Insurrection",
+      "society": "Technically capable village deliberately avoiding daily labor-saving machines",
+      "media": [
+        "movie"
+      ],
+      "record_type": "zero_variant",
+      "scope": {
+        "continuity": "Insurrection film continuity",
+        "period": "The established village before the attempted forced relocation",
+        "population": "Living Ba’ku villagers, explicitly a humanoid alien population analogy",
+        "human_population_proxy": true,
+        "exclusions": [
+          "The Son’a’s separate industrial society",
+          "Natural rejuvenation as a production machine",
+          "A detailed communal property/benefits system not established by the film"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "The Ba’ku know advanced technology but deliberately avoid using it in everyday life. Sojef explicitly connects this choice with preserving the value of a person’s own work when machines could do it instead. This gives a direct zero-variant rationale grounded in an actual technological alternative and a stated social choice. The planet’s rejuvenating environment is separate: long life is not the productive automation mechanism.\n\nThe available short references do not establish how food, housing and care are guaranteed, or who finally owns village productive resources, so those coordinates remain unresolved. A shared-community analogy is only a provisional regime comparison, not a claim of equal ownership. The village can exile dissidents, and external relocation threatens its way of life; peaceful appearances are not an unconditional rights charter. Ba’ku are explicitly treated as humanoid aliens for the human-oriented axes. Farming, craft, teaching and care remain useful work, and the selected rejection of labor-saving machines does not establish an all-age nonworking percentage.",
+      "axis": {
+        "guarantees": null,
+        "control": null,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "The film dialogue explicitly chooses retained humanlike work over labor-saving machines, but ordinary guarantee institutions are not specified.",
+          "source_ids": [
+            "src-b103-baku-words",
+            "src-b103-baku-film"
+          ]
+        },
+        "control": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Village property and final productive authority are not established; the shared-community regime analogy remains provisional.",
+          "source_ids": [
+            "src-b103-baku-words",
+            "src-b103-baku-film"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Ba’ku are a disclosed humanoid alien proxy. Actual handwork, teaching and care continue and no all-age participation census is supplied.",
+          "source_ids": [
+            "src-b103-baku-words",
+            "src-b103-baku-film"
+          ]
+        }
+      },
+      "regime_primary": 0,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b103-baku-words",
+        "src-b103-baku-film"
+      ],
+      "evidence": [
+        {
+          "claim": "The film dialogue explicitly chooses retained humanlike work over labor-saving machines, but ordinary guarantee institutions are not specified.",
+          "source_ids": [
+            "src-b103-baku-words",
+            "src-b103-baku-film"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "Village property and final productive authority are not established; the shared-community regime analogy remains provisional.",
+        "Ba’ku are a disclosed humanoid alien proxy. Actual handwork, teaching and care continue and no all-age participation census is supplied."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      },
+      "regime_analogy": [
+        2
+      ]
+    },
+    {
+      "id": "red-dwarf-early-survivor-provision",
+      "candidate_id": "c0917",
+      "name": "Red Dwarf — The early survivor household",
+      "work": "Red Dwarf",
+      "society": "Long-term machine-supported life aboard the original ship after Lister awakens",
+      "media": [
+        "tv"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Television series I–II aboard Red Dwarf; no novel continuity",
+        "period": "Established post-awakening ship life, excluding the temporary Queeg access restriction",
+        "population": "Living Dave Lister and active human-derived holographic Arnold Rimmer, a disclosed tiny population proxy",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Dead crew and Lister’s earlier stasis as active leisure",
+          "Feline-derived Cat or original machine minds as humans",
+          "Starbug, revived crew, later alternate Kochanski and later ship states",
+          "Stored input stocks as infinite fabrication"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "After Lister awakens, the ship’s automated service network continues supplying daily food, drink and habitat support without an ordinary outside wage economy. Dispensers process and deliver from large cargo and stasis stores rather than creating unlimited matter. Rimmer’s active holographic life is also sustained by the computer. The favorable guarantee estimate applies to this tiny continuing household, qualified by equipment faults, stored-input limits and permission-dependent access.\n\nHolly operates the sustaining ship systems, while individual dispensers also have independent AI. Human requests do not establish final ownership; the computer’s Queeg prank demonstrates that access can temporarily be withheld. Control consequently leans toward autonomous machine provision, with uncertainty about human clearances and inherited company rules. Lister is living, and active human-derived Rimmer is the explicit posthuman proxy; Cat, machine minds and dead crew are excluded. Repair, navigation, problem-solving and care remain useful activities. Their small number and frequent leisure cannot be converted into a population nonworking percentage or confused with time spent resting.",
+      "axis": {
+        "guarantees": -0.45,
+        "control": -0.75,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.8,
+            0.4
+          ],
+          "confidence": "low",
+          "basis": "Automated stored-input services and computer-maintained habitation/holography support actual continuing residents, qualified by permissions, faults and finite stocks.",
+          "source_ids": [
+            "src-b103-dwarf-machines",
+            "src-b103-dwarf-crew"
+          ]
+        },
+        "control": {
+          "interval": [
+            -1,
+            0.05
+          ],
+          "confidence": "low",
+          "basis": "Holly and independent dispenser AIs retain operational/access power; Queeg is Holly’s temporary prank, not a separate sovereign or society.",
+          "source_ids": [
+            "src-b103-dwarf-machines",
+            "src-b103-dwarf-crew"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Only living Lister and active human-derived Rimmer form the disclosed tiny proxy. Useful technical and care activity continues; leisure time is not a population fraction.",
+          "source_ids": [
+            "src-b103-dwarf-machines",
+            "src-b103-dwarf-crew"
+          ]
+        }
+      },
+      "regime_primary": 5,
+      "regime_alternatives": [
+        1
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-b103-dwarf-machines",
+        "src-b103-dwarf-crew"
+      ],
+      "evidence": [
+        {
+          "claim": "Automated stored-input services and computer-maintained habitation/holography support actual continuing residents, qualified by permissions, faults and finite stocks.",
+          "source_ids": [
+            "src-b103-dwarf-machines",
+            "src-b103-dwarf-crew"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "Holly and independent dispenser AIs retain operational/access power; Queeg is Holly’s temporary prank, not a separate sovereign or society.",
+        "Only living Lister and active human-derived Rimmer form the disclosed tiny proxy. Useful technical and care activity continues; leisure time is not a population fraction."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "suffadv-first-edition-stardweller-basics",
+      "candidate_id": "c0919",
+      "name": "Sufficiently Advanced — Stardweller basics",
+      "work": "Sufficiently Advanced",
+      "society": "First-edition Stardwellers’ equalizing material floor",
+      "media": [
+        "tabletop"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "First-edition Stardweller civilization; later alternate-setting catch-all excluded",
+        "period": "Established ordinary first-edition civilization",
+        "population": "Living humans and active human-derived Stardweller persons",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Every artificial citizen as human-derived",
+          "Second-edition alternate-setting worlds as identical",
+          "Social lack of recognition as automatic loss of food"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "First-edition Stardweller society makes the basics of life available to everyone and organizes its economy to reduce material inequality. Replicator and transmutation technology supplies the productive context. Peer recognition matters strongly, but the economic passage explicitly distinguishes social and emotional frustration from material deprivation. Guarantees therefore receive a strong favorable estimate, with ordinary resource conditions and the limited excerpt preventing a perfect entitlement claim.\n\nThe short gathered passages do not establish who holds final productive ownership and override authority throughout this diverse civilization. Control remains unresolved rather than equating an equalizing economy with complete distributed human ownership or treating advanced digital residents as an AI state. The guaranteed-provider regime is provisional, with a distributed alternative left open. Humans and active human-derived persons are an explicit proxy within a broader population. Science, design, teaching, care and esteem-seeking contributions remain useful work. Secure basics and a preference for recognition over money do not determine how many people perform none of those activities.",
+      "axis": {
+        "guarantees": -0.85,
+        "control": null,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -1,
+            -0.5
+          ],
+          "confidence": "low",
+          "basis": "The first-edition passage explicitly ensures basics for everyone within the replicator/transmutation economy and distinguishes esteem problems from material poverty.",
+          "source_ids": [
+            "src-b103-stardweller",
+            "src-b103-stardweller-quote"
+          ]
+        },
+        "control": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Equalization and advanced citizens do not establish final ownership/override institutions; neither shared human control nor machine sovereignty is assumed numerically.",
+          "source_ids": [
+            "src-b103-stardweller",
+            "src-b103-stardweller-quote"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Useful science, design, teaching and care continue; active human-derived persons are a disclosed proxy and no all-person work census is given.",
+          "source_ids": [
+            "src-b103-stardweller",
+            "src-b103-stardweller-quote"
+          ]
+        }
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [
+        2
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-b103-stardweller",
+        "src-b103-stardweller-quote"
+      ],
+      "evidence": [
+        {
+          "claim": "The first-edition passage explicitly ensures basics for everyone within the replicator/transmutation economy and distinguishes esteem problems from material poverty.",
+          "source_ids": [
+            "src-b103-stardweller",
+            "src-b103-stardweller-quote"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "Equalization and advanced citizens do not establish final ownership/override institutions; neither shared human control nor machine sovereignty is assumed numerically.",
+        "Useful science, design, teaching and care continue; active human-derived persons are a disclosed proxy and no all-person work census is given."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0913",
+      "status": "needs_evidence",
+      "reason": "The original novel’s daily material mechanism is not established in the short summary.",
+      "source_ids": [
+        "src-b103-logan-book"
+      ],
+      "analysis": "Global computer control and an earlier death threshold are clear, but the film’s food processor and pleasure-city provision cannot be transferred to the book.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0914",
+      "status": "needs_evidence",
+      "reason": "Television-specific human rule is established, but actual household supply remains unclear.",
+      "source_ids": [
+        "src-b103-logan-tv"
+      ],
+      "analysis": "The elder cabal differs materially from the film’s authority. A shared visual premise and recycled footage alone do not prove the whole supply/access system.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0915",
+      "status": "zero_variant",
+      "reason": "The bounded references establish the stated technological arrangement and its scoped admission rationale.",
+      "source_ids": [
+        "src-b103-baku-words",
+        "src-b103-baku-film"
+      ],
+      "society_id": "trek-baku-chosen-handwork"
+    },
+    {
+      "candidate_id": "c0916",
+      "status": "needs_evidence",
+      "reason": "Five years of actual satellite repair do not establish a post-work or deliberate make-work regime.",
+      "source_ids": [
+        "src-b103-gary"
+      ],
+      "analysis": "The queued Infinity label is corrected to Galaxy One. Machine companions and a prisoner’s food do not by themselves show autonomous production or replaceable work deliberately retained.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0917",
+      "status": "included",
+      "reason": "The bounded references establish the stated technological arrangement and its scoped admission rationale.",
+      "source_ids": [
+        "src-b103-dwarf-machines",
+        "src-b103-dwarf-crew"
+      ],
+      "society_id": "red-dwarf-early-survivor-provision"
+    },
+    {
+      "candidate_id": "c0918",
+      "status": "needs_evidence",
+      "reason": "The colony’s technology and shared activity do not establish the required labor-replacement mechanism.",
+      "source_ids": [
+        "src-b103-exocolony"
+      ],
+      "analysis": "Actual farming, compost work, care and construction remain prominent. Do not treat a robot-repair option or shared colonial life as proof that work no longer allocates necessities.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0919",
+      "status": "included",
+      "reason": "The bounded references establish the stated technological arrangement and its scoped admission rationale.",
+      "source_ids": [
+        "src-b103-stardweller",
+        "src-b103-stardweller-quote"
+      ],
+      "society_id": "suffadv-first-edition-stardweller-basics"
+    },
+    {
+      "candidate_id": "c0920",
+      "status": "needs_evidence",
+      "reason": "Historical recreation with robot labor does not establish a single Tao material-access arrangement.",
+      "source_ids": [
+        "src-b103-tao",
+        "src-b103-tao-primary"
+      ],
+      "analysis": "Citizens are not merely visitors, but useful performed roles, variable local rule and media revenue remain. No blanket leisure, zero-variant or entitlement model is invented.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    }
+  ],
+  "review_notes": [
+    "Eight sequential decisions complete the third discovery tranche and add three records, including Ba’ku as a separately marked zero variant.",
+    "Prior authoritative batch 102 advanced 904/216 to 912/217: substantive progress, not an external wait or repeated blocker.",
+    "Ba’ku rejection of labor-saving machines is explicit; longevity, communal ownership and welfare rights are not inferred from idyllic scenery.",
+    "Red Dwarf is a tiny continuing early-TV household with stored-input machine services, not infinite matter creation. Queeg is a temporary Holly prank and dead/stasis crew never inflate leisure.",
+    "Stardwellers use first-edition material only; the later edition’s broad alternate-setting use of that name is excluded.",
+    "Logan adaptations, Final Space’s ship identity and genuine human-derived work are checked without watching episodes or reading whole novels."
+  ]
+}

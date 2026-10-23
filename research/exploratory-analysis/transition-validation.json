@@ -1,0 +1,34 @@
+{
+  "checks": {
+    "source_hashes_unchanged": true,
+    "three_stage_counts_exact": true,
+    "six_regime_counts_preserve_stages": true,
+    "outcome_categories_sum_one": true,
+    "all_890_exported": true,
+    "nine_1600x900_slide_previews": true,
+    "pptx_has_9_slides_11_native_charts": true,
+    "native_pie_values_match_all_18_counts": true,
+    "11_embedded_editable_chart_workbooks": true,
+    "report_has_18_interactive_charts": true,
+    "report_links_final_presentation": true,
+    "pptx_package_layout_chart_validation_pass": true
+  },
+  "passed": true,
+  "new_test_count": 50,
+  "final_presentation_sha256": "bb28924dab1bc96bfc28844121e2e538077ef7dba119832df7819a514391dbfd",
+  "browser_validation": {
+    "all_18_report_charts_rendered": true,
+    "stage_section_visible": true,
+    "slide_gallery_first_slide_visible": true
+  },
+  "visual_review": {
+    "all_final_slides_inspected": true,
+    "changed_slides_rechecked_after_chart_label_repairs": [
+      1,
+      2,
+      5,
+      9
+    ],
+    "native_powerpoint_application_opened": false
+  }
+}

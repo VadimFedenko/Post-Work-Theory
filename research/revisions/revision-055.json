@@ -1,0 +1,1042 @@
+{
+  "revision_id": "revision-055",
+  "revised_on": "2026-10-17",
+  "reason": "Completion review adds actual Night City anime scope and official film-economy corroboration, separates Cyberpunk facts from guarantee inference and widens Alt/Control origins rather than equate autocracy with unrelated AI.",
+  "changes": [
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-edgerunners-official-nightcity",
+        "title": "Cyberpunk: Edgerunners: Night City setting",
+        "author": "CD PROJEKT RED / TRIGGER",
+        "url": "https://www.cyberpunk.net/en/edgerunners",
+        "kind": "official_setting_description",
+        "accessed_on": "2026-10-17",
+        "access_method": "About the Show and first-series Story sections read",
+        "read_scope": "The first-series synopsis identifies Night City, a street kid’s survival through mercenary work, technology/body-modification obsession and an order marked by greed.",
+        "limitations": "Only the released first animated series’ shared city model is linked; sequel announcements and manga are not automatically tagged or analyzed."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-trek-firstcontact-official-economics",
+        "title": "A Look at Money in Star Trek: First Contact’s future economics",
+        "author": "StarTrek.com / Star Trek Magazine",
+        "url": "https://www.startrek.com/en-un/news/a-look-at-money-in-star-trek-italian-style",
+        "kind": "official_commentary",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed television/movie economics discussion and First Contact paragraph read",
+        "read_scope": "The licensed official-site discussion identifies Picard and Lily’s First Contact exchange about future economics, alongside television examples and remaining monetary ambiguities.",
+        "limitations": "Commentary, not a Federation census or proof every frontier community has identical conditions."
+      }
+    },
+    {
+      "collection": "societies",
+      "before": {
+        "record_type": "zero_variant",
+        "id": "cyberpunk-night-city",
+        "candidate_id": "c0019",
+        "name": "Cyberpunk 2077 (Night City)",
+        "work": "Cyberpunk 2077",
+        "society": "Night City's corporate automation economy",
+        "media": [
+          "game"
+        ],
+        "description": "Night City has advanced machine intelligence and a sharp separation between protected wealth and exposed poverty. The game's North Oak entry describes an elite district created after a corporate-backed eviction, which makes an assumption of reliable universal material access untenable. Production and urban power sit close to the concentrated corporate band rather than broad control by ordinary residents.\n\nCorporations and powerful human institutions direct most productive resources. Independent AIs exist, but their presence does not establish a citywide machine government. This remains a zero-variant comparison of persistent labor and insecurity alongside demonstrated technological capacity, without inventing a benevolent job-protection policy. The best-guess nonworking fraction is modest because paid service, maintenance, care and informal survival activity remain useful work. It includes dependents and displaced people, with a wide uncertainty interval. The point is an editorial reading of participation, not a census and not the proportion of time a character spends on a job.",
+        "axis": {
+          "guarantees": 0.9,
+          "control": 0.1,
+          "nonworking": 0.3
+        },
+        "scope": {
+          "continuity": "Original game continuity",
+          "period": "Night City in 2077, without choosing a transformative ending",
+          "population": "Human residents of Night City",
+          "human_population_proxy": false,
+          "exclusions": [
+            "Rogue AI territories beyond the Blackwall",
+            "Delamain's possible merged ending as a city-wide government",
+            "Other decades of tabletop history"
+          ],
+          "branch": null,
+          "player_configurable": false,
+          "labor_phase": "human employment persists alongside selective AI automation"
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.65,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Severe exclusion from secure urban life conflicts with strong universal provision.",
+            "source_ids": [
+              "src-cyber-ai",
+              "src-cyber-north-oak"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.05,
+              0.35
+            ],
+            "confidence": "low",
+            "basis": "Corporate sponsorship and concentrated urban influence dominate the observed arrangements.",
+            "source_ids": [
+              "src-cyber-ai",
+              "src-cyber-north-oak"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.1,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "All-age Night City scenario: extensive paid, informal, criminal and care activity persists despite automation; dependents and displaced residents form a substantial minority.",
+            "source_ids": [
+              "src-cyber-ai",
+              "src-cyber-north-oak"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "evidence": [
+          {
+            "claim": "Severe exclusion from secure urban life conflicts with strong universal provision.",
+            "source_ids": [
+              "src-cyber-ai",
+              "src-cyber-north-oak"
+            ],
+            "locator": "See the named source read_scope and the entry's scoped period",
+            "kind": "interpretation"
+          },
+          {
+            "claim": "Corporate sponsorship and concentrated urban influence dominate the observed arrangements.",
+            "source_ids": [
+              "src-cyber-ai",
+              "src-cyber-north-oak"
+            ],
+            "locator": "See the named source read_scope and the entry's scoped period",
+            "kind": "interpretation"
+          }
+        ],
+        "uncertainties": [
+          "Further game and sourcebook passages should corroborate labor dependence and the production structure.",
+          "The Blackwall separates rogue systems, not all possible machine intelligence.",
+          "New numeric axes are requested editorial best guesses, not canonical statistics.",
+          "All-age Night City scenario: extensive paid, informal, criminal and care activity persists despite automation; dependents and displaced residents form a substantial minority."
+        ],
+        "source_ids": [
+          "src-cyber-ai",
+          "src-cyber-north-oak"
+        ],
+        "reported_labor_statistics": [],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual coordinate reassessment against saved lore; explicit central scenarios and intervals, no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": 3,
+        "assessment_mode": "best_guess",
+        "best_guess_axes": [
+          "nonworking"
+        ],
+        "qualification_basis": "Earlier source-based inclusion retained; this revision individually supplies uncertain coordinates under the 2026-10-17 instruction.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Severe exclusion from secure urban life conflicts with strong universal provision.",
+          "Corporate sponsorship and concentrated urban influence dominate the observed arrangements."
+        ],
+        "editorial_assumptions": [
+          "All-age Night City scenario: extensive paid, informal, criminal and care activity persists despite automation; dependents and displaced residents form a substantial minority."
+        ]
+      },
+      "after": {
+        "record_type": "zero_variant",
+        "id": "cyberpunk-night-city",
+        "candidate_id": "c0019",
+        "name": "Cyberpunk 2077 (Night City)",
+        "work": "Cyberpunk 2077 / Cyberpunk: Edgerunners",
+        "society": "Night City's corporate automation economy",
+        "media": [
+          "game",
+          "anime"
+        ],
+        "description": "Night City combines advanced machine intelligence with a sharp separation between protected wealth and exposed poverty. The game’s North Oak entry describes corporate-backed eviction followed by elite settlement. Edgerunners’ official synopsis places a street kid’s struggle to survive through mercenary work in the same technology-obsessed city. The weak guarantee point is a contextual reading of this shared material order, not an invented universal welfare statute.\n\n Human corporations and powerful institutions direct most productive resources, while independent AIs do not establish a citywide machine government. This zero variant preserves human labor and insecurity alongside technical capacity without claiming that all jobs could immediately disappear. The modest nonworking estimate counts useful paid services, maintenance, care, informal activity and creation, with dependents included and a wide interval. It is a person-participation estimate, not a fraction of working hours. The first anime and game share this ordinary city model; announced sequels, unrelated manga and transformative player endings are not silently merged.",
+        "axis": {
+          "guarantees": 0.9,
+          "control": 0.1,
+          "nonworking": 0.3
+        },
+        "scope": {
+          "continuity": "The shared Night City setting of Cyberpunk 2077 and the released first Cyberpunk: Edgerunners series",
+          "period": "The ordinary Night City order in the game and first animated series, without a transformative game ending",
+          "population": "Human residents of Night City",
+          "human_population_proxy": false,
+          "exclusions": [
+            "Rogue AI territories beyond the Blackwall",
+            "Delamain's possible merged ending as a city-wide government",
+            "Other decades of tabletop history"
+          ],
+          "branch": null,
+          "player_configurable": false,
+          "labor_phase": "human employment persists alongside selective AI automation"
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.65,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Severe exclusion from secure urban life conflicts with strong universal provision.",
+            "source_ids": [
+              "src-cyber-ai",
+              "src-cyber-north-oak"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.05,
+              0.35
+            ],
+            "confidence": "low",
+            "basis": "Corporate sponsorship and concentrated urban influence dominate the observed arrangements.",
+            "source_ids": [
+              "src-cyber-ai",
+              "src-cyber-north-oak"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.1,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "All-age Night City scenario: extensive paid, informal, criminal and care activity persists despite automation; dependents and displaced residents form a substantial minority.",
+            "source_ids": [
+              "src-cyber-ai",
+              "src-cyber-north-oak"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "evidence": [
+          {
+            "claim": "The game’s North Oak entry describes corporate-backed eviction and later elite settlement.",
+            "source_ids": [
+              "src-cyber-north-oak"
+            ],
+            "locator": "North Oak entry",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "The first Edgerunners synopsis places a street kid’s survival through mercenary work in Night City.",
+            "source_ids": [
+              "src-edgerunners-official-nightcity"
+            ],
+            "locator": "About the Show and Story",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Further game and sourcebook passages should corroborate labor dependence and the production structure.",
+          "The Blackwall separates rogue systems, not all possible machine intelligence.",
+          "New numeric axes are requested editorial best guesses, not canonical statistics.",
+          "All-age Night City scenario: extensive paid, informal, criminal and care activity persists despite automation; dependents and displaced residents form a substantial minority."
+        ],
+        "source_ids": [
+          "src-cyber-ai",
+          "src-cyber-north-oak",
+          "src-edgerunners-official-nightcity"
+        ],
+        "reported_labor_statistics": [],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Completion check of shared game/first-anime material scope against official synopsis and gathered game entry; facts separated from guarantee inference; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": 3,
+        "assessment_mode": "best_guess",
+        "best_guess_axes": [
+          "nonworking"
+        ],
+        "qualification_basis": "Earlier source-based inclusion retained; this revision individually supplies uncertain coordinates under the 2026-10-17 instruction.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The game’s North Oak entry describes corporate-backed eviction and later elite settlement.",
+          "The first Edgerunners synopsis places a street kid’s survival through mercenary work in Night City."
+        ],
+        "editorial_assumptions": [
+          "All-age Night City scenario: extensive paid, informal, criminal and care activity persists despite automation; dependents and displaced residents form a substantial minority.",
+          "The game and first anime share the ordinary city material model; this does not make all future installments or endings identical.",
+          "Severe exclusion weighs against strong universal provision, but the numeric point remains an editorial assessment."
+        ]
+      }
+    },
+    {
+      "collection": "societies",
+      "before": {
+        "record_type": "post_work",
+        "id": "star-trek-federation-core",
+        "candidate_id": "c0006",
+        "name": "Star Trek (Federation core society)",
+        "work": "Star Trek",
+        "society": "United Federation of Planets core worlds",
+        "media": [
+          "tv",
+          "movie"
+        ],
+        "scope": {
+          "continuity": "Prime timeline, with Earth as the principal documented example",
+          "period": "Ordinary twenty-fourth-century life in the TNG era",
+          "population": "Human civilians on Earth; wider core-world generalization is provisional",
+          "human_population_proxy": false,
+          "exclusions": [
+            "Non-Federation states",
+            "Frontier emergencies",
+            "The post-Burn period",
+            "Military duty as a proxy for all civilian life"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "On twenty-fourth-century Earth, the familiar link between earning money and meeting material needs has largely disappeared. Replicators and supporting infrastructure make everyday goods readily available, and choosing a vocation is presented as a matter of interest and contribution. The strong guarantee score describes this ordinary civilian baseline. It is not a claim that every frontier settlement or wartime starship enjoys the same conditions.\n\nShared civilian institutions keep productive control toward the distributed human end, while Starfleet’s chain of command does not describe all of Earth. For participation, the best guess is that about half the scoped population does no ongoing useful work. The interval is deliberately wide because many residents may choose demanding vocations, research, care or creative contribution even when necessities are free. Those activities still count as work. This is an editorial population scenario, not a quoted Federation unemployment rate, and frontier shortages do not erase the ordinary Earth baseline.",
+        "axis": {
+          "guarantees": -0.9,
+          "control": 0.75,
+          "nonworking": 0.5
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -1,
+              -0.75
+            ],
+            "confidence": "medium",
+            "basis": "Core-world access is independent of earnings; broader Federation coverage requires care.",
+            "source_ids": [
+              "src-trek-economy"
+            ]
+          },
+          "control": {
+            "interval": [
+              0.4,
+              0.95
+            ],
+            "confidence": "medium",
+            "basis": "Civic provision and human institutions coexist with individual holdings.",
+            "source_ids": [
+              "src-trek-economy"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.2,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Best guess for all-age Earth civilians: optional vocations coexist with substantial useful research, care and creative activity. Wage independence alone does not mean everyone is idle.",
+            "source_ids": [
+              "src-trek-economy"
+            ]
+          }
+        },
+        "regime_primary": 2,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "evidence": [
+          {
+            "claim": "Earth's material baseline does not depend on earning money.",
+            "source_ids": [
+              "src-trek-economy"
+            ],
+            "locator": "The Neutral Zone and Life in the 24th Century discussion",
+            "kind": "official_commentary"
+          },
+          {
+            "claim": "Optional productive vocations and personal holdings remain.",
+            "source_ids": [
+              "src-trek-economy"
+            ],
+            "locator": "Smithian Star Trek; closing discussion of work",
+            "kind": "official_commentary"
+          }
+        ],
+        "uncertainties": [
+          "The reviewed source is a guest essay on an official site; episode-level corroboration should strengthen the final review.",
+          "The stored society label is broader than the best-supported Earth example; the population scope limits the inference.",
+          "No exact nonworking percentage is supplied.",
+          "New numeric axes are requested editorial best guesses, not canonical statistics.",
+          "Best guess for all-age Earth civilians: optional vocations coexist with substantial useful research, care and creative activity. Wage independence alone does not mean everyone is idle."
+        ],
+        "source_ids": [
+          "src-trek-economy"
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual coordinate reassessment against saved lore; explicit central scenarios and intervals, no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "best_guess_axes": [
+          "nonworking"
+        ],
+        "qualification_basis": "Earlier source-based inclusion retained; this revision individually supplies uncertain coordinates under the 2026-10-17 instruction.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Earth's material baseline does not depend on earning money.",
+          "Optional productive vocations and personal holdings remain."
+        ],
+        "editorial_assumptions": [
+          "Best guess for all-age Earth civilians: optional vocations coexist with substantial useful research, care and creative activity. Wage independence alone does not mean everyone is idle."
+        ]
+      },
+      "after": {
+        "record_type": "post_work",
+        "id": "star-trek-federation-core",
+        "candidate_id": "c0006",
+        "name": "Star Trek (Federation core society)",
+        "work": "Star Trek",
+        "society": "United Federation of Planets core worlds",
+        "media": [
+          "tv",
+          "movie"
+        ],
+        "scope": {
+          "continuity": "Prime timeline, with Earth as the principal documented example",
+          "period": "Ordinary twenty-fourth-century life in the TNG era",
+          "population": "Human civilians on Earth; wider core-world generalization is provisional",
+          "human_population_proxy": false,
+          "exclusions": [
+            "Non-Federation states",
+            "Frontier emergencies",
+            "The post-Burn period",
+            "Military duty as a proxy for all civilian life"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "On twenty-fourth-century Earth, the familiar link between earning money and meeting material needs has largely disappeared. Replicators and supporting infrastructure make everyday goods readily available, and choosing a vocation is presented as a matter of interest and contribution. The strong guarantee score describes this ordinary civilian baseline. It is not a claim that every frontier settlement or wartime starship enjoys the same conditions.\n\nShared civilian institutions keep productive control toward the distributed human end, while Starfleet’s chain of command does not describe all of Earth. For participation, the best guess is that about half the scoped population does no ongoing useful work. The interval is deliberately wide because many residents may choose demanding vocations, research, care or creative contribution even when necessities are free. Those activities still count as work. This is an editorial population scenario, not a quoted Federation unemployment rate, and frontier shortages do not erase the ordinary Earth baseline.",
+        "axis": {
+          "guarantees": -0.9,
+          "control": 0.75,
+          "nonworking": 0.5
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -1,
+              -0.75
+            ],
+            "confidence": "medium",
+            "basis": "Core-world access is independent of earnings; broader Federation coverage requires care.",
+            "source_ids": [
+              "src-trek-economy"
+            ]
+          },
+          "control": {
+            "interval": [
+              0.4,
+              0.95
+            ],
+            "confidence": "medium",
+            "basis": "Civic provision and human institutions coexist with individual holdings.",
+            "source_ids": [
+              "src-trek-economy"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.2,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Best guess for all-age Earth civilians: optional vocations coexist with substantial useful research, care and creative activity. Wage independence alone does not mean everyone is idle.",
+            "source_ids": [
+              "src-trek-economy"
+            ]
+          }
+        },
+        "regime_primary": 2,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "evidence": [
+          {
+            "claim": "Earth's material baseline does not depend on earning money.",
+            "source_ids": [
+              "src-trek-economy"
+            ],
+            "locator": "The Neutral Zone and Life in the 24th Century discussion",
+            "kind": "official_commentary"
+          },
+          {
+            "claim": "Optional productive vocations and personal holdings remain.",
+            "source_ids": [
+              "src-trek-economy"
+            ],
+            "locator": "Smithian Star Trek; closing discussion of work",
+            "kind": "official_commentary"
+          },
+          {
+            "claim": "Official-site commentary identifies the First Contact dialogue about the changed future economy.",
+            "source_ids": [
+              "src-trek-firstcontact-official-economics"
+            ],
+            "locator": "First Contact Picard/Lily paragraph",
+            "kind": "official_commentary"
+          }
+        ],
+        "uncertainties": [
+          "The reviewed source is a guest essay on an official site; episode-level corroboration should strengthen the final review.",
+          "The stored society label is broader than the best-supported Earth example; the population scope limits the inference.",
+          "No exact nonworking percentage is supplied.",
+          "New numeric axes are requested editorial best guesses, not canonical statistics.",
+          "Best guess for all-age Earth civilians: optional vocations coexist with substantial useful research, care and creative activity. Wage independence alone does not mean everyone is idle."
+        ],
+        "source_ids": [
+          "src-trek-economy",
+          "src-trek-firstcontact-official-economics"
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Completion medium check: licensed official commentary corroborates the film tag alongside the gathered TNG civilian economy account; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "best_guess_axes": [
+          "nonworking"
+        ],
+        "qualification_basis": "Earlier source-based inclusion retained; this revision individually supplies uncertain coordinates under the 2026-10-17 instruction.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Earth's material baseline does not depend on earning money.",
+          "Optional productive vocations and personal holdings remain."
+        ],
+        "editorial_assumptions": [
+          "Best guess for all-age Earth civilians: optional vocations coexist with substantial useful research, care and creative activity. Wage independence alone does not mean everyone is idle."
+        ]
+      }
+    },
+    {
+      "collection": "societies",
+      "before": {
+        "id": "masseffect-control-paragon-reconstruction",
+        "candidate_id": "c0615",
+        "name": "Mass Effect 3 — Paragon Control reconstruction",
+        "work": "Mass Effect 3",
+        "society": "Paragon Control reconstruction",
+        "media": [
+          "game"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Extended Cut Control branch",
+          "period": "Successful Paragon-leaning Control epilogue and projected early reconstruction",
+          "population": "Living human survivors aided by Shepard-directed Reapers",
+          "human_population_proxy": false,
+          "exclusions": [
+            "Renegade Control",
+            "Synthesis",
+            "Low-strength catastrophe variants"
+          ],
+          "branch": "Successful Extended Cut Paragon Control",
+          "player_configurable": true
+        },
+        "description": "Control gives the transformed Shepard command of the Reapers, which then help rebuild the galaxy and repair its transport network. That is real large-scale productive assistance, so the record no longer waits for a complete postwar constitution before including the case. The moderately favorable guarantee estimate projects protection and access under the Paragon guardian reading. It does not claim that the ending explicitly abolishes wages, grants universal housing or eliminates shortages on every damaged world.\n\nControl lies strongly toward autonomous machine authority because the original embodied human is replaced by a powerful coordinating intelligence directing the Reaper fleet. Its human origin remains visible, but ordinary citizens have no demonstrated means of overriding it. A moderate nonworking estimate retains useful reconstruction, care and scientific work despite extraordinary machine support. The record excludes the more coercive Renegade narrative and other endings. Its human-only participation percentage and postwar material floor are low-confidence best guesses, not narration supplied by the game.",
+        "axis": {
+          "guarantees": -0.5,
+          "control": -0.85,
+          "nonworking": 0.4
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.85,
+              0.35
+            ],
+            "confidence": "low",
+            "basis": "Paragon protection and reconstruction suggest material support; universal household rights are not depicted.",
+            "source_ids": [
+              "src-b76-me3-ending-context",
+              "src-b76-control-capture",
+              "src-pop-me3-epilogue"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              -0.5
+            ],
+            "confidence": "low",
+            "basis": "Transformed Shepard commands the Reapers beyond ordinary resident control; human-derived AI authority is disclosed.",
+            "source_ids": [
+              "src-b76-me3-ending-context",
+              "src-b76-control-capture",
+              "src-pop-me3-epilogue"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.1,
+              0.75
+            ],
+            "confidence": "low",
+            "basis": "Human all-age reconstruction scenario retains extensive care, repair and organization despite machine aid.",
+            "source_ids": [
+              "src-b76-me3-ending-context",
+              "src-b76-control-capture",
+              "src-pop-me3-epilogue"
+            ]
+          }
+        },
+        "regime_primary": 5,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b76-me3-ending-context",
+          "src-b76-control-capture",
+          "src-pop-me3-epilogue"
+        ],
+        "evidence": [
+          {
+            "claim": "Control gives transformed Shepard command of the Reapers.",
+            "source_ids": [
+              "src-b76-me3-ending-context",
+              "src-b76-control-capture",
+              "src-pop-me3-epilogue"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "The epilogue depicts Reaper reconstruction, with narration varying by moral alignment.",
+            "source_ids": [
+              "src-b76-me3-ending-context",
+              "src-b76-control-capture",
+              "src-pop-me3-epilogue"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "A durable material floor and participation are projections from the Paragon version.",
+          "Human-derived machine sovereignty is distinguished from continued ordinary human political accountability."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retained on 2026-10-17 as an explicitly labeled best guess; uncertain lore no longer triggers omission.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Control gives transformed Shepard command of the Reapers.",
+          "The epilogue depicts Reaper reconstruction, with narration varying by moral alignment."
+        ],
+        "editorial_assumptions": [
+          "A durable material floor and participation are projections from the Paragon version.",
+          "Human-derived machine sovereignty is distinguished from continued ordinary human political accountability."
+        ]
+      },
+      "after": {
+        "id": "masseffect-control-paragon-reconstruction",
+        "candidate_id": "c0615",
+        "name": "Mass Effect 3 — Paragon Control reconstruction",
+        "work": "Mass Effect 3",
+        "society": "Paragon Control reconstruction",
+        "media": [
+          "game"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Extended Cut Control branch",
+          "period": "Successful Paragon-leaning Control epilogue and projected early reconstruction",
+          "population": "Living human survivors aided by Shepard-directed Reapers",
+          "human_population_proxy": false,
+          "exclusions": [
+            "Renegade Control",
+            "Synthesis",
+            "Low-strength catastrophe variants"
+          ],
+          "branch": "Successful Extended Cut Paragon Control",
+          "player_configurable": true
+        },
+        "description": "Control gives the transformed Shepard command of the Reapers, which help rebuild the galaxy and repair transport. This is large-scale productive assistance. The favorable guarantee estimate projects protection and access under the Paragon guardian reading rather than claiming the ending explicitly abolishes wages, guarantees universal housing or removes every postwar shortage.\n\n The control estimate now includes both machine sovereignty and concentrated human-derived authority. Its central negative point gives weight to independent Reaper coordination, but Shepard’s origin remains relevant: ordinary residents’ inability to override a ruler does not by itself make that ruler unrelated AI. The widened interval therefore includes the concentrated-person reference near zero. The moderate nonworking scenario counts useful reconstruction, care, science, maintenance and public creation despite machine support. The record excludes the coercive Renegade narration and other endings. Postwar household rules and participation remain explicit low-confidence projections, not a canonical census supplied by the game.",
+        "axis": {
+          "guarantees": -0.5,
+          "control": -0.5,
+          "nonworking": 0.4
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.85,
+              0.35
+            ],
+            "confidence": "low",
+            "basis": "Paragon protection and reconstruction suggest material support; universal household rights are not depicted.",
+            "source_ids": [
+              "src-b76-me3-ending-context",
+              "src-b76-control-capture",
+              "src-pop-me3-epilogue"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.35
+            ],
+            "confidence": "low",
+            "basis": "The commanding intelligence derives from Shepard and operates through the Reapers. Machine sovereignty is the central interpretation, while concentrated human-derived person authority near zero remains credible; lack of citizen override alone does not decide origin.",
+            "source_ids": [
+              "src-b76-me3-ending-context",
+              "src-b76-control-capture",
+              "src-pop-me3-epilogue"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.1,
+              0.75
+            ],
+            "confidence": "low",
+            "basis": "Human all-age reconstruction scenario retains extensive care, repair and organization despite machine aid.",
+            "source_ids": [
+              "src-b76-me3-ending-context",
+              "src-b76-control-capture",
+              "src-pop-me3-epilogue"
+            ]
+          }
+        },
+        "regime_primary": 5,
+        "regime_alternatives": [
+          1
+        ],
+        "qualification": "included",
+        "source_ids": [
+          "src-b76-me3-ending-context",
+          "src-b76-control-capture",
+          "src-pop-me3-epilogue"
+        ],
+        "evidence": [
+          {
+            "claim": "Control gives transformed Shepard command of the Reapers.",
+            "source_ids": [
+              "src-b76-me3-ending-context",
+              "src-b76-control-capture",
+              "src-pop-me3-epilogue"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "The epilogue depicts Reaper reconstruction, with narration varying by moral alignment.",
+            "source_ids": [
+              "src-b76-me3-ending-context",
+              "src-b76-control-capture",
+              "src-pop-me3-epilogue"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "A durable material floor and participation are projections from the Paragon version.",
+          "Human-derived machine sovereignty is distinguished from continued ordinary human political accountability."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Completion origin/authority check against gathered selected-ending sources; widened interval separates human-derived rule from unrelated AI; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retained on 2026-10-17 as an explicitly labeled best guess; uncertain lore no longer triggers omission.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Control gives transformed Shepard command of the Reapers.",
+          "The epilogue depicts Reaper reconstruction, with narration varying by moral alignment."
+        ],
+        "editorial_assumptions": [
+          "A durable material floor and participation are projections from the Paragon version.",
+          "Human-derived machine sovereignty is distinguished from continued ordinary human political accountability.",
+          "Human-derived concentrated authority near zero is a credible control alternative; absence of ordinary democratic override is not alone evidence of unrelated AI origin."
+        ]
+      }
+    },
+    {
+      "collection": "societies",
+      "before": {
+        "id": "cyberpunk-alt-blackwall-constructs",
+        "candidate_id": "c0590",
+        "name": "Cyberpunk 2077 — Constructs joining Alt beyond the Blackwall",
+        "work": "Cyberpunk 2077",
+        "society": "Constructs joining Alt beyond the Blackwall",
+        "media": [
+          "game"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Temperance-compatible Alt branch",
+          "period": "The ending transfer and explicitly projected early digital existence",
+          "population": "Active human-derived constructs, assuming continuing experiential identity",
+          "human_population_proxy": true,
+          "exclusions": [
+            "All stored engrams counted as awake people",
+            "Guaranteed survival of an absorbed individual",
+            "Every rogue AI region assigned one policy"
+          ],
+          "branch": "Temperance-compatible transfer to Alt, conditional on continued active personhood",
+          "player_configurable": true
+        },
+        "description": "Joining Alt beyond the Blackwall offers a possible human-derived digital existence outside ordinary bodily work and ownership. The selected ending establishes the transfer, while its continuing economy remains an openly projected best guess. Computing support replaces food and shelter as the material requirement, and access is precarious rather than a universal right. The unfavorable guarantee point reflects dependence on an autonomous environment, not proof that every archived engram remains an independent person.\n\nControl lies strongly toward autonomous AI because human-derived entrants cannot simply command the surrounding systems. A moderate nonworking estimate allows freedom from bodily employment while retaining useful computation, care-like assistance, exploration and technical activity. Its denominator is active experiencing constructs only: stored data, absorbed identities without continued agency and dead biological originals are excluded. The broad interval and conditional personhood assumption are essential. The record does not turn an ending into a guaranteed digital paradise or claim that every rogue AI territory has the same rules.",
+        "axis": {
+          "guarantees": 0.7,
+          "control": -0.9,
+          "nonworking": 0.4
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.05,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Continuing compute depends on an autonomous system without established entitlement.",
+            "source_ids": [
+              "src-b74-blackwall",
+              "src-games-temperance"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              -0.6
+            ],
+            "confidence": "low",
+            "basis": "Alt and the surrounding autonomous network dominate productive agency.",
+            "source_ids": [
+              "src-b74-blackwall",
+              "src-games-temperance"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Active human-derived scenario permits bodily-job escape but retains useful computational activity.",
+            "source_ids": [
+              "src-b74-blackwall",
+              "src-games-temperance"
+            ]
+          }
+        },
+        "regime_primary": 6,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b74-blackwall",
+          "src-games-temperance"
+        ],
+        "evidence": [
+          {
+            "claim": "A selected ending lets V’s consciousness join Alt beyond the Blackwall.",
+            "source_ids": [
+              "src-b74-blackwall",
+              "src-games-temperance"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Continued individual experiential identity and resource access are explicit assumptions.",
+          "The material constitution and participation after transfer are projections."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Individually scoped popular-franchise best guess; uncertain allocation and participation are labeled rather than omitted.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "A selected ending lets V’s consciousness join Alt beyond the Blackwall."
+        ],
+        "editorial_assumptions": [
+          "Continued individual experiential identity and resource access are explicit assumptions.",
+          "The material constitution and participation after transfer are projections."
+        ]
+      },
+      "after": {
+        "id": "cyberpunk-alt-blackwall-constructs",
+        "candidate_id": "c0590",
+        "name": "Cyberpunk 2077 — Constructs joining Alt beyond the Blackwall",
+        "work": "Cyberpunk 2077",
+        "society": "Constructs joining Alt beyond the Blackwall",
+        "media": [
+          "game"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Temperance-compatible Alt branch",
+          "period": "The ending transfer and explicitly projected early digital existence",
+          "population": "Active human-derived constructs, assuming continuing experiential identity",
+          "human_population_proxy": true,
+          "exclusions": [
+            "All stored engrams counted as awake people",
+            "Guaranteed survival of an absorbed individual",
+            "Every rogue AI region assigned one policy"
+          ],
+          "branch": "Temperance-compatible transfer to Alt, conditional on continued active personhood",
+          "player_configurable": true
+        },
+        "description": "Joining Alt beyond the Blackwall offers a possible human-derived digital existence outside ordinary bodily employment. The selected ending establishes transfer, while continuing independent experience and resource access remain explicit assumptions. Computing support replaces physical food and shelter as the relevant material need, with precarious access rather than a universal right. Stored or absorbed engrams are not automatically independent residents.\n\n Control is estimated toward surrounding autonomous network power, with a widened interval including concentrated human-derived authority. Alt’s origin matters: entrants’ inability to command their environment does not alone prove that every ruler is unrelated AI. The moderate nonworking scenario counts useful computation, assistance, exploration, maintenance and public creation among active experiencing constructs. Inactive files and dead biological originals are excluded. The point is a conditional post-transfer model rather than a guaranteed digital paradise, and it does not assign identical rules to every territory beyond the Blackwall.",
+        "axis": {
+          "guarantees": 0.7,
+          "control": -0.7,
+          "nonworking": 0.4
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.05,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Continuing compute depends on an autonomous system without established entitlement.",
+            "source_ids": [
+              "src-b74-blackwall",
+              "src-games-temperance"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.3
+            ],
+            "confidence": "low",
+            "basis": "The central value weights surrounding independent network AI power. Alt’s human-derived origin also permits concentrated person authority near zero; entrants lacking override is not sufficient by itself to classify every controller as unrelated AI.",
+            "source_ids": [
+              "src-b74-blackwall",
+              "src-games-temperance"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Active human-derived scenario permits bodily-job escape but retains useful computational activity.",
+            "source_ids": [
+              "src-b74-blackwall",
+              "src-games-temperance"
+            ]
+          }
+        },
+        "regime_primary": 6,
+        "regime_alternatives": [
+          3
+        ],
+        "qualification": "included",
+        "source_ids": [
+          "src-b74-blackwall",
+          "src-games-temperance"
+        ],
+        "evidence": [
+          {
+            "claim": "A selected ending lets V’s consciousness join Alt beyond the Blackwall.",
+            "source_ids": [
+              "src-b74-blackwall",
+              "src-games-temperance"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Continued individual experiential identity and resource access are explicit assumptions.",
+          "The material constitution and participation after transfer are projections."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Completion origin/authority check against gathered Blackwall and selected-ending sources; human-derived control alternative widened; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Individually scoped popular-franchise best guess; uncertain allocation and participation are labeled rather than omitted.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "A selected ending lets V’s consciousness join Alt beyond the Blackwall."
+        ],
+        "editorial_assumptions": [
+          "Continued individual experiential identity and resource access are explicit assumptions.",
+          "The material constitution and participation after transfer are projections.",
+          "Alt’s human-derived origin leaves a concentrated-person alternative near zero; the negative central point weights surrounding independent AI power rather than lack of entrant democracy alone."
+        ]
+      }
+    }
+  ]
+}

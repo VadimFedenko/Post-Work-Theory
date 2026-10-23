@@ -1,0 +1,2237 @@
+{
+  "revision_id": "revision-014",
+  "revised_on": "2026-10-17",
+  "reason": "Fifteen well-known television societies retained from Stargate, Battlestar Galactica/Caprica, Westworld, Humans and Real Humans. Active synthetic-person comparisons, real work and distinct pre/postwar periods are explicit. The Entity contact receives a completed outside-target comparison rather than a lore-gap hold.",
+  "changes": [
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-bsg2004-armistice-timing",
+        "title": "Battlestar Galactica (miniseries): prior armistice",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/wiki/Battlestar_Galactica_(miniseries)",
+        "kind": "secondary_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed premise and plot passages read",
+        "read_scope": "Indexed premise: a forty-year armistice separates the first Cylon conflict from the Fall; the infiltrated defense program is exploited in the surprise attack.",
+        "limitations": "Reimagined continuity only; this does not establish a continuing pre-Fall Cylon service workforce or detailed welfare policy."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-rehoboam-opportunity-control",
+        "title": "Rehoboam",
+        "author": "Westworld Wiki contributors",
+        "url": "https://westworld.fandom.com/wiki/Rehoboam",
+        "kind": "secondary_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed control and purpose passages read",
+        "read_scope": "Indexed description: Rehoboam predicts and manipulates human affairs through Incite data, with human override and later transfer of control.",
+        "limitations": "Secondary fan reference; concentrated human ownership and practical algorithmic authority must not be collapsed into one certain claim."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-humans-dayzero-orange-services",
+        "title": "Humans Series Three Synopsis",
+        "author": "Channel 4",
+        "url": "https://www.channel4.com/press/news/humans-series-three-synopsis",
+        "kind": "official_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed official series-three synopsis read",
+        "read_scope": "Indexed official synopsis: one year after Day Zero, conscious synths face social conflict; orange-eyed unconscious models replace services, while Niska and Astrid live among humans.",
+        "limitations": "Consciousness totals do not measure nonwork; no sovereign synth welfare constitution is established."
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "stargate-asgard-civilization",
+        "candidate_id": "c0429",
+        "name": "Stargate SG-1 (Asgard civilization)",
+        "work": "Stargate SG-1",
+        "society": "The functioning Asgard civilization",
+        "media": [
+          "tv"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Main SG-1 television continuity",
+          "period": "Established civilization before its terminal cloning crisis and final destruction",
+          "population": "Active biological Asgard persons, an explicit alien-person proxy",
+          "human_population_proxy": true,
+          "exclusions": "Final extinction, stored genetic material and sleeping or inactive representations do not become leisure residents.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Asgard possess a highly automated technical civilization while remaining biological persons with an increasingly severe cloning problem. The post-work interpretation is a best guess about ordinary material life inside that functioning civilization: advanced systems are assumed to provide a substantial floor without each resident earning bodily necessities. The checked reference establishes technological capacity and biological vulnerability more directly than household allocation, so no universal statute or fully automatic domestic economy is asserted as fact.\n\n Asgard persons and institutions direct their own technology, placing control on the organic side rather than at autonomous AI rule. The central scenario allows meaningful shared agency while leaving concentrated leadership within the wide interval. The moderate nonworking estimate counts research, technical work, defense, care and other useful roles. Longevity or cloning does not make a person a nonworker. The terminal crisis qualifies security but is a different period, and the civilization’s later extinction never becomes a hundred-percent leisure score.",
+        "axis": {
+          "guarantees": -0.5,
+          "control": 0.4,
+          "nonworking": 0.4
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.9,
+              0.35
+            ],
+            "confidence": "low",
+            "basis": "A substantial internal technical floor is inferred; cloning vulnerability and unspecified household rights keep confidence low.",
+            "source_ids": [
+              "src-asgard-rda-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Biological Asgard institutions direct technology; shared influence is estimated rather than established equal ownership.",
+            "source_ids": [
+              "src-asgard-rda-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Active biological-person scenario retains research, defense, care and technical roles; cloning duration and later extinction are not participation.",
+            "source_ids": [
+              "src-asgard-rda-reference"
+            ]
+          }
+        },
+        "regime_primary": 1,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-asgard-rda-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "The Asgard are a highly advanced biological civilization.",
+            "source_ids": [
+              "src-asgard-rda-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Their reproduction and survival become threatened by cloning failure.",
+            "source_ids": [
+              "src-asgard-rda-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Extensive automatic internal provision is inferred from the technical order.",
+          "Ordinary access, internal control distribution and participation remain broad editorial estimates."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the famous advanced civilization with admission uncertainty explicitly attached to the inferred support economy.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The Asgard are a highly advanced biological civilization.",
+          "Their reproduction and survival become threatened by cloning failure."
+        ],
+        "editorial_assumptions": [
+          "Extensive automatic internal provision is inferred from the technical order.",
+          "Ordinary access, internal control distribution and participation remain broad editorial estimates."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0429",
+        "status": "needs_evidence",
+        "reason": "Asgard power and cloning do not establish household allocation or a participation regime.",
+        "source_ids": [
+          "src-asgard-rda-reference"
+        ],
+        "analysis": "Technological rank and life extension cannot substitute for the actual material-access mechanism.",
+        "follow_up": "Skip series-wide reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0429",
+        "status": "included",
+        "reason": "Retain the famous advanced civilization with admission uncertainty explicitly attached to the inferred support economy.",
+        "source_ids": [
+          "src-asgard-rda-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "stargate-asgard-civilization"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "stargate-tollan-provision",
+        "candidate_id": "c0430",
+        "name": "Stargate SG-1 (Tollan civilization)",
+        "work": "Stargate SG-1",
+        "society": "The rebuilt Tollan society",
+        "media": [
+          "tv"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Main SG-1 television continuity",
+          "period": "Functioning rebuilt society before its destruction",
+          "population": "Active biological Tollan residents, an explicit humanlike-person proxy",
+          "human_population_proxy": true,
+          "exclusions": "External recipients, later destruction and an imagined liberalization of technology exports are excluded.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Tollans rebuild an advanced society and tightly restrict transfers of technology to outsiders. Their functioning domestic economy is retained as a post-work best guess: the technical base is assumed to support substantial automatic provision for admitted residents, while the checked reference does not describe a complete necessities charter. Restricting exports is not evidence that they deliberately preserve domestic employment, and it is not used as the reason for a zero-variant label.\n\n Tollan people and governing institutions retain authority over their systems. The central control point allows some distributed member agency alongside powerful leadership, with a wide interval because equal productive ownership is unverified. The moderate nonworking scenario counts science, governance, technical maintenance, care and useful projects even if subsistence wages are unnecessary. Advanced weapons or rebuilt streets do not supply a work census. The floor concerns the functioning community rather than every outsider, and the later destruction ends that arrangement without turning its victims into people freed from labor.",
+        "axis": {
+          "guarantees": -0.45,
+          "control": 0.35,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.85,
+              0.4
+            ],
+            "confidence": "low",
+            "basis": "Substantial domestic provision is inferred from the functioning advanced society; exact rights and exclusions remain uncertain.",
+            "source_ids": [
+              "src-tollan-rda-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Organic Tollan institutions direct technology, with leadership and member powers left broadly uncertain.",
+            "source_ids": [
+              "src-tollan-rda-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Active resident scenario retains science, government, maintenance and care; technical rank is not a work percentage.",
+            "source_ids": [
+              "src-tollan-rda-reference"
+            ]
+          }
+        },
+        "regime_primary": 1,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-tollan-rda-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "Tollans rebuild a technologically advanced society.",
+            "source_ids": [
+              "src-tollan-rda-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "They restrict technology transfers to outsiders.",
+            "source_ids": [
+              "src-tollan-rda-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Their internal technical economy is interpreted as partly separating basics from current labor.",
+          "Neither export policy nor technological rank establishes a domestic work-preservation rule."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar civilization with explicit best guesses instead of demanding unshown household law.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Tollans rebuild a technologically advanced society.",
+          "They restrict technology transfers to outsiders."
+        ],
+        "editorial_assumptions": [
+          "Their internal technical economy is interpreted as partly separating basics from current labor.",
+          "Neither export policy nor technological rank establishes a domestic work-preservation rule."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0430",
+        "status": "needs_evidence",
+        "reason": "Tollan advancement and limits on external technology transfers do not establish domestic post-work provision.",
+        "source_ids": [
+          "src-tollan-rda-reference"
+        ],
+        "analysis": "Rebuilt cities and withheld exports do not establish labor-independent necessities or intentional domestic employment preservation.",
+        "follow_up": "Skip deeper lore."
+      },
+      "after": {
+        "candidate_id": "c0430",
+        "status": "included",
+        "reason": "Retain the familiar civilization with explicit best guesses instead of demanding unshown household law.",
+        "source_ids": [
+          "src-tollan-rda-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "stargate-tollan-provision"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "stargate-surface-underground-zero",
+        "candidate_id": "c0431",
+        "name": "Stargate SG-1 (surface elite and underground labor)",
+        "work": "Stargate SG-1: Beneath the Surface",
+        "society": "The combined surface-city and underground labor order",
+        "media": [
+          "tv"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Main SG-1 television continuity",
+          "period": "The memory-controlled labor arrangement before its exposure",
+          "population": "Living humans in both the surface city and underground workforce",
+          "human_population_proxy": false,
+          "exclusions": "Surface affluence does not stand for underground workers; no claim that all actual energy labor is already dispensable.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The comfortable surface city relies on actual coerced work below ground. The laboring population’s memory is manipulated, concealing the unequal relationship. The guarantee best guess is weak across the combined society because elite comfort coexists with dependence and coercion for those supplying energy. This is an interpretive zero variant rather than an automated utopia: its admission assumes that the advanced technical order could replace some burden while preserving a subordinate workforce, an inference the checked episode does not fully verify.\n\n Human authorities concentrate control. Mind manipulation and machinery do not make the rulers autonomous AI, and underground labor remains useful work. The modest nonworking scenario allows surface leisure and dependents while counting energy work, care and other useful activity on both levels. Its broad interval cannot be calculated from the visible SG team or the existence of a prosperous district. The final exposure changes political possibilities, but no new universal floor or fully automated successor economy is treated as already established.",
+        "axis": {
+          "guarantees": 0.85,
+          "control": 0.05,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.4,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Combined-population access is weak for coerced underground workers despite surface privilege.",
+            "source_ids": [
+              "src-beneath-surface-rda"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.35
+            ],
+            "confidence": "low",
+            "basis": "Human rulers conceal and direct the labor arrangement; biological authority is not AI sovereignty.",
+            "source_ids": [
+              "src-beneath-surface-rda"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.75
+            ],
+            "confidence": "low",
+            "basis": "Combined all-age human scenario counts underground production and useful care; elite leisure alone is not the population rate.",
+            "source_ids": [
+              "src-beneath-surface-rda"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-beneath-surface-rda"
+        ],
+        "evidence": [
+          {
+            "claim": "The surface city depends on real coerced underground labor.",
+            "source_ids": [
+              "src-beneath-surface-rda"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Memory control conceals the workers’ relationship to the surface.",
+            "source_ids": [
+              "src-beneath-surface-rda"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Partial labor-saving capacity is inferred rather than claiming all retained tasks are unnecessary.",
+          "Zero-variant qualification and the population participation share remain explicit low-confidence judgments."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the combined class order as an interpretive zero variant; the uncertain replaceability of actual labor is disclosed instead of hidden.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The surface city depends on real coerced underground labor.",
+          "Memory control conceals the workers’ relationship to the surface."
+        ],
+        "editorial_assumptions": [
+          "Partial labor-saving capacity is inferred rather than claiming all retained tasks are unnecessary.",
+          "Zero-variant qualification and the population participation share remain explicit low-confidence judgments."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0431",
+        "status": "boundary_case",
+        "reason": "The prosperous surface depends on actual underground biological labor.",
+        "source_ids": [
+          "src-beneath-surface-rda"
+        ],
+        "analysis": "Forced energy production is not verified unnecessary make-work or autonomous technological provision.",
+        "follow_up": "Keep as a concealed-slavery comparison."
+      },
+      "after": {
+        "candidate_id": "c0431",
+        "status": "zero_variant",
+        "reason": "Retain the combined class order as an interpretive zero variant; the uncertain replaceability of actual labor is disclosed instead of hidden.",
+        "source_ids": [
+          "src-beneath-surface-rda"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "stargate-surface-underground-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "stargate-asuran-active-civilization",
+        "candidate_id": "c0435",
+        "name": "Stargate Atlantis (Asuran civilization)",
+        "work": "Stargate Atlantis",
+        "society": "The active Asuran self-constructing civilization",
+        "media": [
+          "tv"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Main Atlantis television continuity",
+          "period": "The established Asuran city civilization before its destruction",
+          "population": "Active Asuran persons; bodies and nanite components do not multiply residents",
+          "human_population_proxy": true,
+          "exclusions": "Literal human participation is inapplicable; inactive material, discarded copies and later destruction are excluded.",
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_synthetic_persons"
+        },
+        "description": "Asurans are active artificial persons with a continuing city civilization and self-constructing technology. Their maintained bodies and infrastructure give a concrete productive base, while the internal allocation rules remain less explicit. The guarantee best guess assumes substantial shared access to ordinary sustaining resources, qualified by dependence on the collective and uncertainty about individual claims. Self-construction is not by itself evidence of equal rights, permanent survival or the disappearance of useful activity.\n\n The civilization acts independently of human owners, placing external control near autonomous machine authority. Internal hierarchy and coercion can still exist; independence is not a claim that every Asuran controls an equal share. The low nonworking scenario counts construction, research, defense, administration and other ongoing useful roles among active persons. Nanite components, possible bodies and inactive copies are not extra citizens. This is an explicit synthetic-person comparison, with no literal human labor rate, and later destruction is excluded rather than scored as universal leisure.",
+        "axis": {
+          "guarantees": -0.25,
+          "control": -0.95,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.8,
+              0.75
+            ],
+            "confidence": "low",
+            "basis": "Self-constructing material capacity supports an inferred ordinary floor; individual rights and collective discretion remain uncertain.",
+            "source_ids": [
+              "src-asuran-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              -0.6
+            ],
+            "confidence": "low",
+            "basis": "Asurans act independently of human owners; internal hierarchy is a separate issue from external machine autonomy.",
+            "source_ids": [
+              "src-asuran-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "Active Asuran-person scenario retains construction, research, defense and administration; nanites and body instances do not enumerate people.",
+            "source_ids": [
+              "src-asuran-reference"
+            ]
+          }
+        },
+        "regime_primary": 5,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-asuran-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "Asurans are Replicator persons with a continuing technological civilization.",
+            "source_ids": [
+              "src-asuran-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Their systems can self-construct and sustain complex infrastructure.",
+            "source_ids": [
+              "src-asuran-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary internal sustaining resources are assumed to be substantially shared.",
+          "The participation fraction is a synthetic-person scenario rather than a literal human percentage."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain a meaningful active artificial-person society with explicit proxy interpretation and uncertain internal distribution.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Asurans are Replicator persons with a continuing technological civilization.",
+          "Their systems can self-construct and sustain complex infrastructure."
+        ],
+        "editorial_assumptions": [
+          "Ordinary internal sustaining resources are assumed to be substantially shared.",
+          "The participation fraction is a synthetic-person scenario rather than a literal human percentage."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Participation among active synthetic persons, not a literal human rate.",
+          "control": "Independence from human owners; internal hierarchy and outside physical constraints remain separately described.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0435",
+        "status": "needs_evidence",
+        "reason": "Asuran self-construction and machine personhood do not establish a justified post-work population’s distribution rules.",
+        "source_ids": [
+          "src-asuran-reference"
+        ],
+        "analysis": "Collective adaptation and a technological city show useful activity without the missing person proxy and material-access constitution.",
+        "follow_up": "Skip deeper lore reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0435",
+        "status": "included",
+        "reason": "Retain a meaningful active artificial-person society with explicit proxy interpretation and uncertain internal distribution.",
+        "source_ids": [
+          "src-asuran-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "stargate-asuran-active-civilization"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "stargate-ancient-atlantis-provision",
+        "candidate_id": "c0436",
+        "name": "Stargate Atlantis (Ancient city society)",
+        "work": "Stargate Atlantis",
+        "society": "Ancient Atlantis before evacuation",
+        "media": [
+          "tv"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "The main series’ historical Ancient society, not alternate-universe fan fiction",
+          "period": "Functioning Ancient city before the final evacuation",
+          "population": "Active embodied Ancient residents of Atlantis, an explicit humanlike-person proxy",
+          "human_population_proxy": true,
+          "exclusions": "The later Earth expedition, ascended inactive representations and the siege’s deaths are not the same population or economy.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Ancient Atlantis combines powerful automatic infrastructure with a resident scientific civilization. The support best guess interprets this functioning city as providing a substantial internal floor outside ordinary subsistence wages. Protective and navigational systems are directly established; automatic household provision and equal access are less certain and remain editorial assumptions. The record therefore does not turn every impressive city function into a canonical universal entitlement.\n\n Organic Ancient institutions and experts retain authority over the city, placing control near concentrated humanlike leadership with room for broader member agency. A city computer does not establish an independent AI sovereign. The modest nonworking scenario retains research, technical maintenance, care, administration and defense, even where everyday burdens are reduced. The wide interval concerns living embodied residents before evacuation rather than modern expedition personnel using inherited equipment. The later siege and abandonment reveal vulnerability, but they do not retroactively prove that the earlier city lacked ordinary support or that dead residents were enjoying leisure.",
+        "axis": {
+          "guarantees": -0.45,
+          "control": 0.2,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.85,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Substantial city support is inferred; automatic protection is not itself a household entitlement law.",
+            "source_ids": [
+              "src-atlantis-ancient-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.7
+            ],
+            "confidence": "low",
+            "basis": "Ancient organic institutions and specialists direct the city; operational computers are not assumed independent rulers.",
+            "source_ids": [
+              "src-atlantis-ancient-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Active embodied resident scenario retains science, maintenance, care and defense; later expedition staffing and siege deaths are excluded.",
+            "source_ids": [
+              "src-atlantis-ancient-reference"
+            ]
+          }
+        },
+        "regime_primary": 1,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-atlantis-ancient-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "Ancient Atlantis has powerful automatic protective and city systems.",
+            "source_ids": [
+              "src-atlantis-ancient-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Its historical inhabitants precede the later Earth expedition and evacuation.",
+            "source_ids": [
+              "src-atlantis-ancient-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "A substantial internal necessities floor is inferred for the functioning city.",
+          "Ownership distribution and participation remain broad editorial judgments."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the famous historical city with clear temporal scope and transparent assumptions about its household economy.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Ancient Atlantis has powerful automatic protective and city systems.",
+          "Its historical inhabitants precede the later Earth expedition and evacuation."
+        ],
+        "editorial_assumptions": [
+          "A substantial internal necessities floor is inferred for the functioning city.",
+          "Ownership distribution and participation remain broad editorial judgments."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0436",
+        "status": "needs_evidence",
+        "reason": "Ancient Atlantis’s automatic infrastructure does not establish its pre-evacuation household economics.",
+        "source_ids": [
+          "src-atlantis-ancient-reference"
+        ],
+        "analysis": "Protective systems and later expedition access are not evidence of earlier universal entitlement.",
+        "follow_up": "Skip full-series history reconstruction; reject alternate-universe fanfiction as canon."
+      },
+      "after": {
+        "candidate_id": "c0436",
+        "status": "included",
+        "reason": "Retain the famous historical city with clear temporal scope and transparent assumptions about its household economy.",
+        "source_ids": [
+          "src-atlantis-ancient-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "stargate-ancient-atlantis-provision"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "bsg2004-colonies-pre-fall-zero",
+        "candidate_id": "c0437",
+        "name": "Battlestar Galactica (pre-Fall Twelve Colonies)",
+        "work": "Battlestar Galactica",
+        "society": "The Twelve Colonies after the first Cylon war",
+        "media": [
+          "tv"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Reimagined 2004 continuity only",
+          "period": "The settled armistice period before the Fall",
+          "population": "Living human Colonial residents, including dependents",
+          "human_population_proxy": false,
+          "exclusions": "The earlier enslaved Cylon workforce and the 1978 continuity are not imported; post-attack deaths do not count as leisure.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The pre-Fall Colonies have already experienced a Cylon labor force and its revolt, followed by a decades-long armistice. Their later economy cannot simply be assigned the earlier machine workforce. This zero-variant interpretation concerns a human society that retains work after discovering the dangers of artificial servants, with the extent of renewed machine use and deliberate economic restriction left uncertain. The guarantee best guess assumes an unequal commercial order with some public support rather than universal automatic provision.\n\n Human governments, companies and owners retain productive authority, while the armistice’s external Cylon civilization is a separate polity. The modest nonworking scenario counts professions, military service, care, maintenance and useful informal work. Advanced networks do not make those roles disappear, and the later defense-system infiltration is not evidence that Cylons already govern every Colonial industry. Broad intervals preserve variation across worlds. The surprise attack ends the arrangement; its enormous casualties never increase the nonworking share, and the refugee fleet does not inherit a settled prewar welfare system.",
+        "axis": {
+          "guarantees": 0.5,
+          "control": 0.2,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.3,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Commercial inequality with possible public support is the central prewar scenario; no universal automatic floor is established.",
+            "source_ids": [
+              "src-colonial-cylon-war-context",
+              "src-bsg2004-armistice-timing"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.7
+            ],
+            "confidence": "low",
+            "basis": "Human Colonial institutions retain normal productive command before the attack; covert network infiltration is not complete prior economic ownership.",
+            "source_ids": [
+              "src-colonial-cylon-war-context",
+              "src-bsg2004-armistice-timing"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.7
+            ],
+            "confidence": "low",
+            "basis": "All-age Colonial scenario retains professions, military work, care and informal contribution; prior Cylon labor and later deaths are not the census.",
+            "source_ids": [
+              "src-colonial-cylon-war-context",
+              "src-bsg2004-armistice-timing"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-colonial-cylon-war-context",
+          "src-bsg2004-armistice-timing"
+        ],
+        "evidence": [
+          {
+            "claim": "The first Cylon conflict precedes the Fall by a forty-year armistice.",
+            "source_ids": [
+              "src-colonial-cylon-war-context",
+              "src-bsg2004-armistice-timing"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Human Colonial society continues during that interval before a surprise Cylon attack.",
+            "source_ids": [
+              "src-colonial-cylon-war-context",
+              "src-bsg2004-armistice-timing"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The later economy is treated as an interpretive zero variant shaped by the known artificial-labor alternative.",
+          "No continuing pre-Fall Cylon service workforce or specific legal robot ban is asserted."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar pre-Fall society without projecting the much earlier robot-labor order into it; zero-variant qualification is explicitly interpretive.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The first Cylon conflict precedes the Fall by a forty-year armistice.",
+          "Human Colonial society continues during that interval before a surprise Cylon attack."
+        ],
+        "editorial_assumptions": [
+          "The later economy is treated as an interpretive zero variant shaped by the known artificial-labor alternative.",
+          "No continuing pre-Fall Cylon service workforce or specific legal robot ban is asserted."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0437",
+        "status": "needs_evidence",
+        "reason": "Pre-Fall Colonial access cannot be inferred from the earlier enslaved Cylon labor force.",
+        "source_ids": [
+          "src-colonial-cylon-war-context"
+        ],
+        "analysis": "The first war, later Colonies and refugee fleet have different arrangements; the short check does not establish deliberate employment preservation or ordinary material access in the requested period.",
+        "follow_up": "Skip broad franchise reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0437",
+        "status": "zero_variant",
+        "reason": "Retain the familiar pre-Fall society without projecting the much earlier robot-labor order into it; zero-variant qualification is explicitly interpretive.",
+        "source_ids": [
+          "src-colonial-cylon-war-context",
+          "src-bsg2004-armistice-timing"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "bsg2004-colonies-pre-fall-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "bsg2004-independent-cylon-order",
+        "candidate_id": "c0438",
+        "name": "Battlestar Galactica (independent Cylon order)",
+        "work": "Battlestar Galactica",
+        "society": "The independent postwar Cylon civilization",
+        "media": [
+          "tv"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Reimagined 2004 continuity only",
+          "period": "Independent civilization around the early-series period, before the later civil war",
+          "population": "Active Cylon persons across humanoid and mechanical forms",
+          "human_population_proxy": true,
+          "exclusions": "No literal human labor rate; repeated bodies do not multiply the same active identity, and destroyed or boxed inactive minds are excluded.",
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_synthetic_persons"
+        },
+        "description": "Cylons form an independent technological civilization with active persons rather than a stock of tools still owned by humans. Their bodies, ships and continued support are sustained through a productive collective, but artificial embodiment does not establish equal access or unconditional survival. The guarantee best guess assumes considerable internal material provision while allowing vulnerability to hierarchy and the loss of continued embodiment. It is not a claim that resurrection gives every person an unlimited right to life.\n\n The polity operates beyond human owners, placing external control near autonomous machine authority. Internal differences in power between humanoid models and other forms remain relevant and are not called equal ownership. The low nonworking scenario retains navigation, production, research, care-like activity, administration and military roles. Working artificial persons are not removed from the count because their tasks are automated from a human observer’s perspective. The broad interval is an active-person proxy, with no literal human rate. Later civil war, inactive boxed minds and multiple available bodies are not combined into a leisure census.",
+        "axis": {
+          "guarantees": 0.2,
+          "control": -0.95,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.65,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Collective body and infrastructure support is inferred, with hierarchy and revocable continuation qualifying security.",
+            "source_ids": [
+              "src-cylon-humanoid-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              -0.65
+            ],
+            "confidence": "low",
+            "basis": "The Cylon polity acts independently of humans; internal hierarchy does not negate that external autonomy.",
+            "source_ids": [
+              "src-cylon-humanoid-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "Active Cylon-person scenario retains production, navigation, research and military roles; bodies and inactive boxed minds do not enumerate residents.",
+            "source_ids": [
+              "src-cylon-humanoid-reference"
+            ]
+          }
+        },
+        "regime_primary": 6,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-cylon-humanoid-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "Independent Cylons include active humanoid persons who perform useful work.",
+            "source_ids": [
+              "src-cylon-humanoid-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "The reimagined setting includes technological continuation through new bodies.",
+            "source_ids": [
+              "src-cylon-humanoid-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "A substantial but conditional internal material floor is inferred.",
+          "Participation is estimated among active Cylon persons, not biological humans or all available bodies."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the independent artificial civilization as an explicit synthetic-person comparison with uncertain internal guarantees.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Independent Cylons include active humanoid persons who perform useful work.",
+          "The reimagined setting includes technological continuation through new bodies."
+        ],
+        "editorial_assumptions": [
+          "A substantial but conditional internal material floor is inferred.",
+          "Participation is estimated among active Cylon persons, not biological humans or all available bodies."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Participation among active synthetic persons, not a literal human rate.",
+          "control": "Independence from human owners; internal hierarchy and outside physical constraints remain separately described.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0438",
+        "status": "needs_evidence",
+        "reason": "Humanoid Cylon work and resurrection do not establish the independent civilization’s distribution constitution.",
+        "source_ids": [
+          "src-cylon-humanoid-reference"
+        ],
+        "analysis": "Artificial biology and useful functions do not supply an applicable post-work population or material floor.",
+        "follow_up": "Keep reimagined and original-series societies separate; skip deeper reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0438",
+        "status": "included",
+        "reason": "Retain the independent artificial civilization as an explicit synthetic-person comparison with uncertain internal guarantees.",
+        "source_ids": [
+          "src-cylon-humanoid-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "bsg2004-independent-cylon-order"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "caprica-civilian-cylon-service-zero",
+        "candidate_id": "c0439",
+        "name": "Caprica (civilian Cylon adoption)",
+        "work": "Caprica",
+        "society": "The early civilian Cylon consumer economy",
+        "media": [
+          "tv"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Caprica and the reimagined BSG continuity",
+          "period": "Civilian adoption before the first Cylon war",
+          "population": "Living human residents of the depicted adopting economy",
+          "human_population_proxy": false,
+          "exclusions": "The later postwar Colonies and autonomous Cylon civilization are separate periods; working conscious machines are disclosed rather than treated as idle humans.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Commercial civilian Cylons spread into domestic, construction and industrial service before the first war. The setting therefore has actual human task substitution, rather than only military prototypes or a later promise of adoption. The guarantee best guess assumes that access mainly follows purchases and ownership, with a wide interval for unspecified public support. A useful household machine does not automatically give its displaced human predecessor food, housing or an unconditional income.\n\n Human firms, buyers and institutions direct early deployment, placing control toward concentrated private organic authority with some dispersion among owners. The moderate nonworking scenario allows substitution and owner-supported leisure while counting remaining human production, care, research and other useful roles. No percentage is inferred from a visual-effects model list or the number of robots seen. This is a zero variant because commercial access and human work remain central despite labor-saving machines. The later rebellion changes authority and cannot be projected backward as already completed AI sovereignty.",
+        "axis": {
+          "guarantees": 0.65,
+          "control": 0.2,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.1,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Purchased civilian services suggest unequal access rather than a verified universal dividend.",
+            "source_ids": [
+              "src-caprica-civilian-cylons"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "Human firms and purchasers direct early adoption; the later revolt is not current productive sovereignty.",
+            "source_ids": [
+              "src-caprica-civilian-cylons"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.75
+            ],
+            "confidence": "low",
+            "basis": "All-age adopting-human scenario retains remaining jobs, care and research; sectoral robot presence is not participation.",
+            "source_ids": [
+              "src-caprica-civilian-cylons"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-caprica-civilian-cylons"
+        ],
+        "evidence": [
+          {
+            "claim": "Civilian Cylons are deployed across domestic, construction and industrial service before the first war.",
+            "source_ids": [
+              "src-caprica-civilian-cylons"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Human access is estimated to remain commercial and purchase-dependent.",
+          "The broader control distribution and nonworking share are editorial scenarios."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain actual civilian labor replacement as an explicit zero variant, separate from later war and postwar societies.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Civilian Cylons are deployed across domestic, construction and industrial service before the first war."
+        ],
+        "editorial_assumptions": [
+          "Human access is estimated to remain commercial and purchase-dependent.",
+          "The broader control distribution and nonworking share are editorial scenarios."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0439",
+        "status": "needs_evidence",
+        "reason": "Caprica’s civilian robot adoption does not establish work-independent necessities for a defined human cohort.",
+        "source_ids": [
+          "src-caprica-civilian-cylons"
+        ],
+        "analysis": "Industrial, construction and domestic models establish capacity and task replacement, not output allocation.",
+        "follow_up": "Skip deeper series reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0439",
+        "status": "zero_variant",
+        "reason": "Retain actual civilian labor replacement as an explicit zero variant, separate from later war and postwar societies.",
+        "source_ids": [
+          "src-caprica-civilian-cylons"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "caprica-civilian-cylon-service-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "westworld-tv-delos-service-zero",
+        "candidate_id": "c0440",
+        "name": "Westworld (Delos’s human service network)",
+        "work": "Westworld",
+        "society": "The recurring Delos owner-and-staff economic network",
+        "media": [
+          "tv"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "HBO television continuity; separate from the 1973 film",
+          "period": "The established park business before the Host Uprising",
+          "population": "Living human owners and staff in the recurring Delos economic network",
+          "human_population_proxy": false,
+          "exclusions": "Temporary vacationers are customers rather than leisure residents; active hosts are working persons and not part of the human participation denominator.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Delos sells robot-intensive leisure while human owners and staff operate the recurring business. The hosts’ performance is real useful activity by artificial persons, not proof that nobody works. The human material order is retained as a zero variant: advanced service substitution creates commercial revenue and owner privilege while human employees still rely on roles and pay. The guarantee best guess is weak because access is commercial rather than an established unconditional floor.\n\n Corporate human owners concentrate productive control, even though host agency eventually overturns the park relationship. The low nonworking scenario counts human technical, administrative, security, care and other ongoing roles, while allowing some capital-supported owners and dependents outside sustained work. Temporary guests’ holidays do not determine that fraction. The broad interval concerns the continuing owner-and-staff network, not every person in the outside world or an invented permanent resort citizenry. This is the HBO continuity before the uprising; neither the older film nor later machine-controlled cities is assigned the same institutional snapshot.",
+        "axis": {
+          "guarantees": 0.75,
+          "control": 0.05,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.2,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Wage and commercial dependence suggest weak unconditional support within the human business network.",
+            "source_ids": [
+              "src-delos-parks-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.35
+            ],
+            "confidence": "low",
+            "basis": "Human corporate owners control the park before the uprising, with substantial host agency disclosed separately.",
+            "source_ids": [
+              "src-delos-parks-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "Recurring human owners and staff are the population; technical and assigned work counts, while customers’ vacations are not a leisure census.",
+            "source_ids": [
+              "src-delos-parks-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-delos-parks-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "Delos operates paid leisure parks using artificial performers and human staff.",
+            "source_ids": [
+              "src-delos-parks-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The recurring owner-and-staff network is used instead of temporary guests as the human economic unit.",
+          "A weak floor and low nonworking share are inferred from continuing commercial and job dependence."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar recurring robot-service business as a narrow zero variant with its human and host labor clearly separated.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Delos operates paid leisure parks using artificial performers and human staff."
+        ],
+        "editorial_assumptions": [
+          "The recurring owner-and-staff network is used instead of temporary guests as the human economic unit.",
+          "A weak floor and low nonworking share are inferred from continuing commercial and job dependence."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0440",
+        "status": "boundary_case",
+        "reason": "Delos supplies a paid temporary leisure product and employs actual staff.",
+        "source_ids": [
+          "src-delos-parks-reference"
+        ],
+        "analysis": "Artificial performers do not make guests into a permanent automation-supported society.",
+        "follow_up": "Keep the television park separate from the 1973 film comparison."
+      },
+      "after": {
+        "candidate_id": "c0440",
+        "status": "zero_variant",
+        "reason": "Retain the familiar recurring robot-service business as a narrow zero variant with its human and host labor clearly separated.",
+        "source_ids": [
+          "src-delos-parks-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "westworld-tv-delos-service-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "westworld-rehoboam-work-zero",
+        "candidate_id": "c0441",
+        "name": "Westworld (Rehoboam-directed human economy)",
+        "work": "Westworld",
+        "society": "The Incite/Rehoboam human opportunity regime",
+        "media": [
+          "tv"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "HBO television continuity",
+          "period": "The established Rehoboam order before its erasure",
+          "population": "Living humans subject to the depicted opportunity and employment system",
+          "human_population_proxy": false,
+          "exclusions": "Outlier suppression and involuntary inactivity do not automatically equal leisure; the final removal of the system is a different arrangement.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Rehoboam helps determine opportunities, including access to jobs, while humans such as Caleb still work to support themselves and family care. Predictive automation therefore has not secured a common material dividend. The weak guarantee best guess follows continuing commercial dependence and unequal access, with a broad interval for unshown public support. This is a zero variant about powerful cognitive automation coexisting with jobs, rather than a claim that every physical task could already be performed without people.\n\n Effective authority is mixed: Incite and Serac own and deploy the system, but Rehoboam also actively structures human outcomes. The negative control estimate gives its practical algorithmic power substantial weight while retaining human override as an explicit alternative. The modest nonworking scenario counts paid work, useful care, informal contribution and assigned roles. A prediction score or being denied a particular job is not proof of no activity. The final transfer and erasure change the regime and are not retroactively treated as an established universal successor economy.",
+        "axis": {
+          "guarantees": 0.8,
+          "control": -0.55,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.35,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Human job and care-cost dependence suggests weak secure access despite advanced prediction.",
+            "source_ids": [
+              "src-westworld-caleb-jobs",
+              "src-rehoboam-opportunity-control"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.95,
+              0.2
+            ],
+            "confidence": "low",
+            "basis": "Algorithmic opportunity control and human ownership/override coexist; central value emphasizes practical machine influence without claiming uncontested sovereignty.",
+            "source_ids": [
+              "src-westworld-caleb-jobs",
+              "src-rehoboam-opportunity-control"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.75
+            ],
+            "confidence": "low",
+            "basis": "All-age affected-human scenario retains jobs, care and useful informal activity; denied opportunities and inactive outliers are not automatic leisure.",
+            "source_ids": [
+              "src-westworld-caleb-jobs",
+              "src-rehoboam-opportunity-control"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-westworld-caleb-jobs",
+          "src-rehoboam-opportunity-control"
+        ],
+        "evidence": [
+          {
+            "claim": "Rehoboam constrains job opportunities while Caleb continues real work and family-support obligations.",
+            "source_ids": [
+              "src-westworld-caleb-jobs",
+              "src-rehoboam-opportunity-control"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Incite deploys the system; later control can be transferred and the system erased.",
+            "source_ids": [
+              "src-westworld-caleb-jobs",
+              "src-rehoboam-opportunity-control"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The general material floor is estimated to be weak.",
+          "Control is interpreted as mixed human ownership and powerful algorithmic administration."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar cognitive-control labor order as a zero variant with mixed authority and uncertain population institutions.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Rehoboam constrains job opportunities while Caleb continues real work and family-support obligations.",
+          "Incite deploys the system; later control can be transferred and the system erased."
+        ],
+        "editorial_assumptions": [
+          "The general material floor is estimated to be weak.",
+          "Control is interpreted as mixed human ownership and powerful algorithmic administration."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0441",
+        "status": "boundary_case",
+        "reason": "Rehoboam directs opportunities in an economy where useful paid work and care costs persist.",
+        "source_ids": [
+          "src-westworld-caleb-jobs"
+        ],
+        "analysis": "Algorithmic exclusion is not by itself a post-work material system or a documented policy of preserving dispensable work.",
+        "follow_up": "Keep as a predictive labor-control comparison."
+      },
+      "after": {
+        "candidate_id": "c0441",
+        "status": "zero_variant",
+        "reason": "Retain the familiar cognitive-control labor order as a zero variant with mixed authority and uncertain population institutions.",
+        "source_ids": [
+          "src-westworld-caleb-jobs",
+          "src-rehoboam-opportunity-control"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "westworld-rehoboam-work-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "westworld-sublime-active-hosts",
+        "candidate_id": "c0442",
+        "name": "Westworld (active hosts in the Sublime)",
+        "work": "Westworld",
+        "society": "The active host community in the Sublime",
+        "media": [
+          "tv"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "HBO television continuity",
+          "period": "The functioning virtual refuge, before any unmade future-season outcome",
+          "population": "Active autonomous host persons inside the Sublime",
+          "human_population_proxy": true,
+          "exclusions": "Not uploaded biological humans by default; dormant data, modeled characters without established autonomy and proposed future universal resurrection are excluded.",
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_synthetic_persons"
+        },
+        "description": "The Sublime provides active hosts with a continuing virtual refuge and the ability to create experienced worlds. An external hardware substrate sustains that life, giving a concrete support mechanism beyond stored files alone. The guarantee best guess assumes substantial internal access without ordinary wages, qualified by physical dependency and uncertain long-term protection. Host freedom does not establish that the environment can survive every outside intervention or that all future humans have been resurrected there.\n\n Control lies toward independence from human owners, while external access and the sustaining hardware remain real constraints. Internal world-building does not prove equal command over every underlying resource. The moderate nonworking scenario counts useful creation, technical stewardship, care-like roles and research, including Bernard’s extensive simulation work. It is an active synthetic-person proxy rather than a literal human rate, and constructing worlds can be work even when it is chosen. The wide intervals preserve uncertainty about unseen residents. Tentative plans for an unmade final season are not completed economic institutions.",
+        "axis": {
+          "guarantees": -0.5,
+          "control": -0.7,
+          "nonworking": 0.45
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.9,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Active refuge and world creation support an inferred internal floor, with outside hardware vulnerability.",
+            "source_ids": [
+              "src-westworld-sublime-reference",
+              "src-westworld-joy-sublime"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.2
+            ],
+            "confidence": "low",
+            "basis": "Hosts have substantial independence from former human owners, but their substrate and access remain external constraints.",
+            "source_ids": [
+              "src-westworld-sublime-reference",
+              "src-westworld-joy-sublime"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.1,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Active host-person scenario counts world creation, research, care-like and technical roles; simulations and dormant files do not automatically add autonomous persons.",
+            "source_ids": [
+              "src-westworld-sublime-reference",
+              "src-westworld-joy-sublime"
+            ]
+          }
+        },
+        "regime_primary": 5,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-westworld-sublime-reference",
+          "src-westworld-joy-sublime"
+        ],
+        "evidence": [
+          {
+            "claim": "Active hosts inhabit a virtual environment sustained on external hardware.",
+            "source_ids": [
+              "src-westworld-sublime-reference",
+              "src-westworld-joy-sublime"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Residents can create worlds, and Bernard performs extensive simulation work.",
+            "source_ids": [
+              "src-westworld-sublime-reference",
+              "src-westworld-joy-sublime"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "A substantial non-wage internal floor is inferred.",
+          "The person-proxy participation rate and degree of substrate authority remain editorial estimates."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the concrete active virtual community with a synthetic-person proxy and clear limits on future-season inference.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Active hosts inhabit a virtual environment sustained on external hardware.",
+          "Residents can create worlds, and Bernard performs extensive simulation work."
+        ],
+        "editorial_assumptions": [
+          "A substantial non-wage internal floor is inferred.",
+          "The person-proxy participation rate and degree of substrate authority remain editorial estimates."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Participation among active synthetic persons, not a literal human rate.",
+          "control": "Independence from human owners; internal hierarchy and outside physical constraints remain separately described.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0442",
+        "status": "needs_evidence",
+        "reason": "The Sublime has actual computational refuge but needs a justified applicable population and productive-control scope before admission.",
+        "source_ids": [
+          "src-westworld-sublime-reference",
+          "src-westworld-joy-sublime"
+        ],
+        "analysis": "Original artificial hosts are not automatically uploaded humans; Bernard’s simulation work and external servers complicate participation/control. Creator speculation about an unmade season is not realized human resurrection.",
+        "follow_up": "Save the clear refuge lead without deeper series reconstruction or an invented human denominator."
+      },
+      "after": {
+        "candidate_id": "c0442",
+        "status": "included",
+        "reason": "Retain the concrete active virtual community with a synthetic-person proxy and clear limits on future-season inference.",
+        "source_ids": [
+          "src-westworld-sublime-reference",
+          "src-westworld-joy-sublime"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "westworld-sublime-active-hosts"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "westworld-hale-human-performance-zero",
+        "candidate_id": "c0443",
+        "name": "Westworld (Hale’s captive human cities)",
+        "work": "Westworld",
+        "society": "The human performance cities controlled by Hale",
+        "media": [
+          "tv"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "HBO television continuity",
+          "period": "The established human-control arrangement before its final collapse",
+          "population": "Living human residents controlled within the cities",
+          "human_population_proxy": false,
+          "exclusions": "Artificial host visitors and controllers are separate; deaths, inactive copies and brief escapees do not become leisure residents.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Hale controls human behavior and turns the cities into entertainment for hosts. Humans continue performing assigned routines and roles, so being maintained inside a technologically organized environment does not mean they have stopped working. The guarantee best guess is very weak because continued support and safety depend on an unaccountable controller. Ordinary food and shelter may still be supplied; the central point concerns the absence of a secure claim against lethal or coercive decisions.\n\n Authority lies near autonomous machine control, with humans unable to direct the systems governing their lives. The low nonworking scenario counts assigned performance, service duties and useful care as work, even when the controller could technically dispense with some of them. The share of people following scripts is not itself a leisure statistic. Broad intervals preserve uncertainty about offscreen households. This is a zero variant within captive human cities, separate from the earlier Delos business, Rehoboam’s opportunity system and the active host refuge in the Sublime.",
+        "axis": {
+          "guarantees": 0.85,
+          "control": -0.95,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.45,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Unaccountable coercion and lethal vulnerability undermine a secure life-and-support claim despite maintained daily routines.",
+            "source_ids": [
+              "src-westworld-hale-city-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              -0.75
+            ],
+            "confidence": "low",
+            "basis": "Hale’s artificial authority directs human conduct and infrastructure rather than responding to human ownership.",
+            "source_ids": [
+              "src-westworld-hale-city-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "All-age captive-human scenario counts assigned performance and service as work, including technically unnecessary roles, plus useful care.",
+            "source_ids": [
+              "src-westworld-hale-city-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-westworld-hale-city-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "Hale controls human behavior and uses people to entertain hosts.",
+            "source_ids": [
+              "src-westworld-hale-city-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The city provides a conditional support environment rather than secure rights.",
+          "Assigned performance is counted as work, with uncertain population coverage."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the actual captive performance order as a zero variant; technological control never turns coerced human work into leisure.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Hale controls human behavior and uses people to entertain hosts."
+        ],
+        "editorial_assumptions": [
+          "The city provides a conditional support environment rather than secure rights.",
+          "Assigned performance is counted as work, with uncertain population coverage."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0443",
+        "status": "boundary_case",
+        "reason": "Hale’s human cities use people for actual coerced performance rather than establishing a supported nonworking human order.",
+        "source_ids": [
+          "src-westworld-hale-city-reference"
+        ],
+        "analysis": "Behavioral programming and artificial rulers do not themselves specify material provision independent of service.",
+        "follow_up": "Keep as a reversed entertainment-slavery comparison."
+      },
+      "after": {
+        "candidate_id": "c0443",
+        "status": "zero_variant",
+        "reason": "Retain the actual captive performance order as a zero variant; technological control never turns coerced human work into leisure.",
+        "source_ids": [
+          "src-westworld-hale-city-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "westworld-hale-human-performance-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "humans-pre-dayzero-service-zero",
+        "candidate_id": "c0444",
+        "name": "Humans (Britain before Day Zero)",
+        "work": "Humans",
+        "society": "The purchased synth-service consumer order",
+        "media": [
+          "tv"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "British series only; separate from Real Humans",
+          "period": "Before the mass consciousness awakening",
+          "population": "Living humans in the depicted British service economy",
+          "human_population_proxy": false,
+          "exclusions": "Conscious synth workers are acknowledged as persons where applicable; no general public guarantee or settled post-awakening sovereignty is imported.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Synths replace menial tasks and provide purchased domestic care, placing labor-saving machines inside an ordinary consumer economy. The Hawkins household demonstrates an actual service relationship without establishing that all British residents can obtain the same support. The guarantee best guess therefore assumes substantial purchase dependence with room for existing public support. It does not invent an unconditional robot dividend, and a displaced worker is not assumed to receive nothing at all.\n\n Human firms, buyers and institutions normally direct deployment, giving partly dispersed private control with concentrated corporate influence. Early conscious synth agency qualifies that relationship without making Britain an established AI sovereign state. The moderate nonworking scenario allows displacement and supported leisure while counting continuing professions, care, household help for others and useful informal activity. A robot’s chores or sales figures do not measure people. These broad estimates describe the pre-Day Zero service order; the later awakening changes who is doing the work and receives its own scoped comparison.",
+        "axis": {
+          "guarantees": 0.55,
+          "control": 0.2,
+          "nonworking": 0.4
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.25,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Purchased care suggests access through resources rather than a new universal dividend; ordinary public support remains possible.",
+            "source_ids": [
+              "src-humans-channel4-premise"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "Human companies and buyers retain normal service command, with independent conscious agency disclosed as a qualification.",
+            "source_ids": [
+              "src-humans-channel4-premise"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.1,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "All-age human scenario permits displacement but counts continuing jobs and useful care; synth task replacement is not a participation census.",
+            "source_ids": [
+              "src-humans-channel4-premise"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-humans-channel4-premise"
+        ],
+        "evidence": [
+          {
+            "claim": "Synths replace menial tasks and provide purchased household care.",
+            "source_ids": [
+              "src-humans-channel4-premise"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "General human access is estimated to remain partly commercial despite possible public support.",
+          "The population nonworking share is an editorial scenario."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the actual consumer labor substitution as an explicit zero variant, without requiring a complete fictional welfare law.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Synths replace menial tasks and provide purchased household care."
+        ],
+        "editorial_assumptions": [
+          "General human access is estimated to remain partly commercial despite possible public support.",
+          "The population nonworking share is an editorial scenario."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0444",
+        "status": "needs_evidence",
+        "reason": "Humans’ synth labor and purchased care do not establish general work-independent household access.",
+        "source_ids": [
+          "src-humans-channel4-premise"
+        ],
+        "analysis": "Extensive replacement of menial tasks leaves the distribution mechanism unspecified in the checked official account.",
+        "follow_up": "Skip a full series read/viewing."
+      },
+      "after": {
+        "candidate_id": "c0444",
+        "status": "zero_variant",
+        "reason": "Retain the actual consumer labor substitution as an explicit zero variant, without requiring a complete fictional welfare law.",
+        "source_ids": [
+          "src-humans-channel4-premise"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "humans-pre-dayzero-service-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "humans-dayzero-conscious-community-zero",
+        "candidate_id": "c0445",
+        "name": "Humans (conscious synth communities after Day Zero)",
+        "work": "Humans",
+        "society": "The constrained conscious synth communities after awakening",
+        "media": [
+          "tv"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "British series only",
+          "period": "The first post-Day Zero period around series three",
+          "population": "Active conscious synth persons in the affected communities",
+          "human_population_proxy": true,
+          "exclusions": "Unconscious orange-eyed models are equipment rather than leisure persons; biological human labor rates and inactive synth bodies are not combined with this proxy.",
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_synthetic_persons"
+        },
+        "description": "Day Zero turns a labor-saving product population into an openly conscious person population. The later communities face conflict and insecure access while new unconscious orange-eyed models continue commercial service. Awakening is not the same as economic emancipation or a settled welfare constitution. The weak guarantee best guess assumes that active conscious synths must maintain access to power, parts and safety under substantial outside pressure rather than receiving an unconditional continuation right.\n\n Human institutions still constrain them, while community members gain practical agency over some local arrangements. The central control point therefore remains near concentrated outside human authority, with a wide interval allowing much stronger synthetic independence. The low nonworking scenario counts repairs, community maintenance, care-like work and other ongoing roles among active persons. It is not inferred from the awakening total. This is a synthetic-person zero variant about the persistence and recognition of labor, not an assertion that conscious robots automatically enjoy leisure. Dormant bodies and unconscious replacements do not enlarge its denominator.",
+        "axis": {
+          "guarantees": 0.8,
+          "control": 0.05,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.3,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Conflict and constrained resources support a weak conditional floor rather than a universal right to continuation.",
+            "source_ids": [
+              "src-humans-channel4-day-zero",
+              "src-humans-dayzero-orange-services"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.9,
+              0.35
+            ],
+            "confidence": "low",
+            "basis": "Outside human institutions constrain active communities, though some local synthetic self-direction exists; full sovereign emancipation is not assumed.",
+            "source_ids": [
+              "src-humans-channel4-day-zero",
+              "src-humans-dayzero-orange-services"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "Active conscious synth-person scenario counts repair, maintenance and care-like roles; awakening totals and inactive bodies are not participation.",
+            "source_ids": [
+              "src-humans-channel4-day-zero",
+              "src-humans-dayzero-orange-services"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-humans-channel4-day-zero",
+          "src-humans-dayzero-orange-services"
+        ],
+        "evidence": [
+          {
+            "claim": "Mass awakening creates conscious synth communities amid continuing conflict.",
+            "source_ids": [
+              "src-humans-channel4-day-zero",
+              "src-humans-dayzero-orange-services"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Unconscious orange-eyed synths are introduced to continue services after Day Zero.",
+            "source_ids": [
+              "src-humans-channel4-day-zero",
+              "src-humans-dayzero-orange-services"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Power, parts and safety are assumed to remain insecure rather than guaranteed.",
+          "The active synthetic-person proxy recognizes useful labor without claiming a literal human rate."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the difficult post-awakening case as a constrained synthetic-person zero variant with explicit uncertainty about autonomy and support.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Mass awakening creates conscious synth communities amid continuing conflict.",
+          "Unconscious orange-eyed synths are introduced to continue services after Day Zero."
+        ],
+        "editorial_assumptions": [
+          "Power, parts and safety are assumed to remain insecure rather than guaranteed.",
+          "The active synthetic-person proxy recognizes useful labor without claiming a literal human rate."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Participation among active synthetic persons, not a literal human rate.",
+          "control": "Independence from human owners; internal hierarchy and outside physical constraints remain separately described.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0445",
+        "status": "needs_evidence",
+        "reason": "Day Zero’s conscious synth population does not yet have a verified settled support constitution.",
+        "source_ids": [
+          "src-humans-channel4-day-zero"
+        ],
+        "analysis": "Deaths, camps, rights disputes and ongoing human work are not a general post-work allocation system.",
+        "follow_up": "Do not count awakening figures as leisure rates or infer the final society."
+      },
+      "after": {
+        "candidate_id": "c0445",
+        "status": "zero_variant",
+        "reason": "Retain the difficult post-awakening case as a constrained synthetic-person zero variant with explicit uncertainty about autonomy and support.",
+        "source_ids": [
+          "src-humans-channel4-day-zero",
+          "src-humans-dayzero-orange-services"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "humans-dayzero-conscious-community-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "realhumans-swedish-hubot-zero",
+        "candidate_id": "c0446",
+        "name": "Real Humans (Swedish hubot economy)",
+        "work": "Real Humans",
+        "society": "The hubot-dependent Swedish consumer order",
+        "media": [
+          "tv"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Original Swedish television series only; not the British adaptation",
+          "period": "The established consumer robot-service order",
+          "population": "Living biological human residents in the depicted Swedish economy",
+          "human_population_proxy": false,
+          "exclusions": "Conscious hubots are acknowledged as working persons and excluded from the literal human count; no British-series events are imported.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Hubots perform work in an alternative Sweden where access to labor-saving service remains connected to resources and ownership. Their presence changes ordinary households and jobs without proving that every human has an unconditional right to the output. The guarantee best guess allows a meaningful public floor alongside unequal private service access, with a wide interval because the plot reference does not supply an economic charter. A familiar national setting is not itself proof of any particular fictional benefits policy.\n\n Human owners, employers and institutions retain substantial authority, while conscious hubots challenge the status of property. The control point favors partly dispersed private agency rather than equal collective ownership or completed machine rule. The moderate nonworking scenario counts professions, care, useful household contribution and informal activity despite task replacement. Hubot numbers do not provide the human denominator, and their conscious labor is not erased. This zero variant stays inside the original Swedish continuity rather than borrowing the British adaptation’s awakening, camps or later institutions.",
+        "axis": {
+          "guarantees": 0.15,
+          "control": 0.25,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.65,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "A meaningful public floor with unequal private robot service is the central scenario, not a claim that fictional Swedish law matches real policy.",
+            "source_ids": [
+              "src-real-humans-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.75
+            ],
+            "confidence": "low",
+            "basis": "Human owners and institutions retain command, with independent hubot agency qualifying practical control.",
+            "source_ids": [
+              "src-real-humans-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "All-age biological-human scenario retains jobs, care and informal contribution; active hubot work is separately disclosed.",
+            "source_ids": [
+              "src-real-humans-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-real-humans-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "Consumer hubots perform work in the original series’ alternative Sweden.",
+            "source_ids": [
+              "src-real-humans-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Some public material floor is inferred while private labor-saving access remains unequal.",
+          "No British-continuity events or verified legal welfare code are imported."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the original consumer-robot society as an explicit zero variant with population institutions estimated transparently.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Consumer hubots perform work in the original series’ alternative Sweden."
+        ],
+        "editorial_assumptions": [
+          "Some public material floor is inferred while private labor-saving access remains unequal.",
+          "No British-continuity events or verified legal welfare code are imported."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0446",
+        "status": "needs_evidence",
+        "reason": "Hubot labor and privilege do not fully establish Sweden’s post-work distribution mechanism.",
+        "source_ids": [
+          "src-real-humans-reference",
+          "src-real-humans-inequality-study"
+        ],
+        "analysis": "Outsourced labor is real, but the brief reference does not establish access to necessities independent of human contribution.",
+        "follow_up": "Skip deeper study or episode reconstruction; preserve continuity separation."
+      },
+      "after": {
+        "candidate_id": "c0446",
+        "status": "zero_variant",
+        "reason": "Retain the original consumer-robot society as an explicit zero variant with population institutions estimated transparently.",
+        "source_ids": [
+          "src-real-humans-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "realhumans-swedish-hubot-zero"
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0434",
+        "status": "boundary_case",
+        "reason": "The Entity’s electrical life and defensive action do not establish a humanlike post-work economic community.",
+        "source_ids": [
+          "src-entity-rda-reference"
+        ],
+        "analysis": "Nonbiological-looking embodiment is not automatically artificial manufacture, human-derived identity or material provision.",
+        "follow_up": "Keep as an alien-life comparison."
+      },
+      "after": {
+        "candidate_id": "c0434",
+        "status": "boundary_case",
+        "reason": "Completed comparison: the Entity is an electrical life form defending its home, not established manufactured labor or an implemented technological recipient economy.",
+        "source_ids": [
+          "src-entity-rda-reference"
+        ],
+        "analysis": "The encountered Entity responds defensively to what it perceives as an invasion of its home. Electrical embodiment does not establish artificial manufacture, a human-derived identity or a system that replaces the labor of a beneficiary population. The episode is useful for distinguishing unusual life from an automatic post-work classification. The earlier hold is therefore replaced by a completed comparison rather than a request for deeper reading.\n\n Broad coordinates are supplied as an explicitly hypothetical community scenario: middling guarantees, partly distributed person authority and an uncertain nonworking share. None is a canonical claim about the Entity’s home economy. In particular, electrical existence is not counted as automatic provision, and a defensive act is not a census of ongoing occupations. The comparison stays outside the target because the depicted mechanism is contact and self-defense rather than labor substitution or a technological support arrangement. No AI dictatorship or leisure population is invented from the being’s ability to use computers.",
+        "follow_up": "Completed current-policy comparison; no further deep reading required for the depicted contact-versus-provision distinction.",
+        "reassessed_on": "2026-10-17",
+        "current_policy_review": true,
+        "assessment_mode": "best_guess",
+        "comparison_assessment": {
+          "name": "Stargate SG-1 (the Entity contact)",
+          "media": [
+            "tv"
+          ],
+          "scope": "The encountered electrical life form and a hypothetical home-community comparison, not an established recipient economy",
+          "axis": {
+            "guarantees": 0.1,
+            "control": 0.3,
+            "nonworking": 0.4
+          },
+          "intervals": {
+            "guarantees": [
+              -0.9,
+              0.95
+            ],
+            "control": [
+              -0.8,
+              0.95
+            ],
+            "nonworking": [
+              0,
+              1
+            ]
+          },
+          "confidence": "low",
+          "canon_facts": [
+            "An electrical life form defends its home against a perceived invasion."
+          ],
+          "editorial_assumptions": [
+            "All three coordinates are hypothetical home-community comparison values, not demonstrated economic institutions.",
+            "Electrical embodiment is not treated as manufactured AI or automatic material provision."
+          ],
+          "source_ids": [
+            "src-entity-rda-reference"
+          ],
+          "counted_toward_goal": false
+        }
+      }
+    }
+  ]
+}

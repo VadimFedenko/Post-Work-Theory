@@ -1,0 +1,360 @@
+{
+  "batch_id": "batch-053",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0331",
+    "c0332",
+    "c0333",
+    "c0334",
+    "c0335",
+    "c0336",
+    "c0337",
+    "c0338",
+    "c0339",
+    "c0340"
+  ],
+  "sources": [
+    {
+      "id": "src-thx-tcm",
+      "title": "THX 1138",
+      "author": "Turner Classic Movies",
+      "url": "https://www.tcm.com/articles/140793/thx-1138",
+      "kind": "secondary_film_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public factory-worker and robot-police description read",
+      "read_scope": "Human workers assemble the machines that enforce their society’s rules.",
+      "limitations": "Robotic enforcement is not proof that industrial human work is unnecessary or that goods are provided independently of it."
+    },
+    {
+      "id": "src-metropolis-reference",
+      "title": "Metropolis 1927 film",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Metropolis_(1927_film)",
+      "kind": "secondary_film_plot_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public worker, robot and impersonation paragraphs read",
+      "read_scope": "Real industrial workers and a prototype used for social manipulation.",
+      "limitations": "Potential labor replacement is not an implemented society-wide support system; a human/robot class metaphor is not a labor census."
+    },
+    {
+      "id": "src-things-come-afi",
+      "title": "Things to Come",
+      "author": "American Film Institute Catalog",
+      "url": "https://catalog.afi.com/Film/4300-THINGS-TO-COME",
+      "kind": "secondary_institutional_film_synopsis_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public 1970 and 2036 setting passages read",
+      "read_scope": "Everytown becomes a technologically advanced underground city by 2036.",
+      "limitations": "Disease-free technocracy and reconstruction machinery do not establish actual household access or wage independence. No dates from the source novel are substituted."
+    },
+    {
+      "id": "src-forbidden-planet-afi",
+      "title": "Forbidden Planet",
+      "author": "American Film Institute Catalog",
+      "url": "https://catalog.afi.com/Film/51831-FORBIDDEN-PLANET",
+      "kind": "secondary_institutional_film_synopsis_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public twenty-year household, research and replicating-lunch passages read",
+      "read_scope": "Morbius and Altaira live with Robby, whose chemical laboratory reproduces food.",
+      "limitations": "A two-human household is a deliberately narrow economic unit, not the whole United Planets civilization or an extant Krell society."
+    },
+    {
+      "id": "src-robby-reference",
+      "title": "Robby the Robot",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Robby_the_Robot",
+      "kind": "secondary_film_character_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public mechanical-servant, creator and household description read",
+      "read_scope": "Morbius builds and programs Robby from Krell-derived knowledge.",
+      "limitations": "Nonhuman robot agency and safety constraints do not establish ownership independent of Morbius; later appearances of the prop/character are excluded."
+    },
+    {
+      "id": "src-forbidden-planet-synthetic-dialogue",
+      "title": "Forbidden Planet: Movie Script",
+      "author": "Film dialogue transcribed by Springfield Springfield",
+      "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=forbidden-planet",
+      "kind": "primary_film_dialogue_transcription_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded public food-synthetic and household-service passages read",
+      "read_scope": "Food samples can be reproduced, and Robby supplies material household services.",
+      "limitations": "No whole script or new film viewing. One displayed device does not prove every historical Krell citizen had unlimited access."
+    },
+    {
+      "id": "src-earth-stood-still-1951-speech",
+      "title": "The Day the Earth Stood Still: Klaatu’s speech",
+      "author": "1951 film dialogue, Wikiquote transcription",
+      "url": "https://en.wikiquote.org/wiki/The_Day_the_Earth_Stood_Still_(1951_film)",
+      "kind": "primary_film_dialogue_transcription_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public robot-peace-enforcement speech read",
+      "read_scope": "Robots hold irrevocable power over aggression, allowing other pursuits.",
+      "limitations": "Authority over aggression is not authority over all production, and peace is not evidence of labor-independent material provision."
+    },
+    {
+      "id": "src-earth-stood-still-2008-reference",
+      "title": "The Day the Earth Stood Still 2008 film",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/The_Day_the_Earth_Stood_Still_(2008_film)",
+      "kind": "secondary_film_plot_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public Klaatu, GORT and environmental-intervention paragraphs read",
+      "read_scope": "An alien mission, destructive nanites and a halted intervention.",
+      "limitations": "No civilian alien distribution system is depicted by these passages; the 1951 treaty is not imported."
+    },
+    {
+      "id": "src-colossus-film-reference",
+      "title": "Colossus: The Forbin Project",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Colossus%3A_The_Forbin_Project",
+      "kind": "secondary_film_plot_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public takeover and final promise passages read",
+      "read_scope": "World-control threats and a promise of future plenty.",
+      "limitations": "The film’s threat/promise is not proof that a durable automatic support economy has been implemented. Novel sequels remain separate."
+    },
+    {
+      "id": "src-westworld-1973-robots",
+      "title": "Robot 1973",
+      "author": "Westworld Wiki contributors",
+      "url": "https://westworld.fandom.com/wiki/Robot_(1973)",
+      "kind": "secondary_film_lore_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public resort-role and human-guest entries read",
+      "read_scope": "Android actors provide purchased park experiences.",
+      "limitations": "Temporary paying tourists and working technicians are not a durable automation-funded resident society; HBO continuity is excluded."
+    },
+    {
+      "id": "src-futureworld-afi",
+      "title": "Futureworld",
+      "author": "American Film Institute Catalog",
+      "url": "https://catalog.afi.com/Film/55247-FUTUREWORLD",
+      "kind": "secondary_institutional_film_synopsis_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public resort-reopening, reporter and replacement-plot passages read",
+      "read_scope": "A resort and human-replacement conspiracy.",
+      "limitations": "Robot doubles and corporate intrigue do not establish a civilian support economy; no whole film read/view claimed."
+    }
+  ],
+  "societies": [
+    {
+      "id": "forbidden-planet-morbius-household",
+      "candidate_id": "c0335",
+      "name": "Forbidden Planet (Morbius’s robot-supported household)",
+      "work": "Forbidden Planet",
+      "society": "Morbius and Altaira’s continuing robotic-production household",
+      "media": [
+        "movie"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "1956 film continuity",
+        "period": "The established two-human household before the visiting crew and final destruction",
+        "population": "Morbius and his living daughter Altaira",
+        "human_population_proxy": false,
+        "exclusions": [
+          "The visiting ship’s crew",
+          "Extinct Krell counted as current residents",
+          "Morbius’s deceased wife",
+          "A claim of United Planets-wide post-work rights"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Morbius and Altaira have an implemented, continuing support arrangement rather than merely a large fortune. Robby reproduces food chemically and performs material household service, allowing the isolated pair to obtain necessities without earning wages or importing an ordinary workforce. The guarantee estimate is strong inside this two-person unit, while remaining conditional on a private household and its functioning machinery. It is not universal citizenship or proof that the surrounding civilization has ended work.\n\nMorbius designs, programs and commands the producer, so effective productive control is concentrated in one human. Robby’s intelligence and protective limits do not make the robot an independent economic ruler. Human work continues in another form: Morbius studies the Krell, and Altaira’s learning or animal care can also be useful activity. The central participation estimate treats her mainly recreational life as nonworking and Morbius as working, with a range allowing both to count as useful workers. That is a transparent two-person interpretation, not a general labor statistic. The later rescue and destruction of the planet end this particular arrangement.",
+      "axis": {
+        "guarantees": -0.7,
+        "control": 0.05,
+        "nonworking": 0.5
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.95,
+            -0.35
+          ],
+          "confidence": "medium",
+          "basis": "The continuing household has actual synthetic food and robotic service; no wage condition is depicted, but support remains privately controlled and not universally available.",
+          "source_ids": [
+            "src-forbidden-planet-afi",
+            "src-robby-reference",
+            "src-forbidden-planet-synthetic-dialogue"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.15
+          ],
+          "confidence": "high",
+          "basis": "Morbius creates and programs Robby and directs its productive activity; safety constraints are not broad resident ownership.",
+          "source_ids": [
+            "src-forbidden-planet-afi",
+            "src-robby-reference",
+            "src-forbidden-planet-synthetic-dialogue"
+          ]
+        },
+        "nonworking": {
+          "interval": [
+            0,
+            0.5
+          ],
+          "confidence": "low",
+          "basis": "For two living residents, Morbius’s sustained research means at least one works. The central estimate treats Altaira as primarily leisured; if her learning or care is sustained useful work, the fraction can be zero. This bounded role scenario is not canonical.",
+          "source_ids": [
+            "src-forbidden-planet-afi",
+            "src-robby-reference",
+            "src-forbidden-planet-synthetic-dialogue"
+          ]
+        }
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-forbidden-planet-afi",
+        "src-robby-reference",
+        "src-forbidden-planet-synthetic-dialogue"
+      ],
+      "evidence": [
+        {
+          "claim": "A continuing isolated household uses actual food replication and robotic service under Morbius’s command.",
+          "source_ids": [
+            "src-forbidden-planet-afi",
+            "src-robby-reference",
+            "src-forbidden-planet-synthetic-dialogue"
+          ],
+          "locator": "AFI household/lunch synopsis; Robby character and synthetic-food dialogue entries",
+          "kind": "institutional_film_reference_and_primary_dialogue"
+        }
+      ],
+      "uncertainties": [
+        "A deliberately tiny household unit with actual production, distinct from a rich protagonist simply buying goods.",
+        "The participation estimate has a two-person denominator and cannot represent a whole country or species.",
+        "The scientist’s voluntary research and potentially useful care/learning still count as work.",
+        "No historical Krell entitlement or post-destruction future is inferred."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": true
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0331",
+      "status": "boundary_case",
+      "reason": "THX 1138’s human workers perform actual industrial production.",
+      "source_ids": [
+        "src-thx-tcm"
+      ],
+      "analysis": "Robot police and computer mediation do not establish unnecessary human work or general labor-independent access.",
+      "follow_up": "Keep as a controlled-industrial-labor comparison."
+    },
+    {
+      "candidate_id": "c0332",
+      "status": "boundary_case",
+      "reason": "Metropolis shows an exploited workforce and robot prototype rather than an implemented post-work support system.",
+      "source_ids": [
+        "src-metropolis-reference"
+      ],
+      "analysis": "Potential replacement and robot impersonation are not realized universal automation or deliberate preservation of dispensable jobs.",
+      "follow_up": "Keep as an industrial/automation-potential comparison."
+    },
+    {
+      "candidate_id": "c0333",
+      "status": "needs_evidence",
+      "reason": "Everytown’s 2036 technological prosperity does not settle household distribution or labor independence.",
+      "source_ids": [
+        "src-things-come-afi"
+      ],
+      "analysis": "The source verifies the film’s year and advanced city, but science, peace and disease control do not supply an economic constitution.",
+      "follow_up": "Skip film/novel reconstruction; do not import different chronology or policies from Wells’s book."
+    },
+    {
+      "candidate_id": "c0334",
+      "status": "needs_evidence",
+      "reason": "Krell thought-production technology does not establish a durable, generally accessible pre-extinction support arrangement.",
+      "source_ids": [
+        "src-forbidden-planet-afi",
+        "src-forbidden-planet-synthetic-dialogue"
+      ],
+      "analysis": "A technological culmination and catastrophic outcome are not a verified long-lived entitlement system or a justified alien participation denominator.",
+      "follow_up": "Skip speculative historical reconstruction; the living human household has its own narrower record."
+    },
+    {
+      "candidate_id": "c0335",
+      "status": "included",
+      "reason": "The two-human household has actual continuing synthetic-food production and robotic service, with its limited unit disclosed.",
+      "source_ids": [
+        "src-forbidden-planet-afi",
+        "src-robby-reference",
+        "src-forbidden-planet-synthetic-dialogue"
+      ],
+      "society_id": "forbidden-planet-morbius-household"
+    },
+    {
+      "candidate_id": "c0336",
+      "status": "needs_evidence",
+      "reason": "Robotic control of aggression does not establish the interplanetary society’s material provision system.",
+      "source_ids": [
+        "src-earth-stood-still-1951-speech"
+      ],
+      "analysis": "Klaatu’s speech concerns enforcement and peace, not ordinary goods, ownership or labor participation. Absolute power in one jurisdiction is not authority over every productive function.",
+      "follow_up": "Skip deeper lore reading."
+    },
+    {
+      "candidate_id": "c0337",
+      "status": "boundary_case",
+      "reason": "The 2008 alien intervention is not a depicted civilian post-work society.",
+      "source_ids": [
+        "src-earth-stood-still-2008-reference"
+      ],
+      "analysis": "Planetary destruction, preservation missions and a halted attack do not establish resident production and access. The earlier film’s treaty is a different continuity.",
+      "follow_up": "Keep as an autonomous-enforcement comparison."
+    },
+    {
+      "candidate_id": "c0338",
+      "status": "needs_evidence",
+      "reason": "Colossus establishes coercive control but only promises the material plenty needed for this lead.",
+      "source_ids": [
+        "src-colossus-film-reference"
+      ],
+      "analysis": "Nuclear leverage and a future abundance speech do not demonstrate an already functioning labor-independent supply system; novel and film institutions are not combined.",
+      "follow_up": "Skip sequel or novel reconstruction."
+    },
+    {
+      "candidate_id": "c0339",
+      "status": "boundary_case",
+      "reason": "Delos supplies a purchased temporary leisure service, not a durable supported resident society.",
+      "source_ids": [
+        "src-westworld-1973-robots"
+      ],
+      "analysis": "Android performance does not make paying tourists independent of outside income, and actual technical staff remain at work.",
+      "follow_up": "Keep as a leisure-industry automation comparison."
+    },
+    {
+      "candidate_id": "c0340",
+      "status": "boundary_case",
+      "reason": "Futureworld’s resort and replacement scheme do not establish a post-work civilian support order.",
+      "source_ids": [
+        "src-futureworld-afi"
+      ],
+      "analysis": "Robot doubles and a corporate conspiracy change control risks without establishing distribution of necessities.",
+      "follow_up": "Skip speculative extrapolation beyond the realized film plot."
+    }
+  ],
+  "review_notes": [
+    "Ten reference-led film decisions and one deliberately tiny but materially explicit household record.",
+    "Morbius’s actual continuing fabrication qualifies the limited unit; mere personal wealth would not. Its two-person participation scenario stays visible.",
+    "Krell extinction does not prohibit historical research, but the short source does not establish a durable pre-extinction entitlement regime.",
+    "Things to Come uses the verified film year 2036. Peace-enforcement power, promised abundance and temporary tourism are not universal economic arrangements."
+  ]
+}

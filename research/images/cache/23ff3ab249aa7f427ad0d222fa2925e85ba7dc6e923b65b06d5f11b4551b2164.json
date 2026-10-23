@@ -1,0 +1,1172 @@
+{
+  "data": [
+    {
+      "id": "3995",
+      "type": "anime",
+      "links": {
+        "self": "https://kitsu.io/api/edge/anime/3995"
+      },
+      "attributes": {
+        "createdAt": "2013-02-20T17:01:25.123Z",
+        "updatedAt": "2026-10-17T18:00:10.771Z",
+        "slug": "shangri-la",
+        "synopsis": "In the distant future, earthquakes and the effects of global warming have splintered Japanese society. Some struggle hand-to-mouth in the jungle-tangled ruins of civilization. Some live comfortably within the closed-off city of Atlas. Others lurk online, anonymously hacking the global economy. As nature grows more violent and the divide between classes expands, one spirited girl—Kuniko—must face her destiny and lead her people into the utopia of Atlas. The city's ruthless government isn't going to welcome them with open arms, but Kuniko won't give up until the gates of Atlas are kicked open for good—even if it means discovering that the promised land she dreamed of is built upon a foundation of twisted secrets and lies.\n(Source: FUNimation)",
+        "description": "In the distant future, earthquakes and the effects of global warming have splintered Japanese society. Some struggle hand-to-mouth in the jungle-tangled ruins of civilization. Some live comfortably within the closed-off city of Atlas. Others lurk online, anonymously hacking the global economy. As nature grows more violent and the divide between classes expands, one spirited girl—Kuniko—must face her destiny and lead her people into the utopia of Atlas. The city's ruthless government isn't going to welcome them with open arms, but Kuniko won't give up until the gates of Atlas are kicked open for good—even if it means discovering that the promised land she dreamed of is built upon a foundation of twisted secrets and lies.\n(Source: FUNimation)",
+        "coverImageTopOffset": 0,
+        "titles": {
+          "en": "Shangri-La",
+          "en_jp": "Shangri-La",
+          "en_us": "Shangri-La",
+          "ja_jp": "シャングリ・ラ"
+        },
+        "canonicalTitle": "Shangri-La",
+        "abbreviatedTitles": [],
+        "averageRating": "69.17",
+        "ratingFrequencies": {
+          "2": "13",
+          "3": "0",
+          "4": "29",
+          "5": "0",
+          "6": "47",
+          "7": "0",
+          "8": "105",
+          "9": "12",
+          "10": "171",
+          "11": "3",
+          "12": "331",
+          "13": "3",
+          "14": "472",
+          "15": "2",
+          "16": "533",
+          "17": "6",
+          "18": "93",
+          "19": "0",
+          "20": "131"
+        },
+        "userCount": 6441,
+        "favoritesCount": 20,
+        "startDate": "2009-04-06",
+        "endDate": "2009-09-14",
+        "nextRelease": null,
+        "popularityRank": 2345,
+        "ratingRank": 6209,
+        "ageRating": "PG",
+        "ageRatingGuide": "Teens 13 or older",
+        "subtype": "TV",
+        "status": "finished",
+        "tba": null,
+        "posterImage": {
+          "tiny": "https://media.kitsu.app/anime/poster_images/3995/tiny.jpg",
+          "large": "https://media.kitsu.app/anime/poster_images/3995/large.jpg",
+          "small": "https://media.kitsu.app/anime/poster_images/3995/small.jpg",
+          "medium": "https://media.kitsu.app/anime/poster_images/3995/medium.jpg",
+          "original": "https://media.kitsu.app/anime/poster_images/3995/original.jpg",
+          "meta": {
+            "dimensions": {
+              "tiny": {
+                "width": 110,
+                "height": 156
+              },
+              "large": {
+                "width": 550,
+                "height": 780
+              },
+              "small": {
+                "width": 284,
+                "height": 402
+              },
+              "medium": {
+                "width": 390,
+                "height": 554
+              }
+            }
+          }
+        },
+        "coverImage": {
+          "tiny": "https://media.kitsu.app/anime/cover_images/3995/tiny.jpg",
+          "large": "https://media.kitsu.app/anime/cover_images/3995/large.jpg",
+          "small": "https://media.kitsu.app/anime/cover_images/3995/small.jpg",
+          "original": "https://media.kitsu.app/anime/cover_images/3995/original.jpg",
+          "meta": {
+            "dimensions": {
+              "tiny": {
+                "width": 840,
+                "height": 200
+              },
+              "large": {
+                "width": 3360,
+                "height": 800
+              },
+              "small": {
+                "width": 1680,
+                "height": 400
+              }
+            }
+          }
+        },
+        "episodeCount": 24,
+        "episodeLength": 23,
+        "totalLength": 552,
+        "youtubeVideoId": "iPsNrf3b8UA",
+        "showType": "TV",
+        "nsfw": false
+      },
+      "relationships": {
+        "genres": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/3995/relationships/genres",
+            "related": "https://kitsu.io/api/edge/anime/3995/genres"
+          }
+        },
+        "categories": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/3995/relationships/categories",
+            "related": "https://kitsu.io/api/edge/anime/3995/categories"
+          }
+        },
+        "castings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/3995/relationships/castings",
+            "related": "https://kitsu.io/api/edge/anime/3995/castings"
+          }
+        },
+        "installments": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/3995/relationships/installments",
+            "related": "https://kitsu.io/api/edge/anime/3995/installments"
+          }
+        },
+        "mappings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/3995/relationships/mappings",
+            "related": "https://kitsu.io/api/edge/anime/3995/mappings"
+          }
+        },
+        "reviews": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/3995/relationships/reviews",
+            "related": "https://kitsu.io/api/edge/anime/3995/reviews"
+          }
+        },
+        "mediaRelationships": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/3995/relationships/media-relationships",
+            "related": "https://kitsu.io/api/edge/anime/3995/media-relationships"
+          }
+        },
+        "characters": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/3995/relationships/characters",
+            "related": "https://kitsu.io/api/edge/anime/3995/characters"
+          }
+        },
+        "staff": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/3995/relationships/staff",
+            "related": "https://kitsu.io/api/edge/anime/3995/staff"
+          }
+        },
+        "productions": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/3995/relationships/productions",
+            "related": "https://kitsu.io/api/edge/anime/3995/productions"
+          }
+        },
+        "quotes": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/3995/relationships/quotes",
+            "related": "https://kitsu.io/api/edge/anime/3995/quotes"
+          }
+        },
+        "episodes": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/3995/relationships/episodes",
+            "related": "https://kitsu.io/api/edge/anime/3995/episodes"
+          }
+        },
+        "streamingLinks": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/3995/relationships/streaming-links",
+            "related": "https://kitsu.io/api/edge/anime/3995/streaming-links"
+          }
+        },
+        "animeProductions": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/3995/relationships/anime-productions",
+            "related": "https://kitsu.io/api/edge/anime/3995/anime-productions"
+          }
+        },
+        "animeCharacters": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/3995/relationships/anime-characters",
+            "related": "https://kitsu.io/api/edge/anime/3995/anime-characters"
+          }
+        },
+        "animeStaff": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/3995/relationships/anime-staff",
+            "related": "https://kitsu.io/api/edge/anime/3995/anime-staff"
+          }
+        }
+      }
+    },
+    {
+      "id": "46241",
+      "type": "anime",
+      "links": {
+        "self": "https://kitsu.io/api/edge/anime/46241"
+      },
+      "attributes": {
+        "createdAt": "2022-07-10T14:46:39.616Z",
+        "updatedAt": "2026-10-17T18:00:10.771Z",
+        "slug": "shangri-la-frontier",
+        "synopsis": "\"When was the last time I played a game that wasn't crap?\" This is a world in the near future where games that use display screens are classified as retro. Anything that can't keep up with state-of-the-art VR technology is called a \"crap game,\" and you see a large number of crap games coming out. Those who devote their lives to clearing these games are called \"crap-game hunters,\" and Rakuro Hizutome is one of them. The game he's chosen to tackle next is Shangri-La Frontier, a \"god-tier game\" that has a total of thirty million players. Online friends... An expansive world... Encounters with rivals... These are changing Rakuro and all the other players' fates! The best game adventure tale by the strongest \"crap game\" player begins now!\n\n(Source: Crunchyroll)",
+        "description": "\"When was the last time I played a game that wasn't crap?\" This is a world in the near future where games that use display screens are classified as retro. Anything that can't keep up with state-of-the-art VR technology is called a \"crap game,\" and you see a large number of crap games coming out. Those who devote their lives to clearing these games are called \"crap-game hunters,\" and Rakuro Hizutome is one of them. The game he's chosen to tackle next is Shangri-La Frontier, a \"god-tier game\" that has a total of thirty million players. Online friends... An expansive world... Encounters with rivals... These are changing Rakuro and all the other players' fates! The best game adventure tale by the strongest \"crap game\" player begins now!\n\n(Source: Crunchyroll)",
+        "coverImageTopOffset": 0,
+        "titles": {
+          "en_jp": "Shangri-La Frontier",
+          "ja_jp": "シャングリラ・フロンティア"
+        },
+        "canonicalTitle": "Shangri-La Frontier",
+        "abbreviatedTitles": [
+          "Shangri-La Frontier: Kusoge Hunter, Kamige ni Idoman to su"
+        ],
+        "averageRating": "81.46",
+        "ratingFrequencies": {
+          "2": "20",
+          "3": "1",
+          "4": "3",
+          "5": "0",
+          "6": "10",
+          "7": "1",
+          "8": "55",
+          "9": "2",
+          "10": "59",
+          "11": "9",
+          "12": "124",
+          "13": "35",
+          "14": "560",
+          "15": "109",
+          "16": "863",
+          "17": "195",
+          "18": "500",
+          "19": "73",
+          "20": "693"
+        },
+        "userCount": 8163,
+        "favoritesCount": 64,
+        "startDate": "2023-10-01",
+        "endDate": "2024-03-31",
+        "nextRelease": null,
+        "popularityRank": 1969,
+        "ratingRank": 524,
+        "ageRating": "PG",
+        "ageRatingGuide": "Teens 13 or Older",
+        "subtype": "TV",
+        "status": "finished",
+        "tba": null,
+        "posterImage": {
+          "tiny": "https://media.kitsu.app/anime/46241/poster_image/tiny-438ade05b5e05051048ecdb3e44929a5.jpeg",
+          "large": "https://media.kitsu.app/anime/46241/poster_image/large-932c88032c14cb5ebcad1375ab1289e6.jpeg",
+          "small": "https://media.kitsu.app/anime/46241/poster_image/small-98ce29c26bd97a7b47581fcb70339a12.jpeg",
+          "medium": "https://media.kitsu.app/anime/46241/poster_image/medium-e4a6d7f3be58c861ffff72a72cb1791d.jpeg",
+          "original": "https://media.kitsu.app/anime/46241/poster_image/c211ce3a0a2a9738ac821bba5b6b055c.jpg",
+          "meta": {
+            "dimensions": {
+              "tiny": {
+                "width": 110,
+                "height": 156
+              },
+              "large": {
+                "width": 550,
+                "height": 780
+              },
+              "small": {
+                "width": 284,
+                "height": 402
+              },
+              "medium": {
+                "width": 390,
+                "height": 554
+              }
+            }
+          }
+        },
+        "coverImage": {
+          "tiny": "https://media.kitsu.app/anime/46241/cover_image/tiny-bec6bebc1f04041c2522c5241c589913.jpeg",
+          "large": "https://media.kitsu.app/anime/46241/cover_image/large-449eb51713fe45045e55ec5372d09578.jpeg",
+          "small": "https://media.kitsu.app/anime/46241/cover_image/small-76f09fc21090d127e4b5ebda5ddb84b0.jpeg",
+          "original": "https://media.kitsu.app/anime/46241/cover_image/fe0eb071c5de4728ace93de23935559d.jpg",
+          "meta": {
+            "dimensions": {
+              "tiny": {
+                "width": 840,
+                "height": 200
+              },
+              "large": {
+                "width": 3360,
+                "height": 800
+              },
+              "small": {
+                "width": 1680,
+                "height": 400
+              }
+            }
+          }
+        },
+        "episodeCount": 25,
+        "episodeLength": 24,
+        "totalLength": null,
+        "youtubeVideoId": "4HpOvyY4sDw",
+        "showType": "TV",
+        "nsfw": false
+      },
+      "relationships": {
+        "genres": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/46241/relationships/genres",
+            "related": "https://kitsu.io/api/edge/anime/46241/genres"
+          }
+        },
+        "categories": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/46241/relationships/categories",
+            "related": "https://kitsu.io/api/edge/anime/46241/categories"
+          }
+        },
+        "castings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/46241/relationships/castings",
+            "related": "https://kitsu.io/api/edge/anime/46241/castings"
+          }
+        },
+        "installments": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/46241/relationships/installments",
+            "related": "https://kitsu.io/api/edge/anime/46241/installments"
+          }
+        },
+        "mappings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/46241/relationships/mappings",
+            "related": "https://kitsu.io/api/edge/anime/46241/mappings"
+          }
+        },
+        "reviews": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/46241/relationships/reviews",
+            "related": "https://kitsu.io/api/edge/anime/46241/reviews"
+          }
+        },
+        "mediaRelationships": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/46241/relationships/media-relationships",
+            "related": "https://kitsu.io/api/edge/anime/46241/media-relationships"
+          }
+        },
+        "characters": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/46241/relationships/characters",
+            "related": "https://kitsu.io/api/edge/anime/46241/characters"
+          }
+        },
+        "staff": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/46241/relationships/staff",
+            "related": "https://kitsu.io/api/edge/anime/46241/staff"
+          }
+        },
+        "productions": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/46241/relationships/productions",
+            "related": "https://kitsu.io/api/edge/anime/46241/productions"
+          }
+        },
+        "quotes": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/46241/relationships/quotes",
+            "related": "https://kitsu.io/api/edge/anime/46241/quotes"
+          }
+        },
+        "episodes": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/46241/relationships/episodes",
+            "related": "https://kitsu.io/api/edge/anime/46241/episodes"
+          }
+        },
+        "streamingLinks": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/46241/relationships/streaming-links",
+            "related": "https://kitsu.io/api/edge/anime/46241/streaming-links"
+          }
+        },
+        "animeProductions": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/46241/relationships/anime-productions",
+            "related": "https://kitsu.io/api/edge/anime/46241/anime-productions"
+          }
+        },
+        "animeCharacters": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/46241/relationships/anime-characters",
+            "related": "https://kitsu.io/api/edge/anime/46241/anime-characters"
+          }
+        },
+        "animeStaff": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/46241/relationships/anime-staff",
+            "related": "https://kitsu.io/api/edge/anime/46241/anime-staff"
+          }
+        }
+      }
+    },
+    {
+      "id": "48677",
+      "type": "anime",
+      "links": {
+        "self": "https://kitsu.io/api/edge/anime/48677"
+      },
+      "attributes": {
+        "createdAt": "2024-03-31T15:55:38.280Z",
+        "updatedAt": "2026-10-17T18:00:10.771Z",
+        "slug": "ShangriLa-Frontier-2nd-Season",
+        "synopsis": "The second season of Shangri-La Frontier.",
+        "description": "The second season of Shangri-La Frontier.",
+        "coverImageTopOffset": 0,
+        "titles": {
+          "en": "Shangri-La Frontier Season 2",
+          "en_jp": "Shangri-La Frontier: Kusoge Hunter, Kamige ni Idoman to su 2nd Season",
+          "ja_jp": "シャングリラ・フロンティア～クソゲーハンター、神ゲーに挑まんとす～ 2nd season"
+        },
+        "canonicalTitle": "Shangri-La Frontier Season 2",
+        "abbreviatedTitles": [
+          "Shangri-La Frontier: Crappy Game Hunter Challenges God-Tier Game",
+          "Shanfro",
+          "シャングリラ・フロンティア 2nd season"
+        ],
+        "averageRating": "83.3",
+        "ratingFrequencies": {
+          "2": "3",
+          "4": "2",
+          "6": "0",
+          "8": "17",
+          "9": "1",
+          "10": "27",
+          "11": "9",
+          "12": "45",
+          "13": "12",
+          "14": "240",
+          "15": "50",
+          "16": "359",
+          "17": "102",
+          "18": "279",
+          "19": "48",
+          "20": "380"
+        },
+        "userCount": 4196,
+        "favoritesCount": 18,
+        "startDate": "2024-10-13",
+        "endDate": "2025-03-30",
+        "nextRelease": null,
+        "popularityRank": 3111,
+        "ratingRank": 91,
+        "ageRating": "PG",
+        "ageRatingGuide": "Teens 13 or older",
+        "subtype": "TV",
+        "status": "finished",
+        "tba": null,
+        "posterImage": {
+          "tiny": "https://media.kitsu.app/anime/48677/poster_image/tiny-76433f0d75325ad21de45ec2c8a4f9e8.jpeg",
+          "large": "https://media.kitsu.app/anime/48677/poster_image/large-a94b224e23285e463dcc2d96276dfb39.jpeg",
+          "small": "https://media.kitsu.app/anime/48677/poster_image/small-57dbb021d7e8d1d12a43c4163f799d8a.jpeg",
+          "medium": "https://media.kitsu.app/anime/48677/poster_image/medium-f6541914a44f35344c364a9ae2e871bf.jpeg",
+          "original": "https://media.kitsu.app/anime/48677/poster_image/544b04b81cb07f1bf575aceeacf01ebe.jpg",
+          "meta": {
+            "dimensions": {
+              "tiny": {
+                "width": 110,
+                "height": 156
+              },
+              "large": {
+                "width": 550,
+                "height": 780
+              },
+              "small": {
+                "width": 284,
+                "height": 402
+              },
+              "medium": {
+                "width": 390,
+                "height": 554
+              }
+            }
+          }
+        },
+        "coverImage": null,
+        "episodeCount": 25,
+        "episodeLength": 23,
+        "totalLength": null,
+        "youtubeVideoId": "OIi6fBHx72U",
+        "showType": "TV",
+        "nsfw": false
+      },
+      "relationships": {
+        "genres": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/48677/relationships/genres",
+            "related": "https://kitsu.io/api/edge/anime/48677/genres"
+          }
+        },
+        "categories": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/48677/relationships/categories",
+            "related": "https://kitsu.io/api/edge/anime/48677/categories"
+          }
+        },
+        "castings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/48677/relationships/castings",
+            "related": "https://kitsu.io/api/edge/anime/48677/castings"
+          }
+        },
+        "installments": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/48677/relationships/installments",
+            "related": "https://kitsu.io/api/edge/anime/48677/installments"
+          }
+        },
+        "mappings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/48677/relationships/mappings",
+            "related": "https://kitsu.io/api/edge/anime/48677/mappings"
+          }
+        },
+        "reviews": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/48677/relationships/reviews",
+            "related": "https://kitsu.io/api/edge/anime/48677/reviews"
+          }
+        },
+        "mediaRelationships": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/48677/relationships/media-relationships",
+            "related": "https://kitsu.io/api/edge/anime/48677/media-relationships"
+          }
+        },
+        "characters": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/48677/relationships/characters",
+            "related": "https://kitsu.io/api/edge/anime/48677/characters"
+          }
+        },
+        "staff": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/48677/relationships/staff",
+            "related": "https://kitsu.io/api/edge/anime/48677/staff"
+          }
+        },
+        "productions": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/48677/relationships/productions",
+            "related": "https://kitsu.io/api/edge/anime/48677/productions"
+          }
+        },
+        "quotes": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/48677/relationships/quotes",
+            "related": "https://kitsu.io/api/edge/anime/48677/quotes"
+          }
+        },
+        "episodes": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/48677/relationships/episodes",
+            "related": "https://kitsu.io/api/edge/anime/48677/episodes"
+          }
+        },
+        "streamingLinks": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/48677/relationships/streaming-links",
+            "related": "https://kitsu.io/api/edge/anime/48677/streaming-links"
+          }
+        },
+        "animeProductions": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/48677/relationships/anime-productions",
+            "related": "https://kitsu.io/api/edge/anime/48677/anime-productions"
+          }
+        },
+        "animeCharacters": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/48677/relationships/anime-characters",
+            "related": "https://kitsu.io/api/edge/anime/48677/anime-characters"
+          }
+        },
+        "animeStaff": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/48677/relationships/anime-staff",
+            "related": "https://kitsu.io/api/edge/anime/48677/anime-staff"
+          }
+        }
+      }
+    },
+    {
+      "id": "49778",
+      "type": "anime",
+      "links": {
+        "self": "https://kitsu.io/api/edge/anime/49778"
+      },
+      "attributes": {
+        "createdAt": "2025-03-31T03:03:06.223Z",
+        "updatedAt": "2026-10-17T18:00:10.771Z",
+        "slug": "shangri-la-frontier-3rd-season",
+        "synopsis": "The third season of Shangri-La Frontier.",
+        "description": "The third season of Shangri-La Frontier.",
+        "coverImageTopOffset": 0,
+        "titles": {
+          "en": "Shangri-La Frontier Season 3",
+          "en_jp": "Shangri-La Frontier 3rd Season",
+          "ja_jp": "シャングリラ・フロンティア 3rd season"
+        },
+        "canonicalTitle": "Shangri-La Frontier 3rd Season",
+        "abbreviatedTitles": [
+          "シャンフロ３",
+          "シャングリラ・フロンティア〜クソゲーハンター, 神ゲーに挑まんとす〜 3rd season",
+          "Shangri-La Frontier: Kusoge Hunter, Kamige ni Idoman to su 3rd Season"
+        ],
+        "averageRating": null,
+        "ratingFrequencies": {
+          "12": "0",
+          "16": "3",
+          "18": "1",
+          "19": "1",
+          "20": "5"
+        },
+        "userCount": 555,
+        "favoritesCount": 1,
+        "startDate": "2027-01-10",
+        "endDate": null,
+        "nextRelease": null,
+        "popularityRank": 8521,
+        "ratingRank": null,
+        "ageRating": null,
+        "ageRatingGuide": null,
+        "subtype": "TV",
+        "status": "upcoming",
+        "tba": null,
+        "posterImage": {
+          "tiny": "https://media.kitsu.app/anime/49778/poster_image/tiny-71107f0a6e8a8bc968f7d7fc5432026a.jpeg",
+          "large": "https://media.kitsu.app/anime/49778/poster_image/large-a2ee8cd7cefb57a427f0ae2c75d9a1e9.jpeg",
+          "small": "https://media.kitsu.app/anime/49778/poster_image/small-1bad5ead15036631bbf0f62f1074590c.jpeg",
+          "medium": "https://media.kitsu.app/anime/49778/poster_image/medium-7c1ec6f5eb24f637effe1814be884134.jpeg",
+          "original": "https://media.kitsu.app/anime/49778/poster_image/77d821953a1a0d23611c08186c563dbb.jpg",
+          "meta": {
+            "dimensions": {
+              "tiny": {
+                "width": 110,
+                "height": 156
+              },
+              "large": {
+                "width": 550,
+                "height": 780
+              },
+              "small": {
+                "width": 284,
+                "height": 402
+              },
+              "medium": {
+                "width": 390,
+                "height": 554
+              }
+            }
+          }
+        },
+        "coverImage": null,
+        "episodeCount": null,
+        "episodeLength": null,
+        "totalLength": 0,
+        "youtubeVideoId": null,
+        "showType": "TV",
+        "nsfw": false
+      },
+      "relationships": {
+        "genres": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/49778/relationships/genres",
+            "related": "https://kitsu.io/api/edge/anime/49778/genres"
+          }
+        },
+        "categories": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/49778/relationships/categories",
+            "related": "https://kitsu.io/api/edge/anime/49778/categories"
+          }
+        },
+        "castings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/49778/relationships/castings",
+            "related": "https://kitsu.io/api/edge/anime/49778/castings"
+          }
+        },
+        "installments": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/49778/relationships/installments",
+            "related": "https://kitsu.io/api/edge/anime/49778/installments"
+          }
+        },
+        "mappings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/49778/relationships/mappings",
+            "related": "https://kitsu.io/api/edge/anime/49778/mappings"
+          }
+        },
+        "reviews": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/49778/relationships/reviews",
+            "related": "https://kitsu.io/api/edge/anime/49778/reviews"
+          }
+        },
+        "mediaRelationships": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/49778/relationships/media-relationships",
+            "related": "https://kitsu.io/api/edge/anime/49778/media-relationships"
+          }
+        },
+        "characters": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/49778/relationships/characters",
+            "related": "https://kitsu.io/api/edge/anime/49778/characters"
+          }
+        },
+        "staff": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/49778/relationships/staff",
+            "related": "https://kitsu.io/api/edge/anime/49778/staff"
+          }
+        },
+        "productions": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/49778/relationships/productions",
+            "related": "https://kitsu.io/api/edge/anime/49778/productions"
+          }
+        },
+        "quotes": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/49778/relationships/quotes",
+            "related": "https://kitsu.io/api/edge/anime/49778/quotes"
+          }
+        },
+        "episodes": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/49778/relationships/episodes",
+            "related": "https://kitsu.io/api/edge/anime/49778/episodes"
+          }
+        },
+        "streamingLinks": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/49778/relationships/streaming-links",
+            "related": "https://kitsu.io/api/edge/anime/49778/streaming-links"
+          }
+        },
+        "animeProductions": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/49778/relationships/anime-productions",
+            "related": "https://kitsu.io/api/edge/anime/49778/anime-productions"
+          }
+        },
+        "animeCharacters": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/49778/relationships/anime-characters",
+            "related": "https://kitsu.io/api/edge/anime/49778/anime-characters"
+          }
+        },
+        "animeStaff": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/49778/relationships/anime-staff",
+            "related": "https://kitsu.io/api/edge/anime/49778/anime-staff"
+          }
+        }
+      }
+    },
+    {
+      "id": "48438",
+      "type": "anime",
+      "links": {
+        "self": "https://kitsu.io/api/edge/anime/48438"
+      },
+      "attributes": {
+        "createdAt": "2024-01-19T15:10:45.474Z",
+        "updatedAt": "2026-10-17T18:00:10.771Z",
+        "slug": "shangri-la-frontier-kusoge-hunter-kamige-ni-idoman-to-su-recap",
+        "synopsis": "Recap of the first 14 episodes of Shangri-La Frontier: Kusoge Hunter, Kamige ni Idoman to su.",
+        "description": "Recap of the first 14 episodes of Shangri-La Frontier: Kusoge Hunter, Kamige ni Idoman to su.",
+        "coverImageTopOffset": 0,
+        "titles": {
+          "en": "Shangri-La Frontier: Get Yourselves Caught up With This Light-Speed Recap!",
+          "en_jp": "Shangri-La Frontier: Kusoge Hunter, Kamige ni Idoman to su Recap",
+          "ja_jp": "シャングリラ・フロンティア～クソゲーハンター、神ゲーに挑まんとす～ スペシャル特番〜最新話まで丸わかり！超速ダイジェスト〜"
+        },
+        "canonicalTitle": "Shangri-La Frontier: Kusoge Hunter, Kamige ni Idoman to su Recap",
+        "abbreviatedTitles": [
+          "Shangri-La Frontier: Kusogee Hunter",
+          "Kamige ni Idoman to Su - Special Tokuban: Saishin Wa made Maruwakari! Chousoku Digest"
+        ],
+        "averageRating": "74.24",
+        "ratingFrequencies": {
+          "2": "1",
+          "6": "2",
+          "8": "2",
+          "10": "11",
+          "11": "1",
+          "12": "23",
+          "14": "24",
+          "15": "3",
+          "16": "7",
+          "17": "0",
+          "18": "5",
+          "20": "25"
+        },
+        "userCount": 408,
+        "favoritesCount": 1,
+        "startDate": "2024-01-14",
+        "endDate": "2024-01-14",
+        "nextRelease": null,
+        "popularityRank": 9655,
+        "ratingRank": 2898,
+        "ageRating": "PG",
+        "ageRatingGuide": "13 teens or older",
+        "subtype": "special",
+        "status": "finished",
+        "tba": null,
+        "posterImage": {
+          "tiny": "https://media.kitsu.app/anime/48438/poster_image/tiny-93a1157d36f3252775f57a60c493d733.jpeg",
+          "large": "https://media.kitsu.app/anime/48438/poster_image/large-2640fc8f16a563e950e0ad2585665c66.jpeg",
+          "small": "https://media.kitsu.app/anime/48438/poster_image/small-9770530bede94b0f8055bd24771b7f09.jpeg",
+          "medium": "https://media.kitsu.app/anime/48438/poster_image/medium-0370dbac160efec387e0c1c4d6fe3ecf.jpeg",
+          "original": "https://media.kitsu.app/anime/48438/poster_image/13a1c06ec3080a9ffb5c82d049bb7d19.jpg",
+          "meta": {
+            "dimensions": {
+              "tiny": {
+                "width": 110,
+                "height": 156
+              },
+              "large": {
+                "width": 550,
+                "height": 780
+              },
+              "small": {
+                "width": 284,
+                "height": 402
+              },
+              "medium": {
+                "width": 390,
+                "height": 554
+              }
+            }
+          }
+        },
+        "coverImage": null,
+        "episodeCount": 1,
+        "episodeLength": 24,
+        "totalLength": 24,
+        "youtubeVideoId": null,
+        "showType": "special",
+        "nsfw": false
+      },
+      "relationships": {
+        "genres": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/48438/relationships/genres",
+            "related": "https://kitsu.io/api/edge/anime/48438/genres"
+          }
+        },
+        "categories": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/48438/relationships/categories",
+            "related": "https://kitsu.io/api/edge/anime/48438/categories"
+          }
+        },
+        "castings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/48438/relationships/castings",
+            "related": "https://kitsu.io/api/edge/anime/48438/castings"
+          }
+        },
+        "installments": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/48438/relationships/installments",
+            "related": "https://kitsu.io/api/edge/anime/48438/installments"
+          }
+        },
+        "mappings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/48438/relationships/mappings",
+            "related": "https://kitsu.io/api/edge/anime/48438/mappings"
+          }
+        },
+        "reviews": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/48438/relationships/reviews",
+            "related": "https://kitsu.io/api/edge/anime/48438/reviews"
+          }
+        },
+        "mediaRelationships": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/48438/relationships/media-relationships",
+            "related": "https://kitsu.io/api/edge/anime/48438/media-relationships"
+          }
+        },
+        "characters": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/48438/relationships/characters",
+            "related": "https://kitsu.io/api/edge/anime/48438/characters"
+          }
+        },
+        "staff": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/48438/relationships/staff",
+            "related": "https://kitsu.io/api/edge/anime/48438/staff"
+          }
+        },
+        "productions": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/48438/relationships/productions",
+            "related": "https://kitsu.io/api/edge/anime/48438/productions"
+          }
+        },
+        "quotes": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/48438/relationships/quotes",
+            "related": "https://kitsu.io/api/edge/anime/48438/quotes"
+          }
+        },
+        "episodes": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/48438/relationships/episodes",
+            "related": "https://kitsu.io/api/edge/anime/48438/episodes"
+          }
+        },
+        "streamingLinks": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/48438/relationships/streaming-links",
+            "related": "https://kitsu.io/api/edge/anime/48438/streaming-links"
+          }
+        },
+        "animeProductions": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/48438/relationships/anime-productions",
+            "related": "https://kitsu.io/api/edge/anime/48438/anime-productions"
+          }
+        },
+        "animeCharacters": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/48438/relationships/anime-characters",
+            "related": "https://kitsu.io/api/edge/anime/48438/anime-characters"
+          }
+        },
+        "animeStaff": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/48438/relationships/anime-staff",
+            "related": "https://kitsu.io/api/edge/anime/48438/anime-staff"
+          }
+        }
+      }
+    },
+    {
+      "id": "12575",
+      "type": "anime",
+      "links": {
+        "self": "https://kitsu.io/api/edge/anime/12575"
+      },
+      "attributes": {
+        "createdAt": "2016-09-28T08:14:44.534Z",
+        "updatedAt": "2026-10-17T18:00:10.771Z",
+        "slug": "shangri-la-music",
+        "synopsis": "A music video for the Wienners' song \"Shangri-La.\"",
+        "description": "A music video for the Wienners' song \"Shangri-La.\"",
+        "coverImageTopOffset": 0,
+        "titles": {
+          "en_jp": "Shangri-La (Music)",
+          "ja_jp": "シャングリラ"
+        },
+        "canonicalTitle": "Shangri-La (Music)",
+        "abbreviatedTitles": [
+          "Wienners: Shangri-La"
+        ],
+        "averageRating": null,
+        "ratingFrequencies": {
+          "2": "3",
+          "3": "0",
+          "4": "1",
+          "5": "0",
+          "6": "3",
+          "7": "0",
+          "8": "5",
+          "9": "1",
+          "10": "4",
+          "11": "0",
+          "12": "9",
+          "13": "0",
+          "14": "1",
+          "15": "0",
+          "16": "3",
+          "17": "0",
+          "18": "0",
+          "19": "0",
+          "20": "1"
+        },
+        "userCount": 44,
+        "favoritesCount": 0,
+        "startDate": "2011-10-05",
+        "endDate": "2011-10-05",
+        "nextRelease": null,
+        "popularityRank": 18980,
+        "ratingRank": null,
+        "ageRating": "G",
+        "ageRatingGuide": "All Ages",
+        "subtype": "music",
+        "status": "finished",
+        "tba": null,
+        "posterImage": {
+          "tiny": "https://media.kitsu.app/anime/poster_images/12575/tiny.jpg",
+          "large": "https://media.kitsu.app/anime/poster_images/12575/large.jpg",
+          "small": "https://media.kitsu.app/anime/poster_images/12575/small.jpg",
+          "medium": "https://media.kitsu.app/anime/poster_images/12575/medium.jpg",
+          "original": "https://media.kitsu.app/anime/poster_images/12575/original.jpg",
+          "meta": {
+            "dimensions": {
+              "tiny": {
+                "width": null,
+                "height": null
+              },
+              "large": {
+                "width": null,
+                "height": null
+              },
+              "small": {
+                "width": null,
+                "height": null
+              },
+              "medium": {
+                "width": null,
+                "height": null
+              }
+            }
+          }
+        },
+        "coverImage": null,
+        "episodeCount": 1,
+        "episodeLength": 4,
+        "totalLength": 4,
+        "youtubeVideoId": null,
+        "showType": "music",
+        "nsfw": false
+      },
+      "relationships": {
+        "genres": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/12575/relationships/genres",
+            "related": "https://kitsu.io/api/edge/anime/12575/genres"
+          }
+        },
+        "categories": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/12575/relationships/categories",
+            "related": "https://kitsu.io/api/edge/anime/12575/categories"
+          }
+        },
+        "castings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/12575/relationships/castings",
+            "related": "https://kitsu.io/api/edge/anime/12575/castings"
+          }
+        },
+        "installments": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/12575/relationships/installments",
+            "related": "https://kitsu.io/api/edge/anime/12575/installments"
+          }
+        },
+        "mappings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/12575/relationships/mappings",
+            "related": "https://kitsu.io/api/edge/anime/12575/mappings"
+          }
+        },
+        "reviews": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/12575/relationships/reviews",
+            "related": "https://kitsu.io/api/edge/anime/12575/reviews"
+          }
+        },
+        "mediaRelationships": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/12575/relationships/media-relationships",
+            "related": "https://kitsu.io/api/edge/anime/12575/media-relationships"
+          }
+        },
+        "characters": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/12575/relationships/characters",
+            "related": "https://kitsu.io/api/edge/anime/12575/characters"
+          }
+        },
+        "staff": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/12575/relationships/staff",
+            "related": "https://kitsu.io/api/edge/anime/12575/staff"
+          }
+        },
+        "productions": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/12575/relationships/productions",
+            "related": "https://kitsu.io/api/edge/anime/12575/productions"
+          }
+        },
+        "quotes": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/12575/relationships/quotes",
+            "related": "https://kitsu.io/api/edge/anime/12575/quotes"
+          }
+        },
+        "episodes": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/12575/relationships/episodes",
+            "related": "https://kitsu.io/api/edge/anime/12575/episodes"
+          }
+        },
+        "streamingLinks": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/12575/relationships/streaming-links",
+            "related": "https://kitsu.io/api/edge/anime/12575/streaming-links"
+          }
+        },
+        "animeProductions": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/12575/relationships/anime-productions",
+            "related": "https://kitsu.io/api/edge/anime/12575/anime-productions"
+          }
+        },
+        "animeCharacters": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/12575/relationships/anime-characters",
+            "related": "https://kitsu.io/api/edge/anime/12575/anime-characters"
+          }
+        },
+        "animeStaff": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/12575/relationships/anime-staff",
+            "related": "https://kitsu.io/api/edge/anime/12575/anime-staff"
+          }
+        }
+      }
+    }
+  ],
+  "meta": {
+    "count": 9
+  },
+  "links": {
+    "first": "https://kitsu.io/api/edge/anime?filter%5Btext%5D=Shangri-La&page%5Blimit%5D=6&page%5Boffset%5D=0",
+    "next": "https://kitsu.io/api/edge/anime?filter%5Btext%5D=Shangri-La&page%5Blimit%5D=6&page%5Boffset%5D=6",
+    "last": "https://kitsu.io/api/edge/anime?filter%5Btext%5D=Shangri-La&page%5Blimit%5D=6&page%5Boffset%5D=3"
+  }
+}

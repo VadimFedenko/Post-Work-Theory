@@ -1,0 +1,519 @@
+{
+  "batch_id": "batch-046",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0271",
+    "c0272",
+    "c0273",
+    "c0274",
+    "c0275",
+    "c0276",
+    "c0277",
+    "c0278",
+    "c0279",
+    "c0280",
+    "c0281",
+    "c0282",
+    "c0283"
+  ],
+  "sources": [
+    {
+      "id": "src-blue-event-reference",
+      "title": "Beyond the Blue Event Horizon",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Beyond_the_Blue_Event_Horizon",
+      "kind": "secondary_plot_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public food-factory expedition and Earth-hunger paragraphs read",
+      "read_scope": "A working alien factory is investigated with hopes of feeding Earth.",
+      "limitations": "The expedition’s purpose is not an already realized universal interstellar support economy."
+    },
+    {
+      "id": "src-bob-legion-publisher",
+      "title": "We Are Legion (We Are Bob)",
+      "author": "Simon and Schuster / Saga Press",
+      "url": "https://www.simonandschuster.com/books/We-Are-Legion-%28We-Are-Bob%29/Dennis-E-Taylor/Bobiverse/9781668221570",
+      "kind": "publisher_synopsis_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public upload, government ownership and self-replicating mission description read",
+      "read_scope": "A human-derived mind is put to work in a self-replicating probe.",
+      "limitations": "Self-replication and virtual embodiment do not by themselves establish a distinct supported nonworking cohort or an economic charter."
+    },
+    {
+      "id": "src-bob-printer-readers",
+      "title": "Book 4: Economy",
+      "author": "r/bobiverse readers, 2023",
+      "url": "https://www.reddit.com/r/bobiverse/comments/17xk0cq",
+      "kind": "secondary_reader_discussion_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed printer-credit and colony-economy discussion read",
+      "read_scope": "Material scarcity and exchange continue despite printing capacity.",
+      "limitations": "Later reader discussion, not a verified account of each earlier colony or an automatic universal-support guarantee."
+    },
+    {
+      "id": "src-heavens-river-administrator",
+      "title": "Anek",
+      "author": "Bobiverse Wiki contributors",
+      "url": "https://bobiverse.fandom.com/wiki/Anek",
+      "kind": "secondary_lore_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed technology, political control and Scattering description read",
+      "read_scope": "A sentient non-replicant AI keeps Quinlans at an Iron Age level and uses robots and local Crew to enforce control.",
+      "limitations": "Fan reference only. No direct employment-policy motive or complete household entitlement is given; the zero classification is an explicit technological-restriction interpretation. Administrator naming differs in other fan accounts."
+    },
+    {
+      "id": "src-heavens-river-starsend",
+      "title": "Heaven’s River by Dennis E. Taylor",
+      "author": "Starsend review archive, October 2021",
+      "url": "https://www.starsend.co.uk/2021/10/",
+      "kind": "secondary_literary_review_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Identified Heaven’s River paragraph read",
+      "read_scope": "Quinlan society and the distinction from the diverging Bob collective.",
+      "limitations": "Brief corroborating context only, not detailed economic proof; unrelated Star Trek paragraphs in the archive are excluded."
+    },
+    {
+      "id": "src-children-time-reference",
+      "title": "Children of Time",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Children_of_Time_%28novel%29",
+      "kind": "secondary_plot_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public Portiid development and ant paragraphs read",
+      "read_scope": "Uplifted spiders, cities and domesticated ants.",
+      "limitations": "Uplift and ant computation do not establish a labor-independent provision system or a justified economic person proxy."
+    },
+    {
+      "id": "src-children-ruin-reference",
+      "title": "Children of Ruin",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Children_of_Ruin",
+      "kind": "secondary_plot_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public octopus and interspecies setting paragraphs read",
+      "read_scope": "An uplifted octopus society and interspecies contact.",
+      "limitations": "Different cognition and technological accomplishment do not settle ordinary material access."
+    },
+    {
+      "id": "src-children-memory-reading-notes",
+      "title": "Children of Memory",
+      "author": "Reboil reader chapter notes",
+      "url": "https://reboil.com/mediawiki/Children_of_Memory",
+      "kind": "secondary_reader_notes_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed closing simulation and hunger passages read",
+      "read_scope": "Repeated simulated colony hardship and debate about virtual persons.",
+      "limitations": "Reader notes are not an authoritative plot edition. Other study-guide snippets conflict over the colony’s physical history; no resolution is invented and no full novel is read."
+    },
+    {
+      "id": "src-dogs-war-reference",
+      "title": "Dogs of War",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Dogs_of_War_%282017_novel%29",
+      "kind": "secondary_plot_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public Rex and implant-control description read",
+      "read_scope": "Engineered sentient soldiers and commanded labor.",
+      "limitations": "Working nonhuman persons are not automatically nonhuman automation serving a leisured human population."
+    },
+    {
+      "id": "src-bear-head-reference",
+      "title": "Bear Head",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Bear_Head",
+      "kind": "secondary_plot_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public Mars work and elite-luxury paragraphs read",
+      "read_scope": "Human and bioform workers build an environment whose benefits they do not share.",
+      "limitations": "Engineered bodies and an uploaded passenger do not demonstrate that their essential work has been technologically replaced."
+    },
+    {
+      "id": "src-service-model-author",
+      "title": "Service Model Release",
+      "author": "Adrian Tchaikovsky, 2024",
+      "url": "https://adriantchaikovsky.com/service-model-release.html",
+      "kind": "primary_author_book_description",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public setting and hierarchy description read",
+      "read_scope": "Humanity relies on artificial labor while the human-over-robot hierarchy collapses.",
+      "limitations": "Promotional setting account, not a work census or proof that every later robot community supports humans."
+    },
+    {
+      "id": "src-service-model-clockworks",
+      "title": "Service Model",
+      "author": "Clockworks2 annotated critical bibliography",
+      "url": "https://www.clockworks2.org/wiki/index.php?title=Service_Model",
+      "kind": "secondary_annotated_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public displacement, justice-program and chapter-context notes read",
+      "read_scope": "Failure to provide for displaced workers precedes collapse; an autonomous justice program later hastens deaths.",
+      "limitations": "The explanatory passage reproduces a Wikipedia summary, so it is not independent corroboration of that summary. Chapter notes and publisher quotation have distinct provenance; no novel read."
+    },
+    {
+      "id": "src-expert-brother-blackgate",
+      "title": "Wandering a Monster-Ridden World: The Expert System’s Brother",
+      "author": "Black Gate, 2021, quoting a critical review",
+      "url": "https://www.blackgate.com/2021/02/07/wandering-a-monster-ridden-world-the-expert-systems-brother-by-adrian-tchaikovsky/",
+      "kind": "secondary_literary_review_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public village, ghost and Severed-work paragraphs read",
+      "read_scope": "Expert guidance coexists with dangerous essential settlement work.",
+      "limitations": "Expert systems are not automatic production; guidance and exclusion do not establish a post-work economy."
+    },
+    {
+      "id": "src-expert-champion-pw",
+      "title": "The Expert System’s Champion",
+      "author": "Publishers Weekly, 2021",
+      "url": "https://www.publishersweekly.com/9781250766397",
+      "kind": "secondary_literary_review",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public review read",
+      "read_scope": "Human villages, hosted ancestral expertise and the Order of Cain.",
+      "limitations": "Knowledge preservation and social guidance are not a verified automatic material-support system."
+    }
+  ],
+  "societies": [
+    {
+      "id": "heavens-river-iron-age",
+      "candidate_id": "c0274",
+      "name": "Heaven’s River (Quinlan technology restriction — zero variant)",
+      "work": "Heaven’s River",
+      "society": "Quinlan residents under the Administrator’s Iron Age restriction",
+      "media": [
+        "book"
+      ],
+      "record_type": "zero_variant",
+      "scope": {
+        "continuity": "Taylor Bobiverse continuity",
+        "period": "The maintained Iron Age restriction before the later negotiated change is generalized",
+        "population": "Active biological Quinlan residents of Heaven’s River",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Human Bobs or remote avatars counted as Quinlan residents",
+          "An enacted post-restriction abundance society",
+          "All earlier Quinlan history assigned the same rules"
+        ],
+        "branch": null,
+        "player_configurable": false,
+        "proxy_basis": "Quinlans are biological sapient residents with organized communities and distinct individual interests. They provide an explicitly nonhuman economic-person comparison; no human participation percentage is claimed."
+      },
+      "description": "Heaven’s River combines an advanced managed environment with deliberate limits on the technology its inhabitants may use. The Administrator keeps Quinlan society at an Iron Age level and intervenes against developments it considers dangerous. This supports a provisional zero-variant interpretation: advanced automated infrastructure exists, yet its capabilities are withheld from ordinary economic development. The stated purpose is species survival, not an explicit policy of preserving jobs, and that distinction remains part of the classification.\n\nThe controlling agent is a sentient AI distinct from the human-derived Bobs. Robotic surveillance, enforced technological limits and forced population dispersals leave residents little control over the system. That strongly supports the autonomous-control end of the axis. The maintained environment is not enough to establish free food, care or a secure household entitlement, so guarantees remain unresolved. No nonworking fraction is assigned to this alien population. The record concerns the imposed restriction and does not assume that its later relaxation has already produced a specific post-work economy.",
+      "axis": {
+        "guarantees": null,
+        "control": -0.95,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Environmental maintenance and species preservation do not establish a complete individual material entitlement.",
+          "source_ids": [
+            "src-heavens-river-administrator",
+            "src-heavens-river-starsend"
+          ]
+        },
+        "control": {
+          "interval": [
+            -1,
+            -0.8
+          ],
+          "confidence": "medium",
+          "basis": "A sentient AI independently restricts technology and political organization, enforcing its decisions through robots and local Crew.",
+          "source_ids": [
+            "src-heavens-river-administrator"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "No Quinlan-wide participation count is available; biological alien persons are explicitly a comparison proxy.",
+          "source_ids": [
+            "src-heavens-river-administrator",
+            "src-heavens-river-starsend"
+          ]
+        }
+      },
+      "regime_primary": 0,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-heavens-river-administrator",
+        "src-heavens-river-starsend"
+      ],
+      "evidence": [
+        {
+          "claim": "The Administrator imposes an Iron Age technological ceiling despite operating a more advanced automated habitat.",
+          "source_ids": [
+            "src-heavens-river-administrator"
+          ],
+          "locator": "Technology restriction, surveillance and Scattering paragraphs",
+          "kind": "secondary_lore_reference"
+        }
+      ],
+      "uncertainties": [
+        "Zero-variant admission is interpretive and disputed: the policy directly restrains technology, while job preservation is a consequence rather than its stated purpose.",
+        "A narrower reading requiring an explicit employment-preservation motive would keep this as a boundary comparison.",
+        "Alien-person scope and unresolved access must remain visible.",
+        "No later negotiated outcome is treated as a completed abundance system."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      },
+      "regime_analogy": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "service-model-displacement-collapse",
+      "candidate_id": "c0280",
+      "name": "Service Model (Automation-driven human collapse)",
+      "work": "Service Model",
+      "society": "The late human order during automation displacement and the onset of collapse",
+      "media": [
+        "book"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Tchaikovsky Service Model continuity",
+        "period": "The retrospectively described displacement phase and onset of human collapse",
+        "population": "Living humans in the late service-automation order, including displaced workers",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Dead humans counted as nonworkers",
+          "Later robot-only communities",
+          "Every isolated surviving enclave assigned identical institutions",
+          "The justice program’s later killings treated as the original human ownership arrangement"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Service Model describes a human order deeply reliant on artificial labor that fails to provide for workers made unnecessary by it. Automated service remains available to privileged owners while displaced people lack an adequate share of its output. This is a weak-guarantee transition into collapse: production no longer needs the former workforce, but access has not been secured for those losing their role. It is retained for that actual displacement phase, rather than for a hypothetical future recovery.\n\nThe control estimate concerns the earlier human hierarchy that owns and commands service robots. It therefore sits near concentrated human control. Later autonomous action by the justice program is a further change and does not retroactively make the initial arrangement an AI welfare government. The sources identify displacement but provide no complete work census; human machine-tenders and other useful workers cannot be erased. The nonworking axis stays unresolved, and deaths never increase it. Later robot communities and individual surviving households require their own evidence rather than inheriting a single continuous national economy.",
+      "axis": {
+        "guarantees": 0.9,
+        "control": 0.05,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            0.7,
+            1
+          ],
+          "confidence": "medium",
+          "basis": "The retrospective explanation explicitly identifies failure to provide for people displaced by automation as a cause of collapse.",
+          "source_ids": [
+            "src-service-model-author",
+            "src-service-model-clockworks"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.25
+          ],
+          "confidence": "low",
+          "basis": "The earlier hierarchy places human owners over servicing robots; later justice-program autonomy belongs to another stage.",
+          "source_ids": [
+            "src-service-model-author",
+            "src-service-model-clockworks"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Displacement is substantial but no all-living-human work count is given, and necessary human tasks continue.",
+          "source_ids": [
+            "src-service-model-author",
+            "src-service-model-clockworks"
+          ]
+        }
+      },
+      "regime_primary": 3,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-service-model-author",
+        "src-service-model-clockworks"
+      ],
+      "evidence": [
+        {
+          "claim": "Human dependence on artificial labor coexists with failure to support displaced workers.",
+          "source_ids": [
+            "src-service-model-author",
+            "src-service-model-clockworks"
+          ],
+          "locator": "Author release description; Clockworks2 collapse explanation, lines 39-40",
+          "kind": "author_description_and_secondary_plot_explanation"
+        }
+      ],
+      "uncertainties": [
+        "The discovery lead is narrowed to the actual displacement/onset phase described retrospectively, not all post-collapse life.",
+        "The source chain for the collapse explanation is secondary and not independent corroboration.",
+        "AI judicial takeover is a later control relationship and not folded into the initial point."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0271",
+      "status": "needs_evidence",
+      "reason": "A food factory and a plan to relieve hunger do not establish an already functioning broad support economy.",
+      "source_ids": [
+        "src-blue-event-reference"
+      ],
+      "analysis": "The expedition’s hoped-for benefit is distinct from realized general access. A single funded mission is not an interstellar entitlement.",
+      "follow_up": "Skip deeper reading; do not score an anticipated technological benefit as completed institutions."
+    },
+    {
+      "candidate_id": "c0272",
+      "status": "needs_evidence",
+      "reason": "Self-replicating human-derived probes are verified, but the short source does not establish the collective’s durable access rules.",
+      "source_ids": [
+        "src-bob-legion-publisher"
+      ],
+      "analysis": "The initial Bob is a coerced worker, and later autonomous copies must not silently inherit an imagined equal-resource charter or a nonworking percentage.",
+      "follow_up": "Skip deeper reading and keep government assignment separate from later autonomy."
+    },
+    {
+      "candidate_id": "c0273",
+      "status": "needs_evidence",
+      "reason": "Bob-assisted colonization does not yet establish one common human colony allocation system.",
+      "source_ids": [
+        "src-bob-legion-publisher",
+        "src-bob-printer-readers"
+      ],
+      "analysis": "Printing capacity and later credits leave individual colonies’ ownership and wage dependence unresolved; later reader discussion is not an earlier universal constitution.",
+      "follow_up": "Skip reconstruction across colonies and book periods."
+    },
+    {
+      "candidate_id": "c0274",
+      "status": "zero_variant",
+      "reason": "The Administrator’s enforced Iron Age ceiling supports an explicitly disputed technological-restriction zero variant.",
+      "source_ids": [
+        "src-heavens-river-administrator",
+        "src-heavens-river-starsend"
+      ],
+      "society_id": "heavens-river-iron-age"
+    },
+    {
+      "candidate_id": "c0275",
+      "status": "boundary_case",
+      "reason": "Portiid uplift and domesticated ants do not themselves establish post-work provision.",
+      "source_ids": [
+        "src-children-time-reference"
+      ],
+      "analysis": "Advanced nonhuman cognition and biological computation do not identify ordinary access or a justified supported-person denominator.",
+      "follow_up": "Keep as an alien-society comparison."
+    },
+    {
+      "candidate_id": "c0276",
+      "status": "needs_evidence",
+      "reason": "Octopus intelligence and technology do not resolve the society’s material access rules.",
+      "source_ids": [
+        "src-children-ruin-reference"
+      ],
+      "analysis": "Different cognition, factions and spaceflight are insufficient to establish labor-independent distribution or an applicable person proxy.",
+      "follow_up": "Skip deeper reading."
+    },
+    {
+      "candidate_id": "c0277",
+      "status": "boundary_case",
+      "reason": "The simulated colony’s repeated hardship is not a secure post-work support arrangement.",
+      "source_ids": [
+        "src-children-memory-reading-notes"
+      ],
+      "analysis": "A computational substrate does not make experienced hunger or necessary work disappear. Conflicting secondary accounts of physical history are not resolved by invention.",
+      "follow_up": "Skip novel reconstruction; retain the virtual-person question without scoring its economy."
+    },
+    {
+      "candidate_id": "c0278",
+      "status": "boundary_case",
+      "reason": "Bioforms are working sentient agents, not automatically automated substitutes outside the person denominator.",
+      "source_ids": [
+        "src-dogs-war-reference"
+      ],
+      "analysis": "Engineered bodies and obedience implants alone do not establish human release from material production.",
+      "follow_up": "Keep as a labor/personhood comparison."
+    },
+    {
+      "candidate_id": "c0279",
+      "status": "boundary_case",
+      "reason": "Mars relies on human and bioform construction work rather than a verified post-work provision system.",
+      "source_ids": [
+        "src-bear-head-reference"
+      ],
+      "analysis": "Elite luxury and worker exclusion are real, but do not show that the essential work has become unnecessary through automation.",
+      "follow_up": "Skip deeper reading."
+    },
+    {
+      "candidate_id": "c0280",
+      "status": "included",
+      "reason": "The actual automation-displacement phase with failed provision qualifies as a weak-guarantee transition.",
+      "source_ids": [
+        "src-service-model-author",
+        "src-service-model-clockworks"
+      ],
+      "society_id": "service-model-displacement-collapse"
+    },
+    {
+      "candidate_id": "c0281",
+      "status": "boundary_case",
+      "reason": "Post-human robot communities do not establish a human leisure population or a separately justified post-work denominator.",
+      "source_ids": [
+        "src-service-model-author",
+        "src-service-model-clockworks"
+      ],
+      "analysis": "Continuing robot tasks, armies and institutional loops are not evidence that humans enjoy their output. The living displacement phase has its own narrower record.",
+      "follow_up": "Keep as a robot-society comparison."
+    },
+    {
+      "candidate_id": "c0282",
+      "status": "boundary_case",
+      "reason": "Expert-system guidance coexists with real dangerous human settlement labor.",
+      "source_ids": [
+        "src-expert-brother-blackgate"
+      ],
+      "analysis": "Ancestral knowledge in hosts is not automatic production or a material support guarantee.",
+      "follow_up": "Skip deeper reading."
+    },
+    {
+      "candidate_id": "c0283",
+      "status": "needs_evidence",
+      "reason": "The sequel’s hosted expertise and settlement network do not establish a distinct post-work economic regime.",
+      "source_ids": [
+        "src-expert-champion-pw",
+        "src-expert-brother-blackgate"
+      ],
+      "analysis": "Changes in affiliation and knowledge do not prove technological replacement of subsistence labor or independent basic access.",
+      "follow_up": "Skip deeper reading rather than duplicate an unqualified guided-village setting."
+    }
+  ],
+  "review_notes": [
+    "Thirteen reference-led decisions, one post-work transition and one explicitly disputed zero variant. No novel read or long draft reconstruction.",
+    "Heaven’s River uses an explicit biological alien-person proxy. Its zero interpretation concerns technological restraint, not a falsely attributed employment motive.",
+    "Service Model is narrowed to the actual human displacement/onset phase; later AI killing, death and robot-only life are not human leisure.",
+    "The Service Model annotated bibliography reproduces a Wikipedia explanatory passage; these are one source chain, not independent agreement.",
+    "Children of Memory secondary plot accounts conflict over physical history. The economic boundary disposition does not require resolving that chronology."
+  ]
+}

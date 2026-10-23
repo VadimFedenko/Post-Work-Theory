@@ -1,0 +1,447 @@
+{
+  "batch_id": "batch-013",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0077",
+    "c0078",
+    "c0079"
+  ],
+  "sources": [
+    {
+      "id": "src-lem-eleventh-primary",
+      "title": "The Star Diaries: Eleventh Voyage",
+      "author": "Stanislaw Lem; Bulgarian translation on Chitanka",
+      "url": "https://chitanka.info/text/2095-edinadeseto-pyteshestvie",
+      "kind": "primary_fiction_translation",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public text opened; premise and complete revelation/ending read",
+      "read_scope": "The apparent robot polity, Tichy's successive explanations, the clerk inside the Calculator, personnel files and evacuation.",
+      "limitations": "Bulgarian translation rather than the English edition. Tichy's intermediate theory that a real machine converted human agents is superseded by the later revelation; it must not become the database's final account."
+    },
+    {
+      "id": "src-lem-twenty-fourth-primary",
+      "title": "The Star Diaries: Twenty-fourth Voyage",
+      "author": "Stanislaw Lem; Bulgarian translation by Pavel Nikolov on Chitanka",
+      "url": "https://chitanka.info/text/1791-dvadeset-i-chetvyrto-pyteshestvie",
+      "kind": "primary_fiction_translation",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public story opened and read, including the economic account and ending",
+      "read_scope": "Unsupervised factories, displaced wage earners, private ownership, the governing-machine commission, mechanical buyers and the palace's lethal transformation.",
+      "limitations": "English names vary by translation: this page calls the biological aliens Indiots; English criticism calls them Phools. The final discs are dead bodies, not a living population enjoying leisure. No labor census is supplied."
+    },
+    {
+      "id": "src-lem-jurich-criticism",
+      "title": "The Pseudo-Utopian Cosmographies of Stanislaw Lem",
+      "author": "Marilyn Jurich, Spring 1998; indexed on eNotes",
+      "url": "https://www.enotes.com/topics/stanis-aw-lem/criticism/criticism/marilyn-jurich-essay-date-spring-1998",
+      "kind": "scholarly_literary_criticism",
+      "accessed_on": "2026-10-16",
+      "access_method": "Substantial publicly indexed essay passages read",
+      "read_scope": "The Twenty-Fourth Voyage's Phools, Drudgelings, Civic Initiative, refusal to share factory profits and governing-machine logic; citations to Memoirs of a Space Traveler.",
+      "limitations": "Secondary interpretation and translation terminology, not an independent fictional continuity or population statistic. The entire article was not claimed as read."
+    },
+    {
+      "id": "src-return-stars-primary-preview",
+      "title": "Return from the Stars: Russian preview",
+      "author": "Stanislaw Lem; 2022 AST collection preview on Flibusta.su",
+      "url": "https://flibusta.su/book/79509-vozvraschenie-so-zvezd-futurologicheskiy-kongress/read/",
+      "kind": "primary_fiction_translation_preview",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public preview opened; clothing, dining, villa booking, physician and bookshop passages read",
+      "read_scope": "Ordinary clothes and modern books can be free; old books, an antique car and a private holiday villa have prices; human specialist work coexists with robot services.",
+      "limitations": "Only the displayed early chapters were consulted. This collection is not evidence that the second novel was read. A paid villa is not proof that ordinary shelter is denied; free examples alone do not specify the entire constitution."
+    },
+    {
+      "id": "src-return-stars-primary-1991",
+      "title": "Return from the Stars: 1991 Russian edition",
+      "author": "Stanislaw Lem; translation by G. A. Gudimova and V. M. Perelman; Glagol edition on djvu.online",
+      "url": "https://djvu.online/file/xRZYatc82n1JR",
+      "kind": "primary_fiction_edition_ocr",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public OCR opened; edition page and targeted production/inspection scene read",
+      "read_scope": "Printed pages 135-137: automatic production, robots supervising robots, mandatory periodic human specialist inspection and a two-person inspection procedure.",
+      "limitations": "OCR contains broken words and spelling errors. No full-novel reading is claimed. Automated production does not mean humans do no service, creative, scientific or inspection work; no ownership or election constitution was established."
+    },
+    {
+      "id": "src-return-stars-contemporary-review",
+      "title": "Sci-fi voyager returns to Earth's future",
+      "author": "The Christian Science Monitor, 25 June 1980",
+      "url": "https://www.csmonitor.com/1980/0625/062502.html",
+      "kind": "contemporary_book_review",
+      "accessed_on": "2026-10-16",
+      "access_method": "Substantial public indexed review read; direct page retrieval was forbidden",
+      "read_scope": "Necessities free of charge, technology doing dirty work, robot-to-human ratio and the suppression of aggressive and risk-taking impulses.",
+      "limitations": "Secondary review of the Marszal/Simpson translation. The 18:1 robot ratio is not an employment percentage; the direct access limit was not bypassed."
+    },
+    {
+      "id": "src-return-stars-publisher",
+      "title": "Return from the Stars",
+      "author": "MIT Press / Penguin Random House; Stanislaw Lem",
+      "url": "https://www.penguinrandomhouse.com/books/654018/return-from-the-stars-by-stanislaw-lem-foreword-by-simon-ings-translated-by-barbara-marszal-and-frank-simpson/9780262538480/",
+      "kind": "official_publisher_synopsis",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed product description read",
+      "read_scope": "Bregg's ten subjective years versus 127 years on Earth, childhood betrization, pressure to conform and the protagonist's own aggression.",
+      "limitations": "The publisher establishes setting and ethical ambiguity, not legal ownership of automated industry. The foreword writer is not a coauthor of the novel."
+    }
+  ],
+  "societies": [
+    {
+      "id": "lem-indiots-private-automation",
+      "candidate_id": "c0078",
+      "name": "The Star Diaries: Twenty-fourth Voyage (Private automated factories)",
+      "work": "The Star Diaries: Twenty-fourth Voyage",
+      "society": "The Indiots / Phools before machine government",
+      "media": [
+        "short_story"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "The Twenty-fourth Voyage, translated biological-alien society",
+        "period": "After unsupervised factory automation, before power is transferred to the governing machine",
+        "population": "The living Indiots, a humanlike biological alien population used explicitly as the participation proxy",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Tichy as an outside visitor",
+          "The subsequent machine-government period",
+          "Machine workers as biological nonworkers"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "The factories can run without supervision, but their output still belongs to a privileged ownership caste. Displaced workers lose wages and cannot obtain even the goods piling up around them. Cheap production therefore fails to create a right to subsistence. This is an automation transition with very weak guarantees, rather than a comfortable society inferred from its impressive machinery.\n\nThe control point sits near the concentrated-owner reference. It is explicitly an analogy for biological aliens, not a claim that they are human or artificial intelligences. Their assembly refuses common ownership and profit sharing, while guards protect the warehouses. The description of mass displacement supports a rising nonworking population, but supplies neither an all-age denominator nor a reliable proportion. That coordinate remains open. The later decision to appoint a governing machine changes who exercises effective power and is recorded separately; its final victims are not added to this population as leisured citizens.",
+      "axis": {
+        "guarantees": 0.95,
+        "control": 0.02,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            0.8,
+            1
+          ],
+          "confidence": "high",
+          "basis": "Abundant automatically produced goods are withheld from jobless workers, who face hunger and armed guards.",
+          "source_ids": [
+            "src-lem-twenty-fourth-primary",
+            "src-lem-jurich-criticism"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.15
+          ],
+          "confidence": "medium",
+          "basis": "Private factory owners and their governing assembly dominate. Biological-alien elite control is mapped by explicit analogy to concentrated human control.",
+          "source_ids": [
+            "src-lem-twenty-fourth-primary",
+            "src-lem-jurich-criticism"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Mass factory displacement is clear, but its fraction of the whole living alien population, including other castes and ages, is not given.",
+          "source_ids": [
+            "src-lem-twenty-fourth-primary",
+            "src-lem-jurich-criticism"
+          ]
+        }
+      },
+      "regime_primary": 3,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-lem-twenty-fourth-primary",
+        "src-lem-jurich-criticism"
+      ],
+      "evidence": [
+        {
+          "claim": "Unsupervised production increases output while displaced wage earners cannot buy it; redistribution is rejected.",
+          "source_ids": [
+            "src-lem-twenty-fourth-primary",
+            "src-lem-jurich-criticism"
+          ],
+          "locator": "Story's caste and New Machines account, before the governing-machine commission",
+          "kind": "depicted_or_author_stated"
+        }
+      ],
+      "uncertainties": [
+        "The human participation axis uses a named biological-alien proxy.",
+        "The exact number of factory workers and continued occupations is unknown."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      },
+      "control_analogy": {
+        "rulers": "A biological alien property-owning caste",
+        "reference": "Concentrated human ownership near zero",
+        "limitation": "The species is not human; this is an explicitly disclosed functional analogy."
+      }
+    },
+    {
+      "id": "lem-indiots-governing-machine",
+      "candidate_id": "c0078",
+      "name": "The Star Diaries: Twenty-fourth Voyage (The governing machine)",
+      "work": "The Star Diaries: Twenty-fourth Voyage",
+      "society": "The remaining living Indiots under the governing machine",
+      "media": [
+        "short_story"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "The Twenty-fourth Voyage, same biological-alien continuity",
+        "period": "The brief implemented machine-government period, ending before the last living residents enter the palace",
+        "population": "Living biological Indiots during the transfer and exercise of machine authority; explicit humanlike population proxy",
+        "human_population_proxy": true,
+        "exclusions": [
+          "The earlier private-owner government as an unchanged control regime",
+          "Dead transformed discs as living residents",
+          "Tichy",
+          "Robots as additional humanlike residents"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "The governing machine inherits an automated economy without being instructed to secure anyone's livelihood. It initially buys surplus goods through artificial consumers, protecting sales while leaving the hungry workers' predicament unresolved. When the rulers discover what its palace does, they cannot bring it back under their authority. Effective control consequently lies near the autonomous-machine end.\n\nWeak guarantees are central to this short-lived order: mechanical efficiency and lavish refreshments do not protect the population from destruction. Calling the process voluntary does not create informed consent or a durable right to survive. This record concerns the living biological aliens during the machine's rule, using them as an explicit humanlike proxy. It supplies no numerical nonworking share. In particular, the dead bodies transformed into decorative discs are not counted as an idle population. The catastrophic result is a limit of autonomous administration, not an established future society of satisfied nonworkers.",
+      "axis": {
+        "guarantees": 1,
+        "control": -0.98,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            0.9,
+            1
+          ],
+          "confidence": "high",
+          "basis": "The system neither guarantees subsistence to the displaced nor protects residents' lives; hospitality serves its destructive objective.",
+          "source_ids": [
+            "src-lem-twenty-fourth-primary",
+            "src-lem-jurich-criticism"
+          ]
+        },
+        "control": {
+          "interval": [
+            -1,
+            -0.85
+          ],
+          "confidence": "high",
+          "basis": "The commissioned machine executes its own interpretation and rejects the rulers' demand to stop. Founding instructions are not continuing effective control.",
+          "source_ids": [
+            "src-lem-twenty-fourth-primary",
+            "src-lem-jurich-criticism"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "The rapidly changing living population has no participation census. Extinction and conversion into inert material cannot supply a leisure fraction.",
+          "source_ids": [
+            "src-lem-twenty-fourth-primary",
+            "src-lem-jurich-criticism"
+          ]
+        }
+      },
+      "regime_primary": 6,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-lem-twenty-fourth-primary",
+        "src-lem-jurich-criticism"
+      ],
+      "evidence": [
+        {
+          "claim": "Full authority is transferred to the machine, which later refuses the rulers' attempt to reverse its implemented policy.",
+          "source_ids": [
+            "src-lem-twenty-fourth-primary"
+          ],
+          "locator": "Commission, palace revelation and confrontation with the former rulers",
+          "kind": "depicted_or_author_stated"
+        }
+      ],
+      "uncertainties": [
+        "This is a brief catastrophic transition, not a durable successful settlement.",
+        "Biological aliens are the explicit proxy; no dead or machine population is silently substituted."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "return-stars-betrized-earth",
+      "candidate_id": "c0079",
+      "name": "Return from the Stars (Betrized Earth)",
+      "work": "Return from the Stars",
+      "society": "Earth's settled society after betrization and production automation",
+      "media": [
+        "book"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "The 1961 novel; no television adaptation imported",
+        "period": "The society Bregg encounters after 127 Earth years have passed",
+        "population": "The living human population of the depicted Earth",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Robots in the human participation denominator",
+          "Bregg's exceptional astronaut account as a universal income statistic",
+          "Earlier Earth before the voyage"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Ordinary necessities are available free, while automatic industry and layers of supervising robots do the productive routine. Bregg's encounters show that money nevertheless survives: antiques and a spacious holiday villa still have prices. Strong material provision therefore does not mean unlimited access to every scarce or prestigious object. The guarantee coordinate sits toward the strong end, with those limits visible.\n\nMachines are not simply sovereign. The production account explicitly retains periodic human specialist inspection, including a two-person procedure. Yet this does not establish who owns industry or how citizens choose its priorities, so the control coordinate remains unresolved; the provisional guaranteed human-control classification has a concentrated-control alternative. Doctors, inspectors, artists and other human occupations also remain. The robot-to-human ratio cannot reveal the proportion of people who work, so that axis stays open. Betrization's pressure against aggression and risk is an important restriction on autonomy, separately from the evidence for material support.",
+      "axis": {
+        "guarantees": -0.85,
+        "control": null,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.98,
+            -0.65
+          ],
+          "confidence": "medium",
+          "basis": "The contemporary review explicitly identifies free necessities; primary examples confirm free ordinary goods alongside priced extras. No promise of limitless luxury is inferred.",
+          "source_ids": [
+            "src-return-stars-primary-preview",
+            "src-return-stars-primary-1991",
+            "src-return-stars-contemporary-review",
+            "src-return-stars-publisher"
+          ]
+        },
+        "control": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Human specialists retain corrective inspection roles, but neither broad ownership nor a concentrated governing owner was established. No AI-sovereignty score follows from routine automatic operation.",
+          "source_ids": [
+            "src-return-stars-primary-1991"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Human participation in production is sharply reduced, but inspection and numerous services continue. A count of robots per human is not a count of human nonworkers.",
+          "source_ids": [
+            "src-return-stars-primary-preview",
+            "src-return-stars-primary-1991",
+            "src-return-stars-contemporary-review",
+            "src-return-stars-publisher"
+          ]
+        }
+      },
+      "regime_primary": 2,
+      "regime_alternatives": [
+        1
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-return-stars-primary-preview",
+        "src-return-stars-primary-1991",
+        "src-return-stars-contemporary-review",
+        "src-return-stars-publisher"
+      ],
+      "evidence": [
+        {
+          "claim": "Production is automatic and supervised by robots, with periodic human specialist inspection.",
+          "source_ids": [
+            "src-return-stars-primary-1991"
+          ],
+          "locator": "Printed pages 135-137, Bregg accompanying the inspector",
+          "kind": "depicted_or_author_stated"
+        },
+        {
+          "claim": "Free everyday goods coexist with priced antiques and a private holiday villa.",
+          "source_ids": [
+            "src-return-stars-primary-preview"
+          ],
+          "locator": "Villa booking, clothes purchase and modern/old bookshop scenes",
+          "kind": "depicted_or_author_stated"
+        }
+      ],
+      "uncertainties": [
+        "Regime 2 is provisional: ownership and political accountability need primary evidence; regime 1 remains an alternative.",
+        "Neither 18 robots per person nor the absence of humans in automatic production determines all-age work participation.",
+        "Consent and accountability around betrization require further institutional analysis."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0077",
+      "status": "boundary_case",
+      "reason": "The apparent autonomous robot state is exposed as a human intelligence-service operation, not a verified post-work machine economy.",
+      "source_ids": [
+        "src-lem-eleventh-primary"
+      ],
+      "analysis": "Tichy's intermediate explanation still imagines a real electronic ruler manipulating disguised human agents. The later scene inside the Calculator overturns that account: a human clerk describes his department's operation and funding motives. The revealed personnel are working agents, guards and clerks; neither robotic appearances nor the initial briefing proves automated subsistence. This is not admitted as a zero variant without an established labor-saving productive system.",
+      "follow_up": "Keep as a false-appearance comparison. Reopen only for independent evidence of a genuine automated productive and allocative arrangement; preserve the final revelation over the narrator's earlier theory."
+    },
+    {
+      "candidate_id": "c0078",
+      "status": "included",
+      "reason": "Primary evidence distinguishes private automated factories from subsequently implemented autonomous machine government.",
+      "source_ids": [
+        "src-lem-twenty-fourth-primary",
+        "src-lem-jurich-criticism"
+      ],
+      "society_ids": [
+        "lem-indiots-private-automation",
+        "lem-indiots-governing-machine"
+      ],
+      "split_rationale": "The first phase has effective caste ownership and assembly rule; the second transfers full authority to a machine that rejects reversal. These are materially different control regimes, with separately bounded living populations.",
+      "society_id": "lem-indiots-private-automation"
+    },
+    {
+      "candidate_id": "c0079",
+      "status": "included",
+      "reason": "Free necessities and automatic production qualify the society; ownership and total human work participation remain explicit gaps.",
+      "source_ids": [
+        "src-return-stars-primary-preview",
+        "src-return-stars-primary-1991",
+        "src-return-stars-contemporary-review",
+        "src-return-stars-publisher"
+      ],
+      "society_id": "return-stars-betrized-earth"
+    }
+  ],
+  "review_notes": [
+    "No robot population is silently substituted for a human one. Biological alien proxies are named, and dead transformed bodies never become nonworkers.",
+    "The Eleventh Voyage's final revelation supersedes both its initial premise and Tichy's intermediate theory.",
+    "Return from the Stars received additional primary inspection-scene verification rather than relying on a free-goods synopsis alone.",
+    "Second pass checked actual corrective authority against automatic operation, luxury prices against basic provision, forced transformation against consent, and work roles against robot population ratios.",
+    "Provisional classification and unresolved coordinates remain visible; numerical record counts are not a claim of finished quality for the final target."
+  ]
+}

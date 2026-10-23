@@ -1,0 +1,810 @@
+{
+  "batch_id": "batch-085",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0713",
+    "c0714",
+    "c0715",
+    "c0716",
+    "c0717",
+    "c0718",
+    "c0719",
+    "c0720",
+    "c0721",
+    "c0722",
+    "c0723",
+    "c0724"
+  ],
+  "sources": [
+    {
+      "id": "src-b85-ironkin",
+      "title": "Ironkin",
+      "author": "Lexicanum contributors",
+      "url": "https://wh40k.lexicanum.com/wiki/Ironkin",
+      "kind": "labeled_rule_text_or_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed passage",
+      "read_scope": "Sapient robots share society with biological clone Kin and perform useful mining, cargo, navigation and other roles.",
+      "limitations": "Robot equality is not proof of ordinary work-independent necessities; a secondary article’s claim that clones are nonbiological was discarded."
+    },
+    {
+      "id": "src-b85-earth-caste",
+      "title": "Earth Caste",
+      "author": "Lexicanum public reference",
+      "url": "https://test40k.lexicanum.com/wiki/Earth_Caste",
+      "kind": "labeled_rule_text_or_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed passage",
+      "read_scope": "Drones perform much simple labor, while the Earth Caste supplies farming, manufacturing and engineering.",
+      "limitations": "A specific productive caste reference, not a universal T’au food/housing charter; no unsupported political label is adopted."
+    },
+    {
+      "id": "src-b85-servitors",
+      "title": "Servitor",
+      "author": "Lexicanum contributors",
+      "url": "https://wh40k.lexicanum.com/wiki/Servitor",
+      "kind": "labeled_rule_text_or_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed passage",
+      "read_scope": "Human-derived flesh/machine workers are tolerated in place of true AI, with variable surviving consciousness and compulsory labor.",
+      "limitations": "Bounded overview/consciousness sections; servitors are not assumed to have all lost personhood, and broad Imperial worlds retain different institutions."
+    },
+    {
+      "id": "src-b85-mechanicus",
+      "title": "Adeptus Mechanicus labor organization",
+      "author": "Warhammer 40k Wiki contributors",
+      "url": "https://warhammer40k.fandom.com/wiki/Adeptus_Mechanicus",
+      "kind": "labeled_rule_text_or_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed passage",
+      "read_scope": "Tech-priests command vast servitor labor forces in forge-world production.",
+      "limitations": "Only labor-role passages; this subset does not establish a separate access system from the retained Imperial servitor/AI-restriction order."
+    },
+    {
+      "id": "src-b85-titan",
+      "title": "Titanian Commonwealth 1e",
+      "author": "Eclipse Phase text reproduced by Chuck’s Eclipse Phase Wiki",
+      "url": "https://eclipse-phase.fandom.com/wiki/Titanian_Commonwealth_1e",
+      "kind": "labeled_rule_text_or_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed passage",
+      "read_scope": "Basic needs, social-money microcorps and direct citizen control of common resources coexist with a contribution contract.",
+      "limitations": "First-edition reproduction, including in-universe viewpoints; second-edition material was located but not merged into this scope."
+    },
+    {
+      "id": "src-b85-anarchists",
+      "title": "Anarchists 1e",
+      "author": "Eclipse Phase text reproduced by Chuck’s Eclipse Phase Wiki",
+      "url": "https://eclipse-phase.fandom.com/wiki/Anarchists_1e",
+      "kind": "labeled_rule_text_or_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed passage",
+      "read_scope": "Shared cornucopia access, collective property, direct democracy and robot delegation coexist with useful human collectives.",
+      "limitations": "Local variations are explicit; not every Autonomist Alliance member is an anarchist commune."
+    },
+    {
+      "id": "src-b85-economy",
+      "title": "The Economy 1e",
+      "author": "Eclipse Phase text reproduced by Chuck’s Eclipse Phase Wiki",
+      "url": "https://eclipse-phase.fandom.com/wiki/The_Economy_1e",
+      "kind": "labeled_rule_text_or_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed passage",
+      "read_scope": "Old, transitional and new economies differ in fabrication access, payment, public basics, taxes, contribution criteria and scarcity.",
+      "limitations": "Bounded economic sections, not the whole rulebook. New-economy participation conditions and scarce living space/morphs must not be erased."
+    },
+    {
+      "id": "src-b85-economy-primary",
+      "title": "Eclipse Phase core economic allowance passage",
+      "author": "Posthuman Studios first-edition core text",
+      "url": "https://legacy.eclipsephase.com/downloads/Mobile_EclipsePhase_2ndPrinting1.pdf",
+      "kind": "labeled_rule_text_or_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed passage",
+      "read_scope": "A short indexed passage states citizenship/contribution conditions and resource quotas for new-economy fabrication.",
+      "limitations": "Indexed text only; no full PDF download, render or complete book read. Allowances are not unlimited."
+    },
+    {
+      "id": "src-b85-jovian",
+      "title": "Jovian Republic 1e",
+      "author": "Eclipse Phase text reproduced by Chuck’s Eclipse Phase Wiki",
+      "url": "https://eclipse-phase.fandom.com/wiki/Jovian_Republic_1e",
+      "kind": "labeled_rule_text_or_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed passage",
+      "read_scope": "The junta restricts public nanofabrication and transhuman technologies while retaining an old-economy hierarchy.",
+      "limitations": "Restrictions coexist with actual elite-controlled fabrication; political suppression is not automatically a separate employment-preservation record."
+    },
+    {
+      "id": "src-b85-titan-headhunters",
+      "title": "Eclipse Phase second-edition Headhunter entry",
+      "author": "Posthuman Studios rule text indexed via AnyFlip",
+      "url": "https://anyflip.com/usqxr/hmoj/basic/401-434",
+      "kind": "labeled_rule_text_or_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed passage",
+      "read_scope": "A bounded unit passage describes forced uploading through head harvesting.",
+      "limitations": "Second-edition threat context only, not a full sourcebook read or evidence of a benign/active civilian economy."
+    },
+    {
+      "id": "src-b85-ths-review",
+      "title": "Review of Transhuman Space",
+      "author": "RPGnet reviewer",
+      "url": "https://www.rpg.net/reviews/archive/classic/rev_6815.phtml",
+      "kind": "labeled_rule_text_or_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed passage",
+      "read_scope": "The setting includes advanced robotics, libertarian Duncanite bases and nanosocialist disputes about intellectual property.",
+      "limitations": "A review’s broad setting geography is not actual ordinary allocation in each region."
+    },
+    {
+      "id": "src-b85-ths-designer",
+      "title": "Fifth Wave designer’s notes",
+      "author": "Reproduced designer article at Zanotowane",
+      "url": "https://zanotowane.pl/1199/3922/",
+      "kind": "labeled_rule_text_or_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed passage",
+      "read_scope": "The designer explains nanosocialism/infosocialism through patent and information conflicts, distinguishing it from simple industrial nationalization.",
+      "limitations": "A reproduced design note, not a complete regional welfare charter; the official Fifth Wave page returned 403 and was respected."
+    },
+    {
+      "id": "src-b85-ths-fifthwave",
+      "title": "Fifth Wave indexed social/economic context",
+      "author": "Steve Jackson Games text indexed at Dokumen",
+      "url": "https://dokumen.pub/transhuman-space-classic-fifth-wave-1556344597.html",
+      "kind": "labeled_rule_text_or_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed passage",
+      "read_scope": "A bounded indexed passage discusses European demographics, labor shortages and pressure on social programs.",
+      "limitations": "No complete book read/download; population aging and broad prosperity do not prove an automation-funded universal floor."
+    }
+  ],
+  "societies": [
+    {
+      "id": "warhammer-imperial-servitor-ai-restrictions",
+      "candidate_id": "c0715",
+      "name": "Warhammer 40,000 — Imperial servitor labor and AI restrictions",
+      "work": "Warhammer 40,000",
+      "society": "The Imperial technological doctrine retaining human-derived servitor labor",
+      "media": [
+        "tabletop",
+        "book"
+      ],
+      "record_type": "zero_variant",
+      "scope": {
+        "continuity": "Imperial/Mechanicus doctrine as described through codex and prose lore",
+        "period": "Established Imperial production before any particular local collapse",
+        "population": "Living human and human-derived laboring subjects under servitor/AI doctrine",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Every servitor as unconscious non-person machinery",
+          "A uniform welfare charter across all Imperial planets",
+          "Pre-revolt Dark Age colonies",
+          "A separate duplicate point for forge-world servitor production"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Imperial doctrine tolerates flesh-and-metal servitors while rejecting true artificial intelligence. Human beings, clones and other human-derived victims are remade to perform repetitive productive tasks that an independent thinking-machine system might otherwise undertake. This is retained as an interpretive zero variant: the constraint preserves human-derived labor despite the setting’s known technological alternatives. Fear and religious control, rather than protecting workers’ jobs, are the relevant motives. Useful labor is real and is not reclassified as meaningless simply because it is coerced.\n\nAuthority belongs to Imperial and Mechanicus elites, near the concentrated human-control position. Guarantees are weak for the scoped laboring subjects because their bodies, freedom and continued security can be forcibly withdrawn. Servitors’ surviving consciousness varies; some retain enough awareness or neural architecture to remain victims doing work, so they cannot all be removed from the denominator as machines. No reliable all-person participation rate is available. Forge-world production exemplifies the same doctrine here, while differing local planetary economies are not assigned a fabricated universal welfare constitution.",
+      "axis": {
+        "guarantees": 0.9,
+        "control": 0,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            0.65,
+            1
+          ],
+          "confidence": "medium",
+          "basis": "Forced conversion, bodily appropriation and unending servitude make security weak for the selected laboring subjects.",
+          "source_ids": [
+            "src-b85-servitors",
+            "src-b85-mechanicus"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.1
+          ],
+          "confidence": "medium",
+          "basis": "Imperial/Mechanicus organic elites direct the restricted technology and labor forces; servitor operation is not AI sovereignty.",
+          "source_ids": [
+            "src-b85-servitors",
+            "src-b85-mechanicus"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Variable consciousness and useful coerced work require a careful denominator; no all-person census exists.",
+          "source_ids": [
+            "src-b85-servitors",
+            "src-b85-mechanicus"
+          ]
+        }
+      },
+      "regime_primary": 0,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b85-servitors",
+        "src-b85-mechanicus"
+      ],
+      "evidence": [
+        {
+          "claim": "Tolerated human-derived servitors perform compulsory labor while true AI is rejected.",
+          "source_ids": [
+            "src-b85-servitors",
+            "src-b85-mechanicus"
+          ],
+          "locator": "Servitor overview/consciousness and Mechanicus labor-command sections",
+          "kind": "secondary_lore_reference"
+        }
+      ],
+      "uncertainties": [
+        "Interpretive zero variant: religious/security control, not demonstrated job protection.",
+        "Human-derived persons doing work remain visible.",
+        "Imperial local material institutions vary.",
+        "Forge-world servitor production is included in this doctrine scope."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      },
+      "regime_analogy": [
+        3
+      ]
+    },
+    {
+      "id": "eclipse-phase-titan-commonwealth",
+      "candidate_id": "c0717",
+      "name": "Eclipse Phase — Titanian Commonwealth",
+      "work": "Eclipse Phase",
+      "society": "First-edition Titanian technosocialist citizen economy",
+      "media": [
+        "tabletop"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Eclipse Phase first-edition setting",
+        "period": "Established post-Fall Commonwealth",
+        "population": "Living humans and active human-derived citizens; other recognized persons are fellow participants",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Dormant ego files as active residents",
+          "Second-edition demographic/rule changes",
+          "All Autonomist Alliance polities as identical",
+          "AI bureaucrats as external sovereigns"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Titan combines nanofabrication and a shared basic-needs economy with socially owned microcorps. Citizens do not buy mundane necessities through ordinary wages. Kroner instead allocate collective investment: the proceeds associated with productive activity are reinvested into social projects. This makes the distinction between access to life and the direction of additional resources explicit. Guarantees are strong, though citizenship, social-contract duties and the practical limits of available resources remain relevant.\n\nControl lies well toward distributed ownership because the population’s Plurality directs common resources, microcorp funding and profits. Elected administrators and AI bureaucrats do not become an independent machine ruling class merely by carrying out those decisions. This is a human-and-recognized-person political community; active human-derived citizens are an explicit participation proxy and dormant files are excluded. Real research, care, defense and habitat construction continue, with contribution and reputation rewards. The record therefore leaves nonworking unresolved rather than treating currency-free basics or AI administration as proof that most people do no useful work. First-edition rules are kept separate from later revisions.",
+      "axis": {
+        "guarantees": -0.8,
+        "control": 0.85,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.95,
+            -0.3
+          ],
+          "confidence": "medium",
+          "basis": "Shared mundane needs and fabrication are explicit, with social-contract/citizenship and resource limits.",
+          "source_ids": [
+            "src-b85-titan",
+            "src-b85-economy"
+          ]
+        },
+        "control": {
+          "interval": [
+            0.65,
+            1
+          ],
+          "confidence": "medium",
+          "basis": "The Plurality directs socially owned microcorps, common resources and profits; delegates/AI administration remain constrained.",
+          "source_ids": [
+            "src-b85-titan",
+            "src-b85-economy"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Social-money productivity, project work and reputation continue; no useful-work census is provided.",
+          "source_ids": [
+            "src-b85-titan",
+            "src-b85-economy"
+          ]
+        }
+      },
+      "regime_primary": 2,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b85-titan",
+        "src-b85-economy"
+      ],
+      "evidence": [
+        {
+          "claim": "Shared fabricated basics coexist with citizen-directed common microcorp investment.",
+          "source_ids": [
+            "src-b85-titan",
+            "src-b85-economy"
+          ],
+          "locator": "Titanian social organization, government and Commonwealth/Alliance explanation",
+          "kind": "reproduced_first_edition_rule_lore"
+        }
+      ],
+      "uncertainties": [
+        "First-edition scope; in-universe advocacy remains a source perspective.",
+        "Active human-derived proxy, with other recognized citizens acknowledged.",
+        "Basic access and investment currency are different mechanisms.",
+        "Contribution duties and useful work remain visible."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "eclipse-phase-anarchist-habitats",
+      "candidate_id": "c0718",
+      "name": "Eclipse Phase — Anarchist fabrication commons",
+      "work": "Eclipse Phase",
+      "society": "The first-edition anarchist habitat model within the Autonomist Alliance",
+      "media": [
+        "tabletop"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Eclipse Phase first-edition anarchist habitat description",
+        "period": "Established post-Fall shared-resource habitat life",
+        "population": "Living humans and active human-derived residents in the described anarchist communes",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Titanian state institutions",
+          "Extropian private-property contracts",
+          "All outer-system settlements as identical",
+          "Dormant files or repeated avatars as more people"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "The described anarchist habitats combine equal cornucopia-machine access, common resources and robots doing most routine or demeaning tasks. Material basics can be obtained without ordinary wage purchases, while people organize useful services through voluntary collectives and councils. The guarantee estimate is strong but qualified: first-edition new-economy accounts retain citizenship or contribution criteria, bounded energy/material allowances and scarce living space or advanced bodies. These are not unlimited personal factories exempt from community obligations.\n\nProduction is governed through shared property and direct group decisions rather than a private machine owner or sovereign AI. That places control toward the distributed end of the map, while local variations and informal reputation pressure justify uncertainty. Automation does not remove care, maintenance, defense, art or administration as useful work. No all-person nonworking rate follows from the general delegation of routine jobs, so participation remains null. The record covers the anarchist institutional model, not every member of the broader Autonomist Alliance, and its active human-derived denominator excludes inactive backups and multiplied avatars.",
+      "axis": {
+        "guarantees": -0.65,
+        "control": 0.9,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.95,
+            0.25
+          ],
+          "confidence": "medium",
+          "basis": "Shared fabricated basics are explicit, but local eligibility/contribution rules, quotas and scarce resources qualify access.",
+          "source_ids": [
+            "src-b85-anarchists",
+            "src-b85-economy-primary",
+            "src-b85-economy"
+          ]
+        },
+        "control": {
+          "interval": [
+            0.7,
+            1
+          ],
+          "confidence": "medium",
+          "basis": "Common productive property, direct decisions and self-organized collectives establish more than public ownership in name.",
+          "source_ids": [
+            "src-b85-anarchists",
+            "src-b85-economy-primary",
+            "src-b85-economy"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Useful voluntary and contribution-based work continues; routine job delegation is not a census.",
+          "source_ids": [
+            "src-b85-anarchists",
+            "src-b85-economy-primary",
+            "src-b85-economy"
+          ]
+        }
+      },
+      "regime_primary": 2,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b85-anarchists",
+        "src-b85-economy-primary",
+        "src-b85-economy"
+      ],
+      "evidence": [
+        {
+          "claim": "Equal fabrication access and shared resources are maintained through direct collective organization with routine robot labor.",
+          "source_ids": [
+            "src-b85-anarchists",
+            "src-b85-economy-primary",
+            "src-b85-economy"
+          ],
+          "locator": "Anarchists institutional description and new-economy allowance conditions",
+          "kind": "reproduced_rule_lore_and_indexed_primary_allowance"
+        }
+      ],
+      "uncertainties": [
+        "Anarchist model, not every outer-system polity.",
+        "Eligibility, contribution criteria and scarce resources remain explicit.",
+        "Active human-derived person proxy only.",
+        "No routine-task share is converted into nonworking."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "eclipse-phase-inner-transitional-economy",
+      "candidate_id": "c0719",
+      "name": "Eclipse Phase — Inner-system transitional fabrication economy",
+      "work": "Eclipse Phase",
+      "society": "First-edition hypercorp-influenced habitats with public basic fabbers and private premium goods",
+      "media": [
+        "tabletop"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Eclipse Phase first-edition transitional economy",
+        "period": "Established post-Fall inner-system transitional arrangements",
+        "population": "Living humans and active human-derived eligible residents",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Every hypercorp site as the same old economy",
+          "Dormant infugees as already housed beneficiaries",
+          "Free access to every template, morph or spacecraft",
+          "All housing as unconditionally guaranteed"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Inner-system transitional economies combine public basic fabbers with private control of more complex or fashionable goods. After a modest usage tax, residents can obtain food, ordinary clothing and furnishings without paying for each item, and basic medical care is generally supplied. This creates a real automatic material floor while preserving markets and inequality around designs, electronics, scarce materials, bodies and other privileges. The guarantee estimate is moderately strong for eligible residents, with housing and exclusion left as material limitations.\n\nCorporate and governmental institutions retain important control over fabrication capabilities and restricted inputs. Public access to a limited machine menu does not establish equal ownership of the full productive infrastructure, so control remains near concentrated human authority. The record concerns the described transitional model rather than mislabeling every hypercorporate society as an old economy. Active human-derived citizens are a disclosed proxy; uninstantiated refugees are not automatically receiving bodily necessities. Design, research, maintenance and other useful work persists, and free basic output does not supply a participation census. Nonworking therefore stays unresolved.",
+      "axis": {
+        "guarantees": -0.5,
+        "control": 0.1,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.85,
+            0.4
+          ],
+          "confidence": "medium",
+          "basis": "Tax-qualified free basics and generally free basic care coexist with incomplete housing/morph access and restricted inputs.",
+          "source_ids": [
+            "src-b85-economy"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.35
+          ],
+          "confidence": "low",
+          "basis": "Public menus coexist with corporate/government control of important machines, templates and materials.",
+          "source_ids": [
+            "src-b85-economy"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Free basics do not measure continuing design, maintenance, care or other useful activity.",
+          "source_ids": [
+            "src-b85-economy"
+          ]
+        }
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [
+        3
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-b85-economy"
+      ],
+      "evidence": [
+        {
+          "claim": "Public limited fabrication supplies basics after a usage tax alongside private premium production.",
+          "source_ids": [
+            "src-b85-economy"
+          ],
+          "locator": "The Transitional Economy section",
+          "kind": "reproduced_first_edition_economic_rules"
+        }
+      ],
+      "uncertainties": [
+        "Transitional inner-system model, not every corporate economy.",
+        "Eligible active residents only; housing and body access are not invented.",
+        "Premium scarcity and basic provision are separated.",
+        "Participation remains unresolved."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "eclipse-phase-jovian-fabrication-monopoly",
+      "candidate_id": "c0720",
+      "name": "Eclipse Phase — Jovian Republic’s restricted fabrication economy",
+      "work": "Eclipse Phase",
+      "society": "The first-edition old economy under the Jovian military junta",
+      "media": [
+        "tabletop"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Eclipse Phase first-edition Jovian/old-economy descriptions",
+        "period": "Established post-Fall Jovian rule",
+        "population": "Living human subjects and active human-derived persons where permitted",
+        "human_population_proxy": false,
+        "exclusions": [
+          "All advanced machines as absent",
+          "All restricted technology as available to ordinary citizens",
+          "Other old-economy dictatorships as identical Jovian institutions",
+          "Hypothetical post-revolution provision"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "The Jovian Republic restricts ordinary access to nanofabrication while elites retain productive technology. In the old-economy model associated with its habitats, corporations or authorities sell goods that cornucopia machines can produce at very low cost. Residents still face hunger, homelessness and medical deprivation. The weak guarantee score therefore follows actual technological production combined with restrictive allocation, rather than assuming that conservatism means technology does not exist. Public access and private possession can be tightly policed.\n\nControl is concentrated in the junta and protected institutional owners. Its bioconservative restrictions are relevant to the zero-variant theme, but the retained point describes a functioning machine-production economy whose output remains enclosed, not a second duplicate technological order. The population’s labor and payments remain important routes to necessities despite cheap fabrication. No nonworking percentage can be inferred from that inequality, and useful work remains real. Different Jovian habitats and other old-economy regimes need not share every detail; the record stays within the first-edition description and does not invent a later liberalized system.",
+      "axis": {
+        "guarantees": 0.9,
+        "control": 0,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            0.65,
+            1
+          ],
+          "confidence": "medium",
+          "basis": "Restricted fabrication, paid output and explicit deprivation undermine a universal material floor.",
+          "source_ids": [
+            "src-b85-jovian",
+            "src-b85-economy"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.15
+          ],
+          "confidence": "medium",
+          "basis": "Junta and privileged institutional owners control access and productive machines.",
+          "source_ids": [
+            "src-b85-jovian",
+            "src-b85-economy"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Technological exclusion and poverty are not an all-person useful-work census.",
+          "source_ids": [
+            "src-b85-jovian",
+            "src-b85-economy"
+          ]
+        }
+      },
+      "regime_primary": 3,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b85-jovian",
+        "src-b85-economy"
+      ],
+      "evidence": [
+        {
+          "claim": "The Jovian old-economy regime restricts public fabrication while controlled machines produce goods sold to residents.",
+          "source_ids": [
+            "src-b85-jovian",
+            "src-b85-economy"
+          ],
+          "locator": "Jovian restrictions and The Old Economy section",
+          "kind": "reproduced_first_edition_rule_lore"
+        }
+      ],
+      "uncertainties": [
+        "Actual enclosed fabrication, not a claim that all advanced technology is absent.",
+        "No duplicate zero-variant point for the same material order.",
+        "First-edition scope and internal habitat variation are explicit.",
+        "Participation remains unresolved."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0713",
+      "status": "needs_evidence",
+      "reason": "Equal Ironkin membership and specialized labor do not establish ordinary post-work necessities.",
+      "source_ids": [
+        "src-b85-ironkin"
+      ],
+      "analysis": "Biological clone Kin and mechanical people both perform useful roles; their rights do not define resource distribution.",
+      "follow_up": "Preserve the short disposition and continue without a complete sourcebook or regional-lore reconstruction."
+    },
+    {
+      "candidate_id": "c0714",
+      "status": "needs_evidence",
+      "reason": "Drone replacement of simple Earth Caste tasks does not establish the Empire’s ordinary material-access rules.",
+      "source_ids": [
+        "src-b85-earth-caste"
+      ],
+      "analysis": "Actual farming, engineering and industry remain; a political label or state ideology cannot supply a universal entitlement.",
+      "follow_up": "Preserve the short disposition and continue without a complete sourcebook or regional-lore reconstruction."
+    },
+    {
+      "candidate_id": "c0715",
+      "status": "zero_variant",
+      "reason": "True-AI rejection and continued human-derived servitor labor support an explicitly interpretive zero variant.",
+      "source_ids": [
+        "src-b85-servitors",
+        "src-b85-mechanicus"
+      ],
+      "society_id": "warhammer-imperial-servitor-ai-restrictions"
+    },
+    {
+      "candidate_id": "c0716",
+      "status": "duplicate",
+      "reason": "Forge-world servitor production is already included in the retained Imperial technological-restriction/labor doctrine scope.",
+      "source_ids": [
+        "src-b85-mechanicus",
+        "src-b85-servitors"
+      ],
+      "duplicate_of": "warhammer-imperial-servitor-ai-restrictions",
+      "analysis": "The checked labor-role reference does not establish a materially different access rule or a distinct new economy beyond the scoped producer subset.",
+      "follow_up": "Retain the narrower provenance without counting a second point unless different material institutions are established."
+    },
+    {
+      "candidate_id": "c0717",
+      "status": "included",
+      "reason": "Shared fabricated basics and direct common-resource control are explicitly described.",
+      "source_ids": [
+        "src-b85-titan",
+        "src-b85-economy"
+      ],
+      "society_id": "eclipse-phase-titan-commonwealth"
+    },
+    {
+      "candidate_id": "c0718",
+      "status": "included",
+      "reason": "Equal fabrication access, shared property and routine robot labor implement a real commons with qualified access.",
+      "source_ids": [
+        "src-b85-anarchists",
+        "src-b85-economy-primary",
+        "src-b85-economy"
+      ],
+      "society_id": "eclipse-phase-anarchist-habitats"
+    },
+    {
+      "candidate_id": "c0719",
+      "status": "included",
+      "reason": "The transitional model explicitly supplies fabricated basics while retaining private premium production.",
+      "source_ids": [
+        "src-b85-economy"
+      ],
+      "society_id": "eclipse-phase-inner-transitional-economy"
+    },
+    {
+      "candidate_id": "c0720",
+      "status": "included",
+      "reason": "Actual elite-controlled fabrication coexists with monetary access and material deprivation.",
+      "source_ids": [
+        "src-b85-jovian",
+        "src-b85-economy"
+      ],
+      "society_id": "eclipse-phase-jovian-fabrication-monopoly"
+    },
+    {
+      "candidate_id": "c0721",
+      "status": "boundary_case",
+      "reason": "Forced uploading and TITAN threat territories do not establish a verified supported civilian post-work order.",
+      "source_ids": [
+        "src-b85-titan-headhunters"
+      ],
+      "analysis": "Harvested heads, stored minds and weaponized victims cannot simply be counted as active leisure residents.",
+      "follow_up": "Preserve the short disposition and continue without a complete sourcebook or regional-lore reconstruction."
+    },
+    {
+      "candidate_id": "c0722",
+      "status": "needs_evidence",
+      "reason": "European Fifth Wave prosperity does not establish an automation-funded universal floor in the short references.",
+      "source_ids": [
+        "src-b85-ths-fifthwave",
+        "src-b85-ths-review"
+      ],
+      "analysis": "Demographics, labor shortages and strained social programs leave eligibility and productive/access rules unresolved.",
+      "follow_up": "Preserve the short disposition and continue without a complete sourcebook or regional-lore reconstruction."
+    },
+    {
+      "candidate_id": "c0723",
+      "status": "needs_evidence",
+      "reason": "TSA infosocialist intellectual-property policy does not by itself establish automatic physical necessities for all residents.",
+      "source_ids": [
+        "src-b85-ths-designer",
+        "src-b85-ths-review"
+      ],
+      "analysis": "Abolishing or challenging patents is distinct from common ownership and guaranteed access to material production.",
+      "follow_up": "Preserve the short disposition and continue without a complete sourcebook or regional-lore reconstruction."
+    },
+    {
+      "candidate_id": "c0724",
+      "status": "needs_evidence",
+      "reason": "Duncanite libertarian/transhumanist settlements lack a verified ordinary material economy in the short review.",
+      "source_ids": [
+        "src-b85-ths-review"
+      ],
+      "analysis": "Location, ideology and advanced bodies do not determine ownership, guarantees or work-independent access.",
+      "follow_up": "Preserve the short disposition and continue without a complete sourcebook or regional-lore reconstruction."
+    }
+  ],
+  "review_notes": [
+    "Twelve ordered decisions yield five records, including one interpretive zero variant and one explicit producer-subset duplicate.",
+    "First-edition Eclipse Phase institutions are kept distinct from second-edition population or rule changes. Reproduced text and indexed primary excerpts are labeled.",
+    "New-economy citizenship/contribution conditions, finite quotas, scarce bodies and living space remain visible; free fabricated objects do not mean unlimited resources or no work.",
+    "The Jovian old economy really uses controlled fabrication, so its actual enclosed material order is retained once rather than duplicated solely for technological restrictions.",
+    "Imperial servitors retain variable human-derived consciousness and useful labor. Forge production is already within that doctrine scope.",
+    "Transhuman Space was not rescued through a complete book read. Real-world transhumanist policy, fan quests and incorrect nonbiological-clone wording were discarded; denied publisher access was respected."
+  ]
+}

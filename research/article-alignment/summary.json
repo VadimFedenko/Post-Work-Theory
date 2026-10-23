@@ -1,0 +1,151 @@
+{
+  "version": "article-2026-10-21",
+  "reviewed_on": "2026-10-21",
+  "article_sha256": "81a83c337be44c35b6b016768c8706b9e02a6ca20b97d17ef2013ddb90ce21f6",
+  "records": 890,
+  "manual_coverage": 890,
+  "before": {
+    "post_work": 404,
+    "zero_variant": 486
+  },
+  "after": {
+    "post_work": 545,
+    "zero_variant": 345
+  },
+  "regimes": {
+    "0": 345,
+    "1": 126,
+    "2": 109,
+    "3": 128,
+    "4": 21,
+    "5": 94,
+    "6": 67
+  },
+  "zero_to_post_work": 157,
+  "post_work_to_zero": 16,
+  "old_to_new_regimes": [
+    {
+      "old": 0,
+      "new": 0,
+      "records": 329
+    },
+    {
+      "old": 0,
+      "new": 1,
+      "records": 20
+    },
+    {
+      "old": 0,
+      "new": 2,
+      "records": 71
+    },
+    {
+      "old": 0,
+      "new": 3,
+      "records": 11
+    },
+    {
+      "old": 0,
+      "new": 4,
+      "records": 10
+    },
+    {
+      "old": 0,
+      "new": 5,
+      "records": 8
+    },
+    {
+      "old": 0,
+      "new": 6,
+      "records": 37
+    },
+    {
+      "old": 1,
+      "new": 0,
+      "records": 2
+    },
+    {
+      "old": 1,
+      "new": 1,
+      "records": 106
+    },
+    {
+      "old": 1,
+      "new": 2,
+      "records": 2
+    },
+    {
+      "old": 1,
+      "new": 5,
+      "records": 2
+    },
+    {
+      "old": 2,
+      "new": 0,
+      "records": 1
+    },
+    {
+      "old": 2,
+      "new": 3,
+      "records": 117
+    },
+    {
+      "old": 2,
+      "new": 4,
+      "records": 1
+    },
+    {
+      "old": 3,
+      "new": 0,
+      "records": 9
+    },
+    {
+      "old": 3,
+      "new": 2,
+      "records": 36
+    },
+    {
+      "old": 4,
+      "new": 0,
+      "records": 2
+    },
+    {
+      "old": 4,
+      "new": 4,
+      "records": 10
+    },
+    {
+      "old": 5,
+      "new": 0,
+      "records": 1
+    },
+    {
+      "old": 5,
+      "new": 5,
+      "records": 84
+    },
+    {
+      "old": 6,
+      "new": 0,
+      "records": 1
+    },
+    {
+      "old": 6,
+      "new": 6,
+      "records": 30
+    }
+  ],
+  "axis_changes": [
+    "manna-terrafoam",
+    "fallout-institute",
+    "solaria-naked-sun",
+    "psychopass-sibyl-japan"
+  ],
+  "utopia_scores_changed": 0,
+  "assets_changed": 0,
+  "limitations": [
+    "This is a corpus-wide editorial classification review from saved research, not a fresh full-text verification of 890 societies.",
+    "Mixed transitions and narrow cohorts remain explicitly scoped; inclusion does not assert a post-wage economy for an entire franchise.",
+    "The article’s factual or internal ambiguities are recorded in article-examples.json rather than promoted to canonical facts."
+  ]
+}

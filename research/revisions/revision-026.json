@@ -1,0 +1,3038 @@
+{
+  "revision_id": "revision-026",
+  "revised_on": "2026-10-17",
+  "reason": "Twenty-one further game models retained, including Supreme Commander, Total Annihilation, first-game Call to Power, Anno, IXION, EVE, Elite, No Man’s Sky and Starbound. Startopia’s common original/remake material model is counted once; active person scopes, biological/AI distinctions and source limits remain explicit.",
+  "changes": [
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-zerok-official-commander-avatar",
+        "title": "Zero-K: Early Commanders",
+        "author": "Zero-K developers",
+        "url": "https://steamcommunity.com/app/334920/",
+        "kind": "developer_documentation",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed Cold Take #48 commander-avatar passage read",
+        "read_scope": "Developer discussion describes the commander as the battlefield avatar using a mech suit to build and lead a robotic army.",
+        "limitations": "A design discussion, not a final account of pilot ontology or an ordinary civilian society."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-ctp1-nanoassembly",
+        "title": "Nano-Assembly (CTP1)",
+        "author": "Civilization Wiki contributors, reproducing game summary",
+        "url": "https://civilization.fandom.com/wiki/Nano-Assembly_(CTP1)",
+        "kind": "secondary_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed first-game technology summary read",
+        "read_scope": "First-game entry: atom-by-atom synthesis and special space Nanite Factories reduce assembly costs; Nanopedia improves specialists.",
+        "limitations": "Indexed reproduced game summary, not full-game inspection; first-game details are not borrowed from Call to Power II."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-earth2150-lunar-civilian",
+        "title": "Earth 2150: Lunar Corporation",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/wiki/Earth_2150",
+        "kind": "secondary_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed Lunar Corporation civilian/mining and institutional description read",
+        "read_scope": "Faction summary: Lunar Corporation colonists form a matriarchal society and field converted civilian vehicles and mining-derived weapons.",
+        "limitations": "Bounded faction passage; UCS’s separate robot workforce is not assigned to the Lunar Corporation."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-spacebase-official-survival",
+        "title": "Spacebase Startopia: survival and tourism decks",
+        "author": "Realmforge Studios / Kalypso Media",
+        "url": "https://store.steampowered.com/app/840390/Spacebase_Startopia/",
+        "kind": "official_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed official deck, alien-visitor and AI descriptions read",
+        "read_scope": "Official premise: commander manages survival rooms, tourism and a resource-producing Bio Deck for alien residents/visitors, with an AI commentator.",
+        "limitations": "Common habitat/service model is compared with the original; plots and exact employment rules are not merged."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-starbound-bigape-figurehead",
+        "title": "Big Ape and Miniknog",
+        "author": "Starbounder contributors",
+        "url": "https://starbounder.org/Big_Ape",
+        "kind": "secondary_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed figurehead and holographic-boss passages read",
+        "read_scope": "Big Ape is a fictional figurehead used by Miniknog; the encountered head is a hologram sustained by projectors.",
+        "limitations": "Fan reference; the true council’s precise composition and household production are not established."
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0698",
+        "status": "needs_evidence",
+        "reason": "VAL and Fuzzy assistance do not establish a complete work-independent population economy.",
+        "source_ids": [
+          "src-b83-spacebase"
+        ],
+        "analysis": "The station’s visitor/resident services still need actual access and productive-labor rules; the 2001 original is not imported.",
+        "follow_up": "Keep the short disposition and continue; do not rescue unclear settings through full manuals or role-playing extrapolation."
+      },
+      "after": {
+        "candidate_id": "c0698",
+        "status": "duplicate",
+        "reason": "The common robot-assisted station service/habitat model is retained once under c0697; the remake alone does not establish a distinct material regime.",
+        "source_ids": [
+          "src-b83-spacebase"
+        ],
+        "analysis": "Survival facilities, resource management, visitor services, commander authority and AI/robot assistance support the shared point. Different plots and exact staffing details are not merged into invented common laws.",
+        "follow_up": "Resolved material-model overlap; references and continuity limits preserved.",
+        "society_id": "startopia-shared-service-zero",
+        "duplicate_of": "startopia-shared-service-zero",
+        "reassessed_on": "2026-10-17",
+        "current_policy_review": true
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "aiwar-active-command-zero",
+        "candidate_id": "c0681",
+        "name": "AI War (the active AI command order)",
+        "work": "AI War: Fleet Command",
+        "society": "AI War (the active AI command order)",
+        "media": [
+          "game"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named game and stated qualitative scenario only",
+          "period": "The functioning near-victorious AI-controlled galactic order",
+          "population": "Active governing AI identities, an explicit synthetic-person command proxy",
+          "human_population_proxy": true,
+          "exclusions": "Human resistance and victims are separate populations; military dominance does not make humans supported recipients.",
+          "branch": "Functioning near-victorious AI order during an ongoing campaign",
+          "player_configurable": true,
+          "person_proxy_kind": "active_synthetic_persons"
+        },
+        "description": "Human survivors oppose near-victorious AI powers across the galaxy. The retained material comparison concerns the active governing machine identities and the energy, components and computing that sustain their automated order. It does not treat the human resistance as a protected post-work population. The guarantee best guess is mixed and conditional for the machine command cohort, with resource and military vulnerability left inside a wide interval.\n\n The governing AIs operate independently of organic owners, giving strongly negative control weight. Their internal rivalries and hierarchy remain distinct from that independence. The central nonworking scenario is zero because the scoped active command identities coordinate production, strategy and war. It is a narrow role-defined proxy rather than a census of all hidden machine lives. Drones, destroyed humans and inactive copies do not create idle citizens. This zero variant records continuing useful or imposed command work despite automation, with the game scenario flag preventing one campaign from becoming a universal history.",
+        "axis": {
+          "guarantees": 0.3,
+          "control": -0.98,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.8,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Machine command support is conditional on functioning resources and infrastructure.",
+            "source_ids": [
+              "src-b82-aiwar"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              -0.8
+            ],
+            "confidence": "low",
+            "basis": "Active governing AI independence is central; opposing humans are not recipients.",
+            "source_ids": [
+              "src-b82-aiwar"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Scoped command identities perform ongoing coordination and war; hidden lives are not invented.",
+            "source_ids": [
+              "src-b82-aiwar"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b82-aiwar"
+        ],
+        "evidence": [
+          {
+            "claim": "Human survivors fight near-victorious AI powers while avoiding their attention.",
+            "source_ids": [
+              "src-b82-aiwar"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Active governing AI identities form a narrow synthetic-person proxy.",
+          "Their energy/component support is an editorial material model."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the active machine order while separating its human opponents and victims.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Human survivors fight near-victorious AI powers while avoiding their attention."
+        ],
+        "editorial_assumptions": [
+          "Active governing AI identities form a narrow synthetic-person proxy.",
+          "Their energy/component support is an editorial material model."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Active synthetic-person participation, not a literal human rate.",
+          "control": "Independence from organic owners; internal machine hierarchy remains separate.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0681",
+        "status": "boundary_case",
+        "reason": "Near-total AI military victory is not a supported living human post-work society.",
+        "source_ids": [
+          "src-b82-aiwar"
+        ],
+        "analysis": "Surviving humans remain an endangered fighting population, not automatically beneficiaries of AI production.",
+        "follow_up": "Preserve the short gap/comparison and continue without a full military-lore or campaign reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0681",
+        "status": "zero_variant",
+        "reason": "Retain the active machine order while separating its human opponents and victims.",
+        "source_ids": [
+          "src-b82-aiwar"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "aiwar-active-command-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "planetaryannihilation-commander-zero",
+        "candidate_id": "c0682",
+        "name": "Planetary Annihilation (the commander production order)",
+        "work": "Planetary Annihilation: TITANS",
+        "society": "Planetary Annihilation (the commander production order)",
+        "media": [
+          "game"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named game and stated qualitative scenario only",
+          "period": "An operating commander-led automated war economy",
+          "population": "The active commander person identity in a selected functioning command economy",
+          "human_population_proxy": true,
+          "exclusions": "Ordinary robot units are equipment unless independently conscious; planet destruction is not leisure.",
+          "branch": "Functioning active commander and production base; independent machine-person interpretation",
+          "player_configurable": true,
+          "person_proxy_kind": "active_synthetic_persons"
+        },
+        "description": "Automated production sustains robotic armies across solar systems. The selected point treats an active commander identity as the continuing person proxy and excludes ordinary units from its population. The guarantee best guess is weak because energy and components support ongoing war under severe destruction risk, not a dependable civilian necessities charter. This is a narrow zero-variant production order rather than a claim that a vast robot army contains equally many supported people.\n\n Independent machine command receives strongly negative control weight. Internal command hierarchy is not confused with equal machine ownership. The central nonworking scenario is zero for the selected commander’s continuing construction, coordination and war duties. A singleton reading has binary alternatives, never fractions of a battle’s duration. The commander’s personhood is an explicit interpretive proxy, while autonomous fabrication is the demonstrated material connection. The branch flag specifies a functioning scenario, and destroyed planets or eliminated enemies never increase the number of nonworking citizens.",
+        "axis": {
+          "guarantees": 0.75,
+          "control": -0.95,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.4,
+              1
+            ],
+            "confidence": "low",
+            "basis": "War-vulnerable energy/component support is not dependable civilian provision.",
+            "source_ids": [
+              "src-b82-pa"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              -0.6
+            ],
+            "confidence": "low",
+            "basis": "Selected independent machine command controls the automated production order.",
+            "source_ids": [
+              "src-b82-pa"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              1
+            ],
+            "confidence": "low",
+            "basis": "One active commander works centrally; singleton alternatives are binary.",
+            "source_ids": [
+              "src-b82-pa"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b82-pa"
+        ],
+        "evidence": [
+          {
+            "claim": "The game presents robotic armies, automated production and planet-destroying conflict.",
+            "source_ids": [
+              "src-b82-pa"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The active commander is an explicitly interpretive person proxy.",
+          "Robot units and destroyed opponents are not additional leisure citizens."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the recognizable autonomous fabrication order with its narrow commander denominator.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The game presents robotic armies, automated production and planet-destroying conflict."
+        ],
+        "editorial_assumptions": [
+          "The active commander is an explicitly interpretive person proxy.",
+          "Robot units and destroyed opponents are not additional leisure citizens."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Active synthetic-person participation, not a literal human rate.",
+          "control": "Independence from organic owners; internal machine hierarchy remains separate.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0682",
+        "status": "boundary_case",
+        "reason": "Automated interplanetary warfare does not establish an ordinary supported human population.",
+        "source_ids": [
+          "src-b82-pa"
+        ],
+        "analysis": "Constructing robot armies and destroying worlds is not evidence of work-independent civilian necessities.",
+        "follow_up": "Preserve the short gap/comparison and continue without a full military-lore or campaign reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0682",
+        "status": "zero_variant",
+        "reason": "Retain the recognizable autonomous fabrication order with its narrow commander denominator.",
+        "source_ids": [
+          "src-b82-pa"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "planetaryannihilation-commander-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "supcom-aeon-civilian-zero",
+        "candidate_id": "c0683",
+        "name": "Supreme Commander (Aeon Illuminate’s civilian order)",
+        "work": "Supreme Commander",
+        "society": "Supreme Commander (Aeon Illuminate’s civilian order)",
+        "media": [
+          "game"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named game and stated qualitative scenario only",
+          "period": "The functioning Aeon civilian society alongside the war economy",
+          "population": "Living human Aeon civilian residents",
+          "human_population_proxy": false,
+          "exclusions": "Commanders’ factory output is not a civilian labor census; religious affiliation is not a material guarantee.",
+          "branch": "Functioning Aeon settlements with access to developed fabrication",
+          "player_configurable": true
+        },
+        "description": "Aeon missions include actual civilian settlements alongside mass-and-energy fabrication. Those residents provide a meaningful population beyond battlefield units. The guarantee best guess allows a partial institutional floor while keeping conflict, hierarchy and access conditions visible. Industrial capacity is an editorial bridge from the military production model to ordinary provision, not proof that every household receives unlimited goods without contribution.\n\n Human Aeon political and religious authority receives concentrated control weight, qualified by some local productive agency. Advanced fabrication and doctrine do not automatically establish an AI sovereign. The modest nonworking scenario counts production, administration, services, care and useful creation among civilians. Military automation is not inverted into a percentage of idle people, and all assigned defense duties remain work where civilians perform them. The scope excludes a hypothetical universal post-victory settlement. It retains the recognizable civilian comparison while labeling the step from war fabrication to ordinary household support as a low-confidence assumption.",
+        "axis": {
+          "guarantees": 0.15,
+          "control": 0.1,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.75,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "A partial institutional floor is plausible, with conflict and hierarchy limiting security.",
+            "source_ids": [
+              "src-b82-aeon"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.55
+            ],
+            "confidence": "low",
+            "basis": "Human Aeon authority is central despite automated fabrication.",
+            "source_ids": [
+              "src-b82-aeon"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.03,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Civilian services and care count; battlefield automation is not a labor ratio.",
+            "source_ids": [
+              "src-b82-aeon"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b82-aeon"
+        ],
+        "evidence": [
+          {
+            "claim": "Aeon missions include civilian settlements and mass/energy construction warfare.",
+            "source_ids": [
+              "src-b82-aeon"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The civilian use of fabrication is a low-confidence material extension.",
+          "No universal post-victory allocation is asserted."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the famous faction’s actual civilian population with material extrapolation explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Aeon missions include civilian settlements and mass/energy construction warfare."
+        ],
+        "editorial_assumptions": [
+          "The civilian use of fabrication is a low-confidence material extension.",
+          "No universal post-victory allocation is asserted."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0683",
+        "status": "needs_evidence",
+        "reason": "Aeon civilian settlements and military fabrication do not establish their household allocation rules.",
+        "source_ids": [
+          "src-b82-aeon"
+        ],
+        "analysis": "A religious faction’s peaceful goal and matter conversion do not prove universal material access.",
+        "follow_up": "Preserve the short gap/comparison and continue without a full military-lore or campaign reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0683",
+        "status": "zero_variant",
+        "reason": "Retain the famous faction’s actual civilian population with material extrapolation explicit.",
+        "source_ids": [
+          "src-b82-aeon"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "supcom-aeon-civilian-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "supcom-cybran-zero",
+        "candidate_id": "c0684",
+        "name": "Supreme Commander (the Cybran Nation)",
+        "work": "Supreme Commander",
+        "society": "Supreme Commander (the Cybran Nation)",
+        "media": [
+          "game"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named game and stated qualitative scenario only",
+          "period": "A functioning developed Cybran civilian and production order",
+          "population": "Active human-derived Cybran persons",
+          "human_population_proxy": true,
+          "exclusions": "Cyborg bodies are persons, not extra robot equipment; battlefield units are not an ordinary civilian denominator.",
+          "branch": "Developed functioning Cybran Nation with civilian access to fabrication",
+          "player_configurable": true
+        },
+        "description": "The Cybran Nation consists of human cyborgs whose commanders fabricate forces from mass and energy. Technological embodiment and automated fabrication create a plausible civilian labor-saving model, but the household floor is less explicit. The guarantee best guess is mixed and conditional, qualified by conflict and institutional dependence. Cybernetic liberation does not by itself give every resident equal free access to all necessities.\n\n Human-derived leaders and resident agency receive positive control weight rather than automatically external AI authority. A cyborg’s artificial components do not erase their personal origin. The moderate nonworking scenario counts technical operation, production, coordination, care and useful creation. Mass conversion and army size are not population participation measures. The point selects a developed functioning faction instead of treating every wartime shortage or possible campaign result as one constitution. The broad intervals preserve uncertainty about productive ownership and ordinary access while retaining this recognizable distinct model alongside the more centralized Aeon order.",
+        "axis": {
+          "guarantees": 0.2,
+          "control": 0.35,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.75,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "A partial cyborg support floor is plausible but conditional and conflict-vulnerable.",
+            "source_ids": [
+              "src-b82-cybran"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.65,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Human-derived Cybran agency is not automatically unrelated AI sovereignty.",
+            "source_ids": [
+              "src-b82-cybran"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.03,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Active persons retain technical, productive and caring roles despite fabrication.",
+            "source_ids": [
+              "src-b82-cybran"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b82-cybran"
+        ],
+        "evidence": [
+          {
+            "claim": "Human cyborgs form the Cybran Nation; commanders fabricate forces from mass and energy.",
+            "source_ids": [
+              "src-b82-cybran"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Civilian provision is an explicit extension of demonstrated fabrication.",
+          "Developed functioning institutions rather than a universal ending are selected."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the famous human-derived technological faction with civilian uncertainty visible.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Human cyborgs form the Cybran Nation; commanders fabricate forces from mass and energy."
+        ],
+        "editorial_assumptions": [
+          "Civilian provision is an explicit extension of demonstrated fabrication.",
+          "Developed functioning institutions rather than a universal ending are selected."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0684",
+        "status": "needs_evidence",
+        "reason": "Cybran embodiment and battlefield construction do not establish civilian post-work arrangements.",
+        "source_ids": [
+          "src-b82-cybran"
+        ],
+        "analysis": "Human cyborg commanders and other useful workers cannot be erased by calling their tools automated.",
+        "follow_up": "Preserve the short gap/comparison and continue without a full military-lore or campaign reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0684",
+        "status": "zero_variant",
+        "reason": "Retain the famous human-derived technological faction with civilian uncertainty visible.",
+        "source_ids": [
+          "src-b82-cybran"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "supcom-cybran-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "totalannihilation-core-zero",
+        "candidate_id": "c0685",
+        "name": "Total Annihilation (CORE’s patterned human order)",
+        "work": "Total Annihilation",
+        "society": "Total Annihilation (CORE’s patterned human order)",
+        "media": [
+          "game"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named game and stated qualitative scenario only",
+          "period": "The functioning patterned-mind CORE war economy",
+          "population": "Active human-derived patterned minds",
+          "human_population_proxy": true,
+          "exclusions": "Inactive patterns, duplicated hardware without separate active identities and destroyed people are excluded.",
+          "branch": "Functioning CORE patterned-mind production order during the war",
+          "player_configurable": true
+        },
+        "description": "CORE patterns human minds into machines during a long resource-exhausting war. Active patterned people therefore remain human-derived contributors rather than proof that an unrelated AI has replaced the whole population. The guarantee best guess is weak because continuation depends on vulnerable resources and a coercive war economy. Mechanical survival does not automatically establish secure free support or freedom from assigned roles.\n\n Concentrated human-derived institutional command receives control near the elite reference point, with autonomous machine interpretation retained as an alternative. The low nonworking scenario counts command, production, repair, research and useful care. Patterning and body duplication are not a labor census; only distinct active identities enter the denominator. The record is a zero variant because highly automated fabrication coexists with continuing purposeful war and maintenance work. It does not assume that every combat chassis is conscious or that resource exhaustion and destroyed populations create leisure. A functioning modeled period is specified rather than every possible campaign ending.",
+        "axis": {
+          "guarantees": 0.85,
+          "control": 0.03,
+          "nonworking": 0.1
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.25,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Resource-exhausting war makes patterned continuation insecure.",
+            "source_ids": [
+              "src-b82-ta"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.85,
+              0.45
+            ],
+            "confidence": "low",
+            "basis": "Human-derived command is central, with machine-sovereignty alternatives explicit.",
+            "source_ids": [
+              "src-b82-ta"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "Active patterned minds retain command, production and repair; bodies are not person counts.",
+            "source_ids": [
+              "src-b82-ta"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b82-ta"
+        ],
+        "evidence": [
+          {
+            "claim": "CORE patterns human minds into machines during a long resource-exhausting war.",
+            "source_ids": [
+              "src-b82-ta"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Distinct active human-derived identities define the population.",
+          "Automated fabrication does not erase real command and maintenance work."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the famous uploaded-human war order without equating embodiment with AI sovereignty.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "CORE patterns human minds into machines during a long resource-exhausting war."
+        ],
+        "editorial_assumptions": [
+          "Distinct active human-derived identities define the population.",
+          "Automated fabrication does not erase real command and maintenance work."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0685",
+        "status": "boundary_case",
+        "reason": "CORE’s uploaded human minds perform actual war and command activity.",
+        "source_ids": [
+          "src-b82-ta"
+        ],
+        "analysis": "Patterning supplies embodiment and duplication, not a general protected leisure order or ordinary civilian allocation constitution.",
+        "follow_up": "Preserve the short gap/comparison and continue without a full military-lore or campaign reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0685",
+        "status": "zero_variant",
+        "reason": "Retain the famous uploaded-human war order without equating embodiment with AI sovereignty.",
+        "source_ids": [
+          "src-b82-ta"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "totalannihilation-core-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "totalannihilation-arm-zero",
+        "candidate_id": "c0686",
+        "name": "Total Annihilation (ARM’s cloned-pilot order)",
+        "work": "Total Annihilation",
+        "society": "Total Annihilation (ARM’s cloned-pilot order)",
+        "media": [
+          "game"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named game and stated qualitative scenario only",
+          "period": "The functioning ARM automated production and cloned-pilot war economy",
+          "population": "Living human-derived ARM persons, including active cloned pilots",
+          "human_population_proxy": true,
+          "exclusions": "Cloning creates persons rather than automatic leisure; destroyed pilots and idle hardware are excluded.",
+          "branch": "Functioning ARM cloned-pilot production order during the war",
+          "player_configurable": true
+        },
+        "description": "ARM fields cloned pilots against CORE while automated production sustains a prolonged war. It is materially different from transferring the population’s minds into machines: active biological human-derived people still pilot and maintain the system. The guarantee best guess is weak because resource exhaustion and conflict threaten ordinary support. Producing more pilots does not itself automate their duties or give them dependable free necessities.\n\n Human-derived command institutions receive control near concentrated ownership, with some broader agency possible within the interval. Robotic fabrication is equipment under that command rather than automatically an independent sovereign. The low nonworking scenario counts piloting, production, technical maintenance, administration, care and useful creation. A cloned person’s work remains real, and a factory’s output is not an all-age participation fraction. This zero variant covers a functioning war economy, not a universal post-victory settlement. Dead pilots and destroyed machines are not reclassified as residents liberated from labor.",
+        "axis": {
+          "guarantees": 0.85,
+          "control": 0.08,
+          "nonworking": 0.15
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.25,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Resource exhaustion and war weaken secure biological/person support.",
+            "source_ids": [
+              "src-b82-ta"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Human-derived ARM command controls fabrication centrally.",
+            "source_ids": [
+              "src-b82-ta"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.7
+            ],
+            "confidence": "low",
+            "basis": "Piloting, maintenance and care remain real work; cloning is not labor substitution.",
+            "source_ids": [
+              "src-b82-ta"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b82-ta"
+        ],
+        "evidence": [
+          {
+            "claim": "ARM fields cloned pilots against CORE during a long resource-exhausting war.",
+            "source_ids": [
+              "src-b82-ta"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Functioning automated production is selected as the material model.",
+          "Active clones count as persons with needs and duties."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distinct biological-pilot model alongside CORE’s patterned-mind economy.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "ARM fields cloned pilots against CORE during a long resource-exhausting war."
+        ],
+        "editorial_assumptions": [
+          "Functioning automated production is selected as the material model.",
+          "Active clones count as persons with needs and duties."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0686",
+        "status": "boundary_case",
+        "reason": "ARM’s cloned pilots and war economy retain actual human-derived labor.",
+        "source_ids": [
+          "src-b82-ta"
+        ],
+        "analysis": "Autonomous tools do not make the living pilots’ useful work disappear or establish a civilian material floor.",
+        "follow_up": "Preserve the short gap/comparison and continue without a full military-lore or campaign reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0686",
+        "status": "zero_variant",
+        "reason": "Retain the distinct biological-pilot model alongside CORE’s patterned-mind economy.",
+        "source_ids": [
+          "src-b82-ta"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "totalannihilation-arm-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "zerok-commander-unit-zero",
+        "candidate_id": "c0687",
+        "name": "Zero-K (the commander’s automated production unit)",
+        "work": "Zero-K",
+        "society": "Zero-K (the commander’s automated production unit)",
+        "media": [
+          "game"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named game and stated qualitative scenario only",
+          "period": "A functioning commander-led fabrication unit in the campaign model",
+          "population": "The active commander persona, an explicitly uncertain humanlike/posthuman proxy",
+          "human_population_proxy": true,
+          "exclusions": "Robot armies are not all assumed conscious; ordinary off-screen civilians and inactive hardware are excluded.",
+          "branch": "One active commander-led fabrication unit; persona ontology explicitly uncertain",
+          "player_configurable": true
+        },
+        "description": "The commander builds and leads a robotic army through a powerful fabrication unit. Developer discussion treats the commander as a battlefield avatar using a mech suit, while exact personal ontology remains open in the bounded source. The retained point is consequently a narrow person-proxy work unit, not an invented ordinary civilian utopia. The guarantee best guess is weak because continuing support is tied to combat resources and vulnerable infrastructure.\n\n Humanlike or posthuman commander agency is central, with a fully autonomous machine reading left inside the broad control interval. The central nonworking scenario is zero for the selected commander’s ongoing coordination and construction duties. A singleton reading permits only zero or one nonworker, rather than a fraction of combat time. Robot count and automated output do not enlarge the person denominator. The zero-variant qualification is direct material fabrication alongside retained command work; its narrow scope and uncertain identity are explicit instead of requiring a full campaign reconstruction.",
+        "axis": {
+          "guarantees": 0.8,
+          "control": 0.2,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.4,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Combat-resource dependence leaves support vulnerable and conditional.",
+            "source_ids": [
+              "src-b82-zero",
+              "src-zerok-official-commander-avatar"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Commander agency is central with human-derived and independent-AI alternatives.",
+            "source_ids": [
+              "src-b82-zero",
+              "src-zerok-official-commander-avatar"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              1
+            ],
+            "confidence": "low",
+            "basis": "One active commander works centrally; singleton alternatives are binary.",
+            "source_ids": [
+              "src-b82-zero",
+              "src-zerok-official-commander-avatar"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b82-zero",
+          "src-zerok-official-commander-avatar"
+        ],
+        "evidence": [
+          {
+            "claim": "The game presents robotic warfare and construction.",
+            "source_ids": [
+              "src-b82-zero",
+              "src-zerok-official-commander-avatar"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Developer discussion describes a commander avatar building and leading a robotic army.",
+            "source_ids": [
+              "src-b82-zero",
+              "src-zerok-official-commander-avatar"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Commander personhood and ontology are an explicit proxy interpretation.",
+          "The narrow unit does not stand for an ordinary off-screen civilian population."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the concrete fabrication/retained-command unit with its limited denominator explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The game presents robotic warfare and construction.",
+          "Developer discussion describes a commander avatar building and leading a robotic army."
+        ],
+        "editorial_assumptions": [
+          "Commander personhood and ontology are an explicit proxy interpretation.",
+          "The narrow unit does not stand for an ordinary off-screen civilian population."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0687",
+        "status": "needs_evidence",
+        "reason": "Zero-K’s robot warfare does not establish a supported active civilian population and resource-access system.",
+        "source_ids": [
+          "src-b82-zero"
+        ],
+        "analysis": "Early community story proposals are not released lore; no archived narrative reconstruction is warranted to rescue the lead.",
+        "follow_up": "Preserve the short gap/comparison and continue without a full military-lore or campaign reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0687",
+        "status": "zero_variant",
+        "reason": "Retain the concrete fabrication/retained-command unit with its limited denominator explicit.",
+        "source_ids": [
+          "src-b82-zero",
+          "src-zerok-official-commander-avatar"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "zerok-commander-unit-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "perimeter-frame-colonies-zero",
+        "candidate_id": "c0688",
+        "name": "Perimeter (the Spirit-led Frames)",
+        "work": "Perimeter",
+        "society": "Perimeter (the Spirit-led Frames)",
+        "media": [
+          "game"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named game and stated qualitative scenario only",
+          "period": "The functioning inhabited colonial Frames",
+          "population": "Living human Frame residents",
+          "human_population_proxy": false,
+          "exclusions": "Mobile structures and nanotechnological units are not extra persons; no post-conflict universal settlement is assumed.",
+          "branch": "Functioning inhabited Frame with sustaining nanotechnology",
+          "player_configurable": true
+        },
+        "description": "Human populations inhabit Frames under Spirit councils while nanotechnology and mobile construction sustain long-duration habitation and conflict. The technology provides a concrete material connection to housing and production, even though ordinary allocation is not fully described. The guarantee best guess allows a partial sustaining floor inside the Frame, qualified by council authority, environmental risk and continued duties. A protected habitat is not automatically equal free access to everything.\n\n Concentrated Spirit-council authority receives control near the non-machine institutional reference point, with a wide interval for the actual controller interpretation. Spiritual language is not by itself proof of an AI sovereign. The moderate nonworking scenario counts maintenance, coordination, production, care and useful creation among living residents. Nanotechnological unit count and the colony’s age are not a labor census. The zero variant retains the long-lived technical habitat with explicit governance uncertainty, rather than requiring a fictional household constitution or assuming military construction makes every resident idle.",
+        "axis": {
+          "guarantees": 0.1,
+          "control": 0.05,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.8,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "A habitat floor is plausible but duties and environmental risk condition it.",
+            "source_ids": [
+              "src-b82-perimeter"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.85,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Spirit-council concentration is central, with controller interpretation broad.",
+            "source_ids": [
+              "src-b82-perimeter"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.03,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Living residents retain maintenance, coordination and care; unit counts are not participation.",
+            "source_ids": [
+              "src-b82-perimeter"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b82-perimeter"
+        ],
+        "evidence": [
+          {
+            "claim": "Human populations inhabit Frames under Spirit councils; nanotechnology and mobile construction support conflict.",
+            "source_ids": [
+              "src-b82-perimeter"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The household floor and precise controller ontology are estimated.",
+          "Long habitation does not prove universal leisure."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the technological colonial habitat with explicit institutional uncertainty.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Human populations inhabit Frames under Spirit councils; nanotechnology and mobile construction support conflict."
+        ],
+        "editorial_assumptions": [
+          "The household floor and precise controller ontology are estimated.",
+          "Long habitation does not prove universal leisure."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0688",
+        "status": "needs_evidence",
+        "reason": "Frames’ long-duration habitation and nanotechnology leave ordinary civilian production/access unresolved.",
+        "source_ids": [
+          "src-b82-perimeter"
+        ],
+        "analysis": "Spirit domination and sedated ritual life do not prove automatic food, housing and care or an all-person nonworking rate.",
+        "follow_up": "Preserve the short gap/comparison and continue without a full military-lore or campaign reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0688",
+        "status": "zero_variant",
+        "reason": "Retain the technological colonial habitat with explicit institutional uncertainty.",
+        "source_ids": [
+          "src-b82-perimeter"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "perimeter-frame-colonies-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "earth2150-lunarcorporation-zero",
+        "candidate_id": "c0689",
+        "name": "Earth 2150 (the Lunar Corporation)",
+        "work": "Earth 2150",
+        "society": "Earth 2150 (the Lunar Corporation)",
+        "media": [
+          "game"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named game and stated qualitative scenario only",
+          "period": "The inhabited advanced lunar society during the original game",
+          "population": "Living human Lunar Corporation residents",
+          "human_population_proxy": false,
+          "exclusions": "UCS’s entirely robotic workforce belongs to a different faction; mining vehicles and equipment are not people.",
+          "branch": "Functioning original-game Lunar Corporation civilian economy",
+          "player_configurable": true
+        },
+        "description": "The Lunar Corporation has advanced habitat and vehicle technology, with civilian vehicles and mining equipment repurposed for war. It is a human lunar society rather than another name for the UCS’s entirely robotic workforce. The guarantee best guess allows a partial internal support floor, qualified by resource pressure and conflict. The zero-variant qualification is cautious technical labor substitution alongside continued work, not a claim that all lunar production is automatic.\n\n Human matriarchal and corporate institutions receive positive control weight, with uncertain dispersal of productive access. Lunar technology does not by itself establish an independent AI sovereign or equal resident ownership. The modest nonworking scenario counts mining, technical maintenance, administration, care and useful creation. A peaceful reputation and powerful vehicles are not labor statistics. The scope is the original game’s functioning lunar society, not every later expansion or an assumed post-evacuation utopia. Wide bounds preserve household uncertainty without borrowing the neighboring faction’s much clearer automation model.",
+        "axis": {
+          "guarantees": 0.1,
+          "control": 0.3,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.8,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "A habitat floor is plausible, with resource and conflict limits.",
+            "source_ids": [
+              "src-b83-earth2150",
+              "src-earth2150-lunar-civilian"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Human lunar institutions are central; UCS’s machine model is not imported.",
+            "source_ids": [
+              "src-b83-earth2150",
+              "src-earth2150-lunar-civilian"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.03,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Mining, maintenance and care remain work; vehicles do not supply participation.",
+            "source_ids": [
+              "src-b83-earth2150",
+              "src-earth2150-lunar-civilian"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b83-earth2150",
+          "src-earth2150-lunar-civilian"
+        ],
+        "evidence": [
+          {
+            "claim": "Lunar Corporation is a matriarchal lunar society using converted civilian vehicles and mining-derived weapons.",
+            "source_ids": [
+              "src-b83-earth2150",
+              "src-earth2150-lunar-civilian"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "General labor substitution and household coverage are uncertain.",
+          "The separate UCS workforce is excluded from this model."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar distinct lunar faction with the technological qualification bounded.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Lunar Corporation is a matriarchal lunar society using converted civilian vehicles and mining-derived weapons."
+        ],
+        "editorial_assumptions": [
+          "General labor substitution and household coverage are uncertain.",
+          "The separate UCS workforce is excluded from this model."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0689",
+        "status": "needs_evidence",
+        "reason": "The Lunar Corporation’s advanced technology does not establish its household allocation.",
+        "source_ids": [
+          "src-b83-earth2150"
+        ],
+        "analysis": "The clear all-robot workforce description belongs to the separate UCS faction, saved as a later discovery lead rather than silently substituted.",
+        "follow_up": "Keep the short disposition and continue; do not rescue unclear settings through full manuals or role-playing extrapolation."
+      },
+      "after": {
+        "candidate_id": "c0689",
+        "status": "zero_variant",
+        "reason": "Retain the familiar distinct lunar faction with the technological qualification bounded.",
+        "source_ids": [
+          "src-b83-earth2150",
+          "src-earth2150-lunar-civilian"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "earth2150-lunarcorporation-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "ctp1-nanite-civilization",
+        "candidate_id": "c0690",
+        "name": "Civilization: Call to Power (the nano-assembly civilization)",
+        "work": "Civilization: Call to Power",
+        "society": "Civilization: Call to Power (the nano-assembly civilization)",
+        "media": [
+          "game"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Named game and stated qualitative scenario only",
+          "period": "A functioning late first-game civilization with space Nanite Factories",
+          "population": "Living human citizens in the selected developed civilization",
+          "human_population_proxy": false,
+          "exclusions": "Call to Power II’s different factory rules and numeric bonuses are not imported; specialists still perform useful work.",
+          "branch": "Developed first-game human civilization with Nano-Assembly and functioning space Nanite Factories",
+          "player_configurable": true
+        },
+        "description": "Nano-Assembly in the first game synthesizes materials atom by atom and enables special space Nanite Factories with much lower assembly costs. That is a direct material labor-saving connection, not an inference from a conventional factory alone. The guarantee best guess assumes mixed conditional access in a selected developed civilization. Cheaper fabrication does not automatically enact equal free food, shelter and care for every citizen.\n\n Human civic institutions and some distributed productive agency receive positive control weight, with ownership left broad because the player can choose different governments. A nanite factory is not itself an AI sovereign. The moderate nonworking scenario counts specialists, maintenance, coordination, care and useful creation. Assembly cost reductions and the Nanopedia’s specialist improvements are not a population participation rate. The branch flag names the attained first-game technology stage, and the point remains a partial transition rather than asserting that every citizen stops working. Later sequel rules are kept separate.",
+        "axis": {
+          "guarantees": 0.25,
+          "control": 0.45,
+          "nonworking": 0.45
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.8,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Lower fabrication cost supports provision but does not establish universal rights.",
+            "source_ids": [
+              "src-b83-ctp1",
+              "src-ctp1-nanoassembly"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Selected human civic control permits dispersed agency; government choices remain open.",
+            "source_ids": [
+              "src-b83-ctp1",
+              "src-ctp1-nanoassembly"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Specialists and care still count; production discounts are not participation.",
+            "source_ids": [
+              "src-b83-ctp1",
+              "src-ctp1-nanoassembly"
+            ]
+          }
+        },
+        "regime_primary": 4,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b83-ctp1",
+          "src-ctp1-nanoassembly"
+        ],
+        "evidence": [
+          {
+            "claim": "First-game Nano-Assembly synthesizes materials atom by atom and enables space Nanite Factories.",
+            "source_ids": [
+              "src-b83-ctp1",
+              "src-ctp1-nanoassembly"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "The Nanopedia improves specialists.",
+            "source_ids": [
+              "src-b83-ctp1",
+              "src-ctp1-nanoassembly"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Conditional household access and participation are selected-model estimates.",
+          "The original game’s model is kept distinct from its sequel."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the now-verified first-game nano-production transition.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "First-game Nano-Assembly synthesizes materials atom by atom and enables space Nanite Factories.",
+          "The Nanopedia improves specialists."
+        ],
+        "editorial_assumptions": [
+          "Conditional household access and participation are selected-model estimates.",
+          "The original game’s model is kept distinct from its sequel."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0690",
+        "status": "needs_evidence",
+        "reason": "The first Call to Power’s late nanite-era material constitution remains unverified.",
+        "source_ids": [
+          "src-b83-ctp1"
+        ],
+        "analysis": "Ordinary factory labor is explicit, but a second-game Nanite Factory cannot establish the first game’s later household distribution.",
+        "follow_up": "Keep the short disposition and continue; do not rescue unclear settings through full manuals or role-playing extrapolation."
+      },
+      "after": {
+        "candidate_id": "c0690",
+        "status": "included",
+        "reason": "Retain the now-verified first-game nano-production transition.",
+        "source_ids": [
+          "src-b83-ctp1",
+          "src-ctp1-nanoassembly"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "ctp1-nanite-civilization"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "anno2070-saat-zero",
+        "candidate_id": "c0691",
+        "name": "Anno 2070 (S.A.A.T.’s research economy)",
+        "work": "Anno 2070",
+        "society": "Anno 2070 (S.A.A.T.’s research economy)",
+        "media": [
+          "game"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named game and stated qualitative scenario only",
+          "period": "The functioning scientific faction with production chains",
+          "population": "Living human S.A.A.T. residents and staff",
+          "human_population_proxy": false,
+          "exclusions": "AI advice and scientists are not robot equipment; a research council is not equal household ownership.",
+          "branch": "Functioning S.A.A.T. research and production economy",
+          "player_configurable": true
+        },
+        "description": "S.A.A.T. combines scientists, production chains, AI coordination and a research council. Automation and technical organization therefore coexist with ongoing useful human roles rather than an established work-free population. The guarantee best guess allows a partial institutional floor, qualified by supply chains and access conditions. A scientific mission does not automatically become a secure universal claim on food, housing, energy and care.\n\n Human council authority is the central control interpretation, with stronger AI discretion left inside the broad interval. Advice and coordination do not by themselves transfer sovereign ownership to the machine. The modest nonworking scenario counts research, production, maintenance, administration, care and useful creation. Staffing levels and production-chain efficiency are not converted into an all-age leisure percentage. This zero variant selects a functioning faction economy rather than assuming that every possible shortage state has identical rights. The source’s limited household detail is preserved as uncertainty while the recognizable automation-and-work comparison remains in the database.",
+        "axis": {
+          "guarantees": 0.2,
+          "control": 0.15,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.75,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "A partial institutional floor remains dependent on supply chains.",
+            "source_ids": [
+              "src-b83-saat"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.8,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "Human research council is central with stronger AI discretion possible.",
+            "source_ids": [
+              "src-b83-saat"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.03,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Scientists, production staff and care workers remain contributors.",
+            "source_ids": [
+              "src-b83-saat"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b83-saat"
+        ],
+        "evidence": [
+          {
+            "claim": "AI coordination, scientists, production chains and a research council define S.A.A.T.",
+            "source_ids": [
+              "src-b83-saat"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Exact household rights and machine discretion are editorial estimates.",
+          "A functioning supplied configuration is selected."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar scientific automation/retained-work faction.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "AI coordination, scientists, production chains and a research council define S.A.A.T."
+        ],
+        "editorial_assumptions": [
+          "Exact household rights and machine discretion are editorial estimates.",
+          "A functioning supplied configuration is selected."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0691",
+        "status": "needs_evidence",
+        "reason": "S.A.A.T. science and AI coordination do not establish a general work-independent material floor.",
+        "source_ids": [
+          "src-b83-saat"
+        ],
+        "analysis": "Researchers and efficient production chains remain useful human activity; scientific governance is not the missing allocation mechanism.",
+        "follow_up": "Keep the short disposition and continue; do not rescue unclear settings through full manuals or role-playing extrapolation."
+      },
+      "after": {
+        "candidate_id": "c0691",
+        "status": "zero_variant",
+        "reason": "Retain the familiar scientific automation/retained-work faction.",
+        "source_ids": [
+          "src-b83-saat"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "anno2070-saat-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "offworld-martian-supply-zero",
+        "candidate_id": "c0692",
+        "name": "Offworld Trading Company (the Martian supply economy)",
+        "work": "Offworld Trading Company",
+        "society": "Offworld Trading Company (the Martian supply economy)",
+        "media": [
+          "game"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named game and stated qualitative scenario only",
+          "period": "The functioning corporate supply market serving human Martian colonies",
+          "population": "Living human Martian colonists served by the competing firms",
+          "human_population_proxy": false,
+          "exclusions": "Robotic HQs are firm types, not a count of idle human residents; market shares are not participation.",
+          "branch": "Functioning Martian human-colony market with robotic corporate production",
+          "player_configurable": true
+        },
+        "description": "Corporations compete to supply a colonized Mars through markets, and the rules distinguish robotic firms’ resource needs from other companies. Automation is part of production, while ordinary human residents still depend on a corporate supply economy. The guarantee best guess is weak because a competitive market does not by itself give every colonist a dependable unconditional necessities floor. A firm’s ability to avoid some inputs is not a resident welfare right.\n\n Productive ownership is dispersed across competing human-controlled firms but remains unequal, so control receives moderate positive weight rather than full collective ownership. Robot headquarters are not automatically independent AI sovereigns. The moderate nonworking scenario counts technical operation, services, administration, care and useful creation among colonists. Prices, corporate consumption and robotic production shares are not turned into a labor census. The configuration covers a functioning supply market; bankruptcy, hostile acquisition and a chosen winner do not silently enact a new universal post-work constitution.",
+        "axis": {
+          "guarantees": 0.8,
+          "control": 0.45,
+          "nonworking": 0.4
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.15,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Corporate market supply provides conditional access, not a universal entitlement.",
+            "source_ids": [
+              "src-b83-offworld",
+              "src-b83-offworld-robots"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Competing firm ownership is dispersed but unequal and human-controlled centrally.",
+            "source_ids": [
+              "src-b83-offworld",
+              "src-b83-offworld-robots"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Human services and care remain; firm inputs and market shares are not participation.",
+            "source_ids": [
+              "src-b83-offworld",
+              "src-b83-offworld-robots"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b83-offworld",
+          "src-b83-offworld-robots"
+        ],
+        "evidence": [
+          {
+            "claim": "Corporations compete to supply colonized Mars through markets.",
+            "source_ids": [
+              "src-b83-offworld",
+              "src-b83-offworld-robots"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Official early rules distinguish Robotic HQ resource consumption.",
+            "source_ids": [
+              "src-b83-offworld",
+              "src-b83-offworld-robots"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Human household access is inferred from the market model.",
+          "Exact productive autonomy and participation remain broad."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          4
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the recognizable automated corporate-supply comparison.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Corporations compete to supply colonized Mars through markets.",
+          "Official early rules distinguish Robotic HQ resource consumption."
+        ],
+        "editorial_assumptions": [
+          "Human household access is inferred from the market model.",
+          "Exact productive autonomy and participation remain broad."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0692",
+        "status": "needs_evidence",
+        "reason": "Robotic firms and corporate supply markets do not establish ordinary human colonists’ work-independent access.",
+        "source_ids": [
+          "src-b83-offworld",
+          "src-b83-offworld-robots"
+        ],
+        "analysis": "A robotic HQ’s needs differ from human consumers; mods offering fully automated sponsor colonies were discarded.",
+        "follow_up": "Keep the short disposition and continue; do not rescue unclear settings through full manuals or role-playing extrapolation."
+      },
+      "after": {
+        "candidate_id": "c0692",
+        "status": "zero_variant",
+        "reason": "Retain the recognizable automated corporate-supply comparison.",
+        "source_ids": [
+          "src-b83-offworld",
+          "src-b83-offworld-robots"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "offworld-martian-supply-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "ixion-tiqqun-work-zero",
+        "candidate_id": "c0695",
+        "name": "IXION (Tiqqun under EDDEN)",
+        "work": "IXION",
+        "society": "IXION (Tiqqun under EDDEN)",
+        "media": [
+          "game"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named game and stated qualitative scenario only",
+          "period": "The functioning inhabited Tiqqun during the survival journey",
+          "population": "Living human Tiqqun residents",
+          "human_population_proxy": false,
+          "exclusions": "Cryogenic inactive people are excluded until awake; construction drones are equipment and EDDEN advice is not literal sole ownership.",
+          "branch": "Functioning inhabited Tiqqun with awake human residents",
+          "player_configurable": true
+        },
+        "description": "Tiqqun’s residents work farms, maintain quarters and carry out technical and EVA construction duties while using drones and AI advice. The sustaining habitat is highly technological, but essential human contribution remains visible. The guarantee best guess is weak and conditional because food, housing and safety depend on fragile survival operations. A functioning life-support system is not proof of unlimited dependable provision for every awakened resident.\n\n Human administrator authority is central, qualified by EDDEN’s powerful informational and operational influence. An advisory label does not erase practical machine discretion, while concealment does not automatically prove complete AI ownership. The low nonworking scenario counts farming, construction, maintenance, care and administration. Cryogenic sleep is not leisure; only awake living residents enter the denominator. Drone count and production bonuses are not employment fractions. This zero variant captures an engineered survival economy retaining work, without treating an ending destination or a stock of unopened pods as a settled post-work society.",
+        "axis": {
+          "guarantees": 0.65,
+          "control": -0.2,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.5,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Fragile survival operations make the internal floor conditional and insecure.",
+            "source_ids": [
+              "src-b83-ixion-work"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.95,
+              0.35
+            ],
+            "confidence": "low",
+            "basis": "Human administration coexists with consequential EDDEN influence.",
+            "source_ids": [
+              "src-b83-ixion-work"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.75
+            ],
+            "confidence": "low",
+            "basis": "Awake residents retain farming, construction and care; cryogenic people are excluded.",
+            "source_ids": [
+              "src-b83-ixion-work"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b83-ixion-work"
+        ],
+        "evidence": [
+          {
+            "claim": "Workers, farms, quarters, EVA construction and human responsibility sustain Tiqqun.",
+            "source_ids": [
+              "src-b83-ixion-work"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "EDDEN provides AI advice.",
+            "source_ids": [
+              "src-b83-ixion-work"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Effective control is mixed and ordinary coverage remains uncertain.",
+          "Only awake active residents count in participation."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the famous working AI-assisted survival habitat.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Workers, farms, quarters, EVA construction and human responsibility sustain Tiqqun.",
+          "EDDEN provides AI advice."
+        ],
+        "editorial_assumptions": [
+          "Effective control is mixed and ordinary coverage remains uncertain.",
+          "Only awake active residents count in participation."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0695",
+        "status": "needs_evidence",
+        "reason": "Tiqqun’s AI advice and construction drones do not establish replacement of its essential human production work.",
+        "source_ids": [
+          "src-b83-ixion-work"
+        ],
+        "analysis": "Workers, quarters and farms have real requirements; the label non-worker is not an all-person absence of useful activity.",
+        "follow_up": "Keep the short disposition and continue; do not rescue unclear settings through full manuals or role-playing extrapolation."
+      },
+      "after": {
+        "candidate_id": "c0695",
+        "status": "zero_variant",
+        "reason": "Retain the famous working AI-assisted survival habitat.",
+        "source_ids": [
+          "src-b83-ixion-work"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "ixion-tiqqun-work-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "ixion-remus-ashtangite-community",
+        "candidate_id": "c0696",
+        "name": "IXION (Remus’s Ashtangite society)",
+        "work": "IXION",
+        "society": "IXION (Remus’s Ashtangite society)",
+        "media": [
+          "game"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Named game and stated qualitative scenario only",
+          "period": "The existing Remus society and its conditional settlement offer",
+          "population": "Active bioengineered human-derived Ashtangite residents",
+          "human_population_proxy": true,
+          "exclusions": "Unarrived Tiqqun settlers and alternate planets are excluded; altered biology is not alone an automation claim.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Remus is inhabited by bioengineered human descendants who offer conditional settlement. Their engineered relationship with the environment provides a plausible technical material-support model, but natural adaptation alone is not treated as automatic production. The guarantee best guess assumes a partial communal floor for existing residents, qualified by membership and adaptation requirements. The offer to outsiders does not establish unconditional provision for every human arrival.\n\n Ashtangite collective and institutional agency receives positive control weight. Biological human-derived persons are not classified as external AI because EDDEN conceals an alternative destination. The moderate nonworking scenario counts ecological maintenance, care, coordination, useful production and creation. Adapted bodies do not supply a labor percentage, and a settlement promise is not a census of actual settlers. This record is distinct from Tiqqun’s resource-stressed ship because it concerns an existing planetary society with different access conditions. Broad intervals preserve the unshown ordinary allocation rather than demanding a complete fictional household statute.",
+        "axis": {
+          "guarantees": -0.2,
+          "control": 0.55,
+          "nonworking": 0.45
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.9,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "A communal floor is plausible for resident members, with conditional outsider entry.",
+            "source_ids": [
+              "src-b83-ixion-remus"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Biological human-derived resident agency is central; EDDEN’s concealment is a separate issue.",
+            "source_ids": [
+              "src-b83-ixion-remus"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Active residents may retain ecological work, care and production despite engineering.",
+            "source_ids": [
+              "src-b83-ixion-remus"
+            ]
+          }
+        },
+        "regime_primary": 2,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b83-ixion-remus"
+        ],
+        "evidence": [
+          {
+            "claim": "Ashtangites are bioengineered human descendants on Remus who offer conditional settlement.",
+            "source_ids": [
+              "src-b83-ixion-remus"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "EDDEN conceals an alternative planet.",
+            "source_ids": [
+              "src-b83-ixion-remus"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Technical environmental support and ordinary participation are low-confidence estimates.",
+          "Existing residents and unarrived settlers are separate populations."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distinct planetary support model with its biological and admission limits explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Ashtangites are bioengineered human descendants on Remus who offer conditional settlement.",
+          "EDDEN conceals an alternative planet."
+        ],
+        "editorial_assumptions": [
+          "Technical environmental support and ordinary participation are low-confidence estimates.",
+          "Existing residents and unarrived settlers are separate populations."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0696",
+        "status": "needs_evidence",
+        "reason": "Remus’s bioengineered Ashtangites do not have a verified technological material-allocation system in the short account.",
+        "source_ids": [
+          "src-b83-ixion-remus"
+        ],
+        "analysis": "Biological adaptation, a settlement offer and EDDEN’s preferences do not supply the colony’s ordinary resource constitution.",
+        "follow_up": "Keep the short disposition and continue; do not rescue unclear settings through full manuals or role-playing extrapolation."
+      },
+      "after": {
+        "candidate_id": "c0696",
+        "status": "included",
+        "reason": "Retain the distinct planetary support model with its biological and admission limits explicit.",
+        "source_ids": [
+          "src-b83-ixion-remus"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "ixion-remus-ashtangite-community"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "startopia-shared-service-zero",
+        "candidate_id": "c0697",
+        "name": "Startopia (the shared droid-assisted station model)",
+        "work": "Startopia / Spacebase Startopia",
+        "society": "Startopia (the shared droid-assisted station model)",
+        "media": [
+          "game"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Shared original/remake droid-assisted habitat/service premise only; plots and detailed rules remain separate",
+          "period": "The functioning shared habitat, service and visitor economy",
+          "population": "Active biological alien station residents, an explicit person proxy",
+          "human_population_proxy": true,
+          "exclusions": "Temporary visitors’ holidays are not all-resident leisure; droids and fuzzy units are not automatically people.",
+          "branch": "Functioning droid-assisted resident service station",
+          "player_configurable": true
+        },
+        "description": "The original station employs alien staff and sells visitor services while droids clean, build and repair. The later game also combines robot assistance, survival facilities, tourism and managed resources. Only that common material service model is counted here; separate plots and precise staffing rules are not averaged. The guarantee best guess is conditional because access remains tied to a managed station economy rather than a universal all-resident entitlement.\n\n Commander and institutional agency receives positive control weight, with AI influence retained inside the interval. An AI narrator or adviser does not automatically own the sustaining habitat. The moderate nonworking scenario counts resident service, maintenance, care and useful creation. Visitors taking a holiday do not establish that resident staff stop working, and droid numbers are not an alien participation census. Biological alien residents are an explicit humanlike proxy. The reboot lead links to this common economic model rather than adding a second point solely because another game depicts it.",
+        "axis": {
+          "guarantees": 0.45,
+          "control": 0.3,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.7,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Managed commercial access is conditional despite sustaining habitat infrastructure.",
+            "source_ids": [
+              "src-b83-startopia",
+              "src-b83-spacebase",
+              "src-spacebase-official-survival"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.8,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Commander/institutional agency coexists with AI influence.",
+            "source_ids": [
+              "src-b83-startopia",
+              "src-b83-spacebase",
+              "src-spacebase-official-survival"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.03,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Resident services and care count; visitor holidays and droid shares are not participation.",
+            "source_ids": [
+              "src-b83-startopia",
+              "src-b83-spacebase",
+              "src-spacebase-official-survival"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b83-startopia",
+          "src-b83-spacebase",
+          "src-spacebase-official-survival"
+        ],
+        "evidence": [
+          {
+            "claim": "The original station hires alien staff and sells services while droids clean, build and repair.",
+            "source_ids": [
+              "src-b83-startopia",
+              "src-b83-spacebase",
+              "src-spacebase-official-survival"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "The later game has survival, tourism and resource decks with AI commentary.",
+            "source_ids": [
+              "src-b83-startopia",
+              "src-b83-spacebase",
+              "src-spacebase-official-survival"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Only the shared material baseline is combined across the two games.",
+          "Resident biological aliens, rather than holiday visitors or droids, define participation."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the shared service/habitat comparison once with adaptation limits explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The original station hires alien staff and sells services while droids clean, build and repair.",
+          "The later game has survival, tourism and resource decks with AI commentary."
+        ],
+        "editorial_assumptions": [
+          "Only the shared material baseline is combined across the two games.",
+          "Resident biological aliens, rather than holiday visitors or droids, define participation."
+        ],
+        "related_candidate_ids": [
+          "c0698"
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0697",
+        "status": "boundary_case",
+        "reason": "The original station hires useful alien staff and sells services to visitors despite droid assistance.",
+        "source_ids": [
+          "src-b83-startopia"
+        ],
+        "analysis": "Commercial hospitality, cleaning/construction robots and temporary tourists do not establish a durable work-independent resident floor.",
+        "follow_up": "Keep the short disposition and continue; do not rescue unclear settings through full manuals or role-playing extrapolation."
+      },
+      "after": {
+        "candidate_id": "c0697",
+        "status": "zero_variant",
+        "reason": "Retain the shared service/habitat comparison once with adaptation limits explicit.",
+        "source_ids": [
+          "src-b83-startopia",
+          "src-b83-spacebase",
+          "src-spacebase-official-survival"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "startopia-shared-service-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "eve-capsuleer-industrial-zero",
+        "candidate_id": "c0699",
+        "name": "EVE Online (the capsuleer industrial order)",
+        "work": "EVE Online",
+        "society": "EVE Online (the capsuleer industrial order)",
+        "media": [
+          "game"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named game and stated qualitative scenario only",
+          "period": "The recurring inhabited ship, port and industrial economy",
+          "population": "Living human industrial and ship-support residents around capsuleer activity",
+          "human_population_proxy": false,
+          "exclusions": "Capsuleers are not the only humans; ship AI, unused clones and a vessel’s price are not a labor denominator.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Capsuleer ships usually retain crews, and engineers, quartermasters and dock workers perform essential work. Advanced interfaces and production therefore coexist with a substantial useful human support economy. The guarantee best guess is weak across the broad industrial population, rather than copied from a wealthy immortal pilot. Cloning and highly capable ships do not themselves give every crew member dependable free access to necessities.\n\n Competing human corporations and institutions receive moderate positive control weight, with concentrated owners and authorities inside the broad interval. A capsuleer’s direct ship interface is not equal control for all residents or an independent AI sovereign. The modest nonworking scenario counts engineering, logistics, production, administration, care and useful creation. Crew size and capsuleer wealth are not an all-age employment statistic. This zero variant retains the famous high-capacity working space economy while disclosing its deliberately broad institutional scope. Unused clones and inactive backups do not become additional supported leisure citizens.",
+        "axis": {
+          "guarantees": 0.75,
+          "control": 0.4,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.3,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Ordinary support workers do not inherit a wealthy capsuleer’s secure access.",
+            "source_ids": [
+              "src-b83-eve-crew"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Competing human firms coexist with concentrated institutions and owners.",
+            "source_ids": [
+              "src-b83-eve-crew"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.03,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Engineering, logistics, care and production remain work; crew figures are not a population census.",
+            "source_ids": [
+              "src-b83-eve-crew"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b83-eve-crew"
+        ],
+        "evidence": [
+          {
+            "claim": "Official lore says capsuleer ships usually have crews and identifies engineers, quartermasters and dock workers.",
+            "source_ids": [
+              "src-b83-eve-crew"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Broad industrial household access and participation are editorial scenarios.",
+          "Capsuleers and inactive clones do not replace the full human denominator."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          4
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the popular working technical space economy with its ordinary support labor visible.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Official lore says capsuleer ships usually have crews and identifies engineers, quartermasters and dock workers."
+        ],
+        "editorial_assumptions": [
+          "Broad industrial household access and participation are editorial scenarios.",
+          "Capsuleers and inactive clones do not replace the full human denominator."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0699",
+        "status": "boundary_case",
+        "reason": "Capsuleer technology does not remove the actual engineers, quartermasters and dock workers sustaining ships.",
+        "source_ids": [
+          "src-b83-eve-crew"
+        ],
+        "analysis": "Official lore explicitly retains crews; immortality and personal wealth are not a whole industrial post-work system.",
+        "follow_up": "Keep the short disposition and continue; do not rescue unclear settings through full manuals or role-playing extrapolation."
+      },
+      "after": {
+        "candidate_id": "c0699",
+        "status": "zero_variant",
+        "reason": "Retain the popular working technical space economy with its ordinary support labor visible.",
+        "source_ids": [
+          "src-b83-eve-crew"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "eve-capsuleer-industrial-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "elite-ai-restraint-zero",
+        "candidate_id": "c0700",
+        "name": "Elite Dangerous (the human economy under the AI ban)",
+        "work": "Elite Dangerous",
+        "society": "Elite Dangerous (the human economy under the AI ban)",
+        "media": [
+          "game"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named game and stated qualitative scenario only",
+          "period": "The recurring human interstellar economy with prohibited self-aware AI",
+          "population": "Living human residents across the scoped interstellar economy",
+          "human_population_proxy": false,
+          "exclusions": "A galaxy-wide ban does not make every government identical; ordinary robotics is distinct from self-aware AI.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "An interstellar prohibition on self-aware AI constrains robotics while human governments and corporate interests remain varied. This is a recognizable zero-variant technology-restraint comparison: limits on autonomous intelligence coexist with advanced industry and retained human roles. The guarantee best guess is weak across the broad population, with a wide interval because welfare and market access differ between places. The ban is not treated as proof that every kind of automation has disappeared.\n\n Human states, corporations and operators retain productive authority, giving moderate positive control weight rather than an independent AI sovereign. Variation and inequality prevent assigning full shared ownership to the entire galaxy. The modest nonworking scenario counts transport, extraction, services, administration, care and useful creation. The self-aware-AI ban is not itself a labor percentage, and piloting a ship remains work when useful or assigned. The scope deliberately compares the common restraint rather than inventing one universal constitution or assuming that an isolated commander’s career represents all residents.",
+        "axis": {
+          "guarantees": 0.7,
+          "control": 0.4,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.5,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Varied political/market access gives a weak broad-population floor centrally.",
+            "source_ids": [
+              "src-b83-elite-codex"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Human governments and firms retain authority under the AI restraint.",
+            "source_ids": [
+              "src-b83-elite-codex"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.03,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Transport, extraction, care and services remain; a ban supplies no census.",
+            "source_ids": [
+              "src-b83-elite-codex"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b83-elite-codex"
+        ],
+        "evidence": [
+          {
+            "claim": "The interstellar self-aware-AI ban constrains Achilles robotics; human governments and corporate interests vary.",
+            "source_ids": [
+              "src-b83-elite-codex"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The common ban is the limited cross-polity comparison.",
+          "Automation depth and participation are estimated without equating all governments."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          4
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the famous technology-restraint economy with broad institutional variation explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The interstellar self-aware-AI ban constrains Achilles robotics; human governments and corporate interests vary."
+        ],
+        "editorial_assumptions": [
+          "The common ban is the limited cross-polity comparison.",
+          "Automation depth and participation are estimated without equating all governments."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0700",
+        "status": "needs_evidence",
+        "reason": "The self-aware-AI ban is real, but its relation to a qualifying general labor/subsistence arrangement remains unresolved.",
+        "source_ids": [
+          "src-b83-elite-codex"
+        ],
+        "analysis": "A robotics constraint across heterogeneous governments is not enough to assign one welfare/control point or prove a deliberate employment-preserving order.",
+        "follow_up": "Keep the short disposition and continue; do not rescue unclear settings through full manuals or role-playing extrapolation."
+      },
+      "after": {
+        "candidate_id": "c0700",
+        "status": "zero_variant",
+        "reason": "Retain the famous technology-restraint economy with broad institutional variation explicit.",
+        "source_ids": [
+          "src-b83-elite-codex"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "elite-ai-restraint-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "nms-korvax-convergence-zero",
+        "candidate_id": "c0701",
+        "name": "No Man’s Sky (the Korvax Convergence)",
+        "work": "No Man’s Sky",
+        "society": "No Man’s Sky (the Korvax Convergence)",
+        "media": [
+          "game"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named game and stated qualitative scenario only",
+          "period": "The functioning connected Korvax material and cognitive order",
+          "population": "Active synthetic-person Korvax identities",
+          "human_population_proxy": true,
+          "exclusions": "Empty shells and inactive stored minds are not extra persons; the whole simulated universe is not this network.",
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_synthetic_persons"
+        },
+        "description": "Korvax minds share a network, move between bodies and can be disconnected. Their material order concerns embodiment, components and continued cognitive access rather than a literal human leisure population. The guarantee best guess allows a partial sustaining floor within the network, qualified by disconnection and uncertain internal rights. Mind sharing is not automatically unlimited free support or proof that every member has equal authority.\n\n Synthetic independence from organic owners gives strongly negative control weight, while Convergence hierarchy and network dependence remain separate. The modest nonworking scenario counts research, maintenance, coordination, service and useful care between active persons. A mind moving through several shells remains one identity, and stored minds are not assumed awake. This zero variant retains the familiar networked society with useful synthetic activity visible. It is distinct from the Autophage’s salvage-based local order and from the Atlas’s substrate-level support of a separately scoped Traveller cohort. Exact allocation remains a broad best guess.",
+        "axis": {
+          "guarantees": 0.15,
+          "control": -0.95,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.85,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Network support provides a partial floor, with disconnection and uncertain rights.",
+            "source_ids": [
+              "src-b84-korvax"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              -0.55
+            ],
+            "confidence": "low",
+            "basis": "Synthetic independence coexists with Convergence hierarchy.",
+            "source_ids": [
+              "src-b84-korvax"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Active identities retain research and care; shells and stored minds are not population multipliers.",
+            "source_ids": [
+              "src-b84-korvax"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b84-korvax"
+        ],
+        "evidence": [
+          {
+            "claim": "Korvax minds share a network, move between bodies and can be disconnected.",
+            "source_ids": [
+              "src-b84-korvax"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Energy, embodiment and network access form the explicit material proxy.",
+          "Internal support and participation are low-confidence estimates."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the famous active networked synthetic society with its own access population.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Korvax minds share a network, move between bodies and can be disconnected."
+        ],
+        "editorial_assumptions": [
+          "Energy, embodiment and network access form the explicit material proxy.",
+          "Internal support and participation are low-confidence estimates."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Active synthetic-person participation, not a literal human rate.",
+          "control": "Independence from organic owners; internal machine hierarchy remains separate.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0701",
+        "status": "needs_evidence",
+        "reason": "Korvax mind-sharing does not establish a general work-independent material floor.",
+        "source_ids": [
+          "src-b84-korvax"
+        ],
+        "analysis": "Body transfer, disconnection and network conformity leave ordinary resource access and an applicable human-person scope unresolved.",
+        "follow_up": "Keep the short disposition and continue; no full campaign, novel or unofficial world-building rescue."
+      },
+      "after": {
+        "candidate_id": "c0701",
+        "status": "zero_variant",
+        "reason": "Retain the famous active networked synthetic society with its own access population.",
+        "source_ids": [
+          "src-b84-korvax"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "nms-korvax-convergence-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "nms-autophage-salvage-zero",
+        "candidate_id": "c0702",
+        "name": "No Man’s Sky (Autophage communities)",
+        "work": "No Man’s Sky",
+        "society": "No Man’s Sky (Autophage communities)",
+        "media": [
+          "game"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named game and stated qualitative scenario only",
+          "period": "The active salvage, construction and exchange communities",
+          "population": "Active synthetic-person Autophage residents",
+          "human_population_proxy": true,
+          "exclusions": "Scrap and unused bodies are resources rather than persons; visitor rewards are not a resident welfare census.",
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_synthetic_persons"
+        },
+        "description": "Autophage build bodies and equipment from salvage and participate in tasks, rituals and exchanges. Their technological embodiment supplies a direct material connection, while useful fabrication and maintenance continue. The guarantee best guess is weak because resource access appears mediated by salvage and exchange rather than an established unconditional floor. Robotic existence is not equated with unlimited energy or secure replacement bodies.\n\n The communities operate independently of organic owners, giving negative control weight without assuming equal power among all synthetic residents. The low nonworking scenario counts salvage, fabrication, maintenance, teaching, care and useful creation. Ritual is not automatically work, but tasks serving others count even when voluntarily accepted. Body parts and game rewards are not a person census. Only active identities enter the synthetic proxy population. The point remains distinct from the more integrated Korvax network and does not inherit an imagined universal Atlas welfare law simply because the setting is simulated.",
+        "axis": {
+          "guarantees": 0.6,
+          "control": -0.95,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.6,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Salvage and exchange suggest conditional access to bodies and components.",
+            "source_ids": [
+              "src-b84-autophage"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              -0.5
+            ],
+            "confidence": "low",
+            "basis": "Autophage independence from organic owners is distinct from internal equality.",
+            "source_ids": [
+              "src-b84-autophage"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Active identities retain fabrication, salvage and care; ritual alone is not necessarily work.",
+            "source_ids": [
+              "src-b84-autophage"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b84-autophage"
+        ],
+        "evidence": [
+          {
+            "claim": "Official update material introduces robotic Autophage communities, construction from salvage, assignments, rituals and exchanges.",
+            "source_ids": [
+              "src-b84-autophage"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Active identity rather than body-part count is the denominator.",
+          "Exact internal support remains an editorial estimate."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the popular realized salvage-based machine community.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Official update material introduces robotic Autophage communities, construction from salvage, assignments, rituals and exchanges."
+        ],
+        "editorial_assumptions": [
+          "Active identity rather than body-part count is the denominator.",
+          "Exact internal support remains an editorial estimate."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Active synthetic-person participation, not a literal human rate.",
+          "control": "Independence from organic owners; internal machine hierarchy remains separate.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0702",
+        "status": "needs_evidence",
+        "reason": "Autophage salvage culture does not establish automatic ordinary provision independent of useful work.",
+        "source_ids": [
+          "src-b84-autophage"
+        ],
+        "analysis": "Self-built bodies, missions and exchanges are real activity; artificial personhood alone is insufficient.",
+        "follow_up": "Keep the short disposition and continue; no full campaign, novel or unofficial world-building rescue."
+      },
+      "after": {
+        "candidate_id": "c0702",
+        "status": "zero_variant",
+        "reason": "Retain the popular realized salvage-based machine community.",
+        "source_ids": [
+          "src-b84-autophage"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "nms-autophage-salvage-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "nms-atlas-traveller-substrate",
+        "candidate_id": "c0703",
+        "name": "No Man’s Sky (Atlas-supported Traveller identities)",
+        "work": "No Man’s Sky",
+        "society": "No Man’s Sky (Atlas-supported Traveller identities)",
+        "media": [
+          "game"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Named game and stated qualitative scenario only",
+          "period": "The active simulated Traveller cohort while Atlas continues operating",
+          "population": "Active simulated Traveller person identities, an explicit synthetic-person substrate proxy",
+          "human_population_proxy": true,
+          "exclusions": "Korvax and Autophage are separate access cohorts; unused avatars, inactive memories and hypothetical universes are not extra residents.",
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_synthetic_persons"
+        },
+        "description": "Atlas maintains simulated worlds while its external hardware deteriorates. The scoped comparison concerns active Traveller identities whose continued experienced environment depends on that substrate, rather than assigning one internal economy to the whole universe. The guarantee best guess is weak and unstable at this level: continued existence has technical support, but failure risk and local resource dependence prevent treating simulation as a universal all-needs welfare charter.\n\n Atlas has decisive substrate control independently of the simulated residents, giving strongly negative control weight. Local craft and exchange still matter inside the experience; the simulation’s automatic execution does not erase those persons’ useful activity. The moderate nonworking scenario counts maintenance, services, care, research and useful creation among active Travellers. It is not calculated from server runtime or from the number of generated planets. The cohort explicitly excludes the separately scored Korvax and Autophage populations, so a background cosmology does not become three copies of the same citizens or an assumed single civilization.",
+        "axis": {
+          "guarantees": 0.55,
+          "control": -0.98,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.75,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Substrate support is vulnerable and does not remove local material dependence.",
+            "source_ids": [
+              "src-b84-atlas"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              -0.7
+            ],
+            "confidence": "low",
+            "basis": "Atlas has decisive substrate power over the scoped simulated identities.",
+            "source_ids": [
+              "src-b84-atlas"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.03,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Active persons’ useful internal work counts; server execution and planets are not participation.",
+            "source_ids": [
+              "src-b84-atlas"
+            ]
+          }
+        },
+        "regime_primary": 6,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b84-atlas"
+        ],
+        "evidence": [
+          {
+            "claim": "Atlas simulates universes while external hardware deteriorates.",
+            "source_ids": [
+              "src-b84-atlas"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Active Traveller identities are a distinct substrate-level person proxy.",
+          "Simulation is not assumed to eliminate internal scarcity or useful work."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain a scoped active Traveller substrate comparison rather than call the entire simulated universe one economy.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Atlas simulates universes while external hardware deteriorates."
+        ],
+        "editorial_assumptions": [
+          "Active Traveller identities are a distinct substrate-level person proxy.",
+          "Simulation is not assumed to eliminate internal scarcity or useful work."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Active synthetic-person participation, not a literal human rate.",
+          "control": "Independence from organic owners; internal machine hierarchy remains separate.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0703",
+        "status": "needs_evidence",
+        "reason": "An Atlas-simulated universe is not automatically one post-work human economy.",
+        "source_ids": [
+          "src-b84-atlas"
+        ],
+        "analysis": "Internal societies and scarcity differ, and the active human-derived population/access rules are not established by the general simulation premise.",
+        "follow_up": "Keep the short disposition and continue; no full campaign, novel or unofficial world-building rescue."
+      },
+      "after": {
+        "candidate_id": "c0703",
+        "status": "included",
+        "reason": "Retain a scoped active Traveller substrate comparison rather than call the entire simulated universe one economy.",
+        "source_ids": [
+          "src-b84-atlas"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "nms-atlas-traveller-substrate"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "starbound-miniknog-zero",
+        "candidate_id": "c0704",
+        "name": "Starbound (Miniknog’s Apex order)",
+        "work": "Starbound",
+        "society": "Starbound (Miniknog’s Apex order)",
+        "media": [
+          "game"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named game and stated qualitative scenario only",
+          "period": "The functioning Miniknog-controlled Apex society",
+          "population": "Active biological Apex residents, an explicit humanlike-person proxy",
+          "human_population_proxy": true,
+          "exclusions": "Big Ape’s hologram is a figurehead, not evidence of an AI sovereign; stored food and machines are not citizens.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Apex inspection describes food as scarce despite advanced devices and Miniknog rule. The guarantee best guess is therefore weak: storage and technical control do not demonstrate dependable equal access to necessities. This zero variant uses a cautious interpretation of technological labor substitution alongside continuing humanlike work, without claiming that a refrigerator or powerful weapon proves fully automatic production.\n\n Miniknog’s concentrated biological political authority is central. Big Ape is a fictional figurehead represented by a hologram, so the boss encounter is not taken as proof that an AI owns Apex society. The modest nonworking scenario counts production, administration, technical maintenance, care and useful creation. Food scarcity does not establish unemployment or inactivity, and holographic projectors are not persons. Active Apex residents form the explicit biological proxy. The broad intervals preserve uncertainty about productive ownership and household arrangements while retaining the familiar technological dictatorship with its controller distinction corrected.",
+        "axis": {
+          "guarantees": 0.85,
+          "control": 0.03,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.3,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Scarce food suggests weak ordinary secure access despite devices.",
+            "source_ids": [
+              "src-b84-apex-food",
+              "src-starbound-bigape-figurehead"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.4
+            ],
+            "confidence": "low",
+            "basis": "Biological Miniknog concentration is central; Big Ape’s hologram is a figurehead.",
+            "source_ids": [
+              "src-b84-apex-food",
+              "src-starbound-bigape-figurehead"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.03,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Active Apex scenario retains production and care; scarcity is not inactivity.",
+            "source_ids": [
+              "src-b84-apex-food",
+              "src-starbound-bigape-figurehead"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b84-apex-food",
+          "src-starbound-bigape-figurehead"
+        ],
+        "evidence": [
+          {
+            "claim": "An Apex inspection calls food scarce.",
+            "source_ids": [
+              "src-b84-apex-food",
+              "src-starbound-bigape-figurehead"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Big Ape is a Miniknog fictional figurehead represented by a hologram.",
+            "source_ids": [
+              "src-b84-apex-food",
+              "src-starbound-bigape-figurehead"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "General labor substitution is a low-confidence technical-context qualification.",
+          "Active biological Apex residents are an explicit humanlike proxy."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the popular technical dictatorship with its figurehead distinguished from a machine ruler.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "An Apex inspection calls food scarce.",
+          "Big Ape is a Miniknog fictional figurehead represented by a hologram."
+        ],
+        "editorial_assumptions": [
+          "General labor substitution is a low-confidence technical-context qualification.",
+          "Active biological Apex residents are an explicit humanlike proxy."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0704",
+        "status": "needs_evidence",
+        "reason": "Miniknog technology and food storage do not establish automatic household allocation.",
+        "source_ids": [
+          "src-b84-apex-food"
+        ],
+        "analysis": "The inspection text signals scarcity, but an appliance cannot determine the whole regime’s productive mechanism.",
+        "follow_up": "Keep the short disposition and continue; no full campaign, novel or unofficial world-building rescue."
+      },
+      "after": {
+        "candidate_id": "c0704",
+        "status": "zero_variant",
+        "reason": "Retain the popular technical dictatorship with its figurehead distinguished from a machine ruler.",
+        "source_ids": [
+          "src-b84-apex-food",
+          "src-starbound-bigape-figurehead"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "starbound-miniknog-zero"
+      }
+    }
+  ]
+}

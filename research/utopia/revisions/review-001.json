@@ -1,0 +1,107 @@
+{
+  "revision": 1,
+  "reviewed_on": "2026-10-21",
+  "reason": "Clarify scoped normative rationales and record two targeted source checks before final delivery.",
+  "before_overlay_sha256": "38f940fd1b0cf9467e46b639fd2965b49302cd5e790e7e35c2dbd640ea6ea8b0",
+  "after_overlay_sha256": "34a5c7a539ec43a3dc3e179eb7586d20e8dd03e30f1bb56c545bf3fc3c6ab659",
+  "changes": [
+    {
+      "id": "scythe-thunderhead-provision",
+      "before": {
+        "score": 0.2,
+        "reviewed_record_sha256": "f034d723786301bbec3e594dafc02a1427e852aa4127c0074f020e349f03b243",
+        "assessment": {
+          "assessment_mode": "editorial_best_guess",
+          "confidence": "low",
+          "basis": "Relief from deprivation is a major benefit, but separate coercive mortality institutions prevent an uncomplicated paradise rating.",
+          "rationale_code": "P",
+          "scope_basis": "Existing record population, continuity and period; described exploitation or exclusion qualifies enclave benefits.",
+          "source_ids": [
+            "src-shusterman-pw-interview",
+            "src-scythe-notredame-award",
+            "src-thunderhead-reference"
+          ],
+          "assessed_on": "2026-10-21",
+          "scale_version": "1.0"
+        }
+      },
+      "after": {
+        "score": 0.2,
+        "reviewed_record_sha256": "f034d723786301bbec3e594dafc02a1427e852aa4127c0074f020e349f03b243",
+        "assessment": {
+          "assessment_mode": "editorial_best_guess",
+          "confidence": "low",
+          "basis": "Relief from deprivation is a major benefit, but separate coercive mortality institutions prevent an uncomplicated paradise rating.",
+          "rationale_code": "P",
+          "scope_basis": "Existing record population, continuity and period; described exploitation or exclusion qualifies enclave benefits.",
+          "source_ids": [
+            "src-shusterman-pw-interview",
+            "src-scythe-notredame-award",
+            "src-thunderhead-reference"
+          ],
+          "assessed_on": "2026-10-21",
+          "scale_version": "1.0",
+          "supplemental_source_ids": [
+            "utopia-scythe-publisher"
+          ]
+        }
+      }
+    },
+    {
+      "id": "worldinside-urban-monads-zero",
+      "before": {
+        "score": -0.75,
+        "reviewed_record_sha256": "44ca6c61f799e7d37174a87dfdda58d3ba9a7fffdf41a5c3caae24c923a1914e",
+        "assessment": {
+          "assessment_mode": "editorial_best_guess",
+          "confidence": "low",
+          "basis": "Restricted agency, enforced conformity or unaccountable control materially qualify or outweigh the benefits of technological provision.",
+          "rationale_code": "T",
+          "scope_basis": "Existing record population, continuity and period; described exploitation or exclusion qualifies enclave benefits.",
+          "source_ids": [
+            "src-b94-urbmon"
+          ],
+          "assessed_on": "2026-10-21",
+          "scale_version": "1.0"
+        }
+      },
+      "after": {
+        "score": -0.75,
+        "reviewed_record_sha256": "44ca6c61f799e7d37174a87dfdda58d3ba9a7fffdf41a5c3caae24c923a1914e",
+        "assessment": {
+          "assessment_mode": "editorial_best_guess",
+          "confidence": "low",
+          "basis": "An internal urban material floor is qualified by a restrictive, dystopian high-density social order; architecture and food supply alone do not establish wellbeing.",
+          "rationale_code": "T",
+          "scope_basis": "Existing record population, continuity and period; described exploitation or exclusion qualifies enclave benefits.",
+          "source_ids": [
+            "src-b94-urbmon"
+          ],
+          "assessed_on": "2026-10-21",
+          "scale_version": "1.0",
+          "supplemental_source_ids": [
+            "utopia-worldinside-sfe"
+          ]
+        }
+      }
+    }
+  ],
+  "supplemental_sources": {
+    "utopia-scythe-publisher": {
+      "title": "Scythe — official publisher synopsis and Chapter 1 excerpt",
+      "url": "https://www.simonandschuster.com/books/Scythe/Neal-Shusterman/Arc-of-a-Scythe/9781442472433",
+      "kind": "publisher_synopsis_and_primary_excerpt",
+      "accessed_on": "2026-10-21",
+      "read_scope": "About the Book and short Chapter 1 passage: material safety coexists with Scythes assigned to end lives for population control.",
+      "limitations": "No full-novel reading; the numeric score remains editorial."
+    },
+    "utopia-worldinside-sfe": {
+      "title": "The Encyclopedia of Science Fiction — Robert Silverberg",
+      "url": "https://sf-encyclopedia.com/entry/silverberg_robert",
+      "kind": "secondary_reference",
+      "accessed_on": "2026-10-21",
+      "read_scope": "Bounded paragraph characterizing The World Inside as a dystopian Urbmon society under high population density.",
+      "limitations": "Supports the broad characterization, not every social rule."
+    }
+  }
+}

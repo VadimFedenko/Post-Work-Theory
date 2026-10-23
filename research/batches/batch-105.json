@@ -1,0 +1,450 @@
+{
+  "batch_id": "batch-105",
+  "researched_on": "2026-10-17",
+  "candidate_ids": [
+    "c0929",
+    "c0930",
+    "c0931"
+  ],
+  "sources": [
+    {
+      "id": "src-games-balaho",
+      "title": "Balaho — Created conflict",
+      "author": "Halopedia contributors",
+      "url": "https://www.halopedia.org/Balaho",
+      "kind": "secondary_reference",
+      "accessed_on": "2026-10-17",
+      "access_method": "Bounded Created-conflict and social-order sections returned by search",
+      "read_scope": "Created supply advanced crewless ships and agricultural stations; immediate food, shelter and medicine needs are met while Unggoy craft and industry continue.",
+      "limitations": "Bounded secondary lore passage; not a claim to reading every cited novel or the original Canon Fodder text."
+    },
+    {
+      "id": "src-games-created-supplies",
+      "title": "Cortana Event — Allies",
+      "author": "Halopedia contributors",
+      "url": "https://www.halopedia.org/Guardian_emergences",
+      "kind": "secondary_reference",
+      "accessed_on": "2026-10-17",
+      "access_method": "Bounded Allies passage returned by search",
+      "read_scope": "Automated vessels and agricultural support accompany abundant food, shelter and medicine for Balaho.",
+      "limitations": "Balaho-specific implementation, not universal proof for all occupied human worlds."
+    },
+    {
+      "id": "src-games-transformers-one",
+      "title": "Transformers One — Plot",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Transformers_One",
+      "kind": "secondary_reference",
+      "accessed_on": "2026-10-17",
+      "access_method": "Bounded hierarchy and ending plot passages returned by search",
+      "read_scope": "Sentinel removes cogs and diverts mined Energon; the ending restores natural Energon flow and miners’ cogs.",
+      "limitations": "Film plot reference, not a viewed film or a lasting post-ending constitution."
+    },
+    {
+      "id": "src-games-tfone-ending",
+      "title": "The Ending of Transformers One, Explained",
+      "author": "SlashFilm",
+      "url": "https://www.slashfilm.com/1666255/transformers-one-ending-explained/",
+      "kind": "secondary_reference",
+      "accessed_on": "2026-10-17",
+      "access_method": "Bounded ending account returned by search",
+      "read_scope": "Optimus restores Energon flow and miners’ cogs after Sentinel’s defeat.",
+      "limitations": "Secondary ending explanation; ordinary later employment is not quantified."
+    }
+  ],
+  "societies": [
+    {
+      "id": "halo-balaho-created-basics",
+      "candidate_id": "c0929",
+      "name": "Halo — Balaho under the Created",
+      "work": "Halo",
+      "society": "Created-supported Balaho",
+      "media": [
+        "game"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Halo Created-era Balaho ancillary lore",
+        "period": "The functioning alliance after Halo 5 and before the loss of Created control",
+        "population": "Living organic Unggoy residents; explicit alien-person proxy",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Every occupied human colony assigned Balaho’s benefits",
+          "All Unggoy considered nonworkers"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Balaho is a concrete case where the Created’s promise becomes provision: advanced crewless ships and agricultural stations arrive, and food, shelter and medicine are supplied to the Unggoy. This supports a strong local material floor rather than inferring welfare from military dominance alone. The guarantee estimate still allows dependence on an external patron and the alliance’s durability. It does not assign identical treatment to human worlds that resist Cortana.\n\nControl lies near autonomous AI authority because the Created direct the supporting infrastructure. Local acceptance does not make it equal resident ownership, though it avoids the same enforcement pattern imposed elsewhere. The modest nonworking estimate preserves the source’s active farmers, designers, crafters and revived factories. Having basic needs met can make useful work possible without making everyone idle. Unggoy are an explicitly named biological-person proxy, and the percentage is a broad editorial scenario rather than a census or a measure of agricultural automation alone.",
+      "axis": {
+        "guarantees": -0.75,
+        "control": -0.9,
+        "nonworking": 0.3
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.95,
+            -0.3
+          ],
+          "confidence": "low",
+          "basis": "Actual food, shelter and medicine support a strong but patron-dependent floor.",
+          "source_ids": [
+            "src-games-balaho",
+            "src-games-created-supplies"
+          ]
+        },
+        "control": {
+          "interval": [
+            -1,
+            -0.65
+          ],
+          "confidence": "low",
+          "basis": "The Created provide autonomous external support; local consent is not ownership.",
+          "source_ids": [
+            "src-games-balaho",
+            "src-games-created-supplies"
+          ]
+        },
+        "nonworking": {
+          "interval": [
+            0.05,
+            0.65
+          ],
+          "confidence": "low",
+          "basis": "Unggoy all-age scenario counts real farming, design, craft and care work despite supported basics.",
+          "source_ids": [
+            "src-games-balaho",
+            "src-games-created-supplies"
+          ]
+        }
+      },
+      "regime_primary": 5,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-games-balaho",
+        "src-games-created-supplies"
+      ],
+      "evidence": [
+        {
+          "claim": "Crewless supply ships and agricultural support stations arrive under the Created alliance.",
+          "source_ids": [
+            "src-games-balaho",
+            "src-games-created-supplies"
+          ],
+          "locator": "Named setting, economy or ending passages; see source read_scope",
+          "kind": "reference_fact"
+        },
+        {
+          "claim": "Food, shelter and medicine needs are met while Unggoy industry and craft continue.",
+          "source_ids": [
+            "src-games-balaho",
+            "src-games-created-supplies"
+          ],
+          "locator": "Named setting, economy or ending passages; see source read_scope",
+          "kind": "reference_fact"
+        }
+      ],
+      "uncertainties": [
+        "The exact entitlement, reliability and participation percentage are editorial estimates.",
+        "This is local implemented provision, not every Created promise as universal canon."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-17",
+        "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+        "coordinate_ready": true
+      },
+      "assessment_mode": "best_guess",
+      "qualification_basis": "Reference-supported local AI-provision order with best-guess coordinates.",
+      "qualification_confidence": "low",
+      "canon_facts": [
+        "Crewless supply ships and agricultural support stations arrive under the Created alliance.",
+        "Food, shelter and medicine needs are met while Unggoy industry and craft continue."
+      ],
+      "editorial_assumptions": [
+        "The exact entitlement, reliability and participation percentage are editorial estimates.",
+        "This is local implemented provision, not every Created promise as universal canon."
+      ]
+    },
+    {
+      "id": "transformers-one-sentinel-mining-zero",
+      "candidate_id": "c0930",
+      "name": "Transformers One — Sentinel’s Iacon",
+      "work": "Transformers One",
+      "society": "Iacon’s forced-mining hierarchy",
+      "media": [
+        "cartoon",
+        "movie"
+      ],
+      "record_type": "zero_variant",
+      "scope": {
+        "continuity": "2024 animated film, separate from Aligned continuity",
+        "period": "The established regime before Sentinel’s exposure",
+        "population": "Active Cybertronian synthetic persons, including deprived miners",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Biological humans invented as residents",
+          "Aligned or other Transformers chronologies"
+        ],
+        "branch": null,
+        "player_configurable": false,
+        "person_proxy_kind": "active_synthetic_persons"
+      },
+      "description": "Sentinel’s Iacon turns technical power into artificial deprivation. Some Cybertronians have their transformation cogs removed before activation and are forced into mining, while Energon is diverted to the Quintessons. The zero variant therefore has a direct institutional basis: rulers preserve a subordinated labor class rather than sharing the possibilities of their technology. Guarantees are strongly unfavorable for the population that must work under this manufactured hierarchy.\n\nControl is autonomous synthetic authority relative to human ownership, but internally concentrated in Sentinel’s regime. Mechanical bodies do not erase the miners’ useful work or make them nonworking robots. The low participation estimate allows a minority outside ongoing roles while counting mining, transport, repair and administration as labor by persons. It is explicitly a synthetic-person comparison, not a human employment statistic. The missing Matrix also limits current energy supply; the record does not claim that ordinary miners can restore it at will or that every retained task is already unnecessary.",
+      "axis": {
+        "guarantees": 0.9,
+        "control": -0.95,
+        "nonworking": 0.1
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            0.55,
+            1
+          ],
+          "confidence": "low",
+          "basis": "Removed capacities, forced work and diverted energy make access insecure.",
+          "source_ids": [
+            "src-games-transformers-one"
+          ]
+        },
+        "control": {
+          "interval": [
+            -1,
+            -0.75
+          ],
+          "confidence": "low",
+          "basis": "Sentinel holds concentrated synthetic authority independent of organic owners.",
+          "source_ids": [
+            "src-games-transformers-one"
+          ]
+        },
+        "nonworking": {
+          "interval": [
+            0,
+            0.4
+          ],
+          "confidence": "low",
+          "basis": "Active-person scenario retains widespread useful mining, repair and service work.",
+          "source_ids": [
+            "src-games-transformers-one"
+          ]
+        }
+      },
+      "regime_primary": 0,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-games-transformers-one"
+      ],
+      "evidence": [
+        {
+          "claim": "Sentinel creates hierarchy by removing transformation cogs and diverts mined Energon.",
+          "source_ids": [
+            "src-games-transformers-one"
+          ],
+          "locator": "Named setting, economy or ending passages; see source read_scope",
+          "kind": "reference_fact"
+        }
+      ],
+      "uncertainties": [
+        "The exact nonworking share is an editorial scenario for active persons.",
+        "The zero variant concerns domination and withheld capacity, not a benevolent job-protection policy."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-17",
+        "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+        "coordinate_ready": true
+      },
+      "regime_analogy": [
+        6
+      ],
+      "assessment_mode": "best_guess",
+      "qualification_basis": "Explicit technologically imposed labor hierarchy; separately labeled zero variant.",
+      "qualification_confidence": "low",
+      "canon_facts": [
+        "Sentinel creates hierarchy by removing transformation cogs and diverts mined Energon."
+      ],
+      "editorial_assumptions": [
+        "The exact nonworking share is an editorial scenario for active persons.",
+        "The zero variant concerns domination and withheld capacity, not a benevolent job-protection policy."
+      ],
+      "axis_interpretation": {
+        "nonworking": "Participation among active synthetic persons, not a literal human employment rate.",
+        "control": "Independent synthetic authority relative to organic ownership; internal concentrated/shared control is described in prose.",
+        "literal_human_nonworking": null
+      }
+    },
+    {
+      "id": "transformers-one-restored-energon",
+      "candidate_id": "c0931",
+      "name": "Transformers One — Iacon after the Matrix returns",
+      "work": "Transformers One",
+      "society": "Iacon under the restored Energon flow",
+      "media": [
+        "cartoon",
+        "movie"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "2024 animated film ending",
+        "period": "The realized restoration and explicitly projected early reconstruction",
+        "population": "Active Cybertronian synthetic residents of Iacon",
+        "human_population_proxy": true,
+        "exclusions": [
+          "An eternal peaceful future",
+          "Aligned-family prewar Cybertron"
+        ],
+        "branch": null,
+        "player_configurable": false,
+        "person_proxy_kind": "active_synthetic_persons"
+      },
+      "description": "The ending restores Energon flow and the miners’ transformation cogs, changing both access to a vital material resource and the capacities withheld by the previous regime. That is a realized provision change rather than only a speech promising future abundance. The best-guess floor is strong for Iacon’s active residents, with uncertainty about allocation, infrastructure and the approaching conflict. A restored resource flow is not proof that every desired object is unlimited.\n\nAuthority remains autonomous synthetic government relative to biological human ownership. Optimus’s leadership does not establish equal internal control, even as the former class barrier is dismantled. A moderate nonworking estimate allows relief from forced extraction while retaining useful rebuilding, engineering, care-like repair and civic organization. It is a synthetic-person participation proxy, not a claim that machines cannot work. Only the immediate restoration is established; later peaceful guarantees and the percentage doing no useful activity are clearly marked projections rather than a settled postwar constitution.",
+      "axis": {
+        "guarantees": -0.65,
+        "control": -0.9,
+        "nonworking": 0.4
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.9,
+            0.2
+          ],
+          "confidence": "low",
+          "basis": "Restored energy and cogs improve implemented access; permanence and equal allocation remain uncertain.",
+          "source_ids": [
+            "src-games-transformers-one",
+            "src-games-tfone-ending"
+          ]
+        },
+        "control": {
+          "interval": [
+            -1,
+            -0.65
+          ],
+          "confidence": "low",
+          "basis": "Autonomous synthetic leadership persists, with internal sharing not established.",
+          "source_ids": [
+            "src-games-transformers-one",
+            "src-games-tfone-ending"
+          ]
+        },
+        "nonworking": {
+          "interval": [
+            0.1,
+            0.8
+          ],
+          "confidence": "low",
+          "basis": "Active-person scenario allows extraction relief while retaining reconstruction, repair and civic work.",
+          "source_ids": [
+            "src-games-transformers-one",
+            "src-games-tfone-ending"
+          ]
+        }
+      },
+      "regime_primary": 5,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-games-transformers-one",
+        "src-games-tfone-ending"
+      ],
+      "evidence": [
+        {
+          "claim": "The Matrix restores Energon flow and the miners’ transformation cogs.",
+          "source_ids": [
+            "src-games-transformers-one",
+            "src-games-tfone-ending"
+          ],
+          "locator": "Named setting, economy or ending passages; see source read_scope",
+          "kind": "reference_fact"
+        }
+      ],
+      "uncertainties": [
+        "The durability of the material floor and participation after the ending are projections.",
+        "The energy mechanism is treated as a functional technical-production analogue within the film’s synthetic world."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-17",
+        "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+        "coordinate_ready": true
+      },
+      "assessment_mode": "best_guess",
+      "qualification_basis": "Realized material-access change with explicit early-future best guesses.",
+      "qualification_confidence": "low",
+      "canon_facts": [
+        "The Matrix restores Energon flow and the miners’ transformation cogs."
+      ],
+      "editorial_assumptions": [
+        "The durability of the material floor and participation after the ending are projections.",
+        "The energy mechanism is treated as a functional technical-production analogue within the film’s synthetic world."
+      ],
+      "axis_interpretation": {
+        "nonworking": "Participation among active synthetic persons, not a literal human employment rate.",
+        "control": "Independent synthetic authority relative to organic ownership; internal concentrated/shared control is described in prose.",
+        "literal_human_nonworking": null
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0929",
+      "status": "included",
+      "reason": "Reference-supported local AI-provision order with best-guess coordinates.",
+      "source_ids": [
+        "src-games-balaho",
+        "src-games-created-supplies"
+      ],
+      "assessment_mode": "best_guess",
+      "reassessed_on": "2026-10-17",
+      "society_id": "halo-balaho-created-basics"
+    },
+    {
+      "candidate_id": "c0930",
+      "status": "zero_variant",
+      "reason": "Explicit technologically imposed labor hierarchy; separately labeled zero variant.",
+      "source_ids": [
+        "src-games-transformers-one"
+      ],
+      "assessment_mode": "best_guess",
+      "reassessed_on": "2026-10-17",
+      "society_id": "transformers-one-sentinel-mining-zero"
+    },
+    {
+      "candidate_id": "c0931",
+      "status": "included",
+      "reason": "Realized material-access change with explicit early-future best guesses.",
+      "source_ids": [
+        "src-games-transformers-one",
+        "src-games-tfone-ending"
+      ],
+      "assessment_mode": "best_guess",
+      "reassessed_on": "2026-10-17",
+      "society_id": "transformers-one-restored-energon"
+    }
+  ],
+  "review_notes": [
+    "Local Balaho implementation is not conflated with Cortana’s universal promises.",
+    "The two film periods differ in access to energy and withheld capabilities; no Aligned-continuity duplication."
+  ]
+}

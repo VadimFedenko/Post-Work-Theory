@@ -1,0 +1,338 @@
+
+  <!doctype html>
+  <!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
+  <!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]-->
+  <!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
+  <!--[if (gte IE 9)|!(IE)]><![endif]-->
+  <html class="no-js" lang="en">
+  <head> 
+    <meta charset="utf-8">
+    <title>SFE: Eschbach, Andreas</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="Welcome to the fourth edition of The Encyclopedia of Science Fiction." />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Google Analytics -->
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga("create", "UA-24275979-1", "auto");
+ga("send", "pageview");
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+<!-- End Google Analytics -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="/static/css/style.css?v=1">
+    <link rel="stylesheet" href="/static/css/media-queries.css">
+    <link rel="stylesheet" href="/css/cookie.css">
+    <script src="/static/js/libs/modernizr-2.0.6.min.js"></script>
+
+	<style media="screen" type="text/css">
+
+   ::-moz-selection {
+    background: navy !important;
+   }
+
+
+	html,
+	body {
+		margin:0;
+		padding:0;
+		height:100%;
+	}
+	#container {
+		min-height:100%;
+		position:relative;
+	}
+	#header {
+		background:#ff0;
+		padding:10px;
+	}
+	#body {
+		padding-bottom:15px;	/* Height of the footer */
+	}
+	#footer {
+		position:absolute;
+		bottom:0;
+		width:100%;
+		height:15px;			/* Height of the footer */
+		background:#6cf;
+	}
+	</style>
+	<!--[if lt IE 7]>
+	<style media="screen" type="text/css">
+	#container {
+		height:100%;
+	}
+	</style>
+	<![endif]-->
+   
+  </head>
+  <body style="overflow-x: hidden;">
+
+  <div id="container">
+  <div id="body">
+
+  <div id="minorNavWrapper">
+   <nav id="minornav" class="clearfix">
+    <ul class="clearfix" style="font-weight: bold;">
+     <li><a href="/">Home</a></li>
+     <li><a href="/about-us">About us</a></li>
+     <li><a href="/random.php">Random</a></li>
+     <li><a href="/contact.php">Contact</a></li>
+     <li><a href="/donate.php">Donate</a></li>
+    </ul>
+   </nav>
+  </div>
+  <div id="mainNavWrapper">
+   <nav id="mainnav">
+    <ul class="clearfix">
+     <li class="home"><a title="Home page" href="https://sf-encyclopedia.com/"><img id="sfeLogoSmall" src="/static/img/sfe.png" alt="SFE: The Encyclopedia of Science Fiction"><img id="sfeLogo" src="/static/img/logo.png" alt="SFE: The Encyclopedia of Science Fiction"></a><span class="logoArrow"></span></li>
+
+     <li class="section-all"><a href="https://sf-encyclopedia.com/category/0">All entries</a></li>
+     <li class="section-themes"><a href="https://sf-encyclopedia.com/category/theme">Themes</a></li>
+     <li class="section-authors"><a href="https://sf-encyclopedia.com/category/everyone">People</a></li>
+     <li class="section-media"><a href="https://sf-encyclopedia.com/category/media">Media</a></li>
+     <li class="section-culture"><a href="https://sf-encyclopedia.com/category/culture">Culture</a></li>
+     <li class="section-news"><a href="https://sf-encyclopedia.com/news/">News</a></li>
+    </ul>
+   </nav>
+  </div>
+
+  <div id="main">
+   <div class="colsWrapper clearfix">
+   <div class="column mainCol clearfix" style="background-color:white !important;">
+
+    
+ <fieldset id="globalSearch">
+  <form name="srchenter" method="post" action="/search.php">
+   <select name="catfilter" class="searchFilter" style="width: 132px" title="Select entry category for headword or global search">
+    <option value="">Search all entries</option>
+  <option value="chk">Checklist titles</option><option value="art">Art</option>
+  <option value="author">Author</option>
+  <option value="award">Award</option>
+  <option value="character">Character</option>
+  <option value="comics">Comics</option>
+  <option value="community">Community</option>
+  <option value="critic">Critic</option>
+  <option value="editor">Editor</option>
+  <option value="fan">Fan</option>
+  <option value="film">Film</option>
+  <option value="game">Game</option>
+  <option value="house name">House Name</option>
+  <option value="international">International</option>
+  <option value="music">Music</option>
+  <option value="people">People (media)</option>
+  <option value="poet">Poet</option>
+  <option value="prelim">Prelim</option>
+  <option value="publication">Publication</option>
+  <option value="publisher">Publisher</option>
+  <option value="radio">Radio</option>
+  <option value="theatre">Theatre</option>
+  <option value="theme">Theme</option>
+  <option value="translator">Translator</option>
+  <option value="tv">TV</option>
+  
+   </select>
+   <input name="search" type="text" value="" style="margin: 0 0 5px 0; width: 155px !important;" onFocus="this.select()" onClick="this.select()" onHover="this.select()" class="searchText" id="defaultOpen">&nbsp;
+   <input type="submit" value="Headwords" class="button primary" style="margin: 5px 0 0 0;; padding-left: 8px; padding-right: 8px">&nbsp;
+   <input type="submit" name="glob" value="Global search" class="button primary" style="margin: 5px 0 0 0; padding-left: 8px; padding-right: 8px">
+   <input type="text" name="eofmode" value="" hidden>
+<div  style="display:none;">
+  <p style="margin: 0px; float: left;"><input type="radio" name="tomeselect" value="sfe" checked> <i>Search SFE</i>
+   &nbsp;&nbsp;<input type="radio" name="tomeselect" value="eof"> <i>Search EoF</i></p>
+  <p style="margin: 0px; float: right;">
+  <input type="checkbox" Name="noxref">&nbsp; <i>Omit cross-reference entries</i>
+ &nbsp;</p>
+ <script>
+  document.srchenter.search.focus();
+  document.addEventListener("keydown", function(event) {
+   if (event.code == "PageDown" || event.code == "ArrowDown" || ( !event.getModifierState("NumLock") && (event.code == "Numpad2" || event.code == "Numpad3"))) {
+    document.srchenter.search.blur();
+   }
+  })
+ </script>
+ </div>
+ </form>
+ </fieldset>
+
+                
+    <article class="entryArticle content STeditorial">
+
+	<header class="entryHeader icon-author">
+     <h1 class="entryTitle">Eschbach, Andreas
+     </h1>
+    </header><p class='tagLine'>Entry updated 6 October 2025. Tagged: Author.</p><div class="browsingBtns">
+           <span>
+            <input class="button PNI previous" type="button" onclick="window.location.href='/next.php?id=p&entry=eschbach_andreas'" value="Prev" />
+        </span>
+        <span>
+            <input class="button PNI next" type="button" onclick="window.location.href='/next.php?&entry=eschbach_andreas'" value="Next" />
+        </span>
+        <span>
+            <input class="button PNI incoming" type="button" onclick="window.location.href='/incoming.php?entry=eschbach_andreas'" value="About This Entry" title="What links to the entry; contributor initials explained; how to cite; other information" />
+        </span>
+<span><input class="button PNI" type="button" value="Checklist" onclick="window.location.hash='chklst'" ></span>
+<span><input class="button PNI" type="button" value="Alpha" onclick="window.location.href='/chron.php?id=eschbach_andreas&abc'" ></span>
+   <span><input class="button PNI" type="button" value="Chron" onclick="window.location.href='/chron.php?id=eschbach_andreas'" ></span>
+   <span style="cursor: pointer;" onclick="window.open('/gallery.php?link=eschbach_andreas');">
+  <img alt="Icon made by Freepik from www.flaticon.com" style="margin: 0; position: relative; top:-2px;" src="/images/icon-gal.gif"></img></span>
+  </div><p style='float:right; margin-bottom:0; margin-left:10px; position: relative; top: 3px;'>
+   <a href='/gallery.php?id=EschbachA-Carpet.jpg' target='_blank'>
+   <img src='https://x.sf-encyclopedia.com/gal/thumbs/EschbachA-Carpet.jpg' alt='pic'></a></p>
+
+<p>(1959-&nbsp;&nbsp;&nbsp;&nbsp;) <a href="/entry/germany">German</a> author who began publishing work of genre interest with "Dolls" for <i>c't</i> in 1991, and whose first novel, <i>Die Haarteppichkn&uuml;pfer</i> (<b>1995</b>; trans Doryl Jensen as <i>The Carpet Makers</i> <b>2005</b>), intriguingly rewrites the normally expansive forms of American <a href="/entry/planetary_romance">Planetary Romance</a> and <a href="/entry/space_opera">Space Opera</a> into a bleak, compulsively storyable ideogram of the universe as prison: the carpets made by the titular carpet makers across the galaxy are aesthetically dead <a href="/entry/entropy">Entropic</a> parodies of craft made for a dead Emperor, whose posthumous demands have denuded half a galaxy. In <i>Das Jesus Video</i> ["The Jesus Video"] (<b>1998</b>), Eschbach's most popular novel to date, the manual for a not-yet-released video camera is found by archaeologists in a two-thousand-year-old grave in Palestine. He remains prolific, and in recent years has also written several <a href="/entry/young_adult">Young Adult</a> works, along with at least seven contributions to the vast <a href="/entry/perry_rhodan">Perry Rhodan</a> universe. His skill at exposing <a href="/entry/hard_sf">Hard SF</a> tropes to adult supervision intensifies a sense that further translations are in order. [JC]</p>
+
+<p><b>further awards or honours:</b> <a href="/entry/sfinks_award">Sfinks Award</a>.</p>
+
+<h3 id="chklst">Andreas Eschbach</h3>
+
+<p><b>born</b> Ulm, Germany: 15 September 1959</p>
+
+<p><b>works</b></p>
+
+<p><input type="button" value="Alphabetical" class="button PNI" onclick="window.location.href='/chron.php?id=eschbach_andreas&abc'"> <input type="button" value="Chronological" class="button PNI" onclick="window.location.href='/chron.php?id=eschbach_andreas'"></p>
+
+<p><b>series</b></p>
+
+<p><b>Mars Project</b></p>
+<ul class="x">
+  <li><em><a href="/sfeshop.php?field-keywords=Das+Marsprojekt&field-author=Eschbach+Andreas" class="link-amazon" target="_blank">Das Marsprojekt</a></em> ["The Mars Project"] (W&uuml;rzburg, Germany: Arena-Verlag, <b>2001</b>) [<b>Mars Project</b>: hb/Thomas Thiemeyer]</li>
+  <li><em><a href="/sfeshop.php?field-keywords=Die+blauen+Turme&field-author=Eschbach+Andreas" class="link-amazon" target="_blank">Die blauen T&uuml;rme</a></em> ["The Blue Towers"] (W&uuml;rzburg, Germany: Arena-Verlag, <b>2005</b>) [<b>Mars Project</b>: hb/Constanze Spengler]</li>
+  <li><em><a href="/sfeshop.php?field-keywords=Die+glasernen+Hohlen&field-author=Eschbach+Andreas" class="link-amazon" target="_blank">Die gl&auml;sernen H&ouml;hlen</a></em> ["The Glass Caves"] (W&uuml;rzburg, Germany: Arena-Verlag, <b>2006</b>) [<b>Mars Project</b>: hb/Constanze Spengler]</li>
+  <li><em><a href="/sfeshop.php?field-keywords=Gibt+es+Leben+auf+dem+Mars+ode+Das+Marsprojekt+-&field-author=Eschbach+Andreas" class="link-amazon" target="_blank">Gibt es Leben auf dem Mars? ode Das Marsprojekt &ndash; Der Fl&uuml;sternede Sturm</a></em> ["Is There Life on Mars? Or, the Mars Project &ndash; The Storm Whispering"] (W&uuml;rzburg, Germany: Arena-Verlag, <b>2009</b>) [<b>Mars Project</b>: hb/Frauke Schneider]</li>
+</ul>
+
+<p><b>individual titles</b></p>
+<ul class="x">
+  <li><em><a href="/sfeshop.php?field-keywords=Die+Haarteppichknupfer&field-author=Eschbach+Andreas" class="link-amazon" target="_blank">Die Haarteppichkn&uuml;pfer</a></em> (Munich, Germany: Schneeklurth, <b>1995</b>) [hb/]
+  <ul class="x">
+    <li><em><a href="/sfeshop.php?field-keywords=The+Carpet+Makers&field-author=Eschbach+Andreas" class="link-amazon" target="_blank">The Carpet Makers</a></em> (New York: Tor, <b>2005</b>) [trans by Doryl Jensen of the above: hb/Rick <a href="/entry/berry_rick">Berry</a>]</li>
+  </ul></li>
+  <li><em><a href="/sfeshop.php?field-keywords=Solarstation&field-author=Eschbach+Andreas" class="link-amazon" target="_blank">Solarstation</a></em> ["Solar Station"] (Munich, Germany: Schneeklurth, <b>1996</b>) [hb/]</li>
+  <li><em><a href="/sfeshop.php?field-keywords=Das+Jesus+Video&field-author=Eschbach+Andreas" class="link-amazon" target="_blank">Das Jesus Video</a></em> ["The Jesus Video"] (Munich, Germany: Schneeklurth, <b>1998</b>) [hb/]</li>
+  <li><em><a href="/sfeshop.php?field-keywords=Kelwitts+Stern&field-author=Eschbach+Andreas" class="link-amazon" target="_blank">Kelwitts Stern</a></em> ["Kelwitt's Star"] (Munich, Germany: Schneeklurth, <b>1999</b>) [hb/]</li>
+  <li><em><a href="/sfeshop.php?field-keywords=Quest&field-author=Eschbach+Andreas" class="link-amazon" target="_blank">Quest</a></em> (Munich, Germany: Heyne Verlag, <b>2001</b>) [hb/Thomas Thiemeyer]</li>
+  <li><em><a href="/sfeshop.php?field-keywords=Perfect+Copy&field-author=Eschbach+Andreas" class="link-amazon" target="_blank">Perfect Copy</a></em> (W&uuml;rzburg, Germany: Arena-Verlag, <b>2001</b>) [hb/]</li>
+  <li><em><a href="/sfeshop.php?field-keywords=Eine+Billion+Dollar&field-author=Eschbach+Andreas" class="link-amazon" target="_blank">Eine Billion Dollar</a></em> ["One Trillion Dollars"] (Bergisch-Gladbach, Germany: L&uuml;bbe, <b>2001</b>) [hb/]</li>
+  <li><em><a href="/sfeshop.php?field-keywords=Der+Letzte+seiner+Art&field-author=Eschbach+Andreas" class="link-amazon" target="_blank">Der Letzte seiner Art</a></em> ["The Last of his Species"] (Bergisch-Gladbach, Germany: L&uuml;bbe, <b>2003</b>) [hb/Guido Kl&uuml;tsch]</li>
+  <li><em><a href="/sfeshop.php?field-keywords=Die+seltene+Gabe&field-author=Eschbach+Andreas" class="link-amazon" target="_blank">Die seltene Gabe</a></em> ["The Rare Gift"] (W&uuml;rzburg, Germany: Arena-Verlag, <b>2004</b>) [hb/Constanze Spengler]</li>
+  <li><em><a href="/sfeshop.php?field-keywords=Der+Nobelpreis&field-author=Eschbach+Andreas" class="link-amazon" target="_blank">Der Nobelpreis</a></em> ["The Nobel Prize"] (Bergisch-Gladbach, Germany: L&uuml;bbe, <b>2005</b>) [hb/]</li>
+  <li><em><a href="/sfeshop.php?field-keywords=Ausgebrannt&field-author=Eschbach+Andreas" class="link-amazon" target="_blank">Ausgebrannt</a></em> ["Burnt Out"](Bergisch-Gladbach, Germany: L&uuml;bbe, <b>2007</b>) [hb/]</li>
+  <li><em><a href="/sfeshop.php?field-keywords=Herr+aller+Dinge&field-author=Eschbach+Andreas" class="link-amazon" target="_blank">Herr aller Dinge</a></em> (Bergisch-Gladbach, Germany: L&uuml;bbe, <b>2011</b>) [hb/Daniel White]
+  <ul class="x">
+    <li><em><a href="/sfeshop.php?field-keywords=Lord+of+All+Things&field-author=Eschbach+Andreas" class="link-amazon" target="_blank">Lord of All Things</a></em> (Las Vegas, Nevada: AmazonCrossing, <b>2014</b>) [trans by Samuel Willcocks of the above: pb/Edward Bettison]</li>
+  </ul></li>
+</ul>
+
+<p><b>links</b></p>
+<ul class="x">
+  <li><a target="_blank" href="http://www.andreaseschbach.de/">Andreas Eschbach</a> (in German)</li>
+  <li><a target="_blank" href="https://www.isfdb.org/cgi-bin/ea.cgi?6773">Internet Speculative Fiction Database</a></li>
+  <li><a target="_blank" href="https://sf-encyclopedia.com/gallery.php?link=eschbach_andreas">Picture Gallery</a></li>
+</ul>
+
+<p><b>previous versions of this entry</b></p>
+   <ul><li><a href='https://web.archive.org/web/*/http://www.sf-encyclopedia.com/entry/eschbach_andreas' target='_blank'>Internet Archive</a></li></ul><br /><br /></article></div>
+        <div class="sideBarsWrapper">
+         <div class="sideBarsColsWrapper clearfix">
+          <div class="column sideBar12 clearfix">
+           <div class="columnForm"><aside id="blogFeed" class="widget">
+         <div class="content STeditorial clearfix">
+          <h2>Recently visited entries<span style="background:url(/images/thingSFE2.png) !important"></span></h2><ul style='width: 50%; float: left;'>
+   
+  </ul>
+<p align=center style="float:right; padding-top:20px; padding-bottom:20px;">ISSN 3049-7612<br />
+     <a href="/facts.php?id=logo">
+     <img src="/images/VitMan.gif" width=150 height=150 title="Click for larger version of this SFE logo"></a><br />
+    <b><a href="/donate.php"><img src="/images/Donate.png" WIDTH="110" HEIGHT="26" BORDER="0" /></a><br /><a href="/">Home/Welcome page</a></b></p><div style="margin-bottom:10px;"></div></div>
+         </aside><aside id="blogFeed" class="widget">
+         <div class="content STeditorial clearfix">
+          <h2><i>SFE</i> Special Features<span></span></h2><p style="margin-top: 10px;"><input type="button" value="What&rsquo;s New" style="width: 150px !important;" class="button primary" onclick="window.location.href='/whatsnew.php'">&nbsp; Latest entries; <a href="/updated.php">latest updates</a></p>
+   <p style="line-height:1.6em;"><input type="button" value="In Memoriam" style="width: 150px !important;" class="button primary" onclick="window.location.href='/timeline.php?rip'">&nbsp; Recent deaths</p>
+   <p style="line-height:1.6em;"><input type="button" value="On This Day" style="width: 150px !important;" class="button primary" onclick="window.location.href='/today.php'">&nbsp; Anniversaries; also <a href="/timeline.php">Timeline</a></p>
+   <p style="line-height:1.6em;"><input type="button" value="Gallery" style="width: 150px !important;" class="button primary" onclick="window.location.href='/gallery.php'">&nbsp; <i>SFE</i> Picture Gallery; <a href="/gallery.php?list&new">What&rsquo;s New</a></p>
+   <p style="line-height:1.6em;"><input type="button" value="Shopping" style="width: 150px !important;" class="button primary" onclick="window.location.href='/sfeshop.php'">&nbsp; Affiliate settings</p>
+   <p style="line-height:1.6em;"><input type="button" value="Random" style="width: 150px !important;" class="button primary" onclick="window.location.href='/random.php'">&nbsp; Show a random <i>SFE</i> entry</p>                <p style="line-height:1.6em;"><input type="button" value="SFE Facts" style="width: 150px !important;" class="button primary" onclick="window.location.href='/facts.php'">&nbsp; Bar charts, awards and more</p>
+   <p style="line-height:1.6em;"><input type="button" value="Entry Data" style="width: 150px !important;" class="button primary" onclick="window.location.href='https://sf-encyclopedia.com/incoming.php?entry=eschbach_andreas'">&nbsp; Incoming links, who wrote it, etc</p>
+<p style="margin-bottom:15px;"><a href="/searching">Search help</a> | <a href="/rss.php" target="_blank">RSS feed</a> <img src="/static/img/external.gif"> | <a href="/fe/"><i>Encyclopedia of Fantasy</i></a>  <img src="/static/img/external.gif"></p><div style="margin-bottom:10px;"></div></div>
+         </aside><aside id="connect" class="widget">
+	<div class="content STeditorial clearfix">
+		<h2>Connect with <i>SFE</i> <span></span></h2>
+		<ul>
+		 <li>
+           <h3 style="text-align: left !important;"><a href="/donate.php">Donate towards <i>SFE</i> expenses</a></h3>
+		 </li>
+		 <li>
+           <h3 style="text-align: left !important;"><a href="/contact.php">Send email feedback to the <i>SFE</i> editors</a></h3>
+		 </li>
+		 <li>
+           <h3 style="text-align: left !important;"><a href="https://encyclopediaofsciencefiction.substack.com/"><i>SFE</i> on Substack</a></h3>
+		 </li>
+		 <li>
+		  <h3 style="text-align: left !important;"><a href="https://bsky.app/profile/sfencyclopedia.bsky.social" target="_blank"><i>SFE</i> on BlueSky</a></h3>
+		 </li>			
+		 <li style=" display:none;">
+		  <h3 style="text-align: left !important;"><a href="https://twitter.com/john_clute" target="_blank">John Clute on Twitter [X]</a></h3>
+	       <a href="https://twitter.com/john_clute" class="twitter-follow-button">Follow @john_clute</a>
+		  <script src="https://platform.twitter.com/widgets.js" type="text/javascript"></script>
+		 </li>
+		 <li style=" display:none;">
+		  <h3 style="text-align: left !important;"><a href="https://twitter.com/sfencyclopedia" target="_blank"><i>SFE</i> on Twitter [X]</a></h3>
+				<a href="https://twitter.com/sfencyclopedia" class="twitter-follow-button">Follow @sfencyclopedia</a>
+				<script src="https://platform.twitter.com/widgets.js" type="text/javascript"></script>
+		 </li>
+		 <li>
+		  <h3 style="text-align: left !important;"><a href="https://www.facebook.com/pages/Sf-Encyclopedia/138995776178949" target="_blank"><i>SFE</i> on Facebook</a></h3>
+		 </li>			
+		 <li>
+		  <h3 style="text-align: left !important;"><a href="https://www.facebook.com/john.clute.5" target="_blank">John Clute on Facebook</a></h3>
+		 </li>			
+		 <li>
+		  <h3 style="text-align: left !important;"><a href="https://mastodon.social/@SF_Encyclopedia" target="_blank"><i>SFE</i> on Mastodon</a></h3>
+		 </li>			
+		</ul>
+	</div>
+</aside>
+     </div></div>
+         </div>                  
+        </div>
+       </div>                  
+      </div>
+
+     </div>
+
+<div id="cookieConsent">
+    <div id="closeCookieConsent" onclick="hidepopup()">x</div>
+    This website uses cookies. &nbsp;<a href="/cookies" target="_blank">More information here</a>. <a class="cookieConsentOK" onclick="setcookie()">Accept Cookies</a>
+</div>
+
+<script type="text/javascript">
+ function hidepopup() {
+  document.cookie = "hidecookiepopup=yes; path=/"; // session only
+  document.getElementById("cookieConsent").style.display = "none";
+ }
+ function setcookie() {
+  document.cookie = "cookiesOK=yes; max-age=31536000; path=/"; // 1 year
+  document.getElementById("cookieConsent").style.display = "none";
+ }
+ var cookiestring = document.cookie;
+// document.getElementById("connect").innerHTML = cookiestring; // TEST only
+ if ( cookiestring.indexOf("cookiesOK=yes") == -1 ) {
+  if ( cookiestring.indexOf("hidecookiepopup=yes") == -1 ) {
+   document.getElementById("cookieConsent").style.display = "block";
+  }
+ }
+</script>
+
+      <div id="footer" style="background:#fff; padding: 5px;">
+       <footer id="globalFooter" class="clearfix">
+        <div id="credit">Website by Ansible Editions
+        </div>
+        <div id="credit" style="float: left !important; padding-left:20px;">Site and <i>SFE</i> content &copy; 2011-2026 John Clute &amp; David Langford</div>
+       </footer>
+      </div>
+     </div>
+
+    </body></html>

@@ -1,0 +1,1821 @@
+{
+  "revision_id": "revision-042",
+  "revised_on": "2026-10-17",
+  "reason": "Current-policy best guesses for familiar Gibson/Sterling settings; separate Agency timelines, privileged and working cohorts, human-derived and artificial minds, actual partial services and projected successor economies.",
+  "changes": [
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-agency-publisher-separated-timelines",
+        "title": "Agency: Eunice and the separate future London",
+        "author": "William Gibson / Penguin Random House",
+        "url": "https://www.penguinrandomhouse.com/books/530536/agency-by-william-gibson/9781101986943/",
+        "kind": "publisher_description",
+        "accessed_on": "2026-10-17",
+        "access_method": "Publisher Eunice/Verity and explicitly separate future London paragraphs read",
+        "read_scope": "Verity beta-tests the powerful AI Eunice through glasses; Wilf works a century later in London in a different timeline among Jackpot survivors.",
+        "limitations": "No unified AI-run post-Jackpot welfare order is claimed; short synopsis does not specify ordinary household allocation."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-countzero-academic-boxmaker",
+        "title": "William Gibson: Count Zero’s robotic collage artist",
+        "author": "Christophe Den Tandt",
+        "url": "https://dipot.ulb.ac.be/dspace/bitstream/2013/74927/3/Den_Tandt_William_Gibson.pdf",
+        "kind": "academic_criticism",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed Count Zero collage-box and artificial-intelligence passage read",
+        "read_scope": "The indexed discussion identifies Marly’s discovery of a robotic collage artist guided by artificial intelligence making nostalgic boxes.",
+        "limitations": "Bounded academic passage, not the full novel; no assumption that every robotic arm or object is a conscious resident."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-idoru-nanotech-construction",
+        "title": "Idoru: reconstructed Tokyo and nanotechnological construction",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/wiki/Idoru",
+        "kind": "secondary_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed setting and plot paragraphs on reconstruction and nanotechnology read",
+        "read_scope": "The reference identifies Tokyo rebuilt after an earthquake, self-assembling nanotechnological construction and Rei Toei as a virtual personality construct.",
+        "limitations": "Short construction/setting reference, not proof of universal free housing or productive ownership by the virtual celebrity."
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "agency-eunice-assisted-human-network-zero",
+        "candidate_id": "c0241",
+        "name": "Agency (Eunice’s assisted human network)",
+        "work": "Agency",
+        "society": "Agency (Eunice’s assisted human network)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named published literary continuity and selected period",
+          "period": "Eunice’s functioning assistance network in Verity’s timeline",
+          "population": "Living human participants receiving or doing work in the scoped assisted network",
+          "human_population_proxy": false,
+          "exclusions": "Separate future London and Jackpot deaths are not merged into this population; no completed universal AI state is asserted.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Eunice begins as a digital assistant being tested by Verity and proves much more capable than her apparent product role. The retained point narrows the original overbroad AI-state lead to the functioning human network around that assistance. The material-floor best guess is mixed and conditional: powerful coordination can help particular people without creating universal rights to food, housing or care. General material substitution remains an explicitly limited extension beyond the assistant’s directly described capabilities.\n\n Control gives substantial weight to Eunice’s practical discretion while retaining human participants, owners and institutions inside the interval. The low nonworking scenario counts testing, technical operations, services, coordination, protection, care and useful creation. Assistance does not mean everyone stops working. This zero variant covers active living humans rather than every user of infrastructure or every future survivor. The publisher’s separate timelines prevent London’s advanced fabrication and the Jackpot’s deaths from being imported into Verity’s setting as a false welfare or leisure statistic.",
+        "axis": {
+          "guarantees": 0.35,
+          "control": -0.5,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.85,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Particular AI assistance does not establish universal necessities.",
+            "source_ids": [
+              "src-agency-couchmagpie",
+              "src-peripheral-sfra",
+              "src-agency-publisher-separated-timelines"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Eunice has substantial practical agency alongside human institutions.",
+            "source_ids": [
+              "src-agency-couchmagpie",
+              "src-peripheral-sfra",
+              "src-agency-publisher-separated-timelines"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Testing, coordination and care remain work; other-timeline deaths are excluded.",
+            "source_ids": [
+              "src-agency-couchmagpie",
+              "src-peripheral-sfra",
+              "src-agency-publisher-separated-timelines"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-agency-couchmagpie",
+          "src-peripheral-sfra",
+          "src-agency-publisher-separated-timelines"
+        ],
+        "evidence": [
+          {
+            "claim": "The publisher describes Verity testing Eunice and identifies future London as a different timeline.",
+            "source_ids": [
+              "src-agency-couchmagpie",
+              "src-peripheral-sfra",
+              "src-agency-publisher-separated-timelines"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The assisted human network is a narrower reconstruction than a nationwide AI state.",
+          "Material substitution, access and participation are low-confidence estimates."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain a concrete assisted network with the original false unified AI-state label corrected.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The publisher describes Verity testing Eunice and identifies future London as a different timeline."
+        ],
+        "editorial_assumptions": [
+          "The assisted human network is a narrower reconstruction than a nationwide AI state.",
+          "Material substitution, access and participation are low-confidence estimates."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0241",
+        "status": "needs_evidence",
+        "reason": "Agency does not yet establish a distinct AI-controlled post-Jackpot allocation system.",
+        "source_ids": [
+          "src-agency-couchmagpie",
+          "src-peripheral-sfra"
+        ],
+        "analysis": "Eunice in a stub is not automatically the ruler of 2136. Overlap with the earlier London future must be checked before adding a distinct point; neither lead is retained.",
+        "follow_up": "Skip deeper reading and avoid inflation from another book in the same future."
+      },
+      "after": {
+        "candidate_id": "c0241",
+        "status": "zero_variant",
+        "reason": "Retain a concrete assisted network with the original false unified AI-state label corrected.",
+        "source_ids": [
+          "src-agency-couchmagpie",
+          "src-peripheral-sfra",
+          "src-agency-publisher-separated-timelines"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "agency-eunice-assisted-human-network-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "neuromancer-awake-tessierashpool-enclave",
+        "candidate_id": "c0242",
+        "name": "Neuromancer (the awake Tessier-Ashpool enclave)",
+        "work": "Neuromancer",
+        "society": "Neuromancer (the awake Tessier-Ashpool enclave)",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "The named published literary continuity and selected period",
+          "period": "The wealthy orbital clan arrangement before the AI merger transforms its institutions",
+          "population": "Living awake Tessier-Ashpool clan residents in the enclave",
+          "human_population_proxy": false,
+          "exclusions": "Sleeping clan members and service workers outside the privileged resident cohort do not acquire the same leisure/access rate.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Tessier-Ashpool orbital enclave combines concentrated family wealth with owned intelligent systems. Its privileged awake clan members form the selected access cohort, rather than all workers across corporate holdings. The guarantee best guess is strong inside that narrow inherited circle: technical and property support can supply necessities independently of each member’s current wage work. It is not a claim that the same security extends to employees or everyone living in the Sprawl.\n\n Human clan ownership places control near the concentrated reference point, with powerful AI maneuvering inside the broad interval. Formal ownership does not eliminate an intelligent system’s practical ability to act. The high nonworking scenario permits privileged consumption but counts actual management, research, maintenance, care and useful creation by clan members. Cryogenic sleep is excluded rather than counted as leisure. The record selects the pre-merger enclave arrangement and leaves the active membership ratio uncertain; it does not calculate nonworking people from a frozen family tree or from the clan’s corporate wealth.",
+        "axis": {
+          "guarantees": -0.7,
+          "control": 0.02,
+          "nonworking": 0.65
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.99,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "Inherited clan resources support a strong narrow floor, not employee-wide security.",
+            "source_ids": [
+              "src-gibson-sfe"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.45
+            ],
+            "confidence": "low",
+            "basis": "Concentrated human family ownership coexists with AI maneuvering.",
+            "source_ids": [
+              "src-gibson-sfe"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Awake clan roles count; sleep and corporate wealth are not participation.",
+            "source_ids": [
+              "src-gibson-sfe"
+            ]
+          }
+        },
+        "regime_primary": 1,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-gibson-sfe"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference identifies powerful corporate ownership and cyberspace intelligences in Neuromancer.",
+            "source_ids": [
+              "src-gibson-sfe"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The privileged awake clan cohort and its support are bounded contextual estimates.",
+          "Service workers and sleeping relatives are not assigned identical access or leisure."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar privileged automated-support enclave with a narrow awake population.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference identifies powerful corporate ownership and cyberspace intelligences in Neuromancer."
+        ],
+        "editorial_assumptions": [
+          "The privileged awake clan cohort and its support are bounded contextual estimates.",
+          "Service workers and sleeping relatives are not assigned identical access or leisure."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0242",
+        "status": "needs_evidence",
+        "reason": "An orbital enclave and owned AI systems do not establish a continuing automation-funded provision arrangement for its population.",
+        "source_ids": [
+          "src-gibson-sfe"
+        ],
+        "analysis": "Wealth, cryogenic seclusion and powerful computers cannot substitute for a verified material access rule. No whole orbital economy is inferred from a family’s power.",
+        "follow_up": "Skip deeper reading."
+      },
+      "after": {
+        "candidate_id": "c0242",
+        "status": "included",
+        "reason": "Retain the familiar privileged automated-support enclave with a narrow awake population.",
+        "source_ids": [
+          "src-gibson-sfe"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "neuromancer-awake-tessierashpool-enclave"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "neuromancer-sprawl-corporate-zero",
+        "candidate_id": "c0243",
+        "name": "Neuromancer (the Sprawl’s corporate economy)",
+        "work": "Neuromancer",
+        "society": "Neuromancer (the Sprawl’s corporate economy)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named published literary continuity and selected period",
+          "period": "The functioning street and corporate economy before the AI merger",
+          "population": "Living active human Sprawl residents",
+          "human_population_proxy": false,
+          "exclusions": "The privileged orbital clan, active digital entities and other trilogy periods have separate access populations.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Sprawl combines powerful corporations, computerized infrastructure and precarious street life. The guarantee best guess is extremely weak because access depends on money, employment, ownership and coercive bargains. Advanced technical capacity can make individual operations efficient without assuring everyone food, housing, medical care or safe bodily autonomy. The zero-variant admission treats wider productive automation as a contextual estimate, not a benefit automatically created by cyberspace.\n\n Control gives primary weight to human corporate owners and fragmented commercial powers, with covert machine influence inside the interval. Powerful AI in the setting is not proof that every ordinary productive system has already escaped human ownership. The low nonworking scenario counts programming, manufacturing, services, security, repair, care and useful creation. Criminal and precarious work still count when they are ongoing useful or assigned activity. The record remains distinct from the orbital elite’s inherited support and avoids turning a familiar high-tech urban setting into a falsely universal post-scarcity society.",
+        "axis": {
+          "guarantees": 0.95,
+          "control": 0.12,
+          "nonworking": 0.15
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.4,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Precarious corporate/transactional access implies weak broad security.",
+            "source_ids": [
+              "src-gibson-sfe"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.8,
+              0.75
+            ],
+            "confidence": "low",
+            "basis": "Human commercial owners dominate with covert machine influence broad.",
+            "source_ids": [
+              "src-gibson-sfe"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Useful paid, precarious and caring roles remain; cyberspace is not participation.",
+            "source_ids": [
+              "src-gibson-sfe"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-gibson-sfe"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference describes corporate power and cyberspace intelligences in the Sprawl continuity.",
+            "source_ids": [
+              "src-gibson-sfe"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary productive automation and access are contextual estimates.",
+          "Street residents do not inherit the orbital elite’s support rights."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the recognizable cyberpunk working economy with weak guarantees as a zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference describes corporate power and cyberspace intelligences in the Sprawl continuity."
+        ],
+        "editorial_assumptions": [
+          "Ordinary productive automation and access are contextual estimates.",
+          "Street residents do not inherit the orbital elite’s support rights."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0243",
+        "status": "boundary_case",
+        "reason": "Corporate power and cyberspace activity do not themselves establish post-work distribution.",
+        "source_ids": [
+          "src-gibson-sfe"
+        ],
+        "analysis": "The quick account concerns hired operations and unequal power, without a demonstrated general support system or preserved unnecessary employment.",
+        "follow_up": "Keep as a corporate-cyberpunk comparison."
+      },
+      "after": {
+        "candidate_id": "c0243",
+        "status": "zero_variant",
+        "reason": "Retain the recognizable cyberpunk working economy with weak guarantees as a zero variant.",
+        "source_ids": [
+          "src-gibson-sfe"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "neuromancer-sprawl-corporate-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "countzero-active-orbital-boxmaker-zero",
+        "candidate_id": "c0244",
+        "name": "Count Zero (the active orbital box-maker intelligence)",
+        "work": "Count Zero",
+        "society": "Count Zero (the active orbital box-maker intelligence)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named published literary continuity and selected period",
+          "period": "The functioning robotic collage-making system encountered by Marly",
+          "population": "The active artificial box-maker identity, modeled as one conscious synthetic person",
+          "human_population_proxy": true,
+          "exclusions": "Other matrix fragments, robotic arms, passive objects and human clients are not added as identical residents.",
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_synthetic_persons"
+        },
+        "description": "Marly’s discovery connects the boxes to a robotic collage artist guided by artificial intelligence. The selected point is that concrete active production unit, rather than an unsupported claim that all post-Wintermute fragments provide a human welfare economy. Its resource floor is mixed and conditional: the inherited technical environment sustains activity, but neither unlimited inputs nor secure autonomous existence are established by the short account.\n\n Control gives substantial independence from organic owners while preserving inherited infrastructure constraints in the interval. The central nonworking scenario is zero because ongoing box-making is useful creation in this scoped unit. One active maker is a discrete person scenario, so the full zero-or-one alternative remains available; a percentage of each day is not substituted. Conscious identity is an explicit low-confidence proxy, not assigned to every robotic arm or collage object. This zero variant retains the distinctive autonomous creative-work institution without fabricating a civilian population supported by matrix gods.",
+        "axis": {
+          "guarantees": 0.2,
+          "control": -0.85,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.95,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Inherited resources support activity with secure supply uncertain.",
+            "source_ids": [
+              "src-gibson-sfe",
+              "src-countzero-academic-boxmaker"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "The maker has substantial practical independence with infrastructure constraints.",
+            "source_ids": [
+              "src-gibson-sfe",
+              "src-countzero-academic-boxmaker"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              1
+            ],
+            "confidence": "low",
+            "basis": "One active useful maker is centrally working; the alternative is discrete, not time fraction.",
+            "source_ids": [
+              "src-gibson-sfe",
+              "src-countzero-academic-boxmaker"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-gibson-sfe",
+          "src-countzero-academic-boxmaker"
+        ],
+        "evidence": [
+          {
+            "claim": "The academic passage identifies a robotic collage artist guided by artificial intelligence making boxes.",
+            "source_ids": [
+              "src-gibson-sfe",
+              "src-countzero-academic-boxmaker"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "One conscious active maker is an explicit proxy, not a count of all mechanisms.",
+          "Resource security and independence remain estimates."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the concrete active artificial creative-work unit as a narrow zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The academic passage identifies a robotic collage artist guided by artificial intelligence making boxes."
+        ],
+        "editorial_assumptions": [
+          "One conscious active maker is an explicit proxy, not a count of all mechanisms.",
+          "Resource security and independence remain estimates."
+        ],
+        "axis_interpretation": {
+          "nonworking": "A discrete one-active-maker proxy: centrally working, with a zero-or-one alternative, not a literal human rate.",
+          "control": "Independence from organic owners, qualified by inherited infrastructure.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0244",
+        "status": "boundary_case",
+        "reason": "Fragmented matrix intelligences do not supply an identified supported human leisure population.",
+        "source_ids": [
+          "src-gibson-sfe"
+        ],
+        "analysis": "AI self-awareness and virtual personhood are distinct from production and access. Their existence does not establish a denominator for human nonworking.",
+        "follow_up": "Skip the broad AI-society lead."
+      },
+      "after": {
+        "candidate_id": "c0244",
+        "status": "zero_variant",
+        "reason": "Retain the concrete active artificial creative-work unit as a narrow zero variant.",
+        "source_ids": [
+          "src-gibson-sfe",
+          "src-countzero-academic-boxmaker"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "countzero-active-orbital-boxmaker-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "virtuallight-bridge-community-zero",
+        "candidate_id": "c0245",
+        "name": "Virtual Light (the Bridge community)",
+        "work": "Virtual Light",
+        "society": "Virtual Light (the Bridge community)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named published literary continuity and selected period",
+          "period": "The functioning self-organized Bridge settlement in the advanced regional economy",
+          "population": "Living human Bridge residents",
+          "human_population_proxy": false,
+          "exclusions": "Corporate city residents have separate access; regional nanotechnology is not automatically free machinery inside every Bridge home.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Bridge community self-organizes within a region shaped by advanced technical and corporate power. Mutual support and local productive initiative offer a different distribution model from nearby corporate ownership, but the community still needs goods, services and work. The guarantee best guess is weak because solidarity is not an unconditional secure material floor. Direct local automation is especially uncertain; this is an explicit contextual zero variant rather than a claim that the settlement has full automatic production.\n\n Control gives strong positive weight to resident initiative, qualified by external supplies, property insecurity and unequal influence. The low nonworking scenario counts trading, repair, food service, transport, organization, care and useful creation. Informal work is not leisure merely because it lacks a conventional job title. Neither self-organization nor dense community life yields a labor census. The point narrows the old combined Bridge-and-corporate-cities lead to the distinct Bridge access population and keeps its technical dependence visible.",
+        "axis": {
+          "guarantees": 0.8,
+          "control": 0.8,
+          "nonworking": 0.1
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.7,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Mutual support is qualified by insecure resources and external dependence.",
+            "source_ids": [
+              "src-gibson-sfe"
+            ]
+          },
+          "control": {
+            "interval": [
+              0.1,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Resident initiative is strong with external/property constraints.",
+            "source_ids": [
+              "src-gibson-sfe"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Informal services and care count; local organization is not participation.",
+            "source_ids": [
+              "src-gibson-sfe"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-gibson-sfe"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference identifies the self-organized Bridge settlement alongside corporate power.",
+            "source_ids": [
+              "src-gibson-sfe"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Local automation is particularly uncertain and inferred only from regional context.",
+          "The retained cohort excludes surrounding corporate-city residents."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          4
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar self-organized community as an explicitly limited zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference identifies the self-organized Bridge settlement alongside corporate power."
+        ],
+        "editorial_assumptions": [
+          "Local automation is particularly uncertain and inferred only from regional context.",
+          "The retained cohort excludes surrounding corporate-city residents."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0245",
+        "status": "boundary_case",
+        "reason": "A self-organized Bridge community is not by itself an automated provision society.",
+        "source_ids": [
+          "src-gibson-sfe"
+        ],
+        "analysis": "Informal settlement and resistance to corporate power do not establish technological replacement of subsistence labor.",
+        "follow_up": "Keep as a community comparison without reconstructing the novel."
+      },
+      "after": {
+        "candidate_id": "c0245",
+        "status": "zero_variant",
+        "reason": "Retain the familiar self-organized community as an explicitly limited zero variant.",
+        "source_ids": [
+          "src-gibson-sfe"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "virtuallight-bridge-community-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "idoru-nanotechnological-tokyo-zero",
+        "candidate_id": "c0246",
+        "name": "Idoru (Tokyo’s nanotechnological construction economy)",
+        "work": "Idoru",
+        "society": "Idoru (Tokyo’s nanotechnological construction economy)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named published literary continuity and selected period",
+          "period": "The rebuilt Tokyo order during the published celebrity and nanotechnology conflict",
+          "population": "Living human Tokyo residents",
+          "human_population_proxy": false,
+          "exclusions": "Rei Toei’s virtual personhood does not make her owner of city production; self-building structures are not free housing rights.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Tokyo’s rebuilding uses advanced nanotechnological construction, including structures that assemble themselves. This is a direct material automation mechanism, but the city’s media and commercial life still retains human work and unequal access. The guarantee best guess is weak and conditional: cheap or rapid construction does not establish a universal entitlement to desirable housing, food or medical care.\n\n Human corporate, civic and commercial powers receive control near the concentrated reference point, with distributed actors inside the interval. A virtual celebrity’s personhood is separate from productive ownership of the city. This zero variant counts construction coordination, design, programming, services, maintenance, care and useful creation. Automated buildings do not reveal how many residents do no useful work. The modest nonworking scenario permits substitution while retaining those roles. The record keeps Tokyo’s concrete material transition distinct from the Bridge settlement and from later Lucky Dragon nanofax developments, rather than averaging the whole trilogy into one economy.",
+        "axis": {
+          "guarantees": 0.65,
+          "control": 0.15,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.75,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "Automated construction reduces tasks without proving universal housing and necessities.",
+            "source_ids": [
+              "src-gibson-sfe",
+              "src-idoru-nanotech-construction"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.75,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Human commercial/civic powers remain central; a virtual celebrity is not sole owner.",
+            "source_ids": [
+              "src-gibson-sfe",
+              "src-idoru-nanotech-construction"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Useful coordination, service and caring roles count; building speed is not participation.",
+            "source_ids": [
+              "src-gibson-sfe",
+              "src-idoru-nanotech-construction"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-gibson-sfe",
+          "src-idoru-nanotech-construction"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference describes rebuilt Tokyo, self-assembling nanotechnological construction and a virtual celebrity construct.",
+            "source_ids": [
+              "src-gibson-sfe",
+              "src-idoru-nanotech-construction"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary household access and the extent of other automation remain estimates.",
+          "The city period is distinct from later nanofax service expansion."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar directly material construction-automation order as a zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference describes rebuilt Tokyo, self-assembling nanotechnological construction and a virtual celebrity construct."
+        ],
+        "editorial_assumptions": [
+          "Ordinary household access and the extent of other automation remain estimates.",
+          "The city period is distinct from later nanofax service expansion."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0246",
+        "status": "needs_evidence",
+        "reason": "The short Idoru reference establishes a virtual celebrity, not broad nanotechnological household provision.",
+        "source_ids": [
+          "src-gibson-sfe"
+        ],
+        "analysis": "An informational person and advanced Tokyo do not establish the discovery lead’s economic mechanism.",
+        "follow_up": "Skip deeper reading."
+      },
+      "after": {
+        "candidate_id": "c0246",
+        "status": "zero_variant",
+        "reason": "Retain the familiar directly material construction-automation order as a zero variant.",
+        "source_ids": [
+          "src-gibson-sfe",
+          "src-idoru-nanotech-construction"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "idoru-nanotechnological-tokyo-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "tomorrowsparties-early-nanofax-zero",
+        "candidate_id": "c0247",
+        "name": "All Tomorrow’s Parties (the early Lucky Dragon nanofax model)",
+        "work": "All Tomorrow’s Parties",
+        "society": "All Tomorrow’s Parties (the early Lucky Dragon nanofax model)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named published literary continuity and selected period",
+          "period": "The developing nanofax storefront/service transition",
+          "population": "Living human customers and workers in the scoped developing service economy",
+          "human_population_proxy": false,
+          "exclusions": "A developing service is not a verified completed worldwide post-nanofax society.",
+          "branch": null,
+          "player_configurable": false,
+          "projection_status": "Developing nanofax service; broad material effects estimated, no completed worldwide successor claimed"
+        },
+        "description": "Lucky Dragon’s nanofax points toward a different relationship between information and physical goods. The retained model is the early service transition, with material consequences estimated at the point where such fabrication becomes available. The guarantee best guess remains weak because access can stay commercial and site-dependent. A promising fabrication mechanism does not establish free essentials, equal ownership or a completed global successor constitution.\n\n Human service owners and customers receive modest positive control weight, with concentrated commercial and technical dependencies in the interval. The low-to-moderate nonworking scenario counts service operation, logistics, design, repair, coordination, care and useful creation. Human coworkers remain workers even when fabrication substitutes for part of a production chain. The point does not derive a labor percentage from the speed of a machine or from an impending historical turning point. This zero variant preserves the recognizable material transition while explicitly distinguishing a developing service from a fully realized universal post-work order.",
+        "axis": {
+          "guarantees": 0.6,
+          "control": 0.2,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.85,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Developing commercial fabrication permits conditional rather than universal access.",
+            "source_ids": [
+              "src-tomorrows-parties-kara"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.8,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Service owners and participants coexist with concentrated technical dependence.",
+            "source_ids": [
+              "src-tomorrows-parties-kara"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Useful service and design work count; fabrication speed is not participation.",
+            "source_ids": [
+              "src-tomorrows-parties-kara"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-tomorrows-parties-kara"
+        ],
+        "evidence": [
+          {
+            "claim": "The review identifies Lucky Dragon coworkers and nanofax as part of a developing technical future.",
+            "source_ids": [
+              "src-tomorrows-parties-kara"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The material consequences of the early service are bounded estimates.",
+          "No completed worldwide successor economy is asserted."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the early fabrication-service transition with its incomplete reach explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The review identifies Lucky Dragon coworkers and nanofax as part of a developing technical future."
+        ],
+        "editorial_assumptions": [
+          "The material consequences of the early service are bounded estimates.",
+          "No completed worldwide successor economy is asserted."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0247",
+        "status": "needs_evidence",
+        "reason": "Nanofax is a developing service; the proposed completed successor economy is unverified.",
+        "source_ids": [
+          "src-tomorrows-parties-kara"
+        ],
+        "analysis": "Fabrication potential at the ending does not identify a settled population and realized access rules.",
+        "follow_up": "Skip speculative post-ending reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0247",
+        "status": "zero_variant",
+        "reason": "Retain the early fabrication-service transition with its incomplete reach explicit.",
+        "source_ids": [
+          "src-tomorrows-parties-kara"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "tomorrowsparties-early-nanofax-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "schismatrix-mechanist-rivalry-zero",
+        "candidate_id": "c0248",
+        "name": "Schismatrix (the Mechanist technical order)",
+        "work": "Schismatrix",
+        "society": "Schismatrix (the Mechanist technical order)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named published literary continuity and selected period",
+          "period": "The Mechanist/Shaper rivalry before later generalized surplus transformations",
+          "population": "Active human-derived Mechanist residents",
+          "human_population_proxy": true,
+          "exclusions": "Not every machine is a person; later overall surplus is not imported as an earlier universal entitlement.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Mechanists pursue technical alteration and machine-mediated forms of human continuation in a changing factional system. Their material-floor best guess is mixed and conditional: advanced support can reduce routine needs while resource politics and factional power still govern access. The point selects the rivalry period and does not import later abundance into every earlier habitat or person.\n\n Human-derived Mechanist agency receives moderate positive control weight, with unequal institutions and possible machine dependence inside the interval. Technological embodiment does not automatically make residents unrelated AI or give them equal ownership. This zero variant counts engineering, production, transport, administration, maintenance, care and useful creation. The modest nonworking scenario permits substitution while keeping active technical roles real. Stored patterns and inert machinery are excluded from the person denominator. The broad bounds preserve local variation without turning a body-modification preference into a uniform post-work constitution or equating mechanical appearance with autonomous robotic rule.",
+        "axis": {
+          "guarantees": 0.2,
+          "control": 0.4,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.9,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "Technical support coexists with factional resource dependence.",
+            "source_ids": [
+              "src-schismatrix-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.85,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Human-derived technical agency is central with unequal institutions.",
+            "source_ids": [
+              "src-schismatrix-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Useful active technical roles count; stored patterns and body type are not participation.",
+            "source_ids": [
+              "src-schismatrix-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-schismatrix-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference describes changing Mechanist/Shaper rivalry and later distinct surplus transformations.",
+            "source_ids": [
+              "src-schismatrix-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The selected rivalry period has estimated household rights and participation.",
+          "Human-derived Mechanists are not automatically unrelated AI."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          4
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distinct technical-human faction model as a period-bounded zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference describes changing Mechanist/Shaper rivalry and later distinct surplus transformations."
+        ],
+        "editorial_assumptions": [
+          "The selected rivalry period has estimated household rights and participation.",
+          "Human-derived Mechanists are not automatically unrelated AI."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0248",
+        "status": "needs_evidence",
+        "reason": "Mechanist technology and factional rivalry do not establish one stable material-support system.",
+        "source_ids": [
+          "src-schismatrix-reference"
+        ],
+        "analysis": "Later system-wide surplus cannot be imported into all earlier Mechanist settlements or treated as a guarantee.",
+        "follow_up": "Skip deeper reading."
+      },
+      "after": {
+        "candidate_id": "c0248",
+        "status": "zero_variant",
+        "reason": "Retain the distinct technical-human faction model as a period-bounded zero variant.",
+        "source_ids": [
+          "src-schismatrix-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "schismatrix-mechanist-rivalry-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "schismatrix-shaper-rivalry-zero",
+        "candidate_id": "c0249",
+        "name": "Schismatrix (the Shaper biological order)",
+        "work": "Schismatrix",
+        "society": "Schismatrix (the Shaper biological order)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named published literary continuity and selected period",
+          "period": "The Shaper/Mechanist rivalry before later generalized surplus transformations",
+          "population": "Active living human-derived Shaper residents",
+          "human_population_proxy": true,
+          "exclusions": "Biological enhancement is not proof of free necessities; later overall abundance is a different period.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Shapers pursue biological adaptation and organized human transformation within the same contested system. Their material-floor best guess is mixed and conditional, allowing advanced biological and habitat support without assuming that engineered ability abolishes resource dependence. The point selects the rivalry period rather than granting every earlier Shaper community the later system’s reported surplus.\n\n Human-derived factional institutions receive control close to the concentrated reference point, with more distributed local arrangements in the interval. Biological planning is not autonomous AI sovereignty, and enhanced residents need not share equal command over resources. This zero variant counts scientific work, cultivation, production, administration, maintenance, care and useful creation. The modest nonworking scenario does not treat altered metabolism as a whole person freed from ongoing useful activity. The technical-biological substitution qualification remains explicit because enhancement alone is not a factory census. Broad bounds retain the recognizable rival material strategy without manufacturing one universal Shaper welfare charter.",
+        "axis": {
+          "guarantees": 0.25,
+          "control": 0.1,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.9,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "Biological/habitat support permits a conditional floor amid factional resource politics.",
+            "source_ids": [
+              "src-schismatrix-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.5,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Human-derived faction authority is central, with local distributed alternatives.",
+            "source_ids": [
+              "src-schismatrix-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Useful science and care count; biological enhancement is not participation.",
+            "source_ids": [
+              "src-schismatrix-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-schismatrix-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference identifies Shaper/Mechanist rivalry and later transformations.",
+            "source_ids": [
+              "src-schismatrix-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Material automation, ordinary access and productive concentration are estimates.",
+          "Later surplus is not assumed to apply uniformly to this earlier period."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the rival biological technical strategy as a qualified zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference identifies Shaper/Mechanist rivalry and later transformations."
+        ],
+        "editorial_assumptions": [
+          "Material automation, ordinary access and productive concentration are estimates.",
+          "Later surplus is not assumed to apply uniformly to this earlier period."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0249",
+        "status": "needs_evidence",
+        "reason": "Shaper adaptation and later surplus do not establish a uniform post-work arrangement.",
+        "source_ids": [
+          "src-schismatrix-reference"
+        ],
+        "analysis": "Biological modification does not automatically replace human work; the changing Shaper factions require actual distribution evidence.",
+        "follow_up": "Skip deeper reading rather than generalizing the entire chronology."
+      },
+      "after": {
+        "candidate_id": "c0249",
+        "status": "zero_variant",
+        "reason": "Retain the rival biological technical strategy as a qualified zero variant.",
+        "source_ids": [
+          "src-schismatrix-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "schismatrix-shaper-rivalry-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "holyfire-gerontocratic-ration-order",
+        "candidate_id": "c0250",
+        "name": "Holy Fire (the gerontocratic ration economy)",
+        "work": "Holy Fire",
+        "society": "Holy Fire (the gerontocratic ration economy)",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "The named published literary continuity and selected period",
+          "period": "The functioning medical-industrial gerontocracy before any generalized political transformation",
+          "population": "Living human residents across the age-divided order",
+          "human_population_proxy": false,
+          "exclusions": "Basic government rations and elite life extension are different benefits; longevity is not a nonworking percentage.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Government rations provide the young a limited free survival floor, while older people with accumulated capital enjoy much better access to medical and life-extension technology. The material guarantee best guess therefore stays mixed: basic support can exist without equal comfort, full healthcare or productive independence. Wider automated production is a contextual estimate, while the ration and capital divide is directly described.\n\n Concentrated human senior wealth and medical-industrial institutions place control near the elite reference point. Surveillance and sophisticated medicine do not automatically establish autonomous AI rule. The moderate nonworking scenario permits technical substitution while counting research, medical work, services, repair, administration, care and useful creation. A long life does not show that its owner never works, and marginal young people may still do useful informal activity. The record retains the recognizable age-divided partial-support model with its unequal benefit coverage explicit, rather than assigning everyone the protagonist’s privileged position or calling meagre rations complete post-scarcity security.",
+        "axis": {
+          "guarantees": -0.1,
+          "control": 0.03,
+          "nonworking": 0.4
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.85,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Free rations support a partial floor while unequal medical access limits security.",
+            "source_ids": [
+              "src-holy-fire-publisher",
+              "src-holy-fire-classics-review"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "Human senior capital and medical-industrial power concentrate control.",
+            "source_ids": [
+              "src-holy-fire-publisher",
+              "src-holy-fire-classics-review"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Useful medical, service and caring roles count; longevity is not participation.",
+            "source_ids": [
+              "src-holy-fire-publisher",
+              "src-holy-fire-classics-review"
+            ]
+          }
+        },
+        "regime_primary": 1,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-holy-fire-publisher",
+          "src-holy-fire-classics-review"
+        ],
+        "evidence": [
+          {
+            "claim": "The publisher describes government rations for young people and senior capital’s privileged life-extension access.",
+            "source_ids": [
+              "src-holy-fire-publisher",
+              "src-holy-fire-classics-review"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Broader automated production and active-person participation are contextual estimates.",
+          "Basic rations do not imply equally secure medical access."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the explicit partial-support gerontocracy with unequal benefits and estimated automation visible.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The publisher describes government rations for young people and senior capital’s privileged life-extension access."
+        ],
+        "editorial_assumptions": [
+          "Broader automated production and active-person participation are contextual estimates.",
+          "Basic rations do not imply equally secure medical access."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0250",
+        "status": "needs_evidence",
+        "reason": "Holy Fire has rations and a post-scarcity interpretation, but its material-production mechanism remains unclear in the short sources.",
+        "source_ids": [
+          "src-holy-fire-publisher",
+          "src-holy-fire-classics-review"
+        ],
+        "analysis": "Gerontocratic wealth, medical technology and government support do not alone establish technologically reduced dependence on human production.",
+        "follow_up": "Skip deeper reading; do not turn unequal longevity into an automation economy by itself."
+      },
+      "after": {
+        "candidate_id": "c0250",
+        "status": "included",
+        "reason": "Retain the explicit partial-support gerontocracy with unequal benefits and estimated automation visible.",
+        "source_ids": [
+          "src-holy-fire-publisher",
+          "src-holy-fire-classics-review"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "holyfire-gerontocratic-ration-order"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "islandsnet-rizome-working-associates-zero",
+        "candidate_id": "c0251",
+        "name": "Islands in the Net (Rizome’s working associates)",
+        "work": "Islands in the Net",
+        "society": "Islands in the Net (Rizome’s working associates)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named published literary continuity and selected period",
+          "period": "The functioning participatory corporate network",
+          "population": "Living human Rizome associates in the scoped work institution",
+          "human_population_proxy": false,
+          "exclusions": "Benefits elsewhere are not imported into the corporation; participation in governance is not absence of work.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Rizome combines corporate economic democracy with working associates, including resort and public-relations activity. It offers a distinct human-control model rather than an automatic abolition of work. The material-floor best guess allows meaningful internal support, qualified by association, corporate success and uncertain benefit coverage. Networked coordination is a contextual automation comparison, not proof that every household receives necessities independent of all contribution.\n\n Strong positive control reflects participatory human corporate governance, while the interval preserves managerial concentration and external commercial dependence. The central nonworking scenario is zero for the scoped active associate work cohort: resort operations, communications, administration, maintenance, care and other useful assigned activity count. A democratic worker is still a worker. Private rest does not become a fraction of an idle person. This zero variant retains a recognizable alternative ownership relationship, with its narrow institution and limited direct productive-automation evidence explicit rather than importing abundance from another part of the setting.",
+        "axis": {
+          "guarantees": -0.1,
+          "control": 0.85,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.9,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Corporate association permits internal benefits with conditions and uncertain coverage.",
+            "source_ids": [
+              "src-islands-net-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              0.05,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Participatory human corporate governance supports shared agency.",
+            "source_ids": [
+              "src-islands-net-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "The scoped active associates perform ongoing useful work centrally.",
+            "source_ids": [
+              "src-islands-net-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-islands-net-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference describes corporate economic democracy and working resort/public-relations associates.",
+            "source_ids": [
+              "src-islands-net-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Material automation and ordinary benefit coverage are contextual estimates.",
+          "The narrow active associate cohort does not represent every resident outside Rizome."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          2
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the participatory technical work institution as an explicit zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference describes corporate economic democracy and working resort/public-relations associates."
+        ],
+        "editorial_assumptions": [
+          "Material automation and ordinary benefit coverage are contextual estimates.",
+          "The narrow active associate cohort does not represent every resident outside Rizome."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0251",
+        "status": "boundary_case",
+        "reason": "Rizome is a participatory corporation with working associates, without a verified labor-independent support system.",
+        "source_ids": [
+          "src-islands-net-reference"
+        ],
+        "analysis": "Economic democracy and networked commerce address control, but do not themselves replace human labor as the basis of provision.",
+        "follow_up": "Keep as a worker-democracy comparison."
+      },
+      "after": {
+        "candidate_id": "c0251",
+        "status": "zero_variant",
+        "reason": "Retain the participatory technical work institution as an explicit zero variant.",
+        "source_ids": [
+          "src-islands-net-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "islandsnet-rizome-working-associates-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "artificialkid-combat-artist-work-zero",
+        "candidate_id": "c0252",
+        "name": "The Artificial Kid (Reverie’s combat-artist work economy)",
+        "work": "The Artificial Kid",
+        "society": "The Artificial Kid (Reverie’s combat-artist work economy)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named published literary continuity and selected period",
+          "period": "The functioning combat-art production and patronage system",
+          "population": "Living human combat artists and production collaborators in the scoped work unit",
+          "human_population_proxy": false,
+          "exclusions": "Orbital audiences are separate; automated recording does not eliminate the performers’ useful work.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Combat artists and collaborators create recorded performances for orbital audiences, using drone cameras and patron support. Recording is automated in part, while the actual human performance remains the product. The material-floor best guess is weak and conditional because access depends on patronage, commercial success and a dangerous production environment. Sophisticated recording is an explicitly limited automation mechanism rather than universal household provision.\n\n Human patrons and production actors receive control near the concentrated reference point, with performer initiative inside the interval. A recording drone is not automatically an independent economic sovereign. The central nonworking scenario is zero for the active artist-and-collaborator work cohort: filming, performance, preparation, production coordination, maintenance and care count as useful activity. The number of viewers or cameras supplies no participation statistic. This zero variant preserves the recognizable technical art-work institution on Reverie, using the corrected planet name and keeping its workers distinct from any possibly supported leisure audience above them.",
+        "axis": {
+          "guarantees": 0.8,
+          "control": 0.08,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.5,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Patronage and performance dependence suggest weak secure equal access.",
+            "source_ids": [
+              "src-artificial-kid-ebsco"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Human patron and producer power coexists with performer initiative.",
+            "source_ids": [
+              "src-artificial-kid-ebsco"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Active performers and collaborators work centrally; recording automation is partial.",
+            "source_ids": [
+              "src-artificial-kid-ebsco"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-artificial-kid-ebsco"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference names Reverie and describes drone-assisted combat performances, patronage and orbital audiences.",
+            "source_ids": [
+              "src-artificial-kid-ebsco"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The narrow active production cohort is not the audience population.",
+          "Ordinary access and further automation remain estimates."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the concrete automated-recording work economy as a narrow zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference names Reverie and describes drone-assisted combat performances, patronage and orbital audiences."
+        ],
+        "editorial_assumptions": [
+          "The narrow active production cohort is not the audience population.",
+          "Ordinary access and further automation remain estimates."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0252",
+        "status": "boundary_case",
+        "reason": "Automated recording and lucrative combat performance do not establish society-wide post-work distribution.",
+        "source_ids": [
+          "src-artificial-kid-ebsco"
+        ],
+        "analysis": "The lead is a performance and patronage economy on Reverie. Camera drones do not independently supply ordinary necessities.",
+        "follow_up": "Skip deeper reading; preserve the corrected place name in this disposition."
+      },
+      "after": {
+        "candidate_id": "c0252",
+        "status": "zero_variant",
+        "reason": "Retain the concrete automated-recording work economy as a narrow zero variant.",
+        "source_ids": [
+          "src-artificial-kid-ebsco"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "artificialkid-combat-artist-work-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "diamondage-celestial-dependence-zero",
+        "candidate_id": "c0253",
+        "name": "The Diamond Age (the Celestial Kingdom’s material dependence)",
+        "work": "The Diamond Age",
+        "society": "The Diamond Age (the Celestial Kingdom’s material dependence)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named published literary continuity and selected period",
+          "period": "The functioning Celestial Kingdom before a completed universal Seed alternative",
+          "population": "Living human residents within the scoped Celestial Kingdom order",
+          "human_population_proxy": false,
+          "exclusions": "Foreign Feed capacity and the proposed Seed do not establish identical current household rights; no universal all-technology ban is invented.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Celestial Kingdom’s position turns on technological dependence and the politics of nanotechnological infrastructure. The material-floor best guess is weak and conditional: access to powerful fabrication elsewhere does not mean every resident controls its inputs or receives equal secure necessities. The developing Seed offers a possible change, but its projected autonomy is kept in a separate record rather than treated as this population’s already functioning material constitution.\n\n Human political authority and control over infrastructure relationships place the point near the concentrated reference. Resistance to dependence is not automatically rejection of every technical device, nor does foreign technical power make an AI the local sovereign. The low nonworking scenario counts cultivation, production, trade, administration, maintenance, care and useful creation. The record is a zero variant because retained roles and controlled access remain central despite the wider setting’s productive possibilities. Broad bounds preserve uncertain household detail without omitting the familiar alternative or importing the Feed’s most privileged benefits into every resident’s life.",
+        "axis": {
+          "guarantees": 0.6,
+          "control": 0.08,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.8,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Technological dependence and controlled inputs qualify secure ordinary access.",
+            "source_ids": [
+              "src-diamond-age-reference",
+              "src-diamond-age-geography"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.7,
+              0.7
+            ],
+            "confidence": "low",
+            "basis": "Human political/infrastructure authority is central with external dependence.",
+            "source_ids": [
+              "src-diamond-age-reference",
+              "src-diamond-age-geography"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Useful production and care remain work; proposed Seed autonomy is not present participation.",
+            "source_ids": [
+              "src-diamond-age-reference",
+              "src-diamond-age-geography"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-diamond-age-reference",
+          "src-diamond-age-geography"
+        ],
+        "evidence": [
+          {
+            "claim": "The references describe unequal nanotechnological control, Feed dependence and the developing Seed alternative.",
+            "source_ids": [
+              "src-diamond-age-reference",
+              "src-diamond-age-geography"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary Celestial Kingdom household allocation and participation are estimates.",
+          "No universal technical ban or completed Seed successor is asserted."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distinct dependence-and-authority model as a qualified zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The references describe unequal nanotechnological control, Feed dependence and the developing Seed alternative."
+        ],
+        "editorial_assumptions": [
+          "Ordinary Celestial Kingdom household allocation and participation are estimates.",
+          "No universal technical ban or completed Seed successor is asserted."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0253",
+        "status": "boundary_case",
+        "reason": "The Celestial Kingdom conflict concerns technology and dependence, without a verified distinct post-work arrangement.",
+        "source_ids": [
+          "src-diamond-age-reference",
+          "src-diamond-age-geography"
+        ],
+        "analysis": "Resistance to foreign Feed control and development of the Seed are not proof of deliberate job preservation. The Thete public-compiler record cannot be copied to the entire Kingdom.",
+        "follow_up": "Keep as a technological-sovereignty comparison; skip ending reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0253",
+        "status": "zero_variant",
+        "reason": "Retain the distinct dependence-and-authority model as a qualified zero variant.",
+        "source_ids": [
+          "src-diamond-age-reference",
+          "src-diamond-age-geography"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "diamondage-celestial-dependence-zero"
+      }
+    }
+  ]
+}

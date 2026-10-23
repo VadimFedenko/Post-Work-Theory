@@ -1,0 +1,368 @@
+{
+  "batch_id": "batch-009",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0060",
+    "c0061",
+    "c0062",
+    "c0063",
+    "c0064"
+  ],
+  "sources": [
+    {
+      "id": "src-roads-primary",
+      "title": "The Roads Must Roll in The Man Who Sold the Moon",
+      "author": "Robert A. Heinlein; converted text on Zanotowane",
+      "url": "https://zanotowane.pl/1188/8408/",
+      "kind": "primary_fiction_unofficial_transcription",
+      "accessed_on": "2026-10-16",
+      "access_method": "Collection opened; story opening and Gaines's machinery explanation read",
+      "read_scope": "Story starts at The Roads Must Roll heading; workers' demands, competing trades and the road-service bottleneck.",
+      "limitations": "Unofficial conversion with pagination artifacts. Sampling this story does not establish a uniform economy for Heinlein's entire Future History."
+    },
+    {
+      "id": "src-horizon-preview",
+      "title": "Beyond This Horizon: HTML preview",
+      "author": "Robert A. Heinlein; unofficial Robert A Heinlein blog",
+      "url": "https://raheinlein.wordpress.com/novels/beyond-this-horizon/",
+      "kind": "primary_fiction_unofficial_excerpt",
+      "accessed_on": "2026-10-16",
+      "access_method": "Preview opened; economic opening and synthesist discussion read",
+      "read_scope": "Chapter One's mixed economy, free food, allowance and accounting computer; Hamilton's discussion of the leadership hierarchy.",
+      "limitations": "The page's introductory publication statement conflicts with its heading; it is not used for dating. The excerpt does not specify the entire electorate or ownership structure."
+    },
+    {
+      "id": "src-horizon-scan",
+      "title": "Beyond This Horizon",
+      "author": "Robert A. Heinlein; scanned edition hosted by Luminist",
+      "url": "https://s3.us-west-1.wasabisys.com/luminist/EB/H/Heinlein%20-%20Beyond%20This%20Horizon.pdf",
+      "kind": "primary_fiction_scanned_edition",
+      "accessed_on": "2026-10-16",
+      "access_method": "PDF opened and dividend find passages read; later targeted retrievals timed out",
+      "read_scope": "Printed pages 71-73 on surplus, work and research; Smith's discussion of living on the dividend; page 174 on servants and automaton furniture.",
+      "limitations": "Not a complete read. PDF page indices differ from printed numbers. A human calls himself a computer in the work; that word alone does not denote an AI ruler."
+    },
+    {
+      "id": "src-living-primary",
+      "title": "For Us, the Living: A Comedy of Customs",
+      "author": "Robert A. Heinlein; converted text on Zanotowane",
+      "url": "https://www.zanotowane.pl/1210/6477/",
+      "kind": "primary_fiction_unofficial_transcription",
+      "accessed_on": "2026-10-16",
+      "access_method": "Text opened; Chapters IX-X and XII's economic and franchise passages read",
+      "read_scope": "Machines, optional work, dividend, free medicine, private industry, public banking and voting conditions.",
+      "limitations": "The discussion advocates a fictional economic system, not a verified real-world theorem. Its statement about the urge to work is not an actual employment census."
+    },
+    {
+      "id": "src-living-publisher",
+      "title": "For Us, The Living: A Comedy of Customs",
+      "author": "Simon & Schuster / Scribner",
+      "url": "https://www.simonandschuster.com/books/For-Us-The-Living/Robert-James/9780743261579",
+      "kind": "official_publisher_page",
+      "accessed_on": "2026-10-16",
+      "access_method": "Indexed product page read",
+      "read_scope": "Novel identity, Perry Nelson's starting period, posthumous edition and synopsis.",
+      "limitations": "The publisher's Future History marketing does not erase differences between this manuscript's future and later stories."
+    },
+    {
+      "id": "src-moon-primary",
+      "title": "The Moon Is a Harsh Mistress",
+      "author": "Robert A. Heinlein; transcription on The Ted K Archive",
+      "url": "https://www.thetedkarchive.com/library/robert-a-heinlein-the-moon-is-a-harsh-mistress",
+      "kind": "primary_fiction_unofficial_transcription",
+      "accessed_on": "2026-10-16",
+      "access_method": "Text opened; find passages read; opening machine scope also available in indexed text",
+      "read_scope": "Mike's services in May 2075; Wyoh's early meeting on water, power, wheat and labor shortage; later account of air lending and food.",
+      "limitations": "Some follow-up opens timed out. An insurgent's promises are not an already realized post-revolution welfare settlement. Mike does not run Hong Kong's separate air and water system."
+    },
+    {
+      "id": "src-friday-primary",
+      "title": "Friday",
+      "author": "Robert A. Heinlein; converted text on Zanotowane",
+      "url": "https://zanotowane.pl/1200/5839/",
+      "kind": "primary_fiction_unofficial_transcription",
+      "accessed_on": "2026-10-16",
+      "access_method": "Text opened; travel bureau and Shipstone research passages read",
+      "read_scope": "Chapter 1's automated booking with a human attendant; converted pages 125-128 on storage technology, corporate ownership and Friday's uncertainty.",
+      "limitations": "Friday's investigation distinguishes demonstrated interlocking ownership from potential systemwide government. No complete population-wide distribution or labor account was established by these samples."
+    }
+  ],
+  "societies": [
+    {
+      "id": "beyond-horizon-americas",
+      "candidate_id": "c0061",
+      "name": "Beyond This Horizon (American civilization)",
+      "work": "Beyond This Horizon",
+      "society": "The hemisphere's dividend-supported economy",
+      "media": [
+        "book"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "The original novel's future",
+        "period": "The established civilization defended against the attempted coup",
+        "population": "Human residents of the depicted American hemisphere",
+        "human_population_proxy": false,
+        "exclusions": [
+          "All Earth societies as a uniform economic unit",
+          "The conspirators' proposed replacement order",
+          "An accounting machine as the creator of physical goods"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Productivity supports a regular citizen dividend and free ordinary food, while paid businesses and luxury purchases continue. People can refuse badly paid service because they have another means of living; automated household equipment is an alternative to servants. That supports strong guarantees without making every desirable service free. The text also distinguishes its accounting computer from the machinery that actually produces wealth.\n\nHuman specialists and the Policy Board guide this mixed economy. Leadership is strongly associated with a small class of synthesists, so elections do not automatically establish broadly shared control. The control estimate stays near the human-elite region with a wide range. The moderate nonworking estimate reflects continuing occupations and invention alongside freedom from wage necessity. It is deliberately much lower than a total-leisure reading: people working on new devices or research still count as working. No population census settles their actual share.",
+      "axis": {
+        "guarantees": -0.85,
+        "control": 0.2,
+        "nonworking": 0.3
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.95,
+            -0.55
+          ],
+          "confidence": "medium",
+          "basis": "Dividend-backed subsistence; costly personal services remain.",
+          "source_ids": [
+            "src-horizon-preview",
+            "src-horizon-scan"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.55
+          ],
+          "confidence": "low",
+          "basis": "Human Board and private enterprise; leadership hierarchy clearer than electorate.",
+          "source_ids": [
+            "src-horizon-preview"
+          ]
+        },
+        "nonworking": {
+          "interval": [
+            0.1,
+            0.6
+          ],
+          "confidence": "low",
+          "basis": "Coarse minority estimate: voluntary invention and occupations continue. Optional employment is not inactivity.",
+          "source_ids": [
+            "src-horizon-scan"
+          ]
+        }
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [
+        2
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-horizon-preview",
+        "src-horizon-scan"
+      ],
+      "evidence": [
+        {
+          "claim": "The dividend reduces wage dependence while productive work continues.",
+          "source_ids": [
+            "src-horizon-scan"
+          ],
+          "locator": "Printed pages 71-73 and 174",
+          "kind": "depicted_or_author_stated"
+        },
+        {
+          "claim": "Accountants and synthesists remain human decision-makers.",
+          "source_ids": [
+            "src-horizon-preview"
+          ],
+          "locator": "Chapter One; Hamilton and Mordan discussion",
+          "kind": "depicted_or_author_stated"
+        }
+      ],
+      "uncertainties": [
+        "Verify the electorate and ownership concentration.",
+        "No all-age labor census; long-lived adults complicate demographic assumptions.",
+        "Genetic status and dueling complicate the claimed ideal of freedom."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": true
+      }
+    },
+    {
+      "id": "for-us-living-us2086",
+      "candidate_id": "c0062",
+      "name": "For Us, the Living (United States, 2086)",
+      "work": "For Us, the Living",
+      "society": "The federal social-credit settlement",
+      "media": [
+        "book"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "The posthumously published manuscript's distinct future",
+        "period": "2086, during Perry Nelson's visit",
+        "population": "Human US residents under the federal settlement",
+        "human_population_proxy": false,
+        "exclusions": [
+          "A uniform world economy",
+          "Coventry's seceding communities",
+          "Wisconsin's extra cooperative arrangements as a national rule",
+          "Later Future History stories without comparison"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Machines make essential production possible with comparatively few operators. A public dividend gives people purchasing power whether they take a job or not, and medical service is free. Guarantees are consequently strong, with a qualification: the political explanation ties drawing the dividend to voting. This is freedom from wage dependence with a civic condition, rather than an entirely unconditional material right.\n\nElections, public banking and room for different state policies give citizens meaningful influence, while much industry remains privately owned. That combination supports a moderately positive human-control estimate. Computers do not appear to replace the electorate. The nonworking point is a rough minority estimate because the dialogue emphasizes continuing creative activity and scarce drudgery. Its statement about a widespread urge to work mixes useful activity with recreation; it cannot be read as an employment census. The wide range leaves that distinction open.",
+      "axis": {
+        "guarantees": -0.75,
+        "control": 0.55,
+        "nonworking": 0.3
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.95,
+            -0.4
+          ],
+          "confidence": "medium",
+          "basis": "Non-wage dividend and medicine, qualified by voting eligibility.",
+          "source_ids": [
+            "src-living-primary"
+          ]
+        },
+        "control": {
+          "interval": [
+            0.25,
+            0.8
+          ],
+          "confidence": "medium",
+          "basis": "Public monetary control and elections coexist with private industry.",
+          "source_ids": [
+            "src-living-primary"
+          ]
+        },
+        "nonworking": {
+          "interval": [
+            0.1,
+            0.65
+          ],
+          "confidence": "low",
+          "basis": "Editorial estimate from continuing voluntary activity; no conversion of motivation into a headcount.",
+          "source_ids": [
+            "src-living-primary"
+          ]
+        }
+      },
+      "regime_primary": 2,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-living-primary",
+        "src-living-publisher"
+      ],
+      "evidence": [
+        {
+          "claim": "Machines and shared technical inheritance justify non-wage access.",
+          "source_ids": [
+            "src-living-primary"
+          ],
+          "locator": "Chapter X: Davis and Perry",
+          "kind": "depicted_or_author_stated"
+        },
+        {
+          "claim": "Dividend voting condition requires instruction, without a pass/fail examination.",
+          "source_ids": [
+            "src-living-primary"
+          ],
+          "locator": "End of Chapter XII",
+          "kind": "depicted_or_author_stated"
+        }
+      ],
+      "uncertainties": [
+        "Check dividend eligibility for dependents and nonvoters more closely.",
+        "State variation remains inside a federal scope, not an assertion of identical ownership everywhere.",
+        "The participation estimate is not a canonical statistic."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": true
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0060",
+      "status": "boundary_case",
+      "reason": "Advanced road machinery creates an essential human-maintenance bottleneck, not a demonstrated post-work distribution system.",
+      "source_ids": [
+        "src-roads-primary"
+      ],
+      "analysis": "The opening explicitly retains wages, guilds, insurance and retirement; other farmers and industrial workers remain necessary. Gaines argues for disciplined service because a small transport workforce can paralyze production. The story does not establish general wage-independent access or deliberately retained employment after machines could remove its material necessity. Automatic transport alone is too broad an admission rule, including for the zero variant.",
+      "follow_up": "Keep as a comparison about concentrated technical power. Reopen only with broader production/distribution evidence, and do not borrow another Future History period's arrangements."
+    },
+    {
+      "candidate_id": "c0061",
+      "status": "included",
+      "reason": "Direct passages establish dividend-supported subsistence and labor-saving technology alongside substantial voluntary work.",
+      "source_ids": [
+        "src-horizon-preview",
+        "src-horizon-scan"
+      ],
+      "scope_correction": "The economic account depicts a hemisphere; it is not silently generalized to every human society.",
+      "society_id": "beyond-horizon-americas"
+    },
+    {
+      "candidate_id": "c0062",
+      "status": "included",
+      "reason": "The primary dialogue directly connects machine productivity, the shared dividend and freedom to decline employment.",
+      "source_ids": [
+        "src-living-primary",
+        "src-living-publisher"
+      ],
+      "society_id": "for-us-living-us2086"
+    },
+    {
+      "candidate_id": "c0063",
+      "status": "boundary_case",
+      "reason": "Mike's autonomous intelligence and extensive services do not make this work-dependent Lunar economy post-work.",
+      "source_ids": [
+        "src-moon-primary"
+      ],
+      "analysis": "Mike runs important transport, communications and life-support services, but not every settlement's infrastructure. The early meeting describes producers squeezed by the Authority's prices and monopoly, and Hong Kong's chronic labor shortage. A later explanation explicitly leaves food dependent on work or other means. There is no verified automatic material share for the population, or deliberate job preservation after human labor became dispensable. Revolutionary coordination must also be separated from the later government's economy.",
+      "follow_up": "Retain as an AI-control and scarce-resource comparison. Research a separately realized later arrangement if proposed; neither Mike's presence nor his alliance with Mannie supplies an automatic admission or a pure-AI control score."
+    },
+    {
+      "candidate_id": "c0064",
+      "status": "needs_evidence",
+      "reason": "Primary samples establish sophisticated services and concentrated corporate ownership, but not the candidate's claimed post-work economy.",
+      "source_ids": [
+        "src-friday-primary"
+      ],
+      "analysis": "The automated travel bureau still has an attendant. Shipstones are energy-storage technology; cheap energy and an industrial secret do not establish automatic goods for nonworkers. Friday discovers interlocking ownership and distinguishes potential systemwide government from proof that it acts as such. The queue's broad date and uniform economic label remain unverified, and artificial persons cannot be assumed to replace all necessary labor.",
+      "follow_up": "Locate actual manufacturing, income and household-access passages for a defined polity and period. Decide post-work, zero variant or comparison from that relationship, rather than mapping the entire fragmented setting from one protagonist's corporate investigation."
+    }
+  ],
+  "review_notes": [
+    "Five contiguous leads receive decisions; two primary-supported societies are retained. Roads and Luna remain comparisons, and Friday's broad discovery label needs further evidence.",
+    "Second pass checked machines versus accounting, voluntary useful activity versus nonwork, expert leadership versus public ownership, and a basic dividend versus an unconditional right.",
+    "The two new participation points are qualitative editorial estimates with broad ranges, not employment statistics inferred from the freedom to refuse a wage job.",
+    "For Us, the Living's explicit voting condition is included in guarantees. Its stated urge to work is not entered as a measured participation rate.",
+    "The scan's successful find passages and later retrieval failures are both recorded. No source is described as a full-novel read, and unofficial transcription status remains visible."
+  ]
+}

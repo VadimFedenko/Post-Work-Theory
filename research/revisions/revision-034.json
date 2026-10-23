@@ -1,0 +1,1646 @@
+{
+  "revision_id": "revision-034",
+  "revised_on": "2026-10-17",
+  "reason": "Twelve Simak/Vonnegut/Leiber records retained from eleven old holds. The two All the Traps of Earth settings have separate populations and controls; Way Station and wordmills are scoped continuing work institutions. Ant City personhood is an explicit collective analogy, creator legends remain legends and actual alien gifts are separated from forecasts.",
+  "changes": [
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "city-antcity-collective-zero",
+        "candidate_id": "c0105",
+        "name": "City (the robot-appropriating Ant City)",
+        "work": "City: The Simple Way",
+        "society": "City (the robot-appropriating Ant City)",
+        "media": [
+          "book",
+          "short_story"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The Simple Way in the original City fix-up; later Epilog and other populations excluded",
+          "period": "The functioning Ant City during its appropriation of robot labor and habitat",
+          "population": "The active Ant City as a single purposive biological-collective person interpretation",
+          "human_population_proxy": true,
+          "exclusions": "Individual instinctive insects, human remnants, robot equipment and abandoned habitat are not additional conscious nonworkers.",
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_biological_collective"
+        },
+        "description": "The Ant City appropriates robot labor and habitat rather than simply inheriting an empty landscape. This record uses an explicit purposive-collective person interpretation, not a claim that every individual ant has humanlike consciousness. The guarantee best guess allows a partial sustaining floor for the collective, qualified by resource competition and uncertain internal experience. Technological appropriation is the material connection; insect biology alone is not automation.\n\n Concentrated biological collective authority is compared with the non-AI elite reference point. Commanding robots does not automatically make the commander a machine intelligence. The central nonworking scenario is zero for the single active collective’s continuing expansion, coordination and production. A one-collective interpretation has binary alternatives, not one job per insect or fractions of time. Humans, Dogs and robot persons elsewhere in the fix-up have different access populations. This narrow zero variant preserves the technological collective while keeping its personhood an explicit editorial analogy rather than a hidden canonical census.",
+        "axis": {
+          "guarantees": 0.25,
+          "control": 0.05,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.85,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Robot appropriation allows a collective floor with internal experience uncertain.",
+            "source_ids": [
+              "src-city-original-text",
+              "src-city-edition-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.6,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "A biological collective controls machinery by analogy, not automatically AI sovereignty.",
+            "source_ids": [
+              "src-city-original-text",
+              "src-city-edition-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              1
+            ],
+            "confidence": "low",
+            "basis": "One purposive collective does ongoing work centrally; alternatives are binary.",
+            "source_ids": [
+              "src-city-original-text",
+              "src-city-edition-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-city-original-text",
+          "src-city-edition-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "The Ant City appropriates robots and habitat in The Simple Way.",
+            "source_ids": [
+              "src-city-original-text",
+              "src-city-edition-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "A single purposive biological collective is the explicit person interpretation.",
+          "Individual ants and other species are not silently counted as leisure citizens."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the technologically active collective through a bounded person analogy.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The Ant City appropriates robots and habitat in The Simple Way."
+        ],
+        "editorial_assumptions": [
+          "A single purposive biological collective is the explicit person interpretation.",
+          "Individual ants and other species are not silently counted as leisure citizens."
+        ],
+        "axis_interpretation": {
+          "nonworking": "One active purposive biological-collective person interpretation, not a literal human employment rate.",
+          "control": "Biological collective authority is compared with concentrated organic ownership; its use of robots does not make it an external AI.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "traps-earth-robot-outpost-zero",
+        "candidate_id": "c0106",
+        "name": "All the Traps of Earth (the robot industrial outpost)",
+        "work": "All the Traps of Earth",
+        "society": "All the Traps of Earth (the robot industrial outpost)",
+        "media": [
+          "short_story"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named literary work and stated period only",
+          "period": "The functioning robot-only industrial outpost encountered by Richard Daniel",
+          "population": "Active conscious synthetic-person outpost workers",
+          "human_population_proxy": true,
+          "exclusions": "Human frontier settlers and ordinary industrial equipment are separate; robot-only operation does not prove there are no remote owners.",
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_synthetic_persons"
+        },
+        "description": "Richard Daniel encounters a robot-only industrial outpost distinct from the human frontier he later chooses to help. Its active artificial workers need energy, components and maintenance, so the material comparison does not require inventing resident biological humans. The guarantee best guess is weak because working infrastructure and possible remote ownership do not establish secure equal support. This is a zero variant with real continuing synthetic labor.\n\n Machine operational power receives negative control weight, with organic ownership still possible inside the interval. No human being on site is not proof that the robots own every factory. The low nonworking scenario counts production, repair, coordination, service and useful care among active identities. Empty chassis and automated tools are not additional persons. The outpost’s institutions are not averaged with the very different human settlement on Arcadia. Broad bounds preserve uncertain internal rights while retaining a concrete industrial machine community rather than rejecting it for lacking a literal human labor census.",
+        "axis": {
+          "guarantees": 0.7,
+          "control": -0.4,
+          "nonworking": 0.15
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.65,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Industrial operation does not itself secure equal energy/component access.",
+            "source_ids": [
+              "src-traps-earth-primary"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.35
+            ],
+            "confidence": "low",
+            "basis": "Machine operations dominate locally, with remote organic ownership unresolved.",
+            "source_ids": [
+              "src-traps-earth-primary"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Active robot workers retain production and care; empty hardware is excluded.",
+            "source_ids": [
+              "src-traps-earth-primary"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-traps-earth-primary"
+        ],
+        "evidence": [
+          {
+            "claim": "Richard Daniel encounters a robot-only industrial outpost distinct from the human frontier.",
+            "source_ids": [
+              "src-traps-earth-primary"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Active conscious robot workers are the scoped proxy.",
+          "Remote ownership and ordinary material rights remain uncertain."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the actual active industrial robot unit with ownership uncertainty explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Richard Daniel encounters a robot-only industrial outpost distinct from the human frontier."
+        ],
+        "editorial_assumptions": [
+          "Active conscious robot workers are the scoped proxy.",
+          "Remote ownership and ordinary material rights remain uncertain."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Active synthetic-person participation, not a literal human rate.",
+          "control": "Estimated independence from organic owners; remote ownership and internal machine hierarchy remain separate uncertainties.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "traps-earth-sleepyhollow-zero",
+        "candidate_id": "c0106",
+        "name": "All the Traps of Earth (Sleepy Hollow with Richard Daniel)",
+        "work": "All the Traps of Earth",
+        "society": "All the Traps of Earth (Sleepy Hollow with Richard Daniel)",
+        "media": [
+          "short_story"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named literary work and stated period only",
+          "period": "Richard Daniel’s choice to join and help the frontier community, with immediate continuation projected",
+          "population": "Living human Sleepy Hollow settlers on Arcadia",
+          "human_population_proxy": false,
+          "exclusions": "The robot outpost has different institutions; Richard Daniel’s labor is separately disclosed and an unshown universal future is excluded.",
+          "branch": null,
+          "player_configurable": false,
+          "projection_status": "Immediate frontier-support continuation from Richard Daniel’s choice, not a depicted universal later society"
+        },
+        "description": "Richard Daniel chooses to help working settlers at Sleepy Hollow on Arcadia. The point is the narrow frontier support arrangement implied by that choice, not the industrial robot outpost or an already established universal robot welfare state. The guarantee best guess allows a partial technical-assistance floor while keeping resource pressure and continuing human work visible. Its immediate continuation is explicitly projected where the story stops.\n\n Human settler agency receives positive control weight alongside an independent robot contributor. Assistance does not automatically make Richard Daniel either property of every settler or sole sovereign provider. The low human nonworking scenario counts farming, construction, services, maintenance, care and useful creation. Richard Daniel’s real labor is disclosed rather than erased or converted into a robot-to-human employment ratio. The broad intervals preserve uncertain scale and rights. This zero variant keeps the distinct frontier population and its useful roles separate from the outpost’s active synthetic workforce.",
+        "axis": {
+          "guarantees": 0.35,
+          "control": 0.45,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.7,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Technical assistance permits a partial frontier floor with resource limits.",
+            "source_ids": [
+              "src-traps-earth-primary"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Human settlers retain agency alongside an independent robot contributor.",
+            "source_ids": [
+              "src-traps-earth-primary"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Human productive and caring roles remain; the helper’s labor is separately disclosed.",
+            "source_ids": [
+              "src-traps-earth-primary"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-traps-earth-primary"
+        ],
+        "evidence": [
+          {
+            "claim": "Richard Daniel chooses to help working settlers at Sleepy Hollow on Arcadia.",
+            "source_ids": [
+              "src-traps-earth-primary"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The immediate sustaining continuation is an explicit projection.",
+          "Robot assistance does not erase continuing frontier work or establish universal rights."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distinct human frontier support model with the story-ending projection explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Richard Daniel chooses to help working settlers at Sleepy Hollow on Arcadia."
+        ],
+        "editorial_assumptions": [
+          "The immediate sustaining continuation is an explicit projection.",
+          "Robot assistance does not erase continuing frontier work or establish universal rights."
+        ]
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "waystation-supplied-keeper-zero",
+        "candidate_id": "c0108",
+        "name": "Way Station (the supplied keeper’s workplace)",
+        "work": "Way Station",
+        "society": "Way Station (the supplied keeper’s workplace)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named literary work and stated period only",
+          "period": "The continuing supplied station before the closure dispute is resolved",
+          "population": "The single active human keeper Enoch Wallace",
+          "human_population_proxy": false,
+          "exclusions": "The whole Galactic federation is not one household economy; visiting aliens and potential future keepers are not this human denominator.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Wallace receives supplied rations while maintaining a galactic way station, with food duplication also discussed. The retained unit is that continuing workplace rather than an invented universal federation economy. The guarantee best guess allows a substantial personal support floor, qualified by institutional dependence and the threat of station closure. It does not present possible food duplication as proof that every world has free necessities.\n\n Galactic Central’s concentrated institutional authority receives control near the non-AI elite reference point by analogy; the reference does not establish that every decision-maker is a machine. Wallace has local operating agency without owning the whole network. The central nonworking scenario is zero for the one keeper because maintenance, hosting and useful care are ongoing work. Alternatives are binary, not fractions of his long life. The broad interval preserves possible changes in role. The point keeps a concrete supplied institution distinct from competing regional plans and heterogeneous societies beyond it.",
+        "axis": {
+          "guarantees": -0.35,
+          "control": 0.1,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.9,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Supplied rations create a personal floor limited by institutional closure power.",
+            "source_ids": [
+              "src-way-station-primary"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.85,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "Concentrated Galactic Central authority is an analogy, not assumed AI rule.",
+            "source_ids": [
+              "src-way-station-primary"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              1
+            ],
+            "confidence": "low",
+            "basis": "One keeper performs useful duties centrally; singleton alternatives are binary.",
+            "source_ids": [
+              "src-way-station-primary"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-way-station-primary"
+        ],
+        "evidence": [
+          {
+            "claim": "Wallace receives rations; food duplication is discussed and Galactic Central considers station closure amid competing factions.",
+            "source_ids": [
+              "src-way-station-primary"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Only the continuing keeper support unit is scored.",
+          "Galactic Central’s species/ontology and universal household rules are not invented."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          1
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the actual supplied workplace without generalizing it to the whole federation.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Wallace receives rations; food duplication is discussed and Galactic Central considers station closure amid competing factions."
+        ],
+        "editorial_assumptions": [
+          "Only the continuing keeper support unit is scored.",
+          "Galactic Central’s species/ontology and universal household rules are not invented."
+        ]
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "callbackheaven-firstlife-zero",
+        "candidate_id": "c0109",
+        "name": "Why Call Them Back from Heaven? (the first-life savings economy)",
+        "work": "Why Call Them Back from Heaven?",
+        "society": "Why Call Them Back from Heaven? (the first-life savings economy)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named literary work and stated period only",
+          "period": "The functioning first-life economy under Forever Center influence",
+          "population": "Living first-life human residents",
+          "human_population_proxy": false,
+          "exclusions": "Promised restored lives are not an implemented post-work population; frozen dead people and financial holdings are not nonworkers.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Forever Center combines investment and industrial control while people work and save during their first lives for a promised continuation. Technical preservation and corporate productive power therefore coexist with present economic dependence. The guarantee best guess is weak across living residents, rather than inferred from promises about a later life. This zero variant keeps the actually functioning first-life economy separate from an unshown restored society.\n\n Concentrated human financial and industrial authority receives control near the elite reference point. A computer jury does not automatically govern all material production. The modest nonworking scenario counts industry, administration, services, technical maintenance, care and useful creation. Saving, frozen bodies and the scale of invested wealth are not population participation statistics. People moving to industrial cities for work still contribute, even if their consumption is deferred. Broad bounds preserve automation depth and household uncertainty without treating the technology of preservation alone as universal abundance or counting the dead as leisure citizens.",
+        "axis": {
+          "guarantees": 0.8,
+          "control": 0.03,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.5,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "First-life work and saving expose weak present secure access.",
+            "source_ids": [
+              "src-callback-heaven-primary"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.65,
+              0.45
+            ],
+            "confidence": "low",
+            "basis": "Human financial/industrial concentration is central despite computer procedures.",
+            "source_ids": [
+              "src-callback-heaven-primary"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Living industry, service and care remain; frozen bodies and savings are not participation.",
+            "source_ids": [
+              "src-callback-heaven-primary"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-callback-heaven-primary"
+        ],
+        "evidence": [
+          {
+            "claim": "First-life employment and saving coexist with Forever Center investment and industrial control; workers move to industrial cities.",
+            "source_ids": [
+              "src-callback-heaven-primary"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary automation depth and household coverage remain estimates.",
+          "Promised restored lives are not counted as an implemented future."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the actual technical-financial dependency order with its first-life population explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "First-life employment and saving coexist with Forever Center investment and industrial control; workers move to industrial cities."
+        ],
+        "editorial_assumptions": [
+          "Ordinary automation depth and household coverage remain estimates.",
+          "Promised restored lives are not counted as an implemented future."
+        ]
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "projectpope-vatican17-zero",
+        "candidate_id": "c0110",
+        "name": "Project Pope (Vatican-17’s human support economy)",
+        "work": "Project Pope",
+        "society": "Project Pope (Vatican-17’s human support economy)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named literary work and stated period only",
+          "period": "The functioning robot monastery and its resident human roles",
+          "population": "Living human Vatican-17 residents and recruited human specialists",
+          "human_population_proxy": false,
+          "exclusions": "Robot farmers’ real contribution is disclosed; temporary hospitality is not universal permanent residency.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Vatican-17 recruits human Listeners, a doctor and a writer while robots farm, supply power and offer hospitality or paid work. Manual communal harvest and limited imports remain part of the material order. The guarantee best guess allows a partial institutional floor, qualified by membership and access controlled by the monastery. Robot-backed provision is real, but it does not establish unconditional support for every human visitor or resident.\n\n Machine institutional authority receives strongly negative control weight, with internal divisions and human specialist agency left inside the interval. Withholding knowledge matters separately from supplying food. The low human nonworking scenario counts listening, care, writing useful to the community, maintenance and harvest work. Voluntary or spiritual roles are still work when they serve others. Robot labor is not the inverse of human participation. The point concerns the functioning local institution rather than every cosmic claim or a universal final revelation, preserving real provision and real duties together.",
+        "axis": {
+          "guarantees": 0.05,
+          "control": -0.85,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.85,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Robot food/power supports a partial institutional floor with membership limits.",
+            "source_ids": [
+              "src-project-pope-primary"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.1
+            ],
+            "confidence": "low",
+            "basis": "Machine monastery authority coexists with human specialists and internal division.",
+            "source_ids": [
+              "src-project-pope-primary"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Listening, care, writing and harvest are useful work; robot staffing is not a human census.",
+            "source_ids": [
+              "src-project-pope-primary"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-project-pope-primary"
+        ],
+        "evidence": [
+          {
+            "claim": "Robot farms and power coexist with recruited human specialists, communal harvest, limited imports, hospitality and paid work.",
+            "source_ids": [
+              "src-project-pope-primary"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary institutional coverage and human participation are estimates.",
+          "Useful voluntary/spiritual activity remains work."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the concrete robot-supported human institution with actual duties visible.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Robot farms and power coexist with recruited human specialists, communal harvest, limited imports, hospitality and paid work."
+        ],
+        "editorial_assumptions": [
+          "Ordinary institutional coverage and human participation are estimates.",
+          "Useful voluntary/spiritual activity remains work."
+        ]
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "visitors-sectoral-gift-transition",
+        "candidate_id": "c0111",
+        "name": "The Visitors (Earth’s alien-gift transition)",
+        "work": "The Visitors",
+        "society": "The Visitors (Earth’s alien-gift transition)",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Named literary work and stated period only",
+          "period": "The implemented early vehicle and housing gifts before a settled general outcome",
+          "population": "Living human Earth residents affected by the gifts",
+          "human_population_proxy": false,
+          "exclusions": "Forecast food abundance is not an implemented universal floor; visitors’ ontology and final policy remain uncertain.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Visitors bud fuel-free vehicles and supply new houses, producing real demonstrations, eager recipients and economic panic. Material displacement has therefore begun in particular sectors rather than only being promised. The guarantee best guess is mixed and conditional: gifts do not yet establish dependable equal food, housing and care for everyone. The record keeps conditional forecasts about food distinct from actually available vehicles and houses.\n\n Human institutions and concentrated external providers receive control near the non-AI elite reference point by analogy, with autonomous-machine interpretations left inside the interval. Being an alien supplier does not automatically settle machine origin or ownership of every human activity. The moderate nonworking scenario counts production, transport services, administration, maintenance, care and useful creation. Factory panic and a fuel-free car are not labor statistics. The selected early transition remains separate from the unresolved final policy discussion. This preserves the real sectoral change without inventing a completed universal post-work constitution.",
+        "axis": {
+          "guarantees": 0.35,
+          "control": 0.1,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.8,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Actual sectoral gifts weaken dependence but do not establish universal secure coverage.",
+            "source_ids": [
+              "src-visitors-primary"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Concentrated external provision and human agency coexist with provider ontology uncertain.",
+            "source_ids": [
+              "src-visitors-primary"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.03,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Human useful roles remain; sectoral disruption is not a population census.",
+            "source_ids": [
+              "src-visitors-primary"
+            ]
+          }
+        },
+        "regime_primary": 3,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-visitors-primary"
+        ],
+        "evidence": [
+          {
+            "claim": "Visitors bud fuel-free vehicles; people seek actual gifts, houses appear and economic panic follows.",
+            "source_ids": [
+              "src-visitors-primary"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Food forecasts and final policy remain conditional or unresolved.",
+            "source_ids": [
+              "src-visitors-primary"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The early implemented sectoral transition is selected.",
+          "Provider ontology and household guarantees are broad estimates."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the actual material-gift transition without promoting forecasts into completed welfare.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Visitors bud fuel-free vehicles; people seek actual gifts, houses appear and economic panic follows.",
+          "Food forecasts and final policy remain conditional or unresolved."
+        ],
+        "editorial_assumptions": [
+          "The early implemented sectoral transition is selected.",
+          "Provider ontology and household guarantees are broad estimates."
+        ]
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "cosmicengineers-active-robots-zero",
+        "candidate_id": "c0112",
+        "name": "Cosmic Engineers (the active robot civilization)",
+        "work": "Cosmic Engineers",
+        "society": "Cosmic Engineers (the active robot civilization)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named literary work and stated period only",
+          "period": "The functioning Engineers during their cosmological mission",
+          "population": "Active synthetic-person Cosmic Engineers",
+          "human_population_proxy": true,
+          "exclusions": "Human visitors and the separate biological collective are different populations; reproduced hardware is not automatically a distinct active person.",
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_synthetic_persons"
+        },
+        "description": "The Engineers explicitly have robotic origins and reproduce their kind while undertaking a cosmological mission requiring human imaginative contribution. Their material needs concern energy, components and embodied continuity rather than a literal human leisure society. The guarantee best guess allows a functioning technical floor, qualified by mission demands and uncertain internal coverage. Vast capability is not automatically dependable equal support.\n\n Synthetic independence from organic owners gives negative control weight, while internal leadership and dependence on outside imagination remain separate. The low nonworking scenario counts engineering, construction, research, coordination, repair and useful care among active persons. Cosmic scale and reproduction are not labor percentages. Human visitors’ contribution is disclosed without converting it into the Engineers’ employment rate. The separate biological collective in the novel is not silently assigned the same institutions. This zero variant retains a real working artificial civilization with its person scope explicit rather than calling all robots automatically idle.",
+        "axis": {
+          "guarantees": 0.15,
+          "control": -0.95,
+          "nonworking": 0.1
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.85,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "A technical floor is plausible but mission and internal rights limit certainty.",
+            "source_ids": [
+              "src-cosmic-engineers-primary"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              -0.5
+            ],
+            "confidence": "low",
+            "basis": "Robotic independence coexists with internal command and external imaginative needs.",
+            "source_ids": [
+              "src-cosmic-engineers-primary"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Active Engineers perform real useful mission work; visitors and hardware are separate.",
+            "source_ids": [
+              "src-cosmic-engineers-primary"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-cosmic-engineers-primary"
+        ],
+        "evidence": [
+          {
+            "claim": "The Engineers are robots, reproduce and need human imaginative work; a separate biological collective also appears.",
+            "source_ids": [
+              "src-cosmic-engineers-primary"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Only active Engineer identities define the synthetic denominator.",
+          "Internal support and participation are editorial estimates."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the famous active robot civilization with real work and separate populations visible.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The Engineers are robots, reproduce and need human imaginative work; a separate biological collective also appears."
+        ],
+        "editorial_assumptions": [
+          "Only active Engineer identities define the synthetic denominator.",
+          "Internal support and participation are editorial estimates."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Active synthetic-person participation, not a literal human rate.",
+          "control": "Estimated independence from organic owners; remote ownership and internal machine hierarchy remain separate uncertainties.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "sirens-tralfamadorian-machines-zero",
+        "candidate_id": "c0113",
+        "name": "The Sirens of Titan (Tralfamadorian machines)",
+        "work": "The Sirens of Titan",
+        "society": "The Sirens of Titan (Tralfamadorian machines)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named literary work and stated period only",
+          "period": "The active machine civilization described through Salo",
+          "population": "Active synthetic-person Tralfamadorians",
+          "human_population_proxy": true,
+          "exclusions": "The organic-creator origin story is an internal legend; dead creators, dormant machinery and manipulated humans are not leisure citizens.",
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_synthetic_persons"
+        },
+        "description": "Salo belongs to a machine civilization whose members manufacture one another. That provides a direct embodied technological material order, while the account of organic creators delegating purposes and being destroyed is explicitly a legend within the story. The guarantee best guess is mixed and conditional because continuation and mission support do not prove universal secure energy or repair access. The legend is not promoted into a confirmed census of extinct biological people.\n\n Synthetic independence receives strongly negative control weight, with internal authority and inherited purposes still uncertain. The low nonworking scenario counts manufacture, navigation, maintenance, message duties, care and useful creation. Assigned missions count even when their purpose seems trivial or absurd. The number of bodies produced and the timescale of a journey are not employment statistics. Only active machine person identities enter the proxy population. This zero variant preserves continuing purposeful activity rather than using the fate of possible creators as proof that all humanity is free from labor.",
+        "axis": {
+          "guarantees": 0.1,
+          "control": -0.95,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.85,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Machine continuation permits support, but equal repair/resource access is uncertain.",
+            "source_ids": [
+              "src-sirens-titan-primary"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              -0.5
+            ],
+            "confidence": "low",
+            "basis": "Active machines are independent in the selected account; origin legend remains distinct.",
+            "source_ids": [
+              "src-sirens-titan-primary"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Manufacture and assigned mission duties count; elapsed time and bodies are not participation.",
+            "source_ids": [
+              "src-sirens-titan-primary"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-sirens-titan-primary"
+        ],
+        "evidence": [
+          {
+            "claim": "Salo is a machine among machine Tralfamadorians who manufacture one another.",
+            "source_ids": [
+              "src-sirens-titan-primary"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "The creator-delegation/destruction account is labeled a legend.",
+            "source_ids": [
+              "src-sirens-titan-primary"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Active identity rather than reproduced body count defines participation.",
+          "Internal guarantees and work participation are broad interpretations."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the famous machine civilization without turning its internal legend into a factual human-leisure story.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Salo is a machine among machine Tralfamadorians who manufacture one another.",
+          "The creator-delegation/destruction account is labeled a legend."
+        ],
+        "editorial_assumptions": [
+          "Active identity rather than reproduced body count defines participation.",
+          "Internal guarantees and work participation are broad interpretations."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Active synthetic-person participation, not a literal human rate.",
+          "control": "Estimated independence from organic owners; remote ownership and internal machine hierarchy remain separate uncertainties.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "silvereggheads-wordmill-workers-zero",
+        "candidate_id": "c0114",
+        "name": "The Silver Eggheads (the wordmill publishing economy)",
+        "work": "The Silver Eggheads",
+        "society": "The Silver Eggheads (the wordmill publishing economy)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Expanded novel’s wordmill sector; earlier shorter-work details not silently merged",
+          "period": "The functioning commercial wordmill sector in the expanded novel",
+          "population": "Active human wordmill tenders and assigned publishing-persona workers",
+          "human_population_proxy": false,
+          "exclusions": "Robot authors write for robots separately; the narrow employed cohort is not a national household population.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Wordmills generate commercial human fiction while Gaspard tends a machine and performs a publisher-assigned public persona. Automation therefore does not remove the human role; it changes the work supporting the business. The guarantee best guess is weak because commercial payment and machine output are not unconditional necessities. The selected material unit is the continuing publishing-sector cohort rather than an unverified whole-country post-work order.\n\n Human publishers and owners receive concentrated control weight. A wordmill is not automatically a sovereign intelligence, and robot-authored fiction for robot readers belongs to a different active community. The central nonworking scenario is zero for the scoped employed tenders and persona workers because assigned roles count even when technologically replaceable. The wider industry may contain nonworkers, reflected in the broad interval rather than invented as a census. Automatic fiction output and author publicity are not percentages of an entire population’s labor. The expanded novel is kept distinct from unverified details of the earlier shorter version.",
+        "axis": {
+          "guarantees": 0.65,
+          "control": 0.03,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.6,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Commercial output/payment gives no assumed unconditional necessities floor.",
+            "source_ids": [
+              "src-silver-eggheads-sfe",
+              "src-silver-eggheads-opening-index"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.45
+            ],
+            "confidence": "low",
+            "basis": "Human publishers and owners concentrate productive authority.",
+            "source_ids": [
+              "src-silver-eggheads-sfe",
+              "src-silver-eggheads-opening-index"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Scoped employed tending/persona duties count, including replaceable assigned work.",
+            "source_ids": [
+              "src-silver-eggheads-sfe",
+              "src-silver-eggheads-opening-index"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-silver-eggheads-sfe",
+          "src-silver-eggheads-opening-index"
+        ],
+        "evidence": [
+          {
+            "claim": "Wordmills produce commercial fiction; Gaspard tends a machine and performs a publisher-assigned persona.",
+            "source_ids": [
+              "src-silver-eggheads-sfe",
+              "src-silver-eggheads-opening-index"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Zane Gort is a self-employed robot writer for robots.",
+            "source_ids": [
+              "src-silver-eggheads-sfe",
+              "src-silver-eggheads-opening-index"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Only the continuing human employed sector is scored centrally.",
+          "Robot readers/authors and wider society have different access questions."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the direct automation/retained-role publishing institution with its narrow population explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Wordmills produce commercial fiction; Gaspard tends a machine and performs a publisher-assigned persona.",
+          "Zane Gort is a self-employed robot writer for robots."
+        ],
+        "editorial_assumptions": [
+          "Only the continuing human employed sector is scored centrally.",
+          "Robot readers/authors and wider society have different access questions."
+        ]
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "wanderer-artificialplanet-community",
+        "candidate_id": "c0115",
+        "name": "The Wanderer (the artificial-planet community)",
+        "work": "The Wanderer",
+        "society": "The Wanderer (the artificial-planet community)",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Named literary work and stated period only",
+          "period": "The functioning inhabited dissident artificial world",
+          "population": "Active biological humanlike alien residents of the Wanderer",
+          "human_population_proxy": true,
+          "exclusions": "Comfortable human guests are not a resident rights census; the wider civilization’s elders and local dissidents have different authority.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Wanderer is an inhabited artificial world with comfortable guest accommodation and immense material capability. Tigerishka describes a wider civilization with democratic but restrictive elders, while the world’s dissident aims distinguish its local population. The guarantee best guess allows a substantial internal floor, qualified by uncertain resident coverage. A guest’s comfort is not proof that every ordinary person has equal unconditional necessities.\n\n Resident and institutional agency receives positive control weight, with elder restrictions and possible machine dependence inside a broad interval. An artificial planet does not automatically have an AI sovereign. The moderate nonworking scenario permits extensive routine substitution while counting engineering, administration, care, services and useful creation. Planetary scale and extraordinary mobility are not labor statistics. Active biological residents form the alien-person proxy; temporary human guests and absent wider populations are not added. This partial-transition interpretation preserves the actual technological habitat without importing a uniform galactic constitution from a short account.",
+        "axis": {
+          "guarantees": -0.3,
+          "control": 0.55,
+          "nonworking": 0.5
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.95,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Artificial habitat capacity allows a strong floor, with resident rights uncertain.",
+            "source_ids": [
+              "src-wanderer-primary"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.8,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Resident/institutional agency is central with elder and machine qualifications.",
+            "source_ids": [
+              "src-wanderer-primary"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Useful local roles remain; guests and planetary scale are not participation.",
+            "source_ids": [
+              "src-wanderer-primary"
+            ]
+          }
+        },
+        "regime_primary": 2,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-wanderer-primary"
+        ],
+        "evidence": [
+          {
+            "claim": "An artificial inhabited world offers comfortable guest accommodation; Tigerishka describes restrictive democratic elders and dissident aims.",
+            "source_ids": [
+              "src-wanderer-primary"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Resident material coverage and participation are estimates.",
+          "Guest comfort and wider civilization rules are not automatically local rights."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the famous artificial-world community with local and wider institutions distinguished.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "An artificial inhabited world offers comfortable guest accommodation; Tigerishka describes restrictive democratic elders and dissident aims."
+        ],
+        "editorial_assumptions": [
+          "Resident material coverage and participation are estimates.",
+          "Guest comfort and wider civilization rules are not automatically local rights."
+        ]
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "greenmillennium-robot-displacement-zero",
+        "candidate_id": "c0116",
+        "name": "The Green Millennium (the robot-displaced consumer economy)",
+        "work": "The Green Millennium",
+        "society": "The Green Millennium (the robot-displaced consumer economy)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named literary work and stated period only",
+          "period": "The functioning consumer economy before the green-cat resolution",
+          "population": "Living human residents in the depicted future America",
+          "human_population_proxy": false,
+          "exclusions": "Repeated job loss is not a population unemployment statistic; the final biological/social resolution is not a completed welfare constitution.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Phil repeatedly loses jobs to robots while living in rented space amid commercial robot sales and cash collection. Technical substitution has therefore not become dependable human material security. The guarantee best guess is weak because access remains commercially mediated. This zero variant preserves real displacement and retained useful work without assuming that a machine replacing one job means the person performs no contribution afterward.\n\n Human commercial ownership receives concentrated control weight, qualified by some wider resident agency. Robots taking tasks are not automatically autonomous political rulers. The moderate nonworking scenario counts services, administration, maintenance, production, care and useful informal creation. Phil’s history is not an all-age employment census, and inability to sell labor does not erase care or community activity. The green-cat resolution is kept separate from an invented universal distribution policy. Broad intervals preserve household variation while retaining the clear familiar automation-versus-income comparison.",
+        "axis": {
+          "guarantees": 0.85,
+          "control": 0.15,
+          "nonworking": 0.4
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.2,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Robot displacement with rent and cash dependence suggests weak secure access.",
+            "source_ids": [
+              "src-green-millennium-primary"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "Human commercial ownership remains central despite task automation.",
+            "source_ids": [
+              "src-green-millennium-primary"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Useful formal and informal roles count; one protagonist is not a census.",
+            "source_ids": [
+              "src-green-millennium-primary"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-green-millennium-primary"
+        ],
+        "evidence": [
+          {
+            "claim": "Phil repeatedly loses jobs to robots, rents a small space and encounters commercial robot sales and cash collection.",
+            "source_ids": [
+              "src-green-millennium-primary"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The ordinary material floor and participation are broad estimates.",
+          "The green-cat resolution is not treated as a fully specified welfare settlement."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the direct robot-displacement economy with useful informal activity included.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Phil repeatedly loses jobs to robots, rents a small space and encounters commercial robot sales and cash collection."
+        ],
+        "editorial_assumptions": [
+          "The ordinary material floor and participation are broad estimates.",
+          "The green-cat resolution is not treated as a fully specified welfare settlement."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0105",
+        "status": "boundary_case",
+        "reason": "The Ant City appropriates robot labor and habitat, but is not a demonstrated provisioning system for a resident human or justified humanlike population.",
+        "source_ids": [
+          "src-city-original-text",
+          "src-city-edition-reference"
+        ],
+        "analysis": "Ant industry and the robotic Building are genuinely autonomous from the other residents, but the original tale presents inscrutable purposes and displacement rather than human entitlements. A place without human residents cannot supply 100% leisure. Nor is biological ant coordination automatically AI sovereignty. The later Epilog's reported outcome was not used as primary evidence from this eight-tale file.",
+        "follow_up": "Preserve as a machine-assisted nonhuman expansion comparison. Reopen only after a meaningful population proxy, access rules and internal labor relationship are established; do not derive coordinates from absence or extinction."
+      },
+      "after": {
+        "candidate_id": "c0105",
+        "status": "zero_variant",
+        "reason": "Retain the technologically active collective through a bounded person analogy.",
+        "source_ids": [
+          "src-city-original-text",
+          "src-city-edition-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "city-antcity-collective-zero"
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0106",
+        "status": "boundary_case",
+        "reason": "The robot industrial outpost and the working human frontier are different settings, neither a verified post-work settlement.",
+        "source_ids": [
+          "src-traps-earth-primary"
+        ],
+        "analysis": "Richard Daniel visits a robot-only extraction world, then chooses Sleepy Hollow, whose settlers farm, ship materials and need repairs and care. His new abilities are real, but his final hope to teach them to humanity is a promise, not an accomplished general production system. His autonomy as one escaped robot does not establish robot government over the whole human economy.",
+        "follow_up": "Keep the robot outpost and frontier aid as comparisons. Reopen if an actually implemented post-work population can be identified; distinguish future capacities from existing household provision."
+      },
+      "after": {
+        "candidate_id": "c0106",
+        "status": "zero_variant",
+        "reason": "Two distinct access units are retained: the robot industrial outpost and Richard Daniel’s human frontier support arrangement. Their scopes and uncertainty are not averaged.",
+        "source_ids": [
+          "src-traps-earth-primary"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "traps-earth-robot-outpost-zero",
+        "society_ids": [
+          "traps-earth-robot-outpost-zero",
+          "traps-earth-sleepyhollow-zero"
+        ],
+        "split_rationale": "The active synthetic industrial outpost and the living human Arcadian frontier have different populations, practical controllers and material-support arrangements; the frontier continuation is explicitly projected."
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0108",
+        "status": "needs_evidence",
+        "reason": "The broad Galactic federation lead lacks a bounded resident economy; the keeper's supplied workplace cannot establish universal provision.",
+        "source_ids": [
+          "src-way-station-primary"
+        ],
+        "analysis": "Wallace can receive regular rations and might order duplicated Earth foods (ordinary-fetch text lines 1368-1383 and 1885-1898). That is direct provisioning evidence for an employed intermediary. Ulysses also describes competing races, special-interest factions and resource choices over network expansion (3393-3444). Neither one keeper nor the network's communications capability establishes one homogeneous post-work federation, shared control or an all-resident nonworking fraction.",
+        "follow_up": "Identify a particular member world's or wider population's production and access rules. Keep the keeper's employment separate from general resident rights; preserve the novel's political diversity rather than treating Galactic Central as a universal welfare AI."
+      },
+      "after": {
+        "candidate_id": "c0108",
+        "status": "zero_variant",
+        "reason": "Retain the actual supplied workplace without generalizing it to the whole federation.",
+        "source_ids": [
+          "src-way-station-primary"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "waystation-supplied-keeper-zero"
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0109",
+        "status": "needs_evidence",
+        "reason": "Industrial and financial concentration is explicit, but actual replacement of human production by automation remains unverified.",
+        "source_ids": [
+          "src-callback-heaven-primary"
+        ],
+        "analysis": "The Forever Center commands entrusted savings and major industries without ordinary investor accountability (ordinary-fetch lines 538-545). Frost works and economizes to fund a hoped-for second life (173-202); people have moved to industrial centers for jobs (1612-1618). The opening jury is computerized, but this judicial application does not establish automatic factories or an available general replacement of labor. Thus the financial dystopia is not yet a demonstrated post-work or zero-variant society. Preserved bodies are not counted as nonworking living citizens.",
+        "follow_up": "Locate primary material-production or deliberate employment-preservation evidence before retaining a zero variant. Distinguish living first-life workers, stored dead and any actually realized future resurrection period."
+      },
+      "after": {
+        "candidate_id": "c0109",
+        "status": "zero_variant",
+        "reason": "Retain the actual technical-financial dependency order with its first-life population explicit.",
+        "source_ids": [
+          "src-callback-heaven-primary"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "callbackheaven-firstlife-zero"
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0110",
+        "status": "needs_evidence",
+        "reason": "Vatican-17 has robot-backed human provision, but work-independent access for its human population is not yet established.",
+        "source_ids": [
+          "src-project-pope-primary"
+        ],
+        "analysis": "Decker's tour explicitly shows robot farmers supplying human food, local power and wood, reserves of grain and very limited imports (ordinary-fetch lines 3157-3226). The harvest still mobilizes the religious community with hand tools and modest machinery. Human Listeners do research the robots cannot perform, the clinic lacks specialists, and Jill receives separate offers of guest support and paid historical work (1641-1661, 1690-1709, 2100-2148). The computer Pope is an institutional religious authority; its existence alone does not prove that it autonomously allocates everyone's necessities. A mixed working community may still contain a qualifying supported human group, but the specific entitlement remains a gap.",
+        "follow_up": "Check ordinary human households, dependents, refusal of service and residence rules. Narrow any future record to a verified population. Do not label all robot monks idle, infer 100% human nonwork, or call the community a zero variant merely because useful work remains."
+      },
+      "after": {
+        "candidate_id": "c0110",
+        "status": "zero_variant",
+        "reason": "Retain the concrete robot-supported human institution with actual duties visible.",
+        "source_ids": [
+          "src-project-pope-primary"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "projectpope-vatican17-zero"
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0111",
+        "status": "boundary_case",
+        "reason": "Actual alien gifts begin sectoral displacement, while a generalized post-work settlement remains prospective.",
+        "source_ids": [
+          "src-visitors-primary"
+        ],
+        "analysis": "Fuel-free cars are really budded and tested (ordinary-fetch lines 7050-7057), and houses appear later. Yet much of the distribution account is explicitly conditional: enough cars for every American, later appliances, and food only if a future shortage develops (7073-7107, 7304-7310). Ordinary workers still have mortgage obligations and operating assembly lines; some residents cannot reach the gift stock behind a cordon (7806-7820, 8160-8176). The final international-policy discussion calls for a new economic structure rather than depicting its completed institutions (8474-8504). The possible figures inside a new house are a witness's uncertain inference, not verified manufactured humans.",
+        "follow_up": "Preserve as a transition and technological-displacement comparison. Reopen for a specifically supported population or implemented major provision system; do not turn conditional food aid into an existing guarantee, biological visitors into sovereign AI, or a rumored gift ban into an enacted zero variant."
+      },
+      "after": {
+        "candidate_id": "c0111",
+        "status": "included",
+        "reason": "Retain the actual material-gift transition without promoting forecasts into completed welfare.",
+        "source_ids": [
+          "src-visitors-primary"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "visitors-sectoral-gift-transition"
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0112",
+        "status": "boundary_case",
+        "reason": "The Engineers are an active robot civilization on a cosmological mission, not a demonstrated post-work economy for its human visitors.",
+        "source_ids": [
+          "src-cosmic-engineers-primary"
+        ],
+        "analysis": "Their explicit late account identifies them as robots made by an extinct people and subsequently reproducing and improving themselves (ordinary-fetch lines 4600-4646). Their maintenance and long lives do not make them inactive, and the plot requires human imaginative work the Engineers lack (2446-2508). No resident human population with ordinary allocation rules was established. The separate collective mind which rejected machine civilization is another society, not evidence about the Engineers (3952-3996); biological collective consciousness is not automatically AI sovereignty.",
+        "follow_up": "Keep as a working machine-civilization comparison. Reopen only with a defensible resident-person proxy and internal material/labor evidence. Do not derive 100% leisure from absent humans or transfer the collective mind's capabilities to the Engineers."
+      },
+      "after": {
+        "candidate_id": "c0112",
+        "status": "zero_variant",
+        "reason": "Retain the famous active robot civilization with real work and separate populations visible.",
+        "source_ids": [
+          "src-cosmic-engineers-primary"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "cosmicengineers-active-robots-zero"
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0113",
+        "status": "boundary_case",
+        "reason": "The current Tralfamadorian population consists of machines; its creators' fate is an internal origin legend.",
+        "source_ids": [
+          "src-sirens-titan-primary"
+        ],
+        "analysis": "The late Titan chapter explicitly identifies Salo and his fellows as machines which manufacture each other (web lines 1501-1510). The organic population's delegation of ever-higher purposes ends in extermination in the legend. The machine civilization has no established resident human denominator, and the legend supplies no dependable access or control constitution for a living biological society. Salo also undertakes an assigned mission and makes art; machine identity is not automatic idleness.",
+        "follow_up": "Preserve as an autonomous-machine and purpose comparison. Reopen the pre-extinction legendary period only as a separately labeled proxy if its production/access structure can be substantiated; never score extermination as human leisure or import Slaughterhouse-Five's aliens."
+      },
+      "after": {
+        "candidate_id": "c0113",
+        "status": "zero_variant",
+        "reason": "Retain the famous machine civilization without turning its internal legend into a factual human-leisure story.",
+        "source_ids": [
+          "src-sirens-titan-primary"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "sirens-tralfamadorian-machines-zero"
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0114",
+        "status": "needs_evidence",
+        "reason": "Automatic commercial fiction is verified; society-wide material provision or a deliberate zero-variant employment order is not.",
+        "source_ids": [
+          "src-silver-eggheads-sfe",
+          "src-silver-eggheads-opening-index"
+        ],
+        "analysis": "The reference and indexed primary opening establish wordmills, human tending/persona roles and robot authors working for robot readers. That is a real literary-automation lead, but maintaining equipment is still useful work and a marketing role alone does not establish an economy-wide work-preservation policy. Broad secondary claims that robots do everything need primary confirmation of ordinary access to goods, ownership and household livelihood. Preserved living brains would also require their own active-person scope rather than automatic nonworker status.",
+        "follow_up": "Read primary material on non-literary production, household income and the writers' union before deciding post-work versus zero variant. The consulted text mirror's 403 was respected; indexed fragments are not a completed novel read."
+      },
+      "after": {
+        "candidate_id": "c0114",
+        "status": "zero_variant",
+        "reason": "Retain the direct automation/retained-role publishing institution with its narrow population explicit.",
+        "source_ids": [
+          "src-silver-eggheads-sfe",
+          "src-silver-eggheads-opening-index"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "silvereggheads-wordmill-workers-zero"
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0115",
+        "status": "needs_evidence",
+        "reason": "The artificial world has immense productive capacity, but durable ordinary provisioning rights remain unverified.",
+        "source_ids": [
+          "src-wanderer-primary"
+        ],
+        "analysis": "Don's comfortable accommodation is guest or captive treatment, not an entitlement census. Chapter 36 distinguishes the wider civilization's democratic, security-focused elders from the Wanderer's dissidents and ambitions (ordinary-fetch lines 9550-9688). Constructed planets, immortality and malleable bodies are not proof of work-independent necessities or AI government. Tigerishka even presents thought-realizing devices as a problem still to solve. Human visitors are not silently substituted for all alien residents.",
+        "follow_up": "Locate actual production and household-allocation passages for the Wanderer's population. If a point is retained, name an alien-person proxy and keep it distinct from the parent civilization; useful exploration, engineering and art still count as work."
+      },
+      "after": {
+        "candidate_id": "c0115",
+        "status": "included",
+        "reason": "Retain the famous artificial-world community with local and wider institutions distinguished.",
+        "source_ids": [
+          "src-wanderer-primary"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "wanderer-artificialplanet-community"
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0116",
+        "status": "needs_evidence",
+        "reason": "Repeated robot displacement is direct, but the current evidence does not establish a qualifying general distribution system.",
+        "source_ids": [
+          "src-green-millennium-primary"
+        ],
+        "analysis": "The opening shows Phil losing successive jobs to faster robots and living in subdivided housing; the Fun Incorporated scene shows robots selling commodities for money. Neither one displaced man nor automated retail establishes how most residents obtain necessities. No primary rule deliberately preserving replaceable employment was established either. The ending introduces mood-mediating alien symbionts and political acceptance, rather than a completed new material constitution; emotional peace is not automatic production.",
+        "follow_up": "Check broader production ownership, unemployment support and access conditions before choosing a post-work or zero-variant classification. Keep the before-contact economy separate from the still-unfolding green-cat settlement."
+      },
+      "after": {
+        "candidate_id": "c0116",
+        "status": "zero_variant",
+        "reason": "Retain the direct robot-displacement economy with useful informal activity included.",
+        "source_ids": [
+          "src-green-millennium-primary"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "greenmillennium-robot-displacement-zero"
+      }
+    }
+  ]
+}

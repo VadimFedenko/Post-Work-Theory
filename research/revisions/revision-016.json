@@ -1,0 +1,37 @@
+{
+  "revision_id": "revision-016",
+  "revised_on": "2026-10-17",
+  "reason": "Attach the schema-level duplicate_of pointer to the resolved Futurama family/vocation overlap; no additional society or score change.",
+  "changes": [
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0479",
+        "status": "duplicate",
+        "reason": "Same recurring Earth robot/human labor order as c0477; parenthood and vocational identity do not establish a material access or control change.",
+        "source_ids": [
+          "src-b65-bots-bees"
+        ],
+        "analysis": "Bender and Ben perform meaningful vocational activity. That detail strengthens the retained work interpretation but does not create another society.",
+        "follow_up": "Resolved model overlap; retain as related evidence without increasing the target count.",
+        "society_id": "futurama-earth-robot-work-zero",
+        "reassessed_on": "2026-10-17",
+        "current_policy_review": true
+      },
+      "after": {
+        "candidate_id": "c0479",
+        "status": "duplicate",
+        "reason": "Same recurring Earth robot/human labor order as c0477; parenthood and vocational identity do not establish a material access or control change.",
+        "source_ids": [
+          "src-b65-bots-bees"
+        ],
+        "analysis": "Bender and Ben perform meaningful vocational activity. That detail strengthens the retained work interpretation but does not create another society.",
+        "follow_up": "Resolved model overlap; retain as related evidence without increasing the target count.",
+        "society_id": "futurama-earth-robot-work-zero",
+        "reassessed_on": "2026-10-17",
+        "current_policy_review": true,
+        "duplicate_of": "futurama-earth-robot-work-zero"
+      }
+    }
+  ]
+}

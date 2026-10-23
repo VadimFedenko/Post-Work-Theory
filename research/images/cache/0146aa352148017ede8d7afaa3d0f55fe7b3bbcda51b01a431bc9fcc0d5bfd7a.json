@@ -1,0 +1,200 @@
+{
+  "data": [
+    {
+      "id": "7341",
+      "type": "anime",
+      "links": {
+        "self": "https://kitsu.io/api/edge/anime/7341"
+      },
+      "attributes": {
+        "createdAt": "2013-02-20T17:54:16.031Z",
+        "updatedAt": "2026-10-17T12:00:32.879Z",
+        "slug": "doraemon-nobita-no-himitsu-dougu-museum",
+        "synopsis": "On a normal afternoon, Doraemon's bell was stolen by Kaito Deluxe, a thief from the 22nd Century. Determined to get it back, Nobita and co. decides to pursue him and take back the bell that is hidden inside the 22nd Century's Secret Gadget Museum.\n\n(Source: Anime News Network)",
+        "description": "On a normal afternoon, Doraemon's bell was stolen by Kaito Deluxe, a thief from the 22nd Century. Determined to get it back, Nobita and co. decides to pursue him and take back the bell that is hidden inside the 22nd Century's Secret Gadget Museum.\n\n(Source: Anime News Network)",
+        "coverImageTopOffset": 0,
+        "titles": {
+          "en_jp": "Doraemon Movie 33: Nobita no Himitsu Dougu Museum",
+          "ja_jp": "映画 ドラえもん のび太のひみつ道具博物館[ミュージアム]"
+        },
+        "canonicalTitle": "Doraemon Movie 33: Nobita no Himitsu Dougu Museum",
+        "abbreviatedTitles": [
+          "Doraemon: Nobita no Himitsu Dougu Hakubutsukan"
+        ],
+        "averageRating": "74.88",
+        "ratingFrequencies": {
+          "2": "1",
+          "3": "0",
+          "4": "3",
+          "5": "0",
+          "6": "3",
+          "7": "1",
+          "8": "8",
+          "9": "0",
+          "10": "21",
+          "11": "0",
+          "12": "48",
+          "13": "5",
+          "14": "123",
+          "15": "3",
+          "16": "77",
+          "17": "2",
+          "18": "17",
+          "19": "4",
+          "20": "64"
+        },
+        "userCount": 646,
+        "favoritesCount": 1,
+        "startDate": "2013-03-09",
+        "endDate": "2013-03-09",
+        "nextRelease": null,
+        "popularityRank": 8009,
+        "ratingRank": 2559,
+        "ageRating": "PG",
+        "ageRatingGuide": "",
+        "subtype": "movie",
+        "status": "finished",
+        "tba": "",
+        "posterImage": {
+          "tiny": "https://media.kitsu.app/anime/poster_images/7341/tiny.jpg",
+          "large": "https://media.kitsu.app/anime/poster_images/7341/large.jpg",
+          "small": "https://media.kitsu.app/anime/poster_images/7341/small.jpg",
+          "medium": "https://media.kitsu.app/anime/poster_images/7341/medium.jpg",
+          "original": "https://media.kitsu.app/anime/poster_images/7341/original.jpg",
+          "meta": {
+            "dimensions": {
+              "tiny": {
+                "width": null,
+                "height": null
+              },
+              "large": {
+                "width": null,
+                "height": null
+              },
+              "small": {
+                "width": null,
+                "height": null
+              },
+              "medium": {
+                "width": null,
+                "height": null
+              }
+            }
+          }
+        },
+        "coverImage": null,
+        "episodeCount": 1,
+        "episodeLength": 104,
+        "totalLength": 104,
+        "youtubeVideoId": "",
+        "showType": "movie",
+        "nsfw": false
+      },
+      "relationships": {
+        "genres": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/7341/relationships/genres",
+            "related": "https://kitsu.io/api/edge/anime/7341/genres"
+          }
+        },
+        "categories": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/7341/relationships/categories",
+            "related": "https://kitsu.io/api/edge/anime/7341/categories"
+          }
+        },
+        "castings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/7341/relationships/castings",
+            "related": "https://kitsu.io/api/edge/anime/7341/castings"
+          }
+        },
+        "installments": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/7341/relationships/installments",
+            "related": "https://kitsu.io/api/edge/anime/7341/installments"
+          }
+        },
+        "mappings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/7341/relationships/mappings",
+            "related": "https://kitsu.io/api/edge/anime/7341/mappings"
+          }
+        },
+        "reviews": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/7341/relationships/reviews",
+            "related": "https://kitsu.io/api/edge/anime/7341/reviews"
+          }
+        },
+        "mediaRelationships": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/7341/relationships/media-relationships",
+            "related": "https://kitsu.io/api/edge/anime/7341/media-relationships"
+          }
+        },
+        "characters": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/7341/relationships/characters",
+            "related": "https://kitsu.io/api/edge/anime/7341/characters"
+          }
+        },
+        "staff": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/7341/relationships/staff",
+            "related": "https://kitsu.io/api/edge/anime/7341/staff"
+          }
+        },
+        "productions": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/7341/relationships/productions",
+            "related": "https://kitsu.io/api/edge/anime/7341/productions"
+          }
+        },
+        "quotes": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/7341/relationships/quotes",
+            "related": "https://kitsu.io/api/edge/anime/7341/quotes"
+          }
+        },
+        "episodes": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/7341/relationships/episodes",
+            "related": "https://kitsu.io/api/edge/anime/7341/episodes"
+          }
+        },
+        "streamingLinks": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/7341/relationships/streaming-links",
+            "related": "https://kitsu.io/api/edge/anime/7341/streaming-links"
+          }
+        },
+        "animeProductions": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/7341/relationships/anime-productions",
+            "related": "https://kitsu.io/api/edge/anime/7341/anime-productions"
+          }
+        },
+        "animeCharacters": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/7341/relationships/anime-characters",
+            "related": "https://kitsu.io/api/edge/anime/7341/anime-characters"
+          }
+        },
+        "animeStaff": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/7341/relationships/anime-staff",
+            "related": "https://kitsu.io/api/edge/anime/7341/anime-staff"
+          }
+        }
+      }
+    }
+  ],
+  "meta": {
+    "count": 1
+  },
+  "links": {
+    "first": "https://kitsu.io/api/edge/anime?filter%5Btext%5D=Doraemon%3A+Nobita%27s+Secret+Gadget+Museum&page%5Blimit%5D=8&page%5Boffset%5D=0",
+    "last": "https://kitsu.io/api/edge/anime?filter%5Btext%5D=Doraemon%3A+Nobita%27s+Secret+Gadget+Museum&page%5Blimit%5D=8&page%5Boffset%5D=0"
+  }
+}

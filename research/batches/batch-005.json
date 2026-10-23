@@ -1,0 +1,780 @@
+{
+  "batch_id": "batch-005",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0033",
+    "c0034",
+    "c0035",
+    "c0036",
+    "c0037",
+    "c0038",
+    "c0039",
+    "c0040",
+    "c0041"
+  ],
+  "sources": [
+    {
+      "id": "src-caves-preview",
+      "title": "The Caves of Steel: opening five-chapter preview",
+      "author": "Isaac Asimov; preview hosted by Issac Asimov blog",
+      "url": "https://issacasimov.wordpress.com/robots/the-caves-of-steel/",
+      "kind": "primary_fiction_unofficial_mirror",
+      "accessed_on": "2026-10-16",
+      "access_method": "Preview opened; targeted passages read",
+      "read_scope": "Chapters 1-3: Barrett's replacement, City-assigned robot clerks, declassification, barracks and Baley's childhood.",
+      "limitations": "Partial preview, not a complete novel reread. The official PRH excerpt returned only a navigation line on opening and was not substituted for the readable text."
+    },
+    {
+      "id": "src-naked-preview",
+      "title": "The Naked Sun: opening preview",
+      "author": "Isaac Asimov; preview hosted by Issac Asimov blog",
+      "url": "https://issacasimov.wordpress.com/robots/the-naked-sun/",
+      "kind": "primary_fiction_unofficial_mirror",
+      "accessed_on": "2026-10-16",
+      "access_method": "Preview opened; population, estates and provision passages read",
+      "read_scope": "Daneel's briefing on robot production and exports; working robots; privately supervised estates and wives sharing estates.",
+      "limitations": "Not the entire novel. The robot-to-human ratio is a machinery ratio, not the human employment rate."
+    },
+    {
+      "id": "src-naked-publisher",
+      "title": "The Naked Sun: Spectra publisher description",
+      "author": "Penguin Random House / Spectra, distributed through Google Play Books",
+      "url": "https://play.google.com/store/books/details?id=7pdVUgBL6Z4C",
+      "kind": "official_publisher_synopsis",
+      "accessed_on": "2026-10-16",
+      "access_method": "Publisher-supplied store description read",
+      "read_scope": "Solarians' isolated lives and robot servants attending to their needs.",
+      "limitations": "Promotional description, not a description of every legal entitlement or human profession. Prices and current store metadata are irrelevant to this research."
+    },
+    {
+      "id": "src-naked-reference",
+      "title": "The Naked Sun",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/The_Naked_Sun",
+      "kind": "secondary_plot_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Page opened; plot and setting checked against primary preview",
+      "read_scope": "Human security and scientific roles; adaptation identities.",
+      "limitations": "The opened page said twenty thousand robots per human, while the indexed version said ten thousand. Primary arithmetic establishes 200 million / 20,000 = 10,000. Its claim that all work is robotic is too absolute given human professions. No TV tag is assigned without reviewing an adaptation."
+    },
+    {
+      "id": "src-dawn-primary",
+      "title": "The Robots of Dawn: primary-text mirror",
+      "author": "Isaac Asimov",
+      "url": "https://www.zanotowane.pl/1169/1289/",
+      "kind": "primary_fiction_unofficial_mirror",
+      "accessed_on": "2026-10-16",
+      "access_method": "Text opened; several targeted passages read",
+      "read_scope": "Mirror pages 79-80 on robot distribution and public support; designers' discussion; pages 291-292 on the Legislature; pages 301-306 on Giskard's covert intervention.",
+      "limitations": "OCR/conversion errors occur. Mirror page labels are not verified print-edition locators. Formal human office and Giskard's influence must both inform effective control."
+    },
+    {
+      "id": "src-robots-empire-solaria",
+      "title": "Robots and Empire: Part II, Solaria",
+      "author": "Asimov Wiki contributors",
+      "url": "https://asimov.fandom.com/wiki/Robots_and_Empire",
+      "kind": "secondary_fan_plot_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Substantial indexed Part II account read",
+      "read_scope": "Apparently abandoned estates and Landaree's restricted recognition of humans.",
+      "limitations": "A visitor's conclusion that the planet is abandoned does not establish extinction. Later evidence changes that reading. The current record is consequently scoped to the later novel, with an explicit correction to the discovery lead."
+    },
+    {
+      "id": "src-foundation-earth-primary",
+      "title": "Foundation and Earth: Solaria and the Moon",
+      "author": "Isaac Asimov",
+      "url": "https://www.ebookscape.com/science-fiction/foundation-complete-series/foundation-and-earth-by-isaac-asimov/",
+      "kind": "primary_fiction_unofficial_mirror",
+      "accessed_on": "2026-10-16",
+      "access_method": "Text opened; targeted scenes read",
+      "read_scope": "Sections 47-48: Bander's estate and effortless energy transduction; later Solarian robot's statement about Fallom; final Daneel conversation about the limits of intervention and Gaia.",
+      "limitations": "Not a complete reread. Daneel's long historical influence does not prove that all galactic production or allocation is one machine-run economic system."
+    },
+    {
+      "id": "src-foundation-earth-reference",
+      "title": "Foundation and Earth",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Foundation_and_Earth",
+      "kind": "secondary_plot_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Indexed Solaria account read",
+      "read_scope": "Surviving underground Solarians, altered reproduction and Fallom's danger under population replacement rules.",
+      "limitations": "The primary conversation was consulted for the actual child-excess rule rather than accepting a generic claim that every resident is secure."
+    },
+    {
+      "id": "src-foundation-edge-primary",
+      "title": "Foundation's Edge: Gaia conversations",
+      "author": "Isaac Asimov",
+      "url": "https://www.ebookscape.com/science-fiction/foundation-complete-series/foundations-edge-by-isaac-asimov/",
+      "kind": "primary_fiction_unofficial_mirror",
+      "accessed_on": "2026-10-16",
+      "access_method": "Text opened; Gaia chapters and robot-history discussion sampled",
+      "read_scope": "Bliss's reports and work, Dom's professional and artistic activities, collective decisions and the legendary account of robotic withdrawal.",
+      "limitations": "Dom explicitly presents portions of the history as a fable; it cannot be imported as a literal chronology. A group mind is not itself evidence for automated subsistence."
+    },
+    {
+      "id": "src-last-question-primary",
+      "title": "The Last Question: full story transcription",
+      "author": "Isaac Asimov; interactive transcription by Woongq",
+      "url": "https://woongq.github.io/thelastquestion/",
+      "kind": "primary_fiction_unofficial_mirror",
+      "accessed_on": "2026-10-16",
+      "access_method": "Story opened; all six sections inspected with emphasis on sections 4-6",
+      "read_scope": "Suspended bodies, self-built AC successors, replacement habitat, automatic bodily care, human star-building and final fusion.",
+      "limitations": "An unpaginated transcription, with decorative headings supplied by the site. No employment census exists in the story; late bodily rest does not rule out productive mental activity."
+    },
+    {
+      "id": "src-last-question-cmu",
+      "title": "The Last Question: university-hosted transcription",
+      "author": "Isaac Asimov; hosted on a Carnegie Mellon personal page",
+      "url": "https://users.ece.cmu.edu/~gamvrosi/thelastq.html",
+      "kind": "primary_fiction_unofficial_mirror",
+      "accessed_on": "2026-10-16",
+      "access_method": "Page opened and beginning compared",
+      "read_scope": "The 2061 opening contains active human attendants, distinguishing it from the later snapshot.",
+      "limitations": "University hosting does not imply an authorized critical edition or independent scholarly verification. This is a corroborating transcription, not another society."
+    },
+    {
+      "id": "src-bicentennial-primary",
+      "title": "The Bicentennial Man: story transcription",
+      "author": "Isaac Asimov; Lecturia",
+      "url": "https://lecturia.org/en/short-stories/isaac-asimov-the-bicentennial-man/24778/",
+      "kind": "primary_fiction_unofficial_mirror",
+      "accessed_on": "2026-10-16",
+      "access_method": "Story opened; selected early, financial and robotics passages read",
+      "read_scope": "Sections 1-7: specialized robotic labor, initially restricted household robot ownership, Andrew's earnings and the freedom hearing.",
+      "limitations": "The story spans two centuries. A wealthy household's automation and one robot's status do not establish universal wage independence."
+    },
+    {
+      "id": "src-bicentennial-production",
+      "title": "Bicentennial Man: production notes",
+      "author": "Film production material reproduced by Robin Williams Fansite",
+      "url": "https://www.robin-williams.net/pn/bicentennial.php",
+      "kind": "production_notes_unofficial_reproduction",
+      "accessed_on": "2026-10-16",
+      "access_method": "Page opened; story and adaptation-credit passages read",
+      "read_scope": "Household tasks, NorthAm Robotics and the film's bases in the short story and The Positronic Man.",
+      "limitations": "A fan-hosted reproduction, not the studio's current archive. It supports adaptation differences, not a full-film assessment of the economy."
+    },
+    {
+      "id": "src-robot-visions-primary",
+      "title": "Robot Visions: title story in collection transcription",
+      "author": "Isaac Asimov",
+      "url": "https://zanotowane.pl/1086/4426/",
+      "kind": "primary_fiction_unofficial_mirror",
+      "accessed_on": "2026-10-16",
+      "access_method": "Title story read from temporal experiment through narrator's conclusion",
+      "read_scope": "Archie's report about 2230, demographic loss, absence of infants and the narrator's proposed humaniform-robot explanation.",
+      "limitations": "The robot-successor diagnosis is the narrator's inference, not an omnisciently confirmed census. Unrelated stories later in the collection are not evidence about this future."
+    }
+  ],
+  "societies": [
+    {
+      "id": "caves-of-steel-earth-cities",
+      "candidate_id": "c0033",
+      "name": "The Caves of Steel (Earth's Cities)",
+      "work": "The Caves of Steel",
+      "society": "Earth's City economy, illustrated by New York",
+      "media": [
+        "book"
+      ],
+      "record_type": "zero_variant",
+      "scope": {
+        "continuity": "Original Robot novels",
+        "period": "Baley's first investigation, while robots are entering City employment",
+        "population": "Human City residents, including dependents and declassified families",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Spacer estates",
+          "The later Settler expansion",
+          "A claim that robots have already displaced every worker"
+        ],
+        "branch": null,
+        "player_configurable": false,
+        "labor_phase": "Employment-dependent transition"
+      },
+      "description": "Earth's Cities retain an economy in which a person's job and classification strongly affect the family's living conditions. Robot replacement can push people into a harsh minimum of communal accommodation and food. That minimum is real support, so the guarantee score is near the middle rather than the complete-absence end. It is also far from secure access to the standard of life people worked to achieve.\n\nRobots are assigned through human institutions; this is concentrated administration rather than independent machine sovereignty. The zero-variant label captures the persistence of employment as a route to goods while capable automation spreads. It does not mean that every resident works or that technology is completely banned. The nonworking share stays open: named workers and frightened families establish the conflict clearly, but do not supply the age structure or participation pattern needed for an honest population estimate.",
+      "axis": {
+        "guarantees": -0.1,
+        "control": 0.1,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.4,
+            0.4
+          ],
+          "confidence": "medium",
+          "basis": "Basic provision survives declassification, but status loss sharply reduces its quality.",
+          "source_ids": [
+            "src-caves-preview"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.4
+          ],
+          "confidence": "medium",
+          "basis": "City allocation and human policy determine deployment.",
+          "source_ids": [
+            "src-caves-preview"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "No population-wide participation evidence in the reviewed preview.",
+          "source_ids": [
+            "src-caves-preview"
+          ]
+        }
+      },
+      "regime_primary": 0,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-caves-preview"
+      ],
+      "evidence": [
+        {
+          "claim": "Job replacement coexists with declassification and a basic communal minimum.",
+          "source_ids": [
+            "src-caves-preview"
+          ],
+          "locator": "Chapters 1 and 3",
+          "kind": "depicted_or_author_stated"
+        }
+      ],
+      "uncertainties": [
+        "Confirm City coverage beyond the New York example.",
+        "The zero label describes an employment-dependent transition, not a universal technological prohibition."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      },
+      "regime_analogy": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "solaria-naked-sun",
+      "candidate_id": "c0034",
+      "name": "The Naked Sun (Solaria during Baley's visit)",
+      "work": "The Naked Sun",
+      "society": "Solaria before its withdrawal",
+      "media": [
+        "book"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Original Robot novels",
+        "period": "The murder investigation in The Naked Sun",
+        "population": "Resident Solarian humans, including spouses and children",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Robots as members of the human denominator",
+          "Later underground Solarians",
+          "Other Spacer worlds"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Solaria's robot economy supports a tiny human population on large estates. Necessities arrive through the automated household and productive system rather than requiring each person to earn a wage. This supports a strong provision score for resident humans. It is a bounded privilege: it says nothing about an outsider's right to settle there, and human comfort is built on the servants' subordinate status.\n\nOwnership and orders are spread among estates, placing control toward the human-distributed side. That does not establish equal authority within families or a democratic workplace for robots. The nonworking coordinate remains unresolved because humans still supervise estates and fill scientific and security roles. A large number of robots per person cannot reveal how many people do useful work. The later Solarian society receives a separate record because its rules for personal independence and children's security change materially.",
+      "axis": {
+        "guarantees": -0.8,
+        "control": 0.7,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.95,
+            -0.5
+          ],
+          "confidence": "medium",
+          "basis": "Ordinary resident needs are robot-served; universal legal rights are less explicit.",
+          "source_ids": [
+            "src-naked-publisher",
+            "src-naked-preview"
+          ]
+        },
+        "control": {
+          "interval": [
+            0.35,
+            0.9
+          ],
+          "confidence": "medium",
+          "basis": "Multiple supervised estates, with spouses sharing rather than every individual owning separately.",
+          "source_ids": [
+            "src-naked-preview"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Human professions and oversight prevent equating machine output with universal inactivity.",
+          "source_ids": [
+            "src-naked-preview",
+            "src-naked-reference"
+          ]
+        }
+      },
+      "regime_primary": 2,
+      "regime_alternatives": [
+        1
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-naked-preview",
+        "src-naked-publisher",
+        "src-naked-reference"
+      ],
+      "evidence": [
+        {
+          "claim": "The productive system supports estate life, while human professions persist.",
+          "source_ids": [
+            "src-naked-preview",
+            "src-naked-publisher",
+            "src-naked-reference"
+          ],
+          "locator": "Daneel's arrival briefing; publisher synopsis; plot roles",
+          "kind": "depicted_or_author_stated"
+        }
+      ],
+      "uncertainties": [
+        "Primary preview contradicts an erroneous ratio in the opened secondary page.",
+        "The fraction of useful voluntary or status-related human work remains unquantified.",
+        "Book continuity only; the television adaptation has not been assessed."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "solaria-foundation-earth",
+      "candidate_id": "c0035",
+      "name": "Foundation and Earth (Solaria after withdrawal)",
+      "work": "Foundation and Earth",
+      "society": "Underground Solaria",
+      "media": [
+        "book"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Original Robot/Foundation prose continuity",
+        "period": "The visitors' encounter with Bander and Fallom, long after the apparent abandonment",
+        "population": "Resident human-descended Solarians, including children denied full ruler status",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Visitors as members of the resident denominator",
+          "The earlier Naked Sun order",
+          "A supposedly human-free robot planet"
+        ],
+        "branch": null,
+        "player_configurable": false,
+        "scope_correction": "The discovery lead named Robots and Empire; the later novel establishes the surviving society directly."
+      },
+      "description": "The later Solarians have withdrawn into automated private domains. Their rulers control the local machines, including through an effortless biological energy capability. This is a separate human-descended order, not proof that robots inherited an empty planet. Control lies toward multiple independent owners, although calling it distributed should not obscure the absolute authority each owner exercises locally.\n\nComfort is also sharply conditional on recognition as a full member. Fallom's danger shows why adult abundance cannot justify a strong universal guarantee score: a child judged unnecessary can lose even the right to survive. The high nonworking point is an explicitly rough reading of a life organized around automatic service and personal sovereignty. It is below complete inactivity, and its wide interval allows for supervision or other purposeful activity. The point is neither a canonical census nor a claim that automatic bodily energy regulation is a paid job.",
+      "axis": {
+        "guarantees": 0.15,
+        "control": 0.8,
+        "nonworking": 0.95
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.5,
+            0.7
+          ],
+          "confidence": "low",
+          "basis": "Adult provision excludes a child whom the population rules can discard.",
+          "source_ids": [
+            "src-foundation-earth-reference",
+            "src-foundation-earth-primary"
+          ]
+        },
+        "control": {
+          "interval": [
+            0.5,
+            0.95
+          ],
+          "confidence": "medium",
+          "basis": "Independent local owners, with collective authority over admission to their ranks.",
+          "source_ids": [
+            "src-foundation-earth-primary"
+          ]
+        },
+        "nonworking": {
+          "interval": [
+            0.75,
+            1
+          ],
+          "confidence": "low",
+          "basis": "Coarse editorial estimate of near-total release from routine productive duty; oversight remains possible.",
+          "source_ids": [
+            "src-foundation-earth-primary",
+            "src-foundation-earth-reference"
+          ]
+        }
+      },
+      "regime_primary": 4,
+      "regime_alternatives": [
+        2
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-foundation-earth-primary",
+        "src-foundation-earth-reference",
+        "src-robots-empire-solaria"
+      ],
+      "evidence": [
+        {
+          "claim": "Adult sovereignty and the child-excess rule limit who actually enjoys automated security.",
+          "source_ids": [
+            "src-foundation-earth-primary",
+            "src-foundation-earth-reference"
+          ],
+          "locator": "Bander encounter; robot's statement concerning Fallom",
+          "kind": "depicted_or_author_stated"
+        }
+      ],
+      "uncertainties": [
+        "The original discovery title has been corrected explicitly, without adding a second count for an apparently deserted surface.",
+        "The labor estimate is weakly constrained by a short visit.",
+        "Rights of robots remain outside this human-focused denominator."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": true
+      }
+    },
+    {
+      "id": "aurora-robots-of-dawn",
+      "candidate_id": "c0036",
+      "name": "The Robots of Dawn (Aurora)",
+      "work": "The Robots of Dawn",
+      "society": "Aurora during Baley's investigation",
+      "media": [
+        "book"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Original Robot novels",
+        "period": "The established Auroran order during The Robots of Dawn",
+        "population": "Auroran human residents and dependents",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Every other Spacer world",
+          "A later abandoned Aurora",
+          "A claim that Giskard routinely operates every industry"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Aurora extends robot support beyond the households that can pay for it: someone unable to afford a domestic robot can receive one maintained at public expense. That concrete fallback, alongside extensive robot production, supports a strong material guarantee placement. It is a promise of access within Aurora, rather than evidence of open membership for everyone in the wider human population.\n\nControl is mixed. Personal robot access and a human Legislature provide a basis for distributed human influence, while powerful politicians shape policy and Giskard secretly manipulates crucial choices. The positive point is therefore cautious, with an interval extending toward machine influence. It does not turn a hidden intervention into proof of total AI government. Human science, design and politics remain productive activities; the reviewed scenes provide no defensible fraction of participants. The nonworking axis stays open even though much routine labor has plainly moved to robots.",
+      "axis": {
+        "guarantees": -0.75,
+        "control": 0.35,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.95,
+            -0.45
+          ],
+          "confidence": "medium",
+          "basis": "Publicly supported robot access supplies a concrete fallback.",
+          "source_ids": [
+            "src-dawn-primary"
+          ]
+        },
+        "control": {
+          "interval": [
+            -0.5,
+            0.75
+          ],
+          "confidence": "low",
+          "basis": "Broad household access coexists with elite politics and covert robotic intervention.",
+          "source_ids": [
+            "src-dawn-primary"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "The frequency of human professional activity is unknown.",
+          "source_ids": [
+            "src-dawn-primary"
+          ]
+        }
+      },
+      "regime_primary": 2,
+      "regime_alternatives": [
+        1,
+        5
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-dawn-primary"
+      ],
+      "evidence": [
+        {
+          "claim": "Public support and effective political influence must be assessed together.",
+          "source_ids": [
+            "src-dawn-primary"
+          ],
+          "locator": "Mirror pp. 79-80, 291-292 and 301-306",
+          "kind": "depicted_or_author_stated"
+        }
+      ],
+      "uncertainties": [
+        "This is an interpretation of mixed effective control, not a measured ownership share.",
+        "Edition verification and broader participation evidence remain follow-ups."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "last-question-late-humanity",
+      "candidate_id": "c0039",
+      "name": "The Last Question (Late humanity before final fusion with AC)",
+      "work": "The Last Question",
+      "society": "Late AC-supported humanity",
+      "media": [
+        "short_story"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Original standalone story; not assumed to share Foundation chronology",
+        "period": "The Universal/Cosmic AC periods, before the final loss of separate humanity into AC",
+        "population": "Immortal human bodies and their associated individual or joining minds",
+        "human_population_proxy": false,
+        "exclusions": [
+          "The working technicians of 2061",
+          "The final universe containing only AC",
+          "Counting automatons as human nonworkers"
+        ],
+        "branch": null,
+        "player_configurable": false,
+        "denominator_note": "The editorial participation estimate concerns the human population represented by the bodies, not the number of merged collective minds."
+      },
+      "description": "Late humanity no longer has to keep its bodies alive through ordinary employment. Automatic care and replacement habitats make survival widely available while human minds range freely. This places provision near the strong end for this period, despite the ultimate energy limit that drives the story. The point stops before humanity disappears into AC; an AI alone is not a population of retired humans.\n\nMachine infrastructure has developed beyond human construction and directs crucial resource management, so effective control sits near the autonomous-AI end. Humans can still ask questions and undertake projects. Star-building is useful work, and mental activity cannot all be treated as leisure merely because bodies rest. The high nonworking point is consequently a broad editorial estimate rather than a literal universal rate. The wide interval reflects uncertainty about purposeful mental production and the gradual joining of human minds.",
+      "axis": {
+        "guarantees": -0.95,
+        "control": -0.85,
+        "nonworking": 0.95
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -1,
+            -0.8
+          ],
+          "confidence": "medium",
+          "basis": "Bodily maintenance is generalized rather than earned through employment.",
+          "source_ids": [
+            "src-last-question-primary"
+          ]
+        },
+        "control": {
+          "interval": [
+            -1,
+            -0.6
+          ],
+          "confidence": "medium",
+          "basis": "AC reproduces itself and directs energy husbandry beyond ordinary human technical control.",
+          "source_ids": [
+            "src-last-question-primary"
+          ]
+        },
+        "nonworking": {
+          "interval": [
+            0.65,
+            1
+          ],
+          "confidence": "low",
+          "basis": "Narrative rest and automatic care suggest very low participation, while mental projects preclude certainty.",
+          "source_ids": [
+            "src-last-question-primary"
+          ]
+        }
+      },
+      "regime_primary": 5,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-last-question-primary",
+        "src-last-question-cmu"
+      ],
+      "evidence": [
+        {
+          "claim": "Late automated support differs from both the early technician economy and the AC-only ending.",
+          "source_ids": [
+            "src-last-question-primary",
+            "src-last-question-cmu"
+          ],
+          "locator": "Fourth to sixth episodes of the story",
+          "kind": "depicted_or_author_stated"
+        }
+      ],
+      "uncertainties": [
+        "There is no canonical employment percentage.",
+        "The body-based denominator is an explicit approximation as minds join.",
+        "The two late episodes share the support mechanism and are not counted as two societies."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": true
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0033",
+      "status": "zero_variant",
+      "reason": "Automation spreads while employment classification still governs living standards.",
+      "source_ids": [
+        "src-caves-preview"
+      ],
+      "society_id": "caves-of-steel-earth-cities"
+    },
+    {
+      "candidate_id": "c0034",
+      "status": "included",
+      "reason": "Direct preview and publisher evidence establish robot-supported estate provision.",
+      "source_ids": [
+        "src-naked-preview",
+        "src-naked-publisher",
+        "src-naked-reference"
+      ],
+      "society_id": "solaria-naked-sun"
+    },
+    {
+      "candidate_id": "c0035",
+      "status": "included",
+      "reason": "A later primary encounter establishes the surviving post-withdrawal order and changes the coverage of guarantees.",
+      "source_ids": [
+        "src-foundation-earth-primary",
+        "src-foundation-earth-reference",
+        "src-robots-empire-solaria"
+      ],
+      "scope_correction": {
+        "discovery_work": "Robots and Empire",
+        "researched_work": "Foundation and Earth",
+        "reason": "Apparent surface abandonment is not the actual late society; later direct evidence supplies the appropriate snapshot."
+      },
+      "society_id": "solaria-foundation-earth"
+    },
+    {
+      "candidate_id": "c0036",
+      "status": "included",
+      "reason": "Publicly backed robot access and extensive automated production establish a distinct material arrangement.",
+      "source_ids": [
+        "src-dawn-primary"
+      ],
+      "society_id": "aurora-robots-of-dawn"
+    },
+    {
+      "candidate_id": "c0037",
+      "status": "needs_evidence",
+      "reason": "Collective consciousness alone does not establish release from human productive duties.",
+      "source_ids": [
+        "src-foundation-edge-primary",
+        "src-foundation-earth-primary"
+      ],
+      "analysis": "Gaia's shared decisions and biological membership are established, but useful human activities persist. Its claim of a common organism must not be converted directly into AI control or a nonworking percentage.",
+      "follow_up": "Review actual production, allocation and duties on Gaia. Determine whether collective ecology functions as technological automation under the article's definition; do not use Dom's fable as a literal history."
+    },
+    {
+      "candidate_id": "c0038",
+      "status": "boundary_case",
+      "reason": "Daneel's influence is not one economically uniform galactic society.",
+      "source_ids": [
+        "src-foundation-earth-primary"
+      ],
+      "analysis": "The final conversation acknowledges limited success, not complete machine management of every world's material arrangements. A galaxy-wide welfare or labor score would collapse incompatible populations and periods.",
+      "follow_up": "Consider a narrower period or society only after establishing its productive and distribution system. Keep proposed Galaxia distinct from an already realized galactic order."
+    },
+    {
+      "candidate_id": "c0039",
+      "status": "included",
+      "reason": "The late pre-fusion population receives automatic support under self-developing AC infrastructure.",
+      "source_ids": [
+        "src-last-question-primary",
+        "src-last-question-cmu"
+      ],
+      "society_id": "last-question-late-humanity"
+    },
+    {
+      "candidate_id": "c0040",
+      "status": "needs_evidence",
+      "reason": "Household robot service and Andrew's recognition do not yet establish a society-wide distribution regime.",
+      "source_ids": [
+        "src-bicentennial-primary",
+        "src-bicentennial-production"
+      ],
+      "analysis": "The prose begins with restricted robot ownership, earnings and human professions; the film uses a different corporation and adapts more than the short story. Combining their two-century histories into one unqualified point would conceal both temporal and continuity differences.",
+      "follow_up": "Check later production and human access to necessities in the story and film separately. Decide whether a scoped zero variant or material transition is supported, and tag only the continuity actually reviewed."
+    },
+    {
+      "candidate_id": "c0041",
+      "status": "boundary_case",
+      "reason": "The future's apparently human population may instead be humaniform successors.",
+      "source_ids": [
+        "src-robot-visions-primary"
+      ],
+      "analysis": "Archie's prosperous report and the narrator's robot-successor inference are different evidentiary layers. The story does not warrant presenting human extinction as a 100% human nonworking rate, or presenting the conjecture as a confirmed census.",
+      "follow_up": "Retain as an explicitly ambiguous successor-society comparison. Reconsider only with a clearly justified population analogy and an adequate account of actual work and distribution."
+    }
+  ],
+  "review_notes": [
+    "Every queue entry c0033-c0041 receives a disposition. Five retained records are new, with no invented event split for the apparently deserted Solarian surface.",
+    "Second pass checked early versus late Solaria, human versus machine successors, mixed Giskard control and late AC support before fusion.",
+    "An erroneous secondary Solarian machinery ratio was rejected using primary arithmetic. Machinery ratios were never converted into employment percentages.",
+    "Nonworking points for late Solaria and late humanity are transparent low-confidence editorial estimates with broad intervals, not textual statistics.",
+    "The final quality pass still needs edition locators and unresolved axes. No independent reviewer or full reread is claimed; images remain deferred."
+  ]
+}

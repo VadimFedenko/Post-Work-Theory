@@ -1,0 +1,2111 @@
+{
+  "revision_id": "revision-030",
+  "revised_on": "2026-10-17",
+  "reason": "Thirteen further multimedia models retained, finishing the present multimedia follow-up tier. Lancer and Starsector institutions remain distinct; the Patent Office is a real AI-backed work unit, television Logan’s Run is human-ruled, Gary’s ship is corrected to Galaxy One and the Tao has real resident generations. Nova Praxis Purists link to existing material-access classes rather than adding a duplicate point.",
+  "changes": [
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-karrakin-official-socialdivision",
+        "title": "The Karrakin Trade Baronies",
+        "author": "Massif Press",
+        "url": "https://massif-press.itch.io/field-guide-the-karrakin-trade-baronies?click_to_load=true",
+        "kind": "publisher_description",
+        "accessed_on": "2026-10-17",
+        "access_method": "Official setting-description paragraphs read",
+        "read_scope": "Official description: major Union member with immense industry, strong social division, titled nobles resisting equality and industrial/political strain.",
+        "limitations": "A broad setting premise, not every resident being a serf or a uniform local necessities policy."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-starsector-church-industry",
+        "title": "Luddic Church: pastoral ideal and actual industry",
+        "author": "Starsector Wiki contributors",
+        "url": "https://starsector.fandom.com/wiki/Luddic_Church",
+        "kind": "secondary_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed faction ideal, industrial worlds and Path distinction read",
+        "read_scope": "Faction description and reference: pastoral ideal and distrust of technology coexist with agricultural, domestic-goods and polluted industrial worlds; the Church differs from the more extreme Path.",
+        "limitations": "Fan reference reproducing faction context, not proof of a universal total machine ban or one welfare law."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-starsector-tritach-technical",
+        "title": "Tri-Tachyon: corporate technology",
+        "author": "Starsector Wiki contributors",
+        "url": "https://starsector.wiki.gg/wiki/Tri-Tachyon",
+        "kind": "secondary_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed corporate specialization and industrial-colony overview read",
+        "read_scope": "Overview describes a megacorporation specializing in AI and high-power devices, with an industrial colony at Culann.",
+        "limitations": "Speculative AI-mastermind material is not used as established controller identity; no household census."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-suffadv-patent-primary",
+        "title": "Sufficiently Advanced: Patent Office and material replication",
+        "author": "Colin Fredericks",
+        "url": "https://d1vzi28wh99zvq.cloudfront.net/pdf_previews/51719-sample.pdf",
+        "kind": "primary_text",
+        "accessed_on": "2026-10-17",
+        "access_method": "Official sample’s Patent Office page read",
+        "read_scope": "Sample page 2: replicators and transmutation, intellectual-property economy, working inspectors and Transcendental AI employers behind the Patent Office.",
+        "limitations": "Bounded official sample, not all fourteen civilizations sharing one household constitution; agent support remains a narrow work-unit interpretation."
+      }
+    },
+    {
+      "collection": "societies",
+      "before": {
+        "record_type": "post_work",
+        "id": "nova-praxis-citizen-compiler-floor",
+        "candidate_id": "c0868",
+        "name": "Nova Praxis — Coalition citizens’ compiler floor",
+        "work": "Nova Praxis",
+        "society": "House-associated citizens with a default resource standard",
+        "media": [
+          "tabletop"
+        ],
+        "scope": {
+          "continuity": "Official setting, Savage Worlds overview corroborating the Fate-era publisher model",
+          "period": "Established post-Exodus Coalition",
+          "population": "Living humans and active human-derived citizen minds",
+          "human_population_proxy": true,
+          "exclusions": [
+            "Apostates without citizenship",
+            "Backups and inactive copies",
+            "Reputation extras as a condition for every basic necessity"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Coalition citizens receive a default material standard, with reputation governing resources beyond that baseline. Most own compilers and decompilers that fabricate goods and recycle their inputs. This is direct household-level productive access, not simply a post-scarcity slogan. Guarantees are strong within citizenship, though citizenship itself is a real boundary: Apostates do not share this floor. The overview’s general promotional promise is therefore narrowed to the population the rules actually identify.\n\nPersonal compilers and political input support partly distributed control, qualified by powerful Houses, surveillance and enforcement. Mimir’s historical inventions do not make Mimir the current ruler, and monitoring AI is not automatically sovereign. The modest nonworking best guess allows a default material floor while counting contribution projects, care, technical activity and administration. Reputation above that baseline is not a population work measure. The wide interval applies to active human-derived citizens rather than dormant minds or extra bodies. Apostates’ exclusion remains explicit: the strong citizen floor is not transferred to everyone outside membership merely because molecular goods can be cheap.",
+        "axis": {
+          "guarantees": -0.8,
+          "control": 0.6,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -1,
+              -0.4
+            ],
+            "confidence": "low",
+            "basis": "Official overview identifies a default resource standard and widespread personal compilers; citizenship exclusions are explicit and reputation governs extras.",
+            "source_ids": [
+              "src-b98-novapublisher",
+              "src-b98-novapreview"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Personal compiler ownership and political input distribute human authority, qualified by Houses, surveillance and government control; Mimir is shut down and Monitors report to government.",
+            "source_ids": [
+              "src-b98-novapublisher",
+              "src-b98-novapreview"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Active human-derived citizen scenario allows a default compiler-supported floor while counting contribution projects, care, technical activity and administration; reputation is not a work census.",
+            "source_ids": [
+              "src-b98-novapublisher",
+              "src-b98-novapreview"
+            ]
+          }
+        },
+        "regime_primary": 2,
+        "regime_alternatives": [
+          1
+        ],
+        "qualification": "included",
+        "source_ids": [
+          "src-b98-novapublisher",
+          "src-b98-novapreview"
+        ],
+        "evidence": [
+          {
+            "claim": "Official overview identifies a default resource standard and widespread personal compilers; citizenship exclusions are explicit and reputation governs extras.",
+            "source_ids": [
+              "src-b98-novapublisher",
+              "src-b98-novapreview"
+            ],
+            "locator": "Bounded named-society economic and story sections",
+            "kind": "labeled_reference_and_interpretation"
+          }
+        ],
+        "uncertainties": [
+          "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+          "Personal compiler ownership and political input distribute human authority, qualified by Houses, surveillance and government control; Mimir is shut down and Monitors report to government.",
+          "Contributions, care and technical work remain useful; active human-derived minds are a disclosed proxy and no all-person participation census is supplied.",
+          "New coordinate values are low-confidence editorial scenarios, not canonical statistics; original source limits remain.",
+          "Active human-derived citizen scenario allows a default compiler-supported floor while counting contribution projects, care, technical activity and administration; reputation is not a work census."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual completion against existing bounded evidence, with explicit active-person and useful-work scenarios; no independent reviewer or new full-work reading",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "best_guess_axes": [
+          "nonworking"
+        ],
+        "qualification_basis": "Earlier bounded evidence-based inclusion retained; individually supply the remaining coordinate scenarios under the current user policy.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Citizens receive a default material standard and commonly own compilers and decompilers.",
+          "Reputation affects additional resources while Houses and surveillance retain influence."
+        ],
+        "editorial_assumptions": [
+          "Active human-derived citizen scenario allows a default compiler-supported floor while counting contribution projects, care, technical activity and administration; reputation is not a work census."
+        ]
+      },
+      "after": {
+        "record_type": "post_work",
+        "id": "nova-praxis-citizen-compiler-floor",
+        "candidate_id": "c0868",
+        "name": "Nova Praxis — Coalition citizens’ compiler floor",
+        "work": "Nova Praxis",
+        "society": "House-associated citizens with a default resource standard",
+        "media": [
+          "tabletop"
+        ],
+        "scope": {
+          "continuity": "Official setting, Savage Worlds overview corroborating the Fate-era publisher model",
+          "period": "Established post-Exodus Coalition",
+          "population": "Living humans and active human-derived citizen minds",
+          "human_population_proxy": true,
+          "exclusions": [
+            "Apostates without citizenship",
+            "Backups and inactive copies",
+            "Reputation extras as a condition for every basic necessity"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Coalition citizens receive a default material standard, with reputation governing resources beyond that baseline. Most own compilers and decompilers that fabricate goods and recycle their inputs. This is direct household-level productive access, not simply a post-scarcity slogan. Guarantees are strong within citizenship, though citizenship itself is a real boundary: Apostates do not share this floor. The overview’s general promotional promise is therefore narrowed to the population the rules actually identify.\n\nPersonal compilers and political input support partly distributed control, qualified by powerful Houses, surveillance and enforcement. Mimir’s historical inventions do not make Mimir the current ruler, and monitoring AI is not automatically sovereign. The modest nonworking best guess allows a default material floor while counting contribution projects, care, technical activity and administration. Reputation above that baseline is not a population work measure. The wide interval applies to active human-derived citizens rather than dormant minds or extra bodies. Apostates’ exclusion remains explicit: the strong citizen floor is not transferred to everyone outside membership merely because molecular goods can be cheap.",
+        "axis": {
+          "guarantees": -0.8,
+          "control": 0.6,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -1,
+              -0.4
+            ],
+            "confidence": "low",
+            "basis": "Official overview identifies a default resource standard and widespread personal compilers; citizenship exclusions are explicit and reputation governs extras.",
+            "source_ids": [
+              "src-b98-novapublisher",
+              "src-b98-novapreview"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Personal compiler ownership and political input distribute human authority, qualified by Houses, surveillance and government control; Mimir is shut down and Monitors report to government.",
+            "source_ids": [
+              "src-b98-novapublisher",
+              "src-b98-novapreview"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Active human-derived citizen scenario allows a default compiler-supported floor while counting contribution projects, care, technical activity and administration; reputation is not a work census.",
+            "source_ids": [
+              "src-b98-novapublisher",
+              "src-b98-novapreview"
+            ]
+          }
+        },
+        "regime_primary": 2,
+        "regime_alternatives": [
+          1
+        ],
+        "qualification": "included",
+        "source_ids": [
+          "src-b98-novapublisher",
+          "src-b98-novapreview"
+        ],
+        "evidence": [
+          {
+            "claim": "Official overview identifies a default resource standard and widespread personal compilers; citizenship exclusions are explicit and reputation governs extras.",
+            "source_ids": [
+              "src-b98-novapublisher",
+              "src-b98-novapreview"
+            ],
+            "locator": "Bounded named-society economic and story sections",
+            "kind": "labeled_reference_and_interpretation"
+          }
+        ],
+        "uncertainties": [
+          "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+          "Personal compiler ownership and political input distribute human authority, qualified by Houses, surveillance and government control; Mimir is shut down and Monitors report to government.",
+          "Contributions, care and technical work remain useful; active human-derived minds are a disclosed proxy and no all-person participation census is supplied.",
+          "New coordinate values are low-confidence editorial scenarios, not canonical statistics; original source limits remain.",
+          "Active human-derived citizen scenario allows a default compiler-supported floor while counting contribution projects, care, technical activity and administration; reputation is not a work census."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual completion against existing bounded evidence, with explicit active-person and useful-work scenarios; no independent reviewer or new full-work reading",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "best_guess_axes": [
+          "nonworking"
+        ],
+        "qualification_basis": "Earlier bounded evidence-based inclusion retained; individually supply the remaining coordinate scenarios under the current user policy.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Citizens receive a default material standard and commonly own compilers and decompilers.",
+          "Reputation affects additional resources while Houses and surveillance retain influence."
+        ],
+        "editorial_assumptions": [
+          "Active human-derived citizen scenario allows a default compiler-supported floor while counting contribution projects, care, technical activity and administration; reputation is not a work census.",
+          "Purist augmentation restrictions do not establish a third material-access class separate from the existing citizen/Apostate scopes."
+        ],
+        "related_candidate_ids": [
+          "c0870"
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0870",
+        "status": "needs_evidence",
+        "reason": "Purist limits concern augmentation, not a demonstrated separate productive regime.",
+        "source_ids": [
+          "src-b98-novapreview"
+        ],
+        "analysis": "Purist Houses appear within the same compiler economy. The overview’s body/mind restrictions do not prove deliberate suppression of household automation or different citizen support.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0870",
+        "status": "duplicate",
+        "reason": "Purist bodily-augmentation restrictions do not establish another compiler/allocation regime; citizen and Apostate access are already retained separately.",
+        "source_ids": [
+          "src-b98-novapreview"
+        ],
+        "analysis": "The same primary preview gives citizens a default resource floor and compilers, excludes Apostates from Coalition resources and separately describes Purist body restrictions. Augmentation preference is not counted as a third productive constitution.",
+        "follow_up": "Linked material-model overlap; existing citizen and Apostate coverage remains authoritative.",
+        "society_id": "nova-praxis-citizen-compiler-floor",
+        "duplicate_of": "nova-praxis-citizen-compiler-floor",
+        "current_policy_review": true,
+        "reassessed_on": "2026-10-17"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "ths-us-fifthwave-market",
+        "candidate_id": "c0872",
+        "name": "Transhuman Space (the Fifth Wave United States)",
+        "work": "Transhuman Space",
+        "society": "Transhuman Space (the Fifth Wave United States)",
+        "media": [
+          "tabletop"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Named setting, medium and stated period only",
+          "period": "The functioning Fifth Wave US technical economy",
+          "population": "Living biological human US residents",
+          "human_population_proxy": false,
+          "exclusions": "European support rules and TSA information policy are not imported; robot labor is separately disclosed.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The setting combines fusion power, helper robots and differing national economic systems. This point selects the Fifth Wave United States as a distinct human access population, rather than copying the European floor or TSA information policy. The guarantee best guess is mixed and conditional, with market dependence an explicit editorial interpretation of the local institutions. Technical capacity alone does not establish free necessities for every household.\n\n Human commercial and civic agency receives moderate positive control weight, qualified by concentrated wealth and practical infrastructure dependencies. Helper robots are not automatically sovereign providers. The moderate nonworking scenario counts services, research, administration, repair, care and useful creation. Robot numbers and national prosperity are not converted into an all-age participation statistic. The partial-transition admission remains low confidence because the short source does not detail household coverage. Its broad bounds preserve meaningful institutional differences without inventing a canonical uniform welfare law or treating every Fifth Wave country as the same society.",
+        "axis": {
+          "guarantees": 0.3,
+          "control": 0.55,
+          "nonworking": 0.4
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.75,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Mixed market/civic access is the explicit US household scenario.",
+            "source_ids": [
+              "src-b98-tspace"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Human commercial and civic agency is central with concentration possible.",
+            "source_ids": [
+              "src-b98-tspace"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Useful services and care remain; helper robots and prosperity are not participation.",
+            "source_ids": [
+              "src-b98-tspace"
+            ]
+          }
+        },
+        "regime_primary": 4,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b98-tspace"
+        ],
+        "evidence": [
+          {
+            "claim": "The setting has fusion power, helper robots, variable prosperity and different national systems.",
+            "source_ids": [
+              "src-b98-tspace"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "US market-dependent material access is an editorial local model.",
+          "European and TSA institutions are not copied into this access population."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distinct national automation-transition comparison with the local policy estimate labeled.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The setting has fusion power, helper robots, variable prosperity and different national systems."
+        ],
+        "editorial_assumptions": [
+          "US market-dependent material access is an editorial local model.",
+          "European and TSA institutions are not copied into this access population."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0872",
+        "status": "needs_evidence",
+        "reason": "The United States’ distinct productive access rules are not established by the short setting reference.",
+        "source_ids": [
+          "src-b98-tspace"
+        ],
+        "analysis": "Generic helper robots and prosperity cannot substitute for a national floor. Real-world transhumanist political platforms are unrelated and were discarded.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0872",
+        "status": "included",
+        "reason": "Retain the distinct national automation-transition comparison with the local policy estimate labeled.",
+        "source_ids": [
+          "src-b98-tspace"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "ths-us-fifthwave-market"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "lancer-armory-purview-zero",
+        "candidate_id": "c0874",
+        "name": "Lancer (Harrison Armory’s Purview)",
+        "work": "Lancer",
+        "society": "Lancer (Harrison Armory’s Purview)",
+        "media": [
+          "tabletop"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named setting, medium and stated period only",
+          "period": "The functioning corpro-state Purview",
+          "population": "Living human Purview residents, including people without full citizenship",
+          "human_population_proxy": false,
+          "exclusions": "Union Core Pillars are not assumed implemented identically; military service and production remain work.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Purview citizenship is conditional, service can earn status, and Harrison Armory manufactures advanced weapons and other goods. The guarantee best guess is weak across residents because high productive capacity does not grant everyone the Core’s secure necessities floor. This zero variant treats fabrication and retained service as a concrete comparison, without assuming that ordinary goods are either universally free or entirely manually produced.\n\n Concentrated human corpro-state authority receives control near the elite reference point. Advanced automated armaments do not automatically mean an AI owns the whole sustaining economy. The low nonworking scenario counts manufacturing, military duties, administration, maintenance, care and useful creation. Citizenship and enlistment are not a population employment statistic, and excluded residents’ informal contributions still count. The scope is the functioning Purview rather than every world under Union’s aspirations. Broad intervals preserve varied local implementation while retaining the familiar corporate alternative to the already-scoped Third Committee Core.",
+        "axis": {
+          "guarantees": 0.65,
+          "control": 0.03,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.5,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Conditional citizenship and service limit an assumed common floor.",
+            "source_ids": [
+              "src-b99-armory"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.4
+            ],
+            "confidence": "low",
+            "basis": "Human corpro-state concentration is central.",
+            "source_ids": [
+              "src-b99-armory"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Production, service and care remain work; citizenship is not participation.",
+            "source_ids": [
+              "src-b99-armory"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b99-armory"
+        ],
+        "evidence": [
+          {
+            "claim": "Purview citizenship is conditional, service can earn status and the corpro-state manufactures advanced goods.",
+            "source_ids": [
+              "src-b99-armory"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary material coverage and automation depth are low-confidence estimates.",
+          "Union Core implementation is not extended to the Purview."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distinct corporate citizenship/production model with exclusion visible.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Purview citizenship is conditional, service can earn status and the corpro-state manufactures advanced goods."
+        ],
+        "editorial_assumptions": [
+          "Ordinary material coverage and automation depth are low-confidence estimates.",
+          "Union Core implementation is not extended to the Purview."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0874",
+        "status": "needs_evidence",
+        "reason": "Purview citizenship and military technology do not establish a distinct household provision system clearly enough.",
+        "source_ids": [
+          "src-b99-armory"
+        ],
+        "analysis": "Do not copy Union Core’s floor into this colonial hierarchy or treat the Think Tank as proof of AI sovereignty.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0874",
+        "status": "zero_variant",
+        "reason": "Retain the distinct corporate citizenship/production model with exclusion visible.",
+        "source_ids": [
+          "src-b99-armory"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "lancer-armory-purview-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "lancer-karrakin-industrial-zero",
+        "candidate_id": "c0875",
+        "name": "Lancer (the Karrakin Trade Baronies)",
+        "work": "Lancer",
+        "society": "Lancer (the Karrakin Trade Baronies)",
+        "media": [
+          "tabletop"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named setting, medium and stated period only",
+          "period": "The functioning industrial Baronies amid political strain",
+          "population": "Living human Baronies residents across social strata",
+          "human_population_proxy": false,
+          "exclusions": "Not every resident is a serf; Union membership does not automatically implement Core equality everywhere.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The official setting describes vast industry and deep social division, with titled nobles resisting Union’s promised equality. Industrial and political strain qualify any simple image of universal abundance. The guarantee best guess is weak across residents despite substantial material capacity. This zero variant interprets automated industry alongside continuing useful roles, without assigning identical serf status or equal free necessities to every person in every barony.\n\n Human nobles and powerful institutions receive concentrated control weight, with some wider productive agency left inside the interval. A Union affiliation does not by itself establish shared resident ownership. The low nonworking scenario counts production, administration, services, maintenance, care and useful creation. Wealth, noble titles and political ideology are not labor statistics. The point covers a broad functioning institutional model with local variation explicit, rather than inventing one precise household statute. It remains distinct from the Third Committee Core and Harrison Armory’s corpro-state access conditions.",
+        "axis": {
+          "guarantees": 0.7,
+          "control": 0.05,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.45,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Deep social division and resistance to equality weaken common material security.",
+            "source_ids": [
+              "src-b99-baronies",
+              "src-karrakin-official-socialdivision"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Titled human nobles and institutions concentrate productive authority.",
+            "source_ids": [
+              "src-b99-baronies",
+              "src-karrakin-official-socialdivision"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Industrial and caring roles continue; title or serf status is not a work census.",
+            "source_ids": [
+              "src-b99-baronies",
+              "src-karrakin-official-socialdivision"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b99-baronies",
+          "src-karrakin-official-socialdivision"
+        ],
+        "evidence": [
+          {
+            "claim": "Official setting material describes immense industry, titled noble power, social division and political/economic strain.",
+            "source_ids": [
+              "src-b99-baronies",
+              "src-karrakin-official-socialdivision"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary industrial automation and household coverage are estimated.",
+          "Not all residents are assigned one legal or work status."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the famous stratified industrial Union member with local variation and real work explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Official setting material describes immense industry, titled noble power, social division and political/economic strain."
+        ],
+        "editorial_assumptions": [
+          "Ordinary industrial automation and household coverage are estimated.",
+          "Not all residents are assigned one legal or work status."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0875",
+        "status": "needs_evidence",
+        "reason": "The short gathered material does not establish a single Karrakin production/access arrangement.",
+        "source_ids": [
+          "src-b99-baronies"
+        ],
+        "analysis": "A blanket feudal-serf interpretation is contested. A generic search-discovered PDF was unreliable and no deep sourcebook rescue was attempted.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0875",
+        "status": "zero_variant",
+        "reason": "Retain the famous stratified industrial Union member with local variation and real work explicit.",
+        "source_ids": [
+          "src-b99-baronies",
+          "src-karrakin-official-socialdivision"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "lancer-karrakin-industrial-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "starsector-luddic-industry-zero",
+        "candidate_id": "c0880",
+        "name": "Starsector (the Luddic Church economy)",
+        "work": "Starsector",
+        "society": "Starsector (the Luddic Church economy)",
+        "media": [
+          "game"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named setting, medium and stated period only",
+          "period": "The functioning Church worlds with pastoral ideals and actual industry",
+          "population": "Living biological human Church-world residents",
+          "human_population_proxy": false,
+          "exclusions": "The more extreme Luddic Path is separate; distrust of technology is not a total ban on every machine.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Church promotes a pastoral ideal and distrust of technology while its worlds still produce agriculture, domestic goods and heavily polluting industry. It is therefore a selective-restraint comparison rather than a civilization with no machinery. The guarantee best guess is mixed and conditional because fertile worlds and industrial output do not specify equal secure necessities. The source does not support treating every Church community as uniformly poor or fully automated.\n\n Human religious and local institutions receive positive control weight, qualified by concentrated leadership. Industrial systems are not automatically an autonomous AI sovereign. The low nonworking scenario counts agriculture, manufacture, services, administration, maintenance, care and useful creation. Pastoral ideals are not a labor percentage, and actual industrial work remains useful despite religious rhetoric. The scope excludes the more extreme Path’s different methods. This zero variant retains a recognizable technology-restraint economy with its real material production visible, rather than importing one ship’s limitations as a universal machine ban.",
+        "axis": {
+          "guarantees": 0.35,
+          "control": 0.25,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.7,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Productive worlds permit a floor but universal household access is uncertain.",
+            "source_ids": [
+              "src-b99-starsector",
+              "src-starsector-church-industry"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Human religious/local authority retains agency with concentration possible.",
+            "source_ids": [
+              "src-b99-starsector",
+              "src-starsector-church-industry"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Agriculture, industry and care remain; pastoral ideals are not participation.",
+            "source_ids": [
+              "src-b99-starsector",
+              "src-starsector-church-industry"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b99-starsector",
+          "src-starsector-church-industry"
+        ],
+        "evidence": [
+          {
+            "claim": "The Church’s pastoral ideal coexists with agricultural, domestic-goods and polluted industrial worlds.",
+            "source_ids": [
+              "src-b99-starsector",
+              "src-starsector-church-industry"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "It differs from the more extreme Luddic Path.",
+            "source_ids": [
+              "src-b99-starsector",
+              "src-starsector-church-industry"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The common material floor and exact technological restraint vary locally.",
+          "A total machine ban is not asserted."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the selective-restraint economy with industry and faction distinctions verified.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The Church’s pastoral ideal coexists with agricultural, domestic-goods and polluted industrial worlds.",
+          "It differs from the more extreme Luddic Path."
+        ],
+        "editorial_assumptions": [
+          "The common material floor and exact technological restraint vary locally.",
+          "A total machine ban is not asserted."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0880",
+        "status": "needs_evidence",
+        "reason": "Church-wide productive restraint is not verified beyond community generalization and ship examples.",
+        "source_ids": [
+          "src-b99-starsector"
+        ],
+        "analysis": "An obsolete labor-intensive ship and religious hostility to AI do not establish a full social zero variant. Fanfiction and mods were discarded.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0880",
+        "status": "zero_variant",
+        "reason": "Retain the selective-restraint economy with industry and faction distinctions verified.",
+        "source_ids": [
+          "src-b99-starsector",
+          "src-starsector-church-industry"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "starsector-luddic-industry-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "starsector-tritach-corporate-zero",
+        "candidate_id": "c0881",
+        "name": "Starsector (Tri-Tachyon’s corporate economy)",
+        "work": "Starsector",
+        "society": "Starsector (Tri-Tachyon’s corporate economy)",
+        "media": [
+          "game"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named setting, medium and stated period only",
+          "period": "The functioning corporate industrial colonies",
+          "population": "Living biological human Tri-Tachyon residents",
+          "human_population_proxy": false,
+          "exclusions": "AI operations are disclosed, but speculative mastermind claims are not established sovereign identity; crew hiring remains work.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Tri-Tachyon specializes in advanced AI and high-power devices and has industrial colonies. That is real technical productive capacity, while ordinary human access remains tied to an uncertain corporate order. The guarantee best guess is weak because capability and corporate wealth do not become a dependable equal necessities floor. This zero variant keeps continuing human roles visible rather than assuming advanced AI has already removed all useful biological contribution.\n\n Corporate authority receives control near concentrated human ownership, with strong autonomous machine discretion inside the broad interval. Speculative AI-mastermind lore is not used as a confirmed explanation of the controller. The moderate nonworking scenario counts industry, logistics, services, administration, maintenance, care and useful creation. AI capacity, ship staffing and industrial output are not a population labor census. The record concerns functioning colonies rather than every wartime collapse or campaign outcome, preserving uncertain household coverage without omitting the familiar corporate automation comparison.",
+        "axis": {
+          "guarantees": 0.8,
+          "control": 0.03,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.15,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Corporate technical capacity does not establish dependable equal support.",
+            "source_ids": [
+              "src-b99-starsector",
+              "src-starsector-tritach-technical"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.45
+            ],
+            "confidence": "low",
+            "basis": "Corporate concentration is central with major autonomous-AI alternatives explicit.",
+            "source_ids": [
+              "src-b99-starsector",
+              "src-starsector-tritach-technical"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.03,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Human industrial and caring roles remain; AI capacity is not participation.",
+            "source_ids": [
+              "src-b99-starsector",
+              "src-starsector-tritach-technical"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b99-starsector",
+          "src-starsector-tritach-technical"
+        ],
+        "evidence": [
+          {
+            "claim": "Tri-Tachyon specializes in AI and high-power devices and has an industrial colony at Culann.",
+            "source_ids": [
+              "src-b99-starsector",
+              "src-starsector-tritach-technical"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Effective controller identity and household coverage remain uncertain.",
+          "Speculative AI-mastermind claims are not treated as established facts."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the famous corporate AI economy with speculative controller lore separated.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Tri-Tachyon specializes in AI and high-power devices and has an industrial colony at Culann."
+        ],
+        "editorial_assumptions": [
+          "Effective controller identity and household coverage remain uncertain.",
+          "Speculative AI-mastermind claims are not treated as established facts."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0881",
+        "status": "needs_evidence",
+        "reason": "Tri-Tachyon’s AI reputation does not establish actual ordinary human allocation in the short sources.",
+        "source_ids": [
+          "src-b99-starsector"
+        ],
+        "analysis": "Military AI and corporate identity are insufficient. Direct lore pages failed and no deeper reconstruction was attempted.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0881",
+        "status": "zero_variant",
+        "reason": "Retain the famous corporate AI economy with speculative controller lore separated.",
+        "source_ids": [
+          "src-b99-starsector",
+          "src-starsector-tritach-technical"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "starsector-tritach-corporate-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "stellaris-human-stratified-robot-zero",
+        "candidate_id": "c0882",
+        "name": "Stellaris (human Stratified Economy with robotic production)",
+        "work": "Stellaris",
+        "society": "Stellaris (human Stratified Economy with robotic production)",
+        "media": [
+          "game"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named setting, medium and stated period only",
+          "period": "A functioning selected stratified robot-supported human economy",
+          "population": "Living human citizens across the selected strata",
+          "human_population_proxy": false,
+          "exclusions": "Robots are not extra humans; code labels such as Civilian jobs do not alone prove particular useful duties or inactivity.",
+          "branch": "Human citizen Stratified Economy and actual robot basic-resource production; qualitative rules only",
+          "player_configurable": true
+        },
+        "description": "The selected human empire combines robotic production with Stratified Economy living standards. Unlike the Utopian Abundance configuration, its ordinary access is deliberately unequal between strata. The guarantee best guess is weak across citizens because productive capacity does not grant an equal secure floor. This is a modeled zero variant with retained human contribution, not a statement that every version of Stellaris has identical job and living-standard rules.\n\n Concentrated human elite ownership receives control near zero, qualified by some broader civic agency. Robot equipment does not automatically become an independent AI sovereign. The modest nonworking scenario counts human production, services, administration, maintenance, care and useful creation. Later Civilian-job classifications are not automatically converted into literal activity counts: useful or assigned roles count, passive statistical representation alone does not settle participation. No unemployment or robot ratio is used as a census. The player-configuration flag and broad bounds preserve version uncertainty while keeping the distinct weak-floor institutional choice reviewable.",
+        "axis": {
+          "guarantees": 0.8,
+          "control": 0.05,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.2,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Selected unequal strata weaken universal secure access despite robotic output.",
+            "source_ids": [
+              "src-b99-stellaris-update"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Human elite concentration is central despite some wider agency.",
+            "source_ids": [
+              "src-b99-stellaris-update"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.03,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Human useful/assigned roles count; code job labels and robot shares are not a census.",
+            "source_ids": [
+              "src-b99-stellaris-update"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b99-stellaris-update"
+        ],
+        "evidence": [
+          {
+            "claim": "Official economic updates alter unemployment/Civilian-job representation and living standards.",
+            "source_ids": [
+              "src-b99-stellaris-update"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "A functioning human Stratified Economy with robot production is the selected model.",
+          "Qualitative unequal access is scored without importing unstable numerical rules."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distinct weak-floor robotic-production configuration with version limits explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Official economic updates alter unemployment/Civilian-job representation and living standards."
+        ],
+        "editorial_assumptions": [
+          "A functioning human Stratified Economy with robot production is the selected model.",
+          "Qualitative unequal access is scored without importing unstable numerical rules."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0882",
+        "status": "needs_evidence",
+        "reason": "The proposed weak-floor configuration needs version-specific material-access evidence.",
+        "source_ids": [
+          "src-b99-stellaris-update"
+        ],
+        "analysis": "Official economy changes replace old unemployment behavior. Do not infer deprivation from happiness or transfer older living-standard mechanics to a new configuration without verification.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0882",
+        "status": "zero_variant",
+        "reason": "Retain the distinct weak-floor robotic-production configuration with version limits explicit.",
+        "source_ids": [
+          "src-b99-stellaris-update"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "stellaris-human-stratified-robot-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "suffadv-patentoffice-work-zero",
+        "candidate_id": "c0893",
+        "name": "Sufficiently Advanced (Patent Office field agents)",
+        "work": "Sufficiently Advanced",
+        "society": "Sufficiently Advanced (Patent Office field agents)",
+        "media": [
+          "tabletop"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named setting, medium and stated period only",
+          "period": "The functioning Patent Office’s active field-agent work unit",
+          "population": "Active human-descended Inspector identities",
+          "human_population_proxy": true,
+          "exclusions": "The fourteen civilizations are not one household economy; off-duty populations, inactive copies and the AI employers are separate.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Patent Office works across different civilizations in a world of molecular replication and transmutation. Its Inspectors perform real registration, enforcement and arbitration duties under Transcendental AI employers. The retained material unit is that continuing agency cohort, not an invented common economy for fourteen societies. The guarantee best guess allows partial institutional support while keeping employment, missions and uncertain ordinary coverage conditional.\n\n The Transcendentals’ decisive institutional influence gives strongly negative control weight, qualified by treaty powers and agents’ local discretion. Owning excellent equipment does not mean Inspectors control their employers. The central nonworking scenario is zero for the scoped active field-agent cohort because legal investigation, arbitration and mission work count as useful roles. The broader setting’s abundance is not copied into universal leisure, and an inactive backup is not an additional supported person. This zero variant preserves a concrete AI-backed work institution with direct fabrication provenance while leaving each civilization’s own allocation system separate.",
+        "axis": {
+          "guarantees": 0.25,
+          "control": -0.95,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.8,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Institutional technical support is plausible but tied to active agency roles.",
+            "source_ids": [
+              "src-b100-suffadv",
+              "src-suffadv-patent-primary"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              -0.4
+            ],
+            "confidence": "low",
+            "basis": "Transcendental AI employers dominate the office despite treaty and local limits.",
+            "source_ids": [
+              "src-b100-suffadv",
+              "src-suffadv-patent-primary"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Active Inspectors perform real legal/mission work; other civilizations are separate.",
+            "source_ids": [
+              "src-b100-suffadv",
+              "src-suffadv-patent-primary"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b100-suffadv",
+          "src-suffadv-patent-primary"
+        ],
+        "evidence": [
+          {
+            "claim": "The primary sample describes molecular replication/transmutation, working Inspectors and Transcendental AI employers.",
+            "source_ids": [
+              "src-b100-suffadv",
+              "src-suffadv-patent-primary"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Only the active field-agent support unit is scored.",
+          "No common household constitution is assigned to all fourteen civilizations."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the actual fabrication-enabled AI-backed work institution rather than merge different societies.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The primary sample describes molecular replication/transmutation, working Inspectors and Transcendental AI employers."
+        ],
+        "editorial_assumptions": [
+          "Only the active field-agent support unit is scored.",
+          "No common household constitution is assigned to all fourteen civilizations."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0893",
+        "status": "needs_evidence",
+        "reason": "The Patent Office spans different civilizations, not one verified common material economy.",
+        "source_ids": [
+          "src-b100-suffadv"
+        ],
+        "analysis": "Replicators and intellectual-property enforcement are clear leads, but the broad candidate requires a specific civilization and allocation reference. Do not read an entire sourcebook to force one homogeneous point.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0893",
+        "status": "zero_variant",
+        "reason": "Retain the actual fabrication-enabled AI-backed work institution rather than merge different societies.",
+        "source_ids": [
+          "src-b100-suffadv",
+          "src-suffadv-patent-primary"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "suffadv-patentoffice-work-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "reignsteel-washington-protectorate-zero",
+        "candidate_id": "c0894",
+        "name": "Reign of Steel (the Washington Protectorate)",
+        "work": "GURPS Reign of Steel",
+        "society": "Reign of Steel (the Washington Protectorate)",
+        "media": [
+          "tabletop"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named setting, medium and stated period only",
+          "period": "The functioning ostensibly independent Protectorate under covert AI rule",
+          "population": "Living human Washington Protectorate residents",
+          "human_population_proxy": false,
+          "exclusions": "Machine manufacturing is not automatically equal human access; dead humans, prison casualties and inactive copies are excluded.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Washington covertly rules a Protectorate that appears independent to its human population. Automated manufacturing exists in the machine-zone setting, but the human share of its output is uncertain. The guarantee best guess is weak because hidden control and vulnerable access prevent assuming a dependable common floor. This zero variant compares continued human roles with machine productive capacity rather than treating an independent national label as proof of human economic freedom.\n\n Effective covert AI authority gives strongly negative control weight despite outward human institutions. Political appearance does not determine who can command the sustaining systems. The low nonworking scenario counts production, services, administration, maintenance, care and useful creation among living residents. Survival after a robot war is not itself leisure, and the number killed never becomes a nonworking percentage. Broad intervals preserve the unknown household allocation without requiring a complete fictional welfare code. The Protectorate remains distinct from London’s surviving nation, whose machine noninterference is not the same control arrangement.",
+        "axis": {
+          "guarantees": 0.8,
+          "control": -0.98,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.4,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Covert domination and uncertain output access imply weak dependable human support.",
+            "source_ids": [
+              "src-b100-steel"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              -0.7
+            ],
+            "confidence": "low",
+            "basis": "Washington’s AI has effective authority despite outward independence.",
+            "source_ids": [
+              "src-b100-steel"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Living residents retain useful roles; war deaths are excluded.",
+            "source_ids": [
+              "src-b100-steel"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b100-steel"
+        ],
+        "evidence": [
+          {
+            "claim": "Machine zones have automated manufacturing; Washington covertly rules an ostensibly independent Protectorate.",
+            "source_ids": [
+              "src-b100-steel"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The ordinary human share of machine output is uncertain.",
+          "Participation is a living-resident scenario, not a survivor ratio."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the covert AI-controlled human polity with its weak-floor uncertainty explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Machine zones have automated manufacturing; Washington covertly rules an ostensibly independent Protectorate."
+        ],
+        "editorial_assumptions": [
+          "The ordinary human share of machine output is uncertain.",
+          "Participation is a living-resident scenario, not a survivor ratio."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0894",
+        "status": "needs_evidence",
+        "reason": "Washington’s covert AI government does not establish how ordinary humans access automated necessities.",
+        "source_ids": [
+          "src-b100-steel"
+        ],
+        "analysis": "A supposedly tame computer and general machine-zone production are not enough to infer a human material floor or an exact work rate.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0894",
+        "status": "zero_variant",
+        "reason": "Retain the covert AI-controlled human polity with its weak-floor uncertainty explicit.",
+        "source_ids": [
+          "src-b100-steel"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "reignsteel-washington-protectorate-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "reignsteel-london-human-zero",
+        "candidate_id": "c0895",
+        "name": "Reign of Steel (London’s surviving human nation)",
+        "work": "GURPS Reign of Steel",
+        "society": "Reign of Steel (London’s surviving human nation)",
+        "media": [
+          "tabletop"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named setting, medium and stated period only",
+          "period": "The functioning human nation under London’s noninterference",
+          "population": "Living human residents of the surviving nation",
+          "human_population_proxy": false,
+          "exclusions": "AI noninterference is not automatic AI provisioning; neighboring machine zones and hostile populations have different access.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "London leaves a surviving human nation alone within a world of machine-controlled automated production. That is a different relationship from Washington’s hidden government. The guarantee best guess is weak and conditional because being tolerated does not itself provide food, shelter or care. The zero-variant qualification is cautious technological capacity and retained human activity; direct machine-funded universal provision is not claimed.\n\n Human institutions receive positive control weight for the nation’s own ordinary economic activity. A powerful AI beyond its boundary is not automatically its sustaining sovereign when it chooses noninterference. The modest nonworking scenario counts production, services, administration, repair, care and useful creation. Surviving a machine war is not an employment statistic, and fear or exclusion does not make every person idle. Wide intervals preserve both infrastructure dependence and uncertain local rights. The scope avoids inventing one benevolent AI welfare system from the simple fact that a biological population remains alive.",
+        "axis": {
+          "guarantees": 0.65,
+          "control": 0.35,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.6,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Toleration does not establish secure provision; local access remains conditional.",
+            "source_ids": [
+              "src-b100-steel"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.6,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Human economic institutions are central under AI noninterference.",
+            "source_ids": [
+              "src-b100-steel"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Useful production and care remain; survival is not a nonworking statistic.",
+            "source_ids": [
+              "src-b100-steel"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b100-steel"
+        ],
+        "evidence": [
+          {
+            "claim": "London leaves a surviving human nation alone; the surrounding machine zones have automated manufacturing.",
+            "source_ids": [
+              "src-b100-steel"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The nation’s technological substitution and household allocation are uncertain.",
+          "Noninterference is not treated as direct AI welfare."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distinct tolerated human economy without assigning control from an external threat.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "London leaves a surviving human nation alone; the surrounding machine zones have automated manufacturing."
+        ],
+        "editorial_assumptions": [
+          "The nation’s technological substitution and household allocation are uncertain.",
+          "Noninterference is not treated as direct AI welfare."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0895",
+        "status": "needs_evidence",
+        "reason": "London’s noninterference with a surviving human nation is not itself technological provision.",
+        "source_ids": [
+          "src-b100-steel"
+        ],
+        "analysis": "Leaving humans alive outside exclusion zones does not establish that the AI’s industry supplies their necessities. Neither mass death nor wary peace is leisure.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0895",
+        "status": "zero_variant",
+        "reason": "Retain the distinct tolerated human economy without assigning control from an external threat.",
+        "source_ids": [
+          "src-b100-steel"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "reignsteel-london-human-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "logansrun-tv-human-council",
+        "candidate_id": "c0914",
+        "name": "Logan’s Run (the television City of Domes)",
+        "work": "Logan’s Run (television)",
+        "society": "Logan’s Run (the television City of Domes)",
+        "media": [
+          "tv"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "1977 television series only; film and original novel excluded",
+          "period": "The established television city before the fugitives leave",
+          "population": "Living human city residents before the thirty-year termination threshold",
+          "human_population_proxy": false,
+          "exclusions": "The film’s AI ruler and different novel institutions are excluded; terminated residents are not leisure citizens.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The television City of Domes is secretly governed by older humans while enforcing a thirty-year rule on ordinary residents. Its high-capacity enclosed environment is a plausible technical support order, but bodily security is sharply conditional. The guarantee best guess allows a substantial internal floor without calling forced termination a dependable lifetime guarantee. Household coverage is estimated rather than copied wholesale from the film.\n\n Concentrated human council authority receives control near the elite reference point. The film’s central-machine sovereignty is not imported into this continuity simply because both cities use advanced systems. The high nonworking scenario permits extensive routine substitution while counting assigned security, administration, maintenance, care and useful creation. Short lives and deaths are not converted into a leisure percentage. The television period and controller remain explicit, preventing the original novel, film and series from being merged into one contradictory society or counted again merely for identical visual scenery.",
+        "axis": {
+          "guarantees": -0.15,
+          "control": 0.03,
+          "nonworking": 0.7
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.85,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Internal support is plausible but the termination rule sharply limits lifetime security.",
+            "source_ids": [
+              "src-b103-logan-tv"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.35
+            ],
+            "confidence": "low",
+            "basis": "Older human council members govern this television continuity.",
+            "source_ids": [
+              "src-b103-logan-tv"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.1,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Substantial substitution may coexist with assigned roles and care; deaths are excluded.",
+            "source_ids": [
+              "src-b103-logan-tv"
+            ]
+          }
+        },
+        "regime_primary": 1,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b103-logan-tv"
+        ],
+        "evidence": [
+          {
+            "claim": "The television city is secretly governed by older human citizens and enforces a thirty-year rule.",
+            "source_ids": [
+              "src-b103-logan-tv"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The household technical floor and participation are low-confidence TV-specific estimates.",
+          "Film AI control and novel institutions are not imported."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the materially different human-ruled television dome in its own continuity.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The television city is secretly governed by older human citizens and enforces a thirty-year rule."
+        ],
+        "editorial_assumptions": [
+          "The household technical floor and participation are low-confidence TV-specific estimates.",
+          "Film AI control and novel institutions are not imported."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0914",
+        "status": "needs_evidence",
+        "reason": "Television-specific human rule is established, but actual household supply remains unclear.",
+        "source_ids": [
+          "src-b103-logan-tv"
+        ],
+        "analysis": "The elder cabal differs materially from the film’s authority. A shared visual premise and recycled footage alone do not prove the whole supply/access system.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0914",
+        "status": "included",
+        "reason": "Retain the materially different human-ruled television dome in its own continuity.",
+        "source_ids": [
+          "src-b103-logan-tv"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "logansrun-tv-human-council"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "finalspace-galaxyone-sentence-zero",
+        "candidate_id": "c0916",
+        "name": "Final Space (Gary’s Galaxy One sentence)",
+        "work": "Final Space",
+        "society": "Final Space (Gary’s Galaxy One sentence)",
+        "media": [
+          "cartoon",
+          "tv"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named setting, medium and stated period only",
+          "period": "Gary’s continuing early five-year satellite-repair sentence aboard Galaxy One",
+          "population": "The one active living human prisoner Gary",
+          "human_population_proxy": false,
+          "exclusions": "Machine companions are separately disclosed; later Infinity ships and wider adventure crews are different scopes.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Gary serves five years repairing satellites with machine companions aboard Galaxy One. The discovery lead’s Infinity label is corrected to the supported ship and period. Automated bodily support and robotic assistance coexist with an actual imposed human role. The guarantee best guess allows a partial institutional floor, qualified by incarceration and dependence on the ship’s rules. The repair duty is not called useless make-work without evidence.\n\n Practical ship AI authority receives negative control weight alongside the human legal framework imposing the sentence. Formal human ownership does not erase day-to-day machine discretion, but the ship is not assumed to be an independent worldwide AI government. The central nonworking value is zero for the single active human because recurring satellite repair is work. Alternatives are binary rather than fractions of the five years. Robot count, isolation and time resting do not create additional leisure citizens. This narrow zero variant covers the continuing sentence rather than later crews or ships.",
+        "axis": {
+          "guarantees": 0.15,
+          "control": -0.55,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.75,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Institutional life support is partial and conditional on imprisonment/ship rules.",
+            "source_ids": [
+              "src-b103-gary"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.25
+            ],
+            "confidence": "low",
+            "basis": "Practical ship AI authority coexists with human sentencing institutions.",
+            "source_ids": [
+              "src-b103-gary"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              1
+            ],
+            "confidence": "low",
+            "basis": "One active prisoner performs real repairs centrally; singleton alternatives are binary.",
+            "source_ids": [
+              "src-b103-gary"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b103-gary"
+        ],
+        "evidence": [
+          {
+            "claim": "Gary serves five years repairing satellites aboard Galaxy One with machine companions.",
+            "source_ids": [
+              "src-b103-gary"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Galaxy One replaces the discovery lead’s unsupported Infinity label.",
+          "Recurring repair is work, not assumed make-work."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the actual automated-support/assigned-work unit with ship identity and denominator corrected.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Gary serves five years repairing satellites aboard Galaxy One with machine companions."
+        ],
+        "editorial_assumptions": [
+          "Galaxy One replaces the discovery lead’s unsupported Infinity label.",
+          "Recurring repair is work, not assumed make-work."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0916",
+        "status": "needs_evidence",
+        "reason": "Five years of actual satellite repair do not establish a post-work or deliberate make-work regime.",
+        "source_ids": [
+          "src-b103-gary"
+        ],
+        "analysis": "The queued Infinity label is corrected to Galaxy One. Machine companions and a prisoner’s food do not by themselves show autonomous production or replaceable work deliberately retained.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0916",
+        "status": "zero_variant",
+        "reason": "Retain the actual automated-support/assigned-work unit with ship identity and denominator corrected.",
+        "source_ids": [
+          "src-b103-gary"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "finalspace-galaxyone-sentence-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "exocolonist-stratos-work-zero",
+        "candidate_id": "c0918",
+        "name": "I Was a Teenage Exocolonist (the Vertumna colony)",
+        "work": "I Was a Teenage Exocolonist",
+        "society": "I Was a Teenage Exocolonist (the Vertumna colony)",
+        "media": [
+          "game"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named setting, medium and stated period only",
+          "period": "The functioning Stratospheric colony on Vertumna",
+          "population": "Living human colonists, including children doing useful roles",
+          "human_population_proxy": false,
+          "exclusions": "Children’s actual work counts; private schooling and play are not automatically jobs and alternate endings are separate.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Colonists and children perform farming, compost work, repair, care, construction and research alongside advanced technology. The material system is therefore an engineered frontier community retaining substantial useful contribution. The guarantee best guess allows a partial shared floor, qualified by survival pressures and local duties. Technical capacity and communal life do not themselves prove that every necessity arrives automatically or that all work is already dispensable.\n\n Human community institutions receive positive control weight, with leadership and infrastructure dependence inside the interval. A technological colony is not automatically an autonomous AI government. The low nonworking scenario counts the stated productive and caring roles, including work actually done by children. Private learning and play are not assumed useful labor merely because they consume time. Farm output and the protagonist’s schedule are not a population employment census. This zero variant selects the functioning colony rather than combining every possible ending or assigning one universal rights system to the whole planet.",
+        "axis": {
+          "guarantees": 0.2,
+          "control": 0.6,
+          "nonworking": 0.15
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.7,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Shared frontier support is plausible but survival pressure and duties condition it.",
+            "source_ids": [
+              "src-b103-exocolony"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Human communal institutions retain agency with practical concentration possible.",
+            "source_ids": [
+              "src-b103-exocolony"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Actual child/adult productive roles and care count; private study/play are distinct.",
+            "source_ids": [
+              "src-b103-exocolony"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b103-exocolony"
+        ],
+        "evidence": [
+          {
+            "claim": "Colonists and children perform farming, compost work, repair, care, construction and research alongside technology.",
+            "source_ids": [
+              "src-b103-exocolony"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The shared material floor and automation depth are cautious estimates.",
+          "The ordinary functioning colony is separate from alternate endings."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the recognizable technological working commune with useful child and care activity explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Colonists and children perform farming, compost work, repair, care, construction and research alongside technology."
+        ],
+        "editorial_assumptions": [
+          "The shared material floor and automation depth are cautious estimates.",
+          "The ordinary functioning colony is separate from alternate endings."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0918",
+        "status": "needs_evidence",
+        "reason": "The colony’s technology and shared activity do not establish the required labor-replacement mechanism.",
+        "source_ids": [
+          "src-b103-exocolony"
+        ],
+        "analysis": "Actual farming, compost work, care and construction remain prominent. Do not treat a robot-repair option or shared colonial life as proof that work no longer allocates necessities.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0918",
+        "status": "zero_variant",
+        "reason": "Retain the recognizable technological working commune with useful child and care activity explicit.",
+        "source_ids": [
+          "src-b103-exocolony"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "exocolonist-stratos-work-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "suffadv-tao-historical-communities",
+        "candidate_id": "c0920",
+        "name": "Sufficiently Advanced (the Tao of History’s maintained societies)",
+        "work": "Sufficiently Advanced",
+        "society": "Sufficiently Advanced (the Tao of History’s maintained societies)",
+        "media": [
+          "tabletop"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "First-edition Tao of History model in the checked review and primary setting passages",
+          "period": "The functioning first-edition historical recreation communities",
+          "population": "Living human and active human-derived Tao citizens",
+          "human_population_proxy": true,
+          "exclusions": "Mostly nonsentient robot slaves are equipment, not extra persons; real generations are distinct from temporary visitor avatars.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Tao citizens inhabit historical recreations with real generations, variable local rule and robot labor where appropriate. They are residents rather than merely temporary avatars in an attraction. The guarantee best guess allows a strong underlying technical floor, qualified by local restrictions and staged conflict. A historical appearance does not prove that residents depend on wholly preindustrial production, while recreating a society does not itself guarantee equal access everywhere.\n\n Human resident and organizing institutions receive positive control weight. Mostly nonsentient robot labor is equipment under that arrangement, not automatically an AI sovereign. The low-to-moderate nonworking scenario counts care, administration, maintenance and performance that provides entertainment to others. Private historical play is not automatically a job, and voluntary useful performance is not automatically leisure. Only active persons enter the proxy population. The point preserves the Tao’s distinct maintained-historical material model rather than merging it with Stardweller basics or the Patent Office’s employed field agents.",
+        "axis": {
+          "guarantees": -0.55,
+          "control": 0.55,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.95,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Underlying robot support allows a strong floor, with variable local restrictions.",
+            "source_ids": [
+              "src-b103-tao",
+              "src-b103-tao-primary"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Human resident/organizing agency is central; mostly nonsentient robots are equipment.",
+            "source_ids": [
+              "src-b103-tao",
+              "src-b103-tao-primary"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.03,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Useful performance and care count; private play and visitor avatars are distinct.",
+            "source_ids": [
+              "src-b103-tao",
+              "src-b103-tao-primary"
+            ]
+          }
+        },
+        "regime_primary": 2,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b103-tao",
+          "src-b103-tao-primary"
+        ],
+        "evidence": [
+          {
+            "claim": "Historical recreations have real generations, mostly nonsentient robot labor, variable rule and controlled staged conflict.",
+            "source_ids": [
+              "src-b103-tao",
+              "src-b103-tao-primary"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Citizens provide entertainment rather than only visiting as avatars.",
+            "source_ids": [
+              "src-b103-tao",
+              "src-b103-tao-primary"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Underlying material coverage is a low-confidence interpretation.",
+          "Useful performance and private historical play have different work status."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distinct maintained historical resident society with real useful activity visible.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Historical recreations have real generations, mostly nonsentient robot labor, variable rule and controlled staged conflict.",
+          "Citizens provide entertainment rather than only visiting as avatars."
+        ],
+        "editorial_assumptions": [
+          "Underlying material coverage is a low-confidence interpretation.",
+          "Useful performance and private historical play have different work status."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0920",
+        "status": "needs_evidence",
+        "reason": "Historical recreation with robot labor does not establish a single Tao material-access arrangement.",
+        "source_ids": [
+          "src-b103-tao",
+          "src-b103-tao-primary"
+        ],
+        "analysis": "Citizens are not merely visitors, but useful performed roles, variable local rule and media revenue remain. No blanket leisure, zero-variant or entitlement model is invented.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0920",
+        "status": "included",
+        "reason": "Retain the distinct maintained historical resident society with real useful activity visible.",
+        "source_ids": [
+          "src-b103-tao",
+          "src-b103-tao-primary"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "suffadv-tao-historical-communities"
+      }
+    }
+  ]
+}

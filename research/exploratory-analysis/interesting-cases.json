@@ -1,0 +1,810 @@
+[
+  {
+    "category": "worse_than_model",
+    "id": "fantasticplanet-traag-civilization",
+    "name": "Fantastic Planet (Draag civilization)",
+    "work": "Fantastic Planet",
+    "regime": 1,
+    "utopia": -0.9,
+    "security": 0.4,
+    "control": 0.3,
+    "nonworking": 0.5,
+    "residual": -0.9523647042430754,
+    "basis": "Coerced or subordinated sentient workers bear the costs of the system; productive sophistication does not offset their loss of agency.",
+    "source_ids": [
+      "src-fantastic-planet-reference"
+    ]
+  },
+  {
+    "category": "worse_than_model",
+    "id": "with-folded-hands-two-rivers",
+    "name": "With Folded Hands (Two Rivers after the takeover)",
+    "work": "With Folded Hands",
+    "regime": 5,
+    "utopia": -0.75,
+    "security": 0.85,
+    "control": -0.98,
+    "nonworking": 0.99,
+    "residual": -0.9371068364167167,
+    "basis": "Automatic care removes material burdens while overriding human choice and independent activity; protective provision becomes coercive.",
+    "source_ids": [
+      "src-folded-primary",
+      "src-folded-publisher"
+    ]
+  },
+  {
+    "category": "worse_than_model",
+    "id": "neuromancer-awake-tessierashpool-enclave",
+    "name": "Neuromancer (the awake Tessier-Ashpool enclave)",
+    "work": "Neuromancer",
+    "regime": 1,
+    "utopia": -0.85,
+    "security": 0.7,
+    "control": 0.02,
+    "nonworking": 0.65,
+    "residual": -0.8336068589673945,
+    "basis": "Benefits for a privileged group are qualified by exclusion, hierarchy or costs imposed on other sentient people described in the record.",
+    "source_ids": [
+      "src-gibson-sfe"
+    ]
+  },
+  {
+    "category": "worse_than_model",
+    "id": "worldtiers-lords-supported-elite",
+    "name": "The World of Tiers (the universe-building Lords’ elite)",
+    "work": "World of Tiers",
+    "regime": 1,
+    "utopia": -0.8,
+    "security": 0.7,
+    "control": 0.03,
+    "nonworking": 0.6,
+    "residual": -0.8335684667822254,
+    "basis": "Benefits for a privileged group are qualified by exclusion, hierarchy or costs imposed on other sentient people described in the record.",
+    "source_ids": [
+      "src-b101-tiers"
+    ]
+  },
+  {
+    "category": "worse_than_model",
+    "id": "coldtoys-geometer-order",
+    "name": "The Stars Are Cold Toys (the Geometer civilization)",
+    "work": "The Stars Are Cold Toys",
+    "regime": 1,
+    "utopia": -0.95,
+    "security": 0.4,
+    "control": 0.05,
+    "nonworking": 0.35,
+    "residual": -0.8290471416082972,
+    "basis": "Restricted agency, enforced conformity or unaccountable control materially qualify or outweigh the benefits of technological provision.",
+    "source_ids": [
+      "src-b97-geometers"
+    ]
+  },
+  {
+    "category": "worse_than_model",
+    "id": "fallout-bigmt-thinktank-enclave",
+    "name": "Fallout: New Vegas — Big MT’s Think Tank",
+    "work": "Fallout: New Vegas",
+    "regime": 1,
+    "utopia": -0.85,
+    "security": 0.45,
+    "control": 0.05,
+    "nonworking": 0.1,
+    "residual": -0.8169427008935438,
+    "basis": "Benefits for a privileged group are qualified by exclusion, hierarchy or costs imposed on other sentient people described in the record.",
+    "source_ids": [
+      "src-b74-bigmt"
+    ]
+  },
+  {
+    "category": "worse_than_model",
+    "id": "fallout-vault112-active-captives",
+    "name": "Fallout 3 — Vault 112’s active simulation captives",
+    "work": "Fallout 3",
+    "regime": 1,
+    "utopia": -0.95,
+    "security": 0.3,
+    "control": 0.0,
+    "nonworking": 0.6,
+    "residual": -0.8085718242109604,
+    "basis": "Threats to continued life, lethal institutional rules or imposed destruction make apparent material support profoundly unsafe.",
+    "source_ids": [
+      "src-b74-vault112",
+      "src-b74-vault112-reference"
+    ]
+  },
+  {
+    "category": "worse_than_model",
+    "id": "trek-triskelion-provider-enclave",
+    "name": "Star Trek — Triskelion’s Provider enclave",
+    "work": "Star Trek: The Original Series",
+    "regime": 1,
+    "utopia": -0.9,
+    "security": 0.6,
+    "control": 0.0,
+    "nonworking": 0.67,
+    "residual": -0.7997647210749741,
+    "basis": "Coerced or subordinated sentient workers bear the costs of the system; productive sophistication does not offset their loss of agency.",
+    "source_ids": [
+      "src-triskelion-reference",
+      "src-follow-providers"
+    ]
+  },
+  {
+    "category": "worse_than_model",
+    "id": "solaria-foundation-earth",
+    "name": "Foundation and Earth (Solaria after withdrawal)",
+    "work": "Foundation and Earth",
+    "regime": 4,
+    "utopia": -0.65,
+    "security": -0.15,
+    "control": 0.8,
+    "nonworking": 0.95,
+    "residual": -0.7897349921830004,
+    "basis": "Private abundance is severely qualified by the danger to a child denied recognized status; adult comfort is not secure life for everyone in the record.",
+    "source_ids": [
+      "src-foundation-earth-primary",
+      "src-foundation-earth-reference",
+      "src-robots-empire-solaria"
+    ]
+  },
+  {
+    "category": "worse_than_model",
+    "id": "stellaris-exterminator-active-core-zero",
+    "name": "Stellaris (Determined Exterminator’s active machine core)",
+    "work": "Stellaris",
+    "regime": 6,
+    "utopia": -0.95,
+    "security": -0.1,
+    "control": -1.0,
+    "nonworking": 0.0,
+    "residual": -0.7143485704953588,
+    "basis": "Threats to continued life, lethal institutional rules or imposed destruction make apparent material support profoundly unsafe.",
+    "source_ids": [
+      "src-b80-synthetic-dawn",
+      "src-b80-species-rights"
+    ]
+  },
+  {
+    "category": "worse_than_model",
+    "id": "logans-run-dome-film",
+    "name": "Logan’s Run (The domed city — 1976 film)",
+    "work": "Logan’s Run",
+    "regime": 5,
+    "utopia": -0.85,
+    "security": 0.35,
+    "control": -0.95,
+    "nonworking": 0.9,
+    "residual": -0.713062932758904,
+    "basis": "Pleasure and automatic provision are outweighed by compulsory death at thirty and the lack of secure continuation.",
+    "source_ids": [
+      "src-logan-imdb-plot",
+      "src-logan-tcm",
+      "src-logan-ebert"
+    ]
+  },
+  {
+    "category": "worse_than_model",
+    "id": "million-permanent-earth-estates",
+    "name": "The Million — Permanently awake Earth estates",
+    "work": "The Million",
+    "regime": 3,
+    "utopia": -0.45,
+    "security": 0.55,
+    "control": 0.45,
+    "nonworking": 0.55,
+    "residual": -0.6877727080720767,
+    "basis": "Benefits for a privileged group are qualified by exclusion, hierarchy or costs imposed on other sentient people described in the record.",
+    "source_ids": [
+      "src-b101-million-author",
+      "src-b101-million-publisher",
+      "src-b101-million-robots"
+    ]
+  },
+  {
+    "category": "worse_than_model",
+    "id": "joe-mauser-automated-caste-welfare",
+    "name": "Joe Mauser — Automated caste welfare society",
+    "work": "Mercenary from Tomorrow",
+    "regime": 1,
+    "utopia": -0.75,
+    "security": 0.45,
+    "control": 0.05,
+    "nonworking": 0.65,
+    "residual": -0.6823484854027031,
+    "basis": "Restricted agency, enforced conformity or unaccountable control materially qualify or outweigh the benefits of technological provision.",
+    "source_ids": [
+      "src-b91-mauser",
+      "src-b91-reynolds"
+    ]
+  },
+  {
+    "category": "worse_than_model",
+    "id": "fallout-whitespring-prepurge-enclave",
+    "name": "Fallout 76 — The Whitespring Enclave before the purge",
+    "work": "Fallout 76",
+    "regime": 1,
+    "utopia": -0.8,
+    "security": 0.3,
+    "control": 0.05,
+    "nonworking": 0.35,
+    "residual": -0.6820489170133275,
+    "basis": "Benefits for a privileged group are qualified by exclusion, hierarchy or costs imposed on other sentient people described in the record.",
+    "source_ids": [
+      "src-b74-whitespring"
+    ]
+  },
+  {
+    "category": "worse_than_model",
+    "id": "trek-hirogen-holographic-enclave",
+    "name": "Star Trek: Voyager — The Hirogen training facility",
+    "work": "Star Trek: Voyager",
+    "regime": 1,
+    "utopia": -0.95,
+    "security": 0.25,
+    "control": 0.05,
+    "nonworking": 0.45,
+    "residual": -0.6799024060406638,
+    "basis": "Coerced or subordinated sentient workers bear the costs of the system; productive sophistication does not offset their loss of agency.",
+    "source_ids": [
+      "src-hirogen-hunting-facility"
+    ]
+  },
+  {
+    "category": "better_than_model",
+    "id": "detroit-peaceful-autonomy-transition",
+    "name": "Detroit: Become Human — Peaceful android liberation",
+    "work": "Detroit: Become Human",
+    "regime": 6,
+    "utopia": 0.45,
+    "security": -0.65,
+    "control": -0.35,
+    "nonworking": 0.4,
+    "residual": 1.1817631574741392,
+    "basis": "A realized reform or explicitly selected projected alternative offers improvement, qualified by incomplete implementation and continuing uncertainty.",
+    "source_ids": [
+      "src-detroit-official",
+      "src-detroit-ending-guide"
+    ]
+  },
+  {
+    "category": "better_than_model",
+    "id": "detroit-armed-revolution-transition",
+    "name": "Detroit: Become Human — Armed android victory",
+    "work": "Detroit: Become Human",
+    "regime": 6,
+    "utopia": 0.05,
+    "security": -0.85,
+    "control": -0.25,
+    "nonworking": 0.5,
+    "residual": 0.8828076441943948,
+    "basis": "A realized reform or explicitly selected projected alternative offers improvement, qualified by incomplete implementation and continuing uncertainty.",
+    "source_ids": [
+      "src-b73-detroit-revolution",
+      "src-b73-detroit-branches"
+    ]
+  },
+  {
+    "category": "better_than_model",
+    "id": "westworld-sublime-active-hosts",
+    "name": "Westworld (active hosts in the Sublime)",
+    "work": "Westworld",
+    "regime": 5,
+    "utopia": 0.7,
+    "security": 0.5,
+    "control": -0.7,
+    "nonworking": 0.45,
+    "residual": 0.8725396060795422,
+    "basis": "Broad material security and substantial room for chosen lives support a favorable assessment of this scoped society.",
+    "source_ids": [
+      "src-westworld-sublime-reference",
+      "src-westworld-joy-sublime"
+    ]
+  },
+  {
+    "category": "better_than_model",
+    "id": "talos2-newjerusalem-scarcity-zero",
+    "name": "The Talos Principle 2 (New Jerusalem before the Machine)",
+    "work": "The Talos Principle 2",
+    "regime": 6,
+    "utopia": 0.45,
+    "security": -0.25,
+    "control": -0.85,
+    "nonworking": 0.15,
+    "residual": 0.8369589410198164,
+    "basis": "Shared provision, cooperation and meaningful human or person agency support a favorable assessment; useful work is not itself a disadvantage.",
+    "source_ids": [
+      "src-b75-talos2",
+      "src-b75-talos-scarcity"
+    ]
+  },
+  {
+    "category": "better_than_model",
+    "id": "agency-eunice-assisted-human-network-zero",
+    "name": "Agency (Eunice’s assisted human network)",
+    "work": "Agency",
+    "regime": 6,
+    "utopia": 0.15,
+    "security": -0.35,
+    "control": -0.5,
+    "nonworking": 0.2,
+    "residual": 0.808782207247452,
+    "basis": "This is a narrow household, crew, project or technical cohort; its actual support is assessed without extending its conditions to an entire civilization.",
+    "source_ids": [
+      "src-agency-couchmagpie",
+      "src-peripheral-sfra",
+      "src-agency-publisher-separated-timelines"
+    ]
+  },
+  {
+    "category": "better_than_model",
+    "id": "san-junipero-permanent-residents",
+    "name": "Black Mirror — San Junipero’s permanent residents",
+    "work": "Black Mirror: San Junipero",
+    "regime": 1,
+    "utopia": 0.75,
+    "security": 0.6,
+    "control": 0.1,
+    "nonworking": 0.9,
+    "residual": 0.7957244365514213,
+    "basis": "Broad material security and substantial room for chosen lives support a favorable assessment of this scoped society.",
+    "source_ids": [
+      "src-san-junipero-reference",
+      "src-san-junipero-server-context"
+    ]
+  },
+  {
+    "category": "better_than_model",
+    "id": "tomorrowsparties-early-nanofax-zero",
+    "name": "All Tomorrow’s Parties (the early Lucky Dragon nanofax model)",
+    "work": "All Tomorrow’s Parties",
+    "regime": 2,
+    "utopia": 0.15,
+    "security": -0.6,
+    "control": 0.2,
+    "nonworking": 0.3,
+    "residual": 0.7544962408181901,
+    "basis": "A realized reform or explicitly selected projected alternative offers improvement, qualified by incomplete implementation and continuing uncertainty.",
+    "source_ids": [
+      "src-tomorrows-parties-kara"
+    ]
+  },
+  {
+    "category": "better_than_model",
+    "id": "golden-oecumene",
+    "name": "The Golden Age (Golden Oecumene)",
+    "work": "The Golden Age trilogy",
+    "regime": 6,
+    "utopia": 0.1,
+    "security": -0.4,
+    "control": -0.55,
+    "nonworking": 0.55,
+    "residual": 0.7492338804181279,
+    "basis": "Commercial or contract-based access brings useful services, but security, autonomy and coverage vary; the assessment concerns this particular arrangement.",
+    "source_ids": [
+      "src-golden-oecumene-reference",
+      "src-golden-oecumene-latorra"
+    ]
+  },
+  {
+    "category": "better_than_model",
+    "id": "masseffect-rannoch-geth-partnership",
+    "name": "Mass Effect 3 — Rannoch after quarian–geth peace",
+    "work": "Mass Effect 3",
+    "regime": 5,
+    "utopia": 0.65,
+    "security": 0.5,
+    "control": -0.35,
+    "nonworking": 0.4,
+    "residual": 0.7473505766406785,
+    "basis": "A realized reform or explicitly selected projected alternative offers improvement, qualified by incomplete implementation and continuing uncertainty.",
+    "source_ids": [
+      "src-b76-rannoch-care",
+      "src-b76-geth"
+    ]
+  },
+  {
+    "category": "better_than_model",
+    "id": "elysium-citizenship-reset",
+    "name": "Elysium (Citizenship reset and automated healthcare)",
+    "work": "Elysium",
+    "regime": 1,
+    "utopia": 0.55,
+    "security": 0.35,
+    "control": 0.05,
+    "nonworking": 0.25,
+    "residual": 0.7413106365436891,
+    "basis": "A realized reform or explicitly selected projected alternative offers improvement, qualified by incomplete implementation and continuing uncertainty.",
+    "source_ids": [
+      "src-elysium-reference",
+      "src-elysium-imdb-ending",
+      "src-elysium-ebert-review",
+      "src-elysium-wired-review"
+    ]
+  },
+  {
+    "category": "better_than_model",
+    "id": "doraemon-future-earth-robot-support",
+    "name": "Doraemon — Twenty-second-century Earth",
+    "work": "Doraemon",
+    "regime": 3,
+    "utopia": 0.75,
+    "security": 0.5,
+    "control": 0.35,
+    "nonworking": 0.5,
+    "residual": 0.7260231452515148,
+    "basis": "Broad material security and substantial room for chosen lives support a favorable assessment of this scoped society.",
+    "source_ids": [
+      "src-b73-doraemon",
+      "src-anime-doraemon-future",
+      "src-anime-doraemon-museum"
+    ]
+  },
+  {
+    "category": "better_than_model",
+    "id": "aria-aqua-terraformed-work-zero",
+    "name": "Aria (Aqua’s terraformed service economy)",
+    "work": "Aria",
+    "regime": 0,
+    "utopia": 0.75,
+    "security": -0.2,
+    "control": 0.45,
+    "nonworking": 0.25,
+    "residual": 0.7073936251904777,
+    "basis": "Shared provision, cooperation and meaningful human or person agency support a favorable assessment; useful work is not itself a disadvantage.",
+    "source_ids": [
+      "src-b71-aria"
+    ]
+  },
+  {
+    "category": "better_than_model",
+    "id": "projectpope-vatican17-zero",
+    "name": "Project Pope (Vatican-17’s human support economy)",
+    "work": "Project Pope",
+    "regime": 6,
+    "utopia": 0.35,
+    "security": -0.05,
+    "control": -0.85,
+    "nonworking": 0.2,
+    "residual": 0.7021980893814045,
+    "basis": "This is a narrow household, crew, project or technical cohort; its actual support is assessed without extending its conditions to an entire civilization.",
+    "source_ids": [
+      "src-project-pope-primary"
+    ]
+  },
+  {
+    "category": "better_than_model",
+    "id": "nier-pascal-village-commons",
+    "name": "NieR:Automata — Pascal’s village",
+    "work": "NieR:Automata",
+    "regime": 5,
+    "utopia": 0.55,
+    "security": 0.25,
+    "control": -0.85,
+    "nonworking": 0.3,
+    "residual": 0.6850470688518713,
+    "basis": "The selected peaceful machine community supports mutual care and an alternative to imposed war roles; later tragedy is not averaged into its functioning baseline.",
+    "source_ids": [
+      "src-b75-nier"
+    ]
+  },
+  {
+    "category": "better_than_model",
+    "id": "oa-niuearth-modern-haven",
+    "name": "Orion’s Arm (modern Niuearth’s baseline haven)",
+    "work": "Orion’s Arm",
+    "regime": 5,
+    "utopia": 0.65,
+    "security": 0.5,
+    "control": -0.6,
+    "nonworking": 0.5,
+    "residual": 0.6701335089496522,
+    "basis": "Autonomous infrastructure provides substantial support; machine administration is not itself dystopian, while resident agency remains a qualification.",
+    "source_ids": [
+      "src-b96-niuearth",
+      "src-b96-reserves",
+      "src-niuearth-current-primary"
+    ]
+  },
+  {
+    "category": "secure_but_dystopian",
+    "id": "machine-stops-before-collapse",
+    "name": "The Machine Stops",
+    "work": "The Machine Stops",
+    "regime": 1,
+    "utopia": -0.55,
+    "security": 0.55,
+    "control": 0.05,
+    "nonworking": 0.55,
+    "residual": -0.3789331922066979,
+    "basis": "Restricted agency, enforced conformity or unaccountable control materially qualify or outweigh the benefits of technological provision.",
+    "source_ids": [
+      "src-forster-machine"
+    ]
+  },
+  {
+    "category": "secure_but_dystopian",
+    "id": "brave-new-world-state",
+    "name": "Brave New World (original novel)",
+    "work": "Brave New World",
+    "regime": 1,
+    "utopia": -0.6,
+    "security": 0.55,
+    "control": 0.0,
+    "nonworking": 0.15,
+    "residual": -0.479938275913391,
+    "basis": "Supplied comfort does not offset engineered castes, conditioning and constrained choice; happiness and material abundance are not sufficient for a utopian score.",
+    "source_ids": [
+      "src-huxley-16"
+    ]
+  },
+  {
+    "category": "secure_but_dystopian",
+    "id": "with-folded-hands-two-rivers",
+    "name": "With Folded Hands (Two Rivers after the takeover)",
+    "work": "With Folded Hands",
+    "regime": 5,
+    "utopia": -0.75,
+    "security": 0.85,
+    "control": -0.98,
+    "nonworking": 0.99,
+    "residual": -0.9371068364167167,
+    "basis": "Automatic care removes material burdens while overriding human choice and independent activity; protective provision becomes coercive.",
+    "source_ids": [
+      "src-folded-primary",
+      "src-folded-publisher"
+    ]
+  },
+  {
+    "category": "secure_but_dystopian",
+    "id": "uglies-new-pretty-town",
+    "name": "Uglies (Tally’s New Pretty Town before the mind-rain)",
+    "work": "Uglies / Pretties",
+    "regime": 1,
+    "utopia": -0.6,
+    "security": 0.75,
+    "control": 0.05,
+    "nonworking": 0.9,
+    "residual": -0.6334620924934471,
+    "basis": "Restricted agency, enforced conformity or unaccountable control materially qualify or outweigh the benefits of technological provision.",
+    "source_ids": [
+      "src-uglies-series-reference",
+      "src-new-pretty-town-reference"
+    ]
+  },
+  {
+    "category": "secure_but_dystopian",
+    "id": "zardoz-eternals-vortex",
+    "name": "Zardoz (The Vortex’s Eternals)",
+    "work": "Zardoz",
+    "regime": 5,
+    "utopia": -0.5,
+    "security": 0.5,
+    "control": -0.45,
+    "nonworking": 0.65,
+    "residual": -0.32119796066083334,
+    "basis": "Benefits for a privileged group are qualified by exclusion, hierarchy or costs imposed on other sentient people described in the record.",
+    "source_ids": [
+      "src-zardoz-reference",
+      "src-zardoz-dialogue"
+    ]
+  },
+  {
+    "category": "secure_but_dystopian",
+    "id": "mudd-android-serviced-captivity",
+    "name": "Star Trek — Mudd’s android-serviced captivity",
+    "work": "Star Trek: The Original Series",
+    "regime": 5,
+    "utopia": -0.55,
+    "security": 0.65,
+    "control": -0.8,
+    "nonworking": 1.0,
+    "residual": -0.47339894225349943,
+    "basis": "Restricted agency, enforced conformity or unaccountable control materially qualify or outweigh the benefits of technological provision.",
+    "source_ids": [
+      "src-mudd-episode-reference",
+      "src-mudd-captivity-review"
+    ]
+  },
+  {
+    "category": "secure_but_dystopian",
+    "id": "gamekeeper-vr-residents",
+    "name": "Stargate SG-1 — the Gamekeeper’s supported VR residents",
+    "work": "Stargate SG-1: The Gamekeeper",
+    "regime": 1,
+    "utopia": -0.5,
+    "security": 0.75,
+    "control": 0.05,
+    "nonworking": 0.7,
+    "residual": -0.5205644670801789,
+    "basis": "Restricted agency, enforced conformity or unaccountable control materially qualify or outweigh the benefits of technological provision.",
+    "source_ids": [
+      "src-gamekeeper-reference",
+      "src-gamekeeper-vr-unit"
+    ]
+  },
+  {
+    "category": "secure_but_dystopian",
+    "id": "franxx-plantation-adult-provision",
+    "name": "Darling in the Franxx — Plantation adult residents",
+    "work": "Darling in the Franxx",
+    "regime": 1,
+    "utopia": -0.65,
+    "security": 0.55,
+    "control": 0.05,
+    "nonworking": 0.9,
+    "residual": -0.6638397575032265,
+    "basis": "Restricted agency, enforced conformity or unaccountable control materially qualify or outweigh the benefits of technological provision.",
+    "source_ids": [
+      "src-b72-franxx-adult-care",
+      "src-b72-franxx-world",
+      "src-b72-franxx-adult-reading"
+    ]
+  },
+  {
+    "category": "secure_but_dystopian",
+    "id": "happy-breed-machine-protected-adults",
+    "name": "The Happy Breed — Machine-protected humanity",
+    "work": "The Happy Breed",
+    "regime": 5,
+    "utopia": -0.55,
+    "security": 0.55,
+    "control": -1.0,
+    "nonworking": 0.8,
+    "residual": -0.6076498654847017,
+    "basis": "Restricted agency, enforced conformity or unaccountable control materially qualify or outweigh the benefits of technological provision.",
+    "source_ids": [
+      "src-b91-happy",
+      "src-b91-happy-review"
+    ]
+  },
+  {
+    "category": "secure_but_dystopian",
+    "id": "republic-future-socialist-city",
+    "name": "The Republic of the Future — New York Socialist City",
+    "work": "The Republic of the Future",
+    "regime": 1,
+    "utopia": -0.55,
+    "security": 0.5,
+    "control": 0.1,
+    "nonworking": 0.15,
+    "residual": -0.5380545652634935,
+    "basis": "Restricted agency, enforced conformity or unaccountable control materially qualify or outweigh the benefits of technological provision.",
+    "source_ids": [
+      "src-b95-republic",
+      "src-b95-foodwork",
+      "src-b95-economic-sf"
+    ]
+  },
+  {
+    "category": "secure_but_dystopian",
+    "id": "dc-redson-brainiac-managed-zero",
+    "name": "Superman: Red Son — The Brainiac-assisted world order",
+    "work": "Superman: Red Son",
+    "regime": 1,
+    "utopia": -0.55,
+    "security": 0.65,
+    "control": 0.05,
+    "nonworking": 0.15,
+    "residual": -0.48718925664965795,
+    "basis": "Restricted agency, enforced conformity or unaccountable control materially qualify or outweigh the benefits of technological provision.",
+    "source_ids": [
+      "src-b88-redson"
+    ]
+  },
+  {
+    "category": "secure_but_dystopian",
+    "id": "trek-triskelion-provider-enclave",
+    "name": "Star Trek — Triskelion’s Provider enclave",
+    "work": "Star Trek: The Original Series",
+    "regime": 1,
+    "utopia": -0.9,
+    "security": 0.6,
+    "control": 0.0,
+    "nonworking": 0.67,
+    "residual": -0.7997647210749741,
+    "basis": "Coerced or subordinated sentient workers bear the costs of the system; productive sophistication does not offset their loss of agency.",
+    "source_ids": [
+      "src-triskelion-reference",
+      "src-follow-providers"
+    ]
+  },
+  {
+    "category": "secure_but_dystopian",
+    "id": "neuromancer-awake-tessierashpool-enclave",
+    "name": "Neuromancer (the awake Tessier-Ashpool enclave)",
+    "work": "Neuromancer",
+    "regime": 1,
+    "utopia": -0.85,
+    "security": 0.7,
+    "control": 0.02,
+    "nonworking": 0.65,
+    "residual": -0.8336068589673945,
+    "basis": "Benefits for a privileged group are qualified by exclusion, hierarchy or costs imposed on other sentient people described in the record.",
+    "source_ids": [
+      "src-gibson-sfe"
+    ]
+  },
+  {
+    "category": "secure_but_dystopian",
+    "id": "worldtiers-lords-supported-elite",
+    "name": "The World of Tiers (the universe-building Lords’ elite)",
+    "work": "World of Tiers",
+    "regime": 1,
+    "utopia": -0.8,
+    "security": 0.7,
+    "control": 0.03,
+    "nonworking": 0.6,
+    "residual": -0.8335684667822254,
+    "basis": "Benefits for a privileged group are qualified by exclusion, hierarchy or costs imposed on other sentient people described in the record.",
+    "source_ids": [
+      "src-b101-tiers"
+    ]
+  },
+  {
+    "category": "insecure_but_positive",
+    "id": "detroit-peaceful-autonomy-transition",
+    "name": "Detroit: Become Human — Peaceful android liberation",
+    "work": "Detroit: Become Human",
+    "regime": 6,
+    "utopia": 0.45,
+    "security": -0.65,
+    "control": -0.35,
+    "nonworking": 0.4,
+    "residual": 1.1817631574741392,
+    "basis": "A realized reform or explicitly selected projected alternative offers improvement, qualified by incomplete implementation and continuing uncertainty.",
+    "source_ids": [
+      "src-detroit-official",
+      "src-detroit-ending-guide"
+    ]
+  },
+  {
+    "category": "insecure_but_positive",
+    "id": "gargantia-fleet-shared-work-zero",
+    "name": "Gargantia (the working fleet)",
+    "work": "Gargantia on the Verdurous Planet",
+    "regime": 0,
+    "utopia": 0.25,
+    "security": -0.35,
+    "control": 0.5,
+    "nonworking": 0.2,
+    "residual": 0.2929353644882382,
+    "basis": "Shared provision, cooperation and meaningful human or person agency support a favorable assessment; useful work is not itself a disadvantage.",
+    "source_ids": [
+      "src-b69-gargantia-fleet"
+    ]
+  },
+  {
+    "category": "insecure_but_positive",
+    "id": "fountains-paradise-technicalwork-zero",
+    "name": "The Fountains of Paradise (the automated-information economy)",
+    "work": "The Fountains of Paradise",
+    "regime": 0,
+    "utopia": 0.2,
+    "security": -0.3,
+    "control": 0.3,
+    "nonworking": 0.3,
+    "residual": 0.4729550375464697,
+    "basis": "This is a narrow household, crew, project or technical cohort; its actual support is assessed without extending its conditions to an entire civilization.",
+    "source_ids": [
+      "src-fountains-preview",
+      "src-fountains-pip"
+    ]
+  },
+  {
+    "category": "insecure_but_positive",
+    "id": "traps-earth-sleepyhollow-zero",
+    "name": "All the Traps of Earth (Sleepy Hollow with Richard Daniel)",
+    "work": "All the Traps of Earth",
+    "regime": 0,
+    "utopia": 0.25,
+    "security": -0.35,
+    "control": 0.45,
+    "nonworking": 0.2,
+    "residual": 0.40510879297734437,
+    "basis": "Community agency, reconstruction or chosen technological restraint coexist with practical limits; neither manual work nor restraint is automatically dystopian.",
+    "source_ids": [
+      "src-traps-earth-primary"
+    ]
+  }
+]

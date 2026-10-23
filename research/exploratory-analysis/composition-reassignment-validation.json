@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "all_345_zero_records_reassigned": true,
+    "six_traces_without_zero": true,
+    "all_media_sum_to_100": true,
+    "source_data_hash_unchanged": true,
+    "matches_map_regions": true,
+    "all_counts_preserved": true
+  },
+  "reassignments_by_regime": {
+    "1": 17,
+    "2": 226,
+    "3": 11,
+    "4": 42,
+    "5": 1,
+    "6": 48
+  },
+  "passed": true
+}

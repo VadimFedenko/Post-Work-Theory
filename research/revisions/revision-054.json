@@ -1,0 +1,467 @@
+{
+  "revision_id": "revision-054",
+  "revised_on": "2026-10-17",
+  "reason": "Consistent best-guess metadata for the two completion-review records: source facts remain stated, while all editorial coordinate confidence labels use the conservative low setting required by the current schema.",
+  "changes": [
+    {
+      "collection": "societies",
+      "before": {
+        "record_type": "post_work",
+        "id": "manna-terrafoam",
+        "candidate_id": "c0003",
+        "name": "Manna (United States welfare compounds)",
+        "work": "Manna",
+        "society": "United States automated welfare compounds",
+        "media": [
+          "book",
+          "web_fiction"
+        ],
+        "scope": {
+          "continuity": "Marshall Brain's novel",
+          "period": "Jacob's residence in the Terrafoam system after mass job displacement",
+          "population": "Unemployed human residents of the welfare compounds",
+          "human_population_proxy": false,
+          "exclusions": [
+            "The wealthy population outside the compounds",
+            "The earlier Manna-managed human workforce"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Robotic services and supplied housing and meals maintain Terrafoam residents outside ordinary employment. This weakens the wage link for the scoped compound population, while elite ownership, confinement and movement restrictions leave residents dependent. The guarantee point recognizes actual subsistence rather than calling necessities wholly absent, with long-term adequacy and autonomy still qualified.\n\n Concentrated human elite control remains near the ownership reference point. The nonworking best guess is lower than a near-total unemployment-based reading: useful care, mutual help, administration and voluntary creation count even without wages. The central eighty-percent scenario is illustrative, with a wide interval, rather than a canonical count of inactive people. Robotic task replacement supports a high estimate but does not establish that every displaced resident performs no useful activity. The population excludes wealthy outsiders and the earlier Manna-managed human workforce. The correction changes participation reasoning without inventing a national demographic census or removing the explicitly described compound support.",
+        "axis": {
+          "guarantees": -0.2,
+          "control": 0,
+          "nonworking": 0.8
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.55,
+              0.4
+            ],
+            "confidence": "low",
+            "basis": "Basic provision is explicit; its adequacy and long-term security are questionable.",
+            "source_ids": [
+              "src-manna-4"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.05,
+              0.1
+            ],
+            "confidence": "high",
+            "basis": "The elite controls resources and coercive robots.",
+            "source_ids": [
+              "src-manna-4"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.2,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Illustrative high nonworking scenario under robotic compound services; useful care, mutual help and voluntary creation remain work. Selection for unemployment is not a census of all useful activity.",
+            "source_ids": [
+              "src-manna-4"
+            ]
+          }
+        },
+        "regime_primary": 1,
+        "regime_alternatives": [
+          3
+        ],
+        "qualification": "included",
+        "evidence": [
+          {
+            "claim": "The bounded chapter describes supplied compound housing and meals, concentrated elite wealth and movement restrictions.",
+            "source_ids": [
+              "src-manna-4"
+            ],
+            "locator": "Previously gathered bounded primary passages; see source read_scope",
+            "kind": "depicted_or_author_stated"
+          }
+        ],
+        "uncertainties": [
+          "The article's reproductive-control claim needs a separately located primary passage; it is not silently imported as proof that food guarantees are absent.",
+          "No countrywide nonworking rate is asserted."
+        ],
+        "source_ids": [
+          "src-manna-4"
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Completion follow-up against gathered primary evidence and denominator rules; no independent reviewer or new full-text read",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "canon_facts": [
+          "The bounded chapter describes supplied compound housing and meals, concentrated elite wealth and movement restrictions."
+        ],
+        "editorial_assumptions": [
+          "The eighty-percent nonworking point is a low-confidence editorial scenario, not an unemployment conversion.",
+          "Useful unpaid activity remains work, and the compound cohort is not the whole United States."
+        ],
+        "qualification_basis": "Retain the actual compound support model with unemployment separated from all useful activity.",
+        "qualification_confidence": "low"
+      },
+      "after": {
+        "record_type": "post_work",
+        "id": "manna-terrafoam",
+        "candidate_id": "c0003",
+        "name": "Manna (United States welfare compounds)",
+        "work": "Manna",
+        "society": "United States automated welfare compounds",
+        "media": [
+          "book",
+          "web_fiction"
+        ],
+        "scope": {
+          "continuity": "Marshall Brain's novel",
+          "period": "Jacob's residence in the Terrafoam system after mass job displacement",
+          "population": "Unemployed human residents of the welfare compounds",
+          "human_population_proxy": false,
+          "exclusions": [
+            "The wealthy population outside the compounds",
+            "The earlier Manna-managed human workforce"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Robotic services and supplied housing and meals maintain Terrafoam residents outside ordinary employment. This weakens the wage link for the scoped compound population, while elite ownership, confinement and movement restrictions leave residents dependent. The guarantee point recognizes actual subsistence rather than calling necessities wholly absent, with long-term adequacy and autonomy still qualified.\n\n Concentrated human elite control remains near the ownership reference point. The nonworking best guess is lower than a near-total unemployment-based reading: useful care, mutual help, administration and voluntary creation count even without wages. The central eighty-percent scenario is illustrative, with a wide interval, rather than a canonical count of inactive people. Robotic task replacement supports a high estimate but does not establish that every displaced resident performs no useful activity. The population excludes wealthy outsiders and the earlier Manna-managed human workforce. The correction changes participation reasoning without inventing a national demographic census or removing the explicitly described compound support.",
+        "axis": {
+          "guarantees": -0.2,
+          "control": 0,
+          "nonworking": 0.8
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.55,
+              0.4
+            ],
+            "confidence": "low",
+            "basis": "Basic provision is explicit; its adequacy and long-term security are questionable.",
+            "source_ids": [
+              "src-manna-4"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.05,
+              0.1
+            ],
+            "confidence": "low",
+            "basis": "The elite controls resources and coercive robots.",
+            "source_ids": [
+              "src-manna-4"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.2,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Illustrative high nonworking scenario under robotic compound services; useful care, mutual help and voluntary creation remain work. Selection for unemployment is not a census of all useful activity.",
+            "source_ids": [
+              "src-manna-4"
+            ]
+          }
+        },
+        "regime_primary": 1,
+        "regime_alternatives": [
+          3
+        ],
+        "qualification": "included",
+        "evidence": [
+          {
+            "claim": "The bounded chapter describes supplied compound housing and meals, concentrated elite wealth and movement restrictions.",
+            "source_ids": [
+              "src-manna-4"
+            ],
+            "locator": "Previously gathered bounded primary passages; see source read_scope",
+            "kind": "depicted_or_author_stated"
+          }
+        ],
+        "uncertainties": [
+          "The article's reproductive-control claim needs a separately located primary passage; it is not silently imported as proof that food guarantees are absent.",
+          "No countrywide nonworking rate is asserted."
+        ],
+        "source_ids": [
+          "src-manna-4"
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Completion follow-up against gathered primary evidence and denominator rules; no independent reviewer or new full-text read",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "canon_facts": [
+          "The bounded chapter describes supplied compound housing and meals, concentrated elite wealth and movement restrictions."
+        ],
+        "editorial_assumptions": [
+          "The eighty-percent nonworking point is a low-confidence editorial scenario, not an unemployment conversion.",
+          "Useful unpaid activity remains work, and the compound cohort is not the whole United States."
+        ],
+        "qualification_basis": "Retain the actual compound support model with unemployment separated from all useful activity.",
+        "qualification_confidence": "low"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": {
+        "record_type": "post_work",
+        "id": "comarre-sleeping-enclave",
+        "candidate_id": "c0071",
+        "name": "The Lion of Comarre (The sleeping city)",
+        "work": "The Lion of Comarre",
+        "society": "Comarre's remaining resident dreamers",
+        "media": [
+          "short_story"
+        ],
+        "scope": {
+          "continuity": "The original story, as printed in the scanned collection",
+          "period": "The established city before Peyton's intervention",
+          "population": "Active conscious human residents undergoing private machine-generated dream experiences while their bodies are sustained in Comarre",
+          "human_population_proxy": false,
+          "exclusions": [
+            "Peyton as a visiting investigator",
+            "Dream characters as additional people or productive workers",
+            "The outside World Council's population",
+            "The promised later human-machine partnership",
+            "Inactive or nonconscious sleepers counted merely from body maintenance"
+          ],
+          "branch": null,
+          "player_configurable": false,
+          "active_experience_requirement": "Only ongoing conscious dream persons are modeled; passive hibernation is not a leisure population"
+        },
+        "description": "Comarre maintains residents’ bodies while they undergo private machine-generated dream experiences. The participation point concerns those active conscious persons, rather than passive hibernation or elapsed sleep time. Self-repairing robots maintain the city, so material support lies near the strong end, qualified by dependence and the difference between sustained bodies and immortality.\n\n Conscious Engineers exercise substantial independent authority while retaining inherited purposes and responding to some human requests. A resident who awakens chooses the dream again, complicating a simple captivity account. The near-total nonworking point is an explicit best guess for private dreamers: useful shared mental production would still count as work, but private experience alone does not. Its interval is widened because the source does not supply a canonical census of every mental activity. The visiting investigator and inactive or nonconscious bodies are excluded. The ending’s hoped-for partnership is not treated as an already realized wider society.",
+        "axis": {
+          "guarantees": -0.8,
+          "control": -0.7,
+          "nonworking": 0.99
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.95,
+              -0.55
+            ],
+            "confidence": "medium",
+            "basis": "Durable automatic maintenance supports sleepers; aging and the condition of their bodies qualify the guarantee.",
+            "source_ids": [
+              "src-comarre-primary"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.95,
+              -0.2
+            ],
+            "confidence": "medium",
+            "basis": "Conscious Engineers defend the system and can refuse human orders, while serving an inherited purpose and accepting some requests.",
+            "source_ids": [
+              "src-comarre-primary"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.7,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Private conscious dream experience under automatic provision supports a high illustrative estimate; useful shared mental activity would count. Neither physical sleep duration nor unconscious bodies determine the rate.",
+            "source_ids": [
+              "src-comarre-primary"
+            ]
+          }
+        },
+        "regime_primary": 5,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-comarre-primary"
+        ],
+        "evidence": [
+          {
+            "claim": "The previously read primary scenes describe an automatically maintained city, machine dreams and conscious Engineers.",
+            "source_ids": [
+              "src-comarre-primary"
+            ],
+            "locator": "Previously gathered bounded primary passages; see source read_scope",
+            "kind": "depicted_or_author_stated"
+          },
+          {
+            "claim": "An awakened resident chooses to return to the dream.",
+            "source_ids": [
+              "src-comarre-primary"
+            ],
+            "locator": "Previously gathered bounded primary passages; see source read_scope",
+            "kind": "depicted_or_author_stated"
+          }
+        ],
+        "uncertainties": [
+          "An offered refuge and the loss of an old resident's former identity complicate consent.",
+          "The number of active dream circuits is approximate, not a verified population census.",
+          "The promised Third Renaissance is kept outside this snapshot."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Completion follow-up against gathered primary evidence and denominator rules; no independent reviewer or new full-text read",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "canon_facts": [
+          "The previously read primary scenes describe an automatically maintained city, machine dreams and conscious Engineers.",
+          "An awakened resident chooses to return to the dream."
+        ],
+        "editorial_assumptions": [
+          "Only active conscious dream persons are included; passive sleep alone is not a beneficiary rate.",
+          "The participation estimate allows useful mental activity and is not a canonical census."
+        ],
+        "qualification_basis": "Retain the active conscious dream-support model with physical sleep distinguished from inactive hibernation.",
+        "qualification_confidence": "low"
+      },
+      "after": {
+        "record_type": "post_work",
+        "id": "comarre-sleeping-enclave",
+        "candidate_id": "c0071",
+        "name": "The Lion of Comarre (The sleeping city)",
+        "work": "The Lion of Comarre",
+        "society": "Comarre's remaining resident dreamers",
+        "media": [
+          "short_story"
+        ],
+        "scope": {
+          "continuity": "The original story, as printed in the scanned collection",
+          "period": "The established city before Peyton's intervention",
+          "population": "Active conscious human residents undergoing private machine-generated dream experiences while their bodies are sustained in Comarre",
+          "human_population_proxy": false,
+          "exclusions": [
+            "Peyton as a visiting investigator",
+            "Dream characters as additional people or productive workers",
+            "The outside World Council's population",
+            "The promised later human-machine partnership",
+            "Inactive or nonconscious sleepers counted merely from body maintenance"
+          ],
+          "branch": null,
+          "player_configurable": false,
+          "active_experience_requirement": "Only ongoing conscious dream persons are modeled; passive hibernation is not a leisure population"
+        },
+        "description": "Comarre maintains residents’ bodies while they undergo private machine-generated dream experiences. The participation point concerns those active conscious persons, rather than passive hibernation or elapsed sleep time. Self-repairing robots maintain the city, so material support lies near the strong end, qualified by dependence and the difference between sustained bodies and immortality.\n\n Conscious Engineers exercise substantial independent authority while retaining inherited purposes and responding to some human requests. A resident who awakens chooses the dream again, complicating a simple captivity account. The near-total nonworking point is an explicit best guess for private dreamers: useful shared mental production would still count as work, but private experience alone does not. Its interval is widened because the source does not supply a canonical census of every mental activity. The visiting investigator and inactive or nonconscious bodies are excluded. The ending’s hoped-for partnership is not treated as an already realized wider society.",
+        "axis": {
+          "guarantees": -0.8,
+          "control": -0.7,
+          "nonworking": 0.99
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.95,
+              -0.55
+            ],
+            "confidence": "low",
+            "basis": "Durable automatic maintenance supports sleepers; aging and the condition of their bodies qualify the guarantee.",
+            "source_ids": [
+              "src-comarre-primary"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.95,
+              -0.2
+            ],
+            "confidence": "low",
+            "basis": "Conscious Engineers defend the system and can refuse human orders, while serving an inherited purpose and accepting some requests.",
+            "source_ids": [
+              "src-comarre-primary"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.7,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Private conscious dream experience under automatic provision supports a high illustrative estimate; useful shared mental activity would count. Neither physical sleep duration nor unconscious bodies determine the rate.",
+            "source_ids": [
+              "src-comarre-primary"
+            ]
+          }
+        },
+        "regime_primary": 5,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-comarre-primary"
+        ],
+        "evidence": [
+          {
+            "claim": "The previously read primary scenes describe an automatically maintained city, machine dreams and conscious Engineers.",
+            "source_ids": [
+              "src-comarre-primary"
+            ],
+            "locator": "Previously gathered bounded primary passages; see source read_scope",
+            "kind": "depicted_or_author_stated"
+          },
+          {
+            "claim": "An awakened resident chooses to return to the dream.",
+            "source_ids": [
+              "src-comarre-primary"
+            ],
+            "locator": "Previously gathered bounded primary passages; see source read_scope",
+            "kind": "depicted_or_author_stated"
+          }
+        ],
+        "uncertainties": [
+          "An offered refuge and the loss of an old resident's former identity complicate consent.",
+          "The number of active dream circuits is approximate, not a verified population census.",
+          "The promised Third Renaissance is kept outside this snapshot."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Completion follow-up against gathered primary evidence and denominator rules; no independent reviewer or new full-text read",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "canon_facts": [
+          "The previously read primary scenes describe an automatically maintained city, machine dreams and conscious Engineers.",
+          "An awakened resident chooses to return to the dream."
+        ],
+        "editorial_assumptions": [
+          "Only active conscious dream persons are included; passive sleep alone is not a beneficiary rate.",
+          "The participation estimate allows useful mental activity and is not a canonical census."
+        ],
+        "qualification_basis": "Retain the active conscious dream-support model with physical sleep distinguished from inactive hibernation.",
+        "qualification_confidence": "low"
+      }
+    }
+  ]
+}

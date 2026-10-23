@@ -1,0 +1,397 @@
+{
+  "schema_version": "1.0",
+  "revisions": [
+    {
+      "id": "revision-001",
+      "revised_on": "2026-10-17",
+      "reason": "2026-10-17 user correction: prioritize popular multimedia and replace lore-gap omissions with transparent best guesses. Sixteen individually scoped cases reopened; all prior decisions preserved in before values.",
+      "changes": 37,
+      "path": "research/revisions/revision-001.json"
+    },
+    {
+      "id": "revision-002",
+      "revised_on": "2026-10-17",
+      "reason": "2026-10-17 requested best guesses: individually complete twenty-two familiar retained societies. Preserve earlier sourced coordinates, correct stale descriptions, disclose all-age and tiny-cohort participation assumptions; no invented lore statistics.",
+      "changes": 22,
+      "path": "research/revisions/revision-002.json"
+    },
+    {
+      "id": "revision-003",
+      "revised_on": "2026-10-17",
+      "reason": "2026-10-17 popular-franchise best-guess pass: eight Star Trek societies plus The Jetsons, the Citadel of Ricks, Halo’s Forerunners and three DC futures. Explicit admission uncertainty and zero-variant analogies replace earlier lore-gap omissions.",
+      "changes": 28,
+      "path": "research/revisions/revision-003.json"
+    },
+    {
+      "id": "revision-004",
+      "revised_on": "2026-10-17",
+      "reason": "2026-10-17 continuation: twenty-four popular screen societies assessed with explicit best guesses and person-proxy labels. Raffi is resolved as an economic-model duplicate; Sargus 4 receives a scored, completed non-fit comparison rather than an unanalysed lore gap.",
+      "changes": 56,
+      "path": "research/revisions/revision-004.json"
+    },
+    {
+      "id": "revision-005",
+      "revised_on": "2026-10-17",
+      "reason": "2026-10-17 anime/game continuation: eighteen scoped records, including two explicit Detroit ending projections. Resolve Beatless overlap and the uninhabited dome with complete reasoning; strengthen prewar Cybertron caste evidence and media provenance.",
+      "changes": 48,
+      "path": "research/revisions/revision-005.json"
+    },
+    {
+      "id": "revision-006",
+      "revised_on": "2026-10-17",
+      "reason": "2026-10-17 coordinate completion: thirty earlier records, including Culture, Noon, Asimov, Fallout, Wells, Clarke and Lem. Preserve source-based existing axes; individually estimate missing axes without robot-ratio, stasis or extinction arithmetic.",
+      "changes": 30,
+      "path": "research/revisions/revision-006.json"
+    },
+    {
+      "id": "revision-007",
+      "revised_on": "2026-10-17",
+      "reason": "2026-10-17 game/superhero follow-up: twenty-five individually scoped Fallout, Cyberpunk, NieR, Mass Effect, Halo, Warframe and Kandor records. Graygarden is explicitly player-configured; human-derived and synthetic labor remain visible. Delamain and Lamb receive completed scored comparisons without counting an individual departure or failed proposal as an operating society.",
+      "changes": 57,
+      "path": "research/revisions/revision-007.json"
+    },
+    {
+      "id": "revision-008",
+      "revised_on": "2026-10-17",
+      "reason": "2026-10-17 coordinate completion: twenty-five earlier societies receive individual estimates. Three earlier explanations are corrected so assigned make-work counts as work alongside useful voluntary activity; no canonical labor statistics or changed central values are invented.",
+      "changes": 28,
+      "path": "research/revisions/revision-008.json"
+    },
+    {
+      "id": "revision-009",
+      "revised_on": "2026-10-17",
+      "reason": "2026-10-17 classic/film follow-up: twenty-one scoped records with explicit best guesses, including book/adaptation boundaries and active-person proxies. Regis III is fully analyzed as a non-conscious ecology without inventing a human employment rate.",
+      "changes": 45,
+      "path": "research/revisions/revision-009.json"
+    },
+    {
+      "id": "revision-010",
+      "revised_on": "2026-10-17",
+      "reason": "2026-10-17 further film pass: twelve societies with explicit best guesses and source-checked control distinctions. Mother’s distributed network is linked to its existing beneficiary record; PAL’s failed removal project is fully analyzed without extermination-as-leisure arithmetic.",
+      "changes": 32,
+      "path": "research/revisions/revision-010.json"
+    },
+    {
+      "id": "revision-011",
+      "revised_on": "2026-10-17",
+      "reason": "Complete twenty-five earlier coordinate sets. Participation counts ongoing assigned duties and useful voluntary work; one- and two-person scopes use explicit discrete scenarios. Existing non-null axes and source access limits are preserved.",
+      "changes": 25,
+      "path": "research/revisions/revision-011.json"
+    },
+    {
+      "id": "revision-012",
+      "revised_on": "2026-10-17",
+      "reason": "Reassess nineteen multimedia-linked leads: eighteen retained with individual best guesses, including explicit immediate-aftermath/onboard projections and two person-proxy civilizations. Downsizing receives a completed scale-economy comparison rather than an unresolved lore hold.",
+      "changes": 41,
+      "path": "research/revisions/revision-012.json"
+    },
+    {
+      "id": "revision-013",
+      "revised_on": "2026-10-17",
+      "reason": "Complete twenty-five earlier coordinate sets, including Fallout, SOMA, Warframe, Doraemon, Outer Wilds, Stellaris, Frostpunk and Warhammer. Attach newly bounded film provenance for Pandorum and Equals, and distinguish actual Her facts from source silence or interpretation.",
+      "changes": 30,
+      "path": "research/revisions/revision-013.json"
+    },
+    {
+      "id": "revision-014",
+      "revised_on": "2026-10-17",
+      "reason": "Fifteen well-known television societies retained from Stargate, Battlestar Galactica/Caprica, Westworld, Humans and Real Humans. Active synthetic-person comparisons, real work and distinct pre/postwar periods are explicit. The Entity contact receives a completed outside-target comparison rather than a lore-gap hold.",
+      "changes": 34,
+      "path": "research/revisions/revision-014.json"
+    },
+    {
+      "id": "revision-015",
+      "revised_on": "2026-10-17",
+      "reason": "Twelve known screen/game cases retained with explicit best guesses. Megazone’s physical residents and BLAME!’s posthuman cyborgs are distinguished from uploaded humans or independent AI. The Bots and the Bees is resolved as an Earth-model duplicate; Metalhead receives a completed collapse comparison.",
+      "changes": 32,
+      "path": "research/revisions/revision-015.json"
+    },
+    {
+      "id": "revision-016",
+      "revised_on": "2026-10-17",
+      "reason": "Attach the schema-level duplicate_of pointer to the resolved Futurama family/vocation overlap; no additional society or score change.",
+      "changes": 1,
+      "path": "research/revisions/revision-016.json"
+    },
+    {
+      "id": "revision-017",
+      "revised_on": "2026-10-17",
+      "reason": "Complete twenty-seven earlier records, preserving all prior numeric axes and source access limits. Active person scopes, assigned short shifts, awake-only participation and human-derived controllers receive individual explanations.",
+      "changes": 27,
+      "path": "research/revisions/revision-017.json"
+    },
+    {
+      "id": "revision-018",
+      "revised_on": "2026-10-17",
+      "reason": "Finish the twenty-seven remaining retained-coordinate gaps. Rights, practical control and useful work receive separate estimates; every previously retained record now has three numeric coordinates without claiming canonical censuses.",
+      "changes": 27,
+      "path": "research/revisions/revision-018.json"
+    },
+    {
+      "id": "revision-019",
+      "revised_on": "2026-10-17",
+      "reason": "Nineteen film/Doctor Who societies retained with explicit scope and best guesses. The Ark’s realized human–Monoid reversal is split with rationale; biological controllers and actual assigned duties remain visible. Metamorphis predation and Nerva preservation/rescue receive completed outside-target comparisons.",
+      "changes": 45,
+      "path": "research/revisions/revision-019.json"
+    },
+    {
+      "id": "revision-020",
+      "revised_on": "2026-10-17",
+      "reason": "Twenty-six known screen societies retained with individual best guesses, including Altered Carbon, The 100, Electric Dreams, Pantheon, Tron, ReBoot, Beast Machines, Texhnolyze, Plastic Memories and Vivy. Freeyond’s fraud and Archive’s attempted extinction have completed outside-target comparisons, without death-to-leisure inference.",
+      "changes": 61,
+      "path": "research/revisions/revision-020.json"
+    },
+    {
+      "id": "revision-021",
+      "revised_on": "2026-10-17",
+      "reason": "Twenty-eight anime/manga cases retained with individual best guesses. Actual time-fault automation is distinguished from time dilation; Striker’s TV regime corrects an OVA-labeled lead; biological/posthuman actors and real work remain explicit. All records receive complete coordinates and scope limitations.",
+      "changes": 60,
+      "path": "research/revisions/revision-021.json"
+    },
+    {
+      "id": "revision-022",
+      "revised_on": "2026-10-17",
+      "reason": "Twenty-seven additional anime/game records retained, including Kaiba, System Shock, SOMA, Talos, Destiny and Stray. The ordinary Bubblegum reboot economy is linked without double counting. Residual Girls’ Last Tour/Machinia systems have completed comparisons, with no extinction-to-leisure inference. All retained axes remain complete.",
+      "changes": 62,
+      "path": "research/revisions/revision-022.json"
+    },
+    {
+      "id": "revision-023",
+      "revised_on": "2026-10-17",
+      "reason": "Correct four early canon_facts lists that mixed depicted facts with absence-of-evidence or ending interpretation. All coordinates, scopes and counted records are preserved. The Not All Robots sabotage uncertainty is inspected and correctly retained as plot uncertainty, not a missing coordinate.",
+      "changes": 4,
+      "path": "research/revisions/revision-023.json"
+    },
+    {
+      "id": "revision-024",
+      "revised_on": "2026-10-17",
+      "reason": "Twenty-one working game societies and explicitly projected branches retained from twenty-three old holds. Active synthetic/human-derived denominators, controller distinctions and actual-versus-proposed systems are explicit; temporary Event[0]/INDUSTRIA encounters have complete comparisons outside the count.",
+      "changes": 51,
+      "path": "research/revisions/revision-024.json"
+    },
+    {
+      "id": "revision-025",
+      "revised_on": "2026-10-17",
+      "reason": "Seventeen selected strategy-game models retained with active populations, technological stages and projected endings explicit. Harmony receives a completed natural-mechanism comparison. Solty Rei’s already uncertain controller interval is widened to include the full machine-controller alternative; no central score changes.",
+      "changes": 41,
+      "path": "research/revisions/revision-025.json"
+    },
+    {
+      "id": "revision-026",
+      "revised_on": "2026-10-17",
+      "reason": "Twenty-one further game models retained, including Supreme Commander, Total Annihilation, first-game Call to Power, Anno, IXION, EVE, Elite, No Man’s Sky and Starbound. Startopia’s common original/remake material model is counted once; active person scopes, biological/AI distinctions and source limits remain explicit.",
+      "changes": 48,
+      "path": "research/revisions/revision-026.json"
+    },
+    {
+      "id": "revision-027",
+      "revised_on": "2026-10-17",
+      "reason": "Thirteen game/tabletop holds retained: living Nomai and awake Halcyon, distinct Warhammer populations, explicitly modeled active TITAN captives, three Transhuman Space institutions and two bounded Traveller configurations. Stored minds, mindless units and cryosleep are never scored as leisure.",
+      "changes": 31,
+      "path": "research/revisions/revision-027.json"
+    },
+    {
+      "id": "revision-028",
+      "revised_on": "2026-10-17",
+      "reason": "Twelve comic/webcomic institutions retained, including Freefall, the Carrier team, United Planets, Tokyo Ghost, distinct Carlyle/Hock domains and Descender periods. Neoafan scope is corrected to the active Eina-Afa habitat. Paan’uri physics and Hob’s individual body receive completed separate comparisons.",
+      "changes": 29,
+      "path": "research/revisions/revision-028.json"
+    },
+    {
+      "id": "revision-029",
+      "revised_on": "2026-10-17",
+      "reason": "Sixteen robot-comic and European graphic futures retained. North Am/Freewill, active Mekaka, the Hoop, distinct Vinean access units and Megalex are scoped explicitly. The Metabaron is corrected to the second-cycle Epiphyte regime, Edena gains author-level artificial-food provenance, and promised destinations are not treated as completed societies.",
+      "changes": 37,
+      "path": "research/revisions/revision-029.json"
+    },
+    {
+      "id": "revision-030",
+      "revised_on": "2026-10-17",
+      "reason": "Thirteen further multimedia models retained, finishing the present multimedia follow-up tier. Lancer and Starsector institutions remain distinct; the Patent Office is a real AI-backed work unit, television Logan’s Run is human-ruled, Gary’s ship is corrected to Galaxy One and the Tao has real resident generations. Nova Praxis Purists link to existing material-access classes rather than adding a duplicate point.",
+      "changes": 32,
+      "path": "research/revisions/revision-030.json"
+    },
+    {
+      "id": "revision-031",
+      "revised_on": "2026-10-17",
+      "reason": "Nine early literary holds retained with precise periods and explicit interpretations. Morthanveld AI restraint is corroborated, Gaia retains real useful work and Robot Visions has a conditional synthetic-person scope. Chemical apparent abundance and Daneel’s heterogeneous influence receive completed comparisons; the repeated Humanoid provider baseline links without duplication.",
+      "changes": 23,
+      "path": "research/revisions/revision-031.json"
+    },
+    {
+      "id": "revision-032",
+      "revised_on": "2026-10-17",
+      "reason": "Twelve Reynolds/Heinlein/Clarke/Lem material orders retained. Short workweeks, automatic transport, enhanced-animal labor, alien technology transfer and circular factories are not turned into false labor censuses. Firstborn species management and the Eleventh Voyage’s human-operated disguise receive completed comparisons outside the society count.",
+      "changes": 26,
+      "path": "research/revisions/revision-032.json"
+    },
+    {
+      "id": "revision-033",
+      "revised_on": "2026-10-17",
+      "reason": "Twelve constructed, robotic, biotech and institutional societies retained. The 2252 theocracy corrects an unbounded Haldeman discovery label; matter-production institutions are explicitly projected, digient care costs remain real and One State duties still count. Peace on Earth receives a completed military-ecology comparison without a fictitious civilian leisure rate.",
+      "changes": 26,
+      "path": "research/revisions/revision-033.json"
+    },
+    {
+      "id": "revision-034",
+      "revised_on": "2026-10-17",
+      "reason": "Twelve Simak/Vonnegut/Leiber records retained from eleven old holds. The two All the Traps of Earth settings have separate populations and controls; Way Station and wordmills are scoped continuing work institutions. Ant City personhood is an explicit collective analogy, creator legends remain legends and actual alien gifts are separated from forecasts.",
+      "changes": 23,
+      "path": "research/revisions/revision-034.json"
+    },
+    {
+      "id": "revision-035",
+      "revised_on": "2026-10-17",
+      "reason": "Fourteen Bradbury/Asimov/Kornbluth/Sturgeon/Le Guin and early-automation cases retained. Households use discrete living-person scenarios; working societies retain assigned and voluntary labor. Anarres is a limited computer-assisted scarce commons, Xanadu amplifies common access without pretending humans stop producing, and massacre never becomes leisure.",
+      "changes": 28,
+      "path": "research/revisions/revision-035.json"
+    },
+    {
+      "id": "revision-036",
+      "revised_on": "2026-10-17",
+      "reason": "Ten Piercy/Russ/Stross societies retained. Saturn free basics gain direct primary confirmation and remain separate from inner-system Economics 2.0. Android and metahuman work is explicit, Tikva differs from corporate indenture, and unwritten ReMastered plans are excluded. Eschaton cross-world constraints receive a completed separate comparison.",
+      "changes": 23,
+      "path": "research/revisions/revision-036.json"
+    },
+    {
+      "id": "revision-037",
+      "revised_on": "2026-10-17",
+      "reason": "Twelve Doctorow/Stross, Rajaniemi, Kunsken and Egan models retained. Quiet and gogol activity is real human-derived labor; Puppets are biological people. Earth/Cloud, gleisners/polises/fleshers and origin/employer scopes stay separate. Atlanta gains direct author-published identification instead of an all-fleshers aggregation.",
+      "changes": 26,
+      "path": "research/revisions/revision-037.json"
+    },
+    {
+      "id": "revision-038",
+      "revised_on": "2026-10-17",
+      "reason": "Eleven Egan/Reynolds person communities retained, with active mind, post-plague and privileged-cohort scopes. Ararat is corrected to source-identified First Camp with actual technical infrastructure; Conjoiner fabrication is not an oversight-hours census. Vigilance gets archive corroboration without an invented origin. The Splinter receives a completed pre-industrial-discovery comparison distinct from Amalgam provision.",
+      "changes": 26,
+      "path": "research/revisions/revision-038.json"
+    },
+    {
+      "id": "revision-039",
+      "revised_on": "2026-10-17",
+      "reason": "Twelve Reynolds/Hamilton material orders retained from fourteen old holds. Fountainhead trade and Adamist routine-task mechanization gain bounded corroboration; High Angel/Tranquillity provider identity is not assumed machine, and advanced aliens do real work. Troika’s wrong discovery label and Greenfly ecology receive completed comparisons.",
+      "changes": 29,
+      "path": "research/revisions/revision-039.json"
+    },
+    {
+      "id": "revision-040",
+      "revised_on": "2026-10-17",
+      "reason": "Current-policy best guesses for Hamilton biological/mission societies and recognizable computational economies; correct Apex human origin and distinguish projections, households and working institutions.",
+      "changes": 26,
+      "path": "research/revisions/revision-040.json"
+    },
+    {
+      "id": "revision-041",
+      "revised_on": "2026-10-17",
+      "reason": "Current-policy advanced-economy best guesses; distinguish active synthetic/human-derived persons, actual working periods and explicit Seed projection; correct cross-volume sources and unsupported Superluminal post-conflict label.",
+      "changes": 42,
+      "path": "research/revisions/revision-041.json"
+    },
+    {
+      "id": "revision-042",
+      "revised_on": "2026-10-17",
+      "reason": "Current-policy best guesses for familiar Gibson/Sterling settings; separate Agency timelines, privileged and working cohorts, human-derived and artificial minds, actual partial services and projected successor economies.",
+      "changes": 29,
+      "path": "research/revisions/revision-042.json"
+    },
+    {
+      "id": "revision-043",
+      "revised_on": "2026-10-17",
+      "reason": "Current-policy best guesses for Simmons and Brunner; distinguish pre-Fall, actual Ousters and Pax, active synthetic proxies, earlier orbital residents, temporary control units and projected closing proposals.",
+      "changes": 27,
+      "path": "research/revisions/revision-043.json"
+    },
+    {
+      "id": "revision-044",
+      "revised_on": "2026-10-17",
+      "reason": "Fifteen current-policy Pohl/Bobiverse/Tchaikovsky models; distinguish paid services, actual duty units, named assisted colony, active biological/digital persons and settled versus roving support.",
+      "changes": 32,
+      "path": "research/revisions/revision-044.json"
+    },
+    {
+      "id": "revision-045",
+      "revised_on": "2026-10-17",
+      "reason": "Sixteen current-policy recent robot/technical economies from seventeen holds, with one shared Cirrus mission duplicate; preserve working persons, narrow crew/household scopes and direct versus inferred automation.",
+      "changes": 37,
+      "path": "research/revisions/revision-045.json"
+    },
+    {
+      "id": "revision-046",
+      "revised_on": "2026-10-17",
+      "reason": "Thirteen current-policy controlled-worker, survivor and virtual/preserve models; retain living forced work, discrete domestic scenarios, actual active synthetic populations and explicitly limited technical-support institutions.",
+      "changes": 30,
+      "path": "research/revisions/revision-046.json"
+    },
+    {
+      "id": "revision-047",
+      "revised_on": "2026-10-17",
+      "reason": "Twelve later-discovery models from fifteen holds; link three shared Reynolds welfare baselines, distinguish machine versus biological production, correct false public-income guesses and explicitly project the Mechasm horizon.",
+      "changes": 28,
+      "path": "research/revisions/revision-047.json"
+    },
+    {
+      "id": "revision-048",
+      "revised_on": "2026-10-17",
+      "reason": "Source follow-up: make Set My Heart to Five’s directly quoted human-job reservation and bot dentistry visible in its description, without changing numeric estimates or claiming every protected job is unnecessary.",
+      "changes": 1,
+      "path": "research/revisions/revision-048.json"
+    },
+    {
+      "id": "revision-049",
+      "revised_on": "2026-10-17",
+      "reason": "Twelve current-policy MacLeod/Anderson/Silverberg/Jemisin models; correct the Jupiter versus New Mars labor geography and preserve active worker, Earth/colony and political-period distinctions.",
+      "changes": 29,
+      "path": "research/revisions/revision-049.json"
+    },
+    {
+      "id": "revision-050",
+      "revised_on": "2026-10-17",
+      "reason": "Eighteen current-policy remaining discovery models; preserve explicit weak-mechanism qualifications, active synthetic hypotheses, direct later-human food factories and familiar Soviet technical alternatives.",
+      "changes": 38,
+      "path": "research/revisions/revision-050.json"
+    },
+    {
+      "id": "revision-051",
+      "revised_on": "2026-10-17",
+      "reason": "Fourteen current-policy remaining models; preserve television chronology, direct biological/industrial output, Regent-era authority, Tuckerite local industries and explicit digital/vision limitations.",
+      "changes": 30,
+      "path": "research/revisions/revision-051.json"
+    },
+    {
+      "id": "revision-052",
+      "revised_on": "2026-10-17",
+      "reason": "Complete eleven remaining holds with twelve best-guess records, including a two-culture split; preserve explicit historical reconstruction, human-derived personhood, first-volume limits and the novel/Last Day age-21 baseline.",
+      "changes": 26,
+      "path": "research/revisions/revision-052.json"
+    },
+    {
+      "id": "revision-053",
+      "revised_on": "2026-10-17",
+      "reason": "Completion review corrects Manna’s unemployment-to-nonworking shortcut and makes Comarre’s active conscious-person requirement explicit; no new record is counted.",
+      "changes": 2,
+      "path": "research/revisions/revision-053.json"
+    },
+    {
+      "id": "revision-054",
+      "revised_on": "2026-10-17",
+      "reason": "Consistent best-guess metadata for the two completion-review records: source facts remain stated, while all editorial coordinate confidence labels use the conservative low setting required by the current schema.",
+      "changes": 2,
+      "path": "research/revisions/revision-054.json"
+    },
+    {
+      "id": "revision-055",
+      "revised_on": "2026-10-17",
+      "reason": "Completion review adds actual Night City anime scope and official film-economy corroboration, separates Cyberpunk facts from guarantee inference and widens Alt/Control origins rather than equate autocracy with unrelated AI.",
+      "changes": 6,
+      "path": "research/revisions/revision-055.json"
+    },
+    {
+      "id": "revision-056",
+      "revised_on": "2026-10-21",
+      "reason": "Align every retained record with article.txt: swap historical types 2/3, separate post-wage access from participation, review all 890 allocation models, and resolve article examples with factual qualifications.",
+      "changes": 1803,
+      "path": "research/revisions/revision-056.json"
+    }
+  ]
+}

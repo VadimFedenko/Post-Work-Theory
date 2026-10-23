@@ -1,0 +1,52 @@
+{
+  "total": 3,
+  "items": [
+    {
+      "type": "app",
+      "name": "Horizon Zero Dawn™ Remastered",
+      "id": 2561580,
+      "price": {
+        "currency": "USD",
+        "initial": 4999,
+        "final": 4999
+      },
+      "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2561580/507f27b6be81658f406a42e269a2e4b065941ade/capsule_231x87.jpg?t=1750952943",
+      "metascore": "",
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "streamingvideo": false,
+      "controller_support": "full"
+    },
+    {
+      "type": "app",
+      "name": "Horizon Zero Dawn™ Complete Edition",
+      "id": 1151640,
+      "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1151640/capsule_231x87.jpg?t=1776465788",
+      "metascore": "",
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "streamingvideo": false,
+      "controller_support": "full"
+    },
+    {
+      "type": "app",
+      "name": "The Making of Horizon Zero Dawn",
+      "id": 804410,
+      "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/804410/capsule_231x87.jpg?t=1654314843",
+      "metascore": "",
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "streamingvideo": true,
+      "controller_support": "full"
+    }
+  ]
+}

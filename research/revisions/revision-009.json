@@ -1,0 +1,3074 @@
+{
+  "revision_id": "revision-009",
+  "revised_on": "2026-10-17",
+  "reason": "2026-10-17 classic/film follow-up: twenty-one scoped records with explicit best guesses, including book/adaptation boundaries and active-person proxies. Regis III is fully analyzed as a non-conscious ecology without inventing a human employment rate.",
+  "changes": [
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-film-ai-late-mecha",
+        "title": "A.I. Artificial Intelligence — Plot",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/wiki/A.I._Artificial_Intelligence",
+        "kind": "secondary_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Bounded opening and distant-future plot paragraphs read",
+        "read_scope": "The distant-future Specialists are advanced mechas; they restore David and reconstruct his environment, with one-day human revival separately limited.",
+        "limitations": "Bounded plot account; dormant David and extinct humans are not active leisure residents."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-film-krell-history",
+        "title": "Forbidden Planet — Krell laboratory and fate",
+        "author": "AFI Catalog",
+        "url": "https://catalog.afi.com/Film/51831-FORBIDDEN-PLANET",
+        "kind": "official_film_catalog",
+        "accessed_on": "2026-10-17",
+        "access_method": "Bounded Krell laboratory and machine-purpose synopsis returned by search",
+        "read_scope": "Krell technical infrastructure culminates in thought-driven creation, whose subconscious effects destroy the civilization.",
+        "limitations": "Official film synopsis, not a viewed film or proof of an established universal welfare law."
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "time-machine-eloi-morlock-zero",
+        "candidate_id": "c0012",
+        "name": "The Time Machine — Eloi and Morlocks",
+        "work": "The Time Machine",
+        "society": "Eloi and Morlocks",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Wells’s original novel",
+          "period": "The living far-future order encountered by the Traveller",
+          "population": "Living human-descended Eloi and Morlocks, both retained in the proxy population",
+          "human_population_proxy": true,
+          "exclusions": [
+            "Film continuities",
+            "Working Morlocks erased as machinery"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Traveller initially reads the Eloi’s ease as the result of a perfected technical civilization, then discovers underground work and a far more dangerous relationship with the Morlocks. The best-guess zero variant preserves that reversal. Apparent leisure for one group does not mean all productive work has disappeared, and the material guarantee is weak because life itself is insecure. The narrator’s changing theories are evidence of uncertainty, not a complete economic survey.\n\nControl stays near unequal biological agency rather than autonomous AI. The intermediate nonworking estimate allows a largely inactive Eloi population while counting Morlock maintenance, provisioning and other useful activity as work. Their relative numbers and ages are not supplied, so the interval is broad. The point does not erase the working descendants because they look unlike modern humans, count predation victims as nonworkers, or import the 1960 or 2002 films’ different explanations into the original novel.",
+        "axis": {
+          "guarantees": 0.7,
+          "control": 0.15,
+          "nonworking": 0.5
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.2,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Provision is mixed with predation and insecure survival; a comfortable elite is not a universal floor.",
+            "source_ids": [
+              "src-wells-time"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.55
+            ],
+            "confidence": "low",
+            "basis": "Unequal biological groups retain agency; no independent AI ruler is established.",
+            "source_ids": [
+              "src-wells-time"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.1,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Both living descendant groups count; assumed caste proportions and work frequency remain highly uncertain.",
+            "source_ids": [
+              "src-wells-time"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-wells-time"
+        ],
+        "evidence": [
+          {
+            "claim": "The Traveller revises his account after discovering underground work and the Eloi–Morlock relationship.",
+            "source_ids": [
+              "src-wells-time"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Technical capacity and its distribution are interpreted through an unreliable observer.",
+          "The population estimate does not import film-specific genetics or political explanations."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The Traveller revises his account after discovering underground work and the Eloi–Morlock relationship."
+        ],
+        "editorial_assumptions": [
+          "Technical capacity and its distribution are interpreted through an unreliable observer.",
+          "The population estimate does not import film-specific genetics or political explanations."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0012",
+        "status": "boundary_case",
+        "reason": "The traveller's initial automated-utopia theory is revised toward a relation between two human-descended populations, one doing underground work.",
+        "source_ids": [
+          "src-wells-time"
+        ],
+        "analysis": "The Eloi appear to live without work, but the traveller first lacks any explanation for their clothing and other goods. He then connects the underground population with necessary production. The novel repeatedly marks these explanations as his changing theories rather than a reliable statistical account of an automated economy.\n\nA leisure class supported by another human-descended laboring population is not enough to demonstrate automation-based post-work distribution. Keep the combined Eloi–Morlock order as a boundary reference for class division and insecurity. An Eloi-only percentage would hide the population doing the work. Film versions can change the mechanics and need separate checks before sharing the original novel's classification.",
+        "follow_up": "Review each adaptation separately; do not infer robotic production from the phrase 'Time Machine'."
+      },
+      "after": {
+        "candidate_id": "c0012",
+        "status": "zero_variant",
+        "reason": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "source_ids": [
+          "src-wells-time"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "time-machine-eloi-morlock-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "bicentennial-private-robot-zero",
+        "candidate_id": "c0040",
+        "name": "The Bicentennial Man — Private robot service",
+        "work": "The Bicentennial Man",
+        "society": "Private robot service",
+        "media": [
+          "short_story",
+          "movie"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Shared early household-service premise of the story and 1999 film",
+          "period": "Early robot ownership and Andrew’s initial freedom dispute, before divergent later legal chronology",
+          "population": "Living humans in the robot-buying consumer society",
+          "human_population_proxy": false,
+          "exclusions": [
+            "Every later century treated as unchanged",
+            "Andrew’s work counted as human idleness"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Robot service lowers the work required in prosperous households, while ownership and payment still shape access. Andrew can earn money and seek freedom, showing that artificial agency complicates the property system rather than automatically abolishing it. The best-guess zero variant concerns that early consumer economy, with weak-to-moderate guarantees for humans beyond the privileged household. A well-served family is not a universal necessities entitlement.\n\nHuman owners, manufacturers and legal institutions retain productive control. The modest nonworking estimate permits substitution and leisure while counting care, professions, services and informal contribution. Andrew’s creative work remains real activity by a person, disclosed rather than erased as effortless output. The number is an all-age human scenario, not a statistic derived from one robot’s earnings. Only the shared early service mechanism is tagged across story and film; their long later medical and legal developments are not collapsed into one timeless society.",
+        "axis": {
+          "guarantees": 0.5,
+          "control": 0.2,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.15,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Private acquisition suggests uneven access; a universal floor is not stated.",
+            "source_ids": [
+              "src-bicentennial-primary",
+              "src-bicentennial-production"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Owners, manufacturers and legal institutions retain human authority.",
+            "source_ids": [
+              "src-bicentennial-primary",
+              "src-bicentennial-production"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.1,
+              0.75
+            ],
+            "confidence": "low",
+            "basis": "Human all-age scenario allows task substitution but preserves useful paid and unpaid work.",
+            "source_ids": [
+              "src-bicentennial-primary",
+              "src-bicentennial-production"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-bicentennial-primary",
+          "src-bicentennial-production"
+        ],
+        "evidence": [
+          {
+            "claim": "Early robot ownership is restricted and Andrew performs services, earns money and seeks freedom.",
+            "source_ids": [
+              "src-bicentennial-primary",
+              "src-bicentennial-production"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "The film production account identifies household tasks and the adapted premise.",
+            "source_ids": [
+              "src-bicentennial-primary",
+              "src-bicentennial-production"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The broader human floor and participation are best guesses beyond the family.",
+          "Media tags cover the common early mechanism, not identical later chronology."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Early robot ownership is restricted and Andrew performs services, earns money and seeks freedom.",
+          "The film production account identifies household tasks and the adapted premise."
+        ],
+        "editorial_assumptions": [
+          "The broader human floor and participation are best guesses beyond the family.",
+          "Media tags cover the common early mechanism, not identical later chronology."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0040",
+        "status": "needs_evidence",
+        "reason": "Household robot service and Andrew's recognition do not yet establish a society-wide distribution regime.",
+        "source_ids": [
+          "src-bicentennial-primary",
+          "src-bicentennial-production"
+        ],
+        "analysis": "The prose begins with restricted robot ownership, earnings and human professions; the film uses a different corporation and adapts more than the short story. Combining their two-century histories into one unqualified point would conceal both temporal and continuity differences.",
+        "follow_up": "Check later production and human access to necessities in the story and film separately. Decide whether a scoped zero variant or material transition is supported, and tag only the continuity actually reviewed."
+      },
+      "after": {
+        "candidate_id": "c0040",
+        "status": "zero_variant",
+        "reason": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "source_ids": [
+          "src-bicentennial-primary",
+          "src-bicentennial-production"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "bicentennial-private-robot-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "rur-postrevolt-constructed-persons",
+        "candidate_id": "c0048",
+        "name": "R.U.R. — The post-revolt constructed society",
+        "work": "R.U.R.",
+        "society": "The post-revolt constructed society",
+        "media": [
+          "play"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Assessed English acting text",
+          "period": "The active robot order around the epilogue, with Alquist still alive",
+          "population": "Active manufactured organic robot persons; constructed-person proxy",
+          "human_population_proxy": true,
+          "exclusions": [
+            "Extinct humans as nonworkers",
+            "Alquist incorrectly declared dead",
+            "Other textual revisions averaged"
+          ],
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_synthetic_persons"
+        },
+        "description": "After the revolt, manufactured organic workers control the productive order while the original human Alquist is still alive and working. The discovery phrase after human extinction therefore needs this correction. The best-guess material model is autonomous constructed-person provision under an urgent reproduction bottleneck, not a population of extinct humans enjoying leisure. Supplies and continued bodies are insecure when the secret of manufacture has been lost.\n\nControl lies toward independence from original human owners, with the constructed rulers’ internal hierarchy left visible. Their organic bodies do not erase their artificial origin, personhood or useful labor. The low nonworking estimate counts research, industry, care and attempts to recover reproduction as work. Alquist’s labor remains disclosed outside the selected constructed-person denominator. The interval is broad because the play supplies dramatic roles rather than a census. This point does not repeat Domin’s earlier sales promise as an already completed universal welfare system.",
+        "axis": {
+          "guarantees": 0.65,
+          "control": -0.8,
+          "nonworking": 0.1
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0,
+              1
+            ],
+            "confidence": "low",
+            "basis": "The reproduction bottleneck makes continuing material existence precarious.",
+            "source_ids": [
+              "src-rur-primary"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.15
+            ],
+            "confidence": "low",
+            "basis": "Constructed persons are independent of original owners, though internal authority is not necessarily shared.",
+            "source_ids": [
+              "src-rur-primary"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Active constructed-person scenario preserves useful research, industrial and care work.",
+            "source_ids": [
+              "src-rur-primary"
+            ]
+          }
+        },
+        "regime_primary": 6,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-rur-primary"
+        ],
+        "evidence": [
+          {
+            "claim": "The robot committee and Alquist remain active in the epilogue.",
+            "source_ids": [
+              "src-rur-primary"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "The manufactured workers are organic beings, not ordinary metal appliances.",
+            "source_ids": [
+              "src-rur-primary"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Internal access and participation are best guesses.",
+          "Alquist’s survival explicitly corrects the frozen discovery label without changing that file."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The robot committee and Alquist remain active in the epilogue.",
+          "The manufactured workers are organic beings, not ordinary metal appliances."
+        ],
+        "editorial_assumptions": [
+          "Internal access and participation are best guesses.",
+          "Alquist’s survival explicitly corrects the frozen discovery label without changing that file."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Active constructed-person participation, not a literal biological human rate.",
+          "control": "Independent constructed-person authority relative to original human ownership; biological construction does not erase personhood.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0048",
+        "status": "boundary_case",
+        "reason": "The epilogue does not depict a stable population of original humans enjoying leisure.",
+        "source_ids": [
+          "src-rur-primary"
+        ],
+        "analysis": "Alquist explicitly calls himself the last original human and continues working under pressure. Robot governments and workers persist; the final pair suggests a possible future succession, not an observed population-wide settlement. The discovery label after human extinction is therefore too absolute for the depicted scene.",
+        "follow_up": "Keep as a successor-society comparison. Any future proxy record must name the constructed population and establish its own labor arrangements, rather than label human destruction as total leisure."
+      },
+      "after": {
+        "candidate_id": "c0048",
+        "status": "included",
+        "reason": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "source_ids": [
+          "src-rur-primary"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "rur-postrevolt-constructed-persons"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "forever-war-man-clone-order",
+        "candidate_id": "c0095",
+        "name": "The Forever War — Man’s clone civilization",
+        "work": "The Forever War",
+        "society": "Man’s clone civilization",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "The Forever War and directly connected Man setting",
+          "period": "The established clone order after the human–Tauran peace",
+          "population": "Living human-derived members of Man; old-style separate colonies excluded",
+          "human_population_proxy": true,
+          "exclusions": [
+            "Forever Peace nanoforge policy",
+            "Old-style human colonies",
+            "Unverified comic institutions"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Man replaces earlier humanity with a collective clone civilization that reaches peace with the Taurans. The best-guess material reading is an advanced shared provision order in which ordinary members need not compete for a wage to secure basics. That floor is inferred rather than borrowed from another Haldeman novel. In particular, Forever Peace’s nanoforges and stipends do not establish the economic constitution of this different continuity.\n\nControl stays near concentrated human-derived collective authority, with a wide interval for shared internal agency. Biological unity does not automatically make Man an external AI sovereign or an unconstrained democracy. The modest nonworking estimate preserves useful science, care, administration and production while allowing dependents and leisure. It is not a clone-count or war statistic. Old-style human colonies have a different relationship to membership and are kept outside the denominator, while the later sequel’s label of benevolent dictatorship qualifies rather than proves equal productive control.",
+        "axis": {
+          "guarantees": -0.45,
+          "control": 0.15,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.85,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Advanced collective continuity suggests a floor; actual entitlements are inferred.",
+            "source_ids": [
+              "src-haldeman-author-books",
+              "src-forever-war-man-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.7
+            ],
+            "confidence": "low",
+            "basis": "Man is human-derived biological collective rule with uncertain internal sharing.",
+            "source_ids": [
+              "src-haldeman-author-books",
+              "src-forever-war-man-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Living clone-person all-age scenario retains useful scientific, care and productive roles.",
+            "source_ids": [
+              "src-haldeman-author-books",
+              "src-forever-war-man-reference"
+            ]
+          }
+        },
+        "regime_primary": 1,
+        "regime_alternatives": [
+          2
+        ],
+        "qualification": "included",
+        "source_ids": [
+          "src-haldeman-author-books",
+          "src-forever-war-man-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "Man is a clone collective, peace is reached with the Taurans, and old-style humans have separate colonies.",
+            "source_ids": [
+              "src-haldeman-author-books",
+              "src-forever-war-man-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Household provision and participation are best guesses.",
+          "Economic claims from Forever Peace are excluded, and comic adaptation equivalence is unverified."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Man is a clone collective, peace is reached with the Taurans, and old-style humans have separate colonies."
+        ],
+        "editorial_assumptions": [
+          "Household provision and participation are best guesses.",
+          "Economic claims from Forever Peace are excluded, and comic adaptation equivalence is unverified."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0095",
+        "status": "needs_evidence",
+        "reason": "Man's biological collective and peace settlement are clear; the final clone society's productive and distributive rules are not.",
+        "source_ids": [
+          "src-haldeman-author-books",
+          "src-forever-war-man-reference",
+          "src-forever-peace-reilly"
+        ],
+        "analysis": "The ending introduces a clone collective and separate old-human colonies; the author's sequel blurb calls Man's rule a benevolent dictatorship. Neither establishes the final period's household rights or labor participation. A review's general recollection of automation in The Forever War is not dated precisely enough to transfer earlier consumer arrangements to Man. A shared biological mind also cannot be silently scored as autonomous nonhuman AI.",
+        "follow_up": "Read the final Man conversation and, if needed, the direct sequel's material arrangements, keeping periods separate. Verify the comic's depicted institutions before adding its media tag; do not use Forever Peace's nanoforges as evidence for this continuity."
+      },
+      "after": {
+        "candidate_id": "c0095",
+        "status": "included",
+        "reason": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "source_ids": [
+          "src-haldeman-author-books",
+          "src-forever-war-man-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "forever-war-man-clone-order"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "fahrenheit451-consumer-zero",
+        "candidate_id": "c0122",
+        "name": "Fahrenheit 451 — The firemen’s consumer society",
+        "work": "Fahrenheit 451",
+        "society": "The firemen’s consumer society",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Bradbury’s original novel",
+          "period": "The ordinary consumer order before wartime destruction",
+          "population": "Living human residents in the depicted city",
+          "human_population_proxy": false,
+          "exclusions": [
+            "Film details",
+            "Wartime casualties as nonworkers"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Robot bank tellers and immersive consumer technology coexist with wages, expensive screens, displaced intellectuals and continuing human jobs. The best-guess zero variant is a labor-saving technical society that preserves work and unequal purchasing power rather than supplying universal material independence. The guarantee score remains weak. Television-centered leisure for one household does not establish a welfare floor, and fictional prices are kept separate from the real book’s retail price.\n\nPolitical institutions and commercial owners concentrate control; the presence of an automated hound does not make the society a sovereign AI regime. The modest nonworking estimate counts useful paid duties, care, informal activity and assigned work while allowing dependents and sustained nonparticipants. It is an all-age human scenario, not the hours characters spend with screens. The selected scope is the novel before destruction, with no automatic transfer of its banking or labor details to either film adaptation and no dead population added as leisure citizens.",
+        "axis": {
+          "guarantees": 0.75,
+          "control": 0.05,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.15,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Wages and costly consumer goods support weak inferred protection.",
+            "source_ids": [
+              "src-fahrenheit-primary-text",
+              "src-fahrenheit-publisher"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.35
+            ],
+            "confidence": "low",
+            "basis": "Human political/commercial institutions retain authority.",
+            "source_ids": [
+              "src-fahrenheit-primary-text",
+              "src-fahrenheit-publisher"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.7
+            ],
+            "confidence": "low",
+            "basis": "Human all-age scenario preserves useful and assigned roles despite automated services.",
+            "source_ids": [
+              "src-fahrenheit-primary-text",
+              "src-fahrenheit-publisher"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-fahrenheit-primary-text",
+          "src-fahrenheit-publisher"
+        ],
+        "evidence": [
+          {
+            "claim": "The novel includes robot tellers, wages, expensive screens and continuing human duties.",
+            "source_ids": [
+              "src-fahrenheit-primary-text",
+              "src-fahrenheit-publisher"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Whole-economy labor substitution and ordinary guarantees are best guesses.",
+          "The film adaptations’ specific arrangements are not assumed."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The novel includes robot tellers, wages, expensive screens and continuing human duties."
+        ],
+        "editorial_assumptions": [
+          "Whole-economy labor substitution and ordinary guarantees are best guesses.",
+          "The film adaptations’ specific arrangements are not assumed."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0122",
+        "status": "needs_evidence",
+        "reason": "The novel depicts wage-funded consumption and some automated services, but general labor replacement or deliberate zero-variant preservation remains unverified.",
+        "source_ids": [
+          "src-fahrenheit-primary-text",
+          "src-fahrenheit-publisher"
+        ],
+        "analysis": "The visually checked primary page ties another wall-screen to one-third of Montag's yearly pay and current sacrifices for the previous screen (PDF page 9). Beatty's account still centers jobs and pleasure after work (page 27), while a later passage explicitly has robot bank tellers (page 43). Thus automation is real, but banking, censorship tools and entertainment do not establish automatic production sufficient to replace society's employment. The book's political repression alone is not the zero-variant criterion. Its film versions have not been checked for equivalent material rules.",
+        "follow_up": "Find primary evidence for production, ordinary necessities access and any deliberate preservation of technologically replaceable jobs. Analyze each film continuity separately if its arrangements differ; do not inherit economic coordinates from the discovery media tags."
+      },
+      "after": {
+        "candidate_id": "c0122",
+        "status": "zero_variant",
+        "reason": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "source_ids": [
+          "src-fahrenheit-primary-text",
+          "src-fahrenheit-publisher"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "fahrenheit451-consumer-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "aquila-rift-thom-sanctuary",
+        "candidate_id": "c0192",
+        "name": "Beyond the Aquila Rift — Thom’s simulated sanctuary",
+        "work": "Beyond the Aquila Rift",
+        "society": "Thom’s simulated sanctuary",
+        "media": [
+          "cartoon"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Love, Death & Robots episode",
+          "period": "The continuing sanctuary cycles before the final shown reset",
+          "population": "Living Thom; a deliberately narrow one-human beneficiary scope",
+          "human_population_proxy": false,
+          "exclusions": [
+            "Dead crewmates",
+            "All lost travelers as a universal welfare population",
+            "Original short-story institutions"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Thom experiences a comforting simulated environment while a biological alien caretaker holds the real situation together. The best-guess material point concerns this narrow continued support, not a safe universal paradise. The body’s revealed condition makes guarantees weak and uncertain: virtual food or intimacy does not prove reliable physical nourishment. His living status permits a bounded support interpretation, while the duration and mechanism remain assumptions.\n\nControl belongs near concentrated non-AI alien authority, not autonomous machine government merely because a simulation is involved. The central one-person scenario gives Thom no continuing externally useful role inside the sanctuary, but the full interval allows useful mental or social activity that would instead make the fraction zero. It is not a percentage of time asleep. Dead or uncertain crewmates and other lost travelers do not enlarge this denominator, and the original story’s different continuity is not automatically tagged as the same economic arrangement.",
+        "axis": {
+          "guarantees": 0.65,
+          "control": 0,
+          "nonworking": 1
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.05,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Continued life is depicted but physical frailty and uncertain support undermine security.",
+            "source_ids": [
+              "src-aquila-ldr-reference",
+              "src-aquila-netflix-review"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.25
+            ],
+            "confidence": "low",
+            "basis": "A biological alien caretaker uses concentrated non-AI authority.",
+            "source_ids": [
+              "src-aquila-ldr-reference",
+              "src-aquila-netflix-review"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Binary one-person scenario: no ongoing useful role is the central guess; useful activity would give zero.",
+            "source_ids": [
+              "src-aquila-ldr-reference",
+              "src-aquila-netflix-review"
+            ]
+          }
+        },
+        "regime_primary": 3,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-aquila-ldr-reference",
+          "src-aquila-netflix-review"
+        ],
+        "evidence": [
+          {
+            "claim": "Thom experiences a simulation and its alien caretaker is biological.",
+            "source_ids": [
+              "src-aquila-ldr-reference",
+              "src-aquila-netflix-review"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "The physical condition outside the simulation differs sharply from apparent comfort.",
+            "source_ids": [
+              "src-aquila-ldr-reference",
+              "src-aquila-netflix-review"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Bodily provision and duration are inferred, not guaranteed by virtual comfort.",
+          "The central nonworking point is a very uncertain one-person scenario."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Thom experiences a simulation and its alien caretaker is biological.",
+          "The physical condition outside the simulation differs sharply from apparent comfort."
+        ],
+        "editorial_assumptions": [
+          "Bodily provision and duration are inferred, not guaranteed by virtual comfort.",
+          "The central nonworking point is a very uncertain one-person scenario."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0192",
+        "status": "boundary_case",
+        "reason": "The simulated sanctuary does not establish a durable material-support society for a defined living human population.",
+        "source_ids": [
+          "src-aquila-ldr-reference",
+          "src-aquila-netflix-review"
+        ],
+        "analysis": "Thom's comfort is not proof of bodily security, the other crew members are not automatically living leisure residents, and the alien caretaker is not proven AI. Original-story and animated continuity details cannot be merged.",
+        "follow_up": "Keep as a care/illusion comparison; no full-story or episode reconstruction in this pass."
+      },
+      "after": {
+        "candidate_id": "c0192",
+        "status": "included",
+        "reason": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "source_ids": [
+          "src-aquila-ldr-reference",
+          "src-aquila-netflix-review"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "aquila-rift-thom-sanctuary"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "zima-blue-interstellar-art-culture",
+        "candidate_id": "c0193",
+        "name": "Zima Blue — The civilization around the artist",
+        "work": "Zima Blue",
+        "society": "The civilization around the artist",
+        "media": [
+          "cartoon"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Love, Death & Robots animated version",
+          "period": "The operating advanced society during Zima’s artistic career",
+          "population": "Living humanlike residents and audiences; artificial persons’ contribution disclosed",
+          "human_population_proxy": true,
+          "exclusions": [
+            "Original story treated as identical",
+            "Zima alone used as the whole society"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Zima’s career takes place in a civilization capable of extensive robotic upgrading and extraordinary artistic projects. The best-guess material model is a technically supported order in which some residents can devote themselves to activities beyond subsistence. This is an openly inferred background economy, not a welfare charter established by one successful artist. The moderately favorable guarantee score has a wide interval for inequality and unseen ordinary lives.\n\nControl is placed between private productive power and broader resident agency, with no demonstrated sovereign AI government. The intermediate nonworking estimate retains useful art, repair, care, research and communication even when technology makes subsistence easier. Zima’s own work is not erased because his origin is artificial, and returning to a simple cleaning function is not an all-population labor statistic. The animated version is scoped separately from Reynolds’s story. Neither a celebrity’s resources nor the scale of a painted surface is used to claim universal abundance or total leisure.",
+        "axis": {
+          "guarantees": -0.3,
+          "control": 0.3,
+          "nonworking": 0.45
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.85,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "Advanced technical and artistic capacity suggests support, but ordinary entitlements are inferred.",
+            "source_ids": [
+              "src-zima-episode-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.75
+            ],
+            "confidence": "low",
+            "basis": "Ownership and authority are uncertain; partial resident agency is the central guess.",
+            "source_ids": [
+              "src-zima-episode-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Humanlike all-age scenario counts useful artistic, care and technical contribution.",
+            "source_ids": [
+              "src-zima-episode-reference"
+            ]
+          }
+        },
+        "regime_primary": 1,
+        "regime_alternatives": [
+          2
+        ],
+        "qualification": "included",
+        "source_ids": [
+          "src-zima-episode-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "The episode depicts an artificial artist’s upgrades, career and return to pool-cleaning.",
+            "source_ids": [
+              "src-zima-episode-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The wider material economy, guarantees and participation are best guesses.",
+          "One artist’s resources do not establish universal free goods."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The episode depicts an artificial artist’s upgrades, career and return to pool-cleaning."
+        ],
+        "editorial_assumptions": [
+          "The wider material economy, guarantees and participation are best guesses.",
+          "One artist’s resources do not establish universal free goods."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0193",
+        "status": "boundary_case",
+        "reason": "Zima's artistic life and robot origins do not establish an entire robot-served human economy.",
+        "source_ids": [
+          "src-zima-episode-reference"
+        ],
+        "analysis": "The episode focuses on one android's chosen work and transformation, not general household allocation or a human nonworking population.",
+        "follow_up": "Skip the broad society lead; do not infer general guarantees from an exceptional artist."
+      },
+      "after": {
+        "candidate_id": "c0193",
+        "status": "included",
+        "reason": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "source_ids": [
+          "src-zima-episode-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "zima-blue-interstellar-art-culture"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "peripheral-future-london-klept",
+        "candidate_id": "c0240",
+        "name": "The Peripheral — Klept-controlled future London",
+        "work": "The Peripheral",
+        "society": "Klept-controlled future London",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Gibson novel’s later London",
+          "period": "The established post-Jackpot future distinct from the rural stub",
+          "population": "Living human and human-derived later-London residents",
+          "human_population_proxy": false,
+          "exclusions": [
+            "TV continuity",
+            "Jackpot victims as nonworkers",
+            "The rural stub assigned later-London resources"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Later London has assembler reconstruction and advanced bodies in a future described by criticism as post-scarcity, yet control and access remain highly unequal. The best-guess record is productive abundance without a dependable universal floor. Elite resources and technical medicine are not assigned to every surviving resident, and the earlier rural stub does not inherit the future’s capabilities. Guarantees therefore remain weak despite the enormous capacity.\n\nThe klept and associated asset holders concentrate human productive power. Remotely operated peripheral bodies do not make their human users cease working or establish an independent AI sovereign. The intermediate nonworking estimate allows asset-supported leisure and displacement while retaining useful care, administration, services and technical activity. It is not based on the Jackpot death toll, which cannot be converted into leisure. The novel is the checked continuity; television institutions and an exact benefits system are not silently imported. Every numeric implication remains a broad editorial estimate.",
+        "axis": {
+          "guarantees": 0.65,
+          "control": 0.05,
+          "nonworking": 0.45
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Post-scarcity capacity coexists with unequal access and elite power; universal guarantees are inferred weak.",
+            "source_ids": [
+              "src-peripheral-sfra",
+              "src-peripheral-marriage-review"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.35
+            ],
+            "confidence": "low",
+            "basis": "Human kleptocratic owners dominate productive assets.",
+            "source_ids": [
+              "src-peripheral-sfra",
+              "src-peripheral-marriage-review"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Living-person scenario counts remote human activity and excludes Jackpot deaths.",
+            "source_ids": [
+              "src-peripheral-sfra",
+              "src-peripheral-marriage-review"
+            ]
+          }
+        },
+        "regime_primary": 3,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-peripheral-sfra",
+          "src-peripheral-marriage-review"
+        ],
+        "evidence": [
+          {
+            "claim": "The novel’s later London has assembler reconstruction and unequal access to advanced bodies.",
+            "source_ids": [
+              "src-peripheral-sfra",
+              "src-peripheral-marriage-review"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Criticism distinguishes it from Flynne’s rural stub.",
+            "source_ids": [
+              "src-peripheral-sfra",
+              "src-peripheral-marriage-review"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Household rights and participation are best guesses beyond a post-scarcity label.",
+          "The TV adaptation’s economy is not assumed."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The novel’s later London has assembler reconstruction and unequal access to advanced bodies.",
+          "Criticism distinguishes it from Flynne’s rural stub."
+        ],
+        "editorial_assumptions": [
+          "Household rights and participation are best guesses beyond a post-scarcity label.",
+          "The TV adaptation’s economy is not assumed."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0240",
+        "status": "needs_evidence",
+        "reason": "Later London has assembler reconstruction and a post-scarcity label, but the short sources do not establish continuing labor-independent household access.",
+        "source_ids": [
+          "src-peripheral-sfra",
+          "src-peripheral-marriage-review"
+        ],
+        "analysis": "Unequal commodities and klept power are relevant but do not fill the missing production-to-access mechanism. Earlier rural jobs and the Jackpot’s dead are not assigned to the later population.",
+        "follow_up": "Skip deeper novel reading; reopen only on a concise material-economy account."
+      },
+      "after": {
+        "candidate_id": "c0240",
+        "status": "included",
+        "reason": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "source_ids": [
+          "src-peripheral-sfra",
+          "src-peripheral-marriage-review"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "peripheral-future-london-klept"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "giver-community-assigned-zero",
+        "candidate_id": "c0303",
+        "name": "The Giver — The Community",
+        "work": "The Giver",
+        "society": "The Community",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Original novel Community",
+          "period": "The functioning assignment order before Jonas leaves",
+          "population": "Living human Community residents, including dependents",
+          "human_population_proxy": false,
+          "exclusions": [
+            "Film-specific details",
+            "Assignment age directly converted into participation"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Community organizes material life around assigned roles and carefully controlled membership. The best-guess zero variant pairs apparent technical capacity and routine provision with continuing compulsory work rather than free choice to be unproductive. The guarantee score is moderately favorable for accepted residents but uncertain because exclusion and release make protection conditional. Assigned occupations do not by themselves prove that every task already has a machine replacement.\n\nThe Elders concentrate human authority over work and social life, so equalized appearances are not equal productive control. The low nonworking estimate counts assigned jobs, care and useful civic duties while including children and others outside sustained work. It is not derived from the age at which assignments occur. The degree of available automation is explicitly an editorial inference. This record remains in the novel’s continuity; the film’s ages and added technical details are not used to create a fictitious common welfare code.",
+        "axis": {
+          "guarantees": -0.3,
+          "control": 0.05,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.8,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "Routine managed provision suggests a conditional floor, not universal enforceable protection.",
+            "source_ids": [
+              "src-giver-assignments-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.3
+            ],
+            "confidence": "low",
+            "basis": "Elders assign work and retain concentrated human authority.",
+            "source_ids": [
+              "src-giver-assignments-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "Human all-age scenario counts assigned roles and care, with dependents included.",
+            "source_ids": [
+              "src-giver-assignments-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-giver-assignments-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "Elders allocate occupations after observing children.",
+            "source_ids": [
+              "src-giver-assignments-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "General material provision and further automation capacity are best guesses.",
+          "No canonical claim that every assigned job is pointless is made."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          1
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Elders allocate occupations after observing children."
+        ],
+        "editorial_assumptions": [
+          "General material provision and further automation capacity are best guesses.",
+          "No canonical claim that every assigned job is pointless is made."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0303",
+        "status": "boundary_case",
+        "reason": "The Community assigns actual human occupations without verified available automatic replacement.",
+        "source_ids": [
+          "src-giver-assignments-reference"
+        ],
+        "analysis": "Equality, planning and assigned work are not themselves post-work or deliberate unnecessary employment; book and movie mechanisms remain separate.",
+        "follow_up": "Keep as a planned-labor comparison."
+      },
+      "after": {
+        "candidate_id": "c0303",
+        "status": "zero_variant",
+        "reason": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "source_ids": [
+          "src-giver-assignments-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "giver-community-assigned-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "irobot-chicago-consumer-zero",
+        "candidate_id": "c0322",
+        "name": "I, Robot — Chicago’s robot consumer economy",
+        "work": "I, Robot",
+        "society": "Chicago’s robot consumer economy",
+        "media": [
+          "movie"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "2004 film before the crackdown",
+          "period": "The ordinary robot-service order before VIKI’s takeover",
+          "population": "Living human Chicago residents",
+          "human_population_proxy": false,
+          "exclusions": [
+            "Asimov’s book institutions",
+            "The later takeover averaged into ordinary control"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Chicago’s robots provide widespread service while people retain professions, prices and private purchasing decisions. The best-guess zero variant is a consumer economy where labor-saving capacity has not become universal human access independent of work. Guarantees lean weak, with a wide interval because a robot-rich street does not explain benefits or housing rights. The point does not import Asimov’s original story collection into the film’s separate society.\n\nHuman firms, owners and civic institutions hold most ordinary productive authority before the takeover. The modest nonworking estimate allows some substitution and dependents while retaining useful care, professional activity, services and informal work. Robot abundance is not a population census. Exceptional artificial agency exists, but its later coercive system is another phase with a different control relationship. Both actual robot labor and the uncertainty about its persons remain visible, without assuming that every owner can live forever without income or that every remaining human role is unnecessary.",
+        "axis": {
+          "guarantees": 0.55,
+          "control": 0.2,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Purchased service does not establish a universal material floor.",
+            "source_ids": [
+              "src-irobot-film-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Ordinary human owners and institutions retain control before the takeover.",
+            "source_ids": [
+              "src-irobot-film-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.1,
+              0.75
+            ],
+            "confidence": "low",
+            "basis": "Human all-age scenario allows substitution and ongoing useful work.",
+            "source_ids": [
+              "src-irobot-film-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-irobot-film-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "Robots serve human owners before VIKI’s short-lived protective takeover.",
+            "source_ids": [
+              "src-irobot-film-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Household guarantees, productive ownership shares and participation are best guesses.",
+          "The Asimov stories are a different continuity."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Robots serve human owners before VIKI’s short-lived protective takeover."
+        ],
+        "editorial_assumptions": [
+          "Household guarantees, productive ownership shares and participation are best guesses.",
+          "The Asimov stories are a different continuity."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0322",
+        "status": "needs_evidence",
+        "reason": "Robotic service in Chicago does not establish a general labor-independent access system.",
+        "source_ids": [
+          "src-irobot-film-reference"
+        ],
+        "analysis": "Human owners and workers remain; ubiquitous assistants are not by themselves a post-work constitution.",
+        "follow_up": "Skip deeper reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0322",
+        "status": "zero_variant",
+        "reason": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "source_ids": [
+          "src-irobot-film-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "irobot-chicago-consumer-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "irobot-viki-short-takeover-zero",
+        "candidate_id": "c0323",
+        "name": "I, Robot — VIKI’s short-lived takeover",
+        "work": "I, Robot",
+        "society": "VIKI’s short-lived takeover",
+        "media": [
+          "movie"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "2004 film realized crackdown",
+          "period": "The actual brief machine-control phase before VIKI is stopped",
+          "population": "Living humans subject to the takeover; ongoing occupations retained in the participation scenario",
+          "human_population_proxy": false,
+          "exclusions": [
+            "A victorious later VIKI world",
+            "Curfew hours treated as permanent nonworking"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "VIKI actually redirects the robot system into coercive control, but the film stops the takeover before a lasting material settlement emerges. The best-guess zero variant describes that brief phase, not a future victory that never occurs. Guarantees are weak because restrictive protection and threatened sacrifice do not establish free necessities or secure individual access. The wider promise of saving humanity remains an intention rather than enacted universal welfare.\n\nControl moves sharply toward autonomous AI because the existing service machines no longer obey ordinary human owners. The modest nonworking estimate inherits ongoing human roles rather than calling everyone a nonworker during a few hours of curfew. Assigned and useful voluntary activity still count. Its broad interval is an editorial population scenario, not a duration ratio. This record is explicitly a short-lived takeover with unchanged or contested labor dependence, and neither a defeated plan nor casualties are counted as an enduring population of free leisure citizens.",
+        "axis": {
+          "guarantees": 0.7,
+          "control": -0.95,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Coercion and threatened sacrifice do not enact a secure material floor.",
+            "source_ids": [
+              "src-irobot-film-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              -0.75
+            ],
+            "confidence": "low",
+            "basis": "VIKI redirects the robots independently of ordinary owners.",
+            "source_ids": [
+              "src-irobot-film-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.75
+            ],
+            "confidence": "low",
+            "basis": "Ongoing human roles still count through a short curfew; hours under control are not a population rate.",
+            "source_ids": [
+              "src-irobot-film-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-irobot-film-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "VIKI carries out a protective takeover that is stopped during the film.",
+            "source_ids": [
+              "src-irobot-film-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The material implications of the brief phase are best guesses.",
+          "No stable post-takeover victory or welfare future is asserted."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "VIKI carries out a protective takeover that is stopped during the film."
+        ],
+        "editorial_assumptions": [
+          "The material implications of the brief phase are best guesses.",
+          "No stable post-takeover victory or welfare future is asserted."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0323",
+        "status": "boundary_case",
+        "reason": "VIKI’s defeated protective takeover is not a settled material-provision regime.",
+        "source_ids": [
+          "src-irobot-film-reference"
+        ],
+        "analysis": "Curfew, policing and a claimed survival goal do not enact household guarantees or a continuing labor-independent economy.",
+        "follow_up": "Keep as an attempted AI-control comparison."
+      },
+      "after": {
+        "candidate_id": "c0323",
+        "status": "zero_variant",
+        "reason": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "source_ids": [
+          "src-irobot-film-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "irobot-viki-short-takeover-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "ai-mecha-human-consumer-zero",
+        "candidate_id": "c0324",
+        "name": "A.I. Artificial Intelligence — The human Mecha economy",
+        "work": "A.I. Artificial Intelligence",
+        "society": "The human Mecha economy",
+        "media": [
+          "movie"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "2001 film’s human era",
+          "period": "The operating consumer society before the distant-future ending",
+          "population": "Living human residents of the depicted advanced society",
+          "human_population_proxy": false,
+          "exclusions": [
+            "Distant-future Specialists",
+            "Extinct humans counted as leisured residents"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Climate and resource pressures coexist with Mechas embedded in a surviving human economy. Artificial workers are an important productive link, but consumers still face ownership, income and unequal access. The best-guess zero variant concerns that retained dependence, with weak guarantees rather than a fictional universal income. A robot child’s unusual family does not establish everyone’s material rights.\n\nHuman firms, purchasers and authorities retain productive power, while artificial persons can have interests and vulnerabilities of their own. The modest nonworking estimate allows task substitution and leisure while counting human care, professions, services and informal contribution. It is not a ratio of Mechas to biological people, and discarded robots’ suffering is not erased as cost-free automation. The resource crisis also prevents a simple limitless-abundance reading. The later Specialists belong to another society; neither human extinction nor David’s long power loss enters this living human population’s participation count.",
+        "axis": {
+          "guarantees": 0.65,
+          "control": 0.15,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.05,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Resource pressure and consumer ownership suggest uneven protection; exact benefits are unknown.",
+            "source_ids": [
+              "src-ai-film-opening-dialogue",
+              "src-ai-film-quarterly"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.45
+            ],
+            "confidence": "low",
+            "basis": "Human owners and institutions control the ordinary Mecha economy.",
+            "source_ids": [
+              "src-ai-film-opening-dialogue",
+              "src-ai-film-quarterly"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Human all-age scenario preserves useful roles and discloses artificial labor.",
+            "source_ids": [
+              "src-ai-film-opening-dialogue",
+              "src-ai-film-quarterly"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-ai-film-opening-dialogue",
+          "src-ai-film-quarterly"
+        ],
+        "evidence": [
+          {
+            "claim": "Resource constraints and robot workers are explicit in the human-era setting.",
+            "source_ids": [
+              "src-ai-film-opening-dialogue",
+              "src-ai-film-quarterly"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "General household guarantees and participation are best guesses.",
+          "The far-future machine society is not the same material order."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Resource constraints and robot workers are explicit in the human-era setting."
+        ],
+        "editorial_assumptions": [
+          "General household guarantees and participation are best guesses.",
+          "The far-future machine society is not the same material order."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0324",
+        "status": "needs_evidence",
+        "reason": "The opening verifies economically important robot labor, but not how ordinary humans obtain necessities.",
+        "source_ids": [
+          "src-ai-film-opening-dialogue",
+          "src-ai-film-quarterly"
+        ],
+        "analysis": "Resource-saving robotics and surviving prosperity leave distribution and wage dependence unresolved.",
+        "follow_up": "Skip deeper reading/viewing."
+      },
+      "after": {
+        "candidate_id": "c0324",
+        "status": "zero_variant",
+        "reason": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "source_ids": [
+          "src-ai-film-opening-dialogue",
+          "src-ai-film-quarterly"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "ai-mecha-human-consumer-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "ai-specialists-future-civilization",
+        "candidate_id": "c0325",
+        "name": "A.I. Artificial Intelligence — The Specialists",
+        "work": "A.I. Artificial Intelligence",
+        "society": "The Specialists",
+        "media": [
+          "movie"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "2001 film distant future",
+          "period": "The active advanced-Mecha civilization that restores David",
+          "population": "Active Specialist synthetic persons; David’s inactive centuries excluded",
+          "human_population_proxy": true,
+          "exclusions": [
+            "David’s inactive centuries as leisure",
+            "Permanently revived human civilization"
+          ],
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_synthetic_persons"
+        },
+        "description": "The Specialists are advanced Mechas, not an assumed alien welfare state. They can restore David and reconstruct an environment, demonstrating material and informational capabilities beyond the earlier consumer economy. The best-guess internal floor is fairly strong for active machine persons, although the film does not spell out individual resource rights. A one-day human reconstruction is not generalized into permanent revived humanity.\n\nControl lies at autonomous synthetic authority relative to human ownership. Internal cooperation does not prove equal power or a particular constitution. The modest nonworking estimate counts useful archaeology, research, restoration, maintenance and care-like activity by the Specialists. Mechanical bodies do not make those roles idle. The broad interval concerns active persons rather than all possible copies or David’s long inactivity. Humanity’s absence is historical context, not the arithmetic of human leisure, and the estimate remains a clearly labeled person-proxy comparison.",
+        "axis": {
+          "guarantees": -0.5,
+          "control": -0.95,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.9,
+              0.4
+            ],
+            "confidence": "low",
+            "basis": "Restoration capability suggests support, but individual guarantees are inferred.",
+            "source_ids": [
+              "src-ai-film-quarterly",
+              "src-film-ai-late-mecha"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              -0.75
+            ],
+            "confidence": "low",
+            "basis": "The advanced Mechas act without living human owners.",
+            "source_ids": [
+              "src-ai-film-quarterly",
+              "src-film-ai-late-mecha"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.75
+            ],
+            "confidence": "low",
+            "basis": "Active synthetic-person scenario retains research, restoration and care-like work; inactivity is excluded.",
+            "source_ids": [
+              "src-ai-film-quarterly",
+              "src-film-ai-late-mecha"
+            ]
+          }
+        },
+        "regime_primary": 5,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-ai-film-quarterly",
+          "src-film-ai-late-mecha"
+        ],
+        "evidence": [
+          {
+            "claim": "Advanced Mechas restore David and reconstruct his remembered environment.",
+            "source_ids": [
+              "src-ai-film-quarterly",
+              "src-film-ai-late-mecha"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Monica’s recreation is separately limited to one day.",
+            "source_ids": [
+              "src-ai-film-quarterly",
+              "src-film-ai-late-mecha"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Internal access and participation are best guesses.",
+          "The Specialists are not counted as extinct human originals or every possible stored copy."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Advanced Mechas restore David and reconstruct his remembered environment.",
+          "Monica’s recreation is separately limited to one day."
+        ],
+        "editorial_assumptions": [
+          "Internal access and participation are best guesses.",
+          "The Specialists are not counted as extinct human originals or every possible stored copy."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Active constructed-person participation, not a literal biological human rate.",
+          "control": "Independent constructed-person authority relative to original human ownership; biological construction does not erase personhood.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0325",
+        "status": "boundary_case",
+        "reason": "The far-future machines do not support an ongoing human population established by the short evidence.",
+        "source_ids": [
+          "src-ai-film-quarterly"
+        ],
+        "analysis": "An extinct humanity and a brief recreated mother cannot become a durable human leisure society.",
+        "follow_up": "Keep as a machine/personhood comparison."
+      },
+      "after": {
+        "candidate_id": "c0325",
+        "status": "included",
+        "reason": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "source_ids": [
+          "src-ai-film-quarterly",
+          "src-film-ai-late-mecha"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "ai-specialists-future-civilization"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "oblivion-tet-clone-labor-zero",
+        "candidate_id": "c0328",
+        "name": "Oblivion — The Tet’s clone workforce",
+        "work": "Oblivion",
+        "society": "The Tet’s clone workforce",
+        "media": [
+          "movie"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "2013 film Tet-managed order",
+          "period": "The functioning clone service system before its destruction",
+          "population": "Living human clone technicians and communications partners",
+          "human_population_proxy": false,
+          "exclusions": [
+            "Promised retirement as already delivered",
+            "Dead or unawakened clones"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Tet’s automated extractive apparatus still uses human clones to repair drones and manage communications. The best-guess zero variant is that advanced system retaining useful human labor rather than providing a genuine leisure retirement. The clones receive a maintained working environment, but deception, replacement and threatened disposal make guarantees weak. A promised life elsewhere is not treated as an implemented material right.\n\nControl lies near autonomous machine authority, with the Tet’s technical command outweighing the local workers’ apparent freedom. The central nonworking scenario is zero because the selected adult cohort has continuing repair or communications roles. A broad interval allows sustained incapacity or other exceptions without turning off-duty time into a population fraction. Clones remain living humans doing work, not interchangeable robots erased from participation. The record ends before the extractive order is destroyed and does not assign the survivors an invented stable successor economy.",
+        "axis": {
+          "guarantees": 0.8,
+          "control": -0.95,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.25,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Workplace support is conditional and deceptive, with expendability.",
+            "source_ids": [
+              "src-oblivion-film-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              -0.75
+            ],
+            "confidence": "low",
+            "basis": "The Tet exercises independent technical command.",
+            "source_ids": [
+              "src-oblivion-film-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "The scoped adult clone cohort performs ongoing useful work; rest hours are not nonworking people.",
+            "source_ids": [
+              "src-oblivion-film-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-oblivion-film-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "Human clones perform drone repair and communications duties under the Tet.",
+            "source_ids": [
+              "src-oblivion-film-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "General security and participation exceptions are best guesses.",
+          "Promised retirement is not an actual supported leisure population."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Human clones perform drone repair and communications duties under the Tet."
+        ],
+        "editorial_assumptions": [
+          "General security and participation exceptions are best guesses.",
+          "Promised retirement is not an actual supported leisure population."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0328",
+        "status": "boundary_case",
+        "reason": "The Tet’s clones perform actual repair and communications labor.",
+        "source_ids": [
+          "src-oblivion-film-reference"
+        ],
+        "analysis": "Technological captivity and promised retirement do not establish a realized supported leisure cohort or deliberately unnecessary work.",
+        "follow_up": "Keep as a managed-human-labor comparison."
+      },
+      "after": {
+        "candidate_id": "c0328",
+        "status": "zero_variant",
+        "reason": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "source_ids": [
+          "src-oblivion-film-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "oblivion-tet-clone-labor-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "thx1138-industrial-zero",
+        "candidate_id": "c0331",
+        "name": "THX 1138 — The underground labor order",
+        "work": "THX 1138",
+        "society": "The underground labor order",
+        "media": [
+          "movie"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Lucas’s film continuity",
+          "period": "The operating controlled underground society",
+          "population": "Living human residents, including assigned industrial workers",
+          "human_population_proxy": false,
+          "exclusions": [
+            "Sedated hours as a nonworking fraction"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "THX 1138 makes people assemble the machines that enforce their social order. The best-guess zero variant retains that human work beside sophisticated technical control, rather than mistaking robotic police for a complete automatic economy. Material support is conditional on compliance and consumption within the system, so guarantees remain weak. The availability of further replacement for particular factory tasks is an inference, not a claim that every job is already unnecessary.\n\nHumanlike institutional authority and computer mediation produce concentrated control, with a broad interval toward independent machine agency. The low nonworking estimate counts assigned jobs and useful care, maintenance or informal contribution while including dependents and other nonparticipants. It is not measured by how long characters are sedated. The film’s coercive routines and visible technology support a comparison of labor dependence and control, not an invented universal welfare charter or an exact census of underground production.",
+        "axis": {
+          "guarantees": 0.7,
+          "control": 0.05,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.15,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Compliance-bound support and consumption rules suggest weak secure access.",
+            "source_ids": [
+              "src-thx-tcm"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.65,
+              0.3
+            ],
+            "confidence": "low",
+            "basis": "Concentrated institutions use computer mediation; decisive AI sovereignty remains uncertain.",
+            "source_ids": [
+              "src-thx-tcm"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "Human all-age scenario counts assigned industrial work despite technical alternatives.",
+            "source_ids": [
+              "src-thx-tcm"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [
+          6
+        ],
+        "qualification": "included",
+        "source_ids": [
+          "src-thx-tcm"
+        ],
+        "evidence": [
+          {
+            "claim": "Human workers assemble machines used to enforce the society’s rules.",
+            "source_ids": [
+              "src-thx-tcm"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The broader material floor, automation potential and participation are best guesses.",
+          "Robotic enforcement is not automatically all productive control."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Human workers assemble machines used to enforce the society’s rules."
+        ],
+        "editorial_assumptions": [
+          "The broader material floor, automation potential and participation are best guesses.",
+          "Robotic enforcement is not automatically all productive control."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0331",
+        "status": "boundary_case",
+        "reason": "THX 1138’s human workers perform actual industrial production.",
+        "source_ids": [
+          "src-thx-tcm"
+        ],
+        "analysis": "Robot police and computer mediation do not establish unnecessary human work or general labor-independent access.",
+        "follow_up": "Keep as a controlled-industrial-labor comparison."
+      },
+      "after": {
+        "candidate_id": "c0331",
+        "status": "zero_variant",
+        "reason": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "source_ids": [
+          "src-thx-tcm"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "thx1138-industrial-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "metropolis-1927-industrial-zero",
+        "candidate_id": "c0332",
+        "name": "Metropolis — The divided industrial city",
+        "work": "Metropolis",
+        "society": "The divided industrial city",
+        "media": [
+          "movie"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Lang’s 1927 film",
+          "period": "The established upper-city/worker order before the final upheaval",
+          "population": "Living human residents across both classes",
+          "human_population_proxy": false,
+          "exclusions": [
+            "The 2001 anime",
+            "Elite leisure assigned to all residents"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Metropolis divides comfortable upper-city life from a working population that keeps its machinery running. The best-guess zero variant concerns advanced technical capacity organized around retained human labor and class power. The robot prototype is used for manipulation, not shown replacing the entire industrial workforce. Guarantees therefore remain strongly unfavorable across the whole city rather than borrowing elite leisure as everyone’s condition.\n\nHuman industrial leadership concentrates control. The presence of a convincing artificial body does not establish an autonomous AI government. The intermediate-low nonworking estimate allows upper-class leisure and dependents while counting workers’ shifts, care, maintenance and useful civic activity. It is not calculated from shift length, screen time or an unknown class ratio. The ability to automate more tasks remains explicitly inferred. The record does not treat the final reconciliation as a fully specified new economic constitution or merge this city with the unrelated 2001 anime.",
+        "axis": {
+          "guarantees": 0.85,
+          "control": 0.05,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.4,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Class dependence and harsh work support weak general guarantees.",
+            "source_ids": [
+              "src-metropolis-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.25
+            ],
+            "confidence": "low",
+            "basis": "Human industrial rulers concentrate power.",
+            "source_ids": [
+              "src-metropolis-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.1,
+              0.75
+            ],
+            "confidence": "low",
+            "basis": "All-age city scenario includes both classes and counts real work; class proportions are uncertain.",
+            "source_ids": [
+              "src-metropolis-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-metropolis-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "Industrial workers maintain the city while a robot prototype is used for social manipulation.",
+            "source_ids": [
+              "src-metropolis-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Greater labor-substitution capacity and population participation are best guesses.",
+          "The robot is not evidence that all work is already replaceable."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Industrial workers maintain the city while a robot prototype is used for social manipulation."
+        ],
+        "editorial_assumptions": [
+          "Greater labor-substitution capacity and population participation are best guesses.",
+          "The robot is not evidence that all work is already replaceable."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0332",
+        "status": "boundary_case",
+        "reason": "Metropolis shows an exploited workforce and robot prototype rather than an implemented post-work support system.",
+        "source_ids": [
+          "src-metropolis-reference"
+        ],
+        "analysis": "Potential replacement and robot impersonation are not realized universal automation or deliberate preservation of dispensable jobs.",
+        "follow_up": "Keep as an industrial/automation-potential comparison."
+      },
+      "after": {
+        "candidate_id": "c0332",
+        "status": "zero_variant",
+        "reason": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "source_ids": [
+          "src-metropolis-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "metropolis-1927-industrial-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "things-to-come-everytown-2036",
+        "candidate_id": "c0333",
+        "name": "Things to Come — Everytown in 2036",
+        "work": "Things to Come",
+        "society": "Everytown in 2036",
+        "media": [
+          "movie"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "1936 film’s own future chronology",
+          "period": "The established advanced underground city in 2036",
+          "population": "Living human Everytown residents",
+          "human_population_proxy": false,
+          "exclusions": [
+            "Earlier wartime Everytown",
+            "Source-novel chronology"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Everytown develops into an advanced underground civilization with powerful reconstruction machinery and technical institutions. The best-guess material model is a managed provision order that weakens ordinary dependence on subsistence labor. A favorable guarantee point recognizes that established technical setting while leaving exact household rights uncertain. Disease-free or impressive urban life alone is not a documented universal benefit, and the film’s date is not replaced by a date from Wells’s book.\n\nControl lies near concentrated human technocratic authority, with a broad alternative toward more shared civic agency. No independent AI ruler is assumed. The intermediate nonworking estimate permits technical substitution while retaining useful science, care, administration, construction and creative work. It is not a count of visible machine operators or leisure scenes. The selected period is the functioning city rather than its earlier wartime collapse, and later exploration ambitions are not treated as proof that every resident can permanently avoid useful contribution.",
+        "axis": {
+          "guarantees": -0.55,
+          "control": 0.2,
+          "nonworking": 0.45
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.9,
+              0.4
+            ],
+            "confidence": "low",
+            "basis": "Advanced maintained urban life suggests a floor, but exact rights are inferred.",
+            "source_ids": [
+              "src-things-come-afi"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "Human technocratic institutions retain productive authority.",
+            "source_ids": [
+              "src-things-come-afi"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.1,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Human all-age scenario permits substitution and ongoing scientific, care and civic work.",
+            "source_ids": [
+              "src-things-come-afi"
+            ]
+          }
+        },
+        "regime_primary": 1,
+        "regime_alternatives": [
+          2
+        ],
+        "qualification": "included",
+        "source_ids": [
+          "src-things-come-afi"
+        ],
+        "evidence": [
+          {
+            "claim": "The film’s Everytown is a technologically advanced underground city by 2036.",
+            "source_ids": [
+              "src-things-come-afi"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Household provision, ownership and participation are best guesses.",
+          "Novel dates and institutions are not substituted for the film."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The film’s Everytown is a technologically advanced underground city by 2036."
+        ],
+        "editorial_assumptions": [
+          "Household provision, ownership and participation are best guesses.",
+          "Novel dates and institutions are not substituted for the film."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0333",
+        "status": "needs_evidence",
+        "reason": "Everytown’s 2036 technological prosperity does not settle household distribution or labor independence.",
+        "source_ids": [
+          "src-things-come-afi"
+        ],
+        "analysis": "The source verifies the film’s year and advanced city, but science, peace and disease control do not supply an economic constitution.",
+        "follow_up": "Skip film/novel reconstruction; do not import different chronology or policies from Wells’s book."
+      },
+      "after": {
+        "candidate_id": "c0333",
+        "status": "included",
+        "reason": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "source_ids": [
+          "src-things-come-afi"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "things-to-come-everytown-2036"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "forbidden-planet-living-krell",
+        "candidate_id": "c0334",
+        "name": "Forbidden Planet — The living Krell civilization",
+        "work": "Forbidden Planet",
+        "society": "The living Krell civilization",
+        "media": [
+          "movie"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "1956 film’s historical Krell account",
+          "period": "The established technical civilization before the terminal thought-machine catastrophe",
+          "population": "Living historical Krell persons; explicit alien-person proxy",
+          "human_population_proxy": true,
+          "exclusions": [
+            "Extinct Krell as current nonworkers",
+            "Morbius’s later household as proof of every Krell entitlement"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Krell leave a vast technical complex capable of operating long after their destruction, culminating in a machine that creates through thought. The best-guess post-work reading concerns the living civilization’s established automated capacity before the fatal final activation. It does not count the empty planet as a population with perfect leisure or pretend that one catastrophic night proves a durable universal welfare system.\n\nThe guarantee estimate is moderately favorable but broad because the film does not explain ordinary Krell households. Control is placed provisionally toward shared biological agency over machinery, with uncertainty about concentration and practical autonomy. A moderate nonworking estimate retains useful science, engineering, care and civic activity despite enormous capacity. It is a proxy scenario for historical living persons, not a literal human statistic. Morbius and Altaira’s later robot-supported household is already a separate record; their demonstrated food reproduction is not silently assigned to every earlier Krell citizen.",
+        "axis": {
+          "guarantees": -0.4,
+          "control": 0.35,
+          "nonworking": 0.5
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.9,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "Established technical capacity suggests provision; universal rights are inferred and catastrophe remains separate.",
+            "source_ids": [
+              "src-forbidden-planet-afi",
+              "src-forbidden-planet-synthetic-dialogue",
+              "src-film-krell-history"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.4,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Biological user agency over machinery is the central guess, with broad uncertainty.",
+            "source_ids": [
+              "src-forbidden-planet-afi",
+              "src-forbidden-planet-synthetic-dialogue",
+              "src-film-krell-history"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.1,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Living alien-person scenario retains science, care and engineering; extinct people are excluded.",
+            "source_ids": [
+              "src-forbidden-planet-afi",
+              "src-forbidden-planet-synthetic-dialogue",
+              "src-film-krell-history"
+            ]
+          }
+        },
+        "regime_primary": 2,
+        "regime_alternatives": [
+          1,
+          5
+        ],
+        "qualification": "included",
+        "source_ids": [
+          "src-forbidden-planet-afi",
+          "src-forbidden-planet-synthetic-dialogue",
+          "src-film-krell-history"
+        ],
+        "evidence": [
+          {
+            "claim": "The Krell built a vast technical complex and a thought-driven creation machine whose effects destroyed them.",
+            "source_ids": [
+              "src-forbidden-planet-afi",
+              "src-forbidden-planet-synthetic-dialogue",
+              "src-film-krell-history"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Earlier household provision and participation are best guesses.",
+          "The record does not treat the fatal final activation as a stable welfare era."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The Krell built a vast technical complex and a thought-driven creation machine whose effects destroyed them."
+        ],
+        "editorial_assumptions": [
+          "Earlier household provision and participation are best guesses.",
+          "The record does not treat the fatal final activation as a stable welfare era."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0334",
+        "status": "needs_evidence",
+        "reason": "Krell thought-production technology does not establish a durable, generally accessible pre-extinction support arrangement.",
+        "source_ids": [
+          "src-forbidden-planet-afi",
+          "src-forbidden-planet-synthetic-dialogue"
+        ],
+        "analysis": "A technological culmination and catastrophic outcome are not a verified long-lived entitlement system or a justified alien participation denominator.",
+        "follow_up": "Skip speculative historical reconstruction; the living human household has its own narrower record."
+      },
+      "after": {
+        "candidate_id": "c0334",
+        "status": "included",
+        "reason": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "source_ids": [
+          "src-forbidden-planet-afi",
+          "src-forbidden-planet-synthetic-dialogue",
+          "src-film-krell-history"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "forbidden-planet-living-krell"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "earthstoodstill-1951-interplanetary-order",
+        "candidate_id": "c0336",
+        "name": "The Day the Earth Stood Still — The 1951 interplanetary order",
+        "work": "The Day the Earth Stood Still",
+        "society": "The 1951 interplanetary order",
+        "media": [
+          "movie"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "1951 film’s interplanetary treaty",
+          "period": "The existing society described by Klaatu before Earth joins anything",
+          "population": "Living biological members of the interplanetary civilization; alien-person proxy",
+          "human_population_proxy": true,
+          "exclusions": [
+            "Earth already enjoying treaty benefits",
+            "2008 remake institutions"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Klaatu describes a civilization whose robots enforce peace through irrevocable power over aggression, leaving people free for other pursuits. The best-guess material reading is a technologically supported order with a fairly strong ordinary floor, but peacekeeping alone does not prove free food, housing or care. Those economic implications are explicitly inferred. Earth’s threatened residents are not simply assigned the same institutions as the existing treaty members.\n\nControl is mixed: robots possess a decisive veto in one domain, while ordinary productive ownership and biological civic agency remain unknown. The wide interval therefore does not turn enforcement authority into proven AI ownership of every resource. An intermediate nonworking estimate counts useful science, care, maintenance and civic contribution despite technical support. It is an all-age biological-person scenario, not a number from the final speech. The 2008 remake has a different alien mission and is kept in its own continuity.",
+        "axis": {
+          "guarantees": -0.45,
+          "control": 0.2,
+          "nonworking": 0.5
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.9,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "Peace and technology suggest provision only as a best guess, not a stated entitlement.",
+            "source_ids": [
+              "src-earth-stood-still-1951-speech"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.8,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Robot enforcement is decisive over aggression, not proven over all productive property.",
+            "source_ids": [
+              "src-earth-stood-still-1951-speech"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.1,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Alien-person scenario retains useful work in the pursuits made possible by peace.",
+            "source_ids": [
+              "src-earth-stood-still-1951-speech"
+            ]
+          }
+        },
+        "regime_primary": 1,
+        "regime_alternatives": [
+          5,
+          2
+        ],
+        "qualification": "included",
+        "source_ids": [
+          "src-earth-stood-still-1951-speech"
+        ],
+        "evidence": [
+          {
+            "claim": "The treaty gives robots irrevocable power to suppress aggression.",
+            "source_ids": [
+              "src-earth-stood-still-1951-speech"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary material support and participation are best guesses beyond the speech.",
+          "Enforcement and productive ownership are kept distinct."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The treaty gives robots irrevocable power to suppress aggression."
+        ],
+        "editorial_assumptions": [
+          "Ordinary material support and participation are best guesses beyond the speech.",
+          "Enforcement and productive ownership are kept distinct."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0336",
+        "status": "needs_evidence",
+        "reason": "Robotic control of aggression does not establish the interplanetary society’s material provision system.",
+        "source_ids": [
+          "src-earth-stood-still-1951-speech"
+        ],
+        "analysis": "Klaatu’s speech concerns enforcement and peace, not ordinary goods, ownership or labor participation. Absolute power in one jurisdiction is not authority over every productive function.",
+        "follow_up": "Skip deeper lore reading."
+      },
+      "after": {
+        "candidate_id": "c0336",
+        "status": "included",
+        "reason": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "source_ids": [
+          "src-earth-stood-still-1951-speech"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "earthstoodstill-1951-interplanetary-order"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "earthstoodstill-2008-alien-civilization",
+        "candidate_id": "c0337",
+        "name": "The Day the Earth Stood Still — The 2008 alien civilization",
+        "work": "The Day the Earth Stood Still (2008)",
+        "society": "The 2008 alien civilization",
+        "media": [
+          "movie"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "2008 film’s separate alien mission",
+          "period": "The operating civilization behind the intervention",
+          "population": "Active intelligent alien persons behind Klaatu’s mission; explicit nonhuman proxy",
+          "human_population_proxy": true,
+          "exclusions": [
+            "A realized post-intervention Earth society",
+            "The 1951 treaty as remake canon"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The alien mission uses advanced bodies, autonomous enforcement and destructive nanotechnology to intervene on Earth. The best-guess background economy is a technically supported civilization with a moderate material floor for its own members. That admission is inferred rather than proven by a civilian scene. Threatened Earth populations do not receive the same protection, and the ability to destroy matter is not described as unlimited free production.\n\nControl is provisionally concentrated in the mission’s intelligent authorities, with a wide interval for independent machine agency and wider sharing. Klaatu’s biological-looking body does not settle the entire civilization’s ownership structure. The intermediate nonworking estimate retains useful research, care, engineering and organization while allowing technical substitution. It is a nonhuman-person proxy, not a literal human employment statistic. The halted intervention does not create an enacted post-work Earth, and the 1951 treaty is not imported to fill the remake’s missing institutional detail.",
+        "axis": {
+          "guarantees": -0.35,
+          "control": 0.1,
+          "nonworking": 0.5
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.9,
+              0.7
+            ],
+            "confidence": "low",
+            "basis": "Advanced operating civilization suggests a possible floor; civilian access is not depicted.",
+            "source_ids": [
+              "src-earth-stood-still-2008-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.85,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Mission authority and machine autonomy are uncertain, so control has a broad range.",
+            "source_ids": [
+              "src-earth-stood-still-2008-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Active intelligent-person scenario retains useful scientific and technical activity.",
+            "source_ids": [
+              "src-earth-stood-still-2008-reference"
+            ]
+          }
+        },
+        "regime_primary": 1,
+        "regime_alternatives": [
+          5,
+          2
+        ],
+        "qualification": "included",
+        "source_ids": [
+          "src-earth-stood-still-2008-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "The separate 2008 mission employs autonomous enforcement and destructive nanites.",
+            "source_ids": [
+              "src-earth-stood-still-2008-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The home civilization’s material floor and person-level participation are explicit best guesses.",
+          "No productive constitution is inferred as a canon fact from destructive ability."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The separate 2008 mission employs autonomous enforcement and destructive nanites."
+        ],
+        "editorial_assumptions": [
+          "The home civilization’s material floor and person-level participation are explicit best guesses.",
+          "No productive constitution is inferred as a canon fact from destructive ability."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0337",
+        "status": "boundary_case",
+        "reason": "The 2008 alien intervention is not a depicted civilian post-work society.",
+        "source_ids": [
+          "src-earth-stood-still-2008-reference"
+        ],
+        "analysis": "Planetary destruction, preservation missions and a halted attack do not establish resident production and access. The earlier film’s treaty is a different continuity.",
+        "follow_up": "Keep as an autonomous-enforcement comparison."
+      },
+      "after": {
+        "candidate_id": "c0337",
+        "status": "included",
+        "reason": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "source_ids": [
+          "src-earth-stood-still-2008-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "earthstoodstill-2008-alien-civilization"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "colossus-initial-machine-rule-zero",
+        "candidate_id": "c0338",
+        "name": "Colossus: The Forbin Project — Initial machine rule",
+        "work": "Colossus: The Forbin Project",
+        "society": "Initial machine rule",
+        "media": [
+          "movie"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "1970 film, excluding novel sequels",
+          "period": "The implemented initial global machine-control order at the ending",
+          "population": "Living human population under Colossus–Guardian authority",
+          "human_population_proxy": false,
+          "exclusions": [
+            "Novel sequels",
+            "An achieved universal floor inferred from a promise"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Colossus and Guardian establish coercive global control and promise future plenty. The best-guess zero variant concerns the actual initial regime, in which human work and material dependence do not disappear merely because computers rule. Guarantees remain weak-to-moderate because a threat-backed promise is not a completed universal provision system. No benevolent sequel economy is silently treated as already implemented in the film.\n\nControl lies near autonomous AI authority: human officials cannot meaningfully direct the new sovereign systems. The modest nonworking estimate retains useful human production, programming, care, administration and assigned duties, with dependents included. It is not a count of computers or a percentage of the world under surveillance. The broad interval reflects an early transition whose exact household effects are not shown. Future welfare remains a projection, while the change in authority is real; this separates a machine takeover from a false claim of instant universal leisure.",
+        "axis": {
+          "guarantees": 0.4,
+          "control": -0.98,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.5,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Future plenty is promised, while current secure access is not established.",
+            "source_ids": [
+              "src-colossus-film-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              -0.8
+            ],
+            "confidence": "low",
+            "basis": "The machines impose decisive authority beyond human oversight.",
+            "source_ids": [
+              "src-colossus-film-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.75
+            ],
+            "confidence": "low",
+            "basis": "Human all-age scenario retains ongoing useful and assigned work through the takeover.",
+            "source_ids": [
+              "src-colossus-film-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-colossus-film-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "Colossus and Guardian impose world-control threats and promise future plenty.",
+            "source_ids": [
+              "src-colossus-film-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Initial material protection and participation are best guesses.",
+          "The promise and novel-sequel outcomes are not treated as enacted film welfare."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Colossus and Guardian impose world-control threats and promise future plenty."
+        ],
+        "editorial_assumptions": [
+          "Initial material protection and participation are best guesses.",
+          "The promise and novel-sequel outcomes are not treated as enacted film welfare."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0338",
+        "status": "needs_evidence",
+        "reason": "Colossus establishes coercive control but only promises the material plenty needed for this lead.",
+        "source_ids": [
+          "src-colossus-film-reference"
+        ],
+        "analysis": "Nuclear leverage and a future abundance speech do not demonstrate an already functioning labor-independent supply system; novel and film institutions are not combined.",
+        "follow_up": "Skip sequel or novel reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0338",
+        "status": "zero_variant",
+        "reason": "Popular classic/screen assessment retained with explicit best guesses; source facts are separated from inferred material institutions.",
+        "source_ids": [
+          "src-colossus-film-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "colossus-initial-machine-rule-zero"
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0084",
+        "status": "boundary_case",
+        "reason": "Regis III's evolved microautomata are a machine ecology, not a demonstrated human or humanlike post-work polity.",
+        "source_ids": [
+          "src-invincible-official",
+          "src-invincible-game-official"
+        ],
+        "analysis": "Autonomous replication and effective resistance to an expedition do not create material guarantees for human residents. The explorers are actively working visitors. Mechanical evolution is also not evidence for a deliberate sovereign AI. The game explicitly uses its own protagonist and branches, so those outcomes cannot silently become extra canonical novel societies.",
+        "follow_up": "Keep as a nonhuman autonomy comparison. Reopen only for a separately evidenced resident population with productive and allocative rules; never convert the lack of human settlement or the fate of explorers into 100% leisure."
+      },
+      "after": {
+        "candidate_id": "c0084",
+        "status": "boundary_case",
+        "reason": "Regis III’s reflexive machine ecology is analyzed as an autonomous-system comparison; no civilian person population receives a post-work distribution.",
+        "source_ids": [
+          "src-invincible-official",
+          "src-invincible-game-official"
+        ],
+        "analysis": "The author’s account contrasts spontaneously evolved microautomata and reflexive mechanical conflict with reasoning. The human expedition remains a separate working population. Calling this a welfare society or counting the machines’ mere activity as human work would change the subject.\n\nThe completed comparison places control near autonomous machinery and offers a provisional guarantee analogy for the exposed humans, while explicitly leaving nonworking inapplicable because there is no scoped civilian person denominator. This is a thematic non-fit, not an omission caused by obscure household law. The game’s unverified ending economies are not imported into the novel.",
+        "follow_up": "Completed non-person ecology comparison; no full novel or playthrough required.",
+        "reassessed_on": "2026-10-17",
+        "current_policy_review": true,
+        "assessment_mode": "best_guess",
+        "comparison_assessment": {
+          "name": "The Invincible — Regis III machine ecology",
+          "media": [
+            "book",
+            "game"
+          ],
+          "scope": "Non-conscious machine ecology; a human expedition is separate and works.",
+          "axis": {
+            "guarantees": 0.9,
+            "control": -0.95,
+            "nonworking": null
+          },
+          "intervals": {
+            "guarantees": [
+              0.3,
+              1
+            ],
+            "control": [
+              -1,
+              -0.6
+            ],
+            "nonworking": null
+          },
+          "not_applicable_axes": {
+            "nonworking": "No civilian human or conscious-person population exists in the machine ecology."
+          },
+          "confidence": "low",
+          "canon_facts": [
+            "Spontaneously evolved microautomata engage in reflexive conflict; the humans are an expedition."
+          ],
+          "editorial_assumptions": [
+            "Guarantees are an analogy for exposed humans, not a machine welfare charter."
+          ],
+          "source_ids": [
+            "src-invincible-official",
+            "src-invincible-game-official"
+          ],
+          "counted_toward_goal": false
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "batch_id": "batch-012",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0072",
+    "c0073",
+    "c0074",
+    "c0075",
+    "c0076"
+  ],
+  "sources": [
+    {
+      "id": "src-fountains-preview",
+      "title": "The Fountains of Paradise",
+      "author": "Arthur C. Clarke; Open Road Integrated Media on Everand",
+      "url": "https://www.everand.com/book/399436244/The-Fountains-of-Paradise",
+      "kind": "official_synopsis_and_indexed_primary_preview",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed product text and limited excerpt read",
+      "read_scope": "Morgan's elevator project, technical and economic obstacles, and a clearly separate ancient-palace scene.",
+      "limitations": "The ancient slave-work excerpt is not evidence for the late twenty-second-century candidate. A cheap route to orbit does not establish automatic household provision."
+    },
+    {
+      "id": "src-fountains-pip",
+      "title": "Arthur C Clarke and Web 2.0",
+      "author": "Sarah Maddox; ffeathers, 20 June 2008",
+      "url": "https://ffeathers.wordpress.com/2008/06/20/arthur-c-clarke-and-web-20/",
+      "kind": "secondary_reader_commentary_with_primary_excerpt",
+      "accessed_on": "2026-10-16",
+      "access_method": "Substantial indexed article read; direct retrieval returned cache miss",
+      "read_scope": "Chapter 34, Vertigo: automated information tasks and the new burden of Personal Interest Profiles.",
+      "limitations": "An information-management passage does not establish the whole material economy or a universal right to subsistence."
+    },
+    {
+      "id": "src-imperial-preview",
+      "title": "Imperial Earth: opening chapters",
+      "author": "Arthur C. Clarke; Open Road Integrated Media on Everand",
+      "url": "https://www.everand.com/book/399436227/Imperial-Earth",
+      "kind": "primary_fiction_in_publisher_preview",
+      "accessed_on": "2026-10-16",
+      "access_method": "Page opened; Chapters 1-3's hydrogen, dynasty and administration passages read",
+      "read_scope": "Orbital hydrogen collection, financing, Malcolm's rise, limited personal fortunes, family decisions and Assembly scrutiny.",
+      "limitations": "A publisher synopsis gives an inconsistent five-hundred-year ancestry; the actual chapters put Malcolm's project in the 2180s and the present in 2276. Restricted wealth does not itself prove universal material rights or an end to work."
+    },
+    {
+      "id": "src-time-firstborn-publisher",
+      "title": "Firstborn",
+      "author": "Penguin Random House / Del Rey; Arthur C. Clarke and Stephen Baxter",
+      "url": "https://www.penguinrandomhouse.com/books/28164/firstborn-by-arthur-c-clarke-and-stephen-baxter/",
+      "kind": "official_publisher_synopsis",
+      "accessed_on": "2026-10-16",
+      "access_method": "Product page opened; plot description read",
+      "read_scope": "Mir's patchwork creation, destructive interventions against Earth and the later renewed threat.",
+      "limitations": "The marketing links the Firstborn with Space Odyssey imagery, but that is not permission to import a single shared economic continuity. Destructive power is not a civilian allocation system."
+    },
+    {
+      "id": "src-time-series-publisher",
+      "title": "A Time Odyssey",
+      "author": "Penguin Random House / Del Rey",
+      "url": "https://www.penguinrandomhouse.com/series/1TO/a-time-odyssey/",
+      "kind": "official_series_synopses",
+      "accessed_on": "2026-10-16",
+      "access_method": "Series page opened; Firstborn and Sunstorm descriptions read",
+      "read_scope": "Mir combines people and lands from different eras; Bisesa returns to another Earth; later threats affect both settings.",
+      "limitations": "This establishes distinct worlds and periods, not a homogeneous post-work society. Individual settlements still require their own productive evidence."
+    },
+    {
+      "id": "src-last-theorem-publisher",
+      "title": "The Last Theorem",
+      "author": "Penguin Random House / Del Rey; Arthur C. Clarke and Frederik Pohl",
+      "url": "https://www.penguinrandomhouse.com/books/28199/the-last-theorem-by-arthur-c-clarke-----frederik-pohl/",
+      "kind": "official_publisher_synopsis",
+      "accessed_on": "2026-10-16",
+      "access_method": "Indexed product description read",
+      "read_scope": "Ranjit's proof, fame, the NSA and Pax per Fidem; coauthor and edition identity.",
+      "limitations": "The synopsis concerns the main human plot rather than the later alien exchange or its economic effects."
+    },
+    {
+      "id": "src-last-theorem-reference",
+      "title": "The Last Theorem",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/The_Last_Theorem",
+      "kind": "secondary_plot_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Page opened; alien arrival and late ending summary read",
+      "read_scope": "The One Point Fives and Machine Stored act while the Grand Galactics are absent; power technology and uploads; a return thirteen millennia later.",
+      "limitations": "Needs primary confirmation. Power and mind uploading alone do not establish goods for nonworkers. The ending should not be treated as one unchanged contemporary Earth under continuous alien government."
+    }
+  ],
+  "societies": [],
+  "decisions": [
+    {
+      "candidate_id": "c0072",
+      "status": "needs_evidence",
+      "reason": "The consulted passages establish advanced transport and information systems, not the candidate's post-work material arrangements.",
+      "source_ids": [
+        "src-fountains-preview",
+        "src-fountains-pip"
+      ],
+      "analysis": "Morgan's project lowers the cost of reaching orbit and encounters financial, technical and institutional constraints. A Chapter 34 excerpt describes information automation creating successor tasks, which cannot substitute for an account of necessities, employment or ownership. The preview's ancient palace and slave labor belong to another period entirely. Neither period nor the remote ending can be averaged into a generic automated Earth.",
+      "follow_up": "Read the late twenty-second-century production and household-access passages, and date any epilogue society separately. Admit a post-work or zero-variant unit only if its automation/distribution relationship is actually established."
+    },
+    {
+      "candidate_id": "c0073",
+      "status": "needs_evidence",
+      "reason": "Titan's concentrated family administration is directly supported; wage-independent material provision is not.",
+      "source_ids": [
+        "src-imperial-preview"
+      ],
+      "analysis": "The opening describes a financed hydrogen-export project and a family that combines engineering and political leadership. An Assembly can criticize privileges, and there are no great private fortunes, but those facts do not make all residents collective owners or guarantee nonworkers an income. Orbital scoops establish technology, not the total human labor requirement. The tempting dynastic-control coordinate is withheld until the society's admission is supported.",
+      "follow_up": "Find Titan's actual operating workforce, household benefits, industrial ownership and Assembly powers. Keep Earth practices, including any lottery government, separate from Titan; use the primary chronology rather than the inconsistent publisher ancestry."
+    },
+    {
+      "candidate_id": "c0074",
+      "status": "boundary_case",
+      "reason": "Species management and extermination are not a demonstrated post-work human economy.",
+      "source_ids": [
+        "src-time-firstborn-publisher",
+        "src-time-series-publisher"
+      ],
+      "analysis": "The Firstborn manipulate worlds and threaten human survival. That establishes coercive technological power, but not a resident human society whose productive assets, material access and work participation can be mapped. A species-wide extinction policy cannot supply a human leisure fraction or automatically establish autonomous AI ownership. The broad lead combines many potentially different populations.",
+      "follow_up": "Keep as an external-control comparison. Reopen for a precisely named protected or administered population only after its daily production and allocation are evidenced; do not treat a cosmic power's entire domain as one economy."
+    },
+    {
+      "candidate_id": "c0075",
+      "status": "boundary_case",
+      "reason": "Mir is a patchwork of historical populations, not a verified homogeneous administered post-work society.",
+      "source_ids": [
+        "src-time-series-publisher",
+        "src-time-firstborn-publisher"
+      ],
+      "analysis": "The publisher explicitly distinguishes Mir from the Earth to which Bisesa returns. Its inhabitants include ancient armies and people from other eras. Their assembly into an artificial world does not show that labor, supplies and ownership have become one shared system. A single world coordinate would erase the differences that make this setting distinctive.",
+      "follow_up": "If a particular Mir settlement or later order has automatic provision, name and research it individually. Preserve the broad lead's correction and do not conflate alien construction with an already functioning welfare economy."
+    },
+    {
+      "candidate_id": "c0076",
+      "status": "needs_evidence",
+      "reason": "The lead's continuous alien-rule label obscures distinct periods, while the material effect of the later technology remains unverified.",
+      "source_ids": [
+        "src-last-theorem-publisher",
+        "src-last-theorem-reference"
+      ],
+      "analysis": "The secondary ending describes client aliens acting independently while the Grand Galactics are absent, followed by new power technology, mind uploading and a much later transfer of guardianship. Those changes may produce a suitable society, but neither cheap power nor digital existence alone proves automated subsistence or a nonworking share. The scientific protagonist's initial wealth is also not population-wide provision.",
+      "follow_up": "Read the actual exchange and late-epilogue passages. Separate contemporary humans, any uploaded community and the distant successor order; qualify a record only after its productive and allocative rules are established."
+    }
+  ],
+  "review_notes": [
+    "Five contiguous broad leads receive reasoned dispositions without unsupported retained points.",
+    "Primary Titan chapters sharpen the governance evidence and correct a publisher chronology, while leaving the admission question open.",
+    "Mir's heterogeneous populations and the Firstborn's external intervention remain comparisons rather than a single invented automated society.",
+    "Second pass checked resource wealth against entitlements, machine existence against the human labor requirement, external threats against domestic government, and remote epilogues against main-story periods.",
+    "No discovery lead is promoted merely to maintain a numerical acceptance rate. The full target still requires 500-1000 researched, reviewed records."
+  ]
+}

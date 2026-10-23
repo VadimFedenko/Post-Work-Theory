@@ -1,0 +1,620 @@
+{
+  "batch_id": "batch-083",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0689",
+    "c0690",
+    "c0691",
+    "c0692",
+    "c0693",
+    "c0694",
+    "c0695",
+    "c0696",
+    "c0697",
+    "c0698",
+    "c0699",
+    "c0700"
+  ],
+  "sources": [
+    {
+      "id": "src-b83-earth2150",
+      "title": "Earth 2150 review",
+      "author": "Tim Soete, GameSpot",
+      "url": "https://www.gamespot.com/reviews/earth-2150-review/1900-2591131/",
+      "kind": "official_or_labeled_rules_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public/indexed description or rules passage",
+      "read_scope": "UCS has an entirely robotic workforce/army; the Lunar Corporation is a separate advanced lunar faction.",
+      "limitations": "UCS provision cannot be silently assigned to the queued Lunar Corporation. The strong UCS lead is saved for later queue expansion."
+    },
+    {
+      "id": "src-b83-ctp1",
+      "title": "Factory in Civilization: Call to Power",
+      "author": "Game Great Library, transcribed by Civilization Wiki",
+      "url": "https://civilization.fandom.com/wiki/Factory_%28CTP1%29",
+      "kind": "official_or_labeled_rules_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public/indexed description or rules passage",
+      "read_scope": "The first game’s factory uses laborers to increase production.",
+      "limitations": "An earlier technology is not proof of the late nanite economy; the second game’s Nanite Factory was not imported into the first."
+    },
+    {
+      "id": "src-b83-saat",
+      "title": "S.A.A.T.",
+      "author": "Anno 2070 Wiki contributors",
+      "url": "https://anno2070.fandom.com/wiki/S.A.A.T.",
+      "kind": "official_or_labeled_rules_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public/indexed description or rules passage",
+      "read_scope": "AI coordination, scientists, production chains and a research council define the faction.",
+      "limitations": "Human-machine symbiosis and advanced science do not establish ordinary household provision independent of labor."
+    },
+    {
+      "id": "src-b83-offworld",
+      "title": "Offworld Trading Company official description",
+      "author": "Mohawk Games / Stardock on Steam",
+      "url": "https://store.steampowered.com/app/271240/",
+      "kind": "official_or_labeled_rules_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public/indexed description or rules passage",
+      "read_scope": "Corporations compete to supply the colonized planet through markets.",
+      "limitations": "The human colony’s ordinary rights/work arrangements are not described; a robotic HQ’s needs cannot stand for all human consumers."
+    },
+    {
+      "id": "src-b83-offworld-robots",
+      "title": "Offworld Trading Company founders change log",
+      "author": "Stardock / Yarlen",
+      "url": "https://www.stardock.com/games/article/460883/offworld-trading-company-v004397-change-log",
+      "kind": "official_or_labeled_rules_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public/indexed description or rules passage",
+      "read_scope": "The early official rules distinguish Robotic HQ consumption from other firms.",
+      "limitations": "Historical pre-release patch only, not a current human household constitution or proof all production workers are robots."
+    },
+    {
+      "id": "src-b83-mars-service",
+      "title": "Service Bots developer clarification",
+      "author": "Haemimont developer Mnementh on Steam",
+      "url": "https://steamcommunity.com/app/464920/discussions/0/2949168687321268517/",
+      "kind": "official_or_labeled_rules_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public/indexed description or rules passage",
+      "read_scope": "The marked developer reply confirms that upgraded service buildings operate without personnel.",
+      "limitations": "Original game, 2018 clarification; medical/security jobs are not assumed eliminated and no exact performance balance is adopted."
+    },
+    {
+      "id": "src-b83-mars-farm",
+      "title": "Fully automated farms discussion",
+      "author": "Surviving Mars Steam contributors",
+      "url": "https://steamcommunity.com/app/464920/discussions/0/4521040918052910872/",
+      "kind": "official_or_labeled_rules_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public/indexed description or rules passage",
+      "read_scope": "Green Planet’s Open Farm requires no human workers, with environmental/crop prerequisites.",
+      "limitations": "Historical original-game configuration, not the changed Relaunched farming system; normal Automated Farming does not itself remove every worker."
+    },
+    {
+      "id": "src-b83-mars-residents",
+      "title": "Housing, jobs and food discussion",
+      "author": "Surviving Mars Steam contributors",
+      "url": "https://steamcommunity.com/app/464920/discussions/0/3087760096577984055/",
+      "kind": "official_or_labeled_rules_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public/indexed description or rules passage",
+      "read_scope": "Housing, stocked services, food access and jobs are separately managed; unemployed residents remain part of the colony.",
+      "limitations": "Player explanation, not a legal welfare charter; adequate housing and accessible supply are explicit conditions, and mods are not used."
+    },
+    {
+      "id": "src-b83-frost-laws",
+      "title": "Frostpunk 2 laws",
+      "author": "Game Vault wiki contributors transcribing law/event text",
+      "url": "https://frostpunk-2.game-vault.net/wiki/Law",
+      "kind": "official_or_labeled_rules_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public/indexed description or rules passage",
+      "read_scope": "Free Essentials can remain unconditional; Paid Essentials can deny aid; Machine Attendants replaces production labor with machinery plus maintenance.",
+      "limitations": "Qualitative law configurations only, not a claim to current numerical balancing. Workforce reductions and event percentages are not population nonworking rates."
+    },
+    {
+      "id": "src-b83-ixion-work",
+      "title": "IXION prologue",
+      "author": "Ixion Wiki contributors",
+      "url": "https://ixion.fandom.com/wiki/Prologue",
+      "kind": "official_or_labeled_rules_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public/indexed description or rules passage",
+      "read_scope": "Workers, farms, quarters, EVA construction and human responsibility remain part of Tiqqun operations.",
+      "limitations": "An advisor AI does not alone determine productive control or replace essential human work."
+    },
+    {
+      "id": "src-b83-ixion-remus",
+      "title": "IXION plot and endings",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Ixion_(video_game)",
+      "kind": "official_or_labeled_rules_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public/indexed description or rules passage",
+      "read_scope": "Ashtangites on Remus are bioengineered human descendants who offer conditional settlement; EDDEN conceals an alternative planet.",
+      "limitations": "Remus is not a machine welfare society merely because people are biologically adapted; no settled post-ending allocation is supplied."
+    },
+    {
+      "id": "src-b83-startopia",
+      "title": "Startopia gameplay",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Startopia",
+      "kind": "official_or_labeled_rules_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public/indexed description or rules passage",
+      "read_scope": "Droids clean/build/repair, while hired alien employees operate facilities and visitors spend money.",
+      "limitations": "The original game is distinct from Spacebase Startopia; commercial guests and employees are not all supplied nonworkers."
+    },
+    {
+      "id": "src-b83-spacebase",
+      "title": "Spacebase Startopia launch information",
+      "author": "Steam launch post quoting publisher copy",
+      "url": "https://steamcommunity.com/app/840390/discussions/0/3080998989605715556/",
+      "kind": "official_or_labeled_rules_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public/indexed description or rules passage",
+      "read_scope": "Fuzzies perform menial tasks while the Commander manages visitors, residents, berths, food and medical facilities.",
+      "limitations": "Release-description context only; assistance from VAL is not proof of an independently governed welfare floor."
+    },
+    {
+      "id": "src-b83-eve-crew",
+      "title": "Ship crew",
+      "author": "CCP Games, EVE Universe",
+      "url": "https://universe.eveonline.com/lore/ship-crew",
+      "kind": "official_or_labeled_rules_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public/indexed description or rules passage",
+      "read_scope": "Capsuleer ships usually have crews; engineers, quartermasters and dock workers perform essential labor.",
+      "limitations": "Official lore replaces player-fiction crew primers; rare uncrewed ships are not treated as the ordinary whole economy."
+    },
+    {
+      "id": "src-b83-elite-codex",
+      "title": "Knowledge Base codex",
+      "author": "Elite Dangerous game codex, transcribed by Elite Dangerous Wiki",
+      "url": "https://elite-dangerous.fandom.com/wiki/Knowledge_Base",
+      "kind": "official_or_labeled_rules_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public/indexed description or rules passage",
+      "read_scope": "The interstellar ban on self-aware AI constrains Achilles robotics; human governments and corporate interests vary.",
+      "limitations": "Only the relevant ban/governance entries; Guardian history is a different species and forum robot role-play is not canon."
+    }
+  ],
+  "societies": [
+    {
+      "id": "surviving-mars-automated-human-colony",
+      "candidate_id": "c0693",
+      "name": "Surviving Mars — Human colony with automated food and services",
+      "work": "Surviving Mars",
+      "society": "A modeled inhabited colony using Open Farms and Service Bots",
+      "media": [
+        "game"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Original Surviving Mars with Green Planet; historically documented configuration",
+        "period": "A supplied, housed colony after Open Farm prerequisites and Service Bots upgrades",
+        "population": "Living human colonists in the configured settlement",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Biorobots silently treated as uploaded humans",
+          "A wholly uninhabited drone-only terraforming run",
+          "Medical and security work assumed abolished",
+          "Relaunched’s changed food systems"
+        ],
+        "branch": "Inhabited Green Planet colony with automated food production and upgraded services",
+        "player_configurable": true
+      },
+      "description": "Open Farms can supply food without human farm workers, while Service Bots remove staff requirements from many ordinary service buildings. In this inhabited configuration, housing and accessible stocks support human colonists while machines replace substantial subsistence and domestic labor. It is a partial post-work colony rather than a claim of complete automation: medicine, security, research, manufacturing and maintenance can still require people. Adequate housing, environmental conditions and functioning logistics are explicit parts of the setup.\n\nHuman administration chooses buildings, upgrades and resource priorities, so control is placed near concentrated human direction rather than an independent AI government. The game’s command interface does not establish that every resident jointly owns the productive assets. Guarantees are moderately strong within the supplied settlement, but broad uncertainty remains because food routing, shortages and administrative decisions can interrupt provision. Colonists are not automatically nonworkers merely because some services need no staff; useful research, care and creative activity still count. The participation axis remains unresolved, and artificial biorobots are not silently added to the human denominator.",
+      "axis": {
+        "guarantees": -0.5,
+        "control": 0.1,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.85,
+            0.35
+          ],
+          "confidence": "low",
+          "basis": "Automated food/services and separately managed housing support residents, but logistics, stocks and administration remain important conditions.",
+          "source_ids": [
+            "src-b83-mars-service",
+            "src-b83-mars-farm",
+            "src-b83-mars-residents"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.4
+          ],
+          "confidence": "low",
+          "basis": "Human colony administration directs production/upgrades; neither robot operation nor the interface establishes autonomous AI or equal ownership.",
+          "source_ids": [
+            "src-b83-mars-service",
+            "src-b83-mars-farm",
+            "src-b83-mars-residents"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Automation removes selected staff requirements, not all useful colonist activity; no all-person census is given.",
+          "source_ids": [
+            "src-b83-mars-service",
+            "src-b83-mars-farm",
+            "src-b83-mars-residents"
+          ]
+        }
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b83-mars-service",
+        "src-b83-mars-farm",
+        "src-b83-mars-residents"
+      ],
+      "evidence": [
+        {
+          "claim": "An actual allowed configuration combines zero-human-worker Open Farm production with personnel-free upgraded services.",
+          "source_ids": [
+            "src-b83-mars-service",
+            "src-b83-mars-farm",
+            "src-b83-mars-residents"
+          ],
+          "locator": "Original-game developer Service Bots clarification and Green Planet Open Farm discussion",
+          "kind": "developer_clarification_and_labeled_gameplay_reference"
+        }
+      ],
+      "uncertainties": [
+        "Explicit original-game configuration; no imported Relaunched changes or mods.",
+        "Partial automation with continuing useful human work.",
+        "Housing, environmental prerequisites and accessible food logistics are conditions.",
+        "Biorobot personhood/origin is not assumed."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "frostpunk2-automation-free-essentials",
+      "candidate_id": "c0694",
+      "name": "Frostpunk 2 — Automation with unconditional Free Essentials",
+      "work": "Frostpunk 2",
+      "society": "Mechanized New London under unconditional Free Essentials",
+      "media": [
+        "game"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Frostpunk 2 law/event model",
+        "period": "Established configured city under unconditional Free Essentials",
+        "population": "Living human citizens of the configured New London",
+        "human_population_proxy": false,
+        "exclusions": [
+          "The alternative necessities law as the same access system",
+          "Machine workforce units counted as humans",
+          "Nominal workforce as an all-age nonworking census",
+          "The original Frostpunk’s different automaton rules"
+        ],
+        "branch": "Machine Attendants with emergency shutdowns and unconditional Free Essentials",
+        "player_configurable": true
+      },
+      "description": "This modeled New London combines machine-centered production with an explicit distribution choice. Under Free Essentials, the city supplies basic rations and clothing without payment, and the selected follow-up keeps provision independent of a work requirement. Machinery reduces the need for direct production labor, while human maintenance and other useful tasks remain. The arrangement therefore weakens the link between employment and necessities without pretending that the whole city has stopped working. The guarantee estimate is strong but conditional on available supplies and survival through the cold.\n\nThe Steward and council organize the rules and resource system. That supports concentrated human institutional control, with uncertainty about the wider ownership of machinery; votes on laws do not establish equal productive ownership. People who leave the formal workforce may still perform care or other useful activity. Neither the law’s workforce modifier nor an automaton’s nominal labor equivalent supplies an all-person nonworking percentage, so that axis stays unresolved. The paid-essentials alternative is recorded separately because it materially changes access to the same mechanized output.",
+      "axis": {
+        "guarantees": -0.65,
+        "control": 0.1,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.9,
+            0.2
+          ],
+          "confidence": "medium",
+          "basis": "Free provision remains independent of work, subject to supply.",
+          "source_ids": [
+            "src-b83-frost-laws"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.45
+          ],
+          "confidence": "low",
+          "basis": "Human Steward/council rules govern production/access; equal ownership and independent AI authority are not established.",
+          "source_ids": [
+            "src-b83-frost-laws"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Machine substitution and formal workforce changes do not census useful activity by all humans.",
+          "source_ids": [
+            "src-b83-frost-laws"
+          ]
+        }
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b83-frost-laws"
+      ],
+      "evidence": [
+        {
+          "claim": "Machine Attendants reduces direct production labor while the selected necessities law changes access independently.",
+          "source_ids": [
+            "src-b83-frost-laws"
+          ],
+          "locator": "New Work Model / Machine Attendants and Basic Necessities law/event text",
+          "kind": "transcribed_game_rules_and_event_choices"
+        }
+      ],
+      "uncertainties": [
+        "A modeled, explicitly chosen legal/economic configuration.",
+        "Continuing human maintenance and other useful work remains visible.",
+        "Availability and environmental survival constrain guarantees.",
+        "No workforce percentage is treated as a population participation statistic."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "frostpunk2-automation-paid-no-allowance",
+      "candidate_id": "c0694",
+      "name": "Frostpunk 2 — Automation with Paid Essentials without an unemployment allowance",
+      "work": "Frostpunk 2",
+      "society": "Mechanized New London under Paid Essentials without an unemployment allowance",
+      "media": [
+        "game"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Frostpunk 2 law/event model",
+        "period": "Established configured city under Paid Essentials without an unemployment allowance",
+        "population": "Living human citizens of the configured New London",
+        "human_population_proxy": false,
+        "exclusions": [
+          "The alternative necessities law as the same access system",
+          "Machine workforce units counted as humans",
+          "Nominal workforce as an all-age nonworking census",
+          "The original Frostpunk’s different automaton rules"
+        ],
+        "branch": "Machine Attendants with emergency shutdowns and Paid Essentials without an unemployment allowance",
+        "player_configurable": true
+      },
+      "description": "This modeled New London uses the same machine-centered production approach but charges citizens for basic rations and clothing. When unemployed families cannot afford these necessities, the selected event choice declines an allowance. Automation can reduce demand for direct human production work without giving displaced people a secure claim on its output. The weak-guarantee score therefore reflects an implemented access rule and its explicit hardship consequence, rather than merely the city’s dangerous weather or an assumption that every resident is poor.\n\nThe human Steward and council shape economic rules; machines do not thereby become an autonomous government. Human maintenance and other useful work continues, and the record makes no claim that all formal jobs are unnecessary. Workforce reductions, unused labor capacity and automaton equivalents are different from an all-age participation census, so nonworking remains null. This is an explicit player-selected partial-transition configuration, not every Frostpunk 2 city or a fixed canonical ending. Its material difference from the free variant is the decision to leave unemployed residents without guaranteed essentials.",
+      "axis": {
+        "guarantees": 0.85,
+        "control": 0.1,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            0.55,
+            1
+          ],
+          "confidence": "medium",
+          "basis": "Payment remains necessary and the chosen response denies unemployed families an allowance.",
+          "source_ids": [
+            "src-b83-frost-laws"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.45
+          ],
+          "confidence": "low",
+          "basis": "Human Steward/council rules govern production/access; equal ownership and independent AI authority are not established.",
+          "source_ids": [
+            "src-b83-frost-laws"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Machine substitution and formal workforce changes do not census useful activity by all humans.",
+          "source_ids": [
+            "src-b83-frost-laws"
+          ]
+        }
+      },
+      "regime_primary": 3,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b83-frost-laws"
+      ],
+      "evidence": [
+        {
+          "claim": "Machine Attendants reduces direct production labor while the selected necessities law changes access independently.",
+          "source_ids": [
+            "src-b83-frost-laws"
+          ],
+          "locator": "New Work Model / Machine Attendants and Basic Necessities law/event text",
+          "kind": "transcribed_game_rules_and_event_choices"
+        }
+      ],
+      "uncertainties": [
+        "A modeled, explicitly chosen legal/economic configuration.",
+        "Continuing human maintenance and other useful work remains visible.",
+        "Availability and environmental survival constrain guarantees.",
+        "No workforce percentage is treated as a population participation statistic."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0689",
+      "status": "needs_evidence",
+      "reason": "The Lunar Corporation’s advanced technology does not establish its household allocation.",
+      "source_ids": [
+        "src-b83-earth2150"
+      ],
+      "analysis": "The clear all-robot workforce description belongs to the separate UCS faction, saved as a later discovery lead rather than silently substituted.",
+      "follow_up": "Keep the short disposition and continue; do not rescue unclear settings through full manuals or role-playing extrapolation."
+    },
+    {
+      "candidate_id": "c0690",
+      "status": "needs_evidence",
+      "reason": "The first Call to Power’s late nanite-era material constitution remains unverified.",
+      "source_ids": [
+        "src-b83-ctp1"
+      ],
+      "analysis": "Ordinary factory labor is explicit, but a second-game Nanite Factory cannot establish the first game’s later household distribution.",
+      "follow_up": "Keep the short disposition and continue; do not rescue unclear settings through full manuals or role-playing extrapolation."
+    },
+    {
+      "candidate_id": "c0691",
+      "status": "needs_evidence",
+      "reason": "S.A.A.T. science and AI coordination do not establish a general work-independent material floor.",
+      "source_ids": [
+        "src-b83-saat"
+      ],
+      "analysis": "Researchers and efficient production chains remain useful human activity; scientific governance is not the missing allocation mechanism.",
+      "follow_up": "Keep the short disposition and continue; do not rescue unclear settings through full manuals or role-playing extrapolation."
+    },
+    {
+      "candidate_id": "c0692",
+      "status": "needs_evidence",
+      "reason": "Robotic firms and corporate supply markets do not establish ordinary human colonists’ work-independent access.",
+      "source_ids": [
+        "src-b83-offworld",
+        "src-b83-offworld-robots"
+      ],
+      "analysis": "A robotic HQ’s needs differ from human consumers; mods offering fully automated sponsor colonies were discarded.",
+      "follow_up": "Keep the short disposition and continue; do not rescue unclear settings through full manuals or role-playing extrapolation."
+    },
+    {
+      "candidate_id": "c0693",
+      "status": "included",
+      "reason": "A documented inhabited model combines automatic farming and personnel-free services with ordinary human resident support.",
+      "source_ids": [
+        "src-b83-mars-service",
+        "src-b83-mars-farm",
+        "src-b83-mars-residents"
+      ],
+      "society_id": "surviving-mars-automated-human-colony"
+    },
+    {
+      "candidate_id": "c0694",
+      "status": "included",
+      "reason": "Two allowed law/event configurations materially change access to mechanized output.",
+      "source_ids": [
+        "src-b83-frost-laws"
+      ],
+      "society_ids": [
+        "frostpunk2-automation-free-essentials",
+        "frostpunk2-automation-paid-no-allowance"
+      ],
+      "split_rationale": "Unconditional Free Essentials and Paid Essentials with an explicitly refused allowance implement opposing material access rules for comparable mechanized cities; these are labeled alternative player configurations, not two simultaneous canonical cities.",
+      "society_id": "frostpunk2-automation-free-essentials"
+    },
+    {
+      "candidate_id": "c0695",
+      "status": "needs_evidence",
+      "reason": "Tiqqun’s AI advice and construction drones do not establish replacement of its essential human production work.",
+      "source_ids": [
+        "src-b83-ixion-work"
+      ],
+      "analysis": "Workers, quarters and farms have real requirements; the label non-worker is not an all-person absence of useful activity.",
+      "follow_up": "Keep the short disposition and continue; do not rescue unclear settings through full manuals or role-playing extrapolation."
+    },
+    {
+      "candidate_id": "c0696",
+      "status": "needs_evidence",
+      "reason": "Remus’s bioengineered Ashtangites do not have a verified technological material-allocation system in the short account.",
+      "source_ids": [
+        "src-b83-ixion-remus"
+      ],
+      "analysis": "Biological adaptation, a settlement offer and EDDEN’s preferences do not supply the colony’s ordinary resource constitution.",
+      "follow_up": "Keep the short disposition and continue; do not rescue unclear settings through full manuals or role-playing extrapolation."
+    },
+    {
+      "candidate_id": "c0697",
+      "status": "boundary_case",
+      "reason": "The original station hires useful alien staff and sells services to visitors despite droid assistance.",
+      "source_ids": [
+        "src-b83-startopia"
+      ],
+      "analysis": "Commercial hospitality, cleaning/construction robots and temporary tourists do not establish a durable work-independent resident floor.",
+      "follow_up": "Keep the short disposition and continue; do not rescue unclear settings through full manuals or role-playing extrapolation."
+    },
+    {
+      "candidate_id": "c0698",
+      "status": "needs_evidence",
+      "reason": "VAL and Fuzzy assistance do not establish a complete work-independent population economy.",
+      "source_ids": [
+        "src-b83-spacebase"
+      ],
+      "analysis": "The station’s visitor/resident services still need actual access and productive-labor rules; the 2001 original is not imported.",
+      "follow_up": "Keep the short disposition and continue; do not rescue unclear settings through full manuals or role-playing extrapolation."
+    },
+    {
+      "candidate_id": "c0699",
+      "status": "boundary_case",
+      "reason": "Capsuleer technology does not remove the actual engineers, quartermasters and dock workers sustaining ships.",
+      "source_ids": [
+        "src-b83-eve-crew"
+      ],
+      "analysis": "Official lore explicitly retains crews; immortality and personal wealth are not a whole industrial post-work system.",
+      "follow_up": "Keep the short disposition and continue; do not rescue unclear settings through full manuals or role-playing extrapolation."
+    },
+    {
+      "candidate_id": "c0700",
+      "status": "needs_evidence",
+      "reason": "The self-aware-AI ban is real, but its relation to a qualifying general labor/subsistence arrangement remains unresolved.",
+      "source_ids": [
+        "src-b83-elite-codex"
+      ],
+      "analysis": "A robotics constraint across heterogeneous governments is not enough to assign one welfare/control point or prove a deliberate employment-preserving order.",
+      "follow_up": "Keep the short disposition and continue; do not rescue unclear settings through full manuals or role-playing extrapolation."
+    }
+  ],
+  "review_notes": [
+    "Twelve ordered candidate decisions yield three records through one explicit distribution-policy split.",
+    "Original Surviving Mars / Green Planet is kept separate from Relaunched and mods. Service automation does not abolish medicine, security or all human work.",
+    "Frostpunk 2’s free versus paid essentials materially differ despite the same automation policy. Exact workforce modifiers are not converted into population nonworking.",
+    "UCS was discovered while checking Lunar Corporation and is saved for later stable-ID expansion; it is not substituted into the wrong candidate.",
+    "Official EVE crew lore replaces player fiction. Anno/Offworld mods, Elite role-play and a Call to Power sequel mismatch were discarded."
+  ]
+}

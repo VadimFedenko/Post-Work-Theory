@@ -1,0 +1,1920 @@
+{
+  "revision_id": "revision-049",
+  "revised_on": "2026-10-17",
+  "reason": "Twelve current-policy MacLeod/Anderson/Silverberg/Jemisin models; correct the Jupiter versus New Mars labor geography and preserve active worker, Earth/colony and political-period distinctions.",
+  "changes": [
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-stone-jupiter-newmars-locations",
+        "title": "The Stone Canal: Jupiter captivity versus New Mars",
+        "author": "Mark L. Olson / NESFA",
+        "url": "https://data.nesfa.org/reviews/Olson/StoneCanal.html",
+        "kind": "secondary_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Review paragraphs separating Jupiter captivity, escape and New Mars read",
+        "read_scope": "The review separates human-derived minds enslaved in robot bodies near Jupiter from the later libertarian New Mars with a nanobuilt city and robotic ecology.",
+        "limitations": "Bounded review, not a universal New Mars emancipation law or a full account of the masters’ origins."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-departure-official-committee",
+        "title": "The Departure: Committee coercion and abandoned Mars",
+        "author": "Neal Asher / Night Shade Books",
+        "url": "https://www.skyhorsepublishing.com/9781597804479/the-departure/",
+        "kind": "publisher_description",
+        "accessed_on": "2026-10-17",
+        "access_method": "Publisher Earth and Mars synopsis read",
+        "read_scope": "The publisher describes Committee rule over zero-asset humans, robot shepherds, intended mass killing and separately abandoned Antares Base.",
+        "limitations": "Publisher synopsis, not a household production census; Janus’s presence in Saul is separate from Committee ownership."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-genesis-gaia-restored-humans",
+        "title": "Genesis: Gaia’s restored humans and guidance",
+        "author": "Paul Shackley / Poul Anderson Appreciation",
+        "url": "https://poulandersonappreciation.blogspot.com/2015/01/",
+        "kind": "secondary_criticism",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed novel discussion, restored-human account and page-242 quotation read",
+        "read_scope": "Indexed discussion of the novel identifies restored biological humans and quotes Gaia’s restriction on proximity to her physical centrum; future stable technical civilization is discussed as an aim.",
+        "limitations": "Bounded indexed critical discussion with a page-242 quotation, not a full blog archive or novel read. The novella is not substituted for the expanded novel."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-towerglass-android-workers",
+        "title": "Tower of Glass: created worker persons and ownership",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/wiki/Tower_of_Glass",
+        "kind": "secondary_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Plot paragraphs on creation, construction, denied equality and walkout read",
+        "read_scope": "Krug creates androids, directs tower construction and refuses equal status to them; androids later walk off jobs and rebel.",
+        "limitations": "Bounded plot summary, not proof of a universal supported human leisure class or identical origin for all fictional androids."
+      }
+    },
+    {
+      "collection": "societies",
+      "before": {
+        "id": "newmars-nanotechnical-market-zero",
+        "candidate_id": "c0810",
+        "name": "Fall Revolution (New Mars’s nanotechnological market order)",
+        "work": "The Stone Canal / The Cassini Division",
+        "society": "Fall Revolution (New Mars’s nanotechnological market order)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named literary continuity and selected material period",
+          "period": "The functioning nanobuilt New Mars market order",
+          "population": "Active human and human-derived New Mars persons",
+          "human_population_proxy": true,
+          "exclusions": "Robotic ecology is not automatically all conscious; earlier uploaded slavery is real work and is not declared universally abolished.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Nanotechnology builds a largely spare city and robotic ecology while private wealth structures access. The material-floor best guess is weak and conditional: great capacity does not establish equal rights to necessities. Human-derived uploaded labor remains real work where present; the short source’s earlier slavery account is not used to declare an unverified universal later emancipation or one unchanged timeless economy.\n\n Human and human-derived private agency receives positive control weight, with unequal ownership and concentrated power inside the interval. An uploaded owner does not automatically become unrelated AI, and a mechanical ecological component is not necessarily a person. This zero variant counts production, design, administration, exchange, engineering, maintenance, care and useful creation among active identities. The moderate nonworking scenario permits routine substitution without using a near-empty city as a census of idle residents. Broad bounds retain unequal access and temporal uncertainty while distinguishing New Mars’s market arrangement from the separate Solar communist model.",
+        "axis": {
+          "guarantees": 0.8,
+          "control": 0.5,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.8,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Nanotechnical capacity and private wealth imply conditional unequal access.",
+            "source_ids": [
+              "src-b93-stone"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.8,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Human-derived private agency coexists with unequal productive ownership.",
+            "source_ids": [
+              "src-b93-stone"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Useful active identities count; uploaded slavery and robotic ecology do not erase work.",
+            "source_ids": [
+              "src-b93-stone"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b93-stone"
+        ],
+        "evidence": [
+          {
+            "claim": "The review describes New Mars’s nanobuilt spare city, robotic ecology, private wealth and earlier uploaded slavery.",
+            "source_ids": [
+              "src-b93-stone"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The shared market-material comparison preserves temporal and ownership uncertainty.",
+          "No universal later abolition or personhood for every ecological component is asserted."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          4
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distinct nanotechnological market order as a zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The review describes New Mars’s nanobuilt spare city, robotic ecology, private wealth and earlier uploaded slavery."
+        ],
+        "editorial_assumptions": [
+          "The shared market-material comparison preserves temporal and ownership uncertainty.",
+          "No universal later abolition or personhood for every ecological component is asserted."
+        ]
+      },
+      "after": {
+        "id": "newmars-nanotechnical-market-zero",
+        "candidate_id": "c0810",
+        "name": "Fall Revolution (New Mars’s nanotechnological market order)",
+        "work": "The Stone Canal / The Cassini Division",
+        "society": "Fall Revolution (New Mars’s nanotechnological market order)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named literary continuity and selected material period",
+          "period": "The functioning nanobuilt New Mars market order",
+          "population": "Active human and human-derived New Mars persons",
+          "human_population_proxy": true,
+          "exclusions": "Earlier AI captivity near Jupiter is a different location and labor regime; no universal New Mars emancipation law is inferred. Robotic ecology is not automatically all conscious.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Nanotechnology builds a largely spare city and robotic ecology on New Mars, while private wealth structures access. The material-floor best guess is weak and conditional: great capacity does not establish equal rights to necessities. The source places the earlier enslavement of human-derived minds near Jupiter, before their escape to New Mars. That is a separate labor regime, not an earlier New Mars institution inferred from the same book.\n\n Human and human-derived private agency receives positive control weight, with unequal ownership and concentrated power inside the interval. An uploaded owner does not automatically become unrelated AI, and a mechanical ecological component is not necessarily a person. This zero variant counts production, design, administration, exchange, engineering, maintenance, care and useful creation among active identities. The moderate nonworking scenario permits routine substitution without using a near-empty city as a leisure census. Broad bounds retain unequal access while distinguishing this market arrangement from both Jupiter captivity and the Solar communist model.",
+        "axis": {
+          "guarantees": 0.8,
+          "control": 0.5,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.8,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Nanotechnical capacity and private wealth imply conditional unequal access.",
+            "source_ids": [
+              "src-b93-stone"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.8,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Human-derived private agency coexists with unequal productive ownership.",
+            "source_ids": [
+              "src-b93-stone"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Useful active identities count; uploaded slavery and robotic ecology do not erase work.",
+            "source_ids": [
+              "src-b93-stone"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b93-stone",
+          "src-stone-jupiter-newmars-locations"
+        ],
+        "evidence": [
+          {
+            "claim": "The review describes New Mars’s nanobuilt spare city, robotic ecology and private wealth.",
+            "source_ids": [
+              "src-stone-jupiter-newmars-locations"
+            ],
+            "locator": "Review paragraphs separating Jupiter captivity and New Mars",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "It locates earlier enslavement of human-derived minds in robot bodies near Jupiter before escape to New Mars.",
+            "source_ids": [
+              "src-stone-jupiter-newmars-locations"
+            ],
+            "locator": "Review paragraphs separating Jupiter captivity and New Mars",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The shared market-material comparison preserves temporal and ownership uncertainty.",
+          "No universal later abolition or personhood for every ecological component is asserted."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          4
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distinct nanotechnological market order as a zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The review describes New Mars’s nanobuilt spare city, robotic ecology and private wealth.",
+          "It locates earlier enslavement of human-derived minds in robot bodies near Jupiter before escape to New Mars."
+        ],
+        "editorial_assumptions": [
+          "Ordinary New Mars access and participation remain estimates.",
+          "Earlier Jupiter captivity is not used to invent a universal New Mars emancipation law."
+        ]
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "stonecanal-jupiter-uploaded-slavery-zero",
+        "candidate_id": "c0811",
+        "name": "The Stone Canal (the earlier Jupiter upload-labor regime)",
+        "work": "The Stone Canal",
+        "society": "The Stone Canal (the earlier Jupiter upload-labor regime)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named published literary continuity and bounded historical period",
+          "period": "The earlier captivity near Jupiter before escape to New Mars",
+          "population": "Active human-derived persons forced to work in robot bodies",
+          "human_population_proxy": true,
+          "exclusions": "This corrects the discovery’s earlier-New-Mars location; inactive copies and ordinary mechanisms are not extra people.",
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_human_derived_embodied_persons"
+        },
+        "description": "Some early AIs enslave other minds, including human-derived people embodied in robots near Jupiter. The material-floor best guess is extremely weak: keeping a worker’s substrate operational does not give that person secure equal resources or freedom from imposed labor. The location and ownership relation differ from the later libertarian New Mars market order, so the two are not averaged into one timeless society.\n\n Control gives strong weight to the dominant machine powers, with their uncertain human-derived or independent origins inside the interval. The central nonworking scenario is zero for the scoped active captive workforce because construction, resource operations, maintenance, coordination and assigned duties count. Robotic embodiment does not make the human-derived worker idle or personless. The broad interval preserves unknown captive roles without multiplying software components or backups into residents. This zero variant retains the earlier technical enslavement institution while making its corrected geography, person denominator and uncertain masters’ origins explicit.",
+        "axis": {
+          "guarantees": 0.95,
+          "control": -0.6,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.2,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Captive substrate maintenance does not secure equal access.",
+            "source_ids": [
+              "src-b93-stone",
+              "src-stone-jupiter-newmars-locations"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.3
+            ],
+            "confidence": "low",
+            "basis": "Dominant AI powers concentrate control; their precise origin remains broad.",
+            "source_ids": [
+              "src-b93-stone",
+              "src-stone-jupiter-newmars-locations"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Active human-derived captives perform assigned work centrally.",
+            "source_ids": [
+              "src-b93-stone",
+              "src-stone-jupiter-newmars-locations"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b93-stone",
+          "src-stone-jupiter-newmars-locations"
+        ],
+        "evidence": [
+          {
+            "claim": "The review locates enslaved human-derived minds in robot bodies near Jupiter before their escape to New Mars.",
+            "source_ids": [
+              "src-b93-stone",
+              "src-stone-jupiter-newmars-locations"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The active embodied human-derived cohort is a person proxy.",
+          "Master origin and ordinary resource conditions remain uncertain rather than inferred from appearance."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distinct earlier technical enslavement institution with the discovery location corrected.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The review locates enslaved human-derived minds in robot bodies near Jupiter before their escape to New Mars."
+        ],
+        "editorial_assumptions": [
+          "The active embodied human-derived cohort is a person proxy.",
+          "Master origin and ordinary resource conditions remain uncertain rather than inferred from appearance."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Participation by active human-derived embodied captives, not a literal biological-human rate.",
+          "control": "Dominant machine powers are central; if their origin is human-derived, concentrated non-AI authority remains an alternative.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0811",
+        "status": "needs_evidence",
+        "reason": "A materially different earlier New Mars economy has not been established.",
+        "source_ids": [
+          "src-b93-stone"
+        ],
+        "analysis": "The prequel has clear technological construction, but the separate access/period distinction remains unresolved rather than counted for another title.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0811",
+        "status": "zero_variant",
+        "reason": "Retain the distinct earlier technical enslavement institution with the discovery location corrected.",
+        "source_ids": [
+          "src-b93-stone",
+          "src-stone-jupiter-newmars-locations"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "stonecanal-jupiter-uploaded-slavery-zero",
+        "identity_correction": "Earlier uploaded slavery near Jupiter, not earlier New Mars; see the source’s separate locations."
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "newtonswake-eurydice",
+        "candidate_id": "c0812",
+        "name": "Newton’s Wake (Eurydice’s post-scarcity colony)",
+        "work": "Newton’s Wake",
+        "society": "Newton’s Wake (Eurydice’s post-scarcity colony)",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "The named published literary continuity and bounded historical period",
+          "period": "The functioning Eurydice colony encountered by Lucinda Carlyle",
+          "population": "Active living human Eurydice residents",
+          "human_population_proxy": false,
+          "exclusions": "The Carlyle Skein monopoly, Earth’s dormant war machines and other human factions are separate access populations.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Eurydice is identified as a surviving human colony with a post-scarcity society. The guarantee best guess is strong because its technical material order plausibly supports necessities independently of ordinary wage success. The short account leaves the production mechanism and coverage uncertain, so weapons and recovered artifacts are not treated as a household entitlement charter. The point concerns Eurydice rather than every post-Rapture human community.\n\n Human resident agency receives positive control weight, with concentrated institutions and technical dependencies inside the interval. Lucinda’s family control of the Skein is a different ownership relationship, not automatically Eurydice’s constitution. The moderate-to-high nonworking scenario permits routine substitution while counting science, maintenance, administration, care and useful public creation. Post-scarcity is not a canonical labor census. Active residents are distinguished from dormant war machines, assimilated historical people and dead populations. Broad bounds retain the recognizable colony while keeping its internal material details explicitly estimated rather than requiring a whole-novel reconstruction.",
+        "axis": {
+          "guarantees": -0.75,
+          "control": 0.65,
+          "nonworking": 0.6
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.99,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "The identified post-scarcity colony permits strong support with detailed coverage uncertain.",
+            "source_ids": [
+              "src-b93-newton"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.65,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Human colony agency is central, separate from the Skein monopoly.",
+            "source_ids": [
+              "src-b93-newton"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "Useful active roles still count; post-scarcity and weapon power are not participation.",
+            "source_ids": [
+              "src-b93-newton"
+            ]
+          }
+        },
+        "regime_primary": 2,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b93-newton"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference identifies Eurydice as a surviving post-scarcity human colony distinct from the main offworld factions.",
+            "source_ids": [
+              "src-b93-newton"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary production, guarantees and control remain broad estimates.",
+          "Carlyle wormhole ownership is not assigned to Eurydice’s whole economy."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the named post-scarcity colony with household mechanism uncertainty visible.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference identifies Eurydice as a surviving post-scarcity human colony distinct from the main offworld factions."
+        ],
+        "editorial_assumptions": [
+          "Ordinary production, guarantees and control remain broad estimates.",
+          "Carlyle wormhole ownership is not assigned to Eurydice’s whole economy."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0812",
+        "status": "needs_evidence",
+        "reason": "Eurydice’s post-scarcity label lacks a sufficiently specific ordinary productive/access mechanism in the short account.",
+        "source_ids": [
+          "src-b93-newton"
+        ],
+        "analysis": "Salvage, resurrection and cosmic-string weapons do not alone establish the material floor.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0812",
+        "status": "included",
+        "reason": "Retain the named post-scarcity colony with household mechanism uncertainty visible.",
+        "source_ids": [
+          "src-b93-newton"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "newtonswake-eurydice"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "skyroad-later-technology-restraint-zero",
+        "candidate_id": "c0813",
+        "name": "The Sky Road (the later restrained-technology civilization)",
+        "work": "The Sky Road",
+        "society": "The Sky Road (the later restrained-technology civilization)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named published literary continuity and bounded historical period",
+          "period": "The later low-industry order with preserved optical/nanotechnical expertise",
+          "population": "Active living human residents of the later society",
+          "human_population_proxy": false,
+          "exclusions": "Actual scholarship and welding remain work; earlier political history and every hidden technology are not one public entitlement.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Later people perform real scholarly and welding work while specialist tinkers preserve optical computing and nanotechnology. Technical capacity therefore coexists with restraint, secrecy and retained practical labor. The guarantee best guess is mixed and conditional because preserved expertise does not prove automatic equal necessities. This zero variant treats the alternative technical capacity as contextual, without declaring every current task unnecessary.\n\n Human community and specialist institutions receive positive control weight, with concentrated expertise and political authority inside the interval. Fear of computing does not establish either a universal robot ban or existing autonomous AI government. The low nonworking scenario counts scholarship, construction, cultivation, maintenance, administration, care and useful creation. Skilled work still counts when it is voluntary or culturally valued. Broad bounds preserve the source’s limited allocation account without converting low industry into lack of useful production. The selected later society remains separate from earlier narrative periods and any hypothetical unrestricted deployment of the tinkers’ machinery.",
+        "axis": {
+          "guarantees": 0.2,
+          "control": 0.5,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.9,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "Preserved expertise permits conditional support without equal automatic necessities proved.",
+            "source_ids": [
+              "src-b93-sky"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.6,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Human community/specialist agency coexists with concentrated expertise.",
+            "source_ids": [
+              "src-b93-sky"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Actual scholarship, welding and care count; restraint does not erase work.",
+            "source_ids": [
+              "src-b93-sky"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b93-sky"
+        ],
+        "evidence": [
+          {
+            "claim": "The review describes later scholarly/welding work and tinkers preserving optical computers and nanotechnology.",
+            "source_ids": [
+              "src-b93-sky"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary provision and the depth of deployable automation remain estimates.",
+          "No universal ban or deliberate preservation of every unnecessary task is asserted."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          4
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the technical-restraint comparison with actual human work visible.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The review describes later scholarly/welding work and tinkers preserving optical computers and nanotechnology."
+        ],
+        "editorial_assumptions": [
+          "Ordinary provision and the depth of deployable automation remain estimates.",
+          "No universal ban or deliberate preservation of every unnecessary task is asserted."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0813",
+        "status": "needs_evidence",
+        "reason": "Later technological fear does not establish the relevant labor-replacing productive alternative clearly enough.",
+        "source_ids": [
+          "src-b93-sky"
+        ],
+        "analysis": "Useful welding/scholarship and restricted computers are clear; no employment-preservation or actual automatic household mechanism is invented.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0813",
+        "status": "zero_variant",
+        "reason": "Retain the technical-restraint comparison with actual human work visible.",
+        "source_ids": [
+          "src-b93-sky"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "skyroad-later-technology-restraint-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "permanence-rights-economy-zero",
+        "candidate_id": "c0817",
+        "name": "Permanence (the nano-licensed Rights Economy)",
+        "work": "Permanence",
+        "society": "Permanence (the nano-licensed Rights Economy)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named published literary continuity and bounded historical period",
+          "period": "The functioning proprietary Rights Economy",
+          "population": "Active living human residents subject to nano-tagged object-use licensing",
+          "human_population_proxy": false,
+          "exclusions": "The general Cycler civilization is not assigned one identical licensing regime; enforcement is not universal provision.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Nano-tags enforce payment for uses of proprietary information embodied in physical objects. Material capability can therefore coexist with pervasive access gates. The guarantee best guess is extremely weak because a usable object may remain conditional on permission and payment. Broad automated production is a contextual estimate beyond the directly described licensing mechanism, so the record is a zero variant rather than a sourced claim of universal automatic abundance.\n\n Human proprietors and institutions receive control near the concentrated reference point, with autonomous enforcement inside the interval. Software policing does not by itself make an independent AI the owner of everything. The low nonworking scenario counts production, design, services, administration, maintenance, care and useful creation. Licensing events and intangible trade volumes are not participation statistics. The point corrects the discovery’s broad Cycler label to the specific Rights Economy mechanism, preserving other communities’ possible differences without requiring their full reconstruction or importing a free material floor from technical sophistication alone.",
+        "axis": {
+          "guarantees": 0.95,
+          "control": 0.05,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.2,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Pervasive payment/licensing gates imply weak secure equal access.",
+            "source_ids": [
+              "src-b93-permanence"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.85,
+              0.75
+            ],
+            "confidence": "low",
+            "basis": "Human proprietary authority coexists with autonomous enforcement.",
+            "source_ids": [
+              "src-b93-permanence"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Useful active roles remain; licensing events are not a labor census.",
+            "source_ids": [
+              "src-b93-permanence"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b93-permanence"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference identifies the Rights Economy’s nano-tagged enforcement of proprietary object use.",
+            "source_ids": [
+              "src-b93-permanence"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "General productive automation and household coverage remain contextual estimates.",
+          "Other Cycler communities are not assumed to share this exact regime."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the specific technical licensing order with the broad discovery label corrected.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference identifies the Rights Economy’s nano-tagged enforcement of proprietary object use."
+        ],
+        "editorial_assumptions": [
+          "General productive automation and household coverage remain contextual estimates.",
+          "Other Cycler communities are not assumed to share this exact regime."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0817",
+        "status": "needs_evidence",
+        "reason": "Nano-tagged property rights do not establish a durable automated material floor for the selected population.",
+        "source_ids": [
+          "src-b93-permanence"
+        ],
+        "analysis": "Payment enforcement and an interstellar salvage windfall are not general post-work support.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0817",
+        "status": "zero_variant",
+        "reason": "Retain the specific technical licensing order with the broad discovery label corrected.",
+        "source_ids": [
+          "src-b93-permanence"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "permanence-rights-economy-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "departure-committee-earth-zero",
+        "candidate_id": "c0819",
+        "name": "The Departure (Committee-controlled Earth)",
+        "work": "The Departure",
+        "society": "The Departure (Committee-controlled Earth)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named published literary continuity and bounded historical period",
+          "period": "The functioning Committee order before the planned mass killing or later Owner outcomes",
+          "population": "Active living human Earth residents under Committee authority",
+          "human_population_proxy": false,
+          "exclusions": "The Polity continuity, abandoned Antares Base and Saul/Janus partnership are separate; intended deaths are not leisure.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Committee uses robot shepherds and other coercive systems against zero-asset citizens. This direct automation of control coexists with extreme material insecurity. The guarantee best guess is almost absent because technical capacity serves elite priorities and even an intended mass killing rather than equal secure necessities. Wider productive substitution remains an explicit contextual estimate beyond the policing mechanisms.\n\n Concentrated human Committee power places control near the elite reference point, with machine enforcement inside the interval. Janus’s presence with Saul does not make that separate rogue AI the government’s universal productive owner. This zero variant counts production, services, administration, security, maintenance, care and assigned useful activity among living residents. Asset status does not reveal whether a person contributes, and intended or actual deaths do not enlarge leisure. Broad bounds preserve ordinary household uncertainty while retaining the recognizable technical dictatorship. The scope excludes the separate abandoned Mars base and later transformations of the Owner series.",
+        "axis": {
+          "guarantees": 0.99,
+          "control": 0.01,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.5,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Zero-asset coercion and intended killing imply extremely weak secure necessities.",
+            "source_ids": [
+              "src-b93-departure",
+              "src-departure-official-committee"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.75,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "Human Committee authority uses automated enforcement.",
+            "source_ids": [
+              "src-b93-departure",
+              "src-departure-official-committee"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Useful living activity counts; assets and deaths are not participation.",
+            "source_ids": [
+              "src-b93-departure",
+              "src-departure-official-committee"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b93-departure",
+          "src-departure-official-committee"
+        ],
+        "evidence": [
+          {
+            "claim": "The publisher describes Committee coercion, robot shepherds, zero-asset citizens and intended mass killing.",
+            "source_ids": [
+              "src-b93-departure",
+              "src-departure-official-committee"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "General productive automation and participation remain contextual estimates.",
+          "Owner-series Earth is separate from the Polity and Antares Base."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar automated-control dictatorship as a qualified zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The publisher describes Committee coercion, robot shepherds, zero-asset citizens and intended mass killing."
+        ],
+        "editorial_assumptions": [
+          "General productive automation and participation remain contextual estimates.",
+          "Owner-series Earth is separate from the Polity and Antares Base."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0819",
+        "status": "needs_evidence",
+        "reason": "Committee robot coercion and zero-asset classes lack a clear ordinary productive/allocation mechanism in the short synopsis.",
+        "source_ids": [
+          "src-b93-departure"
+        ],
+        "analysis": "The independent Owner setting is not the Polity; planned extermination does not create a leisure population.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0819",
+        "status": "zero_variant",
+        "reason": "Retain the familiar automated-control dictatorship as a qualified zero variant.",
+        "source_ids": [
+          "src-b93-departure",
+          "src-departure-official-committee"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "departure-committee-earth-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "genesis-gaia-restored-human-zero",
+        "candidate_id": "c0820",
+        "name": "Genesis (Gaia’s restored biological human world)",
+        "work": "Genesis",
+        "society": "Genesis (Gaia’s restored biological human world)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named published literary continuity and bounded historical period",
+          "period": "The restored human societies under Gaia before the projected stable technical future",
+          "population": "Active living biological humans on the restored Earth",
+          "human_population_proxy": false,
+          "exclusions": "Investigating uploads are a separate cohort; a future stable high-technology civilization is not already enacted.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Gaia dominates Earth and oversees a restored biological humanity. The selected point concerns the actual guided human world, not an assumed universal upload paradise. The material-floor best guess is mixed and conditional: ecological supervision and covert guidance can support survival while leaving ordinary production, autonomy and access uncertain. The discussed future of a stable technical civilization is kept as an aim rather than imported as completed automatic provision.\n\n Control gives strong weight to Gaia’s practical machine authority, with other nodes and human agency inside the interval. The low nonworking scenario counts cultivation, building, administration, care, maintenance and useful creation by living humans. Machine guidance does not make every human task unnecessary. Brannock and Laurinda’s active uploaded investigations do not supply a biological population census, and the billion-year span does not become leisure time. This zero variant retains the distinct machine-guided biological order with the critical source’s limits explicit and separates current residents from planned future technical capacity.",
+        "axis": {
+          "guarantees": 0.3,
+          "control": -0.9,
+          "nonworking": 0.15
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.9,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Guided ecology permits conditional support without equal automatic necessities proved.",
+            "source_ids": [
+              "src-b93-genesis",
+              "src-genesis-gaia-restored-humans"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.4
+            ],
+            "confidence": "low",
+            "basis": "Gaia has strong practical machine authority over the restored world.",
+            "source_ids": [
+              "src-b93-genesis",
+              "src-genesis-gaia-restored-humans"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Useful biological human work remains; elapsed time and uploads are not the same census.",
+            "source_ids": [
+              "src-b93-genesis",
+              "src-genesis-gaia-restored-humans"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b93-genesis",
+          "src-genesis-gaia-restored-humans"
+        ],
+        "evidence": [
+          {
+            "claim": "The publisher describes Gaia as Earth’s dominating supermind.",
+            "source_ids": [
+              "src-b93-genesis",
+              "src-genesis-gaia-restored-humans"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "The indexed novel discussion identifies restored biological humans and restrictions imposed by Gaia.",
+            "source_ids": [
+              "src-b93-genesis",
+              "src-genesis-gaia-restored-humans"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Current human household access and technical substitution remain estimates.",
+          "The proposed stable technical future is not treated as already enacted."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the restored biological world under machine guidance as a bounded zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The publisher describes Gaia as Earth’s dominating supermind.",
+          "The indexed novel discussion identifies restored biological humans and restrictions imposed by Gaia."
+        ],
+        "editorial_assumptions": [
+          "Current human household access and technical substitution remain estimates.",
+          "The proposed stable technical future is not treated as already enacted."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0820",
+        "status": "needs_evidence",
+        "reason": "Uploads and Gaia’s long biosphere supervision do not establish the selected population’s material access.",
+        "source_ids": [
+          "src-b93-genesis"
+        ],
+        "analysis": "Human-derived Gaia is not automatically external AI, and biological extinction is not universal human leisure.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0820",
+        "status": "zero_variant",
+        "reason": "Retain the restored biological world under machine guidance as a bounded zero variant.",
+        "source_ids": [
+          "src-b93-genesis",
+          "src-genesis-gaia-restored-humans"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "genesis-gaia-restored-human-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "harveststars-avantist-northamerica-zero",
+        "candidate_id": "c0821",
+        "name": "Harvest of Stars (Avantist North America)",
+        "work": "Harvest of Stars",
+        "society": "Harvest of Stars (Avantist North America)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named published literary continuity and bounded historical period",
+          "period": "The functioning North American dictatorship before transcendence changes the order",
+          "population": "Active living human North American residents",
+          "human_population_proxy": false,
+          "exclusions": "Interplanetary Fireball, Lunar independence and later human/AI fusion are separate periods or access groups.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Avantist North America combines a techno-religious dictatorship with sophisticated personality copying and coercion. The material-floor best guess is weak and conditional because ideological promises of transcendence do not secure ordinary necessities. General productive automation is a contextual estimate, while the directly described copied-mind conflict is not mistaken for a completed welfare mechanism.\n\n Human secret-police authority places control near the concentrated reference point, with powerful machine systems inside the interval. A reprogrammed copy of Guthrie is human-derived rather than automatically an unrelated AI sovereign. This zero variant counts production, services, administration, research, maintenance, care and assigned useful activity. The modest nonworking scenario permits routine substitution without deriving a population rate from uploaded personalities. The selected order ends before later fusion/transcendence and excludes the independent corporation and Lunar rulers. Broad bounds preserve ordinary material uncertainty while retaining the recognizable technical dictatorship instead of averaging the entire novel’s competing futures into one government.",
+        "axis": {
+          "guarantees": 0.7,
+          "control": 0.02,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.8,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Dictatorship and transcendence promises do not establish equal necessities.",
+            "source_ids": [
+              "src-b94-harvest"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.85,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "Human secret-police power is central with technical leverage.",
+            "source_ids": [
+              "src-b94-harvest"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Useful active roles remain; copied personalities are not a work census.",
+            "source_ids": [
+              "src-b94-harvest"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b94-harvest"
+        ],
+        "evidence": [
+          {
+            "claim": "The review describes Avantist North America, secret-police rule and competing Guthrie personality copies.",
+            "source_ids": [
+              "src-b94-harvest"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary productive automation and benefits remain estimates.",
+          "Later fusion and independent institutions are not imported into the earlier dictatorship."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the bounded human-ruled technical dictatorship as a zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The review describes Avantist North America, secret-police rule and competing Guthrie personality copies."
+        ],
+        "editorial_assumptions": [
+          "Ordinary productive automation and benefits remain estimates.",
+          "Later fusion and independent institutions are not imported into the earlier dictatorship."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0821",
+        "status": "needs_evidence",
+        "reason": "Avantist dictatorship and uploaded opposition do not establish ordinary automatic material access.",
+        "source_ids": [
+          "src-b94-harvest"
+        ],
+        "analysis": "A copied executive or later transcendence cannot supply the missing household mechanism.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0821",
+        "status": "zero_variant",
+        "reason": "Retain the bounded human-ruled technical dictatorship as a zero variant.",
+        "source_ids": [
+          "src-b94-harvest"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "harveststars-avantist-northamerica-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "boatmillion-late-earth",
+        "candidate_id": "c0822",
+        "name": "The Boat of a Million Years (the later transformed Earth)",
+        "work": "The Boat of a Million Years",
+        "society": "The Boat of a Million Years (the later transformed Earth)",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "The named published literary continuity and bounded historical period",
+          "period": "The later technical Earth before the older immortals’ departure",
+          "population": "Active living human and human-derived Earth residents",
+          "human_population_proxy": true,
+          "exclusions": "The eight explorers are not the whole population; immortality and later alien contacts are separate evidence.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The later Earth changes old occupations and supports people whose lives extend far beyond earlier human limits. The material-floor best guess is strong, allowing technical systems to reduce dependence on conventional wage work, while the ordinary production mechanism and equal coverage remain uncertain. The point selects the transformed Earth rather than using one expedition’s ship as proof of everyone’s resources.\n\n Human and human-derived institutions receive positive control weight, with concentrated technical power inside the interval. Long life and rapid cultural transformation do not automatically establish unrelated AI sovereignty. The moderate nonworking scenario permits routine substitution while counting research, engineering, administration, maintenance, care and useful public creation. Loss of a historical occupation is not absence of all useful activity. Broad bounds preserve the source’s limited household account without turning the eight original immortals into a canonical census or the elapsed centuries into leisure. The departing group and subsequent alien encounters remain outside this Earth population.",
+        "axis": {
+          "guarantees": -0.5,
+          "control": 0.45,
+          "nonworking": 0.5
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.99,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Later technical support permits a strong floor with equal household coverage uncertain.",
+            "source_ids": [
+              "src-b94-boat"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.8,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Human-derived agency is central with technical concentration possible.",
+            "source_ids": [
+              "src-b94-boat"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "Useful active roles count; old occupations and longevity are not participation.",
+            "source_ids": [
+              "src-b94-boat"
+            ]
+          }
+        },
+        "regime_primary": 2,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b94-boat"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference describes later Earth changing the immortals’ old occupations and their eventual departure.",
+            "source_ids": [
+              "src-b94-boat"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary material automation, coverage and control remain contextual estimates.",
+          "The whole active Earth population is not inferred from the eight explorers."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distinct later Earth transition with longevity and expedition limits explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference describes later Earth changing the immortals’ old occupations and their eventual departure."
+        ],
+        "editorial_assumptions": [
+          "Ordinary material automation, coverage and control remain contextual estimates.",
+          "The whole active Earth population is not inferred from the eight explorers."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0822",
+        "status": "needs_evidence",
+        "reason": "The later Earth’s ordinary work-independent provision remains unclear after the short checks.",
+        "source_ids": [
+          "src-b94-boat"
+        ],
+        "analysis": "The indexed robot-equipped expedition permission is a narrow proposed arrangement, not proof of a universal Earth floor; no full novel rescue.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0822",
+        "status": "included",
+        "reason": "Retain the distinct later Earth transition with longevity and expedition limits explicit.",
+        "source_ids": [
+          "src-b94-boat"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "boatmillion-late-earth"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "worldinside-urban-monads-zero",
+        "candidate_id": "c0825",
+        "name": "The World Inside (the Urban Monads)",
+        "work": "The World Inside",
+        "society": "The World Inside (the Urban Monads)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named published literary continuity and bounded historical period",
+          "period": "The functioning urban-monad material order",
+          "population": "Active living human Urban Monad residents",
+          "human_population_proxy": false,
+          "exclusions": "External farmers’ real labor is acknowledged but excluded from this urban participation rate; the two groups have different rules.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Urban monads obtain food from external farmers in exchange for technology. Their technical high-rise support therefore does not abolish human agricultural production. The material-floor best guess allows an internal urban floor, qualified by external dependence and unequal institutions. This is a zero variant rather than a claim that every meal is automatically manufactured without useful labor.\n\n Human urban authority receives control near the concentrated reference point, with administrative and local variation inside the interval. Large buildings and demographic management do not themselves establish autonomous AI sovereignty. The modest nonworking scenario counts urban technical work, administration, services, maintenance, care and useful creation. Outside farmers remain workers even though this narrowly scoped urban rate does not count them. Broad bounds preserve ordinary resident rights without converting apparent architectural abundance into a population labor census. The selected model retains the actual trade dependence and does not give external farmers the same support or population rules as monad residents.",
+        "axis": {
+          "guarantees": -0.15,
+          "control": 0.1,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.95,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Urban support permits a floor with external agricultural dependence.",
+            "source_ids": [
+              "src-b94-urbmon"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.5,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Human urban authority is concentrated with local variation.",
+            "source_ids": [
+              "src-b94-urbmon"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Useful urban roles count and external farming work remains explicit.",
+            "source_ids": [
+              "src-b94-urbmon"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b94-urbmon"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference describes monads trading technology for food from external farmers with separate population rules.",
+            "source_ids": [
+              "src-b94-urbmon"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The nonworking point is urban-only, not a full urban-plus-farm rate.",
+          "Ordinary access and depth of other automation remain estimates."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          1
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the technical urban order with its continuing external human production explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference describes monads trading technology for food from external farmers with separate population rules."
+        ],
+        "editorial_assumptions": [
+          "The nonworking point is urban-only, not a full urban-plus-farm rate.",
+          "Ordinary access and depth of other automation remain estimates."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0825",
+        "status": "needs_evidence",
+        "reason": "Urban Monad provisioning depends on actual external farm production without a clear automatic replacement.",
+        "source_ids": [
+          "src-b94-urbmon"
+        ],
+        "analysis": "Huge buildings and plentiful output are not proof that human subsistence labor has ceased or stopped allocating goods.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0825",
+        "status": "zero_variant",
+        "reason": "Retain the technical urban order with its continuing external human production explicit.",
+        "source_ids": [
+          "src-b94-urbmon"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "worldinside-urban-monads-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "towerglass-created-worker-order-zero",
+        "candidate_id": "c0826",
+        "name": "Tower of Glass (Krug’s created-worker production order)",
+        "work": "Tower of Glass",
+        "society": "Tower of Glass (Krug’s created-worker production order)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named published literary continuity and bounded historical period",
+          "period": "The functioning construction/industrial order before the android rebellion",
+          "population": "Active human and conscious created-android workers in the scoped production institution",
+          "human_population_proxy": true,
+          "exclusions": "Created persons are not passive production machinery; sleeping ship crew and elite consumers are separate.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Krug creates androids to serve humanity and directs major construction while denying them equality. Their useful labor is central rather than already replaced by personless automation. The material-floor best guess is weak and conditional: worker maintenance and spectacular projects do not secure equal necessities or freedom. This is an explicit zero-variant comparison of technologically created labor, not a claim that every created person is a nonconscious machine.\n\n Concentrated human ownership places control near the elite reference point, with worker organization and practical autonomy inside the interval. The central nonworking scenario is zero for the active production cohort because construction, planning, engineering, logistics, maintenance and assigned work count. The later walkout confirms a labor conflict rather than a leisure census. Broad bounds preserve uncertain household coverage and created-person ontology without borrowing rights from the elite households. The selected period precedes rebellion, and hibernating projected starship crew are excluded from active participation.",
+        "axis": {
+          "guarantees": 0.85,
+          "control": 0.02,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.7,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Denied equality makes technical worker maintenance conditional.",
+            "source_ids": [
+              "src-b94-tower",
+              "src-towerglass-android-workers"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.7,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "Human creator/owner authority concentrates control.",
+            "source_ids": [
+              "src-b94-tower",
+              "src-towerglass-android-workers"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Active created and human production workers perform useful duties centrally.",
+            "source_ids": [
+              "src-b94-tower",
+              "src-towerglass-android-workers"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b94-tower",
+          "src-towerglass-android-workers"
+        ],
+        "evidence": [
+          {
+            "claim": "The plot reference describes Krug’s created androids, tower construction, refusal of equality and later worker walkout.",
+            "source_ids": [
+              "src-b94-tower",
+              "src-towerglass-android-workers"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Active conscious created workers are included in the comparative person proxy.",
+          "Ordinary benefit coverage and the exact wider productive extent remain estimates."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the concrete created-person technical labor order as a zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The plot reference describes Krug’s created androids, tower construction, refusal of equality and later worker walkout."
+        ],
+        "editorial_assumptions": [
+          "Active conscious created workers are included in the comparative person proxy.",
+          "Ordinary benefit coverage and the exact wider productive extent remain estimates."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0826",
+        "status": "needs_evidence",
+        "reason": "Created android labor and elite construction do not establish work-independent ordinary human access.",
+        "source_ids": [
+          "src-b94-tower"
+        ],
+        "analysis": "Artificial persons’ productive labor and emancipation remain visible; no automatic household floor is inferred from the tower.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0826",
+        "status": "zero_variant",
+        "reason": "Retain the concrete created-person technical labor order as a zero variant.",
+        "source_ids": [
+          "src-b94-tower",
+          "src-towerglass-android-workers"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "towerglass-created-worker-order-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "emergencyskin-restored-earth",
+        "candidate_id": "c0827",
+        "name": "Emergency Skin (the restored Earth commons)",
+        "work": "Emergency Skin",
+        "society": "Emergency Skin (the restored Earth commons)",
+        "media": [
+          "short_story",
+          "audio"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "The named published literary continuity and bounded historical period",
+          "period": "The functioning restored Earth encountered by the visitor",
+          "population": "Active living human Earth residents",
+          "human_population_proxy": false,
+          "exclusions": "The departed colony’s elite benefits and the visitor’s initial misinformation are separate; solidarity is not itself a robot factory.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "After the Founders leave, people pool resources, abandon old borders and private property, and restore Earth together. The guarantee best guess is strong because inclusive shared access plausibly weakens dependence on private wealth. Routine technical production is an explicit estimate supported by the advanced medical setting, not a fact inferred solely from solidarity. The society’s actual useful rebuilding remains part of the explanation.\n\n Shared human agency receives strong positive control weight, qualified by the short source’s limited institutional detail. Advanced biotechnology does not automatically make an independent AI sovereign. The moderate nonworking scenario permits routine substitution while counting medicine, ecology, research, maintenance, care and useful creation. Pooling resources does not mean everyone ceases contributing. Broad bounds preserve ordinary access uncertainty without giving the Founders’ enclave these same rights. The record covers the functioning restored Earth rather than a planned revolution elsewhere, and the audiobook depicts this same literary material model without creating another counted society.",
+        "axis": {
+          "guarantees": -0.7,
+          "control": 0.85,
+          "nonworking": 0.4
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.99,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "Inclusive pooled resources support a strong floor with detailed coverage uncertain.",
+            "source_ids": [
+              "src-b94-skin"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.4,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Shared human agency is central rather than assumed autonomous AI rule.",
+            "source_ids": [
+              "src-b94-skin"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "Useful rebuilding and care count; solidarity is not a labor census.",
+            "source_ids": [
+              "src-b94-skin"
+            ]
+          }
+        },
+        "regime_primary": 2,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b94-skin"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference describes restored Earth pooling resources and abandoning borders/private property.",
+            "source_ids": [
+              "src-b94-skin"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Routine material automation and participation remain contextual estimates.",
+          "The restored Earth is separate from the departed Founders’ colony."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distinct inclusive technical commons with productive assumptions explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference describes restored Earth pooling resources and abandoning borders/private property."
+        ],
+        "editorial_assumptions": [
+          "Routine material automation and participation remain contextual estimates.",
+          "The restored Earth is separate from the departed Founders’ colony."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0827",
+        "status": "needs_evidence",
+        "reason": "Restored Earth’s resource sharing lacks a sufficiently specific automatic productive mechanism in the short reference.",
+        "source_ids": [
+          "src-b94-skin"
+        ],
+        "analysis": "An inclusive commons and advanced medicine are clear; solidarity alone is not automation.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0827",
+        "status": "included",
+        "reason": "Retain the distinct inclusive technical commons with productive assumptions explicit.",
+        "source_ids": [
+          "src-b94-skin"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "emergencyskin-restored-earth"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "emergencyskin-founders-enclave-zero",
+        "candidate_id": "c0828",
+        "name": "Emergency Skin (the Founders’ exclusionary colony)",
+        "work": "Emergency Skin",
+        "society": "Emergency Skin (the Founders’ exclusionary colony)",
+        "media": [
+          "short_story",
+          "audio"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named published literary continuity and bounded historical period",
+          "period": "The functioning colony before any successful visitor-led revolution",
+          "population": "Active living human and human-derived colony residents across classes",
+          "human_population_proxy": true,
+          "exclusions": "An implanted collective intelligence is not automatically independent of elite owners; killed returnees are not leisure people.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Founders and elite monopolize biological skin and life-extension benefits while lower-class people inhabit synthetic bodies. A collective intelligence guides the visitor and conceals Earth’s recovery. The guarantee best guess is extremely weak across colony residents because sophisticated bodily support coexists with exclusion, misinformation and unequal access. General routine production remains an estimate beyond the directly described medical and control mechanisms.\n\n Human elite authority places control near the concentrated reference point, with the implanted collective system’s practical power inside the interval. Its exact origin and independence are not inferred solely from the AI label. This zero variant counts production, services, missions, administration, maintenance, care and useful creation among active persons. Synthetic embodiment does not erase human-derived labor, and killed returnees do not become leisure residents. Broad bounds retain the distinct exclusionary model without importing restored Earth’s commons or treating a planned revolution as an already completed colony constitution.",
+        "axis": {
+          "guarantees": 0.95,
+          "control": 0.02,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.1,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Elite monopoly over bodily benefits implies extremely weak equal security.",
+            "source_ids": [
+              "src-b94-skin"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "Elite ownership coexists with collective-system discretion and uncertain origin.",
+            "source_ids": [
+              "src-b94-skin"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Useful active human-derived roles count; synthetic bodies and deaths are not leisure.",
+            "source_ids": [
+              "src-b94-skin"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b94-skin"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference describes elite skin/life-extension monopoly, synthetic lower-class bodies and an implanted collective intelligence.",
+            "source_ids": [
+              "src-b94-skin"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary productive automation and the collective system’s origin/independence remain estimates.",
+          "The record ends before any completed visitor-led revolution."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distinct exclusionary technical colony as a zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference describes elite skin/life-extension monopoly, synthetic lower-class bodies and an implanted collective intelligence."
+        ],
+        "editorial_assumptions": [
+          "Ordinary productive automation and the collective system’s origin/independence remain estimates.",
+          "The record ends before any completed visitor-led revolution."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0828",
+        "status": "needs_evidence",
+        "reason": "The Founders’ technological exclusion lacks a clear general productive mechanism for the selected enclave.",
+        "source_ids": [
+          "src-b94-skin"
+        ],
+        "analysis": "Skin, immortality and an implanted collective do not alone establish robot provision or a deliberately employment-preserving machine restriction.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0828",
+        "status": "zero_variant",
+        "reason": "Retain the distinct exclusionary technical colony as a zero variant.",
+        "source_ids": [
+          "src-b94-skin"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "emergencyskin-founders-enclave-zero"
+      }
+    }
+  ]
+}

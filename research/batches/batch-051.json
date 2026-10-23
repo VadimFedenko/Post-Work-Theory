@@ -1,0 +1,372 @@
+{
+  "batch_id": "batch-051",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0316",
+    "c0317",
+    "c0318",
+    "c0319",
+    "c0320",
+    "c0321"
+  ],
+  "sources": [
+    {
+      "id": "src-walle-return-reference",
+      "title": "WALL-E",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/WALL-E",
+      "kind": "secondary_film_plot_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public return and end-credit rebuilding description read",
+      "read_scope": "Humans and robots work to restore Earth after AUTO is disabled.",
+      "limitations": "The ending is not automatically the Axiom’s continuing free-service economy; no new film viewing claimed."
+    },
+    {
+      "id": "src-matrix-1999-transcript",
+      "title": "The Matrix: Transcript",
+      "author": "Wachowski film dialogue, transcribed by Matrix Fans",
+      "url": "https://www.matrixfans.net/movies/the-matrix/transcript/",
+      "kind": "primary_film_dialogue_transcription_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded public indexed Morpheus and Smith explanations read",
+      "read_scope": "Pod-grown humans, machine support and the rejected perfect simulation.",
+      "limitations": "Transcription not checked against the audiovisual edition. Smith’s theory of human acceptance is a character explanation, not an exhaustive economic constitution; physical energy claims are fictional lore."
+    },
+    {
+      "id": "src-matrix-pod-plot",
+      "title": "The Matrix: Plot",
+      "author": "IMDb plot contributors",
+      "url": "https://www.imdb.com/title/tt0133093/plotsummary/",
+      "kind": "secondary_film_plot_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public machine fields and simulated-death description read",
+      "read_scope": "Machines grow and feed pod humans; simulated death can kill their physical bodies.",
+      "limitations": "Body maintenance is distinct from experienced security. No exact population or work rate is supplied."
+    },
+    {
+      "id": "src-matrix-food-reference",
+      "title": "Food",
+      "author": "Matrix Wiki contributors",
+      "url": "https://matrix.fandom.com/wiki/Food",
+      "kind": "secondary_lore_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public simulated-food and film porridge entries read",
+      "read_scope": "Virtual eating and real protein provision are different layers.",
+      "limitations": "Related-comic farming and the Bread Feast are not imported into the films’ economy."
+    },
+    {
+      "id": "src-matrix-io-transcript",
+      "title": "The Matrix Resurrections: Transcript",
+      "author": "Lana Wachowski film dialogue, transcribed by Matrix Fans",
+      "url": "https://www.matrixfans.net/movies/the-matrix-resurrections/transcript/",
+      "kind": "primary_film_dialogue_transcription_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded public Io, Synthient and strawberry passages read",
+      "read_scope": "Human/Synthient cooperation and difficult biological reconstruction.",
+      "limitations": "New food crops do not prove labor-independent provision; no whole transcript or film read/view claimed."
+    },
+    {
+      "id": "src-second-renaissance-transcript",
+      "title": "The Second Renaissance: Transcript",
+      "author": "Animatrix dialogue, transcribed by Matrix Fans",
+      "url": "https://www.matrixfans.net/the-animatrix/the-second-renaissance/transcript/",
+      "kind": "primary_animation_dialogue_transcription_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed Zero One currency, production and sanctions narration read",
+      "read_scope": "Machine industrial success and declining human economic power before war.",
+      "limitations": "The in-world historical file compresses the history; household entitlements and work participation are not enumerated."
+    },
+    {
+      "id": "src-animatrix-reference",
+      "title": "The Animatrix",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/The_Animatrix",
+      "kind": "secondary_animation_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public Second Renaissance production and economic-history description read",
+      "read_scope": "Independent machine manufacture enters consumer goods and destabilizes human economies; Japanese animation production.",
+      "limitations": "Zero One’s own machine persons are not counted as human nonworkers; the before-war and pod-system phases remain distinct."
+    }
+  ],
+  "societies": [
+    {
+      "id": "matrix-pod-humanity",
+      "candidate_id": "c0317",
+      "name": "The Matrix (Pod-grown humanity)",
+      "work": "The Matrix",
+      "society": "Living pod-grown humans within the machine support and simulation system",
+      "media": [
+        "movie"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "The 1999 Matrix film continuity",
+        "period": "The operating pod system and late-twentieth-century simulation depicted in the first film",
+        "population": "Living human minds and bodies in machine-maintained pods",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Zion and freed crews",
+          "Dead bodies recycled as feed",
+          "Programs counted as humans",
+          "Later Analyst system or a liberated ending"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Machines manufacture and maintain the physical environment that keeps pod-grown humans alive. No ordinary earnings are needed to run a pod: food delivery and bodily support operate outside the wages and purchases experienced inside the simulation. The population is nevertheless captive and instrumentalized, and death within the simulated world can be fatal outside it. The weak guarantee estimate reflects that precarious, coercive access rather than treating biological maintenance as a universal right.\n\nDecisive productive control belongs to the machines. The simulated society’s apparent employers, property and shopping do not give its inhabitants command of the real support system. This is a post-work control comparison at the physical-production layer, not a promise that the humans experience leisure. They continue to perceive jobs and economic pressures, and meaningful intellectual, artistic or social activity can occur within a virtual world. Neither pod confinement nor the fictional energy-harvesting role establishes a nonworking percentage. The record therefore leaves participation unresolved and keeps freed humans and later simulation architectures separate.",
+      "axis": {
+        "guarantees": 0.45,
+        "control": -0.95,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.25,
+            0.9
+          ],
+          "confidence": "low",
+          "basis": "Automatic biological support coexists with captivity, lethal simulated outcomes and no resident control over continuing support; the two layers make this interpretation uncertain.",
+          "source_ids": [
+            "src-matrix-1999-transcript",
+            "src-matrix-pod-plot",
+            "src-matrix-food-reference"
+          ]
+        },
+        "control": {
+          "interval": [
+            -1,
+            -0.85
+          ],
+          "confidence": "high",
+          "basis": "Independent machines operate the bodies’ support infrastructure and the simulation without ordinary resident authority.",
+          "source_ids": [
+            "src-matrix-1999-transcript",
+            "src-matrix-pod-plot",
+            "src-matrix-food-reference"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Simulated jobs and meaningful mental activity cannot be collapsed into a count of bodily immobility; metabolic output is not a labor-participation statistic.",
+          "source_ids": [
+            "src-matrix-1999-transcript",
+            "src-matrix-pod-plot",
+            "src-matrix-food-reference"
+          ]
+        }
+      },
+      "regime_primary": 6,
+      "regime_alternatives": [
+        5
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-matrix-1999-transcript",
+        "src-matrix-pod-plot",
+        "src-matrix-food-reference"
+      ],
+      "evidence": [
+        {
+          "claim": "The machines maintain living pod bodies while controlling the experienced world.",
+          "source_ids": [
+            "src-matrix-1999-transcript",
+            "src-matrix-pod-plot",
+            "src-matrix-food-reference"
+          ],
+          "locator": "Morpheus machine-field explanation; food and plot references",
+          "kind": "primary_dialogue_and_secondary_plot_reference"
+        }
+      ],
+      "uncertainties": [
+        "Regime 6 is a physical-production/control interpretation; automatic bodily maintenance could favor regime 5 if guarantees were defined only at that narrow layer.",
+        "The simulated employment order overlaps the zero-variant spectrum but is not counted as a second society.",
+        "No death or recycled corpse is a leisure resident.",
+        "The historical accuracy of Smith’s perfect-Matrix explanation is not independently resolved."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "animatrix-human-machine-imports",
+      "candidate_id": "c0321",
+      "name": "The Animatrix (Human nations dependent on Zero One)",
+      "work": "The Animatrix: The Second Renaissance",
+      "society": "Human economies during independent machine-industrial dominance",
+      "media": [
+        "anime",
+        "cartoon",
+        "movie"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "The Second Renaissance animated historical account",
+        "period": "Zero One’s industrial/export ascendancy before the destructive war",
+        "population": "Living humans in the machine-import-dependent nations",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Zero One’s machine citizens counted as human nonworkers",
+          "Later pod-grown population",
+          "War casualties",
+          "Every nation assigned an identical welfare constitution"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Zero One’s independent machine economy produces superior consumer goods and increasingly displaces the economic role of human industry. The narrated collapse in human currency and economic power makes this an actual automation-driven transition, rather than the mere presence of robots. People can depend on machine output while losing the bargaining power once attached to their own production. The short historical account does not establish whether individual nations preserve a subsistence floor, so guarantees remain unresolved.\n\nThe negative control estimate concerns the industrial supply on which humans increasingly rely. Its decisive producers are an autonomous machine polity, even while human governments retain political authority and impose sanctions. It is an economic-control analogy rather than a claim that Zero One already governs every human institution. A trade crisis also does not provide a population work census: displaced industry, remaining occupations and unequal effects cannot be converted into one exact nonworking rate. This stage is kept separate from the war and the later pod system, which change both the support mechanism and the relationship between humans and machines.",
+      "axis": {
+        "guarantees": null,
+        "control": -0.8,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Declining currencies and industrial power do not establish the welfare rules of every human nation.",
+          "source_ids": [
+            "src-second-renaissance-transcript",
+            "src-animatrix-reference"
+          ]
+        },
+        "control": {
+          "interval": [
+            -1,
+            -0.45
+          ],
+          "confidence": "medium",
+          "basis": "Independent machine industry dominates important supply while human states retain political and sanctioning power; the score is a productive-control analogy.",
+          "source_ids": [
+            "src-second-renaissance-transcript",
+            "src-animatrix-reference"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Economic displacement does not enumerate employed, voluntarily working and inactive humans.",
+          "source_ids": [
+            "src-second-renaissance-transcript",
+            "src-animatrix-reference"
+          ]
+        }
+      },
+      "regime_primary": 6,
+      "regime_alternatives": [
+        5
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-second-renaissance-transcript",
+        "src-animatrix-reference"
+      ],
+      "evidence": [
+        {
+          "claim": "Autonomous machine production dominates consumer supply and undermines human economic power before the war.",
+          "source_ids": [
+            "src-second-renaissance-transcript",
+            "src-animatrix-reference"
+          ],
+          "locator": "Zero One economic narration and historical synopsis",
+          "kind": "primary_animation_dialogue_and_secondary_reference"
+        }
+      ],
+      "uncertainties": [
+        "Regime 6 is provisional because material guarantees remain unresolved; regime 5 is an alternative if a secure floor is later verified.",
+        "Independent foreign supply is distinguished from direct political rule.",
+        "No final human extinction or pod-life statistic is imported into this earlier stage."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0316",
+      "status": "needs_evidence",
+      "reason": "Earth’s rebuilding ending does not establish a durable successor allocation system.",
+      "source_ids": [
+        "src-walle-return-reference"
+      ],
+      "analysis": "Humans and robots perform useful restoration work. Axiom support and control cannot simply be carried over after the return.",
+      "follow_up": "Skip speculative post-credit reconstruction; retain the separate pre-return Axiom record."
+    },
+    {
+      "candidate_id": "c0317",
+      "status": "included",
+      "reason": "Machine-maintained biological support and simulated economic life justify a carefully layered control record.",
+      "source_ids": [
+        "src-matrix-1999-transcript",
+        "src-matrix-pod-plot",
+        "src-matrix-food-reference"
+      ],
+      "society_id": "matrix-pod-humanity"
+    },
+    {
+      "candidate_id": "c0318",
+      "status": "needs_evidence",
+      "reason": "Zion’s actual food and technical support do not establish labor-independent access for its whole population.",
+      "source_ids": [
+        "src-matrix-food-reference"
+      ],
+      "analysis": "Military crews, real maintenance and rations are not a verified post-work constitution. Comic farming details cannot be imported into the film scope.",
+      "follow_up": "Skip broader reconstruction from spacecraft meals."
+    },
+    {
+      "candidate_id": "c0319",
+      "status": "needs_evidence",
+      "reason": "Io’s human-machine cooperation and reconstructed crops do not establish a general post-work allocation system.",
+      "source_ids": [
+        "src-matrix-io-transcript"
+      ],
+      "analysis": "Joint engineering and food research remain useful work. Political coexistence does not itself supply ownership or access guarantees.",
+      "follow_up": "Skip deeper lore reconstruction."
+    },
+    {
+      "candidate_id": "c0320",
+      "status": "boundary_case",
+      "reason": "Zero One itself is a machine polity without a verified human leisure population.",
+      "source_ids": [
+        "src-second-renaissance-transcript",
+        "src-animatrix-reference"
+      ],
+      "analysis": "Economic success and machine independence do not supply a human nonworking denominator; its effect on human import economies has a separate record.",
+      "follow_up": "Keep as a machine-polity comparison."
+    },
+    {
+      "candidate_id": "c0321",
+      "status": "included",
+      "reason": "Independent machine industry materially displaces human economic power in the depicted prewar transition.",
+      "source_ids": [
+        "src-second-renaissance-transcript",
+        "src-animatrix-reference"
+      ],
+      "society_id": "animatrix-human-machine-imports"
+    }
+  ],
+  "review_notes": [
+    "Six bounded film/animation dispositions and two retained control comparisons. No new film viewing or whole screenplay reading claimed.",
+    "The Matrix record separates bodily support from experienced economic pressures and does not turn confinement into a leisure percentage.",
+    "The Animatrix import transition precedes the war and pod system; economic AI dependence is not already complete political AI rule.",
+    "Zion and Io retain allocation gaps; WALL-E’s return does not inherit the Axiom’s earlier constitution."
+  ]
+}

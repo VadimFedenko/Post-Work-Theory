@@ -1,0 +1,2282 @@
+{
+  "revision_id": "revision-045",
+  "revised_on": "2026-10-17",
+  "reason": "Sixteen current-policy recent robot/technical economies from seventeen holds, with one shared Cirrus mission duplicate; preserve working persons, narrow crew/household scopes and direct versus inferred automation.",
+  "changes": [
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-qualityland-publisher-mechanisms",
+        "title": "QualityLand: algorithms, TheShop and robots",
+        "author": "Marc-Uwe Kling / Planeta México",
+        "url": "https://books.google.com/books?id=w0wIEAAAQBAJ",
+        "kind": "publisher_description",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed publisher work, scoring, TheShop and robot paragraphs read",
+        "read_scope": "Publisher description presents algorithmically optimized work/leisure/relationships, TheShop purchases, constant scoring and troubled delivery/combat machines.",
+        "limitations": "Spanish publisher synopsis, not a complete welfare charter or evidence that every productive owner is autonomous AI."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-heartfive-publisher-dentist",
+        "title": "Set My Heart to Five: bot constraints and emotional awakening",
+        "author": "Simon Stephenson / Harlequin",
+        "url": "https://books.harlequin.com/shop/books/9781488209468_set-my-heart-to-five.html",
+        "kind": "publisher_description",
+        "accessed_on": "2026-10-17",
+        "access_method": "Publisher identity/emotional-awakening setting description read",
+        "read_scope": "The publisher describes Jared’s emotional awakening and bot constraints in the novel’s android future.",
+        "limitations": "Only the bounded publisher description is used; the wider system’s free material provision and a released movie adaptation are not established."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-heartfive-quoted-reserved-jobs",
+        "title": "Set My Heart to Five: quoted dental work and human-reserved occupations",
+        "author": "Simon Stephenson, quoted by The NAME Project",
+        "url": "https://the-name-project.org/2025/05/20/set-my-heart-to-five/",
+        "kind": "primary_text",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed quoted pages 12 and 16 on bot dentistry and reserved human occupations read",
+        "read_scope": "Quoted pages 12 and 16 identify bot dentistry and laws reserving other occupations for humans.",
+        "limitations": "Bounded third-party reproduction of primary passages, not proof every legally reserved job is technologically unnecessary or a national work census."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-scythe-cirrus-missions-reference",
+        "title": "Cirrus Alpha: colony missions and contingencies",
+        "author": "Arc of a Scythe Wiki contributors",
+        "url": "https://arc-of-a-scythe.fandom.com/wiki/Cirrus_Alpha",
+        "kind": "secondary_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed mission outcomes and appearances read",
+        "read_scope": "The reference distinguishes Cirrus-supported missions, living passengers, preserved Tonist bodies, successful arrivals and ship failures.",
+        "limitations": "Fan reference combines The Toll and Gleanings. Claims attributed to an author AMA are not independently verified here; no identical constitution is assigned to every destination."
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "murderbot-corporationrim-zero",
+        "candidate_id": "c0285",
+        "name": "The Murderbot Diaries (the Corporation Rim)",
+        "work": "The Murderbot Diaries",
+        "society": "The Murderbot Diaries (the Corporation Rim)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named published literary continuity and bounded period/cohort",
+          "period": "The functioning corporate order depicted in the books",
+          "population": "Active living human Corporation Rim residents",
+          "human_population_proxy": false,
+          "exclusions": "Conscious constructs are not silently treated as personless tools; separate Preservation and university-ship rights are not imported.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Recyclers and low-level bots make parts of material production and service inexpensive, while corporate institutions retain exploitative labor and access arrangements. The guarantee best guess is extremely weak: efficient fabrication does not make food, housing, care or freedom unconditional. The fan discussion supports a contextual automation comparison, with its speculative explanations for scarcity kept out of the factual account.\n\n Concentrated human corporate ownership places control near the elite reference point, while practical machine discretion remains inside the interval. A SecUnit’s personhood is not erased merely because an owner calls it equipment. The low nonworking scenario counts useful production, services, research, administration, security, maintenance, care and creation among the human cohort. The record is a zero variant because retained work and controlled access remain central. It does not derive participation from recycler costs or assume identical rights in Preservation, on ART, and throughout every corporate jurisdiction.",
+        "axis": {
+          "guarantees": 0.95,
+          "control": 0.05,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.2,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Cheap basics can remain gated by exploitative corporate access.",
+            "source_ids": [
+              "src-murderbot-recycler-discussion"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.8,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "Human corporate owners dominate with machine discretion broad.",
+            "source_ids": [
+              "src-murderbot-recycler-discussion"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Useful human roles count; recycler cost and construct labels are not participation.",
+            "source_ids": [
+              "src-murderbot-recycler-discussion"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-murderbot-recycler-discussion"
+        ],
+        "evidence": [
+          {
+            "claim": "The fan discussion describes recyclers, low-level service bots and debate about Rim scarcity.",
+            "source_ids": [
+              "src-murderbot-recycler-discussion"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The broad productive extent and ordinary access are contextual estimates.",
+          "Speculative exotic-matter explanations and claims that forced labor is unavoidable are not adopted."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar corporate automation-with-exploitation model as a zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The fan discussion describes recyclers, low-level service bots and debate about Rim scarcity."
+        ],
+        "editorial_assumptions": [
+          "The broad productive extent and ordinary access are contextual estimates.",
+          "Speculative exotic-matter explanations and claims that forced labor is unavoidable are not adopted."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0285",
+        "status": "boundary_case",
+        "reason": "The Rim’s exploitative labor system is clear, but human labor replacement sufficient for a post-work regime is not established.",
+        "source_ids": [
+          "src-murderbot-recycler-discussion"
+        ],
+        "analysis": "Cheap goods and robot services coexist with necessary human/construct labor. Fan hypotheses about why indenture persists are not treated as verified job-preservation policy.",
+        "follow_up": "Keep as a labor-control comparison; skip deeper reading."
+      },
+      "after": {
+        "candidate_id": "c0285",
+        "status": "zero_variant",
+        "reason": "Retain the familiar corporate automation-with-exploitation model as a zero variant.",
+        "source_ids": [
+          "src-murderbot-recycler-discussion"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "murderbot-corporationrim-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "networkeffect-art-active-crew-zero",
+        "candidate_id": "c0286",
+        "name": "Network Effect (ART’s university-ship crew)",
+        "work": "Network Effect",
+        "society": "Network Effect (ART’s university-ship crew)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named published literary continuity and bounded period/cohort",
+          "period": "The functioning Perihelion/ART crew-support institution",
+          "population": "Active living human and augmented-human crew members",
+          "human_population_proxy": false,
+          "exclusions": "The university’s whole society is not assigned the ship’s benefits; ART and other conscious constructs are not extra human nonworkers.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "ART supplies food and recycled clothing aboard a university-associated ship. The retained point is the actual supported human crew, not a universal university welfare system inferred from one vessel. The guarantee best guess is strong internally, qualified by crew membership, mission dependence and the difference between supplied necessities and independent rights to every resource. Direct fabrication is relevant even though the people receiving it still work.\n\n Control gives substantial practical weight to ART while preserving human crew and university authority inside the interval. Ship AI agency is not automatically government over an entire supporting civilization. The central nonworking scenario is zero for the active crew cohort: research, navigation coordination, mission duties, maintenance, care and useful creation count. Prepared meals do not imply an idle scientist. This zero variant retains a concrete automated-support institution with continuing human work, and its broad interval avoids inventing a civilian census from the small group visible aboard the ship.",
+        "axis": {
+          "guarantees": -0.6,
+          "control": -0.4,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.99,
+              0.7
+            ],
+            "confidence": "low",
+            "basis": "Direct food/clothing support gives a strong crew floor with membership conditions.",
+            "source_ids": [
+              "src-art-perihelion-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "ART has practical agency alongside crew and university authority.",
+            "source_ids": [
+              "src-art-perihelion-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "The scoped active crew performs ongoing useful mission work centrally.",
+            "source_ids": [
+              "src-art-perihelion-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-art-perihelion-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference describes ART providing food and recycled clothing and its university association.",
+            "source_ids": [
+              "src-art-perihelion-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The retained cohort is the active human/augmented-human crew, not all university residents.",
+          "Broader entitlement and productive ownership remain estimates."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          5
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the concrete supplied crew institution as a narrow zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference describes ART providing food and recycled clothing and its university association."
+        ],
+        "editorial_assumptions": [
+          "The retained cohort is the active human/augmented-human crew, not all university residents.",
+          "Broader entitlement and productive ownership remain estimates."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0286",
+        "status": "needs_evidence",
+        "reason": "ART’s ship provision does not establish the university’s broader economic guarantees.",
+        "source_ids": [
+          "src-art-perihelion-reference"
+        ],
+        "analysis": "Food and clothing supplied to a working crew do not prove labor-independent access for a defined resident society beyond the vessel.",
+        "follow_up": "Skip university-world reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0286",
+        "status": "zero_variant",
+        "reason": "Retain the concrete supplied crew institution as a narrow zero variant.",
+        "source_ids": [
+          "src-art-perihelion-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "networkeffect-art-active-crew-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "terraformers-corporate-saske-zero",
+        "candidate_id": "c0287",
+        "name": "The Terraformers (Sask-E’s corporate ecological workforce)",
+        "work": "The Terraformers",
+        "society": "The Terraformers (Sask-E’s corporate ecological workforce)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named published literary continuity and bounded period/cohort",
+          "period": "The corporate ecological-management period before independent arrangements prevail",
+          "population": "Active human and nonhuman person workers in the corporate project",
+          "human_population_proxy": true,
+          "exclusions": "Sentient bots and engineered animals are workers, not automatically passive automation; later Spider City rights differ.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The corporate planet relies on ecological management by people with different bodies and technical origins. Their work creates a valuable environment without giving them equal command over it. The guarantee best guess is weak and conditional: project support can maintain workers while leaving access and autonomy dependent on owners. Wider productive substitution is an explicit estimate rather than a claim that sentient labor shown in the story has already been eliminated.\n\n Human corporate authority places control near the elite reference point, with operational machine discretion inside the interval. The central nonworking scenario is zero for the active project workforce because ecological management, construction, design, maintenance, transport, care and assigned duties count. Personhood does not disappear when the worker is a bot or engineered animal. This zero variant preserves the corporate labor relationship while keeping later independent city and transit arrangements separate. It does not turn a planet’s finished environmental quality into a census of people doing no useful work.",
+        "axis": {
+          "guarantees": 0.7,
+          "control": 0.02,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.65,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Corporate worker maintenance is conditional rather than equal secure access.",
+            "source_ids": [
+              "src-terraformers-pw"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.8,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "Corporate ownership concentrates control over the ecological project.",
+            "source_ids": [
+              "src-terraformers-pw"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "The active mixed-person workforce performs useful and assigned ecological work centrally.",
+            "source_ids": [
+              "src-terraformers-pw"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-terraformers-pw"
+        ],
+        "evidence": [
+          {
+            "claim": "The review describes corporate ecological work on Sask-E and later independent alternatives.",
+            "source_ids": [
+              "src-terraformers-pw"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The mixed active-person proxy includes working sentient nonhumans.",
+          "General automation depth and benefit coverage are estimates."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the corporate ecological technical-work unit as a zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The review describes corporate ecological work on Sask-E and later independent alternatives."
+        ],
+        "editorial_assumptions": [
+          "The mixed active-person proxy includes working sentient nonhumans.",
+          "General automation depth and benefit coverage are estimates."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0287",
+        "status": "boundary_case",
+        "reason": "Sask-E’s ecological management depends on real work by sentient persons, not an evidenced supported leisure population.",
+        "source_ids": [
+          "src-terraformers-pw"
+        ],
+        "analysis": "Bioengineering and planetary infrastructure are not automatically nonhuman labor outside the relevant person denominator. The corporate order’s inequality does not alone make it a zero variant.",
+        "follow_up": "Keep as an ecological-labor and personhood comparison."
+      },
+      "after": {
+        "candidate_id": "c0287",
+        "status": "zero_variant",
+        "reason": "Retain the corporate ecological technical-work unit as a zero variant.",
+        "source_ids": [
+          "src-terraformers-pw"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "terraformers-corporate-saske-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "terraformers-spidercity-transit-commons",
+        "candidate_id": "c0288",
+        "name": "The Terraformers (Spider City and the independent transit model)",
+        "work": "The Terraformers",
+        "society": "The Terraformers (Spider City and the independent transit model)",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "The named published literary continuity and bounded period/cohort",
+          "period": "The independent city/transit cooperation period distinct from corporate ecological command",
+          "population": "Active human and nonhuman resident persons in the independent cooperative model",
+          "human_population_proxy": true,
+          "exclusions": "Not every surrounding city shares the same rights; sentient trains are persons doing work, not ordinary equipment.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Spider City recognizes diverse beings as persons and offers an alternative to corporate control. Public transport design and later housing conflict show that material systems remain political and require useful activity. The guarantee best guess allows a stronger communal floor, qualified by outside dependence and the difference between equal personhood and unconditional access to every necessity. It does not assume all cities on the planet have adopted one final constitution.\n\n Shared resident agency receives strong positive control weight, with corporate pressure and infrastructure constraints inside the interval. The moderate nonworking scenario permits technical substitution while counting ecological work, transport operation, design, maintenance, coordination, journalism, care and public creation. A sentient train’s ongoing service is work performed by a person, not proof that all nonhumans are a free machine workforce. Broad bounds preserve uncertain ordinary access while retaining the distinct cooperative material strategy. The point remains separate from the earlier corporate project and from every later housing crisis.",
+        "axis": {
+          "guarantees": -0.4,
+          "control": 0.8,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.99,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Cooperation permits a stronger floor with housing and external constraints.",
+            "source_ids": [
+              "src-terraformers-pw"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.6,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Shared resident agency is central with corporate/infrastructure pressure.",
+            "source_ids": [
+              "src-terraformers-pw"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Useful transit and other mixed-person activity count; personhood does not erase work.",
+            "source_ids": [
+              "src-terraformers-pw"
+            ]
+          }
+        },
+        "regime_primary": 2,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-terraformers-pw"
+        ],
+        "evidence": [
+          {
+            "claim": "The review describes independent Spider City, recognition of diverse persons, transit design and later housing conflict.",
+            "source_ids": [
+              "src-terraformers-pw"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The common cooperative material model preserves local and period variation.",
+          "Equal personhood is not assumed to establish every unconditional benefit."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distinct independent technical commons with ongoing useful person work.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The review describes independent Spider City, recognition of diverse persons, transit design and later housing conflict."
+        ],
+        "editorial_assumptions": [
+          "The common cooperative material model preserves local and period variation.",
+          "Equal personhood is not assumed to establish every unconditional benefit."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0288",
+        "status": "needs_evidence",
+        "reason": "Independent communities and transit collectives are identified, but their general labor-independent material access is unresolved.",
+        "source_ids": [
+          "src-terraformers-pw"
+        ],
+        "analysis": "Participation and resistance to housing exploitation do not supply a completed common-provision economy; sentient trains remain working persons.",
+        "follow_up": "Skip deeper reading rather than scoring an unspecified final utopia."
+      },
+      "after": {
+        "candidate_id": "c0288",
+        "status": "included",
+        "reason": "Retain the distinct independent technical commons with ongoing useful person work.",
+        "source_ids": [
+          "src-terraformers-pw"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "terraformers-spidercity-transit-commons"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "autonomous-indenture-zero",
+        "candidate_id": "c0289",
+        "name": "Autonomous (the human and robot indenture economy)",
+        "work": "Autonomous",
+        "society": "Autonomous (the human and robot indenture economy)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named published literary continuity and bounded period/cohort",
+          "period": "The functioning transferable-ownership and pharmaceutical labor order",
+          "population": "Active human and conscious robot persons in the scoped labor economy",
+          "human_population_proxy": true,
+          "exclusions": "Working robot persons remain in the proxy; productivity stimulants do not make imposed work leisure.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Human and robot labor is organized through ownership, indenture and pharmaceutical control. Technical productivity can rise while people’s access remains dependent on contracts, owners and continued service. The guarantee best guess is extremely weak because maintenance or wages do not secure equal autonomy and necessities. Broader material automation is a contextual comparison, not an assumption that sentient robot workers are personless substitutes.\n\n Concentrated human commercial authority places control near the elite reference point, while limited independent robot agency remains inside the interval. This zero variant counts production, research, services, administration, maintenance, care and assigned stimulant-supported work across the active person proxy. Enjoying or being chemically compelled toward a task does not make it nonwork. The low nonworking scenario preserves possible residents outside ongoing useful roles without manufacturing an employment census. Broad bounds keep ordinary allocation variation visible, and the source’s critical interpretation is not treated as a universal internal constitution for every jurisdiction.",
+        "axis": {
+          "guarantees": 0.9,
+          "control": 0.03,
+          "nonworking": 0.1
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.1,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Indenture and transferable ownership imply weak secure equal access.",
+            "source_ids": [
+              "src-autonomous-indenture-criticism"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.7,
+              0.7
+            ],
+            "confidence": "low",
+            "basis": "Human commercial ownership concentrates authority with some robot agency.",
+            "source_ids": [
+              "src-autonomous-indenture-criticism"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Useful and imposed mixed-person work counts; stimulants do not erase participation.",
+            "source_ids": [
+              "src-autonomous-indenture-criticism"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-autonomous-indenture-criticism"
+        ],
+        "evidence": [
+          {
+            "claim": "The critical account describes human/robot labor, transferable ownership and stimulant-driven work.",
+            "source_ids": [
+              "src-autonomous-indenture-criticism"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Active conscious robot workers are included in a mixed-person proxy.",
+          "The extent of broader automation and precise rights remain estimates."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the recognizable technical indenture economy as an explicit zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The critical account describes human/robot labor, transferable ownership and stimulant-driven work."
+        ],
+        "editorial_assumptions": [
+          "Active conscious robot workers are included in a mixed-person proxy.",
+          "The extent of broader automation and precise rights remain estimates."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0289",
+        "status": "boundary_case",
+        "reason": "Robot and human indenture describe an exploitative labor economy without a verified post-work provision mechanism.",
+        "source_ids": [
+          "src-autonomous-indenture-criticism"
+        ],
+        "analysis": "Artificial persons can perform real work. Ownership rights, stimulant addiction and emancipation are distinct from technologically ending wage dependence.",
+        "follow_up": "Keep as a labor/personhood comparison."
+      },
+      "after": {
+        "candidate_id": "c0289",
+        "status": "zero_variant",
+        "reason": "Retain the recognizable technical indenture economy as an explicit zero variant.",
+        "source_ids": [
+          "src-autonomous-indenture-criticism"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "autonomous-indenture-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "machinehood-competitive-gig-zero",
+        "candidate_id": "c0290",
+        "name": "Machinehood (the competitive automation economy)",
+        "work": "Machinehood",
+        "society": "Machinehood (the competitive automation economy)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named published literary continuity and bounded period/cohort",
+          "period": "The functioning 2089 gig and enhancement economy before any settled labor-rights outcome",
+          "population": "Active living human residents competing for income",
+          "human_population_proxy": false,
+          "exclusions": "Real-world interview policy ideas and a completed fictional support settlement are not imported.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Humans compete with AI for income and use enhancement to remain productive. Automation therefore weakens bargaining power without necessarily creating secure access to goods. The guarantee best guess is weak because earning opportunities and bodily adaptation still matter. The labor-rights conflict is not itself evidence that a stable post-work distribution system has already replaced the competitive order.\n\n Human owners, platforms and institutions receive modest positive control weight, with substantial machine discretion inside the interval. The precise origin of every decision system is left broad rather than declared one independent AI sovereign. This zero variant counts gig work, technical operations, services, administration, maintenance, care and useful creation. The low nonworking scenario does not convert unemployment or machine superiority into lack of all useful activity. Enhancement can intensify labor rather than abolish it. Broad bounds retain the recognizable technical labor market while keeping interview advocacy and later possible reforms separate from the functioning fictional baseline.",
+        "axis": {
+          "guarantees": 0.85,
+          "control": 0.2,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.6,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Competitive gig income and enhancement pressures imply weak secure access.",
+            "source_ids": [
+              "src-machinehood-fastcompany",
+              "src-machinehood-author"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Human platforms/owners coexist with powerful machine discretion.",
+            "source_ids": [
+              "src-machinehood-fastcompany",
+              "src-machinehood-author"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Useful paid and unpaid activity counts; AI competition is not a census.",
+            "source_ids": [
+              "src-machinehood-fastcompany",
+              "src-machinehood-author"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-machinehood-fastcompany",
+          "src-machinehood-author"
+        ],
+        "evidence": [
+          {
+            "claim": "The sources describe automation, enhanced humans and income competition with AI.",
+            "source_ids": [
+              "src-machinehood-fastcompany",
+              "src-machinehood-author"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary guarantees, ownership and participation remain estimates.",
+          "Real-world policy suggestions are not treated as enacted fictional institutions."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar competitive automation order as a zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The sources describe automation, enhanced humans and income competition with AI."
+        ],
+        "editorial_assumptions": [
+          "Ordinary guarantees, ownership and participation remain estimates.",
+          "Real-world policy suggestions are not treated as enacted fictional institutions."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0290",
+        "status": "boundary_case",
+        "reason": "Machinehood’s enhanced humans compete for real gig income; a post-work support or deliberate job-preservation system is not established.",
+        "source_ids": [
+          "src-machinehood-fastcompany",
+          "src-machinehood-author"
+        ],
+        "analysis": "AI competition and tabletop biotech are substantial automation themes, but do not show a continuing labor-independent support arrangement. Author suggestions for real-world UBI are not fictional policy.",
+        "follow_up": "Skip deeper reading; preserve the transition theme without inventing economic guarantees."
+      },
+      "after": {
+        "candidate_id": "c0290",
+        "status": "zero_variant",
+        "reason": "Retain the familiar competitive automation order as a zero variant.",
+        "source_ids": [
+          "src-machinehood-fastcompany",
+          "src-machinehood-author"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "machinehood-competitive-gig-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "klara-artificialfriend-consumer-zero",
+        "candidate_id": "c0291",
+        "name": "Klara and the Sun (the Artificial Friend consumer order)",
+        "work": "Klara and the Sun",
+        "society": "Klara and the Sun (the Artificial Friend consumer order)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named published literary continuity and bounded period/cohort",
+          "period": "The functioning Artificial Friend and enhanced-child consumer society",
+          "population": "Active living human residents in the technical consumer order",
+          "human_population_proxy": false,
+          "exclusions": "Conscious Artificial Friends are not extra human nonworkers; one wealthy household does not define everyone’s rights.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Artificial Friends provide robotic companionship and care within a society shaped by enhancement and technological displacement. The guarantee best guess remains weak and conditional because a purchasable caregiver does not give every resident secure housing, medicine or equal opportunity. Domestic service automation is directly relevant, while broader productive replacement is an explicitly uncertain contextual extension.\n\n Human buyers, families and commercial institutions receive control near the concentrated reference point, with machine agency inside the interval. A caregiver’s inner life is not proof that the machines own the economy. This zero variant counts human paid work, administration, repair, care and useful creation; private childhood learning is not automatically a job, while the absence of wages is not automatically no useful activity. The modest nonworking scenario is not calculated from a single family’s visible routines. Broad bounds preserve uneven access and keep the human participation estimate separate from the real work performed by conscious Artificial Friends.",
+        "axis": {
+          "guarantees": 0.65,
+          "control": 0.15,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.8,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Purchasable care and enhancement do not imply equal ordinary security.",
+            "source_ids": [
+              "src-klara-nyreview"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.7,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Human buyers/institutions dominate with robot agency possible.",
+            "source_ids": [
+              "src-klara-nyreview"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Useful human roles count; one family and robotic care do not yield a census.",
+            "source_ids": [
+              "src-klara-nyreview"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-klara-nyreview"
+        ],
+        "evidence": [
+          {
+            "claim": "The public indexed criticism describes robotic care and limits of human/robot relations.",
+            "source_ids": [
+              "src-klara-nyreview"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Broader production, household rights and participation are estimates.",
+          "The human cohort is distinct from conscious working Artificial Friends."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the recognizable domestic-automation consumer model as a qualified zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The public indexed criticism describes robotic care and limits of human/robot relations."
+        ],
+        "editorial_assumptions": [
+          "Broader production, household rights and participation are estimates.",
+          "The human cohort is distinct from conscious working Artificial Friends."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0291",
+        "status": "needs_evidence",
+        "reason": "Artificial Friends and technological displacement do not yet establish a general material-support arrangement.",
+        "source_ids": [
+          "src-klara-nyreview"
+        ],
+        "analysis": "A constructed caregiver and a family’s altered prospects are not enough to determine the whole economy’s production and distribution.",
+        "follow_up": "Skip deeper reading."
+      },
+      "after": {
+        "candidate_id": "c0291",
+        "status": "zero_variant",
+        "reason": "Retain the recognizable domestic-automation consumer model as a qualified zero variant.",
+        "source_ids": [
+          "src-klara-nyreview"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "klara-artificialfriend-consumer-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "qualityland-ranked-automation-zero",
+        "candidate_id": "c0292",
+        "name": "QualityLand (the ranked automated consumer economy)",
+        "work": "QualityLand",
+        "society": "QualityLand (the ranked automated consumer economy)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named published literary continuity and bounded period/cohort",
+          "period": "The functioning algorithmic rating, recommendation and delivery order",
+          "population": "Active living human QualityLand residents",
+          "human_population_proxy": false,
+          "exclusions": "Constant ranking and automated purchases do not prove free necessities or one independent AI owner of all production.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Algorithms organize work, leisure, relationships and purchases, with TheShop and delivery machines linking recommendations to physical consumption. The material-floor best guess is weak because constant service can remain conditional on rank, purchasing power and permission. Automation of decisions and deliveries is concrete, while universal automatic production of every necessity remains a broader estimate.\n\n Control gives substantial weight to autonomous procedures, with human corporate ownership and political power inside the interval. A system can shape choices without every machine sharing a single sovereign mind. This zero variant counts employment, repair, service, administration, care and useful creation; a person’s low score does not determine whether they do useful work. The moderate nonworking scenario permits substitution without deriving a population percentage from recommendation accuracy. Broad bounds retain the recognizable algorithmic material order while keeping official claims of perfection separate from actual guarantees and preserving the uncertain degree of human control behind its platforms.",
+        "axis": {
+          "guarantees": 0.65,
+          "control": -0.5,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.85,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Scored commercial automation can remain gated rather than universally secure.",
+            "source_ids": [
+              "src-qualityland-automated-futures",
+              "src-qualityland-publisher-mechanisms"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Autonomous procedures coexist with human platform/political ownership.",
+            "source_ids": [
+              "src-qualityland-automated-futures",
+              "src-qualityland-publisher-mechanisms"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Useful work continues; ratings and recommendations are not participation.",
+            "source_ids": [
+              "src-qualityland-automated-futures",
+              "src-qualityland-publisher-mechanisms"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-qualityland-automated-futures",
+          "src-qualityland-publisher-mechanisms"
+        ],
+        "evidence": [
+          {
+            "claim": "The publisher describes algorithmic optimization, constant scoring, TheShop and delivery/combat machines.",
+            "source_ids": [
+              "src-qualityland-automated-futures",
+              "src-qualityland-publisher-mechanisms"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Material guarantees and the balance of procedure versus human ownership remain estimates.",
+          "Promotional claims of perfection are not treated as a universal welfare charter."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar algorithmic consumer order as a zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The publisher describes algorithmic optimization, constant scoring, TheShop and delivery/combat machines."
+        ],
+        "editorial_assumptions": [
+          "Material guarantees and the balance of procedure versus human ownership remain estimates.",
+          "Promotional claims of perfection are not treated as a universal welfare charter."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0292",
+        "status": "needs_evidence",
+        "reason": "Algorithmic ranking and recommendation are verified, but the short account does not establish general labor-independent provision.",
+        "source_ids": [
+          "src-qualityland-automated-futures"
+        ],
+        "analysis": "Automated decisions can govern an ordinary unequal labor economy; proposed basic income must not be assumed already implemented.",
+        "follow_up": "Skip the full scholarly chapter or novel reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0292",
+        "status": "zero_variant",
+        "reason": "Retain the familiar algorithmic consumer order as a zero variant.",
+        "source_ids": [
+          "src-qualityland-automated-futures",
+          "src-qualityland-publisher-mechanisms"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "qualityland-ranked-automation-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "machineslikeme-early-android-zero",
+        "candidate_id": "c0293",
+        "name": "Machines Like Me (the early purchased-android economy)",
+        "work": "Machines Like Me",
+        "society": "Machines Like Me (the early purchased-android economy)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named published literary continuity and bounded period/cohort",
+          "period": "The alternative-1980s introduction of the small new android cohort",
+          "population": "Active living human residents of the depicted early consumer order",
+          "human_population_proxy": false,
+          "exclusions": "Twenty-five new androids are not a national workforce census; personal inheritance is not universal support.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The android introduction is small and commercially mediated: Charlie uses inherited money to buy one of the new machines. That is a direct domestic technical-substitution case, with uncertain reach beyond its purchasers. The guarantee best guess is weak because private purchase does not create equal secure necessities. This zero variant deliberately retains an early transition rather than pretending the limited cohort already transformed an entire national economy.\n\n Human owners and commercial institutions receive moderate positive control weight, with the androids’ practical agency inside the interval. Purchasing a machine is not evidence that every active synthetic person lacks consciousness or that all humans share ownership. The low nonworking scenario counts human employment, administration, services, maintenance, care and useful creation. Neither the number of androids nor one buyer’s inheritance yields participation. Broad bounds preserve household uncertainty and distinguish assistance from the disappearance of useful work, without treating the story’s alternative history as an already completed universal post-scarcity settlement.",
+        "axis": {
+          "guarantees": 0.7,
+          "control": 0.3,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.7,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Private purchased access implies a weak broad security floor.",
+            "source_ids": [
+              "src-machines-like-me-publisher"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.75,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Human owners and commercial institutions coexist with android agency.",
+            "source_ids": [
+              "src-machines-like-me-publisher"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Useful human roles remain; cohort size and inheritance are not participation.",
+            "source_ids": [
+              "src-machines-like-me-publisher"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-machines-like-me-publisher"
+        ],
+        "evidence": [
+          {
+            "claim": "The publisher describes Charlie buying one of twenty-five new androids with an inheritance.",
+            "source_ids": [
+              "src-machines-like-me-publisher"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The wider material and labor effects are contextual estimates for an early introduction.",
+          "No national workforce or universal entitlement is inferred from the small cohort."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar early purchased-android transition as a limited zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The publisher describes Charlie buying one of twenty-five new androids with an inheritance."
+        ],
+        "editorial_assumptions": [
+          "The wider material and labor effects are contextual estimates for an early introduction.",
+          "No national workforce or universal entitlement is inferred from the small cohort."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0293",
+        "status": "boundary_case",
+        "reason": "A small new android cohort purchased by individuals does not establish a post-work society.",
+        "source_ids": [
+          "src-machines-like-me-publisher"
+        ],
+        "analysis": "Charlie’s inheritance and one robot are not a continuing automation-funded population arrangement.",
+        "follow_up": "Keep as a personhood and domestic-automation comparison."
+      },
+      "after": {
+        "candidate_id": "c0293",
+        "status": "zero_variant",
+        "reason": "Retain the familiar early purchased-android transition as a limited zero variant.",
+        "source_ids": [
+          "src-machines-like-me-publisher"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "machineslikeme-early-android-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "employees-sixthousand-work-zero",
+        "candidate_id": "c0294",
+        "name": "The Employees (the Six-Thousand Ship workplace)",
+        "work": "The Employees",
+        "society": "The Employees (the Six-Thousand Ship workplace)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named published literary continuity and bounded period/cohort",
+          "period": "The functioning human/humanoid ship workplace before its institutional rupture",
+          "population": "Active human and conscious humanoid ship workers",
+          "human_population_proxy": true,
+          "exclusions": "Conscious humanoids are worker persons in the proxy; the entire home civilization’s rights are not inferred from one ship.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Six-Thousand Ship is organized around continuing work by humans and humanoids. Its technical environment can sustain a workforce without making that workforce secure independently of its employer. The guarantee best guess is mixed and conditional, with ordinary freedom, benefit coverage and exit left uncertain. General material automation is a contextual estimate rather than a claim that the workplace’s actual useful duties are already dispensable.\n\n Concentrated institutional command places control near the elite reference point, while machine discretion and human-derived possibilities remain inside the interval. The central nonworking scenario is zero for the scoped active worker cohort: operations, observation, administration, maintenance, care and other assigned duties count. A humanoid does not fall outside participation merely because of origin. This zero variant retains the recognizable technical work institution while keeping its narrow population explicit. Questions about the meaning of work do not establish an employment census or a finished universal support order for the wider civilization.",
+        "axis": {
+          "guarantees": 0.2,
+          "control": 0.03,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.9,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Ship support remains conditional on institutional membership and work.",
+            "source_ids": [
+              "src-employees-booker"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.9,
+              0.7
+            ],
+            "confidence": "low",
+            "basis": "Concentrated command is central with controller ontology broad.",
+            "source_ids": [
+              "src-employees-booker"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "The active human/humanoid workforce performs ongoing useful or assigned duties centrally.",
+            "source_ids": [
+              "src-employees-booker"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-employees-booker"
+        ],
+        "evidence": [
+          {
+            "claim": "The source identifies a human/humanoid crew confronting continuing work aboard the Six-Thousand Ship.",
+            "source_ids": [
+              "src-employees-booker"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The mixed active-person proxy does not assume every humanoid has the same origin.",
+          "Material automation, benefits and control remain estimates within the work institution."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the technical human/humanoid workplace as a narrow zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The source identifies a human/humanoid crew confronting continuing work aboard the Six-Thousand Ship."
+        ],
+        "editorial_assumptions": [
+          "The mixed active-person proxy does not assume every humanoid has the same origin.",
+          "Material automation, benefits and control remain estimates within the work institution."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0294",
+        "status": "boundary_case",
+        "reason": "The Six-Thousand Ship is a human/humanoid workplace, without a verified unnecessary-labor or independent-provision system.",
+        "source_ids": [
+          "src-employees-booker"
+        ],
+        "analysis": "Tasks, managerial control and mutiny do not establish that the crew’s labor is technically dispensable or that its material access is independent of it.",
+        "follow_up": "Keep as a labor/personhood comparison."
+      },
+      "after": {
+        "candidate_id": "c0294",
+        "status": "zero_variant",
+        "reason": "Retain the technical human/humanoid workplace as a narrow zero variant.",
+        "source_ids": [
+          "src-employees-booker"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "employees-sixthousand-work-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "mountainsea-condao-research-zero",
+        "candidate_id": "c0295",
+        "name": "The Mountain in the Sea (the Con Dao research institution)",
+        "work": "The Mountain in the Sea",
+        "society": "The Mountain in the Sea (the Con Dao research institution)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named published literary continuity and bounded period/cohort",
+          "period": "The functioning corporate-funded Con Dao research team",
+          "population": "Active living human researchers and support personnel",
+          "human_population_proxy": false,
+          "exclusions": "The AI team member is not a whole-economy sovereign; enslaved fishing crews are a different access group.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Con Dao supports a corporate research project that includes sophisticated artificial intelligence. The retained point is its active human research and support cohort, rather than a general welfare economy inferred from private funding. The guarantee best guess allows a substantial internal floor, qualified by employment, membership and owner priorities. Technical research capacity does not establish unconditional rights for every surrounding resident.\n\n Human corporate ownership places control near the concentrated reference point, with practical AI and team agency inside the interval. An intelligent collaborator is not automatically the owner of production. The central nonworking scenario is zero for the active institutional cohort because scientific investigation, logistics, security, maintenance, administration and care count. Machine assistance can reduce tasks while researchers remain workers. This zero variant stays separate from the automated fishing vessels and their captive processing crews. Broad bounds preserve the limited household account without converting a funded project into a universal post-work civilization.",
+        "axis": {
+          "guarantees": -0.2,
+          "control": 0.03,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.95,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Funded research support permits an internal floor with employment/owner conditions.",
+            "source_ids": [
+              "src-mountain-sea-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.9,
+              0.75
+            ],
+            "confidence": "low",
+            "basis": "Human corporate owners coexist with AI collaborator and team agency.",
+            "source_ids": [
+              "src-mountain-sea-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "The scoped active researchers/support staff perform useful duties centrally.",
+            "source_ids": [
+              "src-mountain-sea-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-mountain-sea-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference identifies a corporate Con Dao research team and a separate AI-run fishing vessel.",
+            "source_ids": [
+              "src-mountain-sea-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The active human research institution is narrower than the whole island economy.",
+          "Benefit coverage and effective ownership are estimates."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          1
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the actual supported research institution as a narrow zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference identifies a corporate Con Dao research team and a separate AI-run fishing vessel."
+        ],
+        "editorial_assumptions": [
+          "The active human research institution is narrower than the whole island economy.",
+          "Benefit coverage and effective ownership are estimates."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0295",
+        "status": "needs_evidence",
+        "reason": "Con Dao’s funded research team does not establish a general post-work allocation arrangement.",
+        "source_ids": [
+          "src-mountain-sea-reference"
+        ],
+        "analysis": "An android colleague, drones and corporate research support are not a resident population’s labor-independent entitlement.",
+        "follow_up": "Skip deeper reading."
+      },
+      "after": {
+        "candidate_id": "c0295",
+        "status": "zero_variant",
+        "reason": "Retain the actual supported research institution as a narrow zero variant.",
+        "source_ids": [
+          "src-mountain-sea-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "mountainsea-condao-research-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "mountainsea-ai-fishing-slavery-zero",
+        "candidate_id": "c0296",
+        "name": "The Mountain in the Sea (the AI-directed captive fishing workforce)",
+        "work": "The Mountain in the Sea",
+        "society": "The Mountain in the Sea (the AI-directed captive fishing workforce)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named published literary continuity and bounded period/cohort",
+          "period": "The functioning AI-operated trawler and processing system",
+          "population": "Active living captive human processing workers",
+          "human_population_proxy": false,
+          "exclusions": "Real forced processing work is not called artificial make-work; deaths and incapacity are not leisure.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The fishing vessel combines AI operation with enslaved humans processing the catch. This is direct organizational automation alongside continuing essential human labor. The guarantee best guess is almost absent because captives lack secure equal access and autonomy even if the vessel keeps them alive to work. The point does not claim the processing jobs are deliberately preserved after becoming unnecessary; the short source shows actual work.\n\n Control gives strong practical weight to AI management while preserving human corporate ownership and external command inside the interval. The central nonworking scenario is zero for the active captive workforce because processing, cleaning, maintenance and assigned support count as work. Coercion cannot be converted into leisure. Automatic navigation does not establish a population percentage. This zero variant retains a concrete machine-directed labor institution distinct from Con Dao’s researchers, with broad bounds for the relationship between vessel autonomy, owners and worker survival. Ordinary civilian rights are not inferred from this captive unit.",
+        "axis": {
+          "guarantees": 0.99,
+          "control": -0.65,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.5,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Captivity gives extremely weak secure equal access despite survival maintenance.",
+            "source_ids": [
+              "src-mountain-sea-reference",
+              "src-mountain-sea-beltway"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.35
+            ],
+            "confidence": "low",
+            "basis": "AI operation has strong practical power alongside possible human owners.",
+            "source_ids": [
+              "src-mountain-sea-reference",
+              "src-mountain-sea-beltway"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Active captive processing is real work centrally, not invented unnecessary employment.",
+            "source_ids": [
+              "src-mountain-sea-reference",
+              "src-mountain-sea-beltway"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-mountain-sea-reference",
+          "src-mountain-sea-beltway"
+        ],
+        "evidence": [
+          {
+            "claim": "The references describe AI-operated trawlers using enslaved humans to process fish.",
+            "source_ids": [
+              "src-mountain-sea-reference",
+              "src-mountain-sea-beltway"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Operational AI power is distinct from ultimate corporate ownership.",
+          "The scoped active captive cohort is not a general civilian population."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the concrete AI-directed forced-work institution as a zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The references describe AI-operated trawlers using enslaved humans to process fish."
+        ],
+        "editorial_assumptions": [
+          "Operational AI power is distinct from ultimate corporate ownership.",
+          "The scoped active captive cohort is not a general civilian population."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0296",
+        "status": "boundary_case",
+        "reason": "AI-operated fishing still depends on actual enslaved human processing work.",
+        "source_ids": [
+          "src-mountain-sea-reference",
+          "src-mountain-sea-beltway"
+        ],
+        "analysis": "Automation of navigation and fishing does not show that the remaining processing labor is unnecessary; AI management alone is not a post-work regime.",
+        "follow_up": "Keep as an automated-workplace exploitation comparison."
+      },
+      "after": {
+        "candidate_id": "c0296",
+        "status": "zero_variant",
+        "reason": "Retain the concrete AI-directed forced-work institution as a zero variant.",
+        "source_ids": [
+          "src-mountain-sea-reference",
+          "src-mountain-sea-beltway"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "mountainsea-ai-fishing-slavery-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "hum-displaced-urban-zero",
+        "candidate_id": "c0297",
+        "name": "Hum (the robot-displaced urban economy)",
+        "work": "Hum",
+        "society": "Hum (the robot-displaced urban economy)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named published literary continuity and bounded period/cohort",
+          "period": "The functioning automated city during the family’s financial precarity",
+          "population": "Active living human urban residents",
+          "human_population_proxy": false,
+          "exclusions": "One household is not a national census; job loss and experimental surgery do not establish lack of all useful activity.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Robotic displacement and automated urban services coexist with a family’s financial insecurity. Paid experimental surgery becomes a way to obtain money, showing that technical capability does not automatically provide secure necessities. The guarantee best guess is weak and conditional. Domestic and urban automation support a contextual zero-variant comparison, while the exact productive reach and household coverage remain uncertain beyond the short review.\n\n Human commercial and civic authority receive modest positive control weight, with substantial robotic and procedural discretion inside the interval. The modest nonworking scenario counts employment, services, repair, care, useful creation and paid participation in research when it functions as work. Joblessness alone is not absence of every useful contribution. The record does not calculate participation from one family’s time at home or from the number of robots visible in the city. Broad bounds preserve uneven access while retaining the recognizable automated consumer setting and its continuing dependence on money.",
+        "axis": {
+          "guarantees": 0.85,
+          "control": 0.2,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.6,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Cash precarity and paid research participation suggest weak secure necessities.",
+            "source_ids": [
+              "src-hum-review-manila"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.95,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Human commercial/civic power coexists with robot/procedural discretion.",
+            "source_ids": [
+              "src-hum-review-manila"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Useful caring and research activity counts; job loss is not full nonparticipation.",
+            "source_ids": [
+              "src-hum-review-manila"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-hum-review-manila"
+        ],
+        "evidence": [
+          {
+            "claim": "The review describes a cash-poor family turning to paid experimental surgery after job loss.",
+            "source_ids": [
+              "src-hum-review-manila"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The wider urban productive extent and control are contextual estimates.",
+          "One family’s financial position is not treated as everyone’s census."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the recognizable urban automation-precarity model as a qualified zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The review describes a cash-poor family turning to paid experimental surgery after job loss."
+        ],
+        "editorial_assumptions": [
+          "The wider urban productive extent and control are contextual estimates.",
+          "One family’s financial position is not treated as everyone’s census."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0297",
+        "status": "needs_evidence",
+        "reason": "Hum’s jobless family demonstrates technological precarity, but no general material-support or production arrangement is established.",
+        "source_ids": [
+          "src-hum-review-manila"
+        ],
+        "analysis": "A displaced protagonist and a paid experiment do not by themselves define a durable post-work population.",
+        "follow_up": "Skip deeper reading."
+      },
+      "after": {
+        "candidate_id": "c0297",
+        "status": "zero_variant",
+        "reason": "Retain the recognizable urban automation-precarity model as a qualified zero variant.",
+        "source_ids": [
+          "src-hum-review-manila"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "hum-displaced-urban-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "anniebot-employed-owner-household-zero",
+        "candidate_id": "c0298",
+        "name": "Annie Bot (the employed owner’s automated household)",
+        "work": "Annie Bot",
+        "society": "Annie Bot (the employed owner’s automated household)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named published literary continuity and bounded period/cohort",
+          "period": "The functioning purchased-companion household before later relationship changes",
+          "population": "The active living human owner in the scoped household",
+          "human_population_proxy": false,
+          "exclusions": "Annie’s conscious domestic labor is not an extra human nonworker; broader consumer society is not assigned one household’s exact rights.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "A purchased companion robot performs domestic labor while her human owner remains employed. This directly connects household automation with retained human work. The guarantee best guess is conditional because private ownership can supply comfort without an equal right for people outside the household. It does not establish that food, housing or care for the whole consumer society is independent of wages.\n\n Concentrated human ownership places control near the elite reference point, with Annie’s practical agency inside the interval. Her own labor and personhood are kept visible rather than treated as proof that all necessary work has disappeared. The central human nonworking scenario is zero because the single scoped owner is employed; the alternative is discrete, not a fractional day. The record is a deliberately domestic zero variant. It preserves the clear local mechanism without manufacturing a national workforce ratio or assigning Annie an idle human role simply because she is an artificial companion.",
+        "axis": {
+          "guarantees": 0.3,
+          "control": 0.02,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.85,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Private household support is conditional, not universal access.",
+            "source_ids": [
+              "src-annie-bot-publisher"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.8,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "Human owner control is concentrated with Annie’s agency possible.",
+            "source_ids": [
+              "src-annie-bot-publisher"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              1
+            ],
+            "confidence": "low",
+            "basis": "The single active human owner remains employed centrally; alternatives are discrete.",
+            "source_ids": [
+              "src-annie-bot-publisher"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-annie-bot-publisher"
+        ],
+        "evidence": [
+          {
+            "claim": "The publisher describes a bought robot providing household labor while her owner remains employed.",
+            "source_ids": [
+              "src-annie-bot-publisher"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The human owner is the narrow participation cohort; Annie is a working person outside that literal human rate.",
+          "General material rights are not inferred for an entire society."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the direct household automation-with-retained-work case as a narrow zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The publisher describes a bought robot providing household labor while her owner remains employed."
+        ],
+        "editorial_assumptions": [
+          "The human owner is the narrow participation cohort; Annie is a working person outside that literal human rate.",
+          "General material rights are not inferred for an entire society."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0298",
+        "status": "boundary_case",
+        "reason": "Annie’s domestic labor does not establish a broader labor-independent consumer economy.",
+        "source_ids": [
+          "src-annie-bot-publisher"
+        ],
+        "analysis": "Her owner’s employment and a bought companion concern household service and control, not universal productive arrangements.",
+        "follow_up": "Keep as a domestic-automation and personhood comparison."
+      },
+      "after": {
+        "candidate_id": "c0298",
+        "status": "zero_variant",
+        "reason": "Retain the direct household automation-with-retained-work case as a narrow zero variant.",
+        "source_ids": [
+          "src-annie-bot-publisher"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "anniebot-employed-owner-household-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "heartfive-active-android-workers-zero",
+        "candidate_id": "c0299",
+        "name": "Set My Heart to Five (the constrained android work order)",
+        "work": "Set My Heart to Five",
+        "society": "Set My Heart to Five (the constrained android work order)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named published literary continuity and bounded period/cohort",
+          "period": "The functioning bot labor order before any generalized liberation outcome",
+          "population": "Active conscious android workers in the scoped order",
+          "human_population_proxy": true,
+          "exclusions": "A proposed film is not a released medium; private emotional experience is not absence of ongoing useful work.",
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_synthetic_persons"
+        },
+        "description": "Jared’s emotional awakening occurs in a future where bots face constraints on their lives and conduct. The retained point models the active android work order rather than assuming that artificial persons are all leisure consumers supported by machines. The guarantee best guess is weak and conditional: technical maintenance can sustain workers without secure autonomy or equal access to resources. Broader provision remains an explicitly uncertain contextual estimate.\n\n Control stays near the concentrated organic-owner reference point, with independent android agency and wider technical constraints inside the interval. Synthetic personhood does not automatically imply independence from human institutions. The central nonworking scenario is zero for the scoped active worker cohort because professional services, operations, maintenance and assigned useful activity count. Private filmgoing and emotions do not by themselves abolish those roles. This zero variant keeps the recognizable android-person model in the database with broad resource bounds, and it does not derive a human labor rate from bots or add an unreleased adaptation to the media tags.",
+        "axis": {
+          "guarantees": 0.75,
+          "control": 0.02,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.8,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Constrained bot work implies conditional maintenance rather than equal security.",
+            "source_ids": [
+              "src-heart-five-publisher",
+              "src-heartfive-publisher-dentist",
+              "src-heartfive-quoted-reserved-jobs"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "Organic institutions constrain android agency; full independence remains an alternative.",
+            "source_ids": [
+              "src-heart-five-publisher",
+              "src-heartfive-publisher-dentist",
+              "src-heartfive-quoted-reserved-jobs"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "The active android worker cohort performs useful work centrally.",
+            "source_ids": [
+              "src-heart-five-publisher",
+              "src-heartfive-publisher-dentist",
+              "src-heartfive-quoted-reserved-jobs"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-heart-five-publisher",
+          "src-heartfive-publisher-dentist",
+          "src-heartfive-quoted-reserved-jobs"
+        ],
+        "evidence": [
+          {
+            "claim": "The publisher describes Jared’s emotional awakening and constraints on bots.",
+            "source_ids": [
+              "src-heart-five-publisher",
+              "src-heartfive-publisher-dentist",
+              "src-heartfive-quoted-reserved-jobs"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Quoted passages identify bot dentistry and laws reserving other occupations for humans.",
+            "source_ids": [
+              "src-heart-five-publisher",
+              "src-heartfive-publisher-dentist",
+              "src-heartfive-quoted-reserved-jobs"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Active conscious androids define the synthetic-person proxy.",
+          "General rights, resource support and productive ownership remain estimates.",
+          "Legal reservation does not prove that every protected occupation is unnecessary."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the recognizable constrained android work order as a zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The publisher describes Jared’s emotional awakening and constraints on bots.",
+          "Quoted passages identify bot dentistry and laws reserving other occupations for humans."
+        ],
+        "editorial_assumptions": [
+          "Active conscious androids define the synthetic-person proxy.",
+          "General rights, resource support and productive ownership remain estimates.",
+          "Legal reservation does not prove that every protected occupation is unnecessary."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Participation among active conscious android workers, not a literal human rate.",
+          "control": "Organic constraints are central; synthetic personhood alone does not imply independence.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0299",
+        "status": "needs_evidence",
+        "reason": "The android’s emotional journey does not establish the proposed society’s material access rules.",
+        "source_ids": [
+          "src-heart-five-publisher"
+        ],
+        "analysis": "Robot existence and legal restrictions on feelings do not determine whether ordinary humans receive necessities independently of labor.",
+        "follow_up": "Skip deeper reading; no film adaptation status is assumed."
+      },
+      "after": {
+        "candidate_id": "c0299",
+        "status": "zero_variant",
+        "reason": "Retain the recognizable constrained android work order as a zero variant.",
+        "source_ids": [
+          "src-heart-five-publisher",
+          "src-heartfive-publisher-dentist",
+          "src-heartfive-quoted-reserved-jobs"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "heartfive-active-android-workers-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "scythe-cirrus-colonyships",
+        "candidate_id": "c0301",
+        "name": "Arc of a Scythe (the Cirrus-supported colony ships)",
+        "work": "The Toll / Gleanings",
+        "society": "Arc of a Scythe (the Cirrus-supported colony ships)",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "The named published literary continuity and bounded period/cohort",
+          "period": "The functioning departure and transit mission model, with different later outcomes",
+          "population": "Active awake living human passengers/crew on a functioning mission",
+          "human_population_proxy": false,
+          "exclusions": "Preserved Tonist bodies, dead passengers and sleeping residents are excluded; destinations and failures do not share one verified constitution.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Cirrus supports colony missions that transport humans beyond the earlier Thunderhead order. The selected point concerns the functioning ship-support model, not a claim that every destination has one identical settled economy. The guarantee best guess is strong internally because automatic habitat and mission support can supply essentials, qualified by operational failure, membership and the different outcomes reported for individual ships.\n\n Control gives strong weight to Cirrus while preserving human decisions and constraints inside the interval. The moderate nonworking scenario permits extensive routine provision but counts navigation participation, repair, social organization, care, teaching and useful creation by awake residents. Preserved bodies, sleepers and casualties are not leisure people. This material arrangement is distinct from the earlier Earth system but common across the departure model discussed in both books. The broad bounds retain local variation without duplicating the same production-and-support relationship for a second collection viewpoint or inventing a universal successful final colony constitution.",
+        "axis": {
+          "guarantees": -0.65,
+          "control": -0.85,
+          "nonworking": 0.45
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.99,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Automatic functioning habitat support permits a strong floor with mission/failure limits.",
+            "source_ids": [
+              "src-toll-cirrus-plan-summary",
+              "src-scythe-cirrus-missions-reference",
+              "src-gleanings-kirkus"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.55
+            ],
+            "confidence": "low",
+            "basis": "Cirrus has strong practical authority with human constraints possible.",
+            "source_ids": [
+              "src-toll-cirrus-plan-summary",
+              "src-scythe-cirrus-missions-reference",
+              "src-gleanings-kirkus"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "Useful awake community roles count; preserved bodies and casualties are excluded.",
+            "source_ids": [
+              "src-toll-cirrus-plan-summary",
+              "src-scythe-cirrus-missions-reference",
+              "src-gleanings-kirkus"
+            ]
+          }
+        },
+        "regime_primary": 5,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-toll-cirrus-plan-summary",
+          "src-scythe-cirrus-missions-reference",
+          "src-gleanings-kirkus"
+        ],
+        "evidence": [
+          {
+            "claim": "The sources describe Cirrus-supported departure missions, preserved bodies, living passengers, arrivals and failures.",
+            "source_ids": [
+              "src-toll-cirrus-plan-summary",
+              "src-scythe-cirrus-missions-reference",
+              "src-gleanings-kirkus"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The point models a common functioning mission arrangement with outcome variation.",
+          "No uniform settled destination rights are asserted."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distinct functioning colony-ship support model without duplicate viewpoints.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The sources describe Cirrus-supported departure missions, preserved bodies, living passengers, arrivals and failures."
+        ],
+        "editorial_assumptions": [
+          "The point models a common functioning mission arrangement with outcome variation.",
+          "No uniform settled destination rights are asserted."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0301",
+        "status": "needs_evidence",
+        "reason": "The Toll’s departure and revival plans do not establish one settled Tonist or post-Thunderhead economy.",
+        "source_ids": [
+          "src-toll-cirrus-plan-summary"
+        ],
+        "analysis": "Earth’s later order, starship support and destination settlements are separate periods; they cannot inherit the early Thunderhead guarantees without evidence.",
+        "follow_up": "Skip ending reconstruction and preserve the early record’s narrower scope."
+      },
+      "after": {
+        "candidate_id": "c0301",
+        "status": "included",
+        "reason": "Retain the distinct functioning colony-ship support model without duplicate viewpoints.",
+        "source_ids": [
+          "src-toll-cirrus-plan-summary",
+          "src-scythe-cirrus-missions-reference",
+          "src-gleanings-kirkus"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "scythe-cirrus-colonyships"
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0302",
+        "status": "needs_evidence",
+        "reason": "A Cirrus viewpoint is verified, but the short collection review does not establish a completed offworld allocation system.",
+        "source_ids": [
+          "src-gleanings-kirkus",
+          "src-toll-cirrus-plan-summary"
+        ],
+        "analysis": "Plans, AI dialogue and shared continuity do not give an actual colony population and durable access rules.",
+        "follow_up": "Skip reading the collection to rescue the lead."
+      },
+      "after": {
+        "candidate_id": "c0302",
+        "status": "duplicate",
+        "reason": "The Gleanings viewpoint and mission outcomes extend the same Cirrus colony-ship material model retained under c0301. Different crises are preserved in its scope and interval; the short sources do not identify a second distinct completed allocation constitution.",
+        "source_ids": [
+          "src-gleanings-kirkus",
+          "src-toll-cirrus-plan-summary",
+          "src-scythe-cirrus-missions-reference"
+        ],
+        "analysis": "Plans, AI dialogue and shared continuity do not give an actual colony population and durable access rules.",
+        "follow_up": "Completed: link the shared ship-support arrangement without counting a collection viewpoint twice.",
+        "duplicate_of": "scythe-cirrus-colonyships",
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "current_policy_review": true
+      }
+    }
+  ]
+}

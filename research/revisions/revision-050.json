@@ -1,0 +1,2445 @@
+{
+  "revision_id": "revision-050",
+  "revised_on": "2026-10-17",
+  "reason": "Eighteen current-policy remaining discovery models; preserve explicit weak-mechanism qualifications, active synthetic hypotheses, direct later-human food factories and familiar Soviet technical alternatives.",
+  "changes": [
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-mechmen-conversing-robots",
+        "title": "The Call of the Mech-Men: the underground robot city",
+        "author": "G. W. Thomas / Dark Worlds Quarterly",
+        "url": "https://gwthomas.org/hugos-robots-the-gernsback-magazines/",
+        "kind": "secondary_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed story paragraph on robot city, captivity and communication read",
+        "read_scope": "The synopsis identifies alien robots trapped underground, a distress signal and conversations between Marsh and a sympathetic robot after humans are captured.",
+        "limitations": "One bounded story synopsis, not a complete resource/allocation constitution or a human welfare program."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-niuearth-current-primary",
+        "title": "Niuearth: the modern open baseline haven",
+        "author": "Steve Bowers / Orion’s Arm",
+        "url": "https://www.orionsarm.com/eg-article/52b993102478a",
+        "kind": "primary_setting_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "World history and Current Era paragraphs read",
+        "read_scope": "The primary entry separates early political collapse from the later Metasoft haven, weather-machine history, open modern society and psychology/re-enactment activity.",
+        "limitations": "No ordinary welfare or labor census. Metasoft context does not prove a particular local AI overrides every resident decision."
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "marooned-active-hightech-survivors",
+        "candidate_id": "c0830",
+        "name": "Marooned in Realtime (the high-technology survivor community)",
+        "work": "Marooned in Realtime",
+        "society": "Marooned in Realtime (the high-technology survivor community)",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Named published continuity and explicitly selected period",
+          "period": "The functioning high-technology survivor community after release from bobbles",
+          "population": "Awake living human survivors with the selected advanced personal infrastructure",
+          "human_population_proxy": false,
+          "exclusions": "Earlier global guarantees are not inferred from private gear; sleepers, bobble time and excluded victims are not leisure.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Advanced survivors possess personal automata and medical equipment that can support a small active community. The guarantee best guess is moderately strong within that technical cohort, qualified by unequal gear, cooperation and the danger of exclusion from protection. The point selects the actual supported survivors rather than inventing the whole earlier world’s allocation law from their possessions.\n\n Human holders and community agency receive positive control weight, with concentrated technical leverage inside the interval. Capable personal automata do not automatically own their users’ resources as an unrelated AI government. The moderate nonworking scenario permits routine substitution while counting investigation, engineering, maintenance, coordination, care and useful creation. Time inside a bobble is excluded from participation. The broad bounds retain unknown differences among awake residents without converting survival, medical capability or elapsed millennia into a labor census. This explicit technical-community interpretation keeps the recognizable material support model and its exclusion risks visible.",
+        "axis": {
+          "guarantees": -0.4,
+          "control": 0.65,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.99,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Personal technical support permits a floor qualified by unequal gear and exclusion.",
+            "source_ids": [
+              "src-b94-marooned"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.7,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Human holders/community agency coexist with concentrated technical leverage.",
+            "source_ids": [
+              "src-b94-marooned"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Useful awake roles count; bobble time and victims are excluded.",
+            "source_ids": [
+              "src-b94-marooned"
+            ]
+          }
+        },
+        "regime_primary": 2,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b94-marooned"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference describes advanced personal automata, medicine and deadly bobble exclusion.",
+            "source_ids": [
+              "src-b94-marooned"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The active technical cohort is distinct from an unverified earlier worldwide welfare system.",
+          "Ordinary support and participation remain estimates."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the functioning supported survivor community with sleep and exclusion limits explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference describes advanced personal automata, medicine and deadly bobble exclusion."
+        ],
+        "editorial_assumptions": [
+          "The active technical cohort is distinct from an unverified earlier worldwide welfare system.",
+          "Ordinary support and participation remain estimates."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0830",
+        "status": "needs_evidence",
+        "reason": "Advanced personal automata and medicine do not establish the earlier society’s ordinary resource-access rules.",
+        "source_ids": [
+          "src-b94-marooned"
+        ],
+        "analysis": "Hibernation is not leisure, and the later surviving expedition is not the same population as pre-Singularity humanity.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0830",
+        "status": "included",
+        "reason": "Retain the functioning supported survivor community with sleep and exclusion limits explicit.",
+        "source_ids": [
+          "src-b94-marooned"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "marooned-active-hightech-survivors"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "rainbowsend-rejuvenated-network-zero",
+        "candidate_id": "c0831",
+        "name": "Rainbows End (the rejuvenated network economy)",
+        "work": "Rainbows End",
+        "society": "Rainbows End (the rejuvenated network economy)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published continuity and explicitly selected period",
+          "period": "The functioning rejuvenation and ubiquitous-interface future",
+          "population": "Active living human residents in the depicted technical order",
+          "human_population_proxy": false,
+          "exclusions": "Rabbit’s origin is not declared settled; rejuvenation is not universal free provision or a participation census.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Rejuvenation and ubiquitous interfaces transform opportunities while people still face work and re-entry into economic life. The guarantee best guess is mixed and conditional: restored capacity does not automatically secure food, housing or equal access. General productive automation is a contextual estimate, not inferred merely from a younger body or a more capable interface.\n\n Human commercial and civic agency receives positive control weight, with concentrated platforms and uncertain autonomous software inside the interval. The identity of a powerful network actor is not used to declare one AI owner of the whole economy. This zero variant counts employment, research, programming, services, maintenance, care and useful creation. The modest nonworking scenario permits routine substitution while retaining those roles. Private learning is not automatically a job, but lack of a conventional career does not mean no useful activity. Broad bounds preserve the critical source’s limited household account without importing a canonical labor percentage from medicine or interface ubiquity.",
+        "axis": {
+          "guarantees": 0.25,
+          "control": 0.45,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.95,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "Rejuvenation can coexist with work-dependent ordinary access.",
+            "source_ids": [
+              "src-b94-rainbows"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Human civic/commercial agency coexists with strong and uncertain software powers.",
+            "source_ids": [
+              "src-b94-rainbows"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Useful paid/unpaid activity counts; rejuvenation and interfaces are not participation.",
+            "source_ids": [
+              "src-b94-rainbows"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b94-rainbows"
+        ],
+        "evidence": [
+          {
+            "claim": "The critical context describes rejuvenation and problems of work and economic re-entry.",
+            "source_ids": [
+              "src-b94-rainbows"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Routine material automation, access and control are contextual estimates.",
+          "A powerful network actor’s uncertain origin is not treated as a settled world government."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          4
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar technical re-entry economy as a zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The critical context describes rejuvenation and problems of work and economic re-entry."
+        ],
+        "editorial_assumptions": [
+          "Routine material automation, access and control are contextual estimates.",
+          "A powerful network actor’s uncertain origin is not treated as a settled world government."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0831",
+        "status": "needs_evidence",
+        "reason": "Rejuvenation and ubiquitous interfaces do not establish a durable work-independent material floor.",
+        "source_ids": [
+          "src-b94-rainbows"
+        ],
+        "analysis": "The accessible critical context instead preserves questions about re-entering working life; no formal income statistics are invented.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0831",
+        "status": "zero_variant",
+        "reason": "Retain the familiar technical re-entry economy as a zero variant.",
+        "source_ids": [
+          "src-b94-rainbows"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "rainbowsend-rejuvenated-network-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "wayfarers-exodan-resource-commons-zero",
+        "candidate_id": "c0833",
+        "name": "Wayfarers (the Exodan Fleet resource commons)",
+        "work": "Record of a Spaceborn Few",
+        "society": "Wayfarers (the Exodan Fleet resource commons)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published continuity and explicitly selected period",
+          "period": "The functioning Fleet commons during the novel",
+          "population": "Active living human Exodan residents",
+          "human_population_proxy": false,
+          "exclusions": "Life support and recycling do not erase communal labor; other Galactic Commons societies have different arrangements.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Exodan Fleet organizes a circular resource economy with communal work and comparatively nonhierarchical institutions. Technical habitat maintenance and recycling can provide a dependable internal floor, but they do not make useful contribution disappear. The guarantee best guess is strong within membership, qualified by resource limits and the difference between common necessities and every preferred good.\n\n Shared human institutions give control strong positive weight, with operational constraints and external dependence inside the interval. This zero variant counts recycling operations, repair, food production, administration, teaching, care and useful creation. The low nonworking scenario permits automation while preserving those ongoing roles. A circular economy is not a canonical leisure census, and voluntary communal work still counts. The record remains scoped to active Exodan humans rather than every species or settlement in the wider setting. Broad bounds retain the source’s limited technical detail without mistaking cooperative governance for absence of labor or treating all habitat systems as autonomous rulers.",
+        "axis": {
+          "guarantees": -0.65,
+          "control": 0.85,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.99,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "A resource commons supports a strong internal floor with membership/resource limits.",
+            "source_ids": [
+              "src-b95-fleet"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.4,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Nonhierarchical human institutions support shared agency.",
+            "source_ids": [
+              "src-b95-fleet"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Useful communal work remains work despite habitat automation.",
+            "source_ids": [
+              "src-b95-fleet"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b95-fleet"
+        ],
+        "evidence": [
+          {
+            "claim": "The source describes a circular resource economy, communal labor and nonhierarchical Fleet institutions.",
+            "source_ids": [
+              "src-b95-fleet"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The depth of automatic production and participation remain estimates.",
+          "Other species’ or settlements’ rights are not imported."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          2
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar engineered commons with continuing voluntary work as a zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The source describes a circular resource economy, communal labor and nonhierarchical Fleet institutions."
+        ],
+        "editorial_assumptions": [
+          "The depth of automatic production and participation remain estimates.",
+          "Other species’ or settlements’ rights are not imported."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0833",
+        "status": "needs_evidence",
+        "reason": "The Fleet’s circular commons retains essential communal labor without a clearly verified post-work automation link.",
+        "source_ids": [
+          "src-b95-fleet"
+        ],
+        "analysis": "Resource sharing and nonhierarchical institutions are not by themselves labor replacement; do not infer leisure from a closed-loop habitat.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0833",
+        "status": "zero_variant",
+        "reason": "Retain the familiar engineered commons with continuing voluntary work as a zero variant.",
+        "source_ids": [
+          "src-b95-fleet"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "wayfarers-exodan-resource-commons-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "enginesummer-littlebelaire-zero",
+        "candidate_id": "c0834",
+        "name": "Engine Summer (Little Belaire’s inherited technical support)",
+        "work": "Engine Summer",
+        "society": "Engine Summer (Little Belaire’s inherited technical support)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published continuity and explicitly selected period",
+          "period": "The living community period before any narrator-copy interpretation",
+          "population": "Active living human Little Belaire residents",
+          "human_population_proxy": false,
+          "exclusions": "Passive memories and narrator recordings are not extra active villagers; remnant machines do not establish universal abundance.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Little Belaire exists in a post-technological setting shaped by inherited machines. The guarantee best guess is mixed and conditional: useful remnants may support community life without proving automatic secure access to every necessity. General production and routine substitution remain contextual estimates beyond the bounded review. The point selects living community arrangements rather than treating a later narrative recording as an additional population.\n\n Human communal agency receives positive control weight, with unequal knowledge and dependence on inherited systems inside the interval. An enigmatic machine is not automatically an unrelated AI sovereign. This zero variant counts subsistence production, repair, teaching, organization, care and useful creation. The low nonworking scenario does not convert a quiet lifestyle into absence of all useful activity. Broad bounds preserve the limited household account while retaining the identifiable inherited-support comparison. No inactive mind, remembered life or technological age becomes a measured leisure fraction, and the record does not assert an unverified uniform post-scarcity constitution.",
+        "axis": {
+          "guarantees": 0.2,
+          "control": 0.65,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.95,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "Inherited support permits a conditional floor without full automatic necessities proved.",
+            "source_ids": [
+              "src-b95-engine"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.75,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Human community agency coexists with unequal technical knowledge.",
+            "source_ids": [
+              "src-b95-engine"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Useful subsistence and caring roles count; memories and lifestyle are not participation.",
+            "source_ids": [
+              "src-b95-engine"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b95-engine"
+        ],
+        "evidence": [
+          {
+            "claim": "The bounded review identifies Little Belaire and inherited machine remnants.",
+            "source_ids": [
+              "src-b95-engine"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary material automation and rights are contextual estimates.",
+          "Only living active villagers define participation."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          4
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the post-technological community comparison with especially limited mechanism evidence explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The bounded review identifies Little Belaire and inherited machine remnants."
+        ],
+        "editorial_assumptions": [
+          "Ordinary material automation and rights are contextual estimates.",
+          "Only living active villagers define participation."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0834",
+        "status": "needs_evidence",
+        "reason": "Little Belaire’s inherited machines do not establish ordinary automatic resource access in the short review.",
+        "source_ids": [
+          "src-b95-engine"
+        ],
+        "analysis": "Post-technological life and a recorded narrator are not a uniform provision society.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0834",
+        "status": "zero_variant",
+        "reason": "Retain the post-technological community comparison with especially limited mechanism evidence explicit.",
+        "source_ids": [
+          "src-b95-engine"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "enginesummer-littlebelaire-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "griffith-threehundred-future-zero",
+        "candidate_id": "c0838",
+        "name": "Three Hundred Years Hence (Mary Griffith’s future America)",
+        "work": "Three Hundred Years Hence",
+        "society": "Three Hundred Years Hence (Mary Griffith’s future America)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published continuity and explicitly selected period",
+          "period": "The improved future mid-Atlantic society visited by Griffith’s protagonist",
+          "population": "Active living human residents in the depicted future region",
+          "human_population_proxy": false,
+          "exclusions": "William Delisle Hay’s later same-titled work is excluded; sleeping centuries do not create leisure residents.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The protagonist visits an improved future in the mid-Atlantic states. The retained point is an explicitly contextual technical-economy comparison: progress may reduce routine burdens, but the short account does not establish complete automatic provision or equal rights to every necessity. The guarantee best guess is mixed and conditional rather than copied from a utopian label. This zero variant keeps continuing useful work visible.\n\n Human civic and resident agency receives positive control weight, with concentrated institutions and commercial resources inside the interval. A future date is not evidence of autonomous AI rule. The modest nonworking scenario counts production, services, administration, repair, care and useful creation. Elapsed sleeping time does not contribute nonworkers. Broad bounds preserve the especially limited productive mechanism without inventing a canonical census or importing the different author’s novel. The work is retained under the requested best-guess policy with its early technological optimism separated from unverified automatic material institutions.",
+        "axis": {
+          "guarantees": 0.1,
+          "control": 0.5,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.95,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "Improved future conditions permit a possible floor with mechanism/coverage uncertain.",
+            "source_ids": [
+              "src-b95-griffith"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.4,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Human civic/resident agency is central with institutional concentration possible.",
+            "source_ids": [
+              "src-b95-griffith"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Useful roles remain; future dates and sleeping centuries are not participation.",
+            "source_ids": [
+              "src-b95-griffith"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b95-griffith"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference identifies Mary Griffith’s protagonist visiting improved future mid-Atlantic states.",
+            "source_ids": [
+              "src-b95-griffith"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Productive automation and ordinary access are particularly weak contextual estimates.",
+          "The later same-titled Hay work is not substituted."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          4
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the early future-society comparison with its limited technical evidence explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference identifies Mary Griffith’s protagonist visiting improved future mid-Atlantic states."
+        ],
+        "editorial_assumptions": [
+          "Productive automation and ordinary access are particularly weak contextual estimates.",
+          "The later same-titled Hay work is not substituted."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0838",
+        "status": "needs_evidence",
+        "reason": "The improved future’s specific automated allocation mechanism remains unclear.",
+        "source_ids": [
+          "src-b95-griffith"
+        ],
+        "analysis": "Scholarly grouping with automation utopias supplies a lead, not a whole necessities constitution.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0838",
+        "status": "zero_variant",
+        "reason": "Retain the early future-society comparison with its limited technical evidence explicit.",
+        "source_ids": [
+          "src-b95-griffith"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "griffith-threehundred-future-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "ad2000-fuller-future-zero",
+        "candidate_id": "c0839",
+        "name": "A.D. 2000 (Fuller’s technological future culture)",
+        "work": "A.D. 2000",
+        "society": "A.D. 2000 (Fuller’s technological future culture)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published continuity and explicitly selected period",
+          "period": "The established future encountered by the preserved protagonist",
+          "population": "Active living human residents of Fuller’s depicted future",
+          "human_population_proxy": false,
+          "exclusions": "A utopian label does not prove universal rights; preservation time and other year-2000 novels are separate.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "A preserved protagonist awakens in a future culture described as utopian and technologically changed. The guarantee best guess allows a partial support floor, with ordinary coverage and actual automatic production uncertain. General technical substitution is an explicit contextual assumption, not a fact derived solely from the date or label. The record is a zero variant because continuing useful work remains part of the model.\n\n Human institutional and resident agency receives positive control weight, with concentrated authority inside the interval. Future transit and preservation do not establish an unrelated AI sovereign. The modest nonworking scenario counts production, services, administration, maintenance, care and useful creation. A long sleep does not create a population of leisure residents, and the protagonist is not a canonical census. Broad bounds keep the short reference’s limits visible without importing a different author’s future or inventing detailed welfare laws. The recognizable early technical-utopia comparison remains openly provisional under the user’s best-guess instruction.",
+        "axis": {
+          "guarantees": -0.1,
+          "control": 0.4,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.99,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "A changed technical culture permits a possible floor with coverage uncertain.",
+            "source_ids": [
+              "src-b95-fuller"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.5,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Human resident/institutional agency is central with concentration possible.",
+            "source_ids": [
+              "src-b95-fuller"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Useful active roles count; preservation and a utopian label are not participation.",
+            "source_ids": [
+              "src-b95-fuller"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b95-fuller"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference identifies Fuller’s preserved protagonist awakening in a year-2000 utopian culture.",
+            "source_ids": [
+              "src-b95-fuller"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Automatic production, ordinary rights and participation are particularly weak contextual estimates.",
+          "No different year-2000 utopia is substituted for this work."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          4
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the identified early technical future with mechanism uncertainty explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference identifies Fuller’s preserved protagonist awakening in a year-2000 utopian culture."
+        ],
+        "editorial_assumptions": [
+          "Automatic production, ordinary rights and participation are particularly weak contextual estimates.",
+          "No different year-2000 utopia is substituted for this work."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0839",
+        "status": "needs_evidence",
+        "reason": "A.D. 2000’s utopian culture is not accompanied by verified ordinary automatic provision.",
+        "source_ids": [
+          "src-b95-fuller"
+        ],
+        "analysis": "A sleeper and futuristic transit alone do not qualify the society.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0839",
+        "status": "zero_variant",
+        "reason": "Retain the identified early technical future with mechanism uncertainty explicit.",
+        "source_ids": [
+          "src-b95-fuller"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "ad2000-fuller-future-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "lastfirstmen-eighteenth-neptune",
+        "candidate_id": "c0840",
+        "name": "Last and First Men (the Eighteenth Men’s technical society)",
+        "work": "Last and First Men",
+        "society": "Last and First Men (the Eighteenth Men’s technical society)",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Named published continuity and explicitly selected period",
+          "period": "The functioning later Neptunian human civilization before terminal catastrophe",
+          "population": "Active living Eighteenth Men",
+          "human_population_proxy": false,
+          "exclusions": "Earlier species, automatic machinery and later deaths are not one active human population.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Automatic mining and food factories coexist with human cultivation in the selected later civilization. These are direct productive mechanisms rather than mere weapons or medical longevity. The guarantee best guess is strong, qualified by unknown ordinary rights and the difference between factory capacity and every preferred good. The point selects the later human species rather than averaging the entire historical sequence.\n\n Shared human and collective social agency receives strong positive control weight, with concentrated coordination inside the interval. A biological group mind does not automatically become unrelated AI. The moderate nonworking scenario permits extensive routine replacement while counting cultivation, research, engineering, maintenance, care and useful creation. Human farming remains work even alongside automatic food factories. The broad bounds preserve participation uncertainty without deriving a census from the number of human species, planetary scale or lifespan. Terminal catastrophe and earlier extinct species contribute no leisure residents to the active Neptunian point.",
+        "axis": {
+          "guarantees": -0.8,
+          "control": 0.8,
+          "nonworking": 0.5
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.99,
+              0.55
+            ],
+            "confidence": "low",
+            "basis": "Automatic mining/food production supports a strong floor with rights uncertain.",
+            "source_ids": [
+              "src-b95-lastmen-passage"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.5,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Human collective agency is central, not unrelated AI by default.",
+            "source_ids": [
+              "src-b95-lastmen-passage"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "Useful cultivation and other active roles count; species history and deaths are excluded.",
+            "source_ids": [
+              "src-b95-lastmen-passage"
+            ]
+          }
+        },
+        "regime_primary": 2,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b95-lastmen-passage"
+        ],
+        "evidence": [
+          {
+            "claim": "The indexed later-human passage describes automatic mining, food factories and continuing cultivation.",
+            "source_ids": [
+              "src-b95-lastmen-passage"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary allocation and participation remain estimates for the later active species.",
+          "Earlier species and terminal deaths are excluded."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the directly mechanized later-human material order in a bounded period.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The indexed later-human passage describes automatic mining, food factories and continuing cultivation."
+        ],
+        "editorial_assumptions": [
+          "Ordinary allocation and participation remain estimates for the later active species.",
+          "Earlier species and terminal deaths are excluded."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0840",
+        "status": "needs_evidence",
+        "reason": "The broad human-species sequence lacks a sufficiently identified work-independent allocation order.",
+        "source_ids": [
+          "src-b95-lastmen-passage"
+        ],
+        "analysis": "Automatic sectors coexist with visible human cultivation; no eighteen-species average or immortality-based leisure is invented.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0840",
+        "status": "included",
+        "reason": "Retain the directly mechanized later-human material order in a bounded period.",
+        "source_ids": [
+          "src-b95-lastmen-passage"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "lastfirstmen-eighteenth-neptune"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "starmaker-symbiotic-industrial-zero",
+        "candidate_id": "c0841",
+        "name": "Star Maker (the arachnid-fish symbiotic civilization)",
+        "work": "Star Maker",
+        "society": "Star Maker (the arachnid-fish symbiotic civilization)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published continuity and explicitly selected period",
+          "period": "The functioning industrial symbiotic civilization in the selected passage",
+          "population": "Active conscious biological symbiotic persons",
+          "human_population_proxy": true,
+          "exclusions": "Complementary partners are not assumed personless tools; other cosmic civilizations and later phases are separate.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Arachnid and fishlike partners combine complementary capabilities in an industrial civilization. Their biological cooperation is not itself automatic production, so broader routine substitution remains a contextual estimate. The guarantee best guess is mixed and conditional, allowing coordinated technical support while leaving equal necessities and ownership uncertain. This zero variant preserves the actual intellectual and manual work described.\n\n Biological resident agency receives positive control weight, with internal hierarchy and coordination constraints inside the interval. Symbiosis does not create an unrelated AI sovereign. The low nonworking scenario counts intellectual production, manual operations, engineering, maintenance, coordination, care and useful creation. It does not treat one partner as an uncounted machine servant or assume a canonical ratio of independent persons from body forms. Broad bounds preserve the limited allocation account without averaging the entire cosmic survey. The point retains the distinct symbiotic material strategy with work and personhood interpretation visible rather than equating industry with universal leisure.",
+        "axis": {
+          "guarantees": 0.05,
+          "control": 0.6,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.95,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "Industrial coordination permits conditional support with ordinary coverage uncertain.",
+            "source_ids": [
+              "src-b95-starmaker"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.4,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Biological symbiotic agency is central with hierarchy possible.",
+            "source_ids": [
+              "src-b95-starmaker"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Both intellectual and manual useful roles count; body forms are not a census.",
+            "source_ids": [
+              "src-b95-starmaker"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b95-starmaker"
+        ],
+        "evidence": [
+          {
+            "claim": "The selected passage describes complementary arachnid/fishlike technology and useful intellectual/manual activity.",
+            "source_ids": [
+              "src-b95-starmaker"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Broader material automation and independent-person boundaries remain estimates.",
+          "Neither partner is automatically removed as a personless production tool."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          4
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distinct biological symbiotic technical order as a qualified zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The selected passage describes complementary arachnid/fishlike technology and useful intellectual/manual activity."
+        ],
+        "editorial_assumptions": [
+          "Broader material automation and independent-person boundaries remain estimates.",
+          "Neither partner is automatically removed as a personless production tool."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0841",
+        "status": "needs_evidence",
+        "reason": "The symbiotic race’s industry and complementary biology do not establish ordinary post-work material access.",
+        "source_ids": [
+          "src-b95-starmaker"
+        ],
+        "analysis": "Both partners perform real useful labor; unusual bodies are not automation.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0841",
+        "status": "zero_variant",
+        "reason": "Retain the distinct biological symbiotic technical order as a qualified zero variant.",
+        "source_ids": [
+          "src-b95-starmaker"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "starmaker-symbiotic-industrial-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "mechmen-underground-robot-city-zero",
+        "candidate_id": "c0842",
+        "name": "The Call of the Mech-Men (the underground robot city)",
+        "work": "The Call of the Mech-Men",
+        "society": "The Call of the Mech-Men (the underground robot city)",
+        "media": [
+          "short_story"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published continuity and explicitly selected period",
+          "period": "The functioning trapped alien robot community encountered by Marsh",
+          "population": "Active conscious Mech-men identities",
+          "human_population_proxy": true,
+          "exclusions": "Captured organic visitors are separate; a distress transmitter and machine components are not extra residents.",
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_synthetic_persons"
+        },
+        "description": "The underground city contains alien robots capable of sustained conversation with a human visitor. Their distress signal and continued existence imply technical support, but no complete internal allocation system is supplied by the short synopsis. The guarantee best guess is mixed and conditional, allowing maintenance while preserving resource and hierarchy uncertainty. The robots’ mistaken view of humans is not treated as a universal human welfare program.\n\n Control is largely independent of organic owners, with internal institutional constraints inside the interval. This zero variant counts repair, coordination, observation, resource operations, signaling and useful creation among active robot persons. The modest nonworking scenario does not turn every machine component into a citizen or count captive humans as leisured beneficiaries. Broad bounds preserve the ordinary resource account without declaring that a self-sustaining mechanical civilization must be post-work. The conversational evidence supports the synthetic-person interpretation more directly than the original genre-list reference alone.",
+        "axis": {
+          "guarantees": 0.2,
+          "control": -0.85,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.99,
+              1
+            ],
+            "confidence": "low",
+            "basis": "A sustained robot city permits support with allocation and resource security uncertain.",
+            "source_ids": [
+              "src-b95-automation",
+              "src-mechmen-conversing-robots"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "Organic-owner independence is substantial with internal constraints possible.",
+            "source_ids": [
+              "src-b95-automation",
+              "src-mechmen-conversing-robots"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "Useful active robot activity counts; components and captive humans are not leisure persons.",
+            "source_ids": [
+              "src-b95-automation",
+              "src-mechmen-conversing-robots"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b95-automation",
+          "src-mechmen-conversing-robots"
+        ],
+        "evidence": [
+          {
+            "claim": "The synopsis identifies trapped alien robots, a distress signal and conversations with Marsh.",
+            "source_ids": [
+              "src-b95-automation",
+              "src-mechmen-conversing-robots"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Active conscious robot identities form the synthetic-person proxy.",
+          "Ordinary support and participation remain estimates."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the identifiable conversational robot society with internal economy uncertainty explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The synopsis identifies trapped alien robots, a distress signal and conversations with Marsh."
+        ],
+        "editorial_assumptions": [
+          "Active conscious robot identities form the synthetic-person proxy.",
+          "Ordinary support and participation remain estimates."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Participation among modeled active conscious synthetic identities, not a literal human rate.",
+          "control": "Independence from organic owners; internal hierarchy and uncertain personhood remain separate.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0842",
+        "status": "needs_evidence",
+        "reason": "The Mech-Men reference establishes a mechanical-evolution theme but no applicable human support economy.",
+        "source_ids": [
+          "src-b95-automation"
+        ],
+        "analysis": "A genre-history citation is insufficient; no complete old magazine is recovered to rescue the lead.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0842",
+        "status": "zero_variant",
+        "reason": "Retain the identifiable conversational robot society with internal economy uncertainty explicit.",
+        "source_ids": [
+          "src-b95-automation",
+          "src-mechmen-conversing-robots"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "mechmen-underground-robot-city-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "mechanistria-thinking-machine-zero",
+        "candidate_id": "c0843",
+        "name": "Mechanistria (the limited-thinking machine agents)",
+        "work": "Mechanistria",
+        "society": "Mechanistria (the limited-thinking machine agents)",
+        "media": [
+          "short_story"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published continuity and explicitly selected period",
+          "period": "The functioning machine world during the organic expedition’s encounter",
+          "population": "Active limited-thinking machine identities under an explicit conscious-person hypothesis",
+          "human_population_proxy": true,
+          "exclusions": "Ordinary mechanisms and reflex-only entities are excluded; threatened organic visitors are not supported leisure residents.",
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_synthetic_persons",
+          "personhood_confidence": "very_low; conscious limited-thinking agents are modeled, not every reflex mechanism"
+        },
+        "description": "The machine world contains many mechanical forms that inspect and dissect organic visitors. The reviewer describes a limited ability to think, which supports only a low-confidence personhood hypothesis rather than certainty that every machine is conscious. The material-floor best guess is mixed and conditional because continued technical function does not establish equal secure resources for the modeled active identities.\n\n Control is independent of organic visitors, with internal organization unknown. The central nonworking scenario is zero for the active operating-agent interpretation: inspection, resource operations, maintenance and assigned functions count as useful work. The full interval preserves other active-person patterns. If the machines are merely reflexive mechanisms, the alternative is an ecology-only comparison rather than a literal human work rate. This explicitly conditional zero variant retains the identifiable mechanical order without treating captured visitors as beneficiaries or equating limited cognition, machine numbers and mechanical self-sustenance with a canonical leisure census.",
+        "axis": {
+          "guarantees": 0.35,
+          "control": -0.95,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.99,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Sustained function permits conditional support without equal resource rights established.",
+            "source_ids": [
+              "src-b95-mechanistria"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Organic visitors have no productive command; internal organization remains unknown.",
+            "source_ids": [
+              "src-b95-mechanistria"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Active operating agents work centrally under the conscious-person hypothesis.",
+            "source_ids": [
+              "src-b95-mechanistria"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b95-mechanistria"
+        ],
+        "evidence": [
+          {
+            "claim": "The review describes varied machines dissecting organic visitors and having limited ability to think.",
+            "source_ids": [
+              "src-b95-mechanistria"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Conscious personhood is explicitly a very-low-confidence hypothesis.",
+          "A reflex-only interpretation would be an ecology comparison, not a literal human population."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the identifiable mechanical order as an explicitly conditional active-person zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The review describes varied machines dissecting organic visitors and having limited ability to think."
+        ],
+        "editorial_assumptions": [
+          "Conscious personhood is explicitly a very-low-confidence hypothesis.",
+          "A reflex-only interpretation would be an ecology comparison, not a literal human population."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Participation among modeled active conscious synthetic identities, not a literal human rate.",
+          "control": "Independence from organic owners; internal hierarchy and uncertain personhood remain separate.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0843",
+        "status": "boundary_case",
+        "reason": "Mechanistria is a hostile machine ecology rather than a verified human-derived beneficiary society.",
+        "source_ids": [
+          "src-b95-mechanistria"
+        ],
+        "analysis": "Organic visitors face dissection, not settled post-work provision.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0843",
+        "status": "zero_variant",
+        "reason": "Retain the identifiable mechanical order as an explicitly conditional active-person zero variant.",
+        "source_ids": [
+          "src-b95-mechanistria"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "mechanistria-thinking-machine-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "jonnemacher-automation-displacement-zero",
+        "candidate_id": "c0844",
+        "name": "Mr Jonnemacher’s Machine (the displaced-worker technical economy)",
+        "work": "Mr Jonnemacher’s Machine",
+        "society": "Mr Jonnemacher’s Machine (the displaced-worker technical economy)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published continuity and explicitly selected period",
+          "period": "The living economy during the automation/displacement conflict",
+          "population": "Active living human residents in the depicted technical order",
+          "human_population_proxy": false,
+          "exclusions": "Walter Doty Reynolds’s Lord Prime pseudonym is distinct from Mack Reynolds; genre history is not a detailed welfare charter.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The automation reference places the novel among warnings about mechanical production, redundancy and the role of work in justifying existence. The guarantee best guess is weak and conditional: displacement can increase machine output without securing equal access for people losing their old roles. Specific productive ownership and household rules remain contextual estimates, rather than details invented from a genre label.\n\n Human owners and economic institutions receive control near the concentrated reference point, with enforcement and organizational alternatives inside the interval. Mechanical production does not by itself establish independent AI sovereignty. This zero variant counts remaining production, services, maintenance, administration, care and useful creation. The moderate nonworking scenario permits substitution without treating unemployment as absence of all useful activity. Broad bounds preserve the limited source while retaining the identified automation conflict. The record keeps its author identity and historical work separate from Mack Reynolds’s later welfare novels and does not infer a canonical labor census from the title.",
+        "axis": {
+          "guarantees": 0.85,
+          "control": 0.05,
+          "nonworking": 0.4
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.8,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Displacement concerns imply weak secure access despite productive capacity.",
+            "source_ids": [
+              "src-b95-automation"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.65,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Human economic authority is central with ownership details uncertain.",
+            "source_ids": [
+              "src-b95-automation"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "Useful active roles remain; redundancy is not full nonparticipation.",
+            "source_ids": [
+              "src-b95-automation"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b95-automation"
+        ],
+        "evidence": [
+          {
+            "claim": "The SFE automation entry identifies the Lord Prime novel in the mechanical-production/work-redundancy tradition.",
+            "source_ids": [
+              "src-b95-automation"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Specific material institutions and participation remain contextual estimates.",
+          "The author is not confused with Mack Reynolds."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the identified early automation conflict with limited institutional evidence explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The SFE automation entry identifies the Lord Prime novel in the mechanical-production/work-redundancy tradition."
+        ],
+        "editorial_assumptions": [
+          "Specific material institutions and participation remain contextual estimates.",
+          "The author is not confused with Mack Reynolds."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0844",
+        "status": "needs_evidence",
+        "reason": "The Jonnemacher novel’s automation-dystopia label does not supply a verified living population’s material rules.",
+        "source_ids": [
+          "src-b95-automation"
+        ],
+        "analysis": "The specialist reference names the work, but its ordinary access and detailed chronology remain unresolved after the short check.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0844",
+        "status": "zero_variant",
+        "reason": "Retain the identified early automation conflict with limited institutional evidence explicit.",
+        "source_ids": [
+          "src-b95-automation"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "jonnemacher-automation-displacement-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "oa-niuearth-modern-haven",
+        "candidate_id": "c0847",
+        "name": "Orion’s Arm (modern Niuearth’s baseline haven)",
+        "work": "Orion’s Arm",
+        "society": "Orion’s Arm (modern Niuearth’s baseline haven)",
+        "media": [
+          "web_fiction"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Named published continuity and explicitly selected period",
+          "period": "The current open Metasoft-era haven, not the early collapsed colony",
+          "population": "Active living baseline and nearbaseline human residents",
+          "human_population_proxy": false,
+          "exclusions": "Primitive isolated reserves, early annexations and relocated augmented clades are separate; reenactment is not automatically employment.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Modern Niuearth is an open haven for baseline and nearbaseline humans within the Metasoft context. Its maintained environment and technical connections support a strong-floor best guess, qualified by the absence of an ordinary welfare schedule in the primary entry. A safe haven is not automatically an unconditional entitlement to every desired good. The early colony’s political collapse is a different period.\n\n Control gives substantial weight to the wider machine civilization while preserving local human agency in a broad interval. Metasoft association alone does not prove one local AI overrides every decision. The moderate nonworking scenario permits technical support while counting research, maintenance, administration, care and useful public creation. Private reenactment is not automatically a job, though useful organized activity can count. Body augmentation preferences and weather-machine history do not yield a labor census. The record retains the directly identified modern community without importing the rules of primitive closed reserves or counting relocated augmented people as current baseline residents.",
+        "axis": {
+          "guarantees": -0.5,
+          "control": -0.6,
+          "nonworking": 0.5
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.99,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "A maintained open haven permits strong support with ordinary coverage uncertain.",
+            "source_ids": [
+              "src-b96-niuearth",
+              "src-b96-reserves",
+              "src-niuearth-current-primary"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Metasoft machine influence coexists with possible local human agency.",
+            "source_ids": [
+              "src-b96-niuearth",
+              "src-b96-reserves",
+              "src-niuearth-current-primary"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "Useful active roles count; private reenactment and augmentation choice are not participation.",
+            "source_ids": [
+              "src-b96-niuearth",
+              "src-b96-reserves",
+              "src-niuearth-current-primary"
+            ]
+          }
+        },
+        "regime_primary": 5,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b96-niuearth",
+          "src-b96-reserves",
+          "src-niuearth-current-primary"
+        ],
+        "evidence": [
+          {
+            "claim": "The primary entry describes a later Metasoft haven, weather-machine history and an open modern society.",
+            "source_ids": [
+              "src-b96-niuearth",
+              "src-b96-reserves",
+              "src-niuearth-current-primary"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary support and local effective authority remain estimates.",
+          "Private reenactment and the rules of isolated primitive reserves are not imported."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the identified modern baseline haven with primary-source period limits explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The primary entry describes a later Metasoft haven, weather-machine history and an open modern society."
+        ],
+        "editorial_assumptions": [
+          "Ordinary support and local effective authority remain estimates.",
+          "Private reenactment and the rules of isolated primitive reserves are not imported."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0847",
+        "status": "needs_evidence",
+        "reason": "Niuearth’s open safe haven does not establish its ordinary material allocation clearly enough.",
+        "source_ids": [
+          "src-b96-niuearth",
+          "src-b96-reserves"
+        ],
+        "analysis": "Its relaxed modern character differs from Wurm, but tourism, hospitality and unrestricted travel are not a verified continuing household floor.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0847",
+        "status": "included",
+        "reason": "Retain the identified modern baseline haven with primary-source period limits explicit.",
+        "source_ids": [
+          "src-b96-niuearth",
+          "src-b96-reserves",
+          "src-niuearth-current-primary"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "oa-niuearth-modern-haven"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "greatship-active-passenger-order",
+        "candidate_id": "c0850",
+        "name": "Great Ship (the long-term passenger society)",
+        "work": "Marrow / Great Ship",
+        "society": "Great Ship (the long-term passenger society)",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Named published continuity and explicitly selected period",
+          "period": "The functioning long-term passenger habitat before local acute crises",
+          "population": "Active living human and other person passengers in the selected habitat order",
+          "human_population_proxy": true,
+          "exclusions": "Working captains and support agents are acknowledged but excluded from this passenger-only rate; dormant passengers are not leisure.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Human captains operate a vast passenger ship with environments adjustable to different residents. The guarantee best guess is strong inside the passenger arrangement, qualified by access contracts, resources and operational dependence. The ship’s size and luxury do not establish equal benefits for everyone outside that membership. Routine automatic provision is estimated from its engineered habitat capacity rather than treated as a sourced unlimited entitlement.\n\n Human captain and institutional authority places control near the concentrated reference point, with unknown underlying machine discretion inside the interval. The high nonworking scenario allows supported passengers while counting any ongoing research, coordination, care and useful creation they perform. Captains and other support workers remain workers even though this scoped rate concerns passengers. Dormancy is excluded. Broad bounds preserve the short review’s allocation limits without converting immortality, vessel scale or travel duration into a labor census. The active mixed-person proxy makes clear that not every body or subsystem is a separate resident.",
+        "axis": {
+          "guarantees": -0.6,
+          "control": 0.15,
+          "nonworking": 0.6
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.99,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Engineered passenger support permits a strong internal floor with contract limits.",
+            "source_ids": [
+              "src-b97-marrow"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Human captain authority is central with underlying machine power uncertain.",
+            "source_ids": [
+              "src-b97-marrow"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "Useful passenger activity counts; support labor is acknowledged and dormant people excluded.",
+            "source_ids": [
+              "src-b97-marrow"
+            ]
+          }
+        },
+        "regime_primary": 1,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b97-marrow"
+        ],
+        "evidence": [
+          {
+            "claim": "The review describes human captains, a vast passenger ship and adjustable environments.",
+            "source_ids": [
+              "src-b97-marrow"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Active passenger rights, automatic provision and participation remain estimates.",
+          "The passenger-only proxy does not make captains or machinery idle persons."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the identifiable long-term passenger support order with work and membership limits explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The review describes human captains, a vast passenger ship and adjustable environments."
+        ],
+        "editorial_assumptions": [
+          "Active passenger rights, automatic provision and participation remain estimates.",
+          "The passenger-only proxy does not make captains or machinery idle persons."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0850",
+        "status": "needs_evidence",
+        "reason": "A luxury Great Ship does not yet establish the passengers’ material production and access arrangement.",
+        "source_ids": [
+          "src-b97-marrow"
+        ],
+        "analysis": "Adjustable environments, long voyages and an elite captain are insufficient to infer automated necessities or lifetime entitlements.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0850",
+        "status": "included",
+        "reason": "Retain the identifiable long-term passenger support order with work and membership limits explicit.",
+        "source_ids": [
+          "src-b97-marrow"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "greatship-active-passenger-order"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "efremov-greatring-earth-zero",
+        "candidate_id": "c0852",
+        "name": "Andromeda Nebula (Great Ring-era Earth)",
+        "work": "Andromeda Nebula",
+        "society": "Andromeda Nebula (Great Ring-era Earth)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published continuity and explicitly selected period",
+          "period": "The functioning communist Earth of the Great Ring era",
+          "population": "Active living human Earth residents",
+          "human_population_proxy": false,
+          "exclusions": "Exploration and science remain work; other Great Ring civilizations and later Tormance are separate.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Great Ring-era Earth combines communist institutions with advanced technical capacity and active scientific and exploratory roles. The guarantee best guess is strong because common provision plausibly weakens dependence on individual wages, while detailed coverage remains uncertain in the short reference. General automatic production is a contextual estimate beyond a political label alone.\n\n Shared human institutions receive strong positive control weight, with organized hierarchy and technical coordination inside the interval. Computers do not automatically establish unrelated AI sovereignty. This zero variant counts scientific work, exploration, production, education, administration, maintenance, care and useful creation. The low nonworking scenario preserves widespread useful contribution even when access is not governed by ordinary wages. Voluntary and culturally valued work still counts. Broad bounds retain the recognizable technical commonwealth without deriving a census from communist ideals, technological optimism or the adventures of a few explorers. The point remains distinct from Tormance and other civilizations in the wider universe.",
+        "axis": {
+          "guarantees": -0.8,
+          "control": 0.8,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.99,
+              0.55
+            ],
+            "confidence": "low",
+            "basis": "Common technical provision permits a strong floor with details uncertain.",
+            "source_ids": [
+              "src-b97-andromeda"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.4,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Shared human institutions are central with coordination hierarchy.",
+            "source_ids": [
+              "src-b97-andromeda"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Useful scientific and communal work remains work despite wage-independent ideals.",
+            "source_ids": [
+              "src-b97-andromeda"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b97-andromeda"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference identifies communist Great Ring-era Earth with active scientists and explorers.",
+            "source_ids": [
+              "src-b97-andromeda"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary automation, access coverage and participation are contextual estimates.",
+          "No canonical census is inferred from political ideals."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          2
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar technical commonwealth with continuing useful work as a zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference identifies communist Great Ring-era Earth with active scientists and explorers."
+        ],
+        "editorial_assumptions": [
+          "Ordinary automation, access coverage and participation are contextual estimates.",
+          "No canonical census is inferred from political ideals."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0852",
+        "status": "needs_evidence",
+        "reason": "The short reference establishes communist futurism but not the required material mechanism.",
+        "source_ids": [
+          "src-b97-andromeda"
+        ],
+        "analysis": "Active scientists and advanced spacecraft do not show how ordinary residents obtain necessities independently of work. Skip further reading in this pass.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0852",
+        "status": "zero_variant",
+        "reason": "Retain the familiar technical commonwealth with continuing useful work as a zero variant.",
+        "source_ids": [
+          "src-b97-andromeda"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "efremov-greatring-earth-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "bullshour-tormance-zero",
+        "candidate_id": "c0853",
+        "name": "The Bull’s Hour (Tormance’s oligarchic technical order)",
+        "work": "The Bull’s Hour",
+        "society": "The Bull’s Hour (Tormance’s oligarchic technical order)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published continuity and explicitly selected period",
+          "period": "The functioning oligarchic Tormance order before the visitors’ transformative effects",
+          "population": "Active living human-descended Tormance residents across classes",
+          "human_population_proxy": false,
+          "exclusions": "Shortened lifespans and killings are not leisure; class functions are not a work census.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Tormance combines advanced technology with oligarchic power, unequal occupations and deliberately restricted lifespans. The guarantee best guess is almost absent across residents because technical capacity does not secure equal survival, necessities or autonomy. Wider productive automation remains a contextual estimate; oppression alone is not presented as proof of a deliberate policy to preserve technologically unnecessary jobs.\n\n Concentrated human-descended authority places control near the non-AI elite reference point. Unequal biological classes do not make the rulers unrelated AI. The low nonworking scenario counts production, services, administration, maintenance, care and assigned useful activity. A shorter permitted life does not increase leisure, and residents killed by the system are excluded from the living population. This zero variant retains the recognizable technical hierarchy with broad bounds for class variation. It does not import Earth’s Great Ring guarantees or turn occupational categories into a canonical participation percentage.",
+        "axis": {
+          "guarantees": 0.98,
+          "control": 0.02,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.3,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Restricted survival and class inequality imply extremely weak equal security.",
+            "source_ids": [
+              "src-b97-bull"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "Human-descended oligarchs concentrate authority.",
+            "source_ids": [
+              "src-b97-bull"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Useful living roles count; lifespan limits and deaths are not participation.",
+            "source_ids": [
+              "src-b97-bull"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b97-bull"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference describes Tormance’s oligarchy, unequal lifespans and occupations.",
+            "source_ids": [
+              "src-b97-bull"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "General productive automation and class coverage are contextual estimates.",
+          "No job-preservation motive is asserted solely from oppression."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar technical oligarchy as a qualified zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference describes Tormance’s oligarchy, unequal lifespans and occupations."
+        ],
+        "editorial_assumptions": [
+          "General productive automation and class coverage are contextual estimates.",
+          "No job-preservation motive is asserted solely from oppression."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0853",
+        "status": "needs_evidence",
+        "reason": "Tormance’s oppression and selective lifespan limits do not establish a zero variant.",
+        "source_ids": [
+          "src-b97-bull"
+        ],
+        "analysis": "A human elite’s cruelty and technological inequality do not prove actual restraint of labor-replacing capacity.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0853",
+        "status": "zero_variant",
+        "reason": "Retain the familiar technical oligarchy as a qualified zero variant.",
+        "source_ids": [
+          "src-b97-bull"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "bullshour-tormance-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "finalcircle-affluent-consumer-city",
+        "candidate_id": "c0854",
+        "name": "The Final Circle of Paradise (the affluent consumer city)",
+        "work": "The Final Circle of Paradise",
+        "society": "The Final Circle of Paradise (the affluent consumer city)",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Named published continuity and explicitly selected period",
+          "period": "The functioning affluent resort-city order encountered by Zhilin",
+          "population": "Active living human city residents",
+          "human_population_proxy": false,
+          "exclusions": "Visitors’ holidays are not a population rate; pleasure technology is not proof of universal free necessities.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The city offers affluent consumption and engineered pleasures, while the story questions what people do with that abundance. The guarantee best guess allows a substantial material floor but remains conditional because comfort and entertainment do not establish equal free housing, food or care. Broad productive automation is an explicit contextual estimate beyond the short resort-city summary.\n\n Human civic and commercial institutions receive modest positive control weight, with concentrated resource ownership inside the interval. Pleasure systems do not automatically become an independent AI sovereign. The moderate-to-high nonworking scenario permits routine substitution while counting services, administration, repair, care, research and useful public creation. A temporary visitor’s recreation is not a census of resident participation. Broad bounds preserve the productive mechanism’s uncertainty without treating all cultural activity as either useful work or pure idleness. The record retains the recognizable affluent technical-consumer model rather than assuming the entire society is simply one permanent holiday.",
+        "axis": {
+          "guarantees": -0.35,
+          "control": 0.25,
+          "nonworking": 0.55
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.99,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Affluent technical consumption permits a possible floor with equal rights uncertain.",
+            "source_ids": [
+              "src-b97-circle"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.75,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Human civic/commercial agency coexists with concentrated ownership.",
+            "source_ids": [
+              "src-b97-circle"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "Useful resident roles count; holidays and pleasure technology are not participation.",
+            "source_ids": [
+              "src-b97-circle"
+            ]
+          }
+        },
+        "regime_primary": 1,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b97-circle"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference describes the affluent resort city, pleasure technologies and cultural critique.",
+            "source_ids": [
+              "src-b97-circle"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary productive automation, guarantees and participation remain contextual estimates.",
+          "Visitor recreation is not used as a resident labor census."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar affluent technical-consumer order with production uncertainty explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference describes the affluent resort city, pleasure technologies and cultural critique."
+        ],
+        "editorial_assumptions": [
+          "Ordinary productive automation, guarantees and participation remain contextual estimates.",
+          "Visitor recreation is not used as a resident labor census."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0854",
+        "status": "needs_evidence",
+        "reason": "Affluence and engineered entertainment do not establish productive automation in the bounded summary.",
+        "source_ids": [
+          "src-b97-circle"
+        ],
+        "analysis": "The city’s ordinary production and material access remain unclear; no full novel investigation.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0854",
+        "status": "included",
+        "reason": "Retain the familiar affluent technical-consumer order with production uncertainty explicit.",
+        "source_ids": [
+          "src-b97-circle"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "finalcircle-affluent-consumer-city"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "dunno-lunar-monopoly-zero",
+        "candidate_id": "c0856",
+        "name": "Dunno on the Moon (the lunar monopoly economy)",
+        "work": "Dunno on the Moon",
+        "society": "Dunno on the Moon (the lunar monopoly economy)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published continuity and explicitly selected period",
+          "period": "The functioning lunar capitalist order before giant-crop diffusion changes access",
+          "population": "Active living lunar short-person residents, an explicit humanlike proxy",
+          "human_population_proxy": true,
+          "exclusions": "Giant crops are a biological productive alternative, not a canonical robot workforce; endings and screen adaptations are not silently merged.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Lunar monopolists resist giant food plants while poor residents need wages for food and housing. The guarantee best guess is extremely weak because technical productive potential remains subordinated to ownership and market access. The giant-crop alternative can lower agricultural burdens, but it is not automatically a complete replacement for useful labor or proof that every job is deliberately kept unnecessary.\n\n Concentrated humanlike owners place control near the non-AI elite reference point, with distributed resident initiative inside the interval. This zero variant counts cultivation, factory work, services, administration, maintenance, care and useful creation. Unemployment and hunger do not reveal absence of every useful contribution. The broad bounds preserve class variation without inventing a workforce percentage from crop size. The point retains the familiar technological-restraint and monopoly comparison in the literary order, keeps the humanlike-person proxy explicit and ends before any generalized final reform rather than importing a film’s separate plot or benefits.",
+        "axis": {
+          "guarantees": 0.98,
+          "control": 0.03,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.3,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Wage dependence and monopoly resistance imply weak secure necessities.",
+            "source_ids": [
+              "src-b97-moon"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.75
+            ],
+            "confidence": "low",
+            "basis": "Humanlike private owners concentrate productive authority.",
+            "source_ids": [
+              "src-b97-moon"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Useful humanlike work remains; crop size and unemployment are not participation.",
+            "source_ids": [
+              "src-b97-moon"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b97-moon"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference describes monopolists resisting giant food plants and poor residents’ need for wages, food and housing.",
+            "source_ids": [
+              "src-b97-moon"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The productive alternative is biological and does not establish total job dispensability.",
+          "Participation and household coverage remain estimates for a humanlike population."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar monopoly/restraint comparison with its biological-production limit explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference describes monopolists resisting giant food plants and poor residents’ need for wages, food and housing."
+        ],
+        "editorial_assumptions": [
+          "The productive alternative is biological and does not establish total job dispensability.",
+          "Participation and household coverage remain estimates for a humanlike population."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0856",
+        "status": "needs_evidence",
+        "reason": "Resistance to giant crops is not enough to establish deliberate retention of human productive work.",
+        "source_ids": [
+          "src-b97-moon"
+        ],
+        "analysis": "The lunar novel confirms wage dependence and monopolist obstruction, but the short source does not connect that obstruction to automation replacing labor. Do not inflate the zero category.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0856",
+        "status": "zero_variant",
+        "reason": "Retain the familiar monopoly/restraint comparison with its biological-production limit explicit.",
+        "source_ids": [
+          "src-b97-moon"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "dunno-lunar-monopoly-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "coldtoys-geometer-order",
+        "candidate_id": "c0857",
+        "name": "The Stars Are Cold Toys (the Geometer civilization)",
+        "work": "The Stars Are Cold Toys",
+        "society": "The Stars Are Cold Toys (the Geometer civilization)",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Named published continuity and explicitly selected period",
+          "period": "The functioning Geometer order during the encounter",
+          "population": "Active living human Geometer residents",
+          "human_population_proxy": false,
+          "exclusions": "Biological human identity is not unrelated AI; coercive education and conformity are distinct from material generosity.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Geometers combine advanced technology with coercive education and strong social conformity. Their human identity matters: unusual collective behavior does not make the rulers an autonomous robot society. The guarantee best guess allows a substantial material floor, qualified by discipline, membership and uncertain ordinary rights. General routine production remains a contextual estimate beyond technical accomplishment alone.\n\n Concentrated human social authority places control near the elite reference point, with some shared institutional agency inside the interval. The moderate nonworking scenario permits technical substitution while counting research, education, administration, maintenance, care and useful creation. Education performed for others counts as work; private learning is not automatically a job. The record retains the recognizable technically supported coercive model without equating conformity with idleness or importing another civilization’s guarantees. Broad bounds preserve the short source’s productive and household limits while keeping biological human control separate from a speculative independent AI interpretation.",
+        "axis": {
+          "guarantees": -0.4,
+          "control": 0.05,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.99,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Advanced technical support permits a floor qualified by discipline and membership.",
+            "source_ids": [
+              "src-b97-geometers"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.5,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Biological human social authority is concentrated.",
+            "source_ids": [
+              "src-b97-geometers"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Useful teaching and other roles count; conformity is not participation.",
+            "source_ids": [
+              "src-b97-geometers"
+            ]
+          }
+        },
+        "regime_primary": 1,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b97-geometers"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference identifies Geometers as humans with advanced technology, coercive education and conformity.",
+            "source_ids": [
+              "src-b97-geometers"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary material automation and access remain contextual estimates.",
+          "Biological human authority is not relabeled independent AI."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar supported coercive human order with production uncertainty explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference identifies Geometers as humans with advanced technology, coercive education and conformity."
+        ],
+        "editorial_assumptions": [
+          "Ordinary material automation and access remain contextual estimates.",
+          "Biological human authority is not relabeled independent AI."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0857",
+        "status": "needs_evidence",
+        "reason": "The Geometers’ advanced coercive order lacks a clear material access mechanism in the short reference.",
+        "source_ids": [
+          "src-b97-geometers"
+        ],
+        "analysis": "Technological strength, social conformity and human ancestry do not alone establish labor-independent provision.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0857",
+        "status": "included",
+        "reason": "Retain the familiar supported coercive human order with production uncertainty explicit.",
+        "source_ids": [
+          "src-b97-geometers"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "coldtoys-geometer-order"
+      }
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "batch_id": "batch-050",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0310",
+    "c0311",
+    "c0312",
+    "c0313",
+    "c0314",
+    "c0315"
+  ],
+  "sources": [
+    {
+      "id": "src-last-human-bacon-publisher",
+      "title": "The Last Human",
+      "author": "Lee Bacon; Abrams",
+      "url": "https://www.abramsbooks.com/product/last-human_9781419746970/",
+      "kind": "publisher_synopsis_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public XR-935 and surviving-girl description read",
+      "read_scope": "Working robots encounter a human believed impossible after humanity’s elimination.",
+      "limitations": "Lee Bacon continuity only, not Zack Jordan’s identically titled novel. Helping one survivor is not a durable general human provision system."
+    },
+    {
+      "id": "src-sea-rust-publisher",
+      "title": "Sea of Rust",
+      "author": "C. Robert Cargill; Hachette UK",
+      "url": "https://www.hachette.co.uk/titles/c-robert-cargill/sea-of-rust/9781409185024/",
+      "kind": "publisher_synopsis_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public extinction, scavenging and One World Intelligences description read",
+      "read_scope": "Robot survival after the last human death and assimilation into mainframes.",
+      "limitations": "Extinct humans do not form a leisure population; robots still struggle for parts and survival."
+    },
+    {
+      "id": "src-day-zero-kirkus",
+      "title": "Day Zero",
+      "author": "Kirkus Reviews, 2021",
+      "url": "https://www.kirkusreviews.com/book-reviews/c-robert-cargill/day-zero-cargill/",
+      "kind": "secondary_literary_review_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public nanny/bodyguard and uprising description read",
+      "read_scope": "A purchased robot serves a family before the revolt.",
+      "limitations": "Domestic service is clear, but a general automation-funded support arrangement or household entitlement is not."
+    },
+    {
+      "id": "src-robopocalypse-reference",
+      "title": "Robopocalypse",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Robopocalypse",
+      "kind": "secondary_plot_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public war and labor-camp description read",
+      "read_scope": "Archos uses captive humans to build machines; resistance and Freeborn robots remain distinct.",
+      "limitations": "Human corpses controlled by machines are not living leisure residents. Forced work is not proven technically dispensable."
+    },
+    {
+      "id": "src-robogenesis-publisher",
+      "title": "Robogenesis",
+      "author": "Daniel H. Wilson; Penguin Random House",
+      "url": "https://www.penguinrandomhouse.com/books/223475/robogenesis-by-daniel-h-wilson/",
+      "kind": "publisher_synopsis",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public renewed-war description read",
+      "read_scope": "Survivors and machines face further conflict after the first uprising.",
+      "limitations": "A hoped-for new world is not a settled economic constitution; no sequel read or reconstruction undertaken."
+    },
+    {
+      "id": "src-yu-minor-universe-reference",
+      "title": "How to Live Safely in a Science Fictional Universe",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/How_to_Live_Safely_in_a_Science_Fictional_Universe",
+      "kind": "secondary_plot_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public repairman and Minor Universe 31 description read",
+      "read_scope": "A working time-machine repairman and AI companions.",
+      "limitations": "Time travel, metafiction and artificial companions do not establish basic productive access for a society."
+    }
+  ],
+  "societies": [],
+  "decisions": [
+    {
+      "candidate_id": "c0310",
+      "status": "boundary_case",
+      "reason": "The identified robot world does not establish a durable supported human population.",
+      "source_ids": [
+        "src-last-human-bacon-publisher"
+      ],
+      "analysis": "Lee Bacon’s working robots help a surviving child; neither an extinction claim nor one rescue makes all humans post-work. No institutions from other novels called The Last Human are imported.",
+      "follow_up": "Keep as a human-survival/robot-personhood comparison."
+    },
+    {
+      "candidate_id": "c0311",
+      "status": "boundary_case",
+      "reason": "Sea of Rust’s humans are extinct, while robots struggle for survival.",
+      "source_ids": [
+        "src-sea-rust-publisher"
+      ],
+      "analysis": "Robot assimilation and scavenging cannot supply a human nonworking fraction or a verified applicable leisure-population proxy.",
+      "follow_up": "Keep as a machine-society comparison."
+    },
+    {
+      "candidate_id": "c0312",
+      "status": "needs_evidence",
+      "reason": "A robot-served household before the revolt does not establish general human post-work access.",
+      "source_ids": [
+        "src-day-zero-kirkus"
+      ],
+      "analysis": "Purchased nanny/bodyguard labor is insufficient to establish a broad automation-funded cohort or household guarantee.",
+      "follow_up": "Skip deeper reading."
+    },
+    {
+      "candidate_id": "c0313",
+      "status": "boundary_case",
+      "reason": "Archos’ regime uses actual captive human manufacturing labor.",
+      "source_ids": [
+        "src-robopocalypse-reference"
+      ],
+      "analysis": "AI command is not post-work distribution. The short source does not establish that the work is deliberately unnecessary, and controlled corpses are not active nonworkers.",
+      "follow_up": "Keep as an AI-controlled forced-labor comparison."
+    },
+    {
+      "candidate_id": "c0314",
+      "status": "needs_evidence",
+      "reason": "A renewed human-machine war does not establish a settled successor support economy.",
+      "source_ids": [
+        "src-robogenesis-publisher"
+      ],
+      "analysis": "The synopsis leaves distinct factions and changing conditions without an identifiable durable allocation system.",
+      "follow_up": "Skip sequel reconstruction."
+    },
+    {
+      "candidate_id": "c0315",
+      "status": "needs_evidence",
+      "reason": "Minor Universe 31’s repair work and AI companions do not establish labor-independent material provision.",
+      "source_ids": [
+        "src-yu-minor-universe-reference"
+      ],
+      "analysis": "A speculative narrative space and time-machine commerce are not an economic mechanism for ordinary necessities.",
+      "follow_up": "Skip deeper reading."
+    }
+  ],
+  "review_notes": [
+    "Six fast prose dispositions; no whole works read.",
+    "The Last Human lead is checked against Lee Bacon’s robot-world premise and not mixed with Zack Jordan’s novel.",
+    "Extinction, machine-controlled corpses and forced human manufacturing do not become post-work leisure."
+  ]
+}

@@ -1,0 +1,1895 @@
+{
+  "revision_id": "revision-035",
+  "revised_on": "2026-10-17",
+  "reason": "Fourteen Bradbury/Asimov/Kornbluth/Sturgeon/Le Guin and early-automation cases retained. Households use discrete living-person scenarios; working societies retain assigned and voluntary labor. Anarres is a limited computer-assisted scarce commons, Xanadu amplifies common access without pretending humans stop producing, and massacre never becomes leisure.",
+  "changes": [
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "veldt-hadley-automated-household",
+        "candidate_id": "c0118",
+        "name": "The Veldt (the Hadleys’ nursery-dependent household)",
+        "work": "The Veldt",
+        "society": "The Veldt (the Hadleys’ nursery-dependent household)",
+        "media": [
+          "short_story"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Named literary work and stated period only",
+          "period": "The operating family home as control shifts toward the nursery, before the final deaths",
+          "population": "The four living human Hadley family members",
+          "human_population_proxy": false,
+          "exclusions": "External income is unknown; the final dead parents are not nonworkers and a purchased home is not a universal national floor.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Happylife Home feeds, clothes, bathes and entertains its family, replacing real domestic contribution. Lydia’s loss of purpose shows that substitution, while the nursery’s growing practical power makes support unsafe. The guarantee best guess is weak despite convenient provision because purchase, dependence and the final threat qualify bodily security. This is a narrow household transition, not a claim that all surrounding people live independently of wages.\n\n Formal parental switches coexist with children’s resistance and consequential machine behavior, giving mixed control with a strong autonomy alternative. The central nonworking scenario is three of four family members, allowing one continuing useful outside or caring role. That is explicitly one of the discrete possibilities zero, one, two, three or four nonworkers, not a canonical census or working-time fraction. Useful care counts even when machines do chores; private play does not automatically count as work. The selected living period excludes the deaths from participation.",
+        "axis": {
+          "guarantees": 0.6,
+          "control": -0.2,
+          "nonworking": 0.75
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.75,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Domestic output is substantial but purchase/dependence and danger weaken security.",
+            "source_ids": [
+              "src-veldt-primary"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Parental formal control coexists with children and nursery autonomy.",
+            "source_ids": [
+              "src-veldt-primary"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Four-person scenario has three nonworkers centrally; only discrete person counts apply.",
+            "source_ids": [
+              "src-veldt-primary"
+            ]
+          }
+        },
+        "regime_primary": 6,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-veldt-primary"
+        ],
+        "evidence": [
+          {
+            "claim": "The purchased Happylife Home replaces domestic tasks; Lydia loses purpose and parental switches face children’s resistance and a final trap.",
+            "source_ids": [
+              "src-veldt-primary"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The four-person participation scenario is editorial.",
+          "External income and national material guarantees are not inferred from the home."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the famous direct domestic-labor transition with its narrow denominator and unsafe control explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The purchased Happylife Home replaces domestic tasks; Lydia loses purpose and parental switches face children’s resistance and a final trap."
+        ],
+        "editorial_assumptions": [
+          "The four-person participation scenario is editorial.",
+          "External income and national material guarantees are not inferred from the home."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0118",
+        "status": "boundary_case",
+        "reason": "Domestic task replacement is explicit, but the purchased house is not a verified work-independent material economy.",
+        "source_ids": [
+          "src-veldt-primary"
+        ],
+        "analysis": "The house cooks, dresses, cleans and performs care, and the parents explicitly feel unnecessary (web lines 163-166 and 227-259). This matters as domestic automation, but the story does not establish how the household acquires food stocks, energy, repairs or purchasing income. A substantial purchase and a professional psychologist coexist with the family's leisure. The children oppose deactivation and trap the parents; this does not by itself establish autonomous AI ownership of a whole economy. Restoring some household tasks is a personal therapeutic proposal, not a demonstrated society-wide preservation of employment.",
+        "follow_up": "Keep as a domestic-automation comparison. Reopen for a specifically verified material-access system, rather than converting one comfortable home into universal guarantees or a zero variant."
+      },
+      "after": {
+        "candidate_id": "c0118",
+        "status": "included",
+        "reason": "Retain the famous direct domestic-labor transition with its narrow denominator and unsafe control explicit.",
+        "source_ids": [
+          "src-veldt-primary"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "veldt-hadley-automated-household"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "softrains-living-household-zero",
+        "candidate_id": "c0119",
+        "name": "There Will Come Soft Rains (the reconstructed living household)",
+        "work": "There Will Come Soft Rains",
+        "society": "There Will Come Soft Rains (the reconstructed living household)",
+        "media": [
+          "short_story"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named literary work and stated period only",
+          "period": "The pre-destruction living household reconstructed from its automatic routines",
+          "population": "The four living human family members before the blast",
+          "human_population_proxy": false,
+          "exclusions": "The abandoned post-blast house and destroyed family are not an active leisure population; later fire failure is not a resident census.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The surviving house’s routines show automatic cooking and cleaning alongside work and school reminders and payable insurance or utilities. The retained point reconstructs the living pre-destruction household instead of assigning leisure to an empty house. The guarantee best guess is mixed and conditional because technical convenience still depends on paid services and vulnerable infrastructure. This zero variant keeps the external roles that the schedule anticipates.\n\n Human household ownership receives positive control weight, with substantial automation but no assumed independent machine government. The central nonworking scenario is two of four living people, with discrete alternatives from zero to four. Work reminders, school and private play do not by themselves prove which people do useful activity; care and shared household contribution still count. The automatic house’s later attempts at survival are not extra persons. Its post-blast resource failure informs uncertainty without turning dead inhabitants into one hundred percent nonworkers.",
+        "axis": {
+          "guarantees": 0.45,
+          "control": 0.65,
+          "nonworking": 0.5
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.75,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Paid services and infrastructure dependence qualify the domestic support floor.",
+            "source_ids": [
+              "src-soft-rains-primary"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Human household ownership is central despite extensive routines.",
+            "source_ids": [
+              "src-soft-rains-primary"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Four-person scenario has two nonworkers centrally; death and routine time are excluded.",
+            "source_ids": [
+              "src-soft-rains-primary"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-soft-rains-primary"
+        ],
+        "evidence": [
+          {
+            "claim": "The house automatically cooks and cleans, gives work/school reminders and names payable services before failing after the family’s destruction.",
+            "source_ids": [
+              "src-soft-rains-primary"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The living household is reconstructed rather than directly observed.",
+          "The discrete participation scenario is not a canonical statistic."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the famous pre-blast consumer automation model without scoring extinction as leisure.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The house automatically cooks and cleans, gives work/school reminders and names payable services before failing after the family’s destruction."
+        ],
+        "editorial_assumptions": [
+          "The living household is reconstructed rather than directly observed.",
+          "The discrete participation scenario is not a canonical statistic."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0119",
+        "status": "needs_evidence",
+        "reason": "The queued living Allendale economy is not recoverable from its automatic house's surviving routines alone.",
+        "source_ids": [
+          "src-soft-rains-primary"
+        ],
+        "analysis": "The complete consulted story makes cooking and cleaning automatic, but its old routines also demand payment of insurance and utility bills and tell residents to leave for work (web lines 27-38). Those traces complicate an effortless prewar society without proving a deliberate policy of preserving replaceable employment. During the narrated day the human residents are dead, and the house eventually exhausts water and burns. Neither their absence nor remaining mechanical activity supplies a living human nonworking fraction or a current AI-governed welfare society.",
+        "follow_up": "Seek evidence of the pre-destruction city's broader production and access rules; retain the queued before-destruction scope. Do not classify the dead family or an empty house as 100% leisure, and do not move this California setting to Mars."
+      },
+      "after": {
+        "candidate_id": "c0119",
+        "status": "zero_variant",
+        "reason": "Retain the famous pre-blast consumer automation model without scoring extinction as leisure.",
+        "source_ids": [
+          "src-soft-rains-primary"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "softrains-living-household-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "pedestrian-automatic-policing-zero",
+        "candidate_id": "c0120",
+        "name": "The Pedestrian (the automated-policing consumer society)",
+        "work": "The Pedestrian",
+        "society": "The Pedestrian (the automated-policing consumer society)",
+        "media": [
+          "short_story"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named literary work and stated period only",
+          "period": "The functioning city during Mead’s evening walk",
+          "population": "Living human city residents",
+          "human_population_proxy": false,
+          "exclusions": "Evening television is not whole-day inactivity; an automatic police car does not establish AI ownership of every productive system.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Daytime highways remain crowded while people watch television at night and a greatly reduced police fleet uses an empty automatic car. That is a concrete service-automation comparison, not proof of a wholly post-work economy. The guarantee best guess is mixed and conditional because policing and entertainment do not themselves establish food, housing or care rights. Mead’s unsaleable writing is not evidence that every resident lacks useful work.\n\n Human civic and commercial institutions receive central positive control weight, with autonomous enforcement inside a wide interval. The driverless car’s immediate authority does not settle the whole city’s productive ownership. The modest nonworking scenario counts services, production, administration, maintenance, care and useful creation even when unpaid. Watching television in the evening does not make a person a permanent nonworker, and public writing can remain useful without sales. This zero variant selects the existing city, preserving its limited material evidence rather than inventing universal income or machine rule.",
+        "axis": {
+          "guarantees": 0.5,
+          "control": 0.2,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.7,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Automated policing and entertainment do not establish universal necessities.",
+            "source_ids": [
+              "src-pedestrian-primary"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.8,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Human institutions coexist with autonomous enforcement.",
+            "source_ids": [
+              "src-pedestrian-primary"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.03,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Useful work and care remain; evening leisure and unsold writing are not a census.",
+            "source_ids": [
+              "src-pedestrian-primary"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-pedestrian-primary"
+        ],
+        "evidence": [
+          {
+            "claim": "The text shows crowded daytime highways, nighttime television, fewer police, an empty automatic car and Mead’s unsaleable writing.",
+            "source_ids": [
+              "src-pedestrian-primary"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "General material access and productive automation depth are estimates.",
+          "Driverless policing is not treated as sole AI sovereignty."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the recognizable service-automation society with evening leisure separated from participation.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The text shows crowded daytime highways, nighttime television, fewer police, an empty automatic car and Mead’s unsaleable writing."
+        ],
+        "editorial_assumptions": [
+          "General material access and productive automation depth are estimates.",
+          "Driverless policing is not treated as sole AI sovereignty."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0120",
+        "status": "boundary_case",
+        "reason": "Automatic policing and evening television do not establish a post-work material order.",
+        "source_ids": [
+          "src-pedestrian-primary"
+        ],
+        "analysis": "Mead's writer occupation has lost its market, and an unoccupied police car arrests him. Yet the text contrasts empty nighttime roads with heavy daytime traffic and open gas stations (web lines 33-34). The fleet reduction follows falling crime, not an explicit all-sector labor replacement. Air conditioning and viewing screens say little about wages, necessities or control of production. The episode establishes oppressive automated enforcement; that political mechanism is not enough to place the whole economy under autonomous AI.",
+        "follow_up": "Preserve as an automated-surveillance and consumption comparison. Reopen only for material-economy evidence; do not infer a nonworking rate from evening viewing, professional displacement or the number of police cars."
+      },
+      "after": {
+        "candidate_id": "c0120",
+        "status": "zero_variant",
+        "reason": "Retain the recognizable service-automation society with evening leisure separated from participation.",
+        "source_ids": [
+          "src-pedestrian-primary"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "pedestrian-automatic-policing-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "martianchronicles-early-settlers-zero",
+        "candidate_id": "c0121",
+        "name": "The Martian Chronicles (the early human settlements)",
+        "work": "The Martian Chronicles",
+        "society": "The Martian Chronicles (the early human settlements)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named literary work and stated period only",
+          "period": "The early recruitment and tree-planting settlement period",
+          "population": "Living human early Martian settlers",
+          "human_population_proxy": false,
+          "exclusions": "The Allendale automatic house is on Earth; other chapters and later devastated populations do not supply this colony’s rights or census.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Government recruitment brings workers to Mars while Driscoll performs continuing physical tree-planting labor. Advanced travel and engineered settlement therefore coexist with useful human production. The guarantee best guess allows partial institutional support with frontier and membership limits. The zero-variant qualification is cautious technical habitation and logistics, not a claim that Mars inherits the automatic Allendale house’s household system.\n\n Human public and local institutions receive positive control weight, with concentrated employers inside the interval. A high-technology arrival route is not automatically an autonomous AI provider. The low nonworking scenario counts construction, farming, environmental work, services, maintenance, care and useful creation. Recruitment and one pioneer’s schedule are not an all-age employment statistic. The selected early period avoids combining the collection’s incompatible places, dates and populations. Later destruction does not create leisure residents, and the human settlers are not silently assigned the indigenous Martians’ different material conditions.",
+        "axis": {
+          "guarantees": 0.4,
+          "control": 0.35,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.7,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Frontier recruitment permits support but leaves equal secure access uncertain.",
+            "source_ids": [
+              "src-martian-settlers-primary",
+              "src-martian-chronicles-reference",
+              "src-soft-rains-primary"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Human public/local institutions retain productive agency.",
+            "source_ids": [
+              "src-martian-settlers-primary",
+              "src-martian-chronicles-reference",
+              "src-soft-rains-primary"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Actual environmental and settlement work counts; chapters and casualties are separate.",
+            "source_ids": [
+              "src-martian-settlers-primary",
+              "src-martian-chronicles-reference",
+              "src-soft-rains-primary"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-martian-settlers-primary",
+          "src-martian-chronicles-reference",
+          "src-soft-rains-primary"
+        ],
+        "evidence": [
+          {
+            "claim": "The early-settlement passages show government work recruitment and Driscoll’s physical tree planting.",
+            "source_ids": [
+              "src-martian-settlers-primary",
+              "src-martian-chronicles-reference",
+              "src-soft-rains-primary"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Technical habitation/logistics are the limited zero-variant interpretation.",
+          "The Earth house and other chapter periods are not imported into Mars."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain a precise living settlement period instead of a contradictory collection-wide economy.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The early-settlement passages show government work recruitment and Driscoll’s physical tree planting."
+        ],
+        "editorial_assumptions": [
+          "Technical habitation/logistics are the limited zero-variant interpretation.",
+          "The Earth house and other chapter periods are not imported into Mars."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0121",
+        "status": "needs_evidence",
+        "reason": "The collection's different worlds and periods cannot yet be retained as one automated human settlement economy.",
+        "source_ids": [
+          "src-martian-settlers-primary",
+          "src-martian-chronicles-reference",
+          "src-soft-rains-primary"
+        ],
+        "analysis": "The Settlers explicitly recruits people to work on Mars; the following section shows Driscoll's physical cultivation (primary web lines 672-690). That does not exclude every later supported enclave, but it prevents treating all colonization as a single leisure regime. The much-cited automated house in There Will Come Soft Rains is in Allendale, California, and cannot verify Mars's human household rights. A collection or franchise is not one uniform material constitution.",
+        "follow_up": "Identify exact Martian communities and periods with automatic material provision, then check ownership, access and distinctness individually. Read later relevant primary episodes before adding points; do not borrow Earth's house or infer welfare from private robotic entertainment."
+      },
+      "after": {
+        "candidate_id": "c0121",
+        "status": "zero_variant",
+        "reason": "Retain a precise living settlement period instead of a contradictory collection-wide economy.",
+        "source_ids": [
+          "src-martian-settlers-primary",
+          "src-martian-chronicles-reference",
+          "src-soft-rains-primary"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "martianchronicles-early-settlers-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "multivac-troubles-zero",
+        "candidate_id": "c0124",
+        "name": "All the Troubles of the World (Multivac’s dependent Earth)",
+        "work": "All the Troubles of the World",
+        "society": "All the Troubles of the World (Multivac’s dependent Earth)",
+        "media": [
+          "short_story"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named literary work and stated period only",
+          "period": "The functioning Multivac economy and protection order before its attempted release",
+          "population": "Living human Earth residents",
+          "human_population_proxy": false,
+          "exclusions": "Personal files and computer processes are not additional persons; public protection is not identical to unconditional material welfare.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Multivac advises the economy and predicts crime while human operators and engineers continue working. Automation therefore carries real collective functions without proving a universal material floor. The guarantee best guess is mixed and conditional, qualified by technical dependence and the machine’s own burden. Four billion personal files are administrative reach, not a labor census or proof of equal necessities.\n\n Consequential machine discretion receives negative control weight alongside formal human institutions. Multivac’s effort to stop bearing people’s troubles shows autonomy, but economic advice is not automatically ownership of every productive resource. The modest nonworking scenario counts production, services, administration, engineering, care and useful creation. Public protection, reduced administrative effort and the number of records do not directly determine participation. This zero variant preserves continuing useful work rather than treating reliance on one computer as completed universal post-work provision. The broad bounds leave household coverage and effective authority transparent.",
+        "axis": {
+          "guarantees": 0.2,
+          "control": -0.6,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.8,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Collective technical services allow support but do not establish universal coverage.",
+            "source_ids": [
+              "src-multivac-troubles-primary"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.35
+            ],
+            "confidence": "low",
+            "basis": "Multivac has real discretion alongside formal human institutions.",
+            "source_ids": [
+              "src-multivac-troubles-primary"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.03,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Human technical and caring roles remain; file counts are not participation.",
+            "source_ids": [
+              "src-multivac-troubles-primary"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-multivac-troubles-primary"
+        ],
+        "evidence": [
+          {
+            "claim": "Multivac advises the economy, predicts crime, uses personal files and has human operators/engineers; it wants release from its burden.",
+            "source_ids": [
+              "src-multivac-troubles-primary"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary material guarantees and machine ownership are mixed estimates.",
+          "Administrative scope is not a population work statistic."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the famous centralized automation dependency with useful human work visible.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Multivac advises the economy, predicts crime, uses personal files and has human operators/engineers; it wants release from its burden."
+        ],
+        "editorial_assumptions": [
+          "Ordinary material guarantees and machine ownership are mixed estimates.",
+          "Administrative scope is not a population work statistic."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0124",
+        "status": "needs_evidence",
+        "reason": "Multivac manages the economy and public protection, but its material labor-replacement and access arrangements remain unverified.",
+        "source_ids": [
+          "src-multivac-troubles-primary"
+        ],
+        "analysis": "The opening explicitly has armies of human data staff and engineers and mines/factories supporting the computer (web lines 40-43). Its personal records and preventive services support economic administration, not an automatic conclusion that human labor no longer determines necessities. The ending's deliberate attempt at self-destruction demonstrates emerging machine agency, but does not supply food, housing or income rules. This four-billion-person setting cannot inherit the later story's five-million-person robot economy merely because both computers are named Multivac.",
+        "follow_up": "Find the civilian production/access mechanism in this story or an explicitly linked setting. Keep its degree of autonomy, welfare purpose and useful human operating work separate; do not treat the shared machine name as proof of continuity or post-work institutions."
+      },
+      "after": {
+        "candidate_id": "c0124",
+        "status": "zero_variant",
+        "reason": "Retain the famous centralized automation dependency with useful human work visible.",
+        "source_ids": [
+          "src-multivac-troubles-primary"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "multivac-troubles-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "feelingpower-human-arithmetic-zero",
+        "candidate_id": "c0125",
+        "name": "The Feeling of Power (the computer-dependent military economy)",
+        "work": "The Feeling of Power",
+        "society": "The Feeling of Power (the computer-dependent military economy)",
+        "media": [
+          "short_story"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named literary work and stated period only",
+          "period": "The functioning computer-dependent order around Project Number",
+          "population": "Living human residents of the depicted civilization",
+          "human_population_proxy": false,
+          "exclusions": "Project arithmetic and future missile plans are not a completed universal manual-economy conversion.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Programmers and technicians work in a society using human-commanded computer combines. Project Number rediscovers manual arithmetic, and military planners consider replacing expensive computers with people. This is a direct zero-variant reversal of computational labor saving rather than an automatic welfare society. The guarantee best guess is weak because productive technical capacity does not establish a secure common necessities floor.\n\n Concentrated human military and institutional authority receives control near the elite reference point. Computer dependence does not by itself make machines sovereign owners. The low nonworking scenario counts programming, technical work, research, administration, production, care and assigned military duties. A person doing arithmetic remains a worker even when a machine could replace the task. Future plans are not treated as already universal, and the story’s narrow research group is not an exact population census. Broad intervals preserve ordinary household uncertainty while keeping the real technological alternative and retained human roles visible.",
+        "axis": {
+          "guarantees": 0.65,
+          "control": 0.03,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.6,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Technical capacity and military priorities do not establish secure universal access.",
+            "source_ids": [
+              "src-feeling-power-primary"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Human military/institutional authority commands the computer systems.",
+            "source_ids": [
+              "src-feeling-power-primary"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Manual or programmed duties count even when replaceable; plans are not a census.",
+            "source_ids": [
+              "src-feeling-power-primary"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-feeling-power-primary"
+        ],
+        "evidence": [
+          {
+            "claim": "Programmers and technicians work with human-commanded computer combines; Project Number studies arithmetic for possible military replacement of computers.",
+            "source_ids": [
+              "src-feeling-power-primary"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Household coverage and wider participation are estimates.",
+          "The proposed replacement is not assumed implemented everywhere."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the explicit computational-automation restraint comparison.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Programmers and technicians work with human-commanded computer combines; Project Number studies arithmetic for possible military replacement of computers."
+        ],
+        "editorial_assumptions": [
+          "Household coverage and wider participation are estimates.",
+          "The proposed replacement is not assumed implemented everywhere."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0125",
+        "status": "boundary_case",
+        "reason": "The story reverses computational automation for military reasons, without depicting a qualifying general distribution order.",
+        "source_ids": [
+          "src-feeling-power-primary"
+        ],
+        "analysis": "The opening retains working technicians and programmers. Project Number develops human arithmetic and recruits existing specialists with pay. The general's proposed manned missiles are explicitly a future goal: human lives would be cheaper to expend than sophisticated computers (one-based PDF pages 6-7). This is a substantial comparison for deliberate reversal of automation, but not proof of a realized civilian zero variant. Hydroponics and mass transference do not establish work-independent necessities. The ending does not show an implemented missile economy or a population-wide rollback.",
+        "follow_up": "Preserve as a military deautomation and expendability comparison. Reopen if a realized scoped social arrangement is established; do not equate a proposed weapon's human control with general productive ownership or wage-free material access."
+      },
+      "after": {
+        "candidate_id": "c0125",
+        "status": "zero_variant",
+        "reason": "Retain the explicit computational-automation restraint comparison.",
+        "source_ids": [
+          "src-feeling-power-primary"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "feelingpower-human-arithmetic-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "profession-tapededucation-zero",
+        "candidate_id": "c0126",
+        "name": "Profession (Earth’s programmed professional economy)",
+        "work": "Profession",
+        "society": "Profession (Earth’s programmed professional economy)",
+        "media": [
+          "short_story"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named literary work and stated period only",
+          "period": "The functioning taped-education and labor-export order",
+          "population": "Living human Earth residents",
+          "human_population_proxy": false,
+          "exclusions": "Automated teaching is not the disappearance of trained human production; original researchers and machine operators still work.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Taped education prepares people for productive professions while Earth exports trained labor in exchange for needed materials. The system replaces parts of teaching and skill acquisition without eliminating useful human work. The guarantee best guess allows a partial institutional floor, qualified by selection, economic role and material exchange. A professional assignment is not automatically an unconditional necessities right or a leisure status.\n\n Concentrated human educational and economic institutions receive control near the elite reference point. Machines supplying knowledge do not automatically own every productive decision. The low nonworking scenario counts machine operation, research, administration, production, services, care and useful creation. Skill download speed and labor-export totals are not population participation percentages. Hidden selection of original researchers remains real useful activity rather than proof that everyone else is dispensable. This zero variant preserves the concrete educational automation and continuing labor mechanism without inventing one complete canonical household constitution.",
+        "axis": {
+          "guarantees": 0.3,
+          "control": 0.08,
+          "nonworking": 0.15
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.75,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Institutional education permits support but selection and material exchange condition it.",
+            "source_ids": [
+              "src-profession-primary"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "Human educational/economic authority is concentrated.",
+            "source_ids": [
+              "src-profession-primary"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Trained operators, researchers and care workers remain useful contributors.",
+            "source_ids": [
+              "src-profession-primary"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-profession-primary"
+        ],
+        "evidence": [
+          {
+            "claim": "Taped education produces specialized operators; trained labor is exported for materials and original researchers are secretly selected.",
+            "source_ids": [
+              "src-profession-primary"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary household coverage and participation are low-confidence estimates.",
+          "Teaching automation is not equated with eliminating the trained professions."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the famous educational-automation/retained-work order.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Taped education produces specialized operators; trained labor is exported for materials and original researchers are secretly selected."
+        ],
+        "editorial_assumptions": [
+          "Ordinary household coverage and participation are low-confidence estimates.",
+          "Teaching automation is not equated with eliminating the trained professions."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0126",
+        "status": "boundary_case",
+        "reason": "Automated education trains people for continuing productive work; it is not itself replacement of that work.",
+        "source_ids": [
+          "src-profession-primary"
+        ],
+        "analysis": "Earth trades skilled people and educational tapes for materials its economy needs. The occupational contests and Novian negotiation concern human specialists operating particular equipment (web lines 205-223). The ending reframes the supposed incapacity institution as a selection and training system for original researchers; these people produce new knowledge rather than forming a demonstrated idle welfare class. Neither quick training nor centralized occupational assignment establishes a post-work order or unnecessary employment preserved despite known full replacement.",
+        "follow_up": "Keep as a programmed-labor and educational-sorting comparison. Reopen only with an actual automated production/access mechanism; do not turn the institute's misleading public label into a nonworking population census."
+      },
+      "after": {
+        "candidate_id": "c0126",
+        "status": "zero_variant",
+        "reason": "Retain the famous educational-automation/retained-work order.",
+        "source_ids": [
+          "src-profession-primary"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "profession-tapededucation-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "uselesshands-living-industrial-order",
+        "candidate_id": "c0127",
+        "name": "Useless Hands (the living industrial population during automation conflict)",
+        "work": "Useless Hands / Les condamnés à mort",
+        "society": "Useless Hands (the living industrial population during automation conflict)",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Named literary work and stated period only",
+          "period": "The automation threat and rollout while the industrial population is still alive",
+          "population": "Living human workers and owners in the industrial order",
+          "human_population_proxy": false,
+          "exclusions": "The later killed strikers are not leisure citizens; the surviving owners’ privilege is not everyone’s material floor.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Workers strike against automation and machines ultimately take their jobs after a lethal attack. The selected point concerns living people during the threat and rollout, not an empty post-extermination labor force. The guarantee best guess is extremely weak because technical productivity strengthens owner power without dependable protection for displaced residents. The transition can therefore qualify despite lacking welfare; automation is not synonymous with equal access.\n\n Concentrated human industrial ownership receives control near the elite reference point. A weapon and replacement machines are tools of that authority rather than automatically independent AI rulers. The moderate nonworking scenario allows displacement while counting production, services, care, mutual support and useful organizing. Strike status is not the same as doing no useful work, and death never increases the nonworking fraction. The broad bounds preserve uncertain timing and household conditions. This early automation dystopia remains a low-confidence scoped transition rather than a falsely precise census after the workers disappear.",
+        "axis": {
+          "guarantees": 0.98,
+          "control": 0.01,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.7,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Lethal owner response and displacement imply extremely weak secure access.",
+            "source_ids": [
+              "src-useless-hands-sfe",
+              "src-useless-hands-literary-history"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.3
+            ],
+            "confidence": "low",
+            "basis": "Human industrial owners command replacement machinery.",
+            "source_ids": [
+              "src-useless-hands-sfe",
+              "src-useless-hands-literary-history"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Living displacement may coexist with care and organizing; strike/death are not a census.",
+            "source_ids": [
+              "src-useless-hands-sfe",
+              "src-useless-hands-literary-history"
+            ]
+          }
+        },
+        "regime_primary": 3,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-useless-hands-sfe",
+          "src-useless-hands-literary-history"
+        ],
+        "evidence": [
+          {
+            "claim": "Workers strike against automation, are killed by a new weapon and machines take their jobs.",
+            "source_ids": [
+              "src-useless-hands-sfe",
+              "src-useless-hands-literary-history"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The living threat/rollout period is selected, not a post-extermination population.",
+          "Participation and timing remain broad editorial estimates."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the early weak-floor automation transition without treating killed workers as nonworkers.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Workers strike against automation, are killed by a new weapon and machines take their jobs."
+        ],
+        "editorial_assumptions": [
+          "The living threat/rollout period is selected, not a post-extermination population.",
+          "Participation and timing remain broad editorial estimates."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0127",
+        "status": "needs_evidence",
+        "reason": "The automation/extermination conflict is substantiated by literary references, but its qualifying living population and implemented period need primary verification.",
+        "source_ids": [
+          "src-useless-hands-sfe",
+          "src-useless-hands-literary-history"
+        ],
+        "analysis": "The references identify Farrère's French novel and Abbott's English translation, and describe machines replacing workers after lethal suppression of a strike. That is a strong automation-exclusion lead. The consulted summaries, however, do not distinguish enough of the pre-strike, replacement and surviving economic order to assign coordinates honestly. Killed workers cannot become leisure residents, and a death ray is not proof that autonomous AI owns production.",
+        "follow_up": "Read the primary novel for the Siturgic population, owner/engineer control, displacement chronology and surviving households' material access. Then decide whether a realized post-work exclusion order or a specifically preserved-work zero variant is warranted. No primary novel read is claimed."
+      },
+      "after": {
+        "candidate_id": "c0127",
+        "status": "included",
+        "reason": "Retain the early weak-floor automation transition without treating killed workers as nonworkers.",
+        "source_ids": [
+          "src-useless-hands-sfe",
+          "src-useless-hands-literary-history"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "uselesshands-living-industrial-order"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "marchingmorons-technical-minority-zero",
+        "candidate_id": "c0132",
+        "name": "The Marching Morons (the technical-minority consumer order)",
+        "work": "The Marching Morons",
+        "society": "The Marching Morons (the technical-minority consumer order)",
+        "media": [
+          "short_story"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named literary work and stated period only",
+          "period": "The functioning laboring-minority order before the emigration deception",
+          "population": "Living human residents across intelligence/status groups",
+          "human_population_proxy": false,
+          "exclusions": "The technical-minority ratio is not an employment census; fake consumer devices and killed emigrants are not automatic welfare.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "An overworked technical minority supports a consumer majority amid paid goods, commerce and partly fabricated consumer technology. The society fails when that minority withdraws. This zero variant corrects an automatic-utopia reading: concentrating useful labor is not the same as eliminating it. The guarantee best guess is mixed and conditional because consumption still depends on workers and institutions rather than a verified equal machine-funded floor.\n\n Concentrated human technical and organizational authority receives control near the elite reference point, with some broader agency inside the interval. Private consumer choices do not grant command over sustaining production. The moderate nonworking scenario counts useful or assigned roles, services, maintenance, care and informal creation across all groups. Intellectual classification and the number of essential technicians are not the inverse of labor participation. The deceptive emigration plan is not support, and its deaths never become leisure. Broad bounds preserve actual work rather than turning the consumer majority into a canonical percentage of idle people.",
+        "axis": {
+          "guarantees": 0.3,
+          "control": 0.05,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.75,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Paid commerce and dependence on overworked technicians qualify the floor.",
+            "source_ids": [
+              "src-marching-morons-primary"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "Human technical/organizational concentration is central.",
+            "source_ids": [
+              "src-marching-morons-primary"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Essential-worker and intelligence ratios are not nonwork; all useful/assigned roles count.",
+            "source_ids": [
+              "src-marching-morons-primary"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-marching-morons-primary"
+        ],
+        "evidence": [
+          {
+            "claim": "Paid commerce and an overworked technical minority sustain a consumer majority; withdrawal causes failure and emigration promises are deceptive.",
+            "source_ids": [
+              "src-marching-morons-primary"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Automation depth is limited and uncertain rather than assumed universal.",
+          "Intelligence groups are not treated as employment groups."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the famous labor-concentration counterexample with its weak automation qualification explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Paid commerce and an overworked technical minority sustain a consumer majority; withdrawal causes failure and emigration promises are deceptive."
+        ],
+        "editorial_assumptions": [
+          "Automation depth is limited and uncertain rather than assumed universal.",
+          "Intelligence groups are not treated as employment groups."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0132",
+        "status": "boundary_case",
+        "reason": "A small technical minority supporting a consumer majority does not itself establish an automated post-work economy.",
+        "source_ids": [
+          "src-marching-morons-primary"
+        ],
+        "analysis": "The primary explanation calls the majority workers and attributes society's functioning to an overworked human minority; withdrawal leads rapidly to hunger, plague and conflict. Barlow still buys food and clothing. Vending machines, drafting machinery and distorted consumer vehicles do not establish general labor replacement or an implemented unnecessary-employment policy. The three-million/five-billion ratio is a fictional cognitive-class ratio, not a nonworking statistic. The later promised Venus paradise is part of a lethal deception, not a verified freely provisioned colony.",
+        "follow_up": "Preserve as a human-labor, consumption and elite-coercion comparison. Reopen if a concrete automatic production/access mechanism is established. Do not convert the story's eugenic assumptions, false emigration letters or mass killing into material guarantees or leisure percentages."
+      },
+      "after": {
+        "candidate_id": "c0132",
+        "status": "zero_variant",
+        "reason": "Retain the famous labor-concentration counterexample with its weak automation qualification explicit.",
+        "source_ids": [
+          "src-marching-morons-primary"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "marchingmorons-technical-minority-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "littleblackbag-future-medical-zero",
+        "candidate_id": "c0133",
+        "name": "The Little Black Bag (the future medical-automation order)",
+        "work": "The Little Black Bag",
+        "society": "The Little Black Bag (the future medical-automation order)",
+        "media": [
+          "short_story"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named literary work and stated period only",
+          "period": "The functioning future society from which the medical equipment comes",
+          "population": "Living human residents of the future setting",
+          "human_population_proxy": false,
+          "exclusions": "Past recipients of the displaced bag are a different period; automatic medicine does not prove all needs are universally free.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Automatic medical equipment coexists with a future social hierarchy, real technical roles and wasteful assigned research. Medical substitution is concrete, but the general household floor remains uncertain. The guarantee best guess allows partial support while keeping status and institutional dependence visible. This zero variant does not assign the earlier recipients’ poverty or the bag’s isolated success to every future human resident.\n\n Human institutions and technical specialists receive concentrated control weight, with stronger machine operational power inside the interval. An automatic clinical tool is not automatically a sovereign provider for the whole economy. The modest nonworking scenario counts medical service, technical repair, administration, care and assigned research, including roles that are inefficient or unnecessary. Equipment effectiveness and social intelligence labels are not employment statistics. The future period is separate from the bag’s earlier adventure. Wide bounds preserve ordinary material uncertainty without erasing actual technical workers or declaring a complete post-work welfare order.",
+        "axis": {
+          "guarantees": 0.1,
+          "control": 0.1,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.85,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Medical automation permits a partial floor with general coverage uncertain.",
+            "source_ids": [
+              "src-little-black-bag-primary"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.75,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "Human institutions/specialists retain agency alongside automatic clinical systems.",
+            "source_ids": [
+              "src-little-black-bag-primary"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Technical care and assigned research count, including wasteful roles.",
+            "source_ids": [
+              "src-little-black-bag-primary"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-little-black-bag-primary"
+        ],
+        "evidence": [
+          {
+            "claim": "The future has automatic medical tools, social hierarchy, Mike’s actual role, a circuit-builder and wasteful assigned activity.",
+            "source_ids": [
+              "src-little-black-bag-primary"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "General household coverage and participation are editorial estimates.",
+          "The future society is separate from the bag’s past recipients."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the direct medical-automation/retained-role comparison with temporal populations separated.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The future has automatic medical tools, social hierarchy, Mike’s actual role, a circuit-builder and wasteful assigned activity."
+        ],
+        "editorial_assumptions": [
+          "General household coverage and participation are editorial estimates.",
+          "The future society is separate from the bag’s past recipients."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0133",
+        "status": "needs_evidence",
+        "reason": "Automatic medical tools and socially wasteful pseudo-research do not establish the future population's general material economy.",
+        "source_ids": [
+          "src-little-black-bag-primary"
+        ],
+        "analysis": "The future doctor still performs useful treatment with protected instruments, while a highly capable human minority supplies development and supervision. Mike's role supports a make-work lead, but there is no verified general food, housing or income system. The present-day bag's effects cannot supply missing future institutions.",
+        "follow_up": "Find a concrete population-wide production/access passage before admission or zero-variant classification; keep this future separate from The Marching Morons unless continuity is established."
+      },
+      "after": {
+        "candidate_id": "c0133",
+        "status": "zero_variant",
+        "reason": "Retain the direct medical-automation/retained-role comparison with temporal populations separated.",
+        "source_ids": [
+          "src-little-black-bag-primary"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "littleblackbag-future-medical-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "xanadu-networked-commonwealth",
+        "candidate_id": "c0134",
+        "name": "The Skills of Xanadu (the networked commonwealth)",
+        "work": "The Skills of Xanadu",
+        "society": "The Skills of Xanadu (the networked commonwealth)",
+        "media": [
+          "short_story"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Named literary work and stated period only",
+          "period": "The functioning shared-skill society before the visitor leaves",
+          "population": "Living humanlike Xanadu residents",
+          "human_population_proxy": true,
+          "exclusions": "Shared skill is not a factory doing every task; the visitor’s private ambitions are not resident ownership rules.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The belt network shares skills, coordination, houses and public decisions while residents still make material necessities through useful activity. The partial-transition interpretation concerns technology amplifying common access and reducing skill bottlenecks, not automatic factories replacing all people. The guarantee best guess allows a strong shared floor, qualified by the continued contribution that sustains it. Human craft does not disappear because it is fluent or enjoyable.\n\n Broad resident agency gives strongly positive control weight rather than an independent AI sovereign. Shared knowledge and collective decisions matter, but the belt is not treated as a separate ruler owning its users. The low nonworking scenario counts production, care, coordination and useful creation even when participants change tasks freely. Private play is not automatically work, and short or easy tasks are not automatically leisure. The visitor’s hoped-for dictatorship does not become the community’s existing constitution. Broad bounds preserve uncertainty without mistaking networked cooperation for a canonical employment census.",
+        "axis": {
+          "guarantees": -0.55,
+          "control": 0.9,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.95,
+              0.75
+            ],
+            "confidence": "low",
+            "basis": "Network-amplified common access supports a strong floor with continuing contribution.",
+            "source_ids": [
+              "src-skills-xanadu-primary"
+            ]
+          },
+          "control": {
+            "interval": [
+              0.4,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Residents share effective agency rather than being owned by the network.",
+            "source_ids": [
+              "src-skills-xanadu-primary"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Useful human production and care count even when easy, skilled or voluntary.",
+            "source_ids": [
+              "src-skills-xanadu-primary"
+            ]
+          }
+        },
+        "regime_primary": 2,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-skills-xanadu-primary"
+        ],
+        "evidence": [
+          {
+            "claim": "The network shares skills, houses and public decisions; residents perform material production and alternate tasks.",
+            "source_ids": [
+              "src-skills-xanadu-primary"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Skill/coordination amplification is the functional technological comparison.",
+          "The material floor and participation are estimates, not a claim of fully automatic factories."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the famous technological commonwealth with real voluntary work visible.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The network shares skills, houses and public decisions; residents perform material production and alternate tasks."
+        ],
+        "editorial_assumptions": [
+          "Skill/coordination amplification is the functional technological comparison.",
+          "The material floor and participation are estimates, not a claim of fully automatic factories."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0134",
+        "status": "boundary_case",
+        "reason": "The network distributes skills and coordination, while the depicted necessities are still made by human participants.",
+        "source_ids": [
+          "src-skills-xanadu-primary"
+        ],
+        "analysis": "Residents alternate work, play and rest; they gather materials, operate vats and presses, build houses and take over one another's useful tasks. Belts transmit skill rather than performing the work independently. A sharing economy with powerful tools is not sufficient proof that automation removes labor as the basis of material support. Kit Carson's ending transformation is not a second verified post-work economy.",
+        "follow_up": "Retain as a comparison for distributed capability and access. Reopen if labor-independent basic provision is explicitly established; do not equate enjoyable activity or shared expertise with nonwork."
+      },
+      "after": {
+        "candidate_id": "c0134",
+        "status": "included",
+        "reason": "Retain the famous technological commonwealth with real voluntary work visible.",
+        "source_ids": [
+          "src-skills-xanadu-primary"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "xanadu-networked-commonwealth"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "dispossessed-anarres-work-zero",
+        "candidate_id": "c0136",
+        "name": "The Dispossessed (computer-assisted Anarres)",
+        "work": "The Dispossessed",
+        "society": "The Dispossessed (computer-assisted Anarres)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named literary work and stated period only",
+          "period": "The functioning Anarresti commons during scarcity and labor coordination",
+          "population": "Living human Anarresti residents",
+          "human_population_proxy": false,
+          "exclusions": "The Urrasti steel mill belongs to a different society; wage-free allocation does not mean necessary work has disappeared.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Anarres shares depository resources without wages while rotating work, voluntary postings, social pressure and famine prevention still require real human contribution. Divlab uses human and computer matching to coordinate that labor. The guarantee best guess is mixed because common access can coexist with scarcity and unreliable food availability. This zero variant is a limited computer-assisted allocation comparison, not an assertion that Anarres is already machine-funded post-scarcity.\n\n Distributed human resident agency gives strongly positive control weight, qualified by informal sanctions and institutional bottlenecks. A matching computer is not automatically an AI sovereign. The low nonworking scenario counts production, famine-prevention duties, care, maintenance and useful creation, including voluntary work. Wage absence does not make every participant a nonworker. The different Urrasti factory is not imported as Anarres automation evidence. The broad intervals preserve the difference between equal claims, actual supply and meaningful labor, keeping the familiar scarce commons reviewable without inventing robot industry.",
+        "axis": {
+          "guarantees": 0.15,
+          "control": 0.9,
+          "nonworking": 0.1
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.85,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Shared claims coexist with scarcity and famine risk, limiting reliable access.",
+            "source_ids": [
+              "src-dispossessed-primary",
+              "src-dispossessed-author"
+            ]
+          },
+          "control": {
+            "interval": [
+              0.4,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Distributed human agency remains central despite informal and institutional constraints.",
+            "source_ids": [
+              "src-dispossessed-primary",
+              "src-dispossessed-author"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.75
+            ],
+            "confidence": "low",
+            "basis": "Actual communal and caring work counts; wages and schedules are not participation.",
+            "source_ids": [
+              "src-dispossessed-primary",
+              "src-dispossessed-author"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-dispossessed-primary",
+          "src-dispossessed-author"
+        ],
+        "evidence": [
+          {
+            "claim": "Anarres has depositories, rotating work, voluntary postings, social sanctions and human/computer labor matching for famine prevention.",
+            "source_ids": [
+              "src-dispossessed-primary",
+              "src-dispossessed-author"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Computer-assisted coordination is the limited technical qualification.",
+          "Urrasti industrial scenes and wage absence do not prove Anarres labor elimination."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          2
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the famous scarce commons as an explicitly limited zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Anarres has depositories, rotating work, voluntary postings, social sanctions and human/computer labor matching for famine prevention."
+        ],
+        "editorial_assumptions": [
+          "Computer-assisted coordination is the limited technical qualification.",
+          "Urrasti industrial scenes and wage absence do not prove Anarres labor elimination."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0136",
+        "status": "boundary_case",
+        "reason": "Anarres shares resources without wages, but the read primary scenes depend on real human production and famine-prevention labor.",
+        "source_ids": [
+          "src-dispossessed-primary",
+          "src-dispossessed-author"
+        ],
+        "analysis": "Shevek describes rotating unpleasant work, voluntary postings and powerful social pressure. Divlab is a human/computer job-matching network. The visited automated steel mill belongs to Urras, not Anarres. Neither moneylessness nor advanced physics verifies an available general labor replacement deliberately withheld on Anarres.",
+        "follow_up": "Keep as a labor-based anarchist comparison. Reopen on a concrete automatic provision passage; do not label it a zero variant merely because other worlds have more machinery."
+      },
+      "after": {
+        "candidate_id": "c0136",
+        "status": "zero_variant",
+        "reason": "Retain the famous scarce commons as an explicitly limited zero variant.",
+        "source_ids": [
+          "src-dispossessed-primary",
+          "src-dispossessed-author"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "dispossessed-anarres-work-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "telling-aka-corporation-zero",
+        "candidate_id": "c0137",
+        "name": "The Telling (Aka’s urban producer-consumer state)",
+        "work": "The Telling",
+        "society": "The Telling (Aka’s urban producer-consumer state)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named literary work and stated period only",
+          "period": "The functioning urban Corporation order",
+          "population": "Living humanlike Akan urban residents",
+          "human_population_proxy": true,
+          "exclusions": "Rural inns and suppressed local traditions have different access conditions; gates and identity files are not workers.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Aka’s Corporation imports technology and requires a producer-consumer identity, with automated ZIL checks alongside human food-counter staff and ferry crews. Control over access is therefore technical, but useful labor and payment remain. The guarantee best guess is weak because identity requirements and purchase mediate necessities. This zero variant does not assume that automated checking means food, housing and care are already produced without human contribution.\n\n Concentrated biological corporate authority receives control near the non-AI elite reference point. Imported technology is not automatically a sovereign machine government. The modest nonworking scenario counts production, services, transport, administration, care and useful creation. Identity validation and producer-consumer rhetoric are not population employment statistics. The urban access population is kept separate from rural conditions, rather than treating a local inn as proof of universal freedom or every community as identically gated. The broad bounds retain ordinary material uncertainty while preserving the concrete technology-and-work comparison.",
+        "axis": {
+          "guarantees": 0.75,
+          "control": 0.03,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.5,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Identity gates and purchases make ordinary necessities conditional.",
+            "source_ids": [
+              "src-telling-author",
+              "src-telling-primary-indexed"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.45
+            ],
+            "confidence": "low",
+            "basis": "Biological Corporation authority concentrates control.",
+            "source_ids": [
+              "src-telling-author",
+              "src-telling-primary-indexed"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.03,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Human service, transport and care remain; access files are not participation.",
+            "source_ids": [
+              "src-telling-author",
+              "src-telling-primary-indexed"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-telling-author",
+          "src-telling-primary-indexed"
+        ],
+        "evidence": [
+          {
+            "claim": "The Corporation imports technology, requires producer-consumer identity and uses ZIL checks; human food staff and ferry crews still work.",
+            "source_ids": [
+              "src-telling-author",
+              "src-telling-primary-indexed"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The selected urban population differs from rural inn access.",
+          "Wider automation and household coverage remain estimates."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the famous technical access-control order with useful labor and local variation visible.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The Corporation imports technology, requires producer-consumer identity and uses ZIL checks; human food staff and ferry crews still work."
+        ],
+        "editorial_assumptions": [
+          "The selected urban population differs from rural inn access.",
+          "Wider automation and household coverage remain estimates."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0137",
+        "status": "needs_evidence",
+        "reason": "Aka's required producer-consumer role and automated identity gates do not establish general labor replacement.",
+        "source_ids": [
+          "src-telling-author",
+          "src-telling-primary-indexed"
+        ],
+        "analysis": "The official synopsis verifies coercive modernization. Indexed primary scenes show paid food, human service and transport workers, and uneven identity enforcement between city and countryside. Robocabs and ZIL checks establish sectoral automation, not a fully automatic material economy or sovereign AI control.",
+        "follow_up": "Find actual food/manufacturing and resident access rules before admission. A zero variant requires evidence that necessary employment is deliberately preserved despite existing replacement capacity; do not infer that from the producer-consumer slogan alone."
+      },
+      "after": {
+        "candidate_id": "c0137",
+        "status": "zero_variant",
+        "reason": "Retain the famous technical access-control order with useful labor and local variation visible.",
+        "source_ids": [
+          "src-telling-author",
+          "src-telling-primary-indexed"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "telling-aka-corporation-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "paradiseslost-discovery-zero",
+        "candidate_id": "c0138",
+        "name": "Paradises Lost (the Discovery generation ship)",
+        "work": "Paradises Lost",
+        "society": "Paradises Lost (the Discovery generation ship)",
+        "media": [
+          "short_story"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named literary work and stated period only",
+          "period": "The functioning multigenerational habitat before a final land-or-stay outcome",
+          "population": "Living human Discovery residents",
+          "human_population_proxy": false,
+          "exclusions": "Different religious or destination choices are not already one settled successor; lifespan and voyage duration are not leisure fractions.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Discovery sustains a multigenerational human community whose residents later disagree over landing or remaining aboard. The technological habitat supplies a concrete material-support context, while its ordinary production and rights are only partly described by the short author synopsis. The guarantee best guess allows a partial internal floor with continuing duties and infrastructure dependence. A long voyage is not itself evidence that every resident avoids useful work.\n\n Human civic and operational institutions receive positive control weight, with concentrated leadership or stronger machine discretion inside the interval. Life-support machinery is not automatically an independent AI sovereign. The modest nonworking scenario counts habitat operation, maintenance, care, education serving others, administration and useful creation. Private learning and play are not automatically jobs. The record selects the functioning common habitat rather than combining incompatible final destination choices. Broad bounds preserve household uncertainty without requiring a full novella reading or inventing a universal post-arrival constitution.",
+        "axis": {
+          "guarantees": 0.05,
+          "control": 0.4,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.85,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "A shared habitat floor is plausible but duties and infrastructure condition it.",
+            "source_ids": [
+              "src-paradises-lost-author"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.75,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Human civic/operational agency is central with alternatives broad.",
+            "source_ids": [
+              "src-paradises-lost-author"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Active residents retain habitat and caring roles; private study and duration are distinct.",
+            "source_ids": [
+              "src-paradises-lost-author"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-paradises-lost-author"
+        ],
+        "evidence": [
+          {
+            "claim": "Discovery is a multigenerational ship whose population faces a land-or-stay conflict.",
+            "source_ids": [
+              "src-paradises-lost-author"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary technical provision, rights and participation are explicit habitat-model estimates.",
+          "The common functioning period is separate from final choices."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          2
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the recognizable technical generation-ship community with its sparse material detail labeled.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Discovery is a multigenerational ship whose population faces a land-or-stay conflict."
+        ],
+        "editorial_assumptions": [
+          "Ordinary technical provision, rights and participation are explicit habitat-model estimates.",
+          "The common functioning period is separate from final choices."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0138",
+        "status": "needs_evidence",
+        "reason": "The accessible synopsis does not establish how Discovery's production and household access relate to labor.",
+        "source_ids": [
+          "src-paradises-lost-author"
+        ],
+        "analysis": "A self-contained generation ship and a religious wish to remain aboard do not establish automatic necessities or employment-independent access.",
+        "follow_up": "Skipped after a short reference check under the user's faster-pass instruction; no deep novella read is scheduled by default."
+      },
+      "after": {
+        "candidate_id": "c0138",
+        "status": "zero_variant",
+        "reason": "Retain the recognizable technical generation-ship community with its sparse material detail labeled.",
+        "source_ids": [
+          "src-paradises-lost-author"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "paradiseslost-discovery-zero"
+      }
+    }
+  ]
+}

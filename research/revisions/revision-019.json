@@ -1,0 +1,2908 @@
+{
+  "revision_id": "revision-019",
+  "revised_on": "2026-10-17",
+  "reason": "Nineteen film/Doctor Who societies retained with explicit scope and best guesses. The Ark’s realized human–Monoid reversal is split with rationale; biological controllers and actual assigned duties remain visible. Metamorphis predation and Nerva preservation/rescue receive completed outside-target comparisons.",
+  "changes": [
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-paradise-architect-control",
+        "title": "Paradise Towers: architect and building automation",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/wiki/Paradise_Towers",
+        "kind": "secondary_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed plot passages read",
+        "read_scope": "Indexed plot: the surviving architect Kroagnon uses cleaners and takes the Chief Caretaker’s body; residents and caretakers face murderous automation.",
+        "limitations": "The architect’s identity is not treated as an unrelated AI merely because control is postbiological; fan-written prologues are not used."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-longgame-jagrafess-editor",
+        "title": "The Long Game: editorial hierarchy",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/wiki/The_Long_Game",
+        "kind": "secondary_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed premise and plot passages read",
+        "read_scope": "Indexed premise and plot: Satellite 5 broadcasts across the empire; the Editor answers to the biological Jagrafess.",
+        "limitations": "Media control is verified; the empire’s ordinary material economy is inferred separately."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-twostreams-quarantine-care",
+        "title": "The Girl Who Waited: quarantine facility",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/wiki/The_Girl_Who_Waited",
+        "kind": "secondary_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed premise and medical passages read",
+        "read_scope": "Indexed premise: Two Streams serves a quarantined two-hearted native population; Handbot medicine is incompatible with human visitors.",
+        "limitations": "Automated care is verified, not a general planet-wide necessities charter or an assumption that Amy is a typical native patient."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-ark-human-monoid-reversal",
+        "title": "The Ark: human–Monoid reversal",
+        "author": "Doctor Who / BBC Studios",
+        "url": "https://www.doctorwho.tv/stories/the-ark",
+        "kind": "official_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Official story synopsis read",
+        "read_scope": "Official synopsis: humans depart with Monoid servants; centuries later humans are enslaved by Monoids before arrival.",
+        "limitations": "The two periods are distinct; neither biological population is automatically AI, and the final settlement has no verified new economy."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-finetime-wealth-and-duties",
+        "title": "Dot and Bubble: Finetime’s work and privilege",
+        "author": "Space.com",
+        "url": "https://www.space.com/doctor-who-dot-and-bubble-space-slugs-explained",
+        "kind": "secondary_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed work and community passages read",
+        "read_scope": "Indexed explanation: young residents perform two hours of data processing and spend much of life through AI Dot/Bubble interfaces.",
+        "limitations": "Work hours are not a nonworking population fraction; broad material rights and ownership remain uncertain."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-nerva-awake-rescue",
+        "title": "The Ark in Space: preserved population and awake crew",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/wiki/The_Ark_in_Space",
+        "kind": "secondary_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed plot passages read",
+        "read_scope": "Indexed plot: the main population is in suspended animation; awakened crew and visitors carry out urgent repair and defense during the crisis.",
+        "limitations": "Sleep is not leisure and the eventual Earth resettlement is not a demonstrated post-work economic constitution."
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0375",
+        "status": "boundary_case",
+        "reason": "Metamorphis uses captive people as biological resources rather than supporting a human post-work community.",
+        "source_ids": [
+          "src-gandahar-reference"
+        ],
+        "analysis": "Machine servants do not make their controller an AI or their human victims leisured beneficiaries.",
+        "follow_up": "Keep as a predatory-production comparison."
+      },
+      "after": {
+        "candidate_id": "c0375",
+        "status": "boundary_case",
+        "reason": "Completed comparison of a different depicted mechanism; see analysis and explicit population scope.",
+        "source_ids": [
+          "src-gandahar-reference"
+        ],
+        "analysis": "Metamorphis uses machines to capture people and absorb their cells for continued biological survival. The controller is an engineered brain, not automatically an unrelated AI because machine servants obey it. This is a concrete automated predation mechanism, but the captives are consumed rather than maintained as a continuing human recipient community. They do not become people enjoying leisure after their deaths or loss of bodily autonomy.\n\n The comparison scores the active brain’s conditional continuation, concentrated person authority and ongoing direction of the operation as work. Its participation value is a single-person scenario, not a literal human employment percentage or a count of captive bodies. Wide intervals preserve the limited analogy. The case stays outside the target as a predatory individual-maintenance system rather than a post-work social allocation model. It receives a completed analysis without requesting deeper lore reading or treating uncertain food laws as the reason for omission.",
+        "follow_up": "Completed under the current best-guess policy; no deep reading required.",
+        "reassessed_on": "2026-10-17",
+        "current_policy_review": true,
+        "assessment_mode": "best_guess",
+        "comparison_assessment": {
+          "name": "Gandahar (Metamorphis’s predatory maintenance)",
+          "media": [
+            "movie",
+            "cartoon"
+          ],
+          "scope": "The active bioengineered central brain as a comparative person unit; captured humans are victims rather than maintained recipient citizens",
+          "axis": {
+            "guarantees": 0.65,
+            "control": 0,
+            "nonworking": 0
+          },
+          "intervals": {
+            "guarantees": [
+              -0.3,
+              0.98
+            ],
+            "control": [
+              -0.25,
+              0.25
+            ],
+            "nonworking": [
+              0,
+              1
+            ]
+          },
+          "confidence": "low",
+          "canon_facts": [
+            "Metamorphis is an aging engineered brain whose machines obtain captive people for cellular maintenance."
+          ],
+          "editorial_assumptions": [
+            "The axes compare the active brain’s maintenance and authority, not a human welfare population.",
+            "Directing the recurring operation is treated as the one person’s ongoing work; alternative nonwork is binary."
+          ],
+          "source_ids": [
+            "src-gandahar-reference"
+          ],
+          "counted_toward_goal": false
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0421",
+        "status": "boundary_case",
+        "reason": "Nerva preserves a sleeping population rather than establishing an awake post-work society.",
+        "source_ids": [
+          "src-ark-space-official-reference"
+        ],
+        "analysis": "Survival machinery and planned resettlement do not make stasis a leisure census or guarantee a future constitution.",
+        "follow_up": "Keep preservation separate from realized active-person economics."
+      },
+      "after": {
+        "candidate_id": "c0421",
+        "status": "boundary_case",
+        "reason": "Completed comparison of a different depicted mechanism; see analysis and explicit population scope.",
+        "source_ids": [
+          "src-ark-space-official-reference"
+        ],
+        "analysis": "Nerva preserves people in suspended animation, then its awakened crew and visitors face an urgent repair and defense crisis. Preservation is real technological support, but unconscious sleepers do not form an awake leisure population. The active sequence shows necessary work rather than a continuing resident order in which ordinary people have ceased to need roles. The planned resettlement on Earth also does not establish a completed successor economy.\n\n The comparison assigns weak-to-middling conditional support, concentrated mission authority and zero nonworkers centrally among the active crew because recurring repair and defense duties continue. The wide intervals are editorial scenarios, not a ratio of sleepers to workers or an inference from elapsed millennia. This outside-target analysis records an identified preservation-and-rescue mechanism instead of leaving an unresolved lore hold. Dead crew are not leisure citizens, and the small emergency cohort is not used to claim a universal future welfare charter or autonomous AI civilization.",
+        "follow_up": "Completed under the current best-guess policy; no deep reading required.",
+        "reassessed_on": "2026-10-17",
+        "current_policy_review": true,
+        "assessment_mode": "best_guess",
+        "comparison_assessment": {
+          "name": "Doctor Who (Nerva preservation and rescue)",
+          "media": [
+            "tv"
+          ],
+          "scope": "The awake crew during the Nerva emergency, with the main suspended population excluded from participation",
+          "axis": {
+            "guarantees": 0.55,
+            "control": 0.1,
+            "nonworking": 0
+          },
+          "intervals": {
+            "guarantees": [
+              -0.4,
+              0.95
+            ],
+            "control": [
+              -0.5,
+              0.5
+            ],
+            "nonworking": [
+              0,
+              0.5
+            ]
+          },
+          "confidence": "low",
+          "canon_facts": [
+            "The main Nerva population is suspended; awakened crew and visitors perform repair and defense during a crisis."
+          ],
+          "editorial_assumptions": [
+            "The comparison concerns active emergency personnel, not sleeping people.",
+            "Preservation and planned resettlement are not treated as an established awake post-work order."
+          ],
+          "source_ids": [
+            "src-ark-space-official-reference",
+            "src-nerva-awake-rescue"
+          ],
+          "counted_toward_goal": false
+        }
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "alphaville-alpha60-work-zero",
+        "candidate_id": "c0376",
+        "name": "Alphaville (Alpha 60’s city)",
+        "work": "Alphaville",
+        "society": "The controlled city under Alpha 60",
+        "media": [
+          "movie"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named film only",
+          "period": "The functioning city before Caution defeats Alpha 60",
+          "population": "Living human city residents",
+          "human_population_proxy": false,
+          "exclusions": "Visitors, dead residents and the unshown post-collapse order are excluded; thought control is not automatically material provision.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Alpha 60 directs a technologically organized human city and imposes its logic on thought and conduct. The material economy is less explicit than the coercive regime, so the zero-variant admission is a best guess about advanced civic capacity coexisting with continuing human roles. The weak guarantee scenario assumes that ordinary access remains conditional on the controlling order, without claiming that every household is starving or that a full automatic food system is directly shown.\n\n Effective authority lies near independent machine control rather than equal human productive ownership. The low nonworking estimate counts administration, service, policing, useful care and other ongoing roles despite machine direction. Social conformity itself is not treated as a labor census, and an assigned job remains work even when replaceable. Broad intervals preserve uncertainty about household allocation. Caution’s destruction of the regime changes the situation but does not establish a settled successor economy, while those killed by the earlier system never become people enjoying leisure.",
+        "axis": {
+          "guarantees": 0.65,
+          "control": -0.9,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.2,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Conditional access under Alpha 60 is inferred; political repression alone does not establish every household’s food rights.",
+            "source_ids": [
+              "src-alphaville-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              -0.5
+            ],
+            "confidence": "low",
+            "basis": "Alpha 60 exercises independent citywide command, with productive specifics less clear than social authority.",
+            "source_ids": [
+              "src-alphaville-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.7
+            ],
+            "confidence": "low",
+            "basis": "Living all-age human scenario retains assigned service, administration and care; behavior control and deaths do not measure participation.",
+            "source_ids": [
+              "src-alphaville-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-alphaville-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "Alpha 60 imposes computer-directed control over the city’s thought and behavior.",
+            "source_ids": [
+              "src-alphaville-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Advanced civic capacity and retained labor are interpreted as a zero variant.",
+          "The material floor and population participation are inferred rather than canonical statistics."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar computer-governed city with its uncertain material qualification explicitly marked.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Alpha 60 imposes computer-directed control over the city’s thought and behavior."
+        ],
+        "editorial_assumptions": [
+          "Advanced civic capacity and retained labor are interpreted as a zero variant.",
+          "The material floor and population participation are inferred rather than canonical statistics."
+        ]
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "sleeper2173-domestic-robot-zero",
+        "candidate_id": "c0377",
+        "name": "Sleeper (automated consumer police state)",
+        "work": "Sleeper",
+        "society": "The robot-served American consumer order in 2173",
+        "media": [
+          "movie"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named film only",
+          "period": "The established order before the rebel operation changes leadership",
+          "population": "Living humans in the depicted consumer society",
+          "human_population_proxy": false,
+          "exclusions": "Miles’s earlier sleep and temporary disguise do not supply participation; no universal entitlement is inferred from one wealthy household.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Domestic robots and instant household conveniences support consumer life inside a police state. Luna’s purchased servant shows actual substitution in a continuing home, while human political, scientific and service roles persist. The guarantee best guess assumes unequal commercial access rather than universal free provision. A comfortable socialite’s household cannot establish the rights of every resident, and technological amusement is not the same as a secure necessities floor.\n\n Human institutions and privileged owners concentrate authority despite extensive machine assistance. Robot servants do not themselves establish an autonomous AI government. The moderate nonworking scenario allows machine-supported leisure alongside science, administration, care and useful creative activity. Poetry can be work when it is sustained contribution, while private enjoyment is not automatically a job. Broad intervals reflect the limited household and national detail. This zero variant concerns the ongoing consumer order, not Miles’s long cryogenic interval or the future economy after the rebels’ operation.",
+        "axis": {
+          "guarantees": 0.6,
+          "control": 0.15,
+          "nonworking": 0.4
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.25,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Purchased household service suggests unequal access; unknown public support remains possible.",
+            "source_ids": [
+              "src-sleeper-plot"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "Human state institutions and private owners retain command; robots are normally service devices.",
+            "source_ids": [
+              "src-sleeper-plot"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.1,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Living all-age human scenario retains science, administration, care and useful art; a socialite’s leisure and cryogenic time are not a census.",
+            "source_ids": [
+              "src-sleeper-plot"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-sleeper-plot"
+        ],
+        "evidence": [
+          {
+            "claim": "A poet purchases domestic robot service in the depicted police state.",
+            "source_ids": [
+              "src-sleeper-plot"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Household technological conveniences coexist with continuing human activity.",
+            "source_ids": [
+              "src-sleeper-plot"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The wider material order is estimated to retain commercial dependence.",
+          "Population control distribution and participation remain editorial scenarios."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the actual consumer-service substitution as an explicitly uncertain zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "A poet purchases domestic robot service in the depicted police state.",
+          "Household technological conveniences coexist with continuing human activity."
+        ],
+        "editorial_assumptions": [
+          "The wider material order is estimated to retain commercial dependence.",
+          "Population control distribution and participation remain editorial scenarios."
+        ]
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "doctorwho-macra-colony-zero",
+        "candidate_id": "c0409",
+        "name": "Doctor Who (Macra-controlled colony)",
+        "work": "Doctor Who: The Macra Terror",
+        "society": "The Macra-controlled human gas colony",
+        "media": [
+          "tv"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named television story in Doctor Who; no unseen later colony economy",
+          "period": "The established colony before the control system is exposed",
+          "population": "Living human colonists",
+          "human_population_proxy": false,
+          "exclusions": "The biological Macra are controllers, not robot workers or leisure humans; mining remains actual work.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The colony’s humans extract gas while a managed public culture conceals the power directing them. The labor is real resource production, not proven useless ceremony. The zero-variant interpretation is consequently limited: advanced technical organization and control are assumed to offer some burden-reducing capacity while the system retains a dependent workforce. The weak guarantee best guess reflects coercion and the conditional character of support rather than a claim that no food or shelter exists.\n\n The ultimate rulers are biological Macra, mapped near concentrated non-AI authority by analogy. Screens and manipulative interfaces do not make them an artificial intelligence. The low nonworking scenario counts gas extraction, assigned duties, care and other useful work, even when the colony advertises leisure. The broad interval allows dependents and exceptions without converting rituals or employment claims into a census. Exposure of the rulers changes political prospects but does not establish an already automated successor economy with universal guarantees.",
+        "axis": {
+          "guarantees": 0.8,
+          "control": 0,
+          "nonworking": 0.15
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.35,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Coerced resource production suggests a conditional weak floor, with ordinary support still possible.",
+            "source_ids": [
+              "src-macra-terror-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.25
+            ],
+            "confidence": "low",
+            "basis": "Biological Macra dominate through a deceptive interface; control zero is a non-AI ruler analogy.",
+            "source_ids": [
+              "src-macra-terror-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.55
+            ],
+            "confidence": "low",
+            "basis": "Living human all-age scenario retains mining, assigned duties and care; advertised leisure is not participation.",
+            "source_ids": [
+              "src-macra-terror-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-macra-terror-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "Human colonists perform real gas extraction under Macra control.",
+            "source_ids": [
+              "src-macra-terror-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "The rulers are biological creatures rather than the public interface presented to colonists.",
+            "source_ids": [
+              "src-macra-terror-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Some labor-saving capacity is inferred from the technical order, not proof that all mining is dispensable.",
+          "The zero-variant qualification is an explicit interpretive comparison."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the known colony as a low-confidence zero variant while preserving the real labor and biological ruler distinction.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Human colonists perform real gas extraction under Macra control.",
+          "The rulers are biological creatures rather than the public interface presented to colonists."
+        ],
+        "editorial_assumptions": [
+          "Some labor-saving capacity is inferred from the technical order, not proof that all mining is dispensable.",
+          "The zero-variant qualification is an explicit interpretive comparison."
+        ]
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "doctorwho-sunmakers-company-zero",
+        "candidate_id": "c0410",
+        "name": "Doctor Who (Pluto’s Company order)",
+        "work": "Doctor Who: The Sun Makers",
+        "society": "The Company’s energy and labor monopoly on Pluto",
+        "media": [
+          "tv"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named television story in Doctor Who; no unseen later colony economy",
+          "period": "The established Company order before the uprising",
+          "population": "Living human workers and dependents in the settlements",
+          "human_population_proxy": false,
+          "exclusions": "Biological alien and human managers are not automatically AI; actual industrial labor is not called useless.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "An energy monopoly supports Pluto’s settlements while the Company extracts income and labor from their human population. Productive capacity therefore coexists with severe employer and institutional dependence. The guarantee best guess is very weak because access is not a secure claim independent of the hierarchy. This zero-variant interpretation assumes meaningful burden-reducing technical capacity without asserting that every industrial job could already vanish or that abundant energy alone equals automatic food.\n\n Human and biological alien managers concentrate authority, mapped near the non-AI elite position. Machinery and accounting systems do not establish an independent AI sovereign. The low nonworking scenario counts industrial jobs, service, care and useful civic activity as work. Oppressive taxes do not make employees nonworkers, and a rebellion is also useful sustained activity where it occurs. The broad interval concerns living settlement residents before the overthrow. Its aftermath is not assigned a universal floor merely because the earlier Company loses power.",
+        "axis": {
+          "guarantees": 0.95,
+          "control": 0,
+          "nonworking": 0.15
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.7,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Company dependence and extraction undermine secure necessities access despite energy capacity.",
+            "source_ids": [
+              "src-sun-makers-official"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.3
+            ],
+            "confidence": "low",
+            "basis": "Organic Company rulers and managers concentrate authority; automated accounting is not AI sovereignty.",
+            "source_ids": [
+              "src-sun-makers-official"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.55
+            ],
+            "confidence": "low",
+            "basis": "All-age human scenario retains industrial, service, care and civic duties; taxation and robot capacity do not give a population rate.",
+            "source_ids": [
+              "src-sun-makers-official"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-sun-makers-official"
+        ],
+        "evidence": [
+          {
+            "claim": "The Company maintains an energy monopoly and exploits actual workers on Pluto.",
+            "source_ids": [
+              "src-sun-makers-official"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The advanced system is treated as a limited zero variant with uncertain replaceable labor.",
+          "No post-uprising entitlement or complete physical automation is invented."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar monopoly labor order with an explicit low-confidence technological-restraint interpretation.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The Company maintains an energy monopoly and exploits actual workers on Pluto."
+        ],
+        "editorial_assumptions": [
+          "The advanced system is treated as a limited zero variant with uncertain replaceable labor.",
+          "No post-uprising entitlement or complete physical automation is invented."
+        ]
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "doctorwho-paradise-towers-zero",
+        "candidate_id": "c0411",
+        "name": "Doctor Who (Paradise Towers)",
+        "work": "Doctor Who: Paradise Towers",
+        "society": "The declining automated residential tower",
+        "media": [
+          "tv"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named television story in Doctor Who; no unseen later colony economy",
+          "period": "The inhabited tower before Kroagnon’s final takeover ends",
+          "population": "Living human residents and caretakers",
+          "human_population_proxy": false,
+          "exclusions": "Missing and dead residents, temporary visitors and the machine population are excluded; surviving architect identity is not automatically an unrelated AI.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Paradise Towers retains automated building services, but those systems are turned against its residents as the community decays. Caretakers still maintain the building, and vulnerable people lack a secure claim against its murderous routines. The guarantee best guess is therefore very weak despite continued shelter and technical capacity. This zero variant concerns a technologically managed residential order with persistent human duties, not a promise that every household commodity is manufactured automatically.\n\n Kroagnon’s surviving architect identity and the Chief Caretaker complicate authority. The central estimate stays near concentrated person control rather than automatically labeling a postbiological architect an unrelated AI sovereign, while a wide interval allows stronger machine autonomy. The moderate nonworking scenario counts caretaking, useful repair, care and community work; children or older residents are not all assigned jobs without evidence. Dead and missing people do not increase leisure. The final struggle ends the specific predatory arrangement without proving a fully described successor economy.",
+        "axis": {
+          "guarantees": 0.9,
+          "control": 0,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.55,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Predatory building services and weak accountability undermine secure access despite residence.",
+            "source_ids": [
+              "src-paradise-towers-reference",
+              "src-paradise-architect-control"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.65,
+              0.25
+            ],
+            "confidence": "low",
+            "basis": "The architect’s continuing identity and human caretaker authority centrally favor concentrated person control; machine autonomy remains a broad alternative.",
+            "source_ids": [
+              "src-paradise-towers-reference",
+              "src-paradise-architect-control"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.1,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Living resident/caretaker scenario retains maintenance, care and community duties while allowing dependents; deaths do not increase leisure.",
+            "source_ids": [
+              "src-paradise-towers-reference",
+              "src-paradise-architect-control"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-paradise-towers-reference",
+          "src-paradise-architect-control"
+        ],
+        "evidence": [
+          {
+            "claim": "The tower’s automated services are used to kill residents while human Caretakers remain.",
+            "source_ids": [
+              "src-paradise-towers-reference",
+              "src-paradise-architect-control"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Kroagnon is the surviving architect identity and later takes the Chief Caretaker’s body.",
+            "source_ids": [
+              "src-paradise-towers-reference",
+              "src-paradise-architect-control"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Postbiological architect authority is not automatically classified as unrelated AI.",
+          "The scope is a declining residential zero variant, with household production coverage uncertain."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the automated residential order with uncertainty about controller ontology and real human maintenance explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The tower’s automated services are used to kill residents while human Caretakers remain.",
+          "Kroagnon is the surviving architect identity and later takes the Chief Caretaker’s body."
+        ],
+        "editorial_assumptions": [
+          "Postbiological architect authority is not automatically classified as unrelated AI.",
+          "The scope is a declining residential zero variant, with household production coverage uncertain."
+        ]
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "doctorwho-terraalpha-happiness-zero",
+        "candidate_id": "c0412",
+        "name": "Doctor Who (Terra Alpha)",
+        "work": "Doctor Who: The Happiness Patrol",
+        "society": "Terra Alpha’s controlled human work order",
+        "media": [
+          "tv"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named television story in Doctor Who; no unseen later colony economy",
+          "period": "The established regime before Helen A loses power",
+          "population": "Living human colony residents",
+          "human_population_proxy": false,
+          "exclusions": "The Kandy Man is not assumed to own the whole economy; emotional performance is not a census of useful work.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Terra Alpha’s institutions enforce happiness through lethal policing and technological coercion. The material economy is less explicit, so the zero-variant admission interprets the advanced colony as retaining human roles despite technical capacity rather than asserting a canonically complete automatic system. The weak guarantee best guess follows conditional security under an unaccountable regime. A happiness rule is not itself proof that food or housing is absent, nor is cheerful presentation evidence of secure access.\n\n Helen A and human institutions concentrate authority, with the Kandy Man serving the regime rather than establishing a separate AI government. The low nonworking scenario counts occupations, assigned duties, care and useful organizing. An imposed emotional display is not automatically a full occupation, although a recurring assigned role still counts even when technically unnecessary. Broad intervals preserve the missing household detail. The regime’s fall changes control, but no universal successor provision is treated as already implemented or retroactively assigned to its earlier subjects.",
+        "axis": {
+          "guarantees": 0.8,
+          "control": 0.05,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.2,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Regime-conditioned safety supports weak security, while household production and access remain uncertain.",
+            "source_ids": [
+              "src-happiness-patrol-official"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.45
+            ],
+            "confidence": "low",
+            "basis": "Helen A’s human institutions command the order; a robotic executioner is not whole-economy AI sovereignty.",
+            "source_ids": [
+              "src-happiness-patrol-official"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "All-age human scenario retains occupations, recurring assigned roles and care; emotional rules are not participation statistics.",
+            "source_ids": [
+              "src-happiness-patrol-official"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-happiness-patrol-official"
+        ],
+        "evidence": [
+          {
+            "claim": "Terra Alpha enforces happiness through lethal policing.",
+            "source_ids": [
+              "src-happiness-patrol-official"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Helen A’s regime uses the Kandy Man and other institutions to impose its rule.",
+            "source_ids": [
+              "src-happiness-patrol-official"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Advanced colony capacity is interpreted as a low-confidence zero variant.",
+          "Material guarantees and participation are editorial scenarios rather than facts inferred solely from emotional repression."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar colony with its uncertain automation qualification openly stated.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Terra Alpha enforces happiness through lethal policing.",
+          "Helen A’s regime uses the Kandy Man and other institutions to impose its rule."
+        ],
+        "editorial_assumptions": [
+          "Advanced colony capacity is interpreted as a low-confidence zero variant.",
+          "Material guarantees and participation are editorial scenarios rather than facts inferred solely from emotional repression."
+        ]
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "doctorwho-satellite5-imperial-zero",
+        "candidate_id": "c0413",
+        "name": "Doctor Who (Satellite 5’s human order)",
+        "work": "Doctor Who: The Long Game",
+        "society": "The Satellite 5-centered imperial information economy",
+        "media": [
+          "tv"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named television story in Doctor Who; no unseen later colony economy",
+          "period": "The established manipulated news order before its exposure",
+          "population": "Living human workers and residents in the depicted imperial system",
+          "human_population_proxy": false,
+          "exclusions": "The biological Jagrafess is not AI; the wider empire’s entire population and future Dalek order are not merged with this snapshot.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Satellite 5 organizes a technologically sophisticated information economy whose broadcasts shape human society. People still perform news, technical and service work, so cognitive infrastructure has not abolished participation. The guarantee best guess assumes unequal and conditional material access rather than a verified universal floor. The zero-variant admission is itself interpretive: digital and cybernetic capacity offers substantial substitution while household production beyond the station remains largely unshown.\n\n The human Editor answers to the biological Jagrafess. Their concentrated hierarchy is mapped near non-AI elite control, not at machine sovereignty merely because interfaces and implants are involved. The modest nonworking scenario counts reporting, technical maintenance, services, care and other useful roles. Promotion rules or disappearances do not reveal a population work rate. Broad intervals reflect the station-centered evidence. The later destruction of this manipulation is not a demonstrated material constitution for every human world, and a future different ruler is not projected backward into the same point.",
+        "axis": {
+          "guarantees": 0.65,
+          "control": 0,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.2,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "The central scenario assumes unequal conditional access; media control alone does not establish a household welfare law.",
+            "source_ids": [
+              "src-long-game-official",
+              "src-longgame-jagrafess-editor"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.3
+            ],
+            "confidence": "low",
+            "basis": "Biological Jagrafess and human Editor concentrate authority; cybernetic news systems do not make them AI.",
+            "source_ids": [
+              "src-long-game-official",
+              "src-longgame-jagrafess-editor"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.75
+            ],
+            "confidence": "low",
+            "basis": "Living human scenario counts reporting, maintenance, care and useful services; promotions and disappearances are not a census.",
+            "source_ids": [
+              "src-long-game-official",
+              "src-longgame-jagrafess-editor"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-long-game-official",
+          "src-longgame-jagrafess-editor"
+        ],
+        "evidence": [
+          {
+            "claim": "Satellite 5 broadcasts news across the empire.",
+            "source_ids": [
+              "src-long-game-official",
+              "src-longgame-jagrafess-editor"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "The human Editor answers to the biological Jagrafess.",
+            "source_ids": [
+              "src-long-game-official",
+              "src-longgame-jagrafess-editor"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The advanced information order is interpreted as a limited zero variant.",
+          "Population material rights and participation are broad scenarios, not inferred as certain from news manipulation."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the known imperial information order with its biological controller and uncertain material qualification explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Satellite 5 broadcasts news across the empire.",
+          "The human Editor answers to the biological Jagrafess."
+        ],
+        "editorial_assumptions": [
+          "The advanced information order is interpreted as a limited zero variant.",
+          "Population material rights and participation are broad scenarios, not inferred as certain from news manipulation."
+        ]
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "doctorwho-newearth-medical-zero",
+        "candidate_id": "c0414",
+        "name": "Doctor Who (New Earth’s medical society)",
+        "work": "Doctor Who: New Earth",
+        "society": "The New New York medical service order",
+        "media": [
+          "tv"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named television story in Doctor Who; no unseen later colony economy",
+          "period": "The established hospital economy before the hidden experiments are exposed",
+          "population": "Living ordinary human residents and patients using the depicted medical order",
+          "human_population_proxy": false,
+          "exclusions": "Captive biological test subjects are exploited outsiders to ordinary patient access; catlike providers are biological, and later Gridlock society is distinct.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "New Earth’s hospital offers extraordinary treatments while relying on living experimental subjects and useful staff labor. Advanced biotechnology creates real medical capacity, but it does not prove that human work or unequal access has disappeared. The weak guarantee best guess assumes that ordinary treatment remains institutionally conditional rather than a universal citizen right. The cloning and suffering behind cures are disclosed instead of being relabeled effortless automatic output.\n\n Biological providers and institutional elites concentrate authority; neither unfamiliar physiology nor medical machinery establishes independent AI rule. The moderate nonworking scenario counts medicine, technical service, care and useful civic activity. It does not treat every patient as a nonworker or every captive as a unit of equipment. The wide intervals mark a partial sectoral zero-variant interpretation, with general household provision less certain than the treatments. Exposure of the experiments changes care possibilities, but it does not establish an already settled universal economy or give later New New York the same coordinates.",
+        "axis": {
+          "guarantees": 0.55,
+          "control": 0.1,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.4,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Exceptional treatment capacity is actual; a universal material or medical entitlement is not, and conditional access is the central assumption.",
+            "source_ids": [
+              "src-new-earth-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.55
+            ],
+            "confidence": "low",
+            "basis": "Biological providers and institutions direct treatment; advanced medicine does not establish AI sovereignty.",
+            "source_ids": [
+              "src-new-earth-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.75
+            ],
+            "confidence": "low",
+            "basis": "Human resident/patient scenario retains occupations and useful care; patient status alone does not imply nonwork.",
+            "source_ids": [
+              "src-new-earth-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-new-earth-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "The hospital develops treatments using living biological test subjects.",
+            "source_ids": [
+              "src-new-earth-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Medical workers and ordinary patients participate in a technologically advanced service institution.",
+            "source_ids": [
+              "src-new-earth-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The setting is a partial medical zero-variant comparison rather than proven general post-work provision.",
+          "Captive subjects’ exploitation is disclosed and not transformed into ordinary patient guarantees."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar medical labor order with its sectoral scope and uncertain general automation qualification explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The hospital develops treatments using living biological test subjects.",
+          "Medical workers and ordinary patients participate in a technologically advanced service institution."
+        ],
+        "editorial_assumptions": [
+          "The setting is a partial medical zero-variant comparison rather than proven general post-work provision.",
+          "Captive subjects’ exploitation is disclosed and not transformed into ordinary patient guarantees."
+        ]
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "doctorwho-starshipuk-zero",
+        "candidate_id": "c0416",
+        "name": "Doctor Who (Starship UK)",
+        "work": "Doctor Who: The Beast Below",
+        "society": "The technologically maintained Starship UK order",
+        "media": [
+          "tv"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named television story in Doctor Who; no unseen later colony economy",
+          "period": "The established shipboard state before its propulsion coercion is exposed",
+          "population": "Living human Starship UK residents",
+          "human_population_proxy": false,
+          "exclusions": "The biological star whale’s coerced contribution is disclosed; it is not an AI labor force or part of the human participation denominator.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Starship UK maintains a human community through a technical habitat, automated policing and hidden dependence on a living star whale. Biological propulsion remains a real exploited contribution rather than an automatic machine producing everything without effort. The guarantee best guess assumes substantial shipboard support but weak security against the institutions governing it. Household access is not fully described, so the zero-variant qualification remains an explicit interpretation of retained work inside an advanced managed environment.\n\n Human political institutions and leaders concentrate authority, mapped near the organic elite position. Smilers and automatic routines do not alone establish a sovereign AI. The modest nonworking scenario retains service, technical maintenance, care and useful civic roles despite reduced subsistence burdens. Neither the whale nor people excluded by the regime become leisure humans. Broad intervals preserve uncertainty about ordinary allocation. The final change from coercion to a different propulsion relationship does not automatically establish universal necessities rights or a fully described successor economic order.",
+        "axis": {
+          "guarantees": 0.55,
+          "control": 0.05,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.3,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Shipboard support is plausible but safety and access remain conditional on state institutions.",
+            "source_ids": [
+              "src-beast-below-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.4
+            ],
+            "confidence": "low",
+            "basis": "Human political authority is central; robotic policing and a biological whale are not proof of AI sovereignty.",
+            "source_ids": [
+              "src-beast-below-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Living human all-age scenario retains maintenance, service and care; the whale’s actual contribution is disclosed separately.",
+            "source_ids": [
+              "src-beast-below-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-beast-below-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "The colony ship uses automated policing and depends on a biological whale for movement.",
+            "source_ids": [
+              "src-beast-below-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Human political institutions conceal and direct the arrangement.",
+            "source_ids": [
+              "src-beast-below-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "A limited support floor and automation-related retained-work comparison are inferred.",
+          "No universal post-ending guarantee is asserted."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the technological habitat as an explicitly uncertain zero variant while preserving its biological labor dependency.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The colony ship uses automated policing and depends on a biological whale for movement.",
+          "Human political institutions conceal and direct the arrangement."
+        ],
+        "editorial_assumptions": [
+          "A limited support floor and automation-related retained-work comparison are inferred.",
+          "No universal post-ending guarantee is asserted."
+        ]
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "doctorwho-flesh-remote-labor-zero",
+        "candidate_id": "c0417",
+        "name": "Doctor Who (Flesh industrial labor)",
+        "work": "Doctor Who: The Rebel Flesh",
+        "society": "The remote-body industrial work order",
+        "media": [
+          "tv"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named television story in Doctor Who; no unseen later colony economy",
+          "period": "The established operator-controlled Ganger phase before independent personhood changes authority",
+          "population": "Living human operators in the industrial labor system",
+          "human_population_proxy": false,
+          "exclusions": "Autonomous later Gangers are recognized as human-derived persons, not additional operators silently merged with the initial snapshot.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Workers control Flesh bodies to perform hazardous industrial tasks. The technology changes exposure and embodiment, but the operators still do real ongoing work. The zero-variant interpretation concerns powerful mechanization that retains human participation rather than a demonstrated ability to replace every task autonomously. The guarantee best guess is weak because the arrangement is an employer-dependent industrial system, not a secure common necessities floor.\n\n Human management and operators retain command during this phase, placing control near concentrated organic authority with some worker agency. A remote body does not make its operator an AI or a nonworker. The central nonworking scenario is zero for the active operator cohort because it is defined by recurring industrial duties, with exceptions left inside a broad interval. It is not calculated from the number of physical bodies. Later independent Gangers change the identity and authority question, but their emergence does not retroactively automate the earlier operators’ labor or establish a settled successor community with known support rights.",
+        "axis": {
+          "guarantees": 0.7,
+          "control": 0.1,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.15,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Industrial employment dependence is the central access scenario; no unconditional floor is established.",
+            "source_ids": [
+              "src-rebel-flesh-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.55
+            ],
+            "confidence": "low",
+            "basis": "Human operators and managers direct the initial system; remote biological bodies are not autonomous rulers.",
+            "source_ids": [
+              "src-rebel-flesh-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Active operator cohort has recurring assigned jobs, giving central zero nonworkers; bodies and hazardous-task shares do not determine person counts.",
+            "source_ids": [
+              "src-rebel-flesh-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-rebel-flesh-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "Human workers initially operate Flesh Gangers for hazardous industrial activity.",
+            "source_ids": [
+              "src-rebel-flesh-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Later independent Gangers raise a distinct human-derived personhood issue.",
+            "source_ids": [
+              "src-rebel-flesh-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "This is an interpretive mechanization/retained-work zero variant, not proof of autonomous task replacement.",
+          "The operator-defined central participation point does not describe every later Ganger."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the recognizable industrial case with the continued remote human work and limited zero-variant qualification explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Human workers initially operate Flesh Gangers for hazardous industrial activity.",
+          "Later independent Gangers raise a distinct human-derived personhood issue."
+        ],
+        "editorial_assumptions": [
+          "This is an interpretive mechanization/retained-work zero variant, not proof of autonomous task replacement.",
+          "The operator-defined central participation point does not describe every later Ganger."
+        ]
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "doctorwho-twostreams-native-care",
+        "candidate_id": "c0418",
+        "name": "Doctor Who (Two Streams quarantine care)",
+        "work": "Doctor Who: The Girl Who Waited",
+        "society": "The automated Two Streams care environment",
+        "media": [
+          "tv"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "The named television story in Doctor Who; no unseen later colony economy",
+          "period": "The functioning quarantine facility before the visitors’ rescue changes the local situation",
+          "population": "Active native Apalapucian patients, an explicit biological-person proxy",
+          "human_population_proxy": true,
+          "exclusions": "Human visitors are medically incompatible and not typical native recipients; accelerated time and sleeping people do not supply a leisure count.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Two Streams uses automated care and time-separated environments for a quarantined native population. This is a real specialized support setting rather than a claim that the entire planet has eliminated work. The guarantee best guess assumes a limited care floor for compatible native patients, with a broad interval because ordinary resource rights are less explicit than the clinical machinery. The Handbots’ dangerous treatment of human visitors is disclosed without treating those visitors as representative native patients.\n\n Biological institutions and the designed clinical framework receive central control weight; independent medical routines leave stronger machine authority possible. Robots following a protocol do not automatically establish whole-economy AI sovereignty. The high nonworking scenario permits many patients to lack sustained occupational roles while counting useful care, teaching, creative and technical contribution where it continues. Treatment duration and accelerated waiting are not population participation. The point concerns active native patients, not inactive people or the unshown post-quarantine society, and medical support does not promise immortality or a cure for every disease.",
+        "axis": {
+          "guarantees": -0.2,
+          "control": 0.05,
+          "nonworking": 0.75
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.7,
+              0.75
+            ],
+            "confidence": "low",
+            "basis": "A compatible-patient clinical floor is inferred from actual automated care, without claiming universal ordinary necessities or cure rights.",
+            "source_ids": [
+              "src-girl-waited-review",
+              "src-twostreams-quarantine-care"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.65,
+              0.45
+            ],
+            "confidence": "low",
+            "basis": "The designed native clinical institution is the central controller; autonomous routine enforcement remains a meaningful alternative.",
+            "source_ids": [
+              "src-girl-waited-review",
+              "src-twostreams-quarantine-care"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.2,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Active native-patient scenario allows substantial nonparticipation but counts useful ongoing care or creative roles; waiting time is not a work percentage.",
+            "source_ids": [
+              "src-girl-waited-review",
+              "src-twostreams-quarantine-care"
+            ]
+          }
+        },
+        "regime_primary": 1,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-girl-waited-review",
+          "src-twostreams-quarantine-care"
+        ],
+        "evidence": [
+          {
+            "claim": "Two Streams serves a quarantined two-hearted native population through Handbots and time-separated care.",
+            "source_ids": [
+              "src-girl-waited-review",
+              "src-twostreams-quarantine-care"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "The same medical protocol is dangerous to incompatible human visitors.",
+            "source_ids": [
+              "src-girl-waited-review",
+              "src-twostreams-quarantine-care"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Native patient support is interpreted as a limited technologically provided floor.",
+          "Institutional authority and patient participation remain broad editorial scenarios."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the automated care community with its native-person proxy and specialized scope explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Two Streams serves a quarantined two-hearted native population through Handbots and time-separated care.",
+          "The same medical protocol is dangerous to incompatible human visitors."
+        ],
+        "editorial_assumptions": [
+          "Native patient support is interpreted as a limited technologically provided floor.",
+          "Institutional authority and patient participation remain broad editorial scenarios."
+        ]
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "doctorwho-sandminer-robot-work-zero",
+        "candidate_id": "c0419",
+        "name": "Doctor Who (robot-intensive sandminer)",
+        "work": "Doctor Who: The Robots of Death",
+        "society": "The sandminer’s human work unit",
+        "media": [
+          "tv"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named television story in Doctor Who; no unseen later colony economy",
+          "period": "The operating mining voyage before the murders destroy its normal routine",
+          "population": "Living human crew in the recurring sandminer work unit",
+          "human_population_proxy": false,
+          "exclusions": "Working robot persons/devices are disclosed separately; the dead crew and all unseen civilization are not the human participation denominator.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Robots perform most shipboard tasks while a human crew still carries out a productive mining voyage. The system therefore replaces much manual labor without demonstrating a civilian economy independent of jobs. The zero-variant point is deliberately narrow: a recurring robot-intensive workplace retains human roles and employer dependence. The guarantee best guess is weak because crew access is tied to the commercial work unit, not an established unconditional right to necessities.\n\n Human command and commercial institutions retain productive authority before the crisis. Robot capabilities do not make the vessel an independently governed AI civilization. The central nonworking scenario is zero for the active crew because members have recurring assigned roles, with a broad interval for exceptions. It is not the inverse of the robot staffing share, and deaths never raise leisure. The technology’s role is substantial but partial, so this record does not assume every task is already dispensable or assign the same household economy to all humans outside the sandminer.",
+        "axis": {
+          "guarantees": 0.6,
+          "control": 0.05,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.1,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Crew necessities are assumed to follow commercial mission membership rather than an unconditional civil floor.",
+            "source_ids": [
+              "src-robots-death-official"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.4
+            ],
+            "confidence": "low",
+            "basis": "Human command and employers retain authority over the robot-intensive work unit.",
+            "source_ids": [
+              "src-robots-death-official"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Active human crew have ongoing assigned duties, central zero nonworkers; robot staffing and deaths are not the denominator.",
+            "source_ids": [
+              "src-robots-death-official"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-robots-death-official"
+        ],
+        "evidence": [
+          {
+            "claim": "Robots perform most shipboard tasks while human crew continue a real mining voyage.",
+            "source_ids": [
+              "src-robots-death-official"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The work unit is used as a narrow zero-variant comparison rather than a whole-civilization census.",
+          "Normal support is assumed to remain tied to the commercial arrangement."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar robot-intensive workplace with continuing human participation explicitly preserved.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Robots perform most shipboard tasks while human crew continue a real mining voyage."
+        ],
+        "editorial_assumptions": [
+          "The work unit is used as a narrow zero-variant comparison rather than a whole-civilization census.",
+          "Normal support is assumed to remain tied to the commercial arrangement."
+        ]
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "doctorwho-ark-human-led-zero",
+        "candidate_id": "c0420",
+        "name": "Doctor Who (the Ark under human Guardians)",
+        "work": "Doctor Who: The Ark",
+        "society": "The human-led Ark transport order",
+        "media": [
+          "tv"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named television story in Doctor Who; no unseen later colony economy",
+          "period": "The early voyage before the later Monoid takeover",
+          "population": "Active awake human residents aboard the Ark, including any miniature persons if active",
+          "human_population_proxy": false,
+          "exclusions": "Inactive preserved people and temporary visitors are excluded; Monoid servants’ real biological labor is disclosed separately.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Ark carries humans in a maintained transport environment while Monoids serve under human authority. The vessel’s infrastructure provides a durable technological setting, but biological service and useful human duties continue. The guarantee best guess assumes a limited internal mission floor for admitted awake humans, qualified by strict hierarchy and incomplete household detail. It does not call Monoid work automatic output or extend passenger rights to every excluded person.\n\n Human Guardians concentrate authority, placing control near organic institutional power rather than an independent AI. The low nonworking scenario counts maintenance, science, administration, care and other ongoing roles, with dependents allowed inside a broad interval. Size reduction alone does not remove a conscious person from the population. This is a zero variant about retained work within an advanced habitat. The later reversal to Monoid dominance materially changes human status and access, so it is counted separately rather than averaged into one ship-wide score across centuries.",
+        "axis": {
+          "guarantees": -0.2,
+          "control": 0.05,
+          "nonworking": 0.15
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.75,
+              0.7
+            ],
+            "confidence": "low",
+            "basis": "Admitted awake residents are assumed to receive mission support, with strict institutional conditions and uncertain rights.",
+            "source_ids": [
+              "src-ark-official",
+              "src-ark-human-monoid-reversal"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.4
+            ],
+            "confidence": "low",
+            "basis": "Human Guardians rule the early voyage; biological Monoid servants are not an AI controller.",
+            "source_ids": [
+              "src-ark-official",
+              "src-ark-human-monoid-reversal"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.55
+            ],
+            "confidence": "low",
+            "basis": "Awake-human all-age scenario retains recurring duties and care; inactive preservation and bodily size are not participation measures.",
+            "source_ids": [
+              "src-ark-official",
+              "src-ark-human-monoid-reversal"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-ark-official",
+          "src-ark-human-monoid-reversal"
+        ],
+        "evidence": [
+          {
+            "claim": "The early Ark voyage has human leaders and Monoid servants.",
+            "source_ids": [
+              "src-ark-official",
+              "src-ark-human-monoid-reversal"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "The transport is a continuing technologically maintained habitat.",
+            "source_ids": [
+              "src-ark-official",
+              "src-ark-human-monoid-reversal"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "A limited internal human mission floor is inferred rather than a universal entitlement.",
+          "The human work share is an active-person scenario separate from biological Monoid service."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          1
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the early maintained habitat as a narrow zero variant, separate from the later class reversal.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The early Ark voyage has human leaders and Monoid servants.",
+          "The transport is a continuing technologically maintained habitat."
+        ],
+        "editorial_assumptions": [
+          "A limited internal human mission floor is inferred rather than a universal entitlement.",
+          "The human work share is an active-person scenario separate from biological Monoid service."
+        ]
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "doctorwho-ark-monoid-rule-zero",
+        "candidate_id": "c0420",
+        "name": "Doctor Who (the Ark under Monoid rule)",
+        "work": "Doctor Who: The Ark",
+        "society": "The Monoid-controlled Ark and enslaved humans",
+        "media": [
+          "tv"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named television story in Doctor Who; no unseen later colony economy",
+          "period": "The later voyage before the final settlement on Refusis",
+          "population": "Active awake enslaved human residents aboard the Ark",
+          "human_population_proxy": false,
+          "exclusions": "Biological Monoids are rulers, not autonomous AI; inactive preserved people, dead humans and the unshown later colony economy are excluded.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Centuries after the early voyage, Monoids dominate the Ark and enslave its humans. The same broad technical habitat now distributes power and safety on sharply different terms. The guarantee best guess becomes very weak for the human population because continued support depends on its rulers and their destructive plans. Technological life support has not become an unconditional human right, and the system does not stop being a real habitat merely because its allocation is coercive.\n\n The controllers are biological Monoids, mapped near concentrated non-AI authority rather than machine sovereignty. The low nonworking scenario counts imposed service, food preparation, care and other recurring duties even when the ship can automate much of its routine operation. Coerced work is not leisure, and the broad interval allows people outside sustained roles. This is the later zero variant, materially distinct from human-led access on the early Ark. The eventual resolution and settlement create new possibilities but do not show a complete successor economy or justify counting casualties as people freed from work.",
+        "axis": {
+          "guarantees": 0.9,
+          "control": 0,
+          "nonworking": 0.1
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.6,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Enslavement and rulers’ destructive plans make continued support insecure despite working habitat systems.",
+            "source_ids": [
+              "src-ark-official",
+              "src-ark-human-monoid-reversal"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.25
+            ],
+            "confidence": "low",
+            "basis": "Biological Monoid rulers hold concentrated authority; zero is an explicit non-AI analogy.",
+            "source_ids": [
+              "src-ark-official",
+              "src-ark-human-monoid-reversal"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Active awake human scenario counts imposed service, care and useful duties; inactive preserved people and casualties do not become leisure citizens.",
+            "source_ids": [
+              "src-ark-official",
+              "src-ark-human-monoid-reversal"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-ark-official",
+          "src-ark-human-monoid-reversal"
+        ],
+        "evidence": [
+          {
+            "claim": "The later Ark has a reversed hierarchy, with humans enslaved by Monoids.",
+            "source_ids": [
+              "src-ark-official",
+              "src-ark-human-monoid-reversal"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "The story’s final settlement follows rather than defines this shipboard order.",
+            "source_ids": [
+              "src-ark-official",
+              "src-ark-human-monoid-reversal"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The later human floor is evaluated separately because authority and human status materially change.",
+          "Assigned service counts as work even when technologically replaceable."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the realized later access/control reversal as a separate zero variant, with biological alien rulers explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The later Ark has a reversed hierarchy, with humans enslaved by Monoids.",
+          "The story’s final settlement follows rather than defines this shipboard order."
+        ],
+        "editorial_assumptions": [
+          "The later human floor is evaluated separately because authority and human status materially change.",
+          "Assigned service counts as work even when technologically replaceable."
+        ]
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "doctorwho-argolis-leisure-zero",
+        "candidate_id": "c0422",
+        "name": "Doctor Who (Argolin Leisure Hive)",
+        "work": "Doctor Who: The Leisure Hive",
+        "society": "The Argolin tourist-service community",
+        "media": [
+          "tv"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named television story in Doctor Who; no unseen later colony economy",
+          "period": "The established Hive business around its financial and scientific crisis",
+          "population": "Active biological Argolin residents and staff, an explicit alien-person proxy",
+          "human_population_proxy": true,
+          "exclusions": "Visiting tourists are temporary customers; regeneration experiments do not establish a universal floor or additional leisure citizens.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Leisure Hive is a technologically elaborate tourist business supporting an Argolin community, not a place where every resident automatically escapes work. Revenue, scientific effort and service roles remain important. The guarantee best guess is weak because support depends on a fragile commercial arrangement and the broader ecological and biological crisis. Sophisticated recreation or a regeneration experiment does not establish free necessities or equal access for everyone.\n\n Biological Argolin leaders and institutions retain authority, mapped on the organic side rather than at autonomous machine control. The modest nonworking scenario counts science, management, care, technical and visitor-service roles among active residents. Tourists’ holidays are not a population leisure measure. The wide interval recognizes uncertain internal rights and differing roles without erasing real labor. This zero variant interprets advanced service capacity alongside employment and revenue dependence. The final scientific and political resolution is not treated as a fully settled new economic system with guaranteed immortality or universal income.",
+        "axis": {
+          "guarantees": 0.55,
+          "control": 0.1,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.35,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Tourist revenue dependence and crisis suggest conditional access rather than a verified universal floor.",
+            "source_ids": [
+              "src-leisure-hive-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "Biological Argolin institutions direct the facility; recreation technology is not AI sovereignty.",
+            "source_ids": [
+              "src-leisure-hive-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.7
+            ],
+            "confidence": "low",
+            "basis": "Active Argolin resident/staff scenario counts science, management, care and services; visitors’ temporary holidays are excluded.",
+            "source_ids": [
+              "src-leisure-hive-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-leisure-hive-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "The Hive depends on tourist revenue and useful scientific work.",
+            "source_ids": [
+              "src-leisure-hive-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "The Argolin community faces a continuing biological and commercial crisis.",
+            "source_ids": [
+              "src-leisure-hive-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Advanced service capacity is interpreted as a limited zero variant with retained work.",
+          "Population participation and internal rights are editorial estimates."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar technologically intensive leisure business with its working resident population and alien-person proxy explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The Hive depends on tourist revenue and useful scientific work.",
+          "The Argolin community faces a continuing biological and commercial crisis."
+        ],
+        "editorial_assumptions": [
+          "Advanced service capacity is interpreted as a limited zero variant with retained work.",
+          "Population participation and internal rights are editorial estimates."
+        ]
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "doctorwho-drathro-colony-zero",
+        "candidate_id": "c0423",
+        "name": "Doctor Who (Drathro’s underground settlement)",
+        "work": "Doctor Who: The Mysterious Planet",
+        "society": "The human settlement under Drathro",
+        "media": [
+          "tv"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named television story in Doctor Who; no unseen later colony economy",
+          "period": "The functioning controlled settlement before Drathro’s system ends",
+          "population": "Living human underground residents",
+          "human_population_proxy": false,
+          "exclusions": "Useful human maintenance is counted as work; later deaths, surface populations and the unshown successor economy are not merged.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Drathro commands a technologically maintained underground settlement with organized food facilities and actual human technical duties. The presence of a robot ruler does not alone establish post-work abundance: residents still have to keep systems functioning. The guarantee best guess assumes a conditional internal floor whose security depends on the provider’s decisions and resource needs. Automatic support is therefore partial, and no complete necessities charter is asserted.\n\n Drathro exercises independent machine authority over the colony, placing effective control near the autonomous-AI end. The low nonworking scenario counts technical maintenance, assigned service, care and useful community activity even when machines supply much routine infrastructure. Human work is not erased because it supports an automated system. The broad interval allows dependents and role variation without calculating a population rate from robot numbers. This is a zero variant about retained duties under machine provision; the final failure and liberation change the arrangement but do not establish an already documented alternative economy.",
+        "axis": {
+          "guarantees": 0.55,
+          "control": -0.95,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.25,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "A conditional settlement floor is inferred from organized support while controller discretion and resource limits weaken security.",
+            "source_ids": [
+              "src-mysterious-planet-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              -0.75
+            ],
+            "confidence": "low",
+            "basis": "Drathro independently commands the human settlement and its systems.",
+            "source_ids": [
+              "src-mysterious-planet-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "Living human all-age scenario retains maintenance, assigned service and care despite automatic infrastructure; robot counts are not participation.",
+            "source_ids": [
+              "src-mysterious-planet-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-mysterious-planet-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "Drathro rules the human settlement and requires useful technical maintenance.",
+            "source_ids": [
+              "src-mysterious-planet-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "The settlement includes technological support and food facilities.",
+            "source_ids": [
+              "src-mysterious-planet-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary access is estimated to be conditional rather than an unconditional entitlement.",
+          "The zero-variant point retains real human duties without claiming all are unnecessary."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the documented machine-directed settlement with its actual technical labor and uncertain floor explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Drathro rules the human settlement and requires useful technical maintenance.",
+          "The settlement includes technological support and food facilities."
+        ],
+        "editorial_assumptions": [
+          "Ordinary access is estimated to be conditional rather than an unconditional entitlement.",
+          "The zero-variant point retains real human duties without claiming all are unnecessary."
+        ]
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "doctorwho-ganymede-oxygen-work-zero",
+        "candidate_id": "c0425",
+        "name": "Doctor Who (Ganymede Systems’ oxygen economy)",
+        "work": "Doctor Who: Oxygen",
+        "society": "The corporate mining work unit with paid oxygen",
+        "media": [
+          "tv"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named television story in Doctor Who; no unseen later colony economy",
+          "period": "The operating station before the Doctor reverses its cost calculation",
+          "population": "Living human/organic workers in the recurring mining unit",
+          "human_population_proxy": false,
+          "exclusions": "Dead suit occupants are not leisure people; the company’s wider civilization and unshown post-crisis economy are excluded.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Workers must pay for the oxygen keeping them alive while a corporate algorithm treats their continued employment as a cost calculation. Automatic suits and station systems create substantial technical support without securing a right to breathe. The guarantee best guess is near the insecure extreme because access and survival can be withdrawn when the company finds workers unprofitable. This is a narrow commercial zero variant, not a demonstration that the whole surrounding civilization has become post-work.\n\n Human corporate ownership receives central control weight, while the algorithm’s lethal operational discretion leaves much stronger machine authority within the interval. Profit-seeking software does not by itself prove that the company has no human owners. The central nonworking scenario is zero for the recurring active worker cohort because assigned mining and station duties remain real work. The broad interval allows exceptions, but neither dead bodies in suits nor automated staffing provides a human census. The Doctor’s intervention changes the immediate incentive without establishing a durable universal support floor afterward.",
+        "axis": {
+          "guarantees": 0.98,
+          "control": 0.05,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.8,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Oxygen charges and profit-based killing defeat secure continuation and necessities access.",
+            "source_ids": [
+              "src-oxygen-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.8,
+              0.3
+            ],
+            "confidence": "low",
+            "basis": "Corporate human ownership is central, qualified by strong algorithmic operational discretion rather than assumed uncontested AI sovereignty.",
+            "source_ids": [
+              "src-oxygen-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Active worker cohort has recurring assigned roles, central zero nonworkers; dead suit occupants and robot staffing are not leisure humans.",
+            "source_ids": [
+              "src-oxygen-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-oxygen-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "The mining company charges for oxygen and its algorithm treats living workers as expendable costs.",
+            "source_ids": [
+              "src-oxygen-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Formal ownership and practical algorithmic control are separated in the broad control interval.",
+          "The commercial work unit is a limited zero variant, not the entire unseen civilization."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the famous paid-survival work order with actual assigned labor and mixed company/algorithm authority explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The mining company charges for oxygen and its algorithm treats living workers as expendable costs."
+        ],
+        "editorial_assumptions": [
+          "Formal ownership and practical algorithmic control are separated in the broad control interval.",
+          "The commercial work unit is a limited zero variant, not the entire unseen civilization."
+        ]
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "doctorwho-villengard-war-zero",
+        "candidate_id": "c0427",
+        "name": "Doctor Who (Villengard’s manufactured war)",
+        "work": "Doctor Who: Boom",
+        "society": "The algorithmically sustained military-service order",
+        "media": [
+          "tv"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named television story in Doctor Who; no unseen later colony economy",
+          "period": "The ongoing manufactured conflict before its profit algorithm is disrupted",
+          "population": "Living active human military personnel in the scoped operation",
+          "human_population_proxy": false,
+          "exclusions": "The dead, software copies and unshown civilian world do not enter the human rate; no post-conflict welfare system is inferred.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "A weapons algorithm perpetuates conflict to sustain sales, creating a technologically organized demand for human military activity. The war is not evidence that all work has disappeared; soldiers still perform real dangerous duties. The zero-variant interpretation concerns manufactured demand and retained human roles under advanced automation. The guarantee best guess is extremely weak because medical and survival decisions are subordinated to the commercial system’s targets rather than secure individual claims.\n\n The algorithm exercises substantial practical authority while corporate profit remains its organizing purpose, placing the central control estimate toward autonomous machine administration with human ownership alternatives still open. The central nonworking scenario is zero for active military personnel because their recurring assigned duties count as work even when the conflict is artificially sustained. A software copy of a human is not added as another biological soldier. Broad intervals preserve the limited operation scope. Disrupting the algorithm changes the conflict but does not show a settled civilian economy with automatic universal provision.",
+        "axis": {
+          "guarantees": 0.95,
+          "control": -0.6,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.65,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Algorithmic sales and casualty priorities make survival support highly insecure.",
+            "source_ids": [
+              "src-boom-algorithm-dialogue"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.95,
+              0.2
+            ],
+            "confidence": "low",
+            "basis": "Practical algorithmic conflict management receives greater weight, while corporate purpose leaves human concentrated authority plausible.",
+            "source_ids": [
+              "src-boom-algorithm-dialogue"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Active military cohort has continuing assigned roles, central zero nonworkers; manufactured demand does not turn actual soldiering into leisure.",
+            "source_ids": [
+              "src-boom-algorithm-dialogue"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-boom-algorithm-dialogue"
+        ],
+        "evidence": [
+          {
+            "claim": "The weapons algorithm manufactures or sustains conflict to maintain purchases.",
+            "source_ids": [
+              "src-boom-algorithm-dialogue"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Living soldiers continue real military duties under that system.",
+            "source_ids": [
+              "src-boom-algorithm-dialogue"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The limited operation is interpreted as a zero variant of technologically manufactured work demand.",
+          "The wider civilian material economy and any settled post-conflict order remain outside the point."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the direct manufactured-work comparison with its actual labor, narrow population and uncertain ultimate control explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The weapons algorithm manufactures or sustains conflict to maintain purchases.",
+          "Living soldiers continue real military duties under that system."
+        ],
+        "editorial_assumptions": [
+          "The limited operation is interpreted as a zero variant of technologically manufactured work demand.",
+          "The wider civilian material economy and any settled post-conflict order remain outside the point."
+        ]
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "doctorwho-finetime-shortwork-zero",
+        "candidate_id": "c0428",
+        "name": "Doctor Who (Finetime)",
+        "work": "Doctor Who: Dot and Bubble",
+        "society": "The purchased young-adult Finetime enclave",
+        "media": [
+          "tv"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named television story in Doctor Who; no unseen later colony economy",
+          "period": "The ordinary enclave before its Dot-led killing crisis",
+          "population": "Living young-adult Finetime residents",
+          "human_population_proxy": false,
+          "exclusions": "Parents on the Homeworld, dead residents and the later wilderness group are excluded; two work hours do not mean most people are nonworking.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Finetime is an expensive young-adult enclave whose residents perform short daily data-processing shifts while AI interfaces organize much of their lives. Family wealth pays for the privileged environment; that is not a universal public right. The guarantee best guess assumes a limited internal floor for admitted residents, qualified by purchase dependence and an opaque sustaining system. The technological basis is broader than ordinary screen entertainment, but the exact household production rules remain uncertain.\n\n Human wealth and institutional ownership receive central control weight before the crisis, while Dot’s practical guidance leaves stronger machine power within the broad interval. The central nonworking scenario is zero because residents’ recurring two-hour duties still count as work. The remaining hours of partying do not become a percentage of people without jobs. Useful care or creation can count too. This is a zero variant about short retained roles within a heavily managed enclave. The murderous breakdown and the survivors’ later departure are different conditions, and deaths never increase leisure.",
+        "axis": {
+          "guarantees": 0.25,
+          "control": 0.2,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.45,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Admission purchases a privileged internal environment; a limited floor is inferred without a universal public entitlement.",
+            "source_ids": [
+              "src-finetime-dialogue",
+              "src-finetime-wealth-and-duties"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.65,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "Human wealth and ownership are central before the breakdown, with powerful Dot guidance as a real machine-control alternative.",
+            "source_ids": [
+              "src-finetime-dialogue",
+              "src-finetime-wealth-and-duties"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.4
+            ],
+            "confidence": "low",
+            "basis": "Young-adult resident cohort performs recurring data duties, central zero nonworkers; daily hours are not a person fraction.",
+            "source_ids": [
+              "src-finetime-dialogue",
+              "src-finetime-wealth-and-duties"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-finetime-dialogue",
+          "src-finetime-wealth-and-duties"
+        ],
+        "evidence": [
+          {
+            "claim": "Residents occupy a costly young-adult enclave and work short data-processing shifts.",
+            "source_ids": [
+              "src-finetime-dialogue",
+              "src-finetime-wealth-and-duties"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "AI Dot/Bubble interfaces guide everyday life before the killing crisis.",
+            "source_ids": [
+              "src-finetime-dialogue",
+              "src-finetime-wealth-and-duties"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Internal support is interpreted as conditional purchased access.",
+          "The zero-variant qualification and exact infrastructure ownership are explicitly uncertain."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          1
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar privileged enclave while making the distinction between short workdays and nonworking people explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Residents occupy a costly young-adult enclave and work short data-processing shifts.",
+          "AI Dot/Bubble interfaces guide everyday life before the killing crisis."
+        ],
+        "editorial_assumptions": [
+          "Internal support is interpreted as conditional purchased access.",
+          "The zero-variant qualification and exact infrastructure ownership are explicitly uncertain."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0376",
+        "status": "needs_evidence",
+        "reason": "Alpha 60’s control over thought and behavior does not establish Alphaville’s automatic material economy.",
+        "source_ids": [
+          "src-alphaville-reference"
+        ],
+        "analysis": "An AI ruler can coexist with many different labor and distribution systems; the checked account does not settle which one applies.",
+        "follow_up": "Skip deeper film reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0376",
+        "status": "zero_variant",
+        "reason": "Retain the familiar computer-governed city with its uncertain material qualification explicitly marked.",
+        "source_ids": [
+          "src-alphaville-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "alphaville-alpha60-work-zero"
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0377",
+        "status": "needs_evidence",
+        "reason": "Sleeper’s domestic robots do not establish the police state’s general material-access system.",
+        "source_ids": [
+          "src-sleeper-plot"
+        ],
+        "analysis": "A poet’s purchased servant and instant food preparation show sectoral and domestic automation, not population-wide work independence.",
+        "follow_up": "Skip further film reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0377",
+        "status": "zero_variant",
+        "reason": "Retain the actual consumer-service substitution as an explicitly uncertain zero variant.",
+        "source_ids": [
+          "src-sleeper-plot"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "sleeper2173-domestic-robot-zero"
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0409",
+        "status": "boundary_case",
+        "reason": "The Macra colony’s humans perform actual gas extraction.",
+        "source_ids": [
+          "src-macra-terror-reference"
+        ],
+        "analysis": "Brainwashing and imposed leisure rituals do not make useful mining dispensable or its biological rulers AI.",
+        "follow_up": "Keep as a forced-resource-labor comparison."
+      },
+      "after": {
+        "candidate_id": "c0409",
+        "status": "zero_variant",
+        "reason": "Retain the known colony as a low-confidence zero variant while preserving the real labor and biological ruler distinction.",
+        "source_ids": [
+          "src-macra-terror-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "doctorwho-macra-colony-zero"
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0410",
+        "status": "boundary_case",
+        "reason": "Pluto’s Company exploits actual industrial workers rather than a verified technologically dispensable workforce.",
+        "source_ids": [
+          "src-sun-makers-official"
+        ],
+        "analysis": "Energy abundance, monopoly and oppressive taxation are insufficient for either general post-work access or a zero variant.",
+        "follow_up": "Keep as an energy-monopoly labor comparison."
+      },
+      "after": {
+        "candidate_id": "c0410",
+        "status": "zero_variant",
+        "reason": "Retain the familiar monopoly labor order with an explicit low-confidence technological-restraint interpretation.",
+        "source_ids": [
+          "src-sun-makers-official"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "doctorwho-sunmakers-company-zero"
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0411",
+        "status": "boundary_case",
+        "reason": "Paradise Towers’ failing and murderous building automation does not establish durable resident support.",
+        "source_ids": [
+          "src-paradise-towers-reference"
+        ],
+        "analysis": "Maintenance machinery, sales promises and predation do not supply the missing material-access order.",
+        "follow_up": "Skip deeper serial reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0411",
+        "status": "zero_variant",
+        "reason": "Retain the automated residential order with uncertainty about controller ontology and real human maintenance explicit.",
+        "source_ids": [
+          "src-paradise-towers-reference",
+          "src-paradise-architect-control"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "doctorwho-paradise-towers-zero"
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0412",
+        "status": "needs_evidence",
+        "reason": "Terra Alpha’s forced happiness and policing do not establish automated material provision.",
+        "source_ids": [
+          "src-happiness-patrol-official"
+        ],
+        "analysis": "A robotic executioner and behavioral regime do not specify how ordinary necessities are produced and allocated.",
+        "follow_up": "Skip deeper serial reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0412",
+        "status": "zero_variant",
+        "reason": "Retain the familiar colony with its uncertain automation qualification openly stated.",
+        "source_ids": [
+          "src-happiness-patrol-official"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "doctorwho-terraalpha-happiness-zero"
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0413",
+        "status": "needs_evidence",
+        "reason": "Satellite Five’s information control does not establish the Empire’s material economy.",
+        "source_ids": [
+          "src-long-game-official"
+        ],
+        "analysis": "Manipulated news and job promotion do not specify automatic production or work-independent household access.",
+        "follow_up": "Skip wider future-history reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0413",
+        "status": "zero_variant",
+        "reason": "Retain the known imperial information order with its biological controller and uncertain material qualification explicit.",
+        "source_ids": [
+          "src-long-game-official",
+          "src-longgame-jagrafess-editor"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "doctorwho-satellite5-imperial-zero"
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0414",
+        "status": "boundary_case",
+        "reason": "New Earth’s hospital uses living experimental subjects and useful medical labor.",
+        "source_ids": [
+          "src-new-earth-reference"
+        ],
+        "analysis": "Cure capability and cloned biological inputs do not establish autonomous general provisioning or universal treatment rights.",
+        "follow_up": "Keep as an exploitative-care comparison."
+      },
+      "after": {
+        "candidate_id": "c0414",
+        "status": "zero_variant",
+        "reason": "Retain the familiar medical labor order with its sectoral scope and uncertain general automation qualification explicit.",
+        "source_ids": [
+          "src-new-earth-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "doctorwho-newearth-medical-zero"
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0416",
+        "status": "needs_evidence",
+        "reason": "Starship UK’s biological propulsion does not establish the residents’ material-access rules.",
+        "source_ids": [
+          "src-beast-below-reference"
+        ],
+        "analysis": "A coerced or later willing whale and automated policing do not provide an economic constitution.",
+        "follow_up": "Skip deeper episode reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0416",
+        "status": "zero_variant",
+        "reason": "Retain the technological habitat as an explicitly uncertain zero variant while preserving its biological labor dependency.",
+        "source_ids": [
+          "src-beast-below-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "doctorwho-starshipuk-zero"
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0417",
+        "status": "boundary_case",
+        "reason": "Gangers initially carry out the actual labor of remote human operators.",
+        "source_ids": [
+          "src-rebel-flesh-reference"
+        ],
+        "analysis": "Safer bodies change risk rather than eliminate work; subsequent independence does not itself establish a supported community.",
+        "follow_up": "Keep as a remote-labor/personhood comparison."
+      },
+      "after": {
+        "candidate_id": "c0417",
+        "status": "zero_variant",
+        "reason": "Retain the recognizable industrial case with the continued remote human work and limited zero-variant qualification explicit.",
+        "source_ids": [
+          "src-rebel-flesh-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "doctorwho-flesh-remote-labor-zero"
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0418",
+        "status": "needs_evidence",
+        "reason": "Two Streams’ robotic treatment and accelerated time do not establish a scoped general post-work support economy.",
+        "source_ids": [
+          "src-girl-waited-review"
+        ],
+        "analysis": "A specialized care setting and an anomalously stranded patient are insufficient to assign the host civilization universal access or production rules.",
+        "follow_up": "Skip full script reading; do not equate waiting time with a population leisure rate."
+      },
+      "after": {
+        "candidate_id": "c0418",
+        "status": "included",
+        "reason": "Retain the automated care community with its native-person proxy and specialized scope explicit.",
+        "source_ids": [
+          "src-girl-waited-review",
+          "src-twostreams-quarantine-care"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "doctorwho-twostreams-native-care"
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0419",
+        "status": "boundary_case",
+        "reason": "The sandminer is a robot-intensive workplace whose human crew still performs actual productive work.",
+        "source_ids": [
+          "src-robots-death-official"
+        ],
+        "analysis": "Automation of most tasks aboard a job site does not establish necessities allocated independently of employment.",
+        "follow_up": "Keep as an automated-workplace comparison; wider civilian economics remain unverified."
+      },
+      "after": {
+        "candidate_id": "c0419",
+        "status": "zero_variant",
+        "reason": "Retain the familiar robot-intensive workplace with continuing human participation explicitly preserved.",
+        "source_ids": [
+          "src-robots-death-official"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "doctorwho-sandminer-robot-work-zero"
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0420",
+        "status": "boundary_case",
+        "reason": "The Ark’s human/Monoid hierarchies use biological persons as actual servants.",
+        "source_ids": [
+          "src-ark-official"
+        ],
+        "analysis": "Role reversal and a generation ship do not establish a technological end to necessary labor.",
+        "follow_up": "Do not relabel biological slaves as machines or infer a later colony economy."
+      },
+      "after": {
+        "candidate_id": "c0420",
+        "status": "zero_variant",
+        "reason": "Retain the early maintained habitat as a narrow zero variant, separate from the later class reversal.",
+        "source_ids": [
+          "src-ark-official",
+          "src-ark-human-monoid-reversal"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "doctorwho-ark-human-led-zero",
+        "society_ids": [
+          "doctorwho-ark-human-led-zero",
+          "doctorwho-ark-monoid-rule-zero"
+        ],
+        "split_rationale": "The same Ark has two realized eras: human-led access with Monoid servants, then enslaved humans under biological Monoid rulers. Human status, authority and guarantee conditions materially reverse; the final colony is not counted as a third inferred economy."
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0422",
+        "status": "boundary_case",
+        "reason": "The Leisure Hive is a revenue-dependent tourist business rather than verified general post-work provision.",
+        "source_ids": [
+          "src-leisure-hive-reference"
+        ],
+        "analysis": "Commercial leisure, bankruptcy and useful research are not a universal resident support system.",
+        "follow_up": "Skip deeper serial reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0422",
+        "status": "zero_variant",
+        "reason": "Retain the familiar technologically intensive leisure business with its working resident population and alien-person proxy explicit.",
+        "source_ids": [
+          "src-leisure-hive-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "doctorwho-argolis-leisure-zero"
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0423",
+        "status": "needs_evidence",
+        "reason": "Drathro’s rule and food facilities do not establish that resident necessities are chiefly independent of useful human service.",
+        "source_ids": [
+          "src-mysterious-planet-reference"
+        ],
+        "analysis": "Technical maintenance is actually demanded; machine control alone does not establish post-work allocation or deliberately dispensable jobs.",
+        "follow_up": "Skip full transcript reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0423",
+        "status": "zero_variant",
+        "reason": "Retain the documented machine-directed settlement with its actual technical labor and uncertain floor explicit.",
+        "source_ids": [
+          "src-mysterious-planet-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "doctorwho-drathro-colony-zero"
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0425",
+        "status": "needs_evidence",
+        "reason": "Ganymede’s lethal automated workplace does not establish a scoped living post-work society’s wider material economy.",
+        "source_ids": [
+          "src-oxygen-reference"
+        ],
+        "analysis": "Profit-based killing and corporate oxygen charges are clear; the checked episode account does not establish the civilization’s general access rules or a supported displaced population.",
+        "follow_up": "Skip wider-future reconstruction and do not count corpses as leisure persons."
+      },
+      "after": {
+        "candidate_id": "c0425",
+        "status": "zero_variant",
+        "reason": "Retain the famous paid-survival work order with actual assigned labor and mixed company/algorithm authority explicit.",
+        "source_ids": [
+          "src-oxygen-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "doctorwho-ganymede-oxygen-work-zero"
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0427",
+        "status": "boundary_case",
+        "reason": "Boom’s algorithm manufactures military demand rather than demonstrating a post-work civilian economy.",
+        "source_ids": [
+          "src-boom-algorithm-dialogue"
+        ],
+        "analysis": "A fake enemy and automated casualty target do not supply ordinary household production and distribution.",
+        "follow_up": "Keep as an automated corporate-war comparison."
+      },
+      "after": {
+        "candidate_id": "c0427",
+        "status": "zero_variant",
+        "reason": "Retain the direct manufactured-work comparison with its actual labor, narrow population and uncertain ultimate control explicit.",
+        "source_ids": [
+          "src-boom-algorithm-dialogue"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "doctorwho-villengard-war-zero"
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0428",
+        "status": "needs_evidence",
+        "reason": "Finetime’s affluent enclave and short workdays do not establish automatic material production.",
+        "source_ids": [
+          "src-finetime-dialogue"
+        ],
+        "analysis": "Paying to reside and working briefly do not prove either ongoing technological provision or that the data work is dispensable.",
+        "follow_up": "Skip deeper reconstruction; do not convert hours per day into a share of nonworking people."
+      },
+      "after": {
+        "candidate_id": "c0428",
+        "status": "zero_variant",
+        "reason": "Retain the familiar privileged enclave while making the distinction between short workdays and nonworking people explicit.",
+        "source_ids": [
+          "src-finetime-dialogue",
+          "src-finetime-wealth-and-duties"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "doctorwho-finetime-shortwork-zero"
+      }
+    }
+  ]
+}

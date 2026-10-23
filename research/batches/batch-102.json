@@ -1,0 +1,335 @@
+{
+  "batch_id": "batch-102",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0905",
+    "c0906",
+    "c0907",
+    "c0908",
+    "c0909",
+    "c0910",
+    "c0911",
+    "c0912"
+  ],
+  "sources": [
+    {
+      "id": "src-b102-vacuum",
+      "title": "Vacuum Flowers",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Vacuum_Flowers",
+      "kind": "secondary_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Comprise is a human hive mind; outside it wetware workers and a recorded personality still perform useful labor.",
+      "limitations": "Mind integration does not establish the Comprise population’s material access; a recorded personality is not automatically an idle resident."
+    },
+    {
+      "id": "src-b102-stations",
+      "title": "Stations of the Tide",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Stations_of_the_Tide",
+      "kind": "secondary_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Technology-transfer enforcement and a working bureaucrat on Miranda.",
+      "limitations": "Powerful restricted technology does not establish an ordinary supported Bureaucracy population."
+    },
+    {
+      "id": "src-b102-tomorrow",
+      "title": "Tomorrow and Tomorrow",
+      "author": "Arc Manor Books",
+      "url": "https://www.arcmanorbooks.com/product-page/tomorrow-and-tomorrow",
+      "kind": "publisher_description",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Merlin repeatedly returns from cryosleep in future eras, receives advanced interventions and is asked to help humanity.",
+      "limitations": "No particular future population’s productive/access rules are established by the description; a sequence of eras is not one economy."
+    },
+    {
+      "id": "src-b102-strokes",
+      "title": "Between the Strokes of Night",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Between_the_Strokes_of_Night",
+      "kind": "secondary_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "S-space humans remain aware at slowed metabolic rates, receive robot services, command ships and pursue an organized research mission.",
+      "limitations": "Slow time is not sleep or a nonworking percentage; normal-time planetary communities and later T-space are separate scopes."
+    },
+    {
+      "id": "src-b102-strokes-food",
+      "title": "Book title where characters slow down perceived time in order to time travel",
+      "author": "Science Fiction & Fantasy Stack Exchange contributors quoting Sheffield",
+      "url": "https://scifi.stackexchange.com/questions/262840/book-title-where-characters-slow-down-perceived-time-in-order-to-time-travel",
+      "kind": "community_quote_of_primary",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Accepted identification and short quoted passages connect robot fulfillment of requests with food served aboard the S-space ship.",
+      "limitations": "Community transcription corroborated by the reference plot; only relevant food/service passages used, not guesses about other novels or a complete text."
+    },
+    {
+      "id": "src-b102-rite",
+      "title": "Rite of Passage",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Rite_of_Passage_(novel)",
+      "kind": "secondary_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Ships trade technology for goods, train adolescents for useful contribution and retain population controls.",
+      "limitations": "Habitat security and technological superiority do not establish labor-independent automated necessities."
+    },
+    {
+      "id": "src-b102-doors",
+      "title": "A Million Open Doors",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/A_Million_Open_Doors",
+      "kind": "secondary_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Nou Occitan and Caledony have different cultural/economic practices and face springer contact.",
+      "limitations": "Transportation and youth leisure do not themselves establish household production."
+    },
+    {
+      "id": "src-b102-doors-review",
+      "title": "A brilliant standalone book: John Barnes’s A Million Open Doors",
+      "author": "Jo Walton, Tor.com / Reactor",
+      "url": "https://reactormag.com/just-what-i-want-from-science-fiction-john-barness-a-million-open-doors/",
+      "kind": "secondary_review",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Contrasts the first book’s cultures and explicitly locates the robot/AI problem of leisure in later retconned volumes.",
+      "limitations": "Later-book automation is not imported into the first novel’s local economies; Walton’s evaluation remains criticism, not a demographic census."
+    },
+    {
+      "id": "src-b102-stealing",
+      "title": "When the Means of Production Own Themselves",
+      "author": "Karl Schroeder",
+      "url": "https://kschroeder.substack.com/p/when-the-means-of-production-own",
+      "kind": "author_retrospective",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Author explains independent resource actants and deodands, referring to Stealing Worlds and Lady of Mazes.",
+      "limitations": "Retrospective technical/economic concept and real-world proposals do not establish a realized human necessities entitlement in the novel."
+    },
+    {
+      "id": "src-b102-stealing-publisher",
+      "title": "Stealing Worlds",
+      "author": "Tor publisher description reproduced by Google Books",
+      "url": "https://books.google.com/books?id=JrVjuwEACAAJ",
+      "kind": "publisher_description",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Sura enters LARP/blockchain alternative economic networks while fleeing creditors.",
+      "limitations": "Access to an alternative trading network is not itself technological subsistence provision."
+    },
+    {
+      "id": "src-b102-kiln",
+      "title": "Kiln People",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Kiln_People",
+      "kind": "secondary_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Affordable human-derived clay copies do real household, business and investigative work; some claim independence.",
+      "limitations": "Copies’ short lifespans and synthetic bodies do not make their conscious human-derived work disappear from the denominator."
+    }
+  ],
+  "societies": [
+    {
+      "id": "strokes-s-space-research-community",
+      "candidate_id": "c0908",
+      "name": "Between the Strokes of Night — S-space researchers",
+      "work": "Between the Strokes of Night",
+      "society": "Active slowed humans receiving continuing shipboard robot provision",
+      "media": [
+        "book"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Sheffield’s novel, established Immortal research/ship society",
+        "period": "Functioning S-space research communities before the final T-space experiment",
+        "population": "Awake living human members of the Immortal research community and its ship crews",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Normal-time planetary subjects",
+          "Passengers held in suspended animation",
+          "Calendar years passed as leisure time",
+          "The final T-space volunteer as the whole population"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "S-space humans remain conscious while their metabolism and perception run slowly. Robots operating in ordinary time fulfill requests and provide shipboard services, including prepared food. The sustaining arrangement therefore concerns active living people, rather than sleepers or a time ratio mistaken for abundance. Guarantees are favorably estimated within the maintained research community, with uncertainty because access is limited to its ships and institutions rather than promised to all planetary humanity.\n\nHumans command the ships, and the new researchers negotiate their own facility and working conditions. Control is provisionally placed toward shared human authority, qualified by restricted recruitment and senior researchers’ institutional power. Fast-seeming service does not make the robots sovereign. Most visible members devote themselves to science, exploration and technical planning. A low nonworking estimate is an explicitly noncanonical directional reading of that research-centered population, with a broad interval for care, rest and unobserved roles. The slowed metabolism is never used to calculate participation; voluntary science and planning remain useful work.",
+      "axis": {
+        "guarantees": -0.6,
+        "control": 0.5,
+        "nonworking": 0.1
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.9,
+            0.05
+          ],
+          "confidence": "low",
+          "basis": "Actual robot request fulfillment and food service support awake humans in maintained ships/research institutions; limited membership and missing universal charter qualify guarantees.",
+          "source_ids": [
+            "src-b102-strokes",
+            "src-b102-strokes-food"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.85
+          ],
+          "confidence": "low",
+          "basis": "Human ship command and negotiated research-facility arrangements support shared authority, while senior researchers and selective recruitment qualify equal control.",
+          "source_ids": [
+            "src-b102-strokes",
+            "src-b102-strokes-food"
+          ]
+        },
+        "nonworking": {
+          "interval": [
+            0,
+            0.4
+          ],
+          "confidence": "low",
+          "basis": "The explicitly research-centered active adult community supports a low editorial nonworking estimate; .1 is not a census, and the 1/2000 time ratio is not used.",
+          "source_ids": [
+            "src-b102-strokes",
+            "src-b102-strokes-food"
+          ]
+        }
+      },
+      "regime_primary": 2,
+      "regime_alternatives": [
+        1
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-b102-strokes",
+        "src-b102-strokes-food"
+      ],
+      "evidence": [
+        {
+          "claim": "Actual robot request fulfillment and food service support awake humans in maintained ships/research institutions; limited membership and missing universal charter qualify guarantees.",
+          "source_ids": [
+            "src-b102-strokes",
+            "src-b102-strokes-food"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "Human ship command and negotiated research-facility arrangements support shared authority, while senior researchers and selective recruitment qualify equal control.",
+        "The explicitly research-centered active adult community supports a low editorial nonworking estimate; .1 is not a census, and the 1/2000 time ratio is not used."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": true
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0905",
+      "status": "needs_evidence",
+      "reason": "The Comprise’s collective mind does not establish ordinary production and access.",
+      "source_ids": [
+        "src-b102-vacuum"
+      ],
+      "analysis": "Wetware and hive integration are clear, but the short references do not show how the selected Earth population receives necessities independently of useful work.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0906",
+      "status": "needs_evidence",
+      "reason": "A technology-enforcement agency and its working agent do not establish a supported social population.",
+      "source_ids": [
+        "src-b102-stations"
+      ],
+      "analysis": "The bounded summary does not identify ordinary productive and allocation arrangements; no novel reconstruction.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0907",
+      "status": "needs_evidence",
+      "reason": "Repeated future revival does not identify one verified material economy.",
+      "source_ids": [
+        "src-b102-tomorrow"
+      ],
+      "analysis": "Medicine, cryonics and an exceptional protagonist’s support are insufficient; dormant intervals are not active leisure.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0908",
+      "status": "included",
+      "reason": "Robot services and food support an active, human-commanded research community with a disclosed participation estimate.",
+      "source_ids": [
+        "src-b102-strokes",
+        "src-b102-strokes-food"
+      ],
+      "society_id": "strokes-s-space-research-community"
+    },
+    {
+      "candidate_id": "c0909",
+      "status": "needs_evidence",
+      "reason": "The Ships’ support arrangements remain unclear despite advanced technology and trade.",
+      "source_ids": [
+        "src-b102-rite"
+      ],
+      "analysis": "Training for contribution and importing goods do not establish automated necessities; forced initiation and population control do not automatically make a zero variant.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0910",
+      "status": "needs_evidence",
+      "reason": "First-book cultural contrasts do not yet establish the local automated material economies.",
+      "source_ids": [
+        "src-b102-doors",
+        "src-b102-doors-review"
+      ],
+      "analysis": "The review explicitly discusses later-volume robot leisure and retcons. Do not project those backward into Nou Occitan or Caledony.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0911",
+      "status": "needs_evidence",
+      "reason": "Resource actants and alternative exchange do not establish a realized household support floor.",
+      "source_ids": [
+        "src-b102-stealing",
+        "src-b102-stealing-publisher"
+      ],
+      "analysis": "Author explanation establishes a distinct control concept, but contemporary AI demonstrations and ecological advocacy are not novel-level ordinary allocation evidence.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0912",
+      "status": "boundary_case",
+      "reason": "Temporary human-derived copies still perform the productive work.",
+      "source_ids": [
+        "src-b102-kiln"
+      ],
+      "analysis": "Owners delegate labor to active conscious copies with memories and independence claims; synthetic clay and short life do not turn their work into nonhuman automation or prove a human nonworking society.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    }
+  ],
+  "review_notes": [
+    "Previous goal turn advanced 808/178 to 904/216 with durable evidence and records: substantive progress, not a blocker or status-only continuation.",
+    "Eight sequential quick checks add one scoped record; unclear material mechanisms are not rescued through full fictional reading.",
+    "S-space is awake slowed life, not stasis. Food/service passages are labeled community quotations, corroborated by plot; useful research counts and the low participation point is explicitly editorial.",
+    "A Million Open Doors review distinguishes later robot-leisure retcons from the original novel; no later institutions are back-projected.",
+    "Kiln copies remain human-derived workers, and Stealing Worlds author theory does not automatically establish a realized floor."
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "total": 3,
+  "items": [
+    {
+      "type": "app",
+      "name": "Outer Wilds",
+      "id": 753640,
+      "price": {
+        "currency": "USD",
+        "initial": 2499,
+        "final": 1249
+      },
+      "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/c3b501a7177b6c902c69565366d4c5f4b82f23fe/capsule_231x87.jpg?t=1785424341",
+      "metascore": "85",
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "streamingvideo": false,
+      "controller_support": "full"
+    },
+    {
+      "type": "app",
+      "name": "Outer Wilds - Echoes of the Eye",
+      "id": 1622100,
+      "price": {
+        "currency": "USD",
+        "initial": 1499,
+        "final": 749
+      },
+      "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1622100/capsule_231x87.jpg?t=1701451540",
+      "metascore": "",
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "streamingvideo": false,
+      "controller_support": "full"
+    },
+    {
+      "type": "app",
+      "name": "Outer Wilds - Original Soundtrack",
+      "id": 1286760,
+      "price": {
+        "currency": "USD",
+        "initial": 999,
+        "final": 399
+      },
+      "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1286760/capsule_231x87.jpg?t=1668465793",
+      "metascore": "",
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "streamingvideo": false
+    }
+  ]
+}

@@ -1,0 +1,1699 @@
+{
+  "revision_id": "revision-037",
+  "revised_on": "2026-10-17",
+  "reason": "Twelve Doctorow/Stross, Rajaniemi, Kunsken and Egan models retained. Quiet and gogol activity is real human-derived labor; Puppets are biological people. Earth/Cloud, gleisners/polises/fleshers and origin/employer scopes stay separate. Atlanta gains direct author-published identification instead of an all-fleshers aggregation.",
+  "changes": [
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-diaspora-atlanta-author-blurb",
+        "title": "Diaspora: Atlanta flesher enclave",
+        "author": "Greg Egan publisher description",
+        "url": "https://books.google.com/books/about/Diaspora.html?id=PctFEAAAQBAJ",
+        "kind": "publisher_description",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed author-published Atlanta and disaster synopsis read",
+        "read_scope": "Author-published description identifies a thriving Atlanta flesher enclave visited in borrowed robot bodies before the gamma-ray disaster.",
+        "limitations": "A named enclave and period, not all flesher communities sharing one material economy."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-quantum-oortian-excerpt",
+        "title": "The Quantum Thief: Mieli and embodied technical support",
+        "author": "Hannu Rajaniemi / Tor excerpt",
+        "url": "https://reactormag.com/excerpt-the-quantum-thief-by-hannu-rajaniemi/",
+        "kind": "primary_text",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed Mieli/Perhonen and body-support paragraphs read",
+        "read_scope": "Bounded excerpt identifies Mieli, Perhonen, Oortian cultural references and a body biot feed in her shipboard service context.",
+        "limitations": "One individual’s ship/service support is not proof of universal Oortian household rights or independent origins of all equipment."
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "rapturenerds-active-cloud",
+        "candidate_id": "c0157",
+        "name": "The Rapture of the Nerds (active human-derived Cloud communities)",
+        "work": "The Rapture of the Nerds",
+        "society": "The Rapture of the Nerds (active human-derived Cloud communities)",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Named published literary setting and stated period only",
+          "period": "The functioning smartcloud communities distinct from preserved Earth",
+          "population": "Active human-derived uploaded Cloud participants",
+          "human_population_proxy": true,
+          "exclusions": "Native nonhuman AI and preserved biological humans are separate populations; inactive data and duplicate avatars are not additional persons.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Ascended posthumans occupy the smartcloud while non-uploaded people remain on Earth. This record selects the active human-derived Cloud community rather than treating both populations as one economy. The guarantee best guess allows a substantial experienced-resource floor, qualified by computing dependence and uncertain internal rights. Uploading itself does not prove equal secure support or that all public useful activity has ended.\n\n Human-derived collective and resident agency receives positive control weight, with independent machine power inside a wide interval. A former human in software is not automatically an unrelated AI sovereign. The high nonworking scenario permits extensive private leisure while counting care, administration, maintenance, services and useful creation. Server execution, inactive data and multiple avatars do not supply a person census. The material floor and ownership are explicitly low-confidence interpretations of the cloud premise. Earth’s different technical restraint and Huw’s duties are not silently assigned to the same access population.",
+        "axis": {
+          "guarantees": -0.45,
+          "control": 0.55,
+          "nonworking": 0.6
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.95,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Computational continuation permits an experienced-resource floor with rights uncertain.",
+            "source_ids": [
+              "src-rapture-author-about",
+              "src-rapture-pw"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.95,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Human-derived resident agency is central with stronger native-machine power possible.",
+            "source_ids": [
+              "src-rapture-author-about",
+              "src-rapture-pw"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.03,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Private leisure may be extensive, but useful care/creation count and avatars do not multiply persons.",
+            "source_ids": [
+              "src-rapture-author-about",
+              "src-rapture-pw"
+            ]
+          }
+        },
+        "regime_primary": 2,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-rapture-author-about",
+          "src-rapture-pw"
+        ],
+        "evidence": [
+          {
+            "claim": "The setting distinguishes ascended posthumans in the smartcloud from remaining terrestrial humans.",
+            "source_ids": [
+              "src-rapture-author-about",
+              "src-rapture-pw"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Only active human-derived Cloud participants define the proxy.",
+          "Internal guarantees, ownership and participation remain broad estimates."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distinct uploaded community rather than combine Earth and Cloud.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The setting distinguishes ascended posthumans in the smartcloud from remaining terrestrial humans."
+        ],
+        "editorial_assumptions": [
+          "Only active human-derived Cloud participants define the proxy.",
+          "Internal guarantees, ownership and participation remain broad estimates."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0157",
+        "status": "needs_evidence",
+        "reason": "Earth and the Cloud are distinct populations, and the available short descriptions do not settle a single material-access regime.",
+        "source_ids": [
+          "src-rapture-author-about",
+          "src-rapture-pw"
+        ],
+        "analysis": "Uploading, gifts and technology jury service establish capability and conflict but do not supply each society's guarantees and effective control.",
+        "follow_up": "Skip a full-novel investigation; the next separate non-uploaded-community lead also requires a short, scoped reference check."
+      },
+      "after": {
+        "candidate_id": "c0157",
+        "status": "included",
+        "reason": "Retain the distinct uploaded community rather than combine Earth and Cloud.",
+        "source_ids": [
+          "src-rapture-author-about",
+          "src-rapture-pw"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "rapturenerds-active-cloud"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "rapturenerds-earth-preserve-zero",
+        "candidate_id": "c0158",
+        "name": "The Rapture of the Nerds (the terrestrial preservation communities)",
+        "work": "The Rapture of the Nerds",
+        "society": "The Rapture of the Nerds (the terrestrial preservation communities)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published literary setting and stated period only",
+          "period": "The functioning non-uploaded terrestrial preserve around Huw",
+          "population": "Living biological human preserve residents",
+          "human_population_proxy": false,
+          "exclusions": "Uploaded Cloud participants have different needs; pottery and technology-jury service remain work where useful or assigned.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Non-uploaded humans remain in a terrestrial preserve while Huw makes pottery and undertakes technology-jury service. The surrounding smartcloud’s capacity is not automatically the preserve’s universal welfare system. The guarantee best guess allows a partial local floor, qualified by technical restraint and uncertain ordinary access. This zero variant retains useful human roles rather than treating preservation as a population-wide retirement status.\n\n Resident human and local institutional agency receives positive control weight, with substantial external technical dependence possible inside the interval. Choosing to stay embodied does not prove either full ownership or complete machine sovereignty. The modest nonworking scenario counts care, craft useful to others, civic service, maintenance and creation. Private hobbies are not automatically jobs, while assigned jury duty counts. The scope is the existing terrestrial community rather than every later transformation or uploaded future. Broad uncertainty preserves the material distinction without inventing a common constitution for both biological and software populations.",
+        "axis": {
+          "guarantees": -0.15,
+          "control": 0.65,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.9,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Preserve support is plausible but external dependence and restraint qualify it.",
+            "source_ids": [
+              "src-rapture-author-about",
+              "src-rapture-shelf-awareness"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.85,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Local human agency is central with outside technical power uncertain.",
+            "source_ids": [
+              "src-rapture-author-about",
+              "src-rapture-shelf-awareness"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.03,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Useful pottery, care and assigned civic service count; private hobbies are distinct.",
+            "source_ids": [
+              "src-rapture-author-about",
+              "src-rapture-shelf-awareness"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-rapture-author-about",
+          "src-rapture-shelf-awareness"
+        ],
+        "evidence": [
+          {
+            "claim": "The terrestrial preserve includes Huw’s pottery and technology-jury service, distinct from uploaded humanity.",
+            "source_ids": [
+              "src-rapture-author-about",
+              "src-rapture-shelf-awareness"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The local material floor and exact technical dependence are estimates.",
+          "Useful craft and private play are distinguished."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          2
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distinct embodied preservation order with real civic and craft work visible.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The terrestrial preserve includes Huw’s pottery and technology-jury service, distinct from uploaded humanity."
+        ],
+        "editorial_assumptions": [
+          "The local material floor and exact technical dependence are estimates.",
+          "Useful craft and private play are distinguished."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0158",
+        "status": "needs_evidence",
+        "reason": "The terrestrial preserve is identified, but short references do not establish how its basic goods are produced and allocated.",
+        "source_ids": [
+          "src-rapture-author-about",
+          "src-rapture-shelf-awareness"
+        ],
+        "analysis": "Huw's chosen pottery and a paradise label do not establish all residents' work independence or control of support systems.",
+        "follow_up": "Skip further reading in the faster pass; reopen only on a clear economic reference."
+      },
+      "after": {
+        "candidate_id": "c0158",
+        "status": "zero_variant",
+        "reason": "Retain the distinct embodied preservation order with real civic and craft work visible.",
+        "source_ids": [
+          "src-rapture-author-about",
+          "src-rapture-shelf-awareness"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "rapturenerds-earth-preserve-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "quantumthief-oubliette-timework-zero",
+        "candidate_id": "c0159",
+        "name": "The Quantum Thief (Oubliette’s Time and Quiet labor)",
+        "work": "The Quantum Thief",
+        "society": "The Quantum Thief (Oubliette’s Time and Quiet labor)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published literary setting and stated period only",
+          "period": "The functioning Oubliette time-balance order before its controller changes",
+          "population": "Active human-derived Oubliette citizens in living and Quiet machine embodiments",
+          "human_population_proxy": true,
+          "exclusions": "Quiet workers are persons, not automatic nonconscious machinery; inactive records and visitor exceptions are excluded.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Oubliette’s citizens use time balances for goods and continuation while uploaded people operate Quiet bodies maintaining the city. The productive miracle therefore includes real human-derived labor, not only independent automatic equipment. The guarantee best guess is weak and conditional because access depends on balances and imposed service. Temporary human embodiment and machine embodiment are phases of active persons rather than separate populations that can be counted twice.\n\n Concentrated human-derived hidden authority receives control near the elite reference point, with substantial machine mediation inside the interval. Being uploaded does not automatically make a ruler an unrelated AI. The modest nonworking scenario counts city maintenance, administration, care, services and useful creation in every active embodiment. The length of a Quiet period is not copied into a population participation percentage. Visitors have different rules and are not the resident denominator. This zero variant preserves the economy’s actual service exchange instead of calling robot-shaped workers proof that nobody works.",
+        "axis": {
+          "guarantees": 0.6,
+          "control": 0.03,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.6,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Balances and imposed service make material continuation conditional.",
+            "source_ids": [
+              "src-quantum-thief-reference",
+              "src-rajaniemi-gill-glossary"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.75,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Hidden human-derived authority is central with machine mediation uncertain.",
+            "source_ids": [
+              "src-quantum-thief-reference",
+              "src-rajaniemi-gill-glossary"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Quiet maintenance is real person work; phase lengths and bodies are not a census.",
+            "source_ids": [
+              "src-quantum-thief-reference",
+              "src-rajaniemi-gill-glossary"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-quantum-thief-reference",
+          "src-rajaniemi-gill-glossary"
+        ],
+        "evidence": [
+          {
+            "claim": "Time purchases goods and uploaded citizens operate city-maintenance bodies under hidden rulers.",
+            "source_ids": [
+              "src-quantum-thief-reference",
+              "src-rajaniemi-gill-glossary"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "All active resident embodiments share one person denominator.",
+          "Exact material coverage and participation are estimates."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the famous time-exchange city with Quiet work and human-derived controllers explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Time purchases goods and uploaded citizens operate city-maintenance bodies under hidden rulers."
+        ],
+        "editorial_assumptions": [
+          "All active resident embodiments share one person denominator.",
+          "Exact material coverage and participation are estimates."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0159",
+        "status": "boundary_case",
+        "reason": "Oubliette's machine bodies are operated by uploaded citizens performing real work in exchange for time.",
+        "source_ids": [
+          "src-quantum-thief-reference",
+          "src-rajaniemi-gill-glossary"
+        ],
+        "analysis": "The Quiet are active human emulations maintaining the city. Counting embodied citizens' leisure while erasing their working uploaded phases would distort both the labor mechanism and denominator. No independently automated replacement or unnecessary-work policy was established.",
+        "follow_up": "Preserve as a body/upload labor-cycle comparison; skip a deeper novel investigation."
+      },
+      "after": {
+        "candidate_id": "c0159",
+        "status": "zero_variant",
+        "reason": "Retain the famous time-exchange city with Quiet work and human-derived controllers explicit.",
+        "source_ids": [
+          "src-quantum-thief-reference",
+          "src-rajaniemi-gill-glossary"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "quantumthief-oubliette-timework-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "quantumthief-sobornost-gogol-zero",
+        "candidate_id": "c0160",
+        "name": "The Quantum Thief (Sobornost’s gogol labor order)",
+        "work": "The Quantum Thief",
+        "society": "The Quantum Thief (Sobornost’s gogol labor order)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published literary setting and stated period only",
+          "period": "The functioning Sobornost specialized-emulation production system",
+          "population": "Active human-derived gogol workers and human-derived governing persons",
+          "human_population_proxy": true,
+          "exclusions": "Inactive emulation data and every software process are not extra persons; human-derived minds are not automatically unrelated AI.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Sobornost’s productive capability depends on specialized human brain emulations. The material power is immense, but active gogols remain workers with uncertain or coercive access to resources. The guarantee best guess is extremely weak across that person population rather than inferred from the rulers’ capabilities. This zero variant makes the human-derived contribution visible instead of treating all computation as automatic labor-free output.\n\n Concentrated human-derived founder and institutional authority receives control near the elite reference point, with autonomous machine mediation inside a wide interval. A disembodied ruler’s power does not itself establish unrelated AI origin. The low nonworking scenario counts specialized processing, production, administration, maintenance, care and useful creation where assigned or useful. Private background thought is not automatically a job, but a specialized imposed emulation task is. Inactive copies and unused files do not enlarge the active denominator. The point remains distinct from Zoku commons and Oubliette’s time-service arrangement.",
+        "axis": {
+          "guarantees": 0.98,
+          "control": 0.02,
+          "nonworking": 0.1
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.65,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Coercive specialized emulation gives very weak equal resource security.",
+            "source_ids": [
+              "src-quantum-thief-reference",
+              "src-quantum-thief-random-review"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.85,
+              0.35
+            ],
+            "confidence": "low",
+            "basis": "Human-derived founder authority dominates with machine-mediated alternatives.",
+            "source_ids": [
+              "src-quantum-thief-reference",
+              "src-quantum-thief-random-review"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Assigned specialized emulation tasks count; inactive software and private cognition are distinct.",
+            "source_ids": [
+              "src-quantum-thief-reference",
+              "src-quantum-thief-random-review"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-quantum-thief-reference",
+          "src-quantum-thief-random-review"
+        ],
+        "evidence": [
+          {
+            "claim": "Sobornost production uses specialized human brain emulations and has powerful governing founders.",
+            "source_ids": [
+              "src-quantum-thief-reference",
+              "src-quantum-thief-random-review"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Only active human-derived worker/ruler identities enter the proxy.",
+          "Ordinary internal resource coverage and participation are broad estimates."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the famous emulation economy with real labor and controller origin distinguished.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Sobornost production uses specialized human brain emulations and has powerful governing founders."
+        ],
+        "editorial_assumptions": [
+          "Only active human-derived worker/ruler identities enter the proxy.",
+          "Ordinary internal resource coverage and participation are broad estimates."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0160",
+        "status": "boundary_case",
+        "reason": "The Sobornost's productive miracle relies on specialized human brain emulations, not an established independent post-work support system.",
+        "source_ids": [
+          "src-quantum-thief-reference",
+          "src-quantum-thief-random-review"
+        ],
+        "analysis": "Gogols are human-derived workers. Their enslavement and vast infrastructure do not establish freedom from labor for the scoped population, and no arbitrary AI/person distinction is used to erase their work.",
+        "follow_up": "Skip deeper reading; a narrower elite-support point would require clear allocation evidence rather than presumed privilege."
+      },
+      "after": {
+        "candidate_id": "c0160",
+        "status": "zero_variant",
+        "reason": "Retain the famous emulation economy with real labor and controller origin distinguished.",
+        "source_ids": [
+          "src-quantum-thief-reference",
+          "src-quantum-thief-random-review"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "quantumthief-sobornost-gogol-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "fractalprince-sirr-zero",
+        "candidate_id": "c0161",
+        "name": "The Fractal Prince (Sirr’s utility-fog hierarchy)",
+        "work": "The Fractal Prince",
+        "society": "The Fractal Prince (Sirr’s utility-fog hierarchy)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published literary setting and stated period only",
+          "period": "The functioning Sirr order during its conflict with Sobornost",
+          "population": "Living biological humanlike Sirr residents",
+          "human_population_proxy": true,
+          "exclusions": "Jinn and other active information beings have separate personhood questions; utility fog is not automatically equal provision.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Sirr combines elite families, utility fog and jinn in a technologically powerful but stratified city. The guarantee best guess is weak because material capability does not establish secure equal access for ordinary residents. The zero-variant interpretation concerns technical substitution alongside continuing useful human roles, rather than assuming an exotic-looking technology either abolishes labor or has no economic consequences.\n\n Concentrated humanlike family authority receives control near the non-AI elite reference point, with significant autonomous technical power inside the interval. Information entities are not all assumed mere tools, but their presence does not automatically make them sole sovereigns. The moderate biological nonworking scenario counts production, administration, services, maintenance, care and useful creation. Elite status and fog capacity are not employment statistics. The city’s access population remains distinct from Sobornost emulation workers and Zoku communities. Broad bounds keep ordinary household rights uncertain without inventing a universal post-conflict welfare order.",
+        "axis": {
+          "guarantees": 0.75,
+          "control": 0.03,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.6,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Elite family access weakens a common floor despite utility-fog capacity.",
+            "source_ids": [
+              "src-fractal-prince-truslow",
+              "src-rajaniemi-gill-glossary"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.9,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Humanlike family concentration is central with autonomous technical alternatives.",
+            "source_ids": [
+              "src-fractal-prince-truslow",
+              "src-rajaniemi-gill-glossary"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.03,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Biological useful roles remain; information beings and fog are not a human labor census.",
+            "source_ids": [
+              "src-fractal-prince-truslow",
+              "src-rajaniemi-gill-glossary"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-fractal-prince-truslow",
+          "src-rajaniemi-gill-glossary"
+        ],
+        "evidence": [
+          {
+            "claim": "The city has elite families, utility fog, jinn and conflict with Sobornost.",
+            "source_ids": [
+              "src-fractal-prince-truslow",
+              "src-rajaniemi-gill-glossary"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary material coverage and effective controller mix are estimates.",
+          "Active information beings are not silently included as biological residents."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distinct stratified utility-fog city with population and control limits explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The city has elite families, utility fog, jinn and conflict with Sobornost."
+        ],
+        "editorial_assumptions": [
+          "Ordinary material coverage and effective controller mix are estimates.",
+          "Active information beings are not silently included as biological residents."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0161",
+        "status": "needs_evidence",
+        "reason": "Sirr's technological capabilities and elite hierarchy are documented, but general labor-independent provision is not.",
+        "source_ids": [
+          "src-fractal-prince-truslow",
+          "src-rajaniemi-gill-glossary"
+        ],
+        "analysis": "Utility fog, jinn and trade in minds do not themselves establish reliable material access for residents.",
+        "follow_up": "Skip primary-text recovery under the user's pace instruction."
+      },
+      "after": {
+        "candidate_id": "c0161",
+        "status": "zero_variant",
+        "reason": "Retain the distinct stratified utility-fog city with population and control limits explicit.",
+        "source_ids": [
+          "src-fractal-prince-truslow",
+          "src-rajaniemi-gill-glossary"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "fractalprince-sirr-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "quantumseries-zoku-commons",
+        "candidate_id": "c0162",
+        "name": "Jean le Flambeur series (the Zoku virtual communities)",
+        "work": "Jean le Flambeur series",
+        "society": "Jean le Flambeur series (the Zoku virtual communities)",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Shared Zoku community capabilities in the trilogy; exact Causal Angel-only institutional claims excluded",
+          "period": "The recurring functioning Zoku virtual-world model",
+          "population": "Active human-derived Zoku participants",
+          "human_population_proxy": true,
+          "exclusions": "Other factions and inactive avatars are excluded; exact book-three political events are not inferred from a series-level capability reference.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Zoku can build and inhabit virtual worlds, creating a plausible technical commons for active human-derived participants. The guarantee best guess allows a strong experienced-resource floor, qualified by substrate access and uncertain internal membership rules. Virtual capability is not automatically equal ownership or a complete canonical welfare charter. The record selects the recurring community model rather than inventing a precise new institution only for The Causal Angel.\n\n Shared human-derived resident agency gives strongly positive control weight, with platform dependence and concentrated authority inside the interval. Software embodiment does not automatically make the participants unrelated AI rulers. The high nonworking scenario permits private gaming and leisure while counting useful public creation, care, maintenance, coordination and service. A game that serves others may be work; private play is not automatically a job. Multiple avatars and inactive worlds do not multiply the population. Broad bounds preserve uncertainty and keep Zoku distinct from coerced gogols and time-bound Quiet workers.",
+        "axis": {
+          "guarantees": -0.6,
+          "control": 0.8,
+          "nonworking": 0.55
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.95,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Virtual-world creation permits a strong floor with membership/substrate limits.",
+            "source_ids": [
+              "src-quantum-thief-random-review",
+              "src-rajaniemi-characters-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Shared human-derived agency is central with platform control uncertain.",
+            "source_ids": [
+              "src-quantum-thief-random-review",
+              "src-rajaniemi-characters-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.03,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Private play differs from useful public creation; active identities alone count.",
+            "source_ids": [
+              "src-quantum-thief-random-review",
+              "src-rajaniemi-characters-reference"
+            ]
+          }
+        },
+        "regime_primary": 2,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-quantum-thief-random-review",
+          "src-rajaniemi-characters-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "Zoku have virtual-world capabilities and are a faction distinct from Sobornost and Oubliette.",
+            "source_ids": [
+              "src-quantum-thief-random-review",
+              "src-rajaniemi-characters-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "A recurring series-level community model is selected.",
+          "Material coverage and participation are estimates, not asserted book-three policies."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distinct virtual commons with human-derived agency and active identities explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Zoku have virtual-world capabilities and are a faction distinct from Sobornost and Oubliette."
+        ],
+        "editorial_assumptions": [
+          "A recurring series-level community model is selected.",
+          "Material coverage and participation are estimates, not asserted book-three policies."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0162",
+        "status": "needs_evidence",
+        "reason": "The quick faction references establish Zoku virtual-world capabilities without settling a scoped Causal Angel economy.",
+        "source_ids": [
+          "src-quantum-thief-random-review",
+          "src-rajaniemi-characters-reference"
+        ],
+        "analysis": "A quantum gaming community does not by itself establish necessities, member entitlements or useful-work participation in the target period.",
+        "follow_up": "Skip deeper reading; do not manufacture a point from technological rank or franchise-wide assumptions."
+      },
+      "after": {
+        "candidate_id": "c0162",
+        "status": "included",
+        "reason": "Retain the distinct virtual commons with human-derived agency and active identities explicit.",
+        "source_ids": [
+          "src-quantum-thief-random-review",
+          "src-rajaniemi-characters-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "quantumseries-zoku-commons"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "quantumthief-oortian-origin-zero",
+        "candidate_id": "c0163",
+        "name": "The Quantum Thief (the reconstructed Oortian origin community)",
+        "work": "The Quantum Thief",
+        "society": "The Quantum Thief (the reconstructed Oortian origin community)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published literary setting and stated period only",
+          "period": "The inhabited Oortian cultural background reconstructed around Mieli’s origin",
+          "population": "Active human-derived Oortian residents in the reconstructed origin model",
+          "human_population_proxy": true,
+          "exclusions": "Mieli’s later employer and ship support are not universal Oortian institutions; destroyed people and inactive records are excluded.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Mieli’s Oortian origin and active service identify a distinct cultural population, while her ship context demonstrates sophisticated bodily support. The wider community’s material floor is less explicit, so this record is a deliberately broad reconstructed best guess. The guarantee point allows mixed conditional support rather than copying one well-equipped operative’s resources to everyone. Technical support is contextual evidence, not proof of universal local entitlement.\n\n Human-derived resident and institutional agency receives positive control weight, with a fully machine-provider alternative inside the interval. Cultural deities and one ship’s voice do not settle who owns ordinary productive resources. The modest nonworking scenario counts production, administration, services, care, maintenance and useful creation. Mieli’s assigned work remains work, but her personal schedule is not a population census. The selected origin community is separate from her later employer’s arrangements. Its unusually low-confidence admission preserves the recognizable culture without inventing a detailed canonical constitution or a current population of destroyed inhabitants.",
+        "axis": {
+          "guarantees": 0.2,
+          "control": 0.35,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.9,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "A reconstructed technical floor is possible, but operative support is not universal rights.",
+            "source_ids": [
+              "src-rajaniemi-characters-reference",
+              "src-quantum-oortian-excerpt"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Human-derived resident agency is central with provider identity almost unconstrained.",
+            "source_ids": [
+              "src-rajaniemi-characters-reference",
+              "src-quantum-oortian-excerpt"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Useful roles remain; one operative’s work and body do not supply a census.",
+            "source_ids": [
+              "src-rajaniemi-characters-reference",
+              "src-quantum-oortian-excerpt"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-rajaniemi-characters-reference",
+          "src-quantum-oortian-excerpt"
+        ],
+        "evidence": [
+          {
+            "claim": "Mieli has an Oortian cultural origin and works in a technologically supported ship context.",
+            "source_ids": [
+              "src-rajaniemi-characters-reference",
+              "src-quantum-oortian-excerpt"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The origin-community material model is reconstructed with very low confidence.",
+          "Her later employer and ship provision are not generalized as Oortian canon."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distinct origin culture with exceptionally broad, explicit household uncertainty.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Mieli has an Oortian cultural origin and works in a technologically supported ship context."
+        ],
+        "editorial_assumptions": [
+          "The origin-community material model is reconstructed with very low confidence.",
+          "Her later employer and ship provision are not generalized as Oortian canon."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0163",
+        "status": "needs_evidence",
+        "reason": "Oortian culture and Mieli's service are identifiable, but the references do not establish general production/access arrangements.",
+        "source_ids": [
+          "src-rajaniemi-characters-reference"
+        ],
+        "analysis": "One capable Oortian agent and her contract cannot determine the whole civilization's economy.",
+        "follow_up": "Skip further investigation in the faster pass unless a direct economic reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0163",
+        "status": "zero_variant",
+        "reason": "Retain the distinct origin culture with exceptionally broad, explicit household uncertainty.",
+        "source_ids": [
+          "src-rajaniemi-characters-reference",
+          "src-quantum-oortian-excerpt"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "quantumthief-oortian-origin-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "quantummagician-congregate-zero",
+        "candidate_id": "c0164",
+        "name": "The Quantum Magician (the Congregate’s engineered-person order)",
+        "work": "The Quantum Magician",
+        "society": "The Quantum Magician (the Congregate’s engineered-person order)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published literary setting and stated period only",
+          "period": "The functioning Congregate order around the heist",
+          "population": "Living human and active human-derived Congregate residents",
+          "human_population_proxy": true,
+          "exclusions": "Engineered personnel are people, not automatic equipment; Puppet and Numen access is separately scoped.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Congregate uses engineered human groups and powerful strategic infrastructure in a setting of gates and specialized personnel. Productive capability does not establish that ordinary residents receive necessities independently of useful roles. The guarantee best guess is weak because institutional hierarchy and unequal access remain plausible. This zero variant treats technological and bodily specialization as a limited material comparison, not a claim that manufactured workers cease being persons.\n\n Concentrated human-derived political authority receives control near the elite reference point, with autonomous infrastructure inside the interval. Genetic engineering is not automatically unrelated AI sovereignty. The modest nonworking scenario counts production, services, administration, technical work, care and assigned military duties. Specialized abilities and strategic power are not employment percentages. The broad Congregate population is not assigned the Puppets’ distinct engineered devotion or their captives’ treatment as a universal rule. Low confidence and wide bounds preserve the sparse ordinary household detail without omitting the recognizable technological hierarchy.",
+        "axis": {
+          "guarantees": 0.7,
+          "control": 0.03,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.6,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Engineered capacity and hierarchy do not establish equal material security.",
+            "source_ids": [
+              "src-quantum-magician-hayakawa"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.8,
+              0.45
+            ],
+            "confidence": "low",
+            "basis": "Human-derived political authority concentrates control despite advanced infrastructure.",
+            "source_ids": [
+              "src-quantum-magician-hayakawa"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Specialized people retain useful/assigned roles; abilities are not participation.",
+            "source_ids": [
+              "src-quantum-magician-hayakawa"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-quantum-magician-hayakawa"
+        ],
+        "evidence": [
+          {
+            "claim": "The setting includes Congregate personnel, engineered human groups, gates and a distinct Numen relationship.",
+            "source_ids": [
+              "src-quantum-magician-hayakawa"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "General material coverage and automation depth are estimates.",
+          "Engineered workers remain persons and subgroup access is not universalized."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the engineered-person institutional order with its limited material qualification explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The setting includes Congregate personnel, engineered human groups, gates and a distinct Numen relationship."
+        ],
+        "editorial_assumptions": [
+          "General material coverage and automation depth are estimates.",
+          "Engineered workers remain persons and subgroup access is not universalized."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0164",
+        "status": "needs_evidence",
+        "reason": "The Congregate's strategic power and engineered personnel do not establish its general automatic provision system.",
+        "source_ids": [
+          "src-quantum-magician-hayakawa"
+        ],
+        "analysis": "A navy, an AI character and control of passage between systems do not settle civilian production or labor-dependent access.",
+        "follow_up": "Skip deeper reading under the faster-pass instruction."
+      },
+      "after": {
+        "candidate_id": "c0164",
+        "status": "zero_variant",
+        "reason": "Retain the engineered-person institutional order with its limited material qualification explicit.",
+        "source_ids": [
+          "src-quantum-magician-hayakawa"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "quantummagician-congregate-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "quantummagician-puppet-zero",
+        "candidate_id": "c0165",
+        "name": "The Quantum Magician (the Puppet religious order)",
+        "work": "The Quantum Magician",
+        "society": "The Quantum Magician (the Puppet religious order)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published literary setting and stated period only",
+          "period": "The functioning Puppet order after overthrowing and confining the Numen",
+          "population": "Active biological human-derived Puppet residents",
+          "human_population_proxy": true,
+          "exclusions": "Captive Numen have different access; the name Puppet does not mean a nonconscious robot or an AI-controlled chassis.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Puppets are engineered humans whose devotion to the Numen shapes their history; after overthrowing them, they hold former masters captive. Their biology and coercive religious relationship are not automatic machine production. The guarantee best guess is weak, with ordinary technical support a low-confidence contextual estimate. This zero variant preserves real human-derived people rather than converting their name or designed emotions into equipment status.\n\n Concentrated biological religious and institutional power receives control near the non-AI elite reference point. A former creator’s influence does not itself prove continuing direct ownership after the overthrow. The low nonworking scenario counts production, administration, services, maintenance, care and useful or assigned religious duties. Devotion alone is not a job, while tasks serving others count. Captives and Puppet residents are not silently granted identical rights. The point selects the post-overthrow order, leaving its uncertain household economy visible rather than inventing a universal emancipation-and-abundance outcome.",
+        "axis": {
+          "guarantees": 0.85,
+          "control": 0.03,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.5,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Coercive religious institutions give no assumed secure common floor.",
+            "source_ids": [
+              "src-quantum-magician-hayakawa",
+              "src-quantum-magician-fantasylit"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Biological human-derived authority is central after the overthrow.",
+            "source_ids": [
+              "src-quantum-magician-hayakawa",
+              "src-quantum-magician-fantasylit"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Useful/assigned duties count; devotion and engineered origin are not participation statistics.",
+            "source_ids": [
+              "src-quantum-magician-hayakawa",
+              "src-quantum-magician-fantasylit"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-quantum-magician-hayakawa",
+          "src-quantum-magician-fantasylit"
+        ],
+        "evidence": [
+          {
+            "claim": "Puppets are engineered humans with designed devotion, who overthrow the Numen and keep them captive.",
+            "source_ids": [
+              "src-quantum-magician-hayakawa",
+              "src-quantum-magician-fantasylit"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary technical provision and participation are broad estimates.",
+          "Puppets and their captives have separate access conditions."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distinct engineered biological order without confusing its people with robots.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Puppets are engineered humans with designed devotion, who overthrow the Numen and keep them captive."
+        ],
+        "editorial_assumptions": [
+          "Ordinary technical provision and participation are broad estimates.",
+          "Puppets and their captives have separate access conditions."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0165",
+        "status": "boundary_case",
+        "reason": "The Puppets are engineered humans with a coercive religious history, not verified independent automatic producers.",
+        "source_ids": [
+          "src-quantum-magician-hayakawa",
+          "src-quantum-magician-fantasylit"
+        ],
+        "analysis": "Their revolt and captivity of the Numen do not supply a post-work mechanism. Genetically modified human labor still counts as human-derived work.",
+        "follow_up": "Preserve as an engineered-labor comparison; skip a novel investigation."
+      },
+      "after": {
+        "candidate_id": "c0165",
+        "status": "zero_variant",
+        "reason": "Retain the distinct engineered biological order without confusing its people with robots.",
+        "source_ids": [
+          "src-quantum-magician-hayakawa",
+          "src-quantum-magician-fantasylit"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "quantummagician-puppet-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "quantumevolution-union-pilot-zero",
+        "candidate_id": "c0166",
+        "name": "Quantum Evolution (the Union’s engineered-pilot institution)",
+        "work": "Quantum Evolution / The Quantum War",
+        "society": "Quantum Evolution (the Union’s engineered-pilot institution)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published literary setting and stated period only",
+          "period": "The functioning Union engineered-pilot force during the published conflict",
+          "population": "Active human-derived Union pilots in the continuing institution",
+          "human_population_proxy": true,
+          "exclusions": "The entire series’ civilian worlds are not one household economy; equipment and inactive pilot templates are not additional people.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The published Union/Congregate conflict uses engineered pilots. The retained unit is that continuing technical institution, not a uniform economy assigned to every Union world. The guarantee best guess allows conditional institutional support with wide uncertainty about bodies, supplies and rights. Engineering a person’s capabilities does not replace their contribution or establish unconditional necessities for all civilians.\n\n Concentrated human-derived Union command receives control near the elite reference point, with advanced machine operations inside the interval. An engineered pilot is not automatically an unrelated AI. The central nonworking scenario is zero for the active assigned pilot cohort because navigation, combat preparation, technical operation and useful care are real roles. Private rest does not create a fractional working person. The broad interval preserves alternative participation without inventing a civilian census. This narrow zero variant keeps the actual human-derived work institution visible and does not promote a series-level geopolitical label into one common material constitution.",
+        "axis": {
+          "guarantees": 0.4,
+          "control": 0.05,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.75,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Pilot support is institutional and conditional rather than a universal civilian floor.",
+            "source_ids": [
+              "src-quantum-war-synopsis"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.75,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Human-derived command dominates despite advanced operations.",
+            "source_ids": [
+              "src-quantum-war-synopsis"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Scoped active pilots have assigned useful roles centrally; wider civilians are excluded.",
+            "source_ids": [
+              "src-quantum-war-synopsis"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-quantum-war-synopsis"
+        ],
+        "evidence": [
+          {
+            "claim": "The published conflict involves the Union, Congregate and engineered pilots.",
+            "source_ids": [
+              "src-quantum-war-synopsis"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Only the continuing active pilot institution is scored.",
+          "General civilian allocation and exact bodily support remain uncertain."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain a concrete engineered-person work institution instead of merging heterogeneous Union worlds.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The published conflict involves the Union, Congregate and engineered pilots."
+        ],
+        "editorial_assumptions": [
+          "Only the continuing active pilot institution is scored.",
+          "General civilian allocation and exact bodily support remain uncertain."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0166",
+        "status": "needs_evidence",
+        "reason": "The broad Union lead is a series-level aggregation without documented uniform household access.",
+        "source_ids": [
+          "src-quantum-war-synopsis"
+        ],
+        "analysis": "War and engineered pilots identify factions and technology, not a post-work production/allocation arrangement.",
+        "follow_up": "Skip further reading; admit a narrower polity only if clear economic reference material appears."
+      },
+      "after": {
+        "candidate_id": "c0166",
+        "status": "zero_variant",
+        "reason": "Retain a concrete engineered-person work institution instead of merging heterogeneous Union worlds.",
+        "source_ids": [
+          "src-quantum-war-synopsis"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "quantumevolution-union-pilot-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "diaspora-gleisner-communities",
+        "candidate_id": "c0170",
+        "name": "Diaspora (the embodied gleisner communities)",
+        "work": "Diaspora",
+        "society": "Diaspora (the embodied gleisner communities)",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Named published literary setting and stated period only",
+          "period": "The functioning embodied communities before the destructive event",
+          "population": "Active human-descended gleisner persons",
+          "human_population_proxy": true,
+          "exclusions": "Borrowed visitor bodies and inactive chassis are not extra citizens; polis citizens and fleshers have different support models.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Gleisners embody human-descended minds in physical robot bodies rather than living wholly inside a polis or remaining biological fleshers. Their material needs include energy, components and repair. The guarantee best guess allows a substantial technical support floor, qualified by embodiment costs and uncertain internal rights. A durable robot body does not prove equal free continuation for everyone.\n\n Human-descended resident agency receives positive control weight by analogy; physical machine embodiment alone does not establish an unrelated AI sovereign. The moderate nonworking scenario permits routine substitution while counting construction, maintenance, coordination, research, care and useful creation. A mind using different hardware remains one active identity. Exploration and collective work do not stop counting because their participants are artificial-bodied. The selected pre-disaster period excludes later deaths, dormant bodies and temporary polis visitors from the denominator. Broad intervals preserve local variation rather than assigning all gleisner communities one exact canonical welfare law.",
+        "axis": {
+          "guarantees": -0.35,
+          "control": 0.65,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.95,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Embodied technical support permits a floor with repair and coverage limits.",
+            "source_ids": [
+              "src-diaspora-author",
+              "src-diaspora-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.75,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Human-descended resident agency is central, not automatically unrelated AI rule.",
+            "source_ids": [
+              "src-diaspora-author",
+              "src-diaspora-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.03,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Active embodied persons retain useful roles; borrowed hardware and deaths are excluded.",
+            "source_ids": [
+              "src-diaspora-author",
+              "src-diaspora-reference"
+            ]
+          }
+        },
+        "regime_primary": 2,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-diaspora-author",
+          "src-diaspora-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "The setting distinguishes embodied gleisners, digital polis citizens and biological fleshers.",
+            "source_ids": [
+              "src-diaspora-author",
+              "src-diaspora-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Human-descended active identity is the explicit proxy.",
+          "Internal support and participation are low-confidence estimates."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distinct embodied human-descended material order.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The setting distinguishes embodied gleisners, digital polis citizens and biological fleshers."
+        ],
+        "editorial_assumptions": [
+          "Human-descended active identity is the explicit proxy.",
+          "Internal support and participation are low-confidence estimates."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0170",
+        "status": "needs_evidence",
+        "reason": "The gleisners' embodiment and exploration do not settle general production, access or ownership among their communities.",
+        "source_ids": [
+          "src-diaspora-author",
+          "src-diaspora-reference"
+        ],
+        "analysis": "Living in a robot body is not itself automatic support; human-derived technical and maintenance work still counts.",
+        "follow_up": "Skip deeper reading; do not copy Konishi's guarantees into the gleisner population."
+      },
+      "after": {
+        "candidate_id": "c0170",
+        "status": "included",
+        "reason": "Retain the distinct embodied human-descended material order.",
+        "source_ids": [
+          "src-diaspora-author",
+          "src-diaspora-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "diaspora-gleisner-communities"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "diaspora-atlanta-fleshers-zero",
+        "candidate_id": "c0171",
+        "name": "Diaspora (Atlanta’s living flesher enclave)",
+        "work": "Diaspora",
+        "society": "Diaspora (Atlanta’s living flesher enclave)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published literary setting and stated period only",
+          "period": "The thriving Atlanta enclave before the gamma-ray disaster",
+          "population": "Living biological human-descended Atlanta fleshers",
+          "human_population_proxy": true,
+          "exclusions": "Other flesher cultures, visitors in borrowed robot bodies and post-disaster casualties are separate populations.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The author-published description identifies a thriving Atlanta flesher enclave visited in borrowed robot bodies before the disaster. This replaces an unbounded aggregation of every flesher culture with one actual biological community. The guarantee best guess allows a partial local floor, qualified by sparse productive detail and technological dependence. The zero-variant admission is explicitly cautious: physical embodiment in a powerful posthuman setting is not proof of fully automatic necessities.\n\n Resident biological and local institutional agency receives positive control weight, with outside technical dependence inside the interval. Neighboring polis machinery is not automatically Atlanta’s sovereign provider. The modest nonworking scenario counts production, maintenance, services, care, administration and useful creation. A visitor’s robot and the size of a later death toll are not labor statistics. Only living pre-disaster residents enter the denominator. Broad bounds preserve the limited household evidence without inventing uniform rules for all fleshers or treating biological people as merely a conservative category inside the digital polises.",
+        "axis": {
+          "guarantees": 0.2,
+          "control": 0.7,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.85,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "A thriving local enclave permits a floor but exact supply rights are uncertain.",
+            "source_ids": [
+              "src-diaspora-author",
+              "src-diaspora-yee",
+              "src-diaspora-atlanta-author-blurb"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.75,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Biological resident institutions retain agency with external dependence possible.",
+            "source_ids": [
+              "src-diaspora-author",
+              "src-diaspora-yee",
+              "src-diaspora-atlanta-author-blurb"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Living residents retain useful work; visitors and casualties are excluded.",
+            "source_ids": [
+              "src-diaspora-author",
+              "src-diaspora-yee",
+              "src-diaspora-atlanta-author-blurb"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-diaspora-author",
+          "src-diaspora-yee",
+          "src-diaspora-atlanta-author-blurb"
+        ],
+        "evidence": [
+          {
+            "claim": "The author-published synopsis identifies thriving Atlanta fleshers, robot-bodied visitors and a later gamma-ray disaster.",
+            "source_ids": [
+              "src-diaspora-author",
+              "src-diaspora-yee",
+              "src-diaspora-atlanta-author-blurb"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Atlanta replaces the overbroad all-fleshers discovery scope.",
+          "General technical substitution and household coverage remain estimates."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the named living enclave with its limited automation qualification and precise period explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The author-published synopsis identifies thriving Atlanta fleshers, robot-bodied visitors and a later gamma-ray disaster."
+        ],
+        "editorial_assumptions": [
+          "Atlanta replaces the overbroad all-fleshers discovery scope.",
+          "General technical substitution and household coverage remain estimates."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0171",
+        "status": "boundary_case",
+        "reason": "The diverse flesher enclaves are not one established automatic-support economy.",
+        "source_ids": [
+          "src-diaspora-author",
+          "src-diaspora-yee"
+        ],
+        "analysis": "Biological adaptation, a thriving enclave and later rescue offers do not establish labor-independent basic provision for all fleshers.",
+        "follow_up": "Preserve as a human-form comparison; skip primary-text reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0171",
+        "status": "zero_variant",
+        "reason": "Retain the named living enclave with its limited automation qualification and precise period explicit.",
+        "source_ids": [
+          "src-diaspora-author",
+          "src-diaspora-yee",
+          "src-diaspora-atlanta-author-blurb"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "diaspora-atlanta-fleshers-zero"
+      }
+    }
+  ]
+}

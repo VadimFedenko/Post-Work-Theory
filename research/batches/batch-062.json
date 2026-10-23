@@ -1,0 +1,418 @@
+{
+  "batch_id": "batch-062",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0437",
+    "c0438",
+    "c0439",
+    "c0440",
+    "c0441",
+    "c0442",
+    "c0443",
+    "c0444",
+    "c0445",
+    "c0446",
+    "c0447",
+    "c0448"
+  ],
+  "sources": [
+    {
+      "id": "src-colonial-cylon-war-context",
+      "title": "Battlestar Galactica",
+      "author": "Battlestar Galactica Wiki contributors",
+      "url": "https://galactica.fandom.com/wiki/Battlestar_Galactica",
+      "kind": "secondary_tv_lore_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public reimagined-series Cylon-war and mechanical labor-force background read",
+      "read_scope": "A formerly enslaved mechanical labor force rebels against the Colonies.",
+      "limitations": "The later pre-Fall era is not automatically the earlier robot-labor regime, and the 1978 continuity is not imported."
+    },
+    {
+      "id": "src-cylon-humanoid-reference",
+      "title": "Humanoid Cylon",
+      "author": "Battlestar Galactica Wiki contributors",
+      "url": "https://galactica.fandom.com/wiki/Humanoid_Cylon",
+      "kind": "secondary_tv_lore_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public modeled persons and Colonial infiltration/job examples read",
+      "read_scope": "Humanoid Cylons perform actual useful activity.",
+      "limitations": "Artificial bodies, resurrection and jobs in human society do not establish the independent Cylon civilization’s distribution rules."
+    },
+    {
+      "id": "src-caprica-civilian-cylons",
+      "title": "Civilian Cylon",
+      "author": "Battlestar Wiki contributors",
+      "url": "https://en.battlestarwiki.org/Civilian_Cylon",
+      "kind": "secondary_tv_lore_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public domestic, construction and industrial models plus reception of robot adoption read",
+      "read_scope": "Civilian machines spread across several productive and household sectors.",
+      "limitations": "A VFX design classification and adoption context do not establish ordinary people’s entitlement to output or income."
+    },
+    {
+      "id": "src-delos-parks-reference",
+      "title": "Delos Incorporated",
+      "author": "Westworld Wiki contributors",
+      "url": "https://westworld.fandom.com/wiki/Delos_Incorporated",
+      "kind": "secondary_tv_lore_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public host-driven parks and human-staff context read",
+      "read_scope": "A corporation operates paid leisure parks with artificial performers.",
+      "limitations": "Paying guests are temporary customers, not a durable supported resident population. The 1973 film remains a different continuity."
+    },
+    {
+      "id": "src-westworld-caleb-jobs",
+      "title": "List of Westworld characters",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/List_of_Westworld_characters",
+      "kind": "secondary_tv_character_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public Caleb construction work, nursing-home costs and Rehoboam opportunity restrictions read",
+      "read_scope": "Rehoboam constrains access to jobs while Caleb still works to support family care.",
+      "limitations": "Predictive social control does not establish automatic general material provision or knowingly unnecessary employment."
+    },
+    {
+      "id": "src-westworld-sublime-reference",
+      "title": "Valley Beyond",
+      "author": "Westworld Wiki contributors",
+      "url": "https://westworld.fandom.com/wiki/Valley_Beyond",
+      "kind": "secondary_tv_lore_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public virtual refuge, host entry and changing physical server location sections read",
+      "read_scope": "Hosts inhabit a virtual environment with an external hardware substrate.",
+      "limitations": "Host freedom does not by itself establish an applicable human participation denominator; original artificial hosts are not silently called uploaded humans. A blocked alternate wiki URL was not bypassed."
+    },
+    {
+      "id": "src-westworld-joy-sublime",
+      "title": "Westworld Co-Creator Lisa Joy on Dolores’ Final Game, Hopes for Season 5",
+      "author": "Meaghan Darwish interviewing Lisa Joy / TV Insider",
+      "url": "https://www.tvinsider.com/1056482/",
+      "kind": "creator_interview",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded Sublime/world-creation and Bernard simulation explanation read",
+      "read_scope": "The Sublime can run created worlds; Bernard performs extensive simulation work.",
+      "limitations": "Tentative unmade fifth-season plans do not establish completed institutions or universal human resurrection. A model of someone in a simulation is not automatically another autonomous resident."
+    },
+    {
+      "id": "src-westworld-hale-city-reference",
+      "title": "Zhuangzi",
+      "author": "Westworld Wiki contributors",
+      "url": "https://westworld.fandom.com/wiki/Zhuangzi",
+      "kind": "secondary_tv_episode_synopsis_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded controlled human performance, tower and host-city passages read",
+      "read_scope": "Hale controls human behavior and uses people for entertainment.",
+      "limitations": "This is real coerced activity, not an established general material-access system. Broader search passages were not treated as a full episode read."
+    },
+    {
+      "id": "src-humans-channel4-premise",
+      "title": "Interview with Neil Maskell for Humans",
+      "author": "Channel 4",
+      "url": "https://www.channel4.com/press/news/interview-neil-maskell-humans",
+      "kind": "official_cast_interview_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public menial-work replacement and household rehabilitation example read",
+      "read_scope": "Synths replace menial tasks and provide purchased domestic care.",
+      "limitations": "The continuing human economy’s general access to necessities is not established; one household service does not settle it."
+    },
+    {
+      "id": "src-humans-channel4-day-zero",
+      "title": "Humans Series Three Synopsis",
+      "author": "Channel 4",
+      "url": "https://www.channel4.com/press/news/humans-series-three-synopsis",
+      "kind": "official_tv_synopsis_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public awakening, deaths and continuing law/grocery/bar work passages read",
+      "read_scope": "Conscious synths emerge amid social conflict while real human work continues.",
+      "limitations": "Awakening totals are not leisure rates; camps and personhood do not establish a settled support economy."
+    },
+    {
+      "id": "src-real-humans-reference",
+      "title": "Real Humans",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Real_Humans",
+      "kind": "secondary_tv_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public consumer workers, servants and anti-hubot movement description read",
+      "read_scope": "Consumer robots perform work in an alternative Sweden.",
+      "limitations": "Do not merge the Swedish series with the British adaptation. Task replacement does not fully specify material distribution."
+    },
+    {
+      "id": "src-real-humans-inequality-study",
+      "title": "Negotiating privilege and social inequality in an alternative Sweden: Real Humans/Äkta Människor",
+      "author": "Publisher-hosted media-studies article; author not verified in the short check",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/20004214.2018.1438730",
+      "kind": "secondary_media_study_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public outsourced dirty/difficult/dangerous work and class-relations passages read",
+      "read_scope": "Hubots illuminate existing privileged access to labor-saving services.",
+      "limitations": "Author and journal attribution were not verified in the short check. Only the public indexed class argument is used, not a primary-fiction or legal welfare account."
+    },
+    {
+      "id": "src-better-than-us-reference",
+      "title": "Better Than Us",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Better_Than_Us",
+      "kind": "secondary_tv_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public series identity and empathic-android premise read",
+      "read_scope": "Arisa is the series’ advanced empathic android.",
+      "limitations": "Metadata and a powerful protagonist do not establish a general post-work economy. Unrelated AI-economics and video-game search hits are excluded."
+    },
+    {
+      "id": "src-upload-citynews-interview",
+      "title": "Toronto native Robbie Amell explores virtual afterlife in Amazon’s Upload",
+      "author": "CityNews / cast interview report",
+      "url": "https://toronto.citynews.ca/2020/04/30/toronto-native-robbie-amell-explores-virtual-afterlife-in-amazons-upload/",
+      "kind": "cast_interview_and_tv_report_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public paid plans, class division, suspension and living angels paragraphs read",
+      "read_scope": "Lakeview supports active digital human residents through a commercial platform; limited data can suspend activity.",
+      "limitations": "First-season setting only. Living customer-service labor remains necessary outside the uploaded population; no later season’s institutions are inferred."
+    },
+    {
+      "id": "src-upload-wired-review",
+      "title": "Upload Is a Clunky Parable About Class in a Digital Afterlife",
+      "author": "WIRED",
+      "url": "https://www.wired.com/story/upload-amazon-review/",
+      "kind": "secondary_tv_critical_review_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public two-gig tier and paid-upgrade passages read",
+      "read_scope": "The lowest tier exposes financial exclusion inside digital provision.",
+      "limitations": "A class example is not a population work census. The two identical search results are one source, not independent corroboration."
+    }
+  ],
+  "societies": [
+    {
+      "id": "upload-lakeview-commercial-afterlife",
+      "candidate_id": "c0448",
+      "name": "Upload — Lakeview’s commercial digital afterlife",
+      "work": "Upload",
+      "society": "Active human uploads on Horizen’s Lakeview plans",
+      "media": [
+        "tv"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "First-season television setting",
+        "period": "Established Lakeview subscription economy",
+        "population": "Active digital human uploads, an explicit human-derived person proxy",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Living angels as uploaded residents",
+          "People frozen after exhausting data during that interval",
+          "Later-season economies",
+          "Every resident of every competing afterlife"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Lakeview’s residents are active digital continuations of humans, with their environment and everyday experiences supplied through Horizen’s computing platform. They do not need to produce virtual food or housing through ordinary bodily labor, but access depends on paid plans and purchases. A sponsor or family can fund that life; running out of resources can sharply restrict it. The guarantee coordinate is therefore close to the insecure end, despite the luxury visible to better-funded residents. This is a commercial support economy, not universal post-scarcity.\n\nProductive control is concentrated in the platform company, and paying for an upgrade does not give residents ownership of its servers or rules. Living customer-service angels also perform real work behind the digital setting; their contribution is disclosed rather than erased by calling everything automatic. The residents themselves can think, create, maintain relationships and potentially do useful work, so existence in an afterlife does not establish complete leisure. People temporarily frozen after using their data allowance are excluded from the active-person denominator during that interval. The record stays with the initial subscription order and does not import later reforms or threats.",
+      "axis": {
+        "guarantees": 0.75,
+        "control": 0.05,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            0.45,
+            1
+          ],
+          "confidence": "high",
+          "basis": "Plans and paid upgrades determine access, while exhausted data can suspend active experience; luxury for subscribers is not a universal floor.",
+          "source_ids": [
+            "src-upload-citynews-interview",
+            "src-upload-wired-review"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.15
+          ],
+          "confidence": "high",
+          "basis": "Horizen controls the hosted environment and commercial access; ordinary residents are customers, not infrastructure owners.",
+          "source_ids": [
+            "src-upload-citynews-interview",
+            "src-upload-wired-review"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Digital activity can be useful work, and neither paid subscription nor temporary data exhaustion gives a participation census.",
+          "source_ids": [
+            "src-upload-citynews-interview",
+            "src-upload-wired-review"
+          ]
+        }
+      },
+      "regime_primary": 3,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-upload-citynews-interview",
+        "src-upload-wired-review"
+      ],
+      "evidence": [
+        {
+          "claim": "A commercial digital environment supports active human uploads while paid tiers and data exhaustion restrict continued experience.",
+          "source_ids": [
+            "src-upload-citynews-interview",
+            "src-upload-wired-review"
+          ],
+          "locator": "Launch interview/report and first-season class-tier review",
+          "kind": "cast_interview_report_and_criticism"
+        }
+      ],
+      "uncertainties": [
+        "Active human-derived persons are an explicit proxy; frozen intervals do not inflate leisure.",
+        "Living support staff remain economically relevant outside the resident denominator.",
+        "The scope covers initial Lakeview plans, not all digital afterlives or later seasons.",
+        "No exact nonworking rate is invented."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0437",
+      "status": "needs_evidence",
+      "reason": "Pre-Fall Colonial access cannot be inferred from the earlier enslaved Cylon labor force.",
+      "source_ids": [
+        "src-colonial-cylon-war-context"
+      ],
+      "analysis": "The first war, later Colonies and refugee fleet have different arrangements; the short check does not establish deliberate employment preservation or ordinary material access in the requested period.",
+      "follow_up": "Skip broad franchise reconstruction."
+    },
+    {
+      "candidate_id": "c0438",
+      "status": "needs_evidence",
+      "reason": "Humanoid Cylon work and resurrection do not establish the independent civilization’s distribution constitution.",
+      "source_ids": [
+        "src-cylon-humanoid-reference"
+      ],
+      "analysis": "Artificial biology and useful functions do not supply an applicable post-work population or material floor.",
+      "follow_up": "Keep reimagined and original-series societies separate; skip deeper reconstruction."
+    },
+    {
+      "candidate_id": "c0439",
+      "status": "needs_evidence",
+      "reason": "Caprica’s civilian robot adoption does not establish work-independent necessities for a defined human cohort.",
+      "source_ids": [
+        "src-caprica-civilian-cylons"
+      ],
+      "analysis": "Industrial, construction and domestic models establish capacity and task replacement, not output allocation.",
+      "follow_up": "Skip deeper series reconstruction."
+    },
+    {
+      "candidate_id": "c0440",
+      "status": "boundary_case",
+      "reason": "Delos supplies a paid temporary leisure product and employs actual staff.",
+      "source_ids": [
+        "src-delos-parks-reference"
+      ],
+      "analysis": "Artificial performers do not make guests into a permanent automation-supported society.",
+      "follow_up": "Keep the television park separate from the 1973 film comparison."
+    },
+    {
+      "candidate_id": "c0441",
+      "status": "boundary_case",
+      "reason": "Rehoboam directs opportunities in an economy where useful paid work and care costs persist.",
+      "source_ids": [
+        "src-westworld-caleb-jobs"
+      ],
+      "analysis": "Algorithmic exclusion is not by itself a post-work material system or a documented policy of preserving dispensable work.",
+      "follow_up": "Keep as a predictive labor-control comparison."
+    },
+    {
+      "candidate_id": "c0442",
+      "status": "needs_evidence",
+      "reason": "The Sublime has actual computational refuge but needs a justified applicable population and productive-control scope before admission.",
+      "source_ids": [
+        "src-westworld-sublime-reference",
+        "src-westworld-joy-sublime"
+      ],
+      "analysis": "Original artificial hosts are not automatically uploaded humans; Bernard’s simulation work and external servers complicate participation/control. Creator speculation about an unmade season is not realized human resurrection.",
+      "follow_up": "Save the clear refuge lead without deeper series reconstruction or an invented human denominator."
+    },
+    {
+      "candidate_id": "c0443",
+      "status": "boundary_case",
+      "reason": "Hale’s human cities use people for actual coerced performance rather than establishing a supported nonworking human order.",
+      "source_ids": [
+        "src-westworld-hale-city-reference"
+      ],
+      "analysis": "Behavioral programming and artificial rulers do not themselves specify material provision independent of service.",
+      "follow_up": "Keep as a reversed entertainment-slavery comparison."
+    },
+    {
+      "candidate_id": "c0444",
+      "status": "needs_evidence",
+      "reason": "Humans’ synth labor and purchased care do not establish general work-independent household access.",
+      "source_ids": [
+        "src-humans-channel4-premise"
+      ],
+      "analysis": "Extensive replacement of menial tasks leaves the distribution mechanism unspecified in the checked official account.",
+      "follow_up": "Skip a full series read/viewing."
+    },
+    {
+      "candidate_id": "c0445",
+      "status": "needs_evidence",
+      "reason": "Day Zero’s conscious synth population does not yet have a verified settled support constitution.",
+      "source_ids": [
+        "src-humans-channel4-day-zero"
+      ],
+      "analysis": "Deaths, camps, rights disputes and ongoing human work are not a general post-work allocation system.",
+      "follow_up": "Do not count awakening figures as leisure rates or infer the final society."
+    },
+    {
+      "candidate_id": "c0446",
+      "status": "needs_evidence",
+      "reason": "Hubot labor and privilege do not fully establish Sweden’s post-work distribution mechanism.",
+      "source_ids": [
+        "src-real-humans-reference",
+        "src-real-humans-inequality-study"
+      ],
+      "analysis": "Outsourced labor is real, but the brief reference does not establish access to necessities independent of human contribution.",
+      "follow_up": "Skip deeper study or episode reconstruction; preserve continuity separation."
+    },
+    {
+      "candidate_id": "c0447",
+      "status": "needs_evidence",
+      "reason": "Arisa’s capabilities and the series premise do not establish a general material-access economy.",
+      "source_ids": [
+        "src-better-than-us-reference"
+      ],
+      "analysis": "An advanced protagonist is not a population-wide distribution mechanism.",
+      "follow_up": "Skip deeper lore reconstruction."
+    },
+    {
+      "candidate_id": "c0448",
+      "status": "included",
+      "reason": "Lakeview actually hosts active digital human lives through a commercially controlled support platform.",
+      "source_ids": [
+        "src-upload-citynews-interview",
+        "src-upload-wired-review"
+      ],
+      "society_id": "upload-lakeview-commercial-afterlife"
+    }
+  ],
+  "review_notes": [
+    "Twelve fast decisions and one commercial digital-person economy.",
+    "Lakeview’s active uploads are scoped separately from living staff, frozen data intervals and later seasons.",
+    "The Sublime’s useful clear refuge evidence is saved without inventing a human denominator or adopting prospective season-five plans.",
+    "No complete episodes or scripts were read/viewed. Unrelated Amazon upload tooling, Cylon continuity mismatches and fandom speculation were discarded. Robots/hosts are not silently counted as humans."
+  ]
+}

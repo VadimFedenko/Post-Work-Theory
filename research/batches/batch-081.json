@@ -1,0 +1,419 @@
+{
+  "batch_id": "batch-081",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0665",
+    "c0666",
+    "c0667",
+    "c0668",
+    "c0669",
+    "c0670",
+    "c0671",
+    "c0672",
+    "c0673",
+    "c0674",
+    "c0675",
+    "c0676"
+  ],
+  "sources": [
+    {
+      "id": "src-b81-utopian-rights",
+      "title": "Species rights and living standards",
+      "author": "Stellaris Wiki contributors",
+      "url": "https://stellaris.fandom.com/wiki/Species_rights",
+      "kind": "rules_or_labeled_game_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed reference passage",
+      "read_scope": "Utopian Abundance maintains high consumer-goods standards across citizen strata and removes unemployment penalties.",
+      "limitations": "The table identifies an older verified PC version; exact current balance values are not adopted. Housing and supply still require an operating economy."
+    },
+    {
+      "id": "src-b81-utopian-robots",
+      "title": "Robot labor with Utopian Abundance",
+      "author": "r/Stellaris gameplay report",
+      "url": "https://www.reddit.com/r/Stellaris/comments/1de8g4g/",
+      "kind": "rules_or_labeled_game_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed reference passage",
+      "read_scope": "A 2024 player reports robots taking basic-resource jobs while unemployed organics generate research/Unity, then a later technology changes job assignment.",
+      "limitations": "A specific historical configuration, not proof that every robot or android tech automatically frees humans; the reported assignment problem remains explicit."
+    },
+    {
+      "id": "src-b81-fertility-announcement",
+      "title": "The Machine Age announcement / Dev Diary 335",
+      "author": "Paradox developer announcement reposted in r/Stellaris",
+      "url": "https://www.reddit.com/r/Stellaris/comments/1beosq6/stellaris_dev_diary_335_announcing_the_machine_age/",
+      "kind": "rules_or_labeled_game_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed reference passage",
+      "read_scope": "Synthetic Fertility begins with a dying species seeking survival in the digital realm.",
+      "limitations": "An announcement’s objective is not proof of active ordinary life inside the later repository."
+    },
+    {
+      "id": "src-b81-fertility-repository",
+      "title": "Synthetic Fertility repository discussion",
+      "author": "r/Stellaris contributors",
+      "url": "https://www.reddit.com/r/Stellaris/comments/1v6fc1p/synthetic_fertility_ascend_asap_or_wait_for_the/",
+      "kind": "rules_or_labeled_game_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed reference passage",
+      "read_scope": "The repository stores populations pending ascension and grants bonuses; robots can continue work during the transition.",
+      "limitations": "Recent player discussion, not a verified active-person census or full virtual livelihood constitution; no numeric optimization advice is adopted."
+    },
+    {
+      "id": "src-b81-virtuality",
+      "title": "Virtuality traditions",
+      "author": "Stellaris Wiki contributors via public console-reference mirror",
+      "url": "https://agentmystia.github.io/StellarisWiki/Console_Traditions.html",
+      "kind": "rules_or_labeled_game_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed reference passage",
+      "read_scope": "Virtual workers appear for available jobs and unemployed virtual pops are removed from the economic representation.",
+      "limitations": "Console/historical rule reference; removal does not settle whether minds die, suspend or retreat to active leisure."
+    },
+    {
+      "id": "src-b81-virtuality-interpretations",
+      "title": "Virtual pop removal discussion",
+      "author": "r/Stellaris contributors",
+      "url": "https://www.reddit.com/r/Stellaris/comments/1vij963/the_lore_behind_the_removal_of_virtual_pops/",
+      "kind": "rules_or_labeled_game_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed reference passage",
+      "read_scope": "Players distinguish represented job-filling pops from speculative server-side lives.",
+      "limitations": "The popular World of Warcraft interpretation is fan explanation, not verified official lore or a leisure census."
+    },
+    {
+      "id": "src-b81-university",
+      "title": "University of Planet faction analysis",
+      "author": "r/alphacentauri contributor",
+      "url": "https://www.reddit.com/r/alphacentauri/comments/1nubr5v/faction_deep_dive_the_university_of_planet/",
+      "kind": "rules_or_labeled_game_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed reference passage",
+      "read_scope": "Research strengths, base development and configurable social engineering characterize the faction.",
+      "limitations": "Player analysis, not a fixed canonical welfare system; no exact numeric bonus is used as economic entitlement."
+    },
+    {
+      "id": "src-b81-industrial-automation",
+      "title": "Alpha Centauri official-guide Industrial Automation entry",
+      "author": "Prima guide text indexed by Scribd",
+      "url": "https://www.scribd.com/document/512697341/Sid-Meiers-Alpha-Centauri-Prima-Official-eGuide",
+      "kind": "rules_or_labeled_game_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed reference passage",
+      "read_scope": "A bounded technology entry describes robots replacing repetitive unskilled production and assembly jobs.",
+      "limitations": "Indexed text only, not a full guide read or visually authenticated edition; availability to a faction does not define its resource rights."
+    },
+    {
+      "id": "src-b81-consciousness",
+      "title": "Cybernetic Consciousness profile",
+      "author": "Apolyton forum reproduction of faction briefing",
+      "url": "https://apolyton.net/forum/other-games/alpha-centauri/ac-multiplaying/164843-i-m-ready-for-another-smac-smax-game",
+      "kind": "rules_or_labeled_game_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed reference passage",
+      "read_scope": "The faction joins human hosts to algorithmic subroutines and improves research/coordination.",
+      "limitations": "Reproduced briefing, not an independent canon extension; a Starscape fan adaptation was discarded."
+    },
+    {
+      "id": "src-b81-transcendence",
+      "title": "Alpha Centauri dialogue guide",
+      "author": "Neoseeker contributor transcribing game text",
+      "url": "https://www.neoseeker.com/alpha-centauri/faqs/93730/dialog.html",
+      "kind": "rules_or_labeled_game_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed reference passage",
+      "read_scope": "Bounded Voice of Planet / Ascent passages describe uploading knowledge and a new shared human-Planet existence.",
+      "limitations": "Poetic victory language does not specify ordinary ongoing material access; no complete script was read."
+    },
+    {
+      "id": "src-b81-supremacy-tech",
+      "title": "Civilization: Beyond Earth technology guide",
+      "author": "Prima Games",
+      "url": "https://primagames.com/eguides/civilization-beyond-earth-eguide/research-technology/technology-master-list",
+      "kind": "rules_or_labeled_game_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed reference passage",
+      "read_scope": "Autonomous Systems improves workers and Supremacy technology supplies powerful tools.",
+      "limitations": "Improved worker efficiency is distinct from absence of useful human-derived labor or a household entitlement."
+    },
+    {
+      "id": "src-b81-harmony-victory",
+      "title": "Victory in Civilization: Beyond Earth",
+      "author": "Civilization Wiki contributors",
+      "url": "https://civilization.fandom.com/wiki/Victory_%28CivBE%29",
+      "kind": "rules_or_labeled_game_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed reference passage",
+      "read_scope": "Harmony’s Mind Flower establishes a collective cognitive link with the planet.",
+      "limitations": "A realized cognitive transformation does not itself describe the new population’s ordinary material production/access."
+    },
+    {
+      "id": "src-b81-purity-settlers",
+      "title": "Earthling Settler Civilopedia entry",
+      "author": "Game Civilopedia, transcribed by Civilization Wiki",
+      "url": "https://civilization.fandom.com/wiki/Earthling_Settler_%28CivBE%29",
+      "kind": "rules_or_labeled_game_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed reference passage",
+      "read_scope": "Purity settlers accept relocation and work in farms, mines, defense and construction.",
+      "limitations": "Actual human labor is explicit; housing a victory quota is not universal automatic provision or a nonworking census."
+    },
+    {
+      "id": "src-b81-united-empire",
+      "title": "The United Empire",
+      "author": "Endless Space 2 Wiki contributors",
+      "url": "https://endless-space-2.fandom.com/wiki/The_United_Empire",
+      "kind": "rules_or_labeled_game_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed reference passage",
+      "read_scope": "A central monarchy delegates expansion to powerful corporations and noble governors amid industrial growth.",
+      "limitations": "Political-industrial organization does not establish ordinary work-independent access."
+    },
+    {
+      "id": "src-b81-horatio",
+      "title": "Horatio faction quest",
+      "author": "Endless Space 2 Wiki transcription of quest text",
+      "url": "https://endless-space-2.fandom.com/wiki/Horatio_Faction_Quest",
+      "kind": "rules_or_labeled_game_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed reference passage",
+      "read_scope": "The clone society reproduces persons and struggles over imperial leadership.",
+      "limitations": "Human-derived biological cloning does not supply automated necessities or establish one clone’s entitlement as universal."
+    }
+  ],
+  "societies": [
+    {
+      "id": "stellaris-utopian-human-robot-economy",
+      "candidate_id": "c0665",
+      "name": "Stellaris — Human Utopian Abundance with robotic production",
+      "work": "Stellaris",
+      "society": "A modeled egalitarian human citizen economy with robot basic production and job-independent living standards",
+      "media": [
+        "game"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Historically documented PC Utopian Abundance/robot-worker configuration; qualitative rules",
+        "period": "A functioning supplied economy with housing and Utopian Abundance for human citizens",
+        "population": "Living human citizens, including those without formal jobs",
+        "human_population_proxy": false,
+        "exclusions": [
+          "All empires choosing the living standard regardless of production setup",
+          "Robots as extra humans",
+          "A later technology’s disputed job assignment",
+          "Alien slaves silently included among equal beneficiaries"
+        ],
+        "branch": "Human citizen Utopian Abundance with actual robot basic-resource labor",
+        "player_configurable": true
+      },
+      "description": "This configuration combines two implemented mechanisms: robots perform basic-resource work, and Utopian Abundance maintains citizen living standards when people lack formal jobs. The policy alone does not automate production, so the record explicitly includes the robotic workforce rather than treating an egalitarian label as sufficient. Its guarantee estimate is strong within a supplied, housed citizen economy, while remaining vulnerable to shortages and policy changes. It is a modeled game arrangement, not the fixed history of every Stellaris human civilization.\n\nProductive ownership remains unresolved. Egalitarian rights and broad political participation do not establish equal ownership of the robots or the economy’s other assets, so the control coordinate is null and the regime label provisional. Human administration is distinct from Rogue Servitor machine guardianship. Unemployed humans can still produce research and Unity, representing activity that cannot automatically be called nonwork. The participation axis therefore remains unresolved. Historical player reports also show that later robot technology can change job assignment, so no promise of an automatically permanent leisure population or current numerical balance is made.",
+      "axis": {
+        "guarantees": -0.75,
+        "control": null,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.95,
+            0.05
+          ],
+          "confidence": "medium",
+          "basis": "The living standard protects jobless citizens while robots perform basic production; adequate housing/supplies are explicit configuration conditions.",
+          "source_ids": [
+            "src-b81-utopian-rights",
+            "src-b81-utopian-robots"
+          ]
+        },
+        "control": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Egalitarian political rights do not specify collective ownership of productive infrastructure; human versus independent AI administration is distinguished.",
+          "source_ids": [
+            "src-b81-utopian-rights",
+            "src-b81-utopian-robots"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Formal unemployment can still yield meaningful research/cultural activity; no all-person participation rate is established.",
+          "source_ids": [
+            "src-b81-utopian-rights",
+            "src-b81-utopian-robots"
+          ]
+        }
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [
+        2
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-b81-utopian-rights",
+        "src-b81-utopian-robots"
+      ],
+      "evidence": [
+        {
+          "claim": "The documented configuration combines actual robot resource work with living-standard protection for unemployed human citizens.",
+          "source_ids": [
+            "src-b81-utopian-rights",
+            "src-b81-utopian-robots"
+          ],
+          "locator": "Species living-standard table and historical robot-workforce report",
+          "kind": "labeled_rules_reference_and_player_configuration"
+        }
+      ],
+      "uncertainties": [
+        "A specified modeled human configuration, not every empire with Utopian Abundance.",
+        "Living standards do not create housing/resources by themselves.",
+        "Ownership and useful-work participation remain unresolved.",
+        "No current patch-specific numerical claim."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0665",
+      "status": "included",
+      "reason": "A documented configured robot economy actually combines productive replacement with protected living standards for unemployed human citizens.",
+      "source_ids": [
+        "src-b81-utopian-rights",
+        "src-b81-utopian-robots"
+      ],
+      "society_id": "stellaris-utopian-human-robot-economy"
+    },
+    {
+      "candidate_id": "c0666",
+      "status": "needs_evidence",
+      "reason": "Synthetic Fertility’s repository does not clearly establish an active supplied virtual community in the checked references.",
+      "source_ids": [
+        "src-b81-fertility-announcement",
+        "src-b81-fertility-repository"
+      ],
+      "analysis": "A survival goal, stored people and economic bonuses do not settle active experience, access rights or the transition’s ordinary labor arrangements.",
+      "follow_up": "Save the short disposition and continue; do not infer a whole economy from a technology, faction bonus or victory metaphor."
+    },
+    {
+      "candidate_id": "c0667",
+      "status": "needs_evidence",
+      "reason": "Virtuality’s job-created economic pops do not establish a counted active leisure population.",
+      "source_ids": [
+        "src-b81-virtuality",
+        "src-b81-virtuality-interpretations"
+      ],
+      "analysis": "Unrepresented server-side lives are an interpretation; removed jobless pops cannot simply become nonworking residents.",
+      "follow_up": "Save the short disposition and continue; do not infer a whole economy from a technology, faction bonus or victory metaphor."
+    },
+    {
+      "candidate_id": "c0668",
+      "status": "needs_evidence",
+      "reason": "University research advantages and available automation do not establish a fixed work-independent allocation system.",
+      "source_ids": [
+        "src-b81-university",
+        "src-b81-industrial-automation"
+      ],
+      "analysis": "The faction can adopt differing social/economic settings; technological capacity is not a uniform welfare constitution.",
+      "follow_up": "Save the short disposition and continue; do not infer a whole economy from a technology, faction bonus or victory metaphor."
+    },
+    {
+      "candidate_id": "c0669",
+      "status": "needs_evidence",
+      "reason": "Morgan’s access to Industrial Automation does not establish ordinary residents’ resource entitlements.",
+      "source_ids": [
+        "src-b81-industrial-automation"
+      ],
+      "analysis": "Replacement of repetitive jobs is explicit, but the short technology entry does not determine who receives the output or loses income.",
+      "follow_up": "Save the short disposition and continue; do not infer a whole economy from a technology, faction bonus or victory metaphor."
+    },
+    {
+      "candidate_id": "c0670",
+      "status": "needs_evidence",
+      "reason": "Cybernetic coordination and research efficiency do not establish material access independent of useful human-derived work.",
+      "source_ids": [
+        "src-b81-consciousness"
+      ],
+      "analysis": "Hosting algorithmic subroutines is not automatically an external AI provision regime or a nonworking population.",
+      "follow_up": "Save the short disposition and continue; do not infer a whole economy from a technology, faction bonus or victory metaphor."
+    },
+    {
+      "candidate_id": "c0671",
+      "status": "needs_evidence",
+      "reason": "The shared human-Planet victory lacks a sufficiently clear ordinary material economy in the short text.",
+      "source_ids": [
+        "src-b81-transcendence"
+      ],
+      "analysis": "Knowledge transfer and poetic posthuman existence do not supply durable needs access or an applicable participation denominator.",
+      "follow_up": "Save the short disposition and continue; do not infer a whole economy from a technology, faction bonus or victory metaphor."
+    },
+    {
+      "candidate_id": "c0672",
+      "status": "needs_evidence",
+      "reason": "Supremacy’s tools and enhanced workers do not establish a post-work civilian allocation system.",
+      "source_ids": [
+        "src-b81-supremacy-tech"
+      ],
+      "analysis": "Automating or strengthening units is not enough to infer broad needs coverage or the absence of useful human-derived activity.",
+      "follow_up": "Save the short disposition and continue; do not infer a whole economy from a technology, faction bonus or victory metaphor."
+    },
+    {
+      "candidate_id": "c0673",
+      "status": "needs_evidence",
+      "reason": "Harmony’s actual cognitive link does not specify a labor-independent material floor.",
+      "source_ids": [
+        "src-b81-harmony-victory"
+      ],
+      "analysis": "Joining planetary consciousness is acknowledged as a branch outcome, but ordinary ongoing provision remains unresolved.",
+      "follow_up": "Save the short disposition and continue; do not infer a whole economy from a technology, faction bonus or victory metaphor."
+    },
+    {
+      "candidate_id": "c0674",
+      "status": "boundary_case",
+      "reason": "Purity’s relocated Earthlings explicitly undertake farming, mining, defense and construction.",
+      "source_ids": [
+        "src-b81-purity-settlers"
+      ],
+      "analysis": "A successful relocation victory and new housing do not mean those necessary jobs are make-work or automatically replaced.",
+      "follow_up": "Save the short disposition and continue; do not infer a whole economy from a technology, faction bonus or victory metaphor."
+    },
+    {
+      "candidate_id": "c0675",
+      "status": "needs_evidence",
+      "reason": "The United Empire’s corporate industrial expansion does not establish household post-work allocation.",
+      "source_ids": [
+        "src-b81-united-empire"
+      ],
+      "analysis": "Monarchy and concentrated production leave the link between useful labor and necessities unresolved.",
+      "follow_up": "Save the short disposition and continue; do not infer a whole economy from a technology, faction bonus or victory metaphor."
+    },
+    {
+      "candidate_id": "c0676",
+      "status": "needs_evidence",
+      "reason": "Horatio’s biological clone empire lacks verified ordinary automatic provision and access rules.",
+      "source_ids": [
+        "src-b81-horatio"
+      ],
+      "analysis": "Reproducing more persons and a leadership struggle do not make their work disappear or establish universal welfare.",
+      "follow_up": "Save the short disposition and continue; do not infer a whole economy from a technology, faction bonus or victory metaphor."
+    }
+  ],
+  "review_notes": [
+    "Twelve ordered dispositions and one explicitly modeled Utopian Abundance economy; no full manual, transcript or strategy playthrough read.",
+    "The retained configuration includes actual robotic basic production. Egalitarian rights do not prove productive ownership, and unemployed research is useful activity.",
+    "Synthetic Fertility and Virtuality preserve distinct active/archive and represented-population gaps; popular server-side leisure interpretations are not canon.",
+    "Alpha Centauri’s Industrial Automation entry was checked as a short indexed passage, without reading the complete official guide or importing a fan nation-simulation.",
+    "Purity’s own Civilopedia describes real settler work. Cloning, affinity transformations and faction research bonuses are not automatic post-work systems."
+  ]
+}

@@ -1,0 +1,10 @@
+"""Make the newly corroborated human-job reservation visible in the readable description."""
+from copy import deepcopy
+from best_guess_helpers import current_data,change,write_revision
+D=current_data();r=deepcopy(D['societies']['heartfive-active-android-workers-zero'])
+r['description']='''Jared works in an android future where dentistry is performed by bots and laws reserve other occupations for humans. These quoted details make the zero-variant comparison concrete: technical substitution coexists with legal protection of human professional roles. The law alone does not prove that every protected job is unnecessary. The material-floor best guess remains weak and conditional because maintenance for robot workers does not establish equal secure resources or autonomy.
+
+ Control stays near concentrated organic authority, with independent android agency inside the interval. The central nonworking scenario is zero for the scoped active android worker cohort because dentistry, other professional services, operations, maintenance and assigned useful activity count. Private filmgoing and emotional experience do not themselves abolish ongoing work. The synthetic-person proxy is explicit, so this is not a literal human employment percentage. Broad bounds preserve uncertain ordinary rights while the direct occupational evidence strengthens the explanation. A proposed movie adaptation remains outside the media tags.'''
+r['qualification_basis']='Retain the constrained android work order and directly quoted human-reserved occupations as a zero variant; legal reservation does not prove all protected work unnecessary.'
+r['review']['method']='Targeted follow-up against quoted pages 12 and 16 on bot dentistry and legally reserved human occupations; no independent reviewer'
+write_revision(48,[change(D,'societies',r)],'Source follow-up: make Set My Heart to Five’s directly quoted human-job reservation and bot dentistry visible in its description, without changing numeric estimates or claiming every protected job is unnecessary.')

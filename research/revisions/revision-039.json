@@ -1,0 +1,1813 @@
+{
+  "revision_id": "revision-039",
+  "revised_on": "2026-10-17",
+  "reason": "Twelve Reynolds/Hamilton material orders retained from fourteen old holds. Fountainhead trade and Adamist routine-task mechanization gain bounded corroboration; High Angel/Tranquillity provider identity is not assumed machine, and advanced aliens do real work. Troika’s wrong discovery label and Greenfly ecology receive completed comparisons.",
+  "changes": [
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-pushingice-fountainhead-trade",
+        "title": "Pushing Ice: the Fountainhead trade period",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/wiki/Pushing_Ice",
+        "kind": "secondary_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed Fountainhead coexistence, trade and evacuation passages read",
+        "read_scope": "The colony coexists with Fountainheads for decades, receiving technology and rejuvenation in exchange for Janus drilling rights before evacuation.",
+        "limitations": "One distinct period, not the early survival phase or the later restored colony; rejuvenation is not participation."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-adamist-handbook-mechanoids",
+        "title": "The Confederation Handbook: developed Adamist consumer machinery",
+        "author": "Peter F. Hamilton",
+        "url": "https://www.everand.com/book/492024362/The-Confederation-Handbook",
+        "kind": "primary_text",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed colony-development and mundane-task mechanization paragraphs read",
+        "read_scope": "Indexed handbook passage: early colony servitor animals give way to consumer mechanoids/cybernetics once a developed economy exists; religious and local bitek exceptions vary.",
+        "limitations": "Bounded primary passage, not a full handbook read or one uniform welfare law for all Adamist worlds."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-ocisen-official-armada",
+        "title": "The Evolutionary Void: Ocisen armada",
+        "author": "Peter F. Hamilton / Penguin Random House",
+        "url": "https://prhinternationalsales.com/book/?isbn=9780345496584",
+        "kind": "primary_text",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed official armada and deterrence-fleet passage read",
+        "read_scope": "Official excerpt identifies the approaching Ocisen Empire armada, associated Prime ship problems and military planning concerned with life on both sides.",
+        "limitations": "Military excerpt, not a civilian rights charter or proof that each vessel/Prime body is a separate conscious person."
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0191",
+        "status": "needs_evidence",
+        "reason": "The discovery label Mechanism-dominated Earth is unverified for Troika.",
+        "source_ids": [
+          "src-troika-york-description"
+        ],
+        "analysis": "The identified Troika description concerns the Matryoshka and cosmonauts. The same archive also contains other Reynolds books; nearby Mechanism wording cannot be imported across works.",
+        "follow_up": "Skip deeper reading; correct the lead only if a clear Troika-specific economic source appears."
+      },
+      "after": {
+        "candidate_id": "c0191",
+        "status": "boundary_case",
+        "reason": "Completed identified-mechanism comparison; no unresolved household-law hold.",
+        "source_ids": [
+          "src-troika-york-description"
+        ],
+        "analysis": "The identified Troika description concerns Russian cosmonauts investigating a Matryoshka construct. The archive also discusses other Reynolds works, so adjacent Mechanism wording cannot establish a Mechanism-dominated Earth in this story. The completed comparison concerns the actual research mission rather than an invented social order assembled from neighboring descriptions.\n\n The guarantee best guess allows conditional mission support, control is a broad human-institutional analogy and the central nonworking scenario is zero for active assigned investigators doing useful research. It is not a civilization-wide labor census. Advanced artifacts and a visitor’s life support do not by themselves establish an ordinary resident distribution economy. This stays outside the society count for the identified investigation scope and corrected discovery identity, not because an exact welfare charter could not be found. The source limitation is preserved explicitly without requiring a full novella read or calling an uncertain adjacent label canonical fact.",
+        "follow_up": "Completed current-policy comparison; no deep reading required.",
+        "current_policy_review": true,
+        "reassessed_on": "2026-10-17",
+        "assessment_mode": "best_guess",
+        "comparison_assessment": {
+          "name": "Troika (the Matryoshka investigation)",
+          "media": [
+            "book"
+          ],
+          "scope": "The corrected research-mission or expansion-ecology mechanism, not a shared civilian allocation institution",
+          "axis": {
+            "guarantees": 0.3,
+            "control": 0.1,
+            "nonworking": 0
+          },
+          "intervals": {
+            "guarantees": [
+              -0.85,
+              0.98
+            ],
+            "control": [
+              -0.85,
+              0.9
+            ],
+            "nonworking": [
+              0,
+              0.85
+            ]
+          },
+          "confidence": "low",
+          "canon_facts": [
+            "The identified description concerns cosmonauts investigating the Matryoshka; the archive lists multiple Reynolds works."
+          ],
+          "editorial_assumptions": [
+            "The active investigation is the selected mechanism.",
+            "Adjacent work descriptions are not imported as this story’s government."
+          ],
+          "source_ids": [
+            "src-troika-york-description"
+          ],
+          "counted_toward_goal": false
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0194",
+        "status": "boundary_case",
+        "reason": "Greenfly expansion displaces human civilization rather than documenting a human population maintained in post-work security.",
+        "source_ids": [
+          "src-galactic-north-reference"
+        ],
+        "analysis": "Vegetated machine biospheres, passive colonist scans and fugitives are different things. Neither lost humans nor unoccupied habitats create a 100% nonworking denominator.",
+        "follow_up": "Preserve as an autonomous machine-ecology comparison and skip further investigation."
+      },
+      "after": {
+        "candidate_id": "c0194",
+        "status": "boundary_case",
+        "reason": "Completed identified-mechanism comparison; no unresolved household-law hold.",
+        "source_ids": [
+          "src-galactic-north-reference"
+        ],
+        "analysis": "Greenfly expands through machine-supported biospheres while humans flee and some scans remain preserved. The selected unit is the expansion ecology, not a resident human support society or a demonstrated civilian robot community. The completed comparison therefore does not score displaced people, empty habitats or stored scans as nonworking beneficiaries.\n\n Secure human support is extremely weak by analogy and practical expansion control is autonomous machinery. The nonworking axis is inapplicable because the selected ecological unit has no identified active civilian recipient-person cohort. This does not assume artificial awareness is impossible, only that replication and vegetated habitats do not supply a person census. The surviving Conjoiner group is a different population and is not silently equated with the Greenfly system. The case stays outside the society count for its expansion-ecology scope, not a demand for fictional household law. Human extinction or flight never becomes one hundred percent leisure.",
+        "follow_up": "Completed current-policy comparison; no deep reading required.",
+        "current_policy_review": true,
+        "reassessed_on": "2026-10-17",
+        "assessment_mode": "best_guess",
+        "comparison_assessment": {
+          "name": "Galactic North (the expanding Greenfly ecology)",
+          "media": [
+            "book"
+          ],
+          "scope": "The corrected research-mission or expansion-ecology mechanism, not a shared civilian allocation institution",
+          "axis": {
+            "guarantees": 0.98,
+            "control": -1,
+            "nonworking": null
+          },
+          "intervals": {
+            "guarantees": [
+              0.8,
+              1
+            ],
+            "control": [
+              -1,
+              -0.9
+            ],
+            "nonworking": null
+          },
+          "confidence": "low",
+          "canon_facts": [
+            "Greenfly expands, humans flee, scans are preserved and a surviving Conjoiner group is distinct."
+          ],
+          "editorial_assumptions": [
+            "The selected ecological unit is separate from active human survivors.",
+            "Replication and stored scans are not an active civilian person census."
+          ],
+          "source_ids": [
+            "src-galactic-north-reference"
+          ],
+          "counted_toward_goal": false,
+          "not_applicable_axes": {
+            "nonworking": "No identified active civilian recipient-person cohort in the selected Greenfly expansion ecology; fugitives, equipment and inactive scans are different units."
+          }
+        }
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "pushingice-fountainhead-colony",
+        "candidate_id": "c0187",
+        "name": "Pushing Ice (the Fountainhead-supported colony)",
+        "work": "Pushing Ice",
+        "society": "Pushing Ice (the Fountainhead-supported colony)",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Named published literary continuity and stated period only",
+          "period": "The established Janus/Structure colony during Fountainhead coexistence and trade",
+          "population": "Living active human colonists during the trade period",
+          "human_population_proxy": false,
+          "exclusions": "Early deprivation, later evacuation and restored future colonies are separate; stasis and death are not leisure.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The colony receives advanced technology and rejuvenation from the Fountainheads in exchange for drilling rights on Janus. Its material support therefore rests partly on control of a resource rather than every resident’s current labor. The guarantee best guess allows a partial floor, qualified by external dependence and the limits of healing. This selected coexistence period is materially different from the crew’s early struggle to survive.\n\n Human colony leadership and communal resource rights receive positive control weight, with powerful alien provision inside the interval. An alien supplier is not automatically an AI sovereign. The moderate nonworking scenario permits technical substitution while counting resource administration, engineering, maintenance, care and useful creation. Rejuvenation and decades of coexistence are not labor percentages. Later stasis and casualties never enter the living-resident denominator as leisure. The broad bounds preserve uncertain ordinary rights while keeping this actual trade arrangement separate from an unverified universal final settlement.",
+        "axis": {
+          "guarantees": -0.1,
+          "control": 0.25,
+          "nonworking": 0.4
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.9,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Actual technology/resource trade supports a partial floor with dependence and healing limits.",
+            "source_ids": [
+              "src-pushing-ice-reference",
+              "src-pushingice-fountainhead-trade"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.85,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Human leadership/resource rights coexist with alien provider power.",
+            "source_ids": [
+              "src-pushing-ice-reference",
+              "src-pushingice-fountainhead-trade"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.03,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Useful local roles remain; rejuvenation, elapsed decades and stasis are not participation.",
+            "source_ids": [
+              "src-pushing-ice-reference",
+              "src-pushingice-fountainhead-trade"
+            ]
+          }
+        },
+        "regime_primary": 1,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-pushing-ice-reference",
+          "src-pushingice-fountainhead-trade"
+        ],
+        "evidence": [
+          {
+            "claim": "Fountainheads trade technology and rejuvenation for Janus drilling rights over an extended coexistence period.",
+            "source_ids": [
+              "src-pushing-ice-reference",
+              "src-pushingice-fountainhead-trade"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The ordinary resident floor and participation remain estimates.",
+          "The selected trade period excludes early survival and later restored populations."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the actual resource-backed technical transition in a precise living period.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Fountainheads trade technology and rejuvenation for Janus drilling rights over an extended coexistence period."
+        ],
+        "editorial_assumptions": [
+          "The ordinary resident floor and participation remain estimates.",
+          "The selected trade period excludes early survival and later restored populations."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0187",
+        "status": "needs_evidence",
+        "reason": "The broad far-future settlement lead combines distinct periods without clear general access rules in the short references.",
+        "source_ids": [
+          "src-pushing-ice-reference"
+        ],
+        "analysis": "Alien technology gifts, bargaining and a later human colony do not by themselves establish who receives necessities independently of work. The early mining crew and the framing Congress are separate scopes.",
+        "follow_up": "Skip deeper reading; reopen only on a short, specific material-economy reference."
+      },
+      "after": {
+        "candidate_id": "c0187",
+        "status": "included",
+        "reason": "Retain the actual resource-backed technical transition in a precise living period.",
+        "source_ids": [
+          "src-pushing-ice-reference",
+          "src-pushingice-fountainhead-trade"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "pushingice-fountainhead-colony"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "bluerearth-surveilled-transition",
+        "candidate_id": "c0188",
+        "name": "Blue Remembered Earth (the prosperous surveilled Earth)",
+        "work": "Blue Remembered Earth",
+        "society": "Blue Remembered Earth (the prosperous surveilled Earth)",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Named published literary continuity and stated period only",
+          "period": "The functioning surveilled Earth before later off-world transformations",
+          "population": "Living human Earth residents in the covered developed order",
+          "human_population_proxy": false,
+          "exclusions": "Off-Earth coverage and later migrant ships differ; automatic crime intervention is not sole ownership of all production.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Earth combines economic development and prosperity with AI intervention against crime. The guarantee best guess allows a partial technical support floor, qualified by the short reference’s limited household detail. Security and wealth do not automatically establish equal free food, housing or care. The partial-transition admission is a contextual best guess rather than a claim that surveillance alone replaces material production.\n\n Human civic and commercial institutions receive positive control weight, with consequential machine security discretion inside a wide interval. Preventing violence does not by itself make an AI owner of every factory and household. The moderate nonworking scenario permits routine substitution while counting research, administration, services, maintenance, care and useful creation. Crime rates and prosperity are not employment statistics. The point selects the functioning covered Earth order and does not extend its rights or surveillance to every off-world location. Broad bounds preserve productive ownership uncertainty while retaining the recognizable advanced human future.",
+        "axis": {
+          "guarantees": -0.2,
+          "control": 0.3,
+          "nonworking": 0.4
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.9,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Prosperous technical support permits a floor with equal household coverage uncertain.",
+            "source_ids": [
+              "src-blue-earth-wertzone"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.85,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Human economic institutions coexist with autonomous security intervention.",
+            "source_ids": [
+              "src-blue-earth-wertzone"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.03,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Useful work may continue; security and prosperity are not participation measures.",
+            "source_ids": [
+              "src-blue-earth-wertzone"
+            ]
+          }
+        },
+        "regime_primary": 2,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-blue-earth-wertzone"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference describes developed prosperous Earth, AI crime intervention and differing off-Earth coverage.",
+            "source_ids": [
+              "src-blue-earth-wertzone"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "General material automation and household rights are contextual estimates.",
+          "Surveillance power is not equated with ownership of all productive systems."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the advanced Earth transition with security and economic control separated.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference describes developed prosperous Earth, AI crime intervention and differing off-Earth coverage."
+        ],
+        "editorial_assumptions": [
+          "General material automation and household rights are contextual estimates.",
+          "Surveillance power is not equated with ownership of all productive systems."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0188",
+        "status": "needs_evidence",
+        "reason": "The short sources establish a prosperous surveilled Earth, but not labor-independent household access or ownership of automated production.",
+        "source_ids": [
+          "src-blue-earth-wertzone"
+        ],
+        "analysis": "AI intervention against crime is not sovereign AI control of the economy. A wealthy protagonist's family and eliminated poverty cannot alone establish the requested automation-distribution link across Earth and the United Aquatic Nations.",
+        "follow_up": "Skip further reading in this pass; preserve the distinction between security automation and material provision."
+      },
+      "after": {
+        "candidate_id": "c0188",
+        "status": "included",
+        "reason": "Retain the advanced Earth transition with security and economic control separated.",
+        "source_ids": [
+          "src-blue-earth-wertzone"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "bluerearth-surveilled-transition"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "steelbreeze-zanzibar-zero",
+        "candidate_id": "c0189",
+        "name": "On the Steel Breeze (Zanzibar’s active migrant community)",
+        "work": "On the Steel Breeze",
+        "society": "On the Steel Breeze (Zanzibar’s active migrant community)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published literary continuity and stated period only",
+          "period": "The functioning holoship community during the interstellar journey",
+          "population": "Awake living human Zanzibar residents",
+          "human_population_proxy": false,
+          "exclusions": "Sleeping bodies, inactive copies and the whole caravan are not automatically one active welfare population.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Zanzibar carries a generation society under survival and political constraints. The engineered habitat supplies a plausible internal material floor while useful human roles remain. The guarantee best guess is mixed and conditional, qualified by membership, infrastructure and authority. The record does not infer universal leisure merely from a long interstellar voyage or the presence of powerful automatic systems.\n\n Human political and operational institutions receive concentrated control weight, with strong machine discretion inside the interval. A holoship’s technical complexity does not settle sovereign ownership. The modest nonworking scenario counts operation, maintenance, administration, services, care and useful creation among awake residents. Time asleep is not leisure, and a stored copy is not an extra nonworker. The selected Zanzibar community is not merged with every vessel or a hypothetical post-arrival constitution. Broad intervals preserve the limited ordinary allocation detail without requiring a full novel reconstruction before retaining the familiar technical migrant habitat.",
+        "axis": {
+          "guarantees": 0.2,
+          "control": 0.1,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.85,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Shared habitat support remains conditional on infrastructure and political constraints.",
+            "source_ids": [
+              "src-steel-breeze-wertzone"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "Human institutions are central with major machine-operation alternatives.",
+            "source_ids": [
+              "src-steel-breeze-wertzone"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Awake residents retain habitat and caring roles; sleep and duration are excluded.",
+            "source_ids": [
+              "src-steel-breeze-wertzone"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-steel-breeze-wertzone"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference identifies Zanzibar, the migrant caravan and its survival/political constraints.",
+            "source_ids": [
+              "src-steel-breeze-wertzone"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary support, automation depth and effective authority remain estimates.",
+          "Only awake living residents define participation."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distinct active generation-ship community with sleep and rights limits explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference identifies Zanzibar, the migrant caravan and its survival/political constraints."
+        ],
+        "editorial_assumptions": [
+          "Ordinary support, automation depth and effective authority remain estimates.",
+          "Only awake living residents define participation."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0189",
+        "status": "needs_evidence",
+        "reason": "The holoship reference establishes a generation society but does not settle labor-independent basic access.",
+        "source_ids": [
+          "src-steel-breeze-wertzone"
+        ],
+        "analysis": "A life-support system, a large passenger population and advanced propulsion do not alone establish who controls production or whether necessities depend on work.",
+        "follow_up": "Skip deeper reading under the pace instruction."
+      },
+      "after": {
+        "candidate_id": "c0189",
+        "status": "zero_variant",
+        "reason": "Retain the distinct active generation-ship community with sleep and rights limits explicit.",
+        "source_ids": [
+          "src-steel-breeze-wertzone"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "steelbreeze-zanzibar-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "revenger-congregation-salvage-zero",
+        "candidate_id": "c0190",
+        "name": "Revenger (the Congregation’s salvage economy)",
+        "work": "Revenger / Bone Silence",
+        "society": "Revenger (the Congregation’s salvage economy)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published literary continuity and stated period only",
+          "period": "The functioning salvage, trade and quoin-currency order",
+          "population": "Living humanlike Congregation residents in the trading economy",
+          "human_population_proxy": true,
+          "exclusions": "Relic wealth and pirate fleets are not a universal material floor; inactive ancient systems are not persons.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Congregation’s economy revolves around salvage, trade, piracy and quoin currency. Advanced or inherited technical capacity therefore coexists with actual resource-seeking and useful labor. The guarantee best guess is weak because possession and exchange condition access rather than a demonstrated common necessities entitlement. This zero variant uses a deliberately cautious relic-technology comparison, not a claim that every household already has automatic abundance.\n\n Humanlike owners, traders and local powers receive moderate positive control weight, with concentrated coercive actors inside the interval. Distributed trading opportunities are not equal ownership of the whole productive legacy. The low nonworking scenario counts salvage, navigation, services, maintenance, care and useful creation. Treasure, currency and time waiting for access to artifacts are not population labor statistics. The point preserves the recurring functioning material model rather than averaging every historical occupation or final revelation. Broad bounds make its limited automation evidence visible while retaining the familiar working technical future.",
+        "axis": {
+          "guarantees": 0.85,
+          "control": 0.35,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.5,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Relic possession and trade suggest weak dependable equal access.",
+            "source_ids": [
+              "src-revenger-bonesilence-starburst"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Multiple humanlike owners/powers retain agency with coercive concentration possible.",
+            "source_ids": [
+              "src-revenger-bonesilence-starburst"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Salvage, services and care remain work; currency and relic scale are not participation.",
+            "source_ids": [
+              "src-revenger-bonesilence-starburst"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-revenger-bonesilence-starburst"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference describes Congregation trade, piracy and quoin currency in a salvage economy.",
+            "source_ids": [
+              "src-revenger-bonesilence-starburst"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "General household automation and access remain low-confidence estimates.",
+          "Relic machinery is not automatically an active person or universal provider."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          4
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the recognizable working relic economy with its especially limited automation qualification explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference describes Congregation trade, piracy and quoin currency in a salvage economy."
+        ],
+        "editorial_assumptions": [
+          "General household automation and access remain low-confidence estimates.",
+          "Relic machinery is not automatically an active person or universal provider."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0190",
+        "status": "boundary_case",
+        "reason": "The quick sources describe a working salvage/trade economy, without a verified automatic support or unnecessary-employment mechanism.",
+        "source_ids": [
+          "src-revenger-bonesilence-starburst"
+        ],
+        "analysis": "Quoins and ancient artifacts are not proof of post-work distribution. Later currency disruption does not retroactively supply a welfare economy.",
+        "follow_up": "Preserve as a far-future trade comparison; skip a trilogy investigation."
+      },
+      "after": {
+        "candidate_id": "c0190",
+        "status": "zero_variant",
+        "reason": "Retain the recognizable working relic economy with its especially limited automation qualification explicit.",
+        "source_ids": [
+          "src-revenger-bonesilence-starburst"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "revenger-congregation-salvage-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "commonwealth-early-commercial-zero",
+        "candidate_id": "c0195",
+        "name": "Commonwealth Saga (the early commercial Commonwealth)",
+        "work": "The Commonwealth Saga",
+        "society": "Commonwealth Saga (the early commercial Commonwealth)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published literary continuity and stated period only",
+          "period": "The functioning early commercial Commonwealth before Higher and ANA institutions",
+          "population": "Living human early Commonwealth residents",
+          "human_population_proxy": false,
+          "exclusions": "Later biononic welfare and Higher rejection of wage economics are not imported; paid rejuvenation is not leisure.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The early Commonwealth retains markets, inequality, paid rejuvenation and continuing work. Its technical productive capacity therefore does not automatically provide the later Higher culture’s rejection of commercial economics. The guarantee best guess is weak and conditional across residents, rather than copied from wealthy long-lived individuals. This zero variant treats advanced services and production as a cautious comparison with retained human roles.\n\n Human commercial, civic and private owners receive moderate positive control weight, with concentrated wealth inside the interval. Medical continuation does not grant every resident command over productive resources or create an AI sovereign. The moderate nonworking scenario counts production, research, administration, services, maintenance, care and useful creation. Age, wealth and rejuvenation costs are not employment statistics. The selected early period remains distinct from already-retained Higher and ANA communities. Broad bounds preserve ordinary household uncertainty without merging several centuries of materially different institutions into one supposedly universal post-scarcity economy.",
+        "axis": {
+          "guarantees": 0.65,
+          "control": 0.45,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.6,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Markets, inequality and paid continuation suggest conditional access.",
+            "source_ids": [
+              "src-commonwealth-early-readers",
+              "src-commonwealth-faller-timeline"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Human owners and civic institutions retain distributed but unequal agency.",
+            "source_ids": [
+              "src-commonwealth-early-readers",
+              "src-commonwealth-faller-timeline"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.03,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Useful work remains; age and medical spending are not participation.",
+            "source_ids": [
+              "src-commonwealth-early-readers",
+              "src-commonwealth-faller-timeline"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-commonwealth-early-readers",
+          "src-commonwealth-faller-timeline"
+        ],
+        "evidence": [
+          {
+            "claim": "The early commercial order has inequality, paid rejuvenation and continuing work; later Higher institutions reject commercial economics.",
+            "source_ids": [
+              "src-commonwealth-early-readers",
+              "src-commonwealth-faller-timeline"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "General productive automation and household coverage are estimates.",
+          "Higher and ANA rights are not assigned backward to the early period."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          4
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distinct early high-technology market order with period boundaries explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The early commercial order has inequality, paid rejuvenation and continuing work; later Higher institutions reject commercial economics."
+        ],
+        "editorial_assumptions": [
+          "General productive automation and household coverage are estimates.",
+          "Higher and ANA rights are not assigned backward to the early period."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0195",
+        "status": "needs_evidence",
+        "reason": "The early commercial Commonwealth does not inherit the later Higher rejection of wage economics.",
+        "source_ids": [
+          "src-commonwealth-early-readers",
+          "src-commonwealth-faller-timeline"
+        ],
+        "analysis": "Paid rejuvenation and market institutions make a universal post-work label unsafe; the quick sources do not establish an earlier general labor-independent support arrangement.",
+        "follow_up": "Skip deeper reading; retain the later Higher and ANA systems separately."
+      },
+      "after": {
+        "candidate_id": "c0195",
+        "status": "zero_variant",
+        "reason": "Retain the distinct early high-technology market order with period boundaries explicit.",
+        "source_ids": [
+          "src-commonwealth-early-readers",
+          "src-commonwealth-faller-timeline"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "commonwealth-early-commercial-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "commonwealth-highangel-humans",
+        "candidate_id": "c0196",
+        "name": "Commonwealth Saga (High Angel’s human resident domes)",
+        "work": "The Commonwealth Saga",
+        "society": "Commonwealth Saga (High Angel’s human resident domes)",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Named published literary continuity and stated period only",
+          "period": "The functioning sentient ship with human worker domes and manufacturing",
+          "population": "Living human residents of High Angel’s human domes",
+          "human_population_proxy": false,
+          "exclusions": "Other species and inactive ship systems are separate; the provider’s biological versus machine origin remains uncertain.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "High Angel manufactures on a huge scale and houses humans in domes initially associated with astroengineering work. That establishes actual technical habitat provision without a complete ordinary entitlement charter. The guarantee best guess allows a partial floor, qualified by provider dependence and continued human roles. Housing workers is not by itself proof that every resident has an unconditional right to all necessities.\n\n The sentient provider concentrates practical authority, scored near the non-AI elite reference point by analogy because its biological versus machine origin is explicitly uncertain. A fully autonomous AI interpretation remains inside the interval rather than asserted from sentience alone. The moderate nonworking scenario counts engineering, administration, services, maintenance, care and useful creation among humans. Manufacturing scale and dome population are not labor statistics. The point concerns active human residents, not every creator species or the whole Commonwealth. Broad bounds preserve the provider-origin and access uncertainties while retaining the concrete supporting habitat.",
+        "axis": {
+          "guarantees": -0.25,
+          "control": 0.02,
+          "nonworking": 0.45
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.95,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Actual manufactured habitat supports a floor, with entitlement uncertain.",
+            "source_ids": [
+              "src-high-angel-primary-quoted"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.4
+            ],
+            "confidence": "low",
+            "basis": "Sentient provider concentration is analogical; biological or machine origin is not settled.",
+            "source_ids": [
+              "src-high-angel-primary-quoted"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.03,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Human useful roles remain; ship scale and domes do not determine participation.",
+            "source_ids": [
+              "src-high-angel-primary-quoted"
+            ]
+          }
+        },
+        "regime_primary": 1,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-high-angel-primary-quoted"
+        ],
+        "evidence": [
+          {
+            "claim": "The quoted primary passage describes a sentient ship, human worker domes and manufacturing, with uncertain biological/machine origin.",
+            "source_ids": [
+              "src-high-angel-primary-quoted"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Human resident coverage and participation remain estimates.",
+          "Sentience alone is not treated as proof of unrelated AI sovereignty."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the concrete provider-supported human habitat with controller-origin uncertainty explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The quoted primary passage describes a sentient ship, human worker domes and manufacturing, with uncertain biological/machine origin."
+        ],
+        "editorial_assumptions": [
+          "Human resident coverage and participation remain estimates.",
+          "Sentience alone is not treated as proof of unrelated AI sovereignty."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0196",
+        "status": "needs_evidence",
+        "reason": "High Angel's manufacturing and worker housing are verified in the excerpt, but general employment-independent access is not.",
+        "source_ids": [
+          "src-high-angel-primary-quoted"
+        ],
+        "analysis": "The entity's origin is explicitly uncertain between machine and biological life. Its human domes begin as housing for astroengineering workers, not a demonstrated universal welfare state.",
+        "follow_up": "Skip deeper reading; do not infer AI sovereignty or free necessities from a sentient ship alone."
+      },
+      "after": {
+        "candidate_id": "c0196",
+        "status": "included",
+        "reason": "Retain the concrete provider-supported human habitat with controller-origin uncertainty explicit.",
+        "source_ids": [
+          "src-high-angel-primary-quoted"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "commonwealth-highangel-humans"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "commonwealth-raiel-core",
+        "candidate_id": "c0197",
+        "name": "Commonwealth Saga (the ship-building Raiel civilization)",
+        "work": "The Commonwealth Saga",
+        "society": "Commonwealth Saga (the ship-building Raiel civilization)",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Named published literary continuity and stated period only",
+          "period": "The functioning advanced Raiel civilization associated with High Angel-class construction",
+          "population": "Living biological Raiel residents of the scoped technical civilization",
+          "human_population_proxy": true,
+          "exclusions": "Human guests and every specialized military offshoot are separate; alien power is not automatically AI ownership.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Raiel are an ancient alien civilization capable of constructing High Angel-class ships. That supports a plausible high-capacity material order without a detailed ordinary household charter. The guarantee best guess allows a substantial internal floor, qualified by uncertain membership and distribution. Immense engineering does not itself prove equal rights, a complete absence of useful work or a universal obligation to support human guests.\n\n Biological resident and institutional agency receives positive control weight by analogy, with concentration inside the broad interval. Being alien and technologically superior does not make the rulers unrelated AI. The moderate nonworking scenario permits routine substitution while counting engineering, administration, services, maintenance, care and useful creation. Ship size and civilizational age are not labor statistics. Only living Raiel residents define the alien-person proxy. The record keeps their own material conditions distinct from High Angel’s human domes, rather than assigning creators and guests identical access or merging every military population into one census.",
+        "axis": {
+          "guarantees": -0.4,
+          "control": 0.55,
+          "nonworking": 0.5
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.95,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Advanced construction permits a strong internal floor with actual coverage uncertain.",
+            "source_ids": [
+              "src-raiel-reference-excerpts"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Biological resident institutions are central, not automatically AI sovereignty.",
+            "source_ids": [
+              "src-raiel-reference-excerpts"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.03,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Useful technical and caring roles remain; age and ship scale are not participation.",
+            "source_ids": [
+              "src-raiel-reference-excerpts"
+            ]
+          }
+        },
+        "regime_primary": 2,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-raiel-reference-excerpts"
+        ],
+        "evidence": [
+          {
+            "claim": "The references identify an ancient Raiel civilization and construction of High Angel-class ships.",
+            "source_ids": [
+              "src-raiel-reference-excerpts"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary rights, ownership and participation are broad alien-person estimates.",
+          "Creator populations, human guests and military subgroups are not silently combined."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the advanced biological civilization with its own access population and low-confidence floor.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The references identify an ancient Raiel civilization and construction of High Angel-class ships."
+        ],
+        "editorial_assumptions": [
+          "Ordinary rights, ownership and participation are broad alien-person estimates.",
+          "Creator populations, human guests and military subgroups are not silently combined."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0197",
+        "status": "needs_evidence",
+        "reason": "The Raiel's immense technological capacity does not establish household provision, labor participation or a justified economic population scope.",
+        "source_ids": [
+          "src-raiel-reference-excerpts"
+        ],
+        "analysis": "Ancient shipbuilding and a galactic golden age are not a documented post-work distribution system.",
+        "follow_up": "Skip a primary-text investigation under the faster-pass instruction."
+      },
+      "after": {
+        "candidate_id": "c0197",
+        "status": "included",
+        "reason": "Retain the advanced biological civilization with its own access population and low-confidence floor.",
+        "source_ids": [
+          "src-raiel-reference-excerpts"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "commonwealth-raiel-core"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "void-ocisen-fleet-work-zero",
+        "candidate_id": "c0200",
+        "name": "Void Trilogy (the Ocisen fleet command order)",
+        "work": "The Void Trilogy",
+        "society": "Void Trilogy (the Ocisen fleet command order)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published literary continuity and stated period only",
+          "period": "The functioning approaching imperial fleet and its support/command unit",
+          "population": "Active person command and operating identities in the scoped fleet, an explicit nonhuman proxy",
+          "human_population_proxy": true,
+          "exclusions": "Ordinary ship mechanisms and controlled bodies are not automatically separate people; civilian Ocisen rights are not inferred from warships.",
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_fleet_command_persons"
+        },
+        "description": "The Ocisen Empire fields an advanced armada, with associated Prime-body control arrangements in the referenced conflict. The retained point is the continuing fleet work institution rather than an invented uniform civilian economy. The guarantee best guess is mixed and conditional because military technical capacity does not establish equal secure necessities. Neither every ship nor every controlled body is assumed to be an independent conscious worker.\n\n Concentrated imperial and command authority receives control near the non-AI elite reference point by analogy, with machine and human-derived interpretations inside the interval. A body’s appearance does not settle the controlling identity’s origin. The central nonworking scenario is zero for the scoped active command/operating cohort because navigation, logistics, maintenance, coordination and assigned war duties count. Private rest is not a fractional nonworker. The broad interval preserves unknown membership without inventing demographics. The primary military excerpt corroborates the fleet, while ordinary household allocation remains explicitly outside its proof.",
+        "axis": {
+          "guarantees": 0.4,
+          "control": 0.05,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.8,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Fleet support is conditional and does not prove universal civilian rights.",
+            "source_ids": [
+              "src-ocisen-fleet-excerpts",
+              "src-ocisen-official-armada"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "Imperial command concentrates authority with controller origin broad.",
+            "source_ids": [
+              "src-ocisen-fleet-excerpts",
+              "src-ocisen-official-armada"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Scoped active command/operating roles count centrally; hardware and rest time do not.",
+            "source_ids": [
+              "src-ocisen-fleet-excerpts",
+              "src-ocisen-official-armada"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-ocisen-fleet-excerpts",
+          "src-ocisen-official-armada"
+        ],
+        "evidence": [
+          {
+            "claim": "The official excerpt identifies an approaching Ocisen Empire armada and associated Prime-ship conflict.",
+            "source_ids": [
+              "src-ocisen-fleet-excerpts",
+              "src-ocisen-official-armada"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Active command/operating personhood is a bounded fleet proxy.",
+          "No civilian census or unverified role-play demographics are imported."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the concrete advanced fleet work unit with its especially limited civilian claim explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The official excerpt identifies an approaching Ocisen Empire armada and associated Prime-ship conflict."
+        ],
+        "editorial_assumptions": [
+          "Active command/operating personhood is a bounded fleet proxy.",
+          "No civilian census or unverified role-play demographics are imported."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Active command/operating-person participation, not a literal human rate.",
+          "control": "Concentrated command is analogical; biological, human-derived and autonomous-machine alternatives remain in the interval.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0200",
+        "status": "needs_evidence",
+        "reason": "The Ocisen fleet is verified, but civilian production and distribution are not.",
+        "source_ids": [
+          "src-ocisen-fleet-excerpts"
+        ],
+        "analysis": "Fleet strength and alien alliances do not establish a post-work arrangement or a human-person proxy.",
+        "follow_up": "Skip deeper lore reading under the pace instruction."
+      },
+      "after": {
+        "candidate_id": "c0200",
+        "status": "zero_variant",
+        "reason": "Retain the concrete advanced fleet work unit with its especially limited civilian claim explicit.",
+        "source_ids": [
+          "src-ocisen-fleet-excerpts",
+          "src-ocisen-official-armada"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "void-ocisen-fleet-work-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "fallendragon-zantiubraun-zero",
+        "candidate_id": "c0201",
+        "name": "Fallen Dragon (Zantiu-Braun’s extraction order)",
+        "work": "Fallen Dragon",
+        "society": "Fallen Dragon (Zantiu-Braun’s extraction order)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published literary continuity and stated period only",
+          "period": "The functioning corporate asset-realization economy",
+          "population": "Living human residents and workers subject to the scoped corporate extraction order",
+          "human_population_proxy": false,
+          "exclusions": "Different colonies have different conditions; invasion deaths and advanced armor are not a labor census.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Zantiu-Braun pursues asset-realization invasions that extract value from colonies. Technical and organizational capacity strengthens corporate power without establishing dependable equal necessities. The guarantee best guess is extremely weak across people subject to that order. This zero variant cautiously compares advanced productive and military systems with retained labor, rather than treating sophisticated equipment as proof that every household already has automatic provision.\n\n Concentrated human corporate authority receives control near the elite reference point. Powerful armor and automated operations do not themselves make an AI sovereign. The low nonworking scenario counts production, administration, services, logistics, maintenance, care and assigned military work. A corporate balance sheet and the scale of an invasion are not employment statistics, and victims’ deaths do not increase leisure. The point preserves the common extraction relationship while leaving local colonial variation inside the broad bounds. It does not invent one universal post-conflict settlement or turn one operative’s resources into everyone’s entitlement.",
+        "axis": {
+          "guarantees": 0.95,
+          "control": 0.01,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.5,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Extraction and coercive corporate dependence imply weak equal security.",
+            "source_ids": [
+              "src-fallen-dragon-publisher"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.35
+            ],
+            "confidence": "low",
+            "basis": "Human corporate ownership dominates productive and military systems.",
+            "source_ids": [
+              "src-fallen-dragon-publisher"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Useful and assigned roles remain; extraction value and deaths are not participation.",
+            "source_ids": [
+              "src-fallen-dragon-publisher"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-fallen-dragon-publisher"
+        ],
+        "evidence": [
+          {
+            "claim": "The publisher describes corporate asset-realization invasions and Lawrence Newton’s involvement.",
+            "source_ids": [
+              "src-fallen-dragon-publisher"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary automation depth and colonial household coverage remain estimates.",
+          "The common extraction relation does not erase local variation."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar corporate technical-extraction comparison with weak-floor uncertainty explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The publisher describes corporate asset-realization invasions and Lawrence Newton’s involvement."
+        ],
+        "editorial_assumptions": [
+          "Ordinary automation depth and colonial household coverage remain estimates.",
+          "The common extraction relation does not erase local variation."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0201",
+        "status": "boundary_case",
+        "reason": "The publisher verifies corporate extraction, without a demonstrated post-work or deliberate job-preservation mechanism.",
+        "source_ids": [
+          "src-fallen-dragon-publisher"
+        ],
+        "analysis": "Predatory ownership and advanced spacecraft alone do not qualify the colonies; the synopsis concerns soldiers and colonial output.",
+        "follow_up": "Keep as a corporate-extraction comparison; skip novel reading."
+      },
+      "after": {
+        "candidate_id": "c0201",
+        "status": "zero_variant",
+        "reason": "Retain the familiar corporate technical-extraction comparison with weak-floor uncertainty explicit.",
+        "source_ids": [
+          "src-fallen-dragon-publisher"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "fallendragon-zantiubraun-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "nightsdawn-edenist-habitats",
+        "candidate_id": "c0202",
+        "name": "Night’s Dawn (the Edenist habitat consensus)",
+        "work": "The Night’s Dawn Trilogy",
+        "society": "Night’s Dawn (the Edenist habitat consensus)",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Named published literary continuity and stated period only",
+          "period": "The functioning affinity-linked Edenist habitat order",
+          "population": "Living human Edenist residents",
+          "human_population_proxy": false,
+          "exclusions": "Adamist worlds, human guests and inactive ancestral memories are separate; a sentient habitat is not ordinary equipment.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Edenists combine living habitats, affinity consensus, expansion and a powerful fuel economy. Their material arrangements plausibly support a strong internal floor, qualified by membership and the difference between wealth and guaranteed access. The guarantee point is an explicit best guess rather than a claim that fuel monopoly alone proves every necessity is free. Useful human and habitat contribution remains part of the system.\n\n Shared human and biological habitat institutions give strongly positive control weight, with unequal practical influence inside the interval. Affinity consensus is not automatically either sole machine rule or ownership by a tiny external elite. The moderate nonworking scenario counts production, engineering, coordination, care, services and useful creation even when chosen freely. A habitat’s living processes are not all separate workers, and dormant ancestral information does not enlarge the population. The point preserves active human residents as the denominator, keeping other sentient participants disclosed and Tranquillity’s different institutional model separate.",
+        "axis": {
+          "guarantees": -0.55,
+          "control": 0.8,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.95,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Habitat wealth and support permit a strong floor with membership/coverage uncertain.",
+            "source_ids": [
+              "src-edenist-politics-reference",
+              "src-night-dawn-general-reference",
+              "src-night-dawn-places-indexed"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.5,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Human/habitat consensus gives substantial shared agency with practical imbalance possible.",
+            "source_ids": [
+              "src-edenist-politics-reference",
+              "src-night-dawn-general-reference",
+              "src-night-dawn-places-indexed"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.03,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Useful chosen human roles count; habitat processes and inactive memories are not a census.",
+            "source_ids": [
+              "src-edenist-politics-reference",
+              "src-night-dawn-general-reference",
+              "src-night-dawn-places-indexed"
+            ]
+          }
+        },
+        "regime_primary": 2,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-edenist-politics-reference",
+          "src-night-dawn-general-reference",
+          "src-night-dawn-places-indexed"
+        ],
+        "evidence": [
+          {
+            "claim": "Edenists use affinity consensus, sentient habitats, expansion and a fuel monopoly.",
+            "source_ids": [
+              "src-edenist-politics-reference",
+              "src-night-dawn-general-reference",
+              "src-night-dawn-places-indexed"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The internal material floor and participation are estimates.",
+          "Human residents and other active or inactive habitat-associated entities are distinguished."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the famous biological technical commons with active human participation and consensus explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Edenists use affinity consensus, sentient habitats, expansion and a fuel monopoly."
+        ],
+        "editorial_assumptions": [
+          "The internal material floor and participation are estimates.",
+          "Human residents and other active or inactive habitat-associated entities are distinguished."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0202",
+        "status": "needs_evidence",
+        "reason": "Edenist wealth, living habitats and consensus politics do not yet establish employment-independent basic access.",
+        "source_ids": [
+          "src-edenist-politics-reference",
+          "src-night-dawn-general-reference",
+          "src-night-dawn-places-indexed"
+        ],
+        "analysis": "The helium-3 monopoly and real democratic consultation are distinct from an automated household-support entitlement. Affinity-linked human personalities are not automatically an external AI government.",
+        "follow_up": "Skip the trilogy investigation; reopen only on a concise source explaining production and resident access."
+      },
+      "after": {
+        "candidate_id": "c0202",
+        "status": "included",
+        "reason": "Retain the famous biological technical commons with active human participation and consensus explicit.",
+        "source_ids": [
+          "src-edenist-politics-reference",
+          "src-night-dawn-general-reference",
+          "src-night-dawn-places-indexed"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "nightsdawn-edenist-habitats"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "nightsdawn-developed-adamist-zero",
+        "candidate_id": "c0203",
+        "name": "Night’s Dawn (developed Adamist mechanoid economies)",
+        "work": "The Night’s Dawn Trilogy / The Confederation Handbook",
+        "society": "Night’s Dawn (developed Adamist mechanoid economies)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published literary continuity and stated period only",
+          "period": "The developed consumer-mechanoid stage on scoped Adamist worlds",
+          "population": "Living human residents of developed Adamist economies",
+          "human_population_proxy": false,
+          "exclusions": "Early colony animal-servitor systems and different local welfare rules are excluded from a universal claim.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The handbook describes a development stage in which consumer mechanoids and cybernetics take over routine tasks, replacing early colony animal-servitor arrangements. This is direct labor-saving material technology, but Adamist political variety does not supply one universal household entitlement. The guarantee best guess is mixed and conditional across the selected developed economies. The zero variant retains human roles rather than claiming every mundane task replaced means every person stops working.\n\n Human civic and private ownership receives moderate positive control weight, with local concentration inside the interval. Mechanoid staffing is not automatically sovereign AI control or equal resident ownership. The modest nonworking scenario counts production, administration, services, maintenance, care and useful creation. It is not the share of tasks labeled routine or the ratio of domestic machines to residents. The scope selects a common developed technical model rather than all Adamist worlds, religions and colonial stages. Local rights and actual participation remain broad editorial estimates.",
+        "axis": {
+          "guarantees": 0.3,
+          "control": 0.4,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.8,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Routine-task machinery does not establish one universal local necessities floor.",
+            "source_ids": [
+              "src-night-dawn-general-reference",
+              "src-adamist-handbook-mechanoids"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Human civic/private ownership varies but remains central.",
+            "source_ids": [
+              "src-night-dawn-general-reference",
+              "src-adamist-handbook-mechanoids"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.03,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Useful roles remain; routine-task and machine ratios are not participation.",
+            "source_ids": [
+              "src-night-dawn-general-reference",
+              "src-adamist-handbook-mechanoids"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-night-dawn-general-reference",
+          "src-adamist-handbook-mechanoids"
+        ],
+        "evidence": [
+          {
+            "claim": "The handbook describes developed domestic mechanoids/cybernetics replacing early colony servitor arrangements, with religious/local variation.",
+            "source_ids": [
+              "src-night-dawn-general-reference",
+              "src-adamist-handbook-mechanoids"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Only the developed technical stage is the common comparison.",
+          "Household coverage and ownership vary locally."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          4
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain a directly documented Adamist automation model without inventing a uniform Confederation economy.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The handbook describes developed domestic mechanoids/cybernetics replacing early colony servitor arrangements, with religious/local variation."
+        ],
+        "editorial_assumptions": [
+          "Only the developed technical stage is the common comparison.",
+          "Household coverage and ownership vary locally."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0203",
+        "status": "boundary_case",
+        "reason": "Adamist worlds are a heterogeneous political aggregate, without one evidenced post-work economy.",
+        "source_ids": [
+          "src-night-dawn-general-reference"
+        ],
+        "analysis": "Mechanical technology and membership in the Confederation do not transfer Edenist institutions or a uniform guarantee to all Adamist worlds.",
+        "follow_up": "Skip this broad aggregate rather than inventing a common coordinate."
+      },
+      "after": {
+        "candidate_id": "c0203",
+        "status": "zero_variant",
+        "reason": "Retain a directly documented Adamist automation model without inventing a uniform Confederation economy.",
+        "source_ids": [
+          "src-night-dawn-general-reference",
+          "src-adamist-handbook-mechanoids"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "nightsdawn-developed-adamist-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "nightsdawn-tranquillity-zero",
+        "candidate_id": "c0204",
+        "name": "The Reality Dysfunction (Tranquillity’s sentient habitat)",
+        "work": "The Reality Dysfunction",
+        "society": "The Reality Dysfunction (Tranquillity’s sentient habitat)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published literary continuity and stated period only",
+          "period": "The functioning non-Edenist bitek habitat",
+          "population": "Living human Tranquillity residents",
+          "human_population_proxy": false,
+          "exclusions": "Edenist consensus is not automatically this habitat’s government; the active biological host and other visitors are separate from the human rate.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Tranquillity is a sentient bitek habitat with a distinct purpose and institutions outside ordinary Edenist society. Its engineered body provides a concrete sustaining environment, while general household entitlements remain uncertain. The guarantee best guess allows a partial but conditional floor. Living habitat support does not by itself establish shared ownership or an end to all useful human labor.\n\n Concentrated human and habitat authority receives control near the non-AI institutional reference point, with an autonomous-provider interpretation inside the interval. Biological engineering and sentience do not alone settle whether the host should be treated as a machine sovereign. The moderate nonworking scenario counts services, administration, research, maintenance, care and useful creation among human residents. The host’s real contribution is disclosed without treating every biological process as a worker or adding it to a human census. This zero variant keeps Tranquillity separate from Edenist consensus and avoids inventing universal rights from habitat comfort.",
+        "axis": {
+          "guarantees": 0.25,
+          "control": 0.03,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.85,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Engineered habitat support allows a floor but ordinary rights are conditional/uncertain.",
+            "source_ids": [
+              "src-night-dawn-places-indexed",
+              "src-night-dawn-general-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Human and sentient-host concentration is central with autonomous alternatives broad.",
+            "source_ids": [
+              "src-night-dawn-places-indexed",
+              "src-night-dawn-general-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.03,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Human useful roles remain; host processes are not a human participation statistic.",
+            "source_ids": [
+              "src-night-dawn-places-indexed",
+              "src-night-dawn-general-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-night-dawn-places-indexed",
+          "src-night-dawn-general-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "Tranquillity is a sentient non-Edenist bitek habitat with a distinct purpose.",
+            "source_ids": [
+              "src-night-dawn-places-indexed",
+              "src-night-dawn-general-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary coverage and the human/host authority balance are estimates.",
+          "The Edenist consensus model is not imported automatically."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the materially distinct biological habitat with its provider-origin and ownership uncertainty explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Tranquillity is a sentient non-Edenist bitek habitat with a distinct purpose."
+        ],
+        "editorial_assumptions": [
+          "Ordinary coverage and the human/host authority balance are estimates.",
+          "The Edenist consensus model is not imported automatically."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0204",
+        "status": "needs_evidence",
+        "reason": "Tranquillity is an identifiable living habitat, but its general allocation rules remain unverified.",
+        "source_ids": [
+          "src-night-dawn-places-indexed",
+          "src-night-dawn-general-reference"
+        ],
+        "analysis": "Its non-Edenist status prevents borrowing Edenist consensus politics. A prosperous research habitat does not itself establish wage-independent provision for all residents.",
+        "follow_up": "Skip deeper reading; do not infer guarantees from habitat life support."
+      },
+      "after": {
+        "candidate_id": "c0204",
+        "status": "zero_variant",
+        "reason": "Retain the materially distinct biological habitat with its provider-origin and ownership uncertainty explicit.",
+        "source_ids": [
+          "src-night-dawn-places-indexed",
+          "src-night-dawn-general-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "nightsdawn-tranquillity-zero"
+      }
+    }
+  ]
+}

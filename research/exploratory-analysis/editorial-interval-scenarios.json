@@ -1,0 +1,114 @@
+{
+  "replicates": 500,
+  "assumption": "independent uniform coordinates inside editorial intervals; U and popularity held fixed; not a posterior or confidence interval",
+  "coefficients": {
+    "intercept": {
+      "median": -0.27530733631950355,
+      "low": -0.3565364425086934,
+      "high": -0.1807199901848599,
+      "positive_share": 0.0
+    },
+    "security": {
+      "median": 0.35046868260784836,
+      "low": 0.2964283428728198,
+      "high": 0.40303491698144933,
+      "positive_share": 1.0
+    },
+    "control": {
+      "median": 0.2570545036784513,
+      "low": 0.20612110490878885,
+      "high": 0.3089135131801916,
+      "positive_share": 1.0
+    },
+    "control_squared": {
+      "median": 0.26262000155706966,
+      "low": 0.166424931152986,
+      "high": 0.3467295479552346,
+      "positive_share": 1.0
+    },
+    "nonworking": {
+      "median": 0.0036664801634876815,
+      "low": -0.13016182415884792,
+      "high": 0.13333830695083201,
+      "positive_share": 0.52
+    },
+    "post_work": {
+      "median": 0.17934485511027942,
+      "low": 0.1464426347174927,
+      "high": 0.20946384128332327,
+      "positive_share": 1.0
+    },
+    "popularity": {
+      "median": -0.10067378285239735,
+      "low": -0.1667847199693802,
+      "high": -0.029530471342307605,
+      "positive_share": 0.002
+    },
+    "media_anime": {
+      "median": -0.060048703392847784,
+      "low": -0.10749947112887054,
+      "high": -0.00825476247080743,
+      "positive_share": 0.016
+    },
+    "media_book": {
+      "median": -0.06152125265295945,
+      "low": -0.10507414070428411,
+      "high": -0.01648219676077618,
+      "positive_share": 0.002
+    },
+    "media_cartoon": {
+      "median": 0.07136802224351763,
+      "low": 0.007896045928876407,
+      "high": 0.13463200745894618,
+      "positive_share": 0.988
+    },
+    "media_comic": {
+      "median": -0.20354515006740137,
+      "low": -0.2708338465225477,
+      "high": -0.13321865952267054,
+      "positive_share": 0.0
+    },
+    "media_game": {
+      "median": -0.04558253852451599,
+      "low": -0.09848468100736217,
+      "high": 0.012474421855635283,
+      "positive_share": 0.068
+    },
+    "media_manga": {
+      "median": 0.023287369599454377,
+      "low": -0.062484501934727044,
+      "high": 0.110004675530831,
+      "positive_share": 0.7
+    },
+    "media_movie": {
+      "median": -0.15776808498346712,
+      "low": -0.20779667748194233,
+      "high": -0.10249263811447716,
+      "positive_share": 0.0
+    },
+    "media_short_story": {
+      "median": -0.04574274720006631,
+      "low": -0.10921583130743813,
+      "high": 0.003314454742260839,
+      "positive_share": 0.032
+    },
+    "media_tabletop": {
+      "median": -0.02171211104592463,
+      "low": -0.09721017236132706,
+      "high": 0.06506128555573623,
+      "positive_share": 0.302
+    },
+    "media_tv": {
+      "median": -0.12404758824773186,
+      "low": -0.1915142980543075,
+      "high": -0.0654023876852959,
+      "positive_share": 0.002
+    },
+    "media_web_fiction": {
+      "median": 0.06830750125059737,
+      "low": -0.02259156041700622,
+      "high": 0.17080979602090762,
+      "positive_share": 0.924
+    }
+  }
+}

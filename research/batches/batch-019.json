@@ -1,0 +1,467 @@
+{
+  "batch_id": "batch-019",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0103",
+    "c0104",
+    "c0105",
+    "c0106",
+    "c0107"
+  ],
+  "sources": [
+    {
+      "id": "src-city-original-text",
+      "title": "City: original eight tales",
+      "author": "Clifford D. Simak; unofficial reflowed transcription hosted on entropy.tmok.com",
+      "url": "https://entropy.tmok.com/~bmo/Clifford%20D.%20Simak%20City/City%20-%20Clifford%20Simak.pdf",
+      "kind": "primary_fiction_unofficial_pdf_transcription",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public PDF opened; targeted text extracted; selected complete pages rendered and visually checked",
+      "read_scope": "Hobbies: robot production, unrestricted access, government/currency disappearance and continuing human creative activity. Aesop: protected rural humans, feeding stations, medical robots and Jenkins' imposed departure. The Simple Way: ant appropriation of robots and loss of habitat.",
+      "limitations": "72-page reflowed file, not a verified facsimile edition; OCR/transcription defects remain. Visual checks include one-based PDF pages 45-46, 49, 54 and 68-69; the Aesop departure and other context were read in the text layer. The whole book was not read, and the 1973 Epilog is absent."
+    },
+    {
+      "id": "src-city-edition-reference",
+      "title": "City (novel)",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/City_(novel)",
+      "kind": "secondary_edition_and_plot_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed introduction and ending account read",
+      "read_scope": "1952 fix-up of eight previously published tales; the later ninth Epilog is a separate addition; distinct human, Dog, robot and ant populations.",
+      "limitations": "Edition and media support, not authority over the primary scenes. The later dead Ant City is not claimed to have been read in the original-eight text."
+    },
+    {
+      "id": "src-traps-earth-primary",
+      "title": "All the Traps of Earth",
+      "author": "Clifford D. Simak; unofficial English transcription on Lib.Ru",
+      "url": "https://www.lib.ru/SIMAK/traps.txt",
+      "kind": "primary_fiction_unofficial_transcription",
+      "accessed_on": "2026-10-16",
+      "access_method": "Opening and robot-outpost passages read in the public index; ending fetched normally and decoded using its declared KOI8-R charset",
+      "read_scope": "Richard Daniel as estate property, a robot-only industrial outpost, and his final choice to help working settlers at Sleepy Hollow on Arcadia.",
+      "limitations": "Web opening had a character-decoding error, not an access prohibition; ordinary HTTPS returned 200. Targeted reading, not a complete-story read. His hoped-for future transfer of paranormal abilities is not an accomplished social system."
+    },
+    {
+      "id": "src-ring-sun-primary",
+      "title": "Ring Around the Sun: Russian translation",
+      "author": "Clifford D. Simak; translator not identified in the displayed header; Lib.Ru",
+      "url": "https://www.lib.ru/SIMAK/ring_sun.txt",
+      "kind": "primary_fiction_translation",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public text opened; factory, Andrews household, Big House and Flanders production passages read; ordinary HTTPS text also decoded normally",
+      "read_scope": "Purposeful robot factories; no rent, taxes or wages required for supplied goods; families still grow food; medical help, teaching robots, farm assistance and Big House rules; mutant direction of production.",
+      "limitations": "The displayed edition header is not taken as the first-publication date. Vickers' projected later societies and immortality are not current institutions. A different public mirror returned 403 and was not bypassed."
+    },
+    {
+      "id": "src-ring-sun-westfahl",
+      "title": "Ring Around the Sun by Clifford D. Simak",
+      "author": "Gary Westfahl; EBSCO Research Starters, 2019",
+      "url": "https://www.ebsco.com/research-starters/literature-and-writing/ring-around-sun-clifford-d-simak/",
+      "kind": "signed_literary_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public article opened and plot account read",
+      "read_scope": "Automated factory, displaced workers' resettlement and the distinction between mutant people and their android identities.",
+      "limitations": "Secondary plot account. A proposed ideal future is not treated as an already operating cooperative constitution, and all android bodies are not presumed independent AI rulers."
+    }
+  ],
+  "societies": [
+    {
+      "id": "city-geneva-hobbies",
+      "candidate_id": "c0103",
+      "name": "City (Geneva in Hobbies)",
+      "work": "City",
+      "society": "The awake human remnant in robot-maintained Geneva",
+      "media": [
+        "book",
+        "short_story"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "The original City sequence, Hobbies",
+        "period": "After the mass departure to Jupiter, before Jon activates the city's enclosing defense",
+        "population": "The living, awake human residents of Geneva",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Earlier urban decline and job retraining",
+          "Jovian converts",
+          "Rural humans living with the animal brotherhood",
+          "Sleepers as automatically active leisure citizens",
+          "The later Ant City"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Geneva's remaining humans inherit productive machinery and robot services built for a much larger population. The primary account explicitly makes goods available simply by asking or taking them; currency and ordinary property disputes lose their purpose. This supports very strong guarantees for the selected residents. It is a different economic period from the opening story's displacement and retraining, rather than a description of all Webster-era Earth.\n\nEveryday access and personal projects remain in human hands, without an identified governing owner or an AI sovereign. A strongly positive control estimate reflects that dispersed effective use, qualified by dependence on inherited machinery. Jon's later unilateral enclosure exposes a serious vulnerability and bounds this snapshot. The narrator dismisses the residents' hobbies, but history writing, painting, design and drink-making still produce things for others. They count as work when useful, regardless of the novel's pessimistic assessment of achievement. Neither the roughly five thousand residents nor the disappearance of careers provides a reliable nonworking percentage.",
+      "axis": {
+        "guarantees": -0.95,
+        "control": 0.75,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -1,
+            -0.85
+          ],
+          "confidence": "high",
+          "basis": "Robot-tended machinery continues producing for millions, while residents obtain goods on request without currency. The defined awake community has food, clothing and shelter.",
+          "source_ids": [
+            "src-city-original-text",
+            "src-city-edition-reference"
+          ]
+        },
+        "control": {
+          "interval": [
+            0.45,
+            0.95
+          ],
+          "confidence": "medium",
+          "basis": "No government or restrictive property allocation is needed; residents direct homes and services. The hidden defense switch's later misuse limits confidence in secure collective control.",
+          "source_ids": [
+            "src-city-original-text",
+            "src-city-edition-reference"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "The explicit examples include sustained history writing, painting, design and other useful chosen activity. The narrator's 'hobbies' category is not a census of nonworkers.",
+          "source_ids": [
+            "src-city-original-text",
+            "src-city-edition-reference"
+          ]
+        }
+      },
+      "regime_primary": 2,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-city-original-text",
+        "src-city-edition-reference"
+      ],
+      "evidence": [
+        {
+          "claim": "Automatic production and unrestricted access make currency and competitive property rights unnecessary.",
+          "source_ids": [
+            "src-city-original-text"
+          ],
+          "locator": "Hobbies, one-based PDF pages 45-46",
+          "kind": "depicted_or_author_stated"
+        },
+        {
+          "claim": "Human activities include writing, painting, interior design and invention despite the narrator's dismissive judgment.",
+          "source_ids": [
+            "src-city-original-text"
+          ],
+          "locator": "Hobbies, one-based PDF pages 43-46",
+          "kind": "depicted_or_author_stated"
+        }
+      ],
+      "uncertainties": [
+        "The city is a bounded remnant, not a universal guarantee for every species or period.",
+        "Sleep and the later enclosure are outside this awake snapshot.",
+        "Economic abundance does not make the inherited defense infrastructure democratically secure."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "city-brotherhood-rural-humans",
+      "candidate_id": "c0104",
+      "name": "City (Humans within the animal brotherhood)",
+      "work": "City",
+      "society": "The protected rural websters living among the Dogs and other animals",
+      "media": [
+        "book",
+        "short_story"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "The original City sequence, Aesop",
+        "period": "The brotherhood's developed provisioning order immediately before Jenkins moves the rural humans to another world",
+        "population": "The living rural human population called websters; animal neighbors and robots are not silently included in the human participation denominator",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Geneva's sealed sleepers",
+          "All Dogs counted as humans",
+          "Wild robots as human nonworkers",
+          "The new world's ensuing self-provisioning period"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "The animal brotherhood includes a small rural human population whose houses and routine needs are supported rather than earned through employment. Peter's voluntary feeding-station job is expressly contrasted with the websters' usual sheltered life; a robot could perform it. Feeding stations and medical robots also support the wider animal community. The guarantee estimate is favorable but qualified by dependence on guardians who can withdraw the arrangement.\n\nJenkins shapes the humans' knowledge and eventually relocates them without informed agreement. That demonstrated authority places effective human control on the negative side, even though the broader animal society also contains cooperative Dogs and robot companions. It is not a claim that every Dog is governed by one robot dictator. The high nonworking estimate concerns actual humans, not the absence of humans or an animal-to-human conversion. Its wide interval allows for useful care, craft and service work. The farming and hunting Jenkins anticipates after relocation belong to a changed material situation and are not averaged into this period.",
+      "axis": {
+        "guarantees": -0.65,
+        "control": -0.6,
+        "nonworking": 0.85
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.9,
+            -0.3
+          ],
+          "confidence": "medium",
+          "basis": "Long-standing supported homes, feeding and medical services weaken work dependence, but Jenkins' ability to remove the human population makes continued access contingent on guardianship.",
+          "source_ids": [
+            "src-city-original-text",
+            "src-city-edition-reference"
+          ]
+        },
+        "control": {
+          "interval": [
+            -0.85,
+            -0.25
+          ],
+          "confidence": "medium",
+          "basis": "Jenkins manages human historical knowledge and implements an uninformed mass relocation. Human requests and chosen roles persist; the point is scoped to humans' dependence, not all animal political life.",
+          "source_ids": [
+            "src-city-original-text",
+            "src-city-edition-reference"
+          ]
+        },
+        "nonworking": {
+          "interval": [
+            0.6,
+            0.98
+          ],
+          "confidence": "low",
+          "basis": "The primary dialogue contrasts typical protected play with Peter's voluntarily requested job. This is a broad all-human-resident editorial approximation allowing for craft, care and other useful activity, not a counted census.",
+          "source_ids": [
+            "src-city-original-text",
+            "src-city-edition-reference"
+          ]
+        }
+      },
+      "regime_primary": 5,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-city-original-text",
+        "src-city-edition-reference"
+      ],
+      "evidence": [
+        {
+          "claim": "A human runs a feeding station by choice; a robot could do it, while the others are described as living in supported houses.",
+          "source_ids": [
+            "src-city-original-text"
+          ],
+          "locator": "Aesop, one-based PDF page 54",
+          "kind": "depicted_or_author_stated"
+        },
+        {
+          "claim": "Jenkins moves the assembled humans under the guise of a game, then anticipates their need to farm and hunt.",
+          "source_ids": [
+            "src-city-original-text"
+          ],
+          "locator": "Aesop, one-based PDF pages 63-64",
+          "kind": "depicted_or_author_stated"
+        }
+      ],
+      "uncertainties": [
+        "The denominator is the rural humans, not all animals or robots.",
+        "The wider brotherhood's governance cannot be reduced to Jenkins alone.",
+        "The post-relocation subsistence community is a different, only partly depicted order."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": true
+      }
+    },
+    {
+      "id": "ring-sun-earth-two-settlers",
+      "candidate_id": "c0107",
+      "name": "Ring Around the Sun (Earth Two's pastoral settlements)",
+      "work": "Ring Around the Sun",
+      "society": "Human resettlement communities supported by the mutants' Big House",
+      "media": [
+        "book"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Simak's original novel",
+        "period": "The existing pastoral transitional settlements encountered by Vickers",
+        "population": "Ordinary living human settlers such as the Andrews household, including children",
+        "human_population_proxy": false,
+        "exclusions": [
+          "All parallel Earths as one constitution",
+          "Old Earth's industrial economy",
+          "Android identities as independent AI rulers",
+          "Projected immortality and later civilizations"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Earth Two's settlers receive manufactured goods, medical help and robot teaching without having to earn money. Robot factories make the industrial products, and robots can help on farms or with building. Rent, debt and taxes have disappeared from Andrews's account. This is a partial departure from wage dependence, with qualified guarantees: households still cultivate their own food, so support does not eliminate necessary human production.\n\nThe Big House supplies expertise, resolves disputes and sets rules, while the mutant organizers tell the factories what to make. Effective control is therefore concentrated in human or human-origin organizers, rather than demonstrated equal settler ownership or sovereign factory AI. The settlers retain land use and household choices within that arrangement. A low nonworking estimate reflects the continuing family farming and craft work, with wide uncertainty about ages, care and residents unable to work. The primary text calls this a transitional pastoral stage; a later perfected society or achieved immortality is not added from Vickers's hopes.",
+      "axis": {
+        "guarantees": -0.5,
+        "control": 0.15,
+        "nonworking": 0.25
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.8,
+            -0.15
+          ],
+          "confidence": "medium",
+          "basis": "No wages, rent or tax gate the described material aid, education and medical help; farming is still necessary and no unconditional food floor is established.",
+          "source_ids": [
+            "src-ring-sun-primary",
+            "src-ring-sun-westfahl"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.35
+          ],
+          "confidence": "medium",
+          "basis": "Mutant organizers retain production direction, dispute resolution and rule setting. Settler land use and mutual help do not prove ownership of the factory network; robots implement requested ends.",
+          "source_ids": [
+            "src-ring-sun-primary",
+            "src-ring-sun-westfahl"
+          ]
+        },
+        "nonworking": {
+          "interval": [
+            0.05,
+            0.55
+          ],
+          "confidence": "low",
+          "basis": "The depicted families farm and undertake useful household/craft labor despite industrial automation. This coarse all-resident estimate allows for children, age and incapacity; no census or wage-to-work conversion is claimed.",
+          "source_ids": [
+            "src-ring-sun-primary",
+            "src-ring-sun-westfahl"
+          ]
+        }
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-ring-sun-primary",
+        "src-ring-sun-westfahl"
+      ],
+      "evidence": [
+        {
+          "claim": "Andrews describes supplied goods, medicine, robot tutors and assistance without earning money, while families grow food.",
+          "source_ids": [
+            "src-ring-sun-primary"
+          ],
+          "locator": "Andrews conversation, web lines 4160-4238; following household/building scene",
+          "kind": "depicted_or_author_stated"
+        },
+        {
+          "claim": "Flanders says only robots operate the factories and the organizers specify the required output.",
+          "source_ids": [
+            "src-ring-sun-primary"
+          ],
+          "locator": "Later Flanders/Vickers production discussion",
+          "kind": "depicted_or_author_stated"
+        }
+      ],
+      "uncertainties": [
+        "This is an implemented partial arrangement, not full automation of every need.",
+        "A zero-variant reclassification would need evidence that farming duties gate the other benefits or are deliberately imposed as unnecessary employment; remaining productive work alone is insufficient.",
+        "Mutant status and android bodies do not automatically mean autonomous AI government."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": true
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0103",
+      "status": "included",
+      "reason": "The broad Webster-era lead is narrowed to the explicitly robot-supported, awake Geneva of Hobbies.",
+      "source_ids": [
+        "src-city-original-text",
+        "src-city-edition-reference"
+      ],
+      "unretained_subscopes": [
+        {
+          "society": "Early decentralized human Earth",
+          "status": "needs_evidence",
+          "reason": "The opening includes displaced workers, continued employment and retraining; household wealth is not a verified universal entitlement."
+        }
+      ],
+      "society_id": "city-geneva-hobbies"
+    },
+    {
+      "candidate_id": "c0104",
+      "status": "included",
+      "reason": "Aesop supplies an actual protected human population within the animal brotherhood, avoiding an invented canine human-leisure fraction.",
+      "source_ids": [
+        "src-city-original-text",
+        "src-city-edition-reference"
+      ],
+      "society_id": "city-brotherhood-rural-humans"
+    },
+    {
+      "candidate_id": "c0105",
+      "status": "boundary_case",
+      "reason": "The Ant City appropriates robot labor and habitat, but is not a demonstrated provisioning system for a resident human or justified humanlike population.",
+      "source_ids": [
+        "src-city-original-text",
+        "src-city-edition-reference"
+      ],
+      "analysis": "Ant industry and the robotic Building are genuinely autonomous from the other residents, but the original tale presents inscrutable purposes and displacement rather than human entitlements. A place without human residents cannot supply 100% leisure. Nor is biological ant coordination automatically AI sovereignty. The later Epilog's reported outcome was not used as primary evidence from this eight-tale file.",
+      "follow_up": "Preserve as a machine-assisted nonhuman expansion comparison. Reopen only after a meaningful population proxy, access rules and internal labor relationship are established; do not derive coordinates from absence or extinction."
+    },
+    {
+      "candidate_id": "c0106",
+      "status": "boundary_case",
+      "reason": "The robot industrial outpost and the working human frontier are different settings, neither a verified post-work settlement.",
+      "source_ids": [
+        "src-traps-earth-primary"
+      ],
+      "analysis": "Richard Daniel visits a robot-only extraction world, then chooses Sleepy Hollow, whose settlers farm, ship materials and need repairs and care. His new abilities are real, but his final hope to teach them to humanity is a promise, not an accomplished general production system. His autonomy as one escaped robot does not establish robot government over the whole human economy.",
+      "follow_up": "Keep the robot outpost and frontier aid as comparisons. Reopen if an actually implemented post-work population can be identified; distinguish future capacities from existing household provision."
+    },
+    {
+      "candidate_id": "c0107",
+      "status": "included",
+      "reason": "Direct household and factory passages establish a robot-backed material support system with remaining human subsistence farming.",
+      "source_ids": [
+        "src-ring-sun-primary",
+        "src-ring-sun-westfahl"
+      ],
+      "society_id": "ring-sun-earth-two-settlers"
+    }
+  ],
+  "review_notes": [
+    "The previous goal turn made progress: authoritative decisions rose to 102, retained records to 54, and primary evidence plus corrected checkpoints were saved. It was not a status-only turn or a blocked wait.",
+    "Geneva's awake humans, the later protected rural humans and nonhuman Ant City remain distinct populations and economic periods.",
+    "The animal-brotherhood record explicitly measures actual human residents rather than treating Dogs as humans or empty Earth as universal leisure.",
+    "Ring Around the Sun's current household rules supersede the discovery shorthand 'cooperative colonies'; necessary farming persists and the promised later society is not counted.",
+    "Second pass checked narrator judgments against useful creative work, personal robot autonomy against global rule, human-origin minds against mechanical bodies, and benevolent support against effective override rights."
+  ]
+}

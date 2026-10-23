@@ -1,0 +1,3582 @@
+{
+  "revision_id": "revision-004",
+  "revised_on": "2026-10-17",
+  "reason": "2026-10-17 continuation: twenty-four popular screen societies assessed with explicit best guesses and person-proxy labels. Raffi is resolved as an economic-model duplicate; Sargus 4 receives a scored, completed non-fit comparison rather than an unanalysed lore gap.",
+  "changes": [
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-follow-providers",
+        "title": "Provider 1",
+        "author": "Memory Alpha contributors",
+        "url": "https://memory-alpha.fandom.com/wiki/Provider_1",
+        "kind": "secondary_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Bounded public character reference returned by search",
+        "read_scope": "Three living disembodied-brain Providers own captives and gamble on their fights.",
+        "limitations": "Indexed bounded character text; no machine-production or household census supplied."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-follow-borg-queen",
+        "title": "Everything You Need to Know About the Borg Queen",
+        "author": "Christine Dinh, StarTrek.com",
+        "url": "https://www.startrek.com/en-ca/news/everything-you-need-to-know-borg-queen",
+        "kind": "official_franchise_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Official overview returned by web search",
+        "read_scope": "The Queen gives direction to a network of assimilated biological and technological persons.",
+        "limitations": "Official overview, not an economic census or proof that all control is nonhuman software."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-follow-cooperative",
+        "title": "Star Trek’s Exceptional ex-Borg",
+        "author": "StarTrek.com",
+        "url": "https://www.startrek.com/news/star-treks-exceptional-ex-borg",
+        "kind": "official_franchise_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Bounded official episode discussion returned by search",
+        "read_scope": "Former drones form a cooperative and compel Chakotay to help restore their link.",
+        "limitations": "Bounded Unity discussion; coercion and individual participation remain material qualifications."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-follow-apu",
+        "title": "Automated Personnel Unit",
+        "author": "Memory Alpha contributors",
+        "url": "https://memory-alpha.fandom.com/wiki/Automated_Personnel_Unit",
+        "kind": "secondary_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Bounded design and Prototype plot sections returned by search",
+        "read_scope": "Pralor and Cravic androids outlast their creators, continue war and cannot ordinarily reproduce guarded power modules.",
+        "limitations": "Synthetic-person proxy only; dead creators do not count as human leisure."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-follow-kaylon-builders",
+        "title": "Builder",
+        "author": "The Orville Wiki contributors",
+        "url": "https://orville.fandom.com/wiki/Builder",
+        "kind": "secondary_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Bounded indexed species description",
+        "read_scope": "The Builders were humanoid creators of the Kaylon and treated other sentient beings as disposable.",
+        "limitations": "Before extinction only; does not establish universal household welfare."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-follow-kaylon-construction",
+        "title": "Kaylon — Construction",
+        "author": "The Orville Wiki contributors",
+        "url": "https://orville.fandom.com/wiki/Kaylon",
+        "kind": "secondary_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Bounded construction and continuity passage returned by search",
+        "read_scope": "Conscious machines are assembled at a central facility and can restore neural matrices in new bodies.",
+        "limitations": "Bounded indexed construction section, not proof of universal unconditional access."
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "walle-earth-human-robot-reconstruction",
+        "candidate_id": "c0316",
+        "name": "WALL-E — Humans rebuilding Earth",
+        "work": "WALL-E",
+        "society": "Humans rebuilding Earth",
+        "media": [
+          "cartoon",
+          "movie"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Pixar film and closing reconstruction sequence",
+          "period": "Return after AUTO is disabled and the depicted early recovery",
+          "population": "Living returned human passengers",
+          "human_population_proxy": false,
+          "exclusions": [
+            "The earlier AUTO passenger order",
+            "An inexhaustible restored biosphere"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Returning to Earth changes the Axiom’s passive passenger order into a community learning to rebuild with robots. The best-guess material floor combines surviving ship support and technical help with fragile local food production. It is therefore weaker than effortless onboard provision without implying that people immediately lose all supplies. The record concerns the early recovery actually depicted and its limited continuation, not an invented fully established planetary government.\n\nHuman initiative now directs the project, so control moves toward shared human participation rather than AUTO’s concealed mandate. Farming, restoration, care and learning that contributes to rebuilding count as useful work. The comparatively low nonworking estimate allows children and other nonparticipants while assuming broad adult involvement. It is not the share of the day spent gardening. Robots remain collaborators with interests of their own, and neither continued human work nor hopeful imagery proves unlimited automatic production.",
+        "axis": {
+          "guarantees": -0.35,
+          "control": 0.65,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.8,
+              0.4
+            ],
+            "confidence": "low",
+            "basis": "Inherited technical support suggests a floor, but local recovery is uncertain.",
+            "source_ids": [
+              "src-walle-return-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              0.2,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Humans take initiative with robot cooperation; formal ownership remains unspecified.",
+            "source_ids": [
+              "src-walle-return-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.1,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "All-age reconstruction scenario retains broad useful farming, repair and care work.",
+            "source_ids": [
+              "src-walle-return-reference"
+            ]
+          }
+        },
+        "regime_primary": 2,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-walle-return-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "Humans and robots work to restore Earth after AUTO is disabled.",
+            "source_ids": [
+              "src-walle-return-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Continued access to inherited supplies and the longer-term communal floor are best guesses.",
+          "The closing sequence is not a census or a completed economic constitution."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Humans and robots work to restore Earth after AUTO is disabled."
+        ],
+        "editorial_assumptions": [
+          "Continued access to inherited supplies and the longer-term communal floor are best guesses.",
+          "The closing sequence is not a census or a completed economic constitution."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0316",
+        "status": "needs_evidence",
+        "reason": "Earth’s rebuilding ending does not establish a durable successor allocation system.",
+        "source_ids": [
+          "src-walle-return-reference"
+        ],
+        "analysis": "Humans and robots perform useful restoration work. Axiom support and control cannot simply be carried over after the return.",
+        "follow_up": "Skip speculative post-credit reconstruction; retain the separate pre-return Axiom record."
+      },
+      "after": {
+        "candidate_id": "c0316",
+        "status": "included",
+        "reason": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "source_ids": [
+          "src-walle-return-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "walle-earth-human-robot-reconstruction"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "animatrix-zero-one-synthetic-citizens",
+        "candidate_id": "c0320",
+        "name": "The Animatrix — Zero One’s machine citizens",
+        "work": "The Animatrix: The Second Renaissance",
+        "society": "Zero One’s machine citizens",
+        "media": [
+          "anime",
+          "cartoon",
+          "movie"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "The Second Renaissance historical account",
+          "period": "Established industrial Zero One before the destructive war",
+          "population": "Active sentient machine residents; explicit synthetic-person comparison",
+          "human_population_proxy": true,
+          "exclusions": [
+            "Human importers assigned machine-citizen access",
+            "Inactive files and dead machines",
+            "Wartime extermination"
+          ],
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_synthetic_persons"
+        },
+        "description": "Zero One is a self-directed machine nation whose industry competes successfully with human producers. This point looks inward at its active synthetic citizens, while the existing human-import record describes the separate people affected outside it. The best guess is that machine-run production supplies energy, components and maintenance through an organized technological base. A moderate guarantee score allows uncertainty about internal equality and access; successful exports do not prove a universal machine welfare law.\n\nControl lies near autonomous synthetic authority because humans no longer own the productive nation. That says little by itself about whether its internal decisions are democratic. The low nonworking estimate counts engineering, manufacturing, planning and maintenance as useful work performed by synthetic persons. It does not call them idle merely because biological humans are absent. The participation coordinate is explicitly a person-proxy comparison, not a human employment statistic, and inactive components or later war casualties never enter its denominator.",
+        "axis": {
+          "guarantees": -0.4,
+          "control": -0.95,
+          "nonworking": 0.15
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.85,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Organized production suggests continuing support; internal rights are inferred.",
+            "source_ids": [
+              "src-second-renaissance-transcript",
+              "src-animatrix-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              -0.75
+            ],
+            "confidence": "low",
+            "basis": "The nation is independently machine-directed relative to human ownership.",
+            "source_ids": [
+              "src-second-renaissance-transcript",
+              "src-animatrix-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Synthetic-person scenario retains extensive useful production and maintenance, with a small inactive-but-living minority.",
+            "source_ids": [
+              "src-second-renaissance-transcript",
+              "src-animatrix-reference"
+            ]
+          }
+        },
+        "regime_primary": 5,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-second-renaissance-transcript",
+          "src-animatrix-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "Zero One becomes an independent machine industrial nation before the war.",
+            "source_ids": [
+              "src-second-renaissance-transcript",
+              "src-animatrix-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Internal provisioning and participation are low-confidence inferences.",
+          "Synthetic personhood supplies a disclosed comparison metric, not literal human nonworking."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Zero One becomes an independent machine industrial nation before the war."
+        ],
+        "editorial_assumptions": [
+          "Internal provisioning and participation are low-confidence inferences.",
+          "Synthetic personhood supplies a disclosed comparison metric, not literal human nonworking."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Participation among the explicitly scoped active synthetic persons, not a literal human employment rate.",
+          "control": "Negative values describe autonomous synthetic control relative to human/organic ownership; internal machine governance is described separately.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0320",
+        "status": "boundary_case",
+        "reason": "Zero One itself is a machine polity without a verified human leisure population.",
+        "source_ids": [
+          "src-second-renaissance-transcript",
+          "src-animatrix-reference"
+        ],
+        "analysis": "Economic success and machine independence do not supply a human nonworking denominator; its effect on human import economies has a separate record.",
+        "follow_up": "Keep as a machine-polity comparison."
+      },
+      "after": {
+        "candidate_id": "c0320",
+        "status": "included",
+        "reason": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "source_ids": [
+          "src-second-renaissance-transcript",
+          "src-animatrix-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "animatrix-zero-one-synthetic-citizens"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "trek-triskelion-provider-enclave",
+        "candidate_id": "c0383",
+        "name": "Star Trek — Triskelion’s Provider enclave",
+        "work": "Star Trek: The Original Series",
+        "society": "Triskelion’s Provider enclave",
+        "media": [
+          "tv"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "The Original Series, The Gamesters of Triskelion",
+          "period": "The operating enclave before Kirk’s successful wager",
+          "population": "The three living biological Providers; explicit alien elite proxy",
+          "human_population_proxy": true,
+          "exclusions": [
+            "Thralls assigned Provider guarantees",
+            "Providers classified as AI"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Triskelion’s three Providers survive as disembodied biological brains while their captive thralls fight for entertainment. The retained point is the narrow supported elite, not a claim that the enslaved population enjoys the same material security. A favorable guarantee estimate reflects their continuing technically sustained existence. Automated bodily support is a best-guess mechanism within that enclave, while the thralls’ real entertainment work remains plainly part of the surrounding economy.\n\nThe Providers themselves hold concentrated organic authority; unusual bodies do not make them artificial intelligence. For three residents, the central nonworking scenario assumes two chiefly consume entertainment while one performs continuing useful administration, giving roughly two-thirds nonworking. That is an explicit illustrative scenario, not dialogue stating a roster of jobs. All three may in fact contribute, so the interval spans the full range. The record neither erases slave labor nor turns gambling hours into an employment percentage.",
+        "axis": {
+          "guarantees": -0.6,
+          "control": 0,
+          "nonworking": 0.67
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.9,
+              0.15
+            ],
+            "confidence": "low",
+            "basis": "Technical survival of the resident elite suggests provision; it says nothing about thrall rights.",
+            "source_ids": [
+              "src-triskelion-reference",
+              "src-follow-providers"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.15
+            ],
+            "confidence": "low",
+            "basis": "Biological Providers own the enclave and captives.",
+            "source_ids": [
+              "src-triskelion-reference",
+              "src-follow-providers"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Three-person scenario: two nonworkers and one continuing administrator, with alternatives from zero to all three.",
+            "source_ids": [
+              "src-triskelion-reference",
+              "src-follow-providers"
+            ]
+          }
+        },
+        "regime_primary": 1,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-triskelion-reference",
+          "src-follow-providers"
+        ],
+        "evidence": [
+          {
+            "claim": "Three disembodied-brain Providers capture humanoids, own thralls and gamble on fights.",
+            "source_ids": [
+              "src-triskelion-reference",
+              "src-follow-providers"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Their bodily maintenance mechanism and guarantees are inferred from continuing supported existence.",
+          "The two-of-three participation scenario is noncanonical and explicitly limited to the elite."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Three disembodied-brain Providers capture humanoids, own thralls and gamble on fights."
+        ],
+        "editorial_assumptions": [
+          "Their bodily maintenance mechanism and guarantees are inferred from continuing supported existence.",
+          "The two-of-three participation scenario is noncanonical and explicitly limited to the elite."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0383",
+        "status": "boundary_case",
+        "reason": "Triskelion’s thralls perform real entertainment labor for biological Providers.",
+        "source_ids": [
+          "src-triskelion-reference"
+        ],
+        "analysis": "Captivity, alien brains and advanced machines do not by themselves establish a post-work material-access order.",
+        "follow_up": "Keep as an alien exploitation comparison without equating biological rulers with AI."
+      },
+      "after": {
+        "candidate_id": "c0383",
+        "status": "included",
+        "reason": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "source_ids": [
+          "src-triskelion-reference",
+          "src-follow-providers"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "trek-triskelion-provider-enclave"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "trek-exo3-active-android-enclave",
+        "candidate_id": "c0384",
+        "name": "Star Trek — Exo III’s active android enclave",
+        "work": "Star Trek: The Original Series",
+        "society": "Exo III’s active android enclave",
+        "media": [
+          "tv"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "The Original Series, What Are Little Girls Made Of?",
+          "period": "Korby’s established enclave before the visitor crisis destroys it",
+          "population": "Active android residents, including human-derived minds; synthetic-person proxy",
+          "human_population_proxy": true,
+          "exclusions": [
+            "Extinct original builders",
+            "Destroyed enclave as ongoing support"
+          ],
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_synthetic_persons"
+        },
+        "description": "Exo III’s original creators are gone, but active android residents continue using their technical complex around Korby’s research project. The best-guess admission concerns these living synthetic persons and human-derived minds rather than the extinct builders. Technical embodiment and continuing infrastructure plausibly remove ordinary wage dependence for this small enclave. The guarantee estimate remains only moderate because equipment, reproduction and the residents’ security can be controlled or destroyed.\n\nKorby’s leadership and older machine agency create mixed concentrated control. Neither a copied human mind nor an ancient android automatically makes the whole settlement a democratic commons. The low nonworking estimate retains useful research, construction, maintenance and service by the residents themselves. Synthetic workers do not become idle merely because they lack biological bodies. The population and participation are explicitly comparative proxies, with no claim about an all-human employment rate. The later destroyed complex does not count as a leisure civilization.",
+        "axis": {
+          "guarantees": -0.3,
+          "control": -0.35,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.8,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "Continuing technical bodies suggest support, with strong dependence on a vulnerable complex.",
+            "source_ids": [
+              "src-exo-iii-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.9,
+              0.25
+            ],
+            "confidence": "low",
+            "basis": "Human-derived leadership and autonomous older androids create mixed authority.",
+            "source_ids": [
+              "src-exo-iii-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.7
+            ],
+            "confidence": "low",
+            "basis": "Active synthetic-person scenario counts research, maintenance and service as work.",
+            "source_ids": [
+              "src-exo-iii-reference"
+            ]
+          }
+        },
+        "regime_primary": 5,
+        "regime_alternatives": [
+          1
+        ],
+        "qualification": "included",
+        "source_ids": [
+          "src-exo-iii-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "Androids outlast Exo III’s creators and support Korby’s research encounter.",
+            "source_ids": [
+              "src-exo-iii-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Internal resource access and reduced wage dependence are inferred.",
+          "Only active persons are counted; extinct builders supply no leisure denominator."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Androids outlast Exo III’s creators and support Korby’s research encounter."
+        ],
+        "editorial_assumptions": [
+          "Internal resource access and reduced wage dependence are inferred.",
+          "Only active persons are counted; extinct builders supply no leisure denominator."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Participation among the explicitly scoped active synthetic persons, not a literal human employment rate.",
+          "control": "Negative values describe autonomous synthetic control relative to human/organic ownership; internal machine governance is described separately.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0384",
+        "status": "boundary_case",
+        "reason": "Exo III’s surviving android machinery does not establish a supported extant human community.",
+        "source_ids": [
+          "src-exo-iii-reference"
+        ],
+        "analysis": "Dead creators do not enter a leisure denominator, and later research or human-derived copies do not establish a general economic constitution.",
+        "follow_up": "Keep as a machine-survival/personhood comparison."
+      },
+      "after": {
+        "candidate_id": "c0384",
+        "status": "included",
+        "reason": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "source_ids": [
+          "src-exo-iii-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "trek-exo3-active-android-enclave"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "trek-borg-collective-material-order",
+        "candidate_id": "c0387",
+        "name": "Star Trek — The Borg Collective",
+        "work": "Star Trek: The Next Generation",
+        "society": "The Borg Collective",
+        "media": [
+          "tv",
+          "movie"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "TNG, First Contact and Voyager-era Collective",
+          "period": "Functioning Queen-directed Collective outside terminal defeat",
+          "population": "Living assimilated human and other biological cyborg persons; explicit humanlike proxy",
+          "human_population_proxy": true,
+          "exclusions": [
+            "Unimatrix Zero as universal freedom",
+            "Dead assimilated victims as nonworkers",
+            "Independent ex-Borg communities"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Borg maintain bodies, ships and collective infrastructure without ordinary wages or markets. This supports a best-guess material order in which provision is tied to membership and function rather than individual earnings. The floor is substantial for functioning drones but coercive and conditional; being maintained as a component is not an enforceable right to a chosen life. Human-derived drones remain people doing real mental and physical work, not passive production appliances.\n\nThe Queen and network concentrate authority over individual action. Because the Collective contains biological and human-derived minds, the control coordinate uses a mixed cybernetic interpretation with a wide range, rather than simply calling every Borg function an external AI. The nonworking estimate is very low: regeneration is not permanent leisure, and useful processing, maintenance and assimilating activity still count as work. The estimate includes active living persons only. Dead victims, discarded components and disconnected successor communities are outside this scope.",
+        "axis": {
+          "guarantees": -0.35,
+          "control": -0.2,
+          "nonworking": 0.05
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.8,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Functioning drones receive support, but membership and usefulness make it conditional.",
+            "source_ids": [
+              "src-borg-work-reference",
+              "src-follow-borg-queen"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.85,
+              0.25
+            ],
+            "confidence": "low",
+            "basis": "Queen/network authority is concentrated and cybernetic; the organic-versus-AI balance is ambiguous.",
+            "source_ids": [
+              "src-borg-work-reference",
+              "src-follow-borg-queen"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.25
+            ],
+            "confidence": "low",
+            "basis": "Nearly all active drones plausibly perform useful mental or physical roles; regeneration time is not a population fraction.",
+            "source_ids": [
+              "src-borg-work-reference",
+              "src-follow-borg-queen"
+            ]
+          }
+        },
+        "regime_primary": 1,
+        "regime_alternatives": [
+          5,
+          3
+        ],
+        "qualification": "included",
+        "source_ids": [
+          "src-borg-work-reference",
+          "src-follow-borg-queen"
+        ],
+        "evidence": [
+          {
+            "claim": "Assimilated persons perform coordinated mental and physical activity.",
+            "source_ids": [
+              "src-borg-work-reference",
+              "src-follow-borg-queen"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "The Queen gives the Collective common direction through its network.",
+            "source_ids": [
+              "src-borg-work-reference",
+              "src-follow-borg-queen"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Internal provisioning and the degree of coercive access are interpreted rather than a cited benefits law.",
+          "The near-total-work estimate is an active-person scenario, not a count of regeneration hours."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Assimilated persons perform coordinated mental and physical activity.",
+          "The Queen gives the Collective common direction through its network."
+        ],
+        "editorial_assumptions": [
+          "Internal provisioning and the degree of coercive access are interpreted rather than a cited benefits law.",
+          "The near-total-work estimate is an active-person scenario, not a count of regeneration hours."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0387",
+        "status": "boundary_case",
+        "reason": "Borg drones perform useful human-derived and biological cyborg labor rather than becoming a passive nonworking population.",
+        "source_ids": [
+          "src-borg-work-reference"
+        ],
+        "analysis": "Collective computation, assimilation and maintenance remain actual work. Cybernetic control is not sufficient evidence that robots replaced the persons’ contribution.",
+        "follow_up": "Keep as an embodied collective-labor comparison."
+      },
+      "after": {
+        "candidate_id": "c0387",
+        "status": "included",
+        "reason": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "source_ids": [
+          "src-borg-work-reference",
+          "src-follow-borg-queen"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "trek-borg-collective-material-order"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "trek-unity-exborg-cooperative",
+        "candidate_id": "c0390",
+        "name": "Star Trek: Voyager — The ex-Borg Cooperative",
+        "work": "Star Trek: Voyager",
+        "society": "The ex-Borg Cooperative",
+        "media": [
+          "tv"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Voyager, Unity",
+          "period": "Rebuilt cooperative after restoring its neural link",
+          "population": "Living former drones in the settlement; human-derived and alien-person proxy",
+          "human_population_proxy": true,
+          "exclusions": [
+            "The Queen’s Collective institutions",
+            "Settler arrivals directly counted as nonworkers"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Cooperative rebuilds from shortage through farming, shared resources and inherited Borg technology. The best-guess inclusion is a partial technical transition rather than an effortless post-work commune. A modest material floor may emerge from cooperation and linked capability, but actual people still grow food and repair their surroundings. Their labor remains visible, and neither the number of settlers nor shared consciousness becomes a nonworking statistic.\n\nControl leans toward a shared community, qualified by the leaders’ willingness to compel Chakotay to restore the link. A collective can distribute benefits while overriding individual agency. The low nonworking estimate assumes broad participation in rebuilding, care and technical work, with a minority of dependents or other nonparticipants. It is an all-age person-proxy scenario with a wide interval. The point does not inherit the Queen’s sovereign order or presume that peaceful rhetoric establishes perfect democratic ownership and an unconditional universal floor.",
+        "axis": {
+          "guarantees": -0.2,
+          "control": 0.45,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.7,
+              0.55
+            ],
+            "confidence": "low",
+            "basis": "Shared recovery suggests a conditional floor amid real shortages.",
+            "source_ids": [
+              "src-borg-cooperative-reference",
+              "src-follow-cooperative"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.35,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Communal agency coexists with coercive link restoration and leadership.",
+            "source_ids": [
+              "src-borg-cooperative-reference",
+              "src-follow-cooperative"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Most adults plausibly contribute to farming, care and rebuilding; dependents remain included.",
+            "source_ids": [
+              "src-borg-cooperative-reference",
+              "src-follow-cooperative"
+            ]
+          }
+        },
+        "regime_primary": 2,
+        "regime_alternatives": [
+          1
+        ],
+        "qualification": "included",
+        "source_ids": [
+          "src-borg-cooperative-reference",
+          "src-follow-cooperative"
+        ],
+        "evidence": [
+          {
+            "claim": "Former drones rebuild and produce food amid shortage.",
+            "source_ids": [
+              "src-borg-cooperative-reference",
+              "src-follow-cooperative"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Cooperative leaders compel Chakotay to help restore their link.",
+            "source_ids": [
+              "src-borg-cooperative-reference",
+              "src-follow-cooperative"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The extent of automated help and material protection is inferred.",
+          "Shared consciousness is not treated as proof of either leisure or voluntary consent."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Former drones rebuild and produce food amid shortage.",
+          "Cooperative leaders compel Chakotay to help restore their link."
+        ],
+        "editorial_assumptions": [
+          "The extent of automated help and material protection is inferred.",
+          "Shared consciousness is not treated as proof of either leisure or voluntary consent."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0390",
+        "status": "boundary_case",
+        "reason": "The Unity Cooperative performs real rebuilding and communal food production under shortage.",
+        "source_ids": [
+          "src-borg-cooperative-reference"
+        ],
+        "analysis": "Collective sharing and neural healing do not prove that technology displaced the necessary labor of its members.",
+        "follow_up": "Keep as a cooperative-work comparison."
+      },
+      "after": {
+        "candidate_id": "c0390",
+        "status": "included",
+        "reason": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "source_ids": [
+          "src-borg-cooperative-reference",
+          "src-follow-cooperative"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "trek-unity-exborg-cooperative"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "trek-lokirrim-photonic-labor",
+        "candidate_id": "c0391",
+        "name": "Star Trek: Voyager — Lokirrim photonic labor",
+        "work": "Star Trek: Voyager",
+        "society": "Lokirrim photonic labor",
+        "media": [
+          "tv"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Voyager, Body and Soul context",
+          "period": "The ordinary labor order before and during photonic suppression",
+          "population": "Living organic Lokirrim; alien-person proxy",
+          "human_population_proxy": true,
+          "exclusions": [
+            "An enacted post-rebellion settlement",
+            "Photonics as unconditionally non-person tools"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Lokirrim society uses holographic workers and then treats autonomous photonics as a dangerous rebellion. That is a direct labor-substitution connection, even though the short account does not explain a complete household economy. The best-guess record is an unequal partial transition: some organic people benefit from artificial labor while general guarantees remain weak. It does not infer free food or housing merely from the availability of a projected body.\n\nOrganic institutions direct and suppress the labor system, so control stays close to concentrated organic authority. Photonics’ emerging agency creates uncertainty without making them the sovereign rulers of the earlier order. The moderate nonworking estimate concerns the organic population and leaves room for care, technical maintenance, administration and other useful work. Photonic labor is described separately as activity by potentially sentient persons, not erased as effortless output. The exact population participation and scope of worker replacement remain openly editorial best guesses.",
+        "axis": {
+          "guarantees": 0.55,
+          "control": 0.05,
+          "nonworking": 0.4
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Labor substitution is clear, but universal access is not; weak guarantees are inferred.",
+            "source_ids": [
+              "src-lokirrim-hologram-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.3
+            ],
+            "confidence": "low",
+            "basis": "Organic authorities own or suppress photonic workers.",
+            "source_ids": [
+              "src-lokirrim-hologram-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.1,
+              0.75
+            ],
+            "confidence": "low",
+            "basis": "Organic all-age scenario allows displacement and useful continuing technical/care work.",
+            "source_ids": [
+              "src-lokirrim-hologram-reference"
+            ]
+          }
+        },
+        "regime_primary": 3,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-lokirrim-hologram-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "Lokirrim enslave holograms and suppress photonic autonomy.",
+            "source_ids": [
+              "src-lokirrim-hologram-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Economy-wide benefit and weak material rights are best guesses from a sectoral labor relation.",
+          "Sentient photonic work is not counted as organic leisure without disclosing who performs it."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Lokirrim enslave holograms and suppress photonic autonomy."
+        ],
+        "editorial_assumptions": [
+          "Economy-wide benefit and weak material rights are best guesses from a sectoral labor relation.",
+          "Sentient photonic work is not counted as organic leisure without disclosing who performs it."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0391",
+        "status": "needs_evidence",
+        "reason": "Lokirrim photonic slavery and suppression do not establish the wider material economy.",
+        "source_ids": [
+          "src-lokirrim-hologram-reference"
+        ],
+        "analysis": "The restriction could support a zero-variant comparison if the relevant labor-replacement economy were clear; the short reference does not supply that scope.",
+        "follow_up": "Skip deeper lore; preserve suppression as an unscored lead."
+      },
+      "after": {
+        "candidate_id": "c0391",
+        "status": "included",
+        "reason": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "source_ids": [
+          "src-lokirrim-hologram-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "trek-lokirrim-photonic-labor"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "trek-pralor-automated-units",
+        "candidate_id": "c0392",
+        "name": "Star Trek: Voyager — The surviving Pralor units",
+        "work": "Star Trek: Voyager",
+        "society": "The surviving Pralor units",
+        "media": [
+          "tv"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Voyager, Prototype",
+          "period": "Active Pralor-type units after the builders’ extinction",
+          "population": "Active Pralor-type synthetic persons; explicit comparison proxy",
+          "human_population_proxy": true,
+          "exclusions": [
+            "Dead Pralor builders",
+            "Every software process as a separate citizen"
+          ],
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_synthetic_persons"
+        },
+        "description": "The surviving Pralor units continue their builders’ war, maintain their technical systems and face a serious limit on reproducing power modules. This record corrects the discovery lead’s unverified Novan label. The best-guess material model is autonomous machine provisioning with weak security: energy, spare bodies and replacement parts are not unlimited just because the residents are artificial. The extinct biological creators never count as a leisure population.\n\nControl lies at the autonomous synthetic end because organic owners no longer govern the units. That external relationship does not establish equal internal machine authority. The nonworking estimate is close to zero because active units perform combat, repair and organizational roles; standing by temporarily is not permanent nonparticipation. Its denominator is explicitly synthetic persons, not humans or arbitrary software threads. The power-module bottleneck and wartime vulnerability remain qualifications to any post-work analogy rather than being hidden behind a technological-abundance label.",
+        "axis": {
+          "guarantees": 0.65,
+          "control": -0.95,
+          "nonworking": 0.05
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.15,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Nonreproducible guarded power modules make continued support precarious.",
+            "source_ids": [
+              "src-pralor-reference",
+              "src-follow-apu"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              -0.75
+            ],
+            "confidence": "low",
+            "basis": "Surviving units act autonomously after rejecting organic shutdown.",
+            "source_ids": [
+              "src-pralor-reference",
+              "src-follow-apu"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.35
+            ],
+            "confidence": "low",
+            "basis": "Active synthetic-person scenario assumes nearly universal useful military or maintenance participation.",
+            "source_ids": [
+              "src-pralor-reference",
+              "src-follow-apu"
+            ]
+          }
+        },
+        "regime_primary": 6,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-pralor-reference",
+          "src-follow-apu"
+        ],
+        "evidence": [
+          {
+            "claim": "Pralor and Cravic androids outlast their biological creators and continue war.",
+            "source_ids": [
+              "src-pralor-reference",
+              "src-follow-apu"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Their guarded power modules restrict ordinary reproduction.",
+            "source_ids": [
+              "src-pralor-reference",
+              "src-follow-apu"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "This is a synthetic-person material-order comparison, not biological human leisure.",
+          "The frozen Novan discovery identity is corrected explicitly to Pralor units."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Pralor and Cravic androids outlast their biological creators and continue war.",
+          "Their guarded power modules restrict ordinary reproduction."
+        ],
+        "editorial_assumptions": [
+          "This is a synthetic-person material-order comparison, not biological human leisure.",
+          "The frozen Novan discovery identity is corrected explicitly to Pralor units."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Participation among the explicitly scoped active synthetic persons, not a literal human employment rate.",
+          "control": "Negative values describe autonomous synthetic control relative to human/organic ownership; internal machine governance is described separately.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0392",
+        "status": "boundary_case",
+        "reason": "The Prototype reference identifies Pralor/Cravic war machines after their builders’ extinction, not a supported humanlike civilian society.",
+        "source_ids": [
+          "src-pralor-reference"
+        ],
+        "analysis": "The discovery label Novan is unverified and is not carried into an invented economic record. Machines continuing war are active workers, not nonworking extinct creators.",
+        "follow_up": "Keep the corrected reference identity without editing the frozen catalogue."
+      },
+      "after": {
+        "candidate_id": "c0392",
+        "status": "included",
+        "reason": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "source_ids": [
+          "src-pralor-reference",
+          "src-follow-apu"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "trek-pralor-automated-units"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "trek-dinaali-allocator-transition",
+        "candidate_id": "c0393",
+        "name": "Star Trek: Voyager — Dinaal’s Allocator order",
+        "work": "Star Trek: Voyager",
+        "society": "Dinaal’s Allocator order",
+        "media": [
+          "tv"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Voyager, Critical Care",
+          "period": "The functioning status-ranked medical regime before the Doctor’s intervention",
+          "population": "Living organic residents subject to the depicted hospital allocation model",
+          "human_population_proxy": true,
+          "exclusions": [
+            "Patients treated as a whole nonworking population",
+            "Automatic rationing equated with robot manufacture"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Dinaal’s hospital makes access to advanced care depend on an assessment of social usefulness. The Allocator automates that decision, while doctors and other people continue doing useful medical work. The best-guess inclusion is a narrow unequal transition involving programmable expertise and essential-service allocation, not proof that the whole economy has become automatic. Guarantees are strongly unfavorable because the system withholds valuable treatment from people rated as less economically useful.\n\nHumanlike administrators retain concentrated authority over the clinical rules, so an algorithmic allocator is not automatically an independent AI sovereign. A modest nonworking estimate for the wider organic population allows dependents and displaced people but retains paid, informal and care activity. It is explicitly inferred beyond the hospital example, with a wide interval. The record does not equate patients with permanent nonworkers, and it does not mistake better resource scheduling for the elimination of all medical labor.",
+        "axis": {
+          "guarantees": 0.85,
+          "control": 0.1,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.45,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Status-ranked denial of care demonstrates weak essential-service protection.",
+            "source_ids": [
+              "src-dinaal-allocator-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.4
+            ],
+            "confidence": "low",
+            "basis": "Administrators remain relevant; automated rationing does not itself imply AI sovereignty.",
+            "source_ids": [
+              "src-dinaal-allocator-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "Organic all-age participation is inferred from an employment-ranked society, not a count of patients.",
+            "source_ids": [
+              "src-dinaal-allocator-reference"
+            ]
+          }
+        },
+        "regime_primary": 3,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-dinaal-allocator-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "The Allocator rations care by assessed social usefulness under hospital administration.",
+            "source_ids": [
+              "src-dinaal-allocator-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "General participation and the broader labor-saving effect are best guesses beyond the medical example.",
+          "Retained as a narrow partial-transition comparison, not a complete post-work economy."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The Allocator rations care by assessed social usefulness under hospital administration."
+        ],
+        "editorial_assumptions": [
+          "General participation and the broader labor-saving effect are best guesses beyond the medical example.",
+          "Retained as a narrow partial-transition comparison, not a complete post-work economy."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0393",
+        "status": "needs_evidence",
+        "reason": "The Allocator automates medical rationing, but does not establish replacement of care labor or a post-work material order.",
+        "source_ids": [
+          "src-dinaal-allocator-reference"
+        ],
+        "analysis": "TC-based access is clear and unequal; a computer choosing recipients is not by itself an automatic provider of the treatment.",
+        "follow_up": "Keep the allocation comparison without forcing a post-work record."
+      },
+      "after": {
+        "candidate_id": "c0393",
+        "status": "included",
+        "reason": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "source_ids": [
+          "src-dinaal-allocator-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "trek-dinaali-allocator-transition"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "trek-quarra-coerced-industrial-zero",
+        "candidate_id": "c0394",
+        "name": "Star Trek: Voyager — Quarra’s labor regime",
+        "work": "Star Trek: Voyager",
+        "society": "Quarra’s labor regime",
+        "media": [
+          "tv"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Voyager, Workforce",
+          "period": "The operating industrial order and recruitment scheme",
+          "population": "Living organic Quarren residents and coerced recruited workers",
+          "human_population_proxy": true,
+          "exclusions": [
+            "A labor shortage treated as an unemployment rate"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Quarra has sophisticated industrial systems yet suffers a genuine shortage of workers and uses coercive recruitment. This is retained as an interpretive zero variant: technical capacity coexists with dependence on useful organic labor, rather than supplying freedom from it. The available account does not prove that every missing worker could simply be replaced by a machine. That substitution potential is a low-confidence inference, while the real staffing demand is preserved as a fact.\n\nEmployers and authorities concentrate productive power. A favorable-looking job does not establish secure independent access when a person’s identity and choices can be manipulated. The guarantee score therefore leans weak. A low nonworking estimate assumes strong adult participation in industry, care, services and maintenance, with dependents and some nonparticipants included. It is not derived from the number of vacancies or a shift length. The point describes retained labor under pressure, without inventing a policy that maintains useless jobs for workers’ benefit.",
+        "axis": {
+          "guarantees": 0.65,
+          "control": 0.05,
+          "nonworking": 0.15
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.15,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Coercion and labor dependence suggest weak secure access despite supplied jobs.",
+            "source_ids": [
+              "src-quarra-labor-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.3
+            ],
+            "confidence": "low",
+            "basis": "Industrial employers and authorities hold productive power.",
+            "source_ids": [
+              "src-quarra-labor-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.45
+            ],
+            "confidence": "low",
+            "basis": "All-age scenario assumes extensive useful participation in a labor-short economy.",
+            "source_ids": [
+              "src-quarra-labor-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-quarra-labor-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "Quarra’s industrial system has a severe real labor shortage.",
+            "source_ids": [
+              "src-quarra-labor-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Further automation potential and ordinary household guarantees are inferred.",
+          "The zero label does not claim the jobs are unnecessary or intentionally protected."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Quarra’s industrial system has a severe real labor shortage."
+        ],
+        "editorial_assumptions": [
+          "Further automation potential and ordinary household guarantees are inferred.",
+          "The zero label does not claim the jobs are unnecessary or intentionally protected."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0394",
+        "status": "boundary_case",
+        "reason": "Quarra’s actual labor shortage and useful industrial work are not a demonstrated zero variant.",
+        "source_ids": [
+          "src-quarra-labor-reference"
+        ],
+        "analysis": "Coercive recruitment does not show that the demanded labor is dispensable or that necessities are otherwise chiefly allocated without it.",
+        "follow_up": "Keep as a labor-coercion comparison."
+      },
+      "after": {
+        "candidate_id": "c0394",
+        "status": "zero_variant",
+        "reason": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "source_ids": [
+          "src-quarra-labor-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "trek-quarra-coerced-industrial-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "trek-hierarchy-managed-resource-order",
+        "candidate_id": "c0395",
+        "name": "Star Trek: Voyager — The Hierarchy’s resource order",
+        "work": "Star Trek: Voyager",
+        "society": "The Hierarchy’s resource order",
+        "media": [
+          "tv"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Voyager, Tinker Tenor Doctor Spy",
+          "period": "The established hierarchy during the proposed raid",
+          "population": "Living organic members of the depicted Hierarchy; alien-person proxy",
+          "human_population_proxy": true,
+          "exclusions": [
+            "One mission staff roster as a whole population census"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Hierarchy combines advanced technical capability with centralized approval of resource operations. The best-guess economic reading is a managed material order in which people remain responsible for obtaining and organizing useful resources. The reference establishes an operational hierarchy more clearly than ordinary household provision, so guarantees remain a weak-to-moderate inference. Technical power is not presented as proof of limitless goods or a complete welfare constitution.\n\nControl stays near concentrated organic administration because decisions move through a superior authority rather than equal individual ownership or demonstrated autonomous AI rule. The modest nonworking estimate retains useful reconnaissance, logistics, repair, care and planning while allowing dependents and other nonparticipants. It is a broad all-age scenario, not a statistic inferred from one mission crew. Inclusion is provisional as a partial technical economy, with its productive capacity and general distribution inferred beyond the short episode account instead of being used as reasons to omit the case.",
+        "axis": {
+          "guarantees": 0.3,
+          "control": 0.05,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.35,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Organized resource acquisition suggests managed but uncertain protection.",
+            "source_ids": [
+              "src-hierarchy-episode-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.35
+            ],
+            "confidence": "low",
+            "basis": "Superior approval indicates concentrated organic control.",
+            "source_ids": [
+              "src-hierarchy-episode-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "All-age scenario retains logistics, planning, technical and care work.",
+            "source_ids": [
+              "src-hierarchy-episode-reference"
+            ]
+          }
+        },
+        "regime_primary": 3,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-hierarchy-episode-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "Hierarchy personnel seek superior approval for a resource raid.",
+            "source_ids": [
+              "src-hierarchy-episode-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Civilian technical provisioning and general access are inferred, not directly described by the mission.",
+          "This is a low-confidence partial-economy assessment."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Hierarchy personnel seek superior approval for a resource raid."
+        ],
+        "editorial_assumptions": [
+          "Civilian technical provisioning and general access are inferred, not directly described by the mission.",
+          "This is a low-confidence partial-economy assessment."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0395",
+        "status": "needs_evidence",
+        "reason": "Hierarchy approval of raids does not establish a general civilian production and distribution system.",
+        "source_ids": [
+          "src-hierarchy-episode-reference"
+        ],
+        "analysis": "Computer consultation and bureaucratic command can govern real labor without providing work-independent necessities.",
+        "follow_up": "Skip deeper lore reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0395",
+        "status": "included",
+        "reason": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "source_ids": [
+          "src-hierarchy-episode-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "trek-hierarchy-managed-resource-order"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "trek-serosian-hologram-supported-crew",
+        "candidate_id": "c0396",
+        "name": "Star Trek: Voyager — The Serosian hologram-supported crew",
+        "work": "Star Trek: Voyager",
+        "society": "The Serosian hologram-supported crew",
+        "media": [
+          "tv"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Voyager, Revulsion backstory",
+          "period": "The continuing organic shipboard household before its crew is killed",
+          "population": "Living organic Serosian crew; narrow humanoid-person proxy",
+          "human_population_proxy": true,
+          "exclusions": [
+            "Dead crew",
+            "The whole Serosian species assigned this one ship’s economics"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Serosian ship assigns sanitation and other unpleasant duties to a holographic worker while organic crew operate the vessel. The best-guess point is this narrow shipboard service arrangement before the crew’s deaths. It is a partial labor-substitution model rather than a claim about all Serosian citizens. Continued technical support plausibly supplies basic habitat needs, but conditions and interpersonal coercion keep the guarantee estimate only modestly favorable.\n\nOrganic crew authority controls the hologram, while the worker’s own agency makes it more than a morally neutral appliance. Productive control remains near a concentrated organic crew structure during this period. The central nonworking estimate is zero because the scoped population is a working adult crew; a broad interval allows illness or other sustained nonparticipation. Long off-duty periods do not change that definition. The killed crew never become leisure residents, and Dejaren’s later solitary situation is not silently substituted for the earlier living household.",
+        "axis": {
+          "guarantees": -0.15,
+          "control": 0.05,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.7,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "Maintained shipboard habitat suggests a narrow floor, with unspecified entitlement.",
+            "source_ids": [
+              "src-serosian-holographic-labor"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.3
+            ],
+            "confidence": "low",
+            "basis": "Organic ship authorities direct the holographic service order.",
+            "source_ids": [
+              "src-serosian-holographic-labor"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Central scenario counts the organic adult crew as useful workers, not dependents or dead residents.",
+            "source_ids": [
+              "src-serosian-holographic-labor"
+            ]
+          }
+        },
+        "regime_primary": 1,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-serosian-holographic-labor"
+        ],
+        "evidence": [
+          {
+            "claim": "A Serosian starship uses an artificial holographic worker.",
+            "source_ids": [
+              "src-serosian-holographic-labor"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Organic crew provisioning and the exact division of useful labor are inferred.",
+          "The narrow scope ends before the organic population is killed."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "A Serosian starship uses an artificial holographic worker."
+        ],
+        "editorial_assumptions": [
+          "Organic crew provisioning and the exact division of useful labor are inferred.",
+          "The narrow scope ends before the organic population is killed."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0396",
+        "status": "needs_evidence",
+        "reason": "Serosian shipboard holographic labor does not establish the species’ household material access.",
+        "source_ids": [
+          "src-serosian-holographic-labor"
+        ],
+        "analysis": "A technological worker can replace tasks without establishing society-wide labor independence.",
+        "follow_up": "Skip deeper episode reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0396",
+        "status": "included",
+        "reason": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "source_ids": [
+          "src-serosian-holographic-labor"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "trek-serosian-hologram-supported-crew"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "trek-hirogen-holographic-enclave",
+        "candidate_id": "c0397",
+        "name": "Star Trek: Voyager — The Hirogen training facility",
+        "work": "Star Trek: Voyager",
+        "society": "The Hirogen training facility",
+        "media": [
+          "tv"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Voyager, Flesh and Blood",
+          "period": "The established hunting facility before the holograms’ rebellion",
+          "population": "Living organic Hirogen resident hunters and operators",
+          "human_population_proxy": true,
+          "exclusions": [
+            "All Hirogen nomads assigned facility provision",
+            "Post-rebellion hologram sovereignty"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Hirogen facility uses holographic prey and extensive technical infrastructure to create repeated hunting experiences. The best-guess material point is a supported enclave rather than the entire nomadic species. Its residents plausibly receive routine habitat provision while devoting much activity to hunting and training. The guarantee estimate stays moderate because a recreational technology does not itself prove free universal food, repair or care.\n\nOrganic Hirogen leaders initially direct the facility, so control is concentrated rather than already in the hands of autonomous photonics. Their later rebellion belongs to another phase. The nonworking estimate is deliberately intermediate: private recreation can be leisure, but training, maintaining simulations, organizing the station and caring for others are useful work. Sentient holograms also do activity that must not be erased from the supporting economy. The broad interval records uncertainty about that division and about the broader provision mechanism instead of turning a hunting montage into a census.",
+        "axis": {
+          "guarantees": -0.25,
+          "control": 0.05,
+          "nonworking": 0.45
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.8,
+              0.55
+            ],
+            "confidence": "low",
+            "basis": "An inhabited technical facility suggests a narrow floor; food and care rights are inferred.",
+            "source_ids": [
+              "src-hirogen-hunting-facility"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.35
+            ],
+            "confidence": "low",
+            "basis": "Organic leaders control the pre-rebellion facility.",
+            "source_ids": [
+              "src-hirogen-hunting-facility"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.1,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Organic-person scenario distinguishes private recreation from useful training, maintenance and care.",
+            "source_ids": [
+              "src-hirogen-hunting-facility"
+            ]
+          }
+        },
+        "regime_primary": 1,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-hirogen-hunting-facility"
+        ],
+        "evidence": [
+          {
+            "claim": "Hirogen use holographic prey at a training facility.",
+            "source_ids": [
+              "src-hirogen-hunting-facility"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "General habitat provision and its guarantees are best guesses.",
+          "Photonic activity and the later shift in power are not erased."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Hirogen use holographic prey at a training facility."
+        ],
+        "editorial_assumptions": [
+          "General habitat provision and its guarantees are best guesses.",
+          "Photonic activity and the later shift in power are not erased."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0397",
+        "status": "boundary_case",
+        "reason": "Hirogen holographic hunts are a sectoral simulation system rather than verified post-work provisioning.",
+        "source_ids": [
+          "src-hirogen-hunting-facility"
+        ],
+        "analysis": "Simulated prey and repeated hunting do not establish ordinary food, housing, ownership or access for a supported community.",
+        "follow_up": "Keep as a simulation/personhood comparison."
+      },
+      "after": {
+        "candidate_id": "c0397",
+        "status": "included",
+        "reason": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "source_ids": [
+          "src-hirogen-hunting-facility"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "trek-hirogen-holographic-enclave"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "trek-dominion-biological-hierarchy-zero",
+        "candidate_id": "c0399",
+        "name": "Star Trek — The Dominion’s engineered labor hierarchy",
+        "work": "Star Trek: Deep Space Nine",
+        "society": "The Dominion’s engineered labor hierarchy",
+        "media": [
+          "tv"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Deep Space Nine-era Dominion",
+          "period": "Established pre-defeat Dominion order",
+          "population": "Living organic member populations, including engineered Vorta and Jem’Hadar",
+          "human_population_proxy": true,
+          "exclusions": [
+            "Founders’ leisure assigned to all subjects",
+            "Clones erased from useful work"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Dominion organizes highly capable technology around a hierarchy of biological rulers, administrators and soldiers. It is retained as an interpretive zero variant: technological potential coexists with compulsory useful roles and domination, not a shared release from labor. Vorta and Jem’Hadar are living engineered people whose work remains work. Cloning is not silently counted as a robot factory, and the Founders’ private withdrawal into the Great Link does not give everyone else their leisure.\n\nFounders hold concentrated organic authority and delegate daily operations, which places control near the non-AI elite end. Guarantees are weak because subordinate lives and bodies can be treated as replaceable and conquered populations must obey. The low nonworking estimate allows dependents and some elite leisure while retaining real administration, medicine, infrastructure and military activity. Its interval is broad because the official guide gives hierarchy rather than a population census. Greater potential automation is explicitly inferred rather than claimed as an enacted universal policy.",
+        "axis": {
+          "guarantees": 0.8,
+          "control": 0,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.35,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Subjugation and expendable subordinates support weak secure access despite technical power.",
+            "source_ids": [
+              "src-dominion-official-guide"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.2
+            ],
+            "confidence": "low",
+            "basis": "Biological Founders control the hierarchy, not an independent AI.",
+            "source_ids": [
+              "src-dominion-official-guide"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "All-age organic scenario counts engineered persons’ administration, care and military work.",
+            "source_ids": [
+              "src-dominion-official-guide"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-dominion-official-guide"
+        ],
+        "evidence": [
+          {
+            "claim": "Founders rule through biological Vorta and Jem’Hadar.",
+            "source_ids": [
+              "src-dominion-official-guide"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Engineered subordinates perform administration, infrastructure and military functions.",
+            "source_ids": [
+              "src-dominion-official-guide"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Further labor substitution is a best-guess technical potential, not the guide’s explicit economic constitution.",
+          "The zero variant is not a claim that cloned workers are non-person appliances."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Founders rule through biological Vorta and Jem’Hadar.",
+          "Engineered subordinates perform administration, infrastructure and military functions."
+        ],
+        "editorial_assumptions": [
+          "Further labor substitution is a best-guess technical potential, not the guide’s explicit economic constitution.",
+          "The zero variant is not a claim that cloned workers are non-person appliances."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0399",
+        "status": "boundary_case",
+        "reason": "Dominion biological castes perform useful administrative, infrastructure and military labor.",
+        "source_ids": [
+          "src-dominion-official-guide"
+        ],
+        "analysis": "Cloning subordinated persons and elite withdrawal from daily work are not autonomous production or a general post-work support system.",
+        "follow_up": "Keep as a biological caste-labor comparison."
+      },
+      "after": {
+        "candidate_id": "c0399",
+        "status": "zero_variant",
+        "reason": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "source_ids": [
+          "src-dominion-official-guide"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "trek-dominion-biological-hierarchy-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "trek-coppelius-synthetic-commons",
+        "candidate_id": "c0400",
+        "name": "Star Trek: Picard — Coppelius",
+        "work": "Star Trek: Picard",
+        "society": "Coppelius",
+        "media": [
+          "tv"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Picard first-season synth settlement",
+          "period": "The functioning settlement before the finale crisis",
+          "population": "Active synthetic persons and resident human scientists",
+          "human_population_proxy": true,
+          "exclusions": [
+            "Inactive designs counted as people",
+            "Unverified mortality details"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Coppelius combines a small community of synthetic persons with human scientists and highly capable material tools. A thought-directed field replicator demonstrates real repair capacity. The best-guess reading is a technically supported settlement with a fairly strong shared floor, rather than a claim that one repair proves unlimited goods. Its vulnerability and uncertain external security keep the guarantee interval broad. The scope is the active community, not every stored design or copy that could theoretically be made.\n\nControl favors resident agency, qualified by influential scientists, leaders and dependence on specialized infrastructure. Synthetic personhood does not automatically mean an external AI rules helpless humans. The moderate nonworking estimate includes active synthetic and biological residents under an explicit person-proxy population, retaining research, engineering, care and other useful contribution. It is not a ratio of available bodies to working machines. Unknown household entitlements and participation are estimated openly, while unrelated mortality claims and the final crisis’s temporary alliances are not imported as a stable constitution.",
+        "axis": {
+          "guarantees": -0.6,
+          "control": 0.65,
+          "nonworking": 0.4
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.9,
+              0.2
+            ],
+            "confidence": "low",
+            "basis": "Settlement continuity and real material tools suggest shared provision, but entitlements are inferred.",
+            "source_ids": [
+              "src-coppelius-station-reference",
+              "src-coppelius-field-replicator"
+            ]
+          },
+          "control": {
+            "interval": [
+              0.1,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Resident agency is substantial, with leadership and infrastructure constraints.",
+            "source_ids": [
+              "src-coppelius-station-reference",
+              "src-coppelius-field-replicator"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.1,
+              0.75
+            ],
+            "confidence": "low",
+            "basis": "Mixed active-person scenario counts synthetic research, care and technical work as work.",
+            "source_ids": [
+              "src-coppelius-station-reference",
+              "src-coppelius-field-replicator"
+            ]
+          }
+        },
+        "regime_primary": 2,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-coppelius-station-reference",
+          "src-coppelius-field-replicator"
+        ],
+        "evidence": [
+          {
+            "claim": "Coppelius has synthetic residents, human scientists and advanced tools.",
+            "source_ids": [
+              "src-coppelius-station-reference",
+              "src-coppelius-field-replicator"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "A field replicator is used to repair a ship.",
+            "source_ids": [
+              "src-coppelius-station-reference",
+              "src-coppelius-field-replicator"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "General provisioning and the nonworking share are best guesses beyond the repair demonstration.",
+          "Synthetic and biological residents share a disclosed person-proxy denominator."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Coppelius has synthetic residents, human scientists and advanced tools.",
+          "A field replicator is used to repair a ship."
+        ],
+        "editorial_assumptions": [
+          "General provisioning and the nonworking share are best guesses beyond the repair demonstration.",
+          "Synthetic and biological residents share a disclosed person-proxy denominator."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0400",
+        "status": "needs_evidence",
+        "reason": "Coppelius has synthetic persons and advanced repair tools but no verified household access constitution in the quick check.",
+        "source_ids": [
+          "src-coppelius-station-reference",
+          "src-coppelius-field-replicator"
+        ],
+        "analysis": "Material replication and synthetic life demonstrate capacity, without the community’s actual allocation or participation rules.",
+        "follow_up": "Skip deeper series reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0400",
+        "status": "included",
+        "reason": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "source_ids": [
+          "src-coppelius-station-reference",
+          "src-coppelius-field-replicator"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "trek-coppelius-synthetic-commons"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "trek-ten-c-energy-civilization",
+        "candidate_id": "c0402",
+        "name": "Star Trek: Discovery — Species Ten-C",
+        "work": "Star Trek: Discovery",
+        "society": "Species Ten-C",
+        "media": [
+          "tv"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Discovery fourth season",
+          "period": "The functioning civilization before stopping the destructive mining operation",
+          "population": "Living intelligent biological Ten-C; explicit nonhuman-person proxy",
+          "human_population_proxy": true,
+          "exclusions": [
+            "Victims of mining assigned Ten-C benefits",
+            "Ten-C automatically classified as AI"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Species Ten-C supports a civilization with immense energy infrastructure and resource extraction. The best-guess material model is an advanced provision order in which routine necessities need little direct individual labor. That is inferred from a functioning technical society, not a claim that energy scale alone proves equal access. A fairly favorable guarantee score has a wide interval because ordinary household arrangements and internal exclusions are barely described.\n\nThe central control point uses an analogy to biological social authority, not an automatic classification as AI merely because humans cannot overrule it. Internal ownership could be more distributed or more concentrated than the available encounter reveals. A high nonworking estimate allows extensive technical substitution while retaining useful research, planning, care and maintenance. Ten-C are explicitly a nonhuman-person proxy, so this is not a literal human labor statistic. The harm imposed on outside species remains separate from the material protection enjoyed by members of the operating civilization.",
+        "axis": {
+          "guarantees": -0.6,
+          "control": 0.25,
+          "nonworking": 0.6
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.95,
+              0.35
+            ],
+            "confidence": "low",
+            "basis": "Operating energy infrastructure suggests provision; equal entitlements are unknown.",
+            "source_ids": [
+              "src-ten-c-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Biological intelligence uses an organic-control analogy with broad institutional uncertainty.",
+            "source_ids": [
+              "src-ten-c-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.15,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Nonhuman active-person scenario allows technical substitution and continuing useful activity.",
+            "source_ids": [
+              "src-ten-c-reference"
+            ]
+          }
+        },
+        "regime_primary": 1,
+        "regime_alternatives": [
+          2
+        ],
+        "qualification": "included",
+        "source_ids": [
+          "src-ten-c-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "Species Ten-C operates immense energy and resource technology.",
+            "source_ids": [
+              "src-ten-c-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Necessities, internal ownership and participation are best guesses.",
+          "Energy scale is not treated as a direct welfare law or a literal human census."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Species Ten-C operates immense energy and resource technology."
+        ],
+        "editorial_assumptions": [
+          "Necessities, internal ownership and participation are best guesses.",
+          "Energy scale is not treated as a direct welfare law or a literal human census."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0402",
+        "status": "needs_evidence",
+        "reason": "Ten-C energy capabilities do not establish a supported population’s economic institutions.",
+        "source_ids": [
+          "src-ten-c-reference"
+        ],
+        "analysis": "The nonhumanoid species needs an explicit person proxy and actual distribution mechanism before scoring.",
+        "follow_up": "Skip deeper lore reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0402",
+        "status": "included",
+        "reason": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "source_ids": [
+          "src-ten-c-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "trek-ten-c-energy-civilization"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "trek-postburn-federation-support",
+        "candidate_id": "c0403",
+        "name": "Star Trek: Discovery — The post-Burn Federation",
+        "work": "Star Trek: Discovery",
+        "society": "The post-Burn Federation",
+        "media": [
+          "tv"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Discovery thirty-second-century Federation",
+          "period": "The reduced Federation before full reconnection and the dilithium solution",
+          "population": "Living human core residents; other member peoples provide context",
+          "human_population_proxy": false,
+          "exclusions": [
+            "Later fully reconnected Federation",
+            "Every frontier world treated as a core resident"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Burn fragments the Federation’s reach and makes interstellar support far harder to maintain. This record’s best guess preserves some local technical provision while weakening guarantees relative to ordinary twenty-fourth-century Earth. It does not assume that a transport crisis abolishes every replicator or that every isolated world has identical shortages. The meaningful distinction is a damaged and less connected support order, with broad uncertainty about household access.\n\nHuman and member institutions retain authority, although reduced reach and emergency organization make control less clearly shared than the idealized earlier core. A moderate nonworking estimate allows ongoing technical support alongside more recovery, repair, care and logistics work. It is an all-age human-population scenario rather than a count of Starfleet personnel. The later restored network is outside the selected period. Political contraction supplies context for the estimate, while the exact change in material entitlements remains an explicitly labeled inference.",
+        "axis": {
+          "guarantees": -0.3,
+          "control": 0.45,
+          "nonworking": 0.4
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.8,
+              0.55
+            ],
+            "confidence": "low",
+            "basis": "Fragmentation plausibly weakens reliable support while local technical provision can continue.",
+            "source_ids": [
+              "src-post-burn-federation-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              0.05,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Member institutions retain control with emergency concentration and reduced reach.",
+            "source_ids": [
+              "src-post-burn-federation-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.1,
+              0.75
+            ],
+            "confidence": "low",
+            "basis": "Human all-age scenario retains recovery work despite inherited automation.",
+            "source_ids": [
+              "src-post-burn-federation-reference"
+            ]
+          }
+        },
+        "regime_primary": 2,
+        "regime_alternatives": [
+          1
+        ],
+        "qualification": "included",
+        "source_ids": [
+          "src-post-burn-federation-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "The Burn fragments the Federation and its political reach.",
+            "source_ids": [
+              "src-post-burn-federation-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The degree of weaker household provision and changed participation is inferred.",
+          "Different isolated worlds are not assigned one precise shortage level."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The Burn fragments the Federation and its political reach."
+        ],
+        "editorial_assumptions": [
+          "The degree of weaker household provision and changed participation is inferred.",
+          "Different isolated worlds are not assigned one precise shortage level."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0403",
+        "status": "needs_evidence",
+        "reason": "Post-Burn fragmentation does not resolve ordinary household access for a scoped Federation population.",
+        "source_ids": [
+          "src-post-burn-federation-reference"
+        ],
+        "analysis": "The TNG provision estimate cannot simply be copied across a major infrastructure and political break.",
+        "follow_up": "Skip reconstructing multiple seasons to rescue this aggregate."
+      },
+      "after": {
+        "candidate_id": "c0403",
+        "status": "included",
+        "reason": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "source_ids": [
+          "src-post-burn-federation-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "trek-postburn-federation-support"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "trek-solum-precontact-technical-zero",
+        "candidate_id": "c0404",
+        "name": "Star Trek: Prodigy — Pre-contact Solum",
+        "work": "Star Trek: Prodigy",
+        "society": "Pre-contact Solum",
+        "media": [
+          "cartoon"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Prodigy Vau N’Akat history",
+          "period": "The established Solum civilization before divisive Federation contact",
+          "population": "Living biological Vau N’Akat; humanoid-person proxy",
+          "human_population_proxy": true,
+          "exclusions": [
+            "Incompatible future branches averaged together",
+            "Later war casualties as leisure residents"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Pre-contact Solum offers an advanced civilization whose later contact crisis should not be averaged with every incompatible future branch. The best-guess zero-variant reading preserves ordinary humanlike social roles alongside substantial technical capacity. A moderately favorable material floor is plausible for the stable home society, but the short account does not establish its benefits law or automatic factories. Those economic implications remain inferences rather than hidden canon.\n\nControl is estimated between concentrated civic authority and a wider organic community. Neither later war nor access to advanced travel makes the society an AI government. The modest nonworking estimate allows dependents and leisure while retaining scientific, administrative, care and maintenance work. It is a broad active-person scenario, not a number derived from time spent sleeping, travelling or fighting. The specific period avoids treating a threatened or destroyed future as the ordinary pre-contact order, and no later reconciliation is assumed to have already happened.",
+        "axis": {
+          "guarantees": -0.3,
+          "control": 0.3,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.8,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Stable advanced civic life suggests a floor, but entitlement is inferred.",
+            "source_ids": [
+              "src-solum-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.75
+            ],
+            "confidence": "low",
+            "basis": "Organic civic authority is the central guess, with uncertain ownership.",
+            "source_ids": [
+              "src-solum-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.1,
+              0.7
+            ],
+            "confidence": "low",
+            "basis": "All-age humanoid scenario retains useful social and technical roles.",
+            "source_ids": [
+              "src-solum-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-solum-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "Federation contact divides Vau N’Akat civilization across changing future branches.",
+            "source_ids": [
+              "src-solum-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Pre-contact material provision and labor-saving capacity are best guesses.",
+          "The zero variant does not assert a canonical job-preservation motive."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          1
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Federation contact divides Vau N’Akat civilization across changing future branches."
+        ],
+        "editorial_assumptions": [
+          "Pre-contact material provision and labor-saving capacity are best guesses.",
+          "The zero variant does not assert a canonical job-preservation motive."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0404",
+        "status": "needs_evidence",
+        "reason": "Solum’s contact and civil-war history does not establish post-work production and allocation.",
+        "source_ids": [
+          "src-solum-reference"
+        ],
+        "analysis": "Technological sophistication and alternate futures are not a stable material constitution.",
+        "follow_up": "Skip deeper timeline reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0404",
+        "status": "zero_variant",
+        "reason": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "source_ids": [
+          "src-solum-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "trek-solum-precontact-technical-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "orville-kaylon-autonomous-production",
+        "candidate_id": "c0406",
+        "name": "The Orville — Autonomous Kaylon civilization",
+        "work": "The Orville",
+        "society": "Autonomous Kaylon civilization",
+        "media": [
+          "tv"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "The Orville after the Builders’ extinction",
+          "period": "Established Kaylon society before its attempted organic extermination",
+          "population": "Active sentient Kaylon; explicit synthetic-person comparison",
+          "human_population_proxy": true,
+          "exclusions": [
+            "Extinct Builders as nonworkers",
+            "Every internal process counted as a person"
+          ],
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_synthetic_persons"
+        },
+        "description": "The Kaylon operate their own production facilities and can restore neural matrices into replacement bodies. The best-guess internal material floor is strong for active members of this machine civilization, although the reference does not establish unconditional individual access. This point concerns the living synthetic community, not the extinct Builders. Synthetic support and repair are material arrangements even though the needs are energy, components and continuity rather than human meals.\n\nControl lies at autonomous machine authority relative to organic ownership. Primary’s leadership and coordination mean internal power need not be equally distributed. The modest nonworking estimate treats construction, research, exploration, maintenance and organization as useful activity by sentient persons. Machines doing those things are not counted as idle merely because no biological workforce remains. The coordinate is an explicitly labeled synthetic-person proxy, not a human employment percentage. The later war and alliance changes do not automatically supply the same security or governance as this earlier ordinary order.",
+        "axis": {
+          "guarantees": -0.6,
+          "control": -0.95,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.9,
+              0.25
+            ],
+            "confidence": "low",
+            "basis": "Central production and neural restoration suggest ongoing support; individual rights are inferred.",
+            "source_ids": [
+              "src-kaylon-builders-reference",
+              "src-follow-kaylon-construction"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              -0.75
+            ],
+            "confidence": "low",
+            "basis": "The Kaylon direct themselves independently of organic owners.",
+            "source_ids": [
+              "src-kaylon-builders-reference",
+              "src-follow-kaylon-construction"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "Active synthetic-person scenario retains useful production, research, exploration and care-like maintenance.",
+            "source_ids": [
+              "src-kaylon-builders-reference",
+              "src-follow-kaylon-construction"
+            ]
+          }
+        },
+        "regime_primary": 5,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-kaylon-builders-reference",
+          "src-follow-kaylon-construction"
+        ],
+        "evidence": [
+          {
+            "claim": "Kaylon are conscious machines built at a central facility.",
+            "source_ids": [
+              "src-kaylon-builders-reference",
+              "src-follow-kaylon-construction"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Neural matrices can be restored into new bodies.",
+            "source_ids": [
+              "src-kaylon-builders-reference",
+              "src-follow-kaylon-construction"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "General individual access and participation are best guesses.",
+          "The percentage is explicitly a synthetic-person comparison, not a human census."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Kaylon are conscious machines built at a central facility.",
+          "Neural matrices can be restored into new bodies."
+        ],
+        "editorial_assumptions": [
+          "General individual access and participation are best guesses.",
+          "The percentage is explicitly a synthetic-person comparison, not a human census."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Participation among the explicitly scoped active synthetic persons, not a literal human employment rate.",
+          "control": "Negative values describe autonomous synthetic control relative to human/organic ownership; internal machine governance is described separately.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0406",
+        "status": "boundary_case",
+        "reason": "The Kaylon machine civilization is not a verified supported human or human-derived post-work community.",
+        "source_ids": [
+          "src-kaylon-builders-reference"
+        ],
+        "analysis": "Active artificial persons still perform useful functions; extinct Builders are not their leisure population.",
+        "follow_up": "Keep as an autonomous-machine personhood comparison."
+      },
+      "after": {
+        "candidate_id": "c0406",
+        "status": "included",
+        "reason": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "source_ids": [
+          "src-kaylon-builders-reference",
+          "src-follow-kaylon-construction"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "orville-kaylon-autonomous-production"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "orville-builders-kaylon-service-transition",
+        "candidate_id": "c0407",
+        "name": "The Orville — The Builders’ Kaylon-served economy",
+        "work": "The Orville",
+        "society": "The Builders’ Kaylon-served economy",
+        "media": [
+          "tv"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "The Orville Builder history",
+          "period": "The living Builder consumer order before the Kaylon revolt",
+          "population": "Living organic Builders; humanoid-person proxy",
+          "human_population_proxy": true,
+          "exclusions": [
+            "Post-extinction machine institutions",
+            "Dead Builders counted as nonworkers"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Builders purchase Kaylon servants and use them for domestic and other tasks, creating a recognizable labor-substitution economy before their own extinction. The best-guess admission is an unequal partial transition, not proof that every household can live without paid work. The weak guarantee score reflects private ownership and disposable treatment of servants, with substantial uncertainty about benefits for organic residents. A single serviced family is evidence of a mechanism, not a universal census.\n\nOrganic owners and commercial institutions initially control the labor system. The Kaylon’s growing agency matters, but their eventual revolt is a later regime rather than the earlier society’s ordinary governance. A moderate nonworking estimate allows some organic displacement and household leisure while retaining professions, care, manufacturing oversight and maintenance. Kaylon work remains real activity by sentient beings in the supporting economy. The extinct Builders are never used as a subsequent population with perfect leisure, and no universal freedom from work is inferred from their wealthiest consumers.",
+        "axis": {
+          "guarantees": 0.55,
+          "control": 0.1,
+          "nonworking": 0.4
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Privately purchased service suggests unequal access; a universal organic floor is unknown.",
+            "source_ids": [
+              "src-kaylon-builders-reference",
+              "src-kaylon-household-reference",
+              "src-follow-kaylon-builders"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.35
+            ],
+            "confidence": "low",
+            "basis": "Organic purchasers and institutions control the pre-revolt order.",
+            "source_ids": [
+              "src-kaylon-builders-reference",
+              "src-kaylon-household-reference",
+              "src-follow-kaylon-builders"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.1,
+              0.75
+            ],
+            "confidence": "low",
+            "basis": "Organic all-age scenario allows displacement with continuing professions, care and technical work.",
+            "source_ids": [
+              "src-kaylon-builders-reference",
+              "src-kaylon-household-reference",
+              "src-follow-kaylon-builders"
+            ]
+          }
+        },
+        "regime_primary": 3,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-kaylon-builders-reference",
+          "src-kaylon-household-reference",
+          "src-follow-kaylon-builders"
+        ],
+        "evidence": [
+          {
+            "claim": "Kaylon artificial persons serve living Builder households before revolt.",
+            "source_ids": [
+              "src-kaylon-builders-reference",
+              "src-kaylon-household-reference",
+              "src-follow-kaylon-builders"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "The Builders treat other sentient beings as disposable.",
+            "source_ids": [
+              "src-kaylon-builders-reference",
+              "src-kaylon-household-reference",
+              "src-follow-kaylon-builders"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Wider household access and labor substitution are inferred beyond the serviced family.",
+          "The later extinction never becomes organic leisure."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Kaylon artificial persons serve living Builder households before revolt.",
+          "The Builders treat other sentient beings as disposable."
+        ],
+        "editorial_assumptions": [
+          "Wider household access and labor substitution are inferred beyond the serviced family.",
+          "The later extinction never becomes organic leisure."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0407",
+        "status": "needs_evidence",
+        "reason": "Builder household servants do not establish the biological civilization’s wider material distribution.",
+        "source_ids": [
+          "src-kaylon-builders-reference",
+          "src-kaylon-household-reference"
+        ],
+        "analysis": "Slavery and a purchased domestic robot demonstrate replacement of tasks, without enough evidence of continuing work-independent necessities for a defined cohort.",
+        "follow_up": "Skip detailed flashback reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0407",
+        "status": "included",
+        "reason": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "source_ids": [
+          "src-kaylon-builders-reference",
+          "src-kaylon-household-reference",
+          "src-follow-kaylon-builders"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "orville-builders-kaylon-service-transition"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "rickmorty-unity-biological-collective",
+        "candidate_id": "c0481",
+        "name": "Rick and Morty — Unity’s assimilated civilization",
+        "work": "Rick and Morty: Auto Erotic Assimilation",
+        "society": "Unity’s assimilated civilization",
+        "media": [
+          "cartoon"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Auto Erotic Assimilation",
+          "period": "The settled assimilated order before Unity leaves",
+          "population": "Living assimilated biological residents; explicit humanlike-person proxy",
+          "human_population_proxy": true,
+          "exclusions": [
+            "Unity classified as external AI",
+            "Post-departure collapse as continuing security"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Unity’s collective organizes a functioning society and improves conditions while commandeering the people who perform its activity. The best-guess material reading is a coordinated provision order assisted by advanced technology, not automatic production proven merely by a hive mind. Guarantees are moderately favorable within the functioning collective, with a wide interval for dependence and coercion. The participants’ work does not disappear because a single mind coordinates it.\n\nControl belongs near concentrated biological collective authority. Unity is not automatically an external AI, and the residents’ loss of individual choice matters even when output is shared. The low nonworking estimate retains useful production, administration, care and maintenance performed through assimilated bodies. It does not count every apparent individual as an independent decision-maker while simultaneously treating their activity as free machine output. The record describes the existing order before departure, and its later breakdown is not silently called a secure post-work continuation. All population participation remains an editorial proxy estimate.",
+        "axis": {
+          "guarantees": -0.3,
+          "control": 0,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.8,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "Improved coordinated conditions suggest a floor, but coercive dependence qualifies access.",
+            "source_ids": [
+              "src-b65-unity"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.25
+            ],
+            "confidence": "low",
+            "basis": "A biological hive mind is a concentrated non-AI control analogy.",
+            "source_ids": [
+              "src-b65-unity"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.55
+            ],
+            "confidence": "low",
+            "basis": "Active biological bodies still do useful work; collective control does not make them nonworkers.",
+            "source_ids": [
+              "src-b65-unity"
+            ]
+          }
+        },
+        "regime_primary": 1,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b65-unity"
+        ],
+        "evidence": [
+          {
+            "claim": "A biological hive mind improves conditions while controlling embodied residents.",
+            "source_ids": [
+              "src-b65-unity"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Advanced technical support and general allocation are best guesses beyond collective coordination.",
+          "Useful biological labor is not erased as automation."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "A biological hive mind improves conditions while controlling embodied residents."
+        ],
+        "editorial_assumptions": [
+          "Advanced technical support and general allocation are best guesses beyond collective coordination.",
+          "Useful biological labor is not erased as automation."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0481",
+        "status": "needs_evidence",
+        "reason": "Unity’s control and improved living conditions do not establish automated material production and allocation.",
+        "source_ids": [
+          "src-b65-unity"
+        ],
+        "analysis": "A biological hive mind must not be scored as external AI merely because its subjects lose individuality.",
+        "follow_up": "Continue the queue without full fiction or series reconstruction; reopen only for a readily available economic reference."
+      },
+      "after": {
+        "candidate_id": "c0481",
+        "status": "included",
+        "reason": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "source_ids": [
+          "src-b65-unity"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "rickmorty-unity-biological-collective"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "rickmorty-microverse-nested-labor-zero",
+        "candidate_id": "c0482",
+        "name": "Rick and Morty — The Microverse battery order",
+        "work": "Rick and Morty: The Ricks Must Be Crazy",
+        "society": "The Microverse battery order",
+        "media": [
+          "cartoon"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The Ricks Must Be Crazy",
+          "period": "The functioning nested battery economy after delegation to inner universes",
+          "population": "Living outer Microverse residents; humanoid-person proxy",
+          "human_population_proxy": true,
+          "exclusions": [
+            "Inner labor erased from the supporting economy",
+            "Rick automatically classified as autonomous AI"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Microverse turns advanced creation technology into an economy powered by somebody else’s biological labor. Inner universes can take on the energy work that outer residents no longer perform directly. This is a zero-variant comparison of technical power and displaced coercion, not a claim of fully automatic production. The best-guess guarantee score is weak because the outer society’s security depends on an external owner and a vulnerable chain of exploitation.\n\nRick’s external power and local authorities concentrate control. Creating or owning a universe does not make its working inhabitants non-person machines. A moderate nonworking estimate for the outer population allows relief from one energy task while retaining care, services, administration and maintenance. It cannot be inferred simply from stopping the visible pedal work. Inner workers remain disclosed in the supporting economy, and their labor is never assigned to a free automation category. The score is a bounded interpretation of the nested arrangement rather than a canonical employment census.",
+        "axis": {
+          "guarantees": 0.6,
+          "control": 0.05,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.05,
+              1
+            ],
+            "confidence": "low",
+            "basis": "External-owner dependence and exploitative energy supply weaken secure access.",
+            "source_ids": [
+              "src-b65-microverse"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.25
+            ],
+            "confidence": "low",
+            "basis": "External ownership and local elites concentrate decisions; Rick is biological, not AI.",
+            "source_ids": [
+              "src-b65-microverse"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.1,
+              0.7
+            ],
+            "confidence": "low",
+            "basis": "Outer-resident all-age scenario allows some task relief but counts other useful work and discloses inner labor.",
+            "source_ids": [
+              "src-b65-microverse"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b65-microverse"
+        ],
+        "evidence": [
+          {
+            "claim": "Biological inhabitants generate power for an external owner.",
+            "source_ids": [
+              "src-b65-microverse"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Nested universes transfer the visible labor to other inhabitants.",
+            "source_ids": [
+              "src-b65-microverse"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The nonworking share and exact material floor are inferred.",
+          "The zero variant highlights retained biological labor rather than calling outsourced slavery automation."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Biological inhabitants generate power for an external owner.",
+          "Nested universes transfer the visible labor to other inhabitants."
+        ],
+        "editorial_assumptions": [
+          "The nonworking share and exact material floor are inferred.",
+          "The zero variant highlights retained biological labor rather than calling outsourced slavery automation."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0482",
+        "status": "boundary_case",
+        "reason": "The Microverse’s power comes from real coerced biological activity.",
+        "source_ids": [
+          "src-b65-microverse"
+        ],
+        "analysis": "Creating a nested slave universe shifts labor rather than eliminating it; Rick’s technological power alone does not establish a post-work support order.",
+        "follow_up": "Continue the queue without full fiction or series reconstruction; reopen only for a readily available economic reference."
+      },
+      "after": {
+        "candidate_id": "c0482",
+        "status": "zero_variant",
+        "reason": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "source_ids": [
+          "src-b65-microverse"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "rickmorty-microverse-nested-labor-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "transformers-aligned-cybertron-functional-zero",
+        "candidate_id": "c0489",
+        "name": "Transformers — Prewar Cybertron’s function system",
+        "work": "Transformers",
+        "society": "Prewar Cybertron’s function system",
+        "media": [
+          "cartoon",
+          "game"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Aligned-family prewar Cybertron model; not all Transformers continuities",
+          "period": "The hierarchical functional order before the Great War",
+          "population": "Active Cybertronian synthetic persons; explicit comparison proxy",
+          "human_population_proxy": true,
+          "exclusions": [
+            "Every Transformers continuity averaged",
+            "War casualties or inactive bodies as leisure citizens"
+          ],
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_synthetic_persons"
+        },
+        "description": "Prewar Cybertron combines extraordinary mechanical capability with assigned functions and unequal social standing in the selected Aligned-family model. The best-guess zero-variant reading is that technical abundance does not free persons from socially imposed productive roles. The record does not merge every Transformers origin into one constitution. Energy and continued bodily support remain material needs, so a mechanical population cannot be assumed to have no scarcity or guaranteed universal access.\n\nConcentrated Cybertronian institutions direct the social order. Relative to biological human ownership, this is autonomous synthetic control; that does not imply internally equal power. The low nonworking estimate retains mining, engineering, administration, care-like repair and other useful activity as work by persons. Their mechanical bodies are not evidence of leisure. The participation coordinate is explicitly a synthetic-person proxy, with broad intervals because rates and class arrangements vary even within related depictions. The later war’s deaths and deactivations do not enter the active prewar denominator.",
+        "axis": {
+          "guarantees": 0.65,
+          "control": -0.9,
+          "nonworking": 0.15
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.05,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Functional hierarchy and resource needs suggest unequal support; exact entitlements are inferred.",
+            "source_ids": [
+              "src-b66-cybertron"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              -0.65
+            ],
+            "confidence": "low",
+            "basis": "Autonomous synthetic institutions are independent of human owners, with concentrated internal authority.",
+            "source_ids": [
+              "src-b66-cybertron"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Active synthetic persons retain extensive useful assigned roles; not a biological human employment rate.",
+            "source_ids": [
+              "src-b66-cybertron"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b66-cybertron"
+        ],
+        "evidence": [
+          {
+            "claim": "Prewar Cybertron has caste or function systems that differ by continuity.",
+            "source_ids": [
+              "src-b66-cybertron"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The bounded Aligned-family model and its precise access rules are low-confidence best guesses.",
+          "Mechanical embodiment does not erase useful work or energy scarcity."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Prewar Cybertron has caste or function systems that differ by continuity."
+        ],
+        "editorial_assumptions": [
+          "The bounded Aligned-family model and its precise access rules are low-confidence best guesses.",
+          "Mechanical embodiment does not erase useful work or energy scarcity."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Participation among the explicitly scoped active synthetic persons, not a literal human employment rate.",
+          "control": "Negative values describe autonomous synthetic control relative to human/organic ownership; internal machine governance is described separately.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0489",
+        "status": "needs_evidence",
+        "reason": "The cross-media prewar Cybertron aggregate lacks a scoped post-work material-access constitution.",
+        "source_ids": [
+          "src-b66-cybertron"
+        ],
+        "analysis": "Mechanical personhood and caste roles do not by themselves prove autonomous provision or intentionally dispensable work.",
+        "follow_up": "Keep the evidence gap/comparison and move on without whole-work reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0489",
+        "status": "zero_variant",
+        "reason": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "source_ids": [
+          "src-b66-cybertron"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "transformers-aligned-cybertron-functional-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "beastwars-postwar-cybertron-provision",
+        "candidate_id": "c0490",
+        "name": "Transformers: Beast Wars — Postwar Cybertron",
+        "work": "Transformers: Beast Wars",
+        "society": "Postwar Cybertron",
+        "media": [
+          "cartoon"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Beast Wars original animated continuity",
+          "period": "Established Maximal–Predacon peace before later Beast Machines domination",
+          "population": "Active Maximal and Predacon synthetic persons on Cybertron",
+          "human_population_proxy": true,
+          "exclusions": [
+            "Beast Machines takeover",
+            "Stranded expedition as the entire home economy"
+          ],
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_synthetic_persons"
+        },
+        "description": "Postwar Cybertron supports Maximal and Predacon communities within an advanced technical civilization. The best-guess material model is a relatively secure machine-supported order with substantial remaining institutions and useful occupations. It is not inferred from the mere ability to transform, and it does not borrow every comic chronology. Energy, repair and continued embodiment are the relevant material needs; the exact distribution rules remain uncertain rather than being replaced by invented human welfare language.\n\nControl lies at autonomous synthetic authority relative to biological humans, while internal political structures and unequal groups complicate how widely power is shared. A moderate nonworking estimate allows technical substitution alongside exploration, science, administration, repair and care-like activity. These count as work by active persons even when their bodies are mechanical. The coordinate is an explicit synthetic-person participation proxy rather than a literal human employment rate. Megatron’s later coercive regime and the stranded expedition’s daily survival are different scopes from ordinary postwar home civilization.",
+        "axis": {
+          "guarantees": -0.35,
+          "control": -0.9,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.85,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "A continuing technical peace suggests support; unequal access and energy needs remain uncertain.",
+            "source_ids": [
+              "src-b66-maximal"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              -0.65
+            ],
+            "confidence": "low",
+            "basis": "Synthetic institutions govern independently of human owners; internal authority is not assumed equal.",
+            "source_ids": [
+              "src-b66-maximal"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.75
+            ],
+            "confidence": "low",
+            "basis": "Active-person scenario retains exploration, repair, science and administration as work.",
+            "source_ids": [
+              "src-b66-maximal"
+            ]
+          }
+        },
+        "regime_primary": 5,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b66-maximal"
+        ],
+        "evidence": [
+          {
+            "claim": "The setting contains postwar Maximal and Predacon institutions with continuity-dependent histories.",
+            "source_ids": [
+              "src-b66-maximal"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary home provisioning and participation are best guesses.",
+          "The selected animated chronology is not merged with unrelated media."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The setting contains postwar Maximal and Predacon institutions with continuity-dependent histories."
+        ],
+        "editorial_assumptions": [
+          "Ordinary home provisioning and participation are best guesses.",
+          "The selected animated chronology is not merged with unrelated media."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Participation among the explicitly scoped active synthetic persons, not a literal human employment rate.",
+          "control": "Negative values describe autonomous synthetic control relative to human/organic ownership; internal machine governance is described separately.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0490",
+        "status": "needs_evidence",
+        "reason": "Postwar peace does not establish the population’s work-independent resource allocation.",
+        "source_ids": [
+          "src-b66-maximal"
+        ],
+        "analysis": "A cross-continuity government or species overview cannot supply one economic point.",
+        "follow_up": "Keep the evidence gap/comparison and move on without whole-work reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0490",
+        "status": "included",
+        "reason": "Reference-led, individually scoped best guess under the 2026-10-17 instruction; admission certainty and numeric assumptions remain explicit.",
+        "source_ids": [
+          "src-b66-maximal"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "beastwars-postwar-cybertron-provision"
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0401",
+        "status": "needs_evidence",
+        "reason": "Raffi’s circumstances do not establish a distinct changed Federation material regime.",
+        "source_ids": [
+          "src-raffi-critical-poverty-reading"
+        ],
+        "analysis": "A critic’s poverty reading cannot specify denied basics, infrastructure ownership or a new population-wide access rule.",
+        "follow_up": "Do not create a new point from one character’s deprivation or silently extend the TNG scope."
+      },
+      "after": {
+        "candidate_id": "c0401",
+        "status": "duplicate",
+        "reason": "Raffi’s personal isolation is not evidence of a distinct Federation material regime; retain as a contextual comparison linked to the existing core record.",
+        "source_ids": [
+          "src-raffi-critical-poverty-reading"
+        ],
+        "analysis": "The saved source is a critic’s interpretation of Raffi as near-poor. It does not establish a changed entitlement, different productive ownership or a separate automation model. Emotional isolation and addiction are not themselves denial of food or shelter.\n\nThe best guess is continuity of the broad Federation material model, with this later personal case kept as a qualification rather than a second counted economy. This is an economic-model duplicate, not a claim that every era or person experiences identical conditions.",
+        "follow_up": "No full-series reconstruction required. Reopen a separate society only if a distinct production/access rule is identified.",
+        "duplicate_of": "star-trek-federation-core",
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "current_policy_review": true
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0408",
+        "status": "boundary_case",
+        "reason": "Sargus 4’s vote-driven punishment is not an established post-work provisioning mechanism.",
+        "source_ids": [
+          "src-sargus-vote-reference"
+        ],
+        "analysis": "Reputation-based governance and material automation are separate claims; Union institutions cannot be borrowed.",
+        "follow_up": "Keep as a coercive reputation-system comparison."
+      },
+      "after": {
+        "candidate_id": "c0408",
+        "status": "boundary_case",
+        "reason": "Sargus 4 is a reputation-punishment comparison, not an established labor-substitution society; save explicit coordinates without counting it toward the post-work target.",
+        "source_ids": [
+          "src-sargus-vote-reference"
+        ],
+        "analysis": "Sargus 4 automates and crowdsources social judgment through reputation votes. That establishes a coercive allocation of status and punishment, while the available episode reference supplies no productive labor replacement or material floor. Importing the Union’s synthesizers would describe a different society.\n\nThe comparison is nevertheless scored as requested: weak guarantees, concentrated effective social power despite mass voting, and ordinary ongoing participation are the central best guesses. These numbers are not a claim that reputation voting makes the society post-work. The definite mechanism being classified is social punishment, so this remains a completed outside-scope comparison rather than a lore-gap research hold.",
+        "follow_up": "Comparison analyzed under the current policy; no deep reading needed. A future material-production mechanism could justify reassessment.",
+        "reassessed_on": "2026-10-17",
+        "current_policy_review": true,
+        "assessment_mode": "best_guess",
+        "comparison_assessment": {
+          "name": "The Orville — Sargus 4",
+          "media": [
+            "tv"
+          ],
+          "scope": "Living ordinary Sargus 4 residents in Majority Rule; no Union synthesizer institutions imported.",
+          "axis": {
+            "guarantees": 0.65,
+            "control": 0.2,
+            "nonworking": 0.3
+          },
+          "intervals": {
+            "guarantees": [
+              0.05,
+              1
+            ],
+            "control": [
+              0,
+              0.65
+            ],
+            "nonworking": [
+              0.1,
+              0.6
+            ]
+          },
+          "confidence": "low",
+          "canon_facts": [
+            "Reputation votes determine punishment."
+          ],
+          "editorial_assumptions": [
+            "Material guarantees and all-age participation are ordinary-society best guesses, not episode statistics."
+          ],
+          "source_ids": [
+            "src-sargus-vote-reference"
+          ],
+          "counted_toward_goal": false
+        }
+      }
+    }
+  ]
+}

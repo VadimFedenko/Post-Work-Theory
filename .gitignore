@@ -1,0 +1,17 @@
+node_modules/
+.npm-cache/
+.chart-data-*/
+*.tsbuildinfo
+dist/
+preview/
+public/assets/
+public/data/
+.vercel/
+.env
+.env.*
+!.env.example
+tmp/
+__pycache__/
+*.pyc
+Thumbs.db
+.DS_Store

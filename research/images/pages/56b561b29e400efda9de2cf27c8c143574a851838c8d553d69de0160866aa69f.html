@@ -1,0 +1,314 @@
+
+  <!doctype html>
+  <!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
+  <!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]-->
+  <!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
+  <!--[if (gte IE 9)|!(IE)]><![endif]-->
+  <html class="no-js" lang="en">
+  <head> 
+    <meta charset="utf-8">
+    <title>SFE: Automation</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="Welcome to the fourth edition of The Encyclopedia of Science Fiction." />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Google Analytics -->
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga("create", "UA-24275979-1", "auto");
+ga("send", "pageview");
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+<!-- End Google Analytics -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="/static/css/style.css?v=1">
+    <link rel="stylesheet" href="/static/css/media-queries.css">
+    <link rel="stylesheet" href="/css/cookie.css">
+    <script src="/static/js/libs/modernizr-2.0.6.min.js"></script>
+
+	<style media="screen" type="text/css">
+
+   ::-moz-selection {
+    background: navy !important;
+   }
+
+
+	html,
+	body {
+		margin:0;
+		padding:0;
+		height:100%;
+	}
+	#container {
+		min-height:100%;
+		position:relative;
+	}
+	#header {
+		background:#ff0;
+		padding:10px;
+	}
+	#body {
+		padding-bottom:15px;	/* Height of the footer */
+	}
+	#footer {
+		position:absolute;
+		bottom:0;
+		width:100%;
+		height:15px;			/* Height of the footer */
+		background:#6cf;
+	}
+	</style>
+	<!--[if lt IE 7]>
+	<style media="screen" type="text/css">
+	#container {
+		height:100%;
+	}
+	</style>
+	<![endif]-->
+   
+  </head>
+  <body style="overflow-x: hidden;">
+
+  <div id="container">
+  <div id="body">
+
+  <div id="minorNavWrapper">
+   <nav id="minornav" class="clearfix">
+    <ul class="clearfix" style="font-weight: bold;">
+     <li><a href="/">Home</a></li>
+     <li><a href="/about-us">About us</a></li>
+     <li><a href="/random.php">Random</a></li>
+     <li><a href="/contact.php">Contact</a></li>
+     <li><a href="/donate.php">Donate</a></li>
+    </ul>
+   </nav>
+  </div>
+  <div id="mainNavWrapper">
+   <nav id="mainnav">
+    <ul class="clearfix">
+     <li class="home"><a title="Home page" href="https://sf-encyclopedia.com/"><img id="sfeLogoSmall" src="/static/img/sfe.png" alt="SFE: The Encyclopedia of Science Fiction"><img id="sfeLogo" src="/static/img/logo.png" alt="SFE: The Encyclopedia of Science Fiction"></a><span class="logoArrow"></span></li>
+
+     <li class="section-all"><a href="https://sf-encyclopedia.com/category/0">All entries</a></li>
+     <li class="section-themes"><a href="https://sf-encyclopedia.com/category/theme">Themes</a></li>
+     <li class="section-authors"><a href="https://sf-encyclopedia.com/category/everyone">People</a></li>
+     <li class="section-media"><a href="https://sf-encyclopedia.com/category/media">Media</a></li>
+     <li class="section-culture"><a href="https://sf-encyclopedia.com/category/culture">Culture</a></li>
+     <li class="section-news"><a href="https://sf-encyclopedia.com/news/">News</a></li>
+    </ul>
+   </nav>
+  </div>
+
+  <div id="main">
+   <div class="colsWrapper clearfix">
+   <div class="column mainCol clearfix" style="background-color:white !important;">
+
+    
+ <fieldset id="globalSearch">
+  <form name="srchenter" method="post" action="/search.php">
+   <select name="catfilter" class="searchFilter" style="width: 132px" title="Select entry category for headword or global search">
+    <option value="">Search all entries</option>
+  <option value="chk">Checklist titles</option><option value="art">Art</option>
+  <option value="author">Author</option>
+  <option value="award">Award</option>
+  <option value="character">Character</option>
+  <option value="comics">Comics</option>
+  <option value="community">Community</option>
+  <option value="critic">Critic</option>
+  <option value="editor">Editor</option>
+  <option value="fan">Fan</option>
+  <option value="film">Film</option>
+  <option value="game">Game</option>
+  <option value="house name">House Name</option>
+  <option value="international">International</option>
+  <option value="music">Music</option>
+  <option value="people">People (media)</option>
+  <option value="poet">Poet</option>
+  <option value="prelim">Prelim</option>
+  <option value="publication">Publication</option>
+  <option value="publisher">Publisher</option>
+  <option value="radio">Radio</option>
+  <option value="theatre">Theatre</option>
+  <option value="theme">Theme</option>
+  <option value="translator">Translator</option>
+  <option value="tv">TV</option>
+  
+   </select>
+   <input name="search" type="text" value="" style="margin: 0 0 5px 0; width: 155px !important;" onFocus="this.select()" onClick="this.select()" onHover="this.select()" class="searchText" id="defaultOpen">&nbsp;
+   <input type="submit" value="Headwords" class="button primary" style="margin: 5px 0 0 0;; padding-left: 8px; padding-right: 8px">&nbsp;
+   <input type="submit" name="glob" value="Global search" class="button primary" style="margin: 5px 0 0 0; padding-left: 8px; padding-right: 8px">
+   <input type="text" name="eofmode" value="" hidden>
+<div  style="display:none;">
+  <p style="margin: 0px; float: left;"><input type="radio" name="tomeselect" value="sfe" checked> <i>Search SFE</i>
+   &nbsp;&nbsp;<input type="radio" name="tomeselect" value="eof"> <i>Search EoF</i></p>
+  <p style="margin: 0px; float: right;">
+  <input type="checkbox" Name="noxref">&nbsp; <i>Omit cross-reference entries</i>
+ &nbsp;</p>
+ <script>
+  document.srchenter.search.focus();
+  document.addEventListener("keydown", function(event) {
+   if (event.code == "PageDown" || event.code == "ArrowDown" || ( !event.getModifierState("NumLock") && (event.code == "Numpad2" || event.code == "Numpad3"))) {
+    document.srchenter.search.blur();
+   }
+  })
+ </script>
+ </div>
+ </form>
+ </fieldset>
+
+                
+    <article class="entryArticle content STeditorial">
+
+	<header class="entryHeader icon-theme">
+     <h1 class="entryTitle">Automation
+     </h1>
+    </header><p class='tagLine'>Entry updated 27 November 2023. Tagged: Theme.</p><div class="browsingBtns">
+           <span>
+            <input class="button PNI previous" type="button" onclick="window.location.href='/next.php?id=p&entry=automation'" value="Prev" />
+        </span>
+        <span>
+            <input class="button PNI next" type="button" onclick="window.location.href='/next.php?&entry=automation'" value="Next" />
+        </span>
+        <span>
+            <input class="button PNI incoming" type="button" onclick="window.location.href='/incoming.php?entry=automation'" value="About This Entry" title="What links to the entry; contributor initials explained; how to cite; other information" />
+        </span>
+<span style="cursor: pointer;" onclick="window.open('/gallery.php?link=automation');">
+  <img alt="Icon made by Freepik from www.flaticon.com" style="margin: 0; position: relative; top:-2px;" src="/images/icon-gal.gif"></img></span>
+  </div><p style='float:right; margin-bottom:0; margin-left:10px; position: relative; top: 3px;'>
+   <a href='/gallery.php?id=Erlich-Clockworks.jpg' target='_blank'>
+   <img src='https://x.sf-encyclopedia.com/gal/thumbs/Erlich-Clockworks.jpg' alt='pic'></a></p>
+
+<p>The idea that mechanical production processes might one day free mankind from the burden of labour is a common utopian dream, exemplified by Edward <a href="/entry/bellamy_edward">Bellamy</a>'s <i>Looking Backward, 2000-1887</i> (<b>1888</b>) and its modern counterpart, Mack <a href="/entry/reynolds_mack">Reynolds</a>'s <i>Looking Backward from the Year 2000</i> (<b>1973</b>). But the dream has its nightmarish aspects, as hinted at in the manufacture and display of <a href="/entry/automata">Automata</a> in recent centuries, sometimes as emblems of free labour; and as argued in tales like <i>Mr Jonnemacher's Machine: The Port to Which We Drifted</i> (<b>1898</b>) by Walter Doty Reynolds writing as Lord <a href="/entry/prime_lord">Prime</a>: work can be seen as the way in which people justify their existence, and the spectres of unemployment and redundancy, historically associated with poverty and misery, have haunted the developed countries since the days of the Industrial Revolution. The utopian dream must be set alongside the memory of the Luddite riots and the Great Depression, arguments of this sort being much sophisticated by speculative sociologists such as Jacques Ellul (1912-1994) in <i>La Technique ou L'Enjeu du Si&egrave;cle</i> (<b>1954</b>; trans with revs John Wilkinson as <i>The Technological Society</i> <b>1964</b>) or Lewis Mumford (1895-1990) in <i>The Myth of the Machine: Technics and Human Development</i> (<b>1967</b>) and <i>The Myth of the Machine: The Pentagon of Power</i> (<b>1970</b>), both authors presciently eloquent about the implications of a commodified world. Thus it is hardly surprising that an entirely negative view of the prospect of automation can be found in such works as <i>Les condamn&eacute;s &agrave; mort</i> (<b>1920</b>; trans as <i>Useless Hands</i> <b>1926</b>) by Claude <a href="/entry/farrere_claude">Farr&egrave;re</a>. Indeed, the history of modern utopian thought (see <a href="/entry/dystopias">Dystopias</a>; <a href="/entry/utopias">Utopias</a>) is very largely the history of a loss of faith in utopia-through-automation and the growth of various fears: fear that <a href="/entry/machines">Machines</a> may destroy the world by using up its resources, poisoning it with waste, or simply by making available the means of self-destruction; fear that we may be "enslaved" by our machines, becoming "automated" ourselves through reliance upon them; and fear that total dependence on automated production might render us helpless were the machines ever to break down. The last anxiety is the basis of one of the most famous <a href="/entry/mainstream_writers_of_sf">Mainstream</a>-sf stories, "The Machine Stops" (November 1909 <i>Oxford and Cambridge Review</i>) by E M <a href="/entry/forster_e_m">Forster</a>, produced in response to the optimistic futurological writings of H G <a href="/entry/wells_h_g">Wells</a>.</p>
+
+<p>The wonders of automation were extensively celebrated by Hugo <a href="/entry/gernsback_hugo">Gernsback</a>, and much is made of the mechanical provision of the necessities of life in his <i>Ralph 124C 41+</i> (April 1911-March 1912 <i>Modern Electrics</i>; exp as fixup <b>1925</b>; rev <b>1950</b>). Even in the early sf <a href="/entry/pulp">Pulp</a> magazines, however, reservations were apparent in the works of such writers as David H <a href="/entry/keller_david_h_m_d">Keller</a> (e.g., "The Threat of the Robot" [June 1929 <a href="/entry/wonder_stories">Wonder Stories</a>]) and Miles J <a href="/entry/breuer_miles_j">Breuer</a> (e.g., "Paradise and Iron" [Summer 1930 <a href="/entry/amazing_stories_quarterly">Amazing Stories Quarterly</a>]). Laurence <a href="/entry/manning_laurence">Manning</a>'s and Fletcher <a href="/entry/pratt_fletcher">Pratt</a>'s "The City of the Living Dead" (May 1930 <a href="/entry/wonder_stories">Wonder Stories</a>) offers a striking image of the people of the future living entirely encased in silver wires, all of their experience as well as all their needs being provided synthetically. The theme played a highly significant part in the work of John W <a href="/entry/campbell_john_w_jr">Campbell</a> Jr, who wrote several stories allegorizing mankind's relationship with machinery. In "The Last Evolution" (August 1932 <a href="/entry/amazing">Amazing</a>) and the stories "Twilight" (November 1934 <a href="/entry/asf">Astounding</a>) and "Night" (October 1935 <a href="/entry/asf">Astounding</a>), machines outlive their builders on the <a href="/entry/dying_earth">Dying Earth</a>, but in the series begun with "The Machine" (February 1935 <a href="/entry/asf">Astounding</a>) mankind breaks free of the benevolent bonds of mechanical cornucopia. Powerful images of people enslaved and automated by machines were offered in the classic film <a href="/entry/metropolis">Metropolis</a> (<i>1926</i>; novelization by Thea <a href="/entry/von_harbou_thea">von Harbou</a> <b>1926</b>; trans <b>1927</b>); an earlier and far more trivial <a href="/entry/cinema">Cinema</a> example is <i>La</i> <a href="/entry/charcuterie_mecanique_la">Charcuterie M&eacute;canique, La</a> (<i>1895</i>; vt <i>The Mechanical Butcher</i>). The notion of the leisurely, machine-supported life was ruthlessly satirized in <i>The Isles of Wisdom</i> (<b>1924</b>) by Alexandr <a href="/entry/moszkowski_alexandr">Moszkowski</a> and <i>Brave New World</i> (<b>1932</b>) by Aldous <a href="/entry/huxley_aldous">Huxley</a>.</p>
+
+<p>One of the most significant advances in the automation of labour was anticipated in sf, and now bears the name of the story in which it appeared: Robert A <a href="/entry/heinlein_robert_a">Heinlein</a>'s "Waldo" (August 1942 <a href="/entry/asf">Astounding</a>) (see <a href="/entry/waldo">Waldo</a>). Much attention has been devoted to <a href="/entry/robots">Robots</a> (see also <a href="/entry/slavery">Slavery</a>), manufactured workers which have received a good deal more careful and sympathetic consideration in <a href="/entry/genre_sf">Genre SF</a> than in the moral tale which coined the word: Karel <a href="/entry/capek_karel">&#268;apek</a>'s <i>R.U.R</i> (<b>1920</b>; trans <b>1923</b>). Fully automated factories are featured in several of Philip K <a href="/entry/dick_philip_k">Dick</a>'s stories, most notably "Autofac" (November 1955 <a href="/entry/galaxy">Galaxy</a>), and Dick extended this line of thought to consider the effects of the automation of production on the business of warfare in "Second Variety" (May 1953 <a href="/entry/space_science_fiction">Space Science Fiction</a>). Automated warfare is also featured in "Dr Southport Vulpes's Nightmare" (in <i>Nightmares of Eminent Persons</i>, coll <b>1954</b>) by Bertrand <a href="/entry/russell_bertrand">Russell</a> and in "War with the Robots" (July 1962 <a href="/entry/science_fiction_adventures">Science Fiction Adventures</a> UK) by Harry <a href="/entry/harrison_harry">Harrison</a>. The automation of the home has been taken to its logical extreme in a number of ironic sf stories, including "The Twonky" (September 1942 <a href="/entry/asf">Astounding</a>) by Lewis Padgett (Henry <a href="/entry/kuttner_henry">Kuttner</a> and C L <a href="/entry/moore_c_l">Moore</a>), filmed as <i>The</i> <a href="/entry/twonky_the">Twonky</a> (<i>1952</i>), "The House Dutiful" (April 1948 <a href="/entry/asf">Astounding</a>) by William <a href="/entry/tenn_william">Tenn</a> and "Nor Custom Stale" (September 1959 <a href="/entry/fsf">F&amp;SF</a>) by Joanna <a href="/entry/russ_joanna">Russ</a>. Automated <a href="/entry/cities">Cities</a> are the central figures in Greg <a href="/entry/bear_greg">Bear</a>'s <i>Strength of Stones</i> (fixup <b>1981</b>), and one, Bellwether &ndash; the automated city as smothering Jewish mother &ndash; appears satirically in <i>Dimension of Miracles</i> (<b>1968</b>) by Robert <a href="/entry/sheckley_robert">Sheckley</a>; this section was also separately published as "Street of Dreams, Feet of Clay" (February 1968 <a href="/entry/galaxy">Galaxy</a>). The automation of information storage and recovery systems and calculating functions is a theme of considerable importance in its own right (see <a href="/entry/computers">Computers</a>).</p>
+
+<p>The grimmer imagery of the automated future became more extensive in the 1950s. Kurt <a href="/entry/vonnegut_kurt_jr">Vonnegut</a> Jr's <i>Player Piano</i> (<b>1952</b>) tells of a hopeless revolution against the automation of human life and the human spirit. Several writers working under John W <a href="/entry/campbell_john_w_jr">Campbell</a> Jr's tutelage, however, produced stories which argued passionately that robots and computers would be a tremendous asset to human life if only we could learn to use them responsibly; rhetorically powerful examples include Jack <a href="/entry/williamson_jack">Williamson</a>'s <i>The Humanoids</i> (March-May 1948 <a href="/entry/asf">Astounding</a> as "... And Searching Mind"; rev <b>1949</b>) whose ending decisively overturned the moral of its classic predecessor, his own "With Folded Hands ..." (July 1947 <a href="/entry/asf">Astounding</a>) &ndash; and Mark <a href="/entry/clifton_mark">Clifton</a>'s and Frank <a href="/entry/riley_frank">Riley</a>'s <i>They'd Rather be Right</i> (August-November 1954 <a href="/entry/asf">Astounding</a>; edited version <b>1957</b>; vt <i>The Forever Machine</i> <b>1958</b>; text restored under original title <b>1981</b>). Despite this stubborn defence, the encroachment of the machine upon the most essential and sacred areas of human activity and endeavour became a common theme in post-World War Two sf. Artists find themselves replaced by machines in numerous stories (see <a href="/entry/arts">Arts</a>), most notably Walter M <a href="/entry/miller_walter_m">Miller</a> Jr's "The Darfsteller" (January 1955 <a href="/entry/asf">Astounding</a>), and <a href="/entry/androids">Androids</a> or robots often find a place in the most intimate of human relationships. In cheerier vein, Fritz <a href="/entry/leiber_fritz">Leiber</a> offered gentle <a href="/entry/satire">Satire</a> on fears of automation in <i>The Silver Eggheads</i> (January 1959 <a href="/entry/fsf">F&amp;SF</a>; exp <b>1962</b>), where fiction authors have become mere figureheads operating prose-generating <a href="/entry/wordmills">Wordmills</a> &ndash; which they rise up and destroy, only to find the knack of solo writing less easy than supposed.</p>
+
+<p>The basic idea of Campbell's "The Last Evolution" &ndash; that automation might be the prelude to the establishment of a self-sustaining, independently evolving mechanical life-system &ndash; was first considered in Samuel <a href="/entry/butler_samuel">Butler</a>'s <i>Erewhon</i> (<b>1872</b>) and has been a constant preoccupation of sf writers; other early examples include Laurence Manning's "The Call of the Mech-Men" (November 1933 <a href="/entry/wonder_stories">Wonder Stories</a>) and Eric Frank <a href="/entry/russell_eric_frank">Russell</a>'s "Mechanistria" (January 1942 <a href="/entry/asf">Astounding</a>). Further developments of the theme include Stanis&#322;aw <a href="/entry/lem_stanislaw">Lem</a>'s <i>The Invincible</i> (<b>1964</b>; trans <b>1973</b>) and James P <a href="/entry/hogan_james_p">Hogan</a>'s <i>Code of the Lifemaker</i> (<b>1983</b>), and such pointed <a href="/entry/satire">Satires</a> as John T <a href="/entry/sladek_john_t">Sladek</a>'s <i>The Reproductive System</i> (<b>1968</b>; vt <i>Mechasm</i> <b>1969</b>) and Olaf <a href="/entry/johannesson_olof">Johannesson</a>'s <i>Sagan om den stora datamaskinin</i> (<b>1966</b>; trans as <i>The Tale of the Big Computer</i> <b>1968</b>; vt <i>The Great Computer</i>; vt <i>The End of Man?</i>). The sinister twist added by stories dealing with evolving systems of war-machines was adapted to an interstellar stage in Fred <a href="/entry/saberhagen_fred">Saberhagen</a>'s <b>Berserker</b> series (see <a href="/entry/berserkers">Berserkers</a>), whose early stories were assembled in <i>Berserker</i> (coll of linked stories <b>1967</b>); the idea of a Universe-wide conflict between biological and mechanical systems has been further developed by Gregory <a href="/entry/benford_gregory">Benford</a> in his <b>Galactic Center Saga</b>, including <i>Great Sky River</i> (<b>1987</b>) and its sequels.</p>
+
+<p>The dangers of automation comprise one of the fundamental themes of modern <a href="/entry/dystopias">Dystopian</a> fiction; different variations can be found in Frederik <a href="/entry/pohl_frederik">Pohl</a>'s "The Midas Plague" (April 1954 <a href="/entry/galaxy">Galaxy</a>) and its sequels (collected in <i>Midas World</i> [fixup <b>1983</b>]), Robert <a href="/entry/sheckley_robert">Sheckley</a>'s "The Laxian Key" (November 1954 <a href="/entry/galaxy">Galaxy</a>), Harlan <a href="/entry/ellison_harlan">Ellison</a>'s "'Repent, Harlequin!' Said the Ticktockman" (December 1965 <a href="/entry/galaxy">Galaxy</a>), Michael <a href="/entry/frayn_michael">Frayn</a>'s <i>A Very Private Life</i> (<b>1968</b>) and Gwyneth <a href="/entry/jones_gwyneth">Jones</a>'s <i>Escape Plans</i> (<b>1986</b>). At a more intimate level, the notion of the automatization of the human psyche was a key theme in the later work of Philip K Dick, displayed in such novels as <i>Do Androids Dream of Electric Sheep?</i> (<b>1968</b>) and explained in two notable essays: "The Android and the Human" (December 1972 <a href="/entry/sf_commentary">SF Commentary</a>) and "Man, Android and Machine" (in <i>Science Fiction at Large</i>, anth <b>1976</b>, ed Peter <a href="/entry/nicholls_peter">Nicholls</a>). The notion of an intimate hybridization of human and machine is carried forward in many stories featuring <a href="/entry/cyborgs">Cyborgs</a>. [BS/DRL]</p>
+
+<p><b>see also:</b> <a href="/entry/cybernetics">Cybernetics</a>; <a href="/entry/sociology">Sociology</a>; <a href="/entry/technology">Technology</a>.</p>
+
+<p><b>further reading</b></p>
+<ul class="x">
+  <li>Jacques Ellul. <em><a href="/sfeshop.php?field-keywords=La+Technique+ou+LEnjeu+du+Siecle&field-author=Jacques+Ellul" class="link-amazon" target="_blank">La Technique ou L'Enjeu du Si&egrave;cle</a></em> (Paris: Librairie Armand Colin, <b>1954</b>) [nonfiction: binding unknown/]
+  <ul class="x">
+    <li><em><a href="/sfeshop.php?field-keywords=The+Technological+Society&field-author=" class="link-amazon" target="_blank">The Technological Society</a></em> (New York: Alfred A Knopf, <b>1964</b>) [nonfiction: rev: trans by John Wilkinson of the above with revisions: hb/]</li>
+  </ul></li>
+  <li>Lewis Mumford. <em><a href="/sfeshop.php?field-keywords=The+Myth+of+the+Machine+Technics+and+Human&field-author=Lewis+Mumford" class="link-amazon" target="_blank">The Myth of the Machine: Technics and Human Development</a></em> (New York: Harcourt Brace, <b>1967</b>) [nonfiction: hb/]</li>
+  <li>Lewis Mumford. <em><a href="/sfeshop.php?field-keywords=The+Myth+of+the+Machine+The+Pentagon+of+Power&field-author=Lewis+Mumford" class="link-amazon" target="_blank">The Myth of the Machine: The Pentagon of Power</a></em> (New York: Harcourt Brace, <b>1970</b>) [nonfiction: hb/]</li>
+  <li>Richard D <a href="/entry/erlich_richard_d">Erlich</a> and Thomas P Dunn <em><a href="/sfeshop.php?field-keywords=et+al&field-author=" class="link-amazon" target="_blank">et al</a></em>, editors. <em>Clockwork Worlds: Mechanized Environments in SF</em> (Westport, Connecticut: Greenwood Press, <b>1983</b>) [nonfiction: anth: hb/nonpictorial]</li>
+</ul>
+
+<p><b>links</b></p>
+<ul class="x">
+  <li><a target="_blank" href="https://sf-encyclopedia.com/gallery.php?link=automation">Picture Gallery</a></li>
+</ul>
+
+<p><b>previous versions of this entry</b></p>
+   <ul><li><a href='https://web.archive.org/web/*/http://www.sf-encyclopedia.com/entry/automation' target='_blank'>Internet Archive</a></li></ul><br /><br /></article></div>
+        <div class="sideBarsWrapper">
+         <div class="sideBarsColsWrapper clearfix">
+          <div class="column sideBar12 clearfix">
+           <div class="columnForm"><aside id="blogFeed" class="widget">
+         <div class="content STeditorial clearfix">
+          <h2>Recently visited entries<span style="background:url(/images/thingSFE2.png) !important"></span></h2><ul style='width: 50%; float: left;'>
+   
+  </ul>
+<p align=center style="float:right; padding-top:20px; padding-bottom:20px;">ISSN 3049-7612<br />
+     <a href="/facts.php?id=logo">
+     <img src="/images/VitMan.gif" width=150 height=150 title="Click for larger version of this SFE logo"></a><br />
+    <b><a href="/donate.php"><img src="/images/Donate.png" WIDTH="110" HEIGHT="26" BORDER="0" /></a><br /><a href="/">Home/Welcome page</a></b></p><div style="margin-bottom:10px;"></div></div>
+         </aside><aside id="blogFeed" class="widget">
+         <div class="content STeditorial clearfix">
+          <h2><i>SFE</i> Special Features<span></span></h2><p style="margin-top: 10px;"><input type="button" value="What&rsquo;s New" style="width: 150px !important;" class="button primary" onclick="window.location.href='/whatsnew.php'">&nbsp; Latest entries; <a href="/updated.php">latest updates</a></p>
+   <p style="line-height:1.6em;"><input type="button" value="In Memoriam" style="width: 150px !important;" class="button primary" onclick="window.location.href='/timeline.php?rip'">&nbsp; Recent deaths</p>
+   <p style="line-height:1.6em;"><input type="button" value="On This Day" style="width: 150px !important;" class="button primary" onclick="window.location.href='/today.php'">&nbsp; Anniversaries; also <a href="/timeline.php">Timeline</a></p>
+   <p style="line-height:1.6em;"><input type="button" value="Gallery" style="width: 150px !important;" class="button primary" onclick="window.location.href='/gallery.php'">&nbsp; <i>SFE</i> Picture Gallery; <a href="/gallery.php?list&new">What&rsquo;s New</a></p>
+   <p style="line-height:1.6em;"><input type="button" value="Shopping" style="width: 150px !important;" class="button primary" onclick="window.location.href='/sfeshop.php'">&nbsp; Affiliate settings</p>
+   <p style="line-height:1.6em;"><input type="button" value="Random" style="width: 150px !important;" class="button primary" onclick="window.location.href='/random.php'">&nbsp; Show a random <i>SFE</i> entry</p>                <p style="line-height:1.6em;"><input type="button" value="SFE Facts" style="width: 150px !important;" class="button primary" onclick="window.location.href='/facts.php'">&nbsp; Bar charts, awards and more</p>
+   <p style="line-height:1.6em;"><input type="button" value="Entry Data" style="width: 150px !important;" class="button primary" onclick="window.location.href='https://sf-encyclopedia.com/incoming.php?entry=automation'">&nbsp; Incoming links, who wrote it, etc</p>
+<p style="margin-bottom:15px;"><a href="/searching">Search help</a> | <a href="/rss.php" target="_blank">RSS feed</a> <img src="/static/img/external.gif"> | <a href="/fe/"><i>Encyclopedia of Fantasy</i></a>  <img src="/static/img/external.gif"></p><div style="margin-bottom:10px;"></div></div>
+         </aside><aside id="connect" class="widget">
+	<div class="content STeditorial clearfix">
+		<h2>Connect with <i>SFE</i> <span></span></h2>
+		<ul>
+		 <li>
+           <h3 style="text-align: left !important;"><a href="/donate.php">Donate towards <i>SFE</i> expenses</a></h3>
+		 </li>
+		 <li>
+           <h3 style="text-align: left !important;"><a href="/contact.php">Send email feedback to the <i>SFE</i> editors</a></h3>
+		 </li>
+		 <li>
+           <h3 style="text-align: left !important;"><a href="https://encyclopediaofsciencefiction.substack.com/"><i>SFE</i> on Substack</a></h3>
+		 </li>
+		 <li>
+		  <h3 style="text-align: left !important;"><a href="https://bsky.app/profile/sfencyclopedia.bsky.social" target="_blank"><i>SFE</i> on BlueSky</a></h3>
+		 </li>			
+		 <li style=" display:none;">
+		  <h3 style="text-align: left !important;"><a href="https://twitter.com/john_clute" target="_blank">John Clute on Twitter [X]</a></h3>
+	       <a href="https://twitter.com/john_clute" class="twitter-follow-button">Follow @john_clute</a>
+		  <script src="https://platform.twitter.com/widgets.js" type="text/javascript"></script>
+		 </li>
+		 <li style=" display:none;">
+		  <h3 style="text-align: left !important;"><a href="https://twitter.com/sfencyclopedia" target="_blank"><i>SFE</i> on Twitter [X]</a></h3>
+				<a href="https://twitter.com/sfencyclopedia" class="twitter-follow-button">Follow @sfencyclopedia</a>
+				<script src="https://platform.twitter.com/widgets.js" type="text/javascript"></script>
+		 </li>
+		 <li>
+		  <h3 style="text-align: left !important;"><a href="https://www.facebook.com/pages/Sf-Encyclopedia/138995776178949" target="_blank"><i>SFE</i> on Facebook</a></h3>
+		 </li>			
+		 <li>
+		  <h3 style="text-align: left !important;"><a href="https://www.facebook.com/john.clute.5" target="_blank">John Clute on Facebook</a></h3>
+		 </li>			
+		 <li>
+		  <h3 style="text-align: left !important;"><a href="https://mastodon.social/@SF_Encyclopedia" target="_blank"><i>SFE</i> on Mastodon</a></h3>
+		 </li>			
+		</ul>
+	</div>
+</aside>
+     </div></div>
+         </div>                  
+        </div>
+       </div>                  
+      </div>
+
+     </div>
+
+<div id="cookieConsent">
+    <div id="closeCookieConsent" onclick="hidepopup()">x</div>
+    This website uses cookies. &nbsp;<a href="/cookies" target="_blank">More information here</a>. <a class="cookieConsentOK" onclick="setcookie()">Accept Cookies</a>
+</div>
+
+<script type="text/javascript">
+ function hidepopup() {
+  document.cookie = "hidecookiepopup=yes; path=/"; // session only
+  document.getElementById("cookieConsent").style.display = "none";
+ }
+ function setcookie() {
+  document.cookie = "cookiesOK=yes; max-age=31536000; path=/"; // 1 year
+  document.getElementById("cookieConsent").style.display = "none";
+ }
+ var cookiestring = document.cookie;
+// document.getElementById("connect").innerHTML = cookiestring; // TEST only
+ if ( cookiestring.indexOf("cookiesOK=yes") == -1 ) {
+  if ( cookiestring.indexOf("hidecookiepopup=yes") == -1 ) {
+   document.getElementById("cookieConsent").style.display = "block";
+  }
+ }
+</script>
+
+      <div id="footer" style="background:#fff; padding: 5px;">
+       <footer id="globalFooter" class="clearfix">
+        <div id="credit">Website by Ansible Editions
+        </div>
+        <div id="credit" style="float: left !important; padding-left:20px;">Site and <i>SFE</i> content &copy; 2011-2026 John Clute &amp; David Langford</div>
+       </footer>
+      </div>
+     </div>
+
+    </body></html>

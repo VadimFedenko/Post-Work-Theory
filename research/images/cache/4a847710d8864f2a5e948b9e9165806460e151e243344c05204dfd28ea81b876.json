@@ -1,0 +1,582 @@
+{
+  "data": [
+    {
+      "id": "964",
+      "type": "anime",
+      "links": {
+        "self": "https://kitsu.io/api/edge/anime/964"
+      },
+      "attributes": {
+        "createdAt": "2013-02-20T16:15:25.700Z",
+        "updatedAt": "2026-10-17T12:00:32.879Z",
+        "slug": "armitage-iii",
+        "synopsis": "The year is 2046. Detective Ross Sylibus is transferred to Mars when a country singer on her flight is murdered. Making matters more complicated is that the singer is a \"Third\"—a robot that looks and feels like a human. Sylibus is partnered with Armitage—a beautiful female cop with a bad attitude. As they investigate the murder of the singer and other women on Mars, they uncover a conspiracy that can have them both killed by the Martian government.\n(Source: ANN) ",
+        "description": "The year is 2046. Detective Ross Sylibus is transferred to Mars when a country singer on her flight is murdered. Making matters more complicated is that the singer is a \"Third\"—a robot that looks and feels like a human. Sylibus is partnered with Armitage—a beautiful female cop with a bad attitude. As they investigate the murder of the singer and other women on Mars, they uncover a conspiracy that can have them both killed by the Martian government.\n(Source: ANN) ",
+        "coverImageTopOffset": 0,
+        "titles": {
+          "en": "Armitage III",
+          "en_jp": "Armitage III",
+          "en_us": "Armitage III",
+          "ja_jp": "アミテージ・ザ・サード"
+        },
+        "canonicalTitle": "Armitage III",
+        "abbreviatedTitles": [],
+        "averageRating": "69.94",
+        "ratingFrequencies": {
+          "2": "5",
+          "3": "1",
+          "4": "8",
+          "5": "1",
+          "6": "16",
+          "7": "2",
+          "8": "40",
+          "9": "2",
+          "10": "110",
+          "11": "2",
+          "12": "291",
+          "13": "8",
+          "14": "368",
+          "15": "7",
+          "16": "228",
+          "17": "7",
+          "18": "75",
+          "19": "2",
+          "20": "95"
+        },
+        "userCount": 3095,
+        "favoritesCount": 13,
+        "startDate": "1995-02-25",
+        "endDate": "1995-11-25",
+        "nextRelease": null,
+        "popularityRank": 3794,
+        "ratingRank": 5658,
+        "ageRating": "R",
+        "ageRatingGuide": "17+ (violence & profanity)",
+        "subtype": "OVA",
+        "status": "finished",
+        "tba": null,
+        "posterImage": {
+          "tiny": "https://media.kitsu.app/anime/poster_images/964/tiny.jpg",
+          "large": "https://media.kitsu.app/anime/poster_images/964/large.jpg",
+          "small": "https://media.kitsu.app/anime/poster_images/964/small.jpg",
+          "medium": "https://media.kitsu.app/anime/poster_images/964/medium.jpg",
+          "original": "https://media.kitsu.app/anime/poster_images/964/original.jpg",
+          "meta": {
+            "dimensions": {
+              "tiny": {
+                "width": null,
+                "height": null
+              },
+              "large": {
+                "width": null,
+                "height": null
+              },
+              "small": {
+                "width": null,
+                "height": null
+              },
+              "medium": {
+                "width": null,
+                "height": null
+              }
+            }
+          }
+        },
+        "coverImage": null,
+        "episodeCount": 4,
+        "episodeLength": 92,
+        "totalLength": 368,
+        "youtubeVideoId": null,
+        "showType": "OVA",
+        "nsfw": false
+      },
+      "relationships": {
+        "genres": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/964/relationships/genres",
+            "related": "https://kitsu.io/api/edge/anime/964/genres"
+          }
+        },
+        "categories": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/964/relationships/categories",
+            "related": "https://kitsu.io/api/edge/anime/964/categories"
+          }
+        },
+        "castings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/964/relationships/castings",
+            "related": "https://kitsu.io/api/edge/anime/964/castings"
+          }
+        },
+        "installments": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/964/relationships/installments",
+            "related": "https://kitsu.io/api/edge/anime/964/installments"
+          }
+        },
+        "mappings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/964/relationships/mappings",
+            "related": "https://kitsu.io/api/edge/anime/964/mappings"
+          }
+        },
+        "reviews": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/964/relationships/reviews",
+            "related": "https://kitsu.io/api/edge/anime/964/reviews"
+          }
+        },
+        "mediaRelationships": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/964/relationships/media-relationships",
+            "related": "https://kitsu.io/api/edge/anime/964/media-relationships"
+          }
+        },
+        "characters": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/964/relationships/characters",
+            "related": "https://kitsu.io/api/edge/anime/964/characters"
+          }
+        },
+        "staff": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/964/relationships/staff",
+            "related": "https://kitsu.io/api/edge/anime/964/staff"
+          }
+        },
+        "productions": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/964/relationships/productions",
+            "related": "https://kitsu.io/api/edge/anime/964/productions"
+          }
+        },
+        "quotes": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/964/relationships/quotes",
+            "related": "https://kitsu.io/api/edge/anime/964/quotes"
+          }
+        },
+        "episodes": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/964/relationships/episodes",
+            "related": "https://kitsu.io/api/edge/anime/964/episodes"
+          }
+        },
+        "streamingLinks": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/964/relationships/streaming-links",
+            "related": "https://kitsu.io/api/edge/anime/964/streaming-links"
+          }
+        },
+        "animeProductions": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/964/relationships/anime-productions",
+            "related": "https://kitsu.io/api/edge/anime/964/anime-productions"
+          }
+        },
+        "animeCharacters": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/964/relationships/anime-characters",
+            "related": "https://kitsu.io/api/edge/anime/964/anime-characters"
+          }
+        },
+        "animeStaff": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/964/relationships/anime-staff",
+            "related": "https://kitsu.io/api/edge/anime/964/anime-staff"
+          }
+        }
+      }
+    },
+    {
+      "id": "453",
+      "type": "anime",
+      "links": {
+        "self": "https://kitsu.io/api/edge/anime/453"
+      },
+      "attributes": {
+        "createdAt": "2013-02-20T16:07:23.899Z",
+        "updatedAt": "2026-10-17T12:00:32.879Z",
+        "slug": "armitage-iii-dual-matrix",
+        "synopsis": "A few years after they first met, Naomi Armitage and Ross Syllabus have started a family. Despite their normal lives, they must keep their identities a secret because many people believe that Robots do not deserve equal status with humans. Ross has an opportunity to abolish these ideas on Earth through a vote, but organizations in the shadows are working so that it doesn't happen.\n(Source: ANN)",
+        "description": "A few years after they first met, Naomi Armitage and Ross Syllabus have started a family. Despite their normal lives, they must keep their identities a secret because many people believe that Robots do not deserve equal status with humans. Ross has an opportunity to abolish these ideas on Earth through a vote, but organizations in the shadows are working so that it doesn't happen.\n(Source: ANN)",
+        "coverImageTopOffset": 0,
+        "titles": {
+          "en_jp": "Armitage III: Dual-Matrix",
+          "ja_jp": "アミテージ・ザ・サード DUAL-MATRIX"
+        },
+        "canonicalTitle": "Armitage III: Dual-Matrix",
+        "abbreviatedTitles": [
+          "Armitage: Dual-Matrix",
+          "Amiteeji the Third Gekijouban",
+          "Armitage III: Dual Matrix"
+        ],
+        "averageRating": "66.95",
+        "ratingFrequencies": {
+          "2": "8",
+          "3": "0",
+          "4": "18",
+          "5": "0",
+          "6": "23",
+          "7": "1",
+          "8": "42",
+          "9": "1",
+          "10": "110",
+          "11": "2",
+          "12": "208",
+          "13": "4",
+          "14": "223",
+          "15": "1",
+          "16": "167",
+          "17": "3",
+          "18": "43",
+          "19": "0",
+          "20": "49"
+        },
+        "userCount": 1716,
+        "favoritesCount": 5,
+        "startDate": "2002-06-25",
+        "endDate": "2002-06-25",
+        "nextRelease": null,
+        "popularityRank": 5142,
+        "ratingRank": 7844,
+        "ageRating": "R",
+        "ageRatingGuide": "17+ (violence & profanity)",
+        "subtype": "movie",
+        "status": "finished",
+        "tba": null,
+        "posterImage": {
+          "tiny": "https://media.kitsu.app/anime/poster_images/453/tiny.jpg",
+          "large": "https://media.kitsu.app/anime/poster_images/453/large.jpg",
+          "small": "https://media.kitsu.app/anime/poster_images/453/small.jpg",
+          "medium": "https://media.kitsu.app/anime/poster_images/453/medium.jpg",
+          "original": "https://media.kitsu.app/anime/poster_images/453/original.jpg",
+          "meta": {
+            "dimensions": {
+              "tiny": {
+                "width": null,
+                "height": null
+              },
+              "large": {
+                "width": null,
+                "height": null
+              },
+              "small": {
+                "width": null,
+                "height": null
+              },
+              "medium": {
+                "width": null,
+                "height": null
+              }
+            }
+          }
+        },
+        "coverImage": null,
+        "episodeCount": 1,
+        "episodeLength": 89,
+        "totalLength": 89,
+        "youtubeVideoId": "",
+        "showType": "movie",
+        "nsfw": false
+      },
+      "relationships": {
+        "genres": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/453/relationships/genres",
+            "related": "https://kitsu.io/api/edge/anime/453/genres"
+          }
+        },
+        "categories": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/453/relationships/categories",
+            "related": "https://kitsu.io/api/edge/anime/453/categories"
+          }
+        },
+        "castings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/453/relationships/castings",
+            "related": "https://kitsu.io/api/edge/anime/453/castings"
+          }
+        },
+        "installments": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/453/relationships/installments",
+            "related": "https://kitsu.io/api/edge/anime/453/installments"
+          }
+        },
+        "mappings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/453/relationships/mappings",
+            "related": "https://kitsu.io/api/edge/anime/453/mappings"
+          }
+        },
+        "reviews": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/453/relationships/reviews",
+            "related": "https://kitsu.io/api/edge/anime/453/reviews"
+          }
+        },
+        "mediaRelationships": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/453/relationships/media-relationships",
+            "related": "https://kitsu.io/api/edge/anime/453/media-relationships"
+          }
+        },
+        "characters": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/453/relationships/characters",
+            "related": "https://kitsu.io/api/edge/anime/453/characters"
+          }
+        },
+        "staff": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/453/relationships/staff",
+            "related": "https://kitsu.io/api/edge/anime/453/staff"
+          }
+        },
+        "productions": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/453/relationships/productions",
+            "related": "https://kitsu.io/api/edge/anime/453/productions"
+          }
+        },
+        "quotes": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/453/relationships/quotes",
+            "related": "https://kitsu.io/api/edge/anime/453/quotes"
+          }
+        },
+        "episodes": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/453/relationships/episodes",
+            "related": "https://kitsu.io/api/edge/anime/453/episodes"
+          }
+        },
+        "streamingLinks": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/453/relationships/streaming-links",
+            "related": "https://kitsu.io/api/edge/anime/453/streaming-links"
+          }
+        },
+        "animeProductions": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/453/relationships/anime-productions",
+            "related": "https://kitsu.io/api/edge/anime/453/anime-productions"
+          }
+        },
+        "animeCharacters": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/453/relationships/anime-characters",
+            "related": "https://kitsu.io/api/edge/anime/453/anime-characters"
+          }
+        },
+        "animeStaff": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/453/relationships/anime-staff",
+            "related": "https://kitsu.io/api/edge/anime/453/anime-staff"
+          }
+        }
+      }
+    },
+    {
+      "id": "454",
+      "type": "anime",
+      "links": {
+        "self": "https://kitsu.io/api/edge/anime/454"
+      },
+      "attributes": {
+        "createdAt": "2013-02-20T16:07:24.775Z",
+        "updatedAt": "2026-10-17T12:00:32.879Z",
+        "slug": "armitage-iii-polymatrix",
+        "synopsis": "In the year 2046 humans are moving away from using robots and begin to trust them less and less. In this time life becomes very perilous for the beings known as seconds. The seconds are the most recent line of robots, as far as the public knows. This is the world Detective Ross Sylibus lives in. Detective Sylibus is transferred to Mars by his request after his partner was killed by a robot. As he arrives he falls headfirst into a murder where a country singer on his flight was murdered. He steps off the plane and watches as a scene unfolds and he meets his partner, Armitage a female cop with a major attitude. A rash of murders begins when yet more women are killed. As the investigation is continued a secret is uncovered. There is another line of robots known as Thirds. More and more Thirds turn up missing, as a serial killer who is intent on wiping out all the Thirds runs rampant. Armitage in her quest to put the murderer to justice reveals a secret. She herself is a Third.\n(Source: ANN, edited)",
+        "description": "In the year 2046 humans are moving away from using robots and begin to trust them less and less. In this time life becomes very perilous for the beings known as seconds. The seconds are the most recent line of robots, as far as the public knows. This is the world Detective Ross Sylibus lives in. Detective Sylibus is transferred to Mars by his request after his partner was killed by a robot. As he arrives he falls headfirst into a murder where a country singer on his flight was murdered. He steps off the plane and watches as a scene unfolds and he meets his partner, Armitage a female cop with a major attitude. A rash of murders begins when yet more women are killed. As the investigation is continued a secret is uncovered. There is another line of robots known as Thirds. More and more Thirds turn up missing, as a serial killer who is intent on wiping out all the Thirds runs rampant. Armitage in her quest to put the murderer to justice reveals a secret. She herself is a Third.\n(Source: ANN, edited)",
+        "coverImageTopOffset": 0,
+        "titles": {
+          "en_jp": "Armitage III: Poly-Matrix",
+          "ja_jp": "アミテージ・ザ・サード POLY-MATRIX"
+        },
+        "canonicalTitle": "Armitage III: Poly-Matrix",
+        "abbreviatedTitles": [
+          "Armitage III Poly-Matrix",
+          "Armitage III the Movie: Poly-Matrix",
+          "Armitage III: Poly Matrix"
+        ],
+        "averageRating": "68.06",
+        "ratingFrequencies": {
+          "2": "2",
+          "3": "0",
+          "4": "6",
+          "5": "0",
+          "6": "9",
+          "7": "1",
+          "8": "38",
+          "9": "2",
+          "10": "83",
+          "11": "1",
+          "12": "165",
+          "13": "2",
+          "14": "157",
+          "15": "2",
+          "16": "108",
+          "17": "1",
+          "18": "35",
+          "19": "0",
+          "20": "46"
+        },
+        "userCount": 1352,
+        "favoritesCount": 5,
+        "startDate": "1996-04-20",
+        "endDate": "1996-04-20",
+        "nextRelease": null,
+        "popularityRank": 5737,
+        "ratingRank": 7021,
+        "ageRating": "R",
+        "ageRatingGuide": "Mild Nudity",
+        "subtype": "movie",
+        "status": "finished",
+        "tba": null,
+        "posterImage": {
+          "tiny": "https://media.kitsu.app/anime/poster_images/454/tiny.jpg",
+          "large": "https://media.kitsu.app/anime/poster_images/454/large.jpg",
+          "small": "https://media.kitsu.app/anime/poster_images/454/small.jpg",
+          "medium": "https://media.kitsu.app/anime/poster_images/454/medium.jpg",
+          "original": "https://media.kitsu.app/anime/poster_images/454/original.jpg",
+          "meta": {
+            "dimensions": {
+              "tiny": {
+                "width": null,
+                "height": null
+              },
+              "large": {
+                "width": null,
+                "height": null
+              },
+              "small": {
+                "width": null,
+                "height": null
+              },
+              "medium": {
+                "width": null,
+                "height": null
+              }
+            }
+          }
+        },
+        "coverImage": null,
+        "episodeCount": 1,
+        "episodeLength": 92,
+        "totalLength": 92,
+        "youtubeVideoId": null,
+        "showType": "movie",
+        "nsfw": false
+      },
+      "relationships": {
+        "genres": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/454/relationships/genres",
+            "related": "https://kitsu.io/api/edge/anime/454/genres"
+          }
+        },
+        "categories": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/454/relationships/categories",
+            "related": "https://kitsu.io/api/edge/anime/454/categories"
+          }
+        },
+        "castings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/454/relationships/castings",
+            "related": "https://kitsu.io/api/edge/anime/454/castings"
+          }
+        },
+        "installments": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/454/relationships/installments",
+            "related": "https://kitsu.io/api/edge/anime/454/installments"
+          }
+        },
+        "mappings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/454/relationships/mappings",
+            "related": "https://kitsu.io/api/edge/anime/454/mappings"
+          }
+        },
+        "reviews": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/454/relationships/reviews",
+            "related": "https://kitsu.io/api/edge/anime/454/reviews"
+          }
+        },
+        "mediaRelationships": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/454/relationships/media-relationships",
+            "related": "https://kitsu.io/api/edge/anime/454/media-relationships"
+          }
+        },
+        "characters": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/454/relationships/characters",
+            "related": "https://kitsu.io/api/edge/anime/454/characters"
+          }
+        },
+        "staff": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/454/relationships/staff",
+            "related": "https://kitsu.io/api/edge/anime/454/staff"
+          }
+        },
+        "productions": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/454/relationships/productions",
+            "related": "https://kitsu.io/api/edge/anime/454/productions"
+          }
+        },
+        "quotes": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/454/relationships/quotes",
+            "related": "https://kitsu.io/api/edge/anime/454/quotes"
+          }
+        },
+        "episodes": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/454/relationships/episodes",
+            "related": "https://kitsu.io/api/edge/anime/454/episodes"
+          }
+        },
+        "streamingLinks": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/454/relationships/streaming-links",
+            "related": "https://kitsu.io/api/edge/anime/454/streaming-links"
+          }
+        },
+        "animeProductions": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/454/relationships/anime-productions",
+            "related": "https://kitsu.io/api/edge/anime/454/anime-productions"
+          }
+        },
+        "animeCharacters": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/454/relationships/anime-characters",
+            "related": "https://kitsu.io/api/edge/anime/454/anime-characters"
+          }
+        },
+        "animeStaff": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime/454/relationships/anime-staff",
+            "related": "https://kitsu.io/api/edge/anime/454/anime-staff"
+          }
+        }
+      }
+    }
+  ],
+  "meta": {
+    "count": 3
+  },
+  "links": {
+    "first": "https://kitsu.io/api/edge/anime?filter%5Btext%5D=Armitage+III&page%5Blimit%5D=8&page%5Boffset%5D=0",
+    "last": "https://kitsu.io/api/edge/anime?filter%5Btext%5D=Armitage+III&page%5Blimit%5D=8&page%5Boffset%5D=0"
+  }
+}

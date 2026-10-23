@@ -1,0 +1,278 @@
+{
+  "batch_id": "batch-042",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0233",
+    "c0234",
+    "c0235",
+    "c0236",
+    "c0237",
+    "c0238",
+    "c0239"
+  ],
+  "sources": [
+    {
+      "id": "src-diamond-age-reference",
+      "title": "The Diamond Age",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/The_Diamond_Age",
+      "kind": "secondary_setting_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed compilers, Feed, phyles and Drummers passages read",
+      "read_scope": "Free basic goods, centralized Feed inputs, collective human computation and the developing Seed.",
+      "limitations": "Basic provision does not establish free desirable housing, medical care or secure phyle membership. The Seed is not assumed to be an established successor economy."
+    },
+    {
+      "id": "src-diamond-age-geography",
+      "title": "Geography's conquest of history in The Diamond Age",
+      "author": "Michael Longan and Tim Oakes, in Lost in Space: Geographies of Science Fiction, 2002",
+      "url": "https://spot.colorado.edu/~toakes/Diamond.html",
+      "kind": "secondary_scholarly_criticism",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public opening and indexed Feed-dependence paragraphs read",
+      "read_scope": "Unequal nanotechnology control, Feed infrastructure and dependence on imported fabrication.",
+      "limitations": "The geographic interpretation does not provide a work census or uniform guarantee constitution; the full chapter was not needed."
+    },
+    {
+      "id": "src-diamond-age-public-compilers",
+      "title": "The Diamond Age: Setting and Symbolism",
+      "author": "BookRags study guide",
+      "url": "https://www.bookrags.com/studyguide-the-diamond-age/objectsplaces.html",
+      "kind": "secondary_study_guide_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed matter-compiler entry read",
+      "read_scope": "Public compilers supply free low-quality food and consumables.",
+      "limitations": "Public indexed entry only; no paid guide accessed and no claim of complete review."
+    },
+    {
+      "id": "src-snow-crash-listing",
+      "title": "Snow Crash",
+      "author": "Neal Stephenson; Random House listing at Google Books",
+      "url": "https://books.google.com/books?hl=en&id=mqpvVydYo-8C",
+      "kind": "publisher_listing_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public bibliographic and setting snippets consulted",
+      "read_scope": "Novel identity and technology-driven setting.",
+      "limitations": "The quick result does not explain automated basic provision; keyword lists are not treated as economic evidence."
+    },
+    {
+      "id": "src-fall-author-synopsis",
+      "title": "Fall; or, Dodge in Hell",
+      "author": "Neal Stephenson",
+      "url": "https://www.nealstephenson.com/fall%2C-or-dodge-in-hell.html",
+      "kind": "primary_author_synopsis_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed Bitworld description read",
+      "read_scope": "Revived active digital souls in a non-utopian afterlife.",
+      "limitations": "Conscious uploading alone does not resolve actual support, coercion, productive control or changing Bitworld periods."
+    },
+    {
+      "id": "src-anathem-saecular-reference",
+      "title": "Saecular",
+      "author": "Anathem Wiki contributors",
+      "url": "https://anathem.fandom.com/wiki/Saecular",
+      "kind": "secondary_lore_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed consumer-society paragraph read",
+      "read_scope": "Consumer distraction, advertisements and technological change.",
+      "limitations": "Consumer culture does not establish labor replacement or unconditional support; mathic institutions are distinct."
+    },
+    {
+      "id": "src-seveneves-late-ring-review",
+      "title": "Seveneves, by Neal Stephenson",
+      "author": "Drema Deoraich, 2017",
+      "url": "https://www.dremadeoraich.com/index.php/2017/03/09/seveneves-by-neal-stephenson/",
+      "kind": "secondary_literary_review_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public late 5000-year setting paragraph read",
+      "read_scope": "Later orbital ring and differentiated human descendants.",
+      "limitations": "Habitability and a ring megastructure are not evidence of a uniform post-work distribution system. Fanfiction search results were discarded."
+    }
+  ],
+  "societies": [
+    {
+      "id": "diamond-age-thetes-feed",
+      "candidate_id": "c0233",
+      "name": "The Diamond Age (Thetes under the Feed)",
+      "work": "The Diamond Age",
+      "society": "Phyleless people using public Feed-connected matter compilers",
+      "media": [
+        "book"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Stephenson novel continuity",
+        "period": "The functioning Feed era before a hypothetical general Seed transition",
+        "population": "Human Thetes with practical access to public matter compilers",
+        "human_population_proxy": false,
+        "exclusions": [
+          "All phyle members assigned identical entitlements",
+          "Drummers counted as nonworking automated components",
+          "A completed Seed society assumed",
+          "All desired housing and services treated as free"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Public matter compilers turn Feed inputs into basic food, water and simple goods without charging the recipient. For phyleless Thetes this creates a material floor outside ordinary wage purchase, even though their lives can remain poor and insecure. The guarantee score is moderately strong because this floor is narrow: free basic consumables do not establish access to every service, desirable home or protective community.\n\nThe ability to request output does not give Thetes effective control over its supply. Important sources and Feed infrastructure belong to powerful phyles, leaving ordinary recipients dependent on concentrated human institutions. Smaller independent Feeds qualify a picture of one universal monopoly but do not give these recipients broad productive ownership. The system is therefore placed provisionally in the concentrated-control, basic-provision regime. Human engineering, service and other work persist, and neither plentiful diamonds nor free meals determines the nonworking population share. The later Seed project remains outside this record because its decentralized potential is not an established general successor economy in the short evidence.",
+      "axis": {
+        "guarantees": -0.45,
+        "control": 0.05,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.75,
+            -0.05
+          ],
+          "confidence": "medium",
+          "basis": "Free public necessities provide a narrow floor; housing, medical care and social protection are not established as universal.",
+          "source_ids": [
+            "src-diamond-age-reference",
+            "src-diamond-age-geography",
+            "src-diamond-age-public-compilers"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.2
+          ],
+          "confidence": "medium",
+          "basis": "Recipients can request goods but central Feed sources and technology remain under powerful phyle control.",
+          "source_ids": [
+            "src-diamond-age-reference",
+            "src-diamond-age-geography"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Selective automation and human occupational activity do not establish an all-Thete participation count.",
+          "source_ids": [
+            "src-diamond-age-reference",
+            "src-diamond-age-geography",
+            "src-diamond-age-public-compilers"
+          ]
+        }
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-diamond-age-reference",
+        "src-diamond-age-geography",
+        "src-diamond-age-public-compilers"
+      ],
+      "evidence": [
+        {
+          "claim": "Public compilers supply basic goods freely while concentrated Feed infrastructure creates dependency.",
+          "source_ids": [
+            "src-diamond-age-reference",
+            "src-diamond-age-geography",
+            "src-diamond-age-public-compilers"
+          ],
+          "locator": "Public compiler entries; Feed-dependence discussion in Longan and Oakes",
+          "kind": "secondary_setting_reference_and_scholarly_criticism"
+        }
+      ],
+      "uncertainties": [
+        "The guarantee is a consumables floor, not comprehensive welfare or secure housing.",
+        "Phyleless recipients are the scope; the whole planet does not receive one common economic constitution.",
+        "No precise nonworking fraction and no realized Seed outcome are inferred."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0233",
+      "status": "included",
+      "reason": "Free public compiler output plus concentrated input control establishes a scoped basic-provision arrangement.",
+      "source_ids": [
+        "src-diamond-age-reference",
+        "src-diamond-age-geography",
+        "src-diamond-age-public-compilers"
+      ],
+      "society_id": "diamond-age-thetes-feed"
+    },
+    {
+      "candidate_id": "c0234",
+      "status": "boundary_case",
+      "reason": "The Drummers perform necessary human-derived collective computation rather than replacing it with nonhuman labor.",
+      "source_ids": [
+        "src-diamond-age-reference"
+      ],
+      "analysis": "Subsumed personality and unusual activity are not leisure. Their work developing the Seed does not establish a separate supported nonworking society.",
+      "follow_up": "Keep as a human-computation comparison and skip deeper reading."
+    },
+    {
+      "candidate_id": "c0235",
+      "status": "needs_evidence",
+      "reason": "The Seed is an alternative under development, not a verified established society in the quick sources.",
+      "source_ids": [
+        "src-diamond-age-reference",
+        "src-diamond-age-geography"
+      ],
+      "analysis": "A decentralized fabrication design does not establish an actual population, access constitution or durable completed transition.",
+      "follow_up": "Skip ending reconstruction; do not score technical potential as realized institutions."
+    },
+    {
+      "candidate_id": "c0236",
+      "status": "needs_evidence",
+      "reason": "The short Snow Crash check does not establish automated basic provision or deliberate preservation of unnecessary jobs.",
+      "source_ids": [
+        "src-snow-crash-listing"
+      ],
+      "analysis": "Franchise organization, virtual environments and advanced devices are insufficient admission evidence. Keyword lists are not interpreted as proof of economic absence.",
+      "follow_up": "Skip deeper reading; retain the unverified mechanism as an explicit gap."
+    },
+    {
+      "candidate_id": "c0237",
+      "status": "needs_evidence",
+      "reason": "Active Bitworld minds are verified, but their changing support and control rules remain unresolved.",
+      "source_ids": [
+        "src-fall-author-synopsis"
+      ],
+      "analysis": "A computational afterlife can contain materially different phases and coercion. Uploading alone does not establish post-work access or justify one aggregate coordinate.",
+      "follow_up": "Skip the long novel reconstruction."
+    },
+    {
+      "candidate_id": "c0238",
+      "status": "needs_evidence",
+      "reason": "Saecular consumer culture does not establish a material post-work support mechanism.",
+      "source_ids": [
+        "src-anathem-saecular-reference"
+      ],
+      "analysis": "Advertising, devices and rapid cultural change are not evidence that work has ceased to govern basic distribution. Mathic institutions cannot be imported.",
+      "follow_up": "Skip deeper reading."
+    },
+    {
+      "candidate_id": "c0239",
+      "status": "needs_evidence",
+      "reason": "The late orbital civilization is identifiable but its allocation system remains unclear in the quick reference.",
+      "source_ids": [
+        "src-seveneves-late-ring-review"
+      ],
+      "analysis": "Orbital habitability, robotics and differentiated descendants do not establish universal labor-independent necessities or one common ownership regime.",
+      "follow_up": "Skip a 5000-year social reconstruction; do not use fanfiction as canonical evidence."
+    }
+  ],
+  "review_notes": [
+    "Seven quick dispositions, with one record supported by clear public-compiler and Feed evidence.",
+    "Thete basic provision remains narrow. Drummers still perform human-derived work, and the Seed is not presumed to be a completed social system.",
+    "Bitworld uploading and Seveneves orbital life do not automatically establish a post-work economy.",
+    "No novel reading, paid-guide access or speculative recovery was needed."
+  ]
+}

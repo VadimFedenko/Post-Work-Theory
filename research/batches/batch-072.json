@@ -1,0 +1,536 @@
+{
+  "batch_id": "batch-072",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0557",
+    "c0558",
+    "c0559",
+    "c0560",
+    "c0561",
+    "c0562",
+    "c0563",
+    "c0564",
+    "c0565",
+    "c0566",
+    "c0567",
+    "c0568"
+  ],
+  "sources": [
+    {
+      "id": "src-b72-yokohama-station",
+      "title": "Yokohama Station SF",
+      "author": "Yen Press",
+      "url": "https://yenpress.com/titles/9781975319519-yokohama-station-sf",
+      "kind": "lore_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public synopsis or indexed reference passage",
+      "read_scope": "The official novel synopsis establishes the expanding station and Hiroto’s five-day access ticket.",
+      "limitations": "Entry permission and self-expanding buildings do not establish ordinary residents’ work-independent necessities."
+    },
+    {
+      "id": "src-b72-girls-last-tour",
+      "title": "Automaton quotations",
+      "author": "Girls’ Last Tour Wiki contributors",
+      "url": "https://girls-last-tour.fandom.com/wiki/Automaton/Quotes",
+      "kind": "lore_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public synopsis or indexed reference passage",
+      "read_scope": "An automated apparatus maintains a sector and a depleted fish-production facility.",
+      "limitations": "Indexed dialogue only; surviving travelers are not an established resident welfare population."
+    },
+    {
+      "id": "src-b72-lustrous-origins",
+      "title": "Land of the Lustrous",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Land_of_the_Lustrous",
+      "kind": "lore_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public synopsis or indexed reference passage",
+      "read_scope": "Human descendants include Gems, Admirabilis and Lunarians; Gems perform useful craft and defense roles.",
+      "limitations": "Distinct descendant populations cannot be merged into one material economy; the later Moon setting is manga-specific."
+    },
+    {
+      "id": "src-b72-lunarian-culture",
+      "title": "Life and Culture of Y-3579203181277",
+      "author": "Haruko Ichikawa companion booklet, unofficial translation by Houseki no Kuni Wiki contributors",
+      "url": "https://houseki-no-kuni.fandom.com/wiki/Life_and_Culture_of_Y-3579203181277",
+      "kind": "lore_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public synopsis or indexed reference passage",
+      "read_scope": "Booklet metadata and bounded indexed sections on synthetic materials, sustainable city provision, optional survival-independent jobs and ordinary work.",
+      "limitations": "Incomplete unofficial translation of the booklet bundled with Japanese volume 11; direct open failed. Indexed sections were read, not the complete 111-page book."
+    },
+    {
+      "id": "src-b72-kaiba-memory",
+      "title": "Kaiba plot summary",
+      "author": "IMDb / licensed Crunchyroll synopsis",
+      "url": "https://www.imdb.com/title/tt1209386/plotsummary/",
+      "kind": "lore_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public synopsis or indexed reference passage",
+      "read_scope": "Memory/body commerce divides rich and poor; selling a body is a livelihood strategy.",
+      "limitations": "Stored memory chips are not necessarily active virtual residents or supplied leisure citizens."
+    },
+    {
+      "id": "src-b72-abipa-official",
+      "title": "Kaiba: Abipa, the Promised Planet",
+      "author": "Prime Video episode listing",
+      "url": "https://www.primevideo.com/-/nb/detail/0R3SKTDVSBI04RK1JMJ5H9A9Q9",
+      "kind": "lore_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public synopsis or indexed reference passage",
+      "read_scope": "Episode 5 advertises free food and designer bodies.",
+      "limitations": "A short promotional synopsis does not specify housing rights, who owns production, or ordinary participation."
+    },
+    {
+      "id": "src-b72-abipa-factory",
+      "title": "Abipa, the Promised Planet",
+      "author": "Kaiba Wiki contributors",
+      "url": "https://kaiba.fandom.com/wiki/Abipa%2C_The_Promised_Planet",
+      "kind": "lore_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public synopsis or indexed reference passage",
+      "read_scope": "Bounded indexed synopsis describes mass-produced artificial bodies, Patch and Quilt’s ongoing design/repair work, and pleasure devices.",
+      "limitations": "Not the full episode; the discoverer’s phrase memory-controlled population is not established as a general allocation system."
+    },
+    {
+      "id": "src-b72-bubblegum-original",
+      "title": "Bubblegum Crisis",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Bubblegum_Crisis",
+      "kind": "lore_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public synopsis or indexed reference passage",
+      "read_scope": "The original OVA has powerful Genom, service cyberoids, inequality and an underfunded police force.",
+      "limitations": "Not the Tokyo 2040 continuity; robot service alone does not settle household allocation."
+    },
+    {
+      "id": "src-b72-bubblegum-2040",
+      "title": "Bubblegum Crisis Tokyo 2040",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Bubblegum_Crisis_Tokyo_2040",
+      "kind": "lore_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public synopsis or indexed reference passage",
+      "read_scope": "Boomers perform much manual labor under Genom while people retain corporate, police, retail and artistic occupations.",
+      "limitations": "No checked universal material floor or automatic income mechanism; useful work is not automatically make-work."
+    },
+    {
+      "id": "src-b72-armitage",
+      "title": "Armitage III",
+      "author": "Kiefer Sutherland official filmography",
+      "url": "https://kiefersutherland.com/armitage-iii/",
+      "kind": "lore_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public synopsis or indexed reference passage",
+      "read_scope": "A working police officer on Mars receives a cybernetic repair and an android partner.",
+      "limitations": "A plot/credit page, not an economic constitution; its film dating is not adopted as proof of adaptation chronology."
+    },
+    {
+      "id": "src-b72-solty",
+      "title": "Solty Rei: The Complete Series",
+      "author": "DVD Talk reviewer",
+      "url": "https://www.dvdtalk.com/reviews/33017/solty-rei-the-complete-series/",
+      "kind": "lore_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public synopsis or indexed reference passage",
+      "read_scope": "RUC power coexists with registered privilege and poor unregistered residents.",
+      "limitations": "Robotic production and ordinary resource entitlements are not established by this review; role-playing setting pages were discarded."
+    },
+    {
+      "id": "src-b72-dimension-w",
+      "title": "Dimension W",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Dimension_W",
+      "kind": "lore_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public synopsis or indexed reference passage",
+      "read_scope": "New Tesla Energy dominates the coil-based energy infrastructure; people perform recovery and bounty work.",
+      "limitations": "Energy abundance is not the complete household economy."
+    },
+    {
+      "id": "src-b72-franxx-world",
+      "title": "Darling in the Franxx",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Darling_in_the_Franxx",
+      "kind": "lore_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public synopsis or indexed reference passage",
+      "read_scope": "Immortal adults inhabit Plantations; artificially created human children defend them; APE’s ultimate rulers have a nonhuman origin.",
+      "limitations": "Television anime only; no manga equivalence or autonomous-AI identity is inferred."
+    },
+    {
+      "id": "src-b72-franxx-adult-care",
+      "title": "The City of Eternity, episode 10",
+      "author": "Darling in the Franxx Wiki contributors",
+      "url": "https://darling-in-the-franxx.fandom.com/wiki/Episode_10",
+      "kind": "lore_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public synopsis or indexed reference passage",
+      "read_scope": "Bounded indexed synopsis describes an adult household’s artificial nutrition, medical checker and partner’s pleasure-machine dependence.",
+      "limitations": "Secondary episode synopsis, not direct viewing; the Adult page failed/was blocked and was not treated as read."
+    },
+    {
+      "id": "src-b72-franxx-adult-reading",
+      "title": "Episode 10 rewatch discussion",
+      "author": "r/anime contributors",
+      "url": "https://www.reddit.com/r/anime/comments/1lwpjv6/",
+      "kind": "lore_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public synopsis or indexed reference passage",
+      "read_scope": "Commentary describes adults’ artificial sustenance, isolation and dependence on the children’s protection.",
+      "limitations": "Informal secondary interpretation, used only alongside the episode synopsis and series reference; no census or legal welfare charter."
+    }
+  ],
+  "societies": [
+    {
+      "id": "lustrous-lunarian-sustainable-city",
+      "candidate_id": "c0560",
+      "name": "Land of the Lustrous — Lunarian sustainable city",
+      "work": "Land of the Lustrous",
+      "society": "Active human-descended Lunarians in the maintained lunar city",
+      "media": [
+        "manga",
+        "book"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Manga and its volume-11 companion booklet",
+        "period": "The established lunar city before the final universal release",
+        "population": "Active Lunarians as an explicit human-descendant person proxy",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Terrestrial Gems and Admirabilis as one economy",
+          "The anime as depicting the same later institutions",
+          "Inanimate objects as additional residents"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "The companion booklet describes a city designed for continuing material sustainability, using synthetic materials and recycling. Residents can survive without taking jobs, so their access is meaningfully separated from necessary employment. The guarantee estimate is strong within this city, although an unofficial translation and the absence of a detailed entitlement charter justify a broad interval. Their unusual bodies reduce nutritional needs; that fact alone is not the evidence for inclusion—the maintained technological city and its stated survival-independent provision are.\n\nLunarians are active human descendants, explicitly used here as a person proxy. Their leadership is concentrated around Aechmea rather than identified as an autonomous AI or equal resident ownership. The government retains jobs for purpose and mental health, overlapping with the article’s zero-variant theme without creating a second copy of the economy. Useful restaurant, research and military activity remains work. A normal work schedule and optional employment therefore do not supply an all-person nonworking percentage, which remains unresolved.",
+      "axis": {
+        "guarantees": -0.75,
+        "control": 0.1,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.95,
+            -0.25
+          ],
+          "confidence": "medium",
+          "basis": "The booklet explicitly separates survival from jobs and describes a sustainable synthetic-material city; coverage details remain limited.",
+          "source_ids": [
+            "src-b72-lunarian-culture",
+            "src-b72-lustrous-origins"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.35
+          ],
+          "confidence": "low",
+          "basis": "Concentrated Lunarian leadership is a human-descendant elite analogy, not an AI sovereign or verified democratic productive ownership.",
+          "source_ids": [
+            "src-b72-lunarian-culture",
+            "src-b72-lustrous-origins"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Many useful jobs persist; a typical schedule and freedom from necessary employment are not a population participation census.",
+          "source_ids": [
+            "src-b72-lunarian-culture",
+            "src-b72-lustrous-origins"
+          ]
+        }
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b72-lunarian-culture",
+        "src-b72-lustrous-origins"
+      ],
+      "evidence": [
+        {
+          "claim": "The sustainable lunar city permits survival without a job while retaining purpose-giving employment.",
+          "source_ids": [
+            "src-b72-lunarian-culture",
+            "src-b72-lustrous-origins"
+          ],
+          "locator": "Companion booklet: city/government and work-life sections; human-descendant context",
+          "kind": "unofficial_translation_and_secondary_reference"
+        }
+      ],
+      "uncertainties": [
+        "Unofficial incomplete companion-booklet translation; no claim to reading the full book.",
+        "The human-descendant person proxy and manga-era scope are explicit.",
+        "Optional useful work still counts; participation remains unresolved.",
+        "Purpose-giving jobs overlap with the zero theme, but do not create an additional society."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      },
+      "employment_preservation": {
+        "retained_artificial_jobs": true,
+        "basis": "The city supports survival without employment while the government maintains jobs to provide purpose; useful voluntary activity still counts as work.",
+        "source_ids": [
+          "src-b72-lunarian-culture"
+        ],
+        "does_not_create_additional_society": true
+      }
+    },
+    {
+      "id": "franxx-plantation-adult-provision",
+      "candidate_id": "c0568",
+      "name": "Darling in the Franxx — Plantation adult residents",
+      "work": "Darling in the Franxx",
+      "society": "Technologically sustained adult civilian households under APE",
+      "media": [
+        "anime"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "2018 television anime",
+        "period": "Established Plantation life around episode 10, before the later collapse",
+        "population": "Living adult civilian residents",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Child pilots as nonworking adults",
+          "APE officials as typical residents",
+          "The post-collapse agrarian community",
+          "The manga’s different continuity"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Plantation adults receive continuing technological bodily support rather than surviving through ordinary household employment. Episode 10 shows artificial nourishment and domestic medical machinery, alongside a partner absorbed in a pleasure device. This supports a protected adult enclave with a relatively strong material floor, although its dependence on the Plantation infrastructure makes that security conditional. Immortality by itself would not establish post-work access; the depicted continuing support arrangement is the relevant evidence.\n\nAPE concentrates authority above residents, who are not shown collectively controlling their productive infrastructure. Its alien masters are not automatically an autonomous AI, so the control point uses the concentrated non-AI elite position by analogy. The adult population is deliberately narrow: human child pilots perform dangerous defense work outside this denominator, and the arrangement cannot stand for all humanity. A high, low-confidence nonworking estimate follows the described passive civilian life, with a wide allowance for useful care, administration and other activity. It is an editorial estimate rather than a canonical census, and it does not apply after the system collapses.",
+      "axis": {
+        "guarantees": -0.55,
+        "control": 0.05,
+        "nonworking": 0.9
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.9,
+            0.25
+          ],
+          "confidence": "low",
+          "basis": "Adult households receive bodily support and machine care, but infrastructure dependence and unknown withdrawal conditions qualify access.",
+          "source_ids": [
+            "src-b72-franxx-adult-care",
+            "src-b72-franxx-world",
+            "src-b72-franxx-adult-reading"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.2
+          ],
+          "confidence": "low",
+          "basis": "APE concentrates nonresident authority; its alien identity does not make it an AI. Concentrated non-AI rule is an explicit analogy.",
+          "source_ids": [
+            "src-b72-franxx-adult-care",
+            "src-b72-franxx-world",
+            "src-b72-franxx-adult-reading"
+          ]
+        },
+        "nonworking": {
+          "interval": [
+            0.6,
+            1
+          ],
+          "confidence": "low",
+          "basis": "Passive civilian life supports a broad directional estimate, not a census. Useful adult work counts and child military labor is disclosed outside the scoped cohort.",
+          "source_ids": [
+            "src-b72-franxx-adult-care",
+            "src-b72-franxx-world",
+            "src-b72-franxx-adult-reading"
+          ]
+        }
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b72-franxx-adult-care",
+        "src-b72-franxx-world",
+        "src-b72-franxx-adult-reading"
+      ],
+      "evidence": [
+        {
+          "claim": "Adult households use artificial nourishment and medical machinery, while child pilots provide protection.",
+          "source_ids": [
+            "src-b72-franxx-adult-care",
+            "src-b72-franxx-world",
+            "src-b72-franxx-adult-reading"
+          ],
+          "locator": "Episode 10 adult encounter and series population distinction",
+          "kind": "secondary_episode_reference_and_commentary"
+        }
+      ],
+      "uncertainties": [
+        "Adult enclave only: dependent child defense labor remains visible.",
+        "APE’s ultimate rulers are alien, not assumed AI.",
+        "No universal rights charter or participation census was found.",
+        "Manga and post-collapse society are excluded."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": true
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0557",
+      "status": "needs_evidence",
+      "reason": "Station growth and ticketed access do not establish ordinary work-independent necessities.",
+      "source_ids": [
+        "src-b72-yokohama-station"
+      ],
+      "analysis": "Short indexed foodroid/Suika scenes show both machines and human service, but no reliable general material floor; no full novel investigation is warranted.",
+      "follow_up": "Keep the short disposition and continue; do not read the full fiction to rescue this lead."
+    },
+    {
+      "candidate_id": "c0558",
+      "status": "boundary_case",
+      "reason": "Two foraging travelers visiting remnant automatic facilities are not a durable supported resident society.",
+      "source_ids": [
+        "src-b72-girls-last-tour"
+      ],
+      "analysis": "Depleted production and infrastructure maintenance do not make absent residents into leisure citizens or establish a continuing floor for the travelers.",
+      "follow_up": "Keep the short disposition and continue; do not read the full fiction to rescue this lead."
+    },
+    {
+      "candidate_id": "c0559",
+      "status": "needs_evidence",
+      "reason": "The terrestrial descendant groups do not have a verified common automatic material economy.",
+      "source_ids": [
+        "src-b72-lustrous-origins"
+      ],
+      "analysis": "Gems perform real crafts and defense; Kongo’s machine identity does not establish automatic provision for Gems and biological Admirabilis together.",
+      "follow_up": "Keep the short disposition and continue; do not read the full fiction to rescue this lead."
+    },
+    {
+      "candidate_id": "c0560",
+      "status": "included",
+      "reason": "The companion reference explicitly establishes survival-independent provision in a sustainable technological city.",
+      "source_ids": [
+        "src-b72-lunarian-culture",
+        "src-b72-lustrous-origins"
+      ],
+      "society_id": "lustrous-lunarian-sustainable-city"
+    },
+    {
+      "candidate_id": "c0561",
+      "status": "needs_evidence",
+      "reason": "Body and memory commerce does not establish a general labor-independent support arrangement.",
+      "source_ids": [
+        "src-b72-kaiba-memory"
+      ],
+      "analysis": "Poor people selling bodies for income remain economically dependent; passive stored memories are not an active supplied population.",
+      "follow_up": "Keep the short disposition and continue; do not read the full fiction to rescue this lead."
+    },
+    {
+      "candidate_id": "c0562",
+      "status": "needs_evidence",
+      "reason": "Free food and body mass production are promising, but the ordinary population’s lasting allocation and control remain unclear.",
+      "source_ids": [
+        "src-b72-abipa-official",
+        "src-b72-abipa-factory"
+      ],
+      "analysis": "Patch and Quilt perform actual design and factory work. Neither pleasure devices nor individual memory modification establishes the discovery claim of a uniformly memory-controlled welfare population.",
+      "follow_up": "Keep the short disposition and continue; do not read the full fiction to rescue this lead."
+    },
+    {
+      "candidate_id": "c0563",
+      "status": "needs_evidence",
+      "reason": "Genom’s service cyberoids do not establish general household access independent of labor.",
+      "source_ids": [
+        "src-b72-bubblegum-original"
+      ],
+      "analysis": "Corporate power, robots and inequality alone are insufficient; the original OVA is kept separate from Tokyo 2040.",
+      "follow_up": "Keep the short disposition and continue; do not read the full fiction to rescue this lead."
+    },
+    {
+      "candidate_id": "c0564",
+      "status": "needs_evidence",
+      "reason": "Extensive Boomer manual labor does not verify a post-work allocation system for ordinary people.",
+      "source_ids": [
+        "src-b72-bubblegum-2040"
+      ],
+      "analysis": "Useful human corporate, police, retail and artistic work remains; no material entitlement or deliberate make-work rule was established.",
+      "follow_up": "Keep the short disposition and continue; do not read the full fiction to rescue this lead."
+    },
+    {
+      "candidate_id": "c0565",
+      "status": "needs_evidence",
+      "reason": "Mars’s android integration and cybernetic medicine do not establish household post-work access.",
+      "source_ids": [
+        "src-b72-armitage"
+      ],
+      "analysis": "A working police partnership is not evidence of a population-wide automatic distribution constitution.",
+      "follow_up": "Keep the short disposition and continue; do not read the full fiction to rescue this lead."
+    },
+    {
+      "candidate_id": "c0566",
+      "status": "needs_evidence",
+      "reason": "RUC privilege and robotic technology do not establish how ordinary residents obtain necessities.",
+      "source_ids": [
+        "src-b72-solty"
+      ],
+      "analysis": "Unregistered poverty matters but cannot alone supply the missing productive and access rules; role-play extrapolations were discarded.",
+      "follow_up": "Keep the short disposition and continue; do not read the full fiction to rescue this lead."
+    },
+    {
+      "candidate_id": "c0567",
+      "status": "needs_evidence",
+      "reason": "Coil energy abundance does not establish a complete post-work household economy.",
+      "source_ids": [
+        "src-b72-dimension-w"
+      ],
+      "analysis": "New Tesla’s energy monopoly and recovery jobs leave food, housing, care and income allocation unresolved.",
+      "follow_up": "Keep the short disposition and continue; do not read the full fiction to rescue this lead."
+    },
+    {
+      "candidate_id": "c0568",
+      "status": "included",
+      "reason": "Adult civilian households receive ongoing artificial sustenance and machine care; the exploited child cohort is explicitly excluded and disclosed.",
+      "source_ids": [
+        "src-b72-franxx-adult-care",
+        "src-b72-franxx-world",
+        "src-b72-franxx-adult-reading"
+      ],
+      "society_id": "franxx-plantation-adult-provision"
+    }
+  ],
+  "review_notes": [
+    "Previous goal turn made substantive progress from 520 processed / 117 retained to 556 / 122; this is a continuation, not a repeated blocked or status-only turn.",
+    "Twelve fast dispositions, two scoped records and fifteen source entries. No full novel, manga volume or episode was read/viewed.",
+    "Lunarian survival-independent provision coexists with purpose-giving jobs in one record; unofficial booklet translation and human-descendant proxy are explicit.",
+    "Plantation adult support is kept separate from the human child pilots who defend it; alien rulers are not converted into an AI axis.",
+    "Failed and robots-blocked Fandom opens were respected. Short indexed passages are labeled as such. Fanfiction and Solty Rei role-playing material were discarded."
+  ]
+}

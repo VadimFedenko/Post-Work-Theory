@@ -1,0 +1,472 @@
+{
+  "batch_id": "batch-090",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0773",
+    "c0774",
+    "c0775",
+    "c0776",
+    "c0777",
+    "c0778",
+    "c0779",
+    "c0780",
+    "c0781",
+    "c0782",
+    "c0783",
+    "c0784"
+  ],
+  "sources": [
+    {
+      "id": "src-b90-incal",
+      "title": "The Incal issue 1 setting sidebar",
+      "author": "Humanoids comic text indexed at Scribd",
+      "url": "https://www.scribd.com/doc/269690694/The-Incal-01-Jodorowsky",
+      "kind": "indexed_comic_sidebar",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "City Shaft has stratified residents, aristocrats, a TechnoPope, Prez and robotic police.",
+      "limitations": "Only the short indexed introductory sidebar; hierarchy and robot police do not establish household automatic provision."
+    },
+    {
+      "id": "src-b90-metabaron",
+      "title": "The Metabaron reading diary",
+      "author": "Ian Sales",
+      "url": "https://iansales.com/category/reading-diary-2017/",
+      "kind": "secondary_review",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "The Techno-Techno Empire monopolizes the unique starship-fuel source.",
+      "limitations": "A fuel monopoly and military machinery are not ordinary access to necessities."
+    },
+    {
+      "id": "src-b90-technopriests",
+      "title": "The Technopriests",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/The_Technopriests",
+      "kind": "secondary_plot_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Albino leads young technopriests toward a promised galaxy and narrates his rise.",
+      "limitations": "A destination and liberation story do not establish its settled productive/access institutions."
+    },
+    {
+      "id": "src-b90-galaxity",
+      "title": "Bad Dreams",
+      "author": "Valerian and Laureline Wiki contributors",
+      "url": "https://valerian-laureline.fandom.com/wiki/Bad_Dreams",
+      "kind": "secondary_album_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Work is abolished for most people and Dream Service programs support continuing leisure under technocrats.",
+      "limitations": "Useful technical/security roles continue; dream users remain living residents, not dormant backups."
+    },
+    {
+      "id": "src-b90-alflolol",
+      "title": "Welcome to Alflolol publisher synopsis reproduced in catalogue",
+      "author": "Cinebook synopsis via Open Library",
+      "url": "https://openlibrary.org/works/OL20051547W/Valerian_and_Laureline",
+      "kind": "publisher_synopsis_in_catalogue",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Technorog is an industrial, agricultural and research center; indigenous return creates reinsertion conflict.",
+      "limitations": "Industrial importance and colonial injustice do not establish an automated household floor."
+    },
+    {
+      "id": "src-b90-edena",
+      "title": "The World of Edena",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/The_World_of_Edena",
+      "kind": "secondary_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Industrialized protagonists encounter natural food and transformed social/body relations.",
+      "limitations": "Synthetic nutrition and religious symbolism do not establish the Paternum population’s distribution mechanism."
+    },
+    {
+      "id": "src-b90-yoko",
+      "title": "Yoko Tsuno album summaries",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Yoko_Tsuno",
+      "kind": "secondary_album_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Central computer, Karpan engineering, returning Vineans and underwater tyranny occur in separate albums.",
+      "limitations": "A rogue controller, a magma pipeline or nursery androids are not by themselves proof of a material floor."
+    },
+    {
+      "id": "src-b90-vinea",
+      "title": "The Three Suns of Vina catalogue summary",
+      "author": "Michigan State University Comic Art Collection",
+      "url": "https://comics.lib.msu.edu/rri/wrri/wim.htm",
+      "kind": "library_plot_summary",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Survivors use wind-powered technology; robot brains contain scientists’ stored memories and govern the planet.",
+      "limitations": "Stored biological memories complicate AI identity; running a planet does not establish citizens’ basic allocation."
+    },
+    {
+      "id": "src-b90-megalex",
+      "title": "Megalex",
+      "author": "Tropedia contributors",
+      "url": "https://tropedia.fandom.com/wiki/Megalex",
+      "kind": "secondary_plot_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Royal elites rule drug-dependent residents and short-lived biological police clones.",
+      "limitations": "Clone workers remain human-derived useful labor; city machinery and addiction do not establish independent necessities access."
+    },
+    {
+      "id": "src-b90-jihad",
+      "title": "Butlerian Jihad, original Dune continuity",
+      "author": "Dune Wiki contributors",
+      "url": "https://dune.fandom.com/wiki/Butlerian_Jihad",
+      "kind": "secondary_original_lore_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Thinking machines are prohibited and trained human capacities fill computation roles; non-thinking machinery remains.",
+      "limitations": "Original Frank Herbert continuity distinguished from later machine-war expansions and the Dune Encyclopedia."
+    },
+    {
+      "id": "src-b90-dune",
+      "title": "Dune novel setting and plot",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Dune_(novel)",
+      "kind": "secondary_novel_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Feudal Great Houses, CHOAM/spice power, Mentat computation and harsh Arrakis subjection define the opening Imperium.",
+      "limitations": "Specific novel-era context; no uniform material charter for every Imperial world or automatic adaptation tags."
+    }
+  ],
+  "societies": [
+    {
+      "id": "valerian-galaxity-dream-service",
+      "candidate_id": "c0776",
+      "name": "Valérian and Laureline — Galaxity’s Dream Service society",
+      "work": "Valérian and Laureline",
+      "society": "The established leisured Galaxity population under the First Circle",
+      "media": [
+        "comic"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Bad Dreams album and its described Galaxity background",
+        "period": "28th-century Galaxity before Xombul’s Dream Service sabotage",
+        "population": "Living Galaxity humans receiving continuing technologically supported leisure",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Later destruction of Galaxity",
+          "Film Alpha as an identical economic continuity",
+          "Dream users as dead or dormant files",
+          "All imperial peripheral workers as similarly leisured"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Galaxity’s ordinary residents live after the abolition of work and spend much of their time in technological dream programs. The Dream Service maintains this continuing way of life while a smaller technical and security apparatus remains active. This supports a favorable but cautious guarantee estimate for the central leisured population. The references do not prove that every subject across the wider Terran Empire shares that provision, and external resource labor is not assumed to disappear.\n\nTechnocrats of the First Circle govern, and Xombul’s ability to corrupt the Dream Service demonstrates institutional concentration and vulnerability. Control is therefore near concentrated human authority rather than autonomous AI rule: operating a dream system does not make its computer the sovereign. A high, broad nonworking estimate follows the explicit abolition and leisure premise, with allowances for agents, administrators, care and useful creative activity. This is an editorial approximation, not a canonical population census. The point remains comic-specific and does not inherit the film’s different Alpha society or a later economic collapse.",
+      "axis": {
+        "guarantees": -0.55,
+        "control": 0.05,
+        "nonworking": 0.85
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.9,
+            0.2
+          ],
+          "confidence": "low",
+          "basis": "The album reference explicitly describes abolished work and a continuing technologically supported ordinary leisure population; wider imperial access remains unverified.",
+          "source_ids": [
+            "src-b90-galaxity"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.2
+          ],
+          "confidence": "low",
+          "basis": "Human First Circle technocrats control the Dream Service; programmed experiences do not establish AI sovereignty.",
+          "source_ids": [
+            "src-b90-galaxity"
+          ]
+        },
+        "nonworking": {
+          "interval": [
+            0.5,
+            1
+          ],
+          "confidence": "low",
+          "basis": "The explicit majority leisure premise supports .85 [.5,1] as a broad noncanonical estimate; useful technical, security and voluntary activity remains work.",
+          "source_ids": [
+            "src-b90-galaxity"
+          ]
+        }
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b90-galaxity"
+      ],
+      "evidence": [
+        {
+          "claim": "The album reference explicitly describes abolished work and a continuing technologically supported ordinary leisure population; wider imperial access remains unverified.",
+          "source_ids": [
+            "src-b90-galaxity"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "Human First Circle technocrats control the Dream Service; programmed experiences do not establish AI sovereignty.",
+        "The explicit majority leisure premise supports .85 [.5,1] as a broad noncanonical estimate; useful technical, security and voluntary activity remains work."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": true
+      }
+    },
+    {
+      "id": "dune-post-jihad-imperium",
+      "candidate_id": "c0784",
+      "name": "Dune — The post-Butlerian Imperium",
+      "work": "Dune",
+      "society": "The original novel’s feudal human order under the thinking-machine prohibition",
+      "media": [
+        "book"
+      ],
+      "record_type": "zero_variant",
+      "scope": {
+        "continuity": "Frank Herbert original Dune novel/background; later prequels not merged",
+        "period": "The established Imperium around the opening Arrakis succession crisis",
+        "population": "Living human Imperial subjects, including laboring populations",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Later prequel machine-war history as original-novel fact",
+          "All non-thinking machines as prohibited",
+          "Every world as an identical welfare system",
+          "Film/TV economic changes without separate checks"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "The Butlerian prohibition excludes thinking machines despite humanity’s known capacity to build them. Trained people such as Mentats fill computational roles, while ordinary non-thinking machinery remains in use. This is a clear technological-restraint zero variant. Its interpretation concerns retained human dependence and useful labor under a religious-political constraint; it does not claim that the Jihad was a modern policy to protect paid jobs.\n\nGreat Houses and associated monopolies concentrate authority, placing control near the human-elite position. Guarantees are weak for the broad subject population: security and material access depend heavily on local rulers, caste and place, and Arrakis shows especially harsh subjection and resource control. This is not a fabricated uniform welfare law for every Imperial planet. Real mining, military, administrative, computational and care work remains work. The material does not provide an all-person participation census, so nonworking stays unresolved. The record verifies the book setting without automatically treating every screen adaptation as the same technological and economic order.",
+      "axis": {
+        "guarantees": 0.8,
+        "control": 0,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            0.35,
+            1
+          ],
+          "confidence": "low",
+          "basis": "Known thinking-machine capability is deliberately prohibited while human expertise and labor continue; feudal access and Arrakis subjection weaken guarantees.",
+          "source_ids": [
+            "src-b90-jihad",
+            "src-b90-dune"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.15
+          ],
+          "confidence": "low",
+          "basis": "Great Houses and human institutions control the constrained productive order; ordinary machinery does not become an AI government.",
+          "source_ids": [
+            "src-b90-jihad",
+            "src-b90-dune"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Neither the machine prohibition nor Mentat employment provides an all-person useful-work census.",
+          "source_ids": [
+            "src-b90-jihad",
+            "src-b90-dune"
+          ]
+        }
+      },
+      "regime_primary": 0,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b90-jihad",
+        "src-b90-dune"
+      ],
+      "evidence": [
+        {
+          "claim": "Known thinking-machine capability is deliberately prohibited while human expertise and labor continue; feudal access and Arrakis subjection weaken guarantees.",
+          "source_ids": [
+            "src-b90-jihad",
+            "src-b90-dune"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "Great Houses and human institutions control the constrained productive order; ordinary machinery does not become an AI government.",
+        "Neither the machine prohibition nor Mentat employment provides an all-person useful-work census."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      },
+      "regime_analogy": [
+        3
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0773",
+      "status": "needs_evidence",
+      "reason": "City Shaft’s hierarchy and robot police do not establish ordinary work-independent provision.",
+      "source_ids": [
+        "src-b90-incal"
+      ],
+      "analysis": "The indexed introductory sidebar supplies government and class context only; no full comic retrieval.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0774",
+      "status": "needs_evidence",
+      "reason": "A starship-fuel monopoly does not establish a post-work household economy.",
+      "source_ids": [
+        "src-b90-metabaron"
+      ],
+      "analysis": "Military technology and extractive control leave ordinary productive replacement/access rules unresolved.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0775",
+      "status": "needs_evidence",
+      "reason": "The promised Supra-Neutopian destination lacks verified settled resource institutions.",
+      "source_ids": [
+        "src-b90-technopriests"
+      ],
+      "analysis": "Leadership and a voyage toward liberation cannot be treated as an already implemented universal floor.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0776",
+      "status": "included",
+      "reason": "The scoped reference establishes implemented technological provision or deliberate retention of human roles through technological restraint.",
+      "source_ids": [
+        "src-b90-galaxity"
+      ],
+      "society_id": "valerian-galaxity-dream-service"
+    },
+    {
+      "candidate_id": "c0777",
+      "status": "needs_evidence",
+      "reason": "Technorog’s industry and indigenous reinsertion do not establish automatic ordinary allocation.",
+      "source_ids": [
+        "src-b90-alflolol"
+      ],
+      "analysis": "Research, agriculture and colonial coercion remain real material activity; Galaxity’s leisure is not copied to the industrial periphery.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0778",
+      "status": "needs_evidence",
+      "reason": "The short Edena reference does not establish the Paternum society’s automatic access rules.",
+      "source_ids": [
+        "src-b90-edena"
+      ],
+      "analysis": "Body transformation, synthetic food themes and a godlike figure cannot substitute for a defined material mechanism.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0779",
+      "status": "needs_evidence",
+      "reason": "The Vinean central computer’s power does not establish ordinary work-independent necessities.",
+      "source_ids": [
+        "src-b90-yoko"
+      ],
+      "analysis": "Control of a settlement and a computer conflict are not the same as productive/provision evidence.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0780",
+      "status": "needs_evidence",
+      "reason": "Karpan’s magma project does not establish a distinct automatic civilian economy.",
+      "source_ids": [
+        "src-b90-yoko"
+      ],
+      "analysis": "A new-continent scheme and coercive leadership do not answer household allocation.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0781",
+      "status": "needs_evidence",
+      "reason": "Planetary maintenance and a survivor civilization do not establish labor-independent ordinary access.",
+      "source_ids": [
+        "src-b90-vinea"
+      ],
+      "analysis": "Robot brains containing scientists’ memories are not automatically external AI; wind technology and fear do not supply a labor census.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0782",
+      "status": "needs_evidence",
+      "reason": "Underwater tyranny and rebellious androids do not establish ordinary productive allocation.",
+      "source_ids": [
+        "src-b90-yoko"
+      ],
+      "analysis": "An ecological enclosure and robot opposition alone are insufficient.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0783",
+      "status": "needs_evidence",
+      "reason": "Megalex’s artificial city and disposable police clones lack a verified automatic necessities floor.",
+      "source_ids": [
+        "src-b90-megalex"
+      ],
+      "analysis": "Biological clone enforcement is real human-derived work; addiction and royal lifespans do not prove post-work provision.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0784",
+      "status": "zero_variant",
+      "reason": "The scoped reference establishes implemented technological provision or deliberate retention of human roles through technological restraint.",
+      "source_ids": [
+        "src-b90-jihad",
+        "src-b90-dune"
+      ],
+      "society_id": "dune-post-jihad-imperium"
+    }
+  ],
+  "review_notes": [
+    "The original frozen 784-candidate pass is complete. Its hash must remain unchanged; 168 retained records are below the 500–1000 goal, so expansion is required.",
+    "Dune was not an earlier retained duplicate: the original-novel machine restriction now receives its own separately marked zero-variant record.",
+    "Galaxity’s comic Dream Service is not the film’s Alpha; useful resource labor outside the leisured center remains visible.",
+    "The remaining European-comic leads received concise evidence gaps without full albums, long continuity reads or world-building reconstruction.",
+    "Unrelated dance, fictional crossover-wiki, government-economy and technical-paper matches were discarded. Indexed sidebars are not claimed as full comic reads."
+  ]
+}
