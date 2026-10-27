@@ -72,7 +72,7 @@ Hover over a marker to open a society's card, then click to keep it open.
 Cards describe the economy, control over technology, material guarantees,
 working participation, related societies and sources.
 
-Filter by medium or stage of transition, zoom into the map, compare societies
+Filter by medium or stage of transition, explore the map, compare societies
 in the table, or download a CSV. The **Fun data** section brings together
 patterns across the catalogue. The accompanying essay explains the framework
 and discusses examples. The interface is available in English and Russian;

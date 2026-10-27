@@ -1,16 +1,15 @@
 import { GRID_STEP } from '../scripts/atlas-style.mjs';
 import { traceMarker } from '../scripts/society-status.mjs';
 
-type View = { zoom: number; x: number; y: number };
 async function settleWithin(promise: Promise<unknown>, milliseconds: number) {
   let timer = 0;
   try { await Promise.race([promise.catch(() => {}), new Promise<void>(resolve => { timer = window.setTimeout(resolve, milliseconds); })]); }
   finally { window.clearTimeout(timer); }
 }
-function drawField(ctx: CanvasRenderingContext2D, width: number, height: number, field: HTMLCanvasElement, view: View) {
-  ctx.save(); ctx.translate(view.x, view.y); ctx.scale(view.zoom, view.zoom);
+function drawField(ctx: CanvasRenderingContext2D, width: number, height: number, field: HTMLCanvasElement) {
+  ctx.save();
   ctx.drawImage(field, 0, 0, width, height);
-  ctx.lineWidth = 1 / view.zoom; ctx.strokeStyle = 'rgba(255,255,255,.133)';
+  ctx.lineWidth = 1; ctx.strokeStyle = 'rgba(255,255,255,.133)';
   ctx.beginPath();
   for (let x = 0; x <= width; x += GRID_STEP) { ctx.moveTo(x, 0); ctx.lineTo(x, height); }
   for (let y = 0; y <= height; y += GRID_STEP) { ctx.moveTo(0, y); ctx.lineTo(width, y); }
@@ -80,7 +79,7 @@ function drawTextElement(ctx: CanvasRenderingContext2D, element: HTMLElement, or
 }
 
 /** Exports the chart itself; controls, popovers and application panels are excluded. */
-export async function createAtlasPng(plot: HTMLDivElement, labels: HTMLCanvasElement, view: View): Promise<Blob> {
+export async function createAtlasPng(plot: HTMLDivElement, labels: HTMLCanvasElement): Promise<Blob> {
   await settleWithin(document.fonts.ready, 1200);
   const shell = plot.closest('.map-shell') as HTMLDivElement;
   const shellRect = shell.getBoundingClientRect(), plotRect = plot.getBoundingClientRect();
@@ -97,7 +96,7 @@ export async function createAtlasPng(plot: HTMLDivElement, labels: HTMLCanvasEle
   ctx.save(); ctx.translate(x, y); ctx.beginPath(); ctx.rect(0, 0, width, height); ctx.clip();
   const field = plot.querySelector<HTMLCanvasElement>('.color-field');
   if (!field) throw new Error('The colour field is unavailable');
-  drawField(ctx, width, height, field, view);
+  drawField(ctx, width, height, field);
   for (const element of plot.querySelectorAll<SVGLineElement | SVGCircleElement | SVGPolygonElement>('.family-graph line,.family-graph circle,.family-graph polygon')) {
     const css = getComputedStyle(element), value = (name: string) => Number(element.getAttribute(name));
     ctx.strokeStyle = css.stroke; ctx.lineWidth = parseFloat(css.strokeWidth); ctx.lineCap = 'round'; ctx.beginPath();

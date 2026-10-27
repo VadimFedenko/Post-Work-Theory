@@ -12,6 +12,7 @@ export type Society = {
 export type FamilyIndex = Map<string, Society[]>;
 export type RecordDetail = Society & {
   description: string; scope: Record<string, unknown>; assets: Record<string, unknown>;
+  translations: { ru: { description: string; economy_basis: string } };
   axis_assessment: Record<string, { interval: number[]; confidence: string; basis: string }>;
   utopia_assessment: { basis: string; confidence: string; supplemental_source_ids?: string[] };
   popularity_assessment: { subject_id: string; subject: string; basis: string; confidence: string; reference_ids: string[] };

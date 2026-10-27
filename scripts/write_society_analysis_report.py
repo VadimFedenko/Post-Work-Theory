@@ -148,6 +148,8 @@ add("ai",f"""
 add("leisure",f"""
 ## 4. Отсутствие работы не даёт простого линейного преимущества
 
+Здесь измеряется участие в широкой деятельности, включая неоплачиваемую заботу и добровольные проекты. Доля неработающих не равна доле досуга или человеческому вкладу в выпуск. [Подробный аудит измерения и всех крайних случаев](#working-audit) показывает ограничения процентов и неодинаковые знаменатели.
+
 Без поправок доля неработающих положительно связана с утопичностью: обычный Спирмен **+0,355**, взвешенная ранговая связь **+0,334**. Линейный коэффициент в модели с одним предиктором — **{ci(coef(MODELS['nonworking_only'],'nonworking'))}**. Прибавка 10 процентных пунктов соответствует примерно +0,073 к U.
 
 После учёта обеспечения, контроля, статуса, медиа и узнаваемости линейный коэффициент становится **{ci(coef(MODELS['full_group_balanced'],'nonworking'))}** — практически нулевым. Удаление этого члена даже немного улучшает проверку на отложенных группах: R² {f(CV['without_nonworking'],3)} вместо {f(CV['structural_and_media'],3)}.
@@ -412,11 +414,20 @@ if (OUT/"transition-report-fragment.json").exists():
     sections[insertion:insertion]=[(r["key"],r["markdown"]) for r in transition_fragment["sections"]]
     for key,name in transition_fragment["figure_files"].items():
         figures[key]=pio.from_json((OUT/name).read_text(encoding="utf-8"))
+working_fragment=None
+if (OUT/"working-report-fragment.json").exists():
+    working_fragment=rd("working-report-fragment.json")
+    assert hashlib.sha256((ROOT/"data/societies.json").read_bytes()).hexdigest()==working_fragment["input_sha256"],"Rerun the participation audit after catalogue changes"
+    insertion=next(i for i,(key,_) in enumerate(sections) if key=="methods")
+    sections[insertion:insertion]=[(r["key"],r["markdown"]) for r in working_fragment["sections"]]
+    for key,name in working_fragment["figure_files"].items():
+        figures[key]=pio.from_json((OUT/name).read_text(encoding="utf-8"))
 md="\n\n".join(text for _,text in sections)+"\n"
 (OUT/"report.md").write_text(md,encoding="utf-8")
 body=[]
 plot_order={"regimes":["regimes"],"security":["security"],"leisure":["leisure"],"media":["media","composition","media_adjustment"],"popularity":["popularity"],"history":["history"],"factors":["factors"]}
 if transition_fragment:plot_order.update(transition_fragment["plot_order"])
+if working_fragment:plot_order.update(working_fragment["plot_order"])
 js_added=False
 for key,text in sections:
     body.append('<section id="'+key+'">'+markdown.markdown(text,extensions=["tables","fenced_code"])+"</section>")
@@ -445,7 +456,7 @@ code{background:#eff3f2;padding:2px 5px;border-radius:4px;font-size:.88em;overfl
 @media(max-width:700px){main{padding:16px 10px}section{padding:22px 18px}.chart{padding:5px}h1{font-size:28px}h2{font-size:22px}body{font-size:15px}header{padding:22px}table{font-size:12px}}
 @media print{body{background:white}header,.nav,.modebar{display:none}section{box-shadow:none;padding:12px 0;break-inside:avoid}.chart{break-inside:avoid}main{max-width:none;padding:0}}
 """
-nav='<nav class="nav">'+''.join('<a href="#'+key+'">'+title+'</a>' for key,title in [("transitions","Три стадии перехода"),("regimes","Уклады"),("ai","Автономные системы"),("leisure","Работа и досуг"),("media","Медиа"),("popularity","Популярность"),("history","История"),("factors","Факторы"),("cases","Примеры"),("methods","Методика")])+"</nav>"
+nav='<nav class="nav">'+''.join('<a href="#'+key+'">'+title+'</a>' for key,title in [("transitions","Три стадии перехода"),("working-audit","Аудит доли работающих"),("regimes","Уклады"),("ai","Автономные системы"),("leisure","Работа и досуг"),("media","Медиа"),("popularity","Популярность"),("history","История"),("factors","Факторы"),("cases","Примеры"),("methods","Методика")])+"</nav>"
 page='<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Общества, гарантии и утопичность — исследование 890 записей</title><style>'+css+'</style></head><body><header><small>Исследовательский отчёт · 22.10.2026</small><p>Корреляции, многомерные модели и осторожные гипотезы по каталогу вымышленных обществ</p></header><main>'+nav+''.join(body)+'<p class="foot">Производные данные и код находятся рядом с отчётом. Исходные 890 записей не изменены. Интерактивные графики работают без подключения к сети.</p></main></body></html>'
 (OUT/"report.html").write_text(page,encoding="utf-8")
 print(json.dumps(dict(markdown=str(OUT/"report.md"),html=str(OUT/"report.html"),sections=len(sections),charts=len(figures),html_bytes=len(page.encode("utf-8"))),ensure_ascii=False))

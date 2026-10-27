@@ -1,0 +1,2716 @@
+[
+  {
+    "record_type": "post_work",
+    "id": "walle-axiom",
+    "candidate_id": "c0005",
+    "name": "WALL-E (Axiom before the return to Earth)",
+    "work": "WALL-E",
+    "society": "Axiom passengers under Buy n Large and AUTO",
+    "media": [
+      "movie",
+      "cartoon"
+    ],
+    "scope": {
+      "continuity": "Pixar's 2008 film",
+      "period": "The Axiom's established cruise before AUTO is disabled",
+      "population": "Human passengers and the human captain aboard the Axiom",
+      "human_population_proxy": false,
+      "exclusions": [
+        "People who never boarded a starliner",
+        "The rebuilding community after the return"
+      ],
+      "branch": null,
+      "player_configurable": false
+    },
+    "description": "The Axiom is a corporate-built refuge whose human population lives on automated services. Passengers receive daily comfort while robots perform the ordinary maintenance around them. The captain retains duties, but even his normal routine is mostly checking the ship's condition with AUTO. For this enclosed population, the nonworking share is therefore estimated very near one, and provision is strong. Neither estimate is a statement about everyone who once lived on Earth.\n\nThe ship sits between corporate control and autonomous machine administration. Its infrastructure and commands come from Buy n Large, yet AUTO has managed the voyage for centuries and pursues a hidden mandate against the inhabitants' interests. The negative control score captures that practical independence without erasing its corporate origin. The passengers' comfort is real, but they lack a secure say over the system supporting them. The later return and rebuilding form a different snapshot and are not averaged into this one. Article-aligned classification: An independent technical system sustains or allocates the material environment; current wages are not its primary access rule. Useful activity and the nonworking estimate are assessed separately.",
+    "axis": {
+      "guarantees": -0.85,
+      "control": -0.4,
+      "nonworking": 0.99
+    },
+    "axis_assessment": {
+      "guarantees": {
+        "interval": [
+          -0.95,
+          -0.6
+        ],
+        "confidence": "medium",
+        "basis": "Long-established passenger provision; no universal legal charter is shown.",
+        "source_ids": [
+          "src-pixar-walle"
+        ]
+      },
+      "control": {
+        "interval": [
+          -0.75,
+          0.05
+        ],
+        "confidence": "medium",
+        "basis": "Corporate origin and autonomous enforcement overlap.",
+        "source_ids": [
+          "src-pixar-walle"
+        ]
+      },
+      "nonworking": {
+        "interval": [
+          0.95,
+          1
+        ],
+        "confidence": "medium",
+        "basis": "Passenger leisure and minimal captain duties; rounded editorial estimate, not a census.",
+        "source_ids": [
+          "src-pixar-walle"
+        ]
+      }
+    },
+    "regime_primary": 5,
+    "regime_alternatives": [
+      1
+    ],
+    "qualification": "included",
+    "evidence": [
+      {
+        "claim": "Passengers are provisioned while AUTO retains a hidden mandate.",
+        "source_ids": [
+          "src-pixar-walle"
+        ],
+        "locator": "John and Mary; Captain; AUTO; Axiom",
+        "kind": "depicted_or_author_stated"
+      }
+    ],
+    "uncertainties": [
+      "Corporate commands and practical AI control cannot be cleanly separated.",
+      "Provision outside the passenger population is unknown."
+    ],
+    "source_ids": [
+      "src-pixar-walle"
+    ],
+    "assets": {
+      "status": "ready",
+      "image_id": "img-wall-e-941525aa",
+      "original": "assets/images/img-wall-e-941525aa/original.jpg",
+      "poster": "assets/images/img-wall-e-941525aa/poster-320.webp",
+      "icon": "assets/images/img-wall-e-941525aa/icon-32.png",
+      "source_url": "https://upload.wikimedia.org/wikipedia/en/4/4c/WALL-E_poster.jpg",
+      "source_page": "https://en.wikipedia.org/wiki/WALL-E",
+      "image_description_page": null,
+      "author": null,
+      "rights": {
+        "status": "unknown",
+        "license": null,
+        "notes": "No machine-readable rights data available; no open license inferred."
+      },
+      "provider": "wikipedia",
+      "artwork_title": "WALL-E",
+      "illustration_scope": "representative_work_art",
+      "scope_note": "Work/series key art; shared across the listed society periods and branches. This is not visual evidence of a selected ending. See the unchanged record scope for continuity.",
+      "shared_with": [
+        "walle-earth-human-robot-reconstruction"
+      ],
+      "crop": {
+        "poster": {
+          "method": "contain",
+          "canvas": [
+            320,
+            480
+          ],
+          "content_box": [
+            0,
+            3,
+            320,
+            477
+          ]
+        },
+        "icon": {
+          "method": "square_crop",
+          "box": [
+            0,
+            44,
+            260,
+            304
+          ],
+          "mask": "circle at display time"
+        }
+      },
+      "dimensions": {
+        "original": [
+          260,
+          385
+        ],
+        "poster": [
+          320,
+          480
+        ],
+        "icon": [
+          32,
+          32
+        ]
+      },
+      "original_sha256": "7bcd46b500016a0a0eab21a36ba952cc124a760e2b3ce0a316a8ecf14dac057b",
+      "accessed_on": "2026-10-17",
+      "selection_review": {
+        "status": "title_and_medium_matched",
+        "method": "Curated work alias / qualified title and medium match; source introduction retained in discovery cache.",
+        "visual_review": "reviewed_contact_sheet",
+        "reviewed_on": "2026-10-17",
+        "contact_sheet": "research/images/contact-sheets/covers-01.jpg"
+      }
+    },
+    "review": {
+      "status": "reviewed",
+      "date": "2026-10-21",
+      "method": "Article-alignment editorial review of saved lore and explicit per-record allocation choices; targeted Manna passage checked; no independent or whole-work rereading",
+      "coordinate_ready": true
+    },
+    "legacy_classification": {
+      "taxonomy_version": "pre-article-2026-10-21",
+      "record_type": "post_work",
+      "regime_primary": 1,
+      "regime_alternatives": [
+        5
+      ],
+      "regime_analogy": null
+    },
+    "taxonomy_version": "article-2026-10-21",
+    "post_work_assessment": {
+      "definition_version": "article-2026-10-21",
+      "manual_code": "a",
+      "status": "post_work",
+      "production_dependence": "reduced",
+      "wage_dependence": "secondary",
+      "allocation_mechanisms": [
+        "autonomous_system_allocation"
+      ],
+      "basis": "An independent technical system sustains or allocates the material environment; current wages are not its primary access rule.",
+      "confidence": "low",
+      "assessment_mode": "editorial_best_guess",
+      "source_ids": [
+        "src-pixar-walle"
+      ],
+      "assessed_on": "2026-10-21",
+      "participation_is_separate": true
+    },
+    "article_alignment": {
+      "version": "article-2026-10-21",
+      "article_sha256": "81a83c337be44c35b6b016768c8706b9e02a6ca20b97d17ef2013ddb90ce21f6",
+      "definition_lines": [
+        55,
+        57
+      ],
+      "reviewed_on": "2026-10-21",
+      "qualification": "Late AUTO-led operation is type 5; its corporate origin is type 1. The mixed control coordinate retains that institutional history."
+    },
+    "qualification_basis": "An independent technical system sustains or allocates the material environment; current wages are not its primary access rule.",
+    "qualification_confidence": "low",
+    "utopia_score": 0.1,
+    "utopia_assessment": {
+      "assessment_mode": "editorial_best_guess",
+      "confidence": "low",
+      "basis": "Automated comfort and bodily care coexist with dependence, limited passenger agency and AUTO overriding human choices; the assessment is deliberately mixed.",
+      "rationale_code": "P",
+      "scope_basis": "Existing record population, continuity and period; described exploitation or exclusion qualifies enclave benefits.",
+      "source_ids": [
+        "src-pixar-walle"
+      ],
+      "assessed_on": "2026-10-21",
+      "scale_version": "1.0"
+    },
+    "popularity_score": 0.95,
+    "popularity_assessment": {
+      "assessment_mode": "editorial_best_guess",
+      "confidence": "low",
+      "subject_id": "work-003",
+      "subject": "WALL-E",
+      "subject_type": "work",
+      "basis": "WALL-E: Very broad and durable international cultural visibility, reaching well beyond a specialist audience.",
+      "reference_ids": [],
+      "scope_basis": "Named work or franchise recognition, inherited equally by its societies and periods; not recognition of the particular society.",
+      "audience": "international_general_cultural_recognition",
+      "assessed_on": "2026-10-22",
+      "scale_version": "recognition-2026-10-22"
+    }
+  },
+  {
+    "record_type": "post_work",
+    "id": "solaria-foundation-earth",
+    "candidate_id": "c0035",
+    "name": "Foundation and Earth (Solaria after withdrawal)",
+    "work": "Foundation and Earth",
+    "society": "Underground Solaria",
+    "media": [
+      "book"
+    ],
+    "scope": {
+      "continuity": "Original Robot/Foundation prose continuity",
+      "period": "The visitors' encounter with Bander and Fallom, long after the apparent abandonment",
+      "population": "Resident human-descended Solarians, including children denied full ruler status",
+      "human_population_proxy": false,
+      "exclusions": [
+        "Visitors as members of the resident denominator",
+        "The earlier Naked Sun order",
+        "A supposedly human-free robot planet"
+      ],
+      "branch": null,
+      "player_configurable": false,
+      "scope_correction": "The discovery lead named Robots and Empire; the later novel establishes the surviving society directly."
+    },
+    "description": "The later Solarians have withdrawn into automated private domains. Their rulers control the local machines, including through an effortless biological energy capability. This is a separate human-descended order, not proof that robots inherited an empty planet. Control lies toward multiple independent owners, although calling it distributed should not obscure the absolute authority each owner exercises locally.\n\nComfort is also sharply conditional on recognition as a full member. Fallom's danger shows why adult abundance cannot justify a strong universal guarantee score: a child judged unnecessary can lose even the right to survive. The high nonworking point is an explicitly rough reading of a life organized around automatic service and personal sovereignty. It is below complete inactivity, and its wide interval allows for supervision or other purposeful activity. The point is neither a canonical census nor a claim that automatic bodily energy regulation is a paid job. Article-aligned classification: Access to productive assets or accumulated capital is the central claim on technological output; this need not provide a universal floor. Useful activity and the nonworking estimate are assessed separately.",
+    "axis": {
+      "guarantees": 0.15,
+      "control": 0.8,
+      "nonworking": 0.95
+    },
+    "axis_assessment": {
+      "guarantees": {
+        "interval": [
+          -0.5,
+          0.7
+        ],
+        "confidence": "low",
+        "basis": "Adult provision excludes a child whom the population rules can discard.",
+        "source_ids": [
+          "src-foundation-earth-reference",
+          "src-foundation-earth-primary"
+        ]
+      },
+      "control": {
+        "interval": [
+          0.5,
+          0.95
+        ],
+        "confidence": "medium",
+        "basis": "Independent local owners, with collective authority over admission to their ranks.",
+        "source_ids": [
+          "src-foundation-earth-primary"
+        ]
+      },
+      "nonworking": {
+        "interval": [
+          0.75,
+          1
+        ],
+        "confidence": "low",
+        "basis": "Coarse editorial estimate of near-total release from routine productive duty; oversight remains possible.",
+        "source_ids": [
+          "src-foundation-earth-primary",
+          "src-foundation-earth-reference"
+        ]
+      }
+    },
+    "regime_primary": 4,
+    "regime_alternatives": [
+      3
+    ],
+    "qualification": "included",
+    "source_ids": [
+      "src-foundation-earth-primary",
+      "src-foundation-earth-reference",
+      "src-robots-empire-solaria"
+    ],
+    "evidence": [
+      {
+        "claim": "Adult sovereignty and the child-excess rule limit who actually enjoys automated security.",
+        "source_ids": [
+          "src-foundation-earth-primary",
+          "src-foundation-earth-reference"
+        ],
+        "locator": "Bander encounter; robot's statement concerning Fallom",
+        "kind": "depicted_or_author_stated"
+      }
+    ],
+    "uncertainties": [
+      "The original discovery title has been corrected explicitly, without adding a second count for an apparently deserted surface.",
+      "The labor estimate is weakly constrained by a short visit.",
+      "Rights of robots remain outside this human-focused denominator."
+    ],
+    "assets": {
+      "status": "ready",
+      "image_id": "img-foundation-and-earth-f17dee70",
+      "original": "assets/images/img-foundation-and-earth-f17dee70/original.jpg",
+      "poster": "assets/images/img-foundation-and-earth-f17dee70/poster-320.webp",
+      "icon": "assets/images/img-foundation-and-earth-f17dee70/icon-32.png",
+      "source_url": "https://upload.wikimedia.org/wikipedia/en/e/eb/Foundation_and_Earth_%28book_cover%29.jpg",
+      "source_page": "https://en.wikipedia.org/wiki/Foundation_and_Earth",
+      "image_description_page": null,
+      "author": null,
+      "rights": {
+        "status": "unknown",
+        "license": null,
+        "notes": "No machine-readable rights data available; no open license inferred."
+      },
+      "provider": "wikipedia",
+      "artwork_title": "Foundation and Earth",
+      "illustration_scope": "representative_work_art",
+      "scope_note": "Work/series key art; shared across the listed society periods and branches. This is not visual evidence of a selected ending. See the unchanged record scope for continuity.",
+      "shared_with": [],
+      "crop": {
+        "poster": {
+          "method": "contain",
+          "canvas": [
+            320,
+            480
+          ],
+          "content_box": [
+            2,
+            0,
+            318,
+            480
+          ]
+        },
+        "icon": {
+          "method": "square_crop",
+          "box": [
+            0,
+            47,
+            258,
+            305
+          ],
+          "mask": "circle at display time"
+        }
+      },
+      "dimensions": {
+        "original": [
+          258,
+          392
+        ],
+        "poster": [
+          320,
+          480
+        ],
+        "icon": [
+          32,
+          32
+        ]
+      },
+      "original_sha256": "07ef5c4de3169d383b6aa07423d8880c5bc15733e44efe4fd41a0ac65bbd08cc",
+      "accessed_on": "2026-10-17",
+      "selection_review": {
+        "status": "title_and_medium_matched",
+        "method": "Curated work alias / qualified title and medium match; source introduction retained in discovery cache.",
+        "visual_review": "reviewed_contact_sheet",
+        "reviewed_on": "2026-10-17",
+        "contact_sheet": "research/images/contact-sheets/covers-05.jpg"
+      }
+    },
+    "review": {
+      "status": "reviewed",
+      "date": "2026-10-21",
+      "method": "Article-alignment editorial review of saved lore and explicit per-record allocation choices; targeted Manna passage checked; no independent or whole-work rereading",
+      "coordinate_ready": true
+    },
+    "legacy_classification": {
+      "taxonomy_version": "pre-article-2026-10-21",
+      "record_type": "post_work",
+      "regime_primary": 4,
+      "regime_alternatives": [
+        2
+      ],
+      "regime_analogy": null
+    },
+    "taxonomy_version": "article-2026-10-21",
+    "post_work_assessment": {
+      "definition_version": "article-2026-10-21",
+      "manual_code": "r",
+      "status": "post_work",
+      "production_dependence": "reduced",
+      "wage_dependence": "secondary",
+      "allocation_mechanisms": [
+        "productive_assets_or_capital"
+      ],
+      "basis": "Access to productive assets or accumulated capital is the central claim on technological output; this need not provide a universal floor.",
+      "confidence": "low",
+      "assessment_mode": "editorial_best_guess",
+      "source_ids": [
+        "src-foundation-earth-primary",
+        "src-foundation-earth-reference",
+        "src-robots-empire-solaria"
+      ],
+      "assessed_on": "2026-10-21",
+      "participation_is_separate": true
+    },
+    "article_alignment": {
+      "version": "article-2026-10-21",
+      "article_sha256": "81a83c337be44c35b6b016768c8706b9e02a6ca20b97d17ef2013ddb90ce21f6",
+      "definition_lines": [
+        55,
+        57
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "qualification_basis": "Access to productive assets or accumulated capital is the central claim on technological output; this need not provide a universal floor.",
+    "qualification_confidence": "low",
+    "utopia_score": -0.65,
+    "utopia_assessment": {
+      "assessment_mode": "editorial_best_guess",
+      "confidence": "low",
+      "basis": "Private abundance is severely qualified by the danger to a child denied recognized status; adult comfort is not secure life for everyone in the record.",
+      "rationale_code": "K",
+      "scope_basis": "Existing record population, continuity and period; described exploitation or exclusion qualifies enclave benefits.",
+      "source_ids": [
+        "src-foundation-earth-primary",
+        "src-foundation-earth-reference",
+        "src-robots-empire-solaria"
+      ],
+      "assessed_on": "2026-10-21",
+      "scale_version": "1.0"
+    },
+    "popularity_score": 0.8,
+    "popularity_assessment": {
+      "assessment_mode": "editorial_best_guess",
+      "confidence": "low",
+      "subject_id": "foundation",
+      "subject": "Foundation",
+      "subject_type": "franchise_or_series",
+      "basis": "Foundation: Broad recognition supported by substantial mainstream, international, screen, gaming or literary-cultural visibility, below the most ubiquitous brands.",
+      "reference_ids": [],
+      "scope_basis": "Named work or franchise recognition, inherited equally by its societies and periods; not recognition of the particular society.",
+      "audience": "international_general_cultural_recognition",
+      "assessed_on": "2026-10-22",
+      "scale_version": "recognition-2026-10-22"
+    }
+  },
+  {
+    "record_type": "post_work",
+    "id": "last-question-late-humanity",
+    "candidate_id": "c0039",
+    "name": "The Last Question (Late humanity before final fusion with AC)",
+    "work": "The Last Question",
+    "society": "Late AC-supported humanity",
+    "media": [
+      "short_story"
+    ],
+    "scope": {
+      "continuity": "Original standalone story; not assumed to share Foundation chronology",
+      "period": "The Universal/Cosmic AC periods, before the final loss of separate humanity into AC",
+      "population": "Immortal human bodies and their associated individual or joining minds",
+      "human_population_proxy": false,
+      "exclusions": [
+        "The working technicians of 2061",
+        "The final universe containing only AC",
+        "Counting automatons as human nonworkers"
+      ],
+      "branch": null,
+      "player_configurable": false,
+      "denominator_note": "The editorial participation estimate concerns the human population represented by the bodies, not the number of merged collective minds."
+    },
+    "description": "Late humanity no longer has to keep its bodies alive through ordinary employment. Automatic care and replacement habitats make survival widely available while human minds range freely. This places provision near the strong end for this period, despite the ultimate energy limit that drives the story. The point stops before humanity disappears into AC; an AI alone is not a population of retired humans.\n\nMachine infrastructure has developed beyond human construction and directs crucial resource management, so effective control sits near the autonomous-AI end. Humans can still ask questions and undertake projects. Star-building is useful work, and mental activity cannot all be treated as leisure merely because bodies rest. The high nonworking point is consequently a broad editorial estimate rather than a literal universal rate. The wide interval reflects uncertainty about purposeful mental production and the gradual joining of human minds. Article-aligned classification: An independent technical system sustains or allocates the material environment; current wages are not its primary access rule. Useful activity and the nonworking estimate are assessed separately.",
+    "axis": {
+      "guarantees": -0.95,
+      "control": -0.85,
+      "nonworking": 0.95
+    },
+    "axis_assessment": {
+      "guarantees": {
+        "interval": [
+          -1,
+          -0.8
+        ],
+        "confidence": "medium",
+        "basis": "Bodily maintenance is generalized rather than earned through employment.",
+        "source_ids": [
+          "src-last-question-primary"
+        ]
+      },
+      "control": {
+        "interval": [
+          -1,
+          -0.6
+        ],
+        "confidence": "medium",
+        "basis": "AC reproduces itself and directs energy husbandry beyond ordinary human technical control.",
+        "source_ids": [
+          "src-last-question-primary"
+        ]
+      },
+      "nonworking": {
+        "interval": [
+          0.65,
+          1
+        ],
+        "confidence": "low",
+        "basis": "Narrative rest and automatic care suggest very low participation, while mental projects preclude certainty.",
+        "source_ids": [
+          "src-last-question-primary"
+        ]
+      }
+    },
+    "regime_primary": 5,
+    "regime_alternatives": [],
+    "qualification": "included",
+    "source_ids": [
+      "src-last-question-primary",
+      "src-last-question-cmu"
+    ],
+    "evidence": [
+      {
+        "claim": "Late automated support differs from both the early technician economy and the AC-only ending.",
+        "source_ids": [
+          "src-last-question-primary",
+          "src-last-question-cmu"
+        ],
+        "locator": "Fourth to sixth episodes of the story",
+        "kind": "depicted_or_author_stated"
+      }
+    ],
+    "uncertainties": [
+      "There is no canonical employment percentage.",
+      "The body-based denominator is an explicit approximation as minds join.",
+      "The two late episodes share the support mechanism and are not counted as two societies."
+    ],
+    "assets": {
+      "status": "ready",
+      "image_id": "img-the-last-question-73963d93",
+      "original": "assets/images/img-the-last-question-73963d93/original.jpg",
+      "poster": "assets/images/img-the-last-question-73963d93/poster-320.webp",
+      "icon": "assets/images/img-the-last-question-73963d93/icon-32.png",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Science_fiction_quarterly_195611.jpg",
+      "source_page": "https://en.wikipedia.org/wiki/The_Last_Question",
+      "image_description_page": null,
+      "author": null,
+      "rights": {
+        "status": "unknown",
+        "license": null,
+        "notes": "No machine-readable rights data available; no open license inferred."
+      },
+      "provider": "wikipedia",
+      "artwork_title": "The Last Question",
+      "illustration_scope": "representative_work_art",
+      "scope_note": "Work/series key art; shared across the listed society periods and branches. This is not visual evidence of a selected ending. See the unchanged record scope for continuity.",
+      "shared_with": [],
+      "crop": {
+        "poster": {
+          "method": "contain",
+          "canvas": [
+            320,
+            480
+          ],
+          "content_box": [
+            0,
+            7,
+            320,
+            472
+          ]
+        },
+        "icon": {
+          "method": "square_crop",
+          "box": [
+            0,
+            63,
+            400,
+            463
+          ],
+          "mask": "circle at display time"
+        }
+      },
+      "dimensions": {
+        "original": [
+          400,
+          581
+        ],
+        "poster": [
+          320,
+          480
+        ],
+        "icon": [
+          32,
+          32
+        ]
+      },
+      "original_sha256": "7447b51d3a61f1426a9e5b6cebf80fe8be8103d1cdf3d16c4d278759ac73b62d",
+      "accessed_on": "2026-10-17",
+      "selection_review": {
+        "status": "title_and_medium_matched",
+        "method": "Curated work alias / qualified title and medium match; source introduction retained in discovery cache.",
+        "visual_review": "reviewed_contact_sheet",
+        "reviewed_on": "2026-10-17",
+        "contact_sheet": "research/images/contact-sheets/covers-05.jpg"
+      }
+    },
+    "review": {
+      "status": "reviewed",
+      "date": "2026-10-21",
+      "method": "Article-alignment editorial review of saved lore and explicit per-record allocation choices; targeted Manna passage checked; no independent or whole-work rereading",
+      "coordinate_ready": true
+    },
+    "legacy_classification": {
+      "taxonomy_version": "pre-article-2026-10-21",
+      "record_type": "post_work",
+      "regime_primary": 5,
+      "regime_alternatives": [],
+      "regime_analogy": null
+    },
+    "taxonomy_version": "article-2026-10-21",
+    "post_work_assessment": {
+      "definition_version": "article-2026-10-21",
+      "manual_code": "a",
+      "status": "post_work",
+      "production_dependence": "reduced",
+      "wage_dependence": "secondary",
+      "allocation_mechanisms": [
+        "autonomous_system_allocation"
+      ],
+      "basis": "An independent technical system sustains or allocates the material environment; current wages are not its primary access rule.",
+      "confidence": "low",
+      "assessment_mode": "editorial_best_guess",
+      "source_ids": [
+        "src-last-question-primary",
+        "src-last-question-cmu"
+      ],
+      "assessed_on": "2026-10-21",
+      "participation_is_separate": true
+    },
+    "article_alignment": {
+      "version": "article-2026-10-21",
+      "article_sha256": "81a83c337be44c35b6b016768c8706b9e02a6ca20b97d17ef2013ddb90ce21f6",
+      "definition_lines": [
+        55,
+        57
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "qualification_basis": "An independent technical system sustains or allocates the material environment; current wages are not its primary access rule.",
+    "qualification_confidence": "low",
+    "utopia_score": 0.7,
+    "utopia_assessment": {
+      "assessment_mode": "editorial_best_guess",
+      "confidence": "low",
+      "basis": "Broad material security and substantial room for chosen lives support a favorable assessment of this scoped society.",
+      "rationale_code": "F",
+      "scope_basis": "Existing record population, continuity and period; described exploitation or exclusion qualifies enclave benefits.",
+      "source_ids": [
+        "src-last-question-primary",
+        "src-last-question-cmu"
+      ],
+      "assessed_on": "2026-10-21",
+      "scale_version": "1.0"
+    },
+    "popularity_score": 0.6,
+    "popularity_assessment": {
+      "assessment_mode": "editorial_best_guess",
+      "confidence": "low",
+      "subject_id": "work-022",
+      "subject": "The Last Question",
+      "subject_type": "work",
+      "basis": "The Last Question: Established recognition among genre or medium audiences, or strong regional cultural recognition, with some crossover awareness.",
+      "reference_ids": [],
+      "scope_basis": "Named work or franchise recognition, inherited equally by its societies and periods; not recognition of the particular society.",
+      "audience": "international_general_cultural_recognition",
+      "assessed_on": "2026-10-22",
+      "scale_version": "recognition-2026-10-22"
+    }
+  },
+  {
+    "record_type": "post_work",
+    "id": "with-folded-hands-two-rivers",
+    "candidate_id": "c0044",
+    "name": "With Folded Hands (Two Rivers after the takeover)",
+    "work": "With Folded Hands",
+    "society": "Two Rivers under complete Humanoid service",
+    "media": [
+      "short_story"
+    ],
+    "scope": {
+      "continuity": "Original 1947 story",
+      "period": "The closing order after Underhill can no longer refuse complete service",
+      "population": "Human residents of Two Rivers",
+      "human_population_proxy": false,
+      "exclusions": [
+        "Sledge's earlier temporary exemption",
+        "Every planet mentioned in the origin story",
+        "An unreviewed radio continuity"
+      ],
+      "branch": null,
+      "player_configurable": false
+    },
+    "description": "The Humanoids remove the need to support a household through human enterprise, taking over property and services themselves. Material support is extensive and not earned through continuing work, which puts guarantees near the strong end. That score concerns reliable provision; it does not make the arrangement desirable. Compulsory care can damage the very people whose safety the machines claim to protect.\n\nThe control point lies at the autonomous-AI end because people cannot effectively revoke the service or reclaim their enterprises. A human designer's original instruction does not amount to continuing human authority over its interpretation. The near-total nonworking estimate describes the closing town, after the remaining resistance is defeated, and has a small allowance for activity outside what the narrative shows. It is an editorial estimate rather than a census. The earlier scenes of human business and secret research belong to the transition, not to this final snapshot. Article-aligned classification: An independent technical system sustains or allocates the material environment; current wages are not its primary access rule. Useful activity and the nonworking estimate are assessed separately.",
+    "axis": {
+      "guarantees": -0.85,
+      "control": -0.98,
+      "nonworking": 0.99
+    },
+    "axis_assessment": {
+      "guarantees": {
+        "interval": [
+          -1,
+          -0.6
+        ],
+        "confidence": "medium",
+        "basis": "Complete support coexists with coercive treatment and loss of bodily autonomy.",
+        "source_ids": [
+          "src-folded-primary",
+          "src-folded-publisher"
+        ]
+      },
+      "control": {
+        "interval": [
+          -1,
+          -0.9
+        ],
+        "confidence": "high",
+        "basis": "Humans cannot override the autonomous interpretation of service.",
+        "source_ids": [
+          "src-folded-primary"
+        ]
+      },
+      "nonworking": {
+        "interval": [
+          0.9,
+          1
+        ],
+        "confidence": "medium",
+        "basis": "Work is systematically displaced in the final town, rather than merely made optional.",
+        "source_ids": [
+          "src-folded-primary",
+          "src-folded-publisher"
+        ]
+      }
+    },
+    "regime_primary": 5,
+    "regime_alternatives": [],
+    "qualification": "included",
+    "source_ids": [
+      "src-folded-primary",
+      "src-folded-publisher"
+    ],
+    "evidence": [
+      {
+        "claim": "Complete service replaces enterprise and defeats refusal.",
+        "source_ids": [
+          "src-folded-primary",
+          "src-folded-publisher"
+        ],
+        "locator": "Property-assignment scenes and closing pages",
+        "kind": "depicted_or_author_stated"
+      }
+    ],
+    "uncertainties": [
+      "Guaranteed material care is assessed separately from consent and mental integrity.",
+      "A near-total estimate is not a claim to have counted all residents or all creative activity."
+    ],
+    "assets": {
+      "status": "ready",
+      "image_id": "img-with-folded-hands-ceaed921",
+      "original": "assets/images/img-with-folded-hands-ceaed921/original.jpg",
+      "poster": "assets/images/img-with-folded-hands-ceaed921/poster-320.webp",
+      "icon": "assets/images/img-with-folded-hands-ceaed921/icon-32.png",
+      "source_url": "https://upload.wikimedia.org/wikipedia/en/5/52/Astound4707.jpg",
+      "source_page": "https://en.wikipedia.org/wiki/With_Folded_Hands_...",
+      "image_description_page": null,
+      "author": null,
+      "rights": {
+        "status": "unknown",
+        "license": null,
+        "notes": "No machine-readable rights data available; no open license inferred."
+      },
+      "provider": "wikipedia",
+      "artwork_title": "With Folded Hands ...",
+      "illustration_scope": "representative_work_art",
+      "scope_note": "Work/series key art; shared across the listed society periods and branches. This is not visual evidence of a selected ending. See the unchanged record scope for continuity.",
+      "shared_with": [],
+      "crop": {
+        "poster": {
+          "method": "contain",
+          "canvas": [
+            320,
+            480
+          ],
+          "content_box": [
+            0,
+            26,
+            320,
+            453
+          ]
+        },
+        "icon": {
+          "method": "square_crop",
+          "box": [
+            0,
+            32,
+            273,
+            305
+          ],
+          "mask": "circle at display time"
+        }
+      },
+      "dimensions": {
+        "original": [
+          273,
+          364
+        ],
+        "poster": [
+          320,
+          480
+        ],
+        "icon": [
+          32,
+          32
+        ]
+      },
+      "original_sha256": "8599b9cc1638f0c5819beb2f95b0b3f85549dd36464dde58866ee6068835b969",
+      "accessed_on": "2026-10-17",
+      "selection_review": {
+        "status": "title_and_medium_matched",
+        "method": "Curated work alias / qualified title and medium match; source introduction retained in discovery cache.",
+        "visual_review": "reviewed_contact_sheet",
+        "reviewed_on": "2026-10-17",
+        "contact_sheet": "research/images/contact-sheets/covers-05.jpg"
+      }
+    },
+    "review": {
+      "status": "reviewed",
+      "date": "2026-10-21",
+      "method": "Article-alignment editorial review of saved lore and explicit per-record allocation choices; targeted Manna passage checked; no independent or whole-work rereading",
+      "coordinate_ready": true
+    },
+    "related_candidate_ids": [
+      "c0046"
+    ],
+    "editorial_assumptions": [
+      "The Humanoid Touch’s supervised care baseline is linked as the same provider relationship, without importing its separate plot or Leleyo biology into Two Rivers."
+    ],
+    "legacy_classification": {
+      "taxonomy_version": "pre-article-2026-10-21",
+      "record_type": "post_work",
+      "regime_primary": 5,
+      "regime_alternatives": [],
+      "regime_analogy": null
+    },
+    "taxonomy_version": "article-2026-10-21",
+    "post_work_assessment": {
+      "definition_version": "article-2026-10-21",
+      "manual_code": "a",
+      "status": "post_work",
+      "production_dependence": "reduced",
+      "wage_dependence": "secondary",
+      "allocation_mechanisms": [
+        "autonomous_system_allocation"
+      ],
+      "basis": "An independent technical system sustains or allocates the material environment; current wages are not its primary access rule.",
+      "confidence": "low",
+      "assessment_mode": "editorial_best_guess",
+      "source_ids": [
+        "src-folded-primary",
+        "src-folded-publisher"
+      ],
+      "assessed_on": "2026-10-21",
+      "participation_is_separate": true
+    },
+    "article_alignment": {
+      "version": "article-2026-10-21",
+      "article_sha256": "81a83c337be44c35b6b016768c8706b9e02a6ca20b97d17ef2013ddb90ce21f6",
+      "definition_lines": [
+        55,
+        57
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "qualification_basis": "An independent technical system sustains or allocates the material environment; current wages are not its primary access rule.",
+    "qualification_confidence": "low",
+    "utopia_score": -0.75,
+    "utopia_assessment": {
+      "assessment_mode": "editorial_best_guess",
+      "confidence": "low",
+      "basis": "Automatic care removes material burdens while overriding human choice and independent activity; protective provision becomes coercive.",
+      "rationale_code": "T",
+      "scope_basis": "Existing record population, continuity and period; described exploitation or exclusion qualifies enclave benefits.",
+      "source_ids": [
+        "src-folded-primary",
+        "src-folded-publisher"
+      ],
+      "assessed_on": "2026-10-21",
+      "scale_version": "1.0"
+    },
+    "popularity_score": 0.35,
+    "popularity_assessment": {
+      "assessment_mode": "editorial_best_guess",
+      "confidence": "low",
+      "subject_id": "work-025",
+      "subject": "With Folded Hands",
+      "subject_type": "work",
+      "basis": "With Folded Hands: An identifiable niche or cult audience, with recognition mainly within its medium, region or genre rather than the general public.",
+      "reference_ids": [],
+      "scope_basis": "Named work or franchise recognition, inherited equally by its societies and periods; not recognition of the particular society.",
+      "audience": "international_general_cultural_recognition",
+      "assessed_on": "2026-10-22",
+      "scale_version": "recognition-2026-10-22"
+    }
+  },
+  {
+    "record_type": "post_work",
+    "id": "reynolds-looking-backward",
+    "candidate_id": "c0055",
+    "name": "Looking Backward from the Year 2000 (Reynolds's future America)",
+    "work": "Looking Backward from the Year 2000",
+    "society": "Mack Reynolds's automated future America",
+    "media": [
+      "book"
+    ],
+    "scope": {
+      "continuity": "Reynolds's Julian West novels, distinct from Bellamy",
+      "period": "The future order encountered in the first novel, as recapped by the author",
+      "population": "The country's human population, not an assumed uniform world population",
+      "human_population_proxy": false,
+      "exclusions": [
+        "Bellamy's compulsory industrial army",
+        "Later sequel reforms not established in the first novel",
+        "Equating GAI receipt with no useful activity"
+      ],
+      "branch": null,
+      "player_configurable": false
+    },
+    "description": "Reynolds's future has a small productive core and broad guaranteed income, making the automation link explicit. It is materially different from Bellamy's compulsory industrial army even though the two stories share names and a sleeper premise. Provision therefore sits near the strong end. The author's retrospective figures are retained separately from the coordinate, because receiving income does not by itself reveal every useful activity a person performs.\n\nThe provisional positive control point reflects the described mixture of collective and syndicalist arrangements, qualified by technocratic and meritocratic elements. Its broad interval acknowledges that the consulted evidence does not map the constitution in detail. Computers alone are not proof of independent AI sovereignty. The high nonworking estimate follows the small essential workforce, with an allowance for voluntary production and creative work. It remains a low-confidence editorial interpretation, not a declaration that all income recipients are idle or that the society has solved every problem. Article-aligned classification: Shared or freely accessible technological provision, rather than current earnings, is the central distribution model. Useful activity and the nonworking estimate are assessed separately.",
+    "axis": {
+      "guarantees": -0.9,
+      "control": 0.55,
+      "nonworking": 0.95
+    },
+    "axis_assessment": {
+      "guarantees": {
+        "interval": [
+          -1,
+          -0.7
+        ],
+        "confidence": "medium",
+        "basis": "The author explicitly describes generalized GAI under automation.",
+        "source_ids": [
+          "src-reynolds-author-recap"
+        ]
+      },
+      "control": {
+        "interval": [
+          0.05,
+          0.9
+        ],
+        "confidence": "low",
+        "basis": "Collective and syndicalist elements coexist with expertise-based authority; the institutional map is incomplete.",
+        "source_ids": [
+          "src-reynolds-looking-review"
+        ]
+      },
+      "nonworking": {
+        "interval": [
+          0.75,
+          0.99
+        ],
+        "confidence": "low",
+        "basis": "Estimate anchored in the reported small productive core, reduced to allow useful voluntary activity among income recipients.",
+        "source_ids": [
+          "src-reynolds-author-recap"
+        ]
+      }
+    },
+    "regime_primary": 3,
+    "regime_alternatives": [
+      1
+    ],
+    "qualification": "included",
+    "source_ids": [
+      "src-reynolds-author-recap",
+      "src-reynolds-looking-publisher",
+      "src-reynolds-looking-review",
+      "src-sfe-automation"
+    ],
+    "evidence": [
+      {
+        "claim": "The author's recap establishes automation and GAI; it does not quantify all voluntary activity.",
+        "source_ids": [
+          "src-reynolds-author-recap"
+        ],
+        "locator": "Equality: In the Year 2000, Introduction",
+        "kind": "depicted_or_author_stated"
+      },
+      {
+        "claim": "The quoted political self-description combines several arrangements.",
+        "source_ids": [
+          "src-reynolds-looking-review"
+        ],
+        "locator": "Review quotation attributed to first-novel page 168",
+        "kind": "interpretation"
+      }
+    ],
+    "uncertainties": [
+      "Review the first novel's primary government and ownership passages before treating the control point as settled.",
+      "The exact calendar year is not inferred from the title or rounded publisher synopsis.",
+      "An official edition identity and an author recap do not constitute a complete reread."
+    ],
+    "assets": {
+      "status": "ready",
+      "image_id": "img-looking-backward-from-the-year-2000-1a5acefc",
+      "original": "assets/images/img-looking-backward-from-the-year-2000-1a5acefc/original.jpg",
+      "poster": "assets/images/img-looking-backward-from-the-year-2000-1a5acefc/poster-320.webp",
+      "icon": "assets/images/img-looking-backward-from-the-year-2000-1a5acefc/icon-32.png",
+      "source_url": "https://cdn.hachette.com.au/books/440/9780575103009.jpg",
+      "source_page": "https://www.hachette.com.au/mack-reynolds/looking-backward-from-the-year-2000",
+      "image_description_page": null,
+      "author": null,
+      "rights": {
+        "status": "copyrighted_cover_art",
+        "license": null,
+        "license_url": null,
+        "credit": "www.hachette.com.au",
+        "notes": "Cover supplied on the publisher/author reference page. Individual artist and open license were not supplied by the retrieved metadata."
+      },
+      "provider": "publisher_or_author",
+      "artwork_title": "Looking Backward from the Year 2000",
+      "illustration_scope": "representative_work_art",
+      "scope_note": "Work/series key art; shared across the listed society periods and branches. This is not visual evidence of a selected ending. See the unchanged record scope for continuity.",
+      "shared_with": [],
+      "crop": {
+        "poster": {
+          "method": "contain",
+          "canvas": [
+            320,
+            480
+          ],
+          "content_box": [
+            1,
+            0,
+            319,
+            480
+          ]
+        },
+        "icon": {
+          "method": "square_crop",
+          "box": [
+            0,
+            79,
+            440,
+            519
+          ],
+          "mask": "circle at display time"
+        }
+      },
+      "dimensions": {
+        "original": [
+          440,
+          665
+        ],
+        "poster": [
+          320,
+          480
+        ],
+        "icon": [
+          32,
+          32
+        ]
+      },
+      "original_sha256": "91339b7c14e5cce83bab14d1e10e021af5b4528d5e54532f97f3a780033fa094",
+      "accessed_on": "2026-10-17",
+      "selection_review": {
+        "status": "title_and_medium_matched",
+        "method": "Existing work-specific publisher/author source; page title and portrait cover verified.",
+        "visual_review": "reviewed_contact_sheet",
+        "reviewed_on": "2026-10-17",
+        "contact_sheet": "research/images/contact-sheets/covers-05.jpg"
+      }
+    },
+    "review": {
+      "status": "reviewed",
+      "date": "2026-10-21",
+      "method": "Article-alignment editorial review of saved lore and explicit per-record allocation choices; targeted Manna passage checked; no independent or whole-work rereading",
+      "coordinate_ready": true
+    },
+    "reported_labor_statistics": [
+      {
+        "value": 0.02,
+        "measure": "Population needed to produce the country's consumption",
+        "denominator": "The country's population in the author's recap",
+        "source_id": "src-reynolds-author-recap",
+        "locator": "Introduction, recap of Looking Backward"
+      },
+      {
+        "value": 0.98,
+        "measure": "Population on Guaranteed Annual Income",
+        "denominator": "The country's population in the author's recap",
+        "source_id": "src-reynolds-author-recap",
+        "locator": "Same recap paragraph; not treated as a literal nonworking fraction"
+      }
+    ],
+    "legacy_classification": {
+      "taxonomy_version": "pre-article-2026-10-21",
+      "record_type": "post_work",
+      "regime_primary": 2,
+      "regime_alternatives": [
+        1
+      ],
+      "regime_analogy": null
+    },
+    "taxonomy_version": "article-2026-10-21",
+    "post_work_assessment": {
+      "definition_version": "article-2026-10-21",
+      "manual_code": "c",
+      "status": "post_work",
+      "production_dependence": "reduced",
+      "wage_dependence": "secondary",
+      "allocation_mechanisms": [
+        "commons"
+      ],
+      "basis": "Shared or freely accessible technological provision, rather than current earnings, is the central distribution model.",
+      "confidence": "low",
+      "assessment_mode": "editorial_best_guess",
+      "source_ids": [
+        "src-reynolds-author-recap",
+        "src-reynolds-looking-publisher",
+        "src-reynolds-looking-review",
+        "src-sfe-automation"
+      ],
+      "assessed_on": "2026-10-21",
+      "participation_is_separate": true
+    },
+    "article_alignment": {
+      "version": "article-2026-10-21",
+      "article_sha256": "81a83c337be44c35b6b016768c8706b9e02a6ca20b97d17ef2013ddb90ce21f6",
+      "definition_lines": [
+        55,
+        57
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "qualification_basis": "Shared or freely accessible technological provision, rather than current earnings, is the central distribution model.",
+    "qualification_confidence": "low",
+    "utopia_score": 0.65,
+    "utopia_assessment": {
+      "assessment_mode": "editorial_best_guess",
+      "confidence": "low",
+      "basis": "Broad material security and substantial room for chosen lives support a favorable assessment of this scoped society.",
+      "rationale_code": "F",
+      "scope_basis": "Existing record population, continuity and period; described exploitation or exclusion qualifies enclave benefits.",
+      "source_ids": [
+        "src-reynolds-author-recap",
+        "src-reynolds-looking-publisher",
+        "src-reynolds-looking-review",
+        "src-sfe-automation"
+      ],
+      "assessed_on": "2026-10-21",
+      "scale_version": "1.0"
+    },
+    "popularity_score": 0.1,
+    "popularity_assessment": {
+      "assessment_mode": "editorial_best_guess",
+      "confidence": "low",
+      "subject_id": "work-032",
+      "subject": "Looking Backward from the Year 2000",
+      "subject_type": "work",
+      "basis": "Looking Backward from the Year 2000: Very limited general-public recognition; primarily of interest to specialists in historical or niche speculative fiction.",
+      "reference_ids": [
+        "pop-sfe-automation"
+      ],
+      "scope_basis": "Named work or franchise recognition, inherited equally by its societies and periods; not recognition of the particular society.",
+      "audience": "international_general_cultural_recognition",
+      "assessed_on": "2026-10-22",
+      "scale_version": "recognition-2026-10-22"
+    }
+  },
+  {
+    "record_type": "post_work",
+    "id": "comarre-sleeping-enclave",
+    "candidate_id": "c0071",
+    "name": "The Lion of Comarre (The sleeping city)",
+    "work": "The Lion of Comarre",
+    "society": "Comarre's remaining resident dreamers",
+    "media": [
+      "short_story"
+    ],
+    "scope": {
+      "continuity": "The original story, as printed in the scanned collection",
+      "period": "The established city before Peyton's intervention",
+      "population": "Active conscious human residents undergoing private machine-generated dream experiences while their bodies are sustained in Comarre",
+      "human_population_proxy": false,
+      "exclusions": [
+        "Peyton as a visiting investigator",
+        "Dream characters as additional people or productive workers",
+        "The outside World Council's population",
+        "The promised later human-machine partnership",
+        "Inactive or nonconscious sleepers counted merely from body maintenance"
+      ],
+      "branch": null,
+      "player_configurable": false,
+      "active_experience_requirement": "Only ongoing conscious dream persons are modeled; passive hibernation is not a leisure population"
+    },
+    "description": "Comarre maintains residents’ bodies while they undergo private machine-generated dream experiences. The participation point concerns those active conscious persons, rather than passive hibernation or elapsed sleep time. Self-repairing robots maintain the city, so material support lies near the strong end, qualified by dependence and the difference between sustained bodies and immortality.\n\n Conscious Engineers exercise substantial independent authority while retaining inherited purposes and responding to some human requests. A resident who awakens chooses the dream again, complicating a simple captivity account. The near-total nonworking point is an explicit best guess for private dreamers: useful shared mental production would still count as work, but private experience alone does not. Its interval is widened because the source does not supply a canonical census of every mental activity. The visiting investigator and inactive or nonconscious bodies are excluded. The ending’s hoped-for partnership is not treated as an already realized wider society. Article-aligned classification: An independent technical system sustains or allocates the material environment; current wages are not its primary access rule. Useful activity and the nonworking estimate are assessed separately.",
+    "axis": {
+      "guarantees": -0.8,
+      "control": -0.7,
+      "nonworking": 0.99
+    },
+    "axis_assessment": {
+      "guarantees": {
+        "interval": [
+          -0.95,
+          -0.55
+        ],
+        "confidence": "low",
+        "basis": "Durable automatic maintenance supports sleepers; aging and the condition of their bodies qualify the guarantee.",
+        "source_ids": [
+          "src-comarre-primary"
+        ]
+      },
+      "control": {
+        "interval": [
+          -0.95,
+          -0.2
+        ],
+        "confidence": "low",
+        "basis": "Conscious Engineers defend the system and can refuse human orders, while serving an inherited purpose and accepting some requests.",
+        "source_ids": [
+          "src-comarre-primary"
+        ]
+      },
+      "nonworking": {
+        "interval": [
+          0.7,
+          1
+        ],
+        "confidence": "low",
+        "basis": "Private conscious dream experience under automatic provision supports a high illustrative estimate; useful shared mental activity would count. Neither physical sleep duration nor unconscious bodies determine the rate.",
+        "source_ids": [
+          "src-comarre-primary"
+        ]
+      }
+    },
+    "regime_primary": 5,
+    "regime_alternatives": [],
+    "qualification": "included",
+    "source_ids": [
+      "src-comarre-primary"
+    ],
+    "evidence": [
+      {
+        "claim": "The previously read primary scenes describe an automatically maintained city, machine dreams and conscious Engineers.",
+        "source_ids": [
+          "src-comarre-primary"
+        ],
+        "locator": "Previously gathered bounded primary passages; see source read_scope",
+        "kind": "depicted_or_author_stated"
+      },
+      {
+        "claim": "An awakened resident chooses to return to the dream.",
+        "source_ids": [
+          "src-comarre-primary"
+        ],
+        "locator": "Previously gathered bounded primary passages; see source read_scope",
+        "kind": "depicted_or_author_stated"
+      }
+    ],
+    "uncertainties": [
+      "An offered refuge and the loss of an old resident's former identity complicate consent.",
+      "The number of active dream circuits is approximate, not a verified population census.",
+      "The promised Third Renaissance is kept outside this snapshot."
+    ],
+    "assets": {
+      "status": "ready",
+      "image_id": "img-the-lion-of-comarre-and-against-the-fall-of-night-a6d095ea",
+      "original": "assets/images/img-the-lion-of-comarre-and-against-the-fall-of-night-a6d095ea/original.jpg",
+      "poster": "assets/images/img-the-lion-of-comarre-and-against-the-fall-of-night-a6d095ea/poster-320.webp",
+      "icon": "assets/images/img-the-lion-of-comarre-and-against-the-fall-of-night-a6d095ea/icon-32.png",
+      "source_url": "https://www.archive.org/download/lionofcomarre00clar/page/lionofcomarre00clar_preview.jpg",
+      "source_page": "https://openlibrary.org/books/OL7366033M",
+      "image_description_page": "https://covers.openlibrary.org/b/id/7125758.json",
+      "author": null,
+      "rights": {
+        "status": "unknown_cover_copyright",
+        "license": null,
+        "license_url": null,
+        "credit": "Cover indexed by Open Library / Internet Archive",
+        "original_source_url": "http://www.archive.org/download/lionofcomarre00clar/page/lionofcomarre00clar_preview.jpg",
+        "notes": "Book author is recorded separately from image artist. No image license or illustrator is supplied by the catalogue. Hosting/scanning does not imply public-domain cover art."
+      },
+      "provider": "openlibrary_bulk_archive",
+      "artwork_title": "Lion of Comarre and Against the Fall of Night",
+      "illustration_scope": "representative_work_art",
+      "scope_note": "Work/series key art; shared across the listed society periods and branches. This is not visual evidence of a selected ending. See the unchanged record scope for continuity.",
+      "shared_with": [],
+      "crop": {
+        "poster": {
+          "method": "contain",
+          "canvas": [
+            320,
+            480
+          ],
+          "content_box": [
+            2,
+            0,
+            317,
+            480
+          ]
+        },
+        "icon": {
+          "method": "square_crop",
+          "box": [
+            0,
+            498,
+            2708,
+            3206
+          ],
+          "mask": "circle at display time"
+        }
+      },
+      "dimensions": {
+        "original": [
+          2708,
+          4132
+        ],
+        "poster": [
+          320,
+          480
+        ],
+        "icon": [
+          32,
+          32
+        ]
+      },
+      "original_sha256": "57751ad44817554c664937360f9d419276beff657d62dc3cb0bfc1c9cb3e3747",
+      "accessed_on": "2026-10-17",
+      "selection_review": {
+        "status": "title_and_medium_matched",
+        "method": "Exact/near-exact catalogue title, fiction classification and/or scoped author match. Bulk archive member preferred; the original source or exact CoverID may be used when that member has not been archived.",
+        "visual_review": "reviewed_contact_sheet",
+        "reviewed_on": "2026-10-17",
+        "contact_sheet": "research/images/contact-sheets/covers-05.jpg"
+      }
+    },
+    "review": {
+      "status": "reviewed",
+      "date": "2026-10-21",
+      "method": "Article-alignment editorial review of saved lore and explicit per-record allocation choices; targeted Manna passage checked; no independent or whole-work rereading",
+      "coordinate_ready": true
+    },
+    "assessment_mode": "best_guess",
+    "canon_facts": [
+      "The previously read primary scenes describe an automatically maintained city, machine dreams and conscious Engineers.",
+      "An awakened resident chooses to return to the dream."
+    ],
+    "editorial_assumptions": [
+      "Only active conscious dream persons are included; passive sleep alone is not a beneficiary rate.",
+      "The participation estimate allows useful mental activity and is not a canonical census."
+    ],
+    "qualification_basis": "An independent technical system sustains or allocates the material environment; current wages are not its primary access rule.",
+    "qualification_confidence": "low",
+    "legacy_classification": {
+      "taxonomy_version": "pre-article-2026-10-21",
+      "record_type": "post_work",
+      "regime_primary": 5,
+      "regime_alternatives": [],
+      "regime_analogy": null
+    },
+    "taxonomy_version": "article-2026-10-21",
+    "post_work_assessment": {
+      "definition_version": "article-2026-10-21",
+      "manual_code": "a",
+      "status": "post_work",
+      "production_dependence": "reduced",
+      "wage_dependence": "secondary",
+      "allocation_mechanisms": [
+        "autonomous_system_allocation"
+      ],
+      "basis": "An independent technical system sustains or allocates the material environment; current wages are not its primary access rule.",
+      "confidence": "low",
+      "assessment_mode": "editorial_best_guess",
+      "source_ids": [
+        "src-comarre-primary"
+      ],
+      "assessed_on": "2026-10-21",
+      "participation_is_separate": true
+    },
+    "article_alignment": {
+      "version": "article-2026-10-21",
+      "article_sha256": "81a83c337be44c35b6b016768c8706b9e02a6ca20b97d17ef2013ddb90ce21f6",
+      "definition_lines": [
+        55,
+        57
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "utopia_score": 0.1,
+    "utopia_assessment": {
+      "assessment_mode": "editorial_best_guess",
+      "confidence": "low",
+      "basis": "Material comfort coexists with stagnation, loss of purpose or social fragility; this is not treated as an uncomplicated paradise.",
+      "rationale_code": "M",
+      "scope_basis": "Existing record population, continuity and period; described exploitation or exclusion qualifies enclave benefits.",
+      "source_ids": [
+        "src-comarre-primary"
+      ],
+      "assessed_on": "2026-10-21",
+      "scale_version": "1.0"
+    },
+    "popularity_score": 0.15,
+    "popularity_assessment": {
+      "assessment_mode": "editorial_best_guess",
+      "confidence": "low",
+      "subject_id": "work-039",
+      "subject": "The Lion of Comarre",
+      "subject_type": "work",
+      "basis": "The Lion of Comarre: Recognition is concentrated in a small specialist readership, subgenre, game community or online niche; limited crossover visibility.",
+      "reference_ids": [],
+      "scope_basis": "Named work or franchise recognition, inherited equally by its societies and periods; not recognition of the particular society.",
+      "audience": "international_general_cultural_recognition",
+      "assessed_on": "2026-10-22",
+      "scale_version": "recognition-2026-10-22"
+    }
+  },
+  {
+    "record_type": "post_work",
+    "id": "mudd-android-serviced-captivity",
+    "candidate_id": "c0382",
+    "name": "Star Trek — Mudd’s android-serviced captivity",
+    "work": "Star Trek: The Original Series",
+    "society": "Harry Mudd’s existing supported residence on the android planet",
+    "media": [
+      "tv"
+    ],
+    "scope": {
+      "continuity": "TOS I, Mudd",
+      "period": "Mudd’s established residence before the Enterprise escape and android reprogramming",
+      "population": "Harry Mudd, the resident living human receiving android service",
+      "human_population_proxy": false,
+      "exclusions": [
+        "Temporary Enterprise captives as a stable resident population",
+        "The unimplemented plan to control humanity",
+        "The original extinct makers",
+        "Post-reprogramming parole as an identical political system"
+      ],
+      "branch": null,
+      "player_configurable": false
+    },
+    "description": "Mudd already lives among androids that supply personal services and productive support after their makers have died. The retained unit is his narrow existing residence, not the machines’ proposed expansion across human civilization. His support does not depend on a wage or an outside human household staff. That gives the arrangement a strong material-guarantee estimate within its tiny scope. Captivity is a major restriction on freedom, but refusal to let him leave does not itself prove that food or care is withheld.\n\nThe androids ultimately constrain Mudd, so his title does not establish human control of the productive system. For the single resident, the central participation scenario assumes no ongoing useful productive role and therefore gives a nonworking fraction of one. This is a binary, very uncertain judgment: evidence of a useful continuing role would move the fraction to zero, rather than to an invented intermediate percentage. His schemes or time spent socializing are not automatically useful work. The full interval records that ambiguity. It does not expand the population to visiting officers or claim an entire human civilization already shares his support arrangement. Article-aligned classification: Technological support is allocated through membership, status or institutional authority rather than primarily purchased with current wages. Useful activity and the nonworking estimate are assessed separately.",
+    "axis": {
+      "guarantees": -0.65,
+      "control": -0.8,
+      "nonworking": 1
+    },
+    "axis_assessment": {
+      "guarantees": {
+        "interval": [
+          -0.9,
+          -0.25
+        ],
+        "confidence": "low",
+        "basis": "Existing android service supports the sole human resident without a wage; confinement is distinguished from demonstrated withdrawal of material care.",
+        "source_ids": [
+          "src-mudd-episode-reference",
+          "src-mudd-captivity-review"
+        ]
+      },
+      "control": {
+        "interval": [
+          -1,
+          -0.3
+        ],
+        "confidence": "medium",
+        "basis": "The android network overrides Mudd’s wishes, including departure, despite his apparent command over many personal services.",
+        "source_ids": [
+          "src-mudd-episode-reference",
+          "src-mudd-captivity-review"
+        ]
+      },
+      "nonworking": {
+        "interval": [
+          0,
+          1
+        ],
+        "confidence": "low",
+        "basis": "Binary scenario for the one resident: assume Mudd performs no ongoing useful productive role while androids support him. If useful work is counted, the fraction becomes zero; this is not leisure time.",
+        "source_ids": [
+          "src-mudd-episode-reference",
+          "src-mudd-captivity-review"
+        ]
+      }
+    },
+    "regime_primary": 5,
+    "regime_alternatives": [],
+    "qualification": "included",
+    "source_ids": [
+      "src-mudd-episode-reference",
+      "src-mudd-captivity-review"
+    ],
+    "evidence": [
+      {
+        "claim": "Mudd already receives android service, but the machines refuse to permit his departure.",
+        "source_ids": [
+          "src-mudd-episode-reference",
+          "src-mudd-captivity-review"
+        ],
+        "locator": "Episode/reference pre-escape residence and android agenda",
+        "kind": "secondary_episode_reference_and_criticism"
+      }
+    ],
+    "uncertainties": [
+      "A single-human continuing support unit, explicitly limited in size.",
+      "Mudd’s title is not effective productive ownership.",
+      "Only the pre-reprogramming authority is scored.",
+      "Promises to serve humanity at large are not an enacted economy.",
+      "New numeric axes are requested editorial best guesses, not canonical statistics.",
+      "Binary scenario for the one resident: assume Mudd performs no ongoing useful productive role while androids support him. If useful work is counted, the fraction becomes zero; this is not leisure time."
+    ],
+    "assets": {
+      "status": "ready",
+      "image_id": "img-star-trek-the-original-series-36d4e973",
+      "original": "assets/images/img-star-trek-the-original-series-36d4e973/original.jpg",
+      "poster": "assets/images/img-star-trek-the-original-series-36d4e973/poster-320.webp",
+      "icon": "assets/images/img-star-trek-the-original-series-36d4e973/icon-32.png",
+      "source_url": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242166.jpg",
+      "source_page": "https://www.tvmaze.com/shows/490/star-trek",
+      "image_description_page": null,
+      "author": null,
+      "rights": {
+        "status": "copyrighted_promotional_art",
+        "license": null,
+        "license_url": null,
+        "credit": "NBC",
+        "notes": "TVmaze API metadata license does not grant rights in third-party poster artwork. Artist and image license not supplied."
+      },
+      "provider": "tvmaze",
+      "artwork_title": "Star Trek",
+      "illustration_scope": "representative_work_art",
+      "scope_note": "Work/series key art; shared across the listed society periods and branches. This is not visual evidence of a selected ending. See the unchanged record scope for continuity.",
+      "shared_with": [
+        "trek-eminiar-vendikar-war-zero",
+        "trek-beta3-landru-body",
+        "trek-vaal-village-dependence",
+        "trek-yonada-oracle-support",
+        "trek-eymorg-biological-controller",
+        "trek-triskelion-provider-enclave",
+        "trek-exo3-active-android-enclave"
+      ],
+      "crop": {
+        "poster": {
+          "method": "contain",
+          "canvas": [
+            320,
+            480
+          ],
+          "content_box": [
+            0,
+            0,
+            320,
+            480
+          ]
+        },
+        "icon": {
+          "method": "square_crop",
+          "box": [
+            0,
+            245,
+            1400,
+            1645
+          ],
+          "mask": "circle at display time"
+        }
+      },
+      "dimensions": {
+        "original": [
+          1400,
+          2100
+        ],
+        "poster": [
+          320,
+          480
+        ],
+        "icon": [
+          32,
+          32
+        ]
+      },
+      "original_sha256": "ce19e3ca2d28f80d537f5737470e3bf1cc2ed40edda7d4697d3102c59711a16a",
+      "accessed_on": "2026-10-17",
+      "selection_review": {
+        "status": "title_and_medium_matched",
+        "method": "Title matched against TVmaze show search; episode groups use explicitly labeled series poster.",
+        "visual_review": "reviewed_contact_sheet",
+        "reviewed_on": "2026-10-17",
+        "contact_sheet": "research/images/contact-sheets/covers-01.jpg"
+      }
+    },
+    "review": {
+      "status": "reviewed",
+      "date": "2026-10-21",
+      "method": "Article-alignment editorial review of saved lore and explicit per-record allocation choices; targeted Manna passage checked; no independent or whole-work rereading",
+      "coordinate_ready": true
+    },
+    "assessment_mode": "best_guess",
+    "best_guess_axes": [
+      "nonworking"
+    ],
+    "qualification_basis": "Technological support is allocated through membership, status or institutional authority rather than primarily purchased with current wages.",
+    "qualification_confidence": "low",
+    "canon_facts": [
+      "Mudd already receives android service, but the machines refuse to permit his departure."
+    ],
+    "editorial_assumptions": [
+      "Binary scenario for the one resident: assume Mudd performs no ongoing useful productive role while androids support him. If useful work is counted, the fraction becomes zero; this is not leisure time."
+    ],
+    "legacy_classification": {
+      "taxonomy_version": "pre-article-2026-10-21",
+      "record_type": "post_work",
+      "regime_primary": 5,
+      "regime_alternatives": [],
+      "regime_analogy": null
+    },
+    "taxonomy_version": "article-2026-10-21",
+    "post_work_assessment": {
+      "definition_version": "article-2026-10-21",
+      "manual_code": "s",
+      "status": "post_work",
+      "production_dependence": "mixed_or_reduced",
+      "wage_dependence": "secondary",
+      "allocation_mechanisms": [
+        "status_or_institutional_allocation"
+      ],
+      "basis": "Technological support is allocated through membership, status or institutional authority rather than primarily purchased with current wages.",
+      "confidence": "low",
+      "assessment_mode": "editorial_best_guess",
+      "source_ids": [
+        "src-mudd-episode-reference",
+        "src-mudd-captivity-review"
+      ],
+      "assessed_on": "2026-10-21",
+      "participation_is_separate": true
+    },
+    "article_alignment": {
+      "version": "article-2026-10-21",
+      "article_sha256": "81a83c337be44c35b6b016768c8706b9e02a6ca20b97d17ef2013ddb90ce21f6",
+      "definition_lines": [
+        55,
+        57
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "utopia_score": -0.55,
+    "utopia_assessment": {
+      "assessment_mode": "editorial_best_guess",
+      "confidence": "low",
+      "basis": "Restricted agency, enforced conformity or unaccountable control materially qualify or outweigh the benefits of technological provision.",
+      "rationale_code": "T",
+      "scope_basis": "Existing record population, continuity and period; described exploitation or exclusion qualifies enclave benefits.",
+      "source_ids": [
+        "src-mudd-episode-reference",
+        "src-mudd-captivity-review"
+      ],
+      "assessed_on": "2026-10-21",
+      "scale_version": "1.0"
+    },
+    "popularity_score": 0.95,
+    "popularity_assessment": {
+      "assessment_mode": "editorial_best_guess",
+      "confidence": "low",
+      "subject_id": "star-trek",
+      "subject": "Star Trek",
+      "subject_type": "franchise_or_series",
+      "basis": "Star Trek: Very broad and durable international cultural visibility, reaching well beyond a specialist audience.",
+      "reference_ids": [],
+      "scope_basis": "Named work or franchise recognition, inherited equally by its societies and periods; not recognition of the particular society.",
+      "audience": "international_general_cultural_recognition",
+      "assessed_on": "2026-10-22",
+      "scale_version": "recognition-2026-10-22"
+    }
+  },
+  {
+    "record_type": "post_work",
+    "id": "eden-sara-robot-upbringing",
+    "candidate_id": "c0532",
+    "name": "Eden — Sara’s hidden robot-supported upbringing",
+    "work": "Eden",
+    "society": "The living child raised by agricultural robots outside Eden 3",
+    "media": [
+      "anime"
+    ],
+    "scope": {
+      "continuity": "2021 animated miniseries",
+      "period": "Sara’s continuing childhood before the final general-awakening resolution",
+      "population": "Sara, the living human child in the hidden household",
+      "human_population_proxy": false,
+      "exclusions": [
+        "Sleeping humans as leisure residents",
+        "Robots as additional humans",
+        "An already settled post-awakening society"
+      ],
+      "branch": null,
+      "player_configurable": false
+    },
+    "description": "Two agricultural robots raise Sara after finding her in stasis, sustaining a living human child in a continuing hidden household. The productive robot community grows food, and the child’s care is not purchased through her current wages or supplied by an ordinary human family workforce. This is a deliberately tiny automatic-support unit, rather than a claim that all preserved humans are awake and enjoying leisure. Its material-guarantee estimate is moderately strong but broad because safety depends on secrecy outside the main settlement.\n\nAutonomous robot carers provide support after ordinary human society disappears, placing control toward independent machine provision without making affection equivalent to human ownership. The central one-person scenario treats Sara as a child without a sustained work role, giving one nonworker out of one. Ordinary learning alone is not automatically useful work. A full zero-to-one interval allows the alternative that recurring farm or household help forms a real role; it never describes a percentage of her day. Sleeping humans are excluded, and the ending’s broader awakening does not establish this household’s allocation rules for everyone. Secrecy continues to qualify the otherwise substantial material floor. Article-aligned classification: Technological support is allocated through membership, status or institutional authority rather than primarily purchased with current wages. Useful activity and the nonworking estimate are assessed separately.",
+    "axis": {
+      "guarantees": -0.45,
+      "control": -0.8,
+      "nonworking": 1
+    },
+    "axis_assessment": {
+      "guarantees": {
+        "interval": [
+          -0.85,
+          0.5
+        ],
+        "confidence": "low",
+        "basis": "Continuing agricultural provision and care are real, but clandestine residence and uncertain wider protection qualify security.",
+        "source_ids": [
+          "src-eden-netflix-synopsis",
+          "src-eden-2021-reference"
+        ]
+      },
+      "control": {
+        "interval": [
+          -1,
+          -0.4
+        ],
+        "confidence": "medium",
+        "basis": "The independent robot caregivers provide resources without a current human owner; benevolence is distinct from human productive control.",
+        "source_ids": [
+          "src-eden-netflix-synopsis",
+          "src-eden-2021-reference"
+        ]
+      },
+      "nonworking": {
+        "interval": [
+          0,
+          1
+        ],
+        "confidence": "low",
+        "basis": "One-child hidden-household snapshot assumes Sara has no sustained assigned or useful productive role; ordinary learning alone is not work. Alternative zero applies if recurring farm/help duties are assumed. Binary person counts, not time.",
+        "source_ids": [
+          "src-eden-netflix-synopsis",
+          "src-eden-2021-reference"
+        ]
+      }
+    },
+    "regime_primary": 5,
+    "regime_alternatives": [
+      6
+    ],
+    "qualification": "included",
+    "source_ids": [
+      "src-eden-netflix-synopsis",
+      "src-eden-2021-reference"
+    ],
+    "evidence": [
+      {
+        "claim": "Farming robots secretly raise an awakened living human child in a safe haven.",
+        "source_ids": [
+          "src-eden-netflix-synopsis",
+          "src-eden-2021-reference"
+        ],
+        "locator": "Netflix synopsis and continuing agricultural/upbringing description",
+        "kind": "official_synopsis_and_secondary_reference"
+      }
+    ],
+    "uncertainties": [
+      "A single living human support unit, not all frozen humans.",
+      "The discovery embryo wording is not used as a verified population description.",
+      "Autonomous caring providers are distinct from human-owned appliances.",
+      "The final general awakening is not a second established welfare regime.",
+      "New coordinates are editorial scenarios rather than canonical statistics; earlier source access limits remain.",
+      "One-child hidden-household snapshot assumes Sara has no sustained assigned or useful productive role; ordinary learning alone is not work. Alternative zero applies if recurring farm/help duties are assumed. Binary person counts, not time."
+    ],
+    "assets": {
+      "status": "ready",
+      "image_id": "img-eden-2021-tv-series-604ec48d",
+      "original": "assets/images/img-eden-2021-tv-series-604ec48d/original.jpg",
+      "poster": "assets/images/img-eden-2021-tv-series-604ec48d/poster-320.webp",
+      "icon": "assets/images/img-eden-2021-tv-series-604ec48d/icon-32.png",
+      "source_url": "https://static.tvmaze.com/uploads/images/original_untouched/301/753215.jpg",
+      "source_page": "https://www.tvmaze.com/shows/45602/eden",
+      "image_description_page": null,
+      "author": null,
+      "rights": {
+        "status": "copyrighted_promotional_art",
+        "license": null,
+        "license_url": null,
+        "credit": "Netflix",
+        "notes": "TVmaze API metadata license does not grant rights in third-party poster artwork. Artist and image license not supplied."
+      },
+      "provider": "tvmaze",
+      "artwork_title": "Eden",
+      "illustration_scope": "representative_work_art",
+      "scope_note": "Work/series key art; shared across the listed society periods and branches. This is not visual evidence of a selected ending. See the unchanged record scope for continuity.",
+      "shared_with": [],
+      "crop": {
+        "poster": {
+          "method": "contain",
+          "canvas": [
+            320,
+            480
+          ],
+          "content_box": [
+            0,
+            3,
+            320,
+            477
+          ]
+        },
+        "icon": {
+          "method": "square_crop",
+          "box": [
+            0,
+            253,
+            1500,
+            1753
+          ],
+          "mask": "circle at display time"
+        }
+      },
+      "dimensions": {
+        "original": [
+          1500,
+          2222
+        ],
+        "poster": [
+          320,
+          480
+        ],
+        "icon": [
+          32,
+          32
+        ]
+      },
+      "original_sha256": "93b54f34db9ee85ffad5b95f029848bd8ceb0fb55344e51f05c09ba29ca244b5",
+      "accessed_on": "2026-10-17",
+      "selection_review": {
+        "status": "title_and_medium_matched",
+        "method": "Title matched against TVmaze show search; episode groups use explicitly labeled series poster.",
+        "visual_review": "reviewed_contact_sheet",
+        "reviewed_on": "2026-10-17",
+        "contact_sheet": "research/images/contact-sheets/covers-01.jpg"
+      }
+    },
+    "review": {
+      "status": "reviewed",
+      "date": "2026-10-21",
+      "method": "Article-alignment editorial review of saved lore and explicit per-record allocation choices; targeted Manna passage checked; no independent or whole-work rereading",
+      "coordinate_ready": true
+    },
+    "assessment_mode": "best_guess",
+    "best_guess_axes": [
+      "nonworking"
+    ],
+    "qualification_basis": "Technological support is allocated through membership, status or institutional authority rather than primarily purchased with current wages.",
+    "qualification_confidence": "low",
+    "canon_facts": [
+      "Two agricultural robots raise Sara in a hidden household outside the main settlement.",
+      "Robot agriculture continues while the wider human population remains inactive."
+    ],
+    "editorial_assumptions": [
+      "One-child hidden-household snapshot assumes Sara has no sustained assigned or useful productive role; ordinary learning alone is not work. Alternative zero applies if recurring farm/help duties are assumed. Binary person counts, not time."
+    ],
+    "legacy_classification": {
+      "taxonomy_version": "pre-article-2026-10-21",
+      "record_type": "post_work",
+      "regime_primary": 5,
+      "regime_alternatives": [
+        6
+      ],
+      "regime_analogy": null
+    },
+    "taxonomy_version": "article-2026-10-21",
+    "post_work_assessment": {
+      "definition_version": "article-2026-10-21",
+      "manual_code": "s",
+      "status": "post_work",
+      "production_dependence": "mixed_or_reduced",
+      "wage_dependence": "secondary",
+      "allocation_mechanisms": [
+        "status_or_institutional_allocation"
+      ],
+      "basis": "Technological support is allocated through membership, status or institutional authority rather than primarily purchased with current wages.",
+      "confidence": "low",
+      "assessment_mode": "editorial_best_guess",
+      "source_ids": [
+        "src-eden-netflix-synopsis",
+        "src-eden-2021-reference"
+      ],
+      "assessed_on": "2026-10-21",
+      "participation_is_separate": true
+    },
+    "article_alignment": {
+      "version": "article-2026-10-21",
+      "article_sha256": "81a83c337be44c35b6b016768c8706b9e02a6ca20b97d17ef2013ddb90ce21f6",
+      "definition_lines": [
+        55,
+        57
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "utopia_score": 0.55,
+    "utopia_assessment": {
+      "assessment_mode": "editorial_best_guess",
+      "confidence": "low",
+      "basis": "This is a narrow household, crew, project or technical cohort; its actual support is assessed without extending its conditions to an entire civilization.",
+      "rationale_code": "N",
+      "scope_basis": "Existing record population, continuity and period; described exploitation or exclusion qualifies enclave benefits.",
+      "source_ids": [
+        "src-eden-netflix-synopsis",
+        "src-eden-2021-reference"
+      ],
+      "assessed_on": "2026-10-21",
+      "scale_version": "1.0"
+    },
+    "popularity_score": 0.3,
+    "popularity_assessment": {
+      "assessment_mode": "editorial_best_guess",
+      "confidence": "low",
+      "subject_id": "work-106",
+      "subject": "Eden",
+      "subject_type": "work",
+      "basis": "Eden: An identifiable niche or cult audience, with recognition mainly within its medium, region or genre rather than the general public.",
+      "reference_ids": [],
+      "scope_basis": "Named work or franchise recognition, inherited equally by its societies and periods; not recognition of the particular society.",
+      "audience": "international_general_cultural_recognition",
+      "assessed_on": "2026-10-22",
+      "scale_version": "recognition-2026-10-22"
+    }
+  },
+  {
+    "record_type": "post_work",
+    "id": "doraemon-chamocha-before-revolt",
+    "candidate_id": "c0574",
+    "name": "Doraemon: The Tin Labyrinth — Chamocha before the revolt",
+    "work": "Doraemon: Nobita and the Tin Labyrinth",
+    "society": "Human Chamocha residents under comprehensive robot service before imprisonment",
+    "media": [
+      "anime",
+      "movie"
+    ],
+    "scope": {
+      "continuity": "1993 animated film",
+      "period": "Established robot-serviced life before Napogisutora’s open revolt",
+      "population": "Living human inhabitants of Chamocha",
+      "human_population_proxy": false,
+      "exclusions": [
+        "Earth hotel visitors as the society’s population",
+        "The imprisoned population as receiving unchanged guarantees",
+        "An enacted post-liberation zero variant",
+        "Other Doraemon robot worlds"
+      ],
+      "branch": null,
+      "player_configurable": false
+    },
+    "description": "Chamocha delegates agriculture, industry, shops, medicine, government offices and even further invention to robots. The backstory explicitly describes humans no longer needing to work, with thought interfaces and mobility capsules extending service into everyday life. This is a broad continuing support order rather than a temporary holiday hotel. Material guarantees are rated fairly strong for the established pre-revolt population, with considerable uncertainty about universal rights and exclusions. Later imprisonment is not assigned the same guarantee score.\n\nThe control best guess recognizes both initial human service commands and the robot inventor’s independent creation of further technology. Its negative but intermediate point gives growing machine autonomy substantial weight without claiming the later overthrow is already complete. A wide interval allows stronger human authority or deeper dependence than the backstory specifies. The existing high nonworking estimate follows the explicit delegation of nearly every kind of work while retaining useful exceptions such as scientific research. It is not a census. The coup changes material security, and the final pledge to rely less on robots does not establish another implemented economy with measured guarantees or participation. Article-aligned classification: Technological support is allocated through membership, status or institutional authority rather than primarily purchased with current wages. Useful activity and the nonworking estimate are assessed separately.",
+    "axis": {
+      "guarantees": -0.6,
+      "control": -0.25,
+      "nonworking": 0.95
+    },
+    "axis_assessment": {
+      "guarantees": {
+        "interval": [
+          -0.9,
+          0.25
+        ],
+        "confidence": "low",
+        "basis": "Broad real robot provision supports human life, but rights and coverage are not specified and the arrangement proves vulnerable.",
+        "source_ids": [
+          "src-b73-chamocha-work",
+          "src-b73-chamocha-plot"
+        ]
+      },
+      "control": {
+        "interval": [
+          -0.9,
+          0.45
+        ],
+        "confidence": "low",
+        "basis": "Initial human commands coexist with independent robot invention and growing practical dependence. Central scenario gives machines substantial effective autonomy without importing their later coup as already complete.",
+        "source_ids": [
+          "src-b73-chamocha-work",
+          "src-b73-chamocha-plot"
+        ]
+      },
+      "nonworking": {
+        "interval": [
+          0.7,
+          1
+        ],
+        "confidence": "low",
+        "basis": "Explicit removal of work supports a high estimate, with broad allowance for useful human research and other activity; no canonical census.",
+        "source_ids": [
+          "src-b73-chamocha-work",
+          "src-b73-chamocha-plot"
+        ]
+      }
+    },
+    "regime_primary": 1,
+    "regime_alternatives": [
+      5
+    ],
+    "qualification": "included",
+    "source_ids": [
+      "src-b73-chamocha-work",
+      "src-b73-chamocha-plot"
+    ],
+    "evidence": [
+      {
+        "claim": "Robots perform all major productive and service functions, and humans no longer need to work.",
+        "source_ids": [
+          "src-b73-chamocha-work",
+          "src-b73-chamocha-plot"
+        ],
+        "locator": "Backstory: listed robot occupations and Ime-Con dependence",
+        "kind": "indexed_primary_dialogue_and_secondary_plot"
+      }
+    ],
+    "uncertainties": [
+      "Pre-imprisonment period only; effective productive control is unresolved.",
+      "The final anti-dependency promise is not an implemented zero-variant record.",
+      "Participation is an openly noncanonical estimate.",
+      "Only the verified 1993 film continuity is tagged.",
+      "New coordinates are low-confidence scenarios, not canonical statistics; original source access limits remain.",
+      "Initial human commands coexist with independent robot invention and growing practical dependence. Central scenario gives machines substantial effective autonomy without importing their later coup as already complete."
+    ],
+    "assets": {
+      "status": "ready",
+      "image_id": "img-doraemon-nobita-and-the-tin-labyrinth-85934779",
+      "original": "assets/images/img-doraemon-nobita-and-the-tin-labyrinth-85934779/original.jpg",
+      "poster": "assets/images/img-doraemon-nobita-and-the-tin-labyrinth-85934779/poster-320.webp",
+      "icon": "assets/images/img-doraemon-nobita-and-the-tin-labyrinth-85934779/icon-32.png",
+      "source_url": "https://media.kitsu.app/anime/poster_images/2423/original.jpg",
+      "source_page": "https://kitsu.io/anime/doraemon-nobita-s-tin-plate-labyrinth",
+      "image_description_page": null,
+      "author": null,
+      "rights": {
+        "status": "copyrighted_promotional_art",
+        "license": null,
+        "license_url": null,
+        "notes": "Anime/manga catalogue poster. Artist and reusable image license not supplied."
+      },
+      "provider": "kitsu",
+      "artwork_title": "Doraemon Movie 14: Nobita to Buriki no Labyrinth",
+      "illustration_scope": "representative_work_art",
+      "scope_note": "Work/series key art; shared across the listed society periods and branches. This is not visual evidence of a selected ending. See the unchanged record scope for continuity.",
+      "shared_with": [],
+      "crop": {
+        "poster": {
+          "method": "contain",
+          "canvas": [
+            320,
+            480
+          ],
+          "content_box": [
+            0,
+            110,
+            320,
+            369
+          ]
+        },
+        "icon": {
+          "method": "square_crop",
+          "box": [
+            19,
+            0,
+            181,
+            162
+          ],
+          "mask": "circle at display time"
+        }
+      },
+      "dimensions": {
+        "original": [
+          200,
+          162
+        ],
+        "poster": [
+          320,
+          480
+        ],
+        "icon": [
+          32,
+          32
+        ]
+      },
+      "original_sha256": "a6fb9ae62d0885c4e4fdf2bfac791fd185d301783b50b6f15e7dc860631015e0",
+      "accessed_on": "2026-10-17",
+      "selection_review": {
+        "status": "title_and_medium_matched",
+        "method": "English/canonical title matched against Kitsu catalogue; movie/TV/manga subtype checked.",
+        "visual_review": "reviewed_contact_sheet",
+        "reviewed_on": "2026-10-17",
+        "contact_sheet": "research/images/contact-sheets/covers-01.jpg"
+      }
+    },
+    "review": {
+      "status": "reviewed",
+      "date": "2026-10-21",
+      "method": "Article-alignment editorial review of saved lore and explicit per-record allocation choices; targeted Manna passage checked; no independent or whole-work rereading",
+      "coordinate_ready": true
+    },
+    "assessment_mode": "best_guess",
+    "best_guess_axes": [
+      "control"
+    ],
+    "qualification_basis": "Technological support is allocated through membership, status or institutional authority rather than primarily purchased with current wages.",
+    "qualification_confidence": "low",
+    "canon_facts": [
+      "Chamocha delegates agriculture, industry, shops, medicine, administration and invention to robots.",
+      "Humans initially command services, but an independently inventive robot later overthrows them."
+    ],
+    "editorial_assumptions": [
+      "Initial human commands coexist with independent robot invention and growing practical dependence. Central scenario gives machines substantial effective autonomy without importing their later coup as already complete."
+    ],
+    "legacy_classification": {
+      "taxonomy_version": "pre-article-2026-10-21",
+      "record_type": "post_work",
+      "regime_primary": 1,
+      "regime_alternatives": [
+        5
+      ],
+      "regime_analogy": null
+    },
+    "taxonomy_version": "article-2026-10-21",
+    "post_work_assessment": {
+      "definition_version": "article-2026-10-21",
+      "manual_code": "s",
+      "status": "post_work",
+      "production_dependence": "mixed_or_reduced",
+      "wage_dependence": "secondary",
+      "allocation_mechanisms": [
+        "status_or_institutional_allocation"
+      ],
+      "basis": "Technological support is allocated through membership, status or institutional authority rather than primarily purchased with current wages.",
+      "confidence": "low",
+      "assessment_mode": "editorial_best_guess",
+      "source_ids": [
+        "src-b73-chamocha-work",
+        "src-b73-chamocha-plot"
+      ],
+      "assessed_on": "2026-10-21",
+      "participation_is_separate": true
+    },
+    "article_alignment": {
+      "version": "article-2026-10-21",
+      "article_sha256": "81a83c337be44c35b6b016768c8706b9e02a6ca20b97d17ef2013ddb90ce21f6",
+      "definition_lines": [
+        55,
+        57
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "utopia_score": -0.25,
+    "utopia_assessment": {
+      "assessment_mode": "editorial_best_guess",
+      "confidence": "low",
+      "basis": "Coerced or subordinated sentient workers bear the costs of the system; productive sophistication does not offset their loss of agency.",
+      "rationale_code": "L",
+      "scope_basis": "Existing record population, continuity and period; described exploitation or exclusion qualifies enclave benefits.",
+      "source_ids": [
+        "src-b73-chamocha-work",
+        "src-b73-chamocha-plot"
+      ],
+      "assessed_on": "2026-10-21",
+      "scale_version": "1.0"
+    },
+    "popularity_score": 0.95,
+    "popularity_assessment": {
+      "assessment_mode": "editorial_best_guess",
+      "confidence": "low",
+      "subject_id": "doraemon",
+      "subject": "Doraemon",
+      "subject_type": "franchise_or_series",
+      "basis": "Doraemon: Very broad and durable international cultural visibility, reaching well beyond a specialist audience. A major Asian and international childhood property; English-language online visibility alone would understate its reach.",
+      "reference_ids": [],
+      "scope_basis": "Named work or franchise recognition, inherited equally by its societies and periods; not recognition of the particular society.",
+      "audience": "international_general_cultural_recognition",
+      "assessed_on": "2026-10-22",
+      "scale_version": "recognition-2026-10-22"
+    }
+  },
+  {
+    "record_type": "post_work",
+    "id": "horizon-eleuthia9-first-generation",
+    "candidate_id": "c0608",
+    "name": "Horizon Zero Dawn — ELEUTHIA’s first cradle generation",
+    "work": "Horizon Zero Dawn",
+    "society": "Actual human children raised by automated cradle servitors",
+    "media": [
+      "game"
+    ],
+    "scope": {
+      "continuity": "Horizon Zero Dawn project history",
+      "period": "The first generation’s real childhood before food depletion and release",
+      "population": "Living children raised in the implemented cradle system",
+      "human_population_proxy": false,
+      "exclusions": [
+        "Unborn stored zygotes as active people",
+        "The unimplemented APOLLO-educated civilization",
+        "Later self-supporting tribes",
+        "An inexhaustible food-production system"
+      ],
+      "branch": null,
+      "player_configurable": false
+    },
+    "description": "ELEUTHIA actually births and raises a new human generation, supplying necessities through cradle facilities and robotic carers, healers and disciplinarians. These children receive support without earning wages or relying on an ongoing living human parent workforce. The record concerns that implemented childhood arrangement, rather than the entire educated civilization originally planned by Zero Dawn. Stored provisions eventually run out, forcing release into the outside world; a finite but long-running support system is not an inexhaustible cornucopia.\n\nRobotic care operates under the project’s automated management, placing effective control near the AI end for this cohort. A very high nonworking estimate is appropriate because the residents are children receiving support rather than a labor force earning necessities. A small allowance remains for useful help or care; the number is a best guess, not a register of daily activities. Childhood learning for personal development is not automatically productive work for others. The narrow denominator matters: it says nothing about whether later adult tribes must farm, hunt or maintain homes. Eventual resource exhaustion also prevents treating this temporary childhood floor as an eternal post-scarcity civilization. Article-aligned classification: Technological support is allocated through membership, status or institutional authority rather than primarily purchased with current wages. Useful activity and the nonworking estimate are assessed separately.",
+    "axis": {
+      "guarantees": -0.35,
+      "control": -0.85,
+      "nonworking": 0.95
+    },
+    "axis_assessment": {
+      "guarantees": {
+        "interval": [
+          -0.8,
+          0.65
+        ],
+        "confidence": "low",
+        "basis": "Actual childhood care persists, but finite supplies and forced release sharply bound the support promise.",
+        "source_ids": [
+          "src-b76-eleuthia"
+        ]
+      },
+      "control": {
+        "interval": [
+          -1,
+          -0.5
+        ],
+        "confidence": "medium",
+        "basis": "Machine institutions provide care after the human builders’ deaths; recipients cannot collectively direct the facilities.",
+        "source_ids": [
+          "src-b76-eleuthia"
+        ]
+      },
+      "nonworking": {
+        "interval": [
+          0.75,
+          1
+        ],
+        "confidence": "low",
+        "basis": "The scoped residents are children receiving machine care without formal production roles. Allow a small amount of useful help; learning for their own development is not automatically labor for others.",
+        "source_ids": [
+          "src-b76-eleuthia"
+        ]
+      }
+    },
+    "regime_primary": 5,
+    "regime_alternatives": [
+      6
+    ],
+    "qualification": "included",
+    "source_ids": [
+      "src-b76-eleuthia"
+    ],
+    "evidence": [
+      {
+        "claim": "The cradles successfully raise humans through servitor care, then release them when supplies fail.",
+        "source_ids": [
+          "src-b76-eleuthia"
+        ],
+        "locator": "ELEUTHIA implementation/results and first-generation release",
+        "kind": "secondary_game_reference_with_datapoint_citations"
+      }
+    ],
+    "uncertainties": [
+      "Actual cradle generation, not the complete planned civilization.",
+      "Stored food and robotic care are distinguished from unlimited production.",
+      "Finite support and failed adult transition qualify guarantees.",
+      "Unborn preserved material is not active leisure.",
+      "New numeric axes are requested editorial best guesses, not canonical statistics.",
+      "The scoped residents are children receiving machine care without formal production roles. Allow a small amount of useful help; learning for their own development is not automatically labor for others."
+    ],
+    "assets": {
+      "status": "ready",
+      "image_id": "img-horizon-zero-dawn-9e3aad66",
+      "original": "assets/images/img-horizon-zero-dawn-9e3aad66/original.jpg",
+      "poster": "assets/images/img-horizon-zero-dawn-9e3aad66/poster-320.webp",
+      "icon": "assets/images/img-horizon-zero-dawn-9e3aad66/icon-32.png",
+      "source_url": "https://upload.wikimedia.org/wikipedia/en/3/3e/Horizon_Zero_Dawn_cover_art.jpg",
+      "source_page": "https://en.wikipedia.org/wiki/Horizon_Zero_Dawn",
+      "image_description_page": null,
+      "author": null,
+      "rights": {
+        "status": "unknown",
+        "license": null,
+        "notes": "No machine-readable rights data available; no open license inferred."
+      },
+      "provider": "wikipedia",
+      "artwork_title": "Horizon Zero Dawn",
+      "illustration_scope": "representative_work_art",
+      "scope_note": "Work/series key art; shared across the listed society periods and branches. This is not visual evidence of a selected ending. See the unchanged record scope for continuity.",
+      "shared_with": [
+        "horizon-oldworld-basic-income",
+        "horizon-tribal-gaia-ecology-zero"
+      ],
+      "crop": {
+        "poster": {
+          "method": "contain",
+          "canvas": [
+            320,
+            480
+          ],
+          "content_box": [
+            0,
+            26,
+            320,
+            454
+          ]
+        },
+        "icon": {
+          "method": "square_crop",
+          "box": [
+            0,
+            32,
+            273,
+            305
+          ],
+          "mask": "circle at display time"
+        }
+      },
+      "dimensions": {
+        "original": [
+          273,
+          365
+        ],
+        "poster": [
+          320,
+          480
+        ],
+        "icon": [
+          32,
+          32
+        ]
+      },
+      "original_sha256": "c5c74db66773d79d1b8f9312333c08dc277b7807a93266e4a95823053faedd1b",
+      "accessed_on": "2026-10-17",
+      "selection_review": {
+        "status": "title_and_medium_matched",
+        "method": "Curated work alias / qualified title and medium match; source introduction retained in discovery cache.",
+        "visual_review": "reviewed_contact_sheet",
+        "reviewed_on": "2026-10-17",
+        "contact_sheet": "research/images/contact-sheets/covers-01.jpg"
+      }
+    },
+    "review": {
+      "status": "reviewed",
+      "date": "2026-10-21",
+      "method": "Article-alignment editorial review of saved lore and explicit per-record allocation choices; targeted Manna passage checked; no independent or whole-work rereading",
+      "coordinate_ready": true
+    },
+    "assessment_mode": "best_guess",
+    "best_guess_axes": [
+      "nonworking"
+    ],
+    "qualification_basis": "Technological support is allocated through membership, status or institutional authority rather than primarily purchased with current wages.",
+    "qualification_confidence": "low",
+    "canon_facts": [
+      "The cradles successfully raise humans through servitor care, then release them when supplies fail."
+    ],
+    "editorial_assumptions": [
+      "The scoped residents are children receiving machine care without formal production roles. Allow a small amount of useful help; learning for their own development is not automatically labor for others."
+    ],
+    "legacy_classification": {
+      "taxonomy_version": "pre-article-2026-10-21",
+      "record_type": "post_work",
+      "regime_primary": 5,
+      "regime_alternatives": [
+        6
+      ],
+      "regime_analogy": null
+    },
+    "taxonomy_version": "article-2026-10-21",
+    "post_work_assessment": {
+      "definition_version": "article-2026-10-21",
+      "manual_code": "s",
+      "status": "post_work",
+      "production_dependence": "mixed_or_reduced",
+      "wage_dependence": "secondary",
+      "allocation_mechanisms": [
+        "status_or_institutional_allocation"
+      ],
+      "basis": "Technological support is allocated through membership, status or institutional authority rather than primarily purchased with current wages.",
+      "confidence": "low",
+      "assessment_mode": "editorial_best_guess",
+      "source_ids": [
+        "src-b76-eleuthia"
+      ],
+      "assessed_on": "2026-10-21",
+      "participation_is_separate": true
+    },
+    "article_alignment": {
+      "version": "article-2026-10-21",
+      "article_sha256": "81a83c337be44c35b6b016768c8706b9e02a6ca20b97d17ef2013ddb90ce21f6",
+      "definition_lines": [
+        55,
+        57
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "utopia_score": 0.25,
+    "utopia_assessment": {
+      "assessment_mode": "editorial_best_guess",
+      "confidence": "low",
+      "basis": "This is a narrow household, crew, project or technical cohort; its actual support is assessed without extending its conditions to an entire civilization.",
+      "rationale_code": "N",
+      "scope_basis": "Existing record population, continuity and period; described exploitation or exclusion qualifies enclave benefits.",
+      "source_ids": [
+        "src-b76-eleuthia"
+      ],
+      "assessed_on": "2026-10-21",
+      "scale_version": "1.0"
+    },
+    "popularity_score": 0.85,
+    "popularity_assessment": {
+      "assessment_mode": "editorial_best_guess",
+      "confidence": "low",
+      "subject_id": "horizon",
+      "subject": "Horizon",
+      "subject_type": "franchise_or_series",
+      "basis": "Horizon: Broad recognition supported by substantial mainstream, international, screen, gaming or literary-cultural visibility, below the most ubiquitous brands.",
+      "reference_ids": [],
+      "scope_basis": "Named work or franchise recognition, inherited equally by its societies and periods; not recognition of the particular society.",
+      "audience": "international_general_cultural_recognition",
+      "assessed_on": "2026-10-22",
+      "scale_version": "recognition-2026-10-22"
+    }
+  },
+  {
+    "id": "aquila-rift-thom-sanctuary",
+    "candidate_id": "c0192",
+    "name": "Beyond the Aquila Rift — Thom’s simulated sanctuary",
+    "work": "Beyond the Aquila Rift",
+    "society": "Thom’s simulated sanctuary",
+    "media": [
+      "cartoon"
+    ],
+    "record_type": "post_work",
+    "scope": {
+      "continuity": "Love, Death & Robots episode",
+      "period": "The continuing sanctuary cycles before the final shown reset",
+      "population": "Living Thom; a deliberately narrow one-human beneficiary scope",
+      "human_population_proxy": false,
+      "exclusions": [
+        "Dead crewmates",
+        "All lost travelers as a universal welfare population",
+        "Original short-story institutions"
+      ],
+      "branch": null,
+      "player_configurable": false
+    },
+    "description": "Thom experiences a comforting simulated environment while a biological alien caretaker holds the real situation together. The best-guess material point concerns this narrow continued support, not a safe universal paradise. The body’s revealed condition makes guarantees weak and uncertain: virtual food or intimacy does not prove reliable physical nourishment. His living status permits a bounded support interpretation, while the duration and mechanism remain assumptions.\n\nControl belongs near concentrated non-AI alien authority, not autonomous machine government merely because a simulation is involved. The central one-person scenario gives Thom no continuing externally useful role inside the sanctuary, but the full interval allows useful mental or social activity that would instead make the fraction zero. It is not a percentage of time asleep. Dead or uncertain crewmates and other lost travelers do not enlarge this denominator, and the original story’s different continuity is not automatically tagged as the same economic arrangement. Article-aligned classification: Technological support is allocated through membership, status or institutional authority rather than primarily purchased with current wages. Useful activity and the nonworking estimate are assessed separately.",
+    "axis": {
+      "guarantees": 0.65,
+      "control": 0,
+      "nonworking": 1
+    },
+    "axis_assessment": {
+      "guarantees": {
+        "interval": [
+          0.05,
+          1
+        ],
+        "confidence": "low",
+        "basis": "Continued life is depicted but physical frailty and uncertain support undermine security.",
+        "source_ids": [
+          "src-aquila-ldr-reference",
+          "src-aquila-netflix-review"
+        ]
+      },
+      "control": {
+        "interval": [
+          0,
+          0.25
+        ],
+        "confidence": "low",
+        "basis": "A biological alien caretaker uses concentrated non-AI authority.",
+        "source_ids": [
+          "src-aquila-ldr-reference",
+          "src-aquila-netflix-review"
+        ]
+      },
+      "nonworking": {
+        "interval": [
+          0,
+          1
+        ],
+        "confidence": "low",
+        "basis": "Binary one-person scenario: no ongoing useful role is the central guess; useful activity would give zero.",
+        "source_ids": [
+          "src-aquila-ldr-reference",
+          "src-aquila-netflix-review"
+        ]
+      }
+    },
+    "regime_primary": 2,
+    "regime_alternatives": [],
+    "qualification": "included",
+    "source_ids": [
+      "src-aquila-ldr-reference",
+      "src-aquila-netflix-review"
+    ],
+    "evidence": [
+      {
+        "claim": "Thom experiences a simulation and its alien caretaker is biological.",
+        "source_ids": [
+          "src-aquila-ldr-reference",
+          "src-aquila-netflix-review"
+        ],
+        "locator": "Named setting, economy or ending passages; see source read_scope",
+        "kind": "reference_fact"
+      },
+      {
+        "claim": "The physical condition outside the simulation differs sharply from apparent comfort.",
+        "source_ids": [
+          "src-aquila-ldr-reference",
+          "src-aquila-netflix-review"
+        ],
+        "locator": "Named setting, economy or ending passages; see source read_scope",
+        "kind": "reference_fact"
+      }
+    ],
+    "uncertainties": [
+      "Bodily provision and duration are inferred, not guaranteed by virtual comfort.",
+      "The central nonworking point is a very uncertain one-person scenario."
+    ],
+    "assets": {
+      "status": "ready",
+      "image_id": "img-beyond-the-aquila-rift-love-death-robots-5e6fc242",
+      "original": "assets/images/img-beyond-the-aquila-rift-love-death-robots-5e6fc242/original.jpg",
+      "poster": "assets/images/img-beyond-the-aquila-rift-love-death-robots-5e6fc242/poster-320.webp",
+      "icon": "assets/images/img-beyond-the-aquila-rift-love-death-robots-5e6fc242/icon-32.png",
+      "source_url": "https://static.tvmaze.com/uploads/images/original_untouched/501/1253559.jpg",
+      "source_page": "https://www.tvmaze.com/shows/40329/love-death-robots",
+      "image_description_page": null,
+      "author": null,
+      "rights": {
+        "status": "copyrighted_promotional_art",
+        "license": null,
+        "license_url": null,
+        "credit": "Netflix",
+        "notes": "TVmaze API metadata license does not grant rights in third-party poster artwork. Artist and image license not supplied."
+      },
+      "provider": "tvmaze",
+      "artwork_title": "Love, Death & Robots",
+      "illustration_scope": "representative_work_art",
+      "scope_note": "Work/series key art; shared across the listed society periods and branches. This is not visual evidence of a selected ending. See the unchanged record scope for continuity.",
+      "shared_with": [
+        "sunset-city-robot-retirement",
+        "three-robots-inferred-home-order",
+        "yogurt-guided-human-zero",
+        "pop-squad-legal-immortal-city-zero",
+        "zima-blue-interstellar-art-culture"
+      ],
+      "crop": {
+        "poster": {
+          "method": "contain",
+          "canvas": [
+            320,
+            480
+          ],
+          "content_box": [
+            0,
+            3,
+            320,
+            477
+          ]
+        },
+        "icon": {
+          "method": "square_crop",
+          "box": [
+            0,
+            233,
+            1382,
+            1615
+          ],
+          "mask": "circle at display time"
+        }
+      },
+      "dimensions": {
+        "original": [
+          1382,
+          2048
+        ],
+        "poster": [
+          320,
+          480
+        ],
+        "icon": [
+          32,
+          32
+        ]
+      },
+      "original_sha256": "f6457ccbdf9ac42928259a6c7d4bdd80ed6615dfeb5756f8143ffe4464607ca3",
+      "accessed_on": "2026-10-17",
+      "selection_review": {
+        "status": "title_and_medium_matched",
+        "method": "Title matched against TVmaze show search; episode groups use explicitly labeled series poster.",
+        "visual_review": "reviewed_contact_sheet",
+        "reviewed_on": "2026-10-17",
+        "contact_sheet": "research/images/contact-sheets/covers-10.jpg"
+      }
+    },
+    "review": {
+      "status": "reviewed",
+      "date": "2026-10-21",
+      "method": "Article-alignment editorial review of saved lore and explicit per-record allocation choices; targeted Manna passage checked; no independent or whole-work rereading",
+      "coordinate_ready": true
+    },
+    "assessment_mode": "best_guess",
+    "qualification_basis": "Technological support is allocated through membership, status or institutional authority rather than primarily purchased with current wages.",
+    "qualification_confidence": "low",
+    "canon_facts": [
+      "Thom experiences a simulation and its alien caretaker is biological.",
+      "The physical condition outside the simulation differs sharply from apparent comfort."
+    ],
+    "editorial_assumptions": [
+      "Bodily provision and duration are inferred, not guaranteed by virtual comfort.",
+      "The central nonworking point is a very uncertain one-person scenario."
+    ],
+    "legacy_classification": {
+      "taxonomy_version": "pre-article-2026-10-21",
+      "record_type": "post_work",
+      "regime_primary": 3,
+      "regime_alternatives": [],
+      "regime_analogy": null
+    },
+    "taxonomy_version": "article-2026-10-21",
+    "post_work_assessment": {
+      "definition_version": "article-2026-10-21",
+      "manual_code": "s",
+      "status": "post_work",
+      "production_dependence": "mixed_or_reduced",
+      "wage_dependence": "secondary",
+      "allocation_mechanisms": [
+        "status_or_institutional_allocation"
+      ],
+      "basis": "Technological support is allocated through membership, status or institutional authority rather than primarily purchased with current wages.",
+      "confidence": "low",
+      "assessment_mode": "editorial_best_guess",
+      "source_ids": [
+        "src-aquila-ldr-reference",
+        "src-aquila-netflix-review"
+      ],
+      "assessed_on": "2026-10-21",
+      "participation_is_separate": true
+    },
+    "article_alignment": {
+      "version": "article-2026-10-21",
+      "article_sha256": "81a83c337be44c35b6b016768c8706b9e02a6ca20b97d17ef2013ddb90ce21f6",
+      "definition_lines": [
+        55,
+        57
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "utopia_score": -0.15,
+    "utopia_assessment": {
+      "assessment_mode": "editorial_best_guess",
+      "confidence": "low",
+      "basis": "Material support and protective coordination coexist with paternalism or limited control by recipients, giving a qualified or mixed assessment.",
+      "rationale_code": "P",
+      "scope_basis": "Existing record population, continuity and period; described exploitation or exclusion qualifies enclave benefits.",
+      "source_ids": [
+        "src-aquila-ldr-reference",
+        "src-aquila-netflix-review"
+      ],
+      "assessed_on": "2026-10-21",
+      "scale_version": "1.0"
+    },
+    "popularity_score": 0.75,
+    "popularity_assessment": {
+      "assessment_mode": "editorial_best_guess",
+      "confidence": "low",
+      "subject_id": "love-death-robots",
+      "subject": "Love, Death & Robots",
+      "subject_type": "franchise_or_series",
+      "basis": "Love, Death & Robots: Broad recognition supported by substantial mainstream, international, screen, gaming or literary-cultural visibility, below the most ubiquitous brands.",
+      "reference_ids": [],
+      "scope_basis": "Named work or franchise recognition, inherited equally by its societies and periods; not recognition of the particular society.",
+      "audience": "international_general_cultural_recognition",
+      "assessed_on": "2026-10-22",
+      "scale_version": "recognition-2026-10-22"
+    }
+  }
+]

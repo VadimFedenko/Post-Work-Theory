@@ -1,0 +1,16 @@
+{
+  "input_unchanged": true,
+  "n": 890,
+  "stage_counts": {
+    "zero_variant": 345,
+    "transition": 75,
+    "post_work": 470
+  },
+  "audit_rows": 890,
+  "low_cases": 11,
+  "all_zero_cases_are_reviewed": true,
+  "band_counts_complete": true,
+  "source_hash": "c61b381bc0206add377d171d368cd8d4e48e65a640a53ac2b91b5a45164ff119",
+  "bootstrap_replicates": 5000,
+  "confidence_intervals_exclude_editorial_uncertainty": true
+}

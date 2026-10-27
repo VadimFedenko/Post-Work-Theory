@@ -1,0 +1,93 @@
+{
+  "input_sha256": "c61b381bc0206add377d171d368cd8d4e48e65a640a53ac2b91b5a45164ff119",
+  "figures": [
+    {
+      "key": "02-technology-work",
+      "lang": "ru",
+      "png": "assets/infographics/article/02-technology-work-ru.png",
+      "svg": "assets/infographics/article/02-technology-work-ru.svg",
+      "width": 1600,
+      "height": 820
+    },
+    {
+      "key": "05-regime-composition",
+      "lang": "ru",
+      "png": "assets/infographics/article/05-regime-composition-ru.png",
+      "svg": "assets/infographics/article/05-regime-composition-ru.svg",
+      "width": 1600,
+      "height": 640
+    },
+    {
+      "key": "07-control-dystopia",
+      "lang": "ru",
+      "png": "assets/infographics/article/07-control-dystopia-ru.png",
+      "svg": "assets/infographics/article/07-control-dystopia-ru.svg",
+      "width": 1200,
+      "height": 410
+    },
+    {
+      "key": "02-technology-work",
+      "lang": "en",
+      "png": "assets/infographics/article/02-technology-work-en.png",
+      "svg": "assets/infographics/article/02-technology-work-en.svg",
+      "width": 1600,
+      "height": 820
+    },
+    {
+      "key": "05-regime-composition",
+      "lang": "en",
+      "png": "assets/infographics/article/05-regime-composition-en.png",
+      "svg": "assets/infographics/article/05-regime-composition-en.svg",
+      "width": 1600,
+      "height": 640
+    },
+    {
+      "key": "07-control-dystopia",
+      "lang": "en",
+      "png": "assets/infographics/article/07-control-dystopia-en.png",
+      "svg": "assets/infographics/article/07-control-dystopia-en.svg",
+      "width": 1200,
+      "height": 410
+    },
+    {
+      "key": "06-guarantees",
+      "lang": "ru",
+      "png": "assets/infographics/article/06-guarantees-ru.png",
+      "svg": "assets/infographics/article/06-guarantees-ru.svg",
+      "width": 840,
+      "height": 436,
+      "website_component": "Columns",
+      "percentages": [
+        58,
+        14
+      ]
+    },
+    {
+      "key": "06-guarantees",
+      "lang": "en",
+      "png": "assets/infographics/article/06-guarantees-en.png",
+      "svg": "assets/infographics/article/06-guarantees-en.svg",
+      "width": 840,
+      "height": 436,
+      "website_component": "Columns",
+      "percentages": [
+        58,
+        14
+      ]
+    }
+  ],
+  "reference": "reference.png",
+  "guarantees": [
+    {
+      "count": 302,
+      "total": 520,
+      "percent": 58
+    },
+    {
+      "count": 51,
+      "total": 370,
+      "percent": 14
+    }
+  ],
+  "style": "minimal inline figures; no titles, sources or commentary"
+}

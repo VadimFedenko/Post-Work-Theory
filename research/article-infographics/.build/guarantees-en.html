@@ -1,0 +1,52 @@
+<!doctype html><html><meta charset="utf-8"><style>@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;450;500;550;600;650;700;750&family=Manrope:wght@400;500;600;650;700;750;800&display=swap');
+.fun-section{--fun-red:#cf6a76;--fun-green:#64a785;--fun-label:#667469;padding:42px 28px 30px;scroll-margin-top:18px;border-top:1px solid var(--line)}
+:root[data-theme=dark] .fun-section{--fun-red:#f19a9b;--fun-green:#a1e8b7;--fun-label:#a2b0a3}
+.fun-heading{margin-bottom:36px;max-width:920px}
+.fun-heading h2{font:500 26px/1.3 'Golos Text',Arial,sans-serif;letter-spacing:-.4px;margin:0}
+.fun-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));column-gap:clamp(32px,4vw,72px);row-gap:0}
+.fun-insight{min-width:0;display:flex;flex-direction:column;padding-bottom:128px}
+.fun-insight h3{font:500 20px/1.4 'Golos Text',Arial,sans-serif;letter-spacing:-.3px;text-wrap:pretty;margin:0}
+.fun-figure{margin-top:22px;min-width:0;display:flex;flex-direction:column;align-items:stretch}
+.fun-notes{font-size:12px;line-height:1.7;color:var(--fun-label);margin-top:18px}
+.fun-notes>p{font:inherit;margin:0}
+.fun-notes>p+p{margin-top:8px}
+.fun-columns{display:flex;justify-content:space-around;gap:18px;width:100%;max-width:390px;margin:0;min-height:218px}
+.fun-columns>div{display:flex;flex-direction:column;align-items:center;flex:1;min-width:0}
+.fun-columns dt{order:2;font-size:12px;line-height:1.5;text-align:center;margin-top:13px}
+.fun-column{height:177px;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;gap:10px;margin:0}
+.fun-column-number{font:500 38px/1.1 'Manrope','Golos Text',sans-serif;letter-spacing:-1.5px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.fun-column i{display:block;width:74px;background:var(--fun-red);border-radius:2px 2px 0 0;flex-shrink:0}
+.fun-stripes{display:grid;gap:18px;margin:0;padding-top:1px}
+.fun-stripes>div{position:relative;min-height:58px;padding-bottom:22px;padding-right:75px}
+.fun-stripes dt{font-size:13px;line-height:1.5;padding-top:8px}
+.fun-stripes dd{margin:0}
+.fun-stripes strong{position:absolute;right:0;top:0;font:500 32px/1.2 'Manrope','Golos Text',sans-serif;letter-spacing:-1.3px;font-variant-numeric:tabular-nums}
+.fun-stripes i{display:block;position:absolute;bottom:0;left:0;height:15px;background:var(--fun-green);border-radius:0 2px 2px 0}
+.fun-pies{display:flex;gap:14px;justify-content:space-between;padding-top:22px;max-width:440px}
+.fun-pie-group{flex:1;min-width:0;text-align:center}
+.fun-pie{position:relative;max-width:120px;margin:auto;aspect-ratio:1}
+.fun-pie svg{display:block;width:100%;height:100%;overflow:visible}
+.fun-pie strong{position:absolute;inset:0;display:grid;place-items:center;font:500 28px/1 'Manrope','Golos Text',sans-serif;letter-spacing:-1.2px;font-variant-numeric:tabular-nums;pointer-events:none}
+.fun-pie-group>p{font-size:11px;line-height:1.5;margin:14px 0 0}
+.fun-insight-stages .fun-metric:before{content:'';display:inline-block;width:7px;height:7px;border-radius:50%;background:#f19a9b;margin-right:6px}
+.fun-models{margin:0;display:grid;gap:20px}
+.fun-models dt{display:flex;align-items:center;gap:8px;font-size:11px;color:var(--fun-label);line-height:1.5;margin-bottom:4px}
+.fun-models dd{margin:0}.fun-models dd>div{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.fun-models dd span{font-size:13px;line-height:1.55;max-width:250px}
+.fun-models strong{font:500 32px/1.2 'Manrope','Golos Text',sans-serif;letter-spacing:-1.3px;white-space:nowrap;font-variant-numeric:tabular-nums}
+.fun-work-rings{display:flex;justify-content:space-around;gap:24px;max-width:360px;margin:0;padding-top:4px}
+.fun-work-rings>div{display:flex;flex-direction:column;align-items:center;min-width:0;flex:1}
+.fun-work-rings dt{order:2;font-size:12px;line-height:1.5;margin-top:14px;text-align:center}
+.fun-work-rings dd{position:relative;width:128px;max-width:100%;aspect-ratio:1;margin:0}
+.fun-work-rings svg{width:100%;height:100%;fill:none;stroke-width:3.5}
+.fun-ring-rest{stroke:var(--line)}.fun-ring-value{stroke:var(--fun-green);stroke-linecap:round}
+.fun-work-rings strong{position:absolute;inset:0;display:grid;place-items:center;font:500 38px/1 'Manrope','Golos Text',sans-serif;letter-spacing:-1.5px;font-variant-numeric:tabular-nums}
+.fun-caption{font-size:12px;line-height:1.8;color:var(--fun-label);max-width:850px;margin:0}
+@media(min-width:1700px){.fun-section{padding-inline:40px}.fun-insight h3{font-size:22px}.fun-column-number{font-size:42px}.fun-pie{max-width:128px}.fun-pie strong{font-size:31px}.fun-stripes dt,.fun-models dd span{font-size:14px}}
+@media(max-width:1100px){.fun-grid{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:42px}.fun-insight{padding-bottom:92px}}
+@media(max-width:740px){.fun-section{padding:30px 20px 25px;scroll-margin-top:12px}.fun-heading{margin-bottom:34px}.fun-heading h2{font-size:25px}.fun-grid{column-gap:30px}.fun-insight h3{font-size:19px}.fun-column-number{font-size:32px}.fun-column i{width:58px}.fun-pie strong{font-size:23px}.fun-pies{gap:10px}.fun-pie-group>p{font-size:10px}.fun-work-rings strong{font-size:32px}.fun-stripes strong,.fun-models strong{font-size:29px}.main-nav{gap:24px}}
+@media(max-width:600px){.fun-section{padding-inline:22px}.fun-grid{display:block}.fun-insight{display:block;padding-bottom:66px}.fun-insight h3{font-size:20px;max-width:440px}.fun-figure{margin-top:22px}.fun-columns{max-width:400px;min-height:205px}.fun-column-number{font-size:38px}.fun-column i{width:70px}.fun-pie{max-width:112px}.fun-pie strong{font-size:27px}.fun-pie-group>p{font-size:11px}.fun-pies{padding-top:8px;gap:14px}.fun-models{gap:19px}.fun-models dd span{font-size:14px}.fun-models strong{font-size:34px}.fun-stripes dt{font-size:14px}.fun-stripes strong{font-size:34px}.fun-work-rings{max-width:380px;justify-content:space-around}.fun-work-rings strong{font-size:40px}.fun-caption{font-size:11px}}
+@media(max-width:360px){.fun-section{padding-inline:18px}.fun-insight h3{font-size:19px}.fun-column-number{font-size:33px}.fun-column i{width:58px}.fun-columns{gap:12px}.fun-stripes dt{font-size:12px}.fun-stripes strong{font-size:30px}.fun-pies{gap:10px}.fun-pie strong{font-size:23px}.fun-pie-group>p{font-size:10px}.fun-work-rings strong{font-size:34px}.fun-models dd span{font-size:12px}}
+@media(forced-colors:active){.fun-column i,.fun-stripes i{background:Highlight}.fun-ring-value{stroke:Highlight}.fun-ring-rest{stroke:CanvasText}}
+
+html,body{margin:0;background:white;color:#25372f;font-family:'Golos Text',Arial,sans-serif}*{box-sizing:border-box}.fun-section{width:420px;padding:0;border:0}.fun-columns{width:420px;max-width:none;margin:0;min-height:218px}</style><div class="fun-section"><dl class="fun-columns"><div><dt>Without guarantees</dt><dd class="fun-column"><span class="fun-column-number">58%</span><i aria-hidden="true" style="height:81.19999999999999px"></i></dd></div><div><dt>With guarantees</dt><dd class="fun-column"><span class="fun-column-number">14%</span><i aria-hidden="true" style="height:19.599999999999998px"></i></dd></div></dl></div></html>

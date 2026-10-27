@@ -1,4 +1,4 @@
-import { forwardRef, useCallback, useEffect, useImperativeHandle, useMemo, useRef, useState } from 'react';
+import { forwardRef, useEffect, useImperativeHandle, useMemo, useRef, useState } from 'react';
 import type { Lang, Society } from './types';
 import { copy, regimes, societyTypes } from './i18n';
 import { utopiaColor } from '../scripts/atlas-model.mjs';
@@ -13,18 +13,16 @@ import SocietyIcon from './SocietyIcon';
 import { markerShape, pentagonPoints } from '../scripts/society-status.mjs';
 
 export type Selection = { record: Society; pinned: boolean };
-export type AtlasHandle = { zoomIn: () => void; zoomOut: () => void; reset: () => void; saveImage: () => Promise<void> };
-type Props = { data: Society[]; lang: Lang; theme: string; emptyMessage: string; onZoomChange: (zoom: number) => void; onRegion: (n: number) => void; onSelect: (s: Selection | null) => void; selected: string | null; cancelClose: () => void; scheduleClose: () => void };
+export type AtlasHandle = { saveImage: () => Promise<void> };
+type Props = { data: Society[]; lang: Lang; theme: string; emptyMessage: string; onRegion: (n: number) => void; onSelect: (s: Selection | null) => void; selected: string | null; cancelClose: () => void; scheduleClose: () => void };
 type Point = { x: number; y: number; anchorX: number; anchorY: number; radius: number; record: Society };
 type FamilyLabel = { id: string; text: string; lines: string[]; x: number; y: number; w: number; h: number; leader: { x1: number; y1: number; x2: number; y2: number } | null };
 const regionOrder = [3, 4, 1, 2, 5, 6];
-const Atlas = forwardRef<AtlasHandle, Props>(function Atlas({ data, lang, theme, emptyMessage, onZoomChange, onRegion, onSelect, selected, cancelClose, scheduleClose }, ref) {
+const Atlas = forwardRef<AtlasHandle, Props>(function Atlas({ data, lang, theme, emptyMessage, onRegion, onSelect, selected, cancelClose, scheduleClose }, ref) {
   const t = copy[lang];
   const host = useRef<HTMLDivElement>(null);
   const canvas = useRef<HTMLCanvasElement>(null);
   const [size, setSize] = useState({ width: 1000, height: 700 });
-  const [view, setView] = useState({ zoom: 1, x: 0, y: 0 });
-  const drag = useRef<{ x: number; y: number; vx: number; vy: number; moved?: boolean } | null>(null);
   const hovered = useRef<string | null>(null);
   const region = useRef(-1);
   useEffect(() => {
@@ -32,12 +30,11 @@ const Atlas = forwardRef<AtlasHandle, Props>(function Atlas({ data, lang, theme,
     const observer = new ResizeObserver(([entry]) => {
       const width = Math.round(entry.contentRect.width), height = Math.round(entry.contentRect.height);
       setSize(old => old.width === width && old.height === height ? old : { width, height });
-      setView({ zoom: 1, x: 0, y: 0 });
     });
     observer.observe(host.current); return () => observer.disconnect();
   }, []);
-  useEffect(() => { setView({ zoom: 1, x: 0, y: 0 }); hovered.current = null; }, [data]);
-  const layout: Point[] = useMemo(() => {
+  useEffect(() => { hovered.current = null; }, [data]);
+  const points: Point[] = useMemo(() => {
     const w = size.width, h = size.height, labelWidth = Math.min(280, w * .43);
     const reserved = [0, 1].flatMap(side => [
       { x: side ? w - labelWidth - 8 : 8, y: 0, width: labelWidth, height: 34 },
@@ -46,7 +43,6 @@ const Atlas = forwardRef<AtlasHandle, Props>(function Atlas({ data, lang, theme,
     ]);
     return layoutSocieties(data, w, h, reserved);
   }, [data, size]);
-  const points = useMemo(() => layout.map(p => ({ ...p, x: p.x * view.zoom + view.x, y: p.y * view.zoom + view.y, anchorX: p.anchorX * view.zoom + view.x, anchorY: p.anchorY * view.zoom + view.y, radius: p.radius * Math.min(2.2, Math.sqrt(view.zoom)) })).filter(p => p.x + p.radius >= 0 && p.y + p.radius >= 0 && p.x - p.radius <= size.width && p.y - p.radius <= size.height), [layout, view, size]);
   const activePoint = points.find(p => p.record.id === selected);
   const activeFamily = activePoint ? familyKey(activePoint.record) : null;
   const familyPoints = activeFamily ? points.filter(p => familyKey(p.record) === activeFamily) : [];
@@ -59,10 +55,6 @@ const Atlas = forwardRef<AtlasHandle, Props>(function Atlas({ data, lang, theme,
   }, [points, activeFamily, size.width, size.height, lang]);
   const connections: { id: string; x1: number; y1: number; x2: number; y2: number }[] = familyConnections(activePoint, points);
   const activeLabelWidth = activePoint ? Math.min(size.width - 8, 360, activePoint.record.work.length * 6.4 + 16) : 0;
-  useEffect(() => onZoomChange(view.zoom), [view.zoom, onZoomChange]);
-  useEffect(() => {
-    if (selected && layout.some(p => p.record.id === selected) && !points.some(p => p.record.id === selected)) setView({ zoom: 1, x: 0, y: 0 });
-  }, [selected, layout, points]);
   const pointAt = (x: number, y: number) => {
     let closest: Point | null = null, distance = Infinity;
     for (const p of points) { const d = Math.hypot(p.x - x, p.y - y); if (d <= Math.max(p.radius + 2, 6) && d < distance) { closest = p; distance = d; } }
@@ -78,45 +70,38 @@ const Atlas = forwardRef<AtlasHandle, Props>(function Atlas({ data, lang, theme,
     const labelForeground = css.getPropertyValue('--map-label-foreground').trim();
     ctx.scale(dpr, dpr); ctx.clearRect(0, 0, size.width, size.height);
     ctx.font = '500 10px Arial, sans-serif'; ctx.textBaseline = 'top'; ctx.textAlign = 'left';
-    const labels = layoutAtlasLabels(points, size.width, size.height, (title: string) => ctx.measureText(title).width, { zoom: view.zoom, total: data.length, selected });
+    const labels = layoutAtlasLabels(points, size.width, size.height, (title: string) => ctx.measureText(title).width, { total: data.length, selected });
     const familyIds = new Set(hasFamily ? familyPoints.map(p => p.record.id) : []);
     for (const label of labels) {
       if (label.hidden || familyIds.has(label.id)) continue;
       ctx.fillStyle = labelBackground; ctx.beginPath(); ctx.roundRect(label.x, label.y - 1, label.w, label.h, 2); ctx.fill();
       ctx.fillStyle = labelForeground; ctx.fillText(label.title, label.x + 3, label.y);
     }
-  }, [points, size, theme, selected, data.length, view.zoom]);
-  const clampView = useCallback((zoom: number, x: number, y: number) => ({ zoom, x: Math.min(0, Math.max(size.width * (1 - zoom), x)), y: Math.min(0, Math.max(size.height * (1 - zoom), y)) }), [size]);
-  const zoom = (factor: number) => {
-    onSelect(null);
-    setView(v => { const z = Math.max(1, Math.min(8, v.zoom * factor)); return clampView(z, size.width / 2 - (size.width / 2 - v.x) * z / v.zoom, size.height / 2 - (size.height / 2 - v.y) * z / v.zoom); });
-  };
-  const reset = () => { setView({ zoom: 1, x: 0, y: 0 }); onSelect(null); };
+  }, [points, size, theme, selected, data.length]);
   useImperativeHandle(ref, () => ({
-    zoomIn: () => zoom(1.5), zoomOut: () => zoom(1 / 1.5), reset,
     saveImage: async () => {
       if (!host.current || !canvas.current) return;
-      const blob = await createAtlasPng(host.current, canvas.current, view);
+      const blob = await createAtlasPng(host.current, canvas.current);
       const url = URL.createObjectURL(blob), link = document.createElement('a');
       link.href = url; link.download = 'post-work-societies.png'; link.click(); setTimeout(() => URL.revokeObjectURL(url), 1000);
     },
   }));
   const setRegionAt = (x: number, y: number) => {
-    const wx = (x - view.x) / view.zoom / size.width, wy = (y - view.y) / view.zoom / size.height;
+    const wx = x / size.width, wy = y / size.height;
     const n = regionOrder[Math.max(0, Math.min(2, Math.floor(wy * 3))) * 2 + (wx < .5 ? 0 : 1)];
     if (n !== region.current) { region.current = n; onRegion(n); }
   };
   return <div className="map-shell" data-theme={theme}>
     <div className={'plot' + (hasFamily ? ' has-family' : '')} ref={host}>
-      <ColorField width={size.width} height={size.height} view={view} />
-      <div className="plot-grid" data-grid-step={GRID_STEP} aria-hidden="true" style={{ backgroundSize: GRID_STEP * view.zoom + 'px ' + GRID_STEP * view.zoom + 'px', backgroundPosition: view.x + 'px ' + view.y + 'px' }} />
-      <div className="axis-line vertical" style={{ left: size.width * .5 * view.zoom + view.x }} /><div className="axis-line horizontal" style={{ top: size.height * .5 * view.zoom + view.y }} />
+      <ColorField width={size.width} height={size.height} />
+      <div className="plot-grid" data-grid-step={GRID_STEP} aria-hidden="true" style={{ backgroundSize: `${GRID_STEP}px ${GRID_STEP}px` }} />
+      <div className="axis-line vertical" /><div className="axis-line horizontal" />
       {hasFamily && <svg className="family-graph" aria-hidden="true" viewBox={`0 0 ${size.width} ${size.height}`}>
         {connections.map(link => <g key={link.id} data-related-id={link.id}><line className="family-link-halo" x1={link.x1} y1={link.y1} x2={link.x2} y2={link.y2} /><line className="family-link" x1={link.x1} y1={link.y1} x2={link.x2} y2={link.y2} /></g>)}
         {familyPoints.map(p => <g key={p.record.id}>{markerShape(p.record.post_work_status) === 'circle' ? <><circle className="family-ring-halo" cx={p.x} cy={p.y} r={p.radius + 4} /><circle className="family-ring" cx={p.x} cy={p.y} r={p.radius + 4} /></> : <><polygon className="family-ring-halo" points={pentagonPoints(p.x, p.y, p.radius + 4)} /><polygon className="family-ring" points={pentagonPoints(p.x, p.y, p.radius + 4)} /></>}</g>)}
         {familyLabels.filter(label => label.leader).map(label => <line className="family-label-link" key={'label-' + label.id} x1={label.leader!.x1} y1={label.leader!.y1} x2={label.leader!.x2} y2={label.leader!.y2} />)}
       </svg>}
-      <div className={'region-labels ' + (!data.length ? 'empty' : '')} style={{ opacity: view.zoom > 2 ? 0 : 1, transform: 'translate(' + view.x + 'px,' + view.y + 'px) scale(' + view.zoom + ')', transformOrigin: '0 0' }}>
+      <div className={'region-labels ' + (!data.length ? 'empty' : '')}>
         {regionOrder.map((n, index) => {
           const corner = index !== 2 && index !== 3;
           return <button className={'regime-label direction-label label-' + index + (corner ? ' corner-label' : '')} key={n} onClick={() => onRegion(n)}>
@@ -125,19 +110,16 @@ const Atlas = forwardRef<AtlasHandle, Props>(function Atlas({ data, lang, theme,
           </button>;
         })}
       </div>
-      <canvas ref={canvas} role="img" aria-label={lang === 'ru' ? 'Карта: ' + data.length + ' отдельных обществ. ' + t.hint : 'Map: ' + data.length + ' individual societies. ' + t.hint} data-point-count={layout.length} style={{ touchAction: view.zoom > 1 ? 'none' : 'pan-y' }}
+      <canvas ref={canvas} role="img" aria-label={lang === 'ru' ? 'Карта: ' + data.length + ' отдельных обществ. ' + t.hint : 'Map: ' + data.length + ' individual societies. ' + t.hint} data-point-count={points.length}
         onPointerMove={e => {
           const r = e.currentTarget.getBoundingClientRect(), x = e.clientX - r.left, y = e.clientY - r.top;
-          if (drag.current && e.buttons && view.zoom > 1) { if (Math.hypot(x - drag.current.x, y - drag.current.y) > 4) drag.current.moved = true; setView(clampView(view.zoom, drag.current.vx + x - drag.current.x, drag.current.vy + y - drag.current.y)); return; }
           setRegionAt(x, y);
           const point = pointAt(x, y);
           if (point) { cancelClose(); if (hovered.current !== point.record.id) { hovered.current = point.record.id; onSelect({ record: point.record, pinned: false }); } }
           else { hovered.current = null; scheduleClose(); }
         }}
         onPointerLeave={scheduleClose}
-        onPointerDown={e => { if (view.zoom <= 1) return; const r = e.currentTarget.getBoundingClientRect(); drag.current = { x: e.clientX - r.left, y: e.clientY - r.top, vx: view.x, vy: view.y }; e.currentTarget.setPointerCapture(e.pointerId); onSelect(null); }}
-        onPointerUp={e => { if (!drag.current?.moved) { const r = e.currentTarget.getBoundingClientRect(); const p = pointAt(e.clientX - r.left, e.clientY - r.top); if (p) onSelect({ record: p.record, pinned: true }); } drag.current = null; if (e.currentTarget.hasPointerCapture(e.pointerId)) e.currentTarget.releasePointerCapture(e.pointerId); }}
-        onPointerCancel={() => { drag.current = null; }}
+        onPointerUp={e => { const r = e.currentTarget.getBoundingClientRect(); const p = pointAt(e.clientX - r.left, e.clientY - r.top); if (p) onSelect({ record: p.record, pinned: true }); }}
       />
       <div className="sprite-layer" role="group" aria-label={t.societies}>{[...points].reverse().map((p, index) => <button
         className={'map-sprite ' + (p.record.id === selected ? 'is-selected' : '') + (p.radius < 4.5 ? ' small-dot' : '') + (hasFamily && familyKey(p.record) === activeFamily ? ' family-member' : '')}

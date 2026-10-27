@@ -1,7 +1,7 @@
 /** Hover hides a label only after placement: its space and label limit stay reserved. */
-export function layoutAtlasLabels(points, width, height, measureText, { zoom = 1, total = points.length, selected = null } = {}) {
+export function layoutAtlasLabels(points, width, height, measureText, { total = points.length, selected = null } = {}) {
   const occupied = [], labels = [], labelWidth = Math.min(280, width * .43);
-  if (zoom === 1) for (const side of [0, 1]) for (const y of [0, height / 2 - 16, height - 34]) occupied.push({ x: side ? width - labelWidth - 8 : 8, y, w: labelWidth, h: 34 });
+  for (const side of [0, 1]) for (const y of [0, height / 2 - 16, height - 34]) occupied.push({ x: side ? width - labelWidth - 8 : 8, y, w: labelWidth, h: 34 });
   for (const p of [...points].sort((a, b) => b.record.popularity_score - a.record.popularity_score)) {
     if (labels.length >= 160 || (p.radius < 4.5 && total > 40)) continue;
     const title = p.record.work.length > 27 ? p.record.work.slice(0, 26) + '…' : p.record.work;

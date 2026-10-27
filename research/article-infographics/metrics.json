@@ -1,0 +1,49 @@
+{
+  "input_sha256": "c61b381bc0206add377d171d368cd8d4e48e65a640a53ac2b91b5a45164ff119",
+  "regimes": {
+    "1": {
+      "n": 126,
+      "negative_n": 66,
+      "negative_share": 0.5238095238095238
+    },
+    "2": {
+      "n": 109,
+      "negative_n": 98,
+      "negative_share": 0.8990825688073395
+    },
+    "3": {
+      "n": 128,
+      "negative_n": 7,
+      "negative_share": 0.0546875
+    },
+    "4": {
+      "n": 21,
+      "negative_n": 7,
+      "negative_share": 0.3333333333333333
+    },
+    "5": {
+      "n": 94,
+      "negative_n": 25,
+      "negative_share": 0.26595744680851063
+    },
+    "6": {
+      "n": 67,
+      "negative_n": 55,
+      "negative_share": 0.8208955223880597
+    }
+  },
+  "original_regime_counts": {
+    "0": 345,
+    "1": 126,
+    "2": 109,
+    "3": 128,
+    "4": 21,
+    "5": 94,
+    "6": 67
+  },
+  "stage_counts": {
+    "zero_variant": 345,
+    "transition": 75,
+    "post_work": 470
+  }
+}

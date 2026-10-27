@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { createColorField } from '../scripts/color-field.mjs';
 
-export default function ColorField({ width, height, view }: { width: number; height: number; view: { x: number; y: number; zoom: number } }) {
+export default function ColorField({ width, height }: { width: number; height: number }) {
   const canvas = useRef<HTMLCanvasElement>(null);
   useEffect(() => {
     const element = canvas.current; if (!element) return;
@@ -23,5 +23,5 @@ export default function ColorField({ width, height, view }: { width: number; hei
     render(performance.now()); reduced.addEventListener('change', restart);
     return () => { cancelAnimationFrame(request); reduced.removeEventListener('change', restart); };
   }, [width, height]);
-  return <canvas ref={canvas} className="color-field" aria-hidden="true" style={{ transform: `translate(${view.x}px,${view.y}px) scale(${view.zoom})`, transformOrigin: '0 0' }} />;
+  return <canvas ref={canvas} className="color-field" aria-hidden="true" />;
 }

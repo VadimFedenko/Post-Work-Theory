@@ -3,8 +3,11 @@ import { resolve, dirname, relative, isAbsolute } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { articleRegime } from './atlas-model.mjs';
 import { SOCIETY_STATUSES } from './society-status.mjs';
+import { validateTranslations } from './translation-data.mjs';
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const { societies, taxonomy_version } = JSON.parse(await readFile(resolve(root, 'data/societies.json'), 'utf8'));
+const translations = JSON.parse(await readFile(resolve(root, 'data/society-translations.ru.json'), 'utf8'));
+validateTranslations(societies, translations);
 const output = resolve(root, 'public');
 await mkdir(resolve(output, 'data/records'), { recursive: true });
 const ids = new Set();
@@ -32,7 +35,10 @@ for (const record of societies) {
     icon: record.assets.icon, poster: record.assets.poster,
     poster_crop: record.assets.crop.poster,
   });
-  await writeFile(resolve(output, `data/records/${record.id}.json`), JSON.stringify(record));
+  const { description, economy_basis } = translations.translations[record.id];
+  await writeFile(resolve(output, `data/records/${record.id}.json`), JSON.stringify({
+    ...record, translations: { ru: { description, economy_basis } },
+  }));
   images.add(record.assets.icon); images.add(record.assets.poster);
 }
 for (const asset of images) {

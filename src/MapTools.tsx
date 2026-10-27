@@ -1,10 +1,10 @@
 import { useEffect, useRef, useState, type RefObject } from 'react';
-import { Camera, Info, Minus, Plus, RotateCcw } from 'lucide-react';
+import { Camera, Info } from 'lucide-react';
 import type { AtlasHandle } from './Atlas';
 import type { Lang } from './types';
 import { copy } from './i18n';
 
-export default function MapTools({ atlas, zoom, ready, lang }: { atlas: RefObject<AtlasHandle | null>; zoom: number; ready: boolean; lang: Lang }) {
+export default function MapTools({ atlas, ready, lang }: { atlas: RefObject<AtlasHandle | null>; ready: boolean; lang: Lang }) {
   const t = copy[lang];
   const [help, setHelp] = useState(false), [saving, setSaving] = useState(false), [error, setError] = useState(false);
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -21,11 +21,6 @@ export default function MapTools({ atlas, zoom, ready, lang }: { atlas: RefObjec
       {help && <div className="map-help-popover" id="map-key" role="tooltip"><h3>{t.methodology}</h3><p>{t.methodologyText}</p><p>{t.estimates}</p><p>{t.legacy}</p></div>}
     </div>
     <button className="tool-button" aria-label={t.screenshot} title={t.screenshot} disabled={!ready || saving} onClick={save}><Camera size={16} className={saving ? 'saving-icon' : ''} /></button>
-    <i className="tool-divider" />
-    <button className="tool-button" aria-label={t.zoomIn} title={t.zoomIn} disabled={!ready} onClick={() => atlas.current?.zoomIn()}><Plus size={16} /></button>
-    <output className="zoom-value" aria-live="polite">{zoom.toFixed(1)}×</output>
-    <button className="tool-button" aria-label={t.zoomOut} title={t.zoomOut} disabled={!ready || zoom <= 1} onClick={() => atlas.current?.zoomOut()}><Minus size={16} /></button>
-    <button className="tool-button" aria-label={t.reset} title={t.reset} disabled={!ready} onClick={() => atlas.current?.reset()}><RotateCcw size={14} /></button>
     {error && <span role="alert" className="export-error">{t.exportError}</span>}
   </div>;
 }

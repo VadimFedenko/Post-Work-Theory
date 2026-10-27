@@ -5,6 +5,7 @@ import type { Selection } from './Atlas';
 import { allocationLabels, copy, levels, medium, regimes, societyTypeDescriptions, societyTypes, wageLabels } from './i18n';
 import { controlLevel, guaranteeLevel, societySubtitle, utopiaColor, welfareLevel, workingPercent } from '../scripts/atlas-model.mjs';
 import { familyName } from '../scripts/society-families.mjs';
+import { recordText } from '../scripts/record-localization.mjs';
 import SocietyIcon from './SocietyIcon';
 
 const cache = new Map<string, RecordDetail>();
@@ -90,7 +91,8 @@ export default function Details({ selection, lang, familyMembers, visibleIds, on
     return () => controller.abort();
   }, [record.id, retry]);
   const subtitle = societySubtitle(record);
-  const core = new Set(['id', 'name', 'work', 'society', 'media', 'description', 'axis', 'utopia_score', 'source_ids', 'popularity_score', 'popularity_assessment']);
+  const text = detail ? recordText(detail, lang) : null;
+  const core = new Set(['id', 'name', 'work', 'society', 'media', 'description', 'translations', 'axis', 'utopia_score', 'source_ids', 'popularity_score', 'popularity_assessment']);
   return <div ref={cardElement} className={`society-card ${pinned ? 'pinned' : ''} ${stacked ? 'stacked-card' : ''} ${placement ? 'floating-card' : record.axis.guarantees > .1 ? 'card-left' : ''}`} style={{ ...floatingPlacement, '--card-width': cardSize.height ? `${naturalCardWidth}px` : undefined, '--poster-width': posterWidth ? `${posterWidth}px` : undefined, '--poster-aspect': aspect } as CSSProperties} role="dialog" aria-label={record.name} onPointerEnter={onEnter} onPointerLeave={onLeave}>
     <div className="card-image"><svg key={record.poster} viewBox={`${cropLeft} ${cropTop} ${imageWidth} ${imageHeight}`} preserveAspectRatio="xMidYMid meet" role="img" aria-label={record.work}><image href={import.meta.env.BASE_URL + record.poster} width={canvasWidth} height={canvasHeight} /></svg><div className="card-regime"><span>{String(record.regime).padStart(2, '0')}</span><strong>{regimes[lang][record.regime]}</strong></div></div>
     <div className="card-content" ref={contentElement}>
@@ -102,8 +104,8 @@ export default function Details({ selection, lang, familyMembers, visibleIds, on
       <dl className="card-metrics"><div><dt>{t.controlAxis}</dt><dd>{levels[lang].control[controlLevel(record.axis.control)]}</dd></div><div><dt>{t.guaranteeAxis}</dt><dd>{levels[lang].guarantees[guaranteeLevel(record.axis.guarantees)]}</dd></div><div title={t.workingPopulationHint}><dt>{t.workingPopulation}</dt><dd>{workingPercent(record)}%</dd></div></dl>
       </header>
       <div className="card-body">
-      {detail ? <>
-        <div className="card-description" lang="en">{detail.description.split('\n').filter(Boolean).map((p, i) => <p key={i}>{p}</p>)}</div>
+      {detail && text ? <>
+        <div className="card-description" lang={text.language}>{text.description.split('\n').filter(Boolean).map((p, i) => <p key={i}>{p}</p>)}</div>
         {familyMembers.length > 1 && <section className="card-family" aria-label={t.workSeries}>
           <details className="related-societies" key={record.id}>
             <summary>{t.relatedSocieties} · {familyMembers.length}</summary>
@@ -118,7 +120,7 @@ export default function Details({ selection, lang, familyMembers, visibleIds, on
         <details className="record-details economy-details"><summary>{t.economyDetails}</summary>
           <p>{societyTypeDescriptions[lang][record.post_work_status]}</p>
           <dl className="economy-facts"><div><dt>{t.wageAccess}</dt><dd>{wageLabels[lang][detail.post_work_assessment.wage_dependence] || detail.post_work_assessment.wage_dependence}</dd></div><div><dt>{t.allocation}</dt><dd>{detail.post_work_assessment.allocation_mechanisms.map(value => allocationLabels[lang][value] || value).join('; ')}</dd></div></dl>
-          <p lang="en">{detail.post_work_assessment.basis}</p>
+          <p lang={text.language}>{text.economyBasis}</p>
         </details>
         <div className="estimate-note">{t.estimates}</div>
         <details className="record-details"><summary>{t.details}</summary><div className="full-record" lang="en">{Object.entries(detail).filter(([key]) => !core.has(key)).map(([key, value]) => <details key={key}><summary>{lang === 'ru' ? fieldNames[key] || readable(key) : readable(key)}</summary><Value value={value} /></details>)}</div></details>
