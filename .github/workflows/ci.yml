@@ -3,6 +3,11 @@ name: Check and publish site
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - README.md
+      - WEBSITE.md
+      - 'docs/**'
+      - 'research/**'
   pull_request:
   workflow_dispatch:
 

@@ -1,7 +1,7 @@
 import type { Lang, SocietyStatus } from './types';
 export const copy = {
   ru: {
-    brand: 'Посттрудовые общества', societies: 'Общества', article: 'Статья', table: 'Таблица',
+    brand: 'Посттрудовые общества', societies: 'Общества', article: 'Статья', funData: 'Интересное', table: 'Таблица',
     title: 'Посттрудовые общества', subtitle: 'Автоматизация, гарантии обеспечения и контроль над ИИ.',
     all: 'Все', books: 'Книги', movies: 'Фильмы', tv: 'Сериалы', anime: 'Аниме', games: 'Игры', comics: 'Комиксы', other: 'Другое',
     postWorkSociety: 'Посттрудовое общество', allSocieties: 'Все общества', societyType: 'Тип общества',
@@ -34,7 +34,7 @@ export const copy = {
     light: 'Светлая тема', dark: 'Тёмная тема', back: 'К карте', translation: 'Английская версия статьи пока не добавлена.', translationSub: 'Карта, таблица и описания обществ доступны на английском. Для чтения статьи переключите язык на русский.',
   },
   en: {
-    brand: 'Post-work societies', societies: 'Societies', article: 'Article', table: 'Table',
+    brand: 'Post-work societies', societies: 'Societies', article: 'Article', funData: 'Fun data', table: 'Table',
     title: 'Post-work societies', subtitle: 'Automation, material guarantees and control over AI.',
     all: 'All', books: 'Books', movies: 'Films', tv: 'TV', anime: 'Anime', games: 'Games', comics: 'Comics', other: 'Other',
     postWorkSociety: 'Post-work society', allSocieties: 'All societies', societyType: 'Society type',

@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { ArrowUpRight, ArrowLeft, BookOpen } from 'lucide-react';
-import article from '../article.txt?raw';
+import article from '../article.md?raw';
 import type { Lang } from './types';
 import { copy, regimes } from './i18n';
 import Credits from './Credits';

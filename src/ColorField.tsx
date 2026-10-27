@@ -13,8 +13,8 @@ export default function ColorField({ width, height, view }: { width: number; hei
     const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
     let request = 0, previous = -Infinity;
     const render = (now: number) => {
-      if (previous === -Infinity || (!document.hidden && now - previous >= 80)) {
-        paint(frame.data, reduced.matches ? 0 : now / 1000 * 5);
+      if (previous === -Infinity || (!document.hidden && now - previous >= 40)) {
+        paint(frame.data, reduced.matches ? 0 : now / 1000 * 10);
         ctx.putImageData(frame, 0, 0); previous = now;
       }
       if (!reduced.matches) request = requestAnimationFrame(render);

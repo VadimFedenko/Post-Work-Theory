@@ -29,12 +29,30 @@ function drawTextElement(ctx: CanvasRenderingContext2D, element: HTMLElement, or
   const paddingX = (parseFloat(css.paddingLeft) || 0) * scale;
   const paddingY = (parseFloat(css.paddingTop) || 0) * scale;
   if (box) {
-    ctx.fillStyle = css.backgroundColor; ctx.beginPath(); ctx.roundRect(x, y, bounds.width, bounds.height, 2); ctx.fill();
+    ctx.save(); ctx.translate(x, y); ctx.scale(scale, scale);
+    ctx.beginPath(); ctx.roundRect(0, 0, bounds.width / scale, bounds.height / scale, 2);
+    ctx.fillStyle = css.backgroundColor; ctx.fill(); ctx.restore();
+  }
+  if (element.matches('.regime-label,.regime-label-box')) {
+    const arrow = element.querySelector<SVGSVGElement>(':scope > .regime-arrow');
+    const polygon = arrow?.querySelector('polygon'), matrix = arrow?.getScreenCTM();
+    if (polygon && matrix) {
+      ctx.save(); ctx.transform(matrix.a, matrix.b, matrix.c, matrix.d, matrix.e - origin.left, matrix.f - origin.top);
+      ctx.beginPath();
+      for (let i = 0; i < polygon.points.numberOfItems; i++) {
+        const point = polygon.points.getItem(i);
+        if (i) ctx.lineTo(point.x, point.y); else ctx.moveTo(point.x, point.y);
+      }
+      ctx.closePath(); ctx.fillStyle = getComputedStyle(polygon).fill; ctx.fill(); ctx.restore();
+    }
+    for (const child of element.querySelectorAll<HTMLElement>(':scope > span')) {
+      drawTextElement(ctx, child, origin, element.classList.contains('direction-label'));
+    }
+    return;
   }
   ctx.font = css.fontWeight + ' ' + fontSize + 'px ' + css.fontFamily;
   ctx.fillStyle = css.color; ctx.textBaseline = 'top';
-  const number = element.matches('.regime-label') ? element.querySelector(':scope > span') : null;
-  const text = (box && number ? number.textContent + ' ' + [...element.childNodes].filter(n => n.nodeType === Node.TEXT_NODE).map(n => n.textContent).join('') : element.textContent || '').trim().replace(/\s+/g, ' ').replace(/([^\s])([↑↓])/g, '$1 $2');
+  const text = (element.textContent || '').trim().replace(/\s+/g, ' ').replace(/([^\s])([↑↓])/g, '$1 $2');
   const lines: string[] = [];
   let line = '';
   const available = Math.max(10, bounds.width - paddingX * 2);
@@ -46,6 +64,11 @@ function drawTextElement(ctx: CanvasRenderingContext2D, element: HTMLElement, or
     for (const word of text.split(' ')) {
       const next = line ? line + ' ' + word : word;
       if (line && ctx.measureText(next).width > available && lines.length < maxLines - 1) { lines.push(line); line = word; } else line = next;
+      if (css.overflowWrap === 'anywhere') while (ctx.measureText(line).width > available && lines.length < maxLines - 1) {
+        let split = line.length;
+        while (split > 1 && ctx.measureText(line.slice(0, split)).width > available) split--;
+        lines.push(line.slice(0, split)); line = line.slice(split);
+      }
     }
     if (line) lines.push(line);
   }

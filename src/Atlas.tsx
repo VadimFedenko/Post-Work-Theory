@@ -117,7 +117,13 @@ const Atlas = forwardRef<AtlasHandle, Props>(function Atlas({ data, lang, theme,
         {familyLabels.filter(label => label.leader).map(label => <line className="family-label-link" key={'label-' + label.id} x1={label.leader!.x1} y1={label.leader!.y1} x2={label.leader!.x2} y2={label.leader!.y2} />)}
       </svg>}
       <div className={'region-labels ' + (!data.length ? 'empty' : '')} style={{ opacity: view.zoom > 2 ? 0 : 1, transform: 'translate(' + view.x + 'px,' + view.y + 'px) scale(' + view.zoom + ')', transformOrigin: '0 0' }}>
-        {regionOrder.map((n, index) => <button className={'regime-label label-' + index} key={n} onClick={() => onRegion(n)}><span>{String(n).padStart(2, '0')}</span>{regimes[lang][n]}</button>)}
+        {regionOrder.map((n, index) => {
+          const corner = index !== 2 && index !== 3;
+          return <button className={'regime-label direction-label label-' + index + (corner ? ' corner-label' : '')} key={n} onClick={() => onRegion(n)}>
+            <svg className="regime-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polygon points={corner ? '2,2 16,2 16,7 10.5,7 22,18.5 18.5,22 7,10.5 7,16 2,16' : '2,12 12,2 15.5,5.5 11.5,9.5 22,9.5 22,14.5 11.5,14.5 15.5,18.5 12,22'} /></svg>
+            <span className="regime-label-box"><span className="regime-number">{String(n).padStart(2, '0')}</span><span className="regime-name">{regimes[lang][n]}</span></span>
+          </button>;
+        })}
       </div>
       <canvas ref={canvas} role="img" aria-label={lang === 'ru' ? 'Карта: ' + data.length + ' отдельных обществ. ' + t.hint : 'Map: ' + data.length + ' individual societies. ' + t.hint} data-point-count={layout.length} style={{ touchAction: view.zoom > 1 ? 'none' : 'pan-y' }}
         onPointerMove={e => {
