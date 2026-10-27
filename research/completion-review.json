@@ -1,0 +1,277 @@
+{
+  "status": "complete_under_current_user_policy",
+  "reviewed_on": "2026-10-17",
+  "policy": "Reference-led research with explicit best guesses, zero variants included, famous multimedia prioritized; no requirement to invent a canonical census or read entire obscure works.",
+  "review_method": "Assistant case-by-case source-led passes plus targeted completion review; not independent peer review and not a guarantee that every fictional interpretation is uniquely correct.",
+  "counts": {
+    "retained": 890,
+    "post_work": 404,
+    "zero_variants": 486,
+    "numeric_coordinates": 890,
+    "explicit_best_guess": 853,
+    "sources": 1308,
+    "conservative_resident_scope_subset": 510,
+    "completed_comparisons": 29,
+    "duplicate_leads": 21,
+    "remaining_reassessments": 0
+  },
+  "media_counts_nonexclusive": {
+    "book": 362,
+    "short_story": 55,
+    "web_fiction": 29,
+    "movie": 89,
+    "cartoon": 37,
+    "tv": 108,
+    "game": 139,
+    "anime": 73,
+    "play": 2,
+    "manga": 18,
+    "tabletop": 31,
+    "comic": 38,
+    "webcomic": 4,
+    "audio": 2
+  },
+  "franchise_coverage": {
+    "Cyberpunk": {
+      "count": 2,
+      "record_ids": [
+        "cyberpunk-night-city",
+        "cyberpunk-alt-blackwall-constructs"
+      ]
+    },
+    "The Matrix": {
+      "count": 5,
+      "record_ids": [
+        "matrix-pod-humanity",
+        "matrix-zion-machine-supported-commons",
+        "matrix-io-human-synthient-cooperation",
+        "animatrix-human-machine-imports",
+        "animatrix-zero-one-synthetic-citizens"
+      ]
+    },
+    "Star Wars": {
+      "count": 4,
+      "record_ids": [
+        "starwars-plazir15-droid-leisure",
+        "starwars-coruscant-droid-zero",
+        "starwars-narkina5-cheap-labor-zero",
+        "starwars-geonosis-automated-hives"
+      ]
+    },
+    "Star Trek": {
+      "count": 28,
+      "record_ids": [
+        "star-trek-federation-core",
+        "mudd-android-serviced-captivity",
+        "aldea-custodian-provision",
+        "trek-baku-chosen-handwork",
+        "trek-eminiar-vendikar-war-zero",
+        "trek-beta3-landru-body",
+        "trek-vaal-village-dependence",
+        "trek-yonada-oracle-support",
+        "trek-eymorg-biological-controller",
+        "trek-bynar-computer-integrated-economy",
+        "trek-edo-pleasure-society",
+        "trek-ferengi-replicator-zero",
+        "trek-triskelion-provider-enclave",
+        "trek-exo3-active-android-enclave",
+        "trek-borg-collective-material-order",
+        "trek-unity-exborg-cooperative",
+        "trek-lokirrim-photonic-labor",
+        "trek-pralor-automated-units",
+        "trek-dinaali-allocator-transition",
+        "trek-quarra-coerced-industrial-zero",
+        "trek-hierarchy-managed-resource-order",
+        "trek-serosian-hologram-supported-crew",
+        "trek-hirogen-holographic-enclave",
+        "trek-dominion-biological-hierarchy-zero",
+        "trek-coppelius-synthetic-commons",
+        "trek-ten-c-energy-civilization",
+        "trek-postburn-federation-support",
+        "trek-solum-precontact-technical-zero"
+      ]
+    },
+    "Marvel": {
+      "count": 4,
+      "record_ids": [
+        "mcu-wakanda-technological-zero",
+        "marvel-latveria-doom-provision",
+        "marvel-krakoa-biological-commons",
+        "marvel2099-nuevayork-corporate-zero"
+      ]
+    },
+    "DC": {
+      "count": 4,
+      "record_ids": [
+        "dc-redson-brainiac-managed-zero",
+        "dc-krypton-silver-age-robot-support",
+        "allstar-kandor-protected-city",
+        "superman-brainiac-captive-kandor"
+      ]
+    },
+    "Mass Effect": {
+      "count": 7,
+      "record_ids": [
+        "masseffect-alliance-civilian-zero",
+        "masseffect-rannoch-geth-partnership",
+        "masseffect-synthesis-cooperative-future",
+        "masseffect-control-paragon-reconstruction",
+        "masseffect-geth-consensus-material-order",
+        "masseffect-active-reaper-order",
+        "andromeda-vault-supported-angara"
+      ]
+    },
+    "Deus Ex": {
+      "count": 2,
+      "record_ids": [
+        "deusex-helios-initial-merger",
+        "invisible-war-helios-union"
+      ]
+    },
+    "BioShock": {
+      "count": 2,
+      "record_ids": [
+        "bioshock-rapture-automated-zero",
+        "bioshock-columbia-finkton-zero"
+      ]
+    },
+    "Recognizable anime examples": {
+      "count": 7,
+      "record_ids": [
+        "psychopass-sibyl-japan",
+        "ghostshell-manga-unmanned-capitalism",
+        "ghostshell-sac-automated-inequality",
+        "ergoproxy-romdeau-supported-consumerism",
+        "appleseed-olympus-technocratic-provision",
+        "doraemon-chamocha-before-revolt",
+        "gundam00-veda-esf-transition"
+      ]
+    },
+    "Popular screen examples": {
+      "count": 4,
+      "record_ids": [
+        "walle-axiom",
+        "matrix-pod-humanity",
+        "mcu-wakanda-technological-zero",
+        "starwars-plazir15-droid-leisure"
+      ]
+    }
+  },
+  "description_word_counts": {
+    "minimum": 140,
+    "median": 155.0,
+    "maximum": 194
+  },
+  "manual_completion_corrections": [
+    "Revision 048: quoted human-reserved professions and bot dentistry.",
+    "Revision 049: earlier enslaved uploads are near Jupiter, distinct from New Mars.",
+    "Revisions 053–054: Manna useful activity and Comarre active dream persons; confidence metadata normalized.",
+    "Revision 055: actual Edgerunners anime scope, First Contact medium corroboration, positive Cyberpunk source facts and wider human-derived controller alternatives."
+  ],
+  "requirements": [
+    {
+      "requirement": "Objective and conceptual inputs",
+      "outcome": "satisfied",
+      "evidence": "Attachment objective, статья.txt and coordinates.png were read; the image and six article categories agree with the saved axis conventions."
+    },
+    {
+      "requirement": "500–1000 analyzed objects",
+      "outcome": "satisfied",
+      "evidence": "890 retained records, not discovery leads; 510 pass the deliberately conservative resident-community counting rule without relying on narrowly worded employee/individual cases."
+    },
+    {
+      "requirement": "Ordered discovery and provenance",
+      "outcome": "satisfied",
+      "evidence": "784 original candidate IDs remain frozen, 149 append-only leads complete the 933-candidate ledger; 106 base batches and 55 ordered revisions preserve complete before/after history."
+    },
+    {
+      "requirement": "Named popular multimedia scope",
+      "outcome": "satisfied",
+      "evidence": "Explicit coverage checks include Cyberpunk, Matrix, Star Wars, Star Trek, Marvel/DC, Mass Effect, Deus Ex, BioShock and known anime; the first Edgerunners series has an official anime setting source."
+    },
+    {
+      "requirement": "English readable analysis",
+      "outcome": "satisfied",
+      "evidence": "All 890 names/descriptions are English and each description has at least two paragraphs and 110 words. The source-backed argument and limits are included in the data."
+    },
+    {
+      "requirement": "All three plot coordinates",
+      "outcome": "satisfied",
+      "evidence": "Every record has numeric guarantees, control and nonworking values plus bounded assessments and source references. Values are editorial estimates rather than fictional census measurements."
+    },
+    {
+      "requirement": "Article regimes and zero variants",
+      "outcome": "satisfied",
+      "evidence": "Regimes 1–6 represent the six combinations in the article. Every zero variant is separately typed with regime 0, and its analogous regime remains visible."
+    },
+    {
+      "requirement": "Useful work and person denominators",
+      "outcome": "satisfied",
+      "evidence": "Descriptions and populations retain care, voluntary useful creation, assigned work and sentient-person activity. Review corrected Manna’s unemployment shortcut and Comarre’s active dream-person scope."
+    },
+    {
+      "requirement": "Origin versus control",
+      "outcome": "satisfied",
+      "evidence": "Sibyl remains human-brain collective authority; human-derived uploads are not automatically unrelated AI. Completion review widens Alt/Control alternatives while preserving actual autonomous-machine examples."
+    },
+    {
+      "requirement": "Continuity, period and branch",
+      "outcome": "satisfied",
+      "evidence": "All records have named continuity, period, population and exclusions; selected endings, hypothetical material consequences and player configurations carry their actual scope. Logan novel/film/TV and other important variants remain separate."
+    },
+    {
+      "requirement": "Multivalued media",
+      "outcome": "satisfied",
+      "evidence": "Every record has an allowed nonempty media array. Shared material models use multiple actual media; unrelated/unreleased adaptations are not inferred from franchise labels."
+    },
+    {
+      "requirement": "Sources and limits",
+      "outcome": "satisfied",
+      "evidence": "Every record links registered sources; all sources retain access method, date, bounded read scope and limitations. Indexed excerpts and reader interpretations are identified rather than represented as complete primary reads."
+    },
+    {
+      "requirement": "Requested best guesses instead of lore skips",
+      "outcome": "satisfied",
+      "evidence": "No needs_evidence or pending decisions remain. 853 records explicitly use best_guess; 37 earlier source-led records retain evidence, uncertainties and axis assessments. Contextual mechanisms are not represented as canonical laws."
+    },
+    {
+      "requirement": "Distinctness and all dispositions",
+      "outcome": "satisfied",
+      "evidence": "21 actual shared-model leads are linked, 29 identified different-mechanism comparisons have completed assessments outside the target, and materially different cultures/periods are split rather than silently merged."
+    },
+    {
+      "requirement": "Quality follow-up",
+      "outcome": "satisfied",
+      "evidence": "The completed current-policy pass revisits old holds individually. Targeted final reviews cover named franchises, employment versus useful activity, consciousness, controller origin, media and the Jupiter/New Mars source correction; review is not independent peer review."
+    },
+    {
+      "requirement": "Research-only boundary and deferred images",
+      "outcome": "satisfied",
+      "evidence": "Only research data/utilities/docs were produced. No website/app/deployment was built. All 890 asset fields explicitly defer poster/icon collection as the user allowed."
+    },
+    {
+      "requirement": "Reproducibility",
+      "outcome": "satisfied",
+      "evidence": "Merge, validation, checkpoint and quality-audit utilities pass. A final clean-rebuild hash check covers authoritative and generated outputs after this review is recorded."
+    }
+  ],
+  "limitations": [
+    "Coordinates and many institutional details are explicitly uncertain best guesses, as requested; they are not canonical statistics.",
+    "Some records are projected or historical reconstructions, and some are narrow household/work/proxy comparisons. Their actual scope is not a universal claim about an entire franchise.",
+    "Source references preserve what was read, including bounded indexes and criticism. This review does not claim all URLs are currently reachable or that the whole works were read.",
+    "Conscious synthetic/collective person cases are comparative and keep their assumptions visible.",
+    "Images remain deferred; no site or deployment is delivered."
+  ],
+  "reviewed_core_sha256": {
+    "data/societies.json": "83205ed345f5b90e72beeb0731f7bcdc68494fdcc36c746613d5998d22ff8364",
+    "data/decisions.json": "cdede5b524688ec394b09a42341422a92d8f3eee566b1abc2e2a7694ec867372",
+    "data/sources.json": "d7dff813931937aeca75032e13755fa324b265ad91a74cd59ba7aec14d219666",
+    "data/comparisons.json": "e72d6a5927ff41fc9419c05807b634a53eac4b95d10dcdc36ddbd399d00950b3",
+    "data/candidates.json": "84267b0f4bfce365af39b5bd2fec9544abe79afdf102a13897154e222acc6a60",
+    "data/candidates-expansion.json": "d592d71c916562a9c16cfd298ea07c0319744bd44027e077c4e15987a766dda3",
+    "research/methodology.md": "b8a0e2b08637afd759add0dd1ad878b2207d50fa99f4bfb5a6d83f73e9c2c0df",
+    "research/user-clarifications.md": "737e4e609304e7c879a0f8e74424b52e17ebcf0a8acacf82acf0a7a0bf8a6357",
+    "статья.txt": "44e94fe9d4cc5bf50b5be325665668ddc9ce9de8c648aa87169038e1e68c2f48",
+    "coordinates.png": "9b04c5832c12ce3c51c602fe5e18482efdc8955379f3789e0f57f9180fce1712"
+  }
+}

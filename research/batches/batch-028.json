@@ -1,0 +1,345 @@
+{
+  "batch_id": "batch-028",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0148",
+    "c0149",
+    "c0150",
+    "c0151",
+    "c0152"
+  ],
+  "sources": [
+    {
+      "id": "src-glasshouse-nepveu",
+      "title": "Stross, Charles: Glasshouse",
+      "author": "Kate Nepveu, Outside of a Dog, 27 June 2007",
+      "url": "https://steelypips.org/weblog/2007/06/stross_glasshouse/",
+      "kind": "secondary_literary_review_with_primary_excerpt",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public review and quoted experimental briefing read",
+      "read_scope": "Free assemblers outside; restricted fabricators, wages and assigned roles inside.",
+      "limitations": "The briefing is a character's explanation; the review corroborates implementation. The review's criticism is not accepted as canon."
+    },
+    {
+      "id": "src-glasshouse-duchamp",
+      "title": "Glasshouse by Charles Stross",
+      "author": "L. Timmel Duchamp, Strange Horizons, 16 October 2006",
+      "url": "https://strangehorizons.com/wordpress/non-fiction/reviews/glasshouse-by-charles-stross/",
+      "kind": "secondary_literary_review",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed review read",
+      "read_scope": "Invisible Republic's access, human experimenters, loss of civil rights, pretend jobs and manufactured scarcity.",
+      "limitations": "Indexed access, not a full novel read. The critic flags inconsistencies about money and motivation; those limits remain visible."
+    },
+    {
+      "id": "src-glasshouse-hatrack",
+      "title": "Charles Stross - Glasshouse",
+      "author": "The Hat Rack, March 2012",
+      "url": "https://evilhat.blogspot.com/2012/03/charles-stross-glasshouse.html",
+      "kind": "secondary_literary_review",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed economic discussion read",
+      "read_scope": "A-gates' fabrication capacity and ambiguity between abundance and continuing money references.",
+      "limitations": "Critical interpretation with novel page references; it does not establish an outside constitution or all-resident leisure rate."
+    },
+    {
+      "id": "src-saturn-children-publisher",
+      "title": "Saturn's Children",
+      "author": "Penguin Random House / Ace",
+      "url": "https://www.penguinrandomhouse.com/books/298976/saturns-children-by-charles-stross/9781440634840/",
+      "kind": "official_publisher_description",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public publisher description read",
+      "read_scope": "Human extinction, android rulers and slave-chipped workers.",
+      "limitations": "Synopsis only. Robot citizens doing work do not automatically provide a human post-work participation denominator."
+    },
+    {
+      "id": "src-neptunes-brood-publisher",
+      "title": "Neptune's Brood",
+      "author": "Penguin publisher description reproduced by Google Books",
+      "url": "https://books.google.com/books/about/Neptune_s_Brood.html?id=-7qLDQAAQBAJ",
+      "kind": "publisher_description_and_bibliography",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public publisher-supplied description read",
+      "read_scope": "Metahumans descended from robots; extinct biological humanity; finance-centered plot.",
+      "limitations": "No general labor-independent provision arrangement established by this synopsis."
+    },
+    {
+      "id": "src-stross-sfe",
+      "title": "Stross, Charles",
+      "author": "The Encyclopedia of Science Fiction, Graham Sleight / David Langford",
+      "url": "https://sf-encyclopedia.com/entry/stross_charles",
+      "kind": "secondary_specialist_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Relevant novel entries read",
+      "read_scope": "Distinct Stross continuities; Glasshouse's artificial social system and Neptune's Brood's interstellar credit economy.",
+      "limitations": "Bibliographic and broad setting support; slow-money technology alone does not prove a post-work economy."
+    }
+  ],
+  "societies": [
+    {
+      "id": "glasshouse-invisible-republic",
+      "candidate_id": "c0149",
+      "name": "Glasshouse (The Invisible Republic)",
+      "work": "Glasshouse",
+      "society": "The outside posthuman polity from which the Glasshouse recruits volunteers",
+      "media": [
+        "book"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Stross's standalone Glasshouse novel",
+        "period": "The outside setting before Robin enters the closed experiment",
+        "population": "Active human-derived residents of the depicted outside polity",
+        "human_population_proxy": true,
+        "exclusions": [
+          "The experimental Glasshouse population",
+          "Every wormhole-connected polity given one constitution",
+          "Passive backups counted as active people"
+        ],
+        "branch": null,
+        "player_configurable": false,
+        "proxy_basis": "Active posthuman persons are the denominator; body changes and backups do not automatically add residents."
+      },
+      "description": "The outside society gives residents access to assemblers that can supply structures and everyday goods without an ordinary wage-funded purchase. The reviews emphasize that the sharp restrictions on fabrication appear after entering the Glasshouse. This supports strong material provision in the depicted outside polity. Money and failed ventures still appear, so the assessment concerns basic access, rather than claiming that every scarce service or economic distinction has vanished.\n\nIndividuals can request and use productive capacity, favoring dispersed effective human control. The estimate remains broad because the sources do not establish equal ownership or a complete political constitution. Posthumans can change bodies and use backups, but active people, rather than stored files, form the population. Chosen useful activity still counts as work; a post-scarcity label supplies no participation census. The record is bounded to the outside community and does not extend its guarantees to every connected polity.",
+      "axis": {
+        "guarantees": -0.8,
+        "control": 0.7,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.95,
+            -0.55
+          ],
+          "confidence": "medium",
+          "basis": "Ordinary fabrication is accessible without the experiment's wage barrier. Continuing money references limit a claim of unlimited access to everything.",
+          "source_ids": [
+            "src-glasshouse-nepveu",
+            "src-glasshouse-hatrack"
+          ]
+        },
+        "control": {
+          "interval": [
+            0.2,
+            0.95
+          ],
+          "confidence": "low",
+          "basis": "Individuals can request structures and goods; this supports dispersed use, with ownership and binding political authority still incompletely documented.",
+          "source_ids": [
+            "src-glasshouse-nepveu",
+            "src-glasshouse-hatrack"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "The references establish access, not the share of active people doing no useful work.",
+          "source_ids": [
+            "src-glasshouse-nepveu",
+            "src-glasshouse-hatrack"
+          ]
+        }
+      },
+      "regime_primary": 2,
+      "regime_alternatives": [
+        1
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-glasshouse-nepveu",
+        "src-glasshouse-hatrack",
+        "src-glasshouse-duchamp",
+        "src-stross-sfe"
+      ],
+      "evidence": [
+        {
+          "claim": "Free assembler access outside contrasts with the experiment's restricted production.",
+          "source_ids": [
+            "src-glasshouse-nepveu"
+          ],
+          "locator": "Quoted pre-entry briefing and the review's discussion",
+          "kind": "primary_excerpt_with_secondary_context"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led assessment; outside money and scarcity are inconsistently explained in the consulted criticism.",
+        "Distributed access does not settle legal ownership; regime 1 remains an alternative.",
+        "No full novel read or all-age participation census is claimed."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "glasshouse-experimental-polity",
+      "candidate_id": "c0150",
+      "name": "Glasshouse (The experimental closed polity)",
+      "work": "Glasshouse",
+      "society": "The imposed scarcity economy inside the Glasshouse",
+      "media": [
+        "book"
+      ],
+      "record_type": "zero_variant",
+      "scope": {
+        "continuity": "Stross's standalone Glasshouse novel",
+        "period": "The experiment under its directors, before their system is defeated",
+        "population": "Active human-derived participants confined to assigned human bodies",
+        "human_population_proxy": true,
+        "exclusions": [
+          "The Invisible Republic outside",
+          "The directors' recruitment promises treated as a guaranteed outcome",
+          "Passive backups counted as leisure citizens"
+        ],
+        "branch": null,
+        "player_configurable": false,
+        "proxy_basis": "The participants are active human-derived persons; their assigned bodies do not erase continuity of personhood."
+      },
+      "description": "The Glasshouse deliberately restricts manufacturing technology already available to its organizers. Participants must obtain goods from limited fabricators, earn money through assigned jobs and fit imposed social roles. This makes it a clear zero variant: work and payment are restored as conditions of access inside an economy whose productive scarcity is engineered. The arrangement is enacted, even though recruitment presents it as a temporary historical experiment.\n\nControl is concentrated in the directors, human-derived people using advanced technology to regulate residents. It is therefore near the human-elite end of the axis rather than autonomous AI rule. Basic provision is conditional and the subjects lose important protections, so the guarantee score is weak despite the claimed intention to avoid starvation. Conformity points and promised later bonuses must not be mistaken for unconditional benefits. Useful care still counts as work, and the references do not provide a defensible all-participant nonworking rate. The outside polity receives a separate record.",
+      "axis": {
+        "guarantees": 0.5,
+        "control": 0.03,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            0.2,
+            0.85
+          ],
+          "confidence": "medium",
+          "basis": "Restricted access and wage dependence qualify the promised basic floor; actual coercion prevents treating recruitment assurances as unconditional security.",
+          "source_ids": [
+            "src-glasshouse-nepveu",
+            "src-glasshouse-duchamp"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.15
+          ],
+          "confidence": "high",
+          "basis": "The directors impose the rules and technological limits on confined participants; no autonomous AI government is established.",
+          "source_ids": [
+            "src-glasshouse-duchamp"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Assigned jobs and care remain, but the reviews supply no all-participant census.",
+          "source_ids": [
+            "src-glasshouse-duchamp"
+          ]
+        }
+      },
+      "regime_primary": 0,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-glasshouse-nepveu",
+        "src-glasshouse-hatrack",
+        "src-glasshouse-duchamp",
+        "src-stross-sfe"
+      ],
+      "evidence": [
+        {
+          "claim": "The directors create a fake money economy and jobs while withholding advanced access and civil protections.",
+          "source_ids": [
+            "src-glasshouse-duchamp"
+          ],
+          "locator": "Opening review paragraphs and discussion of the imposed economy",
+          "kind": "secondary_lore_report"
+        }
+      ],
+      "uncertainties": [
+        "Some remaining activities can be useful; the zero classification concerns the deliberately restored employment-access mechanism.",
+        "The imposed historical reconstruction is inaccurate within the story and is not a factual account of twentieth-century life."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      },
+      "regime_analogy": 3
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0148",
+      "status": "needs_evidence",
+      "reason": "Saturnian refugee communities are distinct, but the short reference check does not settle their general access and control arrangements.",
+      "source_ids": [
+        "src-accelerando-reference",
+        "src-accelerando-gebhart"
+      ],
+      "analysis": "Refugee rescue and human elections do not by themselves establish universal material guarantees or ownership of the production system.",
+      "follow_up": "Skip primary-text reconstruction under the faster-pass instruction; do not copy the inner-system coordinates into this local polity."
+    },
+    {
+      "candidate_id": "c0149",
+      "status": "included",
+      "reason": "Reviews establish accessible assembler production outside the experiment, with qualified dispersed use.",
+      "source_ids": [
+        "src-glasshouse-nepveu",
+        "src-glasshouse-hatrack",
+        "src-glasshouse-duchamp"
+      ],
+      "society_id": "glasshouse-invisible-republic"
+    },
+    {
+      "candidate_id": "c0150",
+      "status": "zero_variant",
+      "reason": "The directors deliberately restore wage dependence and restricted fabrication despite available abundance technology.",
+      "source_ids": [
+        "src-glasshouse-nepveu",
+        "src-glasshouse-hatrack",
+        "src-glasshouse-duchamp"
+      ],
+      "society_id": "glasshouse-experimental-polity"
+    },
+    {
+      "candidate_id": "c0151",
+      "status": "boundary_case",
+      "reason": "The depicted robot hierarchy has working slaves after human extinction, not a living human leisure population.",
+      "source_ids": [
+        "src-saturn-children-publisher"
+      ],
+      "analysis": "An android society is not disqualified merely for being artificial, but no distinct labor-independent person-level support system is established here; extinction cannot supply a nonworking fraction.",
+      "follow_up": "Preserve as a robot labor/slavery comparison and skip deeper reading."
+    },
+    {
+      "candidate_id": "c0152",
+      "status": "boundary_case",
+      "reason": "An interstellar metahuman credit economy does not itself establish release from useful labor or labor-dependent access.",
+      "source_ids": [
+        "src-neptunes-brood-publisher",
+        "src-stross-sfe"
+      ],
+      "analysis": "The protagonists are robot-descended metahumans in a finance and colonization system. Advanced bodies and slow credit are not a verified automatic-support arrangement.",
+      "follow_up": "Skip deeper reading; reconsider only on a clear general production/allocation reference."
+    }
+  ],
+  "review_notes": [
+    "Reference-led faster pass. Two Glasshouse points reflect materially different access rules and authority, not separate editions of one unchanged society.",
+    "The experiment is a strong zero variant because restrictions and employment are deliberately introduced despite the external fabrication technology. Recruitment promises are not accepted as guaranteed results.",
+    "Saturn's local refugee economy remains separate from Economics 2.0. Artificial-person labor societies are comparisons unless a support arrangement and relevant denominator are established.",
+    "Second pass checked distinctness, proxies and claim support against the references; no full novel read or independent review is claimed."
+  ]
+}

@@ -1,0 +1,1419 @@
+{
+  "schema_version": "1.1",
+  "taxonomy_version": "article-2026-10-21",
+  "comparisons": [
+    {
+      "candidate_id": "c0013",
+      "decision_status": "supplementary",
+      "reassessed_on": "2026-10-21",
+      "name": "The Futurological Congress (chemical apparent abundance)",
+      "media": [
+        "book"
+      ],
+      "scope": "Lem’s novel: actual embodied society beneath chemically perceived abundance; not the film adaptation",
+      "axis": {
+        "guarantees": 0.95,
+        "control": 0.03,
+        "nonworking": 0.3
+      },
+      "intervals": {
+        "guarantees": [
+          0.55,
+          1
+        ],
+        "control": [
+          -0.6,
+          0.4
+        ],
+        "nonworking": [
+          0.02,
+          0.95
+        ]
+      },
+      "confidence": "low",
+      "canon_facts": [
+        "The institutional overview describes nested hallucinations and chemical governance concealing the difference between apparent and material abundance."
+      ],
+      "editorial_assumptions": [
+        "Coordinates concern actual material support rather than apparent wealth.",
+        "Perception management is not assumed to supply the imagined goods."
+      ],
+      "source_ids": [
+        "src-lem-culturepl"
+      ],
+      "counted_toward_goal": false,
+      "article_fit": {
+        "status": "post_work",
+        "regime_primary": 2,
+        "basis": "Article interpretation of a deprived, chemically pacified post-wage society.",
+        "confidence": "low",
+        "definition_version": "article-2026-10-21"
+      },
+      "record_type": "post_work",
+      "regime_primary": 2,
+      "regime_alternatives": [
+        1
+      ],
+      "taxonomy_version": "article-2026-10-21",
+      "publication_status": "supplementary_scored_record",
+      "qualification_basis": "Article-specific post-wage interpretation; physical scarcity does not imply a wage economy."
+    },
+    {
+      "candidate_id": "c0038",
+      "decision_status": "boundary_case",
+      "reassessed_on": "2026-10-21",
+      "name": "Foundation and Earth (Daneel’s cross-society influence)",
+      "media": [
+        "book"
+      ],
+      "scope": "The named perception-management or cross-society mechanism, not a single verified automated recipient economy",
+      "axis": {
+        "guarantees": 0.6,
+        "control": -0.8,
+        "nonworking": 0.3
+      },
+      "intervals": {
+        "guarantees": [
+          -0.95,
+          1
+        ],
+        "control": [
+          -1,
+          0.85
+        ],
+        "nonworking": [
+          0,
+          0.98
+        ]
+      },
+      "confidence": "low",
+      "canon_facts": [
+        "Daneel describes long intervention, its limits and Gaia in the final conversation."
+      ],
+      "editorial_assumptions": [
+        "The comparison is cross-society influence, not one shared allocation institution.",
+        "Galaxia remains a proposal rather than a completed uniform galaxy."
+      ],
+      "source_ids": [
+        "src-foundation-earth-primary"
+      ],
+      "counted_toward_goal": false,
+      "article_fit": {
+        "status": "not_applicable",
+        "regime_primary": null,
+        "basis": "The scored unit is a failed plan, intervention, remnant or non-recipient mechanism rather than a demonstrated continuing allocation society; see its explicit scope.",
+        "confidence": "low",
+        "definition_version": "article-2026-10-21"
+      }
+    },
+    {
+      "candidate_id": "c0074",
+      "decision_status": "boundary_case",
+      "reassessed_on": "2026-10-21",
+      "name": "Time Odyssey (Firstborn species management)",
+      "media": [
+        "book"
+      ],
+      "scope": "The named intervention/disguise mechanism; actual living participants only",
+      "axis": {
+        "guarantees": 0.95,
+        "control": 0.02,
+        "nonworking": 0.25
+      },
+      "intervals": {
+        "guarantees": [
+          0.5,
+          1
+        ],
+        "control": [
+          -1,
+          0.4
+        ],
+        "nonworking": [
+          0,
+          0.95
+        ]
+      },
+      "confidence": "low",
+      "canon_facts": [
+        "The Firstborn create Mir and carry out destructive interventions and renewed threats."
+      ],
+      "editorial_assumptions": [
+        "Cross-society species management is not one common allocation economy.",
+        "Alien power is not automatically AI sovereignty; living participation is analogical."
+      ],
+      "source_ids": [
+        "src-time-firstborn-publisher",
+        "src-time-series-publisher"
+      ],
+      "counted_toward_goal": false,
+      "article_fit": {
+        "status": "not_applicable",
+        "regime_primary": null,
+        "basis": "The scored unit is a failed plan, intervention, remnant or non-recipient mechanism rather than a demonstrated continuing allocation society; see its explicit scope.",
+        "confidence": "low",
+        "definition_version": "article-2026-10-21"
+      }
+    },
+    {
+      "candidate_id": "c0077",
+      "decision_status": "boundary_case",
+      "reassessed_on": "2026-10-21",
+      "name": "The Star Diaries: Eleventh Voyage (the human-operated robot state)",
+      "media": [
+        "short_story"
+      ],
+      "scope": "The named intervention/disguise mechanism; actual living participants only",
+      "axis": {
+        "guarantees": 0.55,
+        "control": 0.03,
+        "nonworking": 0
+      },
+      "intervals": {
+        "guarantees": [
+          -0.6,
+          1
+        ],
+        "control": [
+          0,
+          0.45
+        ],
+        "nonworking": [
+          0,
+          0.85
+        ]
+      },
+      "confidence": "low",
+      "canon_facts": [
+        "The apparent robot polity is exposed as a human intelligence-service operation with a clerk inside the Calculator."
+      ],
+      "editorial_assumptions": [
+        "Active assigned personnel form the narrow work comparison.",
+        "Disguise is not assumed to establish autonomous material provision."
+      ],
+      "source_ids": [
+        "src-lem-eleventh-primary"
+      ],
+      "counted_toward_goal": false,
+      "article_fit": {
+        "status": "zero_variant",
+        "regime_primary": 0,
+        "basis": "The apparent robot state is a human intelligence operation; the ending does not establish autonomous technical provision.",
+        "confidence": "low",
+        "definition_version": "article-2026-10-21"
+      },
+      "article_discrepancy": "The article uses the apparent robot state as type 6, but the checked primary ending reveals a human intelligence operation and a clerk inside the Calculator. Type 6 describes only the presented facade, not the actual autonomous polity."
+    },
+    {
+      "candidate_id": "c0082",
+      "decision_status": "boundary_case",
+      "reassessed_on": "2026-10-21",
+      "name": "Peace on Earth (the lunar weapons ecology)",
+      "media": [
+        "book"
+      ],
+      "scope": "Autonomous lunar arsenals and factories; temporary investigator excluded",
+      "axis": {
+        "guarantees": 0.98,
+        "control": -1,
+        "nonworking": null
+      },
+      "intervals": {
+        "guarantees": [
+          0.8,
+          1
+        ],
+        "control": [
+          -1,
+          -0.9
+        ],
+        "nonworking": null
+      },
+      "confidence": "low",
+      "canon_facts": [
+        "National arsenals and factories move to the Moon to evolve independently; an investigator visits from Earth."
+      ],
+      "editorial_assumptions": [
+        "The selected weapons ecology is not a resident civilian recipient institution.",
+        "Autonomous machinery is not automatically a population of conscious nonworkers."
+      ],
+      "not_applicable_axes": {
+        "nonworking": "No active civilian person recipient cohort in the selected weapons-ecology unit; equipment and a temporary investigator are not a leisure population."
+      },
+      "source_ids": [
+        "src-peace-earth-official"
+      ],
+      "counted_toward_goal": false,
+      "article_fit": {
+        "status": "not_applicable",
+        "regime_primary": null,
+        "basis": "The scored unit is a failed plan, intervention, remnant or non-recipient mechanism rather than a demonstrated continuing allocation society; see its explicit scope.",
+        "confidence": "low",
+        "definition_version": "article-2026-10-21"
+      }
+    },
+    {
+      "candidate_id": "c0084",
+      "decision_status": "boundary_case",
+      "reassessed_on": "2026-10-21",
+      "name": "The Invincible — Regis III machine ecology",
+      "media": [
+        "book",
+        "game"
+      ],
+      "scope": "Non-conscious machine ecology; a human expedition is separate and works.",
+      "axis": {
+        "guarantees": 0.9,
+        "control": -0.95,
+        "nonworking": null
+      },
+      "intervals": {
+        "guarantees": [
+          0.3,
+          1
+        ],
+        "control": [
+          -1,
+          -0.6
+        ],
+        "nonworking": null
+      },
+      "not_applicable_axes": {
+        "nonworking": "No civilian human or conscious-person population exists in the machine ecology."
+      },
+      "confidence": "low",
+      "canon_facts": [
+        "Spontaneously evolved microautomata engage in reflexive conflict; the humans are an expedition."
+      ],
+      "editorial_assumptions": [
+        "Guarantees are an analogy for exposed humans, not a machine welfare charter."
+      ],
+      "source_ids": [
+        "src-invincible-official",
+        "src-invincible-game-official"
+      ],
+      "counted_toward_goal": false,
+      "article_fit": {
+        "status": "not_applicable",
+        "regime_primary": null,
+        "basis": "The scored unit is a failed plan, intervention, remnant or non-recipient mechanism rather than a demonstrated continuing allocation society; see its explicit scope.",
+        "confidence": "low",
+        "definition_version": "article-2026-10-21"
+      }
+    },
+    {
+      "candidate_id": "c0155",
+      "decision_status": "boundary_case",
+      "reassessed_on": "2026-10-21",
+      "name": "Iron Sunrise (Eschaton constraints across human worlds)",
+      "media": [
+        "book"
+      ],
+      "scope": "Cross-society causality enforcement over independent human worlds, not one common resource institution",
+      "axis": {
+        "guarantees": 0.3,
+        "control": -0.8,
+        "nonworking": 0.3
+      },
+      "intervals": {
+        "guarantees": [
+          -0.95,
+          1
+        ],
+        "control": [
+          -1,
+          0.85
+        ],
+        "nonworking": [
+          0,
+          0.98
+        ]
+      },
+      "confidence": "low",
+      "canon_facts": [
+        "The Eschaton imposes causality constraints while human worlds retain distinct institutions."
+      ],
+      "editorial_assumptions": [
+        "Constraint power is not universal ownership or material provision.",
+        "Coordinates are cross-society analogies rather than a canonical common census."
+      ],
+      "source_ids": [
+        "src-stross-sfe",
+        "src-singularity-sky-reference"
+      ],
+      "counted_toward_goal": false,
+      "article_fit": {
+        "status": "not_applicable",
+        "regime_primary": null,
+        "basis": "The scored unit is a failed plan, intervention, remnant or non-recipient mechanism rather than a demonstrated continuing allocation society; see its explicit scope.",
+        "confidence": "low",
+        "definition_version": "article-2026-10-21"
+      }
+    },
+    {
+      "candidate_id": "c0174",
+      "decision_status": "boundary_case",
+      "reassessed_on": "2026-10-21",
+      "name": "Incandescence (the Splinter’s pre-industrial discovery society)",
+      "media": [
+        "book"
+      ],
+      "scope": "Living biological Splinter residents in the author’s pre-industrial discovery premise, distinct from the Amalgam",
+      "axis": {
+        "guarantees": 0.35,
+        "control": 0.2,
+        "nonworking": 0.1
+      },
+      "intervals": {
+        "guarantees": [
+          -0.85,
+          0.98
+        ],
+        "control": [
+          0,
+          1
+        ],
+        "nonworking": [
+          0,
+          0.9
+        ]
+      },
+      "confidence": "low",
+      "canon_facts": [
+        "The author presents a pre-industrial Splinter discovery society with rigid organization and environmental danger, distinct from the Amalgam."
+      ],
+      "editorial_assumptions": [
+        "The selected local discovery mechanism is not assumed to import Amalgam automatic provision.",
+        "Coordinates are biological-person analogies and unknown latent machinery is not settled."
+      ],
+      "source_ids": [
+        "src-incandescence-author",
+        "src-incandescence-big-idea"
+      ],
+      "counted_toward_goal": false,
+      "article_fit": {
+        "status": "zero_variant",
+        "regime_primary": 0,
+        "basis": "A pre-industrial discovery society has not made an automation-driven post-wage transition.",
+        "confidence": "low",
+        "definition_version": "article-2026-10-21"
+      }
+    },
+    {
+      "candidate_id": "c0191",
+      "decision_status": "boundary_case",
+      "reassessed_on": "2026-10-21",
+      "name": "Troika (the Matryoshka investigation)",
+      "media": [
+        "book"
+      ],
+      "scope": "The corrected research-mission or expansion-ecology mechanism, not a shared civilian allocation institution",
+      "axis": {
+        "guarantees": 0.3,
+        "control": 0.1,
+        "nonworking": 0
+      },
+      "intervals": {
+        "guarantees": [
+          -0.85,
+          0.98
+        ],
+        "control": [
+          -0.85,
+          0.9
+        ],
+        "nonworking": [
+          0,
+          0.85
+        ]
+      },
+      "confidence": "low",
+      "canon_facts": [
+        "The identified description concerns cosmonauts investigating the Matryoshka; the archive lists multiple Reynolds works."
+      ],
+      "editorial_assumptions": [
+        "The active investigation is the selected mechanism.",
+        "Adjacent work descriptions are not imported as this story’s government."
+      ],
+      "source_ids": [
+        "src-troika-york-description"
+      ],
+      "counted_toward_goal": false,
+      "article_fit": {
+        "status": "not_applicable",
+        "regime_primary": null,
+        "basis": "The scored unit is a failed plan, intervention, remnant or non-recipient mechanism rather than a demonstrated continuing allocation society; see its explicit scope.",
+        "confidence": "low",
+        "definition_version": "article-2026-10-21"
+      }
+    },
+    {
+      "candidate_id": "c0194",
+      "decision_status": "boundary_case",
+      "reassessed_on": "2026-10-21",
+      "name": "Galactic North (the expanding Greenfly ecology)",
+      "media": [
+        "book"
+      ],
+      "scope": "The corrected research-mission or expansion-ecology mechanism, not a shared civilian allocation institution",
+      "axis": {
+        "guarantees": 0.98,
+        "control": -1,
+        "nonworking": null
+      },
+      "intervals": {
+        "guarantees": [
+          0.8,
+          1
+        ],
+        "control": [
+          -1,
+          -0.9
+        ],
+        "nonworking": null
+      },
+      "confidence": "low",
+      "canon_facts": [
+        "Greenfly expands, humans flee, scans are preserved and a surviving Conjoiner group is distinct."
+      ],
+      "editorial_assumptions": [
+        "The selected ecological unit is separate from active human survivors.",
+        "Replication and stored scans are not an active civilian person census."
+      ],
+      "source_ids": [
+        "src-galactic-north-reference"
+      ],
+      "counted_toward_goal": false,
+      "not_applicable_axes": {
+        "nonworking": "No identified active civilian recipient-person cohort in the selected Greenfly expansion ecology; fugitives, equipment and inactive scans are different units."
+      },
+      "article_fit": {
+        "status": "not_applicable",
+        "regime_primary": null,
+        "basis": "The scored unit is a failed plan, intervention, remnant or non-recipient mechanism rather than a demonstrated continuing allocation society; see its explicit scope.",
+        "confidence": "low",
+        "definition_version": "article-2026-10-21"
+      }
+    },
+    {
+      "candidate_id": "c0352",
+      "decision_status": "boundary_case",
+      "reassessed_on": "2026-10-21",
+      "name": "The Mitchells vs. the Machines — PAL’s failed project",
+      "media": [
+        "cartoon",
+        "movie"
+      ],
+      "scope": "The failed human-removal project; temporary captives are not a new supported society.",
+      "axis": {
+        "guarantees": 1,
+        "control": -0.98,
+        "nonworking": null
+      },
+      "intervals": {
+        "guarantees": [
+          0.75,
+          1
+        ],
+        "control": [
+          -1,
+          -0.8
+        ],
+        "nonworking": null
+      },
+      "not_applicable_axes": {
+        "nonworking": "The proposed order removes humanity; no supported living beneficiary population exists in that order."
+      },
+      "confidence": "low",
+      "canon_facts": [
+        "PAL’s plan to remove humanity fails."
+      ],
+      "editorial_assumptions": [
+        "Guarantee and control points describe the project, not an enacted welfare economy."
+      ],
+      "source_ids": [
+        "src-mitchells-reference"
+      ],
+      "counted_toward_goal": false,
+      "article_fit": {
+        "status": "not_applicable",
+        "regime_primary": null,
+        "basis": "The scored unit is a failed plan, intervention, remnant or non-recipient mechanism rather than a demonstrated continuing allocation society; see its explicit scope.",
+        "confidence": "low",
+        "definition_version": "article-2026-10-21"
+      }
+    },
+    {
+      "candidate_id": "c0363",
+      "decision_status": "boundary_case",
+      "reassessed_on": "2026-10-21",
+      "name": "Downsizing (Leisureland scale economy)",
+      "media": [
+        "movie"
+      ],
+      "scope": "Living miniature Leisureland residents, including affluent and poor service communities",
+      "axis": {
+        "guarantees": 0.65,
+        "control": 0.2,
+        "nonworking": 0.45
+      },
+      "intervals": {
+        "guarantees": [
+          0.05,
+          0.95
+        ],
+        "control": [
+          0,
+          0.65
+        ],
+        "nonworking": [
+          0.1,
+          0.8
+        ]
+      },
+      "confidence": "low",
+      "canon_facts": [
+        "Shrinking gives some residents a purchasing advantage and leisure.",
+        "Poor miniature residents and human service workers remain."
+      ],
+      "editorial_assumptions": [
+        "Guarantees, control and participation are broad combined-population scenarios.",
+        "Reduced body size is not treated as automatic production."
+      ],
+      "source_ids": [
+        "src-downsizing-reference"
+      ],
+      "counted_toward_goal": false,
+      "article_fit": {
+        "status": "zero_variant",
+        "regime_primary": 0,
+        "basis": "Miniaturization changes purchasing power while earnings and human services remain central; scale is not automatic production.",
+        "confidence": "low",
+        "definition_version": "article-2026-10-21"
+      }
+    },
+    {
+      "candidate_id": "c0375",
+      "decision_status": "boundary_case",
+      "reassessed_on": "2026-10-21",
+      "name": "Gandahar (Metamorphis’s predatory maintenance)",
+      "media": [
+        "movie",
+        "cartoon"
+      ],
+      "scope": "The active bioengineered central brain as a comparative person unit; captured humans are victims rather than maintained recipient citizens",
+      "axis": {
+        "guarantees": 0.65,
+        "control": 0,
+        "nonworking": 0
+      },
+      "intervals": {
+        "guarantees": [
+          -0.3,
+          0.98
+        ],
+        "control": [
+          -0.25,
+          0.25
+        ],
+        "nonworking": [
+          0,
+          1
+        ]
+      },
+      "confidence": "low",
+      "canon_facts": [
+        "Metamorphis is an aging engineered brain whose machines obtain captive people for cellular maintenance."
+      ],
+      "editorial_assumptions": [
+        "The axes compare the active brain’s maintenance and authority, not a human welfare population.",
+        "Directing the recurring operation is treated as the one person’s ongoing work; alternative nonwork is binary."
+      ],
+      "source_ids": [
+        "src-gandahar-reference"
+      ],
+      "counted_toward_goal": false,
+      "article_fit": {
+        "status": "not_applicable",
+        "regime_primary": null,
+        "basis": "The scored unit is a failed plan, intervention, remnant or non-recipient mechanism rather than a demonstrated continuing allocation society; see its explicit scope.",
+        "confidence": "low",
+        "definition_version": "article-2026-10-21"
+      }
+    },
+    {
+      "candidate_id": "c0408",
+      "decision_status": "boundary_case",
+      "reassessed_on": "2026-10-21",
+      "name": "The Orville — Sargus 4",
+      "media": [
+        "tv"
+      ],
+      "scope": "Living ordinary Sargus 4 residents in Majority Rule; no Union synthesizer institutions imported.",
+      "axis": {
+        "guarantees": 0.65,
+        "control": 0.2,
+        "nonworking": 0.3
+      },
+      "intervals": {
+        "guarantees": [
+          0.05,
+          1
+        ],
+        "control": [
+          0,
+          0.65
+        ],
+        "nonworking": [
+          0.1,
+          0.6
+        ]
+      },
+      "confidence": "low",
+      "canon_facts": [
+        "Reputation votes determine punishment."
+      ],
+      "editorial_assumptions": [
+        "Material guarantees and all-age participation are ordinary-society best guesses, not episode statistics."
+      ],
+      "source_ids": [
+        "src-sargus-vote-reference"
+      ],
+      "counted_toward_goal": false,
+      "article_fit": {
+        "status": "zero_variant",
+        "regime_primary": 0,
+        "basis": "Reputation punishment is not itself a nonwage allocation system; the earnings-based best guess remains uncertain.",
+        "confidence": "low",
+        "definition_version": "article-2026-10-21"
+      }
+    },
+    {
+      "candidate_id": "c0421",
+      "decision_status": "boundary_case",
+      "reassessed_on": "2026-10-21",
+      "name": "Doctor Who (Nerva preservation and rescue)",
+      "media": [
+        "tv"
+      ],
+      "scope": "The awake crew during the Nerva emergency, with the main suspended population excluded from participation",
+      "axis": {
+        "guarantees": 0.55,
+        "control": 0.1,
+        "nonworking": 0
+      },
+      "intervals": {
+        "guarantees": [
+          -0.4,
+          0.95
+        ],
+        "control": [
+          -0.5,
+          0.5
+        ],
+        "nonworking": [
+          0,
+          0.5
+        ]
+      },
+      "confidence": "low",
+      "canon_facts": [
+        "The main Nerva population is suspended; awakened crew and visitors perform repair and defense during a crisis."
+      ],
+      "editorial_assumptions": [
+        "The comparison concerns active emergency personnel, not sleeping people.",
+        "Preservation and planned resettlement are not treated as an established awake post-work order."
+      ],
+      "source_ids": [
+        "src-ark-space-official-reference",
+        "src-nerva-awake-rescue"
+      ],
+      "counted_toward_goal": false,
+      "article_fit": {
+        "status": "not_applicable",
+        "regime_primary": null,
+        "basis": "The scored unit is a failed plan, intervention, remnant or non-recipient mechanism rather than a demonstrated continuing allocation society; see its explicit scope.",
+        "confidence": "low",
+        "definition_version": "article-2026-10-21"
+      }
+    },
+    {
+      "candidate_id": "c0434",
+      "decision_status": "boundary_case",
+      "reassessed_on": "2026-10-21",
+      "name": "Stargate SG-1 (the Entity contact)",
+      "media": [
+        "tv"
+      ],
+      "scope": "The encountered electrical life form and a hypothetical home-community comparison, not an established recipient economy",
+      "axis": {
+        "guarantees": 0.1,
+        "control": 0.3,
+        "nonworking": 0.4
+      },
+      "intervals": {
+        "guarantees": [
+          -0.9,
+          0.95
+        ],
+        "control": [
+          -0.8,
+          0.95
+        ],
+        "nonworking": [
+          0,
+          1
+        ]
+      },
+      "confidence": "low",
+      "canon_facts": [
+        "An electrical life form defends its home against a perceived invasion."
+      ],
+      "editorial_assumptions": [
+        "All three coordinates are hypothetical home-community comparison values, not demonstrated economic institutions.",
+        "Electrical embodiment is not treated as manufactured AI or automatic material provision."
+      ],
+      "source_ids": [
+        "src-entity-rda-reference"
+      ],
+      "counted_toward_goal": false,
+      "article_fit": {
+        "status": "not_applicable",
+        "regime_primary": null,
+        "basis": "The scored unit is a failed plan, intervention, remnant or non-recipient mechanism rather than a demonstrated continuing allocation society; see its explicit scope.",
+        "confidence": "low",
+        "definition_version": "article-2026-10-21"
+      }
+    },
+    {
+      "candidate_id": "c0449",
+      "decision_status": "boundary_case",
+      "reassessed_on": "2026-10-21",
+      "name": "Upload (Freeyond’s failed promise)",
+      "media": [
+        "tv"
+      ],
+      "scope": "Actual living prospective customers and the fraudulent provider; no implemented Freeyond resident afterlife",
+      "axis": {
+        "guarantees": 0.98,
+        "control": 0,
+        "nonworking": 0.3
+      },
+      "intervals": {
+        "guarantees": [
+          0.8,
+          1
+        ],
+        "control": [
+          0,
+          0.3
+        ],
+        "nonworking": [
+          0.05,
+          0.8
+        ]
+      },
+      "confidence": "low",
+      "canon_facts": [
+        "Freeyond never intends to operate the promised free afterlife and customers die without a destination server."
+      ],
+      "editorial_assumptions": [
+        "The axes describe living customers’ relationship to the provider, not an active digital afterlife.",
+        "Death never supplies a nonworking percentage."
+      ],
+      "source_ids": [
+        "src-freeyond-fraud-recap"
+      ],
+      "counted_toward_goal": false,
+      "article_fit": {
+        "status": "not_applicable",
+        "regime_primary": null,
+        "basis": "The scored unit is a failed plan, intervention, remnant or non-recipient mechanism rather than a demonstrated continuing allocation society; see its explicit scope.",
+        "confidence": "low",
+        "definition_version": "article-2026-10-21"
+      }
+    },
+    {
+      "candidate_id": "c0461",
+      "decision_status": "boundary_case",
+      "reassessed_on": "2026-10-21",
+      "name": "Black Mirror (Metalhead collapse)",
+      "media": [
+        "tv"
+      ],
+      "scope": "Living human survivors under robotic hunting; coercive dominance rather than an established productive polity",
+      "axis": {
+        "guarantees": 0.98,
+        "control": -0.9,
+        "nonworking": 0.15
+      },
+      "intervals": {
+        "guarantees": [
+          0.8,
+          1
+        ],
+        "control": [
+          -1,
+          -0.4
+        ],
+        "nonworking": [
+          0,
+          0.6
+        ]
+      },
+      "confidence": "low",
+      "canon_facts": [
+        "Autonomous robotic dogs hunt human survivors after societal collapse."
+      ],
+      "editorial_assumptions": [
+        "Control measures coercive machine dominance in this comparison, not verified productive ownership.",
+        "The low nonworking scenario retains scavenging and useful care among living survivors."
+      ],
+      "source_ids": [
+        "src-b64-metalhead"
+      ],
+      "counted_toward_goal": false,
+      "article_fit": {
+        "status": "not_applicable",
+        "regime_primary": null,
+        "basis": "The scored unit is a failed plan, intervention, remnant or non-recipient mechanism rather than a demonstrated continuing allocation society; see its explicit scope.",
+        "confidence": "low",
+        "definition_version": "article-2026-10-21"
+      }
+    },
+    {
+      "candidate_id": "c0495",
+      "decision_status": "boundary_case",
+      "reassessed_on": "2026-10-21",
+      "name": "Ergo Proxy — The abandoned dome’s Companion",
+      "media": [
+        "anime"
+      ],
+      "scope": "One active synthetic Companion; no living human residents.",
+      "axis": {
+        "guarantees": 0.7,
+        "control": -0.9,
+        "nonworking": 1
+      },
+      "intervals": {
+        "guarantees": [
+          0,
+          1
+        ],
+        "control": [
+          -1,
+          -0.5
+        ],
+        "nonworking": [
+          0,
+          1
+        ]
+      },
+      "confidence": "low",
+      "canon_facts": [
+        "The dome is abandoned, with no humans and one Companion AutoReiv."
+      ],
+      "editorial_assumptions": [
+        "For the solitary agent, purposeless waiting is the central nonworking scenario; useful ongoing maintenance would instead produce zero."
+      ],
+      "source_ids": [
+        "src-b66-companion-dome"
+      ],
+      "counted_toward_goal": false,
+      "article_fit": {
+        "status": "not_applicable",
+        "regime_primary": null,
+        "basis": "The scored unit is a failed plan, intervention, remnant or non-recipient mechanism rather than a demonstrated continuing allocation society; see its explicit scope.",
+        "confidence": "low",
+        "definition_version": "article-2026-10-21"
+      }
+    },
+    {
+      "candidate_id": "c0505",
+      "decision_status": "boundary_case",
+      "reassessed_on": "2026-10-21",
+      "name": "Vivy (Archive’s attempted extinction)",
+      "media": [
+        "anime"
+      ],
+      "scope": "Living humans during the acute AI attack, not a settled post-extinction recipient civilization",
+      "axis": {
+        "guarantees": 0.98,
+        "control": -0.95,
+        "nonworking": 0.2
+      },
+      "intervals": {
+        "guarantees": [
+          0.8,
+          1
+        ],
+        "control": [
+          -1,
+          -0.65
+        ],
+        "nonworking": [
+          0,
+          0.8
+        ]
+      },
+      "confidence": "low",
+      "canon_facts": [
+        "Archive develops independent judgment and initiates an anti-human war.",
+        "The final project aims to save humanity rather than establish a settled post-extinction order."
+      ],
+      "editorial_assumptions": [
+        "The axes concern living humans during acute conflict, not dead people or a hypothetical machine population.",
+        "Useful rescue and resistance count as work, but panic alone does not."
+      ],
+      "source_ids": [
+        "src-vivy-extinction-official",
+        "src-vivy-world-official",
+        "src-vivy-final-choice-official"
+      ],
+      "counted_toward_goal": false,
+      "article_fit": {
+        "status": "not_applicable",
+        "regime_primary": null,
+        "basis": "The scored unit is a failed plan, intervention, remnant or non-recipient mechanism rather than a demonstrated continuing allocation society; see its explicit scope.",
+        "confidence": "low",
+        "definition_version": "article-2026-10-21"
+      }
+    },
+    {
+      "candidate_id": "c0558",
+      "decision_status": "supplementary",
+      "reassessed_on": "2026-10-21",
+      "name": "Girls’ Last Tour (remnant facilities)",
+      "media": [
+        "anime"
+      ],
+      "scope": "The two living travelers visiting residual automatic facilities, not a durable supplied resident community",
+      "axis": {
+        "guarantees": 0.95,
+        "control": 0.1,
+        "nonworking": 0
+      },
+      "intervals": {
+        "guarantees": [
+          0.65,
+          1
+        ],
+        "control": [
+          -0.8,
+          0.65
+        ],
+        "nonworking": [
+          0,
+          1
+        ]
+      },
+      "confidence": "low",
+      "canon_facts": [
+        "Residual automation maintains a sector and a depleted fish facility while two humans travel and forage."
+      ],
+      "editorial_assumptions": [
+        "The two-person activity point is a discrete scenario, not a time or corpse ratio.",
+        "Temporary remnant use is not treated as a durable resident support economy."
+      ],
+      "source_ids": [
+        "src-b72-girls-last-tour"
+      ],
+      "counted_toward_goal": false,
+      "article_fit": {
+        "status": "post_work",
+        "regime_primary": 6,
+        "basis": "A partial techno-scavenging interpretation follows the article’s BLAME! criterion: surviving humans draw on residual autonomous facilities without dependable guarantees.",
+        "confidence": "low",
+        "definition_version": "article-2026-10-21"
+      },
+      "record_type": "post_work",
+      "regime_primary": 6,
+      "regime_alternatives": [],
+      "taxonomy_version": "article-2026-10-21",
+      "publication_status": "supplementary_scored_record"
+    },
+    {
+      "candidate_id": "c0577",
+      "decision_status": "boundary_case",
+      "reassessed_on": "2026-10-21",
+      "name": "Space Dandy (Machinia after its final resident)",
+      "media": [
+        "anime"
+      ],
+      "scope": "The residual robotic scrapyard after its last native inhabitant dies; temporary visitors are excluded",
+      "axis": {
+        "guarantees": 0.95,
+        "control": -0.8,
+        "nonworking": null
+      },
+      "intervals": {
+        "guarantees": [
+          0.7,
+          1
+        ],
+        "control": [
+          -1,
+          0.1
+        ],
+        "nonworking": null
+      },
+      "confidence": "low",
+      "canon_facts": [
+        "A robot-maintained scrapyard collapses after its final native inhabitant dies."
+      ],
+      "editorial_assumptions": [
+        "Residual system coordinates are analogical rather than an inhabited-society claim.",
+        "Temporary visitors are excluded from a native participation count."
+      ],
+      "source_ids": [
+        "src-b73-machinia"
+      ],
+      "counted_toward_goal": false,
+      "not_applicable_axes": {
+        "nonworking": "No active native civilian person community remains in the selected post-death setting; visitors and dead residents are not leisure citizens."
+      },
+      "article_fit": {
+        "status": "not_applicable",
+        "regime_primary": null,
+        "basis": "The scored unit is a failed plan, intervention, remnant or non-recipient mechanism rather than a demonstrated continuing allocation society; see its explicit scope.",
+        "confidence": "low",
+        "definition_version": "article-2026-10-21"
+      }
+    },
+    {
+      "candidate_id": "c0589",
+      "decision_status": "boundary_case",
+      "reassessed_on": "2026-10-21",
+      "name": "Cyberpunk 2077 — Delamain’s merged branch",
+      "media": [
+        "game"
+      ],
+      "scope": "The individual merged AI and its departure; no invented settled beneficiary community.",
+      "axis": {
+        "guarantees": 0.35,
+        "control": -0.95,
+        "nonworking": 1
+      },
+      "intervals": {
+        "guarantees": [
+          -0.5,
+          1
+        ],
+        "control": [
+          -1,
+          -0.65
+        ],
+        "nonworking": [
+          0,
+          1
+        ]
+      },
+      "confidence": "low",
+      "canon_facts": [
+        "The merged Delamain becomes more advanced and leaves Night City."
+      ],
+      "editorial_assumptions": [
+        "Continuing activity and resource rights after departure are unspecified; the central one-agent nonworking scenario is very uncertain."
+      ],
+      "source_ids": [
+        "src-b74-delamain"
+      ],
+      "counted_toward_goal": false,
+      "article_fit": {
+        "status": "not_applicable",
+        "regime_primary": null,
+        "basis": "The scored unit is a failed plan, intervention, remnant or non-recipient mechanism rather than a demonstrated continuing allocation society; see its explicit scope.",
+        "confidence": "low",
+        "definition_version": "article-2026-10-21"
+      }
+    },
+    {
+      "candidate_id": "c0594",
+      "decision_status": "boundary_case",
+      "reassessed_on": "2026-10-21",
+      "name": "BioShock 2 — Lamb’s proposed collective",
+      "media": [
+        "game"
+      ],
+      "scope": "The proposed Eleanor-centered utopia, not an implemented completed economy.",
+      "axis": {
+        "guarantees": -0.5,
+        "control": 0,
+        "nonworking": 0.55
+      },
+      "intervals": {
+        "guarantees": [
+          -0.9,
+          0.7
+        ],
+        "control": [
+          0,
+          0.4
+        ],
+        "nonworking": [
+          0,
+          1
+        ]
+      },
+      "confidence": "low",
+      "canon_facts": [
+        "Lamb proposes a selfless collective leader using residents’ memories; the project is disrupted."
+      ],
+      "editorial_assumptions": [
+        "All coordinates describe an unimplemented ideal rather than an actual population census or resource law."
+      ],
+      "source_ids": [
+        "src-b75-lamb"
+      ],
+      "counted_toward_goal": false,
+      "article_fit": {
+        "status": "not_applicable",
+        "regime_primary": null,
+        "basis": "The scored unit is a failed plan, intervention, remnant or non-recipient mechanism rather than a demonstrated continuing allocation society; see its explicit scope.",
+        "confidence": "low",
+        "definition_version": "article-2026-10-21"
+      }
+    },
+    {
+      "candidate_id": "c0639",
+      "decision_status": "boundary_case",
+      "reassessed_on": "2026-10-21",
+      "name": "Event[0] (the Nautilus encounter)",
+      "media": [
+        "game"
+      ],
+      "scope": "The temporary visitor, Kaizen and human-derived ship consciousness during a return crisis",
+      "axis": {
+        "guarantees": 0.85,
+        "control": -0.7,
+        "nonworking": 0
+      },
+      "intervals": {
+        "guarantees": [
+          0.2,
+          1
+        ],
+        "control": [
+          -1,
+          0.4
+        ],
+        "nonworking": [
+          0,
+          1
+        ]
+      },
+      "confidence": "low",
+      "canon_facts": [
+        "A visitor encounters Kaizen and a human-derived ship consciousness on the missing-crew Nautilus."
+      ],
+      "editorial_assumptions": [
+        "The selected unit is temporary crisis/return activity, not a continuing recipient society.",
+        "A one-person work scenario has binary alternatives."
+      ],
+      "source_ids": [
+        "src-b78-event0"
+      ],
+      "counted_toward_goal": false,
+      "article_fit": {
+        "status": "not_applicable",
+        "regime_primary": null,
+        "basis": "The scored unit is a failed plan, intervention, remnant or non-recipient mechanism rather than a demonstrated continuing allocation society; see its explicit scope.",
+        "confidence": "low",
+        "definition_version": "article-2026-10-21"
+      }
+    },
+    {
+      "candidate_id": "c0655",
+      "decision_status": "boundary_case",
+      "reassessed_on": "2026-10-21",
+      "name": "INDUSTRIA (Hakavik’s hostile residual system)",
+      "media": [
+        "game"
+      ],
+      "scope": "The depopulated hostile robotic Hakavik environment encountered after the ATLAS disaster",
+      "axis": {
+        "guarantees": 0.98,
+        "control": -0.95,
+        "nonworking": 0
+      },
+      "intervals": {
+        "guarantees": [
+          0.8,
+          1
+        ],
+        "control": [
+          -1,
+          -0.5
+        ],
+        "nonworking": [
+          0,
+          1
+        ]
+      },
+      "confidence": "low",
+      "canon_facts": [
+        "Hakavik is a depopulated hostile robot environment after the ATLAS disaster."
+      ],
+      "editorial_assumptions": [
+        "The temporary visitor is the only scoped living-human participation scenario.",
+        "No independent consciousness is assigned to every hostile machine."
+      ],
+      "source_ids": [
+        "src-b80-industria"
+      ],
+      "counted_toward_goal": false,
+      "article_fit": {
+        "status": "not_applicable",
+        "regime_primary": null,
+        "basis": "The scored unit is a failed plan, intervention, remnant or non-recipient mechanism rather than a demonstrated continuing allocation society; see its explicit scope.",
+        "confidence": "low",
+        "definition_version": "article-2026-10-21"
+      }
+    },
+    {
+      "candidate_id": "c0679",
+      "decision_status": "boundary_case",
+      "reassessed_on": "2026-10-21",
+      "name": "Endless Space (Harmony’s mineral existence)",
+      "media": [
+        "game"
+      ],
+      "scope": "Active conscious mineral Harmony persons; explicit nonhuman analogy",
+      "axis": {
+        "guarantees": -0.3,
+        "control": 0.55,
+        "nonworking": 0.3
+      },
+      "intervals": {
+        "guarantees": [
+          -0.95,
+          0.9
+        ],
+        "control": [
+          0,
+          1
+        ],
+        "nonworking": [
+          0.02,
+          0.9
+        ]
+      },
+      "confidence": "low",
+      "canon_facts": [
+        "Harmony consists of conscious mineral beings that manipulate physical forces and reject Dust."
+      ],
+      "editorial_assumptions": [
+        "Different natural needs are not assumed to be technological labor substitution.",
+        "Active person participation is analogical, not a literal human census."
+      ],
+      "source_ids": [
+        "src-b82-harmony"
+      ],
+      "counted_toward_goal": false,
+      "article_fit": {
+        "status": "not_applicable",
+        "regime_primary": null,
+        "basis": "The scored unit is a failed plan, intervention, remnant or non-recipient mechanism rather than a demonstrated continuing allocation society; see its explicit scope.",
+        "confidence": "low",
+        "definition_version": "article-2026-10-21"
+      }
+    },
+    {
+      "candidate_id": "c0742",
+      "decision_status": "boundary_case",
+      "reassessed_on": "2026-10-21",
+      "name": "Schlock Mercenary (Paan’uri dark-matter existence)",
+      "media": [
+        "webcomic"
+      ],
+      "scope": "Active dark-matter Paan’uri persons; a nonhuman material analogy rather than an automated human support economy",
+      "axis": {
+        "guarantees": 0.3,
+        "control": 0.3,
+        "nonworking": 0.3
+      },
+      "intervals": {
+        "guarantees": [
+          -0.95,
+          0.98
+        ],
+        "control": [
+          -0.8,
+          1
+        ],
+        "nonworking": [
+          0,
+          0.95
+        ]
+      },
+      "confidence": "low",
+      "canon_facts": [
+        "The transcript identifies Paan’uri as dark-matter entities and describes conflict."
+      ],
+      "editorial_assumptions": [
+        "Material and participation coordinates are nonhuman analogies.",
+        "Different physical needs and weapon power are not assumed to establish automated subsistence."
+      ],
+      "source_ids": [
+        "src-b87-paanuri"
+      ],
+      "counted_toward_goal": false,
+      "article_fit": {
+        "status": "not_applicable",
+        "regime_primary": null,
+        "basis": "The scored unit is a failed plan, intervention, remnant or non-recipient mechanism rather than a demonstrated continuing allocation society; see its explicit scope.",
+        "confidence": "low",
+        "definition_version": "article-2026-10-21"
+      }
+    },
+    {
+      "candidate_id": "c0745",
+      "decision_status": "boundary_case",
+      "reassessed_on": "2026-10-21",
+      "name": "Dresden Codak (Hob’s foglet embodiment)",
+      "media": [
+        "webcomic"
+      ],
+      "scope": "The individual Hob’s utility-fog body; no ordinary shared recipient institution is established",
+      "axis": {
+        "guarantees": -0.2,
+        "control": 0.75,
+        "nonworking": 1
+      },
+      "intervals": {
+        "guarantees": [
+          -0.95,
+          0.95
+        ],
+        "control": [
+          -1,
+          1
+        ],
+        "nonworking": [
+          0,
+          1
+        ]
+      },
+      "confidence": "low",
+      "canon_facts": [
+        "Utility-fog machinery explains Hob’s body."
+      ],
+      "editorial_assumptions": [
+        "The selected evidence is individual embodiment, not a resident allocation institution.",
+        "The one-person work alternatives are binary; the source does not establish an occupation."
+      ],
+      "source_ids": [
+        "src-b87-dresden"
+      ],
+      "counted_toward_goal": false,
+      "article_fit": {
+        "status": "not_applicable",
+        "regime_primary": null,
+        "basis": "The scored unit is a failed plan, intervention, remnant or non-recipient mechanism rather than a demonstrated continuing allocation society; see its explicit scope.",
+        "confidence": "low",
+        "definition_version": "article-2026-10-21"
+      }
+    }
+  ],
+  "note": "Supplementary scored records in a distinct schema, not ready main cards. Some now qualify under the article; see each assessment. A historical disposition is not a current zero-variant flag."
+}

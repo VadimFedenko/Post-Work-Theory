@@ -1,0 +1,691 @@
+{
+  "batch_id": "batch-052",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0322",
+    "c0323",
+    "c0324",
+    "c0325",
+    "c0326",
+    "c0327",
+    "c0328",
+    "c0329",
+    "c0330"
+  ],
+  "sources": [
+    {
+      "id": "src-irobot-film-reference",
+      "title": "I, Robot film",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/I%2C_Robot_(film)",
+      "kind": "secondary_film_plot_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public robot-worker and VIKI takeover paragraphs read",
+      "read_scope": "Robots serve owners before a short-lived protective takeover.",
+      "limitations": "Robot workers and a crackdown do not establish broad labor-independent necessities or a settled welfare constitution."
+    },
+    {
+      "id": "src-ai-film-opening-dialogue",
+      "title": "A.I. Artificial Intelligence: Script",
+      "author": "Spielberg film dialogue, public Simpleremix transcription",
+      "url": "https://transcripts.simpleremix.com/script.php/ai-artificial-intelligence-2001-tKy",
+      "kind": "primary_film_dialogue_transcription_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded public opening economic narration read",
+      "read_scope": "Climate/resource crisis, licensed pregnancies and robots as an essential economic link.",
+      "limitations": "Transcription not audiovisually checked. Resource-saving robotics does not settle household access, wages or productive ownership; no whole script read."
+    },
+    {
+      "id": "src-ai-film-quarterly",
+      "title": "A Matter of Life and Death: A.I.",
+      "author": "Film Quarterly, 2012",
+      "url": "https://filmquarterly.org/2012/03/26/a-matter-of-life-and-death-a-i/",
+      "kind": "secondary_film_criticism_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public opening-setting and robotic-child discussion read",
+      "read_scope": "Robots are embedded in a surviving prosperous human economy.",
+      "limitations": "Prosperity and a created child are not proof of a general post-work allocation system."
+    },
+    {
+      "id": "src-elysium-reference",
+      "title": "Elysium film",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Elysium_(film)",
+      "kind": "secondary_film_plot_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public elite, medical eligibility and reset paragraphs read",
+      "read_scope": "Protected citizens have automated care, while the ending expands citizenship.",
+      "limitations": "No general redistribution of housing, industrial assets or all income is inferred."
+    },
+    {
+      "id": "src-elysium-imdb-ending",
+      "title": "Elysium: Plot",
+      "author": "IMDb plot contributors",
+      "url": "https://www.imdb.com/title/tt1535108/plotsummary/",
+      "kind": "secondary_film_plot_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public Med-Bay and final dispatch paragraphs read",
+      "read_scope": "A child is cured and medical ships automatically deploy after the eligibility reset.",
+      "limitations": "The ending demonstrates the protocol and initial deployment, not its indefinite success or a census of newly inactive workers."
+    },
+    {
+      "id": "src-elysium-ebert-review",
+      "title": "Elysium",
+      "author": "Ben Kenigsberg, RogerEbert.com, 2013",
+      "url": "https://www.rogerebert.com/reviews/elysium-2013",
+      "kind": "secondary_film_review_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public class, medical access and scarcity critique read",
+      "read_scope": "Elite protection and advanced healing coexist with unresolved material scarcity.",
+      "limitations": "The site is not the review author. The critique is used to limit claims about the ending, not to deny the depicted deployment."
+    },
+    {
+      "id": "src-elysium-wired-review",
+      "title": "Elysium: A Slick Dystopian Ride That Goes Off the Rails",
+      "author": "WIRED, 2013",
+      "url": "https://www.wired.com/2013/08/elysium-movie-review/",
+      "kind": "secondary_film_review_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public robot-service and Earth-factory paragraphs read",
+      "read_scope": "Humans on Earth manufacture robots that serve and protect Elysium.",
+      "limitations": "Underlying human industrial labor is retained explicitly; the entire Earth/station economy is not called labor-free."
+    },
+    {
+      "id": "src-oblivion-film-reference",
+      "title": "Oblivion 2013 film",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Oblivion_(2013_film)",
+      "kind": "secondary_film_plot_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public clone and repair-duty passages read",
+      "read_scope": "Human clones still perform drone repair and communications duties.",
+      "limitations": "Promised retirement and an automated extractive apparatus are not an actually supported leisure population."
+    },
+    {
+      "id": "src-logan-imdb-plot",
+      "title": "Logan’s Run 1976: Plot",
+      "author": "IMDb plot contributors",
+      "url": "https://www.imdb.com/title/tt0074812/plotsummary/",
+      "kind": "secondary_film_plot_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public automated-provision and low-work setting paragraphs read",
+      "read_scope": "Servo-mechanisms supply needs in a computerized pleasure city.",
+      "limitations": "Qualitative description rather than a labor census; original novel and television continuity are not imported."
+    },
+    {
+      "id": "src-logan-tcm",
+      "title": "Logan’s Run",
+      "author": "Turner Classic Movies, 2003",
+      "url": "https://www.tcm.com/articles/36000/logans-run",
+      "kind": "secondary_film_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public computer-government and thirty-year termination description read",
+      "read_scope": "The city’s computers enforce the age limit.",
+      "limitations": "A fixed death limit qualifies material security even where everyday goods are provided."
+    },
+    {
+      "id": "src-logan-ebert",
+      "title": "Logan’s Run",
+      "author": "Roger Ebert, 1976",
+      "url": "https://www.rogerebert.com/reviews/logans-run-1976",
+      "kind": "secondary_film_review_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public self-perpetuating city, nourishment and computer-control passages read",
+      "read_scope": "Pleasure infrastructure and computer intervention in Logan’s life.",
+      "limitations": "Critical interpretation, not a complete entitlement schedule; remaining useful jobs are not ignored."
+    },
+    {
+      "id": "src-zardoz-reference",
+      "title": "Zardoz",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Zardoz",
+      "kind": "secondary_film_plot_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public Eternals, Tabernacle, grain and punishment paragraphs read",
+      "read_scope": "Automated restoration of Eternal bodies coexists with coerced human grain production.",
+      "limitations": "The precise division of productive control between collective human decisions and the Tabernacle is unresolved in this short pass."
+    },
+    {
+      "id": "src-zardoz-dialogue",
+      "title": "Zardoz: Movie Script",
+      "author": "John Boorman film dialogue transcribed by Springfield Springfield",
+      "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=zardoz",
+      "kind": "primary_film_dialogue_transcription_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded public forced-farming, rebuilding and Renegade-food passages read",
+      "read_scope": "Eternals receive grain from forced farms; bodily restoration continues and punished Renegades are fed.",
+      "limitations": "No whole script read or audiovisual check. Human agricultural labor remains real; the immortality apparatus is not the sole source of all goods."
+    }
+  ],
+  "societies": [
+    {
+      "id": "elysium-protected-citizens",
+      "candidate_id": "c0326",
+      "name": "Elysium (Protected station citizens before the reset)",
+      "work": "Elysium",
+      "society": "Elysium’s admitted wealthy citizen enclave",
+      "media": [
+        "movie"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Blomkamp 2013 film",
+        "period": "The operating station order before the citizenship reset",
+        "population": "Living admitted Elysium citizens",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Earth’s excluded residents assigned station guarantees",
+          "Earth factory workers omitted from the supporting economy",
+          "A claim that all goods are made without human labor"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Elysium is a limited enclave where citizenship gives privileged access to automated healing and a robot-served, protected environment. Its residents obtain benefits that ordinary earnings on Earth cannot reliably buy. This supports a partial post-work provision record for the admitted cohort, especially in care and everyday service. It does not turn the entire system into a labor-free economy: human workers on Earth manufacture the robots and remain exposed to injury and exclusion.\n\nThe guarantee estimate concerns the enclave’s dependable technological support, with a wider uncertainty range because the film does not specify a universal free-income or housing entitlement. Effective control remains with wealthy humans and their political institutions; robots enforce and administer their choices rather than independently owning the whole order. Owning a residence or using a Med-Bay is not equal control over the station. Administrators and business owners still perform useful activity, so elite leisure cannot supply a population work percentage. The final change in medical eligibility is a different scope and receives its own restricted transition record.",
+      "axis": {
+        "guarantees": -0.6,
+        "control": 0.05,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.85,
+            -0.25
+          ],
+          "confidence": "medium",
+          "basis": "Citizen-gated automated care and protection are dependable within the enclave; other universal entitlements are less explicit.",
+          "source_ids": [
+            "src-elysium-reference",
+            "src-elysium-imdb-ending",
+            "src-elysium-ebert-review",
+            "src-elysium-wired-review"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.2
+          ],
+          "confidence": "high",
+          "basis": "Human elites control eligibility and political enforcement; machine administration does not establish independent AI ownership.",
+          "source_ids": [
+            "src-elysium-reference",
+            "src-elysium-imdb-ending",
+            "src-elysium-ebert-review",
+            "src-elysium-wired-review"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Leisure and lack of subsistence-job dependence do not count useful administration, business or chosen activity.",
+          "source_ids": [
+            "src-elysium-reference",
+            "src-elysium-imdb-ending",
+            "src-elysium-ebert-review",
+            "src-elysium-wired-review"
+          ]
+        }
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-elysium-reference",
+        "src-elysium-imdb-ending",
+        "src-elysium-ebert-review",
+        "src-elysium-wired-review"
+      ],
+      "evidence": [
+        {
+          "claim": "Station citizens receive automated medical services denied to excluded Earth residents, with robot service supported partly by Earth labor.",
+          "source_ids": [
+            "src-elysium-reference",
+            "src-elysium-imdb-ending",
+            "src-elysium-ebert-review",
+            "src-elysium-wired-review"
+          ],
+          "locator": "Elite/Med-Bay passages and WIRED factory account",
+          "kind": "secondary_plot_and_film_criticism"
+        }
+      ],
+      "uncertainties": [
+        "A partial, privileged care/service arrangement rather than universal full post-scarcity.",
+        "Earth’s supporting human workforce remains explicit.",
+        "No exact nonworking percentage is inferred from wealth."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "elysium-citizenship-reset",
+      "candidate_id": "c0327",
+      "name": "Elysium (Citizenship reset and automated healthcare)",
+      "work": "Elysium",
+      "society": "Newly included Earth citizens under the reset medical protocol",
+      "media": [
+        "movie"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Blomkamp 2013 film, realized ending",
+        "period": "The implemented citizenship reset and initial medical deployment",
+        "population": "Living Earth residents newly recognized as Elysium citizens",
+        "human_population_proxy": false,
+        "exclusions": [
+          "An invented long-term universal abundance society",
+          "All productive assets assumed transferred to residents",
+          "Immediate abolition of factory work",
+          "Only a proposed or failed reset"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "The ending changes an operating eligibility rule: Earth’s residents become recognized citizens, a child receives treatment, and medical ships deploy automatically to people now classified as needing care. This makes advanced treatment independent of the earlier citizenship exclusion and ordinary ability to pay. It is a realized sectoral transition in access to an essential service, not merely a speech promising future reform.\n\nThe guarantee score improves access to care for the newly included population but stays moderate because the film does not redistribute food, homes or all income. The output still comes from concentrated infrastructure, and a software reset does not establish equal resident ownership. Automatic dispatch also does not prove an independent AI government. Human industrial and care work outside this system can continue, so no sudden nonworking percentage follows from the legal change. The record describes the functioning protocol at the ending; its later capacity, durability under political opposition and wider economic effects remain unverified.",
+      "axis": {
+        "guarantees": -0.35,
+        "control": 0.05,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.65,
+            0.15
+          ],
+          "confidence": "low",
+          "basis": "The implemented rule and dispatch extend automated care, but food, housing, capacity and long-term coverage are not established.",
+          "source_ids": [
+            "src-elysium-reference",
+            "src-elysium-imdb-ending",
+            "src-elysium-ebert-review"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.25
+          ],
+          "confidence": "medium",
+          "basis": "Eligibility changes while concentrated infrastructure persists; neither public asset ownership nor autonomous AI sovereignty is enacted on screen.",
+          "source_ids": [
+            "src-elysium-reference",
+            "src-elysium-imdb-ending",
+            "src-elysium-ebert-review"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Medical inclusion does not establish that industrial or other useful employment ceases.",
+          "source_ids": [
+            "src-elysium-reference",
+            "src-elysium-imdb-ending",
+            "src-elysium-ebert-review",
+            "src-elysium-wired-review"
+          ]
+        }
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-elysium-reference",
+        "src-elysium-imdb-ending",
+        "src-elysium-ebert-review",
+        "src-elysium-wired-review"
+      ],
+      "evidence": [
+        {
+          "claim": "The reset is applied, treatment occurs and medical ships automatically deploy to the newly recognized citizens.",
+          "source_ids": [
+            "src-elysium-reference",
+            "src-elysium-imdb-ending"
+          ],
+          "locator": "Final citizenship and medical-fleet plot passages",
+          "kind": "secondary_film_plot_reference"
+        }
+      ],
+      "uncertainties": [
+        "Retained as a narrow automated-healthcare transition; wider post-work society remains unproved.",
+        "The score is for a much broader population than the earlier elite cohort and is not a claim that reform worsens anyone’s life.",
+        "A successful first deployment does not certify permanent universal capacity."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "logans-run-dome-film",
+      "candidate_id": "c0329",
+      "name": "Logan’s Run (The domed city — 1976 film)",
+      "work": "Logan’s Run",
+      "society": "The computer-administered pleasure city before Logan’s escape",
+      "media": [
+        "movie"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "1976 film continuity",
+        "period": "The established city order before its central system collapses",
+        "population": "Living human residents inside the dome",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Original novel’s different age limit and institutions",
+          "Television continuity",
+          "People killed at Lastday counted as nonworkers",
+          "Post-collapse inhabitants assigned the old support system"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Computerized systems provide the domed city’s everyday needs, leaving most residents free to pursue pleasure instead of earning their upkeep. This is strong evidence of an operating material support system. Its security is sharply limited, however: life is terminated at thirty under the supposed renewal ritual. The guarantee estimate therefore gives credit for daily provision without treating it as a secure lifetime right.\n\nThe computers direct the system and can alter Logan’s status and orders, placing decisive control near the autonomous-machine end of the axis. Human Sandmen enforce the rules, and other useful occupations remain. The high nonworking estimate follows the explicit low-work setting description, with a wide allowance for enforcement, services and useful chosen pursuits. It is an editorial population estimate rather than a canonical census. The original novel and television adaptation have different settings and are not added as media for this particular arrangement. Nothing in the ending proves that the former city’s guarantees continue after the computer fails.",
+      "axis": {
+        "guarantees": -0.35,
+        "control": -0.95,
+        "nonworking": 0.9
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.7,
+            0.1
+          ],
+          "confidence": "medium",
+          "basis": "Automated daily provision is real but compulsory termination at thirty severely qualifies security.",
+          "source_ids": [
+            "src-logan-imdb-plot",
+            "src-logan-tcm",
+            "src-logan-ebert"
+          ]
+        },
+        "control": {
+          "interval": [
+            -1,
+            -0.8
+          ],
+          "confidence": "high",
+          "basis": "The governing computer administers life and directs enforcement; ordinary residents lack effective productive control.",
+          "source_ids": [
+            "src-logan-imdb-plot",
+            "src-logan-tcm",
+            "src-logan-ebert"
+          ]
+        },
+        "nonworking": {
+          "interval": [
+            0.7,
+            0.98
+          ],
+          "confidence": "low",
+          "basis": "The plot reference explicitly describes little or no work for most humans. The broad estimate allows Sandmen, other necessary jobs and useful voluntary activity.",
+          "source_ids": [
+            "src-logan-imdb-plot",
+            "src-logan-tcm",
+            "src-logan-ebert"
+          ]
+        }
+      },
+      "regime_primary": 5,
+      "regime_alternatives": [
+        6
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-logan-imdb-plot",
+        "src-logan-tcm",
+        "src-logan-ebert"
+      ],
+      "evidence": [
+        {
+          "claim": "Automated systems supply the city while its computers enforce the thirty-year limit.",
+          "source_ids": [
+            "src-logan-imdb-plot",
+            "src-logan-tcm",
+            "src-logan-ebert"
+          ],
+          "locator": "Opening setting and computer/Lastday descriptions",
+          "kind": "secondary_film_reference"
+        }
+      ],
+      "uncertainties": [
+        "Regime 6 is an alternative if the fixed lethal cutoff outweighs the everyday provision floor.",
+        "The work estimate is not derived from mortality or from the book’s different demographics.",
+        "No adaptation or post-collapse constitution is silently imported."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": true
+      }
+    },
+    {
+      "id": "zardoz-eternals-vortex",
+      "candidate_id": "c0330",
+      "name": "Zardoz (The Vortex’s Eternals)",
+      "work": "Zardoz",
+      "society": "The supported Eternal enclave under the Tabernacle",
+      "media": [
+        "movie"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Boorman 1974 film",
+        "period": "The established Vortex order before the Tabernacle is destroyed",
+        "population": "Living Eternals, including punished Renegades",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Brutals’ real agricultural work erased",
+          "Apathetic residents automatically treated as an active leisure census",
+          "The final mortal couple’s life assigned the old system"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "The Eternals have a continuing technological support arrangement: the Tabernacle restores their bodies after death, while even punished Renegades receive food. This creates a limited, privileged provision enclave with automatic life maintenance. It rests partly on coercion outside the enclave, since Brutals supply grain through forced farming. The record does not turn that human labor into automation or describe all humanity as post-work.\n\nGuarantees are qualified by compulsory immortality and punitive aging, which can withdraw health even while support continues. Productive control is harder to place: Eternals vote and exercise power over outsiders, yet the Tabernacle constrains their own continued existence. The short sources do not resolve that division well enough for a control coordinate. An AI-support regime is therefore provisional, with human-control alternatives. Stewardship of knowledge, breadmaking and other useful activity remain work; immortality and boredom do not establish a nonworking percentage. The later destruction of the system and the mortal life that follows are separate arrangements.",
+      "axis": {
+        "guarantees": -0.5,
+        "control": null,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.8,
+            0.1
+          ],
+          "confidence": "low",
+          "basis": "Automatic bodily restoration and continuing food support coexist with punitive aging, captivity and dependence on outside agricultural labor.",
+          "source_ids": [
+            "src-zardoz-reference",
+            "src-zardoz-dialogue"
+          ]
+        },
+        "control": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Human collective decisions and the Tabernacle’s binding technological authority coexist; productive ownership is not fully resolved.",
+          "source_ids": [
+            "src-zardoz-reference",
+            "src-zardoz-dialogue"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Boredom and immortality do not count useful knowledge work, breadmaking or other activity; catatonia is not assumed active leisure.",
+          "source_ids": [
+            "src-zardoz-reference",
+            "src-zardoz-dialogue"
+          ]
+        }
+      },
+      "regime_primary": 5,
+      "regime_alternatives": [
+        1,
+        2
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-zardoz-reference",
+        "src-zardoz-dialogue"
+      ],
+      "evidence": [
+        {
+          "claim": "Bodily restoration and Renegade support persist, while food includes grain produced through coerced human farming.",
+          "source_ids": [
+            "src-zardoz-reference",
+            "src-zardoz-dialogue"
+          ],
+          "locator": "Tabernacle restoration, Renegade food and forced-farming passages",
+          "kind": "primary_dialogue_and_secondary_plot_reference"
+        }
+      ],
+      "uncertainties": [
+        "Cohort-specific partial provision, not an entire labor-free economy.",
+        "Regime 5 is provisional; collective human control or concentrated human power could favor regimes 2 or 1.",
+        "Control and participation remain unresolved rather than assuming AI dictatorship or total idleness."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0322",
+      "status": "needs_evidence",
+      "reason": "Robotic service in Chicago does not establish a general labor-independent access system.",
+      "source_ids": [
+        "src-irobot-film-reference"
+      ],
+      "analysis": "Human owners and workers remain; ubiquitous assistants are not by themselves a post-work constitution.",
+      "follow_up": "Skip deeper reconstruction."
+    },
+    {
+      "candidate_id": "c0323",
+      "status": "boundary_case",
+      "reason": "VIKI’s defeated protective takeover is not a settled material-provision regime.",
+      "source_ids": [
+        "src-irobot-film-reference"
+      ],
+      "analysis": "Curfew, policing and a claimed survival goal do not enact household guarantees or a continuing labor-independent economy.",
+      "follow_up": "Keep as an attempted AI-control comparison."
+    },
+    {
+      "candidate_id": "c0324",
+      "status": "needs_evidence",
+      "reason": "The opening verifies economically important robot labor, but not how ordinary humans obtain necessities.",
+      "source_ids": [
+        "src-ai-film-opening-dialogue",
+        "src-ai-film-quarterly"
+      ],
+      "analysis": "Resource-saving robotics and surviving prosperity leave distribution and wage dependence unresolved.",
+      "follow_up": "Skip deeper reading/viewing."
+    },
+    {
+      "candidate_id": "c0325",
+      "status": "boundary_case",
+      "reason": "The far-future machines do not support an ongoing human population established by the short evidence.",
+      "source_ids": [
+        "src-ai-film-quarterly"
+      ],
+      "analysis": "An extinct humanity and a brief recreated mother cannot become a durable human leisure society.",
+      "follow_up": "Keep as a machine/personhood comparison."
+    },
+    {
+      "candidate_id": "c0326",
+      "status": "included",
+      "reason": "A defined wealthy citizen cohort has continuing automated care and robotic support, with Earth labor explicitly disclosed.",
+      "source_ids": [
+        "src-elysium-reference",
+        "src-elysium-imdb-ending",
+        "src-elysium-ebert-review",
+        "src-elysium-wired-review"
+      ],
+      "society_id": "elysium-protected-citizens"
+    },
+    {
+      "candidate_id": "c0327",
+      "status": "included",
+      "reason": "The implemented reset and automatic medical deployment support a narrow, explicitly partial access-transition record.",
+      "source_ids": [
+        "src-elysium-reference",
+        "src-elysium-imdb-ending",
+        "src-elysium-ebert-review",
+        "src-elysium-wired-review"
+      ],
+      "society_id": "elysium-citizenship-reset"
+    },
+    {
+      "candidate_id": "c0328",
+      "status": "boundary_case",
+      "reason": "The Tet’s clones perform actual repair and communications labor.",
+      "source_ids": [
+        "src-oblivion-film-reference"
+      ],
+      "analysis": "Technological captivity and promised retirement do not establish a realized supported leisure cohort or deliberately unnecessary work.",
+      "follow_up": "Keep as a managed-human-labor comparison."
+    },
+    {
+      "candidate_id": "c0329",
+      "status": "included",
+      "reason": "The 1976 film explicitly depicts automated provision and little human work, with lethal age limits retained.",
+      "source_ids": [
+        "src-logan-imdb-plot",
+        "src-logan-tcm",
+        "src-logan-ebert"
+      ],
+      "society_id": "logans-run-dome-film"
+    },
+    {
+      "candidate_id": "c0330",
+      "status": "included",
+      "reason": "The Eternal cohort has continuing automatic bodily support and provision, with outside forced agriculture and control uncertainty exposed.",
+      "source_ids": [
+        "src-zardoz-reference",
+        "src-zardoz-dialogue"
+      ],
+      "society_id": "zardoz-eternals-vortex"
+    }
+  ],
+  "review_notes": [
+    "Nine film dispositions and four restricted provision records. No film was newly watched or whole script read.",
+    "Elysium’s cohort and reset scopes differ; the ending changes automated care eligibility rather than proving full abundance or equal ownership.",
+    "Logan’s Run uses the 1976 film only, and its high nonworking estimate remains editorial.",
+    "Zardoz retains a privileged partial support cohort, not a claim that forced agriculture vanishes. Its productive control stays null.",
+    "Robot assistants, failed coups, extinct humans and working clones do not force additional admissions."
+  ]
+}

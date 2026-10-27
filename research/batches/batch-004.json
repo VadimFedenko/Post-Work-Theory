@@ -1,0 +1,731 @@
+{
+  "batch_id": "batch-004",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0021",
+    "c0022",
+    "c0023",
+    "c0024",
+    "c0025",
+    "c0026",
+    "c0027",
+    "c0028",
+    "c0029",
+    "c0030",
+    "c0031",
+    "c0032"
+  ],
+  "sources": [
+    {
+      "id": "src-player-primary",
+      "title": "The Player of Games: primary-text mirror",
+      "author": "Iain M. Banks",
+      "url": "https://studylib.net/doc/28093789/2.-player-of-games2",
+      "kind": "primary_fiction_unofficial_mirror",
+      "accessed_on": "2026-10-16",
+      "access_method": "Page opened; targeted passages read",
+      "read_scope": "Part II briefing: rank, the apex sex, computer-link prohibitions during the game and technological comparison.",
+      "limitations": "Not a complete reread of the novel. A prohibition on computer assistance in a tournament is not an economy-wide AI ban."
+    },
+    {
+      "id": "src-excession-synopsis",
+      "title": "Excession",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Excession",
+      "kind": "secondary_plot_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Indexed synopsis read",
+      "read_scope": "Affront brutality, subordinate populations and the stolen Culture fleet.",
+      "limitations": "Plot and military facts do not establish civilian automation, ownership or guarantees."
+    },
+    {
+      "id": "src-chelgria-caste",
+      "title": "Caste system of the Chelgrians",
+      "author": "The Culture Wiki contributors",
+      "url": "https://theculture.fandom.com/wiki/Caste_system_of_the_Chelgrians",
+      "kind": "secondary_fan_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Substantial indexed history passage read",
+      "read_scope": "Discriminatory caste rules, their abolition and the resulting war.",
+      "limitations": "Pre-reform, war and later society are materially different periods; a generic Chelgrian record would obscure them."
+    },
+    {
+      "id": "src-surface-publisher",
+      "title": "Surface Detail: publisher synopsis",
+      "author": "Hachette UK / Orbit",
+      "url": "https://www.hachette.co.uk/titles/iain-m-banks-3/surface-detail/9780356521718/",
+      "kind": "official_publisher_synopsis",
+      "accessed_on": "2026-10-16",
+      "access_method": "Official page opened; synopsis read",
+      "read_scope": "Lededje's Intagliated status, ownership of her life and the simulated-Hells conflict.",
+      "limitations": "The synopsis establishes coercion, not an automated economic system for the entire Enablement."
+    },
+    {
+      "id": "src-banks-civilisations-list",
+      "title": "List of civilisations in the Culture series",
+      "author": "EverybodyWiki contributors",
+      "url": "https://en.everybodywiki.com/List_of_civilisations_in_the_Culture_series",
+      "kind": "secondary_aggregated_fan_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Page opened; GFCF, Morthanveld, Affront and Idiran passages read",
+      "read_scope": "Civilization identities, technological ranks, the Morthanveld's residual money and differences from the Culture.",
+      "limitations": "Unreliable table metadata conflicts with the narrative over Morthanveld AI control. Used as a lead and for identifying gaps, not as an authority for unknown guarantees."
+    },
+    {
+      "id": "src-gzilt-publisher",
+      "title": "The Hydrogen Sonata: publisher synopsis",
+      "author": "Hachette UK / Orbit",
+      "url": "https://www.hachette.co.uk/titles/iain-m-banks-3/the-hydrogen-sonata/9781405517607/",
+      "kind": "official_publisher_synopsis",
+      "accessed_on": "2026-10-16",
+      "access_method": "Official page opened and read",
+      "read_scope": "Military organization, collective Sublimation decision, former soldier Cossont and surviving android technology.",
+      "limitations": "Read Excerpt link did not expose additional text; no claim that an excerpt was read through it."
+    },
+    {
+      "id": "src-gzilt-material-passage",
+      "title": "The Hydrogen Sonata: highlighted passage on Gzilt money and abundance",
+      "author": "Iain M. Banks; Kindle highlight posted by Fernando Goulart",
+      "url": "https://www.goodreads.com/notes/16060768-the-hydrogen-sonata/6322838-fernando-goulart/cc94cd02-f8ea-48f9-973a-dd282fa4a4fb",
+      "kind": "primary_fiction_user_transcription",
+      "accessed_on": "2026-10-16",
+      "access_method": "Substantial indexed quotation read; direct page required a JavaScript challenge",
+      "read_scope": "Passage at the user's reported 65% location: vestigial money, private possessions and long-established material sufficiency.",
+      "limitations": "User-posted primary passage, not a verified print-page locator; verify against an edition in the final pass."
+    },
+    {
+      "id": "src-gzilt-sfra",
+      "title": "Bricoleurs in SF: Making Do Beyond the Walls of Utopia",
+      "author": "SFRA Review",
+      "url": "https://sfrareview.org/2022/01/29/bricoleurs-in-sf-making-do-beyond-the-walls-of-utopia/",
+      "kind": "secondary_scholarly_analysis",
+      "accessed_on": "2026-10-16",
+      "access_method": "Article opened; Gzilt and life-task discussion read",
+      "read_scope": "Voluntary life-tasks, Cossont's musician/reservist roles and the reduced situation of those who remain after Sublimation.",
+      "limitations": "Provides qualitative activity patterns, not an employment census. The Gzilt's pre- and post-Sublimation populations must not be merged."
+    },
+    {
+      "id": "src-idiran-ai-ban",
+      "title": "Idiran-Culture War",
+      "author": "The Culture Wiki contributors",
+      "url": "https://theculture.fandom.com/wiki/Idiran-Culture_War",
+      "kind": "secondary_fan_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Indexed background passages read",
+      "read_scope": "Religious rejection of true AI and the contrasting Culture civilization.",
+      "limitations": "Needs direct appendix corroboration. It supplies no comprehensive Idiran welfare or labor statistics."
+    },
+    {
+      "id": "src-elench-passage",
+      "title": "Zetetic Elench description quoting Excession",
+      "author": "Iain M. Banks passage reproduced in an EVE corporation description",
+      "url": "https://evemaps.dotlan.net/corp/The_Zetetic_Elench",
+      "kind": "primary_fiction_user_transcription",
+      "accessed_on": "2026-10-16",
+      "access_method": "Indexed quoted passage read",
+      "read_scope": "The Elench's Culture origin and desire to change itself rather than other civilizations.",
+      "limitations": "EVE corporation name, members and game statistics are unrelated to Banks canon and were not adopted. The quotation alone does not establish a distinct economic regime."
+    },
+    {
+      "id": "src-dweller-common",
+      "title": "The Algebraist: Common goods and elective professions",
+      "author": "Iain M. Banks",
+      "url": "https://www.rulit.me/books/the-algebraist-read-68512-59.html",
+      "kind": "primary_fiction_unofficial_mirror",
+      "accessed_on": "2026-10-16",
+      "access_method": "Primary passage opened and read",
+      "read_scope": "Tailor and City Administrator conversation; kudos-free Common goods as a membership right and professions as hobbies/sinecures.",
+      "limitations": "Mirror page 59 is not a print page. The adult social picture must be checked against treatment of the young."
+    },
+    {
+      "id": "src-dweller-young",
+      "title": "The Algebraist: treatment of Dweller juveniles",
+      "author": "Iain M. Banks",
+      "url": "https://www.rulit.me/books/the-algebraist-read-68512-17.html",
+      "kind": "primary_fiction_unofficial_mirror",
+      "accessed_on": "2026-10-16",
+      "access_method": "Primary dialogue and narrative passage opened and read",
+      "read_scope": "Fassin and Taince on knowledge work; the narrator's description of adults hunting their young.",
+      "limitations": "This prevents describing adult privileges as universal security for every Dweller."
+    },
+    {
+      "id": "src-algebraist-machine-war",
+      "title": "The Algebraist: Six, The Last Transform",
+      "author": "Iain M. Banks",
+      "url": "https://fictionbooks.top/the-algebraist-193317/read/part-7",
+      "kind": "primary_fiction_unofficial_mirror",
+      "accessed_on": "2026-10-16",
+      "access_method": "Page opened; indexed Machine War explanation read",
+      "read_scope": "Machine retreat, AI refuge and the relationship of machine survival to the Mercatoria.",
+      "limitations": "A late explanatory passage; it does not describe welfare or normal labor participation across all imperial worlds."
+    },
+    {
+      "id": "src-algebraist-martin",
+      "title": "In the Shadow of the Culture",
+      "author": "Sara Martin, Extrapolation 62.2 (2021)",
+      "url": "https://ddd.uab.cat/pub/artpub/2021/286984/extrapolation_a2021v62n2p181.pdf",
+      "kind": "secondary_scholarly_analysis",
+      "accessed_on": "2026-10-16",
+      "access_method": "Substantial indexed academic passages read; direct institutional retrieval was denied",
+      "read_scope": "Pages 186 and 193: anti-AI persecution, the Truth, machine refugees and the limits of the novel's political ending.",
+      "limitations": "Not a successful full-PDF read. Inferences about later reforms are the critic's, not enacted events to turn into new societies."
+    },
+    {
+      "id": "src-feersum-setting",
+      "title": "Feersum Endjinn",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Feersum_Endjinn",
+      "kind": "secondary_plot_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Indexed setting and conclusion passages read",
+      "read_scope": "Cryptosphere reincarnation, political conflict, emerging AI ecology and Asura's intervention.",
+      "limitations": "Digital immortality and a planetary rescue mechanism do not establish a wage-independent civilian economy."
+    }
+  ],
+  "societies": [
+    {
+      "id": "gzilt-before-sublimation",
+      "candidate_id": "c0026",
+      "name": "The Hydrogen Sonata (Gzilt before Sublimation)",
+      "work": "The Hydrogen Sonata",
+      "society": "Gzilt civilization before Sublimation",
+      "media": [
+        "book"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Original novel",
+        "period": "The mature Gzilt society shortly before its collective Sublimation",
+        "population": "Biological Gzilt citizens, a disclosed humanlike population proxy",
+        "human_population_proxy": true,
+        "exclusions": [
+          "The later depleted remnant",
+          "Culture citizens visiting the Gzilt",
+          "A claim that rank automatically means daily productive work"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "The Gzilt have had enough material resources for their population for millennia. Money and private possessions survive, but money has largely lost its normal power to make someone struggle for necessities. This puts the material score well toward provision, even though the society retains structures the Culture has discarded. The point concerns the established society before departure, not the reduced support available to those left behind.\n\nControl remains with biological political and military institutions rather than being handed to independent Minds. That supports a position near the concentrated humanlike-control band, with room for collective participation. Cossont's reservist status and chosen musical life-task illustrate why a military rank need not be a full-time job. The nonworking point is a coarse, low-confidence editorial estimate of a large leisure population; it is not a number supplied by Banks. Creative and organizational work still count, which keeps the estimate below complete nonparticipation.",
+      "axis": {
+        "guarantees": -0.85,
+        "control": 0.25,
+        "nonworking": 0.75
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -1,
+            -0.6
+          ],
+          "confidence": "medium",
+          "basis": "Long-established sufficiency for the population; vestigial exchange does not imply ordinary subsistence scarcity.",
+          "source_ids": [
+            "src-gzilt-publisher",
+            "src-gzilt-material-passage",
+            "src-gzilt-sfra"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.65
+          ],
+          "confidence": "low",
+          "basis": "Biological military and political organization persists; broad ownership and effective authority are not fully described.",
+          "source_ids": [
+            "src-gzilt-publisher"
+          ]
+        },
+        "nonworking": {
+          "interval": [
+            0.3,
+            0.95
+          ],
+          "confidence": "low",
+          "basis": "A deliberately rough estimate from post-need life-tasks and reservist rather than universally active service; productive elective roles remain.",
+          "source_ids": [
+            "src-gzilt-sfra",
+            "src-gzilt-material-passage"
+          ]
+        }
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [
+        2
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-gzilt-publisher",
+        "src-gzilt-material-passage",
+        "src-gzilt-sfra"
+      ],
+      "evidence": [
+        {
+          "claim": "Material sufficiency and vestigial money are explicitly distinguished.",
+          "source_ids": [
+            "src-gzilt-material-passage"
+          ],
+          "locator": "Highlighted novel passage, reported 65% location",
+          "kind": "depicted_or_author_stated"
+        },
+        {
+          "claim": "The published setup and activity examples show biological military organization alongside chosen life-tasks.",
+          "source_ids": [
+            "src-gzilt-publisher",
+            "src-gzilt-sfra"
+          ],
+          "locator": "Publisher synopsis; SFRA discussion of Cossont",
+          "kind": "interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Verify the quoted primary passage against a paginated edition.",
+        "The nonworking estimate is a broad editorial judgment, not a census or an inference that every reservist is idle.",
+        "Precise ownership and constitutional control need more primary detail."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": true
+      }
+    },
+    {
+      "id": "algebraist-dwellers",
+      "candidate_id": "c0030",
+      "name": "The Algebraist (Dwellers of Nasqueron)",
+      "work": "The Algebraist",
+      "society": "Dwellers of Nasqueron",
+      "media": [
+        "book"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "The Algebraist; separate from the Culture universe",
+        "period": "Nasqueron's established Dweller order before the story's crisis",
+        "population": "Adult and juvenile biological Dwellers; this is an explicitly nonhuman proxy population",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Human Seers as a proxy for the native population",
+          "The Mercatoria",
+          "An assumption that adult rights also protect juveniles"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Dweller adults can obtain mass-produced Common goods as a right of membership, without paying kudos. Prestige buys distinction, while ordinary provision does not require winning the status game. This is strong evidence for a post-work social mechanism rather than merely a wealthy visitor's experience. The positive control placement reflects decentralized civic roles and common access, with uncertainty about the machinery behind every service.\n\nThe guarantee score is much less generous than an adult-only postcard would suggest. The same novel explicitly describes adults hunting juveniles; comfortable adulthood does not secure every member's survival. Nor does the word hobby make all activity nonwork: maintaining knowledge, tailoring and administration can still involve useful effort. The nonworking fraction stays unresolved because the evidence does not establish how frequent those activities are, especially across both age groups. This alien society uses the axes by disclosed analogy, and supplies no literal human employment percentage.",
+      "axis": {
+        "guarantees": -0.25,
+        "control": 0.65,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.75,
+            0.45
+          ],
+          "confidence": "low",
+          "basis": "Adult Common entitlement coexists with a severe age-based exclusion from security.",
+          "source_ids": [
+            "src-dweller-common",
+            "src-dweller-young"
+          ]
+        },
+        "control": {
+          "interval": [
+            0.2,
+            0.9
+          ],
+          "confidence": "low",
+          "basis": "Common access and varied local civic selection are visible; a sovereign AI owner is not established.",
+          "source_ids": [
+            "src-dweller-common"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Elective professions and knowledge work remain; neither an adult nor all-age activity fraction is given.",
+          "source_ids": [
+            "src-dweller-common",
+            "src-dweller-young"
+          ]
+        }
+      },
+      "regime_primary": 2,
+      "regime_alternatives": [
+        4
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-dweller-common",
+        "src-dweller-young",
+        "src-algebraist-machine-war"
+      ],
+      "evidence": [
+        {
+          "claim": "Common access is a membership entitlement rather than a reward for prestige.",
+          "source_ids": [
+            "src-dweller-common"
+          ],
+          "locator": "Tailor/City Administrator passage, mirror page 59",
+          "kind": "depicted_or_author_stated"
+        },
+        {
+          "claim": "Juvenile predation limits any claim of universal security.",
+          "source_ids": [
+            "src-dweller-young"
+          ],
+          "locator": "Fassin–Taince discussion and narrator's clarification, mirror page 17",
+          "kind": "depicted_or_author_stated"
+        }
+      ],
+      "uncertainties": [
+        "The actual productive infrastructure needs further corroboration beyond the goods-and-hobbies mechanism.",
+        "Survival, age coverage and material entitlement are not treated as interchangeable.",
+        "AI refugees are independent actors, not assumed to be an invisible enslaved workforce."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "idiran-empire-before-defeat",
+      "candidate_id": "c0028",
+      "name": "Consider Phlebas (Idiran Empire before defeat)",
+      "work": "Consider Phlebas",
+      "society": "Idiran Empire",
+      "media": [
+        "book"
+      ],
+      "record_type": "zero_variant",
+      "scope": {
+        "continuity": "Original Culture prose continuity",
+        "period": "Idiran imperial order during the Idiran-Culture War, before later machine emancipation",
+        "population": "Biological Idirans and their subordinate populations; a nonhuman political proxy",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Later Culturized communities",
+          "A point that averages the war and postwar settlement",
+          "Only the privileged warrior population"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "The Idiran Empire is retained as a zero-variant reference because its religious order rejects true machine autonomy despite possessing advanced technology. Political and military purposes remain those of biological rulers. This is a useful contrast with the Culture, where independent machine citizens are central to the social system. The control point is therefore near concentrated biological command rather than autonomous AI rule.\n\nThat contrast does not establish the empire's complete welfare arrangements. Its subordinate populations also prevent using an image of privileged warriors as a guarantee to everyone. Both the guarantee coordinate and the nonworking fraction remain unresolved rather than being assigned from the empire's reputation for conquest. The snapshot stops before the later changes to Idiran computer systems. A direct review of the novel's appendix is still needed to strengthen the current secondary evidence and decide whether that later order merits a separate candidate.",
+      "axis": {
+        "guarantees": null,
+        "control": 0,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "The gathered evidence does not establish a universal subsistence arrangement across imperial ranks and subject populations.",
+          "source_ids": [
+            "src-idiran-ai-ban",
+            "src-banks-civilisations-list"
+          ]
+        },
+        "control": {
+          "interval": [
+            -0.1,
+            0.2
+          ],
+          "confidence": "medium",
+          "basis": "Biological religious and military command rejects independent machine sovereignty.",
+          "source_ids": [
+            "src-idiran-ai-ban"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "No civilian all-population participation estimate can be grounded in the war account alone.",
+          "source_ids": [
+            "src-idiran-ai-ban",
+            "src-banks-civilisations-list"
+          ]
+        }
+      },
+      "regime_primary": 0,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-idiran-ai-ban",
+        "src-banks-civilisations-list"
+      ],
+      "evidence": [
+        {
+          "claim": "Religious opposition to true AI provides the automation-related zero-variant connection.",
+          "source_ids": [
+            "src-idiran-ai-ban"
+          ],
+          "locator": "Idiran background section",
+          "kind": "secondary_reference"
+        }
+      ],
+      "uncertainties": [
+        "The current classification needs primary appendix corroboration.",
+        "The secondary civilization table is not trusted for unverified economic details."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      },
+      "regime_analogy": null
+    },
+    {
+      "id": "algebraist-mercatoria",
+      "candidate_id": "c0031",
+      "name": "The Algebraist (Mercatoria)",
+      "work": "The Algebraist",
+      "society": "Mercatoria",
+      "media": [
+        "book"
+      ],
+      "record_type": "zero_variant",
+      "scope": {
+        "continuity": "The Algebraist; not the Culture setting",
+        "period": "Mercatorial order before the novel's ending changes its strategic position",
+        "population": "Human and other biological inhabitants of the Mercatoria",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Dweller Common entitlements",
+          "Hypothetical reforms after the ending",
+          "All imperial worlds assumed economically identical"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "The Mercatoria's persecution of machine intelligence makes it a zero variant with a direct technological basis. Capable AIs exist in the setting, but the imperial order seeks to prevent their open existence and authority. Production and government therefore cannot simply be described as an independent machine welfare system. The control placement remains near a concentrated biological hierarchy.\n\nThe ban is much better supported than any universal account of income or basic provision across the empire. The Dwellers' Common system belongs to a different society and is not transferred to the Mercatoria merely because both appear in one book. The guarantee and nonworking axes are left open. The novel's ending also permits hopes of political change without describing a fully enacted new economy. Such possibilities are research questions, not additional completed regimes. This entry separates an established policy toward AI from claims about everyday distribution that require further primary passages.",
+      "axis": {
+        "guarantees": null,
+        "control": 0.05,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "A machine ban and imperial hierarchy do not specify reliable material entitlements for every subject population.",
+          "source_ids": [
+            "src-algebraist-machine-war",
+            "src-algebraist-martin"
+          ]
+        },
+        "control": {
+          "interval": [
+            -0.05,
+            0.25
+          ],
+          "confidence": "medium",
+          "basis": "The biological hierarchy persecutes rather than enfranchises autonomous AIs.",
+          "source_ids": [
+            "src-algebraist-machine-war",
+            "src-algebraist-martin"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Economic activity is not quantified in the reviewed machine-war passages.",
+          "source_ids": [
+            "src-algebraist-machine-war",
+            "src-algebraist-martin"
+          ]
+        }
+      },
+      "regime_primary": 0,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-algebraist-machine-war",
+        "src-algebraist-martin"
+      ],
+      "evidence": [
+        {
+          "claim": "AI persecution is an established imperial policy; later compromise is an interpretation of an open ending.",
+          "source_ids": [
+            "src-algebraist-machine-war",
+            "src-algebraist-martin"
+          ],
+          "locator": "Machine War explanation; Martin pages 186 and 193",
+          "kind": "interpretation"
+        }
+      ],
+      "uncertainties": [
+        "The institutional PDF could only be read in substantial indexed excerpts.",
+        "Normal labor and distribution need primary work beyond the ending exposition."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      },
+      "regime_analogy": null
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0021",
+      "status": "needs_evidence",
+      "reason": "Azad's hierarchy is established; a post-work mechanism or society-wide suppression of available automation is not.",
+      "source_ids": [
+        "src-player-primary"
+      ],
+      "analysis": "The primary briefing describes rank, sex hierarchy and the ban on unnatural assistance during Azad matches. That is relevant political evidence, but the tournament rule is not a general prohibition on AI in production. The Culture's technological superiority also belongs to the visitor's civilization, not automatically to the host economy.\n\nKeep this candidate unresolved until primary passages establish how goods are produced and how ordinary Azadians obtain necessities. A wealthy, cruel empire is not by itself an automation scenario. The word Azad meaning machine or system must not be mistaken for evidence that machines have replaced its workers.",
+      "follow_up": "Review the Imperium city tour, career system and any civilian production passages; separate a game-assistance restriction from an economic automation policy."
+    },
+    {
+      "candidate_id": "c0022",
+      "status": "needs_evidence",
+      "reason": "Affront cruelty and genetic engineering are documented, but its productive and distribution arrangements remain unclear.",
+      "source_ids": [
+        "src-excession-synopsis",
+        "src-banks-civilisations-list"
+      ],
+      "analysis": "The consulted material identifies an advanced civilization that mistreats subordinate beings and exploits a stolen Culture fleet. Those details establish neither the extent of routine labor automation nor an entitlement to necessities. Military machinery borrowed from another polity cannot silently supply the missing civilian economy.\n\nBiological engineering could matter if manufactured service populations replace work by the dominant species, but that relationship needs a primary passage and an explicit population scope. Do not turn any unpleasant advanced society into regime three by default. The candidate remains a lead rather than a scored record.",
+      "follow_up": "Read Excession's Affront-host scenes for actual service labor, property and subsistence rules."
+    },
+    {
+      "candidate_id": "c0023",
+      "status": "needs_evidence",
+      "reason": "The candidate combines materially different caste, reform and postwar periods without sufficient economic evidence.",
+      "source_ids": [
+        "src-chelgria-caste"
+      ],
+      "analysis": "The caste order changes before the disastrous war, so a single label for all Chelgrian civilization risks combining incompatible snapshots. Repression, reform and wartime loss are not themselves measures of automation or post-work access.\n\nChoose a period only after checking civilian production and the material consequences of caste membership in Look to Windward. The afterlife system may supply another social scenario, but it is not automatically the same as the biological society or proof that living Chelgrians no longer need to work.",
+      "follow_up": "Review Ziller's accounts and the pre-reform economy; append a separate afterlife candidate only if its arrangements are sufficiently described."
+    },
+    {
+      "candidate_id": "c0024",
+      "status": "needs_evidence",
+      "reason": "The official synopsis supports enslavement and elite ownership, not a complete automation-based economy.",
+      "source_ids": [
+        "src-surface-publisher"
+      ],
+      "analysis": "Lededje's Intagliated status establishes a coercive personal relationship. It does not show that every citizen's livelihood has been replaced by automated output, nor that all advanced digital systems serve ordinary provision. The novel's simulated Hells are another institution with a distinct population.\n\nA final record needs the actual civilian production and access mechanism of the Sichultian Enablement, with the enslaved and excluded population included in scope. Do not borrow the Culture's guarantees or assign universal destitution from one person's captivity. The title remains in the queue with a precise evidence gap.",
+      "follow_up": "Review Veppers's industrial holdings, the meaning of Intagliated labor and ordinary household provisioning in the novel."
+    },
+    {
+      "candidate_id": "c0025",
+      "status": "needs_evidence",
+      "reason": "GFCF technological level and foreign policy do not establish any of the economic axes.",
+      "source_ids": [
+        "src-banks-civilisations-list"
+      ],
+      "analysis": "The reference identifies the GFCF as a named, technologically advanced polity in Surface Detail. That supports identifying the candidate, but provides little civilian economic information. A level-seven label does not prove universal material abundance, broad ownership or a population freed from work.\n\nLeave its admission and coordinates unresolved. The sources presently encountered are far stronger on diplomatic behavior and conflict than on distribution. A distinct name or military capability is not sufficient reason to add another completed Culture-universe point.",
+      "follow_up": "Find primary descriptions of the GFCF's economy and AI rights; exclude if the novel supplies no relevant social mechanism."
+    },
+    {
+      "candidate_id": "c0026",
+      "status": "included",
+      "reason": "A distinct biologically organized post-need society retains vestigial money and military institutions.",
+      "source_ids": [
+        "src-gzilt-publisher",
+        "src-gzilt-material-passage",
+        "src-gzilt-sfra"
+      ],
+      "society_id": "gzilt-before-sublimation"
+    },
+    {
+      "candidate_id": "c0027",
+      "status": "needs_evidence",
+      "reason": "Morthanveld social transition and constrained AI rights are relevant, but the available reference is internally unreliable and economically incomplete.",
+      "source_ids": [
+        "src-banks-civilisations-list"
+      ],
+      "analysis": "The narrative overview describes residual monetary exchange and an approach toward Culture-like arrangements. Its table simultaneously labels the polity as AI-ruled, making mechanical use of the summary unsafe. A quoted primary discussion encountered elsewhere indicates that full AI freedom is precisely one of the changes still at issue.\n\nThis is a promising transition candidate, but a megastructure and peer-level technology do not establish universal provision or effective ownership. Retrieve the actual Matter passage on going Culture before assigning the control axis, and look for further civilian economic detail. Do not resolve a contradiction by selecting whichever line gives an attractive coordinate.",
+      "follow_up": "Read the primary Morthanveld discussion in Matter, corroborating money, AI citizenship and material access independently."
+    },
+    {
+      "candidate_id": "c0028",
+      "status": "zero_variant",
+      "reason": "Religious restriction of true AI supplies the zero-variant connection; welfare and participation remain open.",
+      "source_ids": [
+        "src-idiran-ai-ban",
+        "src-banks-civilisations-list"
+      ],
+      "society_id": "idiran-empire-before-defeat"
+    },
+    {
+      "candidate_id": "c0029",
+      "status": "duplicate",
+      "reason": "No materially distinct distribution/control mechanism has yet been established beyond the Culture economic model already recorded.",
+      "source_ids": [
+        "src-elench-passage"
+      ],
+      "duplicate_of": "culture-main",
+      "analysis": "The quoted Excession passage establishes a separate Culture-derived group with a different aim: changing itself through contact. That is a philosophical and diplomatic difference, not yet a demonstrated change in material guarantees, productive ownership or human–AI authority.\n\nUnder this project's rule against multiplying the same economic model by every faction name, retain the Elench as a related polity in the decision ledger rather than a second completed point. Reopen the decision if a primary passage demonstrates a distinct mechanism along the requested axes. The unrelated EVE corporation statistics are not lore evidence.",
+      "follow_up": "Check the complete Excession context for a substantive economic or control difference before creating a separate record."
+    },
+    {
+      "candidate_id": "c0030",
+      "status": "included",
+      "reason": "Common goods are an explicit entitlement, but juvenile exclusion prevents an uncomplicated universal-utopia placement.",
+      "source_ids": [
+        "src-dweller-common",
+        "src-dweller-young",
+        "src-algebraist-machine-war"
+      ],
+      "society_id": "algebraist-dwellers"
+    },
+    {
+      "candidate_id": "c0031",
+      "status": "zero_variant",
+      "reason": "Systematic AI persecution preserves a biologically controlled order despite the demonstrated existence of capable machines.",
+      "source_ids": [
+        "src-algebraist-machine-war",
+        "src-algebraist-martin"
+      ],
+      "society_id": "algebraist-mercatoria"
+    },
+    {
+      "candidate_id": "c0032",
+      "status": "needs_evidence",
+      "reason": "Cryptosphere uploading and rescue technology do not yet establish the civilian labor and distribution system.",
+      "source_ids": [
+        "src-feersum-setting"
+      ],
+      "analysis": "Feersum Endjinn presents digital afterlives, emerging machine ecology and political conflict on a far-future Earth. These are relevant technological ingredients, but the reviewed overview does not establish what ordinary people must do to obtain food, shelter or continued support.\n\nThe physical kingdom and virtual crypt also have different inhabitants and institutions. A combined record could silently attribute the security of one realm to the other. Review the primary passages before deciding whether to split them, retain a zero variant, or exclude the work for insufficient economic description. Familiarity with the author's Culture setting supplies none of the missing facts.",
+      "follow_up": "Review living-world provision and crypt maintenance/control separately, using Bascule, Gadfium and Sessine passages."
+    }
+  ],
+  "review_notes": [
+    "Search results from fan fiction, generative-looking summaries and unrelated EVE game records were not treated as canon.",
+    "The Morthanveld reference table conflicts with its narrative; the contradiction remains an explicit research gap.",
+    "Gzilt nonworking is an openly low-confidence editorial estimate, not a reported statistic.",
+    "The Dweller entry includes juveniles rather than extending adult Common privileges to everyone.",
+    "The Elench is provisionally merged under the existing economic model, not asserted to be the same political organization."
+  ]
+}

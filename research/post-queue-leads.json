@@ -1,0 +1,20 @@
+{
+  "scope": "Expansion-lead provenance discovered during the frozen pass; processing links are explicit and the frozen queue is unchanged",
+  "leads": [
+    {
+      "lead_id": "lead-earth2150-ucs",
+      "work": "Earth 2150",
+      "society": "United Civilized States before the final evacuation crisis",
+      "media": ["game"],
+      "discovered_while_checking": "c0689",
+      "source_ids": ["src-b83-earth2150"],
+      "source_url": "https://www.gamespot.com/reviews/earth-2150-review/1900-2591131/",
+      "reason": "The review explicitly describes a decadent society whose workforce and army are entirely robotic. This is a different faction from queued Lunar Corporation.",
+      "candidate_id": "c0785",
+      "disposition": "included",
+      "society_id": "earth2150-ucs-robot-supported",
+      "processed_in_batch": "batch-091",
+      "next_action": "Retained after the ordered expansion check; do not add a duplicate point from this provenance lead."
+    }
+  ]
+}

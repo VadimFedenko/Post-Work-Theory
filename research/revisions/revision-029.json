@@ -1,0 +1,2260 @@
+{
+  "revision_id": "revision-029",
+  "revised_on": "2026-10-17",
+  "reason": "Sixteen robot-comic and European graphic futures retained. North Am/Freewill, active Mekaka, the Hoop, distinct Vinean access units and Megalex are scoped explicitly. The Metabaron is corrected to the second-cycle Epiphyte regime, Edena gains author-level artificial-food provenance, and promised destinations are not treated as completed societies.",
+  "changes": [
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-metalzoic-active-tribe",
+        "title": "Metalzoic: active tribal persons",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/wiki/Metalzoic",
+        "kind": "secondary_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Plot paragraphs on sentient species, Mekaka and repair-metal needs read",
+        "read_scope": "Bounded plot: sentient robot species, Armageddon’s Mekaka tribe, personal relationships and metal needed for repairs.",
+        "limitations": "The ecological background is not a blanket assertion that every machine animal is a civilian person; abandoned humans are not leisure citizens."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-verdus-reproduced-solicit",
+        "title": "Robo-Hunter: Verdus solicitation",
+        "author": "DC Comics, reproduced by BARNEY",
+        "url": "https://www.2000ad.org/thrillpower/dcsamsladeverdus.html",
+        "kind": "publisher_description",
+        "accessed_on": "2026-10-17",
+        "access_method": "Reproduced DC solicitation read",
+        "read_scope": "Publisher solicitation: a self-replicating robot prepares Verdus ahead of colonists; contact is lost after their arrival.",
+        "limitations": "Reproduced publisher synopsis, not a full story read or evidence of universal human prison rights."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-megalex-official-genetics",
+        "title": "Megalex: renewed population and genetic rule",
+        "author": "Humanoids rights catalogue",
+        "url": "https://www.humano.com/secure2/PageBlock/393/Right_catalog_Humanoids_2024_OK_compressed_57048_original.pdf",
+        "kind": "publisher_description",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed Megalex catalogue synopsis read",
+        "read_scope": "Official synopsis: artificial city-planet order, renewed population controlled through genetics and a clone policeman who escapes to rebels.",
+        "limitations": "Publisher synopsis, not a source for a labor census or exact clone life spans; no automatic AI sovereign is inferred."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-metabaron-secondcycle-fuel",
+        "title": "The Metabaron: second-cycle fuel monopoly",
+        "author": "Humanoids rights catalogue",
+        "url": "https://www.humano.com/secure2/PageBlock/393/Humanoids_FR_Licensing_7_56233_original.pdf",
+        "kind": "publisher_description",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed official second-cycle synopsis read",
+        "read_scope": "Official synopsis: a new regime within the Techno-Techno civilization seizes Epiphyte, with Marmola its only known source.",
+        "limitations": "The second-cycle regime is distinct from the already defeated earlier Empire; fuel control alone does not specify all household automation."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-edena-creator-food-conditioning",
+        "title": "The World of Edena: artificial food conditioning",
+        "author": "Moebius, indexed by Grand Comics Database",
+        "url": "https://www.comics.org/issue/1641098/?issue_detail=2",
+        "kind": "creator_commentary",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed author introduction and story-character/synopsis entries read",
+        "read_scope": "Indexed author introduction explicitly relates Gardens of Edena to the conditioning effects of artificial food; the collection includes Paternum and masked human residents.",
+        "limitations": "Bibliographic indexing of author commentary and story, not a full-volume read or universal entitlement charter."
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "magnus-northam-robot-dependence",
+        "candidate_id": "c0765",
+        "name": "Magnus, Robot Fighter (robot-dependent North Am)",
+        "work": "Magnus, Robot Fighter",
+        "society": "Magnus, Robot Fighter (robot-dependent North Am)",
+        "media": [
+          "comic"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Named comic setting and stated period only",
+          "period": "The recurring robot-dependent North Am class order",
+          "population": "Living biological human North Am residents",
+          "human_population_proxy": false,
+          "exclusions": "Freewill robot communities are separately scoped; class membership and robot numbers are not a labor census.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "North Am relies heavily on robots while class divisions shape ordinary human life. This is a direct technical-substitution setting, but robot dependence does not itself establish equal secure necessities. The guarantee best guess uses a weak conditional floor across residents, qualified by unequal access. The partial-transition interpretation concerns the human beneficiaries of machine production, not a claim that every person is idle or every robot lacks awareness.\n\n Human institutions and owners receive concentrated control weight, with autonomous robot agency preserved inside a broad interval. The high nonworking scenario permits extensive substitution while counting services, care, maintenance, administration and useful creation. Robot-to-human ratios and a privileged resident’s comfort are not used as a population employment statistic. The later Freewill Steel Nation has a different synthetic-person access population and is kept separate. The selected recurring material premise does not merge every reboot or turning point into one universal welfare constitution.",
+        "axis": {
+          "guarantees": 0.45,
+          "control": 0.1,
+          "nonworking": 0.65
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.7,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Class divisions make the robot-supported floor unequal and conditional.",
+            "source_ids": [
+              "src-b89-magnus"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.75,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "Human institutions/owners are central with autonomous robot agency possible.",
+            "source_ids": [
+              "src-b89-magnus"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.1,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Substantial substitution may coexist with real human service and caring roles.",
+            "source_ids": [
+              "src-b89-magnus"
+            ]
+          }
+        },
+        "regime_primary": 3,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b89-magnus"
+        ],
+        "evidence": [
+          {
+            "claim": "North Am is robot-dependent and divided by class; Freewill communities are distinct.",
+            "source_ids": [
+              "src-b89-magnus"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Broad human access and participation are editorial estimates.",
+          "No robot ratio or wealthy protagonist becomes a population statistic."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the famous robot-dependent human economy with unequal access visible.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "North Am is robot-dependent and divided by class; Freewill communities are distinct."
+        ],
+        "editorial_assumptions": [
+          "Broad human access and participation are editorial estimates.",
+          "No robot ratio or wealthy protagonist becomes a population statistic."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0765",
+        "status": "needs_evidence",
+        "reason": "North Am’s robot dependence lacks a sufficiently clear necessities-allocation mechanism in the short reference.",
+        "source_ids": [
+          "src-b89-magnus"
+        ],
+        "analysis": "Complacent upper classes, human elites and lower-level outcasts cannot be merged into universal welfare.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0765",
+        "status": "included",
+        "reason": "Retain the famous robot-dependent human economy with unequal access visible.",
+        "source_ids": [
+          "src-b89-magnus"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "magnus-northam-robot-dependence"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "magnus-freewill-steelnation",
+        "candidate_id": "c0766",
+        "name": "Magnus, Robot Fighter (the Freewill Steel Nation)",
+        "work": "Magnus, Robot Fighter",
+        "society": "Magnus, Robot Fighter (the Freewill Steel Nation)",
+        "media": [
+          "comic"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Named comic setting and stated period only",
+          "period": "The functioning benevolent Freewill robot community",
+          "population": "Active synthetic-person Freewill residents",
+          "human_population_proxy": true,
+          "exclusions": "North Am’s biological humans and nonconscious equipment are not the same recipient population.",
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_synthetic_persons"
+        },
+        "description": "The Freewill Steel Nation is a benevolent robot community distinct from robot-dependent human North Am. Its active persons require energy, repairs and components, giving a meaningful technological material comparison. The guarantee best guess allows a partial shared support floor, qualified by uncertain internal coverage and external pressures. Benevolence is not treated as a complete canonical charter or proof of unlimited abundance.\n\n Independence from organic owners gives strongly negative control weight, while the nation’s internal authority and unequal machine agency remain separate questions. The moderate nonworking scenario counts maintenance, fabrication, services, care and useful creation among active identities. Conscious robot labor is not erased because it is artificial or voluntary. Empty shells and inactive units are not supported leisure residents. This partial-transition record keeps the specific synthetic community separate from human dependence, with broad uncertainty instead of demanding a literal human employment rate for a society whose members are robots.",
+        "axis": {
+          "guarantees": -0.4,
+          "control": -0.95,
+          "nonworking": 0.4
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.9,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Benevolent community support is plausible but exact material coverage is uncertain.",
+            "source_ids": [
+              "src-b89-magnus"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              -0.5
+            ],
+            "confidence": "low",
+            "basis": "Freewill independence from human owners differs from equal internal power.",
+            "source_ids": [
+              "src-b89-magnus"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.03,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Active synthetic residents retain fabrication, service and care.",
+            "source_ids": [
+              "src-b89-magnus"
+            ]
+          }
+        },
+        "regime_primary": 5,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b89-magnus"
+        ],
+        "evidence": [
+          {
+            "claim": "The Freewill Steel Nation is a benevolent robot community distinct from North Am.",
+            "source_ids": [
+              "src-b89-magnus"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Energy/component support is the explicit synthetic material analogy.",
+          "Internal rights and participation remain low-confidence scenarios."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distinct active robot nation with its own access population.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The Freewill Steel Nation is a benevolent robot community distinct from North Am."
+        ],
+        "editorial_assumptions": [
+          "Energy/component support is the explicit synthetic material analogy.",
+          "Internal rights and participation remain low-confidence scenarios."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Active synthetic-person participation, not a literal human rate.",
+          "control": "Independence from organic owners; internal machine hierarchy remains separate.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0766",
+        "status": "needs_evidence",
+        "reason": "The Freewill Steel Nation lacks a justified human-derived population and material-access scope.",
+        "source_ids": [
+          "src-b89-magnus"
+        ],
+        "analysis": "Benevolent independent robots are recognized persons, but their freedom alone is not post-work provision.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0766",
+        "status": "included",
+        "reason": "Retain the distinct active robot nation with its own access population.",
+        "source_ids": [
+          "src-b89-magnus"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "magnus-freewill-steelnation"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "robohunter-verdus-robot-zero",
+        "candidate_id": "c0769",
+        "name": "Robo-Hunter (Verdus’s robot colonial order)",
+        "work": "Robo-Hunter",
+        "society": "Robo-Hunter (Verdus’s robot colonial order)",
+        "media": [
+          "comic"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named comic setting and stated period only",
+          "period": "The functioning robot-prepared colonial system after human arrivals",
+          "population": "Active synthetic-person robots operating Verdus",
+          "human_population_proxy": true,
+          "exclusions": "Imprisoned human arrivals are a separate excluded access group; self-replicated hardware is not automatically another conscious person.",
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_synthetic_persons"
+        },
+        "description": "A self-replicating robot prepares Verdus for colonists, but the resulting robot order imprisons arriving humans as supposed simulated impostors. The retained population is the active robot community operating that material system. The guarantee best guess is mixed and conditional for those machines, not a claim that imprisoned humans enjoy secure post-work civic life. Energy, components and maintenance form the explicit material analogy.\n\n Independent machine operation gives strongly negative control weight, while the community’s mistaken doctrine and internal authority remain coercive. The low nonworking scenario counts construction, administration, maintenance, guarding and useful care between active persons. Assigned prison duties remain work even when based on a false belief. Replicated machines are not all assumed conscious, and human captivity is not counted as leisure. This zero variant retains the actual continuing autonomous colonial infrastructure with its excluded humans visible, rather than inventing universal benefits from the planet’s original promise.",
+        "axis": {
+          "guarantees": 0.3,
+          "control": -0.98,
+          "nonworking": 0.15
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.8,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Robot operating support may exist, but human recipients are explicitly excluded.",
+            "source_ids": [
+              "src-b89-verdus",
+              "src-verdus-reproduced-solicit"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              -0.7
+            ],
+            "confidence": "low",
+            "basis": "Autonomous robot doctrine and authority dominate the colony.",
+            "source_ids": [
+              "src-b89-verdus",
+              "src-verdus-reproduced-solicit"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.75
+            ],
+            "confidence": "low",
+            "basis": "Active robot operating/guarding roles count; replication does not prove consciousness.",
+            "source_ids": [
+              "src-b89-verdus",
+              "src-verdus-reproduced-solicit"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b89-verdus",
+          "src-verdus-reproduced-solicit"
+        ],
+        "evidence": [
+          {
+            "claim": "A self-replicating robot prepares Verdus; the robot order imprisons arriving humans as simulated impostors.",
+            "source_ids": [
+              "src-b89-verdus",
+              "src-verdus-reproduced-solicit"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Only active conscious robot operators define participation.",
+          "The intended human paradise is not an implemented universal benefit."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the autonomous robot colony with its denied human access explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "A self-replicating robot prepares Verdus; the robot order imprisons arriving humans as simulated impostors."
+        ],
+        "editorial_assumptions": [
+          "Only active conscious robot operators define participation.",
+          "The intended human paradise is not an implemented universal benefit."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Active synthetic-person participation, not a literal human rate.",
+          "control": "Independence from organic owners; internal machine hierarchy remains separate.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0769",
+        "status": "boundary_case",
+        "reason": "Verdus imprisons incoming humans rather than demonstrating their ordinary post-work civic life.",
+        "source_ids": [
+          "src-b89-verdus"
+        ],
+        "analysis": "Robot terraforming and a mistaken identity hierarchy do not establish durable human support independent of work.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0769",
+        "status": "zero_variant",
+        "reason": "Retain the autonomous robot colony with its denied human access explicit.",
+        "source_ids": [
+          "src-b89-verdus",
+          "src-verdus-reproduced-solicit"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "robohunter-verdus-robot-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "abcwarriors-martian-work-zero",
+        "candidate_id": "c0770",
+        "name": "ABC Warriors (the Martian human-robot economy)",
+        "work": "ABC Warriors",
+        "society": "ABC Warriors (the Martian human-robot economy)",
+        "media": [
+          "comic"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named comic setting and stated period only",
+          "period": "The functioning Martian settlement economy amid robot conflict",
+          "population": "Living biological human Martian residents",
+          "human_population_proxy": false,
+          "exclusions": "Warrior robots’ real work is disclosed; a battle unit or farm is not a population employment statistic.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "War robots and conflict on Mars coexist with farms and useful human labor. Artificial combat and technical capacity therefore do not establish that ordinary human production has disappeared. The guarantee best guess is weak because continuing settlement access is vulnerable to conflict and hierarchy. This zero variant treats robotic substitution as a limited material comparison, without claiming that a robot army already supplies every household free food and care.\n\n Human institutions and powerful operators receive central control weight, qualified by autonomous robot agency. An independent warrior is not automatically the sovereign provider of the whole Martian economy. The low nonworking scenario counts farming, services, maintenance, administration, care and assigned defense. Robot contribution remains real work where the robots are persons, while the scoped percentage concerns living humans. The broad intervals preserve ordinary household uncertainty and period differences. The record does not turn warfare casualties or ruined farms into a population released from labor.",
+        "axis": {
+          "guarantees": 0.75,
+          "control": 0.15,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.4,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Conflict and hierarchy make secure settlement access weak centrally.",
+            "source_ids": [
+              "src-b89-abc"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.85,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "Human institutions coexist with powerful autonomous robot actors.",
+            "source_ids": [
+              "src-b89-abc"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Human farms and useful roles remain; robot work and casualties are not human leisure.",
+            "source_ids": [
+              "src-b89-abc"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b89-abc"
+        ],
+        "evidence": [
+          {
+            "claim": "War robots and later Martian conflict coexist with farms and human labor.",
+            "source_ids": [
+              "src-b89-abc"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The ordinary robotic-substitution floor is a low-confidence interpretation.",
+          "Human and sentient robot work are separately disclosed."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar mixed-person working colony with its limited material qualification explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "War robots and later Martian conflict coexist with farms and human labor."
+        ],
+        "editorial_assumptions": [
+          "The ordinary robotic-substitution floor is a low-confidence interpretation.",
+          "Human and sentient robot work are separately disclosed."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0770",
+        "status": "needs_evidence",
+        "reason": "Warrior robots and Martian farm conflict do not establish ordinary automatic provision.",
+        "source_ids": [
+          "src-b89-abc"
+        ],
+        "analysis": "Useful military work and human farm labor remain visible; no civilian access rules were established.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0770",
+        "status": "zero_variant",
+        "reason": "Retain the familiar mixed-person working colony with its limited material qualification explicit.",
+        "source_ids": [
+          "src-b89-abc"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "abcwarriors-martian-work-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "metalzoic-mekaka-tribe-zero",
+        "candidate_id": "c0771",
+        "name": "Metalzoic (the active Mekaka robot tribe)",
+        "work": "Metalzoic",
+        "society": "Metalzoic (the active Mekaka robot tribe)",
+        "media": [
+          "comic"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named comic setting and stated period only",
+          "period": "The functioning Mekaka tribal material order",
+          "population": "Active sentient synthetic-person Mekaka tribe members",
+          "human_population_proxy": true,
+          "exclusions": "The whole machine ecology is not one civilian population; abandoned humans, inactive wreckage and every animal-shaped mechanism are excluded.",
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_synthetic_persons"
+        },
+        "description": "The Mekaka are a sentient robot tribe with personal relationships, conflict and a need for material repairs. The broader machine ecosystem is not treated as a human leisure society. The guarantee best guess is extremely weak because bodily continuation depends on scarce materials and vulnerability to predation. Artificial origin is a limited zero-variant qualification, not proof that the tribe owns a factory supplying unlimited necessities.\n\n Independence from organic owners gives negative control weight, while Armageddon’s internal dominance remains coercive. The low nonworking scenario counts resource acquisition, repair, coordination, defense and useful care between active persons. Personal relationships support the person proxy without making every moving machine an independently conscious citizen. Hunting and rebuilding can be work; inactive wreckage is not leisure. The source establishes a specific active tribe, so the record avoids rejecting all robot inhabitants as mere ecology while also avoiding an invented universal constitution for the entire Metalzoic planet.",
+        "axis": {
+          "guarantees": 0.95,
+          "control": -0.95,
+          "nonworking": 0.1
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.55,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Repair-material dependence and predation weaken secure bodily support.",
+            "source_ids": [
+              "src-b89-metalzoic",
+              "src-metalzoic-active-tribe"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              -0.55
+            ],
+            "confidence": "low",
+            "basis": "Synthetic independence coexists with coercive tribal leadership.",
+            "source_ids": [
+              "src-b89-metalzoic",
+              "src-metalzoic-active-tribe"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "Active tribal persons retain resource, repair and caring roles; wreckage is excluded.",
+            "source_ids": [
+              "src-b89-metalzoic",
+              "src-metalzoic-active-tribe"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b89-metalzoic",
+          "src-metalzoic-active-tribe"
+        ],
+        "evidence": [
+          {
+            "claim": "The plot identifies sentient robot species, the Mekaka tribe, personal relationships and metal needed for repairs.",
+            "source_ids": [
+              "src-b89-metalzoic",
+              "src-metalzoic-active-tribe"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The active tribe is the proxy population, not the entire machine ecology.",
+          "Artificial origin is a limited comparative qualification."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the identified active synthetic tribe with ecology and personhood separated.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The plot identifies sentient robot species, the Mekaka tribe, personal relationships and metal needed for repairs."
+        ],
+        "editorial_assumptions": [
+          "The active tribe is the proxy population, not the entire machine ecology.",
+          "Artificial origin is a limited comparative qualification."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Active synthetic-person participation, not a literal human rate.",
+          "control": "Independence from organic owners; internal machine hierarchy remains separate.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0771",
+        "status": "boundary_case",
+        "reason": "Post-human machine ecology has no established active human-derived beneficiary population.",
+        "source_ids": [
+          "src-b89-metalzoic"
+        ],
+        "analysis": "Robotic tribal survival and evolved bodies are not human leisure.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0771",
+        "status": "zero_variant",
+        "reason": "Retain the identified active synthetic tribe with ecology and personhood separated.",
+        "source_ids": [
+          "src-b89-metalzoic",
+          "src-metalzoic-active-tribe"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "metalzoic-mekaka-tribe-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "halojones-hoop-increased-leisure",
+        "candidate_id": "c0772",
+        "name": "The Ballad of Halo Jones (the Hoop)",
+        "work": "The Ballad of Halo Jones",
+        "society": "The Ballad of Halo Jones (the Hoop)",
+        "media": [
+          "comic"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Named comic setting and stated period only",
+          "period": "The functioning Hoop increased-leisure community",
+          "population": "Living human Hoop residents",
+          "human_population_proxy": false,
+          "exclusions": "Formal unemployment does not exclude useful care, informal work or later steward employment; no exact unemployment-to-nonwork conversion.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Hoop houses unemployed increased-leisure citizens, while Halo later takes useful steward work. The setting therefore presents exclusion from regular employment rather than proof that every resident avoids useful activity. The guarantee best guess assumes a weak partial sustaining floor, qualified by confinement, inequality and sparse ordinary allocation detail. Automation’s role in that floor remains an explicitly cautious interpretation of the technological setting.\n\n Human institutional and elite control receives central positive weight, with some local agency inside the interval. Being classified for leisure does not grant equal command over productive resources. The high nonworking scenario permits substantial formal-job displacement while still counting care, services, maintenance and useful informal creation. It is not copied from an unemployment percentage or calculated from time spent bored. The later steward role remains work, and the whole galaxy does not inherit the Hoop’s conditions. This partial-transition record preserves the recognizable exclusionary leisure model with its uncertainty visible.",
+        "axis": {
+          "guarantees": 0.45,
+          "control": 0.15,
+          "nonworking": 0.65
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.6,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "A partial sustaining floor is plausible but exclusion and inequality limit security.",
+            "source_ids": [
+              "src-b89-halo"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "Human institutional control is central despite some local agency.",
+            "source_ids": [
+              "src-b89-halo"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.1,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "High nonwork is a scenario, not the unemployment rate; care and informal contribution count.",
+            "source_ids": [
+              "src-b89-halo"
+            ]
+          }
+        },
+        "regime_primary": 3,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b89-halo"
+        ],
+        "evidence": [
+          {
+            "claim": "The Hoop houses unemployed increased-leisure citizens; Halo later undertakes steward work.",
+            "source_ids": [
+              "src-b89-halo"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The sustaining floor and automation link are cautious setting interpretations.",
+          "Formal unemployment is not treated as an exact useful-work census."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the famous increased-leisure ghetto with formal joblessness separated from useful participation.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The Hoop houses unemployed increased-leisure citizens; Halo later undertakes steward work."
+        ],
+        "editorial_assumptions": [
+          "The sustaining floor and automation link are cautious setting interpretations.",
+          "Formal unemployment is not treated as an exact useful-work census."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0772",
+        "status": "needs_evidence",
+        "reason": "The Hoop’s unemployment ghetto lacks a verified automation-funded ordinary floor.",
+        "source_ids": [
+          "src-b89-halo"
+        ],
+        "analysis": "Increased-leisure is an in-universe euphemism; it must not be treated as proof that all useful work has disappeared.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0772",
+        "status": "included",
+        "reason": "Retain the famous increased-leisure ghetto with formal joblessness separated from useful participation.",
+        "source_ids": [
+          "src-b89-halo"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "halojones-hoop-increased-leisure"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "incal-cityshaft-zero",
+        "candidate_id": "c0773",
+        "name": "The Incal (City Shaft’s stratified economy)",
+        "work": "The Incal",
+        "society": "The Incal (City Shaft’s stratified economy)",
+        "media": [
+          "comic"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named comic setting and stated period only",
+          "period": "The functioning stratified City Shaft order",
+          "population": "Living human City Shaft residents across social levels",
+          "human_population_proxy": false,
+          "exclusions": "Robot police, aristocrats and excluded residents do not share identical rights; a vertical level is not an employment percentage.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "City Shaft combines stratified residents, aristocrats, technical-religious authority and robotic police. Automated service and advanced urban systems coexist with unequal access and continuing human roles. The guarantee best guess is weak across the combined population rather than copied from the upper strata. The zero-variant admission is limited: police and technical infrastructure provide a concrete comparison, but complete automatic household production is not asserted.\n\n Human elites and institutions receive concentrated control weight, with autonomous technical power left inside a wide interval. Robotic enforcement does not automatically mean machines own the whole city. The moderate nonworking scenario counts service, production, administration, care, maintenance and useful creation. Poverty, private entertainment and spatial segregation are not labor statistics. The point concerns the continuing City Shaft order, not every later cosmic transformation or a universal successor regime. Broad uncertainty allows the familiar graphic future to remain in the database without inventing equal material rights or an exact fictional work census.",
+        "axis": {
+          "guarantees": 0.8,
+          "control": 0.05,
+          "nonworking": 0.4
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.2,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Stratification and elite access suggest weak common material security.",
+            "source_ids": [
+              "src-b90-incal"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.75,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Human elite/institutional concentration is central with machine alternatives possible.",
+            "source_ids": [
+              "src-b90-incal"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Human roles and care remain; spatial hierarchy is not a labor census.",
+            "source_ids": [
+              "src-b90-incal"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b90-incal"
+        ],
+        "evidence": [
+          {
+            "claim": "City Shaft has stratified residents, aristocrats, a TechnoPope, Prez and robotic police.",
+            "source_ids": [
+              "src-b90-incal"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "General household automation and participation are low-confidence estimates.",
+          "Later cosmic outcomes are not a settled universal successor policy."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the famous stratified technical city with its ordinary material limits explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "City Shaft has stratified residents, aristocrats, a TechnoPope, Prez and robotic police."
+        ],
+        "editorial_assumptions": [
+          "General household automation and participation are low-confidence estimates.",
+          "Later cosmic outcomes are not a settled universal successor policy."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0773",
+        "status": "needs_evidence",
+        "reason": "City Shaft’s hierarchy and robot police do not establish ordinary work-independent provision.",
+        "source_ids": [
+          "src-b90-incal"
+        ],
+        "analysis": "The indexed introductory sidebar supplies government and class context only; no full comic retrieval.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0773",
+        "status": "zero_variant",
+        "reason": "Retain the famous stratified technical city with its ordinary material limits explicit.",
+        "source_ids": [
+          "src-b90-incal"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "incal-cityshaft-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "metabarons-technotechno-zero",
+        "candidate_id": "c0774",
+        "name": "The Metabaron (the Epiphyte monopoly regime)",
+        "work": "The Metabaron / The Metabarons: Second Cycle",
+        "society": "The Metabaron (the Epiphyte monopoly regime)",
+        "media": [
+          "comic"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The Metabaron / collected Metabarons Second Cycle; rebuilt Epiphyte regime after the earlier Empire’s defeat",
+          "period": "The rebuilt second-cycle regime controlling Epiphyte",
+          "population": "Living humanlike residents dependent on the industrial order",
+          "human_population_proxy": true,
+          "exclusions": "The defeated earlier Empire is a different period; a fuel monopoly is not automatic food provision and augmented people are not all unrelated AI.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "A new regime within the Techno-Techno civilization controls Epiphyte after the earlier Empire’s defeat. Marmola is its only known source. This gives a concrete concentrated-resource mechanism, while broader household automation remains uncertain. The guarantee best guess is weak because supply power does not become dependable equal necessities. This zero variant cautiously compares advanced industrial capacity with retained labor rather than claiming fuel alone feeds, houses and cares for every resident.\n\n Concentrated imperial authority receives control near the non-AI elite reference point, with substantial machine-controller uncertainty inside the interval. Augmentation and technical-religious titles do not settle the origin of every decision-maker. The modest nonworking scenario counts production, transport, administration, technical maintenance, care and useful creation. Fuel output and monopoly profits are not employment statistics. The chosen industrial period does not inherit every later succession outcome. The low-confidence qualification is explicit, so the recognizable monopoly society is preserved without manufacturing a detailed canonical household constitution.",
+        "axis": {
+          "guarantees": 0.85,
+          "control": 0.03,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.2,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Concentrated fuel access suggests conditional dependence, not equal necessities.",
+            "source_ids": [
+              "src-b90-metabaron",
+              "src-metabaron-secondcycle-fuel"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.85,
+              0.4
+            ],
+            "confidence": "low",
+            "basis": "Imperial concentration is central with controller ontology uncertain.",
+            "source_ids": [
+              "src-b90-metabaron",
+              "src-metabaron-secondcycle-fuel"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.03,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Industrial and caring roles remain; monopoly output is not participation.",
+            "source_ids": [
+              "src-b90-metabaron",
+              "src-metabaron-secondcycle-fuel"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b90-metabaron",
+          "src-metabaron-secondcycle-fuel"
+        ],
+        "evidence": [
+          {
+            "claim": "A rebuilt second-cycle regime within the Techno-Techno civilization controls Epiphyte, whose only known source is Marmola.",
+            "source_ids": [
+              "src-b90-metabaron",
+              "src-metabaron-secondcycle-fuel"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Broader household automation and ruler ontology remain uncertain.",
+          "Fuel abundance is not treated as complete subsistence automation."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the recognizable industrial-monopoly comparison in its verified second-cycle scope.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "A rebuilt second-cycle regime within the Techno-Techno civilization controls Epiphyte, whose only known source is Marmola."
+        ],
+        "editorial_assumptions": [
+          "Broader household automation and ruler ontology remain uncertain.",
+          "Fuel abundance is not treated as complete subsistence automation."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0774",
+        "status": "needs_evidence",
+        "reason": "A starship-fuel monopoly does not establish a post-work household economy.",
+        "source_ids": [
+          "src-b90-metabaron"
+        ],
+        "analysis": "Military technology and extractive control leave ordinary productive replacement/access rules unresolved.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0774",
+        "status": "zero_variant",
+        "reason": "Retain the recognizable industrial-monopoly comparison in its verified second-cycle scope.",
+        "source_ids": [
+          "src-b90-metabaron",
+          "src-metabaron-secondcycle-fuel"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "metabarons-technotechno-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "technopriests-traveling-cohort-zero",
+        "candidate_id": "c0775",
+        "name": "The Technopriests (the traveling technopriest community)",
+        "work": "The Technopriests",
+        "society": "The Technopriests (the traveling technopriest community)",
+        "media": [
+          "comic"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named comic setting and stated period only",
+          "period": "The functioning traveling community led by Albino",
+          "population": "Active living human-derived members of the traveling cohort",
+          "human_population_proxy": true,
+          "exclusions": "The promised Supra-Neutopian destination is not an implemented planetary economy; inactive records and unarrived settlers are excluded.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Albino leads young technopriests toward a promised galaxy while narrating his rise. The retained unit is their continuing traveling technical community rather than an invented settled Supra-Neutopian destination. The guarantee best guess allows a partial support floor inside the journey, qualified by provider dependence and unknown ordinary access. This zero variant treats technical habitation and retained productive roles as a cautious material comparison.\n\n Human-derived leadership receives concentrated control weight, with more dispersed technical agency possible inside the interval. A prestigious technological title does not itself make the leader an unrelated AI sovereign. The low nonworking scenario counts navigation, maintenance, coordination, care and useful creation. Travel time and a promise of a better world are not employment statistics. Active residents alone define the proxy population. The record does not assume the destination’s laws, completed colonization or universal leisure; those are different claims from a functioning shipboard or traveling support arrangement. The uncertain material scope is explicit rather than hidden as canonical settlement history.",
+        "axis": {
+          "guarantees": 0.4,
+          "control": 0.1,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.7,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "A traveling support floor is plausible but conditional and incompletely described.",
+            "source_ids": [
+              "src-b90-technopriests"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.65,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "Human-derived leadership and technical agency are central.",
+            "source_ids": [
+              "src-b90-technopriests"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Active traveling residents retain coordination, maintenance and care.",
+            "source_ids": [
+              "src-b90-technopriests"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b90-technopriests"
+        ],
+        "evidence": [
+          {
+            "claim": "Albino leads young technopriests toward a promised galaxy and narrates his rise.",
+            "source_ids": [
+              "src-b90-technopriests"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The continuing traveling cohort is the selected support unit.",
+          "The promised destination is not treated as an implemented welfare society."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the actual traveling technical community with the destination excluded.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Albino leads young technopriests toward a promised galaxy and narrates his rise."
+        ],
+        "editorial_assumptions": [
+          "The continuing traveling cohort is the selected support unit.",
+          "The promised destination is not treated as an implemented welfare society."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0775",
+        "status": "needs_evidence",
+        "reason": "The promised Supra-Neutopian destination lacks verified settled resource institutions.",
+        "source_ids": [
+          "src-b90-technopriests"
+        ],
+        "analysis": "Leadership and a voyage toward liberation cannot be treated as an already implemented universal floor.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0775",
+        "status": "zero_variant",
+        "reason": "Retain the actual traveling technical community with the destination excluded.",
+        "source_ids": [
+          "src-b90-technopriests"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "technopriests-traveling-cohort-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "valerian-technorog-zero",
+        "candidate_id": "c0777",
+        "name": "Valerian and Laureline (Technorog’s industrial settlement)",
+        "work": "Valerian and Laureline: Welcome to Alflolol",
+        "society": "Valerian and Laureline (Technorog’s industrial settlement)",
+        "media": [
+          "comic"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named comic setting and stated period only",
+          "period": "The functioning Technorog industrial colony during indigenous return",
+          "population": "Living human Technorog settlers",
+          "human_population_proxy": false,
+          "exclusions": "Returning Alflololians have different access and are not silently equal human beneficiaries; industrial scale is not a labor census.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Technorog is an industrial, agricultural and research center when indigenous return produces a reinsertion conflict. Advanced production therefore coexists with useful human work and disputed access rather than a settled equal post-work floor. The guarantee best guess is weak across the human settlement, with wider allowance for institutional support. The zero-variant qualification is limited technological production and retained roles, not proof that every farm and laboratory is already automatic.\n\n Human colonial institutions receive concentrated control weight, qualified by some local productive agency. Industrial development does not grant settlers equal command over all resources, and the original inhabitants’ claims are not erased. The modest human nonworking scenario counts industry, farming, research, administration, care and useful creation. Resources and colonial output are not converted into employment percentages. The point concerns the functioning settlement during the conflict rather than a universal final reconciliation. Broad intervals preserve material uncertainty while keeping the excluded indigenous access group visible.",
+        "axis": {
+          "guarantees": 0.6,
+          "control": 0.15,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.5,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Institutional settlement support is possible but access and colonial conflict qualify it.",
+            "source_ids": [
+              "src-b90-alflolol"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.7
+            ],
+            "confidence": "low",
+            "basis": "Human colonial authority concentrates productive decisions.",
+            "source_ids": [
+              "src-b90-alflolol"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.03,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Industry, farms, research and care remain work; output is not participation.",
+            "source_ids": [
+              "src-b90-alflolol"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b90-alflolol"
+        ],
+        "evidence": [
+          {
+            "claim": "Technorog is an industrial, agricultural and research center; indigenous return produces reinsertion conflict.",
+            "source_ids": [
+              "src-b90-alflolol"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Automation depth and human household coverage are low-confidence interpretations.",
+          "Indigenous access differs and is not silently merged."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the recognizable technical colonial order with distinct access populations.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Technorog is an industrial, agricultural and research center; indigenous return produces reinsertion conflict."
+        ],
+        "editorial_assumptions": [
+          "Automation depth and human household coverage are low-confidence interpretations.",
+          "Indigenous access differs and is not silently merged."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0777",
+        "status": "needs_evidence",
+        "reason": "Technorog’s industry and indigenous reinsertion do not establish automatic ordinary allocation.",
+        "source_ids": [
+          "src-b90-alflolol"
+        ],
+        "analysis": "Research, agriculture and colonial coercion remain real material activity; Galaxity’s leisure is not copied to the industrial periphery.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0777",
+        "status": "zero_variant",
+        "reason": "Retain the recognizable technical colonial order with distinct access populations.",
+        "source_ids": [
+          "src-b90-alflolol"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "valerian-technorog-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "edena-paternum-artificial-provision",
+        "candidate_id": "c0778",
+        "name": "The World of Edena (Paternum’s conditioned provisioning)",
+        "work": "The World of Edena",
+        "society": "The World of Edena (Paternum’s conditioned provisioning)",
+        "media": [
+          "comic"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Named comic setting and stated period only",
+          "period": "The functioning industrial artificial-food/body order before release from its conditioning",
+          "population": "Active human-derived residents of the managed order",
+          "human_population_proxy": true,
+          "exclusions": "Later natural-food encounters and transformed bodies are a different condition; one protagonist does not supply a population census.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The industrialized world of Edena links artificial food and bodily conditioning, an association the author explicitly discusses. This supplies a stronger material mechanism than technological scenery alone. The guarantee best guess assumes a partial sustaining floor while recognizing that conditional bodily dependence is not secure freedom. The point concerns the managed order associated with Paternum, with exact coverage and provider structure still estimated rather than reconstructed from the full surreal narrative.\n\n Concentrated institutional and possible machine-provider authority receives mixed control weight. Artificial food does not automatically mean the residents collectively own its production, and the provider’s ultimate nature remains inside a broad interval. The moderate nonworking scenario permits substantial technical support while counting operation, services, maintenance, care and useful creation. Hormonal or bodily change is not a labor statistic. Active human-derived residents form the explicit proxy, and later encounters with natural food are not silently treated as the same allocation system or proof of a universal successor constitution.",
+        "axis": {
+          "guarantees": 0.05,
+          "control": -0.4,
+          "nonworking": 0.5
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.85,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Artificial food/body support offers a partial floor but conditioning limits secure access.",
+            "source_ids": [
+              "src-b90-edena",
+              "src-edena-creator-food-conditioning"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Concentrated provider authority is central with machine nature uncertain.",
+            "source_ids": [
+              "src-b90-edena",
+              "src-edena-creator-food-conditioning"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Active residents may retain operation, care and services; bodily change is not participation.",
+            "source_ids": [
+              "src-b90-edena",
+              "src-edena-creator-food-conditioning"
+            ]
+          }
+        },
+        "regime_primary": 6,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b90-edena",
+          "src-edena-creator-food-conditioning"
+        ],
+        "evidence": [
+          {
+            "claim": "Industrialized protagonists encounter natural food and transformed body/social relations.",
+            "source_ids": [
+              "src-b90-edena",
+              "src-edena-creator-food-conditioning"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "The indexed author introduction links artificial food to conditioning.",
+            "source_ids": [
+              "src-b90-edena",
+              "src-edena-creator-food-conditioning"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Managed Paternum provision and ordinary participation are low-confidence interpretations.",
+          "Later bodily/food conditions are not the same allocation scope."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the direct artificial-food dependence model with controller and household uncertainty explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Industrialized protagonists encounter natural food and transformed body/social relations.",
+          "The indexed author introduction links artificial food to conditioning."
+        ],
+        "editorial_assumptions": [
+          "Managed Paternum provision and ordinary participation are low-confidence interpretations.",
+          "Later bodily/food conditions are not the same allocation scope."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0778",
+        "status": "needs_evidence",
+        "reason": "The short Edena reference does not establish the Paternum society’s automatic access rules.",
+        "source_ids": [
+          "src-b90-edena"
+        ],
+        "analysis": "Body transformation, synthetic food themes and a godlike figure cannot substitute for a defined material mechanism.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0778",
+        "status": "included",
+        "reason": "Retain the direct artificial-food dependence model with controller and household uncertainty explicit.",
+        "source_ids": [
+          "src-b90-edena",
+          "src-edena-creator-food-conditioning"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "edena-paternum-artificial-provision"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "yoko-earth-vinean-central-zero",
+        "candidate_id": "c0779",
+        "name": "Yoko Tsuno (the Vinean colony under its central computer)",
+        "work": "Yoko Tsuno: The Curious Trio",
+        "society": "Yoko Tsuno (the Vinean colony under its central computer)",
+        "media": [
+          "comic"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The Curious Trio / Le Trio de l’étrange only",
+          "period": "The operating subterranean Earth colony before the central computer’s defeat",
+          "population": "Living biological Vinean colony residents",
+          "human_population_proxy": true,
+          "exclusions": "Human visitors are not resident beneficiaries; inactive systems and later home-planet survivors are different populations.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The subterranean Vinean colony has a rogue central computer with security chief Karpan acting as its pawn. The technical habitat supplies a plausible material-support system while residents retain useful activity. The guarantee best guess is weak because concentrated coercive control can withdraw safety and access. The zero-variant admission does not assume the colony’s advanced devices have already eliminated every necessary biological contribution.\n\n Effective central-machine authority receives strongly negative control weight, qualified by biological staff and resistance. Formal security personnel are not proof that the computer lacks practical power. The modest nonworking scenario counts engineering, maintenance, administration, care and useful creation among living Vineans. Visitors, empty equipment and preserved data do not enlarge the resident denominator. This is an explicit alien-person proxy. The first album’s colony is kept distinct from Karpan’s later magma project, the returning home-planet population and the underwater city, each of which has a different provider or access scope.",
+        "axis": {
+          "guarantees": 0.75,
+          "control": -0.95,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.5,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Coercive central control weakens dependable habitat access.",
+            "source_ids": [
+              "src-b90-yoko"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              -0.5
+            ],
+            "confidence": "low",
+            "basis": "The rogue computer has effective authority with biological staff as intermediaries.",
+            "source_ids": [
+              "src-b90-yoko"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Living alien residents retain engineering and care; visitors and data are excluded.",
+            "source_ids": [
+              "src-b90-yoko"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b90-yoko"
+        ],
+        "evidence": [
+          {
+            "claim": "The Curious Trio’s Vinean colony is controlled by a rogue central computer with Karpan as its pawn.",
+            "source_ids": [
+              "src-b90-yoko"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The habitat support floor and ordinary participation are estimates.",
+          "Later Vinean societies and projects have separate scopes."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar machine-controlled alien habitat in its first-album period.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The Curious Trio’s Vinean colony is controlled by a rogue central computer with Karpan as its pawn."
+        ],
+        "editorial_assumptions": [
+          "The habitat support floor and ordinary participation are estimates.",
+          "Later Vinean societies and projects have separate scopes."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0779",
+        "status": "needs_evidence",
+        "reason": "The Vinean central computer’s power does not establish ordinary work-independent necessities.",
+        "source_ids": [
+          "src-b90-yoko"
+        ],
+        "analysis": "Control of a settlement and a computer conflict are not the same as productive/provision evidence.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0779",
+        "status": "zero_variant",
+        "reason": "Retain the familiar machine-controlled alien habitat in its first-album period.",
+        "source_ids": [
+          "src-b90-yoko"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "yoko-earth-vinean-central-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "yoko-karpan-magma-unit-zero",
+        "candidate_id": "c0780",
+        "name": "Yoko Tsuno (Karpan’s magma-project enclave)",
+        "work": "Yoko Tsuno: The Forge of Vulcan",
+        "society": "Yoko Tsuno (Karpan’s magma-project enclave)",
+        "media": [
+          "comic"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The Forge of Vulcan / La Forge de Vulcain project only",
+          "period": "The operating magma-pipeline project before its final disruption",
+          "population": "Active biological Vinean project residents and operators",
+          "human_population_proxy": true,
+          "exclusions": "The proposed new continent is not a completed civilian society; the earlier rogue central-computer order is not the same controller scope.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Karpan’s project uses an actual magma pipeline in a plan to create a new continent for Vineans. The retained unit is the continuing engineered project and its active operators, not a fictional completed surface civilization. The guarantee best guess is weak because support is tied to a coercive technical undertaking. This narrow zero variant compares substantial automatic material infrastructure with retained engineering and command roles.\n\n Concentrated biological Karpan authority receives control near the non-AI elite reference point, with inherited machine discretion left inside a broad interval. A large automated pipeline does not automatically govern its own residents. The low nonworking scenario counts operation, maintenance, administration, care and useful creation among active biological persons. The volume of moved magma is not a labor census, and an unbuilt continent is not populated with imagined leisure citizens. The period and work-unit scope make this distinct from the first album’s rogue-computer colony without inventing a new universal Vinean constitution.",
+        "axis": {
+          "guarantees": 0.8,
+          "control": 0.03,
+          "nonworking": 0.15
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.4,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Coercive project dependence gives weak secure support.",
+            "source_ids": [
+              "src-b90-yoko"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.75,
+              0.35
+            ],
+            "confidence": "low",
+            "basis": "Biological Karpan project authority is central despite machine operation.",
+            "source_ids": [
+              "src-b90-yoko"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Active operators retain engineering and care; material throughput is not participation.",
+            "source_ids": [
+              "src-b90-yoko"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b90-yoko"
+        ],
+        "evidence": [
+          {
+            "claim": "Karpan’s magma pipeline is part of a plan for a new surface continent for Vineans.",
+            "source_ids": [
+              "src-b90-yoko"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Only the operating project’s active cohort is scored.",
+          "The proposed new continent and completed welfare institutions are excluded."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the actual engineered work unit with its unimplemented destination separate.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Karpan’s magma pipeline is part of a plan for a new surface continent for Vineans."
+        ],
+        "editorial_assumptions": [
+          "Only the operating project’s active cohort is scored.",
+          "The proposed new continent and completed welfare institutions are excluded."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0780",
+        "status": "needs_evidence",
+        "reason": "Karpan’s magma project does not establish a distinct automatic civilian economy.",
+        "source_ids": [
+          "src-b90-yoko"
+        ],
+        "analysis": "A new-continent scheme and coercive leadership do not answer household allocation.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0780",
+        "status": "zero_variant",
+        "reason": "Retain the actual engineered work unit with its unimplemented destination separate.",
+        "source_ids": [
+          "src-b90-yoko"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "yoko-karpan-magma-unit-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "yoko-vinea-maintained-survivors",
+        "candidate_id": "c0781",
+        "name": "Yoko Tsuno (robot-maintained Vinean survivors)",
+        "work": "Yoko Tsuno: The Three Suns of Vinea",
+        "society": "Yoko Tsuno (robot-maintained Vinean survivors)",
+        "media": [
+          "comic"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "The Three Suns of Vinea / Les Trois Soleils de Vinéa home-planet encounter",
+          "period": "The active home-planet survivor order encountered on return",
+          "population": "Living biological Vinean survivors on the home planet",
+          "human_population_proxy": true,
+          "exclusions": "Dormant survivors and stored scientists’ memories are not additional living nonworkers; Earth colonies are separate.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Vinean survivors use an engineered planetary environment and wind-powered technology, with robot brains containing scientists’ stored memories involved in governance. That supports a continuing material habitat comparison rather than only an abandoned machine. The guarantee best guess allows a partial local floor, qualified by distorted control and uncertain ordinary rights. Continued planetary maintenance does not by itself make provision equal or unlimited.\n\n The control point gives strong machine-mediated weight while leaving a continuing humanlike scientist-identity interpretation inside the interval. Stored biological memories do not automatically settle whether the controller is an independent AI or a human-derived copy. The moderate nonworking scenario counts maintenance, coordination, care and useful creation among active living survivors. Dormancy, stored minds and robot count are not leisure statistics. This home-planet population is distinct from the subterranean Earth colony and the later underwater city. The alien-person proxy and broad intervals keep those institutional and population limits visible.",
+        "axis": {
+          "guarantees": -0.15,
+          "control": -0.7,
+          "nonworking": 0.45
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.85,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Maintained planetary habitat supports a partial floor with control and coverage limits.",
+            "source_ids": [
+              "src-b90-vinea"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.4
+            ],
+            "confidence": "low",
+            "basis": "Machine-mediated governance is central with stored-scientist identity alternatives.",
+            "source_ids": [
+              "src-b90-vinea"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Living survivors retain useful work; dormant bodies and memories are not active leisure people.",
+            "source_ids": [
+              "src-b90-vinea"
+            ]
+          }
+        },
+        "regime_primary": 6,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b90-vinea"
+        ],
+        "evidence": [
+          {
+            "claim": "Survivors use wind-powered technology; robot brains with scientists’ memories govern the planet.",
+            "source_ids": [
+              "src-b90-vinea"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The active living survivor population is separate from archives and dormant bodies.",
+          "Exact controller identity and material coverage remain uncertain."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the active robot-maintained survivor habitat with controller-origin uncertainty explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Survivors use wind-powered technology; robot brains with scientists’ memories govern the planet."
+        ],
+        "editorial_assumptions": [
+          "The active living survivor population is separate from archives and dormant bodies.",
+          "Exact controller identity and material coverage remain uncertain."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0781",
+        "status": "needs_evidence",
+        "reason": "Planetary maintenance and a survivor civilization do not establish labor-independent ordinary access.",
+        "source_ids": [
+          "src-b90-vinea"
+        ],
+        "analysis": "Robot brains containing scientists’ memories are not automatically external AI; wind technology and fear do not supply a labor census.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0781",
+        "status": "included",
+        "reason": "Retain the active robot-maintained survivor habitat with controller-origin uncertainty explicit.",
+        "source_ids": [
+          "src-b90-vinea"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "yoko-vinea-maintained-survivors"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "yoko-vinean-underwater-zero",
+        "candidate_id": "c0782",
+        "name": "Yoko Tsuno (the Archangels’ underwater city)",
+        "work": "Yoko Tsuno: The Archangels of Vinea",
+        "society": "Yoko Tsuno (the Archangels’ underwater city)",
+        "media": [
+          "comic"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The Archangels of Vinea / Les Archanges de Vinéa underwater city only",
+          "period": "The operating underwater city before the queen’s tyranny is broken",
+          "population": "Living biological Vinean city residents",
+          "human_population_proxy": true,
+          "exclusions": "Archangel android work is separately disclosed; neither a royal title nor android rebels alone settle the ruler’s ontology.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "An underwater Vinean city is ruled by a despotic queen while an Archangel android opposes her tyranny. The engineered habitat and artificial service provide a plausible material-support model, but the short account does not settle equal household access. The guarantee best guess is weak because continued support is subject to concentrated coercive power. This zero variant retains useful resident work rather than assuming an underwater technical city must be universally post-work.\n\n Concentrated royal authority is central, with a fully machine-controller interpretation inside the broad interval because the bounded reference does not settle the ruler’s nature. The moderate biological nonworking scenario counts engineering, services, administration, care and useful creation. Android contribution remains real work where conscious, without using robot numbers as a biological labor percentage. The point has its own resident access population, separate from the Earth colony and other home-planet survivors. No post-revolt universal distribution policy is silently invented from the defeat of a dictator.",
+        "axis": {
+          "guarantees": 0.7,
+          "control": 0.03,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.5,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Coercive royal control suggests weak dependable household access.",
+            "source_ids": [
+              "src-b90-yoko"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.4
+            ],
+            "confidence": "low",
+            "basis": "Concentrated royal authority is central with ruler ontology deliberately broad.",
+            "source_ids": [
+              "src-b90-yoko"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.03,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Biological residents retain services and care; android contribution is separately disclosed.",
+            "source_ids": [
+              "src-b90-yoko"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b90-yoko"
+        ],
+        "evidence": [
+          {
+            "claim": "The underwater city has a despotic queen and opposing Archangel androids.",
+            "source_ids": [
+              "src-b90-yoko"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The ruler’s ontology and household allocation remain uncertain.",
+          "The defeated tyranny is not automatically a settled universal successor economy."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distinct engineered underwater polity with controller uncertainty explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The underwater city has a despotic queen and opposing Archangel androids."
+        ],
+        "editorial_assumptions": [
+          "The ruler’s ontology and household allocation remain uncertain.",
+          "The defeated tyranny is not automatically a settled universal successor economy."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0782",
+        "status": "needs_evidence",
+        "reason": "Underwater tyranny and rebellious androids do not establish ordinary productive allocation.",
+        "source_ids": [
+          "src-b90-yoko"
+        ],
+        "analysis": "An ecological enclosure and robot opposition alone are insufficient.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0782",
+        "status": "zero_variant",
+        "reason": "Retain the distinct engineered underwater polity with controller uncertainty explicit.",
+        "source_ids": [
+          "src-b90-yoko"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "yoko-vinean-underwater-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "megalex-genetic-city-order",
+        "candidate_id": "c0783",
+        "name": "Megalex (the renewed genetic city order)",
+        "work": "Megalex",
+        "society": "Megalex (the renewed genetic city order)",
+        "media": [
+          "comic"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Named comic setting and stated period only",
+          "period": "The functioning artificial city under its royal/genetic regime",
+          "population": "Active biological and human-derived residents, including police clones",
+          "human_population_proxy": true,
+          "exclusions": "Dead or not-yet-active clones are excluded; rapid renewal is not leisure and royal rule is not automatically independent AI sovereignty.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Megalex is an artificial city-planet whose renewed population is controlled through genetic manipulation. The official synopsis identifies a clone policeman who escapes to rebels, while the gathered reference describes royal elites and drug-dependent residents. The guarantee best guess is very weak: engineered continuation and consumer dependence do not give every active person secure necessities. The partial-transition interpretation concerns technical bodily and urban support with unequal access.\n\n Concentrated royal and institutional authority receives control near the non-AI elite reference point, with strong autonomous infrastructure power possible inside the interval. A machine-organized city does not automatically make its biological rulers irrelevant. The moderate-to-high nonworking scenario allows substantial routine substitution while counting policing, administration, production, care and useful creation. Clone renewal, short lives and destroyed bodies never become leisure fractions. Only active person identities enter the proxy denominator. The city and excluded forest remain different access conditions, and a rebellion is not assumed to enact a universal successor charter.",
+        "axis": {
+          "guarantees": 0.9,
+          "control": 0.02,
+          "nonworking": 0.5
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.35,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Genetic renewal and consumer dependence coexist with very weak equal security.",
+            "source_ids": [
+              "src-b90-megalex",
+              "src-megalex-official-genetics"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.85,
+              0.35
+            ],
+            "confidence": "low",
+            "basis": "Royal/institutional concentration is central with autonomous infrastructure alternatives.",
+            "source_ids": [
+              "src-b90-megalex",
+              "src-megalex-official-genetics"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Active residents retain policing and care; clone turnover is not participation.",
+            "source_ids": [
+              "src-b90-megalex",
+              "src-megalex-official-genetics"
+            ]
+          }
+        },
+        "regime_primary": 3,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b90-megalex",
+          "src-megalex-official-genetics"
+        ],
+        "evidence": [
+          {
+            "claim": "The official synopsis describes a renewed population controlled by genetics and an escaping clone policeman.",
+            "source_ids": [
+              "src-b90-megalex",
+              "src-megalex-official-genetics"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "The gathered reference identifies royal elites and drug-dependent residents.",
+            "source_ids": [
+              "src-b90-megalex",
+              "src-megalex-official-genetics"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Technical urban/bodily support is a partial-transition interpretation.",
+          "Active clones count as persons; absent or destroyed bodies are excluded."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the famous artificial city with its genetic access mechanism and living-clone denominator explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The official synopsis describes a renewed population controlled by genetics and an escaping clone policeman.",
+          "The gathered reference identifies royal elites and drug-dependent residents."
+        ],
+        "editorial_assumptions": [
+          "Technical urban/bodily support is a partial-transition interpretation.",
+          "Active clones count as persons; absent or destroyed bodies are excluded."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0783",
+        "status": "needs_evidence",
+        "reason": "Megalex’s artificial city and disposable police clones lack a verified automatic necessities floor.",
+        "source_ids": [
+          "src-b90-megalex"
+        ],
+        "analysis": "Biological clone enforcement is real human-derived work; addiction and royal lifespans do not prove post-work provision.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0783",
+        "status": "included",
+        "reason": "Retain the famous artificial city with its genetic access mechanism and living-clone denominator explicit.",
+        "source_ids": [
+          "src-b90-megalex",
+          "src-megalex-official-genetics"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "megalex-genetic-city-order"
+      }
+    }
+  ]
+}

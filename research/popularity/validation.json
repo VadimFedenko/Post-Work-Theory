@@ -1,0 +1,34 @@
+{
+  "status": "validated",
+  "assessed_on": "2026-10-22",
+  "records": 890,
+  "work_labels_reviewed": 674,
+  "recognition_subjects": 496,
+  "records_by_band": {
+    "genre_established": 182,
+    "specialist": 132,
+    "very_broad_recognition": 63,
+    "broad_recognition": 192,
+    "niche_or_cult": 293,
+    "obscure": 18,
+    "maximum_recognition": 10
+  },
+  "subjects_by_band": {
+    "genre_established": 110,
+    "very_broad_recognition": 13,
+    "broad_recognition": 68,
+    "specialist": 90,
+    "niche_or_cult": 194,
+    "maximum_recognition": 3,
+    "obscure": 18
+  },
+  "score_range": [
+    0.05,
+    1.0
+  ],
+  "complete_coverage_and_equal_scores_within_subject": true,
+  "all_preexisting_record_fields_preserved": true,
+  "missing_stale_identity_wrong_group_and_invalid_score_guards_tested": true,
+  "social_axes_do_not_determine_popularity": true,
+  "limitations": "Low-confidence editorial recognition judgments; not audience percentages or a full survey of every title."
+}

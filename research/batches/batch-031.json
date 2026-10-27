@@ -1,0 +1,361 @@
+{
+  "batch_id": "batch-031",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0164",
+    "c0165",
+    "c0166",
+    "c0167",
+    "c0168"
+  ],
+  "sources": [
+    {
+      "id": "src-quantum-magician-hayakawa",
+      "title": "Technology will fundamentally change us: The Quantum Magician",
+      "author": "Hayakawa Books & Magazines, Japanese publisher",
+      "url": "https://www.hayakawabooks.com/n/n573d281746ce?hl=en",
+      "kind": "official_publisher_introduction",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed setting and character introduction read",
+      "read_scope": "Congregate personnel, engineered human groups, Gates-15 and the Numen relationship.",
+      "limitations": "Publisher overview in an English rendering, not a novel read or general production/allocation account."
+    },
+    {
+      "id": "src-quantum-magician-fantasylit",
+      "title": "The Quantum Magician: A fun, light heist novel",
+      "author": "Fantasy Literature review",
+      "url": "https://fantasyliterature.com/reviews/the-quantum-magician/",
+      "kind": "secondary_literary_review_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed engineered-species discussion read",
+      "read_scope": "The Puppets' engineered devotion, overthrow of the Numen and subsequent captivity of their former masters.",
+      "limitations": "Engineered human workers do not automatically constitute independent automation; no household provision system established."
+    },
+    {
+      "id": "src-quantum-war-synopsis",
+      "title": "Quantum War",
+      "author": "Publisher-supplied synopsis reproduced by BingeBooks",
+      "url": "https://bingebooks.com/book/quantum-war",
+      "kind": "publisher_synopsis_reproduction",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public synopsis read",
+      "read_scope": "The Union/Congregate war and engineered pilots.",
+      "limitations": "Military capability and a series title do not establish one homogeneous economic society or post-work distribution."
+    },
+    {
+      "id": "src-permutation-reference",
+      "title": "Permutation City",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Permutation_City",
+      "kind": "secondary_plot_and_setting_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public setting and two-part plot account read",
+      "read_scope": "Commercial QIPS access, wealthy/poor Copies, TVC growth and the later Autoverse conflict.",
+      "limitations": "Broad reference; a running Copy is a person proxy, not a passive backup. The TVC and Autoverse are distinct structures."
+    },
+    {
+      "id": "src-permutation-ebsco",
+      "title": "Permutation City by Greg Egan",
+      "author": "EBSCO Research Starters",
+      "url": "https://www.ebsco.com/research-starters/literature-and-writing/permutation-city-greg-egan/",
+      "kind": "secondary_literary_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed Copy and property discussion read",
+      "read_scope": "Copies' assets, shutdown fears and Durham's proposed alternative.",
+      "limitations": "Selected indexed reference passages, not a complete primary read. Economic control through assets does not establish full legal personhood."
+    },
+    {
+      "id": "src-permutation-tvc-scholarship",
+      "title": "Discussion of Elysium and the TVC universe in Facta Simonidis 1 (2008)",
+      "author": "Facta Simonidis scholarly article, indexed pages 216-217",
+      "url": "https://bibliotekanauki.pl/articles/26850772.pdf",
+      "kind": "secondary_scholarly_analysis_indexed_excerpt",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed page 217 discussion read",
+      "read_scope": "Growing self-replicating processing substrate, private worlds and collectively agreed city architecture.",
+      "limitations": "Indexed passage only, not a complete PDF read or visual check. Used as literary interpretation, not a claim that the fictional physics is true."
+    },
+    {
+      "id": "src-permutation-cthulhu",
+      "title": "Book Review: Permutation City",
+      "author": "Cthulhu Writes, 15 January 2016",
+      "url": "https://cthulhuwrites.blogspot.com/2016/01/book-review-permutation-city.html",
+      "kind": "secondary_literary_review_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed Elysium account read",
+      "read_scope": "The independent system operates and expands before the later conflict.",
+      "limitations": "Review interpretation; no exact census or general admission rights for outsiders."
+    }
+  ],
+  "societies": [
+    {
+      "id": "permutation-city-elysium",
+      "candidate_id": "c0167",
+      "name": "Permutation City (Independent Elysium)",
+      "work": "Permutation City",
+      "society": "The active Copy community supported by the TVC universe",
+      "media": [
+        "book"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Egan's Permutation City",
+        "period": "The operating, expanding Elysium period before the Lambertian conflict threatens its basis",
+        "population": "Active human-derived Copies living in Elysium",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Earth-hosted commercial Copies",
+          "Indigenous Lambertians given human status without justification",
+          "Dormant snapshots counted as active residents",
+          "A mere sales pitch treated as the completed system"
+        ],
+        "branch": null,
+        "player_configurable": false,
+        "proxy_basis": "Active human-derived digital persons are the explicit denominator; avatars and inactive records are not separate people."
+      },
+      "description": "Elysium's Copies inhabit an implemented computational world whose processing substrate expands through self-replication. Continued existence and the creation of everyday surroundings no longer depend on buying cycles from Earth's commercial market. Residents can construct private worlds and alter their surroundings. This supplies a technological equivalent of material provision for active digital people, with strong guarantees during the established operating period. It is an admitted community, not a claim that everyone outside received entry.\n\nControl is broadly distributed among residents over their environments, while the common city's architecture and underlying rules constrain what can change. A self-replicating cellular substrate is not, by itself, an autonomous AI sovereign. The later conflict with the Autoverse demonstrates that the arrangement is not invulnerable; that crisis does not retroactively make its earlier support depend on wages. Research and creative construction remain useful work, so the sources do not justify a precise nonworking fraction. Dormant records and the indigenous Lambertians are excluded from this population.",
+      "axis": {
+        "guarantees": -0.9,
+        "control": 0.85,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -1,
+            -0.65
+          ],
+          "confidence": "medium",
+          "basis": "The operating self-expanding substrate removes residents' dependence on external purchased processing. Admission limits and the later systemic threat qualify the scope.",
+          "source_ids": [
+            "src-permutation-tvc-scholarship",
+            "src-permutation-cthulhu"
+          ]
+        },
+        "control": {
+          "interval": [
+            0.6,
+            1
+          ],
+          "confidence": "medium",
+          "basis": "Residents create private environments and agree on the common city's form, subject to fixed substrate rules. Automatic growth is not verified AI government.",
+          "source_ids": [
+            "src-permutation-tvc-scholarship"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "The community pursues research and creative activity; unlimited surroundings do not measure useful-work participation.",
+          "source_ids": [
+            "src-permutation-tvc-scholarship",
+            "src-permutation-cthulhu"
+          ]
+        }
+      },
+      "regime_primary": 2,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-permutation-tvc-scholarship",
+        "src-permutation-cthulhu",
+        "src-permutation-reference"
+      ],
+      "evidence": [
+        {
+          "claim": "The TVC substrate supports resident-controlled private worlds and a shared city.",
+          "source_ids": [
+            "src-permutation-tvc-scholarship"
+          ],
+          "locator": "Indexed journal page 217",
+          "kind": "secondary_literary_interpretation"
+        },
+        {
+          "claim": "The independent system actually operates before a later conflict, rather than remaining an investment promise.",
+          "source_ids": [
+            "src-permutation-cthulhu"
+          ],
+          "locator": "Review's Elysium launch and later-crisis summary",
+          "kind": "secondary_lore_report"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led assessment with an explicit active-person proxy; no whole-novel read.",
+        "Elysium and the separately evolving Autoverse population must not be collapsed into one society.",
+        "Physical credibility of Dust Theory is irrelevant to whether the arrangement is depicted in the fiction."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "permutation-city-commercial-copies",
+      "candidate_id": "c0168",
+      "name": "Permutation City (Earth's commercial Copy economy)",
+      "work": "Permutation City",
+      "society": "Active Copies dependent on privately traded computing resources",
+      "media": [
+        "book"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Egan's Permutation City",
+        "period": "The Earth-hosted commercial order before independent Elysium",
+        "population": "Active human-derived Copies in the commercial hosting economy, including wealthy and low-resource users",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Biological Earth's entire population",
+          "Independent Elysium",
+          "Frozen snapshots counted as nonworking people"
+        ],
+        "branch": null,
+        "player_configurable": false,
+        "proxy_basis": "The digital Copies are active persons; slowdown affects subjective time, not automatic person-count multiplication."
+      },
+      "description": "Earth's Copies receive their experienced surroundings from computational infrastructure, but access to the resource sustaining their lives is bought and sold. Wealthy Copies can rely on substantial assets and dedicated arrangements; poorer ones run slowly or risk suspension when resources become unaffordable. This is post-work capacity without universal security: ordinary human biology no longer dictates subsistence, yet continued active existence remains exposed to property, investment income and market competition.\n\nControl is unequal. Wealthy Copies can influence their environments and the assets supporting them, while weaker users depend on external hosts and legal decisions. The low positive control estimate captures concentrated human economic power without claiming a single monopoly or an AI government. More dispersed ownership is a plausible alternative reading. Some Copies may still earn income or perform useful work, and being poor or slowed does not establish inactivity. Suspended snapshots are excluded from participation rather than counted as people enjoying leisure. The independent Elysium community belongs to a different record.",
+      "axis": {
+        "guarantees": 0.8,
+        "control": 0.2,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            0.6,
+            1
+          ],
+          "confidence": "high",
+          "basis": "Market access and assets determine continued processing; low-resource Copies risk suspension and political insecurity.",
+          "source_ids": [
+            "src-permutation-reference",
+            "src-permutation-ebsco"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.65
+          ],
+          "confidence": "low",
+          "basis": "Wealthy asset holders have real influence while weaker Copies rely on hosts and outside authority. Ownership is plural but unequal; no single sovereign AI is established.",
+          "source_ids": [
+            "src-permutation-reference",
+            "src-permutation-ebsco"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "The sources distinguish wealth, subjective speed and earning ability, not an all-active-person work census.",
+          "source_ids": [
+            "src-permutation-reference"
+          ]
+        }
+      },
+      "regime_primary": 3,
+      "regime_alternatives": [
+        4
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-permutation-reference",
+        "src-permutation-ebsco"
+      ],
+      "evidence": [
+        {
+          "claim": "Copies' ability to remain active depends on assets and commercial compute access.",
+          "source_ids": [
+            "src-permutation-reference",
+            "src-permutation-ebsco"
+          ],
+          "locator": "Setting account of the QIPS market and rich/poor Copies",
+          "kind": "secondary_lore_report"
+        }
+      ],
+      "uncertainties": [
+        "The post-work analogy concerns provision for digital persons, not a claim that all physical Earth labor has disappeared.",
+        "The ownership score is a broad interpretation and does not deny plural competing providers.",
+        "No exact participation rate is inferred from slowdown or suspension."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0164",
+      "status": "needs_evidence",
+      "reason": "The Congregate's strategic power and engineered personnel do not establish its general automatic provision system.",
+      "source_ids": [
+        "src-quantum-magician-hayakawa"
+      ],
+      "analysis": "A navy, an AI character and control of passage between systems do not settle civilian production or labor-dependent access.",
+      "follow_up": "Skip deeper reading under the faster-pass instruction."
+    },
+    {
+      "candidate_id": "c0165",
+      "status": "boundary_case",
+      "reason": "The Puppets are engineered humans with a coercive religious history, not verified independent automatic producers.",
+      "source_ids": [
+        "src-quantum-magician-hayakawa",
+        "src-quantum-magician-fantasylit"
+      ],
+      "analysis": "Their revolt and captivity of the Numen do not supply a post-work mechanism. Genetically modified human labor still counts as human-derived work.",
+      "follow_up": "Preserve as an engineered-labor comparison; skip a novel investigation."
+    },
+    {
+      "candidate_id": "c0166",
+      "status": "needs_evidence",
+      "reason": "The broad Union lead is a series-level aggregation without documented uniform household access.",
+      "source_ids": [
+        "src-quantum-war-synopsis"
+      ],
+      "analysis": "War and engineered pilots identify factions and technology, not a post-work production/allocation arrangement.",
+      "follow_up": "Skip further reading; admit a narrower polity only if clear economic reference material appears."
+    },
+    {
+      "candidate_id": "c0167",
+      "status": "included",
+      "reason": "An operating self-expanding substrate provides resident-controlled environments independently of the commercial hosting market.",
+      "source_ids": [
+        "src-permutation-tvc-scholarship",
+        "src-permutation-cthulhu",
+        "src-permutation-reference"
+      ],
+      "society_id": "permutation-city-elysium"
+    },
+    {
+      "candidate_id": "c0168",
+      "status": "included",
+      "reason": "Computational provision exists but active life remains conditional on assets and market access.",
+      "source_ids": [
+        "src-permutation-reference",
+        "src-permutation-ebsco"
+      ],
+      "society_id": "permutation-city-commercial-copies"
+    }
+  ],
+  "review_notes": [
+    "Continues the reference-led pass. Three engineered-species/military leads are disposed without full-text recovery; advanced people are not automatically post-work societies.",
+    "Permutation City's operating Elysium and Earth-hosted commercial Copies have materially different guarantees and access mechanisms. Neither a frozen record nor every alien digital organism becomes a human leisure resident.",
+    "The active-person proxy and the distinction between blind automatic support and sovereign AI remain explicit.",
+    "Second pass challenged admission and coordinate claims against the references; no full novel read or independent review is claimed."
+  ]
+}

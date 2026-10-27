@@ -1,0 +1,628 @@
+{
+  "batch_id": "batch-076",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0605",
+    "c0606",
+    "c0607",
+    "c0608",
+    "c0609",
+    "c0610",
+    "c0611",
+    "c0612",
+    "c0613",
+    "c0614",
+    "c0615",
+    "c0616"
+  ],
+  "sources": [
+    {
+      "id": "src-b76-replicant",
+      "title": "Nier plot and gameplay",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Nier_(video_game)",
+      "kind": "game_reference_or_indexed_datapoint",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public reference or honestly labeled indexed passage",
+      "read_scope": "The Replicant protagonist earns money through odd jobs, while farming/fishing and human-derived bodies remain central.",
+      "limitations": "The soul/body preservation project does not itself replace ordinary productive work."
+    },
+    {
+      "id": "src-b76-cage",
+      "title": "The Cage",
+      "author": "NIER Wiki contributors",
+      "url": "https://nier.fandom.com/wiki/The_Cage",
+      "kind": "game_reference_or_indexed_datapoint",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public reference or honestly labeled indexed passage",
+      "read_scope": "The lunar server archives human history and divergent memories; guides and an android maintain it.",
+      "limitations": "The short reference mixes archives and experienced digital worlds; active-person/resource scope remains unresolved."
+    },
+    {
+      "id": "src-b76-horizon-income",
+      "title": "Secret Show",
+      "author": "Horizon Zero Dawn: The Frozen Wilds datapoint, transcribed by Horizon Wiki",
+      "url": "https://horizon.fandom.com/wiki/Secret_Show",
+      "kind": "game_reference_or_indexed_datapoint",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public reference or honestly labeled indexed passage",
+      "read_scope": "The bounded message describes Faro servitors replacing dam workers and basic income as the alternative.",
+      "limitations": "A single localized employment account, not a world census or proof of adequate benefits; indexed text only, not a full archive read."
+    },
+    {
+      "id": "src-b76-horizon-income-limits",
+      "title": "Bayhas Mati",
+      "author": "Horizon Wiki contributors",
+      "url": "https://horizon.fandom.com/wiki/Bayhas_Mati",
+      "kind": "game_reference_or_indexed_datapoint",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public reference or honestly labeled indexed passage",
+      "read_scope": "Robot-maintenance pay measured against basic income can fail to cover food and rent; fines threaten a family’s finances.",
+      "limitations": "A particular family’s history qualifies broad adequacy claims, not every benefit recipient’s identical experience."
+    },
+    {
+      "id": "src-b76-horizon-oldworld-reading",
+      "title": "Horizon Zero Dawn review",
+      "author": "Jonas Liljegren",
+      "url": "https://blog.jonas.liljegren.org/horizon-zero-dawn/",
+      "kind": "game_reference_or_indexed_datapoint",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public reference or honestly labeled indexed passage",
+      "read_scope": "The reviewer describes Old World robotics, domestic servitors and universal basic income.",
+      "limitations": "Secondary game reading, used with a concrete transcribed displacement account; not a detailed global benefits charter."
+    },
+    {
+      "id": "src-b76-eleuthia",
+      "title": "ELEUTHIA",
+      "author": "Horizon Wiki contributors",
+      "url": "https://horizon.fandom.com/wiki/ELEUTHIA",
+      "kind": "game_reference_or_indexed_datapoint",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public reference or honestly labeled indexed passage",
+      "read_scope": "Cradles actually birth and raise humans with servitor care; lost education and depleted food force the first generation outside.",
+      "limitations": "Real childhood provision is distinct from the original planned educated civilization; no inference of inexhaustible food manufacturing."
+    },
+    {
+      "id": "src-b76-gaia-ecology",
+      "title": "Machines in Horizon",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Machines_%28Horizon%29",
+      "kind": "game_reference_or_indexed_datapoint",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public reference or honestly labeled indexed passage",
+      "read_scope": "Automatic terraforming restores the biosphere, while later tribes hunt machines for resources.",
+      "limitations": "Ecosystem support is not universal work-independent food/housing allocation."
+    },
+    {
+      "id": "src-b76-sirius",
+      "title": "Sirius",
+      "author": "Horizon Wiki contributors",
+      "url": "https://horizon.fandom.com/wiki/Sirius",
+      "kind": "game_reference_or_indexed_datapoint",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public reference or honestly labeled indexed passage",
+      "read_scope": "Far Zenith establishes an actual colony and lives largely through indulgent virtual experiences; later destruction has a concealed cause.",
+      "limitations": "Tilda’s claimed geological catastrophe is a cover story, not adopted factual history."
+    },
+    {
+      "id": "src-b76-far-zenith",
+      "title": "Far Zenith",
+      "author": "Horizon Wiki contributors",
+      "url": "https://horizon.fandom.com/wiki/Far_Zenith",
+      "kind": "game_reference_or_indexed_datapoint",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public reference or honestly labeled indexed passage",
+      "read_scope": "The elite consortium controls an advanced colony and printing facilities, achieves physical longevity and spends much of life in VR before Nemesis destroys it.",
+      "limitations": "Indexed history sections, not a direct full-page read; Nemesis’s later seizure does not establish earlier AI sovereignty."
+    },
+    {
+      "id": "src-b76-alliance-codex",
+      "title": "Codex: Humanity and the Systems Alliance",
+      "author": "Mass Effect in-game codex, transcribed by Mass Effect Wiki",
+      "url": "https://masseffect.fandom.com/wiki/Codex/Humanity_and_the_Systems_Alliance",
+      "kind": "game_reference_or_indexed_datapoint",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public reference or honestly labeled indexed passage",
+      "read_scope": "Resource imports and longer lives coexist with industrial labor, national differences and widening poverty gaps.",
+      "limitations": "A concrete human example, not the whole Council’s homogeneous economic constitution. Fanfiction claiming universal energy dividends was discarded."
+    },
+    {
+      "id": "src-b76-geth",
+      "title": "Geth",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Geth",
+      "kind": "game_reference_or_indexed_datapoint",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public reference or honestly labeled indexed passage",
+      "read_scope": "Networked artificial intelligences have engineering and military platforms and maintain Rannoch.",
+      "limitations": "Artificial collective intelligence alone does not establish a human-person population or a post-work allocation mechanism."
+    },
+    {
+      "id": "src-b76-rannoch-care",
+      "title": "Quarian helmets on Rannoch discussion",
+      "author": "GameFAQs contributors",
+      "url": "https://gamefaqs.gamespot.com/boards/995452-mass-effect-3/65173168",
+      "kind": "game_reference_or_indexed_datapoint",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public reference or honestly labeled indexed passage",
+      "read_scope": "A bounded comment recounts Tali’s conditional geth-assisted immune adaptation after peace.",
+      "limitations": "Informal dialogue recollection only; misleading comments are not adopted and the care arrangement does not establish a whole economy."
+    },
+    {
+      "id": "src-b76-me3-ending-context",
+      "title": "Mass Effect 3 story and endings",
+      "author": "Joe Garratt, LoreFortress",
+      "url": "https://www.lorefortress.com/mass-effect/mass-effect-3-ending-explained",
+      "kind": "game_reference_or_indexed_datapoint",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public reference or honestly labeled indexed passage",
+      "read_scope": "The overview distinguishes Destroy, Control, Synthesis and Refuse, with Reaper aid after Control.",
+      "limitations": "Recent secondary overview, used only for branch context and an explicit remaining gap; no guaranteed material floor or population statistic is inferred."
+    },
+    {
+      "id": "src-b76-control-capture",
+      "title": "Mass Effect 3 Extended Cut: Control ending capture",
+      "author": "J.C.’s Channel",
+      "url": "https://www.youtube.com/watch?v=wOKCYIj48sk",
+      "kind": "game_reference_or_indexed_datapoint",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public reference or honestly labeled indexed passage",
+      "read_scope": "The uploader’s description identifies a paragon Control playthrough with Reaper reconstruction and peacekeeping.",
+      "limitations": "Description only, not a watched video or a full spoken-ending transcript; paragon and renegade variants are not collapsed."
+    },
+    {
+      "id": "src-b76-reapers",
+      "title": "Reapers in Mass Effect",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Reapers_%28Mass_Effect%29",
+      "kind": "game_reference_or_indexed_datapoint",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public reference or honestly labeled indexed passage",
+      "read_scope": "Synthetic-organic ships harvest civilizations, then remain dormant between cycles.",
+      "limitations": "Harvested DNA and long dormancy are not surviving individuals enjoying post-work leisure."
+    }
+  ],
+  "societies": [
+    {
+      "id": "horizon-oldworld-basic-income",
+      "candidate_id": "c0607",
+      "name": "Horizon Zero Dawn — Old World automation and basic income",
+      "work": "Horizon Zero Dawn",
+      "society": "Documented Old World basic-income regions amid robotic job replacement",
+      "media": [
+        "game"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Horizon Zero Dawn and The Frozen Wilds datapoints",
+        "period": "The pre-Faro-Plague automation era represented by dam-worker and family records",
+        "population": "Living people in the documented basic-income economy",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Identical benefits worldwide",
+          "The later tribal economy",
+          "The Faro Plague emergency",
+          "Every recipient as completely nonworking"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Old World records connect robot replacement directly with basic income: dam employees face Faro servitors taking their jobs and name that benefit as the alternative. This supports a partial post-work income arrangement, rather than merely the existence of advanced robots. It does not establish comfortable universal provision. A separate family account describes robot-maintenance earnings measured against the benefit baseline failing to cover food and rent, so the guarantee estimate remains weak and broad. The record is limited to the documented economy, without assigning identical rules to every country.\n\nCompanies control the productive servitors and employment decisions; no broad resident ownership of the machinery is established. The control point therefore lies near concentrated human authority, despite considerable automatic operation. Income received without the replaced job weakens wage dependence, but its adequacy, eligibility and purchasing power remain uncertain. Neither unemployment nor benefit receipt tells us how many people perform useful work. Maintenance, art, care and other chosen activity still count, so participation stays unresolved. The later Faro emergency and tribal subsistence are different periods.",
+      "axis": {
+        "guarantees": 0.55,
+        "control": 0.05,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            0.05,
+            0.9
+          ],
+          "confidence": "low",
+          "basis": "A basic-income fallback exists, but documented hardship shows that an income baseline need not secure food and housing.",
+          "source_ids": [
+            "src-b76-horizon-income",
+            "src-b76-horizon-income-limits",
+            "src-b76-horizon-oldworld-reading"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.25
+          ],
+          "confidence": "low",
+          "basis": "Corporate owners install replacement servitors; collective ownership or decisive independent AI rule is not established.",
+          "source_ids": [
+            "src-b76-horizon-income",
+            "src-b76-horizon-income-limits",
+            "src-b76-horizon-oldworld-reading"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Displacement and benefit eligibility do not census all useful work.",
+          "source_ids": [
+            "src-b76-horizon-income",
+            "src-b76-horizon-income-limits",
+            "src-b76-horizon-oldworld-reading"
+          ]
+        }
+      },
+      "regime_primary": 3,
+      "regime_alternatives": [
+        1
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-b76-horizon-income",
+        "src-b76-horizon-income-limits",
+        "src-b76-horizon-oldworld-reading"
+      ],
+      "evidence": [
+        {
+          "claim": "Faro servitors replace dam jobs while basic income is named as the fallback; other records qualify adequacy.",
+          "source_ids": [
+            "src-b76-horizon-income",
+            "src-b76-horizon-income-limits",
+            "src-b76-horizon-oldworld-reading"
+          ],
+          "locator": "Secret Show message, Bayhas family history and Old World review",
+          "kind": "indexed_primary_datapoint_and_secondary_context"
+        }
+      ],
+      "uncertainties": [
+        "Partial transition with uncertain benefit coverage and adequacy.",
+        "Documented regions, not a verified uniform worldwide constitution.",
+        "Job loss does not equal no useful work.",
+        "Pre-Plague period only."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "horizon-eleuthia9-first-generation",
+      "candidate_id": "c0608",
+      "name": "Horizon Zero Dawn — ELEUTHIA’s first cradle generation",
+      "work": "Horizon Zero Dawn",
+      "society": "Actual human children raised by automated cradle servitors",
+      "media": [
+        "game"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Horizon Zero Dawn project history",
+        "period": "The first generation’s real childhood before food depletion and release",
+        "population": "Living children raised in the implemented cradle system",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Unborn stored zygotes as active people",
+          "The unimplemented APOLLO-educated civilization",
+          "Later self-supporting tribes",
+          "An inexhaustible food-production system"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "ELEUTHIA actually births and raises a new human generation, supplying necessities through cradle facilities and robotic carers, healers and disciplinarians. These children receive support without earning wages or relying on an ongoing living human parent workforce. The record concerns that implemented childhood arrangement, rather than the entire educated civilization originally planned by Zero Dawn. Stored provisions eventually run out, forcing release into the outside world; a finite but long-running support system is not an inexhaustible cornucopia.\n\nWith the original human builders gone, effective provision belongs to the machine system, not to the children. The negative control point reflects that absence of current human command, without assuming every subordinate function has the same independent agency. Guarantees are only moderately strong and highly uncertain because access lasts through childhood but the system fails to provide the intended continuing education and adult transition. Learning, care and practical help can be useful work, so childhood is not converted into a nonworking percentage. Unborn zygotes and later tribal descendants are excluded from the active supported population.",
+      "axis": {
+        "guarantees": -0.35,
+        "control": -0.85,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.8,
+            0.65
+          ],
+          "confidence": "low",
+          "basis": "Actual childhood care persists, but finite supplies and forced release sharply bound the support promise.",
+          "source_ids": [
+            "src-b76-eleuthia"
+          ]
+        },
+        "control": {
+          "interval": [
+            -1,
+            -0.5
+          ],
+          "confidence": "medium",
+          "basis": "Machine institutions provide care after the human builders’ deaths; recipients cannot collectively direct the facilities.",
+          "source_ids": [
+            "src-b76-eleuthia"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Children’s learning and help may be useful; no all-person participation rate is established.",
+          "source_ids": [
+            "src-b76-eleuthia"
+          ]
+        }
+      },
+      "regime_primary": 5,
+      "regime_alternatives": [
+        6
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-b76-eleuthia"
+      ],
+      "evidence": [
+        {
+          "claim": "The cradles successfully raise humans through servitor care, then release them when supplies fail.",
+          "source_ids": [
+            "src-b76-eleuthia"
+          ],
+          "locator": "ELEUTHIA implementation/results and first-generation release",
+          "kind": "secondary_game_reference_with_datapoint_citations"
+        }
+      ],
+      "uncertainties": [
+        "Actual cradle generation, not the complete planned civilization.",
+        "Stored food and robotic care are distinguished from unlimited production.",
+        "Finite support and failed adult transition qualify guarantees.",
+        "Unborn preserved material is not active leisure."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "horizon-far-zenith-sirius-colony",
+      "candidate_id": "c0610",
+      "name": "Horizon Forbidden West — Far Zenith’s Sirius colony",
+      "work": "Horizon Forbidden West",
+      "society": "The technologically sustained elite colony before Nemesis’s escape",
+      "media": [
+        "game"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Horizon Forbidden West history",
+        "period": "Established Sirius colony life before Nemesis destroys it",
+        "population": "Living embodied Far Zenith colonists",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Earth’s excluded population",
+          "Nemesis’s imprisoned mind copies as equal colonists",
+          "The surviving invaders after the colony’s destruction",
+          "Tilda’s false geological disaster account"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Far Zenith establishes a real off-world colony with advanced fabrication and bodily maintenance, allowing its living elite to spend much of an exceptionally long life in virtual indulgence. Their access rests on membership in an enclosed technological colony, not current ordinary employment. Guarantees are rated fairly strong within that narrow cohort, while remaining uncertain because individual rights and the division of resources are not described. This does not grant the same security to everyone abandoned on Earth or to the mind copies imprisoned in the failed immortality experiment.\n\nThe consortium and its leaders control the colony and printing infrastructure. Nemesis later seizes those systems, but that disaster does not make the preceding order an AI-run society. A high, low-confidence nonworking estimate follows the explicitly indulgent lifestyle, with a wide allowance for continued scientific work, care and administration. Useful research remains work, even among immortals. The record stops before the colony’s destruction and rejects Tilda’s false account of a natural catastrophe; later fleeing survivors do not automatically retain the same material floor.",
+      "axis": {
+        "guarantees": -0.6,
+        "control": 0.05,
+        "nonworking": 0.8
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.9,
+            0.3
+          ],
+          "confidence": "low",
+          "basis": "Long-lasting technological provision supports the resident elite, but individual rights and internal exclusions are incompletely described.",
+          "source_ids": [
+            "src-b76-sirius",
+            "src-b76-far-zenith"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.2
+          ],
+          "confidence": "medium",
+          "basis": "Human consortium leadership owns the infrastructure before Nemesis’s hostile seizure.",
+          "source_ids": [
+            "src-b76-sirius",
+            "src-b76-far-zenith"
+          ]
+        },
+        "nonworking": {
+          "interval": [
+            0.5,
+            1
+          ],
+          "confidence": "low",
+          "basis": "The sources describe largely indulgent virtual life; the broad noncanonical estimate allows useful ongoing research and service.",
+          "source_ids": [
+            "src-b76-sirius",
+            "src-b76-far-zenith"
+          ]
+        }
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b76-sirius",
+        "src-b76-far-zenith"
+      ],
+      "evidence": [
+        {
+          "claim": "The established elite colony combines printing infrastructure, physical longevity and a largely virtual leisure lifestyle.",
+          "source_ids": [
+            "src-b76-sirius",
+            "src-b76-far-zenith"
+          ],
+          "locator": "Sirius establishment and Far Zenith colonization/fall sections",
+          "kind": "indexed_secondary_game_lore"
+        }
+      ],
+      "uncertainties": [
+        "Elite embodied cohort only, not all Earth or imprisoned digital copies.",
+        "Before Nemesis’s seizure and destruction.",
+        "No disputed exact population or lifespan arithmetic is used.",
+        "Participation is an explicit editorial estimate."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": true
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0605",
+      "status": "boundary_case",
+      "reason": "Replicant society retains real jobs, farming and fishing despite artificial bodies and the Gestalt preservation project.",
+      "source_ids": [
+        "src-b76-replicant"
+      ],
+      "analysis": "Body/soul separation is not a general labor-independent production and distribution system.",
+      "follow_up": "Retain the short gap/comparison and continue; no full-lore reconstruction or speculative rights after an ending."
+    },
+    {
+      "candidate_id": "c0606",
+      "status": "needs_evidence",
+      "reason": "The Cage’s memory worlds lack a sufficiently clear active-person and material-access scope.",
+      "source_ids": [
+        "src-b76-cage"
+      ],
+      "analysis": "Archived history, divergent memories and active experiences cannot be treated as one fully supplied population without further evidence.",
+      "follow_up": "Retain the short gap/comparison and continue; no full-lore reconstruction or speculative rights after an ending."
+    },
+    {
+      "candidate_id": "c0607",
+      "status": "included",
+      "reason": "Documented basic income accompanies real robotic job replacement, with explicit adequacy limitations.",
+      "source_ids": [
+        "src-b76-horizon-income",
+        "src-b76-horizon-income-limits",
+        "src-b76-horizon-oldworld-reading"
+      ],
+      "society_id": "horizon-oldworld-basic-income"
+    },
+    {
+      "candidate_id": "c0608",
+      "status": "included",
+      "reason": "The planned project actually implements a continuing robot-supported human childhood cohort, separately from its failed wider aims.",
+      "source_ids": [
+        "src-b76-eleuthia"
+      ],
+      "society_id": "horizon-eleuthia9-first-generation"
+    },
+    {
+      "candidate_id": "c0609",
+      "status": "boundary_case",
+      "reason": "GAIA’s terraforming supports an ecosystem while tribal humans perform real subsistence work.",
+      "source_ids": [
+        "src-b76-gaia-ecology"
+      ],
+      "analysis": "Machine hunting and biological restoration are not universal household allocation or a deliberately preserved unnecessary job system.",
+      "follow_up": "Retain the short gap/comparison and continue; no full-lore reconstruction or speculative rights after an ending."
+    },
+    {
+      "candidate_id": "c0610",
+      "status": "included",
+      "reason": "The established elite colony combines advanced fabrication and continuing bodily provision with widespread virtual leisure.",
+      "source_ids": [
+        "src-b76-sirius",
+        "src-b76-far-zenith"
+      ],
+      "society_id": "horizon-far-zenith-sirius-colony"
+    },
+    {
+      "candidate_id": "c0611",
+      "status": "needs_evidence",
+      "reason": "The Council sphere is not established as one work-independent household economy.",
+      "source_ids": [
+        "src-b76-alliance-codex"
+      ],
+      "analysis": "The human codex shows industry, resource imports and unequal conditions; fanfiction proposing universal automatic dividends was discarded.",
+      "follow_up": "Retain the short gap/comparison and continue; no full-lore reconstruction or speculative rights after an ending."
+    },
+    {
+      "candidate_id": "c0612",
+      "status": "needs_evidence",
+      "reason": "Geth consensus does not by itself establish post-work allocation or a justified human-person participation scope.",
+      "source_ids": [
+        "src-b76-geth"
+      ],
+      "analysis": "An engineering/military synthetic population is not equivalent to supplied nonworking humans; consensus alone does not settle material access.",
+      "follow_up": "Retain the short gap/comparison and continue; no full-lore reconstruction or speculative rights after an ending."
+    },
+    {
+      "candidate_id": "c0613",
+      "status": "needs_evidence",
+      "reason": "Geth-assisted resettlement and immune care do not establish Rannoch’s complete household economy.",
+      "source_ids": [
+        "src-b76-rannoch-care",
+        "src-b76-geth"
+      ],
+      "analysis": "A conditional care recollection is relevant but insufficient for ordinary access, ownership or all-person work estimates.",
+      "follow_up": "Retain the short gap/comparison and continue; no full-lore reconstruction or speculative rights after an ending."
+    },
+    {
+      "candidate_id": "c0614",
+      "status": "needs_evidence",
+      "reason": "Synthesis’s biological/technical transformation does not establish a detailed post-work resource constitution.",
+      "source_ids": [
+        "src-b76-me3-ending-context"
+      ],
+      "analysis": "Ending peace and shared knowledge do not by themselves supply food/housing entitlements or effective productive ownership; no best-ending claim is adopted.",
+      "follow_up": "Retain the short gap/comparison and continue; no full-lore reconstruction or speculative rights after an ending."
+    },
+    {
+      "candidate_id": "c0615",
+      "status": "needs_evidence",
+      "reason": "Reaper reconstruction under the Control branch does not establish ordinary labor-independent provision.",
+      "source_ids": [
+        "src-b76-me3-ending-context",
+        "src-b76-control-capture"
+      ],
+      "analysis": "Shepard’s guardian role and construction aid are distinct from a completed universal material floor; paragon and renegade choices may differ.",
+      "follow_up": "Retain the short gap/comparison and continue; no full-lore reconstruction or speculative rights after an ending."
+    },
+    {
+      "candidate_id": "c0616",
+      "status": "boundary_case",
+      "reason": "Reaper harvest and dormancy are not preserved individuals enjoying a post-work support system.",
+      "source_ids": [
+        "src-b76-reapers"
+      ],
+      "analysis": "Processed organic material and synthetic-organic warships do not supply an active human welfare denominator.",
+      "follow_up": "Retain the short gap/comparison and continue; no full-lore reconstruction or speculative rights after an ending."
+    }
+  ],
+  "review_notes": [
+    "Twelve fast decisions and three records. Primary checking stayed within the short Secret Show message; no complete game transcript or novel was read.",
+    "Horizon’s basic-income economy, implemented cradle childhood, later tribal subsistence and Sirius elite colony are separate scopes.",
+    "ELEUTHIA’s frozen zygotes are not active people; finite robot care need not imply unlimited fabrication. Far Zenith remains human-controlled before Nemesis takes over.",
+    "Mass Effect fanfiction offered exactly the desired universal-dividend economy, but was discarded. Ending transformation and reconstruction are not automatically universal material entitlements.",
+    "Blocked wiki and terminal routes were respected. Secondary summaries and informal care recollections are honestly labeled and do not justify unsupported coordinates."
+  ]
+}

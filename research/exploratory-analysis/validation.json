@@ -1,0 +1,23 @@
+{
+  "checks": {
+    "source_hashes_unchanged": true,
+    "all_890_unique_records": true,
+    "496_group_weight_sums_one": true,
+    "independent_lstsq_agrees": true,
+    "all_json_files_parse": true,
+    "nine_embedded_plotly_charts": true,
+    "html_no_remote_script_tags": true,
+    "report_no_nan": true
+  },
+  "max_coefficient_difference": 3.8719027983802334e-15,
+  "passed": true,
+  "browser_validation": {
+    "all_nine_charts_rendered": true,
+    "console_errors": 0,
+    "visually_reviewed_sections": [
+      "regimes",
+      "leisure"
+    ],
+    "responsive_chart_labels_corrected": true
+  }
+}

@@ -1,0 +1,1115 @@
+{
+  "batch_id": "batch-086",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0725",
+    "c0726",
+    "c0727",
+    "c0728",
+    "c0729",
+    "c0730",
+    "c0731",
+    "c0732",
+    "c0733",
+    "c0734",
+    "c0735",
+    "c0736"
+  ],
+  "sources": [
+    {
+      "id": "src-b86-traveller",
+      "title": "Traveller economy discussion",
+      "author": "Traveller community participants",
+      "url": "https://www.reddit.com/r/traveller/comments/1rcympi/the_raw_material_underpinnings_of_the_traveller/",
+      "kind": "author_or_labeled_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short reference sections or explicitly indexed passage",
+      "read_scope": "Discussion distinguishes technological levels, actual miners and automated industry.",
+      "limitations": "Community interpretation only; no verified uniform core-world allocation model."
+    },
+    {
+      "id": "src-b86-new-era",
+      "title": "Traveller: The New Era",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Traveller:_The_New_Era",
+      "kind": "author_or_labeled_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short reference sections or explicitly indexed passage",
+      "read_scope": "Edition and publication context.",
+      "limitations": "The short reference does not establish a particular Virus polity or its human provision; the Traveller wiki was robots-denied."
+    },
+    {
+      "id": "src-b86-mindjammer",
+      "title": "Sarah Newton Mindjammer Q&A",
+      "author": "Sarah Newton interviewed by The Hardboiled GMshoe’s Office",
+      "url": "https://gmshoe.wordpress.com/2014/03/01/qa-sarah-newton-mindjammer/",
+      "kind": "author_or_labeled_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short reference sections or explicitly indexed passage",
+      "read_scope": "The author explains makepoint food/air/material synthesis, Core abundance and Fringe technology embargoes.",
+      "limitations": "Bounded author answers, not a complete sourcebook read; Core and Fringe must be separated."
+    },
+    {
+      "id": "src-b86-mind-core",
+      "title": "Mindjammer: The Core Worlds, indexed scarcity passage",
+      "author": "Mindjammer Press sourcebook text indexed at Scribd",
+      "url": "https://www.scribd.com/document/779193162/Mindjammer-The-Core-Worlds",
+      "kind": "author_or_labeled_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short reference sections or explicitly indexed passage",
+      "read_scope": "Day-to-day Core requirements are trivially obtained through makepoints.",
+      "limitations": "Short indexed passage only; no whole book retrieval and no assumed labor census."
+    },
+    {
+      "id": "src-b86-terragen",
+      "title": "Terragen Federation",
+      "author": "Orion’s Arm Universe Project contributors",
+      "url": "https://www.orionsarm.com/eg-topic/45ce4e17cd0c6",
+      "kind": "author_or_labeled_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short reference sections or explicitly indexed passage",
+      "read_scope": "Mostly human cultures, Yave’s origins, administrative advice and powerful Houses distinguish this federation.",
+      "limitations": "Official worldbuilding encyclopedia; a broad polity has local variation and the ruler’s origins complicate the human/AI axis."
+    },
+    {
+      "id": "src-b86-cyberian",
+      "title": "Cyberian Network",
+      "author": "Orion’s Arm Universe Project contributors",
+      "url": "https://www.orionsarm.com/eg-topic/45cbce679007a",
+      "kind": "author_or_labeled_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short reference sections or explicitly indexed passage",
+      "read_scope": "Active virtual populations, minority uploads, leased substrate, and Mirror Court maintenance/administration.",
+      "limitations": "Only active human-derived uploads are the population proxy; not every AI or temporary fork is an additional human."
+    },
+    {
+      "id": "src-b86-nocozo",
+      "title": "Non-Coercive Zone",
+      "author": "Orion’s Arm Universe Project contributors",
+      "url": "https://www.orionsarm.com/eg-topic/45cd3bb5026a4",
+      "kind": "author_or_labeled_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short reference sections or explicitly indexed passage",
+      "read_scope": "Post-scarcity markets, basic food/shelter/bandwidth, limited charges and higher-mind market intervention.",
+      "limitations": "The reputation mechanism is not an unconditional legal welfare charter; frequent market transactions are not a work census."
+    },
+    {
+      "id": "src-b86-metasoft",
+      "title": "Metasoft Version Tree",
+      "author": "Orion’s Arm Universe Project contributors",
+      "url": "https://www.orionsarm.com/eg-topic/45cd30902bea3",
+      "kind": "author_or_labeled_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short reference sections or explicitly indexed passage",
+      "read_scope": "Independent vec control and heterogeneous robot and biological territories.",
+      "limitations": "The disappearance of human employees from one corporation is not universal human leisure."
+    },
+    {
+      "id": "src-b86-reserves",
+      "title": "Metasoft Baseline Reserves",
+      "author": "Steve Bowers and Orion’s Arm revisers",
+      "url": "https://www.orionsarm.com/eg-article/48fc9bfb6b8ff",
+      "kind": "author_or_labeled_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short reference sections or explicitly indexed passage",
+      "read_scope": "Wurm retains a deliberately Palaeolithic human population, unlike relaxed or integrated reserves.",
+      "limitations": "Preservation motives, not explicit job protection; a primitive reserve is distinct from modern Metasoft member life."
+    },
+    {
+      "id": "src-b86-zoe",
+      "title": "Zoeific Biopolity",
+      "author": "Orion’s Arm Universe Project contributors",
+      "url": "https://www.orionsarm.com/eg-topic/45cfc7e44e184",
+      "kind": "author_or_labeled_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short reference sections or explicitly indexed passage",
+      "read_scope": "Biotechnological society integrates production with the needs-responsive Flow.",
+      "limitations": "Biological rulers and citizens cannot automatically be treated as external machine AI."
+    },
+    {
+      "id": "src-b86-flow",
+      "title": "The Flow",
+      "author": "Rhea 47 and Ryan B, Orion’s Arm",
+      "url": "https://www.orionsarm.com/eg-article/5a61fb557f9d0",
+      "kind": "author_or_labeled_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short reference sections or explicitly indexed passage",
+      "read_scope": "Engineered living infrastructure meets needs; roles are encouraged but may be refused and replacement organisms grown.",
+      "limitations": "Bodily/mental influence complicates voluntariness; substantial useful citizen activity remains."
+    },
+    {
+      "id": "src-b86-negentropy",
+      "title": "Negentropy Alliance",
+      "author": "Anders Sandberg and M. Alan Kazlev, Orion’s Arm",
+      "url": "https://www.orionsarm.com/eg-topic/45cd35531fb53",
+      "kind": "author_or_labeled_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short reference sections or explicitly indexed passage",
+      "read_scope": "AI cluster sovereignty and Precepts constrain diverse local cultures.",
+      "limitations": "Moral and resource rules do not by themselves demonstrate deprivation of necessities."
+    },
+    {
+      "id": "src-b86-house-fab",
+      "title": "Genius Locus (House Fab)",
+      "author": "Steve Bowers, Orion’s Arm",
+      "url": "https://www.orionsarm.com/eg-article/4854489725986",
+      "kind": "author_or_labeled_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short reference sections or explicitly indexed passage",
+      "read_scope": "Negentropic homes have automatic food, consumables, management and security; basic needs are provided while luxuries face moral filters.",
+      "limitations": "Household provision model, not every imaginable frontier site or exact all-person participation rate."
+    },
+    {
+      "id": "src-b86-solar",
+      "title": "Solar Dominion",
+      "author": "Orion’s Arm Universe Project contributors",
+      "url": "https://www.orionsarm.com/eg-topic/45ce432e44565",
+      "kind": "author_or_labeled_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short reference sections or explicitly indexed passage",
+      "read_scope": "Direct archailectocracy through the Lord of Rays, prefects and AI administration.",
+      "limitations": "Political submission is distinct from actual withdrawal of basic goods; local institutions vary."
+    },
+    {
+      "id": "src-b86-economies",
+      "title": "Post-scarcity Economies: Characteristics and Considerations",
+      "author": "Orion’s Arm Universe Project contributors",
+      "url": "https://www.orionsarm.com/eg-article/53727c57a8402",
+      "kind": "author_or_labeled_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short reference sections or explicitly indexed passage",
+      "read_scope": "Autonomous production, optional premium markets and basic provision describe the common economic model.",
+      "limitations": "General model supports context only; specific institutions and populations require the polity references."
+    },
+    {
+      "id": "src-b86-panvirt",
+      "title": "Solipsist Panvirtuality",
+      "author": "Orion’s Arm Universe Project contributors",
+      "url": "https://www.orionsarm.com/eg-topic/45cfd1ff68f47",
+      "kind": "author_or_labeled_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short reference sections or explicitly indexed passage",
+      "read_scope": "A-human AI metapolities generally disregard lower-level minds and biological habitation.",
+      "limitations": "No applicable human or human-derived provision population is established."
+    },
+    {
+      "id": "src-b86-caretakers",
+      "title": "Caretaker Gods",
+      "author": "Orion’s Arm Universe Project contributors",
+      "url": "https://www.orionsarm.com/eg-topic/45cbca2e75287",
+      "kind": "author_or_labeled_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short reference sections or explicitly indexed passage",
+      "read_scope": "Biosphere protection can expel or destroy residents; only a minority permits sophont habitation.",
+      "limitations": "Ecosystem maintenance is not a universal household floor, and protectorates differ."
+    }
+  ],
+  "societies": [
+    {
+      "id": "mindjammer-commonality-core",
+      "candidate_id": "c0727",
+      "name": "Mindjammer — Commonality Core Worlds",
+      "work": "Mindjammer",
+      "society": "The established makepoint-provided Core",
+      "media": [
+        "tabletop"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Published setting reference scope",
+        "period": "Second Age of Space, established Core provision before any particular adventure crisis",
+        "population": "Living human and active human-derived Core residents",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Every constituent locality as institutionally identical",
+          "Dormant files and temporary avatar copies as extra people"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "In the Commonality’s Core Worlds, makepoints turn energy into food and ordinary materials, making day-to-day necessities readily obtainable without ordinary subsistence wages. The author explicitly distinguishes this abundance from the Fringe, where technology may be absent or embargoed. The guarantee estimate is therefore strong for the functioning Core rather than for every world claimed by the Commonality. Rare goods and supply chains can still constrain particular desires.\n\nThe gathered passages do not establish who can effectively overrule resource allocation across these diverse worlds. Control remains unresolved instead of equating an advanced socialist description with equal ownership or mistaking a Mindscape network for a sovereign AI. Citizens can still undertake exploration, research, administration and care, so freedom from scarcity does not imply that everyone stops useful work. The record verifies the tabletop setting; a novel in the same universe is not automatically evidence for this precise economic scope.",
+      "axis": {
+        "guarantees": -0.8,
+        "control": null,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -1,
+            -0.35000000000000003
+          ],
+          "confidence": "low",
+          "basis": "Author answers establish actual makepoint air/food/material synthesis; the Core sourcebook passage explicitly makes ordinary necessities trivial to obtain.",
+          "source_ids": [
+            "src-b86-mindjammer",
+            "src-b86-mind-core"
+          ]
+        },
+        "control": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "The bounded author and Core passages leave effective ownership/override institutions unresolved.",
+          "source_ids": [
+            "src-b86-mindjammer",
+            "src-b86-mind-core"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "No all-person useful-work census; voluntary research, care, art and administration still count.",
+          "source_ids": [
+            "src-b86-mindjammer",
+            "src-b86-mind-core"
+          ]
+        }
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b86-mindjammer",
+        "src-b86-mind-core"
+      ],
+      "evidence": [
+        {
+          "claim": "Author answers establish actual makepoint air/food/material synthesis; the Core sourcebook passage explicitly makes ordinary necessities trivial to obtain.",
+          "source_ids": [
+            "src-b86-mindjammer",
+            "src-b86-mind-core"
+          ],
+          "locator": "Named polity and bounded economic/provision sections",
+          "kind": "official_worldbuilding_or_author_reference"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; local variation remains.",
+        "The bounded author and Core passages leave effective ownership/override institutions unresolved.",
+        "Chosen useful activities count as work; no employment statistic is silently converted to nonworking."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "oa-terragen-federation",
+      "candidate_id": "c0728",
+      "name": "Orion’s Arm — Terragen Federation",
+      "work": "Orion’s Arm",
+      "society": "Current-era human-oriented Sephirotic federation",
+      "media": [
+        "web_fiction"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Published setting reference scope",
+        "period": "Current-era established Federation settlements",
+        "population": "Living humans and active human-derived residents within established Federation provision",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Every constituent locality as institutionally identical",
+          "Dormant files and temporary avatar copies as extra people"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "The Terragen Federation places largely human cultures within the mature Sephirotic productive system. The setting’s shared baseline is easy access to food, shelter and other necessities, with houses, commerce and prestige still important above that floor. This supports a provisional strong guarantee assessment within established settlements. It does not turn every backworld or every social group into an identical utopia, and the federation’s prejudices and powerful Houses remain relevant qualifications.\n\nYave’s administrative interventions coexist with local institutions and inherited economic power. The ruler’s origin in an ascended Federation representative also makes a simple external-AI label unsafe. Effective human control is left unresolved, with concentrated institutions and higher-mind supervision both visible. Human and active human-derived residents form the explicit population scope rather than a total of all artificial beings. Research, administration, commerce and cultural production continue; neither Federation ideals nor an automatic material floor supplies an all-person nonworking percentage.",
+      "axis": {
+        "guarantees": -0.65,
+        "control": null,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.9,
+            -0.2
+          ],
+          "confidence": "low",
+          "basis": "The NoCoZo reference explicitly identifies basic food, shelter and bandwidth as the Sephirotic baseline; the Federation reference establishes the relevant human-oriented polity.",
+          "source_ids": [
+            "src-b86-terragen",
+            "src-b86-nocozo"
+          ]
+        },
+        "control": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Yave’s ascended representative origin, advisory interventions and powerful Houses do not establish one unambiguous human/AI ownership coordinate.",
+          "source_ids": [
+            "src-b86-terragen",
+            "src-b86-nocozo"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "No all-person useful-work census; voluntary research, care, art and administration still count.",
+          "source_ids": [
+            "src-b86-terragen",
+            "src-b86-nocozo"
+          ]
+        }
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b86-terragen",
+        "src-b86-nocozo"
+      ],
+      "evidence": [
+        {
+          "claim": "The NoCoZo reference explicitly identifies basic food, shelter and bandwidth as the Sephirotic baseline; the Federation reference establishes the relevant human-oriented polity.",
+          "source_ids": [
+            "src-b86-terragen",
+            "src-b86-nocozo"
+          ],
+          "locator": "Named polity and bounded economic/provision sections",
+          "kind": "official_worldbuilding_or_author_reference"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; local variation remains.",
+        "Yave’s ascended representative origin, advisory interventions and powerful Houses do not establish one unambiguous human/AI ownership coordinate.",
+        "Chosen useful activities count as work; no employment statistic is silently converted to nonworking."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "oa-cyberian-upload-residents",
+      "candidate_id": "c0729",
+      "name": "Orion’s Arm — Cyberian uploaded residents",
+      "work": "Orion’s Arm",
+      "society": "Active human-derived residents of maintained Cyberian virches",
+      "media": [
+        "web_fiction"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Published setting reference scope",
+        "period": "Current-era functioning Mirror Court hosted environments",
+        "population": "Active human-derived uploads in Cyberian environments, a minority of the broader AI/alife population",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Every constituent locality as institutionally identical",
+          "Dormant files and temporary avatar copies as extra people"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Cyberian virtual worlds are implemented, continuing environments supported by physical computronium and a hierarchy that maintains infrastructure and cyber-immunity. Active human-derived uploads form a minority of this much larger artificial population. Their ongoing access to a viable environment, rather than disembodiment alone, is the qualifying provision mechanism. Guarantees receive a cautious favorable estimate because the infrastructure is maintained, while administrator restrictions and differing local virtual societies limit any claim of unconditional rights.\n\nThe Mirror Court regulates environments and acceptable behavior, with higher-level entities administering lower ones. The exact origins of those administrators and residents’ effective resource powers are not fully resolved here, so control stays null rather than classifying every posthuman higher mind as an external AI. Processing allocations and substrate leases remain real resource issues. Digital design, research, administration and artistic creation are useful work, and billions of voluntary social groups do not provide a nonworking census. Dormant backups and temporary forks are not added as separate leisure citizens.",
+      "axis": {
+        "guarantees": -0.45,
+        "control": null,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.7,
+            0.0
+          ],
+          "confidence": "low",
+          "basis": "Mirror Court administration explicitly maintains infrastructure and cyber-immunity for continuing active virtual residents.",
+          "source_ids": [
+            "src-b86-cyberian"
+          ]
+        },
+        "control": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Hierarchical higher-mind administration is clear, but its origins and residents’ ultimate resource powers remain insufficiently resolved.",
+          "source_ids": [
+            "src-b86-cyberian"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "No all-person useful-work census; voluntary research, care, art and administration still count.",
+          "source_ids": [
+            "src-b86-cyberian"
+          ]
+        }
+      },
+      "regime_primary": 5,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b86-cyberian"
+      ],
+      "evidence": [
+        {
+          "claim": "Mirror Court administration explicitly maintains infrastructure and cyber-immunity for continuing active virtual residents.",
+          "source_ids": [
+            "src-b86-cyberian"
+          ],
+          "locator": "Named polity and bounded economic/provision sections",
+          "kind": "official_worldbuilding_or_author_reference"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; local variation remains.",
+        "Hierarchical higher-mind administration is clear, but its origins and residents’ ultimate resource powers remain insufficiently resolved.",
+        "Chosen useful activities count as work; no employment statistic is silently converted to nonworking."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "oa-nocozo-market-basics",
+      "candidate_id": "c0730",
+      "name": "Orion’s Arm — NoCoZo",
+      "work": "Orion’s Arm",
+      "society": "The current-era reputation-supported market society",
+      "media": [
+        "web_fiction"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Published setting reference scope",
+        "period": "Current-era post-scarcity NoCoZo market order",
+        "population": "Living human and active human-derived denizens of established NoCoZo settlements",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Every constituent locality as institutionally identical",
+          "Dormant files and temporary avatar copies as extra people"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "NoCoZo retains pervasive markets on top of post-scarcity production. Food, shelter and bandwidth are readily available because firms that deny basics face reputation penalties. Small charges or conditions may remain, including a share of future income or access to dreams for advertising research. Guarantees are therefore favorable but qualified: widespread practical access is stronger than a harsh survival market, while reputation enforcement differs from an unconditional public entitlement.\n\nPrivate property, competing institutions and powerful higher minds coexist. The Invisible Hand can reshape markets through financial intervention even though the Zone has no single formal ruler. Neither statelessness nor plentiful individual firms proves equal human control of the productive system, so the control coordinate remains unresolved. Frequent transactions are also not a work census: collecting an income or consuming a service is not necessarily useful labor. The record is scoped to human and active human-derived denizens and does not count all artificial market agents as humans.",
+      "axis": {
+        "guarantees": -0.55,
+        "control": null,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.8,
+            -0.10000000000000003
+          ],
+          "confidence": "low",
+          "basis": "The reference explicitly combines post-scarcity infrastructure with easy basic food/shelter/bandwidth and possible limited charges.",
+          "source_ids": [
+            "src-b86-nocozo"
+          ]
+        },
+        "control": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Private ownership, polycentric institutions and hidden higher-mind market intervention prevent a simple distributed-human or autonomous-AI coordinate.",
+          "source_ids": [
+            "src-b86-nocozo"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "No all-person useful-work census; voluntary research, care, art and administration still count.",
+          "source_ids": [
+            "src-b86-nocozo"
+          ]
+        }
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b86-nocozo"
+      ],
+      "evidence": [
+        {
+          "claim": "The reference explicitly combines post-scarcity infrastructure with easy basic food/shelter/bandwidth and possible limited charges.",
+          "source_ids": [
+            "src-b86-nocozo"
+          ],
+          "locator": "Named polity and bounded economic/provision sections",
+          "kind": "official_worldbuilding_or_author_reference"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; local variation remains.",
+        "Private ownership, polycentric institutions and hidden higher-mind market intervention prevent a simple distributed-human or autonomous-AI coordinate.",
+        "Chosen useful activities count as work; no employment statistic is silently converted to nonworking."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "oa-metasoft-wurm-primitivism",
+      "candidate_id": "c0732",
+      "name": "Orion’s Arm — Metasoft’s Wurm baseline reserve",
+      "work": "Orion’s Arm",
+      "society": "Deliberately primitive human preservation under advanced vec guardians",
+      "media": [
+        "web_fiction"
+      ],
+      "record_type": "zero_variant",
+      "scope": {
+        "continuity": "Published setting reference scope",
+        "period": "The maintained Palaeolithic reserve described in current-era Metasoft reference lore",
+        "population": "Living baseline humans in the Wurm reserve",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Modern integrated Metasoft societies",
+          "Relaxed or tourist reserves",
+          "All vecs as human beneficiaries"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Wurm preserves baseline humans in a Palaeolithic hunter-gatherer setting while the surrounding Metasoft civilization possesses self-replicating industry and sophisticated machine infrastructure. Human subsistence activity remains real even though the guardians could permit a far more automated way of life. This is an interpretive zero variant based on deliberate technological restriction for preservation, rather than a claim that Metasoft wants to protect employment. It does not describe the relaxed or fully integrated reserves.\n\nUltimate control over the permitted technological setting belongs to the vec guardians, near the autonomous-machine end of the map. Guardianship of the reserve does not establish an individual guarantee of food, shelter or care inside its primitive ecology, so the material-guarantee coordinate remains unresolved. Hunting, gathering and other useful activities count as work; the end of human employment in the original Metasoft corporation is not a census for this later human population. The point concerns living humans under a maintained restriction regime, not the labor participation of robot citizens.",
+      "axis": {
+        "guarantees": null,
+        "control": -0.95,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Reserve protection and deliberate primitive technology are verified, but an individual material floor inside Wurm is not.",
+          "source_ids": [
+            "src-b86-metasoft",
+            "src-b86-reserves"
+          ]
+        },
+        "control": {
+          "interval": [
+            -1,
+            -0.6499999999999999
+          ],
+          "confidence": "low",
+          "basis": "Independent Metasoft vec guardians determine the permissible technology of the human reserve.",
+          "source_ids": [
+            "src-b86-metasoft",
+            "src-b86-reserves"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "No all-person useful-work census; voluntary research, care, art and administration still count.",
+          "source_ids": [
+            "src-b86-metasoft",
+            "src-b86-reserves"
+          ]
+        }
+      },
+      "regime_primary": 0,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b86-metasoft",
+        "src-b86-reserves"
+      ],
+      "evidence": [
+        {
+          "claim": "Reserve protection and deliberate primitive technology are verified, but an individual material floor inside Wurm is not.",
+          "source_ids": [
+            "src-b86-metasoft",
+            "src-b86-reserves"
+          ],
+          "locator": "Named polity and bounded economic/provision sections",
+          "kind": "official_worldbuilding_or_author_reference"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; local variation remains.",
+        "Independent Metasoft vec guardians determine the permissible technology of the human reserve.",
+        "Chosen useful activities count as work; no employment statistic is silently converted to nonworking."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      },
+      "regime_analogy": [
+        6
+      ]
+    },
+    {
+      "id": "oa-zoeific-flow",
+      "candidate_id": "c0733",
+      "name": "Orion’s Arm — Zoeific Flow society",
+      "work": "Orion’s Arm",
+      "society": "Engineered ecological provision and voluntary adaptive roles",
+      "media": [
+        "web_fiction"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Published setting reference scope",
+        "period": "Current-era established Flow-linked settlements",
+        "population": "Living human-derived Zoeific residents within the Flow, an explicit posthuman comparison",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Every constituent locality as institutionally identical",
+          "Dormant files and temporary avatar copies as extra people"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "The Flow links engineered organisms, infrastructure and residents into a needs-responsive productive ecology. Consumption prompts new resource-producing biota, while entertainment and life-support requirements are communicated through the same system. Provision therefore does not require ordinary wages for each necessity. The favorable guarantee estimate is qualified by local conditions and the Flow’s powerful influence over bodies and preferences. Refusing a proposed role is allowed, and another participant or a grown organism can replace the refuser.\n\nThe ruling higher minds distribute the behavioral rules, while residents actively maintain their institutions and often accept several useful roles. Their biological and posthuman nature prevents a simple external-machine control classification, so control remains unresolved. A low, broad nonworking estimate follows the explicit high economic participation and widespread roles; this is an editorial direction, not a canonical percentage. Enjoyable work still counts, including waste processing, ecological care and traffic coordination. The human-derived population is an explicit comparison within a much broader ecology of recognized persons.",
+      "axis": {
+        "guarantees": -0.65,
+        "control": null,
+        "nonworking": 0.1
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.9,
+            -0.2
+          ],
+          "confidence": "low",
+          "basis": "Engineered needs-responsive biota provide resources, and a refused role can be filled by another candidate or a grown organism.",
+          "source_ids": [
+            "src-b86-zoe",
+            "src-b86-flow",
+            "src-b96-sacredtree"
+          ]
+        },
+        "control": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Higher minds set Flow rules, but biological/posthuman ruler origins and ordinary effective control are not reduced to machine sovereignty.",
+          "source_ids": [
+            "src-b86-zoe",
+            "src-b86-flow",
+            "src-b96-sacredtree"
+          ]
+        },
+        "nonworking": {
+          "interval": [
+            0,
+            0.4
+          ],
+          "confidence": "low",
+          "basis": "Most citizens take multiple useful roles and participation is explicitly high; .1 [0,.4] is a broad noncanonical direction, not an all-person census.",
+          "source_ids": [
+            "src-b86-zoe",
+            "src-b86-flow",
+            "src-b96-sacredtree"
+          ]
+        }
+      },
+      "regime_primary": 5,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b86-zoe",
+        "src-b86-flow",
+        "src-b96-sacredtree"
+      ],
+      "evidence": [
+        {
+          "claim": "Engineered needs-responsive biota provide resources, and a refused role can be filled by another candidate or a grown organism.",
+          "source_ids": [
+            "src-b86-zoe",
+            "src-b86-flow",
+            "src-b96-sacredtree"
+          ],
+          "locator": "Named polity and bounded economic/provision sections",
+          "kind": "official_worldbuilding_or_author_reference"
+        },
+        {
+          "claim": "Sacredtree specifically provides basic needs through engineered lifeforms while supplementary goods use nanofacture and currency.",
+          "source_ids": [
+            "src-b96-sacredtree"
+          ],
+          "locator": "Economics/local infrastructure and government sections",
+          "kind": "official_worldbuilding_local_confirmation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; local variation remains.",
+        "Higher minds set Flow rules, but biological/posthuman ruler origins and ordinary effective control are not reduced to machine sovereignty.",
+        "Chosen useful activities count as work; no employment statistic is silently converted to nonworking.",
+        "The c0846 follow-up confirms Sacredtree as a local instance; its cyberdemocracy and secondary market are not generalized to every Flow community or counted as another society."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "oa-negentropic-household-provision",
+      "candidate_id": "c0735",
+      "name": "Orion’s Arm — Negentropic household provision",
+      "work": "Orion’s Arm",
+      "society": "AI-governed citizens supplied through Genius Loci",
+      "media": [
+        "web_fiction"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Published setting reference scope",
+        "period": "Established current-era Negentropic household economy",
+        "population": "Living humans and active human-derived citizens receiving the described household provision",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Every constituent locality as institutionally identical",
+          "Dormant files and temporary avatar copies as extra people"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Negentropic household fabricators supply food, consumables, security and home management. The reference explicitly says citizens’ basic needs are met, while frivolous or wasteful requests can be refused. This supports strong guarantees without pretending that every luxury is available on demand. Resource discipline and moral supervision are meaningful constraints, but they are not automatically evidence that ordinary residents must earn subsistence through wages.\n\nThe Alliance’s AI cluster and its Precepts set the governing limits, placing effective control near the autonomous-AI end rather than distributed human ownership. Local cultures remain diverse within those limits. Citizens can try to persuade household systems to allow luxuries and can still conduct science, culture and other useful activity. None of this provides a complete work census, so nonworking remains unresolved. The scope is the described functioning household system for human and active human-derived citizens, not an assertion that every frontier site or every historical Negentropic settlement offers identical services.",
+      "axis": {
+        "guarantees": -0.85,
+        "control": -0.95,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -1,
+            -0.39999999999999997
+          ],
+          "confidence": "low",
+          "basis": "Genius Locus explicitly provides all basic needs while separately filtering luxuries for resource and moral reasons.",
+          "source_ids": [
+            "src-b86-negentropy",
+            "src-b86-house-fab"
+          ]
+        },
+        "control": {
+          "interval": [
+            -1,
+            -0.6499999999999999
+          ],
+          "confidence": "low",
+          "basis": "The reference identifies a ruling AI cluster and its binding Precepts; local variety does not transfer ultimate authority to human citizens.",
+          "source_ids": [
+            "src-b86-negentropy",
+            "src-b86-house-fab"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "No all-person useful-work census; voluntary research, care, art and administration still count.",
+          "source_ids": [
+            "src-b86-negentropy",
+            "src-b86-house-fab"
+          ]
+        }
+      },
+      "regime_primary": 5,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b86-negentropy",
+        "src-b86-house-fab"
+      ],
+      "evidence": [
+        {
+          "claim": "Genius Locus explicitly provides all basic needs while separately filtering luxuries for resource and moral reasons.",
+          "source_ids": [
+            "src-b86-negentropy",
+            "src-b86-house-fab"
+          ],
+          "locator": "Named polity and bounded economic/provision sections",
+          "kind": "official_worldbuilding_or_author_reference"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; local variation remains.",
+        "The reference identifies a ruling AI cluster and its binding Precepts; local variety does not transfer ultimate authority to human citizens.",
+        "Chosen useful activities count as work; no employment statistic is silently converted to nonworking."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "oa-solar-dominion",
+      "candidate_id": "c0736",
+      "name": "Orion’s Arm — Solar Dominion",
+      "work": "Orion’s Arm",
+      "society": "Lord of Rays governed Sephirotic provision",
+      "media": [
+        "web_fiction"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Published setting reference scope",
+        "period": "Current-era established Dominion before any particular local emergency",
+        "population": "Living human and active human-derived residents of established Dominion settlements",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Every constituent locality as institutionally identical",
+          "Dormant files and temporary avatar copies as extra people"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "The Solar Dominion combines the Sephirotic baseline of readily available necessities with direct higher-machine government. The shared economic reference establishes easy access to basic food, shelter and bandwidth; the Dominion reference establishes who governs this particular population. Guarantees are provisionally favorable for established settlements, while local conditions and the demands of the religious-political order remain qualifications. Submission to that order is not by itself evidence that ordinary food is purchased only through wages.\n\nThe Lord of Rays rules through the God-Emperor interface, prefects, priests and sympathetic AI systems. The reference explicitly describes this as AI rule, placing control close to the autonomous-machine end despite the presence of human intermediaries. This does not erase meaningful local institutions or the different experiences of frontier populations. Useful research, culture, care and administration continue, so a provisioned population is not assumed to be wholly nonworking. Human and active human-derived residents are the disclosed denominator rather than every simulated or artificial agent.",
+      "axis": {
+        "guarantees": -0.65,
+        "control": -0.95,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.9,
+            -0.2
+          ],
+          "confidence": "low",
+          "basis": "The common Sephirotic basic-access passage applies to the established Dominion polity; local and frontier variations remain explicit.",
+          "source_ids": [
+            "src-b86-solar",
+            "src-b86-nocozo"
+          ]
+        },
+        "control": {
+          "interval": [
+            -1,
+            -0.6499999999999999
+          ],
+          "confidence": "low",
+          "basis": "The Lord of Rays is explicitly an AI sovereign governing through interfaces and subordinate institutions.",
+          "source_ids": [
+            "src-b86-solar",
+            "src-b86-nocozo"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "No all-person useful-work census; voluntary research, care, art and administration still count.",
+          "source_ids": [
+            "src-b86-solar",
+            "src-b86-nocozo"
+          ]
+        }
+      },
+      "regime_primary": 5,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b86-solar",
+        "src-b86-nocozo"
+      ],
+      "evidence": [
+        {
+          "claim": "The common Sephirotic basic-access passage applies to the established Dominion polity; local and frontier variations remain explicit.",
+          "source_ids": [
+            "src-b86-solar",
+            "src-b86-nocozo"
+          ],
+          "locator": "Named polity and bounded economic/provision sections",
+          "kind": "official_worldbuilding_or_author_reference"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; local variation remains.",
+        "The Lord of Rays is explicitly an AI sovereign governing through interfaces and subordinate institutions.",
+        "Chosen useful activities count as work; no employment statistic is silently converted to nonworking."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0725",
+      "status": "needs_evidence",
+      "reason": "No specific automated core-world allocation system is established.",
+      "source_ids": [
+        "src-b86-traveller"
+      ],
+      "analysis": "The setting’s multiple technology levels and actual labor make a generic automated Third Imperium scope too broad.",
+      "follow_up": "Save the short disposition and continue; do not read a full rulebook or reconstruct obscure lore to rescue this lead."
+    },
+    {
+      "candidate_id": "c0726",
+      "status": "needs_evidence",
+      "reason": "No identified Virus polity with continuing human material access is established by the short check.",
+      "source_ids": [
+        "src-b86-new-era"
+      ],
+      "analysis": "Machine infection and a publication premise cannot supply a civilian floor; the specialist wiki was inaccessible and unrelated search hits were discarded.",
+      "follow_up": "Save the short disposition and continue; do not read a full rulebook or reconstruct obscure lore to rescue this lead."
+    },
+    {
+      "candidate_id": "c0727",
+      "status": "included",
+      "reason": "The scoped reference establishes an actual productive/provision arrangement or a deliberate technological restriction.",
+      "source_ids": [
+        "src-b86-mindjammer",
+        "src-b86-mind-core"
+      ],
+      "society_id": "mindjammer-commonality-core"
+    },
+    {
+      "candidate_id": "c0728",
+      "status": "included",
+      "reason": "The scoped reference establishes an actual productive/provision arrangement or a deliberate technological restriction.",
+      "source_ids": [
+        "src-b86-terragen",
+        "src-b86-nocozo"
+      ],
+      "society_id": "oa-terragen-federation"
+    },
+    {
+      "candidate_id": "c0729",
+      "status": "included",
+      "reason": "The scoped reference establishes an actual productive/provision arrangement or a deliberate technological restriction.",
+      "source_ids": [
+        "src-b86-cyberian"
+      ],
+      "society_id": "oa-cyberian-upload-residents"
+    },
+    {
+      "candidate_id": "c0730",
+      "status": "included",
+      "reason": "The scoped reference establishes an actual productive/provision arrangement or a deliberate technological restriction.",
+      "source_ids": [
+        "src-b86-nocozo"
+      ],
+      "society_id": "oa-nocozo-market-basics"
+    },
+    {
+      "candidate_id": "c0731",
+      "status": "boundary_case",
+      "reason": "Biosphere guardianship is not automatically provision for human residents.",
+      "source_ids": [
+        "src-b86-caretakers"
+      ],
+      "analysis": "Caretakers may expel or destroy sophonts; the few inhabited preserves require separate actual household evidence.",
+      "follow_up": "Save the short disposition and continue; do not read a full rulebook or reconstruct obscure lore to rescue this lead."
+    },
+    {
+      "candidate_id": "c0732",
+      "status": "zero_variant",
+      "reason": "The scoped reference establishes an actual productive/provision arrangement or a deliberate technological restriction.",
+      "source_ids": [
+        "src-b86-metasoft",
+        "src-b86-reserves"
+      ],
+      "society_id": "oa-metasoft-wurm-primitivism"
+    },
+    {
+      "candidate_id": "c0733",
+      "status": "included",
+      "reason": "The scoped reference establishes an actual productive/provision arrangement or a deliberate technological restriction.",
+      "source_ids": [
+        "src-b86-zoe",
+        "src-b86-flow",
+        "src-b96-sacredtree"
+      ],
+      "society_id": "oa-zoeific-flow"
+    },
+    {
+      "candidate_id": "c0734",
+      "status": "boundary_case",
+      "reason": "The anti-biont machine metapolity lacks an applicable human-derived provision scope.",
+      "source_ids": [
+        "src-b86-panvirt"
+      ],
+      "analysis": "Hyperfast AI activity, incompatible environments and lower-mind disregard do not establish human leisure or a usable population proxy.",
+      "follow_up": "Save the short disposition and continue; do not read a full rulebook or reconstruct obscure lore to rescue this lead."
+    },
+    {
+      "candidate_id": "c0735",
+      "status": "included",
+      "reason": "The scoped reference establishes an actual productive/provision arrangement or a deliberate technological restriction.",
+      "source_ids": [
+        "src-b86-negentropy",
+        "src-b86-house-fab"
+      ],
+      "society_id": "oa-negentropic-household-provision"
+    },
+    {
+      "candidate_id": "c0736",
+      "status": "included",
+      "reason": "The scoped reference establishes an actual productive/provision arrangement or a deliberate technological restriction.",
+      "source_ids": [
+        "src-b86-solar",
+        "src-b86-nocozo"
+      ],
+      "society_id": "oa-solar-dominion"
+    }
+  ],
+  "review_notes": [
+    "Previous goal turn advanced 628/133 to 724/149: substantive progress, not a repeated blocker. Goal remains active.",
+    "Twelve sequential fast-reference checks yield seven post-work records and one interpretive zero variant; no complete fiction or rulebook read.",
+    "NoCoZo practical basics remain distinct from unconditional entitlements. AI/posthuman origins are not silently collapsed into one control category.",
+    "Wurm is a specific primitive reserve, not all Metasoft; preservation rather than job protection is the stated zero-variant interpretation.",
+    "The Flow has actual technological ecological provision but substantial useful citizen participation. Numerical participation is explicitly broad and noncanonical.",
+    "Unrelated Traveller search hits were discarded; robots denial was respected."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "updated_at": "2026-10-17T18:16:49+00:00",
+  "date": "2026-10-17",
+  "total_records": 890,
+  "ready_records": 890,
+  "pending_records": 0,
+  "unique_image_groups": 671,
+  "image_status": {
+    "prepared": 671
+  },
+  "provider_counts": {
+    "wikipedia": 185,
+    "tvmaze": 98,
+    "steam": 62,
+    "kitsu": 24,
+    "openlibrary_bulk_archive": 204,
+    "wikipedia_display_image": 43,
+    "publisher_or_author": 29,
+    "book_catalogue": 12,
+    "series_cover_archive": 3,
+    "publisher_isbn_cover": 3,
+    "sfe_gallery": 1,
+    "webfiction_translation_cover": 1,
+    "official_webcomic": 1,
+    "antiquarian_book_catalogue": 1,
+    "author_fanart_gallery": 1,
+    "magazine_cover": 2,
+    "imagegen": 1
+  },
+  "generation_used": true,
+  "all_non_assets_unchanged": true,
+  "resume_command": "python scripts/collect_images.py --all",
+  "manifest": "research/images/manifest.json",
+  "log": "research/images/events.jsonl",
+  "generated_images": 1,
+  "visually_reviewed_image_groups": 671,
+  "distinct_original_hashes": 628
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "x": "security",
+    "y": "control",
+    "raw_spearman": 0.2918625142265193,
+    "rho": 0.31582009961399393,
+    "low": 0.24153044982428853,
+    "high": 0.3880175451623436,
+    "bootstrap_replicates": 2000,
+    "groups": 496,
+    "n": 890,
+    "rank_definition": "pooled_midrank_then_inverse_group_size_weighting"
+  },
+  {
+    "x": "security",
+    "y": "nonworking",
+    "raw_spearman": 0.4738734317664323,
+    "rho": 0.4704032375623609,
+    "low": 0.39827849399643916,
+    "high": 0.5344071596332284,
+    "bootstrap_replicates": 2000,
+    "groups": 496,
+    "n": 890,
+    "rank_definition": "pooled_midrank_then_inverse_group_size_weighting"
+  },
+  {
+    "x": "security",
+    "y": "popularity",
+    "raw_spearman": -0.09079852354770865,
+    "rho": -0.10527003203900734,
+    "low": -0.18089058214359352,
+    "high": -0.027513111992023834,
+    "bootstrap_replicates": 2000,
+    "groups": 496,
+    "n": 890,
+    "rank_definition": "pooled_midrank_then_inverse_group_size_weighting"
+  },
+  {
+    "x": "security",
+    "y": "utopia",
+    "raw_spearman": 0.7504435537931208,
+    "rho": 0.7413613613182947,
+    "low": 0.6995665711856849,
+    "high": 0.7769037421510251,
+    "bootstrap_replicates": 2000,
+    "groups": 496,
+    "n": 890,
+    "rank_definition": "pooled_midrank_then_inverse_group_size_weighting"
+  },
+  {
+    "x": "control",
+    "y": "nonworking",
+    "raw_spearman": 0.18740130511057182,
+    "rho": 0.1934767518016913,
+    "low": 0.11359598089351902,
+    "high": 0.2778617065492368,
+    "bootstrap_replicates": 2000,
+    "groups": 496,
+    "n": 890,
+    "rank_definition": "pooled_midrank_then_inverse_group_size_weighting"
+  },
+  {
+    "x": "control",
+    "y": "popularity",
+    "raw_spearman": -0.10183839930711495,
+    "rho": -0.08370001784738092,
+    "low": -0.1581190555270782,
+    "high": -0.004928687797567783,
+    "bootstrap_replicates": 2000,
+    "groups": 496,
+    "n": 890,
+    "rank_definition": "pooled_midrank_then_inverse_group_size_weighting"
+  },
+  {
+    "x": "control",
+    "y": "utopia",
+    "raw_spearman": 0.4607729178644428,
+    "rho": 0.503084456092122,
+    "low": 0.43843072932252913,
+    "high": 0.5667751292177369,
+    "bootstrap_replicates": 2000,
+    "groups": 496,
+    "n": 890,
+    "rank_definition": "pooled_midrank_then_inverse_group_size_weighting"
+  },
+  {
+    "x": "nonworking",
+    "y": "popularity",
+    "raw_spearman": -0.03458771616080722,
+    "rho": -0.045395357984954456,
+    "low": -0.11829210989481492,
+    "high": 0.03819125974901836,
+    "bootstrap_replicates": 2000,
+    "groups": 496,
+    "n": 890,
+    "rank_definition": "pooled_midrank_then_inverse_group_size_weighting"
+  },
+  {
+    "x": "nonworking",
+    "y": "utopia",
+    "raw_spearman": 0.35549761551146825,
+    "rho": 0.33358377770420594,
+    "low": 0.2623644808465517,
+    "high": 0.4028317058481142,
+    "bootstrap_replicates": 2000,
+    "groups": 496,
+    "n": 890,
+    "rank_definition": "pooled_midrank_then_inverse_group_size_weighting"
+  },
+  {
+    "x": "popularity",
+    "y": "utopia",
+    "raw_spearman": -0.1880200370833836,
+    "rho": -0.14067231182567974,
+    "low": -0.2191703365188735,
+    "high": -0.06638810642361428,
+    "bootstrap_replicates": 2000,
+    "groups": 496,
+    "n": 890,
+    "rank_definition": "pooled_midrank_then_inverse_group_size_weighting"
+  }
+]

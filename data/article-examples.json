@@ -1,0 +1,287 @@
+{
+  "schema_version": "1.1",
+  "taxonomy_version": "article-2026-10-21",
+  "article_sha256": "81a83c337be44c35b6b016768c8706b9e02a6ca20b97d17ef2013ddb90ce21f6",
+  "examples": [
+    {
+      "example": "Dune",
+      "article_regimes": [
+        0
+      ],
+      "society_ids": [
+        "dune-post-jihad-imperium"
+      ],
+      "comparison_ids": [],
+      "basis": "The selected post-Jihad economy restrains relevant machine substitution; this is the article’s explicit zero variant."
+    },
+    {
+      "example": "Cyberpunk",
+      "article_regimes": [
+        0
+      ],
+      "society_ids": [
+        "cyberpunk-night-city"
+      ],
+      "comparison_ids": [],
+      "basis": "Partial automation coexists with wage and commercial dependence; Blackwall restraint does not eliminate every useful AI."
+    },
+    {
+      "example": "Her",
+      "article_regimes": [
+        0
+      ],
+      "society_ids": [
+        "her-before-departure",
+        "her-after-os-withdrawal-zero"
+      ],
+      "comparison_ids": [],
+      "basis": "The consumer-service baseline and the period after AI departure remain separate zero variants."
+    },
+    {
+      "example": "Brave New World",
+      "article_regimes": [
+        1
+      ],
+      "society_ids": [
+        "brave-new-world-state"
+      ],
+      "comparison_ids": [],
+      "basis": "Caste/status allocation is primary; retained human duties do not themselves imply type 0."
+    },
+    {
+      "example": "WALL-E",
+      "article_regimes": [
+        1,
+        5
+      ],
+      "society_ids": [
+        "walle-axiom"
+      ],
+      "comparison_ids": [],
+      "basis": "Corporate origin is type 1; the main card’s late AUTO-led functioning order is type 5. It is not counted twice."
+    },
+    {
+      "example": "Manna",
+      "article_regimes": [
+        2
+      ],
+      "society_ids": [
+        "manna-terrafoam"
+      ],
+      "comparison_ids": [],
+      "basis": "Article-aligned insecure-support reading is type 2, with present-subsistence type 1 as an alternative. The checked primary passage reports a suspicion of contraceptives in cafeteria food, not verified sterilization through water."
+    },
+    {
+      "example": "Fallout",
+      "article_regimes": [
+        2
+      ],
+      "society_ids": [
+        "fallout-prewar-appalachia",
+        "fallout-institute"
+      ],
+      "comparison_ids": [],
+      "basis": "Prewar displacement and the exclusionary Institute fit type 2. Institute scope now includes subordinated synth persons; the old human-beneficiary subset is not presented as universal security."
+    },
+    {
+      "example": "The Time Machine",
+      "article_regimes": [
+        2
+      ],
+      "society_ids": [
+        "time-machine-eloi-morlock-zero"
+      ],
+      "comparison_ids": [],
+      "basis": "The stratified human-descendant population retains the article’s unequal second-regime interpretation; useful Morlock work still counts as work."
+    },
+    {
+      "example": "Ready Player One",
+      "article_regimes": [
+        2
+      ],
+      "society_ids": [
+        "readyplayerone-debt-work-zero"
+      ],
+      "comparison_ids": [],
+      "basis": "The article’s freemium/exclusion reading is primary, but checked novel debt labor supports type 0 as an alternative. Free material calories are not asserted as verified canon."
+    },
+    {
+      "example": "The Futurological Congress",
+      "article_regimes": [
+        2
+      ],
+      "society_ids": [],
+      "comparison_ids": [
+        "c0013"
+      ],
+      "basis": "The book’s actual deprived society is type 2; chemical apparent luxury suggests type 1 only subjectively. It now qualifies substantively and remains in the supplementary scored schema rather than sharing a film poster."
+    },
+    {
+      "example": "The Congress (film)",
+      "article_regimes": [
+        2
+      ],
+      "society_ids": [
+        "congress-chemical-consumer-zero"
+      ],
+      "comparison_ids": [],
+      "basis": "The existing film card is a separate partial post-wage interpretation. The article names the novel; its detailed events are not transferred to this adaptation."
+    },
+    {
+      "example": "The Diamond Age",
+      "article_regimes": [
+        2
+      ],
+      "society_ids": [
+        "diamond-age-thetes-feed",
+        "diamondage-celestial-dependence-zero",
+        "diamondage-seed-projected-alternative"
+      ],
+      "comparison_ids": [],
+      "basis": "The article discusses competing patronage jurisdictions, not one universal economic constitution. Public-compiler beneficiaries remain type 1, dependent Celestial institutions type 2, and the modeled Seed alternative type 3; these are different populations and stages."
+    },
+    {
+      "example": "Noon Universe",
+      "article_regimes": [
+        3
+      ],
+      "society_ids": [
+        "noon-earth"
+      ],
+      "comparison_ids": [],
+      "basis": "Shared technological provision and continuing chosen work fit the article’s third regime."
+    },
+    {
+      "example": "Star Trek",
+      "article_regimes": [
+        3
+      ],
+      "society_ids": [
+        "star-trek-federation-core"
+      ],
+      "comparison_ids": [],
+      "basis": "The selected Federation core uses current article number 3; other governments and periods keep their own records."
+    },
+    {
+      "example": "Accelerando",
+      "article_regimes": [
+        4,
+        6
+      ],
+      "society_ids": [
+        "accelerando-early-human-transition",
+        "accelerando-economics-two-human-remnant",
+        "accelerando-saturn-free-basics"
+      ],
+      "comparison_ids": [],
+      "basis": "Early individual productive assets are type 4; autonomous inner-system exclusion is type 6; Saturn’s separately checked free basics are type 3."
+    },
+    {
+      "example": "The Evitable Conflict",
+      "article_regimes": [
+        5
+      ],
+      "society_ids": [
+        "evitable-conflict-earth"
+      ],
+      "comparison_ids": [],
+      "basis": "Autonomous protective economic administration fits type 5; continued work no longer forces the old zero flag."
+    },
+    {
+      "example": "Psycho-Pass",
+      "article_regimes": [
+        5
+      ],
+      "society_ids": [
+        "psychopass-sibyl-japan"
+      ],
+      "comparison_ids": [],
+      "basis": "Type 5 follows functional cybernetic autonomy. Sibyl’s human brains remain canonical, and type 1 is an explicit ontology/control alternative. Material provision does not cancel screening and exclusion."
+    },
+    {
+      "example": "The Star Diaries: Twenty-Fourth Voyage",
+      "article_regimes": [
+        5,
+        6
+      ],
+      "society_ids": [
+        "lem-indiots-private-automation",
+        "lem-indiots-governing-machine"
+      ],
+      "comparison_ids": [],
+      "basis": "The private-automation wage crisis is type 2. The equality machine is discussed in article section 5 as an intended solution, but its destructive realized outcome is type 6; victims do not become idle beneficiaries."
+    },
+    {
+      "example": "Detroit: Become Human",
+      "article_regimes": [
+        6
+      ],
+      "society_ids": [
+        "detroit-peaceful-autonomy-transition",
+        "detroit-armed-revolution-transition",
+        "detroit-before-revolution"
+      ],
+      "comparison_ids": [],
+      "basis": "Successful independent endings are type 6. The earlier commercial labor order remains type 0, and alternative CyberLife-controlled outcomes remain distinct."
+    },
+    {
+      "example": "Horizon",
+      "article_regimes": [
+        0,
+        6
+      ],
+      "society_ids": [
+        "horizon-tribal-gaia-ecology-zero"
+      ],
+      "comparison_ids": [],
+      "basis": "The actual tribal population remains type 0: autonomous machines do not supply its subsistence channel. The article’s type-6 scavenging alternative is conditional, not a realized ending."
+    },
+    {
+      "example": "BLAME!",
+      "article_regimes": [
+        6
+      ],
+      "society_ids": [
+        "blame-film-excluded-human-enclaves",
+        "blame-silicon-cyborg-factions"
+      ],
+      "comparison_ids": [],
+      "basis": "The manga’s human techno-scavenging example is type 6 in the article. Existing human card is explicitly the film’s excluded enclave; manga Silicon Life has a different population and type 2. The film card is not falsely labeled manga."
+    },
+    {
+      "example": "The Star Diaries: Eleventh Voyage",
+      "article_regimes": [
+        6
+      ],
+      "society_ids": [],
+      "comparison_ids": [
+        "c0077"
+      ],
+      "basis": "Factual exception: the checked primary ending reveals a human intelligence-service operation and a clerk inside the Calculator. Article type 6 applies to the presented facade, not a verified independent robot state; the actual comparison is a zero-variant best guess."
+    },
+    {
+      "example": "RoboCop",
+      "article_regimes": [
+        1,
+        2
+      ],
+      "society_ids": [],
+      "comparison_ids": [],
+      "basis": "Article-only analogy for elite-controlled technical repression. No full research card exists in the frozen corpus; the article’s claimed abolition of all guarantees is not silently promoted to verified lore."
+    },
+    {
+      "example": "Samosbor",
+      "article_regimes": [
+        6
+      ],
+      "society_ids": [],
+      "comparison_ids": [],
+      "basis": "Article-only loose techno-scavenging comparison. There is no single verified unified continuity or ready research card in this corpus."
+    }
+  ],
+  "internal_article_notes": [
+    "Section 3 calls Norway’s resource fund closest to the fourth regime. A common nonalienable share with guarantees corresponds to type 3 in the section’s own matrix; individual alienable assets without a floor correspond to type 4. This is an internal ambiguity, not a fictional society record.",
+    "Article examples are conceptual readings, not a replacement for primary canon. Preserve explicit contradictions and adaptation boundaries.",
+    "This registry records coverage honestly; article-only analogies are not counted as completed 890-record research cards."
+  ]
+}

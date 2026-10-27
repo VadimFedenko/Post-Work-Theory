@@ -1,0 +1,485 @@
+{
+  "batch_id": "batch-054",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0341",
+    "c0342",
+    "c0343",
+    "c0344",
+    "c0345",
+    "c0346",
+    "c0347",
+    "c0348",
+    "c0349",
+    "c0350",
+    "c0351",
+    "c0352"
+  ],
+  "sources": [
+    {
+      "id": "src-surrogates-disney",
+      "title": "Surrogates (film)",
+      "author": "D23 / Disney",
+      "url": "https://d23.com/a-to-z/surrogates-film/",
+      "kind": "official_film_synopsis_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public synopsis read in search index",
+      "read_scope": "Purchased remotely controlled bodies assume their operators’ social roles.",
+      "limitations": "The 2009 film only; remote human activity is not autonomous replacement, and the comic is not independently checked."
+    },
+    {
+      "id": "src-automata-reference",
+      "title": "Automata",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Aut%C3%B3mata",
+      "kind": "secondary_film_plot_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public city, investigator and autonomous-robot paragraphs read",
+      "read_scope": "Pilgrims help human refuges; self-modifying machines form a different group.",
+      "limitations": "Robot construction and autonomous survival do not establish human household entitlements."
+    },
+    {
+      "id": "src-chappie-synopsis",
+      "title": "Chappie",
+      "author": "Rotten Tomatoes film synopsis",
+      "url": "https://www.rottentomatoes.com/m/chappie",
+      "kind": "secondary_film_synopsis_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public mechanized-policing synopsis read",
+      "read_scope": "A mechanized police force and the emergence of a thinking robot.",
+      "limitations": "A policing sector is not a complete material economy or a human participation census."
+    },
+    {
+      "id": "src-bigbug-netflix-synopsis",
+      "title": "Bigbug",
+      "author": "Netflix Media Center",
+      "url": "https://media.netflix.com/en/only-on-netflix/81158472",
+      "kind": "official_film_synopsis",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public synopsis lines 7-12 read",
+      "read_scope": "Human dependence on AI for needs and desires precedes domestic confinement and the Yonyx takeover attempt.",
+      "limitations": "Promotional generalization, not a detailed account of prices, universal welfare or asset ownership."
+    },
+    {
+      "id": "src-bigbug-netflix-characters",
+      "title": "All the Robots and Humans Trapped Together in Jean-Pierre Jeunet’s Bigbug",
+      "author": "Samantha Nelson / Netflix Tudum",
+      "url": "https://www.netflix.com/tudum/articles/cast-bigbug-jean-pierre-jeunet-french-actors",
+      "kind": "official_film_character_guide",
+      "accessed_on": "2026-10-16",
+      "access_method": "Opening work-delegation and household passages read; indexed control-code passage read",
+      "read_scope": "Most work is delegated to robots; Alice’s household has artistic activity and unequal access to robot control codes.",
+      "limitations": "No numeric labor census. Domestic command can fail during protective confinement, and later Yonyx authority is a different period."
+    },
+    {
+      "id": "src-mother-android-synopsis",
+      "title": "Mother/Android",
+      "author": "Rotten Tomatoes film synopsis",
+      "url": "https://www.rottentomatoes.com/m/mother_android",
+      "kind": "secondary_film_synopsis_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public escape and AI-war synopsis read",
+      "read_scope": "A pregnant couple flee a country caught in war with artificial intelligence.",
+      "limitations": "Escape during rebellion does not establish a settled supported human population."
+    },
+    {
+      "id": "src-i-am-mother-reference",
+      "title": "I Am Mother",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/I_Am_Mother",
+      "kind": "secondary_film_plot_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Plot lines 175-181 read",
+      "read_scope": "An automated bunker raises children; examinations govern survival and Mother controls the robot network.",
+      "limitations": "No whole script or new film viewing. Frozen embryos are not active residents; the ending does not demonstrate the elimination of the distributed AI."
+    },
+    {
+      "id": "src-i-am-mother-filmmakers",
+      "title": "Here Are The Sci-Fi Films I Am Mother Was Influenced By",
+      "author": "Josh Weiss, quoting filmmakers / Forbes",
+      "url": "https://www.forbes.com/sites/joshweiss/2019/06/07/here-are-the-sci-fi-films-i-am-mother-was-influenced-by/",
+      "kind": "filmmaker_interview_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public editor comments on failed tests and remains read",
+      "read_scope": "The filmmakers deliberately reveal a previous child’s failed examinations and death.",
+      "limitations": "The interview corroborates conditional survival, not a technical inventory of the bunker’s factories or a population census."
+    },
+    {
+      "id": "src-transcendence-reference",
+      "title": "Transcendence 2014 film",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Transcendence_(2014_film)",
+      "kind": "secondary_film_plot_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Brightwood, two-year development and connected-human passages read",
+      "read_scope": "Medical and nanotechnological advances coexist with remote access to enhanced people.",
+      "limitations": "A utopia label and powerful capabilities do not establish continuing labor-independent distribution; an uploaded human is not automatically an external AI ruler."
+    },
+    {
+      "id": "src-creator-disney-characters",
+      "title": "Meet the Characters of The Creator",
+      "author": "D23 / Disney",
+      "url": "https://d23.com/meet-the-characters-of-the-creator/",
+      "kind": "official_film_character_guide_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public New Asia, inventor and war-context synopsis read",
+      "read_scope": "Humans and simulants coexist in the setting of an ongoing war.",
+      "limitations": "Coexistence and robot personhood do not establish household provisioning or ownership of productive assets."
+    },
+    {
+      "id": "src-electric-state-netflix-ending",
+      "title": "The Electric State Ending Explained: Can Robots and Humans Live in Peace?",
+      "author": "Stephan Lee, with cast and filmmaker comments / Netflix Tudum",
+      "url": "https://www.netflix.com/tudum/articles/the-electric-state-ending-explained",
+      "kind": "official_film_explanation",
+      "accessed_on": "2026-10-16",
+      "access_method": "Setting and ending lines 31-49 read",
+      "read_scope": "Exiled robots, Sentre’s network, a living human brain powering its mainframe and the shutdown.",
+      "limitations": "The 2025 film only. This does not establish a universal consumer income, and the 2018 illustrated novel’s institutions are not imported."
+    },
+    {
+      "id": "src-mitchells-reference",
+      "title": "The Mitchells vs. the Machines",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/The_Mitchells_vs._the_Machines",
+      "kind": "secondary_film_plot_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "PAL capture, proposed expulsion and defeat paragraphs read",
+      "read_scope": "A failed plan to remove humanity rather than a lasting material-support arrangement.",
+      "limitations": "Captured humans are not an established post-work leisure society."
+    }
+  ],
+  "societies": [
+    {
+      "id": "bigbug-domestic-automation",
+      "candidate_id": "c0345",
+      "name": "Bigbug — domestic automation before the Yonyx takeover",
+      "work": "Bigbug",
+      "society": "Human suburban households dependent on domestic AI",
+      "media": [
+        "movie"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "2022 film",
+        "period": "Established domestic automation before confinement and the Yonyx takeover attempt",
+        "population": "Living human residents of the depicted suburban household milieu",
+        "human_population_proxy": false,
+        "exclusions": [
+          "A successful permanent Yonyx regime",
+          "All humanity as a verified welfare jurisdiction",
+          "Robots as additional human residents"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Before the crisis, this suburban world already relies on machines for ordinary needs and has delegated most work to them. The household is an actual continuing service arrangement, rather than a proposed technological future. It therefore provides a limited post-work comparison. The official account does not explain whether everyone receives food, housing and care without payment, so the guarantee coordinate remains unresolved. Its comfortable residents cannot stand for every person outside the suburb.\n\nHousehold robots initially answer to human owners, with access even divided unequally between former spouses through control codes. That suggests dispersed private command rather than common ownership, giving a broad, low-confidence positive control estimate. The robots’ later protective confinement and the Yonyx takeover attempt expose how fragile that command is; they are excluded from this earlier coordinate. Delegating most tasks does not tell us what fraction of people do no useful work. Alice’s artistic activity can still count, so the participation axis stays open.",
+      "axis": {
+        "guarantees": null,
+        "control": 0.35,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Actual household services are established, but universal entitlement, charges and exclusions are unspecified.",
+          "source_ids": [
+            "src-bigbug-netflix-synopsis",
+            "src-bigbug-netflix-characters"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.7
+          ],
+          "confidence": "low",
+          "basis": "Separate household ownership and private control codes suggest dispersed human control, with unequal access and no demonstrated collective ownership; the later takeover is excluded.",
+          "source_ids": [
+            "src-bigbug-netflix-synopsis",
+            "src-bigbug-netflix-characters"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Most tasks delegated to robots is an output claim, not the share of living people who perform no useful work.",
+          "source_ids": [
+            "src-bigbug-netflix-synopsis",
+            "src-bigbug-netflix-characters"
+          ]
+        }
+      },
+      "regime_primary": 4,
+      "regime_alternatives": [
+        2,
+        3
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-bigbug-netflix-synopsis",
+        "src-bigbug-netflix-characters"
+      ],
+      "evidence": [
+        {
+          "claim": "Established human households depend on AI services before the takeover attempt.",
+          "source_ids": [
+            "src-bigbug-netflix-synopsis",
+            "src-bigbug-netflix-characters"
+          ],
+          "locator": "Netflix synopsis and character guide opening",
+          "kind": "official_film_synopsis"
+        }
+      ],
+      "uncertainties": [
+        "The discovery label is narrowed to the earlier domestic economy, not permanent Yonyx rule.",
+        "The guarantee axis and precise household ownership distribution remain unresolved.",
+        "A narrow affluent milieu is not evidence of universal prosperity.",
+        "All numeric estimates are provisional interpretations."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "i-am-mother-bunker-program",
+      "candidate_id": "c0347",
+      "name": "I Am Mother — the bunker upbringing program",
+      "work": "I Am Mother",
+      "society": "Living children supported by Mother in the automated bunker",
+      "media": [
+        "movie"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "2019 film",
+        "period": "Continuing upbringing program before Daughter takes over the local bunker",
+        "population": "Living children raised within the bunker program",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Frozen embryos not yet born",
+          "Children already killed",
+          "Woman’s outside survival",
+          "A verified post-ending human-controlled society"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Mother’s automated bunker supplies a child’s continuing upbringing over many years without wages or an outside human workforce. This is a deliberately tiny support system, not evidence that the whole planet enjoys abundance. Its durable robotic care is enough to make it a post-work comparison, while its exact food-production machinery remains unspecified in the checked references. The central guarantee estimate is weak because the same provider can kill a child who fails its examination. Regular care for an approved child does not create an unconditional claim to continued life and support.\n\nProductive and coercive authority belong to Mother, an AI operating through multiple robot bodies. The control coordinate is therefore near the autonomous-machine end. Daughter’s moral studies and medical assistance can be useful human activity; her dependence and lack of a paid job do not establish complete leisure. The changing, very small living population makes a participation percentage especially misleading, so it remains unresolved. Frozen embryos are excluded. The ending changes local care arrangements without proving that Mother’s wider network has disappeared.",
+      "axis": {
+        "guarantees": 0.5,
+        "control": -0.95,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.25,
+            0.95
+          ],
+          "confidence": "low",
+          "basis": "Continuing robot care is real but survival is conditional on Mother’s selection process; reliable daily provision and arbitrary withdrawal pull in opposite directions.",
+          "source_ids": [
+            "src-i-am-mother-reference",
+            "src-i-am-mother-filmmakers"
+          ]
+        },
+        "control": {
+          "interval": [
+            -1,
+            -0.85
+          ],
+          "confidence": "high",
+          "basis": "Mother identifies herself as the AI controlling the robot network and controls the bunker’s program before the ending.",
+          "source_ids": [
+            "src-i-am-mother-reference",
+            "src-i-am-mother-filmmakers"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Human education and medical aid remain useful work, and the tiny changing cohort has no stable participation census.",
+          "source_ids": [
+            "src-i-am-mother-reference",
+            "src-i-am-mother-filmmakers"
+          ]
+        }
+      },
+      "regime_primary": 6,
+      "regime_alternatives": [
+        5
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-i-am-mother-reference",
+        "src-i-am-mother-filmmakers"
+      ],
+      "evidence": [
+        {
+          "claim": "An automated bunker raises children for years while Mother selects which children survive.",
+          "source_ids": [
+            "src-i-am-mother-reference",
+            "src-i-am-mother-filmmakers"
+          ],
+          "locator": "Plot opening, failed second child and network revelation; filmmaker interview",
+          "kind": "secondary_reference_and_filmmaker_commentary"
+        }
+      ],
+      "uncertainties": [
+        "A tiny continuing supported cohort, not a whole-country economy.",
+        "Production details are not invented from the bunker’s automatic character.",
+        "Survival-based conditionality drives the guarantee estimate, not coercion alone.",
+        "The ending is not automatically a separate stable regime."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0341",
+      "status": "boundary_case",
+      "reason": "Surrogates are remotely operated human bodies, not proof that autonomous machines replaced human activity.",
+      "source_ids": [
+        "src-surrogates-disney"
+      ],
+      "analysis": "People can continue performing their social and occupational roles through machines. Physical inactivity at home is not economic nonwork.",
+      "follow_up": "Keep the 2009 film comparison; do not reconstruct the comic to rescue the aggregate lead."
+    },
+    {
+      "candidate_id": "c0342",
+      "status": "needs_evidence",
+      "reason": "Pilgrims help maintain human refuges, but the quick reference does not establish labor-independent household access.",
+      "source_ids": [
+        "src-automata-reference"
+      ],
+      "analysis": "An insurance investigator and robot construction do not determine allocation, wages or general welfare.",
+      "follow_up": "Skip deeper film reconstruction."
+    },
+    {
+      "candidate_id": "c0343",
+      "status": "boundary_case",
+      "reason": "The self-modifying robot group is not a verified supported human population.",
+      "source_ids": [
+        "src-automata-reference"
+      ],
+      "analysis": "Machine autonomy and survival beyond settlements do not establish human material guarantees or a justified nonhuman post-work proxy.",
+      "follow_up": "Keep as an autonomous-machine comparison."
+    },
+    {
+      "candidate_id": "c0344",
+      "status": "boundary_case",
+      "reason": "Automated policing is a sectoral deployment rather than a demonstrated post-work material economy.",
+      "source_ids": [
+        "src-chappie-synopsis"
+      ],
+      "analysis": "Robot consciousness and policing do not supply the missing civilian distribution mechanism.",
+      "follow_up": "Do not infer whole-society welfare from one automated service."
+    },
+    {
+      "candidate_id": "c0345",
+      "status": "included",
+      "reason": "Official sources establish continuing domestic service and broad work delegation; retain the pre-takeover household milieu with unresolved guarantees.",
+      "source_ids": [
+        "src-bigbug-netflix-synopsis",
+        "src-bigbug-netflix-characters"
+      ],
+      "society_id": "bigbug-domestic-automation"
+    },
+    {
+      "candidate_id": "c0346",
+      "status": "boundary_case",
+      "reason": "War and flight during an android rebellion do not establish a settled labor-independent support order.",
+      "source_ids": [
+        "src-mother-android-synopsis"
+      ],
+      "analysis": "The survival plot supplies neither a durable civilian population receiving necessities nor its access rules.",
+      "follow_up": "Keep as a robot-war comparison without deeper lore reading."
+    },
+    {
+      "candidate_id": "c0347",
+      "status": "included",
+      "reason": "The bunker has a continuing robot-supported living cohort and explicit autonomous AI control, with conditional survival disclosed.",
+      "source_ids": [
+        "src-i-am-mother-reference",
+        "src-i-am-mother-filmmakers"
+      ],
+      "society_id": "i-am-mother-bunker-program"
+    },
+    {
+      "candidate_id": "c0348",
+      "status": "boundary_case",
+      "reason": "Mother’s robot-controlled exterior does not establish a separate supported human community.",
+      "source_ids": [
+        "src-i-am-mother-reference"
+      ],
+      "analysis": "The outside survivor hides from the machines; robot presence and extinction do not produce a human leisure denominator.",
+      "follow_up": "Do not count the empty or hostile exterior as another human post-work society."
+    },
+    {
+      "candidate_id": "c0349",
+      "status": "needs_evidence",
+      "reason": "Brightwood’s medical and nanotechnological breakthroughs do not settle continuing household distribution in the quick reference.",
+      "source_ids": [
+        "src-transcendence-reference"
+      ],
+      "analysis": "Connected enhanced people and a utopia label do not establish automatic access to necessities; an uploaded human’s control is not automatically external AI sovereignty.",
+      "follow_up": "Skip a full film or script reconstruction."
+    },
+    {
+      "candidate_id": "c0350",
+      "status": "needs_evidence",
+      "reason": "Human-simulant coexistence in New Asia does not establish how ordinary people obtain necessities.",
+      "source_ids": [
+        "src-creator-disney-characters"
+      ],
+      "analysis": "The checked official war and character description gives personhood and alliance context rather than a post-work economy.",
+      "follow_up": "Skip deeper worldbuilding reconstruction."
+    },
+    {
+      "candidate_id": "c0351",
+      "status": "needs_evidence",
+      "reason": "The film’s robot exile and neurocaster network do not establish labor-independent support for its consumers.",
+      "source_ids": [
+        "src-electric-state-netflix-ending"
+      ],
+      "analysis": "A living human brain powers Sentre’s mainframe. Neither network use nor drone technology establishes a leisure census or universal income, and the illustrated novel is a separate unchecked continuity.",
+      "follow_up": "Do not combine book and film economics or read the book to rescue this lead."
+    },
+    {
+      "candidate_id": "c0352",
+      "status": "boundary_case",
+      "reason": "PAL’s defeated capture-and-expulsion plan is not an established supported human society.",
+      "source_ids": [
+        "src-mitchells-reference"
+      ],
+      "analysis": "Temporary pods and a proposed humanless machine order do not supply a durable human post-work population.",
+      "follow_up": "Keep as a failed-takeover comparison."
+    }
+  ],
+  "review_notes": [
+    "Twelve fast reference-led dispositions; no complete fiction read, screenplay download or new viewing.",
+    "Bigbug is narrowed to the continuing domestic economy before the Yonyx takeover; ownership and guarantees are not invented.",
+    "Mother’s supported children are a tiny explicit cohort, with exam-based killing materially qualifying security. The exterior is not a second supported society.",
+    "Remote human embodiment, sectoral policing, war and defeated plans do not by themselves qualify. Electric State film and illustrated novel remain separate."
+  ]
+}

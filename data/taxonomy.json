@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.1",
+  "taxonomy_version": "article-2026-10-21",
+  "article": {
+    "path": "article.txt",
+    "sha256": "81a83c337be44c35b6b016768c8706b9e02a6ca20b97d17ef2013ddb90ce21f6",
+    "definition_lines": [
+      55,
+      57
+    ]
+  },
+  "definition": "Automation or equivalent technology makes labor earnings cease to be the main effective distribution channel for the scoped population. Continuing useful activity does not imply a zero variant.",
+  "zero_variant_rule": "The technology-driven post-wage transition has not occurred, is deliberately restrained, or remains an uncertain earnings-based best guess. No threshold of nonworking determines this flag.",
+  "regimes": [
+    {
+      "id": 0,
+      "label": "Zero variant",
+      "control": null,
+      "guarantees": null
+    },
+    {
+      "id": 1,
+      "label": "Elite control with guarantees",
+      "control": "concentrated_human",
+      "guarantees": "strong"
+    },
+    {
+      "id": 2,
+      "label": "Elite control without guarantees",
+      "control": "concentrated_human",
+      "guarantees": "weak"
+    },
+    {
+      "id": 3,
+      "label": "Distributed control with guarantees",
+      "control": "distributed_human",
+      "guarantees": "strong"
+    },
+    {
+      "id": 4,
+      "label": "Distributed or personal assets without guarantees",
+      "control": "distributed_human",
+      "guarantees": "weak"
+    },
+    {
+      "id": 5,
+      "label": "Autonomous system with guarantees",
+      "control": "autonomous_system",
+      "guarantees": "strong"
+    },
+    {
+      "id": 6,
+      "label": "Autonomous system without guarantees",
+      "control": "autonomous_system",
+      "guarantees": "weak"
+    }
+  ],
+  "historical_number_mapping": {
+    "0": 0,
+    "1": 1,
+    "2": 3,
+    "3": 2,
+    "4": 4,
+    "5": 5,
+    "6": 6
+  },
+  "manual_codes": {
+    "c": {
+      "record_type": "post_work",
+      "production_dependence": "reduced",
+      "wage_dependence": "secondary",
+      "allocation": "commons",
+      "basis": "Shared or freely accessible technological provision, rather than current earnings, is the central distribution model."
+    },
+    "s": {
+      "record_type": "post_work",
+      "production_dependence": "mixed_or_reduced",
+      "wage_dependence": "secondary",
+      "allocation": "status_or_institutional_allocation",
+      "basis": "Technological support is allocated through membership, status or institutional authority rather than primarily purchased with current wages."
+    },
+    "r": {
+      "record_type": "post_work",
+      "production_dependence": "reduced",
+      "wage_dependence": "secondary",
+      "allocation": "productive_assets_or_capital",
+      "basis": "Access to productive assets or accumulated capital is the central claim on technological output; this need not provide a universal floor."
+    },
+    "a": {
+      "record_type": "post_work",
+      "production_dependence": "reduced",
+      "wage_dependence": "secondary",
+      "allocation": "autonomous_system_allocation",
+      "basis": "An independent technical system sustains or allocates the material environment; current wages are not its primary access rule."
+    },
+    "x": {
+      "record_type": "post_work",
+      "production_dependence": "reduced",
+      "wage_dependence": "structurally_displaced_without_replacement",
+      "allocation": "exclusion_or_informal_survival",
+      "basis": "Automation has substantially displaced the wage channel for the selected population without establishing a secure replacement; this is a dystopian post-wage interpretation."
+    },
+    "m": {
+      "record_type": "post_work",
+      "production_dependence": "mixed",
+      "wage_dependence": "mixed_transition",
+      "allocation": "mixed_nonwage_transition",
+      "basis": "A partial technological transition plausibly makes nonwage access central for this scoped population, while important work and market dependencies remain."
+    },
+    "w": {
+      "record_type": "zero_variant",
+      "production_dependence": "mixed",
+      "wage_dependence": "primary",
+      "allocation": "wages_and_commercial_access",
+      "basis": "The selected economy still primarily links material access to earnings and commercial purchases despite labor-saving technology."
+    },
+    "l": {
+      "record_type": "zero_variant",
+      "production_dependence": "mixed",
+      "wage_dependence": "work_conditioned",
+      "allocation": "work_conditioned_earning_or_maintenance",
+      "basis": "Continued service or productive work remains the main condition of earning access or maintenance; supporting a workforce alone does not establish a post-wage economy."
+    },
+    "t": {
+      "record_type": "zero_variant",
+      "production_dependence": "high_or_deliberately_retained",
+      "wage_dependence": "retained_or_not_replaced",
+      "allocation": "restraint_or_restricted_automation",
+      "basis": "Relevant automation is restrained, unavailable or deliberately limited, so the selected population has not made the technology-driven post-wage transition."
+    },
+    "h": {
+      "record_type": "zero_variant",
+      "production_dependence": "high",
+      "wage_dependence": "not_replaced_by_automation",
+      "allocation": "essential_person_labor",
+      "basis": "Essential labor by actual persons remains central without sufficient technological substitution; communal sharing, biological origin or robot embodiment alone does not establish the transition."
+    },
+    "u": {
+      "record_type": "zero_variant",
+      "production_dependence": "uncertain",
+      "wage_dependence": "uncertain_primary_best_guess",
+      "allocation": "uncertain_earnings_based_access",
+      "basis": "The saved account does not establish a central nonwage material channel; the retained best guess is a continuing earnings-based technical economy, with low confidence."
+    }
+  },
+  "confidence": "All new allocation judgments are low-confidence editorial best guesses from existing scoped evidence, not production-share measurements.",
+  "legacy_fields": "legacy_classification records historical numbers, not current taxonomy; immutable historical batches retain their original numbering."
+}

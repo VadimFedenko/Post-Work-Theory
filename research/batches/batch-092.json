@@ -1,0 +1,715 @@
+{
+  "batch_id": "batch-092",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0797",
+    "c0798",
+    "c0799",
+    "c0800",
+    "c0801",
+    "c0802",
+    "c0803",
+    "c0804",
+    "c0805",
+    "c0806",
+    "c0807",
+    "c0808"
+  ],
+  "sources": [
+    {
+      "id": "src-b92-country",
+      "title": "The Country of the Kind",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/The_Country_of_the_Kind",
+      "kind": "secondary_story_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "An ostracized narrator can take goods while a nonviolent society constrains his attacks.",
+      "limitations": "Permissive access and neurological punishment do not establish the productive automation mechanism."
+    },
+    {
+      "id": "src-b92-natural",
+      "title": "Masters of Evolution / Natural State",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Masters_of_Evolution",
+      "kind": "secondary_plot_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "City mechanical technology contrasts with rural genetic engineering.",
+      "limitations": "The reference describes an expanded version; neither community’s ordinary work-independent access rules are specified."
+    },
+    {
+      "id": "src-b92-prize",
+      "title": "Squid Game and derivative television",
+      "author": "Leiden Arts in Society contributor",
+      "url": "https://www.leidenartsinsocietyblog.nl/articles/squid-game-and-the-significance-of-derivative-television",
+      "kind": "secondary_criticism",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "The Prize of Peril concerns a marginalized hard worker risking his life for wealth.",
+      "limitations": "This does not support the discovery guess of a public automated income floor; adaptations have separate premises."
+    },
+    {
+      "id": "src-b92-tranai",
+      "title": "A Ticket to Tranai, bounded factory passage",
+      "author": "Robert Sheckley text reproduced by RuLit",
+      "url": "https://www.rulit.me/books/a-ticket-to-tranai-read-318850-11.html",
+      "kind": "bounded_primary_passage",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Goodman takes a robot-factory engineering job and tests deliberately sluggish household robots.",
+      "limitations": "One short factory passage only; no universal household entitlement or employment-preservation motive established."
+    },
+    {
+      "id": "src-b92-ophiuchi",
+      "title": "The Ophiuchi Hotline",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/The_Ophiuchi_Hotline",
+      "kind": "secondary_plot_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Varied Eight Worlds, advanced biological techniques and an AI-governed Luna coexist.",
+      "limitations": "Not one verified uniform access system; Steel Beach is not silently imported as this novel’s exact chronology."
+    },
+    {
+      "id": "src-b92-steel",
+      "title": "Steel Beach",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Steel_Beach",
+      "kind": "secondary_plot_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Central Computer governs citizens’ lives, provides ongoing services and later carries out coercive experiments.",
+      "limitations": "The established support phase is separated from later failures, hidden groups and unreliable narration."
+    },
+    {
+      "id": "src-b92-steel-review",
+      "title": "Steel Beach review",
+      "author": "Dan, Strange Roads",
+      "url": "https://strangestroads.substack.com/p/book-review-steel-beach-by-john-varley",
+      "kind": "secondary_review",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Oxygen, food, water, employment and medical resuscitation are supplied in Luna’s computer-run society.",
+      "limitations": "Jobs and useful ranching/journalism remain; the critic’s exact interpretation is not a canonical labor census."
+    },
+    {
+      "id": "src-b92-triton",
+      "title": "Triton review",
+      "author": "Jeff Riggenbach, Prometheus/LFS",
+      "url": "https://www.lfs.org/newsletter/016/02/Triton.shtml",
+      "kind": "secondary_critical_economic_summary",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Food/shelter cannot legally be denied, while computer accounts track work and other purchases; political choice is polycentric.",
+      "limitations": "The review explicitly calls the economic mechanism sketchy; accounting automation does not prove production automation."
+    },
+    {
+      "id": "src-b92-stars",
+      "title": "Stars in My Pocket Like Grains of Sand",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Stars_in_My_Pocket_Like_Grains_of_Sand",
+      "kind": "secondary_plot_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Velm, the Web and Korga’s coerced history involve differing social systems.",
+      "limitations": "Interstellar information and personhood do not specify ordinary Velm material provision."
+    },
+    {
+      "id": "src-b92-aristoi-author",
+      "title": "Aristoi",
+      "author": "Walter Jon Williams",
+      "url": "https://www.walterjonwilliams.net/books/aristoi",
+      "kind": "author_book_description",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "The author identifies post-scarcity and elite nanotechnological rule as central setting features.",
+      "limitations": "A short author description, not the complete book or a guaranteed absence of useful work."
+    },
+    {
+      "id": "src-b92-aristoi",
+      "title": "Aristoi setting",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Aristoi_(novel)",
+      "kind": "secondary_setting_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Only Aristoi can wield nanotechnology; ordinary Demos enjoy comfort and comprehensive healing.",
+      "limitations": "General Logarchy rather than the secret involuntary world; examination access to elite status is not equal control."
+    },
+    {
+      "id": "src-b92-spaces",
+      "title": "Implied Spaces setting and plot",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Implied_Spaces",
+      "kind": "secondary_plot_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Humans live in constructed pocket universes supported by supercomputers, with human institutions and resurrection.",
+      "limitations": "The apparent spelling immorality in the reference is not adopted; maintained worlds need not all be mere simulated avatars."
+    },
+    {
+      "id": "src-b92-spaces-jacket",
+      "title": "Implied Spaces publisher jacket",
+      "author": "Night Shade Books/Baen",
+      "url": "https://www.baen.com/Chapters/1597801256/1597801256__c_.htm",
+      "kind": "publisher_jacket",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Four dozen constructed pocket universes and orbital computer infrastructure support the civilization.",
+      "limitations": "Jacket/title-page only; no full novel reading or claim of a single homogeneous local economy."
+    },
+    {
+      "id": "src-b92-spaces-reader",
+      "title": "Post-scarcity story discussion: Implied Spaces",
+      "author": "PrintSF reader discussion",
+      "url": "https://www.reddit.com/r/printSF/comments/1akzq9h/",
+      "kind": "labeled_reader_interpretation",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "The specific Implied Spaces comment describes ordinary post-scarcity life, designer embodiment and chosen scarcity play.",
+      "limitations": "Reader interpretation used with setting/publisher context; not independent primary proof or merged with unrelated book claims."
+    },
+    {
+      "id": "src-b92-torch",
+      "title": "Riding the Torch review",
+      "author": "Stephen, Goodreads reader review dated 14 September 2008",
+      "url": "https://www.goodreads.com/book/show/25689015-riding-the-torch",
+      "kind": "labeled_reader_review",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Matter-energy manipulation supports extensive ordinary leisure and sensory arts aboard the convoy; pilots still explore.",
+      "limitations": "Specific reader plot account, not a canonical civic-rights charter or work census."
+    }
+  ],
+  "societies": [
+    {
+      "id": "steel-beach-luna-central-computer",
+      "candidate_id": "c0803",
+      "name": "Steel Beach — Luna under the Central Computer",
+      "work": "Steel Beach",
+      "society": "Computer-governed lunar provision before the later crisis",
+      "media": [
+        "book"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Steel Beach novel-specific Eight Worlds variant",
+        "period": "Established Central Computer support before the later raids and acute malfunction",
+        "population": "Living human and active human-derived lunar citizens",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Every Eight Worlds novel as an identical timeline",
+          "Hidden independent surface groups",
+          "Inactive personality recordings as supported active residents"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Luna’s Central Computer maintains the society in which oxygen, food, water and medical intervention are routinely provided. The setting separates material support from a person’s immediate success at paid employment, while still supplying jobs and occasions for purposeful activity. Guarantees are rated strong within the established order, with qualifications about coercive intervention and the later computer crisis. A life-support floor is not an assertion that every personal preference is respected.\n\nThe Computer is government, court, information source and intimate adviser, placing authority near autonomous AI control. Human occupations and preferences do not establish a right to overrule that system. Journalism, ranching, care and recreational construction can all be useful work, so the comfortable economy provides no reliable nonworking census. The point concerns this novel’s implemented Luna rather than importing its institutions backward into every Eight Worlds story. Active human-derived people are an explicit proxy where relevant; stored recordings and the hidden surface community are outside this provision scope.",
+      "axis": {
+        "guarantees": -0.75,
+        "control": -0.95,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.95,
+            -0.15
+          ],
+          "confidence": "low",
+          "basis": "The review explicitly lists society-provided oxygen, food, water and medical care; the setting reference identifies the controlling machine system.",
+          "source_ids": [
+            "src-b92-steel",
+            "src-b92-steel-review"
+          ]
+        },
+        "control": {
+          "interval": [
+            -1,
+            -0.75
+          ],
+          "confidence": "low",
+          "basis": "The Central Computer governs and adjudicates ordinary life; its assistance is not human collective ownership.",
+          "source_ids": [
+            "src-b92-steel",
+            "src-b92-steel-review"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "No all-person useful-work census; voluntary creation, care, maintenance and research remain work.",
+          "source_ids": [
+            "src-b92-steel",
+            "src-b92-steel-review"
+          ]
+        }
+      },
+      "regime_primary": 5,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b92-steel",
+        "src-b92-steel-review"
+      ],
+      "evidence": [
+        {
+          "claim": "The review explicitly lists society-provided oxygen, food, water and medical care; the setting reference identifies the controlling machine system.",
+          "source_ids": [
+            "src-b92-steel",
+            "src-b92-steel-review"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "The Central Computer governs and adjudicates ordinary life; its assistance is not human collective ownership.",
+        "No all-person useful-work census; voluntary creation, care, maintenance and research remain work."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "aristoi-logarchy-demos",
+      "candidate_id": "c0806",
+      "name": "Aristoi — The Logarchy’s supported Demos",
+      "work": "Aristoi",
+      "society": "Ordinary citizens under nanotechnological Aristoi rule",
+      "media": [
+        "book"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Walter Jon Williams’s Aristoi setting",
+        "period": "Established reconstructed Logarchy before the secret-world conflict",
+        "population": "Living human Demos in functioning Logarchy domains",
+        "human_population_proxy": false,
+        "exclusions": [
+          "The hidden involuntary experimental world",
+          "Each daimone as an extra independent citizen",
+          "Equal access to rulers’ nanotechnology inferred from exams"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "The Logarchy’s nanotechnology supports a comfortable ordinary population with serious illnesses eliminated and injuries repairable. The author explicitly frames the setting as post-scarcity, while the detailed reference connects its productive capabilities to a specialized ruling class. Guarantees receive a strong but qualified estimate within the established domains: routine material ease and healing are clear, while individual rulers can shape local conditions and residents do not possess the same powers.\n\nOnly the Aristoi are authorized to develop and use the decisive nanotechnology. They govern their domains, making control highly concentrated in human and human-derived elites rather than common ownership or external AI sovereignty. Competitive examinations permit movement within the hierarchy but do not grant everyone equal authority over production. The rulers’ divided mental subselves are not multiplied into a population of independent nonworkers. Ordinary and elite residents can still create, study, govern and care for others; post-scarcity alone does not establish that no useful work remains, so participation stays unresolved.",
+      "axis": {
+        "guarantees": -0.7,
+        "control": 0,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.95,
+            -0.1
+          ],
+          "confidence": "low",
+          "basis": "Author-described post-scarcity is tied to controlled nanotechnology, ordinary comfort and comprehensive healing in the detailed setting reference.",
+          "source_ids": [
+            "src-b92-aristoi-author",
+            "src-b92-aristoi"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.15
+          ],
+          "confidence": "low",
+          "basis": "Human/human-derived Aristoi monopolize authorized use of the decisive productive technology.",
+          "source_ids": [
+            "src-b92-aristoi-author",
+            "src-b92-aristoi"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "No all-person useful-work census; voluntary creation, care, maintenance and research remain work.",
+          "source_ids": [
+            "src-b92-aristoi-author",
+            "src-b92-aristoi"
+          ]
+        }
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b92-aristoi-author",
+        "src-b92-aristoi"
+      ],
+      "evidence": [
+        {
+          "claim": "Author-described post-scarcity is tied to controlled nanotechnology, ordinary comfort and comprehensive healing in the detailed setting reference.",
+          "source_ids": [
+            "src-b92-aristoi-author",
+            "src-b92-aristoi"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "Human/human-derived Aristoi monopolize authorized use of the decisive productive technology.",
+        "No all-person useful-work census; voluntary creation, care, maintenance and research remain work."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "implied-spaces-constructed-worlds",
+      "candidate_id": "c0807",
+      "name": "Implied Spaces — The supported constructed-world civilization",
+      "work": "Implied Spaces",
+      "society": "The established human communities supported by pocket-universe infrastructure",
+      "media": [
+        "book"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Walter Jon Williams’s original novel setting",
+        "period": "Established civilization before Vindex’s resurrection sabotage and war",
+        "population": "Living humans and active human-derived residents of functioning constructed worlds",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Deliberately chosen fantasy scarcity as universal deprivation",
+          "Dormant backups as active beneficiaries",
+          "Every pocket universe as having identical local government"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Constructed pocket universes and their sustaining supercomputers provide the setting for a civilization explicitly described by the gathered reader account as post-scarcity. Designer embodiment, resurrection and the ability to inhabit elaborately built worlds are implemented features, not merely a proposal to upload someday. Guarantees are provisionally favorable for functioning communities, with a broad allowance for unequal local arrangements and vulnerability of the underlying infrastructure. Chosen fantasy-world hardship is not assigned to all residents.\n\nControl remains unresolved. Human political institutions coexist with indispensable supercomputers, and infrastructure dependence alone does not prove that those machines are independent sovereigns. The later corruption and resurrection attacks demonstrate an important failure mode, but are outside the earlier support score. Humans and active human-derived residents form the explicit population proxy; backups are excluded. Exploration, art, research and infrastructure work continue, so neither extended life nor constructed worlds supplies a nonworking percentage. Publisher and plot context support the mechanism while the post-scarcity interpretation remains honestly labeled as secondary.",
+      "axis": {
+        "guarantees": -0.65,
+        "control": null,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.95,
+            0.25
+          ],
+          "confidence": "low",
+          "basis": "Maintained constructed worlds and implemented resurrection/embodiment support the reader’s explicitly post-scarcity interpretation, qualified by local variation and substrate dependence.",
+          "source_ids": [
+            "src-b92-spaces",
+            "src-b92-spaces-jacket",
+            "src-b92-spaces-reader"
+          ]
+        },
+        "control": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Human governments and indispensable supercomputers coexist without a clearly verified ultimate productive-control rule.",
+          "source_ids": [
+            "src-b92-spaces",
+            "src-b92-spaces-jacket",
+            "src-b92-spaces-reader"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "No all-person useful-work census; voluntary creation, care, maintenance and research remain work.",
+          "source_ids": [
+            "src-b92-spaces",
+            "src-b92-spaces-jacket",
+            "src-b92-spaces-reader"
+          ]
+        }
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [
+        5
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-b92-spaces",
+        "src-b92-spaces-jacket",
+        "src-b92-spaces-reader"
+      ],
+      "evidence": [
+        {
+          "claim": "Maintained constructed worlds and implemented resurrection/embodiment support the reader’s explicitly post-scarcity interpretation, qualified by local variation and substrate dependence.",
+          "source_ids": [
+            "src-b92-spaces",
+            "src-b92-spaces-jacket",
+            "src-b92-spaces-reader"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "Human governments and indispensable supercomputers coexist without a clearly verified ultimate productive-control rule.",
+        "No all-person useful-work census; voluntary creation, care, maintenance and research remain work."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "riding-torch-convoy-abundance",
+      "candidate_id": "c0808",
+      "name": "Riding the Torch — The abundant refugee convoy",
+      "work": "Riding the Torch",
+      "society": "The matter-energy supplied human torchship population",
+      "media": [
+        "short_story"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Norman Spinrad’s novella as described in the bounded reader plot account",
+        "period": "Established centuries-long convoy life before the scout revelation",
+        "population": "Living human inhabitants of the refugee torchship convoy",
+        "human_population_proxy": false,
+        "exclusions": [
+          "The Council’s navigation powers as proof of ownership of every personal fabricator",
+          "Artists and pilots as doing no useful work",
+          "A collective search for a planet as present material starvation"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "The refugee convoy can manipulate matter and energy to shape living environments, meals and experiences while traveling between stars. Most residents enjoy a continuing culture of sensory art, parties and leisure rather than earning ordinary subsistence through production jobs. Guarantees receive a favorable estimate for that functioning technological support. The evidence is a clearly labeled reader plot account, so enforceable civic rights and the exact limits of provision remain uncertain.\n\nA Council of Pilots coordinates the search for a habitable destination, while individuals can reshape their own surroundings. Navigation authority does not by itself establish centralized ownership of production, nor does personal access prove equal command of the entire infrastructure; control stays unresolved. A high, broad nonworking estimate follows the extensive leisure description, with substantial room for pilots, artists, care, maintenance and useful creative work. It is not a canonical census. The failure to find a new home is not confused with immediate inability to provide necessities aboard the existing convoy.",
+      "axis": {
+        "guarantees": -0.7,
+        "control": null,
+        "nonworking": 0.75
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.95,
+            0.15
+          ],
+          "confidence": "low",
+          "basis": "The specific plot review describes actual matter-energy manipulation, food/experience creation and continuing leisure for most convoy residents.",
+          "source_ids": [
+            "src-b92-torch"
+          ]
+        },
+        "control": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Council navigation and individual environmental creation do not establish one effective productive-ownership model.",
+          "source_ids": [
+            "src-b92-torch"
+          ]
+        },
+        "nonworking": {
+          "interval": [
+            0.35,
+            0.95
+          ],
+          "confidence": "low",
+          "basis": "Extensive leisure supports .75 [.35,.95] as a broad editorial estimate; artists, pilots and other useful contributors still count.",
+          "source_ids": [
+            "src-b92-torch"
+          ]
+        }
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [
+        2
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-b92-torch"
+      ],
+      "evidence": [
+        {
+          "claim": "The specific plot review describes actual matter-energy manipulation, food/experience creation and continuing leisure for most convoy residents.",
+          "source_ids": [
+            "src-b92-torch"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "Council navigation and individual environmental creation do not establish one effective productive-ownership model.",
+        "Extensive leisure supports .75 [.35,.95] as a broad editorial estimate; artists, pilots and other useful contributors still count."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0797",
+      "status": "needs_evidence",
+      "reason": "Permissive goods access is not yet tied to a verified automated productive system.",
+      "source_ids": [
+        "src-b92-country"
+      ],
+      "analysis": "Crime control and the narrator’s social exclusion alone cannot establish post-work provision.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0798",
+      "status": "needs_evidence",
+      "reason": "City machines are not accompanied by clear household work-independent allocation.",
+      "source_ids": [
+        "src-b92-natural"
+      ],
+      "analysis": "The short reference establishes a technological contrast, not who receives necessities and on what terms.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0799",
+      "status": "needs_evidence",
+      "reason": "Genetically engineered rural systems lack sufficiently clear ordinary provision and labor rules.",
+      "source_ids": [
+        "src-b92-natural"
+      ],
+      "analysis": "Biotechnology can qualify, but a tool substitution alone is not an established post-work economy.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0800",
+      "status": "needs_evidence",
+      "reason": "The discovery guess of an automatic public-income society is not supported by the short criticism.",
+      "source_ids": [
+        "src-b92-prize"
+      ],
+      "analysis": "The account instead describes a marginalized hard worker risking life for wealth; no automation-funded floor is assumed.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0801",
+      "status": "needs_evidence",
+      "reason": "Household robots and deliberate slowness do not establish a general ordinary access regime.",
+      "source_ids": [
+        "src-b92-tranai"
+      ],
+      "analysis": "The bounded factory passage shows real engineering work, leaving civic necessities and technological-restraint motives unresolved.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0802",
+      "status": "needs_evidence",
+      "reason": "The diverse Eight Worlds are not verified as one uniform material-access order.",
+      "source_ids": [
+        "src-b92-ophiuchi"
+      ],
+      "analysis": "The clearly supplied Steel Beach Luna is retained separately; exact cross-novel continuity and a different Ophiuchi arrangement remain unresolved.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0803",
+      "status": "included",
+      "reason": "The scoped references establish implemented technological support with explicit uncertainty and human-person scope.",
+      "source_ids": [
+        "src-b92-steel",
+        "src-b92-steel-review"
+      ],
+      "society_id": "steel-beach-luna-central-computer"
+    },
+    {
+      "candidate_id": "c0804",
+      "status": "needs_evidence",
+      "reason": "A strong legal food/shelter floor is clear, but the short account does not establish its productive automation connection.",
+      "source_ids": [
+        "src-b92-triton"
+      ],
+      "analysis": "Computer accounting is not automatically machine production; political pluralism and body alteration alone cannot close that gap.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0805",
+      "status": "needs_evidence",
+      "reason": "Velm’s information network and mixed-species society do not establish ordinary automatic provision.",
+      "source_ids": [
+        "src-b92-stars"
+      ],
+      "analysis": "Coerced human history and Web access are not a verified material-floor mechanism.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0806",
+      "status": "included",
+      "reason": "The scoped references establish implemented technological support with explicit uncertainty and human-person scope.",
+      "source_ids": [
+        "src-b92-aristoi-author",
+        "src-b92-aristoi"
+      ],
+      "society_id": "aristoi-logarchy-demos"
+    },
+    {
+      "candidate_id": "c0807",
+      "status": "included",
+      "reason": "The scoped references establish implemented technological support with explicit uncertainty and human-person scope.",
+      "source_ids": [
+        "src-b92-spaces",
+        "src-b92-spaces-jacket",
+        "src-b92-spaces-reader"
+      ],
+      "society_id": "implied-spaces-constructed-worlds"
+    },
+    {
+      "candidate_id": "c0808",
+      "status": "included",
+      "reason": "The scoped references establish implemented technological support with explicit uncertainty and human-person scope.",
+      "source_ids": [
+        "src-b92-torch"
+      ],
+      "society_id": "riding-torch-convoy-abundance"
+    }
+  ],
+  "review_notes": [
+    "Twelve additional ordered short checks yield four provisional societies; the goal remains active below 500.",
+    "Steel Beach’s concrete oxygen/food/care is verified without importing it into every Eight Worlds novel. Useful journalism and ranching remain work.",
+    "Aristoi rulers are human-derived elites; daimones are not multiplied into a false human denominator.",
+    "Implied Spaces infrastructure is not declared mere simulation or sovereign AI by default; informal post-scarcity interpretation is labeled.",
+    "Riding the Torch’s material technology is explicit in a specific reader account; artists and pilots remain useful contributors.",
+    "Triton has a clear access floor but an unresolved automation link. Neither an attractive social constitution nor computer accounting alone secures admission.",
+    "Unrelated real agriculture, political-economy essays, government manufacture and educational results were discarded. No full fiction reconstruction was undertaken."
+  ]
+}

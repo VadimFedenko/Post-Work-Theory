@@ -1,0 +1,384 @@
+{
+  "batch_id": "batch-078",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0629",
+    "c0630",
+    "c0631",
+    "c0632",
+    "c0633",
+    "c0634",
+    "c0635",
+    "c0636",
+    "c0637",
+    "c0638",
+    "c0639",
+    "c0640"
+  ],
+  "sources": [
+    {
+      "id": "src-b78-solaris",
+      "title": "Solaris United launch material collected on the official forum",
+      "author": "Warframe community transcription of released promotional material",
+      "url": "https://forums.warframe.com/topic/1021495-solaris-united-arg/",
+      "kind": "reference_or_official_description",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public description or bounded indexed passage",
+      "read_scope": "Bounded quoted text describes compulsory cybernetic upgrades, debt, real welding/labor and repossession.",
+      "limitations": "No ARG was solved or downloaded; forum transcription is not a claim to inspecting every original image."
+    },
+    {
+      "id": "src-b78-sentients",
+      "title": "Warframe story and history",
+      "author": "WARFRAME Wiki contributors",
+      "url": "https://warframe.fandom.com/wiki/Story_and_History",
+      "kind": "reference_or_official_description",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public description or bounded indexed passage",
+      "read_scope": "Adaptive artificial colonizers terraform Tau, build infrastructure and rebel against the Orokin.",
+      "limitations": "A self-working artificial species and rebellion do not establish an ordinary supported human population."
+    },
+    {
+      "id": "src-b78-portal",
+      "title": "Portal plot",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Portal_(video_game)",
+      "kind": "reference_or_official_description",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public description or bounded indexed passage",
+      "read_scope": "Chell wakes from stasis, performs hazardous tests and escapes an attempted incineration.",
+      "limitations": "Testing, dormant captives and a promised cake are not a durable resident provision order; forum speculation was discarded."
+    },
+    {
+      "id": "src-b78-combine",
+      "title": "Combine in Half-Life",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Combine_(Half-Life)",
+      "kind": "reference_or_official_description",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public description or bounded indexed passage",
+      "read_scope": "An alien conglomerate coerces people and converts captives into slaves/cybernetic forces.",
+      "limitations": "Organic alien masters and modified human workers are not automatically AI administration or automatic production."
+    },
+    {
+      "id": "src-b78-stray-companions",
+      "title": "Stray plot",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Stray_(video_game)",
+      "kind": "reference_or_official_description",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public description or bounded indexed passage",
+      "read_scope": "Companions inherit the empty city and develop their own society; B-12 is separately human-derived.",
+      "limitations": "Mechanical successors are not all uploaded humans, and deceased biological residents cannot become a leisure denominator."
+    },
+    {
+      "id": "src-b78-stray-humans",
+      "title": "Humans",
+      "author": "Stray Wiki contributors",
+      "url": "https://stray.fandom.com/wiki/Humans",
+      "kind": "reference_or_official_description",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public description or bounded indexed passage",
+      "read_scope": "Human residents had cleaning/plant-care companions, class divisions and a lethal plague.",
+      "limitations": "Further surviving cities are speculation, not verified populations; robot domestic service does not establish complete allocation."
+    },
+    {
+      "id": "src-b78-sleeper",
+      "title": "Citizen Sleeper official description",
+      "author": "Jump Over the Age / Fellow Traveller",
+      "url": "https://www.fellowtraveller.games/citizen-sleeper",
+      "kind": "reference_or_official_description",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public description or bounded indexed passage",
+      "read_scope": "A digitized human worker in an artificial body must earn a living among salvagers, engineers, vendors and other working residents.",
+      "limitations": "Corporate exploitation and communal help do not by themselves establish automatic work-independent necessities."
+    },
+    {
+      "id": "src-b78-cloudpunk",
+      "title": "Cloudpunk economy discussion",
+      "author": "ION LANDS developer reply on Steam",
+      "url": "https://steamcommunity.com/app/746850/discussions/0/3118147979136012155/",
+      "kind": "reference_or_official_description",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public description or bounded indexed passage",
+      "read_scope": "The marked developer reply describes trading goods between lower and higher city vendors.",
+      "limitations": "Gameplay economy clarification only; player wishes and post-story complaints are not general lore or a complete resource constitution."
+    },
+    {
+      "id": "src-b78-neocab",
+      "title": "Neo Cab official bundle description",
+      "author": "Chance Agency / Fellow Traveller on Steam",
+      "url": "https://store.steampowered.com/bundle/12088/Neo_Cab_Deluxe_Bundle/",
+      "kind": "reference_or_official_description",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public description or bounded indexed passage",
+      "read_scope": "Automation displaces drivers, while Lina needs paid driving to obtain money and shelter.",
+      "limitations": "Strong transport-sector displacement evidence, but no complete ordinary material-production/access system."
+    },
+    {
+      "id": "src-b78-tacoma",
+      "title": "Tacoma plot",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Tacoma_(video_game)",
+      "kind": "reference_or_official_description",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public description or bounded indexed passage",
+      "read_scope": "The Human Oversight Accord obstructs fully automated orbital homes; Venturis and JUNO stage a deadly crew incident to seek repeal.",
+      "limitations": "Released plot summary, not a full primary message archive; the real six-person crew performs useful work despite the law retaining human oversight."
+    },
+    {
+      "id": "src-b78-event0",
+      "title": "Event[0] plot and endings",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Event_0",
+      "kind": "reference_or_official_description",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public description or bounded indexed passage",
+      "read_scope": "A missing-crew leisure ship, Kaizen and a copied captain are encountered during a temporary survival/return journey.",
+      "limitations": "Distinct branching endings do not establish a mature supported resident economy; an indexed mirror was replaced by the direct reference."
+    },
+    {
+      "id": "src-b78-redstrings",
+      "title": "The Red Strings Club press kit",
+      "author": "Deconstructeam",
+      "url": "https://www.deconstructeam.com/press/sheet.php?p=the-red-strings-club",
+      "kind": "reference_or_official_description",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public description or bounded indexed passage",
+      "read_scope": "Social Psyche Welfare is a proposed emotional-control program contested by a bartender and hacker.",
+      "limitations": "Mood engineering and proposed happiness are not automatic material necessities or an implemented resource system."
+    }
+  ],
+  "societies": [
+    {
+      "id": "tacoma-human-oversight-accord",
+      "candidate_id": "c0638",
+      "name": "Tacoma — Orbital human oversight requirements",
+      "work": "Tacoma",
+      "society": "The legally retained human station-crew cohort under the Human Oversight Accord",
+      "media": [
+        "game"
+      ],
+      "record_type": "zero_variant",
+      "scope": {
+        "continuity": "Tacoma released game",
+        "period": "The established employment regime before Venturis’s staged accident",
+        "population": "Tacoma’s six employed human crew members as a narrow legal-labor cohort",
+        "human_population_proxy": false,
+        "exclusions": [
+          "The entire Earth population as six workers",
+          "Unbuilt Venturis Belt holiday homes",
+          "Sleeping rescue intervals as leisure",
+          "The proposed post-repeal economy"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "The Human Oversight Accord prevents Venturis from deploying its fully automated orbital holiday-home project. Human staffing therefore persists despite available capacity for uncrewed operation, supporting a zero-variant comparison. The record is deliberately limited to the legally retained station-crew cohort rather than claiming that all Earth employment is make-work. These people still perform useful medical, technical, administrative and other tasks; a legal reason to retain humans does not make every action pointless.\n\nAuthority lies with the company, which consults a strategic AI but also directs the station system. That supports concentrated control with uncertainty about the AI’s effective influence. The employer’s deliberate attempt to sacrifice its crew makes their material security weak even though ordinary station life provides support. Rescue by outsiders does not establish an enforceable company guarantee. All six scoped residents are employed crew performing real work, so their nonworking estimate is zero with a small uncertainty allowance. This narrow result is not a population-wide unemployment statistic, and neither cryosleep nor unbuilt vacation homes enlarges the cohort.",
+      "axis": {
+        "guarantees": 0.8,
+        "control": 0.05,
+        "nonworking": 0
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            0.25,
+            1
+          ],
+          "confidence": "low",
+          "basis": "Company-supplied support can be deliberately withdrawn in a plan to kill the crew; external rescue does not create an employer entitlement.",
+          "source_ids": [
+            "src-b78-tacoma"
+          ]
+        },
+        "control": {
+          "interval": [
+            -0.3,
+            0.2
+          ],
+          "confidence": "low",
+          "basis": "Corporate leadership and strategic AI act together, but company orders retain a clear role; their exact balance is uncertain.",
+          "source_ids": [
+            "src-b78-tacoma"
+          ]
+        },
+        "nonworking": {
+          "interval": [
+            0,
+            0.1
+          ],
+          "confidence": "medium",
+          "basis": "The denominator is explicitly the six employed crew, who perform useful tasks; this is not the wider human population.",
+          "source_ids": [
+            "src-b78-tacoma"
+          ]
+        }
+      },
+      "regime_primary": 0,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b78-tacoma"
+      ],
+      "evidence": [
+        {
+          "claim": "Law retains human oversight despite planned full automation, and the company seeks repeal through a staged fatal incident.",
+          "source_ids": [
+            "src-b78-tacoma"
+          ],
+          "locator": "Plot: Human Oversight Accord and Venturis/JUNO scheme",
+          "kind": "secondary_game_reference"
+        }
+      ],
+      "uncertainties": [
+        "Narrow six-person employment cohort, not a whole-world work census.",
+        "Real useful work persists; not every task is proven unnecessary.",
+        "The legal barrier is established; its complete legislative purpose is not reconstructed.",
+        "Corporate/AI agency is a broad uncertain estimate."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": true
+      },
+      "regime_analogy": [
+        3
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0629",
+      "status": "boundary_case",
+      "reason": "Solaris workers do actual debt-bound labor and pay for the bodily equipment required to do it.",
+      "source_ids": [
+        "src-b78-solaris"
+      ],
+      "analysis": "Cybernetic bodies and Corpus robots do not establish freedom from subsistence work or a proven unnecessary-employment policy.",
+      "follow_up": "Save the short disposition and continue without whole-game or ARG reconstruction."
+    },
+    {
+      "candidate_id": "c0630",
+      "status": "needs_evidence",
+      "reason": "Sentient terraforming and rebellion do not establish ordinary post-work resource entitlements.",
+      "source_ids": [
+        "src-b78-sentients"
+      ],
+      "analysis": "Artificial workers building their own civilization require an explicit applicable population and access mechanism.",
+      "follow_up": "Save the short disposition and continue without whole-game or ARG reconstruction."
+    },
+    {
+      "candidate_id": "c0631",
+      "status": "boundary_case",
+      "reason": "A lethal testing facility and stasis subjects are not an established supported post-work resident society.",
+      "source_ids": [
+        "src-b78-portal"
+      ],
+      "analysis": "Chell performs active tests; dormant people and promised food do not supply a leisure population or durable floor.",
+      "follow_up": "Save the short disposition and continue without whole-game or ARG reconstruction."
+    },
+    {
+      "candidate_id": "c0632",
+      "status": "boundary_case",
+      "reason": "Combine occupation retains coerced human and human-derived work.",
+      "source_ids": [
+        "src-b78-combine"
+      ],
+      "analysis": "Alien domination and cybernetic conversion do not establish automatic household production or an AI sovereign.",
+      "follow_up": "Save the short disposition and continue without whole-game or ARG reconstruction."
+    },
+    {
+      "candidate_id": "c0633",
+      "status": "needs_evidence",
+      "reason": "Companion society lacks a verified post-work material arrangement and appropriate scoped person denominator.",
+      "source_ids": [
+        "src-b78-stray-companions"
+      ],
+      "analysis": "Most Companions are artificial successors rather than human uploads; B-12’s distinct origin does not reclassify everyone.",
+      "follow_up": "Save the short disposition and continue without whole-game or ARG reconstruction."
+    },
+    {
+      "candidate_id": "c0634",
+      "status": "needs_evidence",
+      "reason": "Pre-extinction domestic robot service does not establish complete work-independent human allocation.",
+      "source_ids": [
+        "src-b78-stray-humans"
+      ],
+      "analysis": "Class divisions, plague and household assistance are clear, while ordinary access and productive replacement remain insufficiently described.",
+      "follow_up": "Save the short disposition and continue without whole-game or ARG reconstruction."
+    },
+    {
+      "candidate_id": "c0635",
+      "status": "boundary_case",
+      "reason": "The Eye’s survival economy relies on real useful labor and payment.",
+      "source_ids": [
+        "src-b78-sleeper"
+      ],
+      "analysis": "Human-derived artificial workers still earn necessities; helpful communal relations alone do not establish technological post-work provision.",
+      "follow_up": "Save the short disposition and continue without whole-game or ARG reconstruction."
+    },
+    {
+      "candidate_id": "c0636",
+      "status": "needs_evidence",
+      "reason": "Nivalis’s trade and delivery economy does not establish work-independent household support.",
+      "source_ids": [
+        "src-b78-cloudpunk"
+      ],
+      "analysis": "A developer’s vendor-pricing explanation is not a complete civic economy or proof of a universal material floor.",
+      "follow_up": "Save the short disposition and continue without whole-game or ARG reconstruction."
+    },
+    {
+      "candidate_id": "c0637",
+      "status": "needs_evidence",
+      "reason": "Transport automation clearly displaces workers, but the wider material production/access system remains unverified.",
+      "source_ids": [
+        "src-b78-neocab"
+      ],
+      "analysis": "Lina’s wage-dependent shelter and food cannot stand for an already established post-work city economy.",
+      "follow_up": "Save the short disposition and continue without whole-game or ARG reconstruction."
+    },
+    {
+      "candidate_id": "c0638",
+      "status": "zero_variant",
+      "reason": "The law demonstrably retains human orbital oversight despite available uncrewed capacity; the narrow cohort and useful work are explicit.",
+      "source_ids": [
+        "src-b78-tacoma"
+      ],
+      "society_id": "tacoma-human-oversight-accord"
+    },
+    {
+      "candidate_id": "c0639",
+      "status": "boundary_case",
+      "reason": "A temporary visitor and missing-crew luxury ship do not establish a continuing supported resident community.",
+      "source_ids": [
+        "src-b78-event0"
+      ],
+      "analysis": "Kaizen’s navigation and the captain’s uploaded identity leave ordinary durable material arrangements unresolved.",
+      "follow_up": "Save the short disposition and continue without whole-game or ARG reconstruction."
+    },
+    {
+      "candidate_id": "c0640",
+      "status": "boundary_case",
+      "reason": "The proposed Social Psyche Welfare program concerns emotional manipulation rather than material post-work provision.",
+      "source_ids": [
+        "src-b78-redstrings"
+      ],
+      "analysis": "A promise of happiness and artificial persons does not establish an implemented automatic necessities system.",
+      "follow_up": "Save the short disposition and continue without whole-game or ARG reconstruction."
+    }
+  ],
+  "review_notes": [
+    "Previous goal turn was substantive progress: 556 processed / 122 retained to 628 / 133. This continuation resumes authoritative state rather than the stale objective checkpoint.",
+    "Twelve fast dispositions and one narrow zero-variant record. No full game transcript, novel, ARG decoding or source download.",
+    "Tacoma’s legal oversight cohort is not an entire world. Corporate AI advice is not automatically sovereign AI control, and useful crew work still counts.",
+    "Citizen Sleeper’s official description confirms actual paid survival work. Stray’s artificial successors and one human-derived drone are not identical populations.",
+    "Unrelated real-world Tacoma job listings, speculative forum answers and player wishes were discarded. Official descriptions replaced weak lore when available."
+  ]
+}

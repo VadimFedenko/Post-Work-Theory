@@ -1,0 +1,490 @@
+{
+  "batch_id": "batch-057",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0377",
+    "c0378",
+    "c0379",
+    "c0380",
+    "c0381",
+    "c0382",
+    "c0383",
+    "c0384",
+    "c0385",
+    "c0386",
+    "c0387",
+    "c0388"
+  ],
+  "sources": [
+    {
+      "id": "src-sleeper-plot",
+      "title": "Sleeper 1973: Plot",
+      "author": "IMDb plot contributors",
+      "url": "https://www.imdb.com/title/tt0070707/plotsummary/",
+      "kind": "secondary_film_plot_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public robot-servant and party-preparation passages read",
+      "read_scope": "A poet purchases domestic robotic service in a police state.",
+      "limitations": "Household labor-saving devices do not establish the general population’s access to necessities or universal leisure."
+    },
+    {
+      "id": "src-eminiar-war-reference",
+      "title": "Eminiar-Vendikar War",
+      "author": "Memory Alpha contributors",
+      "url": "https://memory-alpha.fandom.com/wiki/Eminiar-Vendikar_War",
+      "kind": "secondary_tv_lore_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public computerized-war and citizen-disintegration description read",
+      "read_scope": "Computerized casualty designation coexists with actual lethal treaty enforcement.",
+      "limitations": "The main article’s Vendikar spelling differs from the discovery string. Simulated warfare does not establish automatic material provisioning."
+    },
+    {
+      "id": "src-landru-official-guide",
+      "title": "A Who’s Who Guide to Star Trek’s Megalomaniacal AI",
+      "author": "StarTrek.com",
+      "url": "https://www.startrek.com/news/star-trek-megalomaniacal-ai-guide",
+      "kind": "official_tv_lore_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Landru subsection only read",
+      "read_scope": "Beta III’s computer control, Body and Red Hour.",
+      "limitations": "Political and behavioral control are established; an economic constitution is not. Other systems in the guide are not automatically scored."
+    },
+    {
+      "id": "src-vaal-episode-reference",
+      "title": "The Apple",
+      "author": "Memory Alpha contributors",
+      "url": "https://memory-alpha.fandom.com/wiki/The_Apple_(episode)",
+      "kind": "secondary_tv_episode_synopsis_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public village, food, reproduction and Vaal passages read",
+      "read_scope": "Villagers have food and housing, serve Vaal and face its behavioral restrictions.",
+      "limitations": "The quick check does not establish an automatic food-production or allocation mechanism; real villagers’ servicing work is not erased."
+    },
+    {
+      "id": "src-yonada-oracle-reference",
+      "title": "Oracle of the People",
+      "author": "Memory Alpha contributors",
+      "url": "https://memory-alpha.fandom.com/wiki/Oracle_of_the_People",
+      "kind": "secondary_tv_lore_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Screen-continuity central-computer and priestess-terminal sections read",
+      "read_scope": "Yonada has a computer treated as a deity.",
+      "limitations": "The separately marked Ex Machina novel history is excluded. Navigation, commands and worship do not establish household distribution."
+    },
+    {
+      "id": "src-mudd-episode-reference",
+      "title": "I, Mudd",
+      "author": "Memory Alpha contributors",
+      "url": "https://memory-alpha.fandom.com/wiki/I,_Mudd_(episode)",
+      "kind": "secondary_tv_episode_synopsis_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Indexed needs, android authority and final parole passages read",
+      "read_scope": "Android service, refusal of Mudd’s departure and later reprogramming/parole.",
+      "limitations": "A proposed takeover of all humanity is not realized. The ending’s altered programming must not be assigned the earlier android authority unchanged."
+    },
+    {
+      "id": "src-mudd-captivity-review",
+      "title": "Sipping jippers on a beach somewhere: I, Mudd vs. The Escape Artist",
+      "author": "Trek vs Trek",
+      "url": "https://trekvstrek.com/2019/10/21/sipping-jippers-on-a-beach-somewhere-i-mudd-original-series-vs-the-escape-artist-short-treks/",
+      "kind": "secondary_tv_critical_comparison_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Original-series crash-landing and existing android-service passage read",
+      "read_scope": "Mudd already receives personal service from androids after their original makers have died.",
+      "limitations": "Only the I, Mudd portion is used. Mudd’s self-interested explanations and a single-human cohort limit generalization; later Discovery/Short Treks details are not imported."
+    },
+    {
+      "id": "src-triskelion-reference",
+      "title": "Triskelion",
+      "author": "Memory Alpha contributors",
+      "url": "https://memory-alpha.fandom.com/wiki/Triskelion",
+      "kind": "secondary_tv_lore_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public Provider betting and thrall-combat description read",
+      "read_scope": "Captives perform real entertainment labor for biological rulers.",
+      "limitations": "Providers are not automatically AI; slavery and machines do not by themselves establish post-work allocation."
+    },
+    {
+      "id": "src-exo-iii-reference",
+      "title": "Exo III",
+      "author": "Memory Alpha contributors",
+      "url": "https://memory-alpha.fandom.com/wiki/Exo_III",
+      "kind": "secondary_tv_lore_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public extinct Old Ones and Ruk-maintained machinery description read",
+      "read_scope": "Androids outlast their creators and support a later research encounter.",
+      "limitations": "Extinct builders are not leisure residents, and surviving machinery does not establish a settled supported human-derived community."
+    },
+    {
+      "id": "src-eymorg-controller-review",
+      "title": "Spock’s Brain: Synopsis",
+      "author": "Bernd Schneider / Ex Astris Scientia",
+      "url": "https://www.ex-astris-scientia.org/episodes/tos3.htm",
+      "kind": "secondary_tv_episode_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Spock’s Brain synopsis only read",
+      "read_scope": "The Eymorg use a stolen biological brain as Controller and lack technical understanding.",
+      "limitations": "This is not automatically an independent AI sovereign. Underground infrastructure alone does not specify food allocation or its labor requirements."
+    },
+    {
+      "id": "src-aldea-custodian-reference",
+      "title": "Custodian",
+      "author": "Memory Alpha contributors",
+      "url": "https://memory-alpha.fandom.com/wiki/Custodian",
+      "kind": "secondary_tv_lore_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Needs, resident commands, art recommendations, clearances and shield consequences sections read",
+      "read_scope": "Aldea’s system provides needs, accepts resident commands and guides studies, but environmental damage causes infertility.",
+      "limitations": "One fan reference chain, explicitly provisional. A computer interface is not proof of independent AI economic rule or an exact participation rate."
+    },
+    {
+      "id": "src-borg-work-reference",
+      "title": "Borg",
+      "author": "Memory Alpha contributors",
+      "url": "https://memory-alpha.fandom.com/wiki/Borg",
+      "kind": "secondary_tv_lore_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public collective problem-solving and drone-activity description read",
+      "read_scope": "Assimilated persons perform useful coordinated mental and physical work.",
+      "limitations": "Cyborg embodiment is not external robotic substitution for that work; a human-derived drone is not a passive appliance."
+    },
+    {
+      "id": "src-bynar-computer-reference",
+      "title": "Bynar",
+      "author": "Memory Alpha contributors",
+      "url": "https://memory-alpha.fandom.com/wiki/Bynar",
+      "kind": "secondary_tv_lore_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public synaptic-processor and master-computer dependence passages read",
+      "read_scope": "Biological people are connected to a master computer.",
+      "limitations": "Cybernetic interdependence does not establish automatic goods or work-independent household access."
+    }
+  ],
+  "societies": [
+    {
+      "id": "mudd-android-serviced-captivity",
+      "candidate_id": "c0382",
+      "name": "Star Trek — Mudd’s android-serviced captivity",
+      "work": "Star Trek: The Original Series",
+      "society": "Harry Mudd’s existing supported residence on the android planet",
+      "media": [
+        "tv"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "TOS I, Mudd",
+        "period": "Mudd’s established residence before the Enterprise escape and android reprogramming",
+        "population": "Harry Mudd, the resident living human receiving android service",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Temporary Enterprise captives as a stable resident population",
+          "The unimplemented plan to control humanity",
+          "The original extinct makers",
+          "Post-reprogramming parole as an identical political system"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Mudd already lives among androids that supply personal services and productive support after their makers have died. The retained unit is his narrow existing residence, not the machines’ proposed expansion across human civilization. His support does not depend on a wage or an outside human household staff. That gives the arrangement a strong material-guarantee estimate within its tiny scope. Captivity is a major restriction on freedom, but refusal to let him leave does not itself prove that food or care is withheld.\n\nMudd presents himself as a ruler, yet the androids can reject his commands and prevent his departure. Their coordinated machine authority therefore matters more than his imperial title when estimating effective control. This point lies toward autonomous AI provision, with uncertainty about the exact mixture of accepted requests and binding restrictions. Personal enjoyment, manipulation and confinement do not provide a trustworthy work census, so the participation axis remains unresolved. The crew’s later reprogramming changes the arrangement and is not silently treated as the same authority structure.",
+      "axis": {
+        "guarantees": -0.65,
+        "control": -0.8,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.9,
+            -0.25
+          ],
+          "confidence": "low",
+          "basis": "Existing android service supports the sole human resident without a wage; confinement is distinguished from demonstrated withdrawal of material care.",
+          "source_ids": [
+            "src-mudd-episode-reference",
+            "src-mudd-captivity-review"
+          ]
+        },
+        "control": {
+          "interval": [
+            -1,
+            -0.3
+          ],
+          "confidence": "medium",
+          "basis": "The android network overrides Mudd’s wishes, including departure, despite his apparent command over many personal services.",
+          "source_ids": [
+            "src-mudd-episode-reference",
+            "src-mudd-captivity-review"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "The resident’s activities are not a stable all-purpose labor census; no exact leisure fraction is supplied.",
+          "source_ids": [
+            "src-mudd-episode-reference",
+            "src-mudd-captivity-review"
+          ]
+        }
+      },
+      "regime_primary": 5,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-mudd-episode-reference",
+        "src-mudd-captivity-review"
+      ],
+      "evidence": [
+        {
+          "claim": "Mudd already receives android service, but the machines refuse to permit his departure.",
+          "source_ids": [
+            "src-mudd-episode-reference",
+            "src-mudd-captivity-review"
+          ],
+          "locator": "Episode/reference pre-escape residence and android agenda",
+          "kind": "secondary_episode_reference_and_criticism"
+        }
+      ],
+      "uncertainties": [
+        "A single-human continuing support unit, explicitly limited in size.",
+        "Mudd’s title is not effective productive ownership.",
+        "Only the pre-reprogramming authority is scored.",
+        "Promises to serve humanity at large are not an enacted economy."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "aldea-custodian-provision",
+      "candidate_id": "c0386",
+      "name": "Star Trek — Aldea under the Custodian",
+      "work": "Star Trek: The Next Generation",
+      "society": "Aldean residents supported by the Custodian",
+      "media": [
+        "tv"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "TNG When the Bough Breaks",
+        "period": "Established Custodian provision before the defense-system shutdown and technical relearning",
+        "population": "Living biological Aldean residents, used as a humanoid-person comparison proxy",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Kidnapped Enterprise children as a stable separate society",
+          "Post-intervention recovery as already identical",
+          "Computers as additional human citizens"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Aldea has a direct technological support system: the Custodian supplies residents’ needs while recommending pursuits such as the arts. Ordinary provision is therefore materially separated from necessary production jobs. The guarantee estimate is strong for residents, but it does not imply perfect health protection. The planetary defenses have damaging environmental effects, and the population has lost the knowledge needed to diagnose the resulting infertility. The scope is the existing Aldean community before its systems are changed. Biological humanoid residents are an explicit comparison proxy for the human-centered axes.\n\nResidents can command the Custodian through personal interfaces, and its access clearances show structured humanlike participation rather than an unquestionable AI sovereign. The broad positive control estimate reflects dispersed practical access, while leaving uncertainty about elite privileges and the ability to alter underlying infrastructure. Lack of engineering knowledge is a vulnerability, not sufficient proof that the machine owns everything. Artistic study and other chosen activity can still be useful work, so automatic provision does not justify a numerical nonworking share. Later technical relearning is not projected backward into this period.",
+      "axis": {
+        "guarantees": -0.8,
+        "control": 0.5,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -1,
+            -0.4
+          ],
+          "confidence": "medium",
+          "basis": "Resident needs are supplied by a continuing system, but environmentally induced infertility and lost maintenance knowledge qualify its health/security floor.",
+          "source_ids": [
+            "src-aldea-custodian-reference"
+          ]
+        },
+        "control": {
+          "interval": [
+            0.1,
+            0.8
+          ],
+          "confidence": "low",
+          "basis": "Residents have command interfaces and clearances, but the reference does not fully establish collective ownership or the distribution of privileged access.",
+          "source_ids": [
+            "src-aldea-custodian-reference"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Recommended artistic study and chosen useful pursuits do not yield an all-person participation census.",
+          "source_ids": [
+            "src-aldea-custodian-reference"
+          ]
+        }
+      },
+      "regime_primary": 2,
+      "regime_alternatives": [
+        1
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-aldea-custodian-reference"
+      ],
+      "evidence": [
+        {
+          "claim": "The Custodian provides needs, accepts resident commands and recommends studies while the defense system damages the environment.",
+          "source_ids": [
+            "src-aldea-custodian-reference"
+          ],
+          "locator": "Custodian description and episode-linked aftermath",
+          "kind": "secondary_tv_lore_reference"
+        }
+      ],
+      "uncertainties": [
+        "Explicit biological humanoid-person proxy, not an undocumented human population.",
+        "Fan reference evidence remains provisional and is one chain rather than independent corroboration.",
+        "Control is broad and uncertain; resident command is not automatically common legal ownership.",
+        "Kidnapping and the later intervention are not additional settled societies."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0377",
+      "status": "needs_evidence",
+      "reason": "Sleeper’s domestic robots do not establish the police state’s general material-access system.",
+      "source_ids": [
+        "src-sleeper-plot"
+      ],
+      "analysis": "A poet’s purchased servant and instant food preparation show sectoral and domestic automation, not population-wide work independence.",
+      "follow_up": "Skip further film reconstruction."
+    },
+    {
+      "candidate_id": "c0378",
+      "status": "boundary_case",
+      "reason": "Computerized war and disintegration obligations do not establish a post-work production and distribution mechanism.",
+      "source_ids": [
+        "src-eminiar-war-reference"
+      ],
+      "analysis": "The treaty concerns lethal casualty compliance rather than access to ordinary material goods.",
+      "follow_up": "Keep as an automated-governance comparison."
+    },
+    {
+      "candidate_id": "c0379",
+      "status": "needs_evidence",
+      "reason": "Landru’s behavioral control does not establish Beta III’s automatic material provision.",
+      "source_ids": [
+        "src-landru-official-guide"
+      ],
+      "analysis": "The Body and Red Hour describe coercion and social regulation; no household economy is supplied by the short check.",
+      "follow_up": "Skip a full episode transcript or lore reconstruction."
+    },
+    {
+      "candidate_id": "c0380",
+      "status": "needs_evidence",
+      "reason": "Vaal’s village has supplies and machine authority, but the automatic-production and allocation mechanism remains unclear.",
+      "source_ids": [
+        "src-vaal-episode-reference"
+      ],
+      "analysis": "Food, hospitality and restrictions do not themselves show a durable weakening of labor’s role in acquiring necessities.",
+      "follow_up": "Skip further episode reading; do not erase villagers’ real servicing activity."
+    },
+    {
+      "candidate_id": "c0381",
+      "status": "needs_evidence",
+      "reason": "The Oracle’s navigation and religious authority do not establish Yonada’s household provisioning rules.",
+      "source_ids": [
+        "src-yonada-oracle-reference"
+      ],
+      "analysis": "An automatic worldship can contain different human labor and allocation systems. Licensed-novel backstory is separately marked and not adopted.",
+      "follow_up": "Skip deeper lore reconstruction."
+    },
+    {
+      "candidate_id": "c0382",
+      "status": "included",
+      "reason": "Mudd’s existing android-supported residence has actual provision and effective machine authority despite his title.",
+      "source_ids": [
+        "src-mudd-episode-reference",
+        "src-mudd-captivity-review"
+      ],
+      "society_id": "mudd-android-serviced-captivity"
+    },
+    {
+      "candidate_id": "c0383",
+      "status": "boundary_case",
+      "reason": "Triskelion’s thralls perform real entertainment labor for biological Providers.",
+      "source_ids": [
+        "src-triskelion-reference"
+      ],
+      "analysis": "Captivity, alien brains and advanced machines do not by themselves establish a post-work material-access order.",
+      "follow_up": "Keep as an alien exploitation comparison without equating biological rulers with AI."
+    },
+    {
+      "candidate_id": "c0384",
+      "status": "boundary_case",
+      "reason": "Exo III’s surviving android machinery does not establish a supported extant human community.",
+      "source_ids": [
+        "src-exo-iii-reference"
+      ],
+      "analysis": "Dead creators do not enter a leisure denominator, and later research or human-derived copies do not establish a general economic constitution.",
+      "follow_up": "Keep as a machine-survival/personhood comparison."
+    },
+    {
+      "candidate_id": "c0385",
+      "status": "needs_evidence",
+      "reason": "The Eymorg’s brain-controlled infrastructure does not have verified household allocation in the short check.",
+      "source_ids": [
+        "src-eymorg-controller-review"
+      ],
+      "analysis": "A stolen living brain performs a real controlling function; it must not be relabeled as an external autonomous AI merely because it interfaces with machinery.",
+      "follow_up": "Skip transcript reconstruction; reopen only for a clear provision account."
+    },
+    {
+      "candidate_id": "c0386",
+      "status": "included",
+      "reason": "The Custodian explicitly provides residents’ needs while accepting resident commands, with the alien-person proxy and uncertain governance disclosed.",
+      "source_ids": [
+        "src-aldea-custodian-reference"
+      ],
+      "society_id": "aldea-custodian-provision"
+    },
+    {
+      "candidate_id": "c0387",
+      "status": "boundary_case",
+      "reason": "Borg drones perform useful human-derived and biological cyborg labor rather than becoming a passive nonworking population.",
+      "source_ids": [
+        "src-borg-work-reference"
+      ],
+      "analysis": "Collective computation, assimilation and maintenance remain actual work. Cybernetic control is not sufficient evidence that robots replaced the persons’ contribution.",
+      "follow_up": "Keep as an embodied collective-labor comparison."
+    },
+    {
+      "candidate_id": "c0388",
+      "status": "needs_evidence",
+      "reason": "Bynar dependence on a master computer does not establish work-independent household access.",
+      "source_ids": [
+        "src-bynar-computer-reference"
+      ],
+      "analysis": "Cybernetic life support and networked thought can coexist with real work and different property systems.",
+      "follow_up": "Skip deeper lore reconstruction."
+    }
+  ],
+  "review_notes": [
+    "Twelve reference-led decisions, two bounded admissions; no complete episode transcript read or viewing.",
+    "Mudd’s existing single-human support unit is distinct from an unrealized plan to capture all humanity and the later reprogrammed parole.",
+    "Aldea accepts resident commands; AI provision does not itself imply AI sovereignty. The biological alien proxy is explicit.",
+    "Unrelated Landru-name hits, a wiki talk-page opinion and Star Trek band material were discarded; licensed-novel Oracle history is not screen canon."
+  ]
+}

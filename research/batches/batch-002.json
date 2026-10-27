@@ -1,0 +1,734 @@
+{
+  "batch_id": "batch-002",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0007",
+    "c0008",
+    "c0009",
+    "c0010",
+    "c0011",
+    "c0012",
+    "c0013",
+    "c0014"
+  ],
+  "sources": [
+    {
+      "id": "src-asimov-cove",
+      "title": "Isaac Asimov, The Evitable Conflict",
+      "author": "Mihira Konda, COVE timeline contribution",
+      "url": "https://editions.covecollective.org/content/isaac-asimov-evitable-conflict",
+      "kind": "secondary_educational_summary",
+      "accessed_on": "2026-10-16",
+      "access_method": "Page opened and summary read",
+      "read_scope": "Four Machines, economic disturbances, job losses and removal of human opponents.",
+      "limitations": "A contributed educational summary; not the complete primary story."
+    },
+    {
+      "id": "src-asimov-litcharts",
+      "title": "I, Robot: The Evitable Conflict Summary and Analysis",
+      "author": "LitCharts",
+      "url": "https://www.litcharts.com/lit/i-robot/the-evitable-conflict",
+      "kind": "secondary_literary_guide",
+      "accessed_on": "2026-10-16",
+      "access_method": "Publicly visible summary passages read",
+      "read_scope": "Hydroponics layoffs, food-plant workers, canal labor and Machine administration.",
+      "limitations": "Locked passages and placeholder text were not treated as evidence; no primary full-text review."
+    },
+    {
+      "id": "src-noon-cybers",
+      "title": "Noon: 22nd Century, robot-service discussion",
+      "author": "Arkady and Boris Strugatsky",
+      "url": "https://strugacki.ru/book_11/407.html",
+      "kind": "primary_fiction_unofficial_mirror",
+      "accessed_on": "2026-10-16",
+      "access_method": "Russian-language primary passage opened and read",
+      "read_scope": "Multifunctional domestic cyber-machines, their serial production, and the point of freeing human thought.",
+      "limitations": "Mirror pagination is not a print edition locator; the English database paraphrases rather than quotes a published translation."
+    },
+    {
+      "id": "src-noon-mirf",
+      "title": "The World of Noon: The Future According to the Strugatsky Brothers",
+      "author": "Mir Fantastiki",
+      "url": "https://www.mirf.ru/book/mir-poldnya",
+      "kind": "secondary_genre_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Article and relevant indexed passages read",
+      "read_scope": "Automated mass production, abundance, human vocations, and world/local councils.",
+      "limitations": "Institutional overview combines several Noon works; do not project all details onto every story or colony."
+    },
+    {
+      "id": "src-huxley-16",
+      "title": "Brave New World, Chapter 16",
+      "author": "Aldous Huxley",
+      "url": "https://opentextbc.ca/englishliterature/chapter/brave-new-world-chapter-16/",
+      "kind": "primary_fiction_educational_edition",
+      "accessed_on": "2026-10-16",
+      "access_method": "Chapter opened; relevant Controller dialogue read",
+      "read_scope": "Caste employment, hours, the Irish experiment, withheld inventions and agricultural labor.",
+      "limitations": "The Controller speaks for the regime; the statement still directly contradicts automatic classification as a society without work."
+    },
+    {
+      "id": "src-orwell-1984",
+      "title": "Nineteen Eighty-Four",
+      "author": "George Orwell",
+      "url": "https://www.gutenberg.net.au/ebooks01/0100021h.html",
+      "kind": "primary_fiction",
+      "accessed_on": "2026-10-16",
+      "access_method": "Opening text and indexed Part II, Chapter 9 passage read; later direct fetch failed",
+      "read_scope": "Winston's working society and the embedded Goldstein text's discussion of machinery, deprivation and war.",
+      "limitations": "The embedded political treatise is an in-universe text. No claim to reading the complete novel in this session."
+    },
+    {
+      "id": "src-midas-ryder",
+      "title": "Lessons from science fiction: Frederik Pohl and the robot prosumer",
+      "author": "MJ Ryder",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/1469540520944228",
+      "kind": "secondary_scholarly_analysis",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public article page and Midas section read",
+      "read_scope": "Automated overproduction, compulsory consumption, and the shift to robot consumers at the ending.",
+      "limitations": "Primary story still needs edition-level review before separating the ending into a confirmed additional record."
+    },
+    {
+      "id": "src-wells-time",
+      "title": "The Time Machine",
+      "author": "H. G. Wells",
+      "url": "https://www.gutenberg.org/files/35/35-h/35-h.htm",
+      "kind": "primary_fiction",
+      "accessed_on": "2026-10-16",
+      "access_method": "Primary passages opened and read",
+      "read_scope": "The traveller's changing theories of automatic civilization, underground work, class descent and the limits of his knowledge.",
+      "limitations": "The narrator repeatedly revises his explanations; original prose and film continuities must be evaluated separately."
+    },
+    {
+      "id": "src-lem-culturepl",
+      "title": "The Futurological Congress – Stanisław Lem",
+      "author": "Culture.pl, Adam Mickiewicz Institute",
+      "url": "https://culture.pl/en/work/the-futurological-congress-stanislaw-lem",
+      "kind": "secondary_institutional_literary_overview",
+      "accessed_on": "2026-10-16",
+      "access_method": "Full overview opened and relevant sections read",
+      "read_scope": "Nested hallucinations, chemical governance and the distinction between apparent and material abundance.",
+      "limitations": "Not the full novel; the production and distribution mechanism is not sufficiently established for admission."
+    },
+    {
+      "id": "src-psycho-17",
+      "title": "Psycho-Pass, Season 1 Episode 17, Iron Heart: transcript",
+      "author": "Episode dialogue, transcribed by Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s01e17&tv-show=psycho-pass-2012",
+      "kind": "primary_dialogue_unofficial_transcript",
+      "accessed_on": "2026-10-16",
+      "access_method": "Transcript opened and reveal dialogue read",
+      "read_scope": "Unitized human brains, cybernetic bodies and Sibyl's constituent members.",
+      "limitations": "Unofficial English transcript; verify wording against a licensed episode before final publication."
+    },
+    {
+      "id": "src-psycho-19",
+      "title": "Psycho-Pass, Season 1 Episode 19, Transparent Shadow: transcript",
+      "author": "Episode dialogue, transcribed by Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s01e19&tv-show=psycho-pass-2012",
+      "kind": "primary_dialogue_unofficial_transcript",
+      "accessed_on": "2026-10-16",
+      "access_method": "Transcript opened and food-production discussion read",
+      "read_scope": "Hyper-oats, drone farming, absent agricultural workers and systemic food vulnerability.",
+      "limitations": "Automated farming does not by itself prove that all household provision is independent of employment."
+    }
+  ],
+  "societies": [
+    {
+      "id": "evitable-conflict-earth",
+      "candidate_id": "c0007",
+      "name": "The Evitable Conflict",
+      "work": "The Evitable Conflict",
+      "society": "Earth under the Machines",
+      "media": [
+        "book",
+        "short_story"
+      ],
+      "description": "The Machines coordinate the world's economy and protect its overall stability. Their decisions can quietly remove opponents from influential positions, leaving human officials with much less control than their titles suggest. That puts this society near the autonomous-machine end of the control axis, with a broadly protective material orientation. It is a useful analogue for the article's fifth regime.\n\nIt is nevertheless retained as a zero variant because the reviewed evidence still describes plant workers, layoffs, and shortages of human labor. Machine coordination does not itself show that people obtain their necessities independently of employment. The guarantees score describes the system's protective orientation and has a wide range; it is not proof of an explicit universal entitlement. No nonworking fraction is manufactured from the fact that computers govern. A primary-text pass remains a named research gap before the record can be considered complete.",
+      "record_type": "zero_variant",
+      "scope": {
+        "continuity": "Original prose work",
+        "period": "The 2052 world economy under the four Machines",
+        "population": "Human inhabitants of the machine-coordinated world economy",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Other adaptations",
+          "Later materially changed regimes"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "axis": {
+        "guarantees": -0.6,
+        "control": -0.9,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.9,
+            -0.2
+          ],
+          "confidence": "low",
+          "basis": "Machine protection and economic security are supported by secondary summaries; a universal entitlement is less explicit.",
+          "source_ids": [
+            "src-asimov-cove",
+            "src-asimov-litcharts"
+          ]
+        },
+        "control": {
+          "interval": [
+            -1,
+            -0.7
+          ],
+          "confidence": "medium",
+          "basis": "The Machines make decisive economic choices beyond meaningful human oversight.",
+          "source_ids": [
+            "src-asimov-cove",
+            "src-asimov-litcharts"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Human employment remains important in the consulted accounts; no population participation figure is given.",
+          "source_ids": [
+            "src-asimov-cove",
+            "src-asimov-litcharts"
+          ]
+        }
+      },
+      "regime_primary": 0,
+      "regime_analogy": 5,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "evidence": [
+        {
+          "claim": "Machine government is supported, but removal of human economic dependence on employment is not established.",
+          "source_ids": [
+            "src-asimov-cove",
+            "src-asimov-litcharts"
+          ],
+          "locator": "See source read_scope and the retained decision analysis",
+          "kind": "interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Primary story review is still required to strengthen this provisional literary assessment.",
+        "Freedom from unemployment is not the same as freedom from employment."
+      ],
+      "source_ids": [
+        "src-asimov-cove",
+        "src-asimov-litcharts"
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass after the user's explicit zero-variant inclusion clarification; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "noon-earth",
+      "candidate_id": "c0008",
+      "name": "Noon Universe (Earth)",
+      "work": "Noon Universe",
+      "society": "Earth of the Noon Universe",
+      "media": [
+        "book",
+        "short_story"
+      ],
+      "scope": {
+        "continuity": "Original Strugatsky prose continuity",
+        "period": "Earth's mature twenty-second-century order",
+        "population": "Human residents of Earth",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Contacted alien civilizations",
+          "Emergency conditions at remote colonies",
+          "Film adaptations of other Noon societies"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "On Noon Earth, routine services and mass production have largely passed to cybernetic machines. Their purpose is to free human attention for activities people find worthwhile, rather than leave everyone competing for a wage that buys the next meal. Material abundance and common provision place the society toward strong guarantees. The domestic robots are part of an everyday public order, not evidence of a separate machine ruling class.\n\nHuman councils and professional communities organize collective life, so the control score is toward broad social participation. It is kept short of the maximum because expertise and coordinating institutions still carry substantial authority. People remain intensely active as researchers, educators, explorers, and other specialists. That makes Noon a useful warning against treating post-work security as universal idleness. The sources support release from routine economic necessity, but they do not provide a defensible population-wide percentage of humans doing no productive work; that axis stays unresolved.",
+      "axis": {
+        "guarantees": -0.9,
+        "control": 0.85,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -1,
+            -0.7
+          ],
+          "confidence": "medium",
+          "basis": "Automated abundance and common access rather than individual wage purchase.",
+          "source_ids": [
+            "src-noon-cybers",
+            "src-noon-mirf"
+          ]
+        },
+        "control": {
+          "interval": [
+            0.6,
+            0.95
+          ],
+          "confidence": "medium",
+          "basis": "Human councils and professional associations retain coordination; technocratic authority remains.",
+          "source_ids": [
+            "src-noon-mirf"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Many productive vocations persist, without a participation census.",
+          "source_ids": [
+            "src-noon-cybers",
+            "src-noon-mirf"
+          ]
+        }
+      },
+      "regime_primary": 2,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "evidence": [
+        {
+          "claim": "Cybernetic services release human effort from routine tasks.",
+          "source_ids": [
+            "src-noon-cybers"
+          ],
+          "locator": "Conversation about sanitation, gardening and serial cyber production",
+          "kind": "depicted_or_author_stated"
+        },
+        {
+          "claim": "Human councils and shared abundance support the qualitative placement.",
+          "source_ids": [
+            "src-noon-mirf"
+          ],
+          "locator": "Technology; Society and institutions",
+          "kind": "secondary_reference"
+        }
+      ],
+      "uncertainties": [
+        "Institutional details should receive additional work-by-work primary corroboration.",
+        "No exact nonworking percentage is supplied."
+      ],
+      "source_ids": [
+        "src-noon-cybers",
+        "src-noon-mirf"
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass separating material security from continued vocation; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "brave-new-world-state",
+      "candidate_id": "c0009",
+      "name": "Brave New World (original novel)",
+      "work": "Brave New World",
+      "society": "World State",
+      "media": [
+        "book"
+      ],
+      "description": "The World State offers a managed material life within an engineered caste system. Its rulers decide what people are suited to do and organize consumption and employment around social stability. This places control near the concentrated elite band. The provision score recognizes the regime's supplied routine while allowing for its coercive, conditional structure; engineered contentment is not by itself evidence of secure universal rights.\n\nThe original novel belongs to the zero variant. In Chapter 16, Mond explains that the authorities retain labor, reject available labor-saving processes, and keep agricultural work that technology could reduce. Automation's possibility is deliberately prevented from becoming a general release from work. That makes it a different case from people living entirely on robot output. The description concerns Huxley's novel; television adaptations must be checked independently. The population-wide fraction of nonworkers is unknown and is not set to zero merely because employment is pervasive.",
+      "record_type": "zero_variant",
+      "scope": {
+        "continuity": "Original prose work",
+        "period": "The World State described by Mustapha Mond in the original novel",
+        "population": "Humans within the World State's caste order",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Other adaptations",
+          "Later materially changed regimes"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "axis": {
+        "guarantees": -0.55,
+        "control": 0,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.8,
+            -0.15
+          ],
+          "confidence": "low",
+          "basis": "Managed subsistence exists, but it accompanies a conditioned caste and labor order.",
+          "source_ids": [
+            "src-huxley-16"
+          ]
+        },
+        "control": {
+          "interval": [
+            -0.05,
+            0.1
+          ],
+          "confidence": "medium",
+          "basis": "The Controllers decide the use of productive technology and the population's roles.",
+          "source_ids": [
+            "src-huxley-16"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Retained work is explicit, but neither the age structure nor a full participation rate is established.",
+          "source_ids": [
+            "src-huxley-16"
+          ]
+        }
+      },
+      "regime_primary": 0,
+      "regime_analogy": 1,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "evidence": [
+        {
+          "claim": "The original novel deliberately preserves caste labor despite available labor-saving technology.",
+          "source_ids": [
+            "src-huxley-16"
+          ],
+          "locator": "See source read_scope and the retained decision analysis",
+          "kind": "interpretation"
+        }
+      ],
+      "uncertainties": [
+        "The score concerns the original novel, not the 2020 Indra storyline.",
+        "Political coercion and material provision are recorded as different dimensions."
+      ],
+      "source_ids": [
+        "src-huxley-16"
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass after the user's explicit zero-variant inclusion clarification; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "orwell-oceania",
+      "candidate_id": "c0010",
+      "name": "Nineteen Eighty-Four (Oceania)",
+      "work": "Nineteen Eighty-Four",
+      "society": "Oceania",
+      "media": [
+        "book"
+      ],
+      "description": "Oceania combines concentrated political command with deprivation and extensive human work. Access to a comfortable material life is not a reliable universal entitlement, so the guarantee score lies near the weak end. The Party's hierarchy, rather than a self-governing machine civilization, determines the system's purposes. The control score therefore stays close to elite human command.\n\nThis is a zero variant about suppressing the benefits technology might make possible. The embedded Goldstein text argues that machinery could remove drudgery, while continuous war consumes output that might otherwise improve living conditions. The existence of that argument does not mean the society shown has already abolished employment. Its role in the database is to contrast technical capacity with political choice. Because the treatise is itself an in-universe political document and the novel supplies no employment census, neither its economic account nor a precise nonworking percentage is treated as an independently measured fact.",
+      "record_type": "zero_variant",
+      "scope": {
+        "continuity": "Original prose work",
+        "period": "Oceania during Winston Smith's story",
+        "population": "Humans living under Oceania's Party order",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Other adaptations",
+          "Later materially changed regimes"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "axis": {
+        "guarantees": 0.85,
+        "control": 0,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            0.6,
+            1
+          ],
+          "confidence": "low",
+          "basis": "Depicted deprivation and the regime's preservation of scarcity oppose reliable universal access.",
+          "source_ids": [
+            "src-orwell-1984"
+          ]
+        },
+        "control": {
+          "interval": [
+            -0.05,
+            0.1
+          ],
+          "confidence": "medium",
+          "basis": "The Party's hierarchy directs the social order; no autonomous AI sovereign is established.",
+          "source_ids": [
+            "src-orwell-1984"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Human work persists, but no defensible population-wide fraction is provided.",
+          "source_ids": [
+            "src-orwell-1984"
+          ]
+        }
+      },
+      "regime_primary": 0,
+      "regime_analogy": 3,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "evidence": [
+        {
+          "claim": "Oceania preserves work and deprivation; machinery's capacity to support abundance is a counterfactual in the political argument.",
+          "source_ids": [
+            "src-orwell-1984"
+          ],
+          "locator": "See source read_scope and the retained decision analysis",
+          "kind": "interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Goldstein's account is an embedded, politically mediated text.",
+        "More chapter-specific primary locators would strengthen the final review."
+      ],
+      "source_ids": [
+        "src-orwell-1984"
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass after the user's explicit zero-variant inclusion clarification; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "midas-compulsory-consumption",
+      "candidate_id": "c0011",
+      "name": "The Midas Plague (compulsory-consumption phase)",
+      "work": "The Midas Plague",
+      "society": "Compulsory-consumption society",
+      "media": [
+        "short_story",
+        "book"
+      ],
+      "description": "Robots produce such an abundance of goods that ordinary deprivation is inverted: the burden is having to consume more than one wants. The material score is strongly toward provision, while control stays near a centrally imposed human quota order. The arrangement illustrates why plentiful output alone does not establish personal freedom or a voluntary use of time.\n\nFollowing the article's interpretation, compulsory consumption is treated as retained social work, making this phase a zero variant. A human freed from factory labor can still be assigned an exhausting obligation that keeps the production system going. The later move toward robot consumers may constitute a different arrangement, but it is not silently averaged into this phase. This pass relies on an identified scholarly discussion; the primary ending and the exact authority over production remain review gaps. No numeric nonworking share is inferred from the disappearance of manufacturing jobs.",
+      "record_type": "zero_variant",
+      "scope": {
+        "continuity": "Original prose work",
+        "period": "The quota regime before robot consumption becomes the proposed remedy",
+        "population": "Human members of the consumption-quota society",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Other adaptations",
+          "Later materially changed regimes"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "axis": {
+        "guarantees": -0.8,
+        "control": 0,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.95,
+            -0.5
+          ],
+          "confidence": "low",
+          "basis": "Excess material output supports provision, though compulsory consumption is coercive.",
+          "source_ids": [
+            "src-midas-ryder"
+          ]
+        },
+        "control": {
+          "interval": [
+            -0.15,
+            0.3
+          ],
+          "confidence": "medium",
+          "basis": "Quota administration indicates concentrated control; detailed productive ownership remains a gap.",
+          "source_ids": [
+            "src-midas-ryder"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Consumption is counted as imposed social work here; there is no participation census.",
+          "source_ids": [
+            "src-midas-ryder"
+          ]
+        }
+      },
+      "regime_primary": 0,
+      "regime_analogy": 1,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "evidence": [
+        {
+          "claim": "Automation removes production labor but the scoped order imposes consumption as a compulsory social task; the ending needs its own primary review.",
+          "source_ids": [
+            "src-midas-ryder"
+          ],
+          "locator": "See source read_scope and the retained decision analysis",
+          "kind": "interpretation"
+        }
+      ],
+      "uncertainties": [
+        "A primary-text review is needed for productive ownership and the ending.",
+        "Whether compulsory consumption counts as work is an explicit interpretive choice, matching the supplied article."
+      ],
+      "source_ids": [
+        "src-midas-ryder"
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass after the user's explicit zero-variant inclusion clarification; no independent reviewer",
+        "coordinate_ready": false
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0007",
+      "status": "zero_variant",
+      "reason": "Machine government is supported, but removal of human economic dependence on employment is not established.",
+      "source_ids": [
+        "src-asimov-cove",
+        "src-asimov-litcharts"
+      ],
+      "analysis": "The Machines' economic coordination coexists with human workers, shortages and layoffs. This qualifies the retained zero variant: machine authority need not abolish employment. It does not establish a high nonworking fraction.\n\nThe record is part of the main corpus under the user's clarification. Its unresolved material-security and participation questions remain follow-ups, rather than reasons to describe the current record as unpublished or outside the database.",
+      "follow_up": "Strengthen the existing zero-variant record with the primary regional reports and material-security statements; do not convert machine planning into a labor census.",
+      "previous_status": "boundary_case",
+      "society_id": "evitable-conflict-earth",
+      "scope_clarification": "User explicitly requested inclusion of zero variants on 2026-10-16.",
+      "pre_clarification_analysis": "The Machines take effective control of economic coordination and quietly remove people who threaten that arrangement. This is a strong reference for autonomous paternalistic government. It is not sufficient evidence that human labor has ceased to be the ordinary route to income or goods. The consulted summaries describe food-plant workers, labor shortages and layoffs.\n\nKeep the society as a boundary example near the article's autonomous-control discussion. Do not assign a high nonworking fraction merely because supercomputers plan the economy. A primary review could establish how far material security is detached from employment, but that distinction is unresolved in the evidence gathered here. No six-regime plot point is published from this pass.",
+      "pre_clarification_follow_up": "Read the primary story's regional reports and material-security statements before reconsidering inclusion.",
+      "follow_up_reviewed_on": "2026-10-16"
+    },
+    {
+      "candidate_id": "c0008",
+      "status": "included",
+      "society_id": "noon-earth",
+      "reason": "Automated mass production and common material security qualify; persistent human vocations make the labor percentage unresolved."
+    },
+    {
+      "candidate_id": "c0009",
+      "status": "zero_variant",
+      "reason": "The original novel deliberately preserves caste labor despite available labor-saving technology.",
+      "source_ids": [
+        "src-huxley-16"
+      ],
+      "analysis": "The World State preserves caste employment despite labor-saving capacity. Mond's Chapter 16 explanation supports the zero-variant classification. Material management and retained work coexist.\n\nThis original-novel record belongs in the main corpus with regime 0. Adaptations still need independent continuity checks; no employment percentage is inferred merely from the State's ability to shorten work.",
+      "follow_up": "Strengthen the existing coordinates where possible and establish a defensible participation estimate. Assess adaptations separately; their arrangements are not automatically those of the novel.",
+      "previous_status": "boundary_case",
+      "society_id": "brave-new-world-state",
+      "scope_clarification": "User explicitly requested inclusion of zero variants on 2026-10-16.",
+      "pre_clarification_analysis": "The World State is materially managed and hierarchically controlled, but that does not make it a society that has replaced work. In Chapter 16, Mond explains why the authorities withhold labor-saving inventions, retain agricultural employment and avoid shorter working days. The labor requirement is a feature of the social order.\n\nThis conflicts with treating the original novel as an uncomplicated example of concentrated ownership plus post-work guarantees. Preserve it as a zero-variant comparison on the automation-to-employment spectrum. An adaptation can change the arrangement and should be researched in its own continuity; this decision does not automatically settle the 2020 television series. No invented unemployment figure is attached to the book.",
+      "pre_clarification_follow_up": "If comparison coordinates are later requested, derive them from the novel's employment and caste arrangements; evaluate adaptations separately.",
+      "follow_up_reviewed_on": "2026-10-16"
+    },
+    {
+      "candidate_id": "c0010",
+      "status": "zero_variant",
+      "reason": "Oceania preserves work and deprivation; machinery's capacity to support abundance is a counterfactual in the political argument.",
+      "source_ids": [
+        "src-orwell-1984"
+      ],
+      "analysis": "Oceania's institutions preserve labor and deprivation. The embedded political treatise discusses machinery's capacity to remove drudgery and the use of waste to defend hierarchy. Its in-universe authorship remains an evidence limitation.\n\nThe retained record is a zero variant in the main corpus, with the post-work subset counted separately. Present institutions and counterfactual potential are distinguished; the existence of machines supplies no all-age nonworking percentage.",
+      "follow_up": "Corroborate the existing record's labor and distribution claims with additional chapter-level primary passages and review the unresolved participation coordinate.",
+      "previous_status": "boundary_case",
+      "society_id": "orwell-oceania",
+      "scope_clarification": "User explicitly requested inclusion of zero variants on 2026-10-16.",
+      "pre_clarification_analysis": "The novel depicts working institutions and systematic deprivation. Its embedded political treatise discusses how machinery could eliminate drudgery, and how hierarchy is protected by wasting output through continuous war. Technological potential and the society actually being lived are different things.\n\nOceania therefore remains a useful zero-variant reference, as the supplied article itself suggests. It should not inflate the confirmed post-work count. The embedded treatise also has an in-universe author and political purpose, so its claims should not be presented as an omniscient technical account of every aspect of the world. This pass establishes the comparison role without inventing a share of nonworkers.",
+      "pre_clarification_follow_up": "Corroborate specific labor and distribution claims with chapter-level primary passages if comparison records receive coordinates.",
+      "follow_up_reviewed_on": "2026-10-16"
+    },
+    {
+      "candidate_id": "c0011",
+      "status": "zero_variant",
+      "reason": "The scoped order retains compulsory consumption despite automated production; the changed later arrangement has its own record under c0042.",
+      "source_ids": [
+        "src-midas-ryder",
+        "src-man-ate-world-primary"
+      ],
+      "analysis": "Robotic overproduction coexists with a compulsory consumption task, which the supplied article treats as retained social work. The quota period is therefore included in the main corpus as a zero variant.\n\nBatch 006 directly checked the later story's dialogue: Morey Fry's reform has already released people from that duty. Candidate c0042 now supplies the separate post-quota record midas-world-after-fry. The childhood flashbacks are not counted again, and the two periods are not averaged into one point.",
+      "follow_up": "Still verify The Midas Plague's own ending against the primary story. The later arrangement is already researched under c0042; do not append a duplicate candidate for it.",
+      "previous_status": "boundary_case",
+      "society_id": "midas-compulsory-consumption",
+      "scope_clarification": "User explicitly requested inclusion of zero variants on 2026-10-16.",
+      "pre_clarification_analysis": "Robotic overproduction supplies abundant goods, while people are required to consume their assigned output. Under a definition limited to manufacturing jobs this could look fully post-work, but the article explicitly treats the consumption burden as retained employment. Its social function is compulsory participation rather than voluntary leisure.\n\nRetain the compulsory-consumption phase as a boundary case. The story's ending shifts some consumption onto robots, which may warrant a distinct qualifying record once the primary text and the final arrangement have been checked. Do not merge the earlier quota regime and later change into one average point, or manufacture a separate verified society from a short secondary summary.",
+      "pre_clarification_follow_up": "Review the primary ending; append a new stable candidate for the changed regime if it is sufficiently established.",
+      "follow_up_reviewed_on": "2026-10-16"
+    },
+    {
+      "candidate_id": "c0012",
+      "status": "boundary_case",
+      "reason": "The traveller's initial automated-utopia theory is revised toward a relation between two human-descended populations, one doing underground work.",
+      "source_ids": [
+        "src-wells-time"
+      ],
+      "analysis": "The Eloi appear to live without work, but the traveller first lacks any explanation for their clothing and other goods. He then connects the underground population with necessary production. The novel repeatedly marks these explanations as his changing theories rather than a reliable statistical account of an automated economy.\n\nA leisure class supported by another human-descended laboring population is not enough to demonstrate automation-based post-work distribution. Keep the combined Eloi–Morlock order as a boundary reference for class division and insecurity. An Eloi-only percentage would hide the population doing the work. Film versions can change the mechanics and need separate checks before sharing the original novel's classification.",
+      "follow_up": "Review each adaptation separately; do not infer robotic production from the phrase 'Time Machine'."
+    },
+    {
+      "candidate_id": "c0013",
+      "status": "needs_evidence",
+      "reason": "Chemical apparent abundance is well supported; a durable automation-based production and distribution system is not yet demonstrated.",
+      "source_ids": [
+        "src-lem-culturepl"
+      ],
+      "analysis": "The central evidence concerns a perceived paradise concealed beneath layers of chemical manipulation. A material-provision score would have to describe the actual food and shelter, not the wealth people think they see. The consulted institutional overview specifically warns against making robotics the central explanation of this world.\n\nThe vision also belongs to a chain of unreliable perceptions. That does not make it unusable as a fictional social scenario, but its narrative level must be labeled. Before admission, locate primary passages explaining production, who receives necessities, and whether human labor is still required. The supplied article's concise analogy is a research lead rather than enough evidence for a completed database record.",
+      "follow_up": "Read the future diary and countersomniac revelations in the primary novel; establish the automation and labor mechanism."
+    },
+    {
+      "candidate_id": "c0014",
+      "status": "needs_evidence",
+      "reason": "Agricultural automation is explicit, but economy-wide post-work provision is unproven and Sibyl is not simply a nonhuman AI sovereign.",
+      "source_ids": [
+        "src-psycho-17",
+        "src-psycho-19"
+      ],
+      "analysis": "Episode 19 describes fully automated farming, a concrete reason to investigate the setting. It does not establish that citizens can generally obtain necessities independently of employment. A whole economy cannot be classified from the disappearance of agricultural jobs alone.\n\nEpisode 17 also reveals a crucial control complication: Sibyl incorporates an aggregate of human brains. It cannot simply be placed at the autonomous nonhuman-AI end because it appears on screen as a technological system. A final record should distinguish the ruling cybernetic human collective, subordinate automation, compliant citizens and people excluded from protection. The unofficial transcripts support these research questions, but the distribution rules still need direct episode-level verification.",
+      "follow_up": "Check licensed episodes 1, 3, 17, 19–22 for jobs, provision, exclusion and Sibyl authority; then decide whether the society qualifies or remains a comparison."
+    }
+  ],
+  "review_notes": [
+    "Several article anchors are boundary cases rather than automatic admissions.",
+    "Secondary sources are identified and incomplete primary coverage is retained as a gap.",
+    "No new numeric labor estimates were inferred from the presence of machines or from an elite subgroup.",
+    "User clarification: this batch retains one post-work and four zero-variant society records; other cases keep their admission gaps.",
+    "Batch 006 follow-up: current decision prose now reflects zero-variant inclusion; pre-clarification prose is preserved in explicitly historical fields. The later Midas order is covered by c0042."
+  ]
+}

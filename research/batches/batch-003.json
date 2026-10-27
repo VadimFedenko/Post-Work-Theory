@@ -1,0 +1,745 @@
+{
+  "batch_id": "batch-003",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0015",
+    "c0016",
+    "c0017",
+    "c0018",
+    "c0019",
+    "c0020"
+  ],
+  "sources": [
+    {
+      "id": "src-detroit-official",
+      "title": "Detroit: Become Human official overview",
+      "author": "Quantic Dream",
+      "url": "https://www.quanticdream.com/en/detroit-become-human/flowcharts",
+      "kind": "official_developer_overview",
+      "accessed_on": "2026-10-16",
+      "access_method": "Official page opened and read",
+      "read_scope": "2038 setting, human service roles, android slavery and branching outcomes.",
+      "limitations": "Marketing overview; does not give an economic settlement for every ending."
+    },
+    {
+      "id": "src-detroit-new-home",
+      "title": "A New Home: transcript",
+      "author": "Game dialogue transcribed by the Detroit: Become Human Wiki",
+      "url": "https://detroit-become-human.fandom.com/wiki/A_New_Home_%28Transcript%29",
+      "kind": "primary_dialogue_unofficial_transcript",
+      "accessed_on": "2026-10-16",
+      "access_method": "Indexed transcript passage read; direct access was unavailable",
+      "read_scope": "CTN news report of 225,000 job losses and 37.3% unemployment.",
+      "limitations": "A reported unemployment figure, not the fraction of all humans who do not work. Verify against the game before final publication."
+    },
+    {
+      "id": "src-detroit-ending-guide",
+      "title": "Chapter 31: Battle for Detroit",
+      "author": "Andrew Testa, GameFAQs",
+      "url": "https://gamefaqs.gamespot.com/ps4/182637-detroit-become-human/faqs/75941/chapter-31-battle-for-detroit",
+      "kind": "secondary_gameplay_guide",
+      "accessed_on": "2026-10-16",
+      "access_method": "Full relevant walkthrough section opened and read",
+      "read_scope": "Peaceful demonstration, singing, public opinion and military stand-down.",
+      "limitations": "Documents branch conditions, not a durable post-ending economic system or an enacted rights charter."
+    },
+    {
+      "id": "src-hornwright-terminals",
+      "title": "Hornwright Industrial Headquarters terminals",
+      "author": "Fallout 76 terminal text, transcribed by The Vault Fallout Wiki",
+      "url": "https://fallout-archive.fandom.com/wiki/Hornwright_Industrial_Headquarters_terminals",
+      "kind": "primary_game_text_unofficial_transcription",
+      "accessed_on": "2026-10-16",
+      "access_method": "Substantial indexed terminal extracts read; direct page returned an access error",
+      "read_scope": "Daniel's automation goal, remaining staff, hiring exam, automation opposition and political collaboration.",
+      "limitations": "Primary terminal fragments through a fan mirror; the evidence is regional and does not measure all prewar America."
+    },
+    {
+      "id": "src-bethesda-motherlode",
+      "title": "Breach and Clear – Activity – Fallout 76",
+      "author": "Bethesda Support",
+      "url": "https://help.bethesda.net/app/answers/detail/a_id/51953/~/breach-and-clear---event-quest---fallout-76",
+      "kind": "official_gameplay_documentation",
+      "accessed_on": "2026-10-16",
+      "access_method": "Indexed official activity description read",
+      "read_scope": "The Motherlode is an automated mining bot at Hornwright sites.",
+      "limitations": "Confirms a machine and activity; labor politics come from separate terminal evidence."
+    },
+    {
+      "id": "src-institute-overview",
+      "title": "The Institute",
+      "author": "Fallout Wiki contributors",
+      "url": "https://fallout.fandom.com/wiki/The_Institute",
+      "kind": "secondary_game_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Substantial indexed faction, BioScience and labor passages read",
+      "read_scope": "Directorate, scientific divisions, synth labor, food and health provision.",
+      "limitations": "Fan reference with game citations; direct primary dialogue and terminal review remains desirable."
+    },
+    {
+      "id": "src-institute-food",
+      "title": "Institute food synthesizer",
+      "author": "Fallout Wiki contributors",
+      "url": "https://fallout.fandom.com/wiki/Institute_food_synthesizer",
+      "kind": "secondary_game_object_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Indexed object entry read",
+      "read_scope": "Commissary food-machine outputs and in-game object references.",
+      "limitations": "A dispenser alone does not prove food is created without inputs or that every resident has unconditional rights."
+    },
+    {
+      "id": "src-cyber-ai",
+      "title": "Artificial Intelligence",
+      "author": "Cyberpunk Wiki contributors",
+      "url": "https://cyberpunk.fandom.com/wiki/Artificial_Intelligence",
+      "kind": "secondary_game_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Relevant indexed history passage read",
+      "read_scope": "Corporate and government AI use in 2077 and Blackwall containment of rogue systems.",
+      "limitations": "Cross-era franchise overview; the Blackwall is not evidence of a blanket ban on all AI in 2077."
+    },
+    {
+      "id": "src-cyber-north-oak",
+      "title": "North Oak (2077): Database Entry",
+      "author": "Cyberpunk 2077 text reproduced by Cyberpunk Wiki",
+      "url": "https://cyberpunk.fandom.com/wiki/North_Oak_%282077%29",
+      "kind": "primary_game_text_unofficial_transcription",
+      "accessed_on": "2026-10-16",
+      "access_method": "Indexed database text read",
+      "read_scope": "Corporate-sponsored eviction of the earlier settlement and later concentration of wealthy residents.",
+      "limitations": "A particular district; does not provide a city-wide labor or ownership census."
+    },
+    {
+      "id": "src-her-script",
+      "title": "Her: screenplay",
+      "author": "Spike Jonze",
+      "url": "https://www.sellingyourscreenplay.com/wp-content/uploads/screenplay/scripts/Her.pdf",
+      "kind": "primary_screenplay_unofficial_mirror",
+      "accessed_on": "2026-10-16",
+      "access_method": "PDF opening and OS ONE advertisement and installation passages read",
+      "read_scope": "Printed script pages 1–2 and 10–11: paid letter-writing, consumer AI and installation.",
+      "limitations": "Screenplay draft, not a complete review of the released film. No economy-wide guarantees or labor rate are stated in these passages."
+    }
+  ],
+  "societies": [
+    {
+      "id": "detroit-before-revolution",
+      "candidate_id": "c0015",
+      "name": "Detroit: Become Human (before the android revolution)",
+      "work": "Detroit: Become Human",
+      "society": "United States before the android revolution",
+      "media": [
+        "game"
+      ],
+      "record_type": "post_work",
+      "description": "Android service work has displaced a substantial part of the human workforce, while the machines are still treated as property. The result is an uneven transition: automation is widespread, but human society has not adopted an equally widespread entitlement to its output. The guarantee score therefore leans toward weak protection, with uncertainty about policies the consulted material does not describe.\n\nCyberLife supplies the android technology, while households and businesses use individual units. Control is concentrated enough to sit near the elite band, but it is not literally one company owning every productive asset; the range allows for more distributed human ownership. The in-game news reports 37.3% unemployment. That figure is stored separately because unemployment is measured against a labor force, not all human residents. It cannot be copied into the nonworking axis. This record describes an automation-driven disruption, not a completed abolition of employment.",
+      "axis": {
+        "guarantees": 0.65,
+        "control": 0.2,
+        "nonworking": null
+      },
+      "scope": {
+        "continuity": "Original game continuity",
+        "period": "Detroit and the United States in November 2038, before a successful android uprising",
+        "population": "Humans in the android-disrupted United States economy, with Detroit as the depicted focus",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Free android polities after a successful ending",
+          "An assumption that all humans have already stopped working"
+        ],
+        "branch": null,
+        "player_configurable": false,
+        "labor_phase": "partial labor-displacement transition"
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            0.2,
+            0.9
+          ],
+          "confidence": "low",
+          "basis": "Major displacement and social conflict are supported; a universal material entitlement is not established.",
+          "source_ids": [
+            "src-detroit-official",
+            "src-detroit-new-home"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.55
+          ],
+          "confidence": "low",
+          "basis": "CyberLife's platform and manufacture coexist with many human purchasers and users.",
+          "source_ids": [
+            "src-detroit-official",
+            "src-detroit-new-home"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "The reported 37.3% unemployment rate has a different denominator from all humans.",
+          "source_ids": [
+            "src-detroit-official",
+            "src-detroit-new-home"
+          ]
+        }
+      },
+      "regime_primary": 3,
+      "regime_alternatives": [
+        4
+      ],
+      "qualification": "included",
+      "evidence": [
+        {
+          "claim": "Major displacement and social conflict are supported; a universal material entitlement is not established.",
+          "source_ids": [
+            "src-detroit-official",
+            "src-detroit-new-home"
+          ],
+          "locator": "See the named source read_scope and the entry's scoped period",
+          "kind": "interpretation"
+        },
+        {
+          "claim": "CyberLife's platform and manufacture coexist with many human purchasers and users.",
+          "source_ids": [
+            "src-detroit-official",
+            "src-detroit-new-home"
+          ],
+          "locator": "See the named source read_scope and the entry's scoped period",
+          "kind": "interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Welfare and ownership arrangements need more in-game document review.",
+        "The official developer page gives 2038; an older regional store description still says 2036 and is not adopted."
+      ],
+      "source_ids": [
+        "src-detroit-official",
+        "src-detroit-new-home"
+      ],
+      "reported_labor_statistics": [
+        {
+          "metric": "reported_unemployment_rate",
+          "value": 0.373,
+          "denominator": "labor force as reported by in-universe news; not all humans",
+          "source_id": "src-detroit-new-home",
+          "locator": "A New Home, CTN job-loss report"
+        }
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass distinguishing the supported scope, inference and unresolved data; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "fallout-prewar-appalachia",
+      "candidate_id": "c0017",
+      "name": "Fallout (prewar Appalachia)",
+      "work": "Fallout",
+      "society": "Prewar Appalachian automation economy",
+      "media": [
+        "game"
+      ],
+      "record_type": "post_work",
+      "description": "Hornwright's records show a corporate drive to remove human labor from mining and expand automation further. Machines such as the Motherlode give this more substance than a general claim that the future has robots. The owners aim to preserve output while reducing their dependence on workers, and opposition to that policy is treated as an obstacle to corporate and political plans.\n\nThis is a partial transition toward the concentrated-control, weak-guarantee region. The sources establish displacement and elite control much more clearly than any replacement entitlement for the displaced population. They also retain human staff and describe further automation as a goal, so the record must not say that all work was already automated. The country-wide candidate is narrowed here to the region actually supported by the evidence. The prewar notes and the postwar date when a player finds them are kept distinct. No population-wide nonworking figure is supplied.",
+      "axis": {
+        "guarantees": 0.75,
+        "control": 0.05,
+        "nonworking": null
+      },
+      "scope": {
+        "continuity": "Original game continuity",
+        "period": "The prewar period documented by Fallout 76's Hornwright records, before October 2077",
+        "population": "Humans in Appalachia's corporate mining and automation conflict",
+        "human_population_proxy": false,
+        "exclusions": [
+          "All prewar America as a statistically uniform society",
+          "The postwar game date",
+          "The Institute in 2287"
+        ],
+        "branch": null,
+        "player_configurable": false,
+        "labor_phase": "partial labor-displacement transition"
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            0.35,
+            0.95
+          ],
+          "confidence": "low",
+          "basis": "Automation's gains accrue to owners; no corresponding universal support is established by these records.",
+          "source_ids": [
+            "src-hornwright-terminals",
+            "src-bethesda-motherlode"
+          ]
+        },
+        "control": {
+          "interval": [
+            -0.05,
+            0.2
+          ],
+          "confidence": "low",
+          "basis": "Corporate leadership directs production and seeks political collaboration.",
+          "source_ids": [
+            "src-hornwright-terminals",
+            "src-bethesda-motherlode"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Automation targets and remaining staff cannot be converted into a regional participation rate.",
+          "source_ids": [
+            "src-hornwright-terminals",
+            "src-bethesda-motherlode"
+          ]
+        }
+      },
+      "regime_primary": 3,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "evidence": [
+        {
+          "claim": "Automation's gains accrue to owners; no corresponding universal support is established by these records.",
+          "source_ids": [
+            "src-hornwright-terminals",
+            "src-bethesda-motherlode"
+          ],
+          "locator": "See the named source read_scope and the entry's scoped period",
+          "kind": "interpretation"
+        },
+        {
+          "claim": "Corporate leadership directs production and seeks political collaboration.",
+          "source_ids": [
+            "src-hornwright-terminals",
+            "src-bethesda-motherlode"
+          ],
+          "locator": "See the named source read_scope and the entry's scoped period",
+          "kind": "interpretation"
+        }
+      ],
+      "uncertainties": [
+        "More primary terminals should corroborate the welfare and protest response.",
+        "The record intentionally narrows the broader United States discovery lead."
+      ],
+      "source_ids": [
+        "src-hornwright-terminals",
+        "src-bethesda-motherlode"
+      ],
+      "reported_labor_statistics": [],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass distinguishing the supported scope, inference and unresolved data; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "fallout-institute",
+      "candidate_id": "c0018",
+      "name": "Fallout 4 (The Institute)",
+      "work": "Fallout 4",
+      "society": "The Institute",
+      "media": [
+        "game"
+      ],
+      "record_type": "post_work",
+      "description": "The Institute uses synth labor to support an unusually well-provisioned enclave within the ruined Commonwealth. Its scientific divisions maintain food and health services, while ordinary synthetic workers perform many service and maintenance tasks. This supports an enclave-scale post-work comparison: a privileged human population benefits from manufactured labor while retaining scientific and managerial vocations.\n\nControl is concentrated in the Directorate and its leadership. For born-human residents, material provision appears much stronger than it does outside, so the guarantee score is moderately protective. That is a deliberately narrow population choice. It does not grant the same security to synth persons or to surface communities, and a wider assessment would move toward weak guarantees. Because the laboring synths have contested personhood, the entry explicitly discloses whose leisure is being measured. The consulted material does not establish an unconditional right to remain supported regardless of role, or a percentage of nonworking humans.",
+      "axis": {
+        "guarantees": -0.45,
+        "control": 0.05,
+        "nonworking": null
+      },
+      "scope": {
+        "continuity": "Original game continuity",
+        "period": "The Institute in 2287 before any branch destroys or replaces its leadership",
+        "population": "Born-human Institute residents; synth persons are explicitly treated as the excluded laboring population",
+        "human_population_proxy": false,
+        "exclusions": [
+          "A guarantee to the Commonwealth's surface population",
+          "An assumption that synth labor is morally equivalent to an inert tool",
+          "All humans having stopped research and technical work"
+        ],
+        "branch": null,
+        "player_configurable": false,
+        "labor_phase": "synthetic labor supports a privileged enclave"
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.8,
+            0.4
+          ],
+          "confidence": "low",
+          "basis": "Enclave provision is supported, but universal rights, role conditions and the excluded synth population complicate it.",
+          "source_ids": [
+            "src-institute-overview",
+            "src-institute-food"
+          ]
+        },
+        "control": {
+          "interval": [
+            -0.05,
+            0.2
+          ],
+          "confidence": "low",
+          "basis": "A scientific directorate and director govern synthetic production and services.",
+          "source_ids": [
+            "src-institute-overview",
+            "src-institute-food"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Research and technical occupations persist, and synth work is not silently counted as born-human leisure.",
+          "source_ids": [
+            "src-institute-overview",
+            "src-institute-food"
+          ]
+        }
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [
+        3
+      ],
+      "qualification": "included",
+      "evidence": [
+        {
+          "claim": "Enclave provision is supported, but universal rights, role conditions and the excluded synth population complicate it.",
+          "source_ids": [
+            "src-institute-overview",
+            "src-institute-food"
+          ],
+          "locator": "See the named source read_scope and the entry's scoped period",
+          "kind": "interpretation"
+        },
+        {
+          "claim": "A scientific directorate and director govern synthetic production and services.",
+          "source_ids": [
+            "src-institute-overview",
+            "src-institute-food"
+          ],
+          "locator": "See the named source read_scope and the entry's scoped period",
+          "kind": "interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Primary game dialogue and terminal review should strengthen the secondary references.",
+        "Changing the population to include all synth persons or affected surface residents changes the guarantees assessment.",
+        "The technology automates some tasks but uses coercive synthetic-person labor for others."
+      ],
+      "source_ids": [
+        "src-institute-overview",
+        "src-institute-food"
+      ],
+      "reported_labor_statistics": [],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass distinguishing the supported scope, inference and unresolved data; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "cyberpunk-night-city",
+      "candidate_id": "c0019",
+      "name": "Cyberpunk 2077 (Night City)",
+      "work": "Cyberpunk 2077",
+      "society": "Night City's corporate automation economy",
+      "media": [
+        "game"
+      ],
+      "record_type": "zero_variant",
+      "description": "Night City has advanced machine intelligence and a sharp separation between protected wealth and exposed poverty. The game's North Oak entry describes an elite district created after a corporate-backed eviction, which makes an assumption of reliable universal material access untenable. Production and urban power sit close to the concentrated corporate band rather than broad control by ordinary residents.\n\nThe record is a zero variant because human employment and money remain central despite selective AI automation. The Blackwall contains dangerous systems; it should not be described as a universal ban on AI, since corporate and government systems remain in use. Nor should an autonomous taxi service be mistaken for the entire city's political economy. Delamain and the systems beyond the Blackwall remain separate candidates in the frozen queue. The sources support the qualitative contrast, but do not justify a literal fraction of nonworking humans or a complete city-wide inventory of automated production.",
+      "axis": {
+        "guarantees": 0.9,
+        "control": 0.1,
+        "nonworking": null
+      },
+      "scope": {
+        "continuity": "Original game continuity",
+        "period": "Night City in 2077, without choosing a transformative ending",
+        "population": "Human residents of Night City",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Rogue AI territories beyond the Blackwall",
+          "Delamain's possible merged ending as a city-wide government",
+          "Other decades of tabletop history"
+        ],
+        "branch": null,
+        "player_configurable": false,
+        "labor_phase": "human employment persists alongside selective AI automation"
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            0.65,
+            1
+          ],
+          "confidence": "low",
+          "basis": "Severe exclusion from secure urban life conflicts with strong universal provision.",
+          "source_ids": [
+            "src-cyber-ai",
+            "src-cyber-north-oak"
+          ]
+        },
+        "control": {
+          "interval": [
+            -0.05,
+            0.35
+          ],
+          "confidence": "low",
+          "basis": "Corporate sponsorship and concentrated urban influence dominate the observed arrangements.",
+          "source_ids": [
+            "src-cyber-ai",
+            "src-cyber-north-oak"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Human roles persist; no compatible all-human participation rate was verified.",
+          "source_ids": [
+            "src-cyber-ai",
+            "src-cyber-north-oak"
+          ]
+        }
+      },
+      "regime_primary": 0,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "evidence": [
+        {
+          "claim": "Severe exclusion from secure urban life conflicts with strong universal provision.",
+          "source_ids": [
+            "src-cyber-ai",
+            "src-cyber-north-oak"
+          ],
+          "locator": "See the named source read_scope and the entry's scoped period",
+          "kind": "interpretation"
+        },
+        {
+          "claim": "Corporate sponsorship and concentrated urban influence dominate the observed arrangements.",
+          "source_ids": [
+            "src-cyber-ai",
+            "src-cyber-north-oak"
+          ],
+          "locator": "See the named source read_scope and the entry's scoped period",
+          "kind": "interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Further game and sourcebook passages should corroborate labor dependence and the production structure.",
+        "The Blackwall separates rogue systems, not all possible machine intelligence."
+      ],
+      "source_ids": [
+        "src-cyber-ai",
+        "src-cyber-north-oak"
+      ],
+      "reported_labor_statistics": [],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass distinguishing the supported scope, inference and unresolved data; no independent reviewer",
+        "coordinate_ready": false
+      },
+      "regime_analogy": 3
+    },
+    {
+      "id": "her-before-departure",
+      "candidate_id": "c0020",
+      "name": "Her (human service economy before the AIs depart)",
+      "work": "Her",
+      "society": "Human service economy before the AIs depart",
+      "media": [
+        "movie"
+      ],
+      "record_type": "zero_variant",
+      "description": "The opening presents human service work in a world already rich in digital assistance. Theodore writes letters for clients, while an advertised consumer operating system is introduced as an artificial consciousness. The relevant contrast is that capable AI enters daily life without the story first establishing an economy where human work has ceased to matter. That makes this a limited zero-variant reference.\n\nThe consumer product has a corporate source and an individual purchaser, but the AIs' later independence complicates any simple ownership claim. The provisional control point describes the early service arrangement and has a broad range. The screenplay passages reviewed here do not establish who owns physical production, what necessities people are entitled to, or how many humans work. Those gaps are left visible: the guarantee and nonworking coordinates remain null. This preserves the scenario's relevance without treating a few comfortable characters as proof of universal provision or reading digital intelligence as physical automation.",
+      "axis": {
+        "guarantees": null,
+        "control": 0.2,
+        "nonworking": null
+      },
+      "scope": {
+        "continuity": "Spike Jonze's film, informed by the reviewed screenplay draft",
+        "period": "The early OS ONE consumer-service period before the final departure",
+        "population": "The depicted human urban consumer society, with no claim to a surveyed global economy",
+        "human_population_proxy": false,
+        "exclusions": [
+          "A fully automated physical economy",
+          "The later machine departure as the same political snapshot",
+          "Unshown national welfare policy"
+        ],
+        "branch": null,
+        "player_configurable": false,
+        "labor_phase": "powerful consumer digital AI coexists with human work"
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "No national or society-wide entitlement is established in the consulted screenplay passages.",
+          "source_ids": [
+            "src-her-script"
+          ]
+        },
+        "control": {
+          "interval": [
+            -0.4,
+            0.6
+          ],
+          "confidence": "low",
+          "basis": "Corporate distribution and personal purchasing frame the initial service relationship, with later autonomous agency as a caveat.",
+          "source_ids": [
+            "src-her-script"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "A working protagonist and commuters do not establish a population rate.",
+          "source_ids": [
+            "src-her-script"
+          ]
+        }
+      },
+      "regime_primary": 0,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "evidence": [
+        {
+          "claim": "No national or society-wide entitlement is established in the consulted screenplay passages.",
+          "source_ids": [
+            "src-her-script"
+          ],
+          "locator": "See the named source read_scope and the entry's scoped period",
+          "kind": "interpretation"
+        },
+        {
+          "claim": "Corporate distribution and personal purchasing frame the initial service relationship, with later autonomous agency as a caveat.",
+          "source_ids": [
+            "src-her-script"
+          ],
+          "locator": "See the named source read_scope and the entry's scoped period",
+          "kind": "interpretation"
+        }
+      ],
+      "uncertainties": [
+        "The released film and later screenplay scenes need a fuller pass.",
+        "Physical production and public distribution are largely outside the reviewed scenes."
+      ],
+      "source_ids": [
+        "src-her-script"
+      ],
+      "reported_labor_statistics": [],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass distinguishing the supported scope, inference and unresolved data; no independent reviewer",
+        "coordinate_ready": false
+      },
+      "regime_analogy": null
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0015",
+      "status": "included",
+      "society_id": "detroit-before-revolution",
+      "reason": "partial labor-displacement transition",
+      "source_ids": [
+        "src-detroit-official",
+        "src-detroit-new-home"
+      ]
+    },
+    {
+      "candidate_id": "c0016",
+      "status": "needs_evidence",
+      "source_ids": [
+        "src-detroit-official",
+        "src-detroit-ending-guide"
+      ],
+      "reason": "The peaceful victory branch is established, but the final economic and legal arrangement has not been demonstrated.",
+      "analysis": "The guide documents a peaceful demonstration route in which public sympathy causes the president to order the military to stand down. The developer confirms that outcomes depend on the player's choices. These sources establish a branch worth retaining separately from the pre-revolution setting.\n\nA military stand-down is not the same as a detailed constitutional settlement, ownership transfer of every factory, or a guaranteed policy toward unemployed humans. The article's suggestion that autonomous androids simply become a complete new economic regime moves beyond what these sources establish. Before assigning coordinates, check the ending dialogue and the scope of android independence, then label any projection beyond the final scene as an inference. The candidate is retained, not rejected, while these precise gaps are addressed.",
+      "follow_up": "Verify the presidential and Markus ending dialogue and distinguish immediate recognition, lasting rights and ownership of productive infrastructure."
+    },
+    {
+      "candidate_id": "c0017",
+      "status": "included",
+      "society_id": "fallout-prewar-appalachia",
+      "reason": "partial labor-displacement transition",
+      "source_ids": [
+        "src-hornwright-terminals",
+        "src-bethesda-motherlode"
+      ]
+    },
+    {
+      "candidate_id": "c0018",
+      "status": "included",
+      "society_id": "fallout-institute",
+      "reason": "synthetic labor supports a privileged enclave",
+      "source_ids": [
+        "src-institute-overview",
+        "src-institute-food"
+      ]
+    },
+    {
+      "candidate_id": "c0019",
+      "status": "zero_variant",
+      "society_id": "cyberpunk-night-city",
+      "reason": "human employment persists alongside selective AI automation",
+      "source_ids": [
+        "src-cyber-ai",
+        "src-cyber-north-oak"
+      ]
+    },
+    {
+      "candidate_id": "c0020",
+      "status": "zero_variant",
+      "society_id": "her-before-departure",
+      "reason": "powerful consumer digital AI coexists with human work",
+      "source_ids": [
+        "src-her-script"
+      ]
+    }
+  ],
+  "review_notes": [
+    "The 37.3% unemployment report is not copied into an all-human nonworking axis.",
+    "Fallout's prewar candidate is narrowed to the Appalachian evidence; the game date is not the prewar date.",
+    "The Institute is scoped to an enclave and does not stand in for a guarantee to all Commonwealth residents.",
+    "Fan fiction, Reddit speculation and unverified mod lore encountered during discovery were not used as canon.",
+    "All five records still need unresolved coordinates and stronger primary corroboration where specified."
+  ]
+}

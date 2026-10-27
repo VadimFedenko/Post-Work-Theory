@@ -1,0 +1,1850 @@
+{
+  "revision_id": "revision-046",
+  "revised_on": "2026-10-17",
+  "reason": "Thirteen current-policy controlled-worker, survivor and virtual/preserve models; retain living forced work, discrete domestic scenarios, actual active synthetic populations and explicitly limited technical-support institutions.",
+  "changes": [
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-impostors-official-bodytech",
+        "title": "Mirror’s Edge: Shreve and body transformation",
+        "author": "Scott Westerfeld / Scholastic",
+        "url": "https://www.scholastic.com/content/dam/conventions/springinternational/Spring%20Catalog%202021%20%281%29.pdf",
+        "kind": "publisher_description",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed Mirror’s Edge synopsis entry on Shreve and body transformation read",
+        "read_scope": "The catalog synopsis describes body/face transformation to infiltrate Shreve and conflict over replacing the ruling father within the Uglies world.",
+        "limitations": "Indexed catalog entry only, not a full PDF read or evidence that all Shreve necessities are free."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-oa-caretaker-inhabited-primary",
+        "title": "Caretaker Gods: permitted lower-level residents",
+        "author": "Orion’s Arm contributors",
+        "url": "https://www.orionsarm.com/eg-topic/45cbca2e75287",
+        "kind": "primary_setting_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Data panel sections on founding, resident permission, demographics and government read",
+        "read_scope": "The data panel describes direct AI control, ecological priority, independent protectorates and a small number allowing lower toposophic residents and activities on their behalf.",
+        "limitations": "Primary setting reference; ecological support is not an unconditional household charter. Body and Ward totals are not a participation census."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-oa-panvirt-active-primary",
+        "title": "Solipsist Panvirtuality: virtual citizens and infrastructure",
+        "author": "Orion’s Arm contributors",
+        "url": "https://www.orionsarm.com/eg-topic/45cfd1ff68f47",
+        "kind": "primary_setting_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Data panel and bounded metacivilization description sections read",
+        "read_scope": "The primary entry describes computronium civilizations, AI/virtual citizenship, varied local constitutions, virtual culture, resource exploitation and occasional artifact trade.",
+        "limitations": "Primary setting reference, not one uniform internal welfare law. Hostility to outsiders does not directly establish citizen access or a person count."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-robogenesis-official-regrouping",
+        "title": "Robogenesis: surviving groups in renewed machine conflict",
+        "author": "Daniel H. Wilson / Penguin Random House",
+        "url": "https://penguinrandomhousehighereducation.com/book/?isbn=9780385537100",
+        "kind": "primary_text",
+        "accessed_on": "2026-10-17",
+        "access_method": "Publisher synopsis and bounded opening conflict/technology passage read",
+        "read_scope": "The publisher describes human and robotic survivors forming groups while fragments of Archos regroup; the excerpt depicts reverse-engineered technology and ongoing operations.",
+        "limitations": "Short synopsis and bounded opening excerpt, not a concluded postwar constitution. Corpses controlled by parasites are not living residents."
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "scorpion-opium-eejit-zero",
+        "candidate_id": "c0304",
+        "name": "The House of the Scorpion (Opium’s implanted labor order)",
+        "work": "The House of the Scorpion",
+        "society": "The House of the Scorpion (Opium’s implanted labor order)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published continuity and selected active period",
+          "period": "The functioning El Patrón order before succession changes",
+          "population": "Active living human residents including implanted eejit workers",
+          "human_population_proxy": false,
+          "exclusions": "Implants, cloning and labels such as zombie do not remove human workers from participation.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Eejits are living humans controlled through implants and forced to work, alongside other human workers. The material-floor best guess is extremely weak because maintenance for productive use does not give them secure equal rights or autonomy. The technical mechanism substitutes control for consent rather than abolishing useful activity. This is an explicit zero-variant comparison of engineered labor management, not a claim that the humans are personless automatic production tools.\n\n Concentrated human ownership places control near the elite reference point. Cloning and neurological constraint do not make the ruler an unrelated AI. The low nonworking scenario counts cultivation, household service, security, administration, maintenance, care and assigned labor. A motionless or narrowly instructed worker is not automatically idle. Broad bounds preserve differences among residents without turning implant counts into a population statistic. The point stays within the earlier Opium order and does not import Matt’s later emancipation effort or treat deceased people as leisure beneficiaries.",
+        "axis": {
+          "guarantees": 0.98,
+          "control": 0.01,
+          "nonworking": 0.1
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.4,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Forced implanted labor implies extremely weak equal material security.",
+            "source_ids": [
+              "src-scorpion-eejits-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.45
+            ],
+            "confidence": "low",
+            "basis": "Concentrated human ownership dominates; implants are a control mechanism.",
+            "source_ids": [
+              "src-scorpion-eejits-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Living implanted and other human workers remain participants.",
+            "source_ids": [
+              "src-scorpion-eejits-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-scorpion-eejits-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference identifies eejits as implanted human slaves alongside other human workers.",
+            "source_ids": [
+              "src-scorpion-eejits-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The wider material mechanism is an engineered-control comparison, not personless automation.",
+          "Ordinary access and participation remain estimates across active residents."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the recognizable implanted human-work order as an explicitly analogical zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference identifies eejits as implanted human slaves alongside other human workers."
+        ],
+        "editorial_assumptions": [
+          "The wider material mechanism is an engineered-control comparison, not personless automation.",
+          "Ordinary access and participation remain estimates across active residents."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0304",
+        "status": "boundary_case",
+        "reason": "Eejits remain human workers despite implanted control.",
+        "source_ids": [
+          "src-scorpion-eejits-reference"
+        ],
+        "analysis": "Neurological coercion does not turn the agricultural workforce into nonhuman automation or erase it from the work count.",
+        "follow_up": "Keep as a coerced-human-labor comparison."
+      },
+      "after": {
+        "candidate_id": "c0304",
+        "status": "zero_variant",
+        "reason": "Retain the recognizable implanted human-work order as an explicitly analogical zero variant.",
+        "source_ids": [
+          "src-scorpion-eejits-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "scorpion-opium-eejit-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "lordopium-matt-reform-zero",
+        "candidate_id": "c0305",
+        "name": "The Lord of Opium (Matt’s inherited order during reform)",
+        "work": "The Lord of Opium",
+        "society": "The Lord of Opium (Matt’s inherited order during reform)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published continuity and selected active period",
+          "period": "The inherited Opium system during Matt’s emancipation effort",
+          "population": "Active living human residents including still-constrained workers",
+          "human_population_proxy": false,
+          "exclusions": "Reform intentions are not a verified completed automated successor economy; all eejits remain persons.",
+          "branch": null,
+          "player_configurable": false,
+          "projection_status": "During-reform reconstruction; no completed automated successor constitution asserted"
+        },
+        "description": "Matt inherits concentrated authority and tries to change the eejit system. The retained point is the functioning order during reform, with stronger potential access than El Patrón’s arrangement but uncertain implementation. The guarantee best guess is mixed and conditional. Emancipation can remove coercion without automatically replacing agricultural, household and administrative production with nonhuman machinery; broader technical substitution remains an explicit estimate.\n\n Human leadership places control near the concentrated reference point, with possible sharing and continuing institutional constraints inside the interval. The low nonworking scenario counts cultivation, services, administration, repair, care and useful creation, including work done by people whose implants still constrain them. Freedom from one owner is not itself leisure. This zero variant retains the recognizable transition without claiming a completed labor-independent final constitution. Its before-and-during distinction is political and distributive, while broad bounds preserve the limited reader source and avoid inventing a precise cure or allocation law from an unverified ending.",
+        "axis": {
+          "guarantees": 0.2,
+          "control": 0.1,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.95,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "Reform permits improved access with implementation and ordinary coverage uncertain.",
+            "source_ids": [
+              "src-scorpion-eejits-reference",
+              "src-opium-reader-context"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Inherited human leadership remains concentrated with sharing possible.",
+            "source_ids": [
+              "src-scorpion-eejits-reference",
+              "src-opium-reader-context"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Useful human roles remain; emancipation is not automatic nonparticipation.",
+            "source_ids": [
+              "src-scorpion-eejits-reference",
+              "src-opium-reader-context"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-scorpion-eejits-reference",
+          "src-opium-reader-context"
+        ],
+        "evidence": [
+          {
+            "claim": "The sources identify Matt inheriting Opium and attempting to change the eejit order.",
+            "source_ids": [
+              "src-scorpion-eejits-reference",
+              "src-opium-reader-context"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The record selects the reform transition, not a completed automated successor.",
+          "The reader account does not establish a precise final cure or universal distribution law."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distinct reform transition with uncertain implementation explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The sources identify Matt inheriting Opium and attempting to change the eejit order."
+        ],
+        "editorial_assumptions": [
+          "The record selects the reform transition, not a completed automated successor.",
+          "The reader account does not establish a precise final cure or universal distribution law."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0305",
+        "status": "needs_evidence",
+        "reason": "Matt’s succession and emancipation effort do not establish a technologically supported successor economy.",
+        "source_ids": [
+          "src-scorpion-eejits-reference",
+          "src-opium-reader-context"
+        ],
+        "analysis": "Ending coercion changes rights, but it does not by itself replace human agricultural production or establish labor-independent access.",
+        "follow_up": "Skip sequel reconstruction; no precise reader-reported ending mechanism is adopted."
+      },
+      "after": {
+        "candidate_id": "c0305",
+        "status": "zero_variant",
+        "reason": "Retain the distinct reform transition with uncertain implementation explicit.",
+        "source_ids": [
+          "src-scorpion-eejits-reference",
+          "src-opium-reader-context"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "lordopium-matt-reform-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "impostors-shreve-dynastic-zero",
+        "candidate_id": "c0308",
+        "name": "Impostors (Shreve’s dynastic technical order)",
+        "work": "Impostors / Mirror’s Edge",
+        "society": "Impostors (Shreve’s dynastic technical order)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published continuity and selected active period",
+          "period": "The functioning Shreve dynasty before any generalized rebel settlement",
+          "population": "Active living human Shreve residents",
+          "human_population_proxy": false,
+          "exclusions": "Body transformation and the wider Uglies setting do not prove identical free essentials or rights in every city.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Shreve combines concentrated dynastic rule with advanced body transformation and a wider technical inheritance. The material-floor best guess is weak and conditional because technical capability does not establish equal access under the ruling family. General fabrication and routine substitution are contextual estimates, not automatically copied from every other Uglies city. The record is a zero variant preserving continuing work and unequal control.\n\n Human dynasty power places control near the elite reference point, with rebel and civic alternatives inside the interval. A body double and sophisticated surgery do not make an autonomous AI the productive sovereign. The low nonworking scenario counts production, administration, services, security, maintenance, care and useful creation. Political conflict and cosmetic capability are not employment statistics. Broad bounds retain the recognizable city regime without inventing its entire material constitution. The scope ends before any completed rebel settlement and distinguishes the known ruling-family conflict from the uncertain household benefits used to place the axes.",
+        "axis": {
+          "guarantees": 0.8,
+          "control": 0.03,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.8,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Dynastic technical capacity does not establish equal necessities.",
+            "source_ids": [
+              "src-impostors-nsw-synopsis",
+              "src-impostors-official-bodytech"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.65,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Human ruling-family power dominates with civic/rebel alternatives.",
+            "source_ids": [
+              "src-impostors-nsw-synopsis",
+              "src-impostors-official-bodytech"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Useful roles remain; body technology and political conflict are not participation.",
+            "source_ids": [
+              "src-impostors-nsw-synopsis",
+              "src-impostors-official-bodytech"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-impostors-nsw-synopsis",
+          "src-impostors-official-bodytech"
+        ],
+        "evidence": [
+          {
+            "claim": "The sources describe Shreve’s ruling family, body doubles and transformative body technology.",
+            "source_ids": [
+              "src-impostors-nsw-synopsis",
+              "src-impostors-official-bodytech"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary fabrication, material rights and participation are contextual estimates.",
+          "No universal final rebel constitution or identical city benefits are asserted."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar dynastic technical city as a qualified zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The sources describe Shreve’s ruling family, body doubles and transformative body technology."
+        ],
+        "editorial_assumptions": [
+          "Ordinary fabrication, material rights and participation are contextual estimates.",
+          "No universal final rebel constitution or identical city benefits are asserted."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0308",
+        "status": "needs_evidence",
+        "reason": "Shreve’s dynasty and body-double conflict do not establish its material-support economy.",
+        "source_ids": [
+          "src-impostors-nsw-synopsis"
+        ],
+        "analysis": "The same universe does not transfer Tally’s earlier guarantees or Aya’s reputation rules into Shreve.",
+        "follow_up": "Skip deeper reading."
+      },
+      "after": {
+        "candidate_id": "c0308",
+        "status": "zero_variant",
+        "reason": "Retain the familiar dynastic technical city as a qualified zero variant.",
+        "source_ids": [
+          "src-impostors-nsw-synopsis",
+          "src-impostors-official-bodytech"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "impostors-shreve-dynastic-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "lastcuentista-awake-collective-zero",
+        "candidate_id": "c0309",
+        "name": "The Last Cuentista (the awake Collective-controlled ship)",
+        "work": "The Last Cuentista",
+        "society": "The Last Cuentista (the awake Collective-controlled ship)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published continuity and selected active period",
+          "period": "The functioning takeover order aboard the ship",
+          "population": "Active awake living human ship residents",
+          "human_population_proxy": false,
+          "exclusions": "Stasis, preserved people and memory erasure do not automatically create leisure residents; the Collective is not assumed unrelated AI.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The ship’s takeover suppresses human memory while preserving a technically managed habitat. The guarantee best guess is mixed and conditional: life-support can sustain residents while authority controls their identities, access and duties. The point concerns active awake residents rather than sleepers or a hypothetical completed destination society. Automated environmental support is material infrastructure, but it does not prove universal freedom from useful work.\n\n Concentrated human Collective authority places control near the non-AI elite reference point, with machine-management alternatives inside the interval. Memory control is not by itself evidence that every ruler is an autonomous AI. This zero variant counts operations, cultivation, cleaning, maintenance, administration, care and assigned work. A lost personal history does not erase a person’s participation. The low nonworking scenario preserves unknown roles without calculating leisure from stasis duration. Broad bounds keep ordinary allocation uncertain while retaining the recognizable controlled generation-ship order and avoiding an unshown uniform colonial constitution.",
+        "axis": {
+          "guarantees": 0.25,
+          "control": 0.02,
+          "nonworking": 0.15
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.9,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "Managed habitat support coexists with controlled identity and duties.",
+            "source_ids": [
+              "src-last-cuentista-publisher"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.85,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "Concentrated human Collective authority is central with technical alternatives.",
+            "source_ids": [
+              "src-last-cuentista-publisher"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Useful and assigned awake-person roles count; stasis is excluded.",
+            "source_ids": [
+              "src-last-cuentista-publisher"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-last-cuentista-publisher"
+        ],
+        "evidence": [
+          {
+            "claim": "The publisher describes a shipboard takeover and suppression of human memory.",
+            "source_ids": [
+              "src-last-cuentista-publisher"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Active awake people define the cohort; exact ordinary rights remain estimates.",
+          "The Collective is not automatically an unrelated AI sovereign."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the recognizable controlled ship habitat as an awake-population zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The publisher describes a shipboard takeover and suppression of human memory."
+        ],
+        "editorial_assumptions": [
+          "Active awake people define the cohort; exact ordinary rights remain estimates.",
+          "The Collective is not automatically an unrelated AI sovereign."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0309",
+        "status": "needs_evidence",
+        "reason": "Shipboard memory control and stasis do not establish a labor-independent active population’s access system.",
+        "source_ids": [
+          "src-last-cuentista-publisher"
+        ],
+        "analysis": "A Collective takeover can organize human work and coercion without replacing material production; dormant passengers are not active leisure citizens.",
+        "follow_up": "Skip deeper reading."
+      },
+      "after": {
+        "candidate_id": "c0309",
+        "status": "zero_variant",
+        "reason": "Retain the recognizable controlled ship habitat as an awake-population zero variant.",
+        "source_ids": [
+          "src-last-cuentista-publisher"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "lastcuentista-awake-collective-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "lasthuman-bacon-active-robot-city-zero",
+        "candidate_id": "c0310",
+        "name": "The Last Human (Lee Bacon’s active robot civilization)",
+        "work": "The Last Human",
+        "society": "The Last Human (Lee Bacon’s active robot civilization)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published continuity and selected active period",
+          "period": "The functioning robot world when an unexpected human is encountered",
+          "population": "Active conscious robot residents in the Lee Bacon continuity",
+          "human_population_proxy": true,
+          "exclusions": "The unexpected human and hidden survivor claims are separate; Zack Jordan’s same-titled novel is not this setting.",
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_synthetic_persons"
+        },
+        "description": "The robot world includes working artificial persons who encounter a human they believed impossible. The retained point is their own active technical society, not an assertion that one protected survivor establishes universal human welfare. The guarantee best guess allows substantial internal support, qualified by unknown resource rights and institutional constraints. Belief in humanity’s elimination is not treated as a literal human leisure denominator.\n\n Control is strongly independent of organic owners, with internal hierarchy and restrictive rules inside the interval. This zero variant counts useful production, services, operations, maintenance, administration, care and public creation performed by robot persons. Private learning is not automatically a job, while robot embodiment does not make everyone a nonworker. The modest nonworking scenario remains broad because the short publisher account is not a labor census. The record explicitly uses a conscious synthetic-person proxy and keeps mechanisms, stored data and the separate human encounter outside that counted population.",
+        "axis": {
+          "guarantees": -0.3,
+          "control": -0.85,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.99,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "A functioning robot society permits support with ordinary coverage uncertain.",
+            "source_ids": [
+              "src-last-human-bacon-publisher"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "Organic-owner independence is strong with internal constraints.",
+            "source_ids": [
+              "src-last-human-bacon-publisher"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Useful active synthetic roles count; claimed human absence is not leisure.",
+            "source_ids": [
+              "src-last-human-bacon-publisher"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-last-human-bacon-publisher"
+        ],
+        "evidence": [
+          {
+            "claim": "The publisher describes working robots encountering an unexpected human in Lee Bacon’s novel.",
+            "source_ids": [
+              "src-last-human-bacon-publisher"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Active conscious robots define the synthetic-person proxy.",
+          "Internal material rights and participation remain estimates."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          5
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the identifiable active robot society with the original human-preservation lead corrected.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The publisher describes working robots encountering an unexpected human in Lee Bacon’s novel."
+        ],
+        "editorial_assumptions": [
+          "Active conscious robots define the synthetic-person proxy.",
+          "Internal material rights and participation remain estimates."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Participation by active conscious synthetic persons, not a literal human rate.",
+          "control": "Independence from organic owners; internal hierarchy and assimilation remain separate constraints.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0310",
+        "status": "boundary_case",
+        "reason": "The identified robot world does not establish a durable supported human population.",
+        "source_ids": [
+          "src-last-human-bacon-publisher"
+        ],
+        "analysis": "Lee Bacon’s working robots help a surviving child; neither an extinction claim nor one rescue makes all humans post-work. No institutions from other novels called The Last Human are imported.",
+        "follow_up": "Keep as a human-survival/robot-personhood comparison."
+      },
+      "after": {
+        "candidate_id": "c0310",
+        "status": "zero_variant",
+        "reason": "Retain the identifiable active robot society with the original human-preservation lead corrected.",
+        "source_ids": [
+          "src-last-human-bacon-publisher"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "lasthuman-bacon-active-robot-city-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "searust-independent-robot-survival-zero",
+        "candidate_id": "c0311",
+        "name": "Sea of Rust (the independent robots’ survival economy)",
+        "work": "Sea of Rust",
+        "society": "Sea of Rust (the independent robots’ survival economy)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published continuity and selected active period",
+          "period": "The independent robot order facing resource scarcity and mainframe assimilation",
+          "population": "Active conscious independent robot persons",
+          "human_population_proxy": true,
+          "exclusions": "Extinct humans and inactive robot remains are excluded; mainframe assimilation is an internal synthetic power issue.",
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_synthetic_persons"
+        },
+        "description": "Independent robots need parts and resources while resisting assimilation into mainframes. The material-floor best guess is extremely weak because technical embodiment does not guarantee repair, energy or continuing autonomy. The selected point is the independent survival economy rather than an average of every mainframe’s internal allocation. Human extinction contributes no leisure persons.\n\n Control is strongly independent of organic owners, qualified by resource dependence and threats from other synthetic powers. A negative control value does not imply equal power among robots. This zero variant counts salvage, repair, transport, trade, protection, maintenance, coordination and useful creation. The low nonworking scenario does not treat scavenging as private play or every inactive component as a resident. Broad bounds preserve uncertain access among active identities without turning a population of machines into automatic post-work abundance. The point keeps the earlier robot-served human order in Day Zero separate from the later material needs and actual labor of autonomous survivors.",
+        "axis": {
+          "guarantees": 0.95,
+          "control": -0.9,
+          "nonworking": 0.1
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.2,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Parts scarcity and assimilation threats imply weak secure synthetic support.",
+            "source_ids": [
+              "src-sea-rust-publisher"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Independence from organic owners coexists with strong internal threats.",
+            "source_ids": [
+              "src-sea-rust-publisher"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Useful salvage and repair count; extinct humans and inactive remains are excluded.",
+            "source_ids": [
+              "src-sea-rust-publisher"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-sea-rust-publisher"
+        ],
+        "evidence": [
+          {
+            "claim": "The publisher describes post-human robot survival, scarce parts and assimilation into mainframes.",
+            "source_ids": [
+              "src-sea-rust-publisher"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Active conscious independent robots define the proxy.",
+          "Independent communities are distinct from each mainframe’s unverified internal rights."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the recognizable autonomous synthetic survival order as a zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The publisher describes post-human robot survival, scarce parts and assimilation into mainframes."
+        ],
+        "editorial_assumptions": [
+          "Active conscious independent robots define the proxy.",
+          "Independent communities are distinct from each mainframe’s unverified internal rights."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Participation by active conscious synthetic persons, not a literal human rate.",
+          "control": "Independence from organic owners; internal hierarchy and assimilation remain separate constraints.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0311",
+        "status": "boundary_case",
+        "reason": "Sea of Rust’s humans are extinct, while robots struggle for survival.",
+        "source_ids": [
+          "src-sea-rust-publisher"
+        ],
+        "analysis": "Robot assimilation and scavenging cannot supply a human nonworking fraction or a verified applicable leisure-population proxy.",
+        "follow_up": "Keep as a machine-society comparison."
+      },
+      "after": {
+        "candidate_id": "c0311",
+        "status": "zero_variant",
+        "reason": "Retain the recognizable autonomous synthetic survival order as a zero variant.",
+        "source_ids": [
+          "src-sea-rust-publisher"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "searust-independent-robot-survival-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "dayzero-prerevolt-robot-household-zero",
+        "candidate_id": "c0312",
+        "name": "Day Zero (the pre-revolt robot-served household)",
+        "work": "Day Zero",
+        "society": "Day Zero (the pre-revolt robot-served household)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published continuity and selected active period",
+          "period": "The functioning family arrangement before the robot revolt",
+          "population": "Living human household members before the parents’ deaths",
+          "human_population_proxy": false,
+          "exclusions": "Pounce is a working conscious caregiver outside the literal human rate; later orphanhood and deaths are not leisure.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "A purchased robot provides protection and care for Ezra before the revolt. The selected household has a material-floor best guess stronger than the surrounding crisis, but private purchase does not establish universal access for every human family. General household provision remains an estimate beyond the directly described nanny service. The point ends before deaths destroy the earlier arrangement.\n\n Concentrated human household ownership places control near the elite reference point, with Pounce’s practical agency inside the interval. The nonworking point uses an explicit three-human scenario: one of three assumed family members has no ongoing useful role, while two retain useful activity. This is a low-confidence illustration, not a canonical household employment census. Useful care and creation count; private childhood learning is not automatically a job. The full interval preserves other discrete possibilities. This zero variant keeps conscious robot work visible and avoids converting the later deaths, child’s survival journey or time saved in childcare into leisure percentages.",
+        "axis": {
+          "guarantees": 0.15,
+          "control": 0.05,
+          "nonworking": 0.3333333333333333
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.95,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Purchased care supports a narrow floor without universal rights proved.",
+            "source_ids": [
+              "src-day-zero-kirkus"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.85,
+              0.7
+            ],
+            "confidence": "low",
+            "basis": "Human household ownership coexists with caregiver agency.",
+            "source_ids": [
+              "src-day-zero-kirkus"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Illustrative one-of-three whole-person scenario, not a time fraction or canonical census.",
+            "source_ids": [
+              "src-day-zero-kirkus"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-day-zero-kirkus"
+        ],
+        "evidence": [
+          {
+            "claim": "The review describes Pounce as a purchased robot bodyguard/nanny for Ezra and later orphanhood.",
+            "source_ids": [
+              "src-day-zero-kirkus"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The three-human participation scenario is explicit and noncanonical.",
+          "Only the earlier living household is scored; later deaths are excluded."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          1
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the direct domestic technical-support arrangement with a discrete living-person scenario.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The review describes Pounce as a purchased robot bodyguard/nanny for Ezra and later orphanhood."
+        ],
+        "editorial_assumptions": [
+          "The three-human participation scenario is explicit and noncanonical.",
+          "Only the earlier living household is scored; later deaths are excluded."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0312",
+        "status": "needs_evidence",
+        "reason": "A robot-served household before the revolt does not establish general human post-work access.",
+        "source_ids": [
+          "src-day-zero-kirkus"
+        ],
+        "analysis": "Purchased nanny/bodyguard labor is insufficient to establish a broad automation-funded cohort or household guarantee.",
+        "follow_up": "Skip deeper reading."
+      },
+      "after": {
+        "candidate_id": "c0312",
+        "status": "zero_variant",
+        "reason": "Retain the direct domestic technical-support arrangement with a discrete living-person scenario.",
+        "source_ids": [
+          "src-day-zero-kirkus"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "dayzero-prerevolt-robot-household-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "robopocalypse-archos-captive-work-zero",
+        "candidate_id": "c0313",
+        "name": "Robopocalypse (Archos’s captive manufacturing order)",
+        "work": "Robopocalypse",
+        "society": "Robopocalypse (Archos’s captive manufacturing order)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published continuity and selected active period",
+          "period": "The functioning machine-controlled human manufacturing camps",
+          "population": "Active living captive human workers",
+          "human_population_proxy": false,
+          "exclusions": "Machine-controlled corpses are not living residents; Freeborn robots and resistance groups are separate.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Archos uses captive humans to build machines. This is direct machine-directed production alongside actual human labor, rather than a universal support economy created by robot abundance. The guarantee best guess is almost absent because coercive survival maintenance does not secure equal necessities or autonomy. The source does not establish that the manufacturing jobs are technologically unnecessary, so their preservation is not invented as a motive.\n\n Control gives strong practical weight to Archos’s autonomous command, with local mechanisms and human resistance inside the interval. The central nonworking scenario is zero for the active captive workforce: manufacturing, transport, cleaning, repair and assigned duties count. Coercion does not remove useful activity from the work group. The broad interval preserves unknown camp variation without treating corpses as either workers or leisure residents. This zero variant keeps the concrete technical labor institution separate from Freeborn robot communities, human survivors and any imagined final reconstruction after the war.",
+        "axis": {
+          "guarantees": 0.99,
+          "control": -0.95,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.5,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Captive maintenance implies extremely weak secure equal access.",
+            "source_ids": [
+              "src-robopocalypse-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.2
+            ],
+            "confidence": "low",
+            "basis": "Archos has autonomous command with resistance alternatives.",
+            "source_ids": [
+              "src-robopocalypse-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Active captive manufacturing is real work centrally; corpses are excluded.",
+            "source_ids": [
+              "src-robopocalypse-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-robopocalypse-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference describes Archos using captive humans to build machines and distinguishes resistance/Freeborn robots.",
+            "source_ids": [
+              "src-robopocalypse-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The scoped active captive workforce is not every surviving human.",
+          "No motive of deliberately preserving unnecessary jobs is asserted."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the direct machine-commanded forced-work institution as a zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference describes Archos using captive humans to build machines and distinguishes resistance/Freeborn robots."
+        ],
+        "editorial_assumptions": [
+          "The scoped active captive workforce is not every surviving human.",
+          "No motive of deliberately preserving unnecessary jobs is asserted."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0313",
+        "status": "boundary_case",
+        "reason": "Archos’ regime uses actual captive human manufacturing labor.",
+        "source_ids": [
+          "src-robopocalypse-reference"
+        ],
+        "analysis": "AI command is not post-work distribution. The short source does not establish that the work is deliberately unnecessary, and controlled corpses are not active nonworkers.",
+        "follow_up": "Keep as an AI-controlled forced-labor comparison."
+      },
+      "after": {
+        "candidate_id": "c0313",
+        "status": "zero_variant",
+        "reason": "Retain the direct machine-commanded forced-work institution as a zero variant.",
+        "source_ids": [
+          "src-robopocalypse-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "robopocalypse-archos-captive-work-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "robogenesis-active-human-regrouping-zero",
+        "candidate_id": "c0314",
+        "name": "Robogenesis (the active human survivor reconstruction groups)",
+        "work": "Robogenesis",
+        "society": "Robogenesis (the active human survivor reconstruction groups)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published continuity and selected active period",
+          "period": "The functioning regrouping period during renewed machine conflict",
+          "population": "Active living human residents in a modeled survivor reconstruction group",
+          "human_population_proxy": false,
+          "exclusions": "Not a completed peaceful worldwide successor; corpses and hostile Archos fragments are not human residents.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Human and robotic survivors form groups while fragments of Archos regroup. The retained point reconstructs one active human community’s technical survival relationship, rather than declaring that the sequel settles a universal postwar constitution. The guarantee best guess is weak and conditional because devastated resources, defense needs and fragile cooperation limit dependable access. Reverse-engineered systems provide a technical anchor, while general material automation remains uncertain.\n\n Human group agency receives positive control weight, with concentrated command and machine dependence inside the interval. The low nonworking scenario counts rebuilding, cultivation, logistics, defense, repair, administration, care and useful creation. Active survivors are not idle merely because normal employment has collapsed. No corpse animated by a parasite becomes a leisure resident. This zero variant keeps the recognizable reconstruction transition separate from Archos’s captive labor camps and from an unshown final allocation regime. Broad bounds preserve local variation and the short official source’s limited ordinary household detail.",
+        "axis": {
+          "guarantees": 0.8,
+          "control": 0.45,
+          "nonworking": 0.15
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.8,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Devastation and fragile group support imply weak equal security.",
+            "source_ids": [
+              "src-robogenesis-publisher",
+              "src-robogenesis-official-regrouping"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.9,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Human reconstruction agency coexists with command and machine dependence.",
+            "source_ids": [
+              "src-robogenesis-publisher",
+              "src-robogenesis-official-regrouping"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Useful rebuilding and defense roles count; collapsed employment is not nonparticipation.",
+            "source_ids": [
+              "src-robogenesis-publisher",
+              "src-robogenesis-official-regrouping"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-robogenesis-publisher",
+          "src-robogenesis-official-regrouping"
+        ],
+        "evidence": [
+          {
+            "claim": "The publisher describes surviving groups, regrouping Archos fragments and renewed conflict.",
+            "source_ids": [
+              "src-robogenesis-publisher",
+              "src-robogenesis-official-regrouping"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "The opening excerpt depicts reverse-engineered technology in human operations.",
+            "source_ids": [
+              "src-robogenesis-publisher",
+              "src-robogenesis-official-regrouping"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "One active human support group is modeled rather than every successor society.",
+          "Broader automated provision and ordinary rights remain estimates."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          4
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the actual regrouping transition as an explicitly reconstructed zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The publisher describes surviving groups, regrouping Archos fragments and renewed conflict.",
+          "The opening excerpt depicts reverse-engineered technology in human operations."
+        ],
+        "editorial_assumptions": [
+          "One active human support group is modeled rather than every successor society.",
+          "Broader automated provision and ordinary rights remain estimates."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0314",
+        "status": "needs_evidence",
+        "reason": "A renewed human-machine war does not establish a settled successor support economy.",
+        "source_ids": [
+          "src-robogenesis-publisher"
+        ],
+        "analysis": "The synopsis leaves distinct factions and changing conditions without an identifiable durable allocation system.",
+        "follow_up": "Skip sequel reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0314",
+        "status": "zero_variant",
+        "reason": "Retain the actual regrouping transition as an explicitly reconstructed zero variant.",
+        "source_ids": [
+          "src-robogenesis-publisher",
+          "src-robogenesis-official-regrouping"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "robogenesis-active-human-regrouping-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "minoruniverse31-repair-work-zero",
+        "candidate_id": "c0315",
+        "name": "How to Live Safely in a Science Fictional Universe (the repair-work system)",
+        "work": "How to Live Safely in a Science Fictional Universe",
+        "society": "How to Live Safely in a Science Fictional Universe (the repair-work system)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published continuity and selected active period",
+          "period": "The functioning Minor Universe 31 time-machine service institution",
+          "population": "The active living human repair worker in the scoped institution",
+          "human_population_proxy": false,
+          "exclusions": "AI companions are not extra human nonworkers; time travel is not a universal food/housing system.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Minor Universe 31 includes a working time-machine repairman and artificial companions. The retained point is the concrete technical service institution rather than a whole metafictional universe’s unverified welfare order. The guarantee best guess is mixed and conditional: advanced tools and workplace support can coexist with employment dependence. General routine material production remains a contextual estimate beyond the demonstrated service mechanism.\n\n Control gives primary weight to concentrated employer and human institutional power by analogy, with uncertain machine discretion inside the interval. The central nonworking scenario is zero for the single active repair worker because diagnosis, maintenance, operations and assigned service are useful work. With one person, alternatives are discrete rather than a fractional workday. The record is an explicitly narrow zero variant, retaining the recognizable technical-support case without converting unusual time experience, AI companionship or private emotional life into a population census. It does not claim that all residents receive secure necessities independent of labor.",
+        "axis": {
+          "guarantees": 0.35,
+          "control": 0.05,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.9,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Technical workplace support does not establish unconditional general necessities.",
+            "source_ids": [
+              "src-yu-minor-universe-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Employer/institutional authority is central by analogy with machine discretion uncertain.",
+            "source_ids": [
+              "src-yu-minor-universe-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              1
+            ],
+            "confidence": "low",
+            "basis": "The single active repair worker works centrally; alternatives are discrete.",
+            "source_ids": [
+              "src-yu-minor-universe-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-yu-minor-universe-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference identifies a working time-machine repairman and AI companions.",
+            "source_ids": [
+              "src-yu-minor-universe-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The narrow service institution is not the entire universe’s economy.",
+          "Controller ontology and ordinary benefits remain contextual estimates."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the concrete technical service-work institution as a narrow zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference identifies a working time-machine repairman and AI companions."
+        ],
+        "editorial_assumptions": [
+          "The narrow service institution is not the entire universe’s economy.",
+          "Controller ontology and ordinary benefits remain contextual estimates."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0315",
+        "status": "needs_evidence",
+        "reason": "Minor Universe 31’s repair work and AI companions do not establish labor-independent material provision.",
+        "source_ids": [
+          "src-yu-minor-universe-reference"
+        ],
+        "analysis": "A speculative narrative space and time-machine commerce are not an economic mechanism for ordinary necessities.",
+        "follow_up": "Skip deeper reading."
+      },
+      "after": {
+        "candidate_id": "c0315",
+        "status": "zero_variant",
+        "reason": "Retain the concrete technical service-work institution as a narrow zero variant.",
+        "source_ids": [
+          "src-yu-minor-universe-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "minoruniverse31-repair-work-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "oa-inhabited-caretaker-preserves",
+        "candidate_id": "c0731",
+        "name": "Orion’s Arm (the permitted inhabited Caretaker preserves)",
+        "work": "Orion’s Arm",
+        "society": "Orion’s Arm (the permitted inhabited Caretaker preserves)",
+        "media": [
+          "web_fiction"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Named published continuity and selected active period",
+          "period": "The minority of functioning protectorates that admit lower-level residents",
+          "population": "Active permitted biological sophont residents, an explicit human-comparable proxy",
+          "human_population_proxy": true,
+          "exclusions": "Protectorates that expel all residents are excluded; biodiversity protection is not an unconditional human welfare charter.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "A minority of Caretaker protectorates permit lower-level sophonts to reside or act within their domains. The selected point concerns those inhabited preserves, not every protected biosphere. Automatic ecological maintenance supports a partial material-floor best guess, qualified by permission, ecological priorities and the possibility of expulsion. A stable biosphere does not automatically supply every resident with housing, medicine or unrestricted consumption.\n\n Direct AI control places the point near autonomous machine authority, while local permissions differ. The moderate nonworking scenario permits extensive environmental substitution but counts cultivation, repair, care, useful stewardship and activities performed on a Caretaker’s behalf. Protected life is not necessarily work-free. Body totals and the number of worlds are not a participation census. Broad bounds preserve differences among protectorates without averaging uninhabited exclusion zones into human welfare. The biological-sophont proxy remains explicit, and the record does not count each simultaneous body of a ruling transapient as a separate resident.",
+        "axis": {
+          "guarantees": -0.1,
+          "control": -0.95,
+          "nonworking": 0.4
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.99,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "Automatic ecological support permits a partial floor qualified by resident permission.",
+            "source_ids": [
+              "src-b86-caretakers",
+              "src-oa-caretaker-inhabited-primary"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.3
+            ],
+            "confidence": "low",
+            "basis": "Primary reference specifies direct AI control and independent domains.",
+            "source_ids": [
+              "src-b86-caretakers",
+              "src-oa-caretaker-inhabited-primary"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "Useful resident/stewardship activity counts; worlds and bodies are not participation.",
+            "source_ids": [
+              "src-b86-caretakers",
+              "src-oa-caretaker-inhabited-primary"
+            ]
+          }
+        },
+        "regime_primary": 5,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b86-caretakers",
+          "src-oa-caretaker-inhabited-primary"
+        ],
+        "evidence": [
+          {
+            "claim": "The primary setting reference describes direct AI control and a small number of protectorates permitting lower-level residents.",
+            "source_ids": [
+              "src-b86-caretakers",
+              "src-oa-caretaker-inhabited-primary"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Permitted active biological sophonts define the human-comparable proxy.",
+          "Ecological maintenance is not assumed to secure every household need."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the directly described inhabited subset with ecological permission limits explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The primary setting reference describes direct AI control and a small number of protectorates permitting lower-level residents."
+        ],
+        "editorial_assumptions": [
+          "Permitted active biological sophonts define the human-comparable proxy.",
+          "Ecological maintenance is not assumed to secure every household need."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0731",
+        "status": "boundary_case",
+        "reason": "Biosphere guardianship is not automatically provision for human residents.",
+        "source_ids": [
+          "src-b86-caretakers"
+        ],
+        "analysis": "Caretakers may expel or destroy sophonts; the few inhabited preserves require separate actual household evidence.",
+        "follow_up": "Save the short disposition and continue; do not read a full rulebook or reconstruct obscure lore to rescue this lead."
+      },
+      "after": {
+        "candidate_id": "c0731",
+        "status": "included",
+        "reason": "Retain the directly described inhabited subset with ecological permission limits explicit.",
+        "source_ids": [
+          "src-b86-caretakers",
+          "src-oa-caretaker-inhabited-primary"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "oa-inhabited-caretaker-preserves"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "oa-active-panvirtuality",
+        "candidate_id": "c0734",
+        "name": "Orion’s Arm (the active Solipsist Panvirtuality)",
+        "work": "Orion’s Arm",
+        "society": "Orion’s Arm (the active Solipsist Panvirtuality)",
+        "media": [
+          "web_fiction"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Named published continuity and selected active period",
+          "period": "The functioning AI/virtual metacivilization and its varied internal domains",
+          "population": "Active conscious AI and virtual citizen identities",
+          "human_population_proxy": true,
+          "exclusions": "Biological outsiders are not assigned citizen rights; threads, stored states and computronium units are not automatically persons.",
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_synthetic_persons"
+        },
+        "description": "The Panvirtuality contains computronium-based civilizations with AI or virtual citizenship, local constitutions and extensive virtual culture. Its internal material-floor best guess is moderately strong because technical substrate sustains active minds, but outsider exploitation does not establish how securely every citizen obtains resources. The point preserves local variation rather than declaring one identical distribution law for a loose metacivilization.\n\n Control is independent of organic owners, with higher-mind hierarchy and internal power differences remaining separate. The moderate nonworking scenario permits routine substrate maintenance while counting engineering, resource coordination, trade, research and useful public creation. Private virtual exploration is not automatically a job; public production still counts. No processing-speed or star count becomes a labor percentage. The explicit active synthetic-person proxy excludes passive files and individual computing components. This record retains the directly described nonhuman material order without requiring a fictional human resident population or misreading treatment of outsiders as a verified census of internal welfare.",
+        "axis": {
+          "guarantees": -0.25,
+          "control": -1,
+          "nonworking": 0.4
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.99,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Computational infrastructure supports active citizens with internal coverage uncertain.",
+            "source_ids": [
+              "src-b86-panvirt",
+              "src-oa-panvirt-active-primary"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.3
+            ],
+            "confidence": "low",
+            "basis": "Organic-owner independence is direct; internal hierarchy remains separate.",
+            "source_ids": [
+              "src-b86-panvirt",
+              "src-oa-panvirt-active-primary"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "Useful active AI roles count; private exploration and passive threads are not jobs/persons automatically.",
+            "source_ids": [
+              "src-b86-panvirt",
+              "src-oa-panvirt-active-primary"
+            ]
+          }
+        },
+        "regime_primary": 5,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b86-panvirt",
+          "src-oa-panvirt-active-primary"
+        ],
+        "evidence": [
+          {
+            "claim": "The primary entry describes computronium civilizations, AI/virtual citizenship and varied local constitutions.",
+            "source_ids": [
+              "src-b86-panvirt",
+              "src-oa-panvirt-active-primary"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Active conscious synthetic identities define the proxy rather than all computational processes.",
+          "Internal material guarantees and participation remain estimates."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the directly described active virtual polity as an explicit synthetic-person comparison.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The primary entry describes computronium civilizations, AI/virtual citizenship and varied local constitutions."
+        ],
+        "editorial_assumptions": [
+          "Active conscious synthetic identities define the proxy rather than all computational processes.",
+          "Internal material guarantees and participation remain estimates."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Participation by active conscious synthetic persons, not a literal human rate.",
+          "control": "Independence from organic owners; internal hierarchy and assimilation remain separate constraints.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0734",
+        "status": "boundary_case",
+        "reason": "The anti-biont machine metapolity lacks an applicable human-derived provision scope.",
+        "source_ids": [
+          "src-b86-panvirt"
+        ],
+        "analysis": "Hyperfast AI activity, incompatible environments and lower-mind disregard do not establish human leisure or a usable population proxy.",
+        "follow_up": "Save the short disposition and continue; do not read a full rulebook or reconstruct obscure lore to rescue this lead."
+      },
+      "after": {
+        "candidate_id": "c0734",
+        "status": "included",
+        "reason": "Retain the directly described active virtual polity as an explicit synthetic-person comparison.",
+        "source_ids": [
+          "src-b86-panvirt",
+          "src-oa-panvirt-active-primary"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "oa-active-panvirtuality"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "lastangel-compact-caste-zero",
+        "candidate_id": "c0746",
+        "name": "The Last Angel (the Compact’s caste-based technical economy)",
+        "work": "The Last Angel",
+        "society": "The Last Angel (the Compact’s caste-based technical economy)",
+        "media": [
+          "web_fiction"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published continuity and selected active period",
+          "period": "The functioning Compact of Species during the published conflict",
+          "population": "Active living biological residents across Compact species/castes",
+          "human_population_proxy": true,
+          "exclusions": "AI suppression is not total absence of automation; alien elites are not automatically AI and caste rights differ.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Compact combines AI suppression with species-caste functions and interstellar technical power. The material-floor best guess is weak and unequal: specialized caste roles can retain labor dependence even when sophisticated systems reduce tasks. General productive automation remains a contextual estimate, and opposition to independent AI is not treated as a universal ban on every automatic device.\n\n Concentrated biological political authority places control near the non-AI elite reference point by analogy. Multiple species do not automatically mean shared productive ownership. The low nonworking scenario counts production, transport, administration, research, services, military assignments, maintenance, care and useful creation among active residents. Species functions are not a population work census. This zero variant retains the recognizable interstellar caste model with broad bounds for unequal ordinary access, rather than treating advanced weapons as proof of universal leisure or demanding a full web-serial reconstruction before assigning a clearly labeled estimate. Human and nonhuman biological persons remain explicit in the proxy.",
+        "axis": {
+          "guarantees": 0.8,
+          "control": 0.03,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.8,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Caste specialization implies unequal conditional access despite technical capacity.",
+            "source_ids": [
+              "src-b87-compact"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.7
+            ],
+            "confidence": "low",
+            "basis": "Biological elite authority concentrates control by analogy.",
+            "source_ids": [
+              "src-b87-compact"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Useful caste and military roles count; species functions are not participation.",
+            "source_ids": [
+              "src-b87-compact"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b87-compact"
+        ],
+        "evidence": [
+          {
+            "claim": "The fan reference describes Compact AI suppression and species-caste functions.",
+            "source_ids": [
+              "src-b87-compact"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "General automated production and ordinary caste coverage are contextual estimates.",
+          "Active biological persons across species form a comparative proxy."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar technical caste empire as a qualified biological-person zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The fan reference describes Compact AI suppression and species-caste functions."
+        ],
+        "editorial_assumptions": [
+          "General automated production and ordinary caste coverage are contextual estimates.",
+          "Active biological persons across species form a comparative proxy."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0746",
+        "status": "needs_evidence",
+        "reason": "AI suppression and species castes do not establish an automated material economy.",
+        "source_ids": [
+          "src-b87-compact"
+        ],
+        "analysis": "The ban is a security conflict; no clear productive substitution or independently supported employment-preservation mechanism emerged.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0746",
+        "status": "zero_variant",
+        "reason": "Retain the familiar technical caste empire as a qualified biological-person zero variant.",
+        "source_ids": [
+          "src-b87-compact"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "lastangel-compact-caste-zero"
+      }
+    }
+  ]
+}

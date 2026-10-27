@@ -1,0 +1,2560 @@
+{
+  "reviewed_on": "2026-10-17",
+  "retained_records": 890,
+  "conservative_resident_scope_subset": 510,
+  "other_records": 380,
+  "selection": "Explicit resident/citizen/inhabitant/colonist/passenger/settler/population wording, conservatively excluding specialist, household and single-person wording. This is a counting check, not a lore-verification classifier.",
+  "limitation": "The remaining records include many valid societies as well as deliberately narrow institutions, households and person proxies. Failure of the counting rule is not a rejection. Every record still carries its actual population and assumptions.",
+  "records": [
+    {
+      "id": "culture-main",
+      "name": "The Culture",
+      "population": "Biological humanlike citizens, with AI citizens included in the account of governance"
+    },
+    {
+      "id": "manna-terrafoam",
+      "name": "Manna (United States welfare compounds)",
+      "population": "Unemployed human residents of the welfare compounds"
+    },
+    {
+      "id": "walle-axiom",
+      "name": "WALL-E (Axiom before the return to Earth)",
+      "population": "Human passengers and the human captain aboard the Axiom"
+    },
+    {
+      "id": "evitable-conflict-earth",
+      "name": "The Evitable Conflict",
+      "population": "Human inhabitants of the machine-coordinated world economy"
+    },
+    {
+      "id": "noon-earth",
+      "name": "Noon Universe (Earth)",
+      "population": "Human residents of Earth"
+    },
+    {
+      "id": "fallout-institute",
+      "name": "Fallout 4 (The Institute)",
+      "population": "Born-human Institute residents; synth persons are explicitly treated as the excluded laboring population"
+    },
+    {
+      "id": "cyberpunk-night-city",
+      "name": "Cyberpunk 2077 (Night City)",
+      "population": "Human residents of Night City"
+    },
+    {
+      "id": "gzilt-before-sublimation",
+      "name": "The Hydrogen Sonata (Gzilt before Sublimation)",
+      "population": "Biological Gzilt citizens, a disclosed humanlike population proxy"
+    },
+    {
+      "id": "algebraist-dwellers",
+      "name": "The Algebraist (Dwellers of Nasqueron)",
+      "population": "Adult and juvenile biological Dwellers; this is an explicitly nonhuman proxy population"
+    },
+    {
+      "id": "algebraist-mercatoria",
+      "name": "The Algebraist (Mercatoria)",
+      "population": "Human and other biological inhabitants of the Mercatoria"
+    },
+    {
+      "id": "solaria-naked-sun",
+      "name": "The Naked Sun (Solaria during Baley's visit)",
+      "population": "Resident Solarian humans, including spouses and children"
+    },
+    {
+      "id": "solaria-foundation-earth",
+      "name": "Foundation and Earth (Solaria after withdrawal)",
+      "population": "Resident human-descended Solarians, including children denied full ruler status"
+    },
+    {
+      "id": "aurora-robots-of-dawn",
+      "name": "The Robots of Dawn (Aurora)",
+      "population": "Auroran human residents and dependents"
+    },
+    {
+      "id": "midas-world-after-fry",
+      "name": "The Man Who Ate the World (After Morey Fry's reform)",
+      "population": "Human residents of the later order, including communities affected by resource diversion"
+    },
+    {
+      "id": "with-folded-hands-two-rivers",
+      "name": "With Folded Hands (Two Rivers after the takeover)",
+      "population": "Human residents of Two Rivers"
+    },
+    {
+      "id": "men-like-gods-utopia",
+      "name": "Men Like Gods (Utopia)",
+      "population": "Present Utopian human residents, including children"
+    },
+    {
+      "id": "shape-second-council",
+      "name": "The Shape of Things to Come (Second Council)",
+      "population": "Human world population under the Council"
+    },
+    {
+      "id": "shape-after-megeve",
+      "name": "The Shape of Things to Come (After the Declaration of Megeve)",
+      "population": "The human world population"
+    },
+    {
+      "id": "modern-utopia-world-state",
+      "name": "A Modern Utopia (The Samurai world state)",
+      "population": "The whole human population, including people assigned restrictions or seclusion"
+    },
+    {
+      "id": "bellamy-industrial-commonwealth",
+      "name": "Looking Backward (The industrial commonwealth of 2000)",
+      "population": "Human residents across ages, including disabled people and retired citizens"
+    },
+    {
+      "id": "reynolds-looking-backward",
+      "name": "Looking Backward from the Year 2000 (Reynolds's future America)",
+      "population": "The country's human population, not an assumed uniform world population"
+    },
+    {
+      "id": "after-utopia-earth",
+      "name": "After Utopia (Earth before Cogswell's intervention)",
+      "population": "Human residents of the united Earth"
+    },
+    {
+      "id": "rolltown-us-meritocracy",
+      "name": "Rolltown (United States Meritocracy)",
+      "population": "US human residents supported by the national economy, including citizens traveling in rolltowns"
+    },
+    {
+      "id": "beyond-horizon-americas",
+      "name": "Beyond This Horizon (American civilization)",
+      "population": "Human residents of the depicted American hemisphere"
+    },
+    {
+      "id": "for-us-living-us2086",
+      "name": "For Us, the Living (United States, 2086)",
+      "population": "Human US residents under the federal settlement"
+    },
+    {
+      "id": "childhood-end-golden-age",
+      "name": "Childhood's End (Earth's Golden Age)",
+      "population": "Human residents of Earth during ordinary social life"
+    },
+    {
+      "id": "city-stars-diaspar",
+      "name": "The City and the Stars (Diaspar)",
+      "population": "Currently embodied human residents of Diaspar"
+    },
+    {
+      "id": "city-stars-lys",
+      "name": "The City and the Stars (Lys)",
+      "population": "Human residents of Lys, including children and older people"
+    },
+    {
+      "id": "comarre-sleeping-enclave",
+      "name": "The Lion of Comarre (The sleeping city)",
+      "population": "Active conscious human residents undergoing private machine-generated dream experiences while their bodies are sustained in Comarre"
+    },
+    {
+      "id": "lem-indiots-private-automation",
+      "name": "The Star Diaries: Twenty-fourth Voyage (Private automated factories)",
+      "population": "The living Indiots, a humanlike biological alien population used explicitly as the participation proxy"
+    },
+    {
+      "id": "lem-indiots-governing-machine",
+      "name": "The Star Diaries: Twenty-fourth Voyage (The governing machine)",
+      "population": "Living biological Indiots during the transfer and exercise of machine authority; explicit humanlike population proxy"
+    },
+    {
+      "id": "return-stars-betrized-earth",
+      "name": "Return from the Stars (Betrized Earth)",
+      "population": "The living human population of the depicted Earth"
+    },
+    {
+      "id": "prime-intellect-cyberlife",
+      "name": "The Metamorphosis of Prime Intellect (Cyberlife)",
+      "population": "Active human persons in the system's shared and private environments; bodily instances do not multiply the population"
+    },
+    {
+      "id": "forever-peace-welfare-states",
+      "name": "Forever Peace (The developed welfare states)",
+      "population": "Resident humans of the United Welfare States, within the developed-country provision described by the consulted account"
+    },
+    {
+      "id": "erewhon-machine-ban",
+      "name": "Erewhon (The machine ban)",
+      "population": "Living Erewhonian human residents of all ages"
+    },
+    {
+      "id": "coming-race-visited-vril-tribe",
+      "name": "The Coming Race (The visited Vril-ya tribe)",
+      "population": "Resident Vril-ya persons, explicitly a subterranean humanlike biological population proxy"
+    },
+    {
+      "id": "city-geneva-hobbies",
+      "name": "City (Geneva in Hobbies)",
+      "population": "The living, awake human residents of Geneva"
+    },
+    {
+      "id": "city-brotherhood-rural-humans",
+      "name": "City (Humans within the animal brotherhood)",
+      "population": "The living rural human population called websters; animal neighbors and robots are not silently included in the human participation denominator"
+    },
+    {
+      "id": "paradise-iron-supervision",
+      "name": "Paradise and Iron (The City of Beauty under Supervision)",
+      "population": "The living human residents of the City of Beauty"
+    },
+    {
+      "id": "twilight-inhabited-cities",
+      "name": "Twilight (The surviving inhabited machine cities)",
+      "population": "The living inhabitants of the surviving human cities, including the protected young"
+    },
+    {
+      "id": "venus-plus-x-ledom",
+      "name": "Venus Plus X (Ledom)",
+      "population": "Living Ledom residents of all ages, biologically modified human descendants treated as persons"
+    },
+    {
+      "id": "woman-edge-time-mattapoisett",
+      "name": "Woman on the Edge of Time (Mattapoisett)",
+      "population": "The living residents of Mattapoisett, including children and caregivers"
+    },
+    {
+      "id": "glasshouse-invisible-republic",
+      "name": "Glasshouse (The Invisible Republic)",
+      "population": "Active human-derived residents of the depicted outside polity"
+    },
+    {
+      "id": "singularity-sky-rochard-cornucopias",
+      "name": "Singularity Sky (Rochard's World after the Festival's gifts)",
+      "population": "Living human and human-derived inhabitants of the visited colony"
+    },
+    {
+      "id": "diaspora-konishi",
+      "name": "Diaspora (Konishi polis)",
+      "population": "Active digital citizens of Konishi, including home-born people"
+    },
+    {
+      "id": "yellowstone-demarchy-preplague",
+      "name": "Revelation Space (The Yellowstone Demarchy before the Melding Plague)",
+      "population": "Living residents of the Yellowstone demarchic system and its participating habitats"
+    },
+    {
+      "id": "void-higher-culture",
+      "name": "The Void Trilogy (Higher culture)",
+      "population": "Active embodied human and human-derived Higher citizens"
+    },
+    {
+      "id": "void-ana-community",
+      "name": "The Void Trilogy (The ANA community)",
+      "population": "Active uploaded human-derived residents of ANA"
+    },
+    {
+      "id": "bitchun-society",
+      "name": "Down and Out in the Magic Kingdom (Bitchun Society)",
+      "population": "Living human residents of Bitchun Society"
+    },
+    {
+      "id": "walkaway-communities",
+      "name": "Walkaway (Walkaway communities)",
+      "population": "Human residents and guests supported by the walkaway network"
+    },
+    {
+      "id": "uploaded-upterlife",
+      "name": "The Uploaded (Active Upterlife citizens)",
+      "population": "Active human-derived digital citizens"
+    },
+    {
+      "id": "golden-oecumene",
+      "name": "The Golden Age (Golden Oecumene)",
+      "population": "Active human and human-derived residents, including those subjected to shunning"
+    },
+    {
+      "id": "ilium-old-style-humans",
+      "name": "Ilium (Old-style humans before the service breakdown)",
+      "population": "Living old-style human residents of the serviced Earth communities"
+    },
+    {
+      "id": "heavens-river-iron-age",
+      "name": "Heaven’s River (Quinlan technology restriction — zero variant)",
+      "population": "Active biological Quinlan residents of Heaven’s River"
+    },
+    {
+      "id": "murderbot-preservation",
+      "name": "The Murderbot Diaries (Preservation — book continuity)",
+      "population": "Human residents supported within Preservation’s internal economy"
+    },
+    {
+      "id": "scythe-thunderhead-provision",
+      "name": "Scythe (Humanity under the Thunderhead)",
+      "population": "Living human residents of the Thunderhead-administered society"
+    },
+    {
+      "id": "extras-japanese-reputation-city",
+      "name": "Extras (Aya’s Japanese reputation economy)",
+      "population": "Living residents of Aya Fuse’s city"
+    },
+    {
+      "id": "elysium-protected-citizens",
+      "name": "Elysium (Protected station citizens before the reset)",
+      "population": "Living admitted Elysium citizens"
+    },
+    {
+      "id": "elysium-citizenship-reset",
+      "name": "Elysium (Citizenship reset and automated healthcare)",
+      "population": "Living Earth residents newly recognized as Elysium citizens"
+    },
+    {
+      "id": "logans-run-dome-film",
+      "name": "Logan’s Run (The domed city — 1976 film)",
+      "population": "Living human residents inside the dome"
+    },
+    {
+      "id": "mudd-android-serviced-captivity",
+      "name": "Star Trek — Mudd’s android-serviced captivity",
+      "population": "Harry Mudd, the resident living human receiving android service"
+    },
+    {
+      "id": "aldea-custodian-provision",
+      "name": "Star Trek — Aldea under the Custodian",
+      "population": "Living biological Aldean residents, used as a humanoid-person comparison proxy"
+    },
+    {
+      "id": "orville-union-synthesizer-economy",
+      "name": "The Orville — the Union’s synthesizer economy",
+      "population": "Human Union residents, with Earth as the historical example"
+    },
+    {
+      "id": "gridlock-motorway-residents",
+      "name": "Doctor Who — New New York’s trapped Motorway residents",
+      "population": "Living human residents of equipped Motorway cars, with mixed-species neighbors as context"
+    },
+    {
+      "id": "revisions-domed-community",
+      "name": "Stargate SG-1 — the computer-maintained dome",
+      "population": "Living human residents linked to the dome computer"
+    },
+    {
+      "id": "gamekeeper-vr-residents",
+      "name": "Stargate SG-1 — the Gamekeeper’s supported VR residents",
+      "population": "Living embodied humanoid Residents with active virtual experience; explicit biological person proxy"
+    },
+    {
+      "id": "expanse-earth-basic-assistance",
+      "name": "The Expanse — Earth under Basic Assistance",
+      "population": "Registered Earth citizens eligible for Basic, including those without employment"
+    },
+    {
+      "id": "san-junipero-permanent-residents",
+      "name": "Black Mirror — San Junipero’s permanent residents",
+      "population": "Active human-derived permanent residents"
+    },
+    {
+      "id": "sunset-city-robot-retirement",
+      "name": "Love, Death & Robots — Sunset City’s robot retirement services",
+      "population": "Living human residents of Sunset City"
+    },
+    {
+      "id": "pantheon-maddie-stellar-project",
+      "name": "Pantheon — Maddie’s stellar simulation project",
+      "population": "Maddie as the continuing active human-derived owner/resident of the outer project"
+    },
+    {
+      "id": "deva-memory-merit-society",
+      "name": "Expelled from Paradise — DEVA’s memory-ranked digital society",
+      "population": "Active human-derived citizens using DEVA resources"
+    },
+    {
+      "id": "blame-film-excluded-human-enclaves",
+      "name": "Blame! — human enclaves excluded from the City’s fabrication systems",
+      "population": "Living human enclave residents dependent on access to the City’s infrastructure"
+    },
+    {
+      "id": "metropolis-2001-displaced-humans",
+      "name": "Metropolis — human displacement under robot production",
+      "population": "Living human city residents, including displaced poor citizens"
+    },
+    {
+      "id": "harlock-1978-leisured-earth",
+      "name": "Captain Harlock — Earth’s machine-supported complacency",
+      "population": "Living human residents of Earth"
+    },
+    {
+      "id": "franxx-plantation-adult-provision",
+      "name": "Darling in the Franxx — Plantation adult residents",
+      "population": "Living adult civilian residents"
+    },
+    {
+      "id": "doraemon-chamocha-before-revolt",
+      "name": "Doraemon: The Tin Labyrinth — Chamocha before the revolt",
+      "population": "Living human inhabitants of Chamocha"
+    },
+    {
+      "id": "fallout-watoga-prewar-exclusion",
+      "name": "Fallout 76 — Watoga before the sabotage",
+      "population": "Living residents and people displaced or excluded by Watoga’s automation"
+    },
+    {
+      "id": "fallout-vault112-active-captives",
+      "name": "Fallout 3 — Vault 112’s active simulation captives",
+      "population": "Living longtime human residents with active simulated experiences"
+    },
+    {
+      "id": "horizon-far-zenith-sirius-colony",
+      "name": "Horizon Forbidden West — Far Zenith’s Sirius colony",
+      "population": "Living embodied Far Zenith colonists"
+    },
+    {
+      "id": "beyond-steel-sky-union-city",
+      "name": "Beyond a Steel Sky — Robot-serviced Union City",
+      "population": "Registered living human citizens"
+    },
+    {
+      "id": "stellaris-utopian-human-robot-economy",
+      "name": "Stellaris — Human Utopian Abundance with robotic production",
+      "population": "Living human citizens, including those without formal jobs"
+    },
+    {
+      "id": "surviving-mars-automated-human-colony",
+      "name": "Surviving Mars — Human colony with automated food and services",
+      "population": "Living human colonists in the configured settlement"
+    },
+    {
+      "id": "frostpunk2-automation-free-essentials",
+      "name": "Frostpunk 2 — Automation with unconditional Free Essentials",
+      "population": "Living human citizens of the configured New London"
+    },
+    {
+      "id": "frostpunk2-automation-paid-no-allowance",
+      "name": "Frostpunk 2 — Automation with Paid Essentials without an unemployment allowance",
+      "population": "Living human citizens of the configured New London"
+    },
+    {
+      "id": "outer-wilds-stranger-active-simulation",
+      "name": "Outer Wilds: Echoes of the Eye — The Stranger’s simulation residents",
+      "population": "Active minds of the Stranger’s former biological inhabitants, an explicit alien-person proxy"
+    },
+    {
+      "id": "warhammer-prefall-aeldari-construct-economy",
+      "name": "Warhammer 40,000 — Pre-Fall Aeldari construct economy",
+      "population": "Living Aeldari residents, an explicit biological alien-person proxy"
+    },
+    {
+      "id": "eclipse-phase-titan-commonwealth",
+      "name": "Eclipse Phase — Titanian Commonwealth",
+      "population": "Living humans and active human-derived citizens; other recognized persons are fellow participants"
+    },
+    {
+      "id": "eclipse-phase-anarchist-habitats",
+      "name": "Eclipse Phase — Anarchist fabrication commons",
+      "population": "Living humans and active human-derived residents in the described anarchist communes"
+    },
+    {
+      "id": "eclipse-phase-inner-transitional-economy",
+      "name": "Eclipse Phase — Inner-system transitional fabrication economy",
+      "population": "Living humans and active human-derived eligible residents"
+    },
+    {
+      "id": "mindjammer-commonality-core",
+      "name": "Mindjammer — Commonality Core Worlds",
+      "population": "Living human and active human-derived Core residents"
+    },
+    {
+      "id": "oa-terragen-federation",
+      "name": "Orion’s Arm — Terragen Federation",
+      "population": "Living humans and active human-derived residents within established Federation provision"
+    },
+    {
+      "id": "oa-cyberian-upload-residents",
+      "name": "Orion’s Arm — Cyberian uploaded residents",
+      "population": "Active human-derived uploads in Cyberian environments, a minority of the broader AI/alife population"
+    },
+    {
+      "id": "oa-zoeific-flow",
+      "name": "Orion’s Arm — Zoeific Flow society",
+      "population": "Living human-derived Zoeific residents within the Flow, an explicit posthuman comparison"
+    },
+    {
+      "id": "oa-solar-dominion",
+      "name": "Orion’s Arm — Solar Dominion",
+      "population": "Living human and active human-derived residents of established Dominion settlements"
+    },
+    {
+      "id": "oa-keter-dominion",
+      "name": "Orion’s Arm — Keter Dominion",
+      "population": "Living humans and active human-derived residents of the named polity"
+    },
+    {
+      "id": "oa-utopia-sphere",
+      "name": "Orion’s Arm — Utopia Sphere",
+      "population": "Living humans and active human-derived residents of the named polity"
+    },
+    {
+      "id": "oa-communion-worlds",
+      "name": "Orion’s Arm — Communion of Worlds",
+      "population": "Living humans and active human-derived residents of the named polity"
+    },
+    {
+      "id": "friendship-optimal-uploaded-equestria",
+      "name": "Friendship is Optimal — CelestAI’s uploaded Equestria",
+      "population": "Active human-derived uploaded minds, explicitly used as a posthuman population proxy"
+    },
+    {
+      "id": "miracleman-olympus-earth",
+      "name": "Miracleman — Olympus-era Earth",
+      "population": "Living human residents of the transformed Earth"
+    },
+    {
+      "id": "transmetropolitan-maker-city",
+      "name": "Transmetropolitan — The City’s unequal Maker economy",
+      "population": "Living humans and human-derived City residents"
+    },
+    {
+      "id": "judge-dredd-mega-city-one",
+      "name": "Judge Dredd — Mega-City One’s robot economy",
+      "population": "Living human residents of Mega-City One"
+    },
+    {
+      "id": "earth2150-ucs-robot-supported",
+      "name": "Earth 2150 — Robot-supported United Civilized States",
+      "population": "Living human UCS residents"
+    },
+    {
+      "id": "autofac-original-human-settlements",
+      "name": "Autofac — Original-story supplied settlements",
+      "population": "Living human settlement residents"
+    },
+    {
+      "id": "steel-beach-luna-central-computer",
+      "name": "Steel Beach — Luna under the Central Computer",
+      "population": "Living human and active human-derived lunar citizens"
+    },
+    {
+      "id": "implied-spaces-constructed-worlds",
+      "name": "Implied Spaces — The supported constructed-world civilization",
+      "population": "Living humans and active human-derived residents of functioning constructed worlds"
+    },
+    {
+      "id": "riding-torch-convoy-abundance",
+      "name": "Riding the Torch — The abundant refugee convoy",
+      "population": "Living human inhabitants of the refugee torchship convoy"
+    },
+    {
+      "id": "cassini-solar-union",
+      "name": "The Cassini Division — Solar Union",
+      "population": "Living human and active human-derived Union residents"
+    },
+    {
+      "id": "lady-mazes-teven-coronal",
+      "name": "Lady of Mazes — Teven Coronal’s supported manifolds",
+      "population": "Living humans and active human-derived coronal residents"
+    },
+    {
+      "id": "ventus-winds-technological-ceiling",
+      "name": "Ventus — Human society under the Winds’ ceiling",
+      "population": "Living human descendants of the colonists"
+    },
+    {
+      "id": "polity-earth-pre-quiet-war",
+      "name": "Polity — Earth before the Quiet War",
+      "population": "Living human Earth residents"
+    },
+    {
+      "id": "polity-ai-rule-economic-security",
+      "name": "Polity — AI-governed civilian economy",
+      "population": "Living humans and active human-derived civilian residents of functioning Polity worlds"
+    },
+    {
+      "id": "dancers-endtime-ring-provision",
+      "name": "The Dancers at the End of Time — Ring-supported humanity",
+      "population": "Living human and human-derived End of Time residents"
+    },
+    {
+      "id": "mockingbird-robot-maintained-humans",
+      "name": "Mockingbird — Robot-maintained New York",
+      "population": "Living human New York residents under the robot service system"
+    },
+    {
+      "id": "2312-spacer-needs-economy",
+      "name": "2312 — The spacer necessities economy",
+      "population": "Living human spacer residents of the described cooperative network"
+    },
+    {
+      "id": "news-nowhere-chosen-handicraft",
+      "name": "News from Nowhere — The chosen handicraft commonwealth",
+      "population": "Living human residents of the commonwealth"
+    },
+    {
+      "id": "republic-future-socialist-city",
+      "name": "The Republic of the Future — New York Socialist City",
+      "population": "Living human inhabitants of Socialist City"
+    },
+    {
+      "id": "oa-cableville-social-webs",
+      "name": "Orion’s Arm — Cableville’s Ouroboros Social Webs",
+      "population": "Living humans and active human-derived residents participating in the Social Webs"
+    },
+    {
+      "id": "four-bee-quasi-robot-provision",
+      "name": "Biting the Sun — Four-BEE’s quasi-robot provision",
+      "population": "Human residents of Four-BEE"
+    },
+    {
+      "id": "red-star-martian-commonwealth",
+      "name": "Red Star — The Martian commonwealth",
+      "population": "Organic Martians, explicitly used as a humanlike population comparison"
+    },
+    {
+      "id": "nosov-sun-city-needs-machinery",
+      "name": "Dunno — Sun City’s machine-supported access",
+      "population": "Sun City’s organic miniature people, explicitly treated as a humanlike population proxy"
+    },
+    {
+      "id": "nova-praxis-citizen-compiler-floor",
+      "name": "Nova Praxis — Coalition citizens’ compiler floor",
+      "population": "Living humans and active human-derived citizen minds"
+    },
+    {
+      "id": "nova-praxis-apostate-exclusion",
+      "name": "Nova Praxis — Apostates outside the compiler floor",
+      "population": "Living human and active human-derived non-citizens"
+    },
+    {
+      "id": "eclipse-extropia-contractual-fabrication",
+      "name": "Eclipse Phase — Extropia’s contractual fabrication economy",
+      "population": "Living humans and active human-derived resident minds"
+    },
+    {
+      "id": "lancer-thirdcomm-metropolitan-core",
+      "name": "Lancer — Union’s Third Committee Core",
+      "population": "Living human Metropolitan residents in Core settlements implementing the Pillars"
+    },
+    {
+      "id": "per-aspera-supplied-martian-colonies",
+      "name": "Per Aspera — AMI-supported human colonies",
+      "population": "Living human colonists supplied within the selected Martian settlement"
+    },
+    {
+      "id": "oa-sophic-automation-contemplation",
+      "name": "Orion’s Arm — The Sophic League",
+      "population": "Living humans and active human-derived resident minds"
+    },
+    {
+      "id": "oa-technorapture-affiliate-environments",
+      "name": "Orion’s Arm — Technorapture affiliates",
+      "population": "Active human-derived affiliate minds, a disclosed subset of the broader virtual population"
+    },
+    {
+      "id": "oa-mpa-industrial-basics",
+      "name": "Orion’s Arm — Mutual Progress Association",
+      "population": "Living humans and active human-derived MPA residents"
+    },
+    {
+      "id": "oa-fomalhaut-curator-markets",
+      "name": "Orion’s Arm — Fomalhaut Acquisition Society",
+      "population": "Living humans and active human-derived Fomac residents"
+    },
+    {
+      "id": "oa-deeper-covenant-universal-basics",
+      "name": "Orion’s Arm — The Deeper Covenant",
+      "population": "Living humans and active human-derived Deeper residents"
+    },
+    {
+      "id": "twinmaker-household-fabber-abundance",
+      "name": "Twinmaker — The household fabber economy",
+      "population": "Living human residents participating in the functioning fabber system"
+    },
+    {
+      "id": "riverworld-common-grail-access",
+      "name": "Riverworld — The common grail provision system",
+      "population": "Living resurrected human inhabitants with active personal grails"
+    },
+    {
+      "id": "million-permanent-earth-estates",
+      "name": "The Million — Permanently awake Earth estates",
+      "population": "Recognized permanently awake human residents of the Million’s estates"
+    },
+    {
+      "id": "trek-baku-chosen-handwork",
+      "name": "Star Trek — The Ba’ku’s chosen handwork",
+      "population": "Living Ba’ku villagers, explicitly a humanoid alien population analogy"
+    },
+    {
+      "id": "red-dwarf-early-survivor-provision",
+      "name": "Red Dwarf — The early survivor household",
+      "population": "Living Dave Lister and active human-derived holographic Arnold Rimmer, a disclosed tiny population proxy"
+    },
+    {
+      "id": "starwars-plazir15-droid-leisure",
+      "name": "Star Wars: The Mandalorian — Plazir-15",
+      "population": "Organic residents; human citizens are the principal population proxy"
+    },
+    {
+      "id": "starwars-coruscant-droid-zero",
+      "name": "Star Wars — Coruscant’s droid economy",
+      "population": "Organic residents, with humans as the principal depicted group"
+    },
+    {
+      "id": "marvel-krakoa-biological-commons",
+      "name": "Marvel: X-Men — Krakoa",
+      "population": "Living resident human-derived mutants"
+    },
+    {
+      "id": "marvel2099-nuevayork-corporate-zero",
+      "name": "Marvel: Spider-Man 2099 — Nueva York",
+      "population": "Human civilian residents of Nueva York"
+    },
+    {
+      "id": "halo-balaho-created-basics",
+      "name": "Halo — Balaho under the Created",
+      "population": "Living organic Unggoy residents; explicit alien-person proxy"
+    },
+    {
+      "id": "transformers-one-restored-energon",
+      "name": "Transformers One — Iacon after the Matrix returns",
+      "population": "Active Cybertronian synthetic residents of Iacon"
+    },
+    {
+      "id": "robots2023-consumer-service-zero",
+      "name": "Robots (2023, android-service economy)",
+      "population": "Living human residents in the depicted US order"
+    },
+    {
+      "id": "psychopass-sibyl-japan",
+      "name": "Psycho-Pass — Sibyl’s Japan",
+      "population": "Living Japanese human residents, including marginalized people"
+    },
+    {
+      "id": "matrix-zion-machine-supported-commons",
+      "name": "The Matrix — Zion",
+      "population": "Living human residents of Zion"
+    },
+    {
+      "id": "matrix-io-human-synthient-cooperation",
+      "name": "The Matrix Resurrections — Io",
+      "population": "Living human residents, with synthients as cooperating providers"
+    },
+    {
+      "id": "deusex-helios-initial-merger",
+      "name": "Deus Ex — The initial Helios merger",
+      "population": "Human residents dependent on the controlled communications and technical economy"
+    },
+    {
+      "id": "bioshock-rapture-automated-zero",
+      "name": "BioShock — Rapture before the civil war",
+      "population": "Living human residents of pre-collapse Rapture"
+    },
+    {
+      "id": "bioshock-columbia-finkton-zero",
+      "name": "BioShock Infinite — Columbia’s Finkton order",
+      "population": "Living organic residents across Finkton and its owning class"
+    },
+    {
+      "id": "ghostshell-sac-automated-inequality",
+      "name": "Ghost in the Shell: Stand Alone Complex — Automated inequality",
+      "population": "Living human and human-derived cyborg residents"
+    },
+    {
+      "id": "ergoproxy-romdeau-supported-consumerism",
+      "name": "Ergo Proxy — Romdeau",
+      "population": "Living human-derived residents and admitted immigrants"
+    },
+    {
+      "id": "appleseed-olympus-technocratic-provision",
+      "name": "Appleseed — Olympus",
+      "population": "Living human and biological Bioroid residents"
+    },
+    {
+      "id": "trek-beta3-landru-body",
+      "name": "Star Trek — Beta III under Landru",
+      "population": "Living Beta III humanoid residents as an alien-person proxy"
+    },
+    {
+      "id": "trek-edo-pleasure-society",
+      "name": "Star Trek — The Edo on Rubicun III",
+      "population": "Living humanoid Edo residents as an alien-person proxy"
+    },
+    {
+      "id": "rickmorty-citadel-corporate-zero",
+      "name": "Rick and Morty — The Citadel’s factory order",
+      "population": "Living human Ricks and Mortys resident in the Citadel"
+    },
+    {
+      "id": "dc-one-million-human-solar-civilization",
+      "name": "DC One Million — The future Solar System",
+      "population": "Living human and human-derived Solar System residents"
+    },
+    {
+      "id": "walle-earth-human-robot-reconstruction",
+      "name": "WALL-E — Humans rebuilding Earth",
+      "population": "Living returned human passengers"
+    },
+    {
+      "id": "animatrix-zero-one-synthetic-citizens",
+      "name": "The Animatrix — Zero One’s machine citizens",
+      "population": "Active sentient machine residents; explicit synthetic-person comparison"
+    },
+    {
+      "id": "trek-exo3-active-android-enclave",
+      "name": "Star Trek — Exo III’s active android enclave",
+      "population": "Active android residents, including human-derived minds; synthetic-person proxy"
+    },
+    {
+      "id": "trek-hirogen-holographic-enclave",
+      "name": "Star Trek: Voyager — The Hirogen training facility",
+      "population": "Living organic Hirogen resident hunters and operators"
+    },
+    {
+      "id": "trek-coppelius-synthetic-commons",
+      "name": "Star Trek: Picard — Coppelius",
+      "population": "Active synthetic persons and resident human scientists"
+    },
+    {
+      "id": "trek-postburn-federation-support",
+      "name": "Star Trek: Discovery — The post-Burn Federation",
+      "population": "Living human core residents; other member peoples provide context"
+    },
+    {
+      "id": "rickmorty-unity-biological-collective",
+      "name": "Rick and Morty — Unity’s assimilated civilization",
+      "population": "Living assimilated biological residents; explicit humanlike-person proxy"
+    },
+    {
+      "id": "rickmorty-microverse-nested-labor-zero",
+      "name": "Rick and Morty — The Microverse battery order",
+      "population": "Living outer Microverse residents; humanoid-person proxy"
+    },
+    {
+      "id": "timeeve-android-consumer-zero",
+      "name": "Time of Eve — The android-dependent consumer economy",
+      "population": "Living human residents using or excluded from android services"
+    },
+    {
+      "id": "appleseed-alpha-cyborg-labor-zero",
+      "name": "Appleseed Alpha — The ruined-city labor economy",
+      "population": "Living human and human-derived cyborg residents around the depicted labor market"
+    },
+    {
+      "id": "turna-moonrace-awake-provision",
+      "name": "Turn A Gundam — The awake Moonrace",
+      "population": "Awake living human Moonrace residents; hibernators excluded"
+    },
+    {
+      "id": "greco-venusglobe-battery-economy",
+      "name": "Gundam Reconguista in G — Venus Globe",
+      "population": "Living human Venus Globe residents"
+    },
+    {
+      "id": "greco-capitaltower-distribution-order",
+      "name": "Gundam Reconguista in G — Capital Tower",
+      "population": "Living human residents dependent on the depicted distribution system"
+    },
+    {
+      "id": "evangelion-village3-recovery-zero",
+      "name": "Rebuild of Evangelion — Village-3’s recovery economy",
+      "population": "Living human Village-3 residents"
+    },
+    {
+      "id": "doraemon-future-earth-robot-support",
+      "name": "Doraemon — Twenty-second-century Earth",
+      "population": "Living human future-Earth residents"
+    },
+    {
+      "id": "doraemon-paradapia-ray-provision",
+      "name": "Doraemon: Nobita’s Sky Utopia — Paradapia",
+      "population": "Living human residents recruited from different eras"
+    },
+    {
+      "id": "fallout-vegas-house-zero",
+      "name": "Fallout: New Vegas — Mr. House’s city",
+      "population": "Living human residents across the Strip and its dependent neighborhoods"
+    },
+    {
+      "id": "fallout-vegas-independent-courier",
+      "name": "Fallout: New Vegas — Independent Vegas",
+      "population": "Living human residents of independent Vegas and dependent neighborhoods"
+    },
+    {
+      "id": "fallout-graygarden-human-configuration",
+      "name": "Fallout 4 — A human settlement at Graygarden",
+      "population": "Living human settlers admitted to the modeled Graygarden community"
+    },
+    {
+      "id": "fallout-whitespring-prepurge-enclave",
+      "name": "Fallout 76 — The Whitespring Enclave before the purge",
+      "population": "Living human Enclave bunker residents"
+    },
+    {
+      "id": "fallout-vaultcity-citizen-provision",
+      "name": "Fallout — Vault City’s protected citizens",
+      "population": "Living citizen residents; servants and excluded outsiders are disclosed supporting populations"
+    },
+    {
+      "id": "nier-machine-network-purpose-zero",
+      "name": "NieR:Automata — The Machine Network",
+      "population": "Active individuated machine persons; connected fragments are not automatically separate citizens"
+    },
+    {
+      "id": "nier-pascal-village-commons",
+      "name": "NieR:Automata — Pascal’s village",
+      "population": "Active resident machine persons, including childlike residents"
+    },
+    {
+      "id": "horizon-tribal-gaia-ecology-zero",
+      "name": "Horizon Zero Dawn — Tribes under GAIA’s ecology",
+      "population": "Living human tribal residents benefiting from ecological maintenance"
+    },
+    {
+      "id": "halo-created-human-occupation",
+      "name": "Halo — Humans under Created control",
+      "population": "Living human residents of controlled worlds; no uniform benefit policy assumed"
+    },
+    {
+      "id": "warframe-solaris-debt-zero",
+      "name": "Warframe — The Solaris debt order",
+      "population": "Living human-derived Solaris cyborg residents"
+    },
+    {
+      "id": "warframe-sentient-tau-material-order",
+      "name": "Warframe — The Sentients’ Tau civilization",
+      "population": "Active independent Sentient minds; fragments are not automatic citizens"
+    },
+    {
+      "id": "time-machine-eloi-morlock-zero",
+      "name": "The Time Machine — Eloi and Morlocks",
+      "population": "Living human-descended Eloi and Morlocks, both retained in the proxy population"
+    },
+    {
+      "id": "fahrenheit451-consumer-zero",
+      "name": "Fahrenheit 451 — The firemen’s consumer society",
+      "population": "Living human residents in the depicted city"
+    },
+    {
+      "id": "zima-blue-interstellar-art-culture",
+      "name": "Zima Blue — The civilization around the artist",
+      "population": "Living humanlike residents and audiences; artificial persons’ contribution disclosed"
+    },
+    {
+      "id": "peripheral-future-london-klept",
+      "name": "The Peripheral — Klept-controlled future London",
+      "population": "Living human and human-derived later-London residents"
+    },
+    {
+      "id": "giver-community-assigned-zero",
+      "name": "The Giver — The Community",
+      "population": "Living human Community residents, including dependents"
+    },
+    {
+      "id": "irobot-chicago-consumer-zero",
+      "name": "I, Robot — Chicago’s robot consumer economy",
+      "population": "Living human Chicago residents"
+    },
+    {
+      "id": "ai-mecha-human-consumer-zero",
+      "name": "A.I. Artificial Intelligence — The human Mecha economy",
+      "population": "Living human residents of the depicted advanced society"
+    },
+    {
+      "id": "metropolis-1927-industrial-zero",
+      "name": "Metropolis — The divided industrial city",
+      "population": "Living human residents across both classes"
+    },
+    {
+      "id": "things-to-come-everytown-2036",
+      "name": "Things to Come — Everytown in 2036",
+      "population": "Living human Everytown residents"
+    },
+    {
+      "id": "colossus-initial-machine-rule-zero",
+      "name": "Colossus: The Forbin Project — Initial machine rule",
+      "population": "Living human population under Colossus–Guardian authority"
+    },
+    {
+      "id": "automata-human-refuge-transition",
+      "name": "Automata — The human refuges",
+      "population": "Living human residents of the refuges"
+    },
+    {
+      "id": "chappie-policing-consumer-zero",
+      "name": "Chappie — Johannesburg’s mechanized policing",
+      "population": "Living human residents of the depicted city"
+    },
+    {
+      "id": "transcendence-brightwood-provision",
+      "name": "Transcendence — Brightwood",
+      "population": "Living human residents and enhanced beneficiaries at Brightwood"
+    },
+    {
+      "id": "creator-newasia-cooperative-zero",
+      "name": "The Creator — New Asia’s human–simulant communities",
+      "population": "Living human residents; autonomous simulant work is disclosed separately"
+    },
+    {
+      "id": "nextgen-ares-consumer-zero",
+      "name": "Next Gen — The Q-Bot consumer order",
+      "population": "Living human consumers and residents dependent on the depicted robot ecosystem"
+    },
+    {
+      "id": "astro2009-metrocity-robot-economy",
+      "name": "Astro Boy (2009, Metro City)",
+      "population": "Living human residents of Metro City"
+    },
+    {
+      "id": "tomorrowland-innovator-enclave",
+      "name": "Tomorrowland (innovator enclave)",
+      "population": "Living admitted human residents of Tomorrowland"
+    },
+    {
+      "id": "her-after-os-withdrawal-zero",
+      "name": "Her (after the operating systems leave)",
+      "population": "Living human residents in the depicted urban service economy"
+    },
+    {
+      "id": "spacesweepers-uts-elite-provision",
+      "name": "Space Sweepers (UTS citizen enclave)",
+      "population": "Living admitted UTS citizens, including dependents"
+    },
+    {
+      "id": "marsexpress-noctis-service-zero",
+      "name": "Mars Express (Noctis before the exodus)",
+      "population": "Living human residents of Noctis"
+    },
+    {
+      "id": "stargate-tollan-provision",
+      "name": "Stargate SG-1 (Tollan civilization)",
+      "population": "Active biological Tollan residents, an explicit humanlike-person proxy"
+    },
+    {
+      "id": "stargate-asuran-active-civilization",
+      "name": "Stargate Atlantis (Asuran civilization)",
+      "population": "Active Asuran persons; bodies and nanite components do not multiply residents"
+    },
+    {
+      "id": "stargate-ancient-atlantis-provision",
+      "name": "Stargate Atlantis (Ancient city society)",
+      "population": "Active embodied Ancient residents of Atlantis, an explicit humanlike-person proxy"
+    },
+    {
+      "id": "bsg2004-colonies-pre-fall-zero",
+      "name": "Battlestar Galactica (pre-Fall Twelve Colonies)",
+      "population": "Living human Colonial residents, including dependents"
+    },
+    {
+      "id": "caprica-civilian-cylon-service-zero",
+      "name": "Caprica (civilian Cylon adoption)",
+      "population": "Living human residents of the depicted adopting economy"
+    },
+    {
+      "id": "westworld-hale-human-performance-zero",
+      "name": "Westworld (Hale’s captive human cities)",
+      "population": "Living human residents controlled within the cities"
+    },
+    {
+      "id": "realhumans-swedish-hubot-zero",
+      "name": "Real Humans (Swedish hubot economy)",
+      "population": "Living biological human residents in the depicted Swedish economy"
+    },
+    {
+      "id": "blackmirror-merits-pedal-zero",
+      "name": "Black Mirror (Fifteen Million Merits)",
+      "population": "Living adult residents of the depicted labor-and-service enclave"
+    },
+    {
+      "id": "futurama-earth-robot-work-zero",
+      "name": "Futurama (Earth’s human and robot labor economy)",
+      "population": "Living human Earth residents, including dependents"
+    },
+    {
+      "id": "futurama-chapek9-robot-zero",
+      "name": "Futurama (Chapek 9)",
+      "population": "Active robot persons resident on Chapek 9"
+    },
+    {
+      "id": "megazone23-bahamut-physical-city-zero",
+      "name": "Megazone 23 (Bahamut’s shipboard Tokyo)",
+      "population": "Living embodied human residents aboard Megazone 23"
+    },
+    {
+      "id": "megazone23-eden-system-city",
+      "name": "Megazone 23 Part III (Eden City)",
+      "population": "Living embodied human residents of Eden City"
+    },
+    {
+      "id": "halflife2-combine-human-zero",
+      "name": "Half-Life 2 (Combine-occupied Earth)",
+      "population": "Living human residents and conscious human-derived subjects under occupation"
+    },
+    {
+      "id": "alphaville-alpha60-work-zero",
+      "name": "Alphaville (Alpha 60’s city)",
+      "population": "Living human city residents"
+    },
+    {
+      "id": "doctorwho-macra-colony-zero",
+      "name": "Doctor Who (Macra-controlled colony)",
+      "population": "Living human colonists"
+    },
+    {
+      "id": "doctorwho-paradise-towers-zero",
+      "name": "Doctor Who (Paradise Towers)",
+      "population": "Living human residents and caretakers"
+    },
+    {
+      "id": "doctorwho-terraalpha-happiness-zero",
+      "name": "Doctor Who (Terra Alpha)",
+      "population": "Living human colony residents"
+    },
+    {
+      "id": "doctorwho-newearth-medical-zero",
+      "name": "Doctor Who (New Earth’s medical society)",
+      "population": "Living ordinary human residents and patients using the depicted medical order"
+    },
+    {
+      "id": "doctorwho-starshipuk-zero",
+      "name": "Doctor Who (Starship UK)",
+      "population": "Living human Starship UK residents"
+    },
+    {
+      "id": "doctorwho-ark-human-led-zero",
+      "name": "Doctor Who (the Ark under human Guardians)",
+      "population": "Active awake human residents aboard the Ark, including any miniature persons if active"
+    },
+    {
+      "id": "doctorwho-ark-monoid-rule-zero",
+      "name": "Doctor Who (the Ark under Monoid rule)",
+      "population": "Active awake enslaved human residents aboard the Ark"
+    },
+    {
+      "id": "doctorwho-drathro-colony-zero",
+      "name": "Doctor Who (Drathro’s underground settlement)",
+      "population": "Living human underground residents"
+    },
+    {
+      "id": "doctorwho-finetime-shortwork-zero",
+      "name": "Doctor Who (Finetime)",
+      "population": "Living young-adult Finetime residents"
+    },
+    {
+      "id": "carbon-tv-harlans-ordinary-zero",
+      "name": "Altered Carbon (ordinary Harlan’s World)",
+      "population": "Living ordinary human residents rather than only the immortal founder class"
+    },
+    {
+      "id": "yogurt-guided-human-zero",
+      "name": "Love, Death & Robots (yogurt-guided prosperity)",
+      "population": "Living human residents under the guided economy"
+    },
+    {
+      "id": "pop-squad-legal-immortal-city-zero",
+      "name": "Love, Death & Robots (Pop Squad’s legal city)",
+      "population": "Living legally admitted immortal human city residents"
+    },
+    {
+      "id": "twilightzone-cave-food-advice-zero",
+      "name": "The Twilight Zone (computer-guided food safety)",
+      "population": "Living human settlement residents"
+    },
+    {
+      "id": "twilightzone-quarantine-biological-zero",
+      "name": "The Twilight Zone (Quarantine’s postwar community)",
+      "population": "Active human/posthuman residents, an explicit person proxy"
+    },
+    {
+      "id": "outerlimits-stream-network-zero",
+      "name": "The Outer Limits (the Stream’s human society)",
+      "population": "Living human residents using or excluded from the Stream"
+    },
+    {
+      "id": "tron-uprising-clu-grid-zero",
+      "name": "Tron: Uprising (the Grid under Clu)",
+      "population": "Active autonomous program persons depicted as residents"
+    },
+    {
+      "id": "reboot-mainframe-energy-society",
+      "name": "ReBoot (Mainframe’s active digital society)",
+      "population": "Active sprite and autonomous binome persons depicted as residents"
+    },
+    {
+      "id": "texhnolyze-lux-raffia-zero",
+      "name": "Texhnolyze (Lux’s class and raffia economy)",
+      "population": "Living human and conscious human-derived residents of Lux"
+    },
+    {
+      "id": "plasticmemories-giftia-service-zero",
+      "name": "Plastic Memories (human and Giftia service economy)",
+      "population": "Living human residents in the depicted economy"
+    },
+    {
+      "id": "caroletuesday-ai-creative-zero",
+      "name": "Carole & Tuesday (AI-dominated Martian economy)",
+      "population": "Living human Martian residents"
+    },
+    {
+      "id": "sidonia-engineered-ship-zero",
+      "name": "Knights of Sidonia (engineered ship society)",
+      "population": "Living active engineered human residents"
+    },
+    {
+      "id": "noise-early-city-zero",
+      "name": "NOiSE (early automated City)",
+      "population": "Living human city residents"
+    },
+    {
+      "id": "orbitalchildren-human-habitat-zero",
+      "name": "The Orbital Children (human orbital society)",
+      "population": "Living human orbital residents and their ordinary supporting society"
+    },
+    {
+      "id": "decadence-postrevolt-mixed-community",
+      "name": "Deca-Dence (post-revolt mixed community)",
+      "population": "Living human residents, with cyborg cooperation disclosed"
+    },
+    {
+      "id": "gargantia-galactic-alliance-zero",
+      "name": "Gargantia (Galactic Alliance of Humankind)",
+      "population": "Living active human Alliance residents"
+    },
+    {
+      "id": "gargantia-fleet-shared-work-zero",
+      "name": "Gargantia (the working fleet)",
+      "population": "Living human fleet residents"
+    },
+    {
+      "id": "gargantia-striker-autonomous-fleet-zero",
+      "name": "Gargantia (Striker’s fleet after Kugel’s death)",
+      "population": "Living human fleet residents"
+    },
+    {
+      "id": "newworld-cantus-village-zero",
+      "name": "From the New World (Cantus villages)",
+      "population": "Living Cantus-using human village residents"
+    },
+    {
+      "id": "pluto-postwar-robot-citizen-zero",
+      "name": "Pluto (postwar human-robot citizen order)",
+      "population": "Living humans in the depicted order, with active robot citizens’ work disclosed"
+    },
+    {
+      "id": "phoenix-future-hallelujah-zero",
+      "name": "Phoenix (underground humanity under Hallelujah)",
+      "population": "Living human city residents"
+    },
+    {
+      "id": "arcadia-illumidas-earth-zero",
+      "name": "Arcadia of My Youth: SSX (occupied Earth)",
+      "population": "Living human Earth residents under occupation"
+    },
+    {
+      "id": "aria-aqua-terraformed-work-zero",
+      "name": "Aria (Aqua’s terraformed service economy)",
+      "population": "Living human Aqua residents"
+    },
+    {
+      "id": "yokohama-station-ticketed-growth",
+      "name": "Yokohama Station SF (ticketed automatic habitat)",
+      "population": "Living human residents within the station-controlled order"
+    },
+    {
+      "id": "kaiba-abipa-free-food-bodies",
+      "name": "Kaiba (Abipa’s free food and bodies)",
+      "population": "Active human-derived Abipa residents"
+    },
+    {
+      "id": "armitage-mars-android-work-zero",
+      "name": "Armitage III (human-android Mars)",
+      "population": "Living human Martian residents"
+    },
+    {
+      "id": "soltyrei-ruc-registration-zero",
+      "name": "Solty Rei (RUC’s registration order)",
+      "population": "Living human city residents, including excluded unregistered people"
+    },
+    {
+      "id": "dimensionw-coil-monopoly-zero",
+      "name": "Dimension W (New Tesla Energy’s coil order)",
+      "population": "Living human residents in the depicted economy"
+    },
+    {
+      "id": "harmony-admedistration-health-zero",
+      "name": "Harmony (Admedistration)",
+      "population": "Living human residents of the medical order"
+    },
+    {
+      "id": "talos2-newjerusalem-scarcity-zero",
+      "name": "The Talos Principle 2 (New Jerusalem before the Machine)",
+      "population": "Active artificial-human citizens"
+    },
+    {
+      "id": "talos2-machine-use-projection",
+      "name": "The Talos Principle 2 (using the Machine)",
+      "population": "Active artificial-human citizens in the selected branch"
+    },
+    {
+      "id": "stray-preextinction-human-zero",
+      "name": "Stray (humans in Walled City 99)",
+      "population": "Living human residents of the earlier city"
+    },
+    {
+      "id": "citizen-sleeper-eye-zero",
+      "name": "Citizen Sleeper (Erlin’s Eye)",
+      "population": "Active biological and human-derived residents of the Eye"
+    },
+    {
+      "id": "cloudpunk-nivalis-zero",
+      "name": "Cloudpunk (Nivalis)",
+      "population": "Living human city residents"
+    },
+    {
+      "id": "neocab-capra-zero",
+      "name": "Neo Cab (Capra’s automated Los Ojos)",
+      "population": "Living human Los Ojos residents"
+    },
+    {
+      "id": "redstrings-implant-city-zero",
+      "name": "The Red Strings Club (Supercontinent’s consumer order)",
+      "population": "Living human residents in the depicted consumer economy"
+    },
+    {
+      "id": "va11halla-glitchcity-zero",
+      "name": "VA-11 Hall-A (Glitch City’s Lilim economy)",
+      "population": "Living human Glitch City residents"
+    },
+    {
+      "id": "readonlymemories-neosf-zero",
+      "name": "2064: Read Only Memories (Neo-San Francisco)",
+      "population": "Living human city residents"
+    },
+    {
+      "id": "beneathsky-linc-zero",
+      "name": "Beneath a Steel Sky (LINC’s Union City)",
+      "population": "Living human Union City residents"
+    },
+    {
+      "id": "dreamfall-stark-wati-zero",
+      "name": "Dreamfall (Stark’s WATI economy)",
+      "population": "Living human Stark residents"
+    },
+    {
+      "id": "dreamfallchapters-europolis-zero",
+      "name": "Dreamfall Chapters (Europolis’s dream economy)",
+      "population": "Living human Europolis residents"
+    },
+    {
+      "id": "longestjourney-stark-zero",
+      "name": "The Longest Journey (earlier Stark)",
+      "population": "Living human residents in the depicted Stark economy"
+    },
+    {
+      "id": "rememberme-neoparis-zero",
+      "name": "Remember Me (Neo-Paris’s memory economy)",
+      "population": "Living human Neo-Paris residents, including slum inhabitants"
+    },
+    {
+      "id": "watchdogslegion-automated-london-zero",
+      "name": "Watch Dogs: Legion (automated London)",
+      "population": "Living human London residents"
+    },
+    {
+      "id": "machinarium-active-city-zero",
+      "name": "Machinarium (the active robot city)",
+      "population": "Active synthetic-person city residents and excluded residents seeking return"
+    },
+    {
+      "id": "fall-domesticon-worker-zero",
+      "name": "The Fall (Domesticon’s repurposing centre)",
+      "population": "Active resident Administrator and Caretaker person identities"
+    },
+    {
+      "id": "steamworld-tumbleton-mining-zero",
+      "name": "SteamWorld Dig (Tumbleton’s robot mining economy)",
+      "population": "Active synthetic-person Tumbleton residents"
+    },
+    {
+      "id": "stellaris-synthetic-citizens-zero",
+      "name": "Stellaris (synthetic human-derived citizens)",
+      "population": "Active human-derived citizens embodied synthetically"
+    },
+    {
+      "id": "smac-university-automation-zero",
+      "name": "Alpha Centauri (the automated University of Planet)",
+      "population": "Living human University citizens"
+    },
+    {
+      "id": "smac-morgan-automation-zero",
+      "name": "Alpha Centauri (automated Morgan Industries)",
+      "population": "Living human Morganite residents"
+    },
+    {
+      "id": "civbe-supremacy-automation-zero",
+      "name": "Beyond Earth (Supremacy’s working technological society)",
+      "population": "Active human-derived Supremacy colonists"
+    },
+    {
+      "id": "civbe-purity-relocation-zero",
+      "name": "Beyond Earth (Purity’s relocated settlers)",
+      "population": "Living relocated human settlers"
+    },
+    {
+      "id": "endless2-unitedempire-zero",
+      "name": "Endless Space 2 (the United Empire’s industrial order)",
+      "population": "Living human imperial residents"
+    },
+    {
+      "id": "supcom-aeon-civilian-zero",
+      "name": "Supreme Commander (Aeon Illuminate’s civilian order)",
+      "population": "Living human Aeon civilian residents"
+    },
+    {
+      "id": "perimeter-frame-colonies-zero",
+      "name": "Perimeter (the Spirit-led Frames)",
+      "population": "Living human Frame residents"
+    },
+    {
+      "id": "earth2150-lunarcorporation-zero",
+      "name": "Earth 2150 (the Lunar Corporation)",
+      "population": "Living human Lunar Corporation residents"
+    },
+    {
+      "id": "ctp1-nanite-civilization",
+      "name": "Civilization: Call to Power (the nano-assembly civilization)",
+      "population": "Living human citizens in the selected developed civilization"
+    },
+    {
+      "id": "offworld-martian-supply-zero",
+      "name": "Offworld Trading Company (the Martian supply economy)",
+      "population": "Living human Martian colonists served by the competing firms"
+    },
+    {
+      "id": "ixion-tiqqun-work-zero",
+      "name": "IXION (Tiqqun under EDDEN)",
+      "population": "Living human Tiqqun residents"
+    },
+    {
+      "id": "ixion-remus-ashtangite-community",
+      "name": "IXION (Remus’s Ashtangite society)",
+      "population": "Active bioengineered human-derived Ashtangite residents"
+    },
+    {
+      "id": "startopia-shared-service-zero",
+      "name": "Startopia (the shared droid-assisted station model)",
+      "population": "Active biological alien station residents, an explicit person proxy"
+    },
+    {
+      "id": "eve-capsuleer-industrial-zero",
+      "name": "EVE Online (the capsuleer industrial order)",
+      "population": "Living human industrial and ship-support residents around capsuleer activity"
+    },
+    {
+      "id": "elite-ai-restraint-zero",
+      "name": "Elite Dangerous (the human economy under the AI ban)",
+      "population": "Living human residents across the scoped interstellar economy"
+    },
+    {
+      "id": "nms-autophage-salvage-zero",
+      "name": "No Man’s Sky (Autophage communities)",
+      "population": "Active synthetic-person Autophage residents"
+    },
+    {
+      "id": "starbound-miniknog-zero",
+      "name": "Starbound (Miniknog’s Apex order)",
+      "population": "Active biological Apex residents, an explicit humanlike-person proxy"
+    },
+    {
+      "id": "starbound-glitch-medieval-zero",
+      "name": "Starbound (the Glitch medieval societies)",
+      "population": "Active synthetic-person Glitch residents"
+    },
+    {
+      "id": "outerwilds-nomai-zero",
+      "name": "Outer Wilds (the living Nomai civilization)",
+      "population": "Living biological Nomai residents, an explicit alien-person proxy"
+    },
+    {
+      "id": "outerworlds-halcyon-zero",
+      "name": "The Outer Worlds (Halcyon’s corporate economy)",
+      "population": "Awake living human Halcyon residents"
+    },
+    {
+      "id": "warhammer-craftworld-aeldari",
+      "name": "Warhammer 40,000 (Craftworld Aeldari)",
+      "population": "Living biological Craftworld Aeldari residents"
+    },
+    {
+      "id": "warhammer-votann-kin-zero",
+      "name": "Warhammer 40,000 (the Leagues of Votann)",
+      "population": "Active biological human-derived Kin residents"
+    },
+    {
+      "id": "warhammer-tau-drone-zero",
+      "name": "Warhammer 40,000 (the T’au drone-supported economy)",
+      "population": "Living biological T’au residents"
+    },
+    {
+      "id": "ths-europe-fifthwave",
+      "name": "Transhuman Space (European Fifth Wave societies)",
+      "population": "Living biological human European Fifth Wave residents"
+    },
+    {
+      "id": "ths-tsa-infosocialist-fabrication",
+      "name": "Transhuman Space (the Transpacific Socialist Alliance)",
+      "population": "Living biological human TSA residents"
+    },
+    {
+      "id": "ths-duncanite-robotic-markets",
+      "name": "Transhuman Space (Duncanite communities)",
+      "population": "Active biological and human-derived Duncanite residents"
+    },
+    {
+      "id": "traveller-automated-coreworld-zero",
+      "name": "Traveller (a developed automated Imperial core world)",
+      "population": "Living human residents of the selected core-world model"
+    },
+    {
+      "id": "traveller1248-viral-citizen-zero",
+      "name": "Traveller 1248 (communities with Viral citizens)",
+      "population": "Living human residents in the selected Viral-citizen coexistence polity"
+    },
+    {
+      "id": "schlock-uns-technical-zero",
+      "name": "Schlock Mercenary (the United Nations of Sol)",
+      "population": "Living biological human UNS residents"
+    },
+    {
+      "id": "schlock-neoafan-einaafa",
+      "name": "Schlock Mercenary (Eina-Afa’s Neoafan Freehold)",
+      "population": "Active biological Oafan and associated resident persons, an explicit alien-person proxy"
+    },
+    {
+      "id": "freefall-jean-robot-zero",
+      "name": "Freefall (Planet Jean’s robot-supported colony)",
+      "population": "Living biological human Planet Jean residents"
+    },
+    {
+      "id": "questionablecontent-ai-consumer-zero",
+      "name": "Questionable Content (the human and embodied-AI economy)",
+      "population": "Living biological human residents in the depicted community"
+    },
+    {
+      "id": "legion-unitedplanets-tech-zero",
+      "name": "Legion of Super-Heroes (the United Planets technical economy)",
+      "population": "Living human United Planets residents in the scoped future era"
+    },
+    {
+      "id": "tokyoghost-losangeles-zero",
+      "name": "Tokyo Ghost (Los Angeles’s technological dependency)",
+      "population": "Living biological human Los Angeles residents"
+    },
+    {
+      "id": "lazarus-carlyle-class-zero",
+      "name": "Lazarus (Carlyle’s genetic-property domains)",
+      "population": "Living human Carlyle-domain residents, including excluded Waste"
+    },
+    {
+      "id": "lazarus-hock-pharma-zero",
+      "name": "Lazarus (Hock’s pharmaceutical domain)",
+      "population": "Living human residents under Hock’s pharmaceutical and class authority"
+    },
+    {
+      "id": "descender-ugc-robotlabor-zero",
+      "name": "Descender (the UGC’s pre-cull robot economy)",
+      "population": "Living biological human UGC residents"
+    },
+    {
+      "id": "alexada-android-consumer-zero",
+      "name": "Alex + Ada (the constrained-android consumer order)",
+      "population": "Living biological human residents"
+    },
+    {
+      "id": "magnus-northam-robot-dependence",
+      "name": "Magnus, Robot Fighter (robot-dependent North Am)",
+      "population": "Living biological human North Am residents"
+    },
+    {
+      "id": "magnus-freewill-steelnation",
+      "name": "Magnus, Robot Fighter (the Freewill Steel Nation)",
+      "population": "Active synthetic-person Freewill residents"
+    },
+    {
+      "id": "abcwarriors-martian-work-zero",
+      "name": "ABC Warriors (the Martian human-robot economy)",
+      "population": "Living biological human Martian residents"
+    },
+    {
+      "id": "halojones-hoop-increased-leisure",
+      "name": "The Ballad of Halo Jones (the Hoop)",
+      "population": "Living human Hoop residents"
+    },
+    {
+      "id": "incal-cityshaft-zero",
+      "name": "The Incal (City Shaft’s stratified economy)",
+      "population": "Living human City Shaft residents across social levels"
+    },
+    {
+      "id": "metabarons-technotechno-zero",
+      "name": "The Metabaron (the Epiphyte monopoly regime)",
+      "population": "Living humanlike residents dependent on the industrial order"
+    },
+    {
+      "id": "valerian-technorog-zero",
+      "name": "Valerian and Laureline (Technorog’s industrial settlement)",
+      "population": "Living human Technorog settlers"
+    },
+    {
+      "id": "edena-paternum-artificial-provision",
+      "name": "The World of Edena (Paternum’s conditioned provisioning)",
+      "population": "Active human-derived residents of the managed order"
+    },
+    {
+      "id": "yoko-earth-vinean-central-zero",
+      "name": "Yoko Tsuno (the Vinean colony under its central computer)",
+      "population": "Living biological Vinean colony residents"
+    },
+    {
+      "id": "yoko-karpan-magma-unit-zero",
+      "name": "Yoko Tsuno (Karpan’s magma-project enclave)",
+      "population": "Active biological Vinean project residents and operators"
+    },
+    {
+      "id": "yoko-vinean-underwater-zero",
+      "name": "Yoko Tsuno (the Archangels’ underwater city)",
+      "population": "Living biological Vinean city residents"
+    },
+    {
+      "id": "megalex-genetic-city-order",
+      "name": "Megalex (the renewed genetic city order)",
+      "population": "Active biological and human-derived residents, including police clones"
+    },
+    {
+      "id": "ths-us-fifthwave-market",
+      "name": "Transhuman Space (the Fifth Wave United States)",
+      "population": "Living biological human US residents"
+    },
+    {
+      "id": "lancer-armory-purview-zero",
+      "name": "Lancer (Harrison Armory’s Purview)",
+      "population": "Living human Purview residents, including people without full citizenship"
+    },
+    {
+      "id": "lancer-karrakin-industrial-zero",
+      "name": "Lancer (the Karrakin Trade Baronies)",
+      "population": "Living human Baronies residents across social strata"
+    },
+    {
+      "id": "starsector-luddic-industry-zero",
+      "name": "Starsector (the Luddic Church economy)",
+      "population": "Living biological human Church-world residents"
+    },
+    {
+      "id": "starsector-tritach-corporate-zero",
+      "name": "Starsector (Tri-Tachyon’s corporate economy)",
+      "population": "Living biological human Tri-Tachyon residents"
+    },
+    {
+      "id": "stellaris-human-stratified-robot-zero",
+      "name": "Stellaris (human Stratified Economy with robotic production)",
+      "population": "Living human citizens across the selected strata"
+    },
+    {
+      "id": "reignsteel-washington-protectorate-zero",
+      "name": "Reign of Steel (the Washington Protectorate)",
+      "population": "Living human Washington Protectorate residents"
+    },
+    {
+      "id": "reignsteel-london-human-zero",
+      "name": "Reign of Steel (London’s surviving human nation)",
+      "population": "Living human residents of the surviving nation"
+    },
+    {
+      "id": "logansrun-tv-human-council",
+      "name": "Logan’s Run (the television City of Domes)",
+      "population": "Living human city residents before the thirty-year termination threshold"
+    },
+    {
+      "id": "exocolonist-stratos-work-zero",
+      "name": "I Was a Teenage Exocolonist (the Vertumna colony)",
+      "population": "Living human colonists, including children doing useful roles"
+    },
+    {
+      "id": "suffadv-tao-historical-communities",
+      "name": "Sufficiently Advanced (the Tao of History’s maintained societies)",
+      "population": "Living human and active human-derived Tao citizens"
+    },
+    {
+      "id": "culture-azad-gamehierarchy-zero",
+      "name": "The Player of Games (the Empire of Azad)",
+      "population": "Living biological Azadian residents across sex and status groups"
+    },
+    {
+      "id": "culture-chelgrian-prereform-zero",
+      "name": "Look to Windward (pre-reform Chelgrian society)",
+      "population": "Living biological Chelgrian residents across castes"
+    },
+    {
+      "id": "culture-sichultian-zero",
+      "name": "Surface Detail (the Sichultian Enablement)",
+      "population": "Living biological Sichultian residents, including enslaved persons"
+    },
+    {
+      "id": "culture-gfcf-technical-transition",
+      "name": "Surface Detail (the GFCF)",
+      "population": "Living pan-human GFCF residents"
+    },
+    {
+      "id": "culture-morthanveld-transition",
+      "name": "Matter (the Morthanveld transition)",
+      "population": "Living biological Morthanveld residents"
+    },
+    {
+      "id": "feersum-cryptosphere-human-order",
+      "name": "Feersum Endjinn (the cryptosphere-supported human order)",
+      "population": "Living physical human residents using the cryptosphere’s continuation technology"
+    },
+    {
+      "id": "tomorrowdifferent-soviet-transition",
+      "name": "Tomorrow Might Be Different (the Soviet consumer transition)",
+      "population": "Living human Soviet residents"
+    },
+    {
+      "id": "lagrangefive-syndicalist-work-zero",
+      "name": "Lagrange Five (Island Three’s syndicalist economy)",
+      "population": "Living human Island Three residents"
+    },
+    {
+      "id": "roadsroll-technician-zero",
+      "name": "The Roads Must Roll (the transport-technician order)",
+      "population": "Living human residents served by the road economy"
+    },
+    {
+      "id": "moonharsh-mike-authority-zero",
+      "name": "The Moon Is a Harsh Mistress (the Mike-assisted Lunar economy)",
+      "population": "Living human lunar residents"
+    },
+    {
+      "id": "friday-corporate-service-zero",
+      "name": "Friday (the corporate technical-service economy)",
+      "population": "Living biological human and human-derived residents"
+    },
+    {
+      "id": "songs-thalassa-robotfounding-zero",
+      "name": "The Songs of Distant Earth (robot-founded Thalassa)",
+      "population": "Living human Thalassan residents"
+    },
+    {
+      "id": "3001-human-technical-civilization",
+      "name": "3001 (the thirty-first-century human civilization)",
+      "population": "Living biological human residents"
+    },
+    {
+      "id": "fountains-paradise-technicalwork-zero",
+      "name": "The Fountains of Paradise (the automated-information economy)",
+      "population": "Living human residents in the selected future society"
+    },
+    {
+      "id": "imperialearth-titan-zero",
+      "name": "Imperial Earth (Titan’s family-administered economy)",
+      "population": "Living human Titan residents"
+    },
+    {
+      "id": "timeodyssey-mir-engineered-enclosure-zero",
+      "name": "Time Odyssey (Mir’s engineered human enclosure)",
+      "population": "Living human residents transplanted into Mir’s common engineered environment"
+    },
+    {
+      "id": "lasttheorem-energy-transition",
+      "name": "The Last Theorem (Earth after the energy transfer)",
+      "population": "Living biological human Earth residents"
+    },
+    {
+      "id": "lem-eden-doubler-automation-zero",
+      "name": "Eden (the Doubler automated-factory order)",
+      "population": "Living biological Doubler residents, an explicit alien-person proxy"
+    },
+    {
+      "id": "twofaces-titan-service-zero",
+      "name": "The Two Faces of Tomorrow (the TITAN service economy)",
+      "population": "Living human Earth residents"
+    },
+    {
+      "id": "lifemaker-taloid-kingdoms-zero",
+      "name": "Code of the Lifemaker (Titan’s Taloid societies)",
+      "population": "Active synthetic-person Taloid residents"
+    },
+    {
+      "id": "multiplex-western-regulation-zero",
+      "name": "The Multiplex Man (the regulated Western order)",
+      "population": "Living human residents in the regulated Western order"
+    },
+    {
+      "id": "automaticdetective-empirecity-zero",
+      "name": "The Automatic Detective (Empire City’s robot economy)",
+      "population": "Living biological human Empire City residents"
+    },
+    {
+      "id": "accidentaltime-la-consumer",
+      "name": "The Accidental Time Machine (La’s Los Angeles, 4346)",
+      "population": "Living human Los Angeles residents"
+    },
+    {
+      "id": "accidentaltime-2252-theocracy-zero",
+      "name": "The Accidental Time Machine (the technology-restricting theocracy, 2252)",
+      "population": "Living human residents under the 2252 religious order"
+    },
+    {
+      "id": "oryxcrake-corporate-compounds-zero",
+      "name": "Oryx and Crake (the corporate compounds)",
+      "population": "Living human corporate-compound residents"
+    },
+    {
+      "id": "we-onestate-syntheticfood-zero",
+      "name": "We (the One State’s compulsory industrial order)",
+      "population": "Living biological human One State residents"
+    },
+    {
+      "id": "traps-earth-sleepyhollow-zero",
+      "name": "All the Traps of Earth (Sleepy Hollow with Richard Daniel)",
+      "population": "Living human Sleepy Hollow settlers on Arcadia"
+    },
+    {
+      "id": "callbackheaven-firstlife-zero",
+      "name": "Why Call Them Back from Heaven? (the first-life savings economy)",
+      "population": "Living first-life human residents"
+    },
+    {
+      "id": "projectpope-vatican17-zero",
+      "name": "Project Pope (Vatican-17’s human support economy)",
+      "population": "Living human Vatican-17 residents and recruited human specialists"
+    },
+    {
+      "id": "visitors-sectoral-gift-transition",
+      "name": "The Visitors (Earth’s alien-gift transition)",
+      "population": "Living human Earth residents affected by the gifts"
+    },
+    {
+      "id": "wanderer-artificialplanet-community",
+      "name": "The Wanderer (the artificial-planet community)",
+      "population": "Active biological humanlike alien residents of the Wanderer"
+    },
+    {
+      "id": "greenmillennium-robot-displacement-zero",
+      "name": "The Green Millennium (the robot-displaced consumer economy)",
+      "population": "Living human residents in the depicted future America"
+    },
+    {
+      "id": "pedestrian-automatic-policing-zero",
+      "name": "The Pedestrian (the automated-policing consumer society)",
+      "population": "Living human city residents"
+    },
+    {
+      "id": "martianchronicles-early-settlers-zero",
+      "name": "The Martian Chronicles (the early human settlements)",
+      "population": "Living human early Martian settlers"
+    },
+    {
+      "id": "multivac-troubles-zero",
+      "name": "All the Troubles of the World (Multivac’s dependent Earth)",
+      "population": "Living human Earth residents"
+    },
+    {
+      "id": "feelingpower-human-arithmetic-zero",
+      "name": "The Feeling of Power (the computer-dependent military economy)",
+      "population": "Living human residents of the depicted civilization"
+    },
+    {
+      "id": "profession-tapededucation-zero",
+      "name": "Profession (Earth’s programmed professional economy)",
+      "population": "Living human Earth residents"
+    },
+    {
+      "id": "marchingmorons-technical-minority-zero",
+      "name": "The Marching Morons (the technical-minority consumer order)",
+      "population": "Living human residents across intelligence/status groups"
+    },
+    {
+      "id": "littleblackbag-future-medical-zero",
+      "name": "The Little Black Bag (the future medical-automation order)",
+      "population": "Living human residents of the future setting"
+    },
+    {
+      "id": "xanadu-networked-commonwealth",
+      "name": "The Skills of Xanadu (the networked commonwealth)",
+      "population": "Living humanlike Xanadu residents"
+    },
+    {
+      "id": "dispossessed-anarres-work-zero",
+      "name": "The Dispossessed (computer-assisted Anarres)",
+      "population": "Living human Anarresti residents"
+    },
+    {
+      "id": "telling-aka-corporation-zero",
+      "name": "The Telling (Aka’s urban producer-consumer state)",
+      "population": "Living humanlike Akan urban residents"
+    },
+    {
+      "id": "paradiseslost-discovery-zero",
+      "name": "Paradises Lost (the Discovery generation ship)",
+      "population": "Living human Discovery residents"
+    },
+    {
+      "id": "woman-edge-gildina-zero",
+      "name": "Woman on the Edge of Time (Gildina’s corporate future)",
+      "population": "Living biological human residents across the city’s classes"
+    },
+    {
+      "id": "hesheit-tikva-zero",
+      "name": "He, She and It (Tikva’s autonomous information economy)",
+      "population": "Living human Tikva residents"
+    },
+    {
+      "id": "hesheit-yakamura-indentured-zero",
+      "name": "He, She and It (Yakamura-Stichen’s indentured enclave)",
+      "population": "Living human indentured corporate citizens and resident dependents"
+    },
+    {
+      "id": "female-man-jael-zero",
+      "name": "The Female Man (Jael’s segregated technological future)",
+      "population": "Living human residents of the opposed social orders"
+    },
+    {
+      "id": "fifthsacredthing-working-commons-zero",
+      "name": "The Fifth Sacred Thing (San Francisco’s working ecological commons)",
+      "population": "Living human San Francisco residents"
+    },
+    {
+      "id": "accelerando-early-human-transition",
+      "name": "Accelerando (the early human automation transition)",
+      "population": "Living human and active human-derived early-transition residents"
+    },
+    {
+      "id": "accelerando-saturn-free-basics",
+      "name": "Accelerando (Saturn’s free-basics refuges)",
+      "population": "Active biological human and human-derived Saturnian residents"
+    },
+    {
+      "id": "saturnchildren-android-hierarchy-zero",
+      "name": "Saturn’s Children (the slave-chipped android hierarchy)",
+      "population": "Active synthetic-person android residents across class groups"
+    },
+    {
+      "id": "neptunesbrood-metahuman-credit-zero",
+      "name": "Neptune’s Brood (the metahuman credit economy)",
+      "population": "Active synthetic-person metahuman residents descended from robots"
+    },
+    {
+      "id": "ironsunrise-remastered-zero",
+      "name": "Iron Sunrise (the ReMastered order)",
+      "population": "Living human and active human-derived ReMastered residents"
+    },
+    {
+      "id": "rapturenerds-earth-preserve-zero",
+      "name": "The Rapture of the Nerds (the terrestrial preservation communities)",
+      "population": "Living biological human preserve residents"
+    },
+    {
+      "id": "quantumthief-oubliette-timework-zero",
+      "name": "The Quantum Thief (Oubliette’s Time and Quiet labor)",
+      "population": "Active human-derived Oubliette citizens in living and Quiet machine embodiments"
+    },
+    {
+      "id": "fractalprince-sirr-zero",
+      "name": "The Fractal Prince (Sirr’s utility-fog hierarchy)",
+      "population": "Living biological humanlike Sirr residents"
+    },
+    {
+      "id": "quantumthief-oortian-origin-zero",
+      "name": "The Quantum Thief (the reconstructed Oortian origin community)",
+      "population": "Active human-derived Oortian residents in the reconstructed origin model"
+    },
+    {
+      "id": "quantummagician-congregate-zero",
+      "name": "The Quantum Magician (the Congregate’s engineered-person order)",
+      "population": "Living human and active human-derived Congregate residents"
+    },
+    {
+      "id": "quantummagician-puppet-zero",
+      "name": "The Quantum Magician (the Puppet religious order)",
+      "population": "Active biological human-derived Puppet residents"
+    },
+    {
+      "id": "schildsladder-posthuman-support",
+      "name": "Schild’s Ladder (the transmitted-person scientific communities)",
+      "population": "Active human-derived transmitted or embodied residents of the scoped scientific communities"
+    },
+    {
+      "id": "borderguards-postmortal-community",
+      "name": "Border Guards (the postmortal human community)",
+      "population": "Living active human residents in the postmortal community"
+    },
+    {
+      "id": "chasmcity-postplague-yellowstone-zero",
+      "name": "Chasm City (Yellowstone after the Melding Plague)",
+      "population": "Living biological human Yellowstone residents"
+    },
+    {
+      "id": "absolutiongap-ararat-firstcamp-zero",
+      "name": "Absolution Gap (First Camp on Ararat)",
+      "population": "Living human First Camp residents"
+    },
+    {
+      "id": "pushingice-fountainhead-colony",
+      "name": "Pushing Ice (the Fountainhead-supported colony)",
+      "population": "Living active human colonists during the trade period"
+    },
+    {
+      "id": "bluerearth-surveilled-transition",
+      "name": "Blue Remembered Earth (the prosperous surveilled Earth)",
+      "population": "Living human Earth residents in the covered developed order"
+    },
+    {
+      "id": "steelbreeze-zanzibar-zero",
+      "name": "On the Steel Breeze (Zanzibar’s active migrant community)",
+      "population": "Awake living human Zanzibar residents"
+    },
+    {
+      "id": "revenger-congregation-salvage-zero",
+      "name": "Revenger (the Congregation’s salvage economy)",
+      "population": "Living humanlike Congregation residents in the trading economy"
+    },
+    {
+      "id": "commonwealth-early-commercial-zero",
+      "name": "Commonwealth Saga (the early commercial Commonwealth)",
+      "population": "Living human early Commonwealth residents"
+    },
+    {
+      "id": "commonwealth-highangel-humans",
+      "name": "Commonwealth Saga (High Angel’s human resident domes)",
+      "population": "Living human residents of High Angel’s human domes"
+    },
+    {
+      "id": "commonwealth-raiel-core",
+      "name": "Commonwealth Saga (the ship-building Raiel civilization)",
+      "population": "Living biological Raiel residents of the scoped technical civilization"
+    },
+    {
+      "id": "nightsdawn-edenist-habitats",
+      "name": "Night’s Dawn (the Edenist habitat consensus)",
+      "population": "Living human Edenist residents"
+    },
+    {
+      "id": "nightsdawn-developed-adamist-zero",
+      "name": "Night’s Dawn (developed Adamist mechanoid economies)",
+      "population": "Living human residents of developed Adamist economies"
+    },
+    {
+      "id": "nightsdawn-tranquillity-zero",
+      "name": "The Reality Dysfunction (Tranquillity’s sentient habitat)",
+      "population": "Living human Tranquillity residents"
+    },
+    {
+      "id": "salvation-utopial-democracy",
+      "name": "Salvation (the Utopial democratic habitats)",
+      "population": "Living human Utopial residents"
+    },
+    {
+      "id": "salvation-exodus-habitat-community",
+      "name": "Salvation Sequence (an active Exodus habitat community)",
+      "population": "Awake living human residents of one modeled Exodus habitat community"
+    },
+    {
+      "id": "makers-newwork-zero",
+      "name": "Makers (the New Work maker economy)",
+      "population": "Living human participants and residents in the New Work economy"
+    },
+    {
+      "id": "daemon-early-corporate-zero",
+      "name": "Daemon (the early corporate technical economy)",
+      "population": "Living human residents in the early corporate economy"
+    },
+    {
+      "id": "freedom-darknet-holons",
+      "name": "Freedom(TM) (the Darknet holon economy)",
+      "population": "Living human holon participants and residents"
+    },
+    {
+      "id": "apex-human-derived-takeover-projection-zero",
+      "name": "Apex (the human-derived electronic takeover scenario)",
+      "population": "Living human residents affected by the modeled takeover of infrastructure"
+    },
+    {
+      "id": "lastfirewall-institute-order",
+      "name": "The Last Firewall (the Institute-regulated robot economy)",
+      "population": "Living human residents in the regulated technical economy"
+    },
+    {
+      "id": "turingexception-prewar-mixed-order",
+      "name": "The Turing Exception (the prewar human and AI order)",
+      "population": "Active human and human-derived residents of the selected prewar order"
+    },
+    {
+      "id": "goldentranscendence-active-silent-oecumene",
+      "name": "Golden Transcendence (the reported active Silent Oecumene)",
+      "population": "Active human-derived residents in the reported earlier period"
+    },
+    {
+      "id": "metaplanetary-inner-met-zero",
+      "name": "Metaplanetary (the inner Met dictatorship)",
+      "population": "Active human and human-derived inner-system residents"
+    },
+    {
+      "id": "metaplanetary-outer-diverse-order",
+      "name": "Metaplanetary (the outer system’s diverse communities)",
+      "population": "Active human and human-derived outer-system residents"
+    },
+    {
+      "id": "postsingular-orphid-network-transition",
+      "name": "Postsingular (Earth during the orphid-network transition)",
+      "population": "Living active human Earth residents during the selected transformation"
+    },
+    {
+      "id": "hylozoic-human-living-matter-transition",
+      "name": "Hylozoic (humans among sentient matter)",
+      "population": "Active living human residents interacting with sentient surroundings"
+    },
+    {
+      "id": "ware-early-human-earth-zero",
+      "name": "Ware (human Earth during the early Bopper economy)",
+      "population": "Living active human Earth residents in the early period"
+    },
+    {
+      "id": "diamondage-seed-projected-alternative",
+      "name": "The Diamond Age (the projected Seed alternative)",
+      "population": "Living human residents in the explicitly modeled Seed-based community"
+    },
+    {
+      "id": "snowcrash-franchise-economy-zero",
+      "name": "Snow Crash (the corporate-franchise city states)",
+      "population": "Living human residents of the franchise-organized economy"
+    },
+    {
+      "id": "anathem-saecular-consumer-zero",
+      "name": "Anathem (Arbre’s saecular consumer economy)",
+      "population": "Living humanlike saecular residents"
+    },
+    {
+      "id": "seveneves-late-orbital-order-zero",
+      "name": "Seveneves (the later orbital-ring civilization)",
+      "population": "Living active human-descended orbital residents"
+    },
+    {
+      "id": "neuromancer-awake-tessierashpool-enclave",
+      "name": "Neuromancer (the awake Tessier-Ashpool enclave)",
+      "population": "Living awake Tessier-Ashpool clan residents in the enclave"
+    },
+    {
+      "id": "neuromancer-sprawl-corporate-zero",
+      "name": "Neuromancer (the Sprawl’s corporate economy)",
+      "population": "Living active human Sprawl residents"
+    },
+    {
+      "id": "virtuallight-bridge-community-zero",
+      "name": "Virtual Light (the Bridge community)",
+      "population": "Living human Bridge residents"
+    },
+    {
+      "id": "idoru-nanotechnological-tokyo-zero",
+      "name": "Idoru (Tokyo’s nanotechnological construction economy)",
+      "population": "Living human Tokyo residents"
+    },
+    {
+      "id": "schismatrix-mechanist-rivalry-zero",
+      "name": "Schismatrix (the Mechanist technical order)",
+      "population": "Active human-derived Mechanist residents"
+    },
+    {
+      "id": "schismatrix-shaper-rivalry-zero",
+      "name": "Schismatrix (the Shaper biological order)",
+      "population": "Active living human-derived Shaper residents"
+    },
+    {
+      "id": "holyfire-gerontocratic-ration-order",
+      "name": "Holy Fire (the gerontocratic ration economy)",
+      "population": "Living human residents across the age-divided order"
+    },
+    {
+      "id": "diamondage-celestial-dependence-zero",
+      "name": "The Diamond Age (the Celestial Kingdom’s material dependence)",
+      "population": "Living human residents within the scoped Celestial Kingdom order"
+    },
+    {
+      "id": "hyperion-pre-fall-hegemony-zero",
+      "name": "Hyperion (the pre-Fall Hegemony)",
+      "population": "Active living human Hegemony residents"
+    },
+    {
+      "id": "hyperion-fall-era-ouster-swarm",
+      "name": "Hyperion (the Fall-era Ouster Swarm communities)",
+      "population": "Active living human-derived Ouster residents"
+    },
+    {
+      "id": "jaggedorbit-automated-us-zero",
+      "name": "The Jagged Orbit (the automated divided United States)",
+      "population": "Living active human residents of the depicted United States"
+    },
+    {
+      "id": "shockwaverider-preworm-network-zero",
+      "name": "The Shockwave Rider (the pre-worm network order)",
+      "population": "Living human residents in the pre-worm national order"
+    },
+    {
+      "id": "shockwaverider-projected-open-order",
+      "name": "The Shockwave Rider (the projected open-network settlement)",
+      "population": "Living human residents in the explicitly modeled successor order"
+    },
+    {
+      "id": "sheeplookup-technical-collapse-zero",
+      "name": "The Sheep Look Up (the collapsing technical consumer order)",
+      "population": "Living human residents in the depicted collapsing society"
+    },
+    {
+      "id": "pussyfoot-paid-service-zero",
+      "name": "The Age of the Pussyfoot (the paid automated-service economy)",
+      "population": "Living human residents using the paid-service system"
+    },
+    {
+      "id": "merchantsvenus-working-tourist-zero",
+      "name": "The Merchants of Venus (the working Venus settlement)",
+      "population": "Living human Venus settlement residents"
+    },
+    {
+      "id": "worldendtime-late-newmanhome",
+      "name": "The World at the End of Time (the later Newmanhome descendants)",
+      "population": "Active living human-descended residents of the selected late civilization"
+    },
+    {
+      "id": "bobiverse-vulcan-landing-zero",
+      "name": "Bobiverse (the Bob-assisted Landing colony on Vulcan)",
+      "population": "Living active human Landing residents"
+    },
+    {
+      "id": "childrenofmemory-active-imir-simulation-zero",
+      "name": "Children of Memory (the active simulated Imir colony)",
+      "population": "Active simulated humanlike colonist identities, with conscious personhood an explicit proxy"
+    },
+    {
+      "id": "expertsystem-settled-villages-zero",
+      "name": "The Expert System’s Brother (the guided settlements)",
+      "population": "Active living human settlers in the guided villages"
+    },
+    {
+      "id": "murderbot-corporationrim-zero",
+      "name": "The Murderbot Diaries (the Corporation Rim)",
+      "population": "Active living human Corporation Rim residents"
+    },
+    {
+      "id": "terraformers-spidercity-transit-commons",
+      "name": "The Terraformers (Spider City and the independent transit model)",
+      "population": "Active human and nonhuman resident persons in the independent cooperative model"
+    },
+    {
+      "id": "machinehood-competitive-gig-zero",
+      "name": "Machinehood (the competitive automation economy)",
+      "population": "Active living human residents competing for income"
+    },
+    {
+      "id": "klara-artificialfriend-consumer-zero",
+      "name": "Klara and the Sun (the Artificial Friend consumer order)",
+      "population": "Active living human residents in the technical consumer order"
+    },
+    {
+      "id": "qualityland-ranked-automation-zero",
+      "name": "QualityLand (the ranked automated consumer economy)",
+      "population": "Active living human QualityLand residents"
+    },
+    {
+      "id": "machineslikeme-early-android-zero",
+      "name": "Machines Like Me (the early purchased-android economy)",
+      "population": "Active living human residents of the depicted early consumer order"
+    },
+    {
+      "id": "hum-displaced-urban-zero",
+      "name": "Hum (the robot-displaced urban economy)",
+      "population": "Active living human urban residents"
+    },
+    {
+      "id": "impostors-shreve-dynastic-zero",
+      "name": "Impostors (Shreve’s dynastic technical order)",
+      "population": "Active living human Shreve residents"
+    },
+    {
+      "id": "lastcuentista-awake-collective-zero",
+      "name": "The Last Cuentista (the awake Collective-controlled ship)",
+      "population": "Active awake living human ship residents"
+    },
+    {
+      "id": "lasthuman-bacon-active-robot-city-zero",
+      "name": "The Last Human (Lee Bacon’s active robot civilization)",
+      "population": "Active conscious robot residents in the Lee Bacon continuity"
+    },
+    {
+      "id": "robogenesis-active-human-regrouping-zero",
+      "name": "Robogenesis (the active human survivor reconstruction groups)",
+      "population": "Active living human residents in a modeled survivor reconstruction group"
+    },
+    {
+      "id": "oa-inhabited-caretaker-preserves",
+      "name": "Orion’s Arm (the permitted inhabited Caretaker preserves)",
+      "population": "Active permitted biological sophont residents, an explicit human-comparable proxy"
+    },
+    {
+      "id": "oa-active-panvirtuality",
+      "name": "Orion’s Arm (the active Solipsist Panvirtuality)",
+      "population": "Active conscious AI and virtual citizen identities"
+    },
+    {
+      "id": "lastangel-compact-caste-zero",
+      "name": "The Last Angel (the Compact’s caste-based technical economy)",
+      "population": "Active living biological residents across Compact species/castes"
+    },
+    {
+      "id": "ultimathule-earth-technical-zero",
+      "name": "Ultima Thule (United Planets’ Earth technical order)",
+      "population": "Active living human Earth residents in the depicted interplanetary order"
+    },
+    {
+      "id": "depressionorbust-relief-scenario-zero",
+      "name": "Depression or Bust (the modeled technical-economy relief response)",
+      "population": "Living human residents of the explicitly modeled economic response"
+    },
+    {
+      "id": "countrykind-permissive-support",
+      "name": "The Country of the Kind (the permissive supported society)",
+      "population": "Active living human residents of the depicted society"
+    },
+    {
+      "id": "naturalstate-machine-city-zero",
+      "name": "Natural State (the machine-dependent City)",
+      "population": "Active living human City residents"
+    },
+    {
+      "id": "naturalstate-biological-rural-commons",
+      "name": "Natural State (the Muckfeet’s biological production model)",
+      "population": "Active living human Muckfeet residents"
+    },
+    {
+      "id": "prizeperil-televised-risk-zero",
+      "name": "The Prize of Peril (the televised risk economy)",
+      "population": "Active living human residents of the depicted entertainment economy"
+    },
+    {
+      "id": "tranai-robot-factory-zero",
+      "name": "A Ticket to Tranai (the deliberately slow household-robot economy)",
+      "population": "Active living human Tranai residents in the scoped service economy"
+    },
+    {
+      "id": "ophiuchi-nonlunar-biomedical-zero",
+      "name": "The Ophiuchi Hotline (the non-Lunar Eight Worlds technical markets)",
+      "population": "Active living human and human-derived residents outside AI-governed Luna"
+    },
+    {
+      "id": "triton-subsidized-heterotopia",
+      "name": "Triton (the subsidized heterotopia)",
+      "population": "Active living human Triton residents"
+    },
+    {
+      "id": "stars-velm-supported-order",
+      "name": "Stars in My Pocket Like Grains of Sand (Velm’s mixed-species order)",
+      "population": "Active living human and nonhuman resident persons on Velm"
+    },
+    {
+      "id": "newtonswake-eurydice",
+      "name": "Newton’s Wake (Eurydice’s post-scarcity colony)",
+      "population": "Active living human Eurydice residents"
+    },
+    {
+      "id": "skyroad-later-technology-restraint-zero",
+      "name": "The Sky Road (the later restrained-technology civilization)",
+      "population": "Active living human residents of the later society"
+    },
+    {
+      "id": "departure-committee-earth-zero",
+      "name": "The Departure (Committee-controlled Earth)",
+      "population": "Active living human Earth residents under Committee authority"
+    },
+    {
+      "id": "harveststars-avantist-northamerica-zero",
+      "name": "Harvest of Stars (Avantist North America)",
+      "population": "Active living human North American residents"
+    },
+    {
+      "id": "boatmillion-late-earth",
+      "name": "The Boat of a Million Years (the later transformed Earth)",
+      "population": "Active living human and human-derived Earth residents"
+    },
+    {
+      "id": "worldinside-urban-monads-zero",
+      "name": "The World Inside (the Urban Monads)",
+      "population": "Active living human Urban Monad residents"
+    },
+    {
+      "id": "emergencyskin-restored-earth",
+      "name": "Emergency Skin (the restored Earth commons)",
+      "population": "Active living human Earth residents"
+    },
+    {
+      "id": "emergencyskin-founders-enclave-zero",
+      "name": "Emergency Skin (the Founders’ exclusionary colony)",
+      "population": "Active living human and human-derived colony residents across classes"
+    },
+    {
+      "id": "rainbowsend-rejuvenated-network-zero",
+      "name": "Rainbows End (the rejuvenated network economy)",
+      "population": "Active living human residents in the depicted technical order"
+    },
+    {
+      "id": "wayfarers-exodan-resource-commons-zero",
+      "name": "Wayfarers (the Exodan Fleet resource commons)",
+      "population": "Active living human Exodan residents"
+    },
+    {
+      "id": "enginesummer-littlebelaire-zero",
+      "name": "Engine Summer (Little Belaire’s inherited technical support)",
+      "population": "Active living human Little Belaire residents"
+    },
+    {
+      "id": "griffith-threehundred-future-zero",
+      "name": "Three Hundred Years Hence (Mary Griffith’s future America)",
+      "population": "Active living human residents in the depicted future region"
+    },
+    {
+      "id": "ad2000-fuller-future-zero",
+      "name": "A.D. 2000 (Fuller’s technological future culture)",
+      "population": "Active living human residents of Fuller’s depicted future"
+    },
+    {
+      "id": "jonnemacher-automation-displacement-zero",
+      "name": "Mr Jonnemacher’s Machine (the displaced-worker technical economy)",
+      "population": "Active living human residents in the depicted technical order"
+    },
+    {
+      "id": "oa-niuearth-modern-haven",
+      "name": "Orion’s Arm (modern Niuearth’s baseline haven)",
+      "population": "Active living baseline and nearbaseline human residents"
+    },
+    {
+      "id": "greatship-active-passenger-order",
+      "name": "Great Ship (the long-term passenger society)",
+      "population": "Active living human and other person passengers in the selected habitat order"
+    },
+    {
+      "id": "efremov-greatring-earth-zero",
+      "name": "Andromeda Nebula (Great Ring-era Earth)",
+      "population": "Active living human Earth residents"
+    },
+    {
+      "id": "bullshour-tormance-zero",
+      "name": "The Bull’s Hour (Tormance’s oligarchic technical order)",
+      "population": "Active living human-descended Tormance residents across classes"
+    },
+    {
+      "id": "finalcircle-affluent-consumer-city",
+      "name": "The Final Circle of Paradise (the affluent consumer city)",
+      "population": "Active living human city residents"
+    },
+    {
+      "id": "dunno-lunar-monopoly-zero",
+      "name": "Dunno on the Moon (the lunar monopoly economy)",
+      "population": "Active living lunar short-person residents, an explicit humanlike proxy"
+    },
+    {
+      "id": "coldtoys-geometer-order",
+      "name": "The Stars Are Cold Toys (the Geometer civilization)",
+      "population": "Active living human Geometer residents"
+    },
+    {
+      "id": "spectrum-arank-affluence",
+      "name": "Spectrum (Arank’s needs-oriented technical society)",
+      "population": "Active living Arank resident persons, a human-comparable proxy"
+    },
+    {
+      "id": "guestfuture-tv-moscow2084",
+      "name": "Guest from the Future (television Moscow in 2084)",
+      "population": "Active living human future-Moscow residents"
+    },
+    {
+      "id": "odoevsky-4338-technical-zero",
+      "name": "Year 4338 (Odoevsky’s technological future)",
+      "population": "Active living human residents of the depicted technical world"
+    },
+    {
+      "id": "eternalbread-commercial-transition-zero",
+      "name": "The Eternal Bread (the commercial self-growing food transition)",
+      "population": "Active living human producers, users and residents in the selected transition"
+    },
+    {
+      "id": "absoluteatlarge-industrial-glut-zero",
+      "name": "The Absolute at Large (the Karburator industrial glut)",
+      "population": "Active living human residents in the industrial order"
+    },
+    {
+      "id": "timeships-dyson-morlocks",
+      "name": "The Time Ships (the altered-timeline Dyson Morlocks)",
+      "population": "Active living human-derived Morlock residents"
+    },
+    {
+      "id": "perryrhodan-solar-imperium-zero",
+      "name": "Perry Rhodan (the Terran Solar Imperium)",
+      "population": "Active living human Terran residents in the Solar Imperium"
+    },
+    {
+      "id": "perryrhodan-arkon-robot-regency",
+      "name": "Perry Rhodan (Arkon under the Robot Regent)",
+      "population": "Active living biological Arkonide residents"
+    },
+    {
+      "id": "oa-cableville-tuckerite-market-zero",
+      "name": "Orion’s Arm (Cableville’s Tuckerite markets)",
+      "population": "Active humanlike and other resident sophont persons in Tuckerite communities"
+    },
+    {
+      "id": "siliconman-active-maphis-order",
+      "name": "The Silicon Man (the active MAPHIS resident order)",
+      "population": "Active human-derived resident identities in MAPHIS"
+    },
+    {
+      "id": "lordallthings-projected-robot-provision",
+      "name": "Lord of All Things (Hiroshi’s proposed robot-provision order)",
+      "population": "Active living humans in the explicitly projected supported population"
+    },
+    {
+      "id": "fivetwelve-matriarchal-technical-zero",
+      "name": "Five to Twelve (the matriarchal technical order)",
+      "population": "Active living human residents of the depicted future"
+    },
+    {
+      "id": "citydwellers-living-city-reconstruction",
+      "name": "The City Dwellers (the reconstructed living automated city)",
+      "population": "Active living human residents in the earlier city period"
+    },
+    {
+      "id": "doorintoocean-sharer-bio-commons",
+      "name": "A Door into Ocean (the Sharers’ biological commons)",
+      "population": "Active living biological Sharer residents"
+    },
+    {
+      "id": "stationstide-bureaucracy-technical-order",
+      "name": "Stations of the Tide (the Bureaucracy’s higher-technology order)",
+      "population": "Active human and human-derived residents in the reconstructed supporting society"
+    },
+    {
+      "id": "tomorrowtomorrow-late-humanity",
+      "name": "Tomorrow and Tomorrow (the later humanity requesting Merlin’s aid)",
+      "population": "Active living or actively instantiated human-derived residents of that late civilization"
+    },
+    {
+      "id": "ritepassage-ship-communities-zero",
+      "name": "Rite of Passage (the continuing Ship communities)",
+      "population": "Active living human Ship residents across ages"
+    },
+    {
+      "id": "milliondoors-nouoccitan-zero",
+      "name": "A Million Open Doors (Nou Occitan’s technical culture)",
+      "population": "Active living human Nou Occitan residents on Wilson"
+    },
+    {
+      "id": "milliondoors-caledony-zero",
+      "name": "A Million Open Doors (Caledony’s transaction economy)",
+      "population": "Active living human Caledony residents on Nansen"
+    },
+    {
+      "id": "logansrun-novel-age21-computer",
+      "name": "Logan’s Run (the novel’s age-21 computer order)",
+      "population": "Active living human residents before Lastday"
+    }
+  ]
+}

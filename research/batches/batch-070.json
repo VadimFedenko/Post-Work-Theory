@@ -1,0 +1,511 @@
+{
+  "batch_id": "batch-070",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0533",
+    "c0534",
+    "c0535",
+    "c0536",
+    "c0537",
+    "c0538",
+    "c0539",
+    "c0540",
+    "c0541",
+    "c0542",
+    "c0543",
+    "c0544"
+  ],
+  "sources": [
+    {
+      "id": "src-metropolis-2001-labor",
+      "title": "Metropolis 2001 film",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Metropolis_(2001_film)",
+      "kind": "secondary_film_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public robot construction/maintenance, displaced poor humans and plutocratic government passages read",
+      "read_scope": "Machines provide major productive functions while human job loss and squalor coexist with elite wealth.",
+      "limitations": "The 2001 film only, not Fritz Lang’s film or an identical version of Tezuka’s manga. Unemployment is not a useful-work census."
+    },
+    {
+      "id": "src-metropolis-2001-zones",
+      "title": "Metropolis 2001 transcript",
+      "author": "Film dialogue transcribed by Forever Dreaming",
+      "url": "https://transcripts.foreverdreaming.org/viewtopic.php?t=127063",
+      "kind": "primary_film_dialogue_transcription_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded occupation-zone and robot-clearance passages read",
+      "read_scope": "Robot movement is restricted by occupational zones.",
+      "limitations": "No whole script read. Zone segregation alone does not prove a separate employment-preservation regime."
+    },
+    {
+      "id": "src-harlock-1978-machine-premise",
+      "title": "Space Pirate Captain Harlock 1978",
+      "author": "IMDb series synopsis",
+      "url": "https://www.imdb.com/title/tt0182646/",
+      "kind": "secondary_tv_synopsis_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public machine-work and general leisure premise read",
+      "read_scope": "The 1978 society has machines doing work and a widespread preference for leisure.",
+      "limitations": "A high-level synopsis, not a constitutional charter or a statistical census. The original television continuity is kept separate from later films."
+    },
+    {
+      "id": "src-harlock-earth-cargo",
+      "title": "Earth ships index",
+      "author": "Captain Harlock Archives / Corn Pone Flicks",
+      "url": "https://www.cornponeflicks.org/harlock/earthships.html",
+      "kind": "secondary_tv_lore_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public cargo, offworld farms, elite goods and food-stockpiling description read",
+      "read_scope": "Earth relies on imported food; its government and fleet remain human institutions.",
+      "limitations": "Fan reference evidence is provisional. Abundance is not autarky, and later fleet attacks/famine risks are not silently ignored."
+    },
+    {
+      "id": "src-b70-astro",
+      "title": "Astro Boy character",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Astro_Boy_(character)",
+      "kind": "screen_lore_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded public synopsis/lore passage read",
+      "read_scope": "Robot labor rights and changing television/manga versions coexist.",
+      "limitations": "No whole fiction read. The passage supplies the saved comparison/gap rather than a complete economic constitution."
+    },
+    {
+      "id": "src-b70-pluto",
+      "title": "Pluto: Urasawa x Tezuka",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Pluto%3A_Urasawa_x_Tezuka",
+      "kind": "screen_lore_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded public synopsis/lore passage read",
+      "read_scope": "Robot and human investigators inhabit a working mixed society.",
+      "limitations": "No whole fiction read. The passage supplies the saved comparison/gap rather than a complete economic constitution."
+    },
+    {
+      "id": "src-b70-phoenix-resurrection",
+      "title": "Phoenix: Resurrection",
+      "author": "Tezuka Osamu official site",
+      "url": "https://tezukaosamu.net/en/manga/396.html",
+      "kind": "screen_lore_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded public synopsis/lore passage read",
+      "read_scope": "Robita originates from combined human/robot minds; Chihiro performs clerical work.",
+      "limitations": "No whole fiction read. The passage supplies the saved comparison/gap rather than a complete economic constitution."
+    },
+    {
+      "id": "src-b70-phoenix-future",
+      "title": "Phoenix: Future",
+      "author": "Tezuka Osamu official site",
+      "url": "https://tezukaosamu.net/en/manga/399.html",
+      "kind": "screen_lore_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded public synopsis/lore passage read",
+      "read_scope": "Underground humanity faces final war while Saruta researches artificial life.",
+      "limitations": "No whole fiction read. The passage supplies the saved comparison/gap rather than a complete economic constitution."
+    },
+    {
+      "id": "src-b70-galaxy999",
+      "title": "Galaxy Express 999 film",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Galaxy_Express_999_(film)",
+      "kind": "screen_lore_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded public synopsis/lore passage read",
+      "read_scope": "Human minds can enter costly mechanical bodies; elites and organic people face very different lives.",
+      "limitations": "No whole fiction read. The passage supplies the saved comparison/gap rather than a complete economic constitution."
+    },
+    {
+      "id": "src-b70-la-metal",
+      "title": "Queen Millennia",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Queen_Millennia",
+      "kind": "screen_lore_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded public synopsis/lore passage read",
+      "read_scope": "La-Metal’s monarchy plans to abduct and enslave Earth humans.",
+      "limitations": "No whole fiction read. The passage supplies the saved comparison/gap rather than a complete economic constitution."
+    },
+    {
+      "id": "src-b70-arcadia",
+      "title": "Arcadia of My Youth: Endless Orbit SSX",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Arcadia_of_My_Youth%3A_Endless_Orbit_SSX",
+      "kind": "screen_lore_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded public synopsis/lore passage read",
+      "read_scope": "Illumidas occupation uses biological domination and slavery after the film’s events.",
+      "limitations": "No whole fiction read. The passage supplies the saved comparison/gap rather than a complete economic constitution."
+    },
+    {
+      "id": "src-b70-yamato-time",
+      "title": "Time fault",
+      "author": "Space Battleship Yamato Wiki contributors",
+      "url": "https://yamato.fandom.com/wiki/Time_fault",
+      "kind": "screen_lore_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded public synopsis/lore passage read",
+      "read_scope": "Differential elapsed time and huge shipyard output support military construction.",
+      "limitations": "No whole fiction read. The passage supplies the saved comparison/gap rather than a complete economic constitution."
+    },
+    {
+      "id": "src-b70-terra",
+      "title": "Toward the Terra",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Toward_the_Terra",
+      "kind": "screen_lore_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded public synopsis/lore passage read",
+      "read_scope": "Superior Dominance and selected elites govern reproduction, training and suppression of Mu.",
+      "limitations": "No whole fiction read. The passage supplies the saved comparison/gap rather than a complete economic constitution."
+    },
+    {
+      "id": "src-b70-megazone",
+      "title": "Megazone 23",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Megazone_23",
+      "kind": "screen_lore_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded public synopsis/lore passage read",
+      "read_scope": "Bahamut and Eve govern a concealed shipboard world and interact with human political/military institutions.",
+      "limitations": "No whole fiction read. The passage supplies the saved comparison/gap rather than a complete economic constitution."
+    }
+  ],
+  "societies": [
+    {
+      "id": "metropolis-2001-displaced-humans",
+      "candidate_id": "c0533",
+      "name": "Metropolis — human displacement under robot production",
+      "work": "Metropolis",
+      "society": "The 2001 film’s human population under plutocratic robot production",
+      "media": [
+        "anime",
+        "movie"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "2001 animated film",
+        "period": "The established city order before the Ziggurat crisis",
+        "population": "Living human city residents, including displaced poor citizens",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Robots as additional humans",
+          "The 1927 film",
+          "Tezuka’s manga as economically identical",
+          "The post-collapse order as already stable"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Robot labor builds and maintains Metropolis, while many human residents lose jobs and live in degraded lower districts. Productive automation therefore coexists with severe insecurity rather than a shared leisure dividend. The weak guarantee estimate follows the actual contrast between concentrated wealth and displaced people’s squalor; it does not assume that every unemployed person receives no food at all. This is the existing automated-production order, not a promise that the later crisis creates equality.\n\nControl lies near the concentrated human end. Wealthy political actors, especially Duke Red, direct major projects and coercive institutions; robot workers and restricted movement do not themselves constitute an autonomous AI sovereign. Occupational segregation is visible, but it is not separately labeled a zero variant without proof of deliberate retention of replaceable human jobs. Detective work, informal activity, care and political organization remain useful human contributions. Job loss is not a census of all such work, so the nonworking axis stays open. The manga and earlier live-action film are excluded from these coordinates.",
+      "axis": {
+        "guarantees": 0.85,
+        "control": 0.05,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            0.5,
+            1
+          ],
+          "confidence": "medium",
+          "basis": "Actual robot-driven displacement and poor living conditions contrast with elite wealth; no broad secure floor is established.",
+          "source_ids": [
+            "src-metropolis-2001-labor",
+            "src-metropolis-2001-zones"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.2
+          ],
+          "confidence": "medium",
+          "basis": "Plutocratic human actors direct productive projects and robot enforcement, rather than an independently ruling AI.",
+          "source_ids": [
+            "src-metropolis-2001-labor",
+            "src-metropolis-2001-zones"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Mass unemployment is established, but useful unpaid work, age coverage and exact participation are not.",
+          "source_ids": [
+            "src-metropolis-2001-labor",
+            "src-metropolis-2001-zones"
+          ]
+        }
+      },
+      "regime_primary": 3,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-metropolis-2001-labor",
+        "src-metropolis-2001-zones"
+      ],
+      "evidence": [
+        {
+          "claim": "Robot construction and maintenance coexist with human unemployment, squalor and plutocratic power.",
+          "source_ids": [
+            "src-metropolis-2001-labor",
+            "src-metropolis-2001-zones"
+          ],
+          "locator": "Film plot opening and occupational-zone dialogue",
+          "kind": "secondary_film_reference_and_primary_dialogue"
+        }
+      ],
+      "uncertainties": [
+        "An exclusionary automated-production comparison rather than guaranteed leisure.",
+        "Unemployment is distinct from total useful nonparticipation.",
+        "Robot zoning does not automatically create a separate zero variant.",
+        "The film is not merged with the manga or 1927 continuity."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "harlock-1978-leisured-earth",
+      "candidate_id": "c0540",
+      "name": "Captain Harlock — Earth’s machine-supported complacency",
+      "work": "Space Pirate Captain Harlock",
+      "society": "Ordinary human Earth society before the Mazone supply crisis",
+      "media": [
+        "anime"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "1978 television anime",
+        "period": "Established Earth abundance before severe attacks on its food supply",
+        "population": "Living human residents of Earth",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Offworld workers as known idle Earth residents",
+          "Harlock’s working crew as a representative census",
+          "Arcadia of My Youth or the 2013 film",
+          "Later crisis conditions as identical to the opening order"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Earth’s ordinary society relies on machines for work and has settled into widespread leisure. The technological support is an established background to the story, not an unbuilt future proposal. Its material-guarantee estimate is moderately strong but uncertain: comfort depends on supply arrangements, including food carried from offworld farms. The checked references do not establish an unconditional legal entitlement or show that the planet can sustain itself after those routes are attacked.\n\nGovernment and elite institutions retain concentrated authority over the order, while individual leisure is not equivalent to productive ownership. Machine assistance and automated ships do not make every political decision an act of autonomous AI. A high nonworking estimate fits the explicit machine-work and general-indulgence premise, but remains a broad interpretation. Officials, scientists, transport crews and residents choosing useful care or creative work can still contribute. The outside farming and transport labor is disclosed rather than erased by the Earth-only denominator. Harlock’s exceptional crew and later emergency are separate from this ordinary opening society.",
+      "axis": {
+        "guarantees": -0.4,
+        "control": 0.05,
+        "nonworking": 0.9
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.8,
+            0.35
+          ],
+          "confidence": "low",
+          "basis": "Established machine-supported abundance is real, but food imports and unverified universal access qualify security.",
+          "source_ids": [
+            "src-harlock-1978-machine-premise",
+            "src-harlock-earth-cargo"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.2
+          ],
+          "confidence": "medium",
+          "basis": "Human government/elite supply institutions remain decisive; ordinary leisure does not imply broad productive ownership.",
+          "source_ids": [
+            "src-harlock-1978-machine-premise",
+            "src-harlock-earth-cargo"
+          ]
+        },
+        "nonworking": {
+          "interval": [
+            0.65,
+            1
+          ],
+          "confidence": "low",
+          "basis": "The explicit machine-work and general-leisure premise supports a high noncanonical estimate, with room for real professional and voluntary work.",
+          "source_ids": [
+            "src-harlock-1978-machine-premise",
+            "src-harlock-earth-cargo"
+          ]
+        }
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-harlock-1978-machine-premise",
+        "src-harlock-earth-cargo"
+      ],
+      "evidence": [
+        {
+          "claim": "Opening Earth life is widely leisured under machine production, with food supplied through offworld transport.",
+          "source_ids": [
+            "src-harlock-1978-machine-premise",
+            "src-harlock-earth-cargo"
+          ],
+          "locator": "1978 series premise and Earth cargo-ship description",
+          "kind": "secondary_tv_synopsis_and_lore"
+        }
+      ],
+      "uncertainties": [
+        "Television-only scope; related Matsumoto works have incompatible histories.",
+        "Offworld food production and transportation are not assumed labor-free.",
+        "Guarantees and participation are broad provisional estimates.",
+        "The later supply crisis is not hidden inside an unqualified abundance claim."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": true
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0533",
+      "status": "included",
+      "reason": "The film establishes robot production with actual human displacement under plutocratic control.",
+      "source_ids": [
+        "src-metropolis-2001-labor",
+        "src-metropolis-2001-zones"
+      ],
+      "society_id": "metropolis-2001-displaced-humans"
+    },
+    {
+      "candidate_id": "c0534",
+      "status": "needs_evidence",
+      "reason": "Robot services and rights do not establish one scoped human material-access regime across Astro Boy adaptations.",
+      "source_ids": [
+        "src-b70-astro"
+      ],
+      "analysis": "An active robot worker is not automatically an idle human, and the various continuities are not economically identical.",
+      "follow_up": "Keep the concise gap/comparison and continue without whole-series or manga reconstruction."
+    },
+    {
+      "candidate_id": "c0535",
+      "status": "needs_evidence",
+      "reason": "Robot integration and personhood do not establish how ordinary people obtain necessities independently of work.",
+      "source_ids": [
+        "src-b70-pluto"
+      ],
+      "analysis": "Pluto’s different adaptation/reinterpretation cannot inherit an unverified Astro Boy economy.",
+      "follow_up": "Keep the concise gap/comparison and continue without whole-series or manga reconstruction."
+    },
+    {
+      "candidate_id": "c0536",
+      "status": "needs_evidence",
+      "reason": "Resurrection’s body/mind technology does not establish the wider society’s material support rules.",
+      "source_ids": [
+        "src-b70-phoenix-resurrection"
+      ],
+      "analysis": "The official account verifies personhood and actual work, not universal automation-funded access; anime policy is not automatically identical.",
+      "follow_up": "Keep the concise gap/comparison and continue without whole-series or manga reconstruction."
+    },
+    {
+      "candidate_id": "c0537",
+      "status": "needs_evidence",
+      "reason": "City authority and artificial-life research do not establish a durable work-independent material floor.",
+      "source_ids": [
+        "src-b70-phoenix-future"
+      ],
+      "analysis": "The checked official synopsis does not supply ordinary household production or participation; extinction is not leisure.",
+      "follow_up": "Keep the concise gap/comparison and continue without whole-series or manga reconstruction."
+    },
+    {
+      "candidate_id": "c0538",
+      "status": "needs_evidence",
+      "reason": "Mechanical immortality and oppression do not establish a scoped support/distribution constitution for the broad empire.",
+      "source_ids": [
+        "src-b70-galaxy999"
+      ],
+      "analysis": "Different worlds and adaptations cannot be collapsed into one material floor, and body conversion does not prove absence of work.",
+      "follow_up": "Keep the concise gap/comparison and continue without whole-series or manga reconstruction."
+    },
+    {
+      "candidate_id": "c0539",
+      "status": "needs_evidence",
+      "reason": "La-Metal’s power and enslavement plan do not specify its actual automatic production or civilian allocation.",
+      "source_ids": [
+        "src-b70-la-metal"
+      ],
+      "analysis": "Biological rulers are not AI, and planned capture is not an implemented post-work society.",
+      "follow_up": "Keep the concise gap/comparison and continue without whole-series or manga reconstruction."
+    },
+    {
+      "candidate_id": "c0540",
+      "status": "included",
+      "reason": "The 1978 opening order has established machine-supported leisure, with food-import and scope limitations disclosed.",
+      "source_ids": [
+        "src-harlock-1978-machine-premise",
+        "src-harlock-earth-cargo"
+      ],
+      "society_id": "harlock-1978-leisured-earth"
+    },
+    {
+      "candidate_id": "c0541",
+      "status": "boundary_case",
+      "reason": "Occupation, ration scarcity and biological domination do not establish automatic post-work material provision.",
+      "source_ids": [
+        "src-b70-arcadia"
+      ],
+      "analysis": "A hoped-for peace planet is not a realized economy; this continuity is not the complacent 1978 Earth.",
+      "follow_up": "Keep the concise gap/comparison and continue without whole-series or manga reconstruction."
+    },
+    {
+      "candidate_id": "c0542",
+      "status": "needs_evidence",
+      "reason": "A time-fault warship industry does not establish Earth’s ordinary household access or labor independence.",
+      "source_ids": [
+        "src-b70-yamato-time"
+      ],
+      "analysis": "Accelerated relative production time is not automatically labor-free manufacture, and military output is not a civilian welfare constitution.",
+      "follow_up": "Keep the concise gap/comparison and continue without whole-series or manga reconstruction."
+    },
+    {
+      "candidate_id": "c0543",
+      "status": "needs_evidence",
+      "reason": "Computer-directed human development does not establish automatic material production or ordinary resource rights.",
+      "source_ids": [
+        "src-b70-terra"
+      ],
+      "analysis": "The reference’s exact calendar phrasing is not adopted; manga, film and television economics are not assumed identical.",
+      "follow_up": "Keep the concise gap/comparison and continue without whole-series or manga reconstruction."
+    },
+    {
+      "candidate_id": "c0544",
+      "status": "needs_evidence",
+      "reason": "A managed Tokyo-like environment does not establish wage-independent necessities for its residents.",
+      "source_ids": [
+        "src-b70-megazone"
+      ],
+      "analysis": "Do not silently treat the physically inhabited ship setting as a population of uploaded minds or merge all three parts’ institutions.",
+      "follow_up": "Keep the concise gap/comparison and continue without whole-series or manga reconstruction."
+    }
+  ],
+  "review_notes": [
+    "Twelve short-check decisions and two differently distributed automated-production orders.",
+    "Tezuka’s official synopses verify resurrection/mind identity and future chronology but do not fill missing household economics; no full manga read.",
+    "The Harlock official Toei page returned 403 and was not bypassed. Its record is explicitly secondary-supported and television-scoped.",
+    "Offworld work remains visible. Mechanical longevity, time-fault military output and concealed shipboard life do not automatically establish universal welfare.",
+    "Unrelated merchandise, fanfiction and a cross-franchise integrated timeline were discarded."
+  ]
+}

@@ -1,0 +1,475 @@
+{
+  "batch_id": "batch-010",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0065",
+    "c0066",
+    "c0067",
+    "c0068"
+  ],
+  "sources": [
+    {
+      "id": "src-childhood-revenant",
+      "title": "Utopian Wasteland: Abundance, Futurity, and the Golden Age in Arthur C. Clarke's Childhood's End",
+      "author": "Jerome Cox-Strong; Revenant, Post-Apocalyptic Waste, pages 224-242",
+      "url": "https://www.revenantjournal.com/contents/utopian-wasteland-abundance-futurity-and-the-golden-age-in-arthur-c-clarkes-childhoods-end/",
+      "kind": "secondary_academic_analysis_with_primary_excerpts",
+      "accessed_on": "2026-10-16",
+      "access_method": "Open-access article opened; Golden Age, labor and power passages read",
+      "read_scope": "Quoted novel pages 68-75 and 93; free necessities, paid luxuries, Overlord power and eventual destruction.",
+      "limitations": "The article's stricter full-unemployment test differs from this project's wage-independence test. Its judgment that the ending undermines utopia does not erase earlier material provision."
+    },
+    {
+      "id": "src-childhood-abrash",
+      "title": "Utopia Subverted: Unstated Messages in Childhood's End",
+      "author": "Merritt Abrash; Extrapolation 30.4 (1989), pages 372-379; eNotes reproduction",
+      "url": "https://www.enotes.com/topics/arthur-c-clarke/criticism/clarke-arthur/merritt-abrash-essay-date-winter-1989",
+      "kind": "secondary_academic_analysis_with_primary_excerpts",
+      "accessed_on": "2026-10-16",
+      "access_method": "Page opened; relevant quoted passages also read in indexed text",
+      "read_scope": "Robot production and free community necessities, cited as novel pages 71-72 and 112; externally imposed political order.",
+      "limitations": "A subscription notice appears on the page. No account or restricted download was used. Novel excerpts are mediated by scholarship, not a complete primary reading."
+    },
+    {
+      "id": "src-city-stars-primary",
+      "title": "The City and the Stars",
+      "author": "Arthur C. Clarke; Signet text PDF hosted by Cjayarts",
+      "url": "https://cjayarts.com/pages/library/The%20City%20And%20The%20Stars-ArthurC.Clarke.pdf",
+      "kind": "primary_fiction_unofficial_pdf",
+      "accessed_on": "2026-10-16",
+      "access_method": "Web opens timed out; public PDF fetched successfully and targeted text extracted in memory with pypdf",
+      "read_scope": "PDF pages 5, 7-10, 30, 47-53, 58 and 72: synthesis, art voting, computer veto, Lys's technology and ambiguous leadership.",
+      "limitations": "Locators are one-based PDF pages, not printed pages. The full file was parsed to locate passages, not read in its entirety. OCR/conversion errors remain. No full novel file or text is redistributed in the research outputs."
+    },
+    {
+      "id": "src-city-stars-preview",
+      "title": "The City and the Stars: publisher ebook preview",
+      "author": "Arthur C. Clarke; Open Road Integrated Media on Everand",
+      "url": "https://www.everand.com/book/387516558/The-City-and-the-Stars",
+      "kind": "official_ebook_synopsis_and_primary_preview",
+      "accessed_on": "2026-10-16",
+      "access_method": "Product page opened; prologue and early chapter extracts read in indexed preview",
+      "read_scope": "Publisher identity, designed enclosed city and Alvin's visual art.",
+      "limitations": "The title is marked unavailable locally; only the openly returned synopsis and indexed preview were used. No later chapter access is claimed."
+    },
+    {
+      "id": "src-city-stars-review",
+      "title": "The City and the Stars",
+      "author": "divinenanny; Worlds Without End, 5 February 2012",
+      "url": "https://www.worldswithoutend.com/novel_review.asp?ID=1825",
+      "kind": "secondary_reader_review",
+      "accessed_on": "2026-10-16",
+      "access_method": "Whole short review opened and read",
+      "read_scope": "Food and furniture materialization and recurrent embodied lives.",
+      "limitations": "The review repeats the Invader story before resolving the novel's historical deception. That in-world legend is not adopted as objective history."
+    },
+    {
+      "id": "src-fall-night-primary",
+      "title": "Against the Fall of Night, in The Lion of Comarre and Against the Fall of Night",
+      "author": "Arthur C. Clarke; scanned collection hosted by Luminist",
+      "url": "https://s3.us-west-1.wasabisys.com/luminist/EB/C/Clarke%20-%20Comarre.pdf",
+      "kind": "primary_fiction_scan_with_indexed_excerpts",
+      "accessed_on": "2026-10-16",
+      "access_method": "Initially indexed-only; follow-up rendered and visually read the relevant image-only pages",
+      "read_scope": "Printed pages 148-160: synthesis, interpreting human instructions, duplication, Council orders and Alvin's view of the machines as the real rulers.",
+      "limitations": "PDF pages are printed pages plus 14 in this portion. This is a targeted visual reading, not the whole novel. Alvin's view of the real rulers is character interpretation; neither non-sentience nor absolute human command is inferred."
+    },
+    {
+      "id": "src-fall-night-comparison",
+      "title": "The Highway Men: discussion comparing Clarke's two novels",
+      "author": "Swords & Stitchery, 25 October 2012",
+      "url": "https://swordsandstitchery.blogspot.com/2012/10/the-highway-men-stars-without-numbers_25.html",
+      "kind": "tertiary_reproduction_and_reader_commentary",
+      "accessed_on": "2026-10-16",
+      "access_method": "Page opened; comparative section read",
+      "read_scope": "Different life cycles, Rorden versus Khedron and the changed computational role.",
+      "limitations": "Much is attributed to Wikipedia and is not independent corroboration. Its assertion that the earlier machines lack self-awareness is too strong beside the primary excerpt and is not adopted."
+    }
+  ],
+  "societies": [
+    {
+      "id": "childhood-end-golden-age",
+      "candidate_id": "c0065",
+      "name": "Childhood's End (Earth's Golden Age)",
+      "work": "Childhood's End",
+      "society": "Human Earth under Overlord supervision",
+      "media": [
+        "book"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "The original novel",
+        "period": "The mature Golden Age before the children's transformation",
+        "population": "Human residents of Earth during ordinary social life",
+        "human_population_proxy": false,
+        "exclusions": [
+          "The final loss of humanity as a leisure statistic",
+          "The Overmind as a human population",
+          "New Athens as proof of a uniform local culture",
+          "The unreviewed television adaptation"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Robot factories make ordinary necessities available without requiring people to earn a wage. Paid work still buys luxuries, so this is strong basic provision rather than the disappearance of every market or status distinction. The guarantee point describes the mature Golden Age. It does not average that period together with humanity's eventual transformation and the destruction of Earth.\n\nThe ultimate rulers are the biological Overlords, whose decisions humans cannot effectively overturn. The point near zero uses an explicit analogy with concentrated non-AI authority; these aliens are neither human elected representatives nor autonomous production robots. Local human institutions and everyday choices continue underneath their supervision. The nonworking fraction remains unresolved because work being optional does not reveal how many people take it. Technologists, researchers and people earning luxuries still exist, and the source passages offer no population-wide count of their activity.",
+      "axis": {
+        "guarantees": -0.9,
+        "control": 0.0,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -1,
+            -0.7
+          ],
+          "confidence": "medium",
+          "basis": "Automated basic provision; luxuries and status remain.",
+          "source_ids": [
+            "src-childhood-revenant",
+            "src-childhood-abrash"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.15
+          ],
+          "confidence": "medium",
+          "basis": "Concentrated biological alien supremacy, explicitly mapped by analogy to the non-AI elite reference.",
+          "source_ids": [
+            "src-childhood-revenant",
+            "src-childhood-abrash"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Optional luxury employment and technological work have no verified participation denominator.",
+          "source_ids": [
+            "src-childhood-revenant",
+            "src-childhood-abrash"
+          ]
+        }
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-childhood-revenant",
+        "src-childhood-abrash"
+      ],
+      "evidence": [
+        {
+          "claim": "Basic goods cease to depend on wages, while luxuries can still require work.",
+          "source_ids": [
+            "src-childhood-revenant"
+          ],
+          "locator": "Golden Age analysis quoting novel page 71",
+          "kind": "primary_excerpt_via_secondary"
+        },
+        {
+          "claim": "Human institutions operate under decisive alien supervision.",
+          "source_ids": [
+            "src-childhood-revenant",
+            "src-childhood-abrash"
+          ],
+          "locator": "Overlord power and the UN; discussion of externally imposed utopia",
+          "kind": "secondary_academic_analysis"
+        }
+      ],
+      "uncertainties": [
+        "The control axis requires an explicit biological-alien analogy.",
+        "The two academic essays do not replace a full primary read.",
+        "New Athens may warrant a later split only after its actual economic differences are verified.",
+        "No TV media tag until its continuity is reviewed."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      },
+      "control_analogy": {
+        "actor": "Biological alien Overlords",
+        "reference": "Concentrated non-AI authority at 0",
+        "limitation": "The axis's literal human-elite label does not describe their species. Lack of a human veto is not itself proof of autonomous AI rule."
+      }
+    },
+    {
+      "id": "city-stars-diaspar",
+      "candidate_id": "c0066",
+      "name": "The City and the Stars (Diaspar)",
+      "work": "The City and the Stars",
+      "society": "Diaspar's sustained city and recurrent human lives",
+      "media": [
+        "book"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "The City and the Stars, revised novel",
+        "period": "The stable city before public reopening to Lys",
+        "population": "Currently embodied human residents of Diaspar",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Stored identity patterns as people enjoying leisure",
+          "Lys",
+          "A completely specified later reconstruction",
+          "The earlier novel's different machine architecture"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Residents can summon food and furnishings through the city's synthesizers without taking production jobs. Physical maintenance and even the reconstruction of human bodies are built into the system, giving strong material guarantees. The protected population here is the embodied city: identities waiting in storage are not added to the leisure count. Artistic creation continues, and residents help decide which works deserve permanent preservation.\n\nThat cultural vote does not give them unrestricted control of the machinery. Changing the city requires both its Council and the Central Computer's approval, giving the machine an effective veto. The negative control point reflects that continuing authority, qualified by human choice and the computer's inherited purposes. It is not simply inferred from the presence of robots. The nonworking fraction stays open because effortless subsistence does not count the artists, mentors and other useful activity that still occupies human lives.",
+      "axis": {
+        "guarantees": -0.95,
+        "control": -0.65,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -1,
+            -0.8
+          ],
+          "confidence": "high",
+          "basis": "On-request synthesis and enduring maintenance support the resident population.",
+          "source_ids": [
+            "src-city-stars-primary",
+            "src-city-stars-preview",
+            "src-city-stars-review"
+          ]
+        },
+        "control": {
+          "interval": [
+            -0.9,
+            -0.3
+          ],
+          "confidence": "medium",
+          "basis": "Explicit computer veto over Council-approved changes; human choices still matter.",
+          "source_ids": [
+            "src-city-stars-primary"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Art, mentoring and special roles continue without a quantified participation rate.",
+          "source_ids": [
+            "src-city-stars-primary",
+            "src-city-stars-preview",
+            "src-city-stars-review"
+          ]
+        }
+      },
+      "regime_primary": 5,
+      "regime_alternatives": [
+        1
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-city-stars-primary",
+        "src-city-stars-preview",
+        "src-city-stars-review"
+      ],
+      "evidence": [
+        {
+          "claim": "The Council cannot alter the city without computer approval.",
+          "source_ids": [
+            "src-city-stars-primary"
+          ],
+          "locator": "PDF page 30: Khedron explains the monitors",
+          "kind": "depicted_or_author_stated"
+        },
+        {
+          "claim": "Human creative activity remains alongside synthesized subsistence.",
+          "source_ids": [
+            "src-city-stars-primary"
+          ],
+          "locator": "PDF pages 5-10: food, furnishings, memory and artistic voting",
+          "kind": "depicted_or_author_stated"
+        }
+      ],
+      "uncertainties": [
+        "A full comparison of original design constraints and present override rights would refine the control interval.",
+        "Stored and embodied persons require separate denominators.",
+        "This is not a score for all distant-future humanity."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "city-stars-lys",
+      "candidate_id": "c0067",
+      "name": "The City and the Stars (Lys)",
+      "work": "The City and the Stars",
+      "society": "The communities of Lys, observed principally at Airlee",
+      "media": [
+        "book"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "The City and the Stars, revised novel",
+        "period": "Alvin's visit before the two cultures reopen their relationship",
+        "population": "Human residents of Lys, including children and older people",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Diaspar's stored identities",
+          "Assuming all villages have identical institutions",
+          "Freedom from toil as proof of political democracy"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Lys retains the tools for effortless provision but often chooses living processes instead. Its people grow fruit for the pleasure of cultivation and experimentation; Hilvar can also produce a meal with a portable matter-converter. This supports a post-work reading despite the visible gardening. The moderately strong guarantee estimate is qualified because routine access is clearer than a formal universal entitlement.\n\nControl remains unresolved. Alvin cannot tell whether Seranis has commanding authority or very little power, and the villages deliberately differ. Telepathic communication alone does not establish equal ownership or an accountable political system. The provisional distributed-regime label therefore still needs checking. A low nonworking estimate reflects the repeated picture of busy residents, while allowing for children and the very old. Their voluntary cultivation and useful experiments count as work. The estimate is broad and editorial; it does not count all self-chosen activity as either a job or mere leisure.",
+      "axis": {
+        "guarantees": -0.65,
+        "control": null,
+        "nonworking": 0.25
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.9,
+            -0.2
+          ],
+          "confidence": "low",
+          "basis": "Synthesis remains available alongside chosen cultivation; universal legal coverage is not specified.",
+          "source_ids": [
+            "src-city-stars-primary"
+          ]
+        },
+        "control": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Narration explicitly leaves Seranis's authority and diverse village institutions unclear.",
+          "source_ids": [
+            "src-city-stars-primary"
+          ]
+        },
+        "nonworking": {
+          "interval": [
+            0.05,
+            0.6
+          ],
+          "confidence": "low",
+          "basis": "Coarse minority estimate from busy useful pursuits, with children and older residents included; no census.",
+          "source_ids": [
+            "src-city-stars-primary"
+          ]
+        }
+      },
+      "regime_primary": 2,
+      "regime_alternatives": [
+        1
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-city-stars-primary"
+      ],
+      "evidence": [
+        {
+          "claim": "Retaining cultivation does not mean lacking synthesizers.",
+          "source_ids": [
+            "src-city-stars-primary"
+          ],
+          "locator": "PDF pages 52-53 and 58: Airlee and Hilvar's camp",
+          "kind": "depicted_or_author_stated"
+        },
+        {
+          "claim": "The observer cannot resolve the local leadership structure.",
+          "source_ids": [
+            "src-city-stars-primary"
+          ],
+          "locator": "PDF page 52: Seranis and the differing villages; page 72: coercive memory proposal",
+          "kind": "depicted_or_author_stated"
+        }
+      ],
+      "uncertainties": [
+        "Control and the provisional regime require further institutional evidence.",
+        "The ability to alter an outsider's memory qualifies an uncomplicated picture of freedom.",
+        "Useful gardening counts as work even when its products are replaceable by synthesis."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0065",
+      "status": "included",
+      "reason": "Robot-made necessities are available outside employment during the defined Golden Age.",
+      "source_ids": [
+        "src-childhood-revenant",
+        "src-childhood-abrash"
+      ],
+      "society_id": "childhood-end-golden-age"
+    },
+    {
+      "candidate_id": "c0066",
+      "status": "included",
+      "reason": "Direct text establishes automatic provision and the computer's veto over city alterations.",
+      "source_ids": [
+        "src-city-stars-primary",
+        "src-city-stars-preview",
+        "src-city-stars-review"
+      ],
+      "society_id": "city-stars-diaspar"
+    },
+    {
+      "candidate_id": "c0067",
+      "status": "included",
+      "reason": "Direct text confirms synthesis despite optional cultivation; political control stays explicitly unresolved.",
+      "source_ids": [
+        "src-city-stars-primary"
+      ],
+      "society_id": "city-stars-lys"
+    },
+    {
+      "candidate_id": "c0068",
+      "status": "duplicate",
+      "reason": "Direct visual follow-up confirms the same core automatic-provision mechanism without a sufficiently distinct allocation or labor regime to count another Diaspar.",
+      "source_ids": [
+        "src-fall-night-primary",
+        "src-fall-night-comparison",
+        "src-city-stars-primary"
+      ],
+      "duplicate_of": "city-stars-diaspar",
+      "duplication_basis": "Economic comparison across alternate versions, not identical literal continuity",
+      "follow_up_completed": "The image-only scan's relevant pages were rendered and read after the initial indexed-only pass.",
+      "analysis": "Printed pages 148-160 show synthesis at human request, an intelligent interpreter, a Council issuing restrictive orders and Alvin explicitly regarding the underlying machines as the city's real rulers. That last claim is his interpretation, not an audited constitution. It nevertheless defeats the easy claim that this is a simple human-run alternative to the later novel. Different life cycles and a revised computer architecture remain version differences, but the evidence does not establish a second material distribution or labor order under the project's economic-unit rule.",
+      "follow_up": "Reopen if a specific difference in ownership, access, work obligation or present override rights is established. Keep original and revised life cycles separate in quotations; this disposition does not merge their literal continuities or transfer the later record's precise coordinate to the earlier text."
+    }
+  ],
+  "review_notes": [
+    "Four contiguous leads yield three retained societies; a later direct visual follow-up resolves the fourth as an economic duplicate across versions.",
+    "Second pass distinguishes guaranteed basic goods from free luxuries, biological alien rulers from AI, shared artistic voting from control of production, and optional cultivation from wage dependence.",
+    "The full City and the Stars PDF was fetched only after web retrieval timed out; selected extracted passages, not a complete novel reading, support the two records.",
+    "Lys's control coordinate is intentionally unresolved because the narrator expressly lacks that knowledge. Its positive regime label is provisional, with a concentrated alternative retained.",
+    "The original Diaspar's machines are not called non-sentient merely because a secondary comparison does so. Follow-up visual reading covers printed pages 148-160 and confirms the caution about treating its Council as simply sovereign over passive tools.",
+    "No human extinction, stored-person interval, or absence of compulsory jobs is converted into a 100% leisure statistic. Assets remain deferred and the overall goal is unfinished."
+  ]
+}

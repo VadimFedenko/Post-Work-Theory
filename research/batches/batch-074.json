@@ -1,0 +1,607 @@
+{
+  "batch_id": "batch-074",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0581",
+    "c0582",
+    "c0583",
+    "c0584",
+    "c0585",
+    "c0586",
+    "c0587",
+    "c0588",
+    "c0589",
+    "c0590",
+    "c0591",
+    "c0592"
+  ],
+  "sources": [
+    {
+      "id": "src-b74-vegas-endings",
+      "title": "Fallout: New Vegas endings",
+      "author": "Fallout Wiki contributors, transcribing ending slides",
+      "url": "https://fallout.fandom.com/wiki/Fallout%3A_New_Vegas_endings",
+      "kind": "game_lore_or_walkthrough",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public reference or bounded indexed ending passage",
+      "read_scope": "House and independent endings establish political/military control and differing street order.",
+      "limitations": "Ending policing and casino commerce do not enact a complete household post-work economy."
+    },
+    {
+      "id": "src-b74-watoga",
+      "title": "Watoga",
+      "author": "Fallout Wiki contributors",
+      "url": "https://fallout.fandom.com/wiki/Watoga",
+      "kind": "game_lore_or_walkthrough",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public reference or bounded indexed ending passage",
+      "read_scope": "Fully automated municipal services coexist with corporate residency approval, elite exclusion and automation unemployment before sabotage.",
+      "limitations": "Indexed history and cited terminal summaries, not a full primary terminal audit; unrelated fanfiction was discarded."
+    },
+    {
+      "id": "src-b74-vault112",
+      "title": "Vault 112",
+      "author": "Fallout Wiki contributors",
+      "url": "https://fallout.fandom.com/wiki/Vault_112",
+      "kind": "game_lore_or_walkthrough",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public reference or bounded indexed ending passage",
+      "read_scope": "Human bodies remain in long-running simulation loungers; caretaker Robobrains maintain the vault under Braun.",
+      "limitations": "Bounded indexed background/layout; unrelated Vault 111 cryostasis entries were discarded after a blocked terminal query."
+    },
+    {
+      "id": "src-b74-vault112-reference",
+      "title": "Vault 112",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Vault_112",
+      "kind": "game_lore_or_walkthrough",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public reference or bounded indexed ending passage",
+      "read_scope": "Longtime living residents occupy pods in an immersive simulation controlled by the human overseer.",
+      "limitations": "Secondary location reference; no invented population count or claim that simulating death always means physical death."
+    },
+    {
+      "id": "src-b74-bigmt",
+      "title": "Lobotomy",
+      "author": "Fallout Wiki contributors",
+      "url": "https://fallout.fandom.com/wiki/Lobotomy",
+      "kind": "game_lore_or_walkthrough",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public reference or bounded indexed ending passage",
+      "read_scope": "Human-derived lobotomites perform maintenance and cleanup; Think Tank scientists continue experiments.",
+      "limitations": "Not all human-derived workers are simple machines; scientific technology alone does not establish the whole crater’s allocation system."
+    },
+    {
+      "id": "src-b74-graygarden",
+      "title": "Graygarden",
+      "author": "Fallout Wiki contributors",
+      "url": "https://fallout.fandom.com/wiki/Graygarden",
+      "kind": "game_lore_or_walkthrough",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public reference or bounded indexed ending passage",
+      "read_scope": "An autonomous hydroponic farm exports produce and requests a repair; the default resident population is robots.",
+      "limitations": "Player settlement potential is distinct from an already established supported human cohort."
+    },
+    {
+      "id": "src-b74-whitespring",
+      "title": "The Whitespring Bunker",
+      "author": "The Vault Fallout Wiki contributors",
+      "url": "https://fallout-archive.fandom.com/wiki/The_Whitespring_Bunker",
+      "kind": "game_lore_or_walkthrough",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public reference or bounded indexed ending passage",
+      "read_scope": "MODUS seals the bunker during toxic release, killing human Enclave residents; later players perform restoration tasks.",
+      "limitations": "Different from the commercial resort and its temporary guests; empty restored facilities do not count as human leisure."
+    },
+    {
+      "id": "src-b74-vault-city",
+      "title": "Vault City faction",
+      "author": "Fallout Wiki contributors",
+      "url": "https://fallout.fandom.com/wiki/Vault_City_%28faction%29",
+      "kind": "game_lore_or_walkthrough",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public reference or bounded indexed ending passage",
+      "read_scope": "Citizens exclude outsiders while servants perform coerced physical and domestic labor.",
+      "limitations": "Biological slave work is not automatic production; advanced medicine does not settle the missing general mechanism."
+    },
+    {
+      "id": "src-b74-delamain",
+      "title": "Delamain missions and endings",
+      "author": "VULKK guide",
+      "url": "https://vulkk.com/2024/02/27/cyberpunk-2077-delamain-missions-walkthrough-with-all-endings/",
+      "kind": "game_lore_or_walkthrough",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public reference or bounded indexed ending passage",
+      "read_scope": "The merged Delamain becomes a more advanced being and leaves Night City.",
+      "limitations": "A branching AI identity outcome is not an implemented supported human society."
+    },
+    {
+      "id": "src-b74-blackwall",
+      "title": "Blackwall",
+      "author": "Cyberpunk Wiki contributors",
+      "url": "https://cyberpunk.fandom.com/wiki/Blackwall",
+      "kind": "game_lore_or_walkthrough",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public reference or bounded indexed ending passage",
+      "read_scope": "Rogue AI regions may also receive human-derived constructs through an ending branch.",
+      "limitations": "Network danger and merging constructs do not specify ordinary resource entitlements or independent active-person continuity."
+    },
+    {
+      "id": "src-b74-dx-original",
+      "title": "Deus Ex endings",
+      "author": "Deus Ex Wiki contributors",
+      "url": "https://deusex.fandom.com/wiki/Deus_Ex_endings",
+      "kind": "game_lore_or_walkthrough",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public reference or bounded indexed ending passage",
+      "read_scope": "The original Helios merger promises cybernetic rule; Invisible War combines outcomes and describes its initial failure.",
+      "limitations": "A promise in the original is not the later game’s completed economy; cut dialogue is not adopted as released events."
+    },
+    {
+      "id": "src-b74-dxiw-ending",
+      "title": "Deus Ex: Invisible War endings",
+      "author": "Deus Ex Wiki contributors, transcribing ending narration",
+      "url": "https://deusex.fandom.com/wiki/Deus_Ex%3A_Invisible_War_endings",
+      "kind": "game_lore_or_walkthrough",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public reference or bounded indexed ending passage",
+      "read_scope": "ApostleCorp’s realized branch reaches Union year 125 with completed economic automation and shared needs/consensus.",
+      "limitations": "Bounded indexed ApostleCorp ending; alternatives remain mutually exclusive, and unmade sequel design concepts are not events."
+    },
+    {
+      "id": "src-b74-dxiw-apostlecorp",
+      "title": "ApostleCorp",
+      "author": "Deus Ex Wiki contributors",
+      "url": "https://deusex.fandom.com/wiki/ApostleCorp",
+      "kind": "game_lore_or_walkthrough",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public reference or bounded indexed ending passage",
+      "read_scope": "The project links people to Helios through universally compatible nanites and seeks equal ability and democracy.",
+      "limitations": "Project intentions supplement the actual ending, not substitute for it; the exact balance of human and AI agency is unresolved."
+    },
+    {
+      "id": "src-b74-dxiw-route",
+      "title": "ApostleCorp Ending walkthrough",
+      "author": "PortForward guide",
+      "url": "https://portforward.com/games/walkthroughs/Deus-Ex-Invisible-War/ApostleCorp-Ending.htm",
+      "kind": "game_lore_or_walkthrough",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short public reference or bounded indexed ending passage",
+      "read_scope": "The player can activate the actual Helios uplink and receive the united-humanity cutscene.",
+      "limitations": "Route confirmation only, not an independent economic census or creator endorsement of a best ending."
+    }
+  ],
+  "societies": [
+    {
+      "id": "fallout-watoga-prewar-exclusion",
+      "candidate_id": "c0583",
+      "name": "Fallout 76 — Watoga before the sabotage",
+      "work": "Fallout 76",
+      "society": "The functioning automated city’s resident and displaced human population",
+      "media": [
+        "game"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Fallout 76 game history",
+        "period": "The established pre-War city before Operation Free Watoga",
+        "population": "Living residents and people displaced or excluded by Watoga’s automation",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Post-War empty robot patrols as leisure citizens",
+          "All Appalachia as receiving city benefits",
+          "Fanfiction descriptions"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Watoga implements a largely automated municipal service system, while machine replacement drives unemployment and people out of the city. Access follows property wealth and corporate approval rather than a universal claim on the robot output. It is retained as an unequal automation-transition case: productive displacement is real, but displaced people do not thereby receive secure necessities. The high guarantee-axis value reflects costly residency, rejected applications and deliberately restricted services, rather than claiming every rich resident is deprived.\n\nCorporate authorities and privileged residents shape admission and service policy. That supports concentrated human control despite extensive robot operation; an automated city is not automatically an AI sovereign. The scope precedes the sabotage and nuclear catastrophe, whose hostile patrols are a different condition. No nonworking fraction is inferred from unemployment: people may seek other jobs, care for others or undertake useful activity. The description also does not convert robot municipal services into proof that every commodity is produced locally or free of charge.",
+      "axis": {
+        "guarantees": 0.85,
+        "control": 0.05,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            0.6,
+            1
+          ],
+          "confidence": "medium",
+          "basis": "Automation displaces people while wealth and corporate approval restrict residence and services.",
+          "source_ids": [
+            "src-b74-watoga"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.2
+          ],
+          "confidence": "medium",
+          "basis": "Corporate admission decisions and elite service votes determine access; robot operation does not erase human policy control.",
+          "source_ids": [
+            "src-b74-watoga"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Unemployment and outmigration are not an all-person census of useful work.",
+          "source_ids": [
+            "src-b74-watoga"
+          ]
+        }
+      },
+      "regime_primary": 3,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b74-watoga"
+      ],
+      "evidence": [
+        {
+          "claim": "Actual automated services and unemployment coexist with corporate residency exclusion.",
+          "source_ids": [
+            "src-b74-watoga"
+          ],
+          "locator": "Pre-War background and Operation Free Watoga",
+          "kind": "secondary_game_history_with_terminal_citations"
+        }
+      ],
+      "uncertainties": [
+        "An unequal partial transition, not general freedom from subsistence work.",
+        "Pre-sabotage history only.",
+        "Municipal automation does not establish local automatic production of every good.",
+        "Participation remains unresolved."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "fallout-vault112-active-captives",
+      "candidate_id": "c0584",
+      "name": "Fallout 3 — Vault 112’s active simulation captives",
+      "work": "Fallout 3",
+      "society": "Living long-term residents maintained in Tranquility loungers",
+      "media": [
+        "game"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Fallout 3",
+        "period": "The continuing Braun-controlled simulation before player intervention",
+        "population": "Living longtime human residents with active simulated experiences",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Empty pods and simulated bystanders as additional humans",
+          "James and the player as representative permanent residents",
+          "Unconscious cryostasis residents of other vaults",
+          "Post-failsafe dead residents"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Vault 112 keeps living residents inside continuing virtual experiences while machinery and caretaker Robobrains sustain the physical facility. They do not obtain bodily support through current outside employment. This is an actual long-running captive support unit, not merely stored data or an empty simulation. Its guarantee estimate is deliberately broad: bodily maintenance persists for generations, but residents cannot leave or hold their provider accountable. Virtual killings and memory resets are not automatically physical deaths, although the intervention that ends the experiment can make the threat real.\n\nControl belongs to the human overseer Stanislaus Braun, rather than the maintenance robots or the residents collectively. Material support and severe coercion are recorded separately, with the possibility of withdrawal qualifying security. Active mental life does not imply that every resident performs no useful activity; simulated care and other meaningful work still count. No reliable participation census was found, so that axis remains unresolved. This record covers the established captive community before intervention, excluding temporary visitors, purely simulated neighbors and the dead population after a lethal failsafe.",
+      "axis": {
+        "guarantees": -0.3,
+        "control": 0,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.85,
+            0.75
+          ],
+          "confidence": "low",
+          "basis": "Long-lasting physical support is real, but captives have no enforceable claim and lethal termination remains possible.",
+          "source_ids": [
+            "src-b74-vault112",
+            "src-b74-vault112-reference"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.05
+          ],
+          "confidence": "medium",
+          "basis": "Braun is a living human overseer controlling the simulation; caretaker robots do not establish an AI ruler.",
+          "source_ids": [
+            "src-b74-vault112",
+            "src-b74-vault112-reference"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Pod maintenance replaces external subsistence work, but active mental activity and useful simulated work are not censused.",
+          "source_ids": [
+            "src-b74-vault112",
+            "src-b74-vault112-reference"
+          ]
+        }
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [
+        3
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-b74-vault112",
+        "src-b74-vault112-reference"
+      ],
+      "evidence": [
+        {
+          "claim": "Robots maintain the vault while living humans remain in Braun-controlled active simulations.",
+          "source_ids": [
+            "src-b74-vault112",
+            "src-b74-vault112-reference"
+          ],
+          "locator": "Vault background, caretaker maintenance and Tranquility Lounger description",
+          "kind": "secondary_game_reference"
+        }
+      ],
+      "uncertainties": [
+        "Coercion is distinct from automatic withdrawal of bodily provision.",
+        "Physical residents, active experiences and simulated bystanders are distinguished.",
+        "No participation census or fixed resident count is invented.",
+        "The lethal ending is outside the provision period."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "invisible-war-helios-union",
+      "candidate_id": "c0592",
+      "name": "Deus Ex: Invisible War — ApostleCorp’s Helios Union",
+      "work": "Deus Ex: Invisible War",
+      "society": "Humanity in the realized ApostleCorp ending at Union year 125",
+      "media": [
+        "game"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Deus Ex: Invisible War",
+        "period": "The narrated mature Union, 125 years after the ApostleCorp branch",
+        "population": "Living humanity linked through the universal nanite/Helios system",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Other mutually exclusive endings",
+          "The original Deus Ex merger as already achieving this order",
+          "Unmade sequel concepts"
+        ],
+        "branch": "ApostleCorp Great Advance ending",
+        "player_configurable": true
+      },
+      "description": "The ApostleCorp ending goes beyond an immediate promise: its later narration reports completed economic automation and an enduring Union in which people’s needs are treated collectively. That supports a post-work material system, with a moderately strong guarantee estimate. The score remains uncertain because the short ending gives no detailed inventory of housing, care or possible exclusion. This is one realized player-selected branch, not the outcome of every playthrough or a claim that the original game’s merger already achieved the same economy.\n\nHelios coordinates linked human minds and voices their consensus. The actual balance between shared human agency and the AI’s decisive authority is ambiguous, so control remains unresolved, with both AI provision and distributed-human provision interpretations recorded. Calling the link a democracy does not settle that balance. The ending explicitly preserves research, and freedom from necessary production work does not mean an absence of useful chosen activity. No nonworking percentage is supplied. Unused sequel plans and the other endings do not extend this branch’s constitution.",
+      "axis": {
+        "guarantees": -0.6,
+        "control": null,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.9,
+            0.25
+          ],
+          "confidence": "low",
+          "basis": "Completed economic automation and collective needs support a material floor, but the ending lacks detailed entitlements.",
+          "source_ids": [
+            "src-b74-dxiw-ending",
+            "src-b74-dxiw-apostlecorp",
+            "src-b74-dxiw-route"
+          ]
+        },
+        "control": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Human consensus, a merged human leader and Helios coordination coexist; decisive productive agency is not resolved.",
+          "source_ids": [
+            "src-b74-dxiw-ending",
+            "src-b74-dxiw-apostlecorp",
+            "src-b74-dxiw-route"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Economic automation coexists with continuing research; no all-person participation rate is given.",
+          "source_ids": [
+            "src-b74-dxiw-ending",
+            "src-b74-dxiw-apostlecorp",
+            "src-b74-dxiw-route"
+          ]
+        }
+      },
+      "regime_primary": 5,
+      "regime_alternatives": [
+        2
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-b74-dxiw-ending",
+        "src-b74-dxiw-apostlecorp",
+        "src-b74-dxiw-route"
+      ],
+      "evidence": [
+        {
+          "claim": "The mature selected ending explicitly reports completed economic automation and collective needs.",
+          "source_ids": [
+            "src-b74-dxiw-ending",
+            "src-b74-dxiw-apostlecorp",
+            "src-b74-dxiw-route"
+          ],
+          "locator": "ApostleCorp ending narration at Union year 125; route and project context",
+          "kind": "transcribed_primary_ending_and_secondary_context"
+        }
+      ],
+      "uncertainties": [
+        "Mutually exclusive realized branch, not universal canon.",
+        "AI versus linked-human effective control remains unresolved.",
+        "Research remains useful work; automation is not a participation census.",
+        "The material-floor estimate is an interpretation of brief ending narration."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0581",
+      "status": "needs_evidence",
+      "reason": "House’s robot-backed victory does not establish a general post-work allocation system.",
+      "source_ids": [
+        "src-b74-vegas-endings"
+      ],
+      "analysis": "The ending depicts order, despotism and casino fortunes; Securitron military control is not ordinary automatic provision.",
+      "follow_up": "Keep the short disposition and continue without inventing a post-ending economy or reading a full lore archive."
+    },
+    {
+      "candidate_id": "c0582",
+      "status": "needs_evidence",
+      "reason": "Independent Vegas’s political outcome does not establish distributed productive ownership or secure necessities.",
+      "source_ids": [
+        "src-b74-vegas-endings"
+      ],
+      "analysis": "Upgraded and unupgraded Securitron branches differ in order, but neither enacts a complete post-work economy in the checked slides.",
+      "follow_up": "Keep the short disposition and continue without inventing a post-ending economy or reading a full lore archive."
+    },
+    {
+      "candidate_id": "c0583",
+      "status": "included",
+      "reason": "Actual municipal automation and displacement coexist with a documented exclusionary access system.",
+      "source_ids": [
+        "src-b74-watoga"
+      ],
+      "society_id": "fallout-watoga-prewar-exclusion"
+    },
+    {
+      "candidate_id": "c0584",
+      "status": "included",
+      "reason": "A living active captive cohort receives continuing machine-maintained bodily support under a human overseer.",
+      "source_ids": [
+        "src-b74-vault112",
+        "src-b74-vault112-reference"
+      ],
+      "society_id": "fallout-vault112-active-captives"
+    },
+    {
+      "candidate_id": "c0585",
+      "status": "needs_evidence",
+      "reason": "Big MT’s advanced machinery does not establish a complete post-work resource arrangement for its mixed population.",
+      "source_ids": [
+        "src-b74-bigmt"
+      ],
+      "analysis": "Human-derived lobotomites do real maintenance and scientists do research; neither group can be erased by calling them robots.",
+      "follow_up": "Keep the short disposition and continue without inventing a post-ending economy or reading a full lore archive."
+    },
+    {
+      "candidate_id": "c0586",
+      "status": "boundary_case",
+      "reason": "The default autonomous farm has no established supported human resident cohort.",
+      "source_ids": [
+        "src-b74-graygarden"
+      ],
+      "analysis": "Food exports are real, but player settlement potential is not an already constituted human welfare economy.",
+      "follow_up": "Keep the short disposition and continue without inventing a post-ending economy or reading a full lore archive."
+    },
+    {
+      "candidate_id": "c0587",
+      "status": "boundary_case",
+      "reason": "An emptied robot-restored bunker is not a living human post-work population.",
+      "source_ids": [
+        "src-b74-whitespring"
+      ],
+      "analysis": "The AI killed the human Enclave and later recruits perform useful restoration tasks; the commercial hotel is a distinct unit.",
+      "follow_up": "Keep the short disposition and continue without inventing a post-ending economy or reading a full lore archive."
+    },
+    {
+      "candidate_id": "c0588",
+      "status": "boundary_case",
+      "reason": "Vault City’s servants perform actual coerced work; medicine and elite privilege do not establish automatic general production.",
+      "source_ids": [
+        "src-b74-vault-city"
+      ],
+      "analysis": "Biological slave labor is not machine replacement, and no employment-preserving technological rollback is established.",
+      "follow_up": "Keep the short disposition and continue without inventing a post-ending economy or reading a full lore archive."
+    },
+    {
+      "candidate_id": "c0589",
+      "status": "boundary_case",
+      "reason": "A merged AI leaving a taxi business is not a supported human society.",
+      "source_ids": [
+        "src-b74-delamain"
+      ],
+      "analysis": "The branch concerns machine identity and departure, with no continuing human resource cohort established.",
+      "follow_up": "Keep the short disposition and continue without inventing a post-ending economy or reading a full lore archive."
+    },
+    {
+      "candidate_id": "c0590",
+      "status": "needs_evidence",
+      "reason": "Rogue-AI territory and absorbed human constructs lack verified ordinary resource-access rules.",
+      "source_ids": [
+        "src-b74-blackwall"
+      ],
+      "analysis": "Human-derived constructs require active-person and allocation evidence; network residence alone does not establish a post-work community.",
+      "follow_up": "Keep the short disposition and continue without inventing a post-ending economy or reading a full lore archive."
+    },
+    {
+      "candidate_id": "c0591",
+      "status": "needs_evidence",
+      "reason": "The original Helios merger does not depict the mature material order.",
+      "source_ids": [
+        "src-b74-dx-original"
+      ],
+      "analysis": "Political intent and the sequel’s initially failed merger cannot substitute for the distinct later completed-automation ending.",
+      "follow_up": "Keep the short disposition and continue without inventing a post-ending economy or reading a full lore archive."
+    },
+    {
+      "candidate_id": "c0592",
+      "status": "included",
+      "reason": "A realized branch’s later narration explicitly establishes completed economic automation and collective needs.",
+      "source_ids": [
+        "src-b74-dxiw-ending",
+        "src-b74-dxiw-apostlecorp",
+        "src-b74-dxiw-route"
+      ],
+      "society_id": "invisible-war-helios-union"
+    }
+  ],
+  "review_notes": [
+    "Twelve ordered decisions and three records; short game summaries, ending narration and bounded passages only.",
+    "Watoga’s pre-sabotage displacement/exclusion is separated from post-War empty patrols. Unemployment is not converted into nonworking.",
+    "Vault 112 contains active living humans, unlike cryostasis. Braun remains a human ruler; virtual and physical death are distinguished.",
+    "ApostleCorp’s mature ending is explicit enough for admission. The ending’s shared agency remains ambiguous, not guessed from its democracy label.",
+    "Blocked Fallout terminal pages were respected. Unrelated Vault 111 excerpts and role-playing/fanfiction hits were discarded."
+  ]
+}

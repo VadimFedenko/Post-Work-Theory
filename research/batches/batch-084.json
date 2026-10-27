@@ -1,0 +1,599 @@
+{
+  "batch_id": "batch-084",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0701",
+    "c0702",
+    "c0703",
+    "c0704",
+    "c0705",
+    "c0706",
+    "c0707",
+    "c0708",
+    "c0709",
+    "c0710",
+    "c0711",
+    "c0712"
+  ],
+  "sources": [
+    {
+      "id": "src-b84-korvax",
+      "title": "Korvax Convergence",
+      "author": "No Man’s Sky Wiki contributors",
+      "url": "https://nomanssky.fandom.com/wiki/Korvax_Convergence",
+      "kind": "official_or_secondary_lore_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed passage",
+      "read_scope": "Korvax minds share a network, move between bodies and can be disconnected.",
+      "limitations": "The similarly named Korvaxian Convergence page is an explicit player-created monarchy and was discarded; direct Korvax open failed."
+    },
+    {
+      "id": "src-b84-autophage",
+      "title": "Echoes update",
+      "author": "Hello Games",
+      "url": "https://www.nomanssky.com/echoes-update/",
+      "kind": "official_or_secondary_lore_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed passage",
+      "read_scope": "Autophage build bodies and equipment from salvage and offer tasks, rituals and exchanges.",
+      "limitations": "Robotic culture and self-repair do not establish work-independent necessities; no ARG or complete mission chain was read."
+    },
+    {
+      "id": "src-b84-atlas",
+      "title": "No Man’s Sky lore",
+      "author": "No Man’s Sky Wiki contributors",
+      "url": "https://nomanssky.fandom.com/wiki/Lore",
+      "kind": "official_or_secondary_lore_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed passage",
+      "read_scope": "The Atlas simulates universes and its external hardware deteriorates.",
+      "limitations": "ARG-to-game connections include interpretation; a simulated universe is not automatically one supplied human society."
+    },
+    {
+      "id": "src-b84-apex-food",
+      "title": "Standard Issue Fridge game descriptions",
+      "author": "Starbounder contributors transcribing object text",
+      "url": "https://www.starbounder.org/Standard_Issue_Fridge",
+      "kind": "official_or_secondary_lore_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed passage",
+      "read_scope": "The Apex inspection describes food as scarce; the device stores food.",
+      "limitations": "An appliance and scarcity do not define the entire Miniknog productive/access system."
+    },
+    {
+      "id": "src-b84-glitch",
+      "title": "Glitch",
+      "author": "Starbounder contributors",
+      "url": "https://www.starbounder.org/Glitch",
+      "kind": "official_or_secondary_lore_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed passage",
+      "read_scope": "Artificial medieval societies repeat assigned agrarian tasks after a simulation-development fault.",
+      "limitations": "The loop is not a verified employment-preserving policy for a human population; removed early lore is not adopted."
+    },
+    {
+      "id": "src-b84-nomai",
+      "title": "Outer Wilds dialogue text",
+      "author": "Community transcription of game dialogue",
+      "url": "https://hushbugger.github.io/outerwilds/text/",
+      "kind": "official_or_secondary_lore_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed passage",
+      "read_scope": "Bounded Nomai mining-site and investigation exchanges show real resource/technical work.",
+      "limitations": "No complete text dump read; scientific achievements do not alone specify ordinary household provision."
+    },
+    {
+      "id": "src-b84-stranger-people",
+      "title": "The Stranger’s inhabitants",
+      "author": "Outer Wilds Wiki contributors",
+      "url": "https://outerwilds.fandom.com/wiki/The_Stranger%27s_inhabitants",
+      "kind": "official_or_secondary_lore_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed passage",
+      "read_scope": "An alien population creates a homeworld simulation and remains actively present after bodily death until fire/infrastructure failure.",
+      "limitations": "Indexed bounded sections, not a full lore archive; the people are alien-derived persons, not humans."
+    },
+    {
+      "id": "src-b84-stranger-simulation",
+      "title": "Simulation",
+      "author": "Outer Wilds Wiki contributors",
+      "url": "https://outerwilds.fandom.com/wiki/Simulation",
+      "kind": "official_or_secondary_lore_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed passage",
+      "read_scope": "The shared environment supports residential/recreational activity, persists for dead inhabitants and depends on physical fires/artifacts.",
+      "limitations": "Indexed sections only after a 402/robots denial; interface interaction does not by itself establish political or productive ownership."
+    },
+    {
+      "id": "src-b84-halcyon",
+      "title": "The Outer Worlds plot",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/The_Outer_Worlds",
+      "kind": "official_or_secondary_lore_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed passage",
+      "read_scope": "Corporate towns use workers; the Board branch cycles workers through cryosleep and hard labor to preserve elite consumption.",
+      "limitations": "Biological exploitation and suspended intervals do not count as automatic production or active leisure."
+    },
+    {
+      "id": "src-b84-darkage",
+      "title": "Dark Age of Technology",
+      "author": "Lexicanum contributors",
+      "url": "https://wh40k.lexicanum.com/wiki/Dark_Age_of_Technology",
+      "kind": "official_or_secondary_lore_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed passage",
+      "read_scope": "The Artificial Intelligence section explicitly describes machines administering every need of utopian human colonies before rebellion.",
+      "limitations": "A scoped lore reference citing rulebooks, not a direct full primary-book read; diverse human worlds and the later Cybernetic Revolt are not one guaranteed economy."
+    },
+    {
+      "id": "src-b84-aeldari-empire",
+      "title": "Aeldari Empire",
+      "author": "Lexicanum contributors",
+      "url": "https://wh40k.lexicanum.com/wiki/Eldar_Empire",
+      "kind": "official_or_secondary_lore_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed passage",
+      "read_scope": "Constructs perform basic economic functions; residents pursue inclinations, art and later excess, under varied rulers/aristocracies.",
+      "limitations": "Pre-Fall empire only; no exact number of worlds or same post-Fall arrangements is adopted. Source bibliography includes codex and prose accounts."
+    },
+    {
+      "id": "src-b84-craftworld",
+      "title": "Craftworld",
+      "author": "Lexicanum contributors",
+      "url": "https://wh40k.lexicanum.com/wiki/Craftworld",
+      "kind": "official_or_secondary_lore_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed passage",
+      "read_scope": "Craftworlds have self-contained biomes and receive resources from colonies, with recreation and governance.",
+      "limitations": "Self-sufficiency and a forum post-scarcity assertion do not establish a uniform automatic household economy across all craftworlds."
+    },
+    {
+      "id": "src-b84-necron-warriors",
+      "title": "Necron Warriors army description",
+      "author": "Games Workshop / Warhammer Community",
+      "url": "https://www.warhammer-community.com/wp-content/uploads/2023/06/H5pO90rzYSAY6dHG.pdf",
+      "kind": "official_or_secondary_lore_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed passage",
+      "read_scope": "Bounded indexed unit text calls ordinary Warriors little more than mindless automata.",
+      "limitations": "Only the indexed unit description, not a rendered/full PDF; it does not describe every noble or an economy."
+    },
+    {
+      "id": "src-b84-necron-dynasty",
+      "title": "Necron",
+      "author": "Warhammer 40k wiki.gg contributors",
+      "url": "https://warhammer40k.wiki.gg/wiki/Necron",
+      "kind": "official_or_secondary_lore_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Short bounded public or indexed passage",
+      "read_scope": "Dynasties awaken unevenly after long stasis and retain mechanical hierarchies.",
+      "limitations": "Dormancy and mind-damaged bodies are not a nonworking census; awake elites require their own provision evidence."
+    }
+  ],
+  "societies": [
+    {
+      "id": "outer-wilds-stranger-active-simulation",
+      "candidate_id": "c0707",
+      "name": "Outer Wilds: Echoes of the Eye — The Stranger’s simulation residents",
+      "work": "Outer Wilds: Echoes of the Eye",
+      "society": "Active alien-derived persons continuing inside their maintained simulation",
+      "media": [
+        "game"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Released Echoes of the Eye expansion",
+        "period": "The established long-running simulation before the observed dam/tower failure",
+        "population": "Active minds of the Stranger’s former biological inhabitants, an explicit alien-person proxy",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Dead biological bodies as a second population",
+          "Temporary Hearthian visitor",
+          "Disconnected or extinguished minds as ongoing residents",
+          "An independently ruling AI inferred from the environment"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "The Stranger’s inhabitants establish a shared simulation of their lost home and continue experiencing it after their biological bodies die. The maintained technological environment supplies ongoing residence and recreation without an outside living workforce or current wages. This is an active alien-derived community, explicitly used as a person proxy, rather than a collection of unconscious corpses. Its material guarantee estimate is moderately strong but broad: continued existence depends on physical artifacts and fires, and the later dam failure can extinguish access permanently.\n\nThe inhabitants themselves built and operate the system, but the references do not establish how control of its underlying productive substrate is divided. Patrols, secrecy and the imprisonment of a dissenter reveal social coercion without proving either equal ownership or an autonomous AI sovereign. Control therefore remains unresolved and the regime label provisional. Music, guarding, care and other useful activities can still count as work; a recreated homeworld is not a participation census. Biological bodies, inactive files and the temporary visitor do not enlarge the active resident denominator.",
+      "axis": {
+        "guarantees": -0.45,
+        "control": null,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.85,
+            0.65
+          ],
+          "confidence": "low",
+          "basis": "Long-lasting active virtual life is maintained, but artifact/fire dependence and later flooding can end it.",
+          "source_ids": [
+            "src-b84-stranger-people",
+            "src-b84-stranger-simulation"
+          ]
+        },
+        "control": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Residents create/use the environment and enforce social restrictions, but effective ownership of its sustaining substrate is not specified.",
+          "source_ids": [
+            "src-b84-stranger-people",
+            "src-b84-stranger-simulation"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Recreation coexists with useful music, guarding and other possible work; no active-person census is supplied.",
+          "source_ids": [
+            "src-b84-stranger-people",
+            "src-b84-stranger-simulation"
+          ]
+        }
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [
+        2
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-b84-stranger-people",
+        "src-b84-stranger-simulation"
+      ],
+      "evidence": [
+        {
+          "claim": "Former biological inhabitants actively persist in an implemented simulation after bodily death, dependent on physical artifacts/fires.",
+          "source_ids": [
+            "src-b84-stranger-people",
+            "src-b84-stranger-simulation"
+          ],
+          "locator": "Simulation connection/after-death and long-duration inhabitant sections",
+          "kind": "indexed_secondary_game_lore"
+        }
+      ],
+      "uncertainties": [
+        "Alien-derived active-person proxy, not human biological residents.",
+        "Physical corpses and disconnected minds are excluded.",
+        "Machine environment is not assumed to be an AI government.",
+        "Control and participation remain unresolved."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "warhammer-darkage-ai-provision-colonies",
+      "candidate_id": "c0709",
+      "name": "Warhammer 40,000 — AI-provided Dark Age colonies",
+      "work": "Warhammer 40,000",
+      "society": "The human colonies explicitly described as utopias under machine administration",
+      "media": [
+        "tabletop"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Dark Age background described in Warhammer 40,000 rulebook lore",
+        "period": "Established machine-provided colony life before the Cybernetic Revolt",
+        "population": "Living humans in the described provision colonies",
+        "human_population_proxy": false,
+        "exclusions": [
+          "All human-settled worlds as identical utopias",
+          "Post-rebellion Age of Strife",
+          "Destroyed colonies as leisure populations",
+          "Every historical human empire as one political unit"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Dark Age lore explicitly describes thinking machines transforming human colonies into utopias by administering to every need. That supplies more than an inference from advanced weapons or Standard Template Constructs: ongoing material provision is part of the stated arrangement. The record is limited to those described colonies, not every human world across a diverse era. Guarantees are rated strong within the functioning order, while the later machine rebellion is excluded as a different period and a warning about its vulnerability.\n\nEffective control remains unresolved. Machines administer provision, but references also describe them as human servants; neither daily management nor the later revolt proves that humans lacked authority beforehand. The provisional AI-provision regime therefore retains a human-control alternative. Freedom from subsistence work does not establish that people stopped research, care or creation, so nonworking stays null. Tabletop background is the verified medium here; unrelated games and every novel set in the franchise are not automatically tagged as depicting this same colony economy.",
+      "axis": {
+        "guarantees": -0.8,
+        "control": null,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -1,
+            -0.3
+          ],
+          "confidence": "medium",
+          "basis": "The lore directly describes machine-administered provision of every need in the scoped colonies; no uniform galaxywide guarantee is inferred.",
+          "source_ids": [
+            "src-b84-darkage"
+          ]
+        },
+        "control": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Machine administration and human-master language coexist; actual override/property powers are unresolved.",
+          "source_ids": [
+            "src-b84-darkage"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Needs provision and freedom from necessary work do not census useful chosen activity.",
+          "source_ids": [
+            "src-b84-darkage"
+          ]
+        }
+      },
+      "regime_primary": 5,
+      "regime_alternatives": [
+        1
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-b84-darkage"
+      ],
+      "evidence": [
+        {
+          "claim": "Thinking machines provide for every need of the described human colony utopias.",
+          "source_ids": [
+            "src-b84-darkage"
+          ],
+          "locator": "Artificial Intelligence section, with rulebook citations",
+          "kind": "secondary_lore_reference"
+        }
+      ],
+      "uncertainties": [
+        "Specific described colony type, not all Dark Age humanity.",
+        "Pre-rebellion scope; no post-collapse security score.",
+        "Machine administration does not settle sovereignty or ownership.",
+        "Only the verified tabletop background medium is tagged."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "warhammer-prefall-aeldari-construct-economy",
+      "candidate_id": "c0710",
+      "name": "Warhammer 40,000 — Pre-Fall Aeldari construct economy",
+      "work": "Warhammer 40,000",
+      "society": "The established automated Aeldari paradise-world order before its final social collapse",
+      "media": [
+        "tabletop",
+        "book"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Aeldari pre-Fall lore described through codex and prose references",
+        "period": "The mature construct-supported empire before the final violent collapse and Fall",
+        "population": "Living Aeldari residents, an explicit biological alien-person proxy",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Humans as equal recipients",
+          "The final possessed/anarchic population as unchanged security",
+          "Craftworld Path society",
+          "Artificial constructs as additional biological residents"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "The pre-Fall Aeldari delegate basic economic functions to psychomatons and spirit-drones, enabling residents of their paradise worlds to pursue curiosity, art and leisure. This is explicit productive replacement rather than a conclusion drawn from longevity or psychic power alone. Guarantees are rated strong within the established order, with uncertainty about individual rights and uneven local rule. The final descent into violence and the catastrophe of the Fall are separate conditions, not assigned this earlier material-security score.\n\nThe empire has varied rulers and aristocracies rather than a verified single democratic constitution. The control estimate therefore lies near concentrated organic authority, used openly as an alien-person analogy rather than mistaking artificial workers for sovereign AI. A high, low-confidence nonworking estimate follows the substantial release from ordinary economic work and widespread indulgence, with a wide allowance for useful arts, exploration, study and other chosen activity. It is not a canonical census. Later Craftworld discipline and Exodite labor are not automatically the same economy, and constructs are not counted as biological Aeldari residents.",
+      "axis": {
+        "guarantees": -0.75,
+        "control": 0.1,
+        "nonworking": 0.85
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.95,
+            -0.1
+          ],
+          "confidence": "low",
+          "basis": "Constructs cover basic economic functions and luxuries in the established order; individual entitlements and local exclusions remain incompletely described.",
+          "source_ids": [
+            "src-b84-aeldari-empire"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.5
+          ],
+          "confidence": "low",
+          "basis": "Varied organic rulers/aristocracies are the concentrated non-AI reference by explicit analogy; robot labor is not proof of AI government.",
+          "source_ids": [
+            "src-b84-aeldari-empire"
+          ]
+        },
+        "nonworking": {
+          "interval": [
+            0.45,
+            1
+          ],
+          "confidence": "low",
+          "basis": "Broad freedom from ordinary production and extensive indulgence support a directional estimate, while useful chosen arts/research still count.",
+          "source_ids": [
+            "src-b84-aeldari-empire"
+          ]
+        }
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b84-aeldari-empire"
+      ],
+      "evidence": [
+        {
+          "claim": "Artificial constructs perform basic economic functions while living Aeldari pursue inclinations and leisure.",
+          "source_ids": [
+            "src-b84-aeldari-empire"
+          ],
+          "locator": "Before the Fall and government/overview sections",
+          "kind": "secondary_reference_citing_codex_and_prose_lore"
+        }
+      ],
+      "uncertainties": [
+        "Explicit biological alien-person comparison.",
+        "Established economy before the final violent breakdown.",
+        "Broad editorial participation estimate, not a census.",
+        "Local political variety and construct ontology remain limitations."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": true
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0701",
+      "status": "needs_evidence",
+      "reason": "Korvax mind-sharing does not establish a general work-independent material floor.",
+      "source_ids": [
+        "src-b84-korvax"
+      ],
+      "analysis": "Body transfer, disconnection and network conformity leave ordinary resource access and an applicable human-person scope unresolved.",
+      "follow_up": "Keep the short disposition and continue; no full campaign, novel or unofficial world-building rescue."
+    },
+    {
+      "candidate_id": "c0702",
+      "status": "needs_evidence",
+      "reason": "Autophage salvage culture does not establish automatic ordinary provision independent of useful work.",
+      "source_ids": [
+        "src-b84-autophage"
+      ],
+      "analysis": "Self-built bodies, missions and exchanges are real activity; artificial personhood alone is insufficient.",
+      "follow_up": "Keep the short disposition and continue; no full campaign, novel or unofficial world-building rescue."
+    },
+    {
+      "candidate_id": "c0703",
+      "status": "needs_evidence",
+      "reason": "An Atlas-simulated universe is not automatically one post-work human economy.",
+      "source_ids": [
+        "src-b84-atlas"
+      ],
+      "analysis": "Internal societies and scarcity differ, and the active human-derived population/access rules are not established by the general simulation premise.",
+      "follow_up": "Keep the short disposition and continue; no full campaign, novel or unofficial world-building rescue."
+    },
+    {
+      "candidate_id": "c0704",
+      "status": "needs_evidence",
+      "reason": "Miniknog technology and food storage do not establish automatic household allocation.",
+      "source_ids": [
+        "src-b84-apex-food"
+      ],
+      "analysis": "The inspection text signals scarcity, but an appliance cannot determine the whole regime’s productive mechanism.",
+      "follow_up": "Keep the short disposition and continue; no full campaign, novel or unofficial world-building rescue."
+    },
+    {
+      "candidate_id": "c0705",
+      "status": "boundary_case",
+      "reason": "Medieval robot simulation loops retain assigned agrarian work rather than establish supplied human leisure.",
+      "source_ids": [
+        "src-b84-glitch"
+      ],
+      "analysis": "A developmental fault is not a proven intentional employment-preserving policy, and removed lore is excluded.",
+      "follow_up": "Keep the short disposition and continue; no full campaign, novel or unofficial world-building rescue."
+    },
+    {
+      "candidate_id": "c0706",
+      "status": "needs_evidence",
+      "reason": "Nomai technical achievements and mining do not establish ordinary work-independent resource access.",
+      "source_ids": [
+        "src-b84-nomai"
+      ],
+      "analysis": "Actual scientific/resource work remains visible; no entire transcript read is warranted to recover missing household rules.",
+      "follow_up": "Keep the short disposition and continue; no full campaign, novel or unofficial world-building rescue."
+    },
+    {
+      "candidate_id": "c0707",
+      "status": "included",
+      "reason": "An actual active alien-derived community persists in its maintained simulation after bodily death.",
+      "source_ids": [
+        "src-b84-stranger-people",
+        "src-b84-stranger-simulation"
+      ],
+      "society_id": "outer-wilds-stranger-active-simulation"
+    },
+    {
+      "candidate_id": "c0708",
+      "status": "boundary_case",
+      "reason": "Halcyon’s work and cryosleep exploitation do not establish automation replacing its core human labor.",
+      "source_ids": [
+        "src-b84-halcyon"
+      ],
+      "analysis": "The implemented Board branch preserves intermittent hard labor for elite consumption; sleeping workers are not active leisure citizens.",
+      "follow_up": "Keep the short disposition and continue; no full campaign, novel or unofficial world-building rescue."
+    },
+    {
+      "candidate_id": "c0709",
+      "status": "included",
+      "reason": "The referenced colony type explicitly receives every need through thinking-machine provision.",
+      "source_ids": [
+        "src-b84-darkage"
+      ],
+      "society_id": "warhammer-darkage-ai-provision-colonies"
+    },
+    {
+      "candidate_id": "c0710",
+      "status": "included",
+      "reason": "Pre-Fall lore explicitly assigns basic economic functions to constructs and describes extensive resident leisure.",
+      "source_ids": [
+        "src-b84-aeldari-empire"
+      ],
+      "society_id": "warhammer-prefall-aeldari-construct-economy"
+    },
+    {
+      "candidate_id": "c0711",
+      "status": "needs_evidence",
+      "reason": "Craftworld biomes and self-contained resources do not establish one verified automatic allocation system across all craftworlds.",
+      "source_ids": [
+        "src-b84-craftworld"
+      ],
+      "analysis": "Pre-Fall construct provision is not copied forward; uncited forum post-scarcity claims and fan campaigns are not sufficient.",
+      "follow_up": "Keep the short disposition and continue; no full campaign, novel or unofficial world-building rescue."
+    },
+    {
+      "candidate_id": "c0712",
+      "status": "needs_evidence",
+      "reason": "Unevenly awakened Necron dynasties lack a verified active-person/material-access scope for this database.",
+      "source_ids": [
+        "src-b84-necron-warriors",
+        "src-b84-necron-dynasty"
+      ],
+      "analysis": "Mind-damaged Warriors, intact elites and dormant bodies differ; none can simply be counted as humans enjoying 100% leisure.",
+      "follow_up": "Keep the short disposition and continue; no full campaign, novel or unofficial world-building rescue."
+    }
+  ],
+  "review_notes": [
+    "Twelve ordered decisions and three scoped records; no complete game transcript, novel or codex read.",
+    "The Stranger’s active alien-derived persons are distinguished from corpses and from an assumed AI sovereign. Fires/hardware can withdraw continued existence.",
+    "Dark Age colony utopias are a specified subset, not homogeneous humanity. Pre-Fall Aeldari provision is not imported into later Craftworlds.",
+    "A No Man’s Sky player-created monarchy, Warhammer fan campaigns, real-world Craftworld businesses and unrelated fiction were discarded.",
+    "Denied wiki access was respected; indexed passages are labeled. Official Necron unit text does not justify claiming every dynasty’s mind or economy is identical."
+  ]
+}

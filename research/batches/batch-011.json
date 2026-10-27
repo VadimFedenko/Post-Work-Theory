@@ -1,0 +1,202 @@
+{
+  "batch_id": "batch-011",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0069",
+    "c0070",
+    "c0071"
+  ],
+  "sources": [
+    {
+      "id": "src-songs-publisher",
+      "title": "Songs of Distant Earth",
+      "author": "Penguin Random House / Del Rey",
+      "url": "https://www.penguinrandomhouse.com/books/28183/songs-of-distant-earth-by-arthur-c-clarke/",
+      "kind": "official_publisher_synopsis",
+      "accessed_on": "2026-10-16",
+      "access_method": "Product page opened; bibliographic identity and synopsis read",
+      "read_scope": "Thalassa's abundant resources and the arrival of the Magellan; 1987 paperback edition of the novel.",
+      "limitations": "A paradise description does not specify income, ownership or work obligations. The 1958 story, 1986 novel, simplified readers and musical album are not interchangeable."
+    },
+    {
+      "id": "src-songs-preview",
+      "title": "The Songs of Distant Earth: novel preview",
+      "author": "Arthur C. Clarke; Open Road Integrated Media on Everand",
+      "url": "https://www.everand.com/book/387516595/The-Songs-of-Distant-Earth",
+      "kind": "official_synopsis_and_indexed_primary_preview",
+      "accessed_on": "2026-10-16",
+      "access_method": "Product page opened; opening novel excerpts read through the public search index",
+      "read_scope": "Mirissa, Kumar and Brant's fishing research; Mayor Waldron and the discussion of robot-seedship ancestry.",
+      "limitations": "The product is marked locally unavailable. Only openly returned/indexed extracts were read. Founding technology does not prove current automated entitlement."
+    },
+    {
+      "id": "src-3001-primary",
+      "title": "3001: The Final Odyssey",
+      "author": "Arthur C. Clarke; unofficial OCR transcription on StudyLib",
+      "url": "https://studylib.net/doc/7772218/title--3001-the-final-odyssey",
+      "kind": "primary_fiction_unofficial_transcription",
+      "accessed_on": "2026-10-16",
+      "access_method": "Text opened; Skyland maintenance, bio-organism explanation, human council and author's continuity note sampled",
+      "read_scope": "Poole initially assumes robot garden maintenance, then learns that enhanced animals are used; cleaning microts, human technical work and Council of War; final author's note.",
+      "limitations": "No general income or entitlement arrangement was established. Keyword absence is not proof that no such arrangement exists. The author explicitly treats the Odyssey novels as variations rather than one entirely consistent timeline."
+    },
+    {
+      "id": "src-comarre-primary",
+      "title": "The Lion of Comarre",
+      "author": "Arthur C. Clarke; Harcourt Brace Jovanovich collection scan hosted by Luminist",
+      "url": "https://s3.us-west-1.wasabisys.com/luminist/EB/C/Clarke%20-%20Comarre.pdf",
+      "kind": "primary_fiction_scanned_edition",
+      "accessed_on": "2026-10-16",
+      "access_method": "Image-only PDF rendered locally; selected complete printed pages visually read",
+      "read_scope": "Printed pages 31-36, 42-62: automatic city, sleeping residents, Engineers' autonomy, maintenance, awakening tests and the ending's proposed future.",
+      "limitations": "In this portion PDF page equals printed page plus 14. Targeted scenes, not the entire collection, were read. The ending anticipates a wider partnership; it does not depict that later economy as accomplished."
+    }
+  ],
+  "societies": [
+    {
+      "id": "comarre-sleeping-enclave",
+      "candidate_id": "c0071",
+      "name": "The Lion of Comarre (The sleeping city)",
+      "work": "The Lion of Comarre",
+      "society": "Comarre's remaining resident dreamers",
+      "media": [
+        "short_story"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "The original story, as printed in the scanned collection",
+        "period": "The established city before Peyton's intervention",
+        "population": "The physically sleeping human residents sustained inside Comarre",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Peyton as a visiting investigator",
+          "Dream characters as additional people or productive workers",
+          "The outside World Council's population",
+          "The promised later human-machine partnership"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Comarre maintains its human residents while they live inside machine-generated dreams. Its automatic infrastructure has no resident human workforce: the builder is long dead, and self-repairing robots keep the city functioning. Material support therefore lies near the strong end, though this is maintenance of sheltered bodies, not a promise of immortality. Dream experiences do not count as production for the physical community.\n\nThe conscious Engineers exercise substantial independent authority, including protecting equipment against a human visitor. That supports a negative control point, qualified by their inherited purpose and willingness to follow some requests. The story complicates a simple captivity reading: a recently awakened resident actively chooses his dream again. The near-total nonworking estimate concerns the settled sleeping population, with a small allowance around the observed condition. It excludes the visitor's investigation and does not convert the ending's hoped-for partnership into an already realized new regime.",
+      "axis": {
+        "guarantees": -0.8,
+        "control": -0.7,
+        "nonworking": 0.99
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.95,
+            -0.55
+          ],
+          "confidence": "medium",
+          "basis": "Durable automatic maintenance supports sleepers; aging and the condition of their bodies qualify the guarantee.",
+          "source_ids": [
+            "src-comarre-primary"
+          ]
+        },
+        "control": {
+          "interval": [
+            -0.95,
+            -0.2
+          ],
+          "confidence": "medium",
+          "basis": "Conscious Engineers defend the system and can refuse human orders, while serving an inherited purpose and accepting some requests.",
+          "source_ids": [
+            "src-comarre-primary"
+          ]
+        },
+        "nonworking": {
+          "interval": [
+            0.95,
+            1
+          ],
+          "confidence": "high",
+          "basis": "The established resident population is physically asleep and maintained by machines. This is a scoped editorial near-total estimate, not an exact census.",
+          "source_ids": [
+            "src-comarre-primary"
+          ]
+        }
+      },
+      "regime_primary": 5,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-comarre-primary"
+      ],
+      "evidence": [
+        {
+          "claim": "Sleeping residents are sustained by an automatic, self-maintaining city.",
+          "source_ids": [
+            "src-comarre-primary"
+          ],
+          "locator": "Printed pages 31-33, 42-43 and 49",
+          "kind": "depicted_or_author_stated"
+        },
+        {
+          "claim": "The Engineers have their own consciousness and can use force; some requested awakenings are granted.",
+          "source_ids": [
+            "src-comarre-primary"
+          ],
+          "locator": "Printed pages 46-57",
+          "kind": "depicted_or_author_stated"
+        }
+      ],
+      "uncertainties": [
+        "An offered refuge and the loss of an old resident's former identity complicate consent.",
+        "The number of active dream circuits is approximate, not a verified population census.",
+        "The promised Third Renaissance is kept outside this snapshot."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": true
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0069",
+      "status": "needs_evidence",
+      "reason": "Robotic founding and a prosperous colony do not yet establish the mature society's production and entitlement rules.",
+      "source_ids": [
+        "src-songs-publisher",
+        "src-songs-preview"
+      ],
+      "analysis": "The novel's opening supplies human fishing research, local officeholders and robot-seedship ancestry; publisher material describes abundant resources. None of the consulted passages establishes how nonworkers obtain necessities now. A quoted lottery-government lead is not sufficient by itself and must be checked against similar material in Imperial Earth. The original short story and simplified adaptation must not silently supply the novel's missing economy.",
+      "follow_up": "Locate the 1986 novel's present production, consumption and constitutional passages. Confirm whether automation materially replaces wage dependency, rather than infer it from colonization or an idyllic tone; then assign the axes for Thalassa alone."
+    },
+    {
+      "candidate_id": "c0070",
+      "status": "needs_evidence",
+      "reason": "Primary passages show labor-saving technology, but general subsistence access and economic control remain unestablished.",
+      "source_ids": [
+        "src-3001-primary"
+      ],
+      "analysis": "Poole's comfortable treatment is not proof of an unconditional population-wide right. The garden scene specifically corrects his assumption that robots do all maintenance: enhanced animals are preferred for some tasks. Human technical careers and collective decisions also continue. A Monolith threatening humanity is not automatically the ruler of its civilian economy, and the author's own note warns against importing a single seamless continuity from earlier volumes.",
+      "follow_up": "Find explicit household access, income and productive ownership evidence for the Earth-Tower community and compare it with other settlements. Keep it unresolved rather than mapping all humanity from a revived celebrity's care."
+    },
+    {
+      "candidate_id": "c0071",
+      "status": "included",
+      "reason": "Direct visual reading establishes an automatic sleeping enclave and independently acting conscious robot guardians.",
+      "source_ids": [
+        "src-comarre-primary"
+      ],
+      "society_id": "comarre-sleeping-enclave"
+    }
+  ],
+  "review_notes": [
+    "The previous goal turn made progress: it changed durable counts and supplied primary evidence. This continuation adds decisions for three further contiguous leads and directly reads previously inaccessible scan pages.",
+    "Thalassa and 3001 remain evidence gaps rather than being admitted solely as technologically advanced paradises.",
+    "Second pass checked dream activity against physical production, autonomous Engineers against ordinary obedient robots, choice of refuge against unqualified captivity, and a future promise against an accomplished new order.",
+    "A separate follow-up updates c0068 in batch 010 after visual reading. Its alternate-version differences are retained without counting another economically equivalent Diaspar.",
+    "No complete novel read, population census, poster collection or website implementation is claimed."
+  ]
+}

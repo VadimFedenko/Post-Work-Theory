@@ -1,0 +1,706 @@
+{
+  "batch_id": "batch-094",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0821",
+    "c0822",
+    "c0823",
+    "c0824",
+    "c0825",
+    "c0826",
+    "c0827",
+    "c0828",
+    "c0829",
+    "c0830",
+    "c0831",
+    "c0832"
+  ],
+  "sources": [
+    {
+      "id": "src-b94-harvest",
+      "title": "Harvest of Stars",
+      "author": "Kirkus Reviews",
+      "url": "https://www.kirkusreviews.com/book-reviews/poul-anderson/harvest-of-stars/",
+      "kind": "secondary_review",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Avantist dictatorship, corporate opposition and copied human personalities drive the conflict.",
+      "limitations": "Political control and uploads do not establish ordinary automatic material access."
+    },
+    {
+      "id": "src-b94-boat",
+      "title": "The Boat of a Million Years",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/The_Boat_of_a_Million_Years",
+      "kind": "secondary_plot_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Later immortals lose old occupations and obtain a ship for exploration.",
+      "limitations": "The reference does not establish the whole future Earth’s support floor; an expedition’s existence does not prove every planned provision detail."
+    },
+    {
+      "id": "src-b94-boat-passage",
+      "title": "The Boat of a Million Years, expedition permission passage",
+      "author": "Poul Anderson text indexed at Exosomatic",
+      "url": "https://exosomatic.net/ENTER/Fict-Bio/Anderson%2C%20Poul/Anderson%2C%20Poul%20-%20Harvest%200%20-%20The%20Boat%20of%20a%20Million%20Years.pdf",
+      "kind": "indexed_primary_passage",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "The eight Survivors are promised a robot complement and materials for a near-light expedition.",
+      "limitations": "A bounded indexed permission passage only; no PDF retrieval or complete novel read, and planned equipment is not universal Earth entitlement."
+    },
+    {
+      "id": "src-b94-dancers",
+      "title": "The Dancers at the End of Time",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/The_Dancers_at_the_End_of_Time",
+      "kind": "secondary_series_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Personal power rings alter matter using ancient stored energy; Loss of the Cities later disables them.",
+      "limitations": "Established ring provision is separated from the terminal depletion and story-specific time-loop solution."
+    },
+    {
+      "id": "src-b94-mockingbird",
+      "title": "Mockingbird (Tevis novel)",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Mockingbird_(Tevis_novel)",
+      "kind": "secondary_plot_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Robots administer life and care while human institutions decay; Spofforth contains edited human memories.",
+      "limitations": "Copied human memories complicate a simple external-AI sovereignty classification; exact child demographics are not adopted."
+    },
+    {
+      "id": "src-b94-mockingbird-material",
+      "title": "Mockingbird edition description and plot commentary",
+      "author": "Mostly Dystopian Books editorial description",
+      "url": "https://www.mostlydystopianbooks.com/pages/books/11129/walter-tevis/mockingbird",
+      "kind": "bookseller_secondary_commentary",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Food/clothing are dispensed automatically and robot maintenance supports the declining city.",
+      "limitations": "Bookseller commentary, not primary confirmation; exact population/children claims are not adopted where summaries differ."
+    },
+    {
+      "id": "src-b94-urbmon",
+      "title": "The World Inside",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/The_World_Inside",
+      "kind": "secondary_plot_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Urban monads depend on external farmers trading produce for technology under separate population rules.",
+      "limitations": "High-rise abundance is not independent of real human agricultural labor."
+    },
+    {
+      "id": "src-b94-tower",
+      "title": "Tower of Glass robot-literature summary",
+      "author": "University of Michigan course-site contributor",
+      "url": "https://public.websites.umich.edu/~engb415/literature/cyberzach/RobotNovels.html",
+      "kind": "secondary_teaching_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Created android laborers build and seek freedom in an underpopulated world.",
+      "limitations": "Artificial/biological workers’ real useful labor and rights are not evidence of general human work-independent provision."
+    },
+    {
+      "id": "src-b94-skin",
+      "title": "Emergency Skin",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Emergency_Skin",
+      "kind": "secondary_story_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Restored Earth shares resources, while Founders monopolize skin/life extension and use an implanted collective AI.",
+      "limitations": "Biotechnology, solidarity and elite exclusion do not alone establish routine automated production in either society."
+    },
+    {
+      "id": "src-b94-spacer-author",
+      "title": "Kim Stanley Robinson interview: spacer economics",
+      "author": "Kim Stanley Robinson interviewed by Far Beyond Reality",
+      "url": "https://farbeyondreality.com/2012/05/31/author-interview-kim-stanley-robinson/",
+      "kind": "author_interview",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "The author models 2312 spacer necessities on nonmonetary as-needed provision, with markets for extras and shared economic ownership.",
+      "limitations": "A mixed economy, not every space settlement or Earth district as an identical commune."
+    },
+    {
+      "id": "src-b94-spacer",
+      "title": "2312",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/2312_(novel)",
+      "kind": "secondary_setting_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Quantum computers coordinate a Mondragon-influenced planned economy alongside artificial habitats and terrariums.",
+      "limitations": "Economic coordination is not proof of sovereign machine rule or of all productive labor disappearing."
+    },
+    {
+      "id": "src-b94-marooned",
+      "title": "Marooned in Realtime",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Marooned_in_Realtime",
+      "kind": "secondary_plot_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Advanced survivors have personal automata and medical gear; bobble exclusion can kill.",
+      "limitations": "Personal technology and stasis do not establish the earlier society’s ordinary allocation system."
+    },
+    {
+      "id": "src-b94-rainbows",
+      "title": "Imagining a future without dementia: fictions of regeneration and the crises of work and sustainability",
+      "author": "Humanities and Social Sciences Communications authors",
+      "url": "https://www.nature.com/articles/s41599-017-0051-y",
+      "kind": "scholarly_critical_context",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Vinge’s rejuvenation future raises problems of work and re-entering economic life.",
+      "limitations": "Only the accessible indexed critical context; rejuvenation is not automatically an unconditional material floor."
+    },
+    {
+      "id": "src-b94-psalm",
+      "title": "A Psalm for the Wild-Built",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/A_Psalm_for_the_Wild-Built",
+      "kind": "secondary_plot_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Robots leave former industrial labor; later humans combine farming, local communities and selected technology.",
+      "limitations": "Robot emancipation does not by itself prove the entire society rejects all automation."
+    },
+    {
+      "id": "src-b94-panga",
+      "title": "Feeling Solarpunk: On Becky Chambers’s Monk and Robot Series",
+      "author": "Kurt David, Los Angeles Review of Books",
+      "url": "https://lareviewofbooks.org/article/feeling-solarpunk-on-becky-chamberss-monk-and-robot-series",
+      "kind": "secondary_critical_review",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Pangan basics are generally accessible; a specific back-to-the-land community in the sequel deliberately eschews automation.",
+      "limitations": "The zero record is that specific community, not all Panga. Its local material transfers and ownership are not specified."
+    }
+  ],
+  "societies": [
+    {
+      "id": "dancers-endtime-ring-provision",
+      "candidate_id": "c0823",
+      "name": "The Dancers at the End of Time — Ring-supported humanity",
+      "work": "The Dancers at the End of Time",
+      "society": "The established matter-altering ring society",
+      "media": [
+        "book",
+        "short_story"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "End of Time series setting, before terminal ring failure",
+        "period": "The continuing ring-supported era before the Lost Cities’ energy depletion",
+        "population": "Living human and human-derived End of Time residents",
+        "human_population_proxy": true,
+        "exclusions": [
+          "The final ring failure as unchanged provision",
+          "Any magical-looking action as unsupported nontechnical fantasy",
+          "Dead or vanished people as leisure beneficiaries"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "End of Time residents use personal power rings to reshape matter and create their surroundings from ancient stored energy. The supporting Lost Cities make this a technological inheritance rather than an unexplained ability to conjure necessities. Within the functioning system, residents can obtain material conditions through their rings instead of ordinary subsistence employment. Guarantees are rated strong, with the later exhaustion demonstrating a real limit to that apparent abundance.\n\nPractical productive access is widely dispersed among ring users, supporting a distributed human-control estimate. The gathered account does not establish equal control over every part of the ancient energy infrastructure, so the interval remains broad. Appearance, immortality and fantastic scale do not make the users external AI. Their culture is heavily recreational, but constructing experiences, creating art, teaching and caring can all be useful work. Nonworking therefore remains unresolved. The point covers the established supported era rather than the catastrophe or its special time-travel resolution, and does not multiply every time-displaced appearance into a new person.",
+      "axis": {
+        "guarantees": -0.75,
+        "control": 0.75,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -1,
+            -0.15
+          ],
+          "confidence": "low",
+          "basis": "Personal rings alter matter using actual inherited energy infrastructure; their later failure marks a distinct limit rather than absence of earlier support.",
+          "source_ids": [
+            "src-b94-dancers"
+          ]
+        },
+        "control": {
+          "interval": [
+            0.3,
+            1
+          ],
+          "confidence": "low",
+          "basis": "Widely distributed personal productive access supports human control, while ownership of the underlying Lost Cities remains uncertain.",
+          "source_ids": [
+            "src-b94-dancers"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "No all-person useful-work census; chosen art, care, research, maintenance and other productive activities still count.",
+          "source_ids": [
+            "src-b94-dancers"
+          ]
+        }
+      },
+      "regime_primary": 2,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b94-dancers"
+      ],
+      "evidence": [
+        {
+          "claim": "Personal rings alter matter using actual inherited energy infrastructure; their later failure marks a distinct limit rather than absence of earlier support.",
+          "source_ids": [
+            "src-b94-dancers"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "Widely distributed personal productive access supports human control, while ownership of the underlying Lost Cities remains uncertain.",
+        "No all-person useful-work census; chosen art, care, research, maintenance and other productive activities still count."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "mockingbird-robot-maintained-humans",
+      "candidate_id": "c0824",
+      "name": "Mockingbird — Robot-maintained New York",
+      "work": "Mockingbird",
+      "society": "The declining human city supported by automatic services",
+      "media": [
+        "book"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Walter Tevis’s novel-specific future",
+        "period": "Established mechanical support before the protagonists’ later social changes",
+        "population": "Living human New York residents under the robot service system",
+        "human_population_proxy": false,
+        "exclusions": [
+          "A uniform verified child census",
+          "Decline and death as 100 percent leisure",
+          "Spofforth’s copied human memories as unambiguously external AI"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Automatic stores dispense food and clothing, while robots maintain the routines on which the remaining population depends. This is actual continuing material support amid institutional decline. Guarantees receive a cautiously favorable estimate because ordinary provision persists, while malfunction, isolation and reproductive damage undermine security. The estimate does not confuse pleasant sedation with the satisfaction of every human need.\n\nEffective control remains unresolved. Robotic administration is clear, but the most important surviving controller, Spofforth, contains edited human memories; the exact relation between that human-derived personality, other machines and inherited rules is not reduced to a simple external-AI coordinate. The AI-provision regime remains provisional. Much ordinary service work is delegated, yet teaching, reading, care and creative activity remain useful human work. No all-person census follows from drug use or a shrinking population, so nonworking stays null. Conflicting exact demographic details in short summaries are excluded, and dead people are never counted as liberated nonworkers.",
+      "axis": {
+        "guarantees": -0.45,
+        "control": null,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.85,
+            0.55
+          ],
+          "confidence": "low",
+          "basis": "The identified automatic stores and robot maintenance provide ongoing food/clothing/support, with institutional decay and malfunction qualifying its security.",
+          "source_ids": [
+            "src-b94-mockingbird",
+            "src-b94-mockingbird-material"
+          ]
+        },
+        "control": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Robot administration and Spofforth’s edited human-memory origin leave ultimate human-versus-external-AI control unresolved.",
+          "source_ids": [
+            "src-b94-mockingbird",
+            "src-b94-mockingbird-material"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "No all-person useful-work census; chosen art, care, research, maintenance and other productive activities still count.",
+          "source_ids": [
+            "src-b94-mockingbird",
+            "src-b94-mockingbird-material"
+          ]
+        }
+      },
+      "regime_primary": 5,
+      "regime_alternatives": [
+        1
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-b94-mockingbird",
+        "src-b94-mockingbird-material"
+      ],
+      "evidence": [
+        {
+          "claim": "The identified automatic stores and robot maintenance provide ongoing food/clothing/support, with institutional decay and malfunction qualifying its security.",
+          "source_ids": [
+            "src-b94-mockingbird",
+            "src-b94-mockingbird-material"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "Robot administration and Spofforth’s edited human-memory origin leave ultimate human-versus-external-AI control unresolved.",
+        "No all-person useful-work census; chosen art, care, research, maintenance and other productive activities still count."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "2312-spacer-needs-economy",
+      "candidate_id": "c0829",
+      "name": "2312 — The spacer necessities economy",
+      "work": "2312",
+      "society": "Cooperative space settlements with quantum-assisted planning",
+      "media": [
+        "book"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Kim Stanley Robinson’s 2312 spacer economic model",
+        "period": "Established space-settlement economy outside the Terminator attack emergency",
+        "population": "Living human spacer residents of the described cooperative network",
+        "human_population_proxy": false,
+        "exclusions": [
+          "All Earth markets as identical",
+          "Every terrarium as autonomous AI sovereign property",
+          "The author’s real Mondragon or Antarctica examples as literal fictional locations"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "The spacer economy supplies necessities on an as-needed, nonmonetary basis while retaining smaller markets for extras. The author explicitly connects this fictional arrangement to shared economic ownership and durable settlement institutions. Quantum computers coordinate the planned economy and its technological habitat network, materially supporting distribution beyond individual wage purchases. Guarantees are strong for the described network, with local differences and frontier conditions left as qualifications.\n\nControl is placed toward shared human ownership because workers and citizens collectively hold the economic system. Computer planning is administration here, not sufficient evidence of autonomous AI sovereignty. The estimate remains broad because the network mixes institutions and the exact powers of planners and local bodies vary. This is not a claim that production requires no people: habitat work, farming, care, transport, research and art remain useful. No all-person participation rate can be derived from free necessities or cooperative organization, so nonworking stays unresolved. Earth’s remaining market economies and specific attack emergencies are outside the scoped baseline.",
+      "axis": {
+        "guarantees": -0.75,
+        "control": 0.7,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.95,
+            -0.2
+          ],
+          "confidence": "low",
+          "basis": "The author explicitly specifies as-needed nonmonetary necessities; quantum-assisted economic coordination and technological habitats support the distribution model.",
+          "source_ids": [
+            "src-b94-spacer-author",
+            "src-b94-spacer"
+          ]
+        },
+        "control": {
+          "interval": [
+            0.35,
+            1
+          ],
+          "confidence": "low",
+          "basis": "The author describes shared worker/citizen ownership; computer planning is not automatically independent machine sovereignty.",
+          "source_ids": [
+            "src-b94-spacer-author",
+            "src-b94-spacer"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "No all-person useful-work census; chosen art, care, research, maintenance and other productive activities still count.",
+          "source_ids": [
+            "src-b94-spacer-author",
+            "src-b94-spacer"
+          ]
+        }
+      },
+      "regime_primary": 2,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b94-spacer-author",
+        "src-b94-spacer"
+      ],
+      "evidence": [
+        {
+          "claim": "The author explicitly specifies as-needed nonmonetary necessities; quantum-assisted economic coordination and technological habitats support the distribution model.",
+          "source_ids": [
+            "src-b94-spacer-author",
+            "src-b94-spacer"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "The author describes shared worker/citizen ownership; computer planning is not automatically independent machine sovereignty.",
+        "No all-person useful-work census; chosen art, care, research, maintenance and other productive activities still count."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "monk-robot-backland-automation-refusal",
+      "candidate_id": "c0832",
+      "name": "Monk & Robot — Panga’s anti-automation community",
+      "work": "A Psalm for the Wild-Built / A Prayer for the Crown-Shy",
+      "society": "The specific back-to-the-land community described during the sequel journey",
+      "media": [
+        "book"
+      ],
+      "record_type": "zero_variant",
+      "scope": {
+        "continuity": "Monk & Robot duology; the specific community appears in A Prayer for the Crown-Shy",
+        "period": "The established community encountered during Dex and Mosscap’s tea-service route",
+        "population": "Living human members of the explicitly automation-eschewing community",
+        "human_population_proxy": false,
+        "exclusions": [
+          "All Panga as rejecting automation",
+          "The free robot population as forced human workers",
+          "General Pangan basics as a verified local transfer charter",
+          "Respect for robots as a proven job-protection motive"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "One Pangan community deliberately rejects automation because it fears a return to the Factory Age. This is a specific technological choice within a wider society that has experienced robot industry and retains access to advanced alternatives. The community is included as an interpretive zero variant based on ecological and social restraint, not as evidence that all Panga protects employment or abandons technology. Human productive activity remains part of its chosen way of life.\n\nThe short critical account does not specify local productive ownership, decision procedures or how this community obtains every necessity, so guarantees and control remain unresolved. The broader duology’s accessible basics cannot simply be copied into a precise local entitlement or transfer rule. Robots’ decision to leave industrial service also does not turn them into human-owned automation waiting to be reclaimed. Nonworking remains null because philosophical permission to exist without proving usefulness is not an activity census. The source identifies this community in the sequel; the original discovery title is transparently broadened to the duology rather than claiming the scene occurs in the first novella.",
+      "axis": {
+        "guarantees": null,
+        "control": null,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "The critical review explicitly identifies a community that eschews automation to avoid the Factory Age despite known technological alternatives.",
+          "source_ids": [
+            "src-b94-panga",
+            "src-b94-psalm"
+          ]
+        },
+        "control": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "The community’s own productive ownership and governance are not specified; a distributed-human analogy remains provisional.",
+          "source_ids": [
+            "src-b94-panga",
+            "src-b94-psalm"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "No all-person useful-work census; chosen art, care, research, maintenance and other productive activities still count.",
+          "source_ids": [
+            "src-b94-panga",
+            "src-b94-psalm"
+          ]
+        }
+      },
+      "regime_primary": 0,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b94-panga",
+        "src-b94-psalm"
+      ],
+      "evidence": [
+        {
+          "claim": "The critical review explicitly identifies a community that eschews automation to avoid the Factory Age despite known technological alternatives.",
+          "source_ids": [
+            "src-b94-panga",
+            "src-b94-psalm"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "The community’s own productive ownership and governance are not specified; a distributed-human analogy remains provisional.",
+        "No all-person useful-work census; chosen art, care, research, maintenance and other productive activities still count."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      },
+      "regime_analogy": [
+        2
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0821",
+      "status": "needs_evidence",
+      "reason": "Avantist dictatorship and uploaded opposition do not establish ordinary automatic material access.",
+      "source_ids": [
+        "src-b94-harvest"
+      ],
+      "analysis": "A copied executive or later transcendence cannot supply the missing household mechanism.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0822",
+      "status": "needs_evidence",
+      "reason": "The later Earth’s ordinary work-independent provision remains unclear after the short checks.",
+      "source_ids": [
+        "src-b94-boat"
+      ],
+      "analysis": "The indexed robot-equipped expedition permission is a narrow proposed arrangement, not proof of a universal Earth floor; no full novel rescue.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0823",
+      "status": "included",
+      "reason": "The scoped reference establishes technological provision or a specific deliberate automation refusal.",
+      "source_ids": [
+        "src-b94-dancers"
+      ],
+      "society_id": "dancers-endtime-ring-provision"
+    },
+    {
+      "candidate_id": "c0824",
+      "status": "included",
+      "reason": "The scoped reference establishes technological provision or a specific deliberate automation refusal.",
+      "source_ids": [
+        "src-b94-mockingbird",
+        "src-b94-mockingbird-material"
+      ],
+      "society_id": "mockingbird-robot-maintained-humans"
+    },
+    {
+      "candidate_id": "c0825",
+      "status": "needs_evidence",
+      "reason": "Urban Monad provisioning depends on actual external farm production without a clear automatic replacement.",
+      "source_ids": [
+        "src-b94-urbmon"
+      ],
+      "analysis": "Huge buildings and plentiful output are not proof that human subsistence labor has ceased or stopped allocating goods.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0826",
+      "status": "needs_evidence",
+      "reason": "Created android labor and elite construction do not establish work-independent ordinary human access.",
+      "source_ids": [
+        "src-b94-tower"
+      ],
+      "analysis": "Artificial persons’ productive labor and emancipation remain visible; no automatic household floor is inferred from the tower.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0827",
+      "status": "needs_evidence",
+      "reason": "Restored Earth’s resource sharing lacks a sufficiently specific automatic productive mechanism in the short reference.",
+      "source_ids": [
+        "src-b94-skin"
+      ],
+      "analysis": "An inclusive commons and advanced medicine are clear; solidarity alone is not automation.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0828",
+      "status": "needs_evidence",
+      "reason": "The Founders’ technological exclusion lacks a clear general productive mechanism for the selected enclave.",
+      "source_ids": [
+        "src-b94-skin"
+      ],
+      "analysis": "Skin, immortality and an implanted collective do not alone establish robot provision or a deliberately employment-preserving machine restriction.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0829",
+      "status": "included",
+      "reason": "The scoped reference establishes technological provision or a specific deliberate automation refusal.",
+      "source_ids": [
+        "src-b94-spacer-author",
+        "src-b94-spacer"
+      ],
+      "society_id": "2312-spacer-needs-economy"
+    },
+    {
+      "candidate_id": "c0830",
+      "status": "needs_evidence",
+      "reason": "Advanced personal automata and medicine do not establish the earlier society’s ordinary resource-access rules.",
+      "source_ids": [
+        "src-b94-marooned"
+      ],
+      "analysis": "Hibernation is not leisure, and the later surviving expedition is not the same population as pre-Singularity humanity.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0831",
+      "status": "needs_evidence",
+      "reason": "Rejuvenation and ubiquitous interfaces do not establish a durable work-independent material floor.",
+      "source_ids": [
+        "src-b94-rainbows"
+      ],
+      "analysis": "The accessible critical context instead preserves questions about re-entering working life; no formal income statistics are invented.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0832",
+      "status": "zero_variant",
+      "reason": "The scoped reference establishes technological provision or a specific deliberate automation refusal.",
+      "source_ids": [
+        "src-b94-panga",
+        "src-b94-psalm"
+      ],
+      "society_id": "monk-robot-backland-automation-refusal"
+    }
+  ],
+  "review_notes": [
+    "Twelve sequential short checks, four records including one narrowly scoped interpretive zero variant.",
+    "The Dancers’ rings draw on actual stored-energy infrastructure; terminal depletion is a different period. Creative production is not presumed nonwork.",
+    "Mockingbird has automatic food/clothing but mixed human-memory controller origins; exact conflicting child-demographic claims are not adopted.",
+    "2312 explicitly combines non-wage necessities and shared economic ownership with machine-assisted planning; actual human production remains visible.",
+    "The Panga zero record is a specific sequel community, not the whole post-robot moon. The first-book discovery title is corrected transparently to the duology.",
+    "Emergency Skin’s commons and biotech exclusion do not automatically prove machine production. No obscure novel or full PDF was read to rescue unclear mechanisms.",
+    "Harvest of Stars radio broadcasts, Rainbow street addresses, welding specifications and unrelated technical automation papers were discarded."
+  ]
+}

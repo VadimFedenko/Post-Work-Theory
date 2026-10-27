@@ -1,0 +1,32 @@
+{
+  "assessed_on": "2026-10-21",
+  "records": 890,
+  "scale": {
+    "minimum": -1,
+    "midpoint": 0,
+    "maximum": 1,
+    "direction": "negative=dystopian; positive=utopian",
+    "step": 0.05
+  },
+  "bands": {
+    "strongly_utopian": 67,
+    "dystopian_leaning": 128,
+    "strongly_dystopian": 326,
+    "mixed_or_unclear": 246,
+    "utopian_leaning": 123
+  },
+  "zero_scores": 37,
+  "range": [
+    -0.95,
+    0.9
+  ],
+  "reviewed_research_and_assets_match_active_index": true,
+  "active_review_index": "research/utopia/review-index-v2.json",
+  "complete_overlay_and_valid_sources": true,
+  "missing_and_stale_input_guards_tested": true,
+  "supplemental_sources": 2,
+  "limitations": [
+    "Subjective low-confidence judgments from the saved research, not canonical statistics.",
+    "Mixed and underdescribed conditions both use central values; the basis distinguishes them."
+  ]
+}

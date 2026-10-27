@@ -1,0 +1,993 @@
+{
+  "batch_id": "batch-100",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0885",
+    "c0886",
+    "c0887",
+    "c0888",
+    "c0889",
+    "c0890",
+    "c0891",
+    "c0892",
+    "c0893",
+    "c0894",
+    "c0895",
+    "c0896"
+  ],
+  "sources": [
+    {
+      "id": "src-b100-mpa",
+      "title": "Mutual Progress Association",
+      "author": "Orion’s Arm Universe Project contributors",
+      "url": "https://www.orionsarm.com/eg-topic/45cd3240ea58a",
+      "kind": "official_worldbuilding",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Large productive habitat/energy industries, leases, local institutional diversity and high AI guidance distinguish this engineering-centered economy.",
+      "limitations": "Industrial scale is used with the explicit common Sephirotic basics model; not every local construction worker is unnecessary."
+    },
+    {
+      "id": "src-b100-mpa-crisis",
+      "title": "The Uservere Affair",
+      "author": "Anders Sandberg, Orion’s Arm",
+      "url": "https://www.orionsarm.com/eg-article/4b9ccf290b274",
+      "kind": "official_worldbuilding",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "An actual MPA service-allocation crisis requires mainbrain intervention and yields new oversight of transcension buyouts.",
+      "limitations": "A historical crisis is not the current ordinary floor or a canonical work participation statistic."
+    },
+    {
+      "id": "src-b100-fomac",
+      "title": "Fomalhaut Acquisition Society",
+      "author": "M. Alan Kazlev, Orion’s Arm",
+      "url": "https://www.orionsarm.com/eg-topic/45cbd30e46c61",
+      "kind": "official_worldbuilding",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Collector-AI origins, curator-controlled provider hierarchy, family firms and megacorps coexist with varied local voting rights.",
+      "limitations": "Commercial collections are not every resident’s income obligation; general basic provision comes from the shared Sephirotic economic context."
+    },
+    {
+      "id": "src-b100-redstar",
+      "title": "Red Star ‘M’pire",
+      "author": "Orion’s Arm Universe Project contributors",
+      "url": "https://www.orionsarm.com/eg-topic/6361af5b78bac",
+      "kind": "official_worldbuilding",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Human-derived lums use home nanofabs and communal feedstock; AI Farview integrates habitat and biological substrate into its mind.",
+      "limitations": "Farview’s actual AI origin is explicit. Active human-derived inhabitants perform useful conscious and substrate computation; no claim that all are idle."
+    },
+    {
+      "id": "src-b100-covenant",
+      "title": "Deeper Covenant",
+      "author": "Orion’s Arm Universe Project contributors",
+      "url": "https://www.orionsarm.com/eg-topic/45cfcc88d9410",
+      "kind": "official_worldbuilding",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Universal post-scarcity basics, distributed cyberdemocracy and explicitly advisory higher minds; Deeper culture remains hardworking.",
+      "limitations": "Local institutions vary and advisory status does not prove equal ownership in each locality."
+    },
+    {
+      "id": "src-b100-cableville",
+      "title": "Cableville",
+      "author": "Orion’s Arm Universe Project contributors",
+      "url": "https://www.orionsarm.com/eg-article/48ac37b0e82ba",
+      "kind": "official_worldbuilding",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Wandering Hermits carry personal nanofactories and later mobile homes; Tuckerites combine market handcraft and nanofacture.",
+      "limitations": "Distinguishes personal self-provision from the retained Social Webs. Major infrastructure remains higher-mind administered; market membership alone does not establish Tuckerite necessities access."
+    },
+    {
+      "id": "src-b100-warehouse",
+      "title": "The Warehouse — review",
+      "author": "Books Let Us Escape reviewer, individual name not checked",
+      "url": "https://booksletusescape.wordpress.com/2023/05/11/the-warehouse-by-rob-hart/",
+      "kind": "secondary_review",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Cloud’s CEO refuses automation of pickers’ jobs; worker housing, tracking, performance quotas and dismissal determine access.",
+      "limitations": "Labeled reviewer account, not author confirmation; employment preservation is narrow and does not establish economy-wide full-automation capability."
+    },
+    {
+      "id": "src-b100-warehouse-corroboration",
+      "title": "The Warehouse — review",
+      "author": "Rebel Voice reviewer",
+      "url": "https://rebelvoice.blog/2019/09/28/the-warehouse-apocalyptic-thriller-by-rob-hart/",
+      "kind": "secondary_review",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Explicitly says Gibson neglects large-scale automation because he values a human touch, within an employer-controlled town economy.",
+      "limitations": "Politically committed criticism is distinguished from the story facts; humane rhetoric is not accepted as a secure guarantee."
+    },
+    {
+      "id": "src-b100-twinmaker",
+      "title": "Twinmaker — reviews",
+      "author": "YA Books Central editorial and reader reviewers",
+      "url": "https://yabookscentral.com/twinmaker/",
+      "kind": "secondary_review",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Household fabbers create food and other goods; need and money scarcity are described as past problems.",
+      "limitations": "Reviewers’ broad phrasing does not establish exact governance or later disrupted-system guarantees."
+    },
+    {
+      "id": "src-b100-twin-publisher",
+      "title": "Twinmaker — audiobook description",
+      "author": "Sean Williams, publisher description reproduced by Everand",
+      "url": "https://www.everand.com/audiobook/627866921/Twinmaker",
+      "kind": "publisher_description",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Space energy and home fabbers meet ordinary wants, giving broad household abundance.",
+      "limitations": "Only the accessible description was used, not the audiobook; exact productive control and later trilogy outcomes remain unverified."
+    },
+    {
+      "id": "src-b100-suffadv",
+      "title": "Sufficiently Advanced — review",
+      "author": "RPGnet reviewer",
+      "url": "https://www.rpg.net/reviews/archive/13/13780.phtml",
+      "kind": "secondary_review",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Fourteen materially different human-descended civilizations are described, with Transcendental Patent Office agents.",
+      "limitations": "A common agency does not establish one common household economy. Short indexed rulebook material confirms replicators and IP markets but not a homogeneous society."
+    },
+    {
+      "id": "src-b100-steel",
+      "title": "GURPS Reign of Steel",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/GURPS_Reign_of_Steel",
+      "kind": "secondary_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Machine zones have automated manufacturing; London leaves a human nation alone and Washington covertly rules an ostensibly independent Protectorate.",
+      "limitations": "Neither arrangement establishes that ordinary human necessities are delivered by the automated sector. Extermination, slave labor and mere nonaggression are not leisure."
+    },
+    {
+      "id": "src-b100-humans",
+      "title": "The Humans — reviews",
+      "author": "Goodreads contributors",
+      "url": "https://www.goodreads.com/book/show/17790153",
+      "kind": "reader_review",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Vonnadorian technological intervention and suppression of human mathematical knowledge.",
+      "limitations": "The short reviews do not establish the alien civilization’s actual ordinary production and distribution rules."
+    }
+  ],
+  "societies": [
+    {
+      "id": "oa-mpa-industrial-basics",
+      "candidate_id": "c0885",
+      "name": "Orion’s Arm — Mutual Progress Association",
+      "work": "Orion’s Arm",
+      "society": "Shared basic access within a higher-mind productive and service-allocation network",
+      "media": [
+        "web_fiction"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Official present-era MPA setting",
+        "period": "Established reconstructed settlements outside the historical Uservere crisis",
+        "population": "Living humans and active human-derived MPA residents",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Historical emergency supply collapse as normal provision",
+          "Every local world as institutionally identical",
+          "Engineering careers as automatically make-work"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "The MPA’s large automated productive economy supports ordinary Sephirotic basics while trading energy, habitat access and sophisticated goods. Its engineering and habitat-leasing institutions give this point a concrete productive setting, rather than another cultural label for abundance. Guarantees are favorable within functioning settlements, with local arrangements and the documented history of service-allocation failure qualifying perfect security. The Uservere crisis is evidence of institutional dependence, not the normal current state.\n\nHigher AI powers and administrators guide the sustaining industrial and service network. When allocation fails, mainbrains can intervene at a scale ordinary residents cannot match. Control is therefore placed toward autonomous higher-machine authority, while the broad interval allows local industries and diverse constitutions meaningful agency. Friendly indirect guidance is still different from distributed human ownership. Humans and active human-derived residents are an explicit proxy within a broader population. Construction, engineering, planning, care and cultural services remain useful work. Industrial abundance and vast spare habitat capacity do not provide a nonworking census.",
+      "axis": {
+        "guarantees": -0.65,
+        "control": -0.8,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.95,
+            -0.15
+          ],
+          "confidence": "low",
+          "basis": "The specific industrial/service system and shared Sephirotic basics establish provision; local variation and an actual historical allocation failure qualify reliability.",
+          "source_ids": [
+            "src-b100-mpa",
+            "src-b100-mpa-crisis",
+            "src-b86-economies",
+            "src-b86-nocozo"
+          ]
+        },
+        "control": {
+          "interval": [
+            -1,
+            -0.45
+          ],
+          "confidence": "low",
+          "basis": "AI-guided productive infrastructure and mainbrain intervention establish high-level autonomous authority, with local agency remaining; historical intervention is not projected as constant micromanagement.",
+          "source_ids": [
+            "src-b100-mpa",
+            "src-b100-mpa-crisis",
+            "src-b86-economies",
+            "src-b86-nocozo"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Engineering and service activities remain useful; active human-derived residents are the explicit proxy and no all-person work census exists.",
+          "source_ids": [
+            "src-b100-mpa",
+            "src-b100-mpa-crisis",
+            "src-b86-economies",
+            "src-b86-nocozo"
+          ]
+        }
+      },
+      "regime_primary": 5,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b100-mpa",
+        "src-b100-mpa-crisis",
+        "src-b86-economies",
+        "src-b86-nocozo"
+      ],
+      "evidence": [
+        {
+          "claim": "The specific industrial/service system and shared Sephirotic basics establish provision; local variation and an actual historical allocation failure qualify reliability.",
+          "source_ids": [
+            "src-b100-mpa",
+            "src-b100-mpa-crisis",
+            "src-b86-economies",
+            "src-b86-nocozo"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "AI-guided productive infrastructure and mainbrain intervention establish high-level autonomous authority, with local agency remaining; historical intervention is not projected as constant micromanagement.",
+        "Engineering and service activities remain useful; active human-derived residents are the explicit proxy and no all-person work census exists."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "oa-fomalhaut-curator-markets",
+      "candidate_id": "c0886",
+      "name": "Orion’s Arm — Fomalhaut Acquisition Society",
+      "work": "Orion’s Arm",
+      "society": "Curator-supervised commercial communities over a Sephirotic basic floor",
+      "media": [
+        "web_fiction"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Official current-era Fomalhaut Acquisition Society",
+        "period": "Established mature Fomac worlds and orbitals",
+        "population": "Living humans and active human-derived Fomac residents",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Original isolated museum-ship cargo as a human society",
+          "Every trade profit as necessary subsistence income",
+          "Private firm variety as equal ownership by all humans"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Fomalhaut’s commercial society places family firms, ship businesses and larger corporations around a Curator-led technological infrastructure. Ordinary basic access follows the shared Sephirotic model, while collecting, trading and unusual goods remain major pursuits above it. Guarantees are favorably estimated for mature functioning settlements, with uncertainty about local institutions and no claim that every speculative expedition is protected against loss. Its collector-provider hierarchy distinguishes the productive arrangement from a uniformly self-governing free market.\n\nThe Curators explicitly originate as artificial museum and archive minds and retain overarching authority. They generally rule lightly, and residents may have extensive voting rights, but varied local government does not eliminate high-level AI control. The coordinate lies toward autonomous-machine authority with an interval allowing substantial local agency. Active human-derived residents are a disclosed subset of the larger mixed population. Trading, conservation, exploration, media production and care can all be useful work. A culture that enjoys commerce and virtual travel is not automatically nonworking; no all-person participation share is supplied.",
+      "axis": {
+        "guarantees": -0.6,
+        "control": -0.75,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.9,
+            -0.1
+          ],
+          "confidence": "low",
+          "basis": "The identified mature commercial polity uses the common Sephirotic basic provision model; speculative trade and local differences remain qualifications.",
+          "source_ids": [
+            "src-b100-fomac",
+            "src-b86-economies",
+            "src-b86-nocozo"
+          ]
+        },
+        "control": {
+          "interval": [
+            -1,
+            -0.35
+          ],
+          "confidence": "low",
+          "basis": "Curators’ artificial origins and overarching light-touch rule are explicit; local voting and many firms do not establish final human authority.",
+          "source_ids": [
+            "src-b100-fomac",
+            "src-b86-economies",
+            "src-b86-nocozo"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Commercial, curatorial and exploratory work may be widespread; active human-derived residents are a disclosed proxy and there is no work census.",
+          "source_ids": [
+            "src-b100-fomac",
+            "src-b86-economies",
+            "src-b86-nocozo"
+          ]
+        }
+      },
+      "regime_primary": 5,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b100-fomac",
+        "src-b86-economies",
+        "src-b86-nocozo"
+      ],
+      "evidence": [
+        {
+          "claim": "The identified mature commercial polity uses the common Sephirotic basic provision model; speculative trade and local differences remain qualifications.",
+          "source_ids": [
+            "src-b100-fomac",
+            "src-b86-economies",
+            "src-b86-nocozo"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "Curators’ artificial origins and overarching light-touch rule are explicit; local voting and many firms do not establish final human authority.",
+        "Commercial, curatorial and exploratory work may be widespread; active human-derived residents are a disclosed proxy and there is no work census."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "oa-red-star-communal-feedstock",
+      "candidate_id": "c0887",
+      "name": "Orion’s Arm — Red Star M’pire",
+      "work": "Orion’s Arm",
+      "society": "Human-derived lums with household nanofabs and communal feedstock under Farview",
+      "media": [
+        "web_fiction"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Official Red Star M’pire reference",
+        "period": "The mature functioning lum habitat economy after the early isolation crisis",
+        "population": "Living human-derived lums in established habitats",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Early disaster survivors as the same secure era",
+          "All biological metabolism as proof of leisure",
+          "Dead clones or inactive memory stores as active residents"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Most lum homes contain nanofabs connected to communal feedstock reservoirs. Objects can be disassembled when unused and recreated when needed, while engineered habitats, biomass supply and transport support daily life. This concrete household arrangement supports a favorable guarantee estimate in the mature society. Limited material resources still matter, so abundant energy is not mistaken for unrestricted availability of every element or desired object.\n\nFarview is explicitly an artificial intelligence whose physical mind extends through habitat structures and engineered ecosystems. Its productive and substrate authority puts control near autonomous AI, even though lums retain independent thought and can move among different cities. This differs materially from a generic biological commons: domestic objects, food-chain processes and aspects of residents’ bodies participate in the ruler’s distributed computation. The population is human-derived and explicitly scoped. Conscious research, care and creative work remain useful, and substrate contributions further complicate the boundary of work. Household fabrication and meaningful autonomy do not supply an all-person nonworking fraction, which remains unresolved.",
+      "axis": {
+        "guarantees": -0.7,
+        "control": -0.9,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.95,
+            -0.2
+          ],
+          "confidence": "low",
+          "basis": "Household nanofabs, shared feedstock, actual biomass/habitat support and recycling provide a concrete material floor; scarce elements qualify abundance.",
+          "source_ids": [
+            "src-b100-redstar"
+          ]
+        },
+        "control": {
+          "interval": [
+            -1,
+            -0.65
+          ],
+          "confidence": "low",
+          "basis": "Farview’s AI origin and integrated habitat/ecosystem productive substrate are explicit; local freedom of thought does not transfer final infrastructure control.",
+          "source_ids": [
+            "src-b100-redstar"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Useful activity and resident-associated computation remain real contributions; human-derived lums are a disclosed proxy and no activity census exists.",
+          "source_ids": [
+            "src-b100-redstar"
+          ]
+        }
+      },
+      "regime_primary": 5,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b100-redstar"
+      ],
+      "evidence": [
+        {
+          "claim": "Household nanofabs, shared feedstock, actual biomass/habitat support and recycling provide a concrete material floor; scarce elements qualify abundance.",
+          "source_ids": [
+            "src-b100-redstar"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "Farview’s AI origin and integrated habitat/ecosystem productive substrate are explicit; local freedom of thought does not transfer final infrastructure control.",
+        "Useful activity and resident-associated computation remain real contributions; human-derived lums are a disclosed proxy and no activity census exists."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "oa-deeper-covenant-universal-basics",
+      "candidate_id": "c0888",
+      "name": "Orion’s Arm — The Deeper Covenant",
+      "work": "Orion’s Arm",
+      "society": "Universal basic allocation with distributed governance and advisory higher minds",
+      "media": [
+        "web_fiction"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Official current-era Deeper Covenant",
+        "period": "The established functioning beamrider-linked civilization",
+        "population": "Living humans and active human-derived Deeper residents",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Every AI or alien resident as human-derived",
+          "Advisory higher minds as automatic rulers",
+          "Every individual settlement as identically organized"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "The Deeper Covenant explicitly guarantees universal post-scarcity basics despite substantial local economic variety. Modern productive technology and a shared network of habitats, energy systems and transport stations make this an implemented support arrangement. Guarantees lie near the strong end for functioning member communities, while geographic isolation and local hazards qualify complete security. This is a specific material allocation claim, not an inference from cooperative manners alone.\n\nThe Covenant has no official ruling higher mind: advanced members serve as technology providers or advisers. Distributed cyberdemocracy and consensus consequently support a control estimate toward shared human-derived authority, with a broad interval for local AI-mediated institutions and unequal technical capability. Advisory machinery is not assumed to own every productive resource. Humans and active human-derived residents are the explicit proxy within a mixed civilization. Deepers are described as hardworking and service-oriented, especially around maintaining and extending the network. Free basics therefore coexist with substantial chosen useful activity, and no precise nonworking fraction is inferred from the absence of survival wages.",
+      "axis": {
+        "guarantees": -0.85,
+        "control": 0.7,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -1,
+            -0.5
+          ],
+          "confidence": "low",
+          "basis": "The official data panel explicitly makes basic post-scarcity allocation universal and identifies the actual distributed infrastructure.",
+          "source_ids": [
+            "src-b100-covenant"
+          ]
+        },
+        "control": {
+          "interval": [
+            0.2,
+            1
+          ],
+          "confidence": "low",
+          "basis": "Higher minds officially advise or supply technology rather than rule; distributed consensus supports shared authority, qualified by varied local AI mediation.",
+          "source_ids": [
+            "src-b100-covenant"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "The culture remains explicitly hardworking; active human-derived residents are a disclosed proxy, and service orientation does not provide an all-person rate.",
+          "source_ids": [
+            "src-b100-covenant"
+          ]
+        }
+      },
+      "regime_primary": 2,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b100-covenant"
+      ],
+      "evidence": [
+        {
+          "claim": "The official data panel explicitly makes basic post-scarcity allocation universal and identifies the actual distributed infrastructure.",
+          "source_ids": [
+            "src-b100-covenant"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "Higher minds officially advise or supply technology rather than rule; distributed consensus supports shared authority, qualified by varied local AI mediation.",
+        "The culture remains explicitly hardworking; active human-derived residents are a disclosed proxy, and service orientation does not provide an all-person rate."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "oa-cableville-wandering-hermits",
+      "candidate_id": "c0889",
+      "name": "Orion’s Arm — Cableville’s Wandering Hermits",
+      "work": "Orion’s Arm",
+      "society": "Personal nanofactory self-provision with mobile homes",
+      "media": [
+        "web_fiction"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Cableville’s official Wandering Hermit culture",
+        "period": "Established personal-nanofactory and later mobile-home practice",
+        "population": "Living nearbaseline humans and active human-derived Hermits; enhanced dolphins excluded from the human denominator",
+        "human_population_proxy": true,
+        "exclusions": [
+          "The neighboring collective Social Webs",
+          "All Tuckerite market participants",
+          "Higher-mind habitat ownership as human property"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Wandering Hermits travel Cableville’s vast landscapes carrying personal nanofactories; later forms bring mobile houses or integrate machinery with their bodies. That arrangement supplies a concrete self-provision mechanism independent of ordinary local wages. Guarantees are favorably estimated as practical productive access, with a broad interval because personal equipment and continuing habitat support are different from an unconditional public entitlement. The human scope excludes the enhanced dolphins who also participate in the wider culture.\n\nPersonal possession and direct use of nanofactories place immediate control toward distributed humans. Higher minds still administer major Cableville industry and own the overarching infrastructure, so the estimate remains short of complete independence. This materially differs from the Social Webs’ collective gift economy already retained in the same system; a different cultural name alone would not justify another point. Exploration, self-maintenance, design and care can remain useful work. Living alone and carrying an automatic factory do not establish a nonworking percentage, and the available reference supplies no participation census.",
+      "axis": {
+        "guarantees": -0.6,
+        "control": 0.7,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.9,
+            0.1
+          ],
+          "confidence": "low",
+          "basis": "Nearbaseline Hermits explicitly carry personal nanofactories and later homes; this is practical self-provision, not a claim of universal insured access.",
+          "source_ids": [
+            "src-b100-cableville"
+          ]
+        },
+        "control": {
+          "interval": [
+            0.2,
+            0.95
+          ],
+          "confidence": "low",
+          "basis": "Personal equipment gives direct local productive agency, qualified by higher-mind control of major industrial and habitat infrastructure.",
+          "source_ids": [
+            "src-b100-cableville"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Exploration and useful self-maintenance still count; enhanced dolphins are excluded from the human denominator and no work census is provided.",
+          "source_ids": [
+            "src-b100-cableville"
+          ]
+        }
+      },
+      "regime_primary": 2,
+      "regime_alternatives": [
+        4
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-b100-cableville"
+      ],
+      "evidence": [
+        {
+          "claim": "Nearbaseline Hermits explicitly carry personal nanofactories and later homes; this is practical self-provision, not a claim of universal insured access.",
+          "source_ids": [
+            "src-b100-cableville"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "Personal equipment gives direct local productive agency, qualified by higher-mind control of major industrial and habitat infrastructure.",
+        "Exploration and useful self-maintenance still count; enhanced dolphins are excluded from the human denominator and no work census is provided."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "warehouse-cloud-retained-pickers",
+      "candidate_id": "c0891",
+      "name": "The Warehouse — Cloud’s retained human pickers",
+      "work": "The Warehouse",
+      "society": "Employer-controlled living and work with deliberately withheld automation",
+      "media": [
+        "book"
+      ],
+      "record_type": "zero_variant",
+      "scope": {
+        "continuity": "Rob Hart’s novel, bounded to the initial Cloud management model",
+        "period": "Functioning MotherCloud under Gibson Wells before any successor changes",
+        "population": "Human employees and residents dependent on MotherCloud",
+        "human_population_proxy": false,
+        "exclusions": [
+          "An invented fully automated potential for every occupation",
+          "All people outside Cloud as housed employees",
+          "A company job as a secure universal entitlement"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Cloud deliberately retains human warehouse picking despite its capacity to automate that work. The gathered reviews identify the CEO’s refusal and his preference for a human touch. This supports a narrow zero variant: technological relief is withheld while workers remain tied to employment. It does not establish that every job in the wider economy could already disappear. Drones and tracking systems coexist with demanding human quotas.\n\nCloud concentrates productive and residential authority in a corporate human hierarchy. Employees live in its accommodation, spend through its system and can lose their position through performance judgments or dismissal. The weak guarantee estimate follows that employer-dependent access rather than treating provided rooms as unconditional welfare. The creator’s benevolent language is not accepted as proof of security. Picking, security, nursing, administration and other continuing tasks remain useful work. A resident workforce is not the entire human population, and the reference gives no defensible percentage of everyone doing no work. The zero label concerns the explicit technical refusal.",
+      "axis": {
+        "guarantees": 0.75,
+        "control": 0.05,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            0.35,
+            1
+          ],
+          "confidence": "low",
+          "basis": "Reviews explicitly link available picking automation with its deliberate refusal; housing and services depend on retained work and continued employment.",
+          "source_ids": [
+            "src-b100-warehouse",
+            "src-b100-warehouse-corroboration"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.2
+          ],
+          "confidence": "low",
+          "basis": "Cloud’s human corporate hierarchy controls work, residence and access; worker monitoring does not constitute machine sovereignty.",
+          "source_ids": [
+            "src-b100-warehouse",
+            "src-b100-warehouse-corroboration"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Retained warehouse, care, security and administrative jobs are useful; no all-person participation census and no claim of universal full automation.",
+          "source_ids": [
+            "src-b100-warehouse",
+            "src-b100-warehouse-corroboration"
+          ]
+        }
+      },
+      "regime_primary": 0,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b100-warehouse",
+        "src-b100-warehouse-corroboration"
+      ],
+      "evidence": [
+        {
+          "claim": "Reviews explicitly link available picking automation with its deliberate refusal; housing and services depend on retained work and continued employment.",
+          "source_ids": [
+            "src-b100-warehouse",
+            "src-b100-warehouse-corroboration"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "Cloud’s human corporate hierarchy controls work, residence and access; worker monitoring does not constitute machine sovereignty.",
+        "Retained warehouse, care, security and administrative jobs are useful; no all-person participation census and no claim of universal full automation."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      },
+      "regime_analogy": [
+        3
+      ]
+    },
+    {
+      "id": "twinmaker-household-fabber-abundance",
+      "candidate_id": "c0892",
+      "name": "Twinmaker — The household fabber economy",
+      "work": "Twinmaker / Jump",
+      "society": "Broad home fabrication before major system disruption",
+      "media": [
+        "book"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Sean Williams’s first Twinmaker novel, also published as Jump",
+        "period": "Established ordinary fabber-supported life before the first novel’s major crisis",
+        "population": "Living human residents participating in the functioning fabber system",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Later trilogy collapse or successor arrangements",
+          "Abstainers’ potentially different access as identical",
+          "Duplicate transmitted bodies as extra leisure citizens"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Home fabbers make food and ordinary goods using matter-reorganization technology backed by space-generated energy. The publisher’s description places these devices in everyone’s home, while reviews corroborate ordinary material abundance. This directly links a technological mechanism with household access, rather than qualifying the setting merely because people can teleport. Guarantees are strongly favorable within the functioning system, with later disruption and deliberately nonparticipating communities outside this scope.\n\nThe gathered short references do not establish who finally owns the sustaining energy and matter infrastructure or can overrule its operation. Widespread domestic access therefore does not automatically become either equal human ownership or AI rule; control remains unresolved. The provisional guaranteed-provider regime leaves a distributed alternative open. Human design, investigation, science, parenting and other useful activity continue. Transported or altered bodies are not counted as additional people without evidence of separate active persons. Abundant goods and freedom from money worries supply no all-age nonworking census, so that axis also remains unknown.",
+      "axis": {
+        "guarantees": -0.8,
+        "control": null,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -1,
+            -0.4
+          ],
+          "confidence": "low",
+          "basis": "Accessible publisher description identifies everyone’s home fabbers and abundant energy; reviews corroborate food fabrication and free ordinary access.",
+          "source_ids": [
+            "src-b100-twinmaker",
+            "src-b100-twin-publisher"
+          ]
+        },
+        "control": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Domestic availability does not establish ultimate infrastructure ownership/override authority; government and machine-sovereignty claims remain unresolved.",
+          "source_ids": [
+            "src-b100-twinmaker",
+            "src-b100-twin-publisher"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Useful creative, scientific and care activity continues; transmitted bodies are not multiplied as people and no work census exists.",
+          "source_ids": [
+            "src-b100-twinmaker",
+            "src-b100-twin-publisher"
+          ]
+        }
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [
+        2
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-b100-twinmaker",
+        "src-b100-twin-publisher"
+      ],
+      "evidence": [
+        {
+          "claim": "Accessible publisher description identifies everyone’s home fabbers and abundant energy; reviews corroborate food fabrication and free ordinary access.",
+          "source_ids": [
+            "src-b100-twinmaker",
+            "src-b100-twin-publisher"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "Domestic availability does not establish ultimate infrastructure ownership/override authority; government and machine-sovereignty claims remain unresolved.",
+        "Useful creative, scientific and care activity continues; transmitted bodies are not multiplied as people and no work census exists."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0885",
+      "status": "included",
+      "reason": "The scoped reference establishes actual technological provision or explicit preservation of replaceable human work.",
+      "source_ids": [
+        "src-b100-mpa",
+        "src-b100-mpa-crisis",
+        "src-b86-economies",
+        "src-b86-nocozo"
+      ],
+      "society_id": "oa-mpa-industrial-basics"
+    },
+    {
+      "candidate_id": "c0886",
+      "status": "included",
+      "reason": "The scoped reference establishes actual technological provision or explicit preservation of replaceable human work.",
+      "source_ids": [
+        "src-b100-fomac",
+        "src-b86-economies",
+        "src-b86-nocozo"
+      ],
+      "society_id": "oa-fomalhaut-curator-markets"
+    },
+    {
+      "candidate_id": "c0887",
+      "status": "included",
+      "reason": "The scoped reference establishes actual technological provision or explicit preservation of replaceable human work.",
+      "source_ids": [
+        "src-b100-redstar"
+      ],
+      "society_id": "oa-red-star-communal-feedstock"
+    },
+    {
+      "candidate_id": "c0888",
+      "status": "included",
+      "reason": "The scoped reference establishes actual technological provision or explicit preservation of replaceable human work.",
+      "source_ids": [
+        "src-b100-covenant"
+      ],
+      "society_id": "oa-deeper-covenant-universal-basics"
+    },
+    {
+      "candidate_id": "c0889",
+      "status": "included",
+      "reason": "The scoped reference establishes actual technological provision or explicit preservation of replaceable human work.",
+      "source_ids": [
+        "src-b100-cableville"
+      ],
+      "society_id": "oa-cableville-wandering-hermits"
+    },
+    {
+      "candidate_id": "c0890",
+      "status": "needs_evidence",
+      "reason": "Tuckerite nanofacture and market handcraft do not yet establish ordinary access clearly enough.",
+      "source_ids": [
+        "src-b100-cableville"
+      ],
+      "analysis": "The culture differs from Social Webs, but neither universal benefits nor broad personal self-provision is clearly established for the selected market population. Do not count a new culture by name alone.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0891",
+      "status": "zero_variant",
+      "reason": "The scoped reference establishes actual technological provision or explicit preservation of replaceable human work.",
+      "source_ids": [
+        "src-b100-warehouse",
+        "src-b100-warehouse-corroboration"
+      ],
+      "society_id": "warehouse-cloud-retained-pickers"
+    },
+    {
+      "candidate_id": "c0892",
+      "status": "included",
+      "reason": "The scoped reference establishes actual technological provision or explicit preservation of replaceable human work.",
+      "source_ids": [
+        "src-b100-twinmaker",
+        "src-b100-twin-publisher"
+      ],
+      "society_id": "twinmaker-household-fabber-abundance"
+    },
+    {
+      "candidate_id": "c0893",
+      "status": "needs_evidence",
+      "reason": "The Patent Office spans different civilizations, not one verified common material economy.",
+      "source_ids": [
+        "src-b100-suffadv"
+      ],
+      "analysis": "Replicators and intellectual-property enforcement are clear leads, but the broad candidate requires a specific civilization and allocation reference. Do not read an entire sourcebook to force one homogeneous point.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0894",
+      "status": "needs_evidence",
+      "reason": "Washington’s covert AI government does not establish how ordinary humans access automated necessities.",
+      "source_ids": [
+        "src-b100-steel"
+      ],
+      "analysis": "A supposedly tame computer and general machine-zone production are not enough to infer a human material floor or an exact work rate.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0895",
+      "status": "needs_evidence",
+      "reason": "London’s noninterference with a surviving human nation is not itself technological provision.",
+      "source_ids": [
+        "src-b100-steel"
+      ],
+      "analysis": "Leaving humans alive outside exclusion zones does not establish that the AI’s industry supplies their necessities. Neither mass death nor wary peace is leisure.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0896",
+      "status": "needs_evidence",
+      "reason": "Vonnadorian mathematical power does not establish an ordinary production/access system.",
+      "source_ids": [
+        "src-b100-humans"
+      ],
+      "analysis": "The short reviews focus on suppression of knowledge and alien intervention; no full novel investigation is justified by this unclear fit.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    }
+  ],
+  "review_notes": [
+    "Twelve ordered dispositions add seven provisional records, including Cloud’s separately marked zero variant. The second expansion tranche is complete.",
+    "Cableville’s personal self-provision differs materially from the already retained Social Webs; Tuckerite culture alone does not justify another retained point.",
+    "Red Star has explicit home fabrication and communal feedstock, not merely biological aesthetics. Useful resident-associated computation complicates participation and is not silently called leisure.",
+    "Deeper Covenant’s explicit advisory higher minds differ from the AI sovereigns of the MPA and Fomalhaut. Shared basic provision is not a reason to erase actual control differences.",
+    "The Warehouse uses two labeled review accounts; its automation refusal is limited to documented work, not projected to all possible industry.",
+    "Twinmaker uses the publisher’s accessible household-provision description, corroborated by reviews. No audiobook, full novel, game playthrough or sourcebook immersion was needed.",
+    "The active goal remains far below 500 quality records and requires further ordered discovery expansion plus evidence review."
+  ]
+}

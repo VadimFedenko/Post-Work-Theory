@@ -1,0 +1,471 @@
+{
+  "batch_id": "batch-039",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0210",
+    "c0211",
+    "c0212",
+    "c0213",
+    "c0214"
+  ],
+  "sources": [
+    {
+      "id": "src-bitchun-economics-author",
+      "title": "The economics of Whuffie",
+      "author": "Cory Doctorow quoting Dave Green, 2003",
+      "url": "https://craphound.com/down/2003/02/06/the-economics-of-whuffie/",
+      "kind": "author_endorsed_secondary_economic_account",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public economic explanation read",
+      "read_scope": "Nanotechnological necessities, lack of ordinary money and reputational allocation.",
+      "limitations": "An author-selected critical account, not a complete constitution; material abundance does not remove status or access inequalities."
+    },
+    {
+      "id": "src-bitchun-lowesteem-excerpt",
+      "title": "Down and Out in the Magic Kingdom: Chapter 7",
+      "author": "Cory Doctorow, public Authorama edition",
+      "url": "https://www.authorama.com/down-and-out-in-the-magic-kingdom-8.html",
+      "kind": "primary_fiction_indexed_excerpt",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed low-esteem population passage read",
+      "read_scope": "People with low Whuffie still live, socialize and create.",
+      "limitations": "A bounded passage only, not a full novel read or a census of their useful work."
+    },
+    {
+      "id": "src-doctorow-walkaway-reason",
+      "title": "Cory Doctorow on Cyber Warfare, Lawbreaking, and His New Novel Walkaway",
+      "author": "Cory Doctorow interviewed by Katherine Mangu-Ward, Reason, 2017",
+      "url": "https://reason.com/podcast/2017/05/25/cory-doctorow-walkaway/",
+      "kind": "primary_author_interview",
+      "accessed_on": "2026-10-16",
+      "access_method": "Targeted transcript passages on Whuffie, Default and walkaway institutions read",
+      "read_scope": "Reputational inequality, automated oligarchy, surplus people and deliberative open communities.",
+      "limitations": "Rush transcript, not checked against audio; no verbatim quotation used. Authorial explanation supports interpretation but not precise participation statistics."
+    },
+    {
+      "id": "src-walkaway-reference",
+      "title": "Walkaway (Doctorow novel)",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Walkaway_%28Doctorow_novel%29",
+      "kind": "secondary_plot_and_economic_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed printers, recycling and gift-economy paragraphs read",
+      "read_scope": "Technological independence from Default for food, clothing and shelter.",
+      "limitations": "Summary evidence, not proof that all labor or all resource constraints disappear."
+    },
+    {
+      "id": "src-walkaway-ch2-excerpt",
+      "title": "Walkaway: You All Meet in a Tavern",
+      "author": "Cory Doctorow, authorized excerpt at Reactor, 2017",
+      "url": "https://reactormag.com/excerpts-cory-doctorow-walkaway-chapter-2/",
+      "kind": "primary_fiction_excerpt_and_publisher_introduction",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed gift-economy passage and introduction read",
+      "read_scope": "Printed essentials and rejection of a contribution-versus-benefit ledger.",
+      "limitations": "One excerpt, not the whole novel. Wartime destruction and later uploaded lives are not treated as one unchanging economy."
+    },
+    {
+      "id": "src-walkaway-kirkus-author",
+      "title": "Cory Doctorow",
+      "author": "Kirkus Reviews author profile and interview, 2017",
+      "url": "https://www.kirkusreviews.com/news-and-features/articles/cory-doctorow/",
+      "kind": "secondary_author_profile_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed automated employment and food discussion read",
+      "read_scope": "Machines displace jobs while synthetic biology supplies abundant food.",
+      "limitations": "Qualitative presentation; the broad phrase about jobs is not a literal census excluding scientists, maintainers or care workers."
+    },
+    {
+      "id": "src-makers-publisher",
+      "title": "Makers",
+      "author": "Macmillan",
+      "url": "https://us.macmillan.com/books/9781429969284/makers/",
+      "kind": "publisher_synopsis_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed New Work boom and bust synopsis read",
+      "read_scope": "Maker ventures, desktop fabrication and loss of funds after the boom.",
+      "limitations": "Cheap fabrication and entrepreneurship do not establish automatic common provision."
+    },
+    {
+      "id": "src-unauthorized-bread-author",
+      "title": "Cory Doctorow, March 28 2019 event transcript",
+      "author": "Cory Doctorow; Seattle Public Library",
+      "url": "https://www.spl.org/Seattle-Public-Library/documents/transcriptions/2019/19-03-28_Cory-Doctorow.pdf",
+      "kind": "primary_author_event_transcript_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed opening story explanation read",
+      "read_scope": "Refugee housing with appliances restricted to authorized consumables.",
+      "limitations": "No PDF rendering or full novella reading. Licensing coercion is established, society-wide labor replacement is not."
+    }
+  ],
+  "societies": [
+    {
+      "id": "bitchun-society",
+      "candidate_id": "c0210",
+      "name": "Down and Out in the Magic Kingdom (Bitchun Society)",
+      "work": "Down and Out in the Magic Kingdom",
+      "society": "The established Bitchun Society",
+      "media": [
+        "book"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "The novel continuity",
+        "period": "The functioning Bitchun era depicted in the novel",
+        "population": "Living human residents of Bitchun Society",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Dormant backups counted as active people",
+          "Every related Doctorow future assigned identical institutions",
+          "Whuffie treated as a subsistence wage"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Nanotechnology supplies basic material needs, so ordinary wages are no longer the gate to survival. Whuffie measures social esteem and influences access to scarce experiences, desirable places and authority. Low esteem can therefore be painful without being identical to the loss of food and shelter. The strong guarantee estimate concerns necessities, rather than a promise that everyone receives equal prestige or every preferred resource.\n\nControl remains with people and their organizations, rather than a separate machine sovereign. Its positive estimate is qualified: Doctorow explicitly describes how reputation can concentrate power and let established winners dominate others. Publicly contestable control of an attraction is not proof of equal influence over every productive asset. People still operate attractions, make art and pursue other useful projects; voluntary activity counts as work in this database. Neither free necessities nor the end of ordinary money establishes the proportion doing none of that, so the participation axis remains unresolved.",
+      "axis": {
+        "guarantees": -0.8,
+        "control": 0.55,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -1,
+            -0.5
+          ],
+          "confidence": "medium",
+          "basis": "Nanotechnological basic provision and the continuing lives of low-esteem people support strong material security; scarce privileges remain unequal.",
+          "source_ids": [
+            "src-bitchun-economics-author",
+            "src-bitchun-lowesteem-excerpt"
+          ]
+        },
+        "control": {
+          "interval": [
+            0.1,
+            0.9
+          ],
+          "confidence": "low",
+          "basis": "Human contestation and adhocracy coexist with reputational concentration. The point is an interpretation of effective control, not an equal ownership census.",
+          "source_ids": [
+            "src-bitchun-economics-author",
+            "src-bitchun-lowesteem-excerpt",
+            "src-doctorow-walkaway-reason"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Creative and operational activity persists without a population participation count.",
+          "source_ids": [
+            "src-bitchun-economics-author",
+            "src-bitchun-lowesteem-excerpt",
+            "src-doctorow-walkaway-reason"
+          ]
+        }
+      },
+      "regime_primary": 2,
+      "regime_alternatives": [
+        1
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-bitchun-economics-author",
+        "src-bitchun-lowesteem-excerpt",
+        "src-doctorow-walkaway-reason"
+      ],
+      "evidence": [
+        {
+          "claim": "Basic needs are technologically provided while Whuffie allocates status and scarce advantages.",
+          "source_ids": [
+            "src-bitchun-economics-author",
+            "src-bitchun-lowesteem-excerpt",
+            "src-doctorow-walkaway-reason"
+          ],
+          "locator": "Economic explanation, low-esteem passage and interview lines 185-205",
+          "kind": "author_commentary_and_primary_excerpt"
+        }
+      ],
+      "uncertainties": [
+        "Regime 1 remains an alternative if effective reputational concentration outweighs contestability.",
+        "Basic provision does not imply equal prestige, guaranteed preferred housing or universal admission from outside the setting.",
+        "No entire novel read in this reference-led pass."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "walkaway-communities",
+      "candidate_id": "c0211",
+      "name": "Walkaway (Walkaway communities)",
+      "work": "Walkaway",
+      "society": "Established walkaway gift-economy communities",
+      "media": [
+        "book"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Doctorow novel continuity",
+        "period": "Functioning embodied communities before their later institutions are generalized",
+        "population": "Human residents and guests supported by the walkaway network",
+        "human_population_proxy": false,
+        "exclusions": [
+          "All Default residents",
+          "Every future uploaded person",
+          "A single destroyed settlement treated as proof the whole network is provisionless"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Walkaway communities use fabrication, recycling and scavenging systems to make essentials outside Default's wage economy. Food, clothing and shelter become shared output rather than payment earned through an employer. Their gift norm rejects keeping a personal balance of what someone contributed against what they received. That makes the guarantee estimate strong, although it describes practical community access rather than an invulnerable state entitlement.\n\nMembers can alter shared arrangements, leave, build alternatives and deliberate over common projects. This supports broadly distributed human control; the software is a tool for coordination rather than an independent sovereign. Disputes, maintenance and outside attacks remain real constraints. The people building and running these communities still perform useful work, even when they choose it freely. Their break with wages is therefore not evidence that everyone stops working. No population-wide participation rate is supplied by the short sources, and the record does not merge their embodied communities with all later experiments in uploaded existence.",
+      "axis": {
+        "guarantees": -0.75,
+        "control": 0.85,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.95,
+            -0.45
+          ],
+          "confidence": "medium",
+          "basis": "Shared fabricated essentials are available without a contribution ledger; war and local disruption qualify practical security.",
+          "source_ids": [
+            "src-walkaway-reference",
+            "src-walkaway-ch2-excerpt",
+            "src-doctorow-walkaway-reason"
+          ]
+        },
+        "control": {
+          "interval": [
+            0.6,
+            1
+          ],
+          "confidence": "medium",
+          "basis": "Open community projects and deliberation give members substantial effective agency, without proving perfect equality.",
+          "source_ids": [
+            "src-walkaway-reference",
+            "src-walkaway-ch2-excerpt",
+            "src-doctorow-walkaway-reason"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Fabrication reduces compulsory labor but useful building, maintenance and care continue; no census is available.",
+          "source_ids": [
+            "src-walkaway-reference",
+            "src-walkaway-ch2-excerpt",
+            "src-doctorow-walkaway-reason"
+          ]
+        }
+      },
+      "regime_primary": 2,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-walkaway-reference",
+        "src-walkaway-ch2-excerpt",
+        "src-doctorow-walkaway-reason"
+      ],
+      "evidence": [
+        {
+          "claim": "Fabricated essentials and gift provision let people live outside Default; community coordination is participatory.",
+          "source_ids": [
+            "src-walkaway-reference",
+            "src-walkaway-ch2-excerpt",
+            "src-doctorow-walkaway-reason"
+          ],
+          "locator": "Chapter 2 gift-economy passage; author interview lines 217-225",
+          "kind": "primary_excerpt_author_commentary_and_reference"
+        }
+      ],
+      "uncertainties": [
+        "Guarantees measure access in functioning communities, not immunity from military attack.",
+        "The gift norm is not a claim of zero maintenance or zero conflict.",
+        "Participation is unresolved; changing later digital institutions require a separate scope."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "walkaway-default",
+      "candidate_id": "c0212",
+      "name": "Walkaway (Default society)",
+      "work": "Walkaway",
+      "society": "The automated oligarchic Default economy",
+      "media": [
+        "book"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Doctorow novel continuity",
+        "period": "The established Default order confronting the walkaway movement",
+        "population": "Embodied humans remaining within Default, including the wealthy and economically surplus",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Walkaway communities assigned Default conditions",
+          "All technologically displaced people counted as inactive",
+          "A completed future settlement after the conflict"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Default combines productive abundance with concentrated control. Automation makes many people unnecessary to production, while a small wealthy group retains decisive economic and legal power. Remaining workers and people vulnerable to replacement face precarious access. The weak guarantee estimate reflects that arrangement: the technical ability to supply needs has not become a secure claim for everyone within it.\n\nControl lies chiefly with a human oligarchy, so the score sits near the concentrated-human end of the axis rather than the autonomous-AI end. This is a transition driven by substantial technological displacement, not merely an imagined future machine capacity. It also does not mean all useful work disappears: people still maintain systems, conduct research and do other tasks. The sources distinguish needed workers from surplus people without supplying a complete denominator. The nonworking share therefore remains unresolved. The walkaway network receives its own record because it uses related technology under materially different access and control rules.",
+      "axis": {
+        "guarantees": 0.85,
+        "control": 0.05,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            0.55,
+            1
+          ],
+          "confidence": "medium",
+          "basis": "Author commentary describes precarious people and surplus lives despite automated abundance; no broad secure entitlement is established.",
+          "source_ids": [
+            "src-doctorow-walkaway-reason",
+            "src-walkaway-kirkus-author"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.2
+          ],
+          "confidence": "high",
+          "basis": "A small wealthy human group rigs economic and legal institutions to its advantage.",
+          "source_ids": [
+            "src-doctorow-walkaway-reason",
+            "src-walkaway-kirkus-author"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Many are technologically displaced, but maintainers and other useful workers remain; no complete rate is given.",
+          "source_ids": [
+            "src-doctorow-walkaway-reason",
+            "src-walkaway-kirkus-author"
+          ]
+        }
+      },
+      "regime_primary": 3,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-doctorow-walkaway-reason",
+        "src-walkaway-kirkus-author"
+      ],
+      "evidence": [
+        {
+          "claim": "Default combines automated systems, surplus people and concentrated human power.",
+          "source_ids": [
+            "src-doctorow-walkaway-reason",
+            "src-walkaway-kirkus-author"
+          ],
+          "locator": "Author interview lines 217-218; Kirkus setting discussion",
+          "kind": "author_commentary"
+        }
+      ],
+      "uncertainties": [
+        "A retained transition case, not a claim that all wage allocation has ended.",
+        "No arbitrary nonworking percentage is derived from the rhetorical 99 percent.",
+        "The public-source check does not establish a later uniform resolution."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0210",
+      "status": "included",
+      "reason": "Nanotechnological necessities and reputational scarce-resource allocation establish a distinct post-work arrangement.",
+      "source_ids": [
+        "src-bitchun-economics-author",
+        "src-bitchun-lowesteem-excerpt",
+        "src-doctorow-walkaway-reason"
+      ],
+      "society_id": "bitchun-society"
+    },
+    {
+      "candidate_id": "c0211",
+      "status": "included",
+      "reason": "Fabricated essentials and non-ledger gift provision support a scoped walkaway record.",
+      "source_ids": [
+        "src-walkaway-reference",
+        "src-walkaway-ch2-excerpt",
+        "src-doctorow-walkaway-reason"
+      ],
+      "society_id": "walkaway-communities"
+    },
+    {
+      "candidate_id": "c0212",
+      "status": "included",
+      "reason": "Automated displacement under oligarchic human control supports a separate weak-guarantee transition record.",
+      "source_ids": [
+        "src-doctorow-walkaway-reason",
+        "src-walkaway-kirkus-author"
+      ],
+      "society_id": "walkaway-default"
+    },
+    {
+      "candidate_id": "c0213",
+      "status": "boundary_case",
+      "reason": "New Work is a precarious maker-enterprise economy, without verified common labor-independent provision.",
+      "source_ids": [
+        "src-makers-publisher"
+      ],
+      "analysis": "Desktop fabrication and a boom-bust business model do not by themselves establish post-work distribution or deliberate unnecessary employment.",
+      "follow_up": "Keep as a maker-economy comparison and skip deeper reading."
+    },
+    {
+      "candidate_id": "c0214",
+      "status": "boundary_case",
+      "reason": "Proprietary appliances establish coercive access restrictions, without society-wide replacement of human labor.",
+      "source_ids": [
+        "src-unauthorized-bread-author"
+      ],
+      "analysis": "Digitally restricted toasters and elevators are not a general automated-production economy. Ordinary housing support is not enough to meet the technological admission rule.",
+      "follow_up": "Skip the broad lead; do not import the newly advertised graphic adaptation into the novella record."
+    }
+  ],
+  "review_notes": [
+    "Reference-led pass using short economic explanations, author commentary and bounded authorized excerpts; no whole novel read.",
+    "Walkaway and Default differ in both access and effective control. Default is a transition, with no fabricated exact unemployment rate.",
+    "Bitchun guarantees concern necessities; Whuffie inequalities remain visible and qualify the control estimate.",
+    "Voluntary useful work counts; all three new records leave unsupported participation percentages unresolved."
+  ]
+}

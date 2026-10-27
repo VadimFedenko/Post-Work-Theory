@@ -1,0 +1,310 @@
+{
+  "batch_id": "batch-096",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0845",
+    "c0846",
+    "c0847",
+    "c0848"
+  ],
+  "sources": [
+    {
+      "id": "src-b96-seams",
+      "title": "The Seams",
+      "author": "Michael Boncher, Orion’s Arm",
+      "url": "https://www.orionsarm.com/eg-topic/48ac91b20d415",
+      "kind": "official_worldbuilding",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Every arriving denizen receives a Dole card for rudimentary food, shelter, travel, clothing and information using affiliated fabricators and services.",
+      "limitations": "Local economies differ dramatically; the basic floor is modest, and broad supra-human governance does not imply uniform local ownership."
+    },
+    {
+      "id": "src-b96-sacredtree",
+      "title": "Sacredtree",
+      "author": "Todd Drashner and Orion’s Arm contributors",
+      "url": "https://www.orionsarm.com/eg-article/53060cb28fd91",
+      "kind": "official_worldbuilding",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Engineered life supplies basics, conventional nanofacture supplies secondary goods, and local e-voting coexists with higher-mind intervention.",
+      "limitations": "A local instance of retained Zoeific Flow provision, not a second point solely because a specific habitat is named."
+    },
+    {
+      "id": "src-b96-reserves",
+      "title": "Metasoft Baseline Reserves",
+      "author": "Steve Bowers and Orion’s Arm revisers",
+      "url": "https://www.orionsarm.com/eg-article/48fc9bfb6b8ff",
+      "kind": "official_worldbuilding",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Niuearth is an open modern retreat, unlike many primitive isolated reserves.",
+      "limitations": "Hospitality and safe haven alone do not establish ordinary residents’ allocation rules."
+    },
+    {
+      "id": "src-b96-niuearth",
+      "title": "Niuearth",
+      "author": "Orion’s Arm Universe Project contributors",
+      "url": "https://www.orionsarm.com/eg-article/52b993102478a",
+      "kind": "official_worldbuilding",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Modern Niuearth is an open baseline-human haven with psychology and historical re-enactment activity.",
+      "limitations": "The generic-domain click produced a cache miss; the normal www page was accessible. No welfare or work census is supplied."
+    },
+    {
+      "id": "src-b96-cableville",
+      "title": "Cableville",
+      "author": "Orion’s Arm Universe Project contributors",
+      "url": "https://www.orionsarm.com/eg-article/48ac37b0e82ba",
+      "kind": "official_worldbuilding",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Nanofabs/bioforges support self-sufficient communities, and the Social Webs stabilize as gift-economy panocracies; local industries coexist with higher-mind major infrastructure.",
+      "limitations": "Specific Social Web/communal model, not every Bolo or market society. Transapient ownership and infrastructure qualify human control."
+    }
+  ],
+  "societies": [
+    {
+      "id": "oa-seams-dole-denizens",
+      "candidate_id": "c0845",
+      "name": "Orion’s Arm — The Seams’ Dole-supported denizens",
+      "work": "Orion’s Arm",
+      "society": "A rudimentary universal floor across heterogeneous Seams economies",
+      "media": [
+        "web_fiction"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Official Encyclopaedia Galactica Seams setting",
+        "period": "Established Dole access under the Burdikeer",
+        "population": "Living humans and active human-derived denizens arriving in and inhabiting the Seams",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Every local market or government as identical",
+          "Crude support as luxurious Sephirotic abundance",
+          "Dormant files or repeated copies as extra residents"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Every denizen arriving in the Seams receives Dole access to rudimentary food, shelter, clothing, transport and information. The card works through participating services, selected fabrication systems and housing authorities, and can even support stranded travelers. This is a durable technological basic-access mechanism across otherwise very different local economies. Guarantees are moderately strong for essentials, with low comfort, limited service participation and regional conditions preventing a claim of unrestricted abundance.\n\nThe Burdikeer is a constructed high-level tribemind assembled from archailect avatars and enforces the overarching framework. Effective authority over that common floor therefore lies near autonomous higher-machine control, while local ownership and politics remain diverse. A loose confederation does not automatically give ordinary humans final control of the sustaining system. Living humans and active human-derived residents are an explicit proxy within a broader population. Trade, exploration, care and industry continue, and a Dole card is not a census of people doing no useful work. Nonworking remains unresolved.",
+      "axis": {
+        "guarantees": -0.55,
+        "control": -0.9,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.85,
+            -0.05
+          ],
+          "confidence": "low",
+          "basis": "Every denizen receives a documented basic-access card accepted by affiliated fabrication/services/housing; modest quality and local conditions qualify the guarantee.",
+          "source_ids": [
+            "src-b96-seams"
+          ]
+        },
+        "control": {
+          "interval": [
+            -1,
+            -0.6
+          ],
+          "confidence": "low",
+          "basis": "The overarching floor is maintained by an independently governing constructed tribemind of archailect avatars; local political variety does not establish final human ownership.",
+          "source_ids": [
+            "src-b96-seams"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "No all-person useful-work census; receiving the Dole does not imply doing no trade, care, exploration or other useful work.",
+          "source_ids": [
+            "src-b96-seams"
+          ]
+        }
+      },
+      "regime_primary": 5,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b96-seams"
+      ],
+      "evidence": [
+        {
+          "claim": "Every denizen receives a documented basic-access card accepted by affiliated fabrication/services/housing; modest quality and local conditions qualify the guarantee.",
+          "source_ids": [
+            "src-b96-seams"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "The overarching floor is maintained by an independently governing constructed tribemind of archailect avatars; local political variety does not establish final human ownership.",
+        "No all-person useful-work census; receiving the Dole does not imply doing no trade, care, exploration or other useful work."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "oa-cableville-social-webs",
+      "candidate_id": "c0848",
+      "name": "Orion’s Arm — Cableville’s Ouroboros Social Webs",
+      "work": "Orion’s Arm",
+      "society": "Stable gift-economy communities with local productive control and shared high-level infrastructure",
+      "media": [
+        "web_fiction"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Cableville, successful Social Web model in the official setting",
+        "period": "The established successful Social Webs after the experimental failures and before any specific major crisis",
+        "population": "Living humans and active human-derived residents participating in the Social Webs",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Failed experimental societies",
+          "Every Bolo as identically communal",
+          "Neighboring Tuckerite markets or Wandering Hermits as this same regime",
+          "Dormant files or uncounted copies as people"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Cableville’s successful Social Webs grow from communities supported by nanofabrication, bioforges and shared resources. They stabilize around gift economics and collective organization rather than ordinary wage purchases for every item. This supports a provisional favorable guarantee estimate for the selected communal model, with a broad interval because the reference does not define a complete universal necessities charter and other local cultures use different arrangements.\n\nResidents control their own industries and use collective decision structures, while major industrial infrastructure and system-level ownership remain with higher minds. Control is consequently mixed: the estimate lies modestly toward human distribution, with an interval broad enough to reflect meaningful higher-level dependence. Local self-government is not equated with ownership of the entire habitat. Human and active human-derived residents are the disclosed population proxy. The culture explicitly values making and discovering things; enjoyable technical, artistic and social contributions remain work. Neither gift exchange nor successful communal life supplies a nonworking census, so participation stays null.",
+      "axis": {
+        "guarantees": -0.5,
+        "control": 0.3,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.9,
+            0.35
+          ],
+          "confidence": "low",
+          "basis": "The documented stable gift-economy model develops from self-sufficient communities with bioforges/nanofabs and shared resources; detailed universal entitlement remains uncertain.",
+          "source_ids": [
+            "src-b96-cableville"
+          ]
+        },
+        "control": {
+          "interval": [
+            -0.6,
+            0.8
+          ],
+          "confidence": "low",
+          "basis": "Local residents control their industries and communal decisions, but higher minds control major industry/infrastructure and system ownership.",
+          "source_ids": [
+            "src-b96-cableville"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Playful productive creation and discovery remain useful work; no all-person activity census is supplied.",
+          "source_ids": [
+            "src-b96-cableville"
+          ]
+        }
+      },
+      "regime_primary": 2,
+      "regime_alternatives": [
+        5
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-b96-cableville"
+      ],
+      "evidence": [
+        {
+          "claim": "The documented stable gift-economy model develops from self-sufficient communities with bioforges/nanofabs and shared resources; detailed universal entitlement remains uncertain.",
+          "source_ids": [
+            "src-b96-cableville"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "Local residents control their industries and communal decisions, but higher minds control major industry/infrastructure and system ownership.",
+        "Playful productive creation and discovery remain useful work; no all-person activity census is supplied."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0845",
+      "status": "included",
+      "reason": "The named official reference establishes an actual supported community with an explicit technological mechanism.",
+      "source_ids": [
+        "src-b96-seams"
+      ],
+      "society_id": "oa-seams-dole-denizens"
+    },
+    {
+      "candidate_id": "c0846",
+      "status": "duplicate",
+      "reason": "Sacredtree confirms a local instance of the already retained Zoeific Flow material model.",
+      "source_ids": [
+        "src-b96-sacredtree"
+      ],
+      "duplicate_of": "oa-zoeific-flow",
+      "analysis": "Engineered basic provision is the same retained mechanism. Local voting and secondary markets enrich its known variation but do not yet establish an independently counted material order.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0847",
+      "status": "needs_evidence",
+      "reason": "Niuearth’s open safe haven does not establish its ordinary material allocation clearly enough.",
+      "source_ids": [
+        "src-b96-niuearth",
+        "src-b96-reserves"
+      ],
+      "analysis": "Its relaxed modern character differs from Wurm, but tourism, hospitality and unrestricted travel are not a verified continuing household floor.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0848",
+      "status": "included",
+      "reason": "The named official reference establishes an actual supported community with an explicit technological mechanism.",
+      "source_ids": [
+        "src-b96-cableville"
+      ],
+      "society_id": "oa-cableville-social-webs"
+    }
+  ],
+  "review_notes": [
+    "The first 64-lead expansion tranche is complete; four decisions add two records and resolve one parent/subset duplicate.",
+    "Sacredtree’s direct basic-needs passage is attached as further evidence to the existing Zoeific Flow record in canonical batch 086, without changing its numeric axes or inventing common local voting rules.",
+    "The Seams’ Dole is rudimentary but explicit and applies across diverse local economies; benefit access is not nonworking.",
+    "Cableville’s local productive control coexists with higher-mind industrial/property control. Gift exchange and useful playful creation are not universal idleness.",
+    "Niuearth’s direct page was accessible after a normal cache-miss correction; no denied-access bypass or long lore reconstruction.",
+    "The active 500–1000 goal requires further ordered queue expansion and continued quality review."
+  ]
+}

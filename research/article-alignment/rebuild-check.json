@@ -1,0 +1,23 @@
+{
+  "checked_on": "2026-10-22",
+  "taxonomy_version": "article-2026-10-21",
+  "clean_rebuild_identical_files": 10,
+  "files_sha256": {
+    "data/societies.json": "c61b381bc0206add377d171d368cd8d4e48e65a640a53ac2b91b5a45164ff119",
+    "data/decisions.json": "44179c3f5be4a8d37a0f2485c20d3136807d1c28ac3a9b35c4235b2a7879eb7d",
+    "data/sources.json": "fcabe4458bf31f6de48bb2214cb7c4b6ec055780bb3529447785b4018ea5187a",
+    "data/comparisons.json": "78ddb755956b78cfba436137d793ff2a0032e72ff848f2aa4d7e27182986df90",
+    "data/revision-history.json": "10eb1c0ba5dc6f6094715cc366774f3e39fd83c7b9e89369f62ea8898149206c",
+    "data/society-assets.json": "dccf9875bcd546ac7a19fa7e0774dbad2380bcedadb01e50f5a22255b351cc25",
+    "data/society-utopia.json": "6e8dd32fc201c753fc6887918ef71f0f62637ec78f5b1c7e33897879fd0a9a46",
+    "data/society-popularity.json": "491917ed600e2244af8771699ac86eac3ec1dc3be45f0c5197be4b338a61b01b",
+    "data/taxonomy.json": "ce17bc7cbba8d6fbc4c32ddac803a2dc128895e905670f306d18c481c8d1f3fd",
+    "data/article-examples.json": "e274a668398f82b7d5547ad2d384a12993f06b8e692e31a135874167db2a1aa3"
+  },
+  "rated_records": 890,
+  "utopia_writer_idempotent": true,
+  "popularity_writer_idempotent": true,
+  "asset_sync_preserves_current_research_and_ratings": true,
+  "asset_sync_test": "Isolated temporary copy, removed after confirming its resolved path is inside project/tmp.",
+  "migration_assets_and_numerical_scores_preserved": true
+}

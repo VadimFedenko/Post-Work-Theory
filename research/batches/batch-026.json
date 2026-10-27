@@ -1,0 +1,261 @@
+{
+  "batch_id": "batch-026",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0138",
+    "c0139",
+    "c0140",
+    "c0141",
+    "c0142"
+  ],
+  "sources": [
+    {
+      "id": "src-paradises-lost-author",
+      "title": "Paradises Lost",
+      "author": "Ursula K. Le Guin official website",
+      "url": "https://www.ursulakleguin.com/adaptation-paradises-lost",
+      "kind": "official_author_adaptation_synopsis",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public synopsis read",
+      "read_scope": "Discovery's multigenerational voyage and the land/stay conflict.",
+      "limitations": "Adaptation synopsis, not a read of the novella or proof of its production/access arrangements."
+    },
+    {
+      "id": "src-piercy-woman-author",
+      "title": "Woman on the Edge of Time",
+      "author": "Marge Piercy official website",
+      "url": "https://margepiercy.com/woman-on-the-edge-of-time",
+      "kind": "official_author_synopsis",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public synopsis read",
+      "read_scope": "Connie's visits to two opposed possible futures; Mattapoisett's person-centered community.",
+      "limitations": "Synopsis establishes scope and the novel, not an automation census. Neither possible future is presented as our inevitable history."
+    },
+    {
+      "id": "src-mattapoisett-poll",
+      "title": "Breaking the Promise of Perfection: Imperfect Utopias in Marge Piercy's Woman on the Edge of Time",
+      "author": "Elise Poll, Text Matters 14 (2024)",
+      "url": "https://czasopisma.uni.lodz.pl/textmatters/article/download/24202/24540?inline=1",
+      "kind": "secondary_scholarly_literary_analysis",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public HTML article's relevant social/technology sections read",
+      "read_scope": "Basic provision, useful chosen work and automation of repetitive mining/manufacturing.",
+      "limitations": "Secondary interpretation with novel page references; no full novel read in this pass. Continued farming and care prevent a claim of complete labor elimination."
+    },
+    {
+      "id": "src-mattapoisett-afnan",
+      "title": "Chaos and Utopia: Social Transformation in Woman on the Edge of Time",
+      "author": "Elham Afnan, Extrapolation, Winter 1996; eNotes reproduction",
+      "url": "https://www.enotes.com/topics/marge-piercy/criticism/piercy-marge-vol-128/elham-afnan-essay-date-winter-1996",
+      "kind": "secondary_scholarly_literary_analysis",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed account and available page read",
+      "read_scope": "Moneyless common provision, private personal spaces and decentralized local/regional consensus councils.",
+      "limitations": "Secondary account; no assertion that every productive activity is automated or that all local disputes disappear."
+    },
+    {
+      "id": "src-mattapoisett-whitepube",
+      "title": "Woman on the Edge of Time",
+      "author": "The White Pube, 2025 review",
+      "url": "https://thewhitepube.co.uk/texts/2025/woman-on-the-edge-of-time/",
+      "kind": "secondary_literary_review",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public relevant review passages read",
+      "read_scope": "Automation frees time while responsibilities, education and periodic sabbaticals remain.",
+      "limitations": "A broad review statement that most work is automated is not a percentage of people who do no useful work."
+    },
+    {
+      "id": "src-hesheit-author",
+      "title": "He, She and It",
+      "author": "Marge Piercy official website",
+      "url": "https://margepiercy.com/he-she-and-it",
+      "kind": "official_author_synopsis",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public synopsis read",
+      "read_scope": "Corporate indentured citizenship, free towns, excluded Glop residents and Tikva's defensive cyborg.",
+      "limitations": "Quoted reviews on the page are secondary. Domestic convenience and a defensive cyborg do not establish general labor-independent access."
+    },
+    {
+      "id": "src-hesheit-chapter1",
+      "title": "He, She and It: First Chapter",
+      "author": "Marge Piercy official website",
+      "url": "https://margepiercy.com/he-she-and-it-first-chapter",
+      "kind": "official_author_primary_excerpt",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public opening passages read",
+      "read_scope": "Yakamura-Stichen's dome, Shira's interface profession and corporate information systems.",
+      "limitations": "Opening excerpt only; AI infrastructure does not establish general automatic production or a deliberately unnecessary employment system."
+    }
+  ],
+  "societies": [
+    {
+      "id": "woman-edge-time-mattapoisett",
+      "candidate_id": "c0139",
+      "name": "Woman on the Edge of Time (Mattapoisett)",
+      "work": "Woman on the Edge of Time",
+      "society": "The communal Mattapoisett future visited by Connie",
+      "media": [
+        "book"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Piercy's novel",
+        "period": "Mattapoisett in the possible 2137 future during Connie's visits",
+        "population": "The living residents of Mattapoisett, including children and caregivers",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Connie's present-day institution",
+          "The opposed corporate future",
+          "All possible futures as one realized chronology"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Mattapoisett combines shared basic provision with selective industrial automation. Machines remove repetitive and dangerous tasks, while residents still grow food, care for children, study and make useful things. Access is organized around community needs rather than wages or private accumulation. This supports strong material guarantees and a partial post-work classification: automation helps break the employment-income link, without making useful activity disappear. The account does not establish what fraction of all residents do no work.\n\nControl belongs to people through decentralized local and regional councils and common resources. Personal space survives alongside collective provision, so communal access need not imply a single owner or an AI ruler. The high control estimate reflects that institutional structure. This remains an imperiled possible future reached through Connie's experience, not the novel's guaranteed eventual outcome. Its corporate opponent has separate institutions and cannot inherit these guarantees.",
+      "axis": {
+        "guarantees": -0.8,
+        "control": 0.85,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.95,
+            -0.6
+          ],
+          "confidence": "medium",
+          "basis": "Scholarly accounts describe community provision of necessities, with selective automation supporting it. Threats and remaining necessary labor qualify the strength, without turning distribution into wages.",
+          "source_ids": [
+            "src-mattapoisett-poll",
+            "src-mattapoisett-afnan"
+          ]
+        },
+        "control": {
+          "interval": [
+            0.65,
+            1
+          ],
+          "confidence": "medium",
+          "basis": "The account describes decentralized consensus councils, common resources and personal spaces. This supports effective collective human control rather than a central proprietor or autonomous AI.",
+          "source_ids": [
+            "src-mattapoisett-afnan"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Farm work, care, education and other useful responsibilities continue. Automated-task share, shorter labor and sabbaticals do not establish the all-resident nonworking share.",
+          "source_ids": [
+            "src-mattapoisett-poll",
+            "src-mattapoisett-whitepube"
+          ]
+        }
+      },
+      "regime_primary": 2,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-mattapoisett-poll",
+        "src-mattapoisett-afnan",
+        "src-piercy-woman-author",
+        "src-mattapoisett-whitepube"
+      ],
+      "evidence": [
+        {
+          "claim": "Material provision coexists with selective automation and ongoing useful human work.",
+          "source_ids": [
+            "src-mattapoisett-poll"
+          ],
+          "locator": "UTOPIAN POSSIBILITY AS CONSTANT STRUGGLE and TEMPERING TECHNOLOGY",
+          "kind": "secondary_lore_report"
+        },
+        {
+          "claim": "Resource sharing and decentralized councils support distributed human control.",
+          "source_ids": [
+            "src-mattapoisett-afnan"
+          ],
+          "locator": "Public account of Mattapoisett's social and political arrangements",
+          "kind": "secondary_lore_report"
+        }
+      ],
+      "uncertainties": [
+        "Assessment is reference-led and primarily secondary; no new full primary-text read was attempted.",
+        "Selective automation plus common provision supports partial admission, not a claim that all necessities make themselves.",
+        "Participation remains unresolved and the future's narrative uncertainty is retained."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0138",
+      "status": "needs_evidence",
+      "reason": "The accessible synopsis does not establish how Discovery's production and household access relate to labor.",
+      "source_ids": [
+        "src-paradises-lost-author"
+      ],
+      "analysis": "A self-contained generation ship and a religious wish to remain aboard do not establish automatic necessities or employment-independent access.",
+      "follow_up": "Skipped after a short reference check under the user's faster-pass instruction; no deep novella read is scheduled by default."
+    },
+    {
+      "candidate_id": "c0139",
+      "status": "included",
+      "reason": "Clear reference accounts establish selective automation, shared necessities and distributed human institutions.",
+      "source_ids": [
+        "src-mattapoisett-poll",
+        "src-mattapoisett-afnan",
+        "src-piercy-woman-author",
+        "src-mattapoisett-whitepube"
+      ],
+      "society_id": "woman-edge-time-mattapoisett"
+    },
+    {
+      "candidate_id": "c0140",
+      "status": "needs_evidence",
+      "reason": "The opposed corporate future is identifiable, but the quick sources do not establish its general automatic production/access system.",
+      "source_ids": [
+        "src-piercy-woman-author"
+      ],
+      "analysis": "Technological domination and inequality alone do not supply the missing economic mechanism.",
+      "follow_up": "Skip further deep reading in this pass; reopen only if a clear lore reference establishes material labor replacement."
+    },
+    {
+      "candidate_id": "c0141",
+      "status": "needs_evidence",
+      "reason": "Tikva's autonomy, information economy and defensive cyborg do not by themselves establish labor-independent basic provision.",
+      "source_ids": [
+        "src-hesheit-author"
+      ],
+      "analysis": "The source explains the free town's security conflict, without giving a general automatic production and allocation system.",
+      "follow_up": "Skip after the reference check; do not read the novel to rescue this lead by default."
+    },
+    {
+      "candidate_id": "c0142",
+      "status": "needs_evidence",
+      "reason": "Corporate indenture and AI information infrastructure are established, but available general labor replacement is not.",
+      "source_ids": [
+        "src-hesheit-author",
+        "src-hesheit-chapter1"
+      ],
+      "analysis": "A zero variant requires more than coercive employment in an advanced corporation. The Glop is excluded from corporate citizenship, not evidence of a universal entitlement.",
+      "follow_up": "Skip further deep reading in this pass. Keep Tikva and Yakamura-Stichen separate if stronger evidence later appears."
+    }
+  ],
+  "review_notes": [
+    "User steering on 2026-10-16 accelerates the workflow: use clear reference lore, skip obscure evidence gaps, and avoid deep reading to rescue a lead. The instruction is saved in methodology and user clarifications.",
+    "The latest prior checkpoint was progress: two saved batches moved dispositions from 127 to 137, retained records from 59 to 64, and sources from 205 to 219. No live external process or blocking dependency is being awaited.",
+    "Mattapoisett is admitted as a selective-automation/common-provision system using identified secondary sources. Useful human work remains; no participation census is fabricated.",
+    "The other four leads are explicitly disposed and skipped without full-text recovery, preserving the ordered queue and the user's pace preference.",
+    "Second pass checks claim support and scope against consulted references; it is not independent peer review or a full novel read."
+  ]
+}

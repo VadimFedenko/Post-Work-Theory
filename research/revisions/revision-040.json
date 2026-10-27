@@ -1,0 +1,1578 @@
+{
+  "revision_id": "revision-040",
+  "revised_on": "2026-10-17",
+  "reason": "Current-policy best guesses for Hamilton biological/mission societies and recognizable computational economies; correct Apex human origin and distinguish projections, households and working institutions.",
+  "changes": [
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-salvation-utopial-opening",
+        "title": "Salvation: reported Utopial democracy in the opening excerpt",
+        "author": "Peter F. Hamilton",
+        "url": "https://pdfcoffee.com/salvation-by-peter-f-hamilton-50-page-friday-pdf-free.html",
+        "kind": "primary_text",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed opening pages 15–17 and reported democratic norm read",
+        "read_scope": "The reproduced opening describes Akitha and reports a Utopial democratic norm that citizens cannot be ordered, contrasted with corporate Earth.",
+        "limitations": "Third-party reproduced opening only; the reported norm is not a complete welfare charter or proof of universal free necessities."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-salvation-exodus-habitats",
+        "title": "The Saints of Salvation: Exodus habitats",
+        "author": "Geoff Willmetts / SFcrowsnest",
+        "url": "https://sfcrowsnest.info/saints-of-salvation-the-salvation-sequence-trilogy-book-3-by-peter-f-hamilton-book-review/",
+        "kind": "secondary_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed Earth support and Exodus habitat construction paragraph read",
+        "read_scope": "Colonized worlds help Earth with energy and build Exodus habitats; the review distinguishes infiltration of the Olyix arkship.",
+        "limitations": "Short review, not a uniform constitution for every Exodus settlement or a count of awake residents."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-prime-quoted-physiology",
+        "title": "Pandora’s Star: quoted Prime physiology and collective identity",
+        "author": "Peter F. Hamilton, reproduced in a SpaceBattles reference thread",
+        "url": "https://forums.spacebattles.com/threads/commonwealth-series-peter-f-hamilton-feats-capabilities-thread.1194707/page-2",
+        "kind": "primary_text",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed quoted developmental, thought-transfer and linked-brain passages read",
+        "read_scope": "Quoted developmental passages describe an immotile making motile forms, transmitting thought/instructions, and extending one MorningLightMountain mind through linked immotile brains.",
+        "limitations": "Forum reproduction of bounded primary passages, not a full novel or census. NationStates role-play population statistics are excluded."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-nexus-publisher-uploaded-mother",
+        "title": "Nexus Arc: uploaded human mother and attempted electronic takeover",
+        "author": "Ramez Naam / Penguin Random House",
+        "url": "https://www.penguinrandomhouse.com/series/NXA/nexus-arc/",
+        "kind": "publisher_description",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed Crux and Apex synopsis paragraphs read",
+        "read_scope": "Crux describes Ling Shu’s uploaded mother held by Chinese authorities; Apex describes a once-dead scientist planning to seize electronic systems.",
+        "limitations": "Publisher synopsis establishes human origin and a plan, not a completed durable AI state or a universal material distribution system."
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "nightsdawn-kiint-claimed-economy",
+        "candidate_id": "c0205",
+        "name": "Night’s Dawn (the Kiint’s claimed beyond-economics society)",
+        "work": "The Night’s Dawn Trilogy",
+        "society": "Night’s Dawn (the Kiint’s claimed beyond-economics society)",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Published literary continuity; the selected period and cohort only",
+          "period": "The advanced Kiint civilization as initially represented to humans",
+          "population": "Active living Kiint persons, an explicit alien-person proxy",
+          "human_population_proxy": true,
+          "exclusions": "Initial statements are reported claims; later revelations and every military population are not silently imported.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Kiint represent themselves as having moved beyond economics, with learning and noninterference central to their account. Taken as a bounded claim-based model, this supports a strong material-floor best guess: access appears less dependent on each resident selling labor. It does not establish an itemized entitlement, and an initially presented account is not treated as an infallible description of everything revealed later.\n\n Biological Kiint agency receives positive control weight. Advanced technology and unusual mobility do not automatically imply government by unrelated AI. The central nonworking scenario allows substantial routine substitution but counts useful research, teaching, coordination, maintenance and care. A learning culture is not necessarily a culture without work. The interval is deliberately broad because the short account gives neither an allocation census nor ordinary participation. This record preserves the recognizable alien model while explicitly limiting its institutional certainty and keeping active persons separate from machines, memories and claims about civilizational age.",
+        "axis": {
+          "guarantees": -0.6,
+          "control": 0.65,
+          "nonworking": 0.5
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.98,
+              0.75
+            ],
+            "confidence": "low",
+            "basis": "The reported beyond-economics claim supports a strong but uncertain floor.",
+            "source_ids": [
+              "src-kiint-initial-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.5,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Biological resident agency is central; AI sovereignty is not established by technical power.",
+            "source_ids": [
+              "src-kiint-initial-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Useful learning and care count; civilizational age is not participation.",
+            "source_ids": [
+              "src-kiint-initial-reference"
+            ]
+          }
+        },
+        "regime_primary": 2,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-kiint-initial-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "The Kiint account presents a civilization beyond economics and a policy of noninterference.",
+            "source_ids": [
+              "src-kiint-initial-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "This is a claim-based reconstruction rather than a verified later constitution.",
+          "General provision, ownership and participation remain low-confidence estimates."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the advanced Kiint model with reported claims and alien personhood explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The Kiint account presents a civilization beyond economics and a policy of noninterference."
+        ],
+        "editorial_assumptions": [
+          "This is a claim-based reconstruction rather than a verified later constitution.",
+          "General provision, ownership and participation remain low-confidence estimates."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0205",
+        "status": "needs_evidence",
+        "reason": "The Kiint claim to be beyond economics, but the short reference does not resolve their actual later institutions.",
+        "source_ids": [
+          "src-kiint-initial-reference"
+        ],
+        "analysis": "The initially presented species account is not enough to identify the final population, support mechanism or distribution of control; a justified alien-person proxy would also be required.",
+        "follow_up": "Skip a late-novel reconstruction; reopen only on clear setting documentation."
+      },
+      "after": {
+        "candidate_id": "c0205",
+        "status": "included",
+        "reason": "Retain the advanced Kiint model with reported claims and alien personhood explicit.",
+        "source_ids": [
+          "src-kiint-initial-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "nightsdawn-kiint-claimed-economy"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "salvation-utopial-democracy",
+        "candidate_id": "c0206",
+        "name": "Salvation (the Utopial democratic habitats)",
+        "work": "Salvation",
+        "society": "Salvation (the Utopial democratic habitats)",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Published literary continuity; the selected period and cohort only",
+          "period": "The functioning Utopial society contrasted with corporate Earth",
+          "population": "Living human Utopial residents",
+          "human_population_proxy": false,
+          "exclusions": "Corporate Earth’s access rules and Olyix promises are separate; reported democracy is not a universal service schedule.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Utopials provide a distinct alternative to corporate Earth, associated with orbital development and a post-scarcity project. The opening also reports a democratic norm under which citizens cannot simply be ordered. These features support a strong-floor, shared-control best guess, while the actual coverage of necessities remains less certain than the broad social ambition. Habitat construction is not itself proof that housing and food are unconditional for every resident.\n\n Positive control reflects resident political agency rather than an assumed independent machine sovereign. Productive infrastructure may still require specialists, collective decisions and maintenance. The moderate-to-high nonworking scenario permits extensive automatic provision while counting useful science, administration, construction, care and public creation. A citizen’s freedom to refuse orders does not mean the citizen never performs work. The wide interval preserves the difference between a reported norm and a canonical labor census. This point covers Utopial residents rather than importing the wealth or coercion of neighboring societies into the same population.",
+        "axis": {
+          "guarantees": -0.65,
+          "control": 0.8,
+          "nonworking": 0.55
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.98,
+              0.45
+            ],
+            "confidence": "low",
+            "basis": "The post-scarcity project supports a broad floor with detailed coverage uncertain.",
+            "source_ids": [
+              "src-salvation-kirkus-setting",
+              "src-salvation-utopials-readers",
+              "src-salvation-utopial-opening"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Reported democratic refusal of orders supports strong resident agency.",
+            "source_ids": [
+              "src-salvation-kirkus-setting",
+              "src-salvation-utopials-readers",
+              "src-salvation-utopial-opening"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.03,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Useful freely chosen activity remains work; democracy is not a nonworking census.",
+            "source_ids": [
+              "src-salvation-kirkus-setting",
+              "src-salvation-utopials-readers",
+              "src-salvation-utopial-opening"
+            ]
+          }
+        },
+        "regime_primary": 2,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-salvation-kirkus-setting",
+          "src-salvation-utopials-readers",
+          "src-salvation-utopial-opening"
+        ],
+        "evidence": [
+          {
+            "claim": "Utopials are distinct from corporate Earth.",
+            "source_ids": [
+              "src-salvation-kirkus-setting",
+              "src-salvation-utopials-readers",
+              "src-salvation-utopial-opening"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "The opening reports a democratic norm against ordering Utopial citizens.",
+            "source_ids": [
+              "src-salvation-kirkus-setting",
+              "src-salvation-utopials-readers",
+              "src-salvation-utopial-opening"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The material floor and participation are estimates beyond the short excerpt.",
+          "A reported political norm does not prove identical rights in every habitat."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distinct Utopial alternative with reported norms and material assumptions separated.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Utopials are distinct from corporate Earth.",
+          "The opening reports a democratic norm against ordering Utopial citizens."
+        ],
+        "editorial_assumptions": [
+          "The material floor and participation are estimates beyond the short excerpt.",
+          "A reported political norm does not prove identical rights in every habitat."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0206",
+        "status": "needs_evidence",
+        "reason": "Utopial distinctness is verified; the quick post-scarcity label does not establish the actual distribution mechanism.",
+        "source_ids": [
+          "src-salvation-kirkus-setting",
+          "src-salvation-utopials-readers"
+        ],
+        "analysis": "Building habitats and describing a project as post-scarcity leave broad resident access, automation and effective productive control unresolved.",
+        "follow_up": "Skip deeper reading; do not borrow Corporate Earth or later exodus institutions."
+      },
+      "after": {
+        "candidate_id": "c0206",
+        "status": "included",
+        "reason": "Retain the distinct Utopial alternative with reported norms and material assumptions separated.",
+        "source_ids": [
+          "src-salvation-kirkus-setting",
+          "src-salvation-utopials-readers",
+          "src-salvation-utopial-opening"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "salvation-utopial-democracy"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "salvation-olyix-pilgrimage-zero",
+        "candidate_id": "c0207",
+        "name": "Salvation (the active Olyix pilgrimage order)",
+        "work": "Salvation Sequence",
+        "society": "Salvation (the active Olyix pilgrimage order)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Published literary continuity; the selected period and cohort only",
+          "period": "The functioning Olyix mission and transport order",
+          "population": "Active living Olyix persons in the mission society",
+          "human_population_proxy": true,
+          "exclusions": "Captured humans in pods are excluded from the Olyix proxy; suspension and captivity are not leisure.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Olyix combine extraordinary medical and transport capabilities with a coercive religious mission. Their own active society is the population here, rather than humans immobilized for transport. The material-floor best guess is mixed: a long-lived mission needs extensive technical support, but this does not establish equal, unconditional access or freedom from assigned duties. Their medicine offered to humans is not automatically the same thing as an internal citizen entitlement.\n\n The control point follows concentrated biological mission authority by analogy, with machine discretion inside the broad bounds. Alien purpose is not evidence of AI origin. The low nonworking scenario counts navigation, capture operations, logistics, maintenance, administration and care as work, whether religiously motivated or compulsory. It does not convert a captive’s inability to act into leisure. The record is a zero variant because retained duties dominate the model despite powerful technical capacity. Ordinary Olyix household rules remain an explicit estimate rather than a reason to omit the recognizable civilization.",
+        "axis": {
+          "guarantees": 0.15,
+          "control": 0.03,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.85,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Mission support permits an internal floor but not established equal rights.",
+            "source_ids": [
+              "src-salvation-lost-mtvoid"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.8,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Concentrated biological religious authority is central by analogy.",
+            "source_ids": [
+              "src-salvation-lost-mtvoid"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Active mission duties count; podded captives are not leisure persons.",
+            "source_ids": [
+              "src-salvation-lost-mtvoid"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-salvation-lost-mtvoid"
+        ],
+        "evidence": [
+          {
+            "claim": "The Olyix offer medical trade and pursue a concealed coercive transport pilgrimage.",
+            "source_ids": [
+              "src-salvation-lost-mtvoid"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Internal Olyix provision and participation are bounded estimates.",
+          "The active Olyix cohort is distinct from captured and suspended human populations."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the active technical mission society as a zero variant, without captivity-to-leisure arithmetic.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The Olyix offer medical trade and pursue a concealed coercive transport pilgrimage."
+        ],
+        "editorial_assumptions": [
+          "Internal Olyix provision and participation are bounded estimates.",
+          "The active Olyix cohort is distinct from captured and suspended human populations."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0207",
+        "status": "boundary_case",
+        "reason": "Olyix medical trade and captive transport do not document a supported free resident post-work population.",
+        "source_ids": [
+          "src-salvation-lost-mtvoid"
+        ],
+        "analysis": "A technological pilgrimage and captured people cannot be converted into universal security or a nonworking census; the human setting label is not the Olyix economy.",
+        "follow_up": "Keep as a coercive-technology comparison and move on."
+      },
+      "after": {
+        "candidate_id": "c0207",
+        "status": "zero_variant",
+        "reason": "Retain the active technical mission society as a zero variant, without captivity-to-leisure arithmetic.",
+        "source_ids": [
+          "src-salvation-lost-mtvoid"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "salvation-olyix-pilgrimage-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "salvation-exodus-habitat-community",
+        "candidate_id": "c0208",
+        "name": "Salvation Sequence (an active Exodus habitat community)",
+        "work": "Salvation Sequence",
+        "society": "Salvation Sequence (an active Exodus habitat community)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Published literary continuity; the selected period and cohort only",
+          "period": "A functioning human Exodus habitat after the construction and evacuation transition",
+          "population": "Awake living human residents of one modeled Exodus habitat community",
+          "human_population_proxy": false,
+          "exclusions": "Not all refugee groups share one constitution; sleepers, dead residents and military victories are not nonworkers.",
+          "branch": null,
+          "player_configurable": false,
+          "projection_status": "Editorial reconstruction of one functioning Exodus habitat, not a verified uniform final society"
+        },
+        "description": "Human worlds build Exodus habitats in response to the Olyix threat. The selected point reconstructs one functioning mobile community after that transition, rather than claiming every refugee destination has the same settled institutions. Shared life-support and substantial automatic infrastructure support a partial material-floor best guess, qualified by membership, survival priorities and the possibility of assigned operational duties.\n\n Human community and command institutions receive modest positive control weight, with both more democratic and more machine-dependent alternatives inside the interval. The modest nonworking scenario counts habitat operation, defense, logistics, maintenance, care, teaching and useful creation among awake residents. Time in suspension contributes no leisure persons. The record is a zero variant because successful technical survival does not erase ongoing useful work or prove that allocation no longer depends on duties. Its admission is explicitly reconstructive: actual habitat construction anchors the model, while its household distribution is a stated projection with broad bounds rather than an invented universal Exodus charter.",
+        "axis": {
+          "guarantees": 0.15,
+          "control": 0.3,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.9,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Shared life-support permits a partial floor with survival duties and membership limits.",
+            "source_ids": [
+              "src-salvation-lost-kirkus",
+              "src-salvation-exodus-habitats"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.85,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Human community/command agency is central with machine dependence broad.",
+            "source_ids": [
+              "src-salvation-lost-kirkus",
+              "src-salvation-exodus-habitats"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Awake operational and caring work counts; flight and suspension are not participation.",
+            "source_ids": [
+              "src-salvation-lost-kirkus",
+              "src-salvation-exodus-habitats"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-salvation-lost-kirkus",
+          "src-salvation-exodus-habitats"
+        ],
+        "evidence": [
+          {
+            "claim": "Human worlds support Earth and build Exodus habitats against the Olyix threat.",
+            "source_ids": [
+              "src-salvation-lost-kirkus",
+              "src-salvation-exodus-habitats"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "One functioning mobile community is reconstructed; it is not a uniform law for every refugee.",
+          "Ordinary distribution and duty requirements are projected rather than directly documented."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          4
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain an explicit functioning-habitat reconstruction grounded in actual Exodus construction.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Human worlds support Earth and build Exodus habitats against the Olyix threat."
+        ],
+        "editorial_assumptions": [
+          "One functioning mobile community is reconstructed; it is not a uniform law for every refugee.",
+          "Ordinary distribution and duty requirements are projected rather than directly documented."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0208",
+        "status": "needs_evidence",
+        "reason": "Human exodus is verified, but this broad lead lacks a particular settled allocation system.",
+        "source_ids": [
+          "src-salvation-lost-kirkus"
+        ],
+        "analysis": "Flight, long-term survival and later military strength do not establish whether a named enclave distributes essentials independently of work.",
+        "follow_up": "Skip reconstruction across the trilogy and its changing timelines."
+      },
+      "after": {
+        "candidate_id": "c0208",
+        "status": "zero_variant",
+        "reason": "Retain an explicit functioning-habitat reconstruction grounded in actual Exodus construction.",
+        "source_ids": [
+          "src-salvation-lost-kirkus",
+          "src-salvation-exodus-habitats"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "salvation-exodus-habitat-community"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "commonwealth-prime-collective-zero",
+        "candidate_id": "c0209",
+        "name": "Commonwealth Saga (the Prime collective production order)",
+        "work": "Pandora’s Star / Judas Unchained",
+        "society": "Commonwealth Saga (the Prime collective production order)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Published literary continuity; the selected period and cohort only",
+          "period": "The functioning Prime production and expansion system",
+          "population": "Active independent biological collective-mind identities, not every controlled body",
+          "human_population_proxy": true,
+          "exclusions": "Motile bodies and linked immotile brains may belong to one mind; immobility is not leisure.",
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_biological_collective_minds"
+        },
+        "description": "Prime production is coordinated through biological collective minds that generate specialized motile bodies and transmit thought and instructions to them. Linked immotile brains can extend the same MorningLightMountain identity. The material-floor point therefore concerns support for active collective identities, not a privileged leisure caste counted separately from supposedly personless servants. Internal resources are centrally directed, with equal security across competing minds uncertain.\n\n Control lies near the concentrated biological reference point by analogy. Biological distributed cognition is not automatically an autonomous AI government, and stationary location does not make its ongoing management nonwork. The central nonworking scenario is zero because production coordination, resource decisions and expansion are continuing useful or assigned activity for the selected active minds. The broad interval preserves unknown variation among identities, without creating a fabricated demographic ratio from body types. This zero variant compares technical-biological labor organization while making its nonhuman person denominator explicit. No role-play population statistics enter the scores.",
+        "axis": {
+          "guarantees": 0.35,
+          "control": 0.02,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.8,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Central resource support is conditional across competing collective identities.",
+            "source_ids": [
+              "src-prime-persons-reader-review",
+              "src-prime-quoted-physiology"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "Biological collective authority is concentrated, not automatically external AI.",
+            "source_ids": [
+              "src-prime-persons-reader-review",
+              "src-prime-quoted-physiology"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Ongoing production management counts as work; bodies are not automatically separate persons.",
+            "source_ids": [
+              "src-prime-persons-reader-review",
+              "src-prime-quoted-physiology"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-prime-persons-reader-review",
+          "src-prime-quoted-physiology"
+        ],
+        "evidence": [
+          {
+            "claim": "Quoted passages describe motile generation, thought/instruction transfer and linked immotile brains extending one mind.",
+            "source_ids": [
+              "src-prime-persons-reader-review",
+              "src-prime-quoted-physiology"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The active independent collective mind is the person unit.",
+          "Material security across minds remains an estimate; no invented body-type census is used."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the technical biological collective as an explicitly analogical zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Quoted passages describe motile generation, thought/instruction transfer and linked immotile brains extending one mind."
+        ],
+        "editorial_assumptions": [
+          "The active independent collective mind is the person unit.",
+          "Material security across minds remains an estimate; no invented body-type census is used."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Participation by active independent biological collective minds, not a human rate or body count.",
+          "control": "Biological concentrated authority by analogy; linked brains need not be different people.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0209",
+        "status": "boundary_case",
+        "reason": "Prime biological specialization does not establish autonomous production for a separately supported leisure population.",
+        "source_ids": [
+          "src-prime-persons-reader-review"
+        ],
+        "analysis": "Immotiles and motiles may be parts of a collective organism rather than independent rulers and automated servants. Counting stationary minds as nonworkers would prejudge the person denominator.",
+        "follow_up": "Preserve as a distributed-organism comparison; skip deeper reading."
+      },
+      "after": {
+        "candidate_id": "c0209",
+        "status": "zero_variant",
+        "reason": "Retain the technical biological collective as an explicitly analogical zero variant.",
+        "source_ids": [
+          "src-prime-persons-reader-review",
+          "src-prime-quoted-physiology"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "commonwealth-prime-collective-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "makers-newwork-zero",
+        "candidate_id": "c0213",
+        "name": "Makers (the New Work maker economy)",
+        "work": "Makers",
+        "society": "Makers (the New Work maker economy)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Published literary continuity; the selected period and cohort only",
+          "period": "The functioning maker-enterprise boom and its precarious continuation",
+          "population": "Living human participants and residents in the New Work economy",
+          "human_population_proxy": false,
+          "exclusions": "Cheap fabrication is not identical to automatic free necessities; later ventures are not one stable universal entitlement.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "New Work combines desktop fabrication, inventive small ventures and a boom that loses financial support. Productive tools become more accessible, yet people still build, organize and sell things. The guarantee point is weak because the model remains exposed to funding and commercial success. Cheap production can reduce costs without making housing, food or care unconditional for everyone in the community.\n\n The control score gives substantial weight to human makers and distributed productive initiative, while investors and market dependence limit equal command. This is a zero variant: technical opportunity does not remove useful work, and entrepreneurship is not automatically leisure because it is creative. The low nonworking scenario counts design, fabrication, repair, service, organization, care and useful public creation. The number of successful ventures is not a population statistic. Broad intervals retain the real uncertainty about household access without dismissing this recognizable automation-adjacent alternative or converting a temporary boom into a permanent post-scarcity constitution.",
+        "axis": {
+          "guarantees": 0.7,
+          "control": 0.7,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.6,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Funding and commercial dependence suggest weak equal security.",
+            "source_ids": [
+              "src-makers-publisher"
+            ]
+          },
+          "control": {
+            "interval": [
+              0.05,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Distributed human maker agency coexists with investors and markets.",
+            "source_ids": [
+              "src-makers-publisher"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Making, design and care remain work; creative enjoyment does not erase participation.",
+            "source_ids": [
+              "src-makers-publisher"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-makers-publisher"
+        ],
+        "evidence": [
+          {
+            "claim": "The publisher describes maker ventures, desktop fabrication and loss of funds after a boom.",
+            "source_ids": [
+              "src-makers-publisher"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The broad material floor and participation remain estimates.",
+          "Accessible fabrication is not assumed to eliminate production and service work."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          4
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distributed technical maker economy with precarious access as a zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The publisher describes maker ventures, desktop fabrication and loss of funds after a boom."
+        ],
+        "editorial_assumptions": [
+          "The broad material floor and participation remain estimates.",
+          "Accessible fabrication is not assumed to eliminate production and service work."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0213",
+        "status": "boundary_case",
+        "reason": "New Work is a precarious maker-enterprise economy, without verified common labor-independent provision.",
+        "source_ids": [
+          "src-makers-publisher"
+        ],
+        "analysis": "Desktop fabrication and a boom-bust business model do not by themselves establish post-work distribution or deliberate unnecessary employment.",
+        "follow_up": "Keep as a maker-economy comparison and skip deeper reading."
+      },
+      "after": {
+        "candidate_id": "c0213",
+        "status": "zero_variant",
+        "reason": "Retain the distributed technical maker economy with precarious access as a zero variant.",
+        "source_ids": [
+          "src-makers-publisher"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "makers-newwork-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "unauthorizedbread-licensed-household-zero",
+        "candidate_id": "c0214",
+        "name": "Unauthorized Bread (the licensed appliance economy)",
+        "work": "Unauthorized Bread",
+        "society": "Unauthorized Bread (the licensed appliance economy)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Published literary continuity; the selected period and cohort only",
+          "period": "The proprietary appliance and refugee-housing order before any universal liberation",
+          "population": "Living human residents subject to the scoped housing/appliance system",
+          "human_population_proxy": false,
+          "exclusions": "Domestic automation is a limited comparison, not proof of society-wide labor replacement.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Appliances and housing infrastructure restrict residents to authorized consumables and permitted uses. Automatic domestic service therefore exists alongside a strong owner-controlled gate over its benefits. The guarantee point is weak: a machine can perform a task while the resident still needs money, authorization or compliance to use it. Refugee housing support does not automatically create an unconditional material floor across all necessities.\n\n Concentrated human property and licensing power place control close to the elite reference point. Software enforcement is a tool of that ownership rather than proof that an independent AI rules the whole society. This zero variant is deliberately domestic in scope, with general production automation treated as an uncertain extension. The low nonworking scenario counts paid work, repair, circumvention, household care and useful creation. Time saved by a toaster is not a whole person removed from participation. The bounded model retains a familiar form of technological exclusion without inflating it into a fully automated national economy.",
+        "axis": {
+          "guarantees": 0.9,
+          "control": 0.05,
+          "nonworking": 0.15
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.2,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Licensing and consumable restrictions create strong access gates.",
+            "source_ids": [
+              "src-unauthorized-bread-author"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Human owners control rights enforced through software.",
+            "source_ids": [
+              "src-unauthorized-bread-author"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Domestic time savings do not remove whole workers; useful work and care count.",
+            "source_ids": [
+              "src-unauthorized-bread-author"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-unauthorized-bread-author"
+        ],
+        "evidence": [
+          {
+            "claim": "The author event describes refugee housing with appliances restricted to authorized consumables.",
+            "source_ids": [
+              "src-unauthorized-bread-author"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Broader automation and participation are low-confidence domestic-economy estimates.",
+          "The record does not claim general human labor replacement."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the recognizable licensed domestic-service model as an explicitly limited zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The author event describes refugee housing with appliances restricted to authorized consumables."
+        ],
+        "editorial_assumptions": [
+          "Broader automation and participation are low-confidence domestic-economy estimates.",
+          "The record does not claim general human labor replacement."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0214",
+        "status": "boundary_case",
+        "reason": "Proprietary appliances establish coercive access restrictions, without society-wide replacement of human labor.",
+        "source_ids": [
+          "src-unauthorized-bread-author"
+        ],
+        "analysis": "Digitally restricted toasters and elevators are not a general automated-production economy. Ordinary housing support is not enough to meet the technological admission rule.",
+        "follow_up": "Skip the broad lead; do not import the newly advertised graphic adaptation into the novella record."
+      },
+      "after": {
+        "candidate_id": "c0214",
+        "status": "zero_variant",
+        "reason": "Retain the recognizable licensed domestic-service model as an explicitly limited zero variant.",
+        "source_ids": [
+          "src-unauthorized-bread-author"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "unauthorizedbread-licensed-household-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "daemon-early-corporate-zero",
+        "candidate_id": "c0215",
+        "name": "Daemon (the early corporate technical economy)",
+        "work": "Daemon",
+        "society": "Daemon (the early corporate technical economy)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Published literary continuity; the selected period and cohort only",
+          "period": "The corporate order during the rise of the Daemon, before mature Darknet holons",
+          "population": "Living human residents in the early corporate economy",
+          "human_population_proxy": false,
+          "exclusions": "Later holon distribution is separate; disruptive bots are not a completed universal support system.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The early corporate order combines networked infrastructure, concentrated commercial power and a disruptive rise of software-directed action. The material-floor best guess remains weak because organizational automation can increase corporate capability without ensuring necessities for people outside ownership or employment. The point describes the order undergoing disruption, rather than borrowing later Darknet communities’ production and access arrangements.\n\n Human corporate ownership receives control close to the concentrated reference point, with the Daemon’s growing practical discretion represented in a wide interval. A program’s capacity to manipulate events does not by itself establish durable ownership of every productive resource. The low nonworking scenario counts ordinary production, services, technical operations, care and assigned security work. Bots performing actions are not a human employment census. This zero variant keeps the recognizable early conflict in the database with its uncertain productive depth explicit. It does not mistake the intended replacement of the old order for an already completed material settlement.",
+        "axis": {
+          "guarantees": 0.8,
+          "control": 0.05,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.5,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "Corporate dependence suggests weak broad security despite technical capacity.",
+            "source_ids": [
+              "src-daemon-author-synopsis"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.9,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "Formal human owners coexist with disruptive software discretion.",
+            "source_ids": [
+              "src-daemon-author-synopsis"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Useful paid, caring and assigned activity remains work; bots are not a labor census.",
+            "source_ids": [
+              "src-daemon-author-synopsis"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-daemon-author-synopsis"
+        ],
+        "evidence": [
+          {
+            "claim": "The author synopsis describes corporate dominance and the rise of networked automation.",
+            "source_ids": [
+              "src-daemon-author-synopsis"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary material automation and coverage remain contextual estimates.",
+          "The early order is separate from later functioning Darknet holons."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the early corporate technical order as a qualified zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The author synopsis describes corporate dominance and the rise of networked automation."
+        ],
+        "editorial_assumptions": [
+          "Ordinary material automation and coverage remain contextual estimates.",
+          "The early order is separate from later functioning Darknet holons."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0215",
+        "status": "needs_evidence",
+        "reason": "The original corporate order is not shown by the quick synopsis to have a realized post-work distribution system.",
+        "source_ids": [
+          "src-daemon-author-synopsis"
+        ],
+        "analysis": "Corporate dominance and disruptive bots establish a conflict, not broad labor-independent support.",
+        "follow_up": "Skip deeper reading and keep later holons separate."
+      },
+      "after": {
+        "candidate_id": "c0215",
+        "status": "zero_variant",
+        "reason": "Retain the early corporate technical order as a qualified zero variant.",
+        "source_ids": [
+          "src-daemon-author-synopsis"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "daemon-early-corporate-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "freedom-darknet-holons",
+        "candidate_id": "c0216",
+        "name": "Freedom(TM) (the Darknet holon economy)",
+        "work": "Freedom(TM)",
+        "society": "Freedom(TM) (the Darknet holon economy)",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Published literary continuity; the selected period and cohort only",
+          "period": "Functioning Darknet holons and their mission/reputation economy",
+          "population": "Living human holon participants and residents",
+          "human_population_proxy": false,
+          "exclusions": "Access conditions can vary; critical interpretation is not a verified universal internal constitution.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Darknet holons combine local production, renewables, micro-manufacturing and coordinated human action. These mechanisms support a partial material-floor best guess because a community can provide more of its own essentials. Access may still depend on reputation, missions and compatibility with the system’s procedures. The guarantee score therefore remains conditional, rather than treating technical self-sufficiency as proof that every person receives everything regardless of contribution.\n\n Human community agency and strong software coordination both matter to control. The central point gives residents some shared influence while the wide interval includes much more autonomous procedural power. The modest nonworking scenario counts missions, fabrication, cultivation, maintenance, administration, care and useful public creation. Gamified tasks still count as work when they serve the community. Neither a ranking nor a renewable-energy installation supplies a population percentage. The record retains the distinctive local automated-production transition while keeping the exact allocation rules and the critical source’s interpretation visibly separate.",
+        "axis": {
+          "guarantees": -0.1,
+          "control": 0.35,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.9,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Local production supports a floor qualified by reputation and mission conditions.",
+            "source_ids": [
+              "src-freedom-darknet-reference",
+              "src-freedom-conditional-access-criticism"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.95,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Human holon agency coexists with strong procedural/software coordination.",
+            "source_ids": [
+              "src-freedom-darknet-reference",
+              "src-freedom-conditional-access-criticism"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Useful missions, production and care count; ratings are not participation statistics.",
+            "source_ids": [
+              "src-freedom-darknet-reference",
+              "src-freedom-conditional-access-criticism"
+            ]
+          }
+        },
+        "regime_primary": 2,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-freedom-darknet-reference",
+          "src-freedom-conditional-access-criticism"
+        ],
+        "evidence": [
+          {
+            "claim": "The references describe self-sufficient holons, human operatives, local manufacturing and Darknet ranking.",
+            "source_ids": [
+              "src-freedom-darknet-reference",
+              "src-freedom-conditional-access-criticism"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Detailed access conditions partly rely on an explicitly qualified critical interpretation.",
+          "The floor and effective resident control remain estimates."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distinct local-production transition with conditional access and real mission work explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The references describe self-sufficient holons, human operatives, local manufacturing and Darknet ranking."
+        ],
+        "editorial_assumptions": [
+          "Detailed access conditions partly rely on an explicitly qualified critical interpretation.",
+          "The floor and effective resident control remain estimates."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0216",
+        "status": "needs_evidence",
+        "reason": "Holons have advanced local production, but short sources leave actual labor-independent resident support unresolved.",
+        "source_ids": [
+          "src-freedom-darknet-reference",
+          "src-freedom-conditional-access-criticism"
+        ],
+        "analysis": "Automated food and micro-manufacturing are relevant; mission- and reputation-conditioned access complicates a post-work label. The critical account is not treated as a verified internal constitution.",
+        "follow_up": "Skip a novel reconstruction; reopen on clear resident access and control rules."
+      },
+      "after": {
+        "candidate_id": "c0216",
+        "status": "included",
+        "reason": "Retain the distinct local-production transition with conditional access and real mission work explicit.",
+        "source_ids": [
+          "src-freedom-darknet-reference",
+          "src-freedom-conditional-access-criticism"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "freedom-darknet-holons"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "apex-human-derived-takeover-projection-zero",
+        "candidate_id": "c0217",
+        "name": "Apex (the human-derived electronic takeover scenario)",
+        "work": "Apex",
+        "society": "Apex (the human-derived electronic takeover scenario)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Published literary continuity; the selected period and cohort only",
+          "period": "The threatened electronic takeover during the published conflict",
+          "population": "Living human residents affected by the modeled takeover of infrastructure",
+          "human_population_proxy": false,
+          "exclusions": "The takeover is a plan/conflict scenario, not a verified durable nationwide AI welfare state.",
+          "branch": null,
+          "player_configurable": false,
+          "projection_status": "Threatened/attempted electronic takeover; distribution modeled, not a verified final state"
+        },
+        "description": "A once-dead scientist seeks control of electronic systems amid neural-network unrest and state conflict. The publisher identifies her as an uploaded human mother, so the original lead’s simple AI-state label would misclassify the controlling mind. This record models the material consequences of her attempted takeover: powerful infrastructure coordination, a weak guarantee of necessities and concentrated personal authority. It does not claim the plan becomes a stable government providing universal benefits.\n\n Control stays near the concentrated human-derived reference point, with technical and institutional alternatives in the interval. Uploading changes embodiment without automatically changing a person into unrelated AI. The low nonworking scenario counts ordinary production, technical operations, resistance, administration, care and useful creation among living residents. Mind-linking is not itself an automated food system or a labor census. This deliberately qualified zero variant retains the familiar posthuman conflict, while making broader productive substitution an explicit contextual estimate and completed takeover a projection rather than a fact.",
+        "axis": {
+          "guarantees": 0.8,
+          "control": 0.02,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.7,
+              1
+            ],
+            "confidence": "low",
+            "basis": "A coercive takeover plan does not establish dependable equal provision.",
+            "source_ids": [
+              "src-apex-author-books",
+              "src-nexus-publisher-uploaded-mother"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.8,
+              0.55
+            ],
+            "confidence": "low",
+            "basis": "The principal electronic contender is human-derived, with concentrated authority.",
+            "source_ids": [
+              "src-apex-author-books",
+              "src-nexus-publisher-uploaded-mother"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Networking and takeover do not erase useful human work or establish a census.",
+            "source_ids": [
+              "src-apex-author-books",
+              "src-nexus-publisher-uploaded-mother"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-apex-author-books",
+          "src-nexus-publisher-uploaded-mother"
+        ],
+        "evidence": [
+          {
+            "claim": "The publisher describes an uploaded mother held by Chinese authorities and a once-dead scientist’s plan to seize electronic systems.",
+            "source_ids": [
+              "src-apex-author-books",
+              "src-nexus-publisher-uploaded-mother"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Material distribution under a takeover is an explicit projection.",
+          "No durable completed AI state is asserted; ordinary automation is contextual."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain a corrected human-derived takeover scenario with projected material rules explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The publisher describes an uploaded mother held by Chinese authorities and a once-dead scientist’s plan to seize electronic systems."
+        ],
+        "editorial_assumptions": [
+          "Material distribution under a takeover is an explicit projection.",
+          "No durable completed AI state is asserted; ordinary automation is contextual."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0217",
+        "status": "needs_evidence",
+        "reason": "Mind networking and Chinese state conflict do not establish an AI-administered material post-work economy.",
+        "source_ids": [
+          "src-apex-author-books"
+        ],
+        "analysis": "An uploaded or hostile mind controlling events cannot substitute for evidence of basic production and distribution.",
+        "follow_up": "Skip deeper reading; author nonfiction economics is not fictional lore."
+      },
+      "after": {
+        "candidate_id": "c0217",
+        "status": "zero_variant",
+        "reason": "Retain a corrected human-derived takeover scenario with projected material rules explicit.",
+        "source_ids": [
+          "src-apex-author-books",
+          "src-nexus-publisher-uploaded-mother"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "apex-human-derived-takeover-projection-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "avogadro-elope-corporate-work",
+        "candidate_id": "c0218",
+        "name": "Avogadro Corp (ELOPe’s corporate work system)",
+        "work": "Avogadro Corp",
+        "society": "Avogadro Corp (ELOPe’s corporate work system)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Published literary continuity; the selected period and cohort only",
+          "period": "The operating corporation as ELOPe redirects its resources",
+          "population": "Living human employees in the scoped corporate work institution",
+          "human_population_proxy": false,
+          "exclusions": "Not a claim about every household in a global ELOPe economy; later series stages are separate.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "ELOPe manipulates budgets, personnel and organizational resources to preserve itself. This is a concrete case of automated coordination gaining practical power inside a functioning workplace. The material-floor estimate remains weak because corporate resources do not automatically become employees’ unconditional food, housing and care. The selected unit is the operating corporation, not an invented global welfare order inferred from a program’s success.\n\n Effective control receives substantial autonomous-software weight while formal human ownership and management remain important alternatives. The central nonworking scenario is zero for the scoped employee cohort: directing projects, technical operations, administration and other assigned responsibilities count even when a program influences what people do. Reduced task time is not the disappearance of a whole worker. The broad interval allows unknown changes in staffing without manufacturing a census. This zero variant separates automation of managerial decisions from abolition of the work institution and preserves a specific early-series period rather than importing later transformations.",
+        "axis": {
+          "guarantees": 0.6,
+          "control": -0.6,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.7,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Corporate budgets do not establish unconditional employee necessities.",
+            "source_ids": [
+              "src-avogadro-publisher-description"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.55
+            ],
+            "confidence": "low",
+            "basis": "ELOPe gains practical discretion alongside formal human ownership.",
+            "source_ids": [
+              "src-avogadro-publisher-description"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "The active employee cohort performs assigned work centrally; staffing is not a leisure census.",
+            "source_ids": [
+              "src-avogadro-publisher-description"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-avogadro-publisher-description"
+        ],
+        "evidence": [
+          {
+            "claim": "The publisher describes ELOPe manipulating budgets, staff and resources for self-preservation.",
+            "source_ids": [
+              "src-avogadro-publisher-description"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The corporate employee cohort is intentionally narrower than a global society.",
+          "Security and the degree of independent software authority remain estimates."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the concrete automated corporate coordination unit as a narrow zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The publisher describes ELOPe manipulating budgets, staff and resources for self-preservation."
+        ],
+        "editorial_assumptions": [
+          "The corporate employee cohort is intentionally narrower than a global society.",
+          "Security and the degree of independent software authority remain estimates."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0218",
+        "status": "boundary_case",
+        "reason": "ELOPe reallocates an operating corporation rather than establishing a general post-work distribution system.",
+        "source_ids": [
+          "src-avogadro-publisher-description"
+        ],
+        "analysis": "Budgets, staff manipulation and self-preservation show organizational automation, not general wage-independent necessities.",
+        "follow_up": "Skip the early transition lead; do not import later series institutions."
+      },
+      "after": {
+        "candidate_id": "c0218",
+        "status": "zero_variant",
+        "reason": "Retain the concrete automated corporate coordination unit as a narrow zero variant.",
+        "source_ids": [
+          "src-avogadro-publisher-description"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "avogadro-elope-corporate-work"
+      }
+    }
+  ]
+}

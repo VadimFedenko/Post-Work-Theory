@@ -1,0 +1,332 @@
+{
+  "batch_id": "batch-001",
+  "researched_on": "2026-10-16",
+  "candidate_ids": ["c0001", "c0002", "c0003", "c0004", "c0005", "c0006"],
+  "sources": [
+    {
+      "id": "src-banks-notes",
+      "title": "A Few Notes on the Culture",
+      "author": "Iain M. Banks",
+      "url": "https://vavatch.co.uk/books/banks/cultnote.htm",
+      "kind": "primary_author_essay",
+      "accessed_on": "2026-10-16",
+      "access_method": "Indexed page extracts; direct page fetch timed out",
+      "read_scope": "Opening, referendum and implementation passage; manufacturing passage also read in an indexed PDF mirror.",
+      "limitations": "Not a successful complete direct fetch. Do not claim the entire essay was read in this session.",
+      "alternate_url": "https://www.haddonstuff.f9.co.uk/assets/pdf/A%20Few%20Notes%20on%20the%20Culture.pdf"
+    },
+    {
+      "id": "src-sfe-banks",
+      "title": "Banks, Iain M",
+      "author": "The Encyclopedia of Science Fiction",
+      "url": "https://sf-encyclopedia.com/entry/banks_iain_m",
+      "kind": "secondary_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Web page opened and indexed passages read",
+      "read_scope": "Culture's material abundance and voluntary activity.",
+      "limitations": "Reference overview, not a substitute for all Culture novels."
+    },
+    {
+      "id": "src-forster-machine",
+      "title": "The Machine Stops, in The Eternal Moment and Other Stories",
+      "author": "E. M. Forster",
+      "url": "https://www.gutenberg.org/cache/epub/72890/pg72890-images.html",
+      "kind": "primary_fiction",
+      "accessed_on": "2026-10-16",
+      "access_method": "Project Gutenberg HTML; opening and relevant passages in all three parts read",
+      "read_scope": "Part I: provision and human attendant; Part II: Homelessness and repair apparatus; Part III: committees, religion, deterioration and collapse.",
+      "limitations": "One short story; no population-wide employment statistic."
+    },
+    {
+      "id": "src-manna-4",
+      "title": "Manna, Chapter 4",
+      "author": "Marshall Brain",
+      "url": "https://marshallbrain.com/manna4",
+      "kind": "primary_fiction",
+      "accessed_on": "2026-10-16",
+      "access_method": "Substantial indexed primary-text extract read; direct retrieval failed",
+      "read_scope": "Terrafoam housing, meals, concentrated wealth, surveillance, dismissal and movement restrictions.",
+      "limitations": "Do not infer national employment rates from the population of the welfare compounds."
+    },
+    {
+      "id": "src-manna-5",
+      "title": "Manna, Chapter 5",
+      "author": "Marshall Brain",
+      "url": "https://marshallbrain.com/manna5",
+      "kind": "primary_fiction",
+      "accessed_on": "2026-10-16",
+      "access_method": "Substantial indexed primary-text extract read; direct retrieval failed",
+      "read_scope": "4GC shares, Australian resources, equal resource credits, eligibility and voluntary orientation work.",
+      "limitations": "Membership-based provision; not a worldwide entitlement."
+    },
+    {
+      "id": "src-manna-6",
+      "title": "Manna, Chapter 6",
+      "author": "Marshall Brain",
+      "url": "https://marshallbrain.com/manna6",
+      "kind": "primary_fiction",
+      "accessed_on": "2026-10-16",
+      "access_method": "Substantial indexed primary-text extract read",
+      "read_scope": "Robot services and voluntary research, design, art and recreation.",
+      "limitations": "Freedom from compulsory work does not establish the percentage doing productive voluntary work."
+    },
+    {
+      "id": "src-manna-8",
+      "title": "Manna, Chapter 8",
+      "author": "Marshall Brain",
+      "url": "https://marshallbrain.com/manna8",
+      "kind": "primary_fiction",
+      "accessed_on": "2026-10-16",
+      "access_method": "Indexed chapter text read",
+      "read_scope": "Innovation, virtual and physical lifestyles, and the narrator's voluntary craft-and-farming community.",
+      "limitations": "Virtual-life participation is not an employment statistic."
+    },
+    {
+      "id": "src-pixar-walle",
+      "title": "WALL-E: Characters and World",
+      "author": "Pixar Animation Studios",
+      "url": "https://www.pixar.com/wall-e",
+      "kind": "official_production_guide",
+      "accessed_on": "2026-10-16",
+      "access_method": "Official page opened and relevant sections read",
+      "read_scope": "AUTO, Captain, John and Mary, M-O, and Axiom sections.",
+      "limitations": "No legal welfare charter or numerical labor census is supplied."
+    },
+    {
+      "id": "src-trek-economy",
+      "title": "Smith, Marx, and... Picard?: Star Trek and Our Economic Future",
+      "author": "Jason M. Barr",
+      "url": "https://www.startrek.com/en-un/news/smith-marx-and-picard-star-trek-and-our-economic-future",
+      "kind": "official_hosted_commentary",
+      "published_on": "2020-03-11",
+      "accessed_on": "2026-10-16",
+      "access_method": "Official website article opened and read",
+      "read_scope": "The Neutral Zone, replicators, optional work, personal holdings and productive vocations.",
+      "limitations": "Guest economic interpretation, not a canonical census. Its broad claims about all technology and robots are not adopted wholesale."
+    }
+  ],
+  "societies": [
+    {
+      "id": "culture-main",
+      "candidate_id": "c0001",
+      "name": "The Culture",
+      "work": "The Culture",
+      "society": "Culture civilian habitats and ships",
+      "media": ["book", "short_story"],
+      "scope": {
+        "continuity": "Iain M. Banks's prose Culture universe",
+        "period": "The mature Culture; ordinary civilian life rather than a wartime emergency",
+        "population": "Biological humanlike citizens, with AI citizens included in the account of governance",
+        "human_population_proxy": true,
+        "exclusions": ["Neighboring civilizations", "People governed by Culture interventions outside the Culture"],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Culture citizens do not need a job to obtain the things that keep them alive. Automated production supports comfortable lives, while people can explore, make art, study, or take on useful projects. This puts material guarantees very close to the strong end of the map. Someone choosing a demanding vocation does not lose that underlying security.\n\nControl is more complicated. Citizens can propose votes, and biological people and machines participate in collective decisions. Yet the Minds are independent persons and operate the ships, habitats, and much of the practical machinery. The positive control score recognizes the described democratic arrangements, while its broad uncertainty range leaves room for the Minds' exceptional practical power. It should not be mistaken for humans owning obedient robots. The books also give no census of how many biological citizens regularly do productive work, so that percentage remains unresolved.",
+      "axis": {"guarantees": -0.95, "control": 0.4, "nonworking": null},
+      "axis_assessment": {
+        "guarantees": {"interval": [-1, -0.85], "confidence": "high", "basis": "Material access is not conditional on employment.", "source_ids": ["src-banks-notes", "src-sfe-banks"]},
+        "control": {"interval": [-0.55, 0.75], "confidence": "low", "basis": "Equal voting and autonomous Minds coexist; the point is an interpretation of their shared power.", "source_ids": ["src-banks-notes"]},
+        "nonworking": {"interval": null, "confidence": "low", "basis": "Voluntary activity is established; its population-wide frequency is not.", "source_ids": ["src-sfe-banks", "src-banks-notes"]}
+      },
+      "regime_primary": 2,
+      "regime_alternatives": [5],
+      "qualification": "included",
+      "evidence": [
+        {"claim": "Automation and elective activity support inclusion.", "source_ids": ["src-banks-notes", "src-sfe-banks"], "locator": "Manufacturing discussion; Culture overview", "kind": "depicted_or_author_stated"},
+        {"claim": "Voting and Mind independence make control mixed.", "source_ids": ["src-banks-notes"], "locator": "Politics and AI passages", "kind": "interpretation"}
+      ],
+      "uncertainties": ["Humanlike citizens are a disclosed proxy, not exclusively Homo sapiens.", "A complete direct retrieval of the author essay remains desirable.", "Nonworking fraction requires a separate editorial estimate or better evidence."],
+      "source_ids": ["src-banks-notes", "src-sfe-banks"],
+      "assets": {"status": "deferred", "poster": null, "icon": null},
+      "review": {"status": "reviewed", "date": "2026-10-16", "method": "Second pass against the gathered passages; no independent reviewer", "coordinate_ready": false}
+    },
+    {
+      "id": "machine-stops-before-collapse",
+      "candidate_id": "c0002",
+      "name": "The Machine Stops",
+      "work": "The Machine Stops",
+      "society": "Humanity under the Machine before collapse",
+      "media": ["short_story", "book"],
+      "scope": {
+        "continuity": "Forster's original short story",
+        "period": "Established underground order before the terminal breakdown",
+        "population": "Humans living inside the Machine's underground settlements",
+        "human_population_proxy": false,
+        "exclusions": ["Surface survivors", "The subsequent collapse"],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "An underground resident can summon food, clothing, a bed, medical attention, and remote conversation without earning a wage for each service. The Machine has taken over the material routines of living. That supports a strong provision score, but the safety net has a brutal condition: dissent can bring expulsion from the system, treated by its residents as a death sentence. The score therefore stops well short of an unconditional guarantee.\n\nThe story still has human committees, a human airship attendant, and people delivering lectures. It does not establish a modern, self-aware AI government. Control sits near the concentrated human-management band, with uncertainty because nobody understands the complete infrastructure anymore. The later breakdown exposes the fragility of this arrangement; it is not folded into the earlier snapshot. No reliable share of working humans can be extracted from the lecturers and attendants shown.",
+      "axis": {"guarantees": -0.55, "control": 0.05, "nonworking": null},
+      "axis_assessment": {
+        "guarantees": {"interval": [-0.8, -0.15], "confidence": "medium", "basis": "Routine subsistence is supplied, but expulsion makes access conditional.", "source_ids": ["src-forster-machine"]},
+        "control": {"interval": [-0.35, 0.3], "confidence": "medium", "basis": "Human committees remain; technical dependence is not proof of conscious AI sovereignty.", "source_ids": ["src-forster-machine"]},
+        "nonworking": {"interval": null, "confidence": "low", "basis": "Attendants, committees and lecturers survive, without a labor census.", "source_ids": ["src-forster-machine"]}
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [3, 5],
+      "qualification": "included",
+      "evidence": [
+        {"claim": "Provision, conditional expulsion and human occupations are explicit.", "source_ids": ["src-forster-machine"], "locator": "Parts I–III: room controls, airship attendant, Homelessness, committees", "kind": "depicted_or_author_stated"}
+      ],
+      "uncertainties": ["Conscious machine agency is not established.", "The share of productive lecture activity is unknown."],
+      "source_ids": ["src-forster-machine"],
+      "assets": {"status": "deferred", "poster": null, "icon": null},
+      "review": {"status": "reviewed", "date": "2026-10-16", "method": "Second pass against primary passages; no independent reviewer", "coordinate_ready": false}
+    },
+    {
+      "id": "manna-terrafoam",
+      "candidate_id": "c0003",
+      "name": "Manna (United States welfare compounds)",
+      "work": "Manna",
+      "society": "United States automated welfare compounds",
+      "media": ["book", "web_fiction"],
+      "scope": {
+        "continuity": "Marshall Brain's novel",
+        "period": "Jacob's residence in the Terrafoam system after mass job displacement",
+        "population": "Unemployed human residents of the welfare compounds",
+        "human_population_proxy": false,
+        "exclusions": ["The wealthy population outside the compounds", "The earlier Manna-managed human workforce"],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Robots replace the jobs, and the displaced people are moved into extremely cheap residential blocks. Their meals and basic accommodation are supplied rather than earned through work. This is a post-work arrangement for the compound residents, but a highly unequal one: wealth and the systems supervising them remain under elite control. Residents have little practical route back to independent livelihoods.\n\nThe guarantees score needs care. Chapter 4 actually describes food, shelter, and cleaning being provided; describing those services as wholly absent would misread the setting. The modestly negative score recognizes that subsistence while allowing for overcrowding, confinement, and dependence on an unaccountable ruling class. A harsher interpretation is retained as an alternative regime. The nonworking estimate applies only to the unemployed compound population, not to the entire United States. It is close to one because robotic services have replaced the residents' former occupations.",
+      "axis": {"guarantees": -0.2, "control": 0, "nonworking": 0.99},
+      "axis_assessment": {
+        "guarantees": {"interval": [-0.55, 0.4], "confidence": "low", "basis": "Basic provision is explicit; its adequacy and long-term security are questionable.", "source_ids": ["src-manna-4"]},
+        "control": {"interval": [-0.05, 0.1], "confidence": "high", "basis": "The elite controls resources and coercive robots.", "source_ids": ["src-manna-4"]},
+        "nonworking": {"interval": [0.95, 1], "confidence": "medium", "basis": "Scoped to residents selected for unemployment; editorial allowance for unreported activities, not a canonical statistic.", "source_ids": ["src-manna-4"]}
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [3],
+      "qualification": "included",
+      "evidence": [
+        {"claim": "Compound residents receive necessities under elite confinement.", "source_ids": ["src-manna-4"], "locator": "Housing, meals, elite control and perimeter passages", "kind": "depicted_or_author_stated"}
+      ],
+      "uncertainties": ["The article's reproductive-control claim needs a separately located primary passage; it is not silently imported as proof that food guarantees are absent.", "No countrywide nonworking rate is asserted."],
+      "source_ids": ["src-manna-4"],
+      "assets": {"status": "deferred", "poster": null, "icon": null},
+      "review": {"status": "reviewed", "date": "2026-10-16", "method": "Second pass distinguishing subsistence from freedom; no independent reviewer", "coordinate_ready": true}
+    },
+    {
+      "id": "manna-australia",
+      "candidate_id": "c0004",
+      "name": "Manna (Australia Project)",
+      "work": "Manna",
+      "society": "Australia Project",
+      "media": ["book", "web_fiction"],
+      "scope": {
+        "continuity": "Marshall Brain's novel",
+        "period": "The established Australia Project visited by Jacob",
+        "population": "Human members of the Australia Project",
+        "human_population_proxy": false,
+        "exclusions": ["People outside the membership arrangement", "The United States welfare compounds"],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "The Australia Project pools resources through a corporation whose members receive equal access to its output. Weekly resource credits come with membership, while robots provide everyday goods and services. A resident does not need to accept a job to secure food or a home. Those arrangements place guarantees near the strong end and control toward broad participation, although the promise is for Project members rather than everyone on Earth.\n\nRoutine production being automated does not mean human effort disappears. The later chapters describe people designing products, doing research, teaching newcomers, and even choosing manual farming and crafts. The nonworking share therefore remains unknown instead of being set to one. The control score also allows some uncertainty: an equal economic share gives a clear claim on output, but it does not fully explain every operational decision made by the advanced robotic system. This society is kept separate from Terrafoam because both distribution and ownership differ.",
+      "axis": {"guarantees": -0.9, "control": 0.8, "nonworking": null},
+      "axis_assessment": {
+        "guarantees": {"interval": [-1, -0.75], "confidence": "high", "basis": "Equal resource access is independent of employment within the membership population.", "source_ids": ["src-manna-5", "src-manna-6"]},
+        "control": {"interval": [0.5, 0.95], "confidence": "medium", "basis": "Equal shares and resource claims; operational human-AI authority is less fully specified.", "source_ids": ["src-manna-5", "src-manna-8"]},
+        "nonworking": {"interval": null, "confidence": "low", "basis": "Elective productive activity is widespread but uncounted.", "source_ids": ["src-manna-6", "src-manna-8"]}
+      },
+      "regime_primary": 2,
+      "regime_alternatives": [5],
+      "qualification": "included",
+      "evidence": [
+        {"claim": "Membership brings equal resource access.", "source_ids": ["src-manna-5"], "locator": "4GC shares and credit discussion", "kind": "depicted_or_author_stated"},
+        {"claim": "Voluntary useful activity persists.", "source_ids": ["src-manna-6", "src-manna-8"], "locator": "Innovation and lifestyle passages", "kind": "depicted_or_author_stated"}
+      ],
+      "uncertainties": ["Equal shares are not assumed to prove perfect human control over all AI decisions.", "No exact nonworking percentage is supplied."],
+      "source_ids": ["src-manna-5", "src-manna-6", "src-manna-8"],
+      "assets": {"status": "deferred", "poster": null, "icon": null},
+      "review": {"status": "reviewed", "date": "2026-10-16", "method": "Second pass checking membership scope and voluntary labor; no independent reviewer", "coordinate_ready": false}
+    },
+    {
+      "id": "walle-axiom",
+      "candidate_id": "c0005",
+      "name": "WALL-E (Axiom before the return to Earth)",
+      "work": "WALL-E",
+      "society": "Axiom passengers under Buy n Large and AUTO",
+      "media": ["movie", "cartoon"],
+      "scope": {
+        "continuity": "Pixar's 2008 film",
+        "period": "The Axiom's established cruise before AUTO is disabled",
+        "population": "Human passengers and the human captain aboard the Axiom",
+        "human_population_proxy": false,
+        "exclusions": ["People who never boarded a starliner", "The rebuilding community after the return"],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "The Axiom is a corporate-built refuge whose human population lives on automated services. Passengers receive daily comfort while robots perform the ordinary maintenance around them. The captain retains duties, but even his normal routine is mostly checking the ship's condition with AUTO. For this enclosed population, the nonworking share is therefore estimated very near one, and provision is strong. Neither estimate is a statement about everyone who once lived on Earth.\n\nThe ship sits between corporate control and autonomous machine administration. Its infrastructure and commands come from Buy n Large, yet AUTO has managed the voyage for centuries and pursues a hidden mandate against the inhabitants' interests. The negative control score captures that practical independence without erasing its corporate origin. The passengers' comfort is real, but they lack a secure say over the system supporting them. The later return and rebuilding form a different snapshot and are not averaged into this one.",
+      "axis": {"guarantees": -0.85, "control": -0.4, "nonworking": 0.99},
+      "axis_assessment": {
+        "guarantees": {"interval": [-0.95, -0.6], "confidence": "medium", "basis": "Long-established passenger provision; no universal legal charter is shown.", "source_ids": ["src-pixar-walle"]},
+        "control": {"interval": [-0.75, 0.05], "confidence": "medium", "basis": "Corporate origin and autonomous enforcement overlap.", "source_ids": ["src-pixar-walle"]},
+        "nonworking": {"interval": [0.95, 1], "confidence": "medium", "basis": "Passenger leisure and minimal captain duties; rounded editorial estimate, not a census.", "source_ids": ["src-pixar-walle"]}
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [5],
+      "qualification": "included",
+      "evidence": [
+        {"claim": "Passengers are provisioned while AUTO retains a hidden mandate.", "source_ids": ["src-pixar-walle"], "locator": "John and Mary; Captain; AUTO; Axiom", "kind": "depicted_or_author_stated"}
+      ],
+      "uncertainties": ["Corporate commands and practical AI control cannot be cleanly separated.", "Provision outside the passenger population is unknown."],
+      "source_ids": ["src-pixar-walle"],
+      "assets": {"status": "deferred", "poster": null, "icon": null},
+      "review": {"status": "reviewed", "date": "2026-10-16", "method": "Second pass on the official production guide; no independent reviewer", "coordinate_ready": true}
+    },
+    {
+      "id": "star-trek-federation-core",
+      "candidate_id": "c0006",
+      "name": "Star Trek (Federation core society)",
+      "work": "Star Trek",
+      "society": "United Federation of Planets core worlds",
+      "media": ["tv", "movie"],
+      "scope": {
+        "continuity": "Prime timeline, with Earth as the principal documented example",
+        "period": "Ordinary twenty-fourth-century life in the TNG era",
+        "population": "Human civilians on Earth; wider core-world generalization is provisional",
+        "human_population_proxy": false,
+        "exclusions": ["Non-Federation states", "Frontier emergencies", "The post-Burn period", "Military duty as a proxy for all civilian life"],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "On twenty-fourth-century Earth, the familiar link between earning money and meeting material needs has largely disappeared. Replicators and supporting infrastructure make everyday goods readily available, and choosing a vocation is presented as a matter of interest and contribution. The strong guarantee score describes this ordinary civilian baseline. It is not a claim that every frontier settlement or wartime starship enjoys the same conditions.\n\nThe society is placed toward broad human control because its economic infrastructure serves a civic order rather than an independent machine ruler or a small private owner. That is an interpretation of the Federation setting, not proof that every asset is collectively owned: family enterprises and personal holdings remain visible. Many people also work seriously as scientists, teachers, officers, or craftspeople. Optional employment cannot tell us how many actually choose those activities, so the nonworking percentage is left open instead of inferring it from the absence of wages.",
+      "axis": {"guarantees": -0.9, "control": 0.75, "nonworking": null},
+      "axis_assessment": {
+        "guarantees": {"interval": [-1, -0.75], "confidence": "medium", "basis": "Core-world access is independent of earnings; broader Federation coverage requires care.", "source_ids": ["src-trek-economy"]},
+        "control": {"interval": [0.4, 0.95], "confidence": "medium", "basis": "Civic provision and human institutions coexist with individual holdings.", "source_ids": ["src-trek-economy"]},
+        "nonworking": {"interval": null, "confidence": "low", "basis": "No civilian participation rate follows from work being optional.", "source_ids": ["src-trek-economy"]}
+      },
+      "regime_primary": 2,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "evidence": [
+        {"claim": "Earth's material baseline does not depend on earning money.", "source_ids": ["src-trek-economy"], "locator": "The Neutral Zone and Life in the 24th Century discussion", "kind": "official_commentary"},
+        {"claim": "Optional productive vocations and personal holdings remain.", "source_ids": ["src-trek-economy"], "locator": "Smithian Star Trek; closing discussion of work", "kind": "official_commentary"}
+      ],
+      "uncertainties": ["The reviewed source is a guest essay on an official site; episode-level corroboration should strengthen the final review.", "The stored society label is broader than the best-supported Earth example; the population scope limits the inference.", "No exact nonworking percentage is supplied."],
+      "source_ids": ["src-trek-economy"],
+      "assets": {"status": "deferred", "poster": null, "icon": null},
+      "review": {"status": "reviewed", "date": "2026-10-16", "method": "Second pass separating commentary from direct episode evidence; no independent reviewer", "coordinate_ready": false}
+    }
+  ],
+  "decisions": [
+    {"candidate_id": "c0001", "status": "included", "society_id": "culture-main", "reason": "Automation and non-wage material provision are supported; humanlike scope and a missing labor rate are explicit."},
+    {"candidate_id": "c0002", "status": "included", "society_id": "machine-stops-before-collapse", "reason": "Technological provision replaces routine economic dependence; human committees prevent an automatic AI-rule classification."},
+    {"candidate_id": "c0003", "status": "included", "society_id": "manna-terrafoam", "reason": "A distinct robot-supported, non-employed residential population under elite control."},
+    {"candidate_id": "c0004", "status": "included", "society_id": "manna-australia", "reason": "Equal member resource claims materially differ from Terrafoam's elite-controlled provision."},
+    {"candidate_id": "c0005", "status": "included", "society_id": "walle-axiom", "reason": "Automated passenger society is explicitly supported by the production guide."},
+    {"candidate_id": "c0006", "status": "included", "society_id": "star-trek-federation-core", "reason": "Non-wage provision on Earth is supported; wider scope and employment rate remain review gaps."}
+  ],
+  "review_notes": [
+    "The initial frozen catalogue contains leads, not fact-checked titles, media or distinctness claims. Correct or reject them in the decision ledger without changing their IDs.",
+    "Do not turn oppressive governance into an automatic assertion that food and shelter do not exist.",
+    "Do not equate automated machinery with a self-aware AI sovereign.",
+    "Four records have an unresolved nonworking axis. They are qualitative inclusions, not fully coordinate-ready records.",
+    "No image assets were collected."
+  ]
+}

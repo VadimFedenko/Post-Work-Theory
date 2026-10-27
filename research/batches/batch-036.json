@@ -1,0 +1,161 @@
+{
+  "batch_id": "batch-036",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0189",
+    "c0190",
+    "c0191",
+    "c0192",
+    "c0193",
+    "c0194"
+  ],
+  "sources": [
+    {
+      "id": "src-steel-breeze-wertzone",
+      "title": "On the Steel Breeze by Alastair Reynolds",
+      "author": "The Wertzone, September 2013",
+      "url": "https://thewertzone.blogspot.com/2013/09/on-steel-breeze-by-alastair-reynolds.html",
+      "kind": "secondary_literary_review_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed holoship setting paragraphs read",
+      "read_scope": "The Zanzibar and the interstellar caravan's survival and political constraints.",
+      "limitations": "Life support for a generation ship does not by itself establish labor-independent access or one uniform shipboard constitution."
+    },
+    {
+      "id": "src-revenger-bonesilence-starburst",
+      "title": "Bone Silence",
+      "author": "Ed Fortune, Starburst Magazine",
+      "url": "https://www.starburstmagazine.com/reviews/bone-silence/",
+      "kind": "secondary_literary_review_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed economic discussion read",
+      "read_scope": "The Congregation's trade, piracy and quoin currency.",
+      "limitations": "Later-trilogy context only. A strange currency and ancient high technology do not establish automatic household provision."
+    },
+    {
+      "id": "src-troika-york-description",
+      "title": "Troika description in Alastair Reynolds book reviews",
+      "author": "Susan Stepney's University of York book page; reproduced publisher description",
+      "url": "https://www-users.york.ac.uk/~ss44/books/pages/r/AlastairReynolds.htm",
+      "kind": "publisher_description_reproduction",
+      "accessed_on": "2026-10-16",
+      "access_method": "Identified public Troika description read",
+      "read_scope": "Russian cosmonauts investigating the Matryoshka construct.",
+      "limitations": "The page contains descriptions of many separate works. A nearby Mechanism description is not treated as Troika's economy or continuity."
+    },
+    {
+      "id": "src-aquila-ldr-reference",
+      "title": "Beyond the Aquila Rift",
+      "author": "Love, Death & Robots Wiki contributors",
+      "url": "https://lovedeathrobots.fandom.com/wiki/Beyond_the_Aquila_Rift",
+      "kind": "secondary_adaptation_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed caretaker/simulation and adaptation-difference passages read",
+      "read_scope": "Thom's simulated experience, the alien caretaker and differences from the original story.",
+      "limitations": "No episode watched or full story read. Simulated comfort does not verify durable bodily provision; the biological caretaker is not automatically an AI sovereign."
+    },
+    {
+      "id": "src-aquila-netflix-review",
+      "title": "Love, Death & Robots Season 1 Episode 7: Beyond the Aquila Rift Ending Explained",
+      "author": "What's on Netflix, 2019",
+      "url": "https://www.whats-on-netflix.com/news/love-death-robots-episode-7-beyond-the-aquila-rift-ending-explained/",
+      "kind": "secondary_episode_explanation_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed ending explanation consulted",
+      "read_scope": "The simulation and physical condition revealed outside it.",
+      "limitations": "Independent fan publication, not Netflix itself. No universal welfare population is inferred from one traveler's experience."
+    },
+    {
+      "id": "src-zima-episode-reference",
+      "title": "List of Love, Death & Robots episodes: Zima Blue",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/List_of_Love%2C_Death_%26_Robots_episodes",
+      "kind": "secondary_episode_synopsis",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed Zima Blue synopsis read",
+      "read_scope": "The artist's origin, upgrades and return to pool-cleaning.",
+      "limitations": "One android's life and artistic resources do not establish society-wide production or access. The short story remains a separate version."
+    },
+    {
+      "id": "src-galactic-north-reference",
+      "title": "Galactic North",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Galactic_North",
+      "kind": "secondary_plot_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed late Greenfly plot account read",
+      "read_scope": "Machine expansion, human flight, preserved scans and the surviving Conjoiner group.",
+      "limitations": "Machine-tended biospheres do not establish a supported human leisure society. The story and collection sharing a title are distinguished."
+    }
+  ],
+  "societies": [],
+  "decisions": [
+    {
+      "candidate_id": "c0189",
+      "status": "needs_evidence",
+      "reason": "The holoship reference establishes a generation society but does not settle labor-independent basic access.",
+      "source_ids": [
+        "src-steel-breeze-wertzone"
+      ],
+      "analysis": "A life-support system, a large passenger population and advanced propulsion do not alone establish who controls production or whether necessities depend on work.",
+      "follow_up": "Skip deeper reading under the pace instruction."
+    },
+    {
+      "candidate_id": "c0190",
+      "status": "boundary_case",
+      "reason": "The quick sources describe a working salvage/trade economy, without a verified automatic support or unnecessary-employment mechanism.",
+      "source_ids": [
+        "src-revenger-bonesilence-starburst"
+      ],
+      "analysis": "Quoins and ancient artifacts are not proof of post-work distribution. Later currency disruption does not retroactively supply a welfare economy.",
+      "follow_up": "Preserve as a far-future trade comparison; skip a trilogy investigation."
+    },
+    {
+      "candidate_id": "c0191",
+      "status": "needs_evidence",
+      "reason": "The discovery label Mechanism-dominated Earth is unverified for Troika.",
+      "source_ids": [
+        "src-troika-york-description"
+      ],
+      "analysis": "The identified Troika description concerns the Matryoshka and cosmonauts. The same archive also contains other Reynolds books; nearby Mechanism wording cannot be imported across works.",
+      "follow_up": "Skip deeper reading; correct the lead only if a clear Troika-specific economic source appears."
+    },
+    {
+      "candidate_id": "c0192",
+      "status": "boundary_case",
+      "reason": "The simulated sanctuary does not establish a durable material-support society for a defined living human population.",
+      "source_ids": [
+        "src-aquila-ldr-reference",
+        "src-aquila-netflix-review"
+      ],
+      "analysis": "Thom's comfort is not proof of bodily security, the other crew members are not automatically living leisure residents, and the alien caretaker is not proven AI. Original-story and animated continuity details cannot be merged.",
+      "follow_up": "Keep as a care/illusion comparison; no full-story or episode reconstruction in this pass."
+    },
+    {
+      "candidate_id": "c0193",
+      "status": "boundary_case",
+      "reason": "Zima's artistic life and robot origins do not establish an entire robot-served human economy.",
+      "source_ids": [
+        "src-zima-episode-reference"
+      ],
+      "analysis": "The episode focuses on one android's chosen work and transformation, not general household allocation or a human nonworking population.",
+      "follow_up": "Skip the broad society lead; do not infer general guarantees from an exceptional artist."
+    },
+    {
+      "candidate_id": "c0194",
+      "status": "boundary_case",
+      "reason": "Greenfly expansion displaces human civilization rather than documenting a human population maintained in post-work security.",
+      "source_ids": [
+        "src-galactic-north-reference"
+      ],
+      "analysis": "Vegetated machine biospheres, passive colonist scans and fugitives are different things. Neither lost humans nor unoccupied habitats create a 100% nonworking denominator.",
+      "follow_up": "Preserve as an autonomous machine-ecology comparison and skip further investigation."
+    }
+  ],
+  "review_notes": [
+    "Reference-led fast dispositions without full-text recovery. Six unsupported/boundary leads do not inflate the retained count.",
+    "The Troika discovery label is not verified by a mixed-work review archive. Mechanism facts from another novel are not borrowed.",
+    "Aquila Rift versions are kept distinct; an alien caregiver is not automatically AI, and simulated comfort is not equivalent to reliable bodily support.",
+    "Zima's exceptional resources and Greenfly's machine-tended vegetation do not establish human leisure societies."
+  ]
+}

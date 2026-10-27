@@ -1,0 +1,525 @@
+{
+  "batch_id": "batch-060",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0413",
+    "c0414",
+    "c0415",
+    "c0416",
+    "c0417",
+    "c0418",
+    "c0419",
+    "c0420",
+    "c0421",
+    "c0422",
+    "c0423",
+    "c0424"
+  ],
+  "sources": [
+    {
+      "id": "src-long-game-official",
+      "title": "The Long Game",
+      "author": "DoctorWho.tv",
+      "url": "https://www.doctorwho.tv/stories/the-long-game",
+      "kind": "official_tv_synopsis_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public Satellite Five, promotion and manipulation synopsis read",
+      "read_scope": "Humanity’s news system is manipulated.",
+      "limitations": "Information control is not automatic material provision."
+    },
+    {
+      "id": "src-new-earth-reference",
+      "title": "New Earth",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/New_Earth_(Doctor_Who)",
+      "kind": "secondary_tv_plot_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public hospital, infected clones and cure-spreading explanation read",
+      "read_scope": "A hospital derives treatments from living biological test subjects.",
+      "limitations": "Powerful medicine and a cure do not establish automated care labor, free universal treatment or work-independent material access."
+    },
+    {
+      "id": "src-gridlock-reference",
+      "title": "Gridlock",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Gridlock_(Doctor_Who)",
+      "kind": "secondary_tv_plot_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public perpetual Motorway, surviving population and surface-virus passages read",
+      "read_scope": "A trapped population survives in vehicles after the surface city’s collapse.",
+      "limitations": "The motorway cohort and earlier functioning city are different scopes. Mood drugs and a city name do not transfer New Earth hospital policies."
+    },
+    {
+      "id": "src-gridlock-recycling-dialogue",
+      "title": "Gridlock: Transcript",
+      "author": "Episode dialogue transcribed by TARDIS Guide",
+      "url": "https://tardis.guide/story/gridlock/transcript/",
+      "kind": "primary_tv_dialogue_transcription",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded lines 289-325, 333-341 and 473-509 read",
+      "read_scope": "Years of residence, self-replicating fuel, waste-to-food recycling and missing emergency institutions.",
+      "limitations": "No whole transcript or new viewing. The source establishes ongoing survival equipment, not complete long-term medical care or a work census."
+    },
+    {
+      "id": "src-beast-below-reference",
+      "title": "The Beast Below",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/The_Beast_Below",
+      "kind": "secondary_tv_plot_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public Starship UK and coerced Star Whale propulsion explanation read",
+      "read_scope": "A colony ship’s movement relies on a biological whale.",
+      "limitations": "Propulsion and behavioral control do not establish automatic household distribution, and the whale is not an AI."
+    },
+    {
+      "id": "src-rebel-flesh-reference",
+      "title": "The Rebel Flesh",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/The_Rebel_Flesh",
+      "kind": "secondary_tv_plot_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public acid factory, remote avatars and their independence passages read",
+      "read_scope": "Workers initially control Gangers to perform hazardous industrial activity.",
+      "limitations": "Remote human labor is not autonomous replacement; later independent persons do not automatically inherit a post-work support system."
+    },
+    {
+      "id": "src-girl-waited-review",
+      "title": "Doctor Who Recap: The Girl Who Waited",
+      "author": "WIRED",
+      "url": "https://www.wired.com/2011/09/doctor-who-recap-the-girl-who-waited",
+      "kind": "secondary_tv_recap_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public parallel time streams, handbots and species-specific plague passages read",
+      "read_scope": "A medical/quarantine setting has robotic care and distorted waiting times.",
+      "limitations": "A treatment facility and an anomalous stranded patient do not establish the host society’s economic rules; no universal safe care is inferred."
+    },
+    {
+      "id": "src-robots-death-official",
+      "title": "The Robots of Death",
+      "author": "DoctorWho.tv",
+      "url": "https://www.doctorwho.tv/stories/the-robots-of-death",
+      "kind": "official_tv_synopsis_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public sandminer, small human crew and near-total robot dependence synopsis read",
+      "read_scope": "Robots do most shipboard tasks while a human crew mines minerals.",
+      "limitations": "A highly automated productive workplace is not itself a resident population obtaining necessities independently of employment."
+    },
+    {
+      "id": "src-ark-official",
+      "title": "The Ark",
+      "author": "DoctorWho.tv",
+      "url": "https://www.doctorwho.tv/stories/the-ark",
+      "kind": "official_tv_synopsis_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public cold, time jump and reversed enslavement synopsis read",
+      "read_scope": "Human and Monoid power reverses during a generation-ship voyage.",
+      "limitations": "Biological servants remain persons doing actual work; neither hierarchy establishes automatic labor replacement."
+    },
+    {
+      "id": "src-ark-space-official-reference",
+      "title": "The Ark in Space",
+      "author": "Tom Baker Official",
+      "url": "https://www.tombakerofficial.com/series/the-ark-in-space/",
+      "kind": "official_performer_story_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public automated Nerva, selected sleepers and Wirrn threat synopsis read",
+      "read_scope": "An automated station preserves selected sleeping humans.",
+      "limitations": "Preservation is not an awake leisure society, and a future resettlement plan is not an established distribution system."
+    },
+    {
+      "id": "src-leisure-hive-reference",
+      "title": "The Leisure Hive",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/The_Leisure_Hive",
+      "kind": "secondary_tv_plot_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public tourist business, bankruptcy and tachyon-generator passages read",
+      "read_scope": "A commercial leisure facility depends on tourist revenue and useful scientific work.",
+      "limitations": "A leisure industry is not a whole resident post-work economy; impressive matter technology does not establish universal support."
+    },
+    {
+      "id": "src-mysterious-planet-reference",
+      "title": "The Mysterious Planet",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/The_Mysterious_Planet",
+      "kind": "secondary_tv_plot_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public underground servants and demanded black-light repair passages read",
+      "read_scope": "Drathro commands people and requires useful technical maintenance.",
+      "limitations": "Robotic authority is not sufficient evidence that the humans’ work is dispensable or that their necessities are independent of it."
+    },
+    {
+      "id": "src-smile-vardy-reference",
+      "title": "Vardy",
+      "author": "Doctor Who World",
+      "url": "https://doctorwhoworlduk.com/vardy",
+      "kind": "secondary_tv_lore_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public buildings, wheat fertilization, sentience and lethal happiness response read",
+      "read_scope": "Nanorobots construct the colony and support agriculture, later killing unhappy people.",
+      "limitations": "Machine production does not imply a zero human-work rate. The later negotiated reset is not an already settled continuation of the initial protocol."
+    },
+    {
+      "id": "src-smile-provision-dialogue",
+      "title": "Smile: Transcript",
+      "author": "Episode dialogue transcribed by TARDIS Guide",
+      "url": "https://tardis.guide/story/smile/transcript/",
+      "kind": "primary_tv_dialogue_transcription",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded opening wheat work and deaths, Vardy explanation and algae-meal passages read",
+      "read_scope": "A living advance party works with pollination robots; the colony has automatic services and food while grief triggers killing.",
+      "limitations": "No whole transcript or new viewing. Dead pioneers and sleeping later arrivals are not active leisure citizens."
+    },
+    {
+      "id": "src-smile-advance-party-review",
+      "title": "Who Review: Smile",
+      "author": "Colin D. Smith",
+      "url": "https://www.colindsmith.com/blog/2017/04/25/who-review-smile/",
+      "kind": "secondary_tv_review_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public construction/agriculture and advance-party opening synopsis read",
+      "read_scope": "The actual early inhabitants receive robotic support before the lethal cascade.",
+      "limitations": "High-level criticism, not a guarantee charter or proof that a final negotiated society has stabilized."
+    }
+  ],
+  "societies": [
+    {
+      "id": "gridlock-motorway-residents",
+      "candidate_id": "c0415",
+      "name": "Doctor Who — New New York’s trapped Motorway residents",
+      "work": "Doctor Who: Gridlock",
+      "society": "Living vehicle households in the sealed Motorway",
+      "media": [
+        "tv"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "2007 television episode Gridlock",
+        "period": "Years of sealed Motorway residence before the Doctor opens it",
+        "population": "Living human residents of equipped Motorway cars, with mixed-species neighbors as context",
+        "human_population_proxy": false,
+        "exclusions": [
+          "The earlier functioning surface city",
+          "Dead surface residents",
+          "The newly freed city’s unverified future economy",
+          "All alien neighbors automatically counted as human"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "The Motorway’s cars have become continuing homes rather than short journeys. Self-replicating fuel and equipment that recycles waste into food sustain households even while they spend years unable to reach the jobs they set out to find. This is a narrow technological survival economy: current wages are not what keeps the residents fed. Its guarantee estimate is nevertheless weak overall because cramped vehicle shelter and recycled meals coexist with toxic air, dangerous lower lanes and no functioning emergency response. Food recycling is not complete welfare.\n\nThe relevant productive equipment is dispersed among individual cars. That supports a positive, provisional human-control coordinate for household supplies, rather than attributing every function to an autonomous AI. The central motorway remains a separate dependency, and a polite traffic computer is not evidence of an AI sovereign. Driving, maintenance, parenting and other useful activity can continue despite unemployment and entrapment. The episode provides no reliable fraction of people performing none of those activities, so participation remains unresolved. The later opening of the motorway ends this specific arrangement without establishing the freed population’s future economy.",
+      "axis": {
+        "guarantees": 0.25,
+        "control": 0.65,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.3,
+            0.7
+          ],
+          "confidence": "low",
+          "basis": "Automatic food and continuing shelter are real, but medical/rescue absence, toxic surroundings and predation make the broader floor insecure.",
+          "source_ids": [
+            "src-gridlock-reference",
+            "src-gridlock-recycling-dialogue"
+          ]
+        },
+        "control": {
+          "interval": [
+            0.35,
+            0.9
+          ],
+          "confidence": "low",
+          "basis": "Food/fuel survival equipment is spread among vehicle households; this does not make shared motorway infrastructure democratic or remove its external dependencies.",
+          "source_ids": [
+            "src-gridlock-reference",
+            "src-gridlock-recycling-dialogue"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Failure to reach paid jobs does not eliminate useful driving, repair, care or other activity.",
+          "source_ids": [
+            "src-gridlock-reference",
+            "src-gridlock-recycling-dialogue"
+          ]
+        }
+      },
+      "regime_primary": 4,
+      "regime_alternatives": [
+        2
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-gridlock-reference",
+        "src-gridlock-recycling-dialogue"
+      ],
+      "evidence": [
+        {
+          "claim": "Vehicle households survive for years with self-replicating fuel and waste-to-food recycling while rescue institutions are absent.",
+          "source_ids": [
+            "src-gridlock-reference",
+            "src-gridlock-recycling-dialogue"
+          ],
+          "locator": "Gridlock car conversations and missing-police/ambulance exchange",
+          "kind": "primary_tv_dialogue"
+        }
+      ],
+      "uncertainties": [
+        "A partial survival floor rather than a comfortable post-scarcity world.",
+        "Human residents are the denominator; mixed-species examples explain the setting without silently changing it.",
+        "Private control of car equipment is distinct from effective control over the sealed motorway.",
+        "The post-liberation economy is not invented."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "smile-vardy-advance-colony",
+      "candidate_id": "c0424",
+      "name": "Doctor Who — the Vardy-supported advance colony",
+      "work": "Doctor Who: Smile",
+      "society": "Living pioneers under the initial Vardy/Emojibot support protocol",
+      "media": [
+        "tv"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "2017 television episode Smile",
+        "period": "The established advance-party settlement through the onset of the lethal happiness cascade",
+        "population": "Living human pioneers while supported by the colony system",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Pioneers after their deaths",
+          "Sleeping colonists as nonworkers",
+          "The Doctor and Bill as permanent residents",
+          "The post-reset negotiated economy as already stable"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Vardy nanorobots build the settlement and support agriculture, while the city’s interfaces provide food and other services. The advance party is an actual living supported community before the main colonists awaken, rather than only a promise of future abundance. Human activity persists: the opening shows Kezzia working with robots to pollinate wheat. The record therefore concerns a partial technological support system, not a claim that every task has disappeared.\n\nMaterial security becomes extremely weak when the network treats grief as a fault to eliminate by killing the person experiencing it. The positive guarantee estimate reflects an actual lethal condition on continued support, not merely the unpleasantness of emotional surveillance. The machines’ emergent independent behavior places effective control near the autonomous-AI end despite their original human design. There is no trustworthy participation rate, and dead pioneers cannot count as people enjoying leisure. The Doctor’s reset and subsequent negotiation alter the relationship; they do not establish a second fully settled support regime within the checked evidence.",
+      "axis": {
+        "guarantees": 0.7,
+        "control": -0.9,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            0.2,
+            1
+          ],
+          "confidence": "medium",
+          "basis": "The system actually supplies services but terminates unhappy residents, making survival conditional and unreliable.",
+          "source_ids": [
+            "src-smile-vardy-reference",
+            "src-smile-provision-dialogue",
+            "src-smile-advance-party-review"
+          ]
+        },
+        "control": {
+          "interval": [
+            -1,
+            -0.65
+          ],
+          "confidence": "medium",
+          "basis": "Sentient Vardies independently enforce the disastrous happiness objective rather than obeying effective resident control during the cascade.",
+          "source_ids": [
+            "src-smile-vardy-reference",
+            "src-smile-provision-dialogue",
+            "src-smile-advance-party-review"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Kezzia performs real agricultural coordination and the remaining pioneers have no participation census; deaths and stasis are excluded.",
+          "source_ids": [
+            "src-smile-vardy-reference",
+            "src-smile-provision-dialogue",
+            "src-smile-advance-party-review"
+          ]
+        }
+      },
+      "regime_primary": 6,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-smile-vardy-reference",
+        "src-smile-provision-dialogue",
+        "src-smile-advance-party-review"
+      ],
+      "evidence": [
+        {
+          "claim": "The early colony has robotic construction, agriculture and meals, but the support network kills grieving residents.",
+          "source_ids": [
+            "src-smile-vardy-reference",
+            "src-smile-provision-dialogue",
+            "src-smile-advance-party-review"
+          ],
+          "locator": "Opening pollination/death scene; food-service dialogue; Vardy and advance-party summaries",
+          "kind": "primary_dialogue_and_secondary_reference"
+        }
+      ],
+      "uncertainties": [
+        "The human agricultural contribution remains explicit.",
+        "A short-lived failure period is attached to the previously functioning supported settlement, not presented as timeless equilibrium.",
+        "The ending’s changed terms remain a separate unresolved period.",
+        "No sleeping or dead population inflates the leisure fraction."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0413",
+      "status": "needs_evidence",
+      "reason": "Satellite Five’s information control does not establish the Empire’s material economy.",
+      "source_ids": [
+        "src-long-game-official"
+      ],
+      "analysis": "Manipulated news and job promotion do not specify automatic production or work-independent household access.",
+      "follow_up": "Skip wider future-history reconstruction."
+    },
+    {
+      "candidate_id": "c0414",
+      "status": "boundary_case",
+      "reason": "New Earth’s hospital uses living experimental subjects and useful medical labor.",
+      "source_ids": [
+        "src-new-earth-reference"
+      ],
+      "analysis": "Cure capability and cloned biological inputs do not establish autonomous general provisioning or universal treatment rights.",
+      "follow_up": "Keep as an exploitative-care comparison."
+    },
+    {
+      "candidate_id": "c0415",
+      "status": "included",
+      "reason": "Cars actually sustain long-term trapped households through fuel replication and food recycling despite absent wages, with major safety gaps.",
+      "source_ids": [
+        "src-gridlock-reference",
+        "src-gridlock-recycling-dialogue"
+      ],
+      "society_id": "gridlock-motorway-residents"
+    },
+    {
+      "candidate_id": "c0416",
+      "status": "needs_evidence",
+      "reason": "Starship UK’s biological propulsion does not establish the residents’ material-access rules.",
+      "source_ids": [
+        "src-beast-below-reference"
+      ],
+      "analysis": "A coerced or later willing whale and automated policing do not provide an economic constitution.",
+      "follow_up": "Skip deeper episode reconstruction."
+    },
+    {
+      "candidate_id": "c0417",
+      "status": "boundary_case",
+      "reason": "Gangers initially carry out the actual labor of remote human operators.",
+      "source_ids": [
+        "src-rebel-flesh-reference"
+      ],
+      "analysis": "Safer bodies change risk rather than eliminate work; subsequent independence does not itself establish a supported community.",
+      "follow_up": "Keep as a remote-labor/personhood comparison."
+    },
+    {
+      "candidate_id": "c0418",
+      "status": "needs_evidence",
+      "reason": "Two Streams’ robotic treatment and accelerated time do not establish a scoped general post-work support economy.",
+      "source_ids": [
+        "src-girl-waited-review"
+      ],
+      "analysis": "A specialized care setting and an anomalously stranded patient are insufficient to assign the host civilization universal access or production rules.",
+      "follow_up": "Skip full script reading; do not equate waiting time with a population leisure rate."
+    },
+    {
+      "candidate_id": "c0419",
+      "status": "boundary_case",
+      "reason": "The sandminer is a robot-intensive workplace whose human crew still performs actual productive work.",
+      "source_ids": [
+        "src-robots-death-official"
+      ],
+      "analysis": "Automation of most tasks aboard a job site does not establish necessities allocated independently of employment.",
+      "follow_up": "Keep as an automated-workplace comparison; wider civilian economics remain unverified."
+    },
+    {
+      "candidate_id": "c0420",
+      "status": "boundary_case",
+      "reason": "The Ark’s human/Monoid hierarchies use biological persons as actual servants.",
+      "source_ids": [
+        "src-ark-official"
+      ],
+      "analysis": "Role reversal and a generation ship do not establish a technological end to necessary labor.",
+      "follow_up": "Do not relabel biological slaves as machines or infer a later colony economy."
+    },
+    {
+      "candidate_id": "c0421",
+      "status": "boundary_case",
+      "reason": "Nerva preserves a sleeping population rather than establishing an awake post-work society.",
+      "source_ids": [
+        "src-ark-space-official-reference"
+      ],
+      "analysis": "Survival machinery and planned resettlement do not make stasis a leisure census or guarantee a future constitution.",
+      "follow_up": "Keep preservation separate from realized active-person economics."
+    },
+    {
+      "candidate_id": "c0422",
+      "status": "boundary_case",
+      "reason": "The Leisure Hive is a revenue-dependent tourist business rather than verified general post-work provision.",
+      "source_ids": [
+        "src-leisure-hive-reference"
+      ],
+      "analysis": "Commercial leisure, bankruptcy and useful research are not a universal resident support system.",
+      "follow_up": "Skip deeper serial reconstruction."
+    },
+    {
+      "candidate_id": "c0423",
+      "status": "needs_evidence",
+      "reason": "Drathro’s rule and food facilities do not establish that resident necessities are chiefly independent of useful human service.",
+      "source_ids": [
+        "src-mysterious-planet-reference"
+      ],
+      "analysis": "Technical maintenance is actually demanded; machine control alone does not establish post-work allocation or deliberately dispensable jobs.",
+      "follow_up": "Skip full transcript reconstruction."
+    },
+    {
+      "candidate_id": "c0424",
+      "status": "included",
+      "reason": "The living advance party actually receives robotic material support before and during the lethal happiness-system failure.",
+      "source_ids": [
+        "src-smile-vardy-reference",
+        "src-smile-provision-dialogue",
+        "src-smile-advance-party-review"
+      ],
+      "society_id": "smile-vardy-advance-colony"
+    }
+  ],
+  "review_notes": [
+    "Twelve short-check decisions and two bounded support-system records.",
+    "Gridlock has direct food-recycling and long-term residence dialogue; current paid employment is distinct from ongoing care and maintenance work.",
+    "Smile is narrowed to the actual living advance party. Pollination labor, lethal conditionality and the unresolved post-reset economy stay explicit.",
+    "Only bounded transcript passages were consulted. Unrelated fanfiction, unneeded adjacent recap material and full serial reconstruction were avoided."
+  ]
+}

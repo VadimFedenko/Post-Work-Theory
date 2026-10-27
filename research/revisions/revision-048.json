@@ -1,0 +1,278 @@
+{
+  "revision_id": "revision-048",
+  "revised_on": "2026-10-17",
+  "reason": "Source follow-up: make Set My Heart to Five’s directly quoted human-job reservation and bot dentistry visible in its description, without changing numeric estimates or claiming every protected job is unnecessary.",
+  "changes": [
+    {
+      "collection": "societies",
+      "before": {
+        "id": "heartfive-active-android-workers-zero",
+        "candidate_id": "c0299",
+        "name": "Set My Heart to Five (the constrained android work order)",
+        "work": "Set My Heart to Five",
+        "society": "Set My Heart to Five (the constrained android work order)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named published literary continuity and bounded period/cohort",
+          "period": "The functioning bot labor order before any generalized liberation outcome",
+          "population": "Active conscious android workers in the scoped order",
+          "human_population_proxy": true,
+          "exclusions": "A proposed film is not a released medium; private emotional experience is not absence of ongoing useful work.",
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_synthetic_persons"
+        },
+        "description": "Jared’s emotional awakening occurs in a future where bots face constraints on their lives and conduct. The retained point models the active android work order rather than assuming that artificial persons are all leisure consumers supported by machines. The guarantee best guess is weak and conditional: technical maintenance can sustain workers without secure autonomy or equal access to resources. Broader provision remains an explicitly uncertain contextual estimate.\n\n Control stays near the concentrated organic-owner reference point, with independent android agency and wider technical constraints inside the interval. Synthetic personhood does not automatically imply independence from human institutions. The central nonworking scenario is zero for the scoped active worker cohort because professional services, operations, maintenance and assigned useful activity count. Private filmgoing and emotions do not by themselves abolish those roles. This zero variant keeps the recognizable android-person model in the database with broad resource bounds, and it does not derive a human labor rate from bots or add an unreleased adaptation to the media tags.",
+        "axis": {
+          "guarantees": 0.75,
+          "control": 0.02,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.8,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Constrained bot work implies conditional maintenance rather than equal security.",
+            "source_ids": [
+              "src-heart-five-publisher",
+              "src-heartfive-publisher-dentist",
+              "src-heartfive-quoted-reserved-jobs"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "Organic institutions constrain android agency; full independence remains an alternative.",
+            "source_ids": [
+              "src-heart-five-publisher",
+              "src-heartfive-publisher-dentist",
+              "src-heartfive-quoted-reserved-jobs"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "The active android worker cohort performs useful work centrally.",
+            "source_ids": [
+              "src-heart-five-publisher",
+              "src-heartfive-publisher-dentist",
+              "src-heartfive-quoted-reserved-jobs"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-heart-five-publisher",
+          "src-heartfive-publisher-dentist",
+          "src-heartfive-quoted-reserved-jobs"
+        ],
+        "evidence": [
+          {
+            "claim": "The publisher describes Jared’s emotional awakening and constraints on bots.",
+            "source_ids": [
+              "src-heart-five-publisher",
+              "src-heartfive-publisher-dentist",
+              "src-heartfive-quoted-reserved-jobs"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Quoted passages identify bot dentistry and laws reserving other occupations for humans.",
+            "source_ids": [
+              "src-heart-five-publisher",
+              "src-heartfive-publisher-dentist",
+              "src-heartfive-quoted-reserved-jobs"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Active conscious androids define the synthetic-person proxy.",
+          "General rights, resource support and productive ownership remain estimates.",
+          "Legal reservation does not prove that every protected occupation is unnecessary."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the recognizable constrained android work order as a zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The publisher describes Jared’s emotional awakening and constraints on bots.",
+          "Quoted passages identify bot dentistry and laws reserving other occupations for humans."
+        ],
+        "editorial_assumptions": [
+          "Active conscious androids define the synthetic-person proxy.",
+          "General rights, resource support and productive ownership remain estimates.",
+          "Legal reservation does not prove that every protected occupation is unnecessary."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Participation among active conscious android workers, not a literal human rate.",
+          "control": "Organic constraints are central; synthetic personhood alone does not imply independence.",
+          "literal_human_nonworking": null
+        }
+      },
+      "after": {
+        "id": "heartfive-active-android-workers-zero",
+        "candidate_id": "c0299",
+        "name": "Set My Heart to Five (the constrained android work order)",
+        "work": "Set My Heart to Five",
+        "society": "Set My Heart to Five (the constrained android work order)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The named published literary continuity and bounded period/cohort",
+          "period": "The functioning bot labor order before any generalized liberation outcome",
+          "population": "Active conscious android workers in the scoped order",
+          "human_population_proxy": true,
+          "exclusions": "A proposed film is not a released medium; private emotional experience is not absence of ongoing useful work.",
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_synthetic_persons"
+        },
+        "description": "Jared works in an android future where dentistry is performed by bots and laws reserve other occupations for humans. These quoted details make the zero-variant comparison concrete: technical substitution coexists with legal protection of human professional roles. The law alone does not prove that every protected job is unnecessary. The material-floor best guess remains weak and conditional because maintenance for robot workers does not establish equal secure resources or autonomy.\n\n Control stays near concentrated organic authority, with independent android agency inside the interval. The central nonworking scenario is zero for the scoped active android worker cohort because dentistry, other professional services, operations, maintenance and assigned useful activity count. Private filmgoing and emotional experience do not themselves abolish ongoing work. The synthetic-person proxy is explicit, so this is not a literal human employment percentage. Broad bounds preserve uncertain ordinary rights while the direct occupational evidence strengthens the explanation. A proposed movie adaptation remains outside the media tags.",
+        "axis": {
+          "guarantees": 0.75,
+          "control": 0.02,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.8,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Constrained bot work implies conditional maintenance rather than equal security.",
+            "source_ids": [
+              "src-heart-five-publisher",
+              "src-heartfive-publisher-dentist",
+              "src-heartfive-quoted-reserved-jobs"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "Organic institutions constrain android agency; full independence remains an alternative.",
+            "source_ids": [
+              "src-heart-five-publisher",
+              "src-heartfive-publisher-dentist",
+              "src-heartfive-quoted-reserved-jobs"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "The active android worker cohort performs useful work centrally.",
+            "source_ids": [
+              "src-heart-five-publisher",
+              "src-heartfive-publisher-dentist",
+              "src-heartfive-quoted-reserved-jobs"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-heart-five-publisher",
+          "src-heartfive-publisher-dentist",
+          "src-heartfive-quoted-reserved-jobs"
+        ],
+        "evidence": [
+          {
+            "claim": "The publisher describes Jared’s emotional awakening and constraints on bots.",
+            "source_ids": [
+              "src-heart-five-publisher",
+              "src-heartfive-publisher-dentist",
+              "src-heartfive-quoted-reserved-jobs"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Quoted passages identify bot dentistry and laws reserving other occupations for humans.",
+            "source_ids": [
+              "src-heart-five-publisher",
+              "src-heartfive-publisher-dentist",
+              "src-heartfive-quoted-reserved-jobs"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Active conscious androids define the synthetic-person proxy.",
+          "General rights, resource support and productive ownership remain estimates.",
+          "Legal reservation does not prove that every protected occupation is unnecessary."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Targeted follow-up against quoted pages 12 and 16 on bot dentistry and legally reserved human occupations; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the constrained android work order and directly quoted human-reserved occupations as a zero variant; legal reservation does not prove all protected work unnecessary.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The publisher describes Jared’s emotional awakening and constraints on bots.",
+          "Quoted passages identify bot dentistry and laws reserving other occupations for humans."
+        ],
+        "editorial_assumptions": [
+          "Active conscious androids define the synthetic-person proxy.",
+          "General rights, resource support and productive ownership remain estimates.",
+          "Legal reservation does not prove that every protected occupation is unnecessary."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Participation among active conscious android workers, not a literal human rate.",
+          "control": "Organic constraints are central; synthetic personhood alone does not imply independence.",
+          "literal_human_nonworking": null
+        }
+      }
+    }
+  ]
+}

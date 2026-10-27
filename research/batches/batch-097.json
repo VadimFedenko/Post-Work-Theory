@@ -1,0 +1,597 @@
+{
+  "batch_id": "batch-097",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0849",
+    "c0850",
+    "c0851",
+    "c0852",
+    "c0853",
+    "c0854",
+    "c0855",
+    "c0856",
+    "c0857",
+    "c0858",
+    "c0859",
+    "c0860"
+  ],
+  "sources": [
+    {
+      "id": "src-b97-sunbite",
+      "title": "Don't Bite the Sun",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Don%27t_Bite_the_Sun",
+      "kind": "secondary_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Four-BEE residents’ needs, government, repair and bodily renewal are handled by quasi-robots; the narrator struggles to find useful work.",
+      "limitations": "A story summary, not a demographic census; desert exile and useful personal creations complicate an absolute leisure claim."
+    },
+    {
+      "id": "src-b97-marrow",
+      "title": "Marrow review",
+      "author": "Publishers Weekly",
+      "url": "https://www.publishersweekly.com/9780312868017",
+      "kind": "secondary_review",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Human captains operate a vast adjustable-environment passenger ship.",
+      "limitations": "Luxury cruising and immortality do not identify automated household production or the ordinary access contract."
+    },
+    {
+      "id": "src-b97-redstar",
+      "title": "Red Star: The First Bolshevik Utopia",
+      "author": "Alexander Bogdanov; edited by Loren R. Graham and Richard Stites, reproduced by Everand",
+      "url": "https://www.everand.com/book/392106957/Red-Star-The-First-Bolshevik-Utopia",
+      "kind": "publisher_excerpt",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Accessible book description/editorial material identifies automated factories, inventory coordination, unlimited consumption and voluntary unpaid work.",
+      "limitations": "The bounded indexed/presented description was used, not the entire subscription ebook; central statistics are not autonomous AI government."
+    },
+    {
+      "id": "src-b97-redstar-summary",
+      "title": "Red Star",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Red_Star_(novel)",
+      "kind": "secondary_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Common housing standards, voluntary job changes and widespread chosen work on Mars.",
+      "limitations": "Martians are an explicit organic-person comparison, not silently classified as humans; almost all working is not an all-age census."
+    },
+    {
+      "id": "src-b97-andromeda",
+      "title": "Andromeda: A Space-Age Tale",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Andromeda_(novel)",
+      "kind": "secondary_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Great Circle communist Earth, active scientists and explorers, and technological context.",
+      "limitations": "This short summary does not establish ordinary automated production and the access mechanism."
+    },
+    {
+      "id": "src-b97-bull",
+      "title": "The Bull’s Hour",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/The_Bull%27s_Hour",
+      "kind": "secondary_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Tormance’s oligarchy and deliberately unequal lifespans and occupations.",
+      "limitations": "Social oppression does not itself establish deliberate suppression of labor-replacing technology."
+    },
+    {
+      "id": "src-b97-circle",
+      "title": "The Final Circle of Paradise",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/The_Final_Circle_of_Paradise",
+      "kind": "secondary_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "The resort city’s affluent consumption, pleasure technologies and cultural critique.",
+      "limitations": "The summary does not clearly identify productive automation or a labor-independent necessities entitlement."
+    },
+    {
+      "id": "src-b97-sun-city",
+      "title": "Незнайка в Солнечном городе",
+      "author": "Wikipedia contributors",
+      "url": "https://ru.wikipedia.org/wiki/Незнайка_в_Солнечном_городе",
+      "kind": "secondary_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Identifies Nosov’s technological city and separates its industrial setting from the visitor’s magic.",
+      "limitations": "Does not by itself specify fabrication and free access."
+    },
+    {
+      "id": "src-b97-sun-factories",
+      "title": "Незнайка на Луне — opening chapter, indexed scan",
+      "author": "Nikolay Nosov; scan host Scribd",
+      "url": "https://ru.scribd.com/document/1031954541/neznaika",
+      "kind": "indexed_primary_passage",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Opening passage describes clothing machines doing sewing, goods taken according to need as in Sun City, and remaining design work.",
+      "limitations": "Only the short indexed opening passage was used; scan/OCR errors and access limitations remain. No full book or magical manufacturing assumption."
+    },
+    {
+      "id": "src-b97-moon",
+      "title": "Незнайка на Луне",
+      "author": "Wikipedia contributors",
+      "url": "https://ru.wikipedia.org/wiki/Незнайка_на_Луне",
+      "kind": "secondary_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Lunar monopolists resist giant food plants; poor residents need wages, food and housing.",
+      "limitations": "Suppressing larger crops or defending property is not by itself a demonstrated automation/employment-preservation regime."
+    },
+    {
+      "id": "src-b97-geometers",
+      "title": "Звёзды — холодные игрушки",
+      "author": "Wikipedia contributors",
+      "url": "https://ru.wikipedia.org/wiki/Звёзды_—_холодные_игрушки",
+      "kind": "secondary_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Geometers’ human identity, advanced technology, coercive education and social conformity.",
+      "limitations": "No clear ordinary productive/access mechanism in this bounded reference."
+    },
+    {
+      "id": "src-b97-arank",
+      "title": "Спектр — reader reviews, page 13",
+      "author": "Named/handle-based LitRes readers, individual authors not checked",
+      "url": "https://www.litres.ru/book/sergei-lukjanenko/spektr-119490/reviews/?page=13",
+      "kind": "reader_review",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "A reader describes Arank as a materially affluent needs-oriented technocratic world.",
+      "limitations": "Reader commentary and futuristic cities do not establish how automatic production supports that access; not enough for admission."
+    },
+    {
+      "id": "src-b97-guest",
+      "title": "Guest from the Future",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Guest_from_the_Future",
+      "kind": "secondary_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "2084 television Moscow has an android archivist, advanced transport and active scientists.",
+      "limitations": "Corrects the TV title versus the source novel One Hundred Years Ahead; robot presence alone does not establish the material economy."
+    },
+    {
+      "id": "src-b97-4338",
+      "title": "4338-й год: Петербургские письма",
+      "author": "Vladimir Odoevsky, Wikisource edition",
+      "url": "https://ru.wikisource.org/wiki/4338-й_год:_Петербургские_письма_(Одоевский)",
+      "kind": "indexed_primary_passage",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Short indexed introductory passages describe technological transport, communications and continuing scholarly effort.",
+      "limitations": "Only bounded indexed passages used; no full novella investigation. The attempted English article URL was absent."
+    }
+  ],
+  "societies": [
+    {
+      "id": "four-bee-quasi-robot-provision",
+      "candidate_id": "c0849",
+      "name": "Biting the Sun — Four-BEE’s quasi-robot provision",
+      "work": "Don't Bite the Sun / Drinking Sapphire Wine",
+      "society": "The domed city before the narrator’s desert exile",
+      "media": [
+        "book"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Tanith Lee’s linked novels",
+        "period": "Ordinary city life before the protagonist’s exile",
+        "population": "Human residents of Four-BEE",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Desert exiles and their later handmade settlement",
+          "Other domes as additional copies of the same material model",
+          "Resurrection as a separate society"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Four-BEE’s quasi-robots supply daily needs, repair damage and replace human bodies. Residents can obtain goods without earning ordinary wages; payment involves expressing gratitude rather than performing productive labor. This gives city residents a strong material floor, although dependence on the city and the possibility of punitive exile make a perfectly unconditional guarantee too strong. Body replacement reinforces support but is not the sole reason this qualifies.\n\nThe same quasi-robots run the governing Committee, putting effective productive authority near the autonomous-machine end of control. Humans can request services without owning the system. The narrator repeatedly fails to find useful employment because machines already perform the tasks. A high nonworking estimate is therefore defensible as a broad editorial reading, with a wide interval allowing for meaningful personal art, study, care or exploration. Those activities still count as work when useful. The desert community is outside this point, and the other domes are not counted again merely because they have different names.",
+      "axis": {
+        "guarantees": -0.8,
+        "control": -0.95,
+        "nonworking": 0.9
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -1,
+            -0.4
+          ],
+          "confidence": "low",
+          "basis": "Robots actually provide daily goods, repair and bodily support without productive wage requirements; city membership and exile qualify the guarantee.",
+          "source_ids": [
+            "src-b97-sunbite"
+          ]
+        },
+        "control": {
+          "interval": [
+            -1,
+            -0.75
+          ],
+          "confidence": "low",
+          "basis": "Quasi-robots themselves govern through the Committee; requests and consumer choice do not establish human ownership.",
+          "source_ids": [
+            "src-b97-sunbite"
+          ]
+        },
+        "nonworking": {
+          "interval": [
+            0.6,
+            0.99
+          ],
+          "confidence": "low",
+          "basis": "The unsuccessful search for useful work and machine performance of routine tasks support a high editorial estimate, not a census; personal useful activity remains possible.",
+          "source_ids": [
+            "src-b97-sunbite"
+          ]
+        }
+      },
+      "regime_primary": 5,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b97-sunbite"
+      ],
+      "evidence": [
+        {
+          "claim": "Robots actually provide daily goods, repair and bodily support without productive wage requirements; city membership and exile qualify the guarantee.",
+          "source_ids": [
+            "src-b97-sunbite"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "Quasi-robots themselves govern through the Committee; requests and consumer choice do not establish human ownership.",
+        "The unsuccessful search for useful work and machine performance of routine tasks support a high editorial estimate, not a census; personal useful activity remains possible."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": true
+      }
+    },
+    {
+      "id": "red-star-martian-commonwealth",
+      "candidate_id": "c0851",
+      "name": "Red Star — The Martian commonwealth",
+      "work": "Red Star",
+      "society": "Voluntary labor with automated production and free consumption",
+      "media": [
+        "book"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Bogdanov’s novel",
+        "period": "The established Martian society visited by Leonid",
+        "population": "Organic Martians, explicitly used as a humanlike population comparison",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Earth’s contemporary revolutionary economy",
+          "Actual Soviet economic history",
+          "Machines as people in the labor denominator"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Bogdanov’s Mars combines automated factories with freely available consumption. Production and labor needs are tracked through a statistical coordination system, while people choose unpaid work and can change occupations. Access to ordinary goods is therefore not a wage contract, and common living standards support a favorable guarantee estimate. This is an actual technological and distributive arrangement rather than a communist label alone. Resource pressures and the reference’s limited account of every necessity keep the estimate provisional.\n\nThe system is presented as a common productive order coordinated through information, so control is placed toward shared organic-person control, with a broad interval for the central institute’s practical authority. Statistical machinery is not assumed to be a sovereign AI. The population is Martian and is disclosed as an analogy to the human axes. Most inhabitants reportedly choose useful work despite being free not to do it. Voluntary factory supervision, medicine and science remain work; short days and unpaid participation cannot supply an all-age nonworking percentage, which remains unresolved.",
+      "axis": {
+        "guarantees": -0.85,
+        "control": 0.7,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -1,
+            -0.45
+          ],
+          "confidence": "low",
+          "basis": "Accessible editorial material explicitly links automatic production, free consumption and voluntary unpaid labor; common housing corroborates ordinary rather than solely elite access.",
+          "source_ids": [
+            "src-b97-redstar",
+            "src-b97-redstar-summary"
+          ]
+        },
+        "control": {
+          "interval": [
+            0.2,
+            1
+          ],
+          "confidence": "low",
+          "basis": "Communal production and flexible voluntary participation suggest distributed control; the central statistical institute creates uncertainty, not evidence of autonomous AI sovereignty.",
+          "source_ids": [
+            "src-b97-redstar",
+            "src-b97-redstar-summary"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Most Martians reportedly work voluntarily; no all-age activity census permits a percentage. Martians are an explicit organic-person proxy.",
+          "source_ids": [
+            "src-b97-redstar",
+            "src-b97-redstar-summary"
+          ]
+        }
+      },
+      "regime_primary": 2,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b97-redstar",
+        "src-b97-redstar-summary"
+      ],
+      "evidence": [
+        {
+          "claim": "Accessible editorial material explicitly links automatic production, free consumption and voluntary unpaid labor; common housing corroborates ordinary rather than solely elite access.",
+          "source_ids": [
+            "src-b97-redstar",
+            "src-b97-redstar-summary"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "Communal production and flexible voluntary participation suggest distributed control; the central statistical institute creates uncertainty, not evidence of autonomous AI sovereignty.",
+        "Most Martians reportedly work voluntarily; no all-age activity census permits a percentage. Martians are an explicit organic-person proxy."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "nosov-sun-city-needs-machinery",
+      "candidate_id": "c0855",
+      "name": "Dunno — Sun City’s machine-supported access",
+      "work": "Dunno in Sun City / Dunno on the Moon",
+      "society": "Technological city with need-based goods and continuing design work",
+      "media": [
+        "book"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Nosov’s book trilogy; Sun City economic reference corroborated in the next book’s opening",
+        "period": "The functioning city’s established provision, before Dunno’s temporary magical disruption",
+        "population": "Sun City’s organic miniature people, explicitly treated as a humanlike population proxy",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Dunno’s magic wand as productive infrastructure",
+          "Moon society as the same economy",
+          "Flower City’s later adoption as another point"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Sun City’s technological economy is distinguished from the visitor’s magic wand. An opening passage in the next novel describes machines taking over clothing manufacture and goods being taken according to need, explicitly comparing the arrangement with Sun City. The city therefore has a concrete productive and allocation mechanism, rather than qualifying just because it is cheerful or futuristic. Guarantees are provisionally favorable, with uncertainty because the short passage does not establish a complete housing and healthcare charter.\n\nThe available references do not explain final ownership of the whole productive system clearly enough to score control. A shared-access interpretation is provisional and does not turn factories or civic coordination into sovereign AI. These inhabitants are miniature organic persons, disclosed as a comparison to humans. Designers still invent clothing styles and respond to preferences, while scientists and other residents pursue useful activities. Machines doing the sewing do not establish that everyone stops working. Nonworking stays unresolved, and neither Flower City’s later imitation nor magical disruptions create additional retained societies.",
+      "axis": {
+        "guarantees": -0.65,
+        "control": null,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.95,
+            0
+          ],
+          "confidence": "low",
+          "basis": "A bounded indexed primary opening links labor-saving clothing machines, need-based access and Sun City’s existing arrangement; the reference separates technology from the visitor’s magic.",
+          "source_ids": [
+            "src-b97-sun-city",
+            "src-b97-sun-factories"
+          ]
+        },
+        "control": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Final ownership and authority over city production are not established; communal-access regime remains provisional.",
+          "source_ids": [
+            "src-b97-sun-city",
+            "src-b97-sun-factories"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Design, research and other useful contributions continue; miniature organic inhabitants are an explicit proxy and no activity census is available.",
+          "source_ids": [
+            "src-b97-sun-city",
+            "src-b97-sun-factories"
+          ]
+        }
+      },
+      "regime_primary": 2,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b97-sun-city",
+        "src-b97-sun-factories"
+      ],
+      "evidence": [
+        {
+          "claim": "A bounded indexed primary opening links labor-saving clothing machines, need-based access and Sun City’s existing arrangement; the reference separates technology from the visitor’s magic.",
+          "source_ids": [
+            "src-b97-sun-city",
+            "src-b97-sun-factories"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "Final ownership and authority over city production are not established; communal-access regime remains provisional.",
+        "Design, research and other useful contributions continue; miniature organic inhabitants are an explicit proxy and no activity census is available."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0849",
+      "status": "included",
+      "reason": "The short gathered references establish both technological production and actual ordinary material access.",
+      "source_ids": [
+        "src-b97-sunbite"
+      ],
+      "society_id": "four-bee-quasi-robot-provision"
+    },
+    {
+      "candidate_id": "c0850",
+      "status": "needs_evidence",
+      "reason": "A luxury Great Ship does not yet establish the passengers’ material production and access arrangement.",
+      "source_ids": [
+        "src-b97-marrow"
+      ],
+      "analysis": "Adjustable environments, long voyages and an elite captain are insufficient to infer automated necessities or lifetime entitlements.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0851",
+      "status": "included",
+      "reason": "The short gathered references establish both technological production and actual ordinary material access.",
+      "source_ids": [
+        "src-b97-redstar",
+        "src-b97-redstar-summary"
+      ],
+      "society_id": "red-star-martian-commonwealth"
+    },
+    {
+      "candidate_id": "c0852",
+      "status": "needs_evidence",
+      "reason": "The short reference establishes communist futurism but not the required material mechanism.",
+      "source_ids": [
+        "src-b97-andromeda"
+      ],
+      "analysis": "Active scientists and advanced spacecraft do not show how ordinary residents obtain necessities independently of work. Skip further reading in this pass.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0853",
+      "status": "needs_evidence",
+      "reason": "Tormance’s oppression and selective lifespan limits do not establish a zero variant.",
+      "source_ids": [
+        "src-b97-bull"
+      ],
+      "analysis": "A human elite’s cruelty and technological inequality do not prove actual restraint of labor-replacing capacity.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0854",
+      "status": "needs_evidence",
+      "reason": "Affluence and engineered entertainment do not establish productive automation in the bounded summary.",
+      "source_ids": [
+        "src-b97-circle"
+      ],
+      "analysis": "The city’s ordinary production and material access remain unclear; no full novel investigation.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0855",
+      "status": "included",
+      "reason": "The short gathered references establish both technological production and actual ordinary material access.",
+      "source_ids": [
+        "src-b97-sun-city",
+        "src-b97-sun-factories"
+      ],
+      "society_id": "nosov-sun-city-needs-machinery"
+    },
+    {
+      "candidate_id": "c0856",
+      "status": "needs_evidence",
+      "reason": "Resistance to giant crops is not enough to establish deliberate retention of human productive work.",
+      "source_ids": [
+        "src-b97-moon"
+      ],
+      "analysis": "The lunar novel confirms wage dependence and monopolist obstruction, but the short source does not connect that obstruction to automation replacing labor. Do not inflate the zero category.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0857",
+      "status": "needs_evidence",
+      "reason": "The Geometers’ advanced coercive order lacks a clear material access mechanism in the short reference.",
+      "source_ids": [
+        "src-b97-geometers"
+      ],
+      "analysis": "Technological strength, social conformity and human ancestry do not alone establish labor-independent provision.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0858",
+      "status": "needs_evidence",
+      "reason": "Arank’s affluence is described, but the accessible references do not clearly link it to automatic production.",
+      "source_ids": [
+        "src-b97-arank"
+      ],
+      "analysis": "The reader review is a useful lead, not enough to reconstruct ownership and provision. No novel-length rescue.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0859",
+      "status": "needs_evidence",
+      "reason": "An android archivist and free-looking futuristic transport do not establish Moscow’s household economy.",
+      "source_ids": [
+        "src-b97-guest"
+      ],
+      "analysis": "The verified title is a TV adaptation of One Hundred Years Ahead; no inference that all books and adaptations depict identical guarantees.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0860",
+      "status": "needs_evidence",
+      "reason": "Future transport and communications do not establish a technological necessities floor.",
+      "source_ids": [
+        "src-b97-4338"
+      ],
+      "analysis": "Bounded indexed passages describe useful scholarly effort and futuristic services; the missing English page was not treated as evidence and the novella was not read to rescue the lead.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    }
+  ],
+  "review_notes": [
+    "Reference-led batch: twelve ordered dispositions add three provisional records; uncertain material economies are immediately set aside.",
+    "The newly appended 48 leads are discovery entries, not retained objects. The first 64 expansion leads were already completely processed.",
+    "Four-BEE’s high nonworking value is explicitly an editorial estimate, allowing useful personal activity; neither resurrection nor receiving services is itself a work census.",
+    "Nosov’s city is supported by a bounded indexed opening passage, not a full novel read; magical manufacturing, false secondary summaries and lunar capitalist obstruction are not imported as proof.",
+    "Bogdanov’s voluntary work remains work, central statistics are not machine sovereignty, and organic Martians are an explicit population proxy.",
+    "Unrelated Andromeda engineering results, low-quality automatically generated summaries and unsupported precise rights were discarded."
+  ]
+}

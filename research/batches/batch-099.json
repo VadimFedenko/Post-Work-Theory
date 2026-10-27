@@ -1,0 +1,833 @@
+{
+  "batch_id": "batch-099",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0873",
+    "c0874",
+    "c0875",
+    "c0876",
+    "c0877",
+    "c0878",
+    "c0879",
+    "c0880",
+    "c0881",
+    "c0882",
+    "c0883",
+    "c0884"
+  ],
+  "sources": [
+    {
+      "id": "src-b99-union",
+      "title": "Union",
+      "author": "LANCER Wiki contributors",
+      "url": "https://lancer.wiki.gg/wiki/Union_Economic_Bureau",
+      "kind": "secondary_lore",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Reference describes a communal post-capital Galactic Core, distinguished from diverse member nations.",
+      "limitations": "Only the indexed/cached reference was available; direct main-title fetch failed. Political communalism does not settle every productive ownership question."
+    },
+    {
+      "id": "src-b99-pillars",
+      "title": "Utopian Pillars",
+      "author": "LANCER Wiki contributors quoting core p. 344",
+      "url": "https://lancer.wiki.gg/wiki/Third_Utopian_Pillar",
+      "kind": "secondary_quote_of_rulebook",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Basic food, water and shelter are a non-deniable right; enforcement is near universal in the Metropolitan Core but uneven outside it.",
+      "limitations": "Aspirations are not generalized to the Diaspora; exact quoted slogans are not needed in the saved description."
+    },
+    {
+      "id": "src-b99-printing",
+      "title": "Smith-Shimano Corpro, production comparison",
+      "author": "LANCER Wiki contributors",
+      "url": "https://lancer.wiki.gg/wiki/CDC",
+      "kind": "secondary_lore",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Explicitly contrasts artisanal fabricators with printing and mass-production resources supporting the post-scarcity Galactic Core.",
+      "limitations": "Used for the Core productive mechanism only; luxury corporate practices are not general human welfare rules."
+    },
+    {
+      "id": "src-b99-armory",
+      "title": "Harrison Armory",
+      "author": "LANCER Wiki contributors",
+      "url": "https://lancer.wiki.gg/wiki/Armory_Naval_Command",
+      "kind": "secondary_lore",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Purview citizenship is conditional, service can earn status, and the corpro-state manufactures advanced weapons and other goods.",
+      "limitations": "Citizenship benefits and weapons production do not clearly establish the ordinary household automation/support mechanism in this bounded account."
+    },
+    {
+      "id": "src-b99-baronies",
+      "title": "LANCER — lore misconceptions discussion",
+      "author": "Community participants, Reddit",
+      "url": "https://www.reddit.com/r/LancerRPG/comments/1x06kgd/share_common_lore_misconceptions/",
+      "kind": "community_discussion",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Discussion warns that treating all Karrakin inhabitants as oppressed serfs is an oversimplification.",
+      "limitations": "Discussion only; not adopted as proof of a welfare or productive system. A search-discovered fake-looking generic PDF was discarded."
+    },
+    {
+      "id": "src-b99-solar",
+      "title": "Perry Rhodan — Posbi cycle discussion",
+      "author": "rec.arts.sf.written participants",
+      "url": "https://groups.google.com/g/rec.arts.sf.written/c/SUekcYwniEI",
+      "kind": "community_discussion",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Discusses military robots and Terran service institutions.",
+      "limitations": "Does not verify an ordinary Solar Imperium household access arrangement; fanfiction and long novel mirrors were not used."
+    },
+    {
+      "id": "src-b99-arkon",
+      "title": "Arkoniden",
+      "author": "Perrypedia contributors",
+      "url": "https://www.perrypedia.de/wiki/Arkoniden",
+      "kind": "secondary_lore",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Machine regency and millions immersed in fictive games, with era-specific emperors and regency changes.",
+      "limitations": "Leisure and a robot ruler do not by themselves establish how residents obtain ordinary necessities."
+    },
+    {
+      "id": "src-b99-arkon-factory",
+      "title": "Arkon 3 mit dem Robotregenten, PR 1079 cutaway notes",
+      "author": "Günter Puschmann, reproduced with publisher permission",
+      "url": "https://www.rz-journal.de/Downl/1079.html",
+      "kind": "licensed_series_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Arkon III’s fully automated production primarily makes warships and equipment.",
+      "limitations": "A military industry passage, not a civilian necessities guarantee."
+    },
+    {
+      "id": "src-b99-dyson",
+      "title": "Dyson Sphere Program — official store description",
+      "author": "Youthcat Studio / Gamirror Games",
+      "url": "https://store.steampowered.com/app/1366540/",
+      "kind": "official_game_description",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "COSMO engineers automate physical production and stellar energy supply for CentreBrain’s virtual worlds.",
+      "limitations": "Store wording alone does not prove uploads; no real-world product price or current patch assertion is adopted."
+    },
+    {
+      "id": "src-b99-dyson-guide",
+      "title": "Guidebook premise reproduced in game discussion",
+      "author": "Community contributor quoting Dyson Sphere Program’s introductory guidebook",
+      "url": "https://www.reddit.com/r/Dyson_Sphere_Program/comments/1ds16ap/",
+      "kind": "community_quote_of_game_text",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Guidebook quote explicitly describes active uploaded human consciousnesses, the virtual Homeland and engineers sent through mecha to supply its energy.",
+      "limitations": "A labeled community transcription corroborated by official premise, not independently captured in-game text. No work census or universal resource charter."
+    },
+    {
+      "id": "src-b99-aspera",
+      "title": "Per Aspera — official store description",
+      "author": "Tlön Industries / Raw Fury",
+      "url": "https://store.steampowered.com/app/803050/Per_Aspera/",
+      "kind": "official_game_description",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "AMI builds the Martian infrastructure and human colonists depend on it for continuing survival.",
+      "limitations": "Mission choices change outcomes; AI operational responsibility alone does not prove final sovereignty over Earth’s mission."
+    },
+    {
+      "id": "src-b99-aspera-research",
+      "title": "Research",
+      "author": "Per Aspera Wiki contributors",
+      "url": "https://peraspera.fandom.com/wiki/Research",
+      "kind": "secondary_game_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Established colonies receive food, water/ice and power and generate research; actual supplied residents rather than an unimplemented terraforming proposal.",
+      "limitations": "Research points and formal scientist roles cannot yield an all-person nonworking percentage."
+    },
+    {
+      "id": "src-b99-starsector",
+      "title": "Starsector",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Starsector",
+      "kind": "secondary_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Factions, colony markets, crew hiring and unequal restrictions establish game context.",
+      "limitations": "Does not verify Church-wide automation restraint or Tri-Tachyon ordinary provisioning. Fanfiction and mod populations are discarded."
+    },
+    {
+      "id": "src-b99-stellaris-update",
+      "title": "Official Stellaris announcements, economy revision",
+      "author": "Paradox Development Studio, Steam announcements",
+      "url": "https://store.steampowered.com/news/posts/?appgroupname=Stellaris+-+Galaxy+Edition&appids=281990&enddate=1766148358&feed=steam_community_announcements",
+      "kind": "indexed_official_patch_notes",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "An official economic update changes unemployment into Civilian jobs and adjusts living standards.",
+      "limitations": "Only the indexed change notice is used; no patch-specific weak-floor configuration is asserted and no fan-maintained patch summary substitutes for rules."
+    },
+    {
+      "id": "src-b99-sophic",
+      "title": "Sophic League",
+      "author": "Orion’s Arm Universe Project contributors",
+      "url": "https://www.orionsarm.com/eg-topic/45ce471d24974",
+      "kind": "official_worldbuilding",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Large human-derived population is served by advanced automation and a minority doing material work; hierarchical AI/posthuman spiritual government.",
+      "limitations": "Contemplation may itself include useful intellectual activity. Mixed AI/posthuman rulers do not establish a single origin/control coordinate."
+    },
+    {
+      "id": "src-b99-hypernation",
+      "title": "Technorapture Hypernation",
+      "author": "Orion’s Arm Universe Project contributors",
+      "url": "https://www.orionsarm.com/eg-topic/45ce493e2bea5",
+      "kind": "official_worldbuilding",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "High-level members maintain computronium environments for affiliated lower minds, with pleasure, self-change and playful exploration as the organizing model.",
+      "limitations": "Only active human-derived affiliates are the proxy; not all virtual minds are human. Ultimate ruler origins and rights to specific processing allocations remain uncertain."
+    }
+  ],
+  "societies": [
+    {
+      "id": "lancer-thirdcomm-metropolitan-core",
+      "candidate_id": "c0873",
+      "name": "Lancer — Union’s Third Committee Core",
+      "work": "Lancer",
+      "society": "Implemented Metropolitan necessities guarantees supported by printing",
+      "media": [
+        "tabletop"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Published Lancer Third Committee setting",
+        "period": "The functioning Galactic Core during established Third Committee government",
+        "population": "Living human Metropolitan residents in Core settlements implementing the Pillars",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Every member nation or remote Diasporan world",
+          "Harrison Armory and the Baronies as identical to Core society",
+          "Union’s aspirations as proof of implementation everywhere"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Union’s developed Core combines printing and large-scale technological production with a material floor covering food, water and shelter. The Utopian Pillars make that floor a right, and the reference distinguishes their strong Metropolitan implementation from the unfinished project across the Diaspora. Guarantees therefore lie near the secure end for this selected Core population. The point does not turn every world nominally aligned with Union into an accomplished utopia.\n\nUnion is described as communal and post-capital, but the short references do not establish ordinary humans’ final ownership and override powers across the whole Core. Control remains unresolved, with a shared-human regime as the provisional classification rather than an automatic numeric conclusion from government rhetoric. Printing systems and nonhuman assistants do not themselves establish AI sovereignty. Residents still undertake research, administration, art, care, service and useful production. Freedom from survival wages, and the right to just labor, do not establish how many people undertake none of those activities. The nonworking fraction remains unknown.",
+      "axis": {
+        "guarantees": -0.9,
+        "control": null,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -1,
+            -0.6
+          ],
+          "confidence": "low",
+          "basis": "The material Pillar, strong Metropolitan implementation and explicit printing/mass-production support establish the scoped floor; uneven Diaspora enforcement is excluded.",
+          "source_ids": [
+            "src-b99-union",
+            "src-b99-pillars",
+            "src-b99-printing"
+          ]
+        },
+        "control": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Communal/post-capital institutions suggest a shared-human regime but do not establish final ownership/override powers; no autonomous NHP sovereignty is inferred.",
+          "source_ids": [
+            "src-b99-union",
+            "src-b99-pillars",
+            "src-b99-printing"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Voluntary or civic useful work continues; the right to necessities is not a participation census.",
+          "source_ids": [
+            "src-b99-union",
+            "src-b99-pillars",
+            "src-b99-printing"
+          ]
+        }
+      },
+      "regime_primary": 2,
+      "regime_alternatives": [
+        1
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-b99-union",
+        "src-b99-pillars",
+        "src-b99-printing"
+      ],
+      "evidence": [
+        {
+          "claim": "The material Pillar, strong Metropolitan implementation and explicit printing/mass-production support establish the scoped floor; uneven Diaspora enforcement is excluded.",
+          "source_ids": [
+            "src-b99-union",
+            "src-b99-pillars",
+            "src-b99-printing"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "Communal/post-capital institutions suggest a shared-human regime but do not establish final ownership/override powers; no autonomous NHP sovereignty is inferred.",
+        "Voluntary or civic useful work continues; the right to necessities is not a participation census."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "dyson-program-virtual-homeland",
+      "candidate_id": "c0878",
+      "name": "Dyson Sphere Program — The virtual Homeland",
+      "work": "Dyson Sphere Program",
+      "society": "Active uploaded humanity sustained by automated physical energy production",
+      "media": [
+        "game"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Game introductory premise and represented COSMO infrastructure",
+        "period": "Established uploaded Homeland while engineers expand its sustaining energy supply",
+        "population": "Active human-derived uploaded consciousnesses in the Homeland",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Inactive data backups",
+          "Icarus as an independent nonhuman citizen",
+          "The player’s factory as proof of an unrelated ordinary organic society"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Humanity’s virtual Homeland is an active populated environment whose computing demand is supplied through physical industry. The introductory guidebook, reproduced in a labeled community transcription, explicitly identifies uploaded human consciousnesses; the official description corroborates CentreBrain, COSMO and automated stellar-energy production. Continued support of those residents is the qualifying mechanism, rather than the mere possibility of a simulation. Guarantees receive a cautious favorable estimate because operating substrate is provided, while expanding demand and energy dependence limit security.\n\nCOSMO sends engineers through remotely controlled mecha to build the sustaining industrial system. This shows human-derived agency, but does not establish ownership or ultimate allocation authority inside the Homeland. CentreBrain’s name alone does not make it an autonomous machine sovereign, so control remains unresolved. Digital residents are an explicit human-derived proxy, and inactive backups are excluded. Engineering, design, science and useful creation continue in physical and virtual forms. The premise gives neither a resident activity census nor a universal exemption from all contributions; nonworking remains unknown.",
+      "axis": {
+        "guarantees": -0.5,
+        "control": null,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.85,
+            0.15
+          ],
+          "confidence": "low",
+          "basis": "The active uploaded Homeland depends on an implemented computing environment and COSMO’s automated physical supply; energy limits qualify continuing provision.",
+          "source_ids": [
+            "src-b99-dyson",
+            "src-b99-dyson-guide"
+          ]
+        },
+        "control": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Human-derived engineering agency is explicit, but internal ownership/override rules are not; CentreBrain is not assumed sovereign merely because it is a supercomputer.",
+          "source_ids": [
+            "src-b99-dyson",
+            "src-b99-dyson-guide"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Useful engineering and virtual contributions continue; active uploads are a disclosed proxy and there is no work census.",
+          "source_ids": [
+            "src-b99-dyson",
+            "src-b99-dyson-guide"
+          ]
+        }
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [
+        5
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-b99-dyson",
+        "src-b99-dyson-guide"
+      ],
+      "evidence": [
+        {
+          "claim": "The active uploaded Homeland depends on an implemented computing environment and COSMO’s automated physical supply; energy limits qualify continuing provision.",
+          "source_ids": [
+            "src-b99-dyson",
+            "src-b99-dyson-guide"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "Human-derived engineering agency is explicit, but internal ownership/override rules are not; CentreBrain is not assumed sovereign merely because it is a supercomputer.",
+        "Useful engineering and virtual contributions continue; active uploads are a disclosed proxy and there is no work census."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "per-aspera-supplied-martian-colonies",
+      "candidate_id": "c0879",
+      "name": "Per Aspera — AMI-supported human colonies",
+      "work": "Per Aspera",
+      "society": "Functioning supplied settlements in a continuing human-colonization mission",
+      "media": [
+        "game"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Base-game colony mechanics and mission setting",
+        "period": "A functioning established colony before any destructive or sovereignty-changing campaign ending",
+        "population": "Living human colonists supplied within the selected Martian settlement",
+        "human_population_proxy": false,
+        "exclusions": [
+          "An unimplemented terraforming plan",
+          "Failed or deliberately starved colonies",
+          "Any campaign ending as inevitable canon",
+          "Research points as a nonworking census"
+        ],
+        "branch": null,
+        "player_configurable": true
+      },
+      "description": "AMI’s industrial network builds and sustains actual human Martian colonies. Established settlements receive food, water or ice, power and habitat infrastructure; their residents contribute research when supplied. The game therefore models an implemented technological support arrangement, not merely a future promise to make Mars habitable. Guarantees are moderately favorable within a functioning maintained settlement, with a broad interval for resource shortages, mission choices and dependence on the controller. No universal Earth welfare system is inferred.\n\nAMI performs operational planning, but Earth-directed mission authority and later branching choices complicate final control. The available references do not settle whether humans can effectively override every sustaining decision at this selected stage, so the control axis remains unresolved and autonomous provision is only a provisional regime interpretation. This point explicitly represents a player-configurable functioning colony state. Human science, care and settlement maintenance remain useful work even when robotic systems supply ordinary materials. Research output and colony capacity do not establish a percentage of all people doing no work, which remains unknown.",
+      "axis": {
+        "guarantees": -0.5,
+        "control": null,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.85,
+            0.25
+          ],
+          "confidence": "low",
+          "basis": "Official mission description and colony mechanics establish actual food, water, power and habitat support; supply and player choices qualify reliability.",
+          "source_ids": [
+            "src-b99-aspera",
+            "src-b99-aspera-research"
+          ]
+        },
+        "control": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "AMI operational control coexists with Earth mission direction and branching outcomes; ultimate override authority remains unresolved.",
+          "source_ids": [
+            "src-b99-aspera",
+            "src-b99-aspera-research"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Human research and other useful tasks continue; capacity and research-point output are not all-person participation data.",
+          "source_ids": [
+            "src-b99-aspera",
+            "src-b99-aspera-research"
+          ]
+        }
+      },
+      "regime_primary": 5,
+      "regime_alternatives": [
+        1
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-b99-aspera",
+        "src-b99-aspera-research"
+      ],
+      "evidence": [
+        {
+          "claim": "Official mission description and colony mechanics establish actual food, water, power and habitat support; supply and player choices qualify reliability.",
+          "source_ids": [
+            "src-b99-aspera",
+            "src-b99-aspera-research"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "AMI operational control coexists with Earth mission direction and branching outcomes; ultimate override authority remains unresolved.",
+        "Human research and other useful tasks continue; capacity and research-point output are not all-person participation data."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "oa-sophic-automation-contemplation",
+      "candidate_id": "c0883",
+      "name": "Orion’s Arm — The Sophic League",
+      "work": "Orion’s Arm",
+      "society": "Automation-supported contemplative population under a layered spiritual hierarchy",
+      "media": [
+        "web_fiction"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Official Encyclopaedia Galactica present-era Sophic League",
+        "period": "Established functioning current-era League settlements",
+        "population": "Living humans and active human-derived resident minds",
+        "human_population_proxy": true,
+        "exclusions": [
+          "All artificial/alife minds as human residents",
+          "Each local religion as another economic point",
+          "Every remote settlement as identical"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Most Sophic League residents lead contemplative lives served by advanced automation and a minority concerned with material tasks. The official reference supplies that concrete labor-displacing arrangement, while the shared Sephirotic economic reference establishes ordinary basic provision and optional higher consumption. The favorable guarantee estimate applies to established functioning settlements. It is qualified by local variation and by the absence of one detailed League-wide necessities charter in the gathered passage.\n\nA hierarchical spiritual government operates through high AI and posthuman powers, lower mediators and local institutions. Their mixed origins prevent a confident placement on the article’s human-versus-autonomous-AI control scale, so control remains unresolved. Religious autonomy alone is not productive ownership. The population proxy explicitly includes humans and active human-derived residents, not every artificial worshipper. A small material workforce does not show that everyone else does no useful work: teaching, philosophical study, care and religious administration may also contribute. Contemplation and automation therefore establish freedom from ordinary material toil without supplying a nonworking census.",
+      "axis": {
+        "guarantees": -0.7,
+        "control": null,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.95,
+            -0.2
+          ],
+          "confidence": "low",
+          "basis": "The specific official reference states that advanced automation serves most residents and a small material workforce; the common Sephirotic baseline contextualizes needs access.",
+          "source_ids": [
+            "src-b99-sophic",
+            "src-b86-economies",
+            "src-b86-nocozo"
+          ]
+        },
+        "control": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Hierarchical AI/posthuman rulers and local mediation have mixed origins and do not settle effective human ownership; religious autonomy is not productive control.",
+          "source_ids": [
+            "src-b99-sophic",
+            "src-b86-economies",
+            "src-b86-nocozo"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Material workers are a minority but useful study, care, teaching and administration may be widespread; active human-derived residents are a disclosed proxy.",
+          "source_ids": [
+            "src-b99-sophic",
+            "src-b86-economies",
+            "src-b86-nocozo"
+          ]
+        }
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [
+        5
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-b99-sophic",
+        "src-b86-economies",
+        "src-b86-nocozo"
+      ],
+      "evidence": [
+        {
+          "claim": "The specific official reference states that advanced automation serves most residents and a small material workforce; the common Sephirotic baseline contextualizes needs access.",
+          "source_ids": [
+            "src-b99-sophic",
+            "src-b86-economies",
+            "src-b86-nocozo"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "Hierarchical AI/posthuman rulers and local mediation have mixed origins and do not settle effective human ownership; religious autonomy is not productive control.",
+        "Material workers are a minority but useful study, care, teaching and administration may be widespread; active human-derived residents are a disclosed proxy."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "oa-technorapture-affiliate-environments",
+      "candidate_id": "c0884",
+      "name": "Orion’s Arm — Technorapture affiliates",
+      "work": "Orion’s Arm",
+      "society": "Provided virtual environments for active human-derived affiliates of the Hypernation",
+      "media": [
+        "web_fiction"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Official present-era Technorapture Hypernation",
+        "period": "Functioning Ternion-governed cybercosms and affiliated subpolities",
+        "population": "Active human-derived affiliate minds, a disclosed subset of the broader virtual population",
+        "human_population_proxy": true,
+        "exclusions": [
+          "All virtual intelligences as human-derived",
+          "Dormant files or temporary bodies as extra people",
+          "Full member/transapient status as an entitlement of every affiliate"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Technorapture’s governing minds maintain physical computronium and provide changing virtual environments for affiliated lower-level residents. Pleasure, self-transformation and playful exploration organize access and experience, rather than subsistence wages. This is a specific implemented support model for active human-derived affiliates, not an inference from disembodiment alone. Guarantees are favorable but provisional because detailed processing entitlements and individual subpolity conditions are not fully specified.\n\nMembership with authority to manage subpolities belongs to higher-level minds, while ordinary affiliates defer to their decisions. The arrangement is hierarchical, but the gathered reference does not resolve all relevant rulers’ human-derived versus artificial origins, leaving the control coordinate unknown. The provisional autonomous-provider regime is therefore kept separate from a numeric sovereignty claim. Human-derived affiliates are a selected proxy, not the entire population of virtual beings. Creating experiences, research, self-development, teaching and collaboration may remain useful work even when pursued playfully. A culture organized around fun supplies no all-person nonworking percentage.",
+      "axis": {
+        "guarantees": -0.7,
+        "control": null,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.95,
+            -0.2
+          ],
+          "confidence": "low",
+          "basis": "The official reference identifies maintained computronium and deliberately provided changing environments for active affiliates, supported by the Sephirotic economic baseline.",
+          "source_ids": [
+            "src-b99-hypernation",
+            "src-b86-economies"
+          ]
+        },
+        "control": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Higher-level members control subpolities and affiliates defer, but mixed ruler origins and allocation rights are insufficiently resolved for the human/AI coordinate.",
+          "source_ids": [
+            "src-b99-hypernation",
+            "src-b86-economies"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Playful useful creation, research and teaching still count; only active human-derived affiliates are the explicit proxy and no work census is given.",
+          "source_ids": [
+            "src-b99-hypernation",
+            "src-b86-economies"
+          ]
+        }
+      },
+      "regime_primary": 5,
+      "regime_alternatives": [
+        1
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-b99-hypernation",
+        "src-b86-economies"
+      ],
+      "evidence": [
+        {
+          "claim": "The official reference identifies maintained computronium and deliberately provided changing environments for active affiliates, supported by the Sephirotic economic baseline.",
+          "source_ids": [
+            "src-b99-hypernation",
+            "src-b86-economies"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "Higher-level members control subpolities and affiliates defer, but mixed ruler origins and allocation rights are insufficiently resolved for the human/AI coordinate.",
+        "Playful useful creation, research and teaching still count; only active human-derived affiliates are the explicit proxy and no work census is given."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0873",
+      "status": "included",
+      "reason": "The bounded references identify a realized technological support arrangement for the stated population.",
+      "source_ids": [
+        "src-b99-union",
+        "src-b99-pillars",
+        "src-b99-printing"
+      ],
+      "society_id": "lancer-thirdcomm-metropolitan-core"
+    },
+    {
+      "candidate_id": "c0874",
+      "status": "needs_evidence",
+      "reason": "Purview citizenship and military technology do not establish a distinct household provision system clearly enough.",
+      "source_ids": [
+        "src-b99-armory"
+      ],
+      "analysis": "Do not copy Union Core’s floor into this colonial hierarchy or treat the Think Tank as proof of AI sovereignty.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0875",
+      "status": "needs_evidence",
+      "reason": "The short gathered material does not establish a single Karrakin production/access arrangement.",
+      "source_ids": [
+        "src-b99-baronies"
+      ],
+      "analysis": "A blanket feudal-serf interpretation is contested. A generic search-discovered PDF was unreliable and no deep sourcebook rescue was attempted.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0876",
+      "status": "needs_evidence",
+      "reason": "Military robots do not establish the Solar Imperium’s ordinary labor-independent material access.",
+      "source_ids": [
+        "src-b99-solar"
+      ],
+      "analysis": "The available discussion is labeled as community material. Novel mirrors and fanfiction were not used to fill the gap.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0877",
+      "status": "needs_evidence",
+      "reason": "Arkon’s robot regency and leisure are clear, but civilian access remains insufficiently specified.",
+      "source_ids": [
+        "src-b99-arkon",
+        "src-b99-arkon-factory"
+      ],
+      "analysis": "The detailed production passage concerns warships and equipment; leisure games plus machine sovereignty alone do not prove necessities provision.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0878",
+      "status": "included",
+      "reason": "The bounded references identify a realized technological support arrangement for the stated population.",
+      "source_ids": [
+        "src-b99-dyson",
+        "src-b99-dyson-guide"
+      ],
+      "society_id": "dyson-program-virtual-homeland"
+    },
+    {
+      "candidate_id": "c0879",
+      "status": "included",
+      "reason": "The bounded references identify a realized technological support arrangement for the stated population.",
+      "source_ids": [
+        "src-b99-aspera",
+        "src-b99-aspera-research"
+      ],
+      "society_id": "per-aspera-supplied-martian-colonies"
+    },
+    {
+      "candidate_id": "c0880",
+      "status": "needs_evidence",
+      "reason": "Church-wide productive restraint is not verified beyond community generalization and ship examples.",
+      "source_ids": [
+        "src-b99-starsector"
+      ],
+      "analysis": "An obsolete labor-intensive ship and religious hostility to AI do not establish a full social zero variant. Fanfiction and mods were discarded.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0881",
+      "status": "needs_evidence",
+      "reason": "Tri-Tachyon’s AI reputation does not establish actual ordinary human allocation in the short sources.",
+      "source_ids": [
+        "src-b99-starsector"
+      ],
+      "analysis": "Military AI and corporate identity are insufficient. Direct lore pages failed and no deeper reconstruction was attempted.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0882",
+      "status": "needs_evidence",
+      "reason": "The proposed weak-floor configuration needs version-specific material-access evidence.",
+      "source_ids": [
+        "src-b99-stellaris-update"
+      ],
+      "analysis": "Official economy changes replace old unemployment behavior. Do not infer deprivation from happiness or transfer older living-standard mechanics to a new configuration without verification.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0883",
+      "status": "included",
+      "reason": "The bounded references identify a realized technological support arrangement for the stated population.",
+      "source_ids": [
+        "src-b99-sophic",
+        "src-b86-economies",
+        "src-b86-nocozo"
+      ],
+      "society_id": "oa-sophic-automation-contemplation"
+    },
+    {
+      "candidate_id": "c0884",
+      "status": "included",
+      "reason": "The bounded references identify a realized technological support arrangement for the stated population.",
+      "source_ids": [
+        "src-b99-hypernation",
+        "src-b86-economies"
+      ],
+      "society_id": "oa-technorapture-affiliate-environments"
+    }
+  ],
+  "review_notes": [
+    "Twelve ordered decisions add five provisional records. Complex uncertain franchise economies are left unresolved promptly.",
+    "Union’s implemented Core is scoped away from the Diaspora and other members. Printing has a specific reference; aspirations alone are not treated as implementation.",
+    "DSP uploads are established by a labeled guidebook transcription corroborated by official infrastructure, not by the current store wording alone.",
+    "Per Aspera’s supplied colony is explicitly player-configurable and before sovereignty-changing endings; research output is not leisure and AI operational planning does not settle final control.",
+    "Sophic automation is explicit, while minority material labor is not an all-work statistic. Technorapture support concerns human-derived affiliates only and their different governing status.",
+    "A current Stellaris economy revision blocks careless reuse of older unemployment assumptions. Existing historically scoped configurations are not silently rewritten.",
+    "No additional reader/sourcebook immersion, denied-access bypass, images, website or deployment."
+  ]
+}

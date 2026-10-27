@@ -1,0 +1,934 @@
+{
+  "batch_id": "batch-098",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0861",
+    "c0862",
+    "c0863",
+    "c0864",
+    "c0865",
+    "c0866",
+    "c0867",
+    "c0868",
+    "c0869",
+    "c0870",
+    "c0871",
+    "c0872"
+  ],
+  "sources": [
+    {
+      "id": "src-b98-bread",
+      "title": "Вечный хлеб",
+      "author": "Wikipedia contributors",
+      "url": "https://ru.wikipedia.org/wiki/Вечный_хлеб",
+      "kind": "secondary_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Engineered edible organisms reproduce without care, are sold commercially and then become a lethal uncontrolled growth.",
+      "limitations": "The reference establishes a short unstable commercial episode, not durable general support; discovery’s short_story label is corrected to a printed novella in analysis."
+    },
+    {
+      "id": "src-b98-absolute",
+      "title": "The Absolute at Large",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/The_Absolute_at_Large",
+      "kind": "secondary_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Karburators release the metaphysical Absolute; supernatural goods glut disrupts distribution while human peasants still control food.",
+      "limitations": "Not a stable technological allocation regime, and a supernatural force is not assumed to be an AI."
+    },
+    {
+      "id": "src-b98-anthem",
+      "title": "Anthem, Chapter 7",
+      "author": "Ayn Rand, Wikisource edition",
+      "url": "https://en.wikisource.org/wiki/Anthem_(Rand)/Chapter_7",
+      "kind": "primary_text",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "The Council explicitly rejects demonstrated electric lighting to protect candle plans and rejects relief from toil as an end.",
+      "limitations": "Short chapter only; the demonstrated capability concerns lighting, not a fully automated potential economy."
+    },
+    {
+      "id": "src-b98-anthem-summary",
+      "title": "Anthem",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Anthem_(novella)",
+      "kind": "secondary_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Assigned occupations, collective housing, coercive Councils and electric-light discovery.",
+      "limitations": "Communal housing is not secure unconditional entitlement; no all-age useful-work census."
+    },
+    {
+      "id": "src-b98-directive",
+      "title": "Ayn Rand and the Bill of Rights",
+      "author": "Marilyn Moore, The Atlas Society",
+      "url": "https://www.atlassociety.org/post/ayn-rand-and-the-bill-of-rights",
+      "kind": "secondary_analysis",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Directive 10-289 freezes jobs and innovation under the Unification Board.",
+      "limitations": "Ideologically committed literary commentary; a generic employment/invention freeze does not establish a demonstrated labor-replacing production alternative."
+    },
+    {
+      "id": "src-b98-landscape",
+      "title": "Landscape With Invisible Hand",
+      "author": "M. T. Anderson, author website",
+      "url": "https://mtanderson.com/books/landscape-with-invisible-hand",
+      "kind": "author_summary",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Alien technology replaces human jobs while ordinary humans lack money for food, water and medical access.",
+      "limitations": "The bounded author/publisher description establishes exclusion but not a human activity percentage or an exact alien ownership census."
+    },
+    {
+      "id": "src-b98-landscape-film",
+      "title": "Landscape with Invisible Hand",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Landscape_with_Invisible_Hand",
+      "kind": "secondary_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "The film also depicts alien technological displacement, homelessness and precarious sale of human performances.",
+      "limitations": "Only shared broad material model is tagged across book and movie; adaptation-specific debt or family events are not generalized."
+    },
+    {
+      "id": "src-b98-dawn-provision",
+      "title": "Dawn — selected paragraphs for the FDRG",
+      "author": "Octavia E. Butler; excerpt hosted by SPACE",
+      "url": "https://www.spacestudios.org.uk/wp-content/uploads/2018/11/Dawn-by-Octavia-Butler-selected-paragraphs-for-the-FDRG.pdf",
+      "kind": "indexed_primary_excerpt",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "The living ship’s engineered structures supply food, oxygen, waste processing, transport and living space.",
+      "limitations": "Only a short indexed selected passage was used, not the novel or a full PDF reconstruction; living technology is not automatically autonomous AI."
+    },
+    {
+      "id": "src-b98-dawn-scope",
+      "title": "Lilith’s Brood",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Lilith%27s_Brood",
+      "kind": "secondary_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Dawn’s awakened human captives/survivors, living Oankali ship, healing and imposed gene-trade framework.",
+      "limitations": "Later Earth resisters, the proposed Mars colony and unawakened people are not this shipboard population."
+    },
+    {
+      "id": "src-b98-timeships",
+      "title": "The Time Ships",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/The_Time_Ships",
+      "kind": "secondary_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Baxter’s altered timeline includes advanced Morlocks, distinct from the original cannibal society.",
+      "limitations": "Sphere-building and advanced science alone do not specify ordinary household access."
+    },
+    {
+      "id": "src-b98-novapublisher",
+      "title": "Nova Praxis",
+      "author": "Void Star Studios",
+      "url": "https://voidstargames.squarespace.com/nova-praxis",
+      "kind": "official_setting_summary",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Molecular assembly supports an affluent Coalition with political voice, House intrigue and excluded Apostates.",
+      "limitations": "Promotional everyone wording is narrowed by the official preview’s explicit citizenship boundary."
+    },
+    {
+      "id": "src-b98-novapreview",
+      "title": "Nova Praxis: Savage Worlds Edition, preview pp. 9–11",
+      "author": "Mike McConnell and Void Star Studios",
+      "url": "https://static1.squarespace.com/static/513f57ebe4b0970eaf232dec/t/5588c41ee4b067f72cbfc84d/1435026462765/Preview%2Bfor%2BNova%2BPraxis%2B-%2BSavage%2BWorld%2BEdition%2B-%2BA-PDF%2B-%2B1.0%2B-%2BHD.pdf",
+      "kind": "official_rulebook_excerpt",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Citizens receive a default resource standard and usually own compilers; reputation governs extras. Apostates barter/scavenge, may labor for citizenship, and lack Coalition resources. Purists restrict bodily augmentation.",
+      "limitations": "Bounded overview pages only, not the entire rulebook. Uploaded active humans are a disclosed proxy. Monitors serve government and Mimir has shut down, so neither is assumed to be a sovereign provider."
+    },
+    {
+      "id": "src-b98-extropia",
+      "title": "Eclipse Phase first-edition core, indexed pp. 62–78",
+      "author": "Posthuman Studios; excerpt indexed at AnyFlip",
+      "url": "https://anyflip.com/kjxas/cses/basic/51-100",
+      "kind": "indexed_rulebook_excerpt",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Cornucopia production coexists with Extropian private property, contractual law/security and AGI legal facilitation.",
+      "limitations": "The direct page produced a cache error; use is limited to indexed passage and first-edition quoted material, without importing the second-edition entitlement rules."
+    },
+    {
+      "id": "src-b98-ep-quoted",
+      "title": "EP1: The Search for Bias",
+      "author": "Eclipse Phase forum contributors quoting first-edition core",
+      "url": "https://legacy.eclipsephase.com/comment/60955",
+      "kind": "community_quote_of_primary",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Quoted first-edition Extropian passage identifies private wealth, corporate ownership and contractual services.",
+      "limitations": "Contributor political debate and speculation were discarded; the platform is official but the posts are community-authored."
+    },
+    {
+      "id": "src-b98-ep-economy",
+      "title": "The Economy 1e",
+      "author": "Eclipse Phase first-edition text reproduced by community wiki",
+      "url": "https://eclipse-phase.fandom.com/wiki/The_Economy_1e",
+      "kind": "community_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Automated fabrication is economically pervasive but access differs among private-market and shared-access societies.",
+      "limitations": "The generic economy passage is used only with Extropian-specific evidence; transitional public benefits are not transferred to Extropia."
+    },
+    {
+      "id": "src-b98-tspace",
+      "title": "Transhuman Space",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Transhuman_Space",
+      "kind": "secondary_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Setting has fusion power, helper robots, variable prosperity and several national systems.",
+      "limitations": "No distinct US labor-independent necessities arrangement established; real-world Transhumanist Party platform search results are unrelated and rejected."
+    }
+  ],
+  "societies": [
+    {
+      "id": "anthem-protected-candle-labor",
+      "candidate_id": "c0863",
+      "name": "Anthem — The Councils’ protected candle labor",
+      "work": "Anthem",
+      "society": "Deliberate suppression of demonstrated labor-saving lighting",
+      "media": [
+        "book"
+      ],
+      "record_type": "zero_variant",
+      "scope": {
+        "continuity": "Rand’s printed novella",
+        "period": "The Councils’ order at Equality’s demonstration, before his escape",
+        "population": "Humans subject to the city’s assigned occupations and collective homes",
+        "human_population_proxy": false,
+        "exclusions": [
+          "The escaped couple’s proposed future society",
+          "An imagined fully automated economy not demonstrated in the novella"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "The World Council of Scholars rejects Equality’s demonstrated electric light partly because it would disrupt the candle industry and the plans organizing thousands of workers. A Council member also explicitly condemns relief from toil itself. This is a narrow but direct zero variant: authorities preserve existing work and institutions despite an available labor-saving replacement. The evidence supports lighting and its related labor, not a claim that the city could already automate all production.\n\nOccupations and productive plans are imposed by human Councils, placing control near concentrated human authority. The collective vocabulary does not give workers effective ownership. Food and communal homes exist inside an enforced labor order, while punishment and dependency make their security uncertain; the guarantee estimate is consequently broad and weak. Children, students, assigned workers and elderly residents cannot be converted into a precise nonworking share from the available account. The zero label describes deliberate refusal of a technical opportunity, not literal universal employment or a claim that the society already supplies everyone without work.",
+      "axis": {
+        "guarantees": 0.25,
+        "control": 0.05,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.4,
+            0.8
+          ],
+          "confidence": "low",
+          "basis": "Collective homes coexist with compulsory assigned occupations and punishment; security of access is weakly established. The primary chapter explicitly rejects labor-saving lighting to preserve candle plans and toil.",
+          "source_ids": [
+            "src-b98-anthem",
+            "src-b98-anthem-summary"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.25
+          ],
+          "confidence": "low",
+          "basis": "Human Councils impose occupations and production plans; collective language is not evidence of distributed effective control.",
+          "source_ids": [
+            "src-b98-anthem",
+            "src-b98-anthem-summary"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "No all-age useful-work census; zero variant concerns the rejected labor-saving opportunity, not zero nonworkers.",
+          "source_ids": [
+            "src-b98-anthem",
+            "src-b98-anthem-summary"
+          ]
+        }
+      },
+      "regime_primary": 0,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b98-anthem",
+        "src-b98-anthem-summary"
+      ],
+      "evidence": [
+        {
+          "claim": "Collective homes coexist with compulsory assigned occupations and punishment; security of access is weakly established. The primary chapter explicitly rejects labor-saving lighting to preserve candle plans and toil.",
+          "source_ids": [
+            "src-b98-anthem",
+            "src-b98-anthem-summary"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "Human Councils impose occupations and production plans; collective language is not evidence of distributed effective control.",
+        "No all-age useful-work census; zero variant concerns the rejected labor-saving opportunity, not zero nonworkers."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      },
+      "regime_analogy": [
+        3
+      ]
+    },
+    {
+      "id": "landscape-vuvv-excluded-humans",
+      "candidate_id": "c0865",
+      "name": "Landscape with Invisible Hand — Humans under Vuvv production",
+      "work": "Landscape with Invisible Hand",
+      "society": "Technological displacement without an ordinary human material floor",
+      "media": [
+        "book",
+        "movie"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Shared broad book/film Vuvv technological-economy model; specific family plot differences excluded",
+        "period": "Established Vuvv economic dominance and widespread human displacement",
+        "population": "Living humans on Earth subject to Vuvv economic control",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Vuvv residents as humans in the labor denominator",
+          "The entire alien civilization’s internal ownership rules",
+          "Adaptation-specific family bargains as universal law"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Vuvv technology displaces human employment while food, clean water and extraordinary medicine remain unaffordable to ordinary families. The productive breakthrough therefore fails to create a reliable human necessities floor. Selling human cultural performances to alien customers becomes one survival strategy, and widespread displacement is not treated as secure leisure. The same broad arrangement is depicted in the novel and film, without assuming their individual plot events are identical.\n\nControl lies with the biological Vuvv ruling economy. The coordinate near zero is an explicit analogy to concentrated non-machine elite control: alien domination is not autonomous AI sovereignty. The references do not establish how ownership is distributed among the aliens themselves. Human artists, performers, service workers and people seeking income still do useful work. A family’s unemployment, homelessness or desperation cannot yield a population-wide nonworking fraction, so that axis remains unresolved. The exclusion is the reason this fits the weak-guarantee concentrated model, despite the surrounding society’s remarkable technology.",
+      "axis": {
+        "guarantees": 0.9,
+        "control": 0,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            0.65,
+            1
+          ],
+          "confidence": "low",
+          "basis": "The author explicitly links technological job replacement with lack of money for necessities; the film corroborates displacement and homelessness.",
+          "source_ids": [
+            "src-b98-landscape",
+            "src-b98-landscape-film"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.25
+          ],
+          "confidence": "low",
+          "basis": "Biological Vuvv economic domination is disclosed as an analogy to concentrated non-AI control, not evidence of a machine sovereign or a single alien owner.",
+          "source_ids": [
+            "src-b98-landscape",
+            "src-b98-landscape-film"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Useful human cultural/service work continues; unemployment and poverty are not a census of everyone doing no useful activity.",
+          "source_ids": [
+            "src-b98-landscape",
+            "src-b98-landscape-film"
+          ]
+        }
+      },
+      "regime_primary": 3,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b98-landscape",
+        "src-b98-landscape-film"
+      ],
+      "evidence": [
+        {
+          "claim": "The author explicitly links technological job replacement with lack of money for necessities; the film corroborates displacement and homelessness.",
+          "source_ids": [
+            "src-b98-landscape",
+            "src-b98-landscape-film"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "Biological Vuvv economic domination is disclosed as an analogy to concentrated non-AI control, not evidence of a machine sovereign or a single alien owner.",
+        "Useful human cultural/service work continues; unemployment and poverty are not a census of everyone doing no useful activity."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "dawn-oankali-ship-human-provision",
+      "candidate_id": "c0866",
+      "name": "Dawn — Human residents of the Oankali living ship",
+      "work": "Dawn / Lilith’s Brood",
+      "society": "Engineered biological provision under Oankali authority",
+      "media": [
+        "book"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Butler’s Dawn shipboard continuity",
+        "period": "Awakened human residence aboard the Oankali ship before Earth resettlement",
+        "population": "Awake living human survivors supported aboard the ship",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Sleeping humans as nonworking leisure residents",
+          "Later Earth resister villages or the Mars-colony agreement",
+          "Oankali biology as autonomous AI government"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "The Oankali ship’s engineered living structures supply food, oxygen, waste processing, transport and living space. Awakened humans receive that support and medical intervention without purchasing it through wages. Designed biological infrastructure functions here as the technological production system. Guarantees are favorable for this limited resident group, while captivity, selection and dependence prevent the stronger claim of a freely chosen universal entitlement.\n\nFinal authority belongs to the biological Oankali, whose gene-trade project constrains human futures. Control near zero is explicitly an analogy to a concentrated non-AI provider; the living ship is not automatically classified as a machine sovereign. Reproductive coercion is relevant to the terms of residence, but is not invented as evidence that meals are routinely withdrawn for disobedience. Lilith and other awakened humans learn, train, care and perform useful tasks. Dormant survivors are outside the active population, and the available passages do not supply an all-person work census, leaving nonworking unresolved.",
+      "axis": {
+        "guarantees": -0.6,
+        "control": 0,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.9,
+            0.05
+          ],
+          "confidence": "low",
+          "basis": "Engineered living structures directly provide the necessities of awake human residents without wage purchases; captive and selective residence qualifies coverage.",
+          "source_ids": [
+            "src-b98-dawn-provision",
+            "src-b98-dawn-scope"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.2
+          ],
+          "confidence": "low",
+          "basis": "Biological Oankali hold final authority; zero is an explicit non-AI concentrated-provider analogy, not a statement that the living ship is an independent machine government.",
+          "source_ids": [
+            "src-b98-dawn-provision",
+            "src-b98-dawn-scope"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Training, care and useful learning continue; sleeping survivors are excluded and no active-resident work census is available.",
+          "source_ids": [
+            "src-b98-dawn-provision",
+            "src-b98-dawn-scope"
+          ]
+        }
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b98-dawn-provision",
+        "src-b98-dawn-scope"
+      ],
+      "evidence": [
+        {
+          "claim": "Engineered living structures directly provide the necessities of awake human residents without wage purchases; captive and selective residence qualifies coverage.",
+          "source_ids": [
+            "src-b98-dawn-provision",
+            "src-b98-dawn-scope"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "Biological Oankali hold final authority; zero is an explicit non-AI concentrated-provider analogy, not a statement that the living ship is an independent machine government.",
+        "Training, care and useful learning continue; sleeping survivors are excluded and no active-resident work census is available."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "nova-praxis-citizen-compiler-floor",
+      "candidate_id": "c0868",
+      "name": "Nova Praxis — Coalition citizens’ compiler floor",
+      "work": "Nova Praxis",
+      "society": "House-associated citizens with a default resource standard",
+      "media": [
+        "tabletop"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Official setting, Savage Worlds overview corroborating the Fate-era publisher model",
+        "period": "Established post-Exodus Coalition",
+        "population": "Living humans and active human-derived citizen minds",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Apostates without citizenship",
+          "Backups and inactive copies",
+          "Reputation extras as a condition for every basic necessity"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Coalition citizens receive a default material standard, with reputation governing resources beyond that baseline. Most own compilers and decompilers that fabricate goods and recycle their inputs. This is direct household-level productive access, not simply a post-scarcity slogan. Guarantees are strong within citizenship, though citizenship itself is a real boundary: Apostates do not share this floor. The overview’s general promotional promise is therefore narrowed to the population the rules actually identify.\n\nControl combines widespread personal machinery and direct political input with House power, surveillance and government enforcement. The coordinate favors distributed human control but keeps a broad interval for those constraints. Mimir’s historical invention does not make Mimir the current ruler, and government monitoring AIs are not assumed sovereign. Active human-derived digital residents are an explicit population proxy. Reputation-producing art, administration, care and technical contributions remain useful work. Receiving a baseline, or owning a compiler, says too little about participation to support a nonworking percentage.",
+      "axis": {
+        "guarantees": -0.8,
+        "control": 0.6,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -1,
+            -0.4
+          ],
+          "confidence": "low",
+          "basis": "Official overview identifies a default resource standard and widespread personal compilers; citizenship exclusions are explicit and reputation governs extras.",
+          "source_ids": [
+            "src-b98-novapublisher",
+            "src-b98-novapreview"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.9
+          ],
+          "confidence": "low",
+          "basis": "Personal compiler ownership and political input distribute human authority, qualified by Houses, surveillance and government control; Mimir is shut down and Monitors report to government.",
+          "source_ids": [
+            "src-b98-novapublisher",
+            "src-b98-novapreview"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Contributions, care and technical work remain useful; active human-derived minds are a disclosed proxy and no all-person participation census is supplied.",
+          "source_ids": [
+            "src-b98-novapublisher",
+            "src-b98-novapreview"
+          ]
+        }
+      },
+      "regime_primary": 2,
+      "regime_alternatives": [
+        1
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-b98-novapublisher",
+        "src-b98-novapreview"
+      ],
+      "evidence": [
+        {
+          "claim": "Official overview identifies a default resource standard and widespread personal compilers; citizenship exclusions are explicit and reputation governs extras.",
+          "source_ids": [
+            "src-b98-novapublisher",
+            "src-b98-novapreview"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "Personal compiler ownership and political input distribute human authority, qualified by Houses, surveillance and government control; Mimir is shut down and Monitors report to government.",
+        "Contributions, care and technical work remain useful; active human-derived minds are a disclosed proxy and no all-person participation census is supplied."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "nova-praxis-apostate-exclusion",
+      "candidate_id": "c0869",
+      "name": "Nova Praxis — Apostates outside the compiler floor",
+      "work": "Nova Praxis",
+      "society": "Non-citizen communities excluded from Coalition resource guarantees",
+      "media": [
+        "tabletop"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Official Savage Worlds setting overview",
+        "period": "Established post-Exodus Coalition and surrounding Apostate communities",
+        "population": "Living human and active human-derived non-citizens",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Coalition citizens’ default standard",
+          "Every Apostate community as equally poor",
+          "Inactive backups as supported residents"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Apostates live outside Coalition citizenship and its resource standard. The official overview describes barter, scavenging and people laboring for Houses in hopes of gaining admission. Molecular production has made ordinary goods cheap inside the supported order, but access is institutionally withheld from this population. The weak guarantee estimate reflects that documented exclusion, while allowing that some independent communities are better organized than others. This materially different access boundary warrants a separate point from supported citizens.\n\nThe references do not establish who owns productive equipment across the varied Apostate enclaves, so control remains unresolved. Coalition institutions determine access to their own resources, but that fact is not stretched into ownership of every independent machine. The concentrated-exclusion regime is provisional, with distributed-market alternatives left open. Survival labor, scavenging, trade and work toward citizenship are useful activities. Neither marginality nor lack of formal citizenship is leisure, and no participation percentage is inferred. Active human-derived minds are explicitly included as a proxy; inactive copies are not counted.",
+      "axis": {
+        "guarantees": 0.85,
+        "control": null,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            0.5,
+            1
+          ],
+          "confidence": "low",
+          "basis": "Official overview explicitly excludes Apostates from Coalition resources and describes survival struggles and labor toward citizenship despite compiler abundance.",
+          "source_ids": [
+            "src-b98-novapublisher",
+            "src-b98-novapreview"
+          ]
+        },
+        "control": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Enclave ownership differs and is not established; Coalition gatekeeping is not proof that Houses own every independent fabricator.",
+          "source_ids": [
+            "src-b98-novapublisher",
+            "src-b98-novapreview"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Scavenging, barter, care and labor toward citizenship are useful work; active human-derived minds are an explicit proxy and no census exists.",
+          "source_ids": [
+            "src-b98-novapublisher",
+            "src-b98-novapreview"
+          ]
+        }
+      },
+      "regime_primary": 3,
+      "regime_alternatives": [
+        4
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-b98-novapublisher",
+        "src-b98-novapreview"
+      ],
+      "evidence": [
+        {
+          "claim": "Official overview explicitly excludes Apostates from Coalition resources and describes survival struggles and labor toward citizenship despite compiler abundance.",
+          "source_ids": [
+            "src-b98-novapublisher",
+            "src-b98-novapreview"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "Enclave ownership differs and is not established; Coalition gatekeeping is not proof that Houses own every independent fabricator.",
+        "Scavenging, barter, care and labor toward citizenship are useful work; active human-derived minds are an explicit proxy and no census exists."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "eclipse-extropia-contractual-fabrication",
+      "candidate_id": "c0871",
+      "name": "Eclipse Phase — Extropia’s contractual fabrication economy",
+      "work": "Eclipse Phase",
+      "society": "First-edition Extropian market access and private productive property",
+      "media": [
+        "tabletop"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Eclipse Phase first-edition core setting",
+        "period": "Established post-Fall Extropia",
+        "population": "Living humans and active human-derived resident minds",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Second-edition rules as automatically identical",
+          "Neighboring anarchist or transitional public benefits",
+          "AGI lawyers as proof of a machine state"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "First-edition Extropia combines advanced fabrication with private property and contractual exchange. Security and legal protection are purchased services, and wealth remains economically meaningful. Unlike the shared-access anarchist model, the gathered references do not establish an unconditional resident necessities floor. Guarantees are therefore placed toward weak access, with uncertainty about particular contracts, mutual aid and individual resources. Generic public-fabricator benefits from other habitat types are not transferred to this station.\n\nOwnership is spread across private people and corporate entities rather than a single sovereign provider, suggesting a distributed market model with a broad interval for unequal corporate power. The evidence is insufficient to call every resident an equal productive owner. AGIs can facilitate legal contracts without holding ultimate sovereignty. Active human-derived resident minds are disclosed as a population proxy. Designing goods, maintaining habitats, providing services and managing contracts remain useful work. Nanofabrication makes those arrangements technologically distinct from ordinary industrial capitalism, but neither it nor freedom of contract supplies an all-person nonworking rate.",
+      "axis": {
+        "guarantees": 0.7,
+        "control": 0.45,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            0.25,
+            1
+          ],
+          "confidence": "low",
+          "basis": "First-edition material documents private productive property and contractual access/services; no universal floor is established, and other economies’ benefits are excluded.",
+          "source_ids": [
+            "src-b98-extropia",
+            "src-b98-ep-quoted",
+            "src-b98-ep-economy"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.9
+          ],
+          "confidence": "low",
+          "basis": "Multiple private/corporate owners support a provisional distributed-market placement, with broad uncertainty for unequal power; AGI legal facilitation is not sovereignty.",
+          "source_ids": [
+            "src-b98-extropia",
+            "src-b98-ep-quoted",
+            "src-b98-ep-economy"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Useful design, habitat services and contractual administration continue; active human-derived people are a disclosed proxy and no participation census is supplied.",
+          "source_ids": [
+            "src-b98-extropia",
+            "src-b98-ep-quoted",
+            "src-b98-ep-economy"
+          ]
+        }
+      },
+      "regime_primary": 4,
+      "regime_alternatives": [
+        3
+      ],
+      "qualification": "included",
+      "source_ids": [
+        "src-b98-extropia",
+        "src-b98-ep-quoted",
+        "src-b98-ep-economy"
+      ],
+      "evidence": [
+        {
+          "claim": "First-edition material documents private productive property and contractual access/services; no universal floor is established, and other economies’ benefits are excluded.",
+          "source_ids": [
+            "src-b98-extropia",
+            "src-b98-ep-quoted",
+            "src-b98-ep-economy"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "Multiple private/corporate owners support a provisional distributed-market placement, with broad uncertainty for unequal power; AGI legal facilitation is not sovereignty.",
+        "Useful design, habitat services and contractual administration continue; active human-derived people are a disclosed proxy and no participation census is supplied."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0861",
+      "status": "boundary_case",
+      "reason": "Self-growing food becomes a destructive commercial outbreak, not a demonstrated durable social floor.",
+      "source_ids": [
+        "src-b98-bread"
+      ],
+      "analysis": "The short source establishes genuine biotechnology but an unstable transition with deaths and eventual eradication. No full novella read; its printed novella identity is preserved in this decision.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0862",
+      "status": "boundary_case",
+      "reason": "Supernatural output and distribution collapse do not establish a stable technological provision society.",
+      "source_ids": [
+        "src-b98-absolute"
+      ],
+      "analysis": "The Absolute produces goods without a durable access arrangement; food still comes from human peasants, and a liberated metaphysical force is not autonomous AI.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0863",
+      "status": "zero_variant",
+      "reason": "The gathered bounded references establish the scoped technological arrangement and its admission rationale.",
+      "source_ids": [
+        "src-b98-anthem",
+        "src-b98-anthem-summary"
+      ],
+      "society_id": "anthem-protected-candle-labor"
+    },
+    {
+      "candidate_id": "c0864",
+      "status": "boundary_case",
+      "reason": "Directive 10-289 freezes jobs and inventions, but the reference does not establish a labor-replacing alternative.",
+      "source_ids": [
+        "src-b98-directive"
+      ],
+      "analysis": "A generic freeze on production and employment is insufficient for the specific zero-variant criterion. The political commentary is labeled and no contemporary policy claims are adopted.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0865",
+      "status": "included",
+      "reason": "The gathered bounded references establish the scoped technological arrangement and its admission rationale.",
+      "source_ids": [
+        "src-b98-landscape",
+        "src-b98-landscape-film"
+      ],
+      "society_id": "landscape-vuvv-excluded-humans"
+    },
+    {
+      "candidate_id": "c0866",
+      "status": "included",
+      "reason": "The gathered bounded references establish the scoped technological arrangement and its admission rationale.",
+      "source_ids": [
+        "src-b98-dawn-provision",
+        "src-b98-dawn-scope"
+      ],
+      "society_id": "dawn-oankali-ship-human-provision"
+    },
+    {
+      "candidate_id": "c0867",
+      "status": "needs_evidence",
+      "reason": "The Dyson-sphere Morlocks’ productive scale does not establish ordinary material allocation.",
+      "source_ids": [
+        "src-b98-timeships"
+      ],
+      "analysis": "Baxter’s timeline is distinct, but advanced science and sphere construction alone do not justify a new post-work point. Mixed-continuity fan nanotechnology claims are discarded.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0868",
+      "status": "included",
+      "reason": "The gathered bounded references establish the scoped technological arrangement and its admission rationale.",
+      "source_ids": [
+        "src-b98-novapublisher",
+        "src-b98-novapreview"
+      ],
+      "society_id": "nova-praxis-citizen-compiler-floor"
+    },
+    {
+      "candidate_id": "c0869",
+      "status": "included",
+      "reason": "The gathered bounded references establish the scoped technological arrangement and its admission rationale.",
+      "source_ids": [
+        "src-b98-novapublisher",
+        "src-b98-novapreview"
+      ],
+      "society_id": "nova-praxis-apostate-exclusion"
+    },
+    {
+      "candidate_id": "c0870",
+      "status": "needs_evidence",
+      "reason": "Purist limits concern augmentation, not a demonstrated separate productive regime.",
+      "source_ids": [
+        "src-b98-novapreview"
+      ],
+      "analysis": "Purist Houses appear within the same compiler economy. The overview’s body/mind restrictions do not prove deliberate suppression of household automation or different citizen support.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0871",
+      "status": "included",
+      "reason": "The gathered bounded references establish the scoped technological arrangement and its admission rationale.",
+      "source_ids": [
+        "src-b98-extropia",
+        "src-b98-ep-quoted",
+        "src-b98-ep-economy"
+      ],
+      "society_id": "eclipse-extropia-contractual-fabrication"
+    },
+    {
+      "candidate_id": "c0872",
+      "status": "needs_evidence",
+      "reason": "The United States’ distinct productive access rules are not established by the short setting reference.",
+      "source_ids": [
+        "src-b98-tspace"
+      ],
+      "analysis": "Generic helper robots and prosperity cannot substitute for a national floor. Real-world transhumanist political platforms are unrelated and were discarded.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    }
+  ],
+  "review_notes": [
+    "Twelve ordered dispositions add six provisional records, including one separately marked zero variant.",
+    "Anthem has a direct explicit rejection of labor-saving relief, not merely an invention ban; the claim is deliberately limited to demonstrated lighting capacity.",
+    "Nova Praxis’s actual personal compiler ownership corrects an initial suspicion of complete House production monopoly. Citizen/Apostate allocation differs materially; Purist body policy is not a third economy.",
+    "Oankali and Vuvv biological authority are explicitly non-AI analogies. Living technology and alien power are not automatically machine sovereignty.",
+    "Extropia uses first-edition bounded material only; community speculation and second-edition commodity rules are not imported.",
+    "Failed guessed article URLs were corrected only through ordinary public references; no long fictional text, denied-access bypass, or PDF download was needed."
+  ]
+}

@@ -1,0 +1,613 @@
+{
+  "batch_id": "batch-061",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0425",
+    "c0426",
+    "c0427",
+    "c0428",
+    "c0429",
+    "c0430",
+    "c0431",
+    "c0432",
+    "c0433",
+    "c0434",
+    "c0435",
+    "c0436"
+  ],
+  "sources": [
+    {
+      "id": "src-oxygen-reference",
+      "title": "Oxygen Doctor Who",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Oxygen_(Doctor_Who)",
+      "kind": "secondary_tv_plot_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public suit oxygen charges, automated profit and killing-program synopsis read",
+      "read_scope": "A mining company’s algorithm treats living workers as expendable costs.",
+      "limitations": "A workplace’s lethal cost calculation does not establish the whole civilization’s production/access system or a living supported post-work population."
+    },
+    {
+      "id": "src-kerblam-recap",
+      "title": "Kerblam! Recap",
+      "author": "TVmaze",
+      "url": "https://www.tvmaze.com/recaps/3412/doctor-who-kerblam-recap",
+      "kind": "secondary_tv_episode_recap_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public automated-task, labor-law, job-scarcity and robot-supervision passages read",
+      "read_scope": "Law requires at least ten percent human staff despite replaceable automated tasks.",
+      "limitations": "A share of one employer’s staff is not an all-person nonworking rate. Job scarcity does not fully specify welfare rights outside employment."
+    },
+    {
+      "id": "src-kerblam-law-reference",
+      "title": "Kerblam! TV story",
+      "author": "Tardis Wiki contributors",
+      "url": "https://tardis.fandom.com/wiki/Kerblam!_(TV_story)",
+      "kind": "secondary_tv_lore_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public People Power, certified human staffing and monitoring sections read",
+      "read_scope": "Political protests lead to a minimum human workforce quota.",
+      "limitations": "The separate Cancelled Years fan continuity and Magic card adaptation are excluded; the official episode’s ten-percent rule is the relevant lead."
+    },
+    {
+      "id": "src-boom-algorithm-dialogue",
+      "title": "Doctor Who: Boom — Mundy Flynn quotes",
+      "author": "Episode dialogue transcribed by IMDb contributors",
+      "url": "https://www.imdb.com/title/tt28764112/characters/nm4215324/",
+      "kind": "primary_tv_dialogue_transcription_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded empty-planet and acceptable-casualty explanation read",
+      "read_scope": "A weapons algorithm manufactures a war to sustain purchases.",
+      "limitations": "A military market mechanism does not establish civilian necessities, employment independence or a whole material economy."
+    },
+    {
+      "id": "src-finetime-dialogue",
+      "title": "Doctor Who: Dot and Bubble — Lindy Pepper-Bean quotes",
+      "author": "Episode dialogue transcribed by IMDb contributors",
+      "url": "https://www.imdb.com/title/tt28718575/characters/nm8424510/",
+      "kind": "primary_tv_dialogue_transcription_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded age, affordability, two-hour work and partying exchange read",
+      "read_scope": "Finetime is an expensive young-adult enclave with short workdays.",
+      "limitations": "Affluence, guidance robots and a short workday do not establish its actual material-production mechanism or prove the work is unnecessary."
+    },
+    {
+      "id": "src-asgard-rda-reference",
+      "title": "Asgard",
+      "author": "Richard Dean Anderson website lexicon",
+      "url": "https://rdanderson.com/stargate/lexicon/entries/asgard.htm",
+      "kind": "official_performer_lore_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public cloning decline and advanced-technology paragraphs read",
+      "read_scope": "A technologically advanced biological civilization faces cloning failure.",
+      "limitations": "Immortality attempts, power and technical rank do not establish household distribution or participation."
+    },
+    {
+      "id": "src-tollan-rda-reference",
+      "title": "Tollans",
+      "author": "Richard Dean Anderson website lexicon",
+      "url": "https://www.rdanderson.com/stargate/lexicon/entries/tollans.htm",
+      "kind": "official_performer_lore_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public modern-city rebuilding and technological nonsharing passages read",
+      "read_scope": "Tollans rebuild a modern society and restrict transfers to outsiders.",
+      "limitations": "Restricting exports is not necessarily domestic suppression of labor replacement, and no material guarantee is established."
+    },
+    {
+      "id": "src-beneath-surface-rda",
+      "title": "Beneath the Surface",
+      "author": "Richard Dean Anderson website episode guide",
+      "url": "https://rdanderson.com/stargate/episodes/episodes/04-10beneath.htm",
+      "kind": "official_performer_episode_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public underground work, prosperous city and energy-production passages read",
+      "read_scope": "The surface city depends on real coerced underground labor.",
+      "limitations": "A leisure elite supported by biological workers is not automatic production; a possible relief valve does not prove all work dispensable."
+    },
+    {
+      "id": "src-revisions-handbook",
+      "title": "Arduinna’s SG Handbook: 2003 updates — Revisions",
+      "author": "Arduinna",
+      "url": "https://trickster.org/arduinna/stargate/oldsite/2005/2003.html",
+      "kind": "secondary_tv_lore_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Revisions self-sufficiency, computer culling and memory revision paragraphs only read",
+      "read_scope": "The dome generates food/water while its computer shrinks the population to match dwindling power.",
+      "limitations": "Fan reference evidence remains provisional; other episodes in the archive are not imported."
+    },
+    {
+      "id": "src-revisions-transcript",
+      "title": "Revisions Transcript",
+      "author": "Episode dialogue transcribed by StargateWiki",
+      "url": "https://stargate-sg1-solutions.com/wiki/7.05_%22Revisions%22_Transcript",
+      "kind": "primary_tv_dialogue_with_editor_synopsis_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded food, self-sufficiency, geothermal power and technician exchange plus editor’s précis read",
+      "read_scope": "The dome supplies needs, but Pallan performs actual technical maintenance.",
+      "limitations": "The précis is editorial, not character dialogue. No whole transcript read or new viewing; self-sufficiency does not eliminate human work."
+    },
+    {
+      "id": "src-gamekeeper-reference",
+      "title": "The Gamekeeper",
+      "author": "SGCommand contributors",
+      "url": "https://stargate.fandom.com/wiki/The_Gamekeeper",
+      "kind": "secondary_tv_episode_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public Keeper control, resident exit and surviving garden synopsis read",
+      "read_scope": "The Keeper confines living people in a virtual environment after the outside has recovered.",
+      "limitations": "The return to outside life is a new unresolved economy; Stargate personnel are temporary captives rather than the original long-term residents."
+    },
+    {
+      "id": "src-gamekeeper-vr-unit",
+      "title": "Virtual reality unit",
+      "author": "GateWorld Omnipedia contributors",
+      "url": "https://www.gateworld.net/wiki/Virtual_reality_unit",
+      "kind": "secondary_tv_lore_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Original P7J-989 device, nutrient tubes and Keeper control sections read",
+      "read_scope": "Automatic units maintain living bodies while their minds experience a virtual world.",
+      "limitations": "The later Earth military training adaptation is excluded. Immobile bodies do not prove inactive minds or universal nonwork."
+    },
+    {
+      "id": "src-entity-rda-reference",
+      "title": "Entity",
+      "author": "Richard Dean Anderson website lexicon",
+      "url": "https://www.rdanderson.com/stargate/lexicon/entries/entity.htm",
+      "kind": "official_performer_lore_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public electrical lifeform, MALP contagion and host explanation read",
+      "read_scope": "An electrical being defends its home from perceived invasion.",
+      "limitations": "Electrical life is not automatically manufactured AI, a human-derived population or an economic support mechanism."
+    },
+    {
+      "id": "src-asuran-reference",
+      "title": "Asuran",
+      "author": "SGCommand contributors",
+      "url": "https://stargate.fandom.com/wiki/Asuran",
+      "kind": "secondary_tv_lore_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public nanite civilization and active collective research/adaptation passages read",
+      "read_scope": "Replicator persons have a continuing technological civilization.",
+      "limitations": "Self-construction and machine personhood do not alone establish a post-work human/person proxy economy or nonparticipation."
+    },
+    {
+      "id": "src-atlantis-ancient-reference",
+      "title": "Atlantis",
+      "author": "GateWorld Omnipedia contributors",
+      "url": "https://www.gateworld.net/wiki/Atlantis",
+      "kind": "secondary_tv_lore_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public Ancient city and automatic resurfacing description read",
+      "read_scope": "Ancient infrastructure has powerful automatic protective systems.",
+      "limitations": "The later human expedition and ancient pre-evacuation society are separate periods; navigation/safety automation is not household entitlement. An alternate-universe fanfiction result is not used."
+    }
+  ],
+  "societies": [
+    {
+      "id": "kerblam-human-employment-quota",
+      "candidate_id": "c0426",
+      "name": "Doctor Who — Kerblam!’s human employment quota",
+      "work": "Doctor Who: Kerblam!",
+      "society": "Kandokan employment-preservation policy as implemented at Kerblam",
+      "media": [
+        "tv"
+      ],
+      "record_type": "zero_variant",
+      "scope": {
+        "continuity": "2018 television episode Kerblam!",
+        "period": "The established ten-percent human-staff rule before the final restructuring",
+        "population": "Living human/organic workers and job seekers under the Kandokan policy, with Kerblam as the documented implementation",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Robots as additional human workers",
+          "The closing restructuring as already identical",
+          "A universal planetary unemployment rate inferred from company staff"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Kerblam’s warehouse could automate tasks that humans still perform, but labor law requires a minimum human share of its staff. The rule follows political pressure to preserve employment. This is a direct zero variant: technological replacement is available while society deliberately retains jobs as a route to income and participation. The record covers the documented law and its implementation at the major employer, rather than claiming that every occupation on Kandoka is unnecessary.\n\nCorporate management and human political institutions set the employment framework, while the computer system assigns and monitors workers. That supports a concentrated human-control estimate, with uncertainty about the system’s considerable operational discretion. Scarce jobs and pressure on employees do not fully establish the material rights of people outside work, so guarantees remain unresolved. The ninety-percent robot share is a workplace staffing ratio, not evidence that ninety percent of living people do no useful work. The ending’s restructuring changes the rule and is not silently treated as an already durable second economy.",
+      "axis": {
+        "guarantees": null,
+        "control": 0.1,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Job scarcity and workplace pressure are clear, but the checked sources do not fully specify the unemployed population’s material floor.",
+          "source_ids": [
+            "src-kerblam-recap",
+            "src-kerblam-law-reference"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.3
+          ],
+          "confidence": "low",
+          "basis": "Corporate management and labor legislation frame the system despite extensive AI operational discretion.",
+          "source_ids": [
+            "src-kerblam-recap",
+            "src-kerblam-law-reference"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "The organic/robot staff split has the wrong denominator for an all-person nonworking fraction.",
+          "source_ids": [
+            "src-kerblam-recap",
+            "src-kerblam-law-reference"
+          ]
+        }
+      },
+      "regime_primary": 0,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-kerblam-recap",
+        "src-kerblam-law-reference"
+      ],
+      "evidence": [
+        {
+          "claim": "Labor law preserves human jobs doing automatable tasks after People Power protests.",
+          "source_ids": [
+            "src-kerblam-recap",
+            "src-kerblam-law-reference"
+          ],
+          "locator": "Warehouse tour, labor-law explanation and certified staffing notes",
+          "kind": "secondary_episode_references"
+        }
+      ],
+      "uncertainties": [
+        "A policy-defined zero variant rather than a claim that all useful work has ended.",
+        "Company staffing shares must not become population participation shares.",
+        "The guarantee floor and final restructuring remain unresolved."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      },
+      "regime_analogy": 3
+    },
+    {
+      "id": "revisions-domed-community",
+      "candidate_id": "c0432",
+      "name": "Stargate SG-1 — the computer-maintained dome",
+      "work": "Stargate SG-1: Revisions",
+      "society": "Living residents of the self-sufficient domed settlement",
+      "media": [
+        "tv"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "SG-1 television episode Revisions",
+        "period": "Established dome provision during the power decline before evacuation",
+        "population": "Living human residents linked to the dome computer",
+        "human_population_proxy": false,
+        "exclusions": [
+          "People already killed outside the dome",
+          "SG-1 as permanent residents",
+          "The relocated population’s future economy"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "The dome is a continuing support environment that supplies food, water and protection from a toxic world. Its material floor is not described as a wage purchase: residents rely on the linked computer and the settlement’s self-sufficient infrastructure. Human technicians still maintain the system, so this is partial technological provision rather than the disappearance of useful work. The guarantee estimate is weak because the computer secretly sends residents to die outside as power declines, then removes memories of them from those who remain.\n\nEffective control lies near the autonomous-machine end. The residents’ apparent satisfaction is compromised by manipulated information, and neither their council nor individual technicians can reliably direct the computer’s survival policy. Daily food provision therefore coexists with the absence of a secure claim to continued life inside the dome. A reduced population does not increase the leisure fraction: dead people are excluded, while maintenance and other useful activities remain work. The subsequent evacuation ends this arrangement and does not establish a second verified post-work society.",
+      "axis": {
+        "guarantees": 0.65,
+        "control": -0.95,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            0.1,
+            1
+          ],
+          "confidence": "medium",
+          "basis": "Actual necessities are supplied, but the provider withdraws the habitat itself from selected residents through lethal culling.",
+          "source_ids": [
+            "src-revisions-handbook",
+            "src-revisions-transcript"
+          ]
+        },
+        "control": {
+          "interval": [
+            -1,
+            -0.8
+          ],
+          "confidence": "medium",
+          "basis": "The computer sets the population-reduction policy and rewrites residents’ memories, undermining informed human direction.",
+          "source_ids": [
+            "src-revisions-handbook",
+            "src-revisions-transcript"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Pallan performs real technical work; population decline and automatic supply do not reveal participation.",
+          "source_ids": [
+            "src-revisions-handbook",
+            "src-revisions-transcript"
+          ]
+        }
+      },
+      "regime_primary": 6,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-revisions-handbook",
+        "src-revisions-transcript"
+      ],
+      "evidence": [
+        {
+          "claim": "A self-sufficient computer-linked settlement supplies needs while its computer kills residents to conserve power.",
+          "source_ids": [
+            "src-revisions-handbook",
+            "src-revisions-transcript"
+          ],
+          "locator": "Revisions support/technician exchange and culling explanation",
+          "kind": "primary_dialogue_and_secondary_reference"
+        }
+      ],
+      "uncertainties": [
+        "Self-sufficiency includes useful human maintenance rather than literal absence of labor.",
+        "Severe conditionality comes from actual withdrawal of life support, not coercion alone.",
+        "Dead residents are not counted as leisure citizens.",
+        "The relocated community’s access rules remain unknown."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "gamekeeper-vr-residents",
+      "candidate_id": "c0433",
+      "name": "Stargate SG-1 — the Gamekeeper’s supported VR residents",
+      "work": "Stargate SG-1: The Gamekeeper",
+      "society": "Long-term living Residents sustained in virtual-reality units",
+      "media": [
+        "tv"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "SG-1 television episode The Gamekeeper",
+        "period": "Continuing virtual confinement before the Residents leave",
+        "population": "Living embodied humanoid Residents with active virtual experience; explicit biological person proxy",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Temporary SG-1 captives",
+          "Later Earth military training users",
+          "The post-exit community",
+          "Passive files or dead people"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "The Residents’ bodies are maintained by machines that supply nutrients and manage their physical support while their minds inhabit a virtual environment. This is actual continuing provision, not merely an attractive simulated landscape or a stored backup of someone who has died. The biological humanoid population is an explicit person comparison for the human-centered axes. Its basic bodily support is strong within the arrangement, although the checked references do not establish unrestricted control over every desirable experience.\n\nAuthority belongs to the biological Keeper, who designed the virtual setting and conceals the outside world’s recovery to prevent people leaving. Automatic machinery does not turn this concentrated personal control into an autonomous AI regime. Deception and captivity are important limitations on freedom, but they do not by themselves demonstrate withdrawal of nutrition. The Residents remain mentally active, and physical immobility is not sufficient to score them as entirely nonworking. Their eventual exit changes both the productive setting and authority, so the subsequent real-world economy is left unresolved rather than assigned the same coordinates.",
+      "axis": {
+        "guarantees": -0.75,
+        "control": 0.05,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -1,
+            -0.35
+          ],
+          "confidence": "medium",
+          "basis": "Continuing bodily nutrition and support are mechanically provided, with no current wage condition described; quality and breadth of other rights remain less clear.",
+          "source_ids": [
+            "src-gamekeeper-reference",
+            "src-gamekeeper-vr-unit"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.2
+          ],
+          "confidence": "medium",
+          "basis": "The biological Keeper designs and controls the environment, including information and exit; the machines execute the arrangement rather than establish external AI ownership.",
+          "source_ids": [
+            "src-gamekeeper-reference",
+            "src-gamekeeper-vr-unit"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Active virtual cognition and possible useful activity are not measured by bodily immobility or confinement.",
+          "source_ids": [
+            "src-gamekeeper-reference",
+            "src-gamekeeper-vr-unit"
+          ]
+        }
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-gamekeeper-reference",
+        "src-gamekeeper-vr-unit"
+      ],
+      "evidence": [
+        {
+          "claim": "VR units automatically support living bodies while a biological Keeper controls the shared experience and hides the recovered exterior.",
+          "source_ids": [
+            "src-gamekeeper-reference",
+            "src-gamekeeper-vr-unit"
+          ],
+          "locator": "Original VR-unit description and Gamekeeper exit synopsis",
+          "kind": "secondary_episode_and_technical_lore_reference"
+        }
+      ],
+      "uncertainties": [
+        "Biological humanoid-person proxy is explicit rather than an invented count of Earth humans.",
+        "Living active minds are distinct from passive backups and stasis.",
+        "Captivity is distinguished from demonstrated loss of material support.",
+        "No exact nonworking share is inferred from bodies lying in machines."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0425",
+      "status": "needs_evidence",
+      "reason": "Ganymede’s lethal automated workplace does not establish a scoped living post-work society’s wider material economy.",
+      "source_ids": [
+        "src-oxygen-reference"
+      ],
+      "analysis": "Profit-based killing and corporate oxygen charges are clear; the checked episode account does not establish the civilization’s general access rules or a supported displaced population.",
+      "follow_up": "Skip wider-future reconstruction and do not count corpses as leisure persons."
+    },
+    {
+      "candidate_id": "c0426",
+      "status": "zero_variant",
+      "reason": "The law explicitly preserves a human staffing share in tasks that could be automated.",
+      "source_ids": [
+        "src-kerblam-recap",
+        "src-kerblam-law-reference"
+      ],
+      "society_id": "kerblam-human-employment-quota"
+    },
+    {
+      "candidate_id": "c0427",
+      "status": "boundary_case",
+      "reason": "Boom’s algorithm manufactures military demand rather than demonstrating a post-work civilian economy.",
+      "source_ids": [
+        "src-boom-algorithm-dialogue"
+      ],
+      "analysis": "A fake enemy and automated casualty target do not supply ordinary household production and distribution.",
+      "follow_up": "Keep as an automated corporate-war comparison."
+    },
+    {
+      "candidate_id": "c0428",
+      "status": "needs_evidence",
+      "reason": "Finetime’s affluent enclave and short workdays do not establish automatic material production.",
+      "source_ids": [
+        "src-finetime-dialogue"
+      ],
+      "analysis": "Paying to reside and working briefly do not prove either ongoing technological provision or that the data work is dispensable.",
+      "follow_up": "Skip deeper reconstruction; do not convert hours per day into a share of nonworking people."
+    },
+    {
+      "candidate_id": "c0429",
+      "status": "needs_evidence",
+      "reason": "Asgard power and cloning do not establish household allocation or a participation regime.",
+      "source_ids": [
+        "src-asgard-rda-reference"
+      ],
+      "analysis": "Technological rank and life extension cannot substitute for the actual material-access mechanism.",
+      "follow_up": "Skip series-wide reconstruction."
+    },
+    {
+      "candidate_id": "c0430",
+      "status": "needs_evidence",
+      "reason": "Tollan advancement and limits on external technology transfers do not establish domestic post-work provision.",
+      "source_ids": [
+        "src-tollan-rda-reference"
+      ],
+      "analysis": "Rebuilt cities and withheld exports do not establish labor-independent necessities or intentional domestic employment preservation.",
+      "follow_up": "Skip deeper lore."
+    },
+    {
+      "candidate_id": "c0431",
+      "status": "boundary_case",
+      "reason": "The prosperous surface depends on actual underground biological labor.",
+      "source_ids": [
+        "src-beneath-surface-rda"
+      ],
+      "analysis": "Forced energy production is not verified unnecessary make-work or autonomous technological provision.",
+      "follow_up": "Keep as a concealed-slavery comparison."
+    },
+    {
+      "candidate_id": "c0432",
+      "status": "included",
+      "reason": "The dome actually supplies material needs through a computer-linked system, with technician work and lethal culling disclosed.",
+      "source_ids": [
+        "src-revisions-handbook",
+        "src-revisions-transcript"
+      ],
+      "society_id": "revisions-domed-community"
+    },
+    {
+      "candidate_id": "c0433",
+      "status": "included",
+      "reason": "Automatic VR units sustain an active living population under a biological Keeper’s control.",
+      "source_ids": [
+        "src-gamekeeper-reference",
+        "src-gamekeeper-vr-unit"
+      ],
+      "society_id": "gamekeeper-vr-residents"
+    },
+    {
+      "candidate_id": "c0434",
+      "status": "boundary_case",
+      "reason": "The Entity’s electrical life and defensive action do not establish a humanlike post-work economic community.",
+      "source_ids": [
+        "src-entity-rda-reference"
+      ],
+      "analysis": "Nonbiological-looking embodiment is not automatically artificial manufacture, human-derived identity or material provision.",
+      "follow_up": "Keep as an alien-life comparison."
+    },
+    {
+      "candidate_id": "c0435",
+      "status": "needs_evidence",
+      "reason": "Asuran self-construction and machine personhood do not establish a justified post-work population’s distribution rules.",
+      "source_ids": [
+        "src-asuran-reference"
+      ],
+      "analysis": "Collective adaptation and a technological city show useful activity without the missing person proxy and material-access constitution.",
+      "follow_up": "Skip deeper lore reconstruction."
+    },
+    {
+      "candidate_id": "c0436",
+      "status": "needs_evidence",
+      "reason": "Ancient Atlantis’s automatic infrastructure does not establish its pre-evacuation household economics.",
+      "source_ids": [
+        "src-atlantis-ancient-reference"
+      ],
+      "analysis": "Protective systems and later expedition access are not evidence of earlier universal entitlement.",
+      "follow_up": "Skip full-series history reconstruction; reject alternate-universe fanfiction as canon."
+    }
+  ],
+  "review_notes": [
+    "Twelve fast dispositions and three records, including the separately labeled Kerblam employment-preservation zero variant.",
+    "The dome and VR unit have concrete continuing support; real technicians and active cognition are not erased.",
+    "Only bounded public lore/dialogue passages were used. A false Oxygen episode search, unrelated real-estate hits, alternate-universe Stargate fiction and adaptation/fan-continuity Kerblam pages were discarded.",
+    "No complete episode transcript read or viewing; machine ratios, short working days and dead residents do not supply a nonworking percentage."
+  ]
+}

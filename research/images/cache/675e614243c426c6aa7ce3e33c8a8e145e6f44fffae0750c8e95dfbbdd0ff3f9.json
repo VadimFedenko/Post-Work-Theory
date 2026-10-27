@@ -1,0 +1,61 @@
+{
+  "total": 3,
+  "items": [
+    {
+      "type": "app",
+      "name": "Cloudpunk",
+      "id": 746850,
+      "price": {
+        "currency": "USD",
+        "initial": 1999,
+        "final": 1999
+      },
+      "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/746850/capsule_231x87.jpg?t=1729027817",
+      "metascore": "73",
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "streamingvideo": false,
+      "controller_support": "full"
+    },
+    {
+      "type": "app",
+      "name": "Cloudpunk - City of Ghosts",
+      "id": 1536370,
+      "price": {
+        "currency": "USD",
+        "initial": 1499,
+        "final": 1499
+      },
+      "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1536370/capsule_231x87.jpg?t=1728325864",
+      "metascore": "",
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "streamingvideo": false,
+      "controller_support": "full"
+    },
+    {
+      "type": "app",
+      "name": "Cloudpunk Soundtrack",
+      "id": 1291400,
+      "price": {
+        "currency": "USD",
+        "initial": 999,
+        "final": 999
+      },
+      "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1291400/capsule_231x87.jpg?t=1728325831",
+      "metascore": "",
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "streamingvideo": false
+    }
+  ]
+}

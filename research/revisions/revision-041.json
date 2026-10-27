@@ -1,0 +1,2470 @@
+{
+  "revision_id": "revision-041",
+  "revised_on": "2026-10-17",
+  "reason": "Current-policy advanced-economy best guesses; distinguish active synthetic/human-derived persons, actual working periods and explicit Seed projection; correct cross-volume sources and unsupported Superluminal post-conflict label.",
+  "changes": [
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-phoenix-neptunian-markets",
+        "title": "The Phoenix Exultant: Neptunian technology and markets",
+        "author": "John C. Wright",
+        "url": "https://scifiwright.com/samples/fic/golden-age-trilogy/the-phoenix-exultant/",
+        "kind": "primary_text",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed Neptunian nano-engineering, thought-work market and investment passages read",
+        "read_scope": "The sample describes scarce Neptunian resources, minimalist nano-engineering, personality-bearing superconductive material, markets for thought-work and proposed investment/trade.",
+        "limitations": "Bounded trade and technology passages; not a complete resident distribution census. Personality storage is not automatically active personhood."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-transcendence-silent-testimony",
+        "title": "The Golden Transcendence: Silent Oecumene testimony",
+        "author": "John C. Wright",
+        "url": "https://scifiwright.com/samples/fic/golden-age-trilogy/the-golden-transcendence/",
+        "kind": "primary_text",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed sections 05 and 08, material replication and suspension passages read",
+        "read_scope": "Sections The Silent Oecumene and The Slumbering Oecumene report replicated goods powered by singularity fountains, restrictive Nothing Mentality police machines and later collective suspension.",
+        "limitations": "Character testimony, not an omniscient census. The record selects the reported active period, not later sleeping people."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-rucker-postsingular-author-setting",
+        "title": "Postsingular: the orphid transformation",
+        "author": "Rudy Rucker",
+        "url": "https://www.rudyrucker.com/postsingular/",
+        "kind": "author_description",
+        "accessed_on": "2026-10-17",
+        "access_method": "Author summary and bounded orphid transformation review paragraphs read",
+        "read_scope": "The author page identifies the orphidnet reality mirror and summarizes successive nanotechnological transformations, including information access through orphids.",
+        "limitations": "Author summary and attributed review excerpts, not a material welfare charter. Working notes are not enacted finished-novel rules."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-rucker-hylozoic-author-setting",
+        "title": "Hylozoic: sentient telepathic matter",
+        "author": "Rudy Rucker",
+        "url": "https://www.rudyrucker.com/hylozoic/",
+        "kind": "author_description",
+        "accessed_on": "2026-10-17",
+        "access_method": "Short author summary read",
+        "read_scope": "The author summary describes everyone and everything becoming sentient and telepathic, followed by alien arrivals.",
+        "limitations": "Finished-novel summary only; the 385-page working notes were not read and are not used as final distribution law."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-fall-publisher-digital-souls",
+        "title": "Fall; or, Dodge in Hell: Bitworld",
+        "author": "Neal Stephenson / William Morrow",
+        "url": "https://play.google.com/store/books/details/Neal_Stephenson_Fall_Or_Dodge_in_Hell?id=a6ZtDwAAQBAJ",
+        "kind": "publisher_description",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed publisher Bitworld description read",
+        "read_scope": "The publisher description identifies Bitworld as an afterlife in which humans continue as digital souls.",
+        "limitations": "Short description does not settle every changing internal regime, simulated necessity or outside financing arrangement."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-snowcrash-franchise-publisher",
+        "title": "Snow Crash: corporate-franchise city states",
+        "author": "Neal Stephenson / Subterranean Press",
+        "url": "https://books.google.com/books/about/Snow_Crash.html?id=CN5sPwAACAAJ",
+        "kind": "publisher_description",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed publisher franchise and delivery setting description read",
+        "read_scope": "The publisher description identifies corporate-franchise city states and Mafia-controlled pizza delivery.",
+        "limitations": "Short setting description; no inferred automatic universal provision or workforce percentage."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": {
+        "id": "src-golden-age-author-excerpts",
+        "title": "The Golden Age sample",
+        "author": "John C. Wright",
+        "url": "https://scifiwright.com/samples/fic/golden-age-trilogy/the-golden-age/",
+        "kind": "primary_fiction_indexed_excerpts",
+        "accessed_on": "2026-10-16",
+        "access_method": "Bounded public indexed Neptunian and property passages read",
+        "read_scope": "Neptunian trade, distinct technology, and claims about the distant Silent Oecumene.",
+        "limitations": "Character claims are not a verified census or final account of the Silent Oecumene; no full sample or novel read."
+      },
+      "after": {
+        "id": "src-golden-age-author-excerpts",
+        "title": "The Golden Age sample",
+        "author": "John C. Wright",
+        "url": "https://scifiwright.com/samples/fic/golden-age-trilogy/the-golden-age/",
+        "kind": "primary_fiction_indexed_excerpts",
+        "accessed_on": "2026-10-16",
+        "access_method": "Bounded public indexed Neptunian and property passages read",
+        "read_scope": "Author-hosted The Golden Age sample. The earlier registry attributed Neptunian trade and Silent Oecumene testimony to this page; the current pass locates those bounded passages in the separate volume-two and volume-three sources.",
+        "limitations": "Current cross-volume correction: use src-phoenix-neptunian-markets for Neptune and src-transcendence-silent-testimony for Silent Oecumene material claims. The complete prior source object remains in this revision’s before-value."
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "lastfirewall-institute-order",
+        "candidate_id": "c0219",
+        "name": "The Last Firewall (the Institute-regulated robot economy)",
+        "work": "The Last Firewall",
+        "society": "The Last Firewall (the Institute-regulated robot economy)",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Published literary continuity and the explicitly scoped period",
+          "period": "The functioning 2035 order before Adam achieves any hypothetical world domination",
+          "population": "Living human residents in the regulated technical economy",
+          "human_population_proxy": false,
+          "exclusions": "Adam’s attempted evasion is not a completed permanent world government; robot abundance is not a census.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Robots, AI and neural implants are commonplace, while the Institute for Ethics uses reputation to regulate interaction. The material-floor best guess is moderately strong: extensive machine capacity plausibly reduces dependence on routine human production. Reputation restraints and formal coexistence do not prove that all food, housing and care are unconditional, so access remains qualified rather than copied from a promotional post-scarcity label.\n\n Control gives substantial weight to machine administration while preserving human institutional influence in the interval. Adam’s evasion of restrictions is a challenge to this order, not evidence that he already owns every productive system. The moderate nonworking scenario permits automation but counts useful technical, administrative, caring and creative activity. Unemployment mentioned in series discussion is not identical to doing no useful work. The record retains the recognizable regulated robot economy while separating the functioning baseline from a threatened takeover and keeping household rights explicitly estimated.",
+        "axis": {
+          "guarantees": -0.4,
+          "control": -0.45,
+          "nonworking": 0.5
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.98,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Commonplace machines permit a partial floor, with reputation and entitlement limits.",
+            "source_ids": [
+              "src-last-firewall-publisher"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Machine regulation coexists with human institutions and possible rogue intervention.",
+            "source_ids": [
+              "src-last-firewall-publisher"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Useful unpaid work counts; unemployment and robot ubiquity are not participation.",
+            "source_ids": [
+              "src-last-firewall-publisher"
+            ]
+          }
+        },
+        "regime_primary": 5,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-last-firewall-publisher"
+        ],
+        "evidence": [
+          {
+            "claim": "The publisher describes commonplace robots/AI, Institute reputation regulation and Adam’s evasion of restrictions.",
+            "source_ids": [
+              "src-last-firewall-publisher"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Material support, productive ownership and participation are estimates.",
+          "The baseline excludes a completed hypothetical Adam world government."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the functioning regulated robot economy with material rights estimated.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The publisher describes commonplace robots/AI, Institute reputation regulation and Adam’s evasion of restrictions."
+        ],
+        "editorial_assumptions": [
+          "Material support, productive ownership and participation are estimates.",
+          "The baseline excludes a completed hypothetical Adam world government."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0219",
+        "status": "needs_evidence",
+        "reason": "The short setting description verifies robots and social controls, but not human provision or productive ownership.",
+        "source_ids": [
+          "src-last-firewall-publisher"
+        ],
+        "analysis": "A reputation institution regulating AI behavior is not automatically an AI welfare government. Series-level unemployment themes leave this period's allocation unresolved.",
+        "follow_up": "Skip deeper novel reading."
+      },
+      "after": {
+        "candidate_id": "c0219",
+        "status": "included",
+        "reason": "Retain the functioning regulated robot economy with material rights estimated.",
+        "source_ids": [
+          "src-last-firewall-publisher"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "lastfirewall-institute-order"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "turingexception-prewar-mixed-order",
+        "candidate_id": "c0220",
+        "name": "The Turing Exception (the prewar human and AI order)",
+        "work": "The Turing Exception",
+        "society": "The Turing Exception (the prewar human and AI order)",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Published literary continuity and the explicitly scoped period",
+          "period": "The reputation-constrained mixed order before the later war and changing bans",
+          "population": "Active human and human-derived residents of the selected prewar order",
+          "human_population_proxy": true,
+          "exclusions": "Inactive uploaded files are not persons; later incompatible jurisdictions are not averaged into the same point.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The selected prewar order combines humans, AI and active uploaded lives with reputation-based constraints. It is a different stage from the earlier Institute baseline, but not one uniform average of every wartime jurisdiction. The material-floor best guess allows substantial machine support, qualified by status and the possibility that technical abundance remains gated. Active digital continuation does not by itself establish a right to free necessities or secure substrate.\n\n Control is mixed, with strong machine influence and surviving human institutions inside a broad interval. Uploaded human origin is not treated as proof of unrelated AI sovereignty. The moderate nonworking scenario counts useful administration, system operation, research, care and public creation across active residents. Private simulation and learning are not automatically jobs, while unemployment is not automatically nonparticipation. The record retains the recognizable later mixed civilization without turning bans, war casualties or stored backups into a fictitious leisure percentage.",
+        "axis": {
+          "guarantees": -0.25,
+          "control": -0.25,
+          "nonworking": 0.5
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.98,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Reputation-constrained advanced support permits a conditional floor.",
+            "source_ids": [
+              "src-turing-author-description",
+              "src-turing-ossus-review"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Human institutions, active uploads and independent AI have different origins and powers.",
+            "source_ids": [
+              "src-turing-author-description",
+              "src-turing-ossus-review"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "Useful active-person work counts; unemployment, backups and casualties do not determine participation.",
+            "source_ids": [
+              "src-turing-author-description",
+              "src-turing-ossus-review"
+            ]
+          }
+        },
+        "regime_primary": 5,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-turing-author-description",
+          "src-turing-ossus-review"
+        ],
+        "evidence": [
+          {
+            "claim": "The references describe reputation constraints, active uploaded people, unemployment and later changing AI jurisdictions.",
+            "source_ids": [
+              "src-turing-author-description",
+              "src-turing-ossus-review"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The point selects a prewar mixed-order reconstruction rather than all periods.",
+          "Household access and active-person composition remain estimates."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the later mixed order in a bounded prewar period with active-person uncertainty explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The references describe reputation constraints, active uploaded people, unemployment and later changing AI jurisdictions."
+        ],
+        "editorial_assumptions": [
+          "The point selects a prewar mixed-order reconstruction rather than all periods.",
+          "Household access and active-person composition remain estimates."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0220",
+        "status": "needs_evidence",
+        "reason": "Unemployment and uploaded lives are verified, but changing jurisdictions prevent one evidenced economic coordinate.",
+        "source_ids": [
+          "src-turing-author-description",
+          "src-turing-ossus-review"
+        ],
+        "analysis": "The 2043 balance, later bans and warfare are separate states; no concise source establishes an actual durable material-support arrangement for a defined group.",
+        "follow_up": "Skip reconstruction of the whole war and ending."
+      },
+      "after": {
+        "candidate_id": "c0220",
+        "status": "included",
+        "reason": "Retain the later mixed order in a bounded prewar period with active-person uncertainty explicit.",
+        "source_ids": [
+          "src-turing-author-description",
+          "src-turing-ossus-review"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "turingexception-prewar-mixed-order"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "goldenage-neptunian-market-zero",
+        "candidate_id": "c0223",
+        "name": "Golden Age Trilogy (the Neptunian market civilization)",
+        "work": "The Phoenix Exultant",
+        "society": "Golden Age Trilogy (the Neptunian market civilization)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Published literary continuity and the explicitly scoped period",
+          "period": "The functioning Neptunian technological/trading order",
+          "population": "Active human-derived Neptunian persons",
+          "human_population_proxy": true,
+          "exclusions": "Stored personalities are not all awake; Solar elite rights and universal limitless energy are not imported.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Neptunians possess advanced minimalist nano-engineering and forms of personality-bearing superconductive tissue. The trade discussion also emphasizes scarce resources, investment and markets for thought-work. The material-floor best guess is therefore conditional, rather than copied from the Solar Golden Oecumene or inferred from long memory retention. Technical sophistication can support life while still leaving residents dependent on resources and exchange.\n\n Human-derived Neptunian agency receives positive control weight, with unequal market power inside the interval. A person stored in unfamiliar material is not automatically an unrelated AI ruler or an active extra nonworker. This zero variant counts useful thought-work, engineering, trade, maintenance, care and public creation. The moderate nonworking scenario allows technical substitution while preserving those roles. No resource quantity is converted into a population percentage. The corrected volume-two primary source anchors a distinct material model and keeps both its relative scarcity and its personhood uncertainty visible.",
+        "axis": {
+          "guarantees": 0.25,
+          "control": 0.55,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.85,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Scarce resources and trade qualify any strong technical support floor.",
+            "source_ids": [
+              "src-phoenix-neptunian-markets",
+              "src-golden-oecumene-latorra"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Human-derived resident/market agency is central with unequal ownership possible.",
+            "source_ids": [
+              "src-phoenix-neptunian-markets",
+              "src-golden-oecumene-latorra"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Thought-work and technical/caring activity count; personality storage is not leisure.",
+            "source_ids": [
+              "src-phoenix-neptunian-markets",
+              "src-golden-oecumene-latorra"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-phoenix-neptunian-markets",
+          "src-golden-oecumene-latorra"
+        ],
+        "evidence": [
+          {
+            "claim": "The author sample describes Neptunian minimalist nano-engineering, scarce resources and thought-work markets.",
+            "source_ids": [
+              "src-phoenix-neptunian-markets",
+              "src-golden-oecumene-latorra"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary entitlement and participation remain estimates.",
+          "Only active identities count, not every personality-bearing storage structure."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          4
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distinct scarce-resource Neptunian technical market with the correct source volume.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The author sample describes Neptunian minimalist nano-engineering, scarce resources and thought-work markets."
+        ],
+        "editorial_assumptions": [
+          "Ordinary entitlement and participation remain estimates.",
+          "Only active identities count, not every personality-bearing storage structure."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0223",
+        "status": "needs_evidence",
+        "reason": "Neptunian trade and technological differences are established, but resident access and labor replacement are not.",
+        "source_ids": [
+          "src-golden-age-author-excerpts",
+          "src-golden-oecumene-latorra"
+        ],
+        "analysis": "The outer societies cannot borrow the inner Oecumene's Sophotech economy or immortality support; dangerous trade alone supplies no welfare coordinates.",
+        "follow_up": "Skip deeper reading under the pace instruction."
+      },
+      "after": {
+        "candidate_id": "c0223",
+        "status": "zero_variant",
+        "reason": "Retain the distinct scarce-resource Neptunian technical market with the correct source volume.",
+        "source_ids": [
+          "src-phoenix-neptunian-markets",
+          "src-golden-oecumene-latorra"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "goldenage-neptunian-market-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "goldentranscendence-active-silent-oecumene",
+        "candidate_id": "c0224",
+        "name": "Golden Transcendence (the reported active Silent Oecumene)",
+        "work": "The Golden Transcendence",
+        "society": "Golden Transcendence (the reported active Silent Oecumene)",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Published literary continuity and the explicitly scoped period",
+          "period": "The testimony’s abundant active period under Nothing Mentality before collective suspension",
+          "population": "Active human-derived residents in the reported earlier period",
+          "human_population_proxy": true,
+          "exclusions": "Later sleeping population is excluded; testimony is not an omniscient census or a verified restored final order.",
+          "branch": null,
+          "player_configurable": false,
+          "projection_status": "Claim-based reconstruction of the testimony’s active period, not the later suspended population"
+        },
+        "description": "The testimony describes goods replicated from singularity-fountain energy and little need for private property. This supports a very strong material-floor best guess for the reported active period. It also describes a restrictive Nothing Mentality whose police machines prevent diaspora. Abundant goods and profound limits on resident agency can therefore coexist; the record does not assume material generosity makes productive control equally shared.\n\n Control gives substantial weight to autonomous machine enforcement, with uncertainty about constraints and original human decisions inside the interval. The high nonworking scenario permits broad routine replacement but counts useful research, engineering, administration, care and public creation. Later suspension is excluded entirely from participation. The point is expressly a reconstruction of the speaker’s earlier account, not an assertion that the civilization is dead or that all stored residents enjoy leisure. Its sources and broad bounds preserve the difference between reported paradise, coercive policing and the later sleeping state.",
+        "axis": {
+          "guarantees": -0.9,
+          "control": -0.85,
+          "nonworking": 0.75
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -1,
+              0.3
+            ],
+            "confidence": "low",
+            "basis": "Reported replicated goods support strong provision before suspension.",
+            "source_ids": [
+              "src-transcendence-silent-testimony",
+              "src-golden-transcendence-kirkus"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.35
+            ],
+            "confidence": "low",
+            "basis": "Nothing Mentality police restrictions support strong autonomous machine power.",
+            "source_ids": [
+              "src-transcendence-silent-testimony",
+              "src-golden-transcendence-kirkus"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "Useful active roles still count; suspended residents are not leisure persons.",
+            "source_ids": [
+              "src-transcendence-silent-testimony",
+              "src-golden-transcendence-kirkus"
+            ]
+          }
+        },
+        "regime_primary": 5,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-transcendence-silent-testimony",
+          "src-golden-transcendence-kirkus"
+        ],
+        "evidence": [
+          {
+            "claim": "The author-hosted testimony reports singularity-powered replication, restrictive police machines and later collective suspension.",
+            "source_ids": [
+              "src-transcendence-silent-testimony",
+              "src-golden-transcendence-kirkus"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The point uses the testimony’s earlier active period and low-confidence participation.",
+          "It does not assert identical rights in every neuroform or a completed restored society."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the directly described reported abundance period, with testimony and sleep limits explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The author-hosted testimony reports singularity-powered replication, restrictive police machines and later collective suspension."
+        ],
+        "editorial_assumptions": [
+          "The point uses the testimony’s earlier active period and low-confidence participation.",
+          "It does not assert identical rights in every neuroform or a completed restored society."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0224",
+        "status": "needs_evidence",
+        "reason": "The Silent Oecumene's existence and adversarial claims do not settle its actual civilian economy.",
+        "source_ids": [
+          "src-golden-transcendence-kirkus",
+          "src-golden-age-author-excerpts"
+        ],
+        "analysis": "A distant civilization, energy wealth and Nothing Sophotech are not sufficient to identify an ongoing supported population or distribution rules.",
+        "follow_up": "Skip late-trilogy reconstruction rather than converting an antagonist's claims into institutional facts."
+      },
+      "after": {
+        "candidate_id": "c0224",
+        "status": "included",
+        "reason": "Retain the directly described reported abundance period, with testimony and sleep limits explicit.",
+        "source_ids": [
+          "src-transcendence-silent-testimony",
+          "src-golden-transcendence-kirkus"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "goldentranscendence-active-silent-oecumene"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "metaplanetary-inner-met-zero",
+        "candidate_id": "c0225",
+        "name": "Metaplanetary (the inner Met dictatorship)",
+        "work": "Metaplanetary / Superluminal",
+        "society": "Metaplanetary (the inner Met dictatorship)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Published literary continuity and the explicitly scoped period",
+          "period": "The functioning inner system under Chairman Amés during the published conflict",
+          "population": "Active human and human-derived inner-system residents",
+          "human_population_proxy": true,
+          "exclusions": "Grist components are not all conscious people; war deaths and unshown postwar outcomes are excluded.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Grist provides pervasive nanotechnological infrastructure and supports nonhuman embodiments and electronic human consciousness. The inner Met combines that capacity with a concentrated dictatorship. The material-floor best guess is mixed and conditional: technical support can be extensive while an authority still controls access, duties and personal freedom. The cable network itself is not an equal entitlement to everything it connects.\n\n Human-derived and organic political authority is central near the concentrated control reference point. Unusual embodiment does not automatically make Chairman Amés an unrelated AI sovereign. This zero variant preserves continuing work and coercive organization despite radical technical capacity. The modest nonworking scenario counts production coordination, engineering, administration, military assignments, care and useful creation among active residents. Passive grist and backup patterns are not extra leisure persons. Broad intervals keep ordinary access uncertainty visible while retaining the clear material and political contrast with the freer outer system, without inventing the conflict’s final settlement.",
+        "axis": {
+          "guarantees": 0.3,
+          "control": 0.02,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.85,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "Grist support coexists with dictatorial gatekeeping and unknown equal rights.",
+            "source_ids": [
+              "src-metaplanetary-pw"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.8,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Concentrated organic/human-derived authority dominates by analogy.",
+            "source_ids": [
+              "src-metaplanetary-pw"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Useful and assigned active-person roles count; grist volume and deaths are not participation.",
+            "source_ids": [
+              "src-metaplanetary-pw"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-metaplanetary-pw"
+        ],
+        "evidence": [
+          {
+            "claim": "The reviews describe pervasive grist, human-derived forms and the inner dictatorship.",
+            "source_ids": [
+              "src-metaplanetary-pw"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary access and participation are estimates.",
+          "Active identities are distinct from passive nanomatter and stored patterns."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the functioning dictatorial nanotechnical order as a zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reviews describe pervasive grist, human-derived forms and the inner dictatorship."
+        ],
+        "editorial_assumptions": [
+          "Ordinary access and participation are estimates.",
+          "Active identities are distinct from passive nanomatter and stored patterns."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0225",
+        "status": "needs_evidence",
+        "reason": "Inner-system grist and dictatorship do not settle the population's actual production and access arrangement.",
+        "source_ids": [
+          "src-metaplanetary-pw"
+        ],
+        "analysis": "Nanotech embodiment and transport do not prove labor-independent necessities or deliberate preservation of unnecessary jobs.",
+        "follow_up": "Skip deeper reading."
+      },
+      "after": {
+        "candidate_id": "c0225",
+        "status": "zero_variant",
+        "reason": "Retain the functioning dictatorial nanotechnical order as a zero variant.",
+        "source_ids": [
+          "src-metaplanetary-pw"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "metaplanetary-inner-met-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "metaplanetary-outer-diverse-order",
+        "candidate_id": "c0226",
+        "name": "Metaplanetary (the outer system’s diverse communities)",
+        "work": "Metaplanetary / Superluminal",
+        "society": "Metaplanetary (the outer system’s diverse communities)",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Published literary continuity and the explicitly scoped period",
+          "period": "The functioning outer communities and resistance during the published conflict",
+          "population": "Active human and human-derived outer-system residents",
+          "human_population_proxy": true,
+          "exclusions": "Not every ship, software process or grist particle is a separate person; no invented completed postwar civilization.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Outer-system communities value freedom and diversity while using grist and multiple human-derived embodiments. Their less centralized organization differs materially from the inner dictatorship. The material-floor best guess allows substantial technical support but remains qualified by wartime pressures and uncertain differences among communities. Freedom to choose a form is not automatically an unconditional right to every productive resource.\n\n The positive control point reflects decentralized resident agency, while military coordination and technical dependencies remain in the broad interval. Human-derived ship persons and software embodiments are not automatically external AI owners. The moderate nonworking scenario permits routine substitution but counts resistance duties, transport, engineering, maintenance, care and useful creation. It uses active identities rather than treating every component or dormant pattern as a citizen. The record retains one broad outer material model with internal variation explicit. It ends within the published ongoing conflict and does not invent a resolved third-volume allocation system.",
+        "axis": {
+          "guarantees": -0.3,
+          "control": 0.75,
+          "nonworking": 0.4
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.98,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Advanced grist support permits a floor with war and local differences.",
+            "source_ids": [
+              "src-metaplanetary-pw"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.5,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Decentralized resident agency is central alongside military/technical constraints.",
+            "source_ids": [
+              "src-metaplanetary-pw"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Useful active-person roles continue; embodiments and stored components are not population ratios.",
+            "source_ids": [
+              "src-metaplanetary-pw"
+            ]
+          }
+        },
+        "regime_primary": 2,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-metaplanetary-pw"
+        ],
+        "evidence": [
+          {
+            "claim": "The review contrasts diverse freedom-valuing outer communities with the inner dictatorship.",
+            "source_ids": [
+              "src-metaplanetary-pw"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The shared material model preserves local variation rather than a universal law.",
+          "Material access and active-person participation remain estimates."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distinct outer nanotechnical model with the published war period bounded.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The review contrasts diverse freedom-valuing outer communities with the inner dictatorship."
+        ],
+        "editorial_assumptions": [
+          "The shared material model preserves local variation rather than a universal law.",
+          "Material access and active-person participation remain estimates."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0226",
+        "status": "needs_evidence",
+        "reason": "Outer-system freedom and diverse persons do not by themselves establish a post-work economy.",
+        "source_ids": [
+          "src-metaplanetary-pw"
+        ],
+        "analysis": "The outer coalition cannot inherit a uniform distribution rule from opposition to the Met.",
+        "follow_up": "Skip deeper reading; require a concise material-support account to reopen."
+      },
+      "after": {
+        "candidate_id": "c0226",
+        "status": "included",
+        "reason": "Retain the distinct outer nanotechnical model with the published war period bounded.",
+        "source_ids": [
+          "src-metaplanetary-pw"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "metaplanetary-outer-diverse-order"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "ware-active-lunar-boppers-zero",
+        "candidate_id": "c0228",
+        "name": "Ware (the independent lunar Boppers)",
+        "work": "Software / Wetware",
+        "society": "Ware (the independent lunar Boppers)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Published literary continuity and the explicitly scoped period",
+          "period": "The independent lunar robot society before later moldie and alla transformations",
+          "population": "Active conscious Bopper persons",
+          "human_population_proxy": true,
+          "exclusions": "Controlled mechanisms and inactive software are not extra people; later universal alla devices are separate.",
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_synthetic_persons"
+        },
+        "description": "Boppers form an independent lunar artificial-person society. Their autonomy changes who controls technical production, but does not by itself make support unconditional or work unnecessary. The guarantee best guess is mixed and conditional because bodies, energy, replacement and productive resources can still matter. This record selects the early Bopper period and does not import Realware’s later universal fabrication gift.\n\n Control is strongly independent of organic owners, while internal hierarchy and conflict remain separate qualifications. A positive freedom from humans does not prove equal authority among Boppers. The low nonworking scenario counts manufacturing, repair, coordination, exchange, maintenance, care and useful creation performed by active conscious residents. Robot work is still work for this proxy; dead humans are not a leisure denominator. Broad intervals preserve uncertain internal allocation without turning the existence of a synthetic society into automatic post-work abundance. This zero variant retains a distinct material and personhood model with its limits explicit.",
+        "axis": {
+          "guarantees": 0.35,
+          "control": -0.85,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.85,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "Synthetic bodies and resource needs permit conditional rather than assumed universal support.",
+            "source_ids": [
+              "src-ware-tetralogy-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Independence from organic owners is strong; internal hierarchy is separate.",
+            "source_ids": [
+              "src-ware-tetralogy-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Active synthetic production and care count; robot autonomy is not nonparticipation.",
+            "source_ids": [
+              "src-ware-tetralogy-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-ware-tetralogy-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference identifies Bopper independence and later distinct moldie/alla transformations.",
+            "source_ids": [
+              "src-ware-tetralogy-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Internal provision and participation remain estimates.",
+          "The scoped early society does not borrow later universal fabrication."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the active independent synthetic society as an explicit person-proxy zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference identifies Bopper independence and later distinct moldie/alla transformations."
+        ],
+        "editorial_assumptions": [
+          "Internal provision and participation remain estimates.",
+          "The scoped early society does not borrow later universal fabrication."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Participation among active conscious synthetic persons, not a literal human rate.",
+          "control": "Independence from organic owners; internal hierarchy remains a separate qualification.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0228",
+        "status": "boundary_case",
+        "reason": "Bopper autonomy is established, but a robot society is not automatically a post-work society.",
+        "source_ids": [
+          "src-ware-tetralogy-reference"
+        ],
+        "analysis": "The short account does not identify a nonworking human-derived population supported by autonomous production or an equivalent justified proxy.",
+        "follow_up": "Keep as a robot-personhood comparison; skip deeper reading."
+      },
+      "after": {
+        "candidate_id": "c0228",
+        "status": "zero_variant",
+        "reason": "Retain the active independent synthetic society as an explicit person-proxy zero variant.",
+        "source_ids": [
+          "src-ware-tetralogy-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "ware-active-lunar-boppers-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "freeware-active-moldies-zero",
+        "candidate_id": "c0229",
+        "name": "Freeware (the active Moldie communities)",
+        "work": "Freeware",
+        "society": "Freeware (the active Moldie communities)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Published literary continuity and the explicitly scoped period",
+          "period": "The moldie period before Realware’s later alla gift",
+          "population": "Active conscious Moldie persons",
+          "human_population_proxy": true,
+          "exclusions": "Inactive material and every spore/body component are not separate people; later fabrication rights are excluded.",
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_synthetic_persons"
+        },
+        "description": "Moldies are evolved artificial lifeforms whose social position includes exclusion and conflict. Their new material embodiment distinguishes them from the earlier Boppers without establishing automatic equal security. The guarantee best guess is weak and conditional, reflecting dependence on resources and uncertain access rather than an assumption that plastic-based life has no needs. Later alla fabrication is not borrowed into this period.\n\n Control is largely independent of organic ownership by analogy, with social constraints and unequal internal power inside the interval. The point does not make every sentient material fragment an additional resident. This zero variant counts useful repair, production, transport, coordination, care and public creation among active identities. The modest nonworking scenario allows routine substitution without erasing those roles. Neither body composition nor evolutionary succession yields a labor percentage. The broad bounds retain the recognizable synthetic-biological society while keeping a low-confidence estimate of its internal distribution and active person denominator visible.",
+        "axis": {
+          "guarantees": 0.65,
+          "control": -0.75,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.8,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Social exclusion and uncertain resource access suggest weak equal security.",
+            "source_ids": [
+              "src-ware-tetralogy-reference",
+              "src-freeware-synopsis"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "Organic-owner independence is substantial with social/internal constraints.",
+            "source_ids": [
+              "src-ware-tetralogy-reference",
+              "src-freeware-synopsis"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Active useful roles count; composition and evolutionary succession are not participation.",
+            "source_ids": [
+              "src-ware-tetralogy-reference",
+              "src-freeware-synopsis"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-ware-tetralogy-reference",
+          "src-freeware-synopsis"
+        ],
+        "evidence": [
+          {
+            "claim": "The references identify moldies as evolved artificial lifeforms and describe social conflict.",
+            "source_ids": [
+              "src-ware-tetralogy-reference",
+              "src-freeware-synopsis"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Only active conscious identities form the proxy population.",
+          "Ordinary resource access and participation are estimates; no exact inconsistent date is used."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distinct moldie material period as a synthetic-person zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The references identify moldies as evolved artificial lifeforms and describe social conflict."
+        ],
+        "editorial_assumptions": [
+          "Only active conscious identities form the proxy population.",
+          "Ordinary resource access and participation are estimates; no exact inconsistent date is used."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Participation among active conscious synthetic persons, not a literal human rate.",
+          "control": "Independence from organic owners; internal hierarchy remains a separate qualification.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0229",
+        "status": "boundary_case",
+        "reason": "Moldie evolution and social exclusion do not establish a labor-independent provision system.",
+        "source_ids": [
+          "src-ware-tetralogy-reference",
+          "src-freeware-synopsis"
+        ],
+        "analysis": "Artificial biological embodiment and unusual materials cannot substitute for actual economic rules or a clear person denominator.",
+        "follow_up": "Skip deeper reading; do not borrow the later alla device."
+      },
+      "after": {
+        "candidate_id": "c0229",
+        "status": "zero_variant",
+        "reason": "Retain the distinct moldie material period as a synthetic-person zero variant.",
+        "source_ids": [
+          "src-ware-tetralogy-reference",
+          "src-freeware-synopsis"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "freeware-active-moldies-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "postsingular-orphid-network-transition",
+        "candidate_id": "c0230",
+        "name": "Postsingular (Earth during the orphid-network transition)",
+        "work": "Postsingular",
+        "society": "Postsingular (Earth during the orphid-network transition)",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Published literary continuity and the explicitly scoped period",
+          "period": "The functioning orphidnet stage before later universal sentient matter",
+          "population": "Living active human Earth residents during the selected transformation",
+          "human_population_proxy": false,
+          "exclusions": "Mars-consuming nants and Hylozoic’s later matter society are separate; drafts are not enacted distribution rules.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Orphids blanket surfaces and make an extraordinary information network available, while the story moves through successive technological transformations. The selected stage is the orphidnet transition, not a single timeless singularity economy. The guarantee best guess allows a partial floor through coordination and nanotechnical assistance, but direct automatic material provision remains an uncertain extension beyond information access. Draft ideas about sharing leftovers are not treated as laws of the finished novel.\n\n Human agency and powerful machine mediation both enter control, with a wide interval for effective dependence. Access to knowledge is not identical to ownership of food production or housing. The moderate nonworking scenario permits technical substitution while counting logistics, repair, services, care and useful creation. Private browsing and learning are not automatically work, but network ubiquity is not a census either. The explicit partial-transition qualification retains the recognizable technological change without pretending every proposed draft mechanism became a stable universal entitlement.",
+        "axis": {
+          "guarantees": -0.05,
+          "control": 0.25,
+          "nonworking": 0.4
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.95,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Information coordination permits a possible partial floor; direct material support is estimated.",
+            "source_ids": [
+              "src-postsingular-fantasyhive",
+              "src-postsingular-draft-notes",
+              "src-rucker-postsingular-author-setting"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Human agency coexists with powerful network mediation.",
+            "source_ids": [
+              "src-postsingular-fantasyhive",
+              "src-postsingular-draft-notes",
+              "src-rucker-postsingular-author-setting"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "Useful services and care count; information ubiquity and draft ideas are not a census.",
+            "source_ids": [
+              "src-postsingular-fantasyhive",
+              "src-postsingular-draft-notes",
+              "src-rucker-postsingular-author-setting"
+            ]
+          }
+        },
+        "regime_primary": 2,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-postsingular-fantasyhive",
+          "src-postsingular-draft-notes",
+          "src-rucker-postsingular-author-setting"
+        ],
+        "evidence": [
+          {
+            "claim": "The author page describes an orphidnet reality mirror and successive nanotechnological transformations.",
+            "source_ids": [
+              "src-postsingular-fantasyhive",
+              "src-postsingular-draft-notes",
+              "src-rucker-postsingular-author-setting"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Material automation beyond information services is a contextual estimate.",
+          "Working notes are not treated as enacted final-novel institutions."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the explicit information-led partial material transition with final-text limits visible.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The author page describes an orphidnet reality mirror and successive nanotechnological transformations."
+        ],
+        "editorial_assumptions": [
+          "Material automation beyond information services is a contextual estimate.",
+          "Working notes are not treated as enacted final-novel institutions."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0230",
+        "status": "needs_evidence",
+        "reason": "Orphid information access is clear, but durable material provision is not established in the short published account.",
+        "source_ids": [
+          "src-postsingular-fantasyhive",
+          "src-postsingular-draft-notes"
+        ],
+        "analysis": "Finding leftovers or unused goods through an information network differs from verified automatic production. Tentative author notes cannot fill the finished story's institutional gaps.",
+        "follow_up": "Skip novel and draft reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0230",
+        "status": "included",
+        "reason": "Retain the explicit information-led partial material transition with final-text limits visible.",
+        "source_ids": [
+          "src-postsingular-fantasyhive",
+          "src-postsingular-draft-notes",
+          "src-rucker-postsingular-author-setting"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "postsingular-orphid-network-transition"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "hylozoic-human-living-matter-transition",
+        "candidate_id": "c0231",
+        "name": "Hylozoic (humans among sentient matter)",
+        "work": "Hylozoic",
+        "society": "Hylozoic (humans among sentient matter)",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Published literary continuity and the explicitly scoped period",
+          "period": "The post-transformation living-matter Earth described in the finished-novel summary",
+          "population": "Active living human residents interacting with sentient surroundings",
+          "human_population_proxy": false,
+          "exclusions": "Not every rock is added to the human denominator; willing matter persons are not automatically unpaid equipment.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Everything becoming sentient and telepathic changes coordination and the status of the surrounding material world. The guarantee best guess allows a partial support floor, but the finished-novel summary does not establish that every object must serve human needs or that all material goods become free. The point therefore treats the transition as an explicitly uncertain material-assistance model rather than assuming awareness alone creates universal production.\n\n Control gives humans some agency while a broad interval preserves the autonomy of other minds and possible coercive powers. Sentient surroundings are not simply a human-owned robot workforce. The moderate nonworking scenario counts useful negotiation, production, coordination, repair, care and public creation by the human cohort. Private conversation is not automatically a job, and the number of conscious objects is not a human labor statistic. The record distinguishes this later matter society from Postsingular’s earlier network stage without importing tentative working-note mechanisms as canonical institutions.",
+        "axis": {
+          "guarantees": -0.1,
+          "control": 0.15,
+          "nonworking": 0.4
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.98,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "Living-matter assistance permits a possible floor with cooperation and rights unknown.",
+            "source_ids": [
+              "src-hylozoic-tangent-context",
+              "src-rucker-hylozoic-author-setting"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Human agency coexists with autonomous surrounding persons.",
+            "source_ids": [
+              "src-hylozoic-tangent-context",
+              "src-rucker-hylozoic-author-setting"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "Useful human activity counts; conscious object counts do not determine human participation.",
+            "source_ids": [
+              "src-hylozoic-tangent-context",
+              "src-rucker-hylozoic-author-setting"
+            ]
+          }
+        },
+        "regime_primary": 2,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-hylozoic-tangent-context",
+          "src-rucker-hylozoic-author-setting"
+        ],
+        "evidence": [
+          {
+            "claim": "The author’s finished-novel summary describes everyone and everything becoming sentient and telepathic, with alien arrivals.",
+            "source_ids": [
+              "src-hylozoic-tangent-context",
+              "src-rucker-hylozoic-author-setting"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Material assistance, rights and distribution are contextual low-confidence estimates.",
+          "Human residents remain the denominator rather than every sentient object."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distinct living-matter transition with cooperative production explicitly uncertain.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The author’s finished-novel summary describes everyone and everything becoming sentient and telepathic, with alien arrivals."
+        ],
+        "editorial_assumptions": [
+          "Material assistance, rights and distribution are contextual low-confidence estimates.",
+          "Human residents remain the denominator rather than every sentient object."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0231",
+        "status": "needs_evidence",
+        "reason": "Ubiquitous sentience does not yet establish the finished Hylozoic population's material support.",
+        "source_ids": [
+          "src-hylozoic-tangent-context"
+        ],
+        "analysis": "The related-story review verifies a premise, not who produces necessities or controls their distribution in the novel.",
+        "follow_up": "Skip deeper reading; no speculative working-note rescue."
+      },
+      "after": {
+        "candidate_id": "c0231",
+        "status": "included",
+        "reason": "Retain the distinct living-matter transition with cooperative production explicitly uncertain.",
+        "source_ids": [
+          "src-hylozoic-tangent-context",
+          "src-rucker-hylozoic-author-setting"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "hylozoic-human-living-matter-transition"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "ware-early-human-earth-zero",
+        "candidate_id": "c0232",
+        "name": "Ware (human Earth during the early Bopper economy)",
+        "work": "Software / Wetware",
+        "society": "Ware (human Earth during the early Bopper economy)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Published literary continuity and the explicitly scoped period",
+          "period": "Living human Earth before the later moldie and alla periods",
+          "population": "Living active human Earth residents in the early period",
+          "human_population_proxy": false,
+          "exclusions": "Not a composite of the whole tetralogy; later universal fabrication and extinct/inactive people are excluded.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Human Earth coexists with an independent lunar Bopper society and a technically transformed economy. The selected period precedes both moldie succession and the later universal alla gift. The guarantee best guess is weak and conditional: machine capability elsewhere does not automatically give Earth residents equal rights to its output. Broader household automation is a contextual estimate rather than a claim that the early setting already has universal free fabrication.\n\n Human institutions and owners receive moderate positive control weight, with autonomous synthetic influence inside the interval. Earth’s humans and lunar Boppers are separate access populations, so the same independence score need not apply to both. This zero variant counts useful paid work, production, maintenance, care and public creation. The low nonworking scenario is not calculated from the robot population or from reduced task time. Broad bounds retain the familiar early human material order while preventing several incompatible periods from being averaged into a falsely generous post-scarcity point.",
+        "axis": {
+          "guarantees": 0.7,
+          "control": 0.4,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.7,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Early human access is not granted the later alla floor.",
+            "source_ids": [
+              "src-ware-tetralogy-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.8,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Human owners/institutions coexist with independent synthetic influence.",
+            "source_ids": [
+              "src-ware-tetralogy-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Useful human roles count; lunar robot numbers are not Earth participation.",
+            "source_ids": [
+              "src-ware-tetralogy-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-ware-tetralogy-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "The tetralogy reference distinguishes Bopper independence, moldie succession and the later alla gift.",
+            "source_ids": [
+              "src-ware-tetralogy-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Early human household automation and distribution are contextual estimates.",
+          "The selected Earth period does not inherit later fabrication rights."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          4
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the early human counterpart as a period-bounded zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The tetralogy reference distinguishes Bopper independence, moldie succession and the later alla gift."
+        ],
+        "editorial_assumptions": [
+          "Early human household automation and distribution are contextual estimates.",
+          "The selected Earth period does not inherit later fabrication rights."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0232",
+        "status": "needs_evidence",
+        "reason": "The broad human-Earth lead conflates different Ware periods and technologies.",
+        "source_ids": [
+          "src-ware-tetralogy-reference"
+        ],
+        "analysis": "Bopper independence, moldie society and the later alla gift are separate stages. No concise account establishes one common human post-work arrangement across them.",
+        "follow_up": "Skip the aggregate; a later clear Realware-specific community can be a distinct lead."
+      },
+      "after": {
+        "candidate_id": "c0232",
+        "status": "zero_variant",
+        "reason": "Retain the early human counterpart as a period-bounded zero variant.",
+        "source_ids": [
+          "src-ware-tetralogy-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "ware-early-human-earth-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "diamondage-drummer-work-network-zero",
+        "candidate_id": "c0234",
+        "name": "The Diamond Age (the Drummers’ working network)",
+        "work": "The Diamond Age",
+        "society": "The Diamond Age (the Drummers’ working network)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Published literary continuity and the explicitly scoped period",
+          "period": "The functioning Drummer network during development of the Seed",
+          "population": "Active living human Drummer participants",
+          "human_population_proxy": false,
+          "exclusions": "Collective computation is useful work; the developing Seed is not an already universal successor economy.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Drummers provide collective human computation inside a nanotechnological world. They are not a separate leisured population merely because their contribution differs from ordinary wage employment. The material-floor best guess allows support within the network, qualified by dependence and uncertain access to housing, medicine and community exit. Nanofabricated basic goods elsewhere do not automatically settle this cohort’s entire welfare arrangement.\n\n Control reflects limited individual agency inside collective processes and wider infrastructure dependencies. The network’s biological participants are not simply autonomous nonhuman production machinery. The central nonworking scenario is zero for the scoped active network cohort because its continuing computation is an actual useful function. The interval permits variation in membership and activity without equating hours of physical stillness with leisure. This zero variant retains a distinct mechanism rather than omitting it for performing work. It remains separate from the Seed’s proposed future autonomy and from other residents’ access through the Feed.",
+        "axis": {
+          "guarantees": -0.15,
+          "control": 0.1,
+          "nonworking": 0
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.95,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Network support permits a conditional floor with ordinary rights uncertain.",
+            "source_ids": [
+              "src-diamond-age-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.85,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Collective process and external infrastructure limit individual agency.",
+            "source_ids": [
+              "src-diamond-age-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "The active network’s ongoing useful computation counts as work centrally.",
+            "source_ids": [
+              "src-diamond-age-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-diamond-age-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference describes collective human computation and the developing Seed within a Feed-based nanotechnological order.",
+            "source_ids": [
+              "src-diamond-age-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary Drummer access and effective consent remain estimates.",
+          "The active computation cohort is distinct from a completed Seed society."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the functioning human computational work institution as a zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference describes collective human computation and the developing Seed within a Feed-based nanotechnological order."
+        ],
+        "editorial_assumptions": [
+          "Ordinary Drummer access and effective consent remain estimates.",
+          "The active computation cohort is distinct from a completed Seed society."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0234",
+        "status": "boundary_case",
+        "reason": "The Drummers perform necessary human-derived collective computation rather than replacing it with nonhuman labor.",
+        "source_ids": [
+          "src-diamond-age-reference"
+        ],
+        "analysis": "Subsumed personality and unusual activity are not leisure. Their work developing the Seed does not establish a separate supported nonworking society.",
+        "follow_up": "Keep as a human-computation comparison and skip deeper reading."
+      },
+      "after": {
+        "candidate_id": "c0234",
+        "status": "zero_variant",
+        "reason": "Retain the functioning human computational work institution as a zero variant.",
+        "source_ids": [
+          "src-diamond-age-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "diamondage-drummer-work-network-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "diamondage-seed-projected-alternative",
+        "candidate_id": "c0235",
+        "name": "The Diamond Age (the projected Seed alternative)",
+        "work": "The Diamond Age",
+        "society": "The Diamond Age (the projected Seed alternative)",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Published literary continuity and the explicitly scoped period",
+          "period": "The proposed functioning alternative implied by Seed development",
+          "population": "Living human residents in the explicitly modeled Seed-based community",
+          "human_population_proxy": false,
+          "exclusions": "The proposal is not asserted to be a completed worldwide economy or an exact final constitution.",
+          "branch": null,
+          "player_configurable": false,
+          "projection_status": "Projected functioning Seed alternative; development exists, settled distribution is not verified"
+        },
+        "description": "The Seed offers an alternative to dependence on centralized Feed infrastructure. The selected point models its intended functioning material consequences: more locally reproducible production and a stronger resident floor, with biological growth, input needs and access rules still uncertain. The Seed’s development is factual; the stable community described by the scores is an explicit projection rather than an already verified universal final settlement.\n\n Shared human control receives strong positive weight because reduced infrastructure dependence could distribute productive capacity. That potential does not prove every resident owns every process or can avoid collective obligations. The moderate-to-high nonworking scenario permits substantial routine replacement while counting cultivation, engineering, maintenance, coordination, care and useful creation. Reproductive machinery is not a population census. The broad interval preserves different possible access arrangements without turning an unfinished proposal into established canon. This projected alternative remains distinct from the working Drummer network that helps make its development possible.",
+        "axis": {
+          "guarantees": -0.65,
+          "control": 0.85,
+          "nonworking": 0.55
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.99,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "The proposed local-production alternative permits a stronger projected floor.",
+            "source_ids": [
+              "src-diamond-age-reference",
+              "src-diamond-age-geography"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.3,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Reduced Feed dependence could spread human productive agency.",
+            "source_ids": [
+              "src-diamond-age-reference",
+              "src-diamond-age-geography"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "Cultivation, maintenance and care remain useful; projected capacity is not a census.",
+            "source_ids": [
+              "src-diamond-age-reference",
+              "src-diamond-age-geography"
+            ]
+          }
+        },
+        "regime_primary": 2,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-diamond-age-reference",
+          "src-diamond-age-geography"
+        ],
+        "evidence": [
+          {
+            "claim": "The sources identify the Seed as a developing alternative to centralized Feed dependence.",
+            "source_ids": [
+              "src-diamond-age-reference",
+              "src-diamond-age-geography"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The functioning Seed community and its distribution are explicitly projected.",
+          "No completed universal successor constitution is asserted."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the recognizable projected alternative with its unrealized material rules explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The sources identify the Seed as a developing alternative to centralized Feed dependence."
+        ],
+        "editorial_assumptions": [
+          "The functioning Seed community and its distribution are explicitly projected.",
+          "No completed universal successor constitution is asserted."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0235",
+        "status": "needs_evidence",
+        "reason": "The Seed is an alternative under development, not a verified established society in the quick sources.",
+        "source_ids": [
+          "src-diamond-age-reference",
+          "src-diamond-age-geography"
+        ],
+        "analysis": "A decentralized fabrication design does not establish an actual population, access constitution or durable completed transition.",
+        "follow_up": "Skip ending reconstruction; do not score technical potential as realized institutions."
+      },
+      "after": {
+        "candidate_id": "c0235",
+        "status": "included",
+        "reason": "Retain the recognizable projected alternative with its unrealized material rules explicit.",
+        "source_ids": [
+          "src-diamond-age-reference",
+          "src-diamond-age-geography"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "diamondage-seed-projected-alternative"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "snowcrash-franchise-economy-zero",
+        "candidate_id": "c0236",
+        "name": "Snow Crash (the corporate-franchise city states)",
+        "work": "Snow Crash",
+        "society": "Snow Crash (the corporate-franchise city states)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Published literary continuity and the explicitly scoped period",
+          "period": "The functioning franchise and Burbclave order",
+          "population": "Living human residents of the franchise-organized economy",
+          "human_population_proxy": false,
+          "exclusions": "Metaverse access is not automatic physical provision; no universal same rights across franchises.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Corporate-franchise city states distribute services through private territorial and commercial organizations. The setting retains recognizable delivery and other human work despite pervasive computing and advanced technical systems. The guarantee best guess is extremely weak because access follows ownership, membership and transactions rather than a dependable universal floor. General material automation is a contextual zero-variant comparison, not inferred merely from the existence of cyberspace.\n\n Human corporate and territorial owners dominate control, with some distributed choice among providers inside the interval. Multiple competing franchises do not by themselves produce equal resident command over productive resources. The low nonworking scenario counts delivery, security, programming, maintenance, services, care and useful creation. A fast interface and virtual leisure do not establish a human population percentage. The record retains the recognizable cyberpunk material order while preserving franchise variation and its limited direct automation evidence, rather than forcing every resident into one invented national welfare system.",
+        "axis": {
+          "guarantees": 0.95,
+          "control": 0.15,
+          "nonworking": 0.15
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.35,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Private franchise/membership gates imply weak broad security.",
+            "source_ids": [
+              "src-snow-crash-listing",
+              "src-snowcrash-franchise-publisher"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Human corporate-territorial owners dominate, with multiple providers.",
+            "source_ids": [
+              "src-snow-crash-listing",
+              "src-snowcrash-franchise-publisher"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Delivery and other useful roles count; cyberspace is not a labor census.",
+            "source_ids": [
+              "src-snow-crash-listing",
+              "src-snowcrash-franchise-publisher"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-snow-crash-listing",
+          "src-snowcrash-franchise-publisher"
+        ],
+        "evidence": [
+          {
+            "claim": "The publisher identifies corporate-franchise city states and Mafia-controlled pizza delivery.",
+            "source_ids": [
+              "src-snow-crash-listing",
+              "src-snowcrash-franchise-publisher"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Broad material automation and household rights remain contextual estimates.",
+          "Franchise variation is retained rather than one universal legal entitlement."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the recognizable cyberpunk franchise order as an explicitly qualified zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The publisher identifies corporate-franchise city states and Mafia-controlled pizza delivery."
+        ],
+        "editorial_assumptions": [
+          "Broad material automation and household rights remain contextual estimates.",
+          "Franchise variation is retained rather than one universal legal entitlement."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0236",
+        "status": "needs_evidence",
+        "reason": "The short Snow Crash check does not establish automated basic provision or deliberate preservation of unnecessary jobs.",
+        "source_ids": [
+          "src-snow-crash-listing"
+        ],
+        "analysis": "Franchise organization, virtual environments and advanced devices are insufficient admission evidence. Keyword lists are not interpreted as proof of economic absence.",
+        "follow_up": "Skip deeper reading; retain the unverified mechanism as an explicit gap."
+      },
+      "after": {
+        "candidate_id": "c0236",
+        "status": "zero_variant",
+        "reason": "Retain the recognizable cyberpunk franchise order as an explicitly qualified zero variant.",
+        "source_ids": [
+          "src-snow-crash-listing",
+          "src-snowcrash-franchise-publisher"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "snowcrash-franchise-economy-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "fall-bitworld-active-hierarchy-zero",
+        "candidate_id": "c0237",
+        "name": "Fall; or, Dodge in Hell (active Bitworld under hierarchy)",
+        "work": "Fall; or, Dodge in Hell",
+        "society": "Fall; or, Dodge in Hell (active Bitworld under hierarchy)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Published literary continuity and the explicitly scoped period",
+          "period": "An established hierarchical Bitworld period before any generalized final liberation",
+          "population": "Active human-derived digital souls in the selected internal order",
+          "human_population_proxy": true,
+          "exclusions": "Brain scans and inactive data are not extra active people; death outside Bitworld is not leisure.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Bitworld allows humans to continue as active digital souls rather than merely archived brain scans. Their existence depends on computational substrate, while the internal world develops unequal and coercive arrangements. The material-floor best guess is mixed and conditional: ongoing simulation can sustain people without proving secure equal access, autonomy or freedom from imposed roles. Digital embodiment is not itself a post-work entitlement.\n\n Control lies near the concentrated human-derived reference point, with outside infrastructure and other forms of agency inside the interval. An uploaded ruler is not automatically an unrelated AI. This zero variant counts useful construction, coordination, maintenance, care, public creation and assigned internal duties. The moderate nonworking scenario permits automatic environment support without treating every active soul as idle. Inactive scans are excluded. The selected hierarchical period does not average all Bitworld transformations or claim one final constitution; broad bounds preserve both changing internal rules and dependence on the physical systems that keep active persons running.",
+        "axis": {
+          "guarantees": 0.25,
+          "control": 0.02,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.95,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Substrate support does not guarantee equal secure internal access.",
+            "source_ids": [
+              "src-fall-author-synopsis",
+              "src-fall-publisher-digital-souls"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.95,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Human-derived hierarchy coexists with outside infrastructure dependence.",
+            "source_ids": [
+              "src-fall-author-synopsis",
+              "src-fall-publisher-digital-souls"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "Useful active digital roles count; stored scans and biological deaths are not leisure.",
+            "source_ids": [
+              "src-fall-author-synopsis",
+              "src-fall-publisher-digital-souls"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-fall-author-synopsis",
+          "src-fall-publisher-digital-souls"
+        ],
+        "evidence": [
+          {
+            "claim": "The publisher identifies Bitworld as continued human existence through digital souls.",
+            "source_ids": [
+              "src-fall-author-synopsis",
+              "src-fall-publisher-digital-souls"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The selected unequal internal order and its material scores are a bounded reconstruction.",
+          "Only active identities count, not every stored scan or passive file."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the active digital afterlife with period and personhood limits explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The publisher identifies Bitworld as continued human existence through digital souls."
+        ],
+        "editorial_assumptions": [
+          "The selected unequal internal order and its material scores are a bounded reconstruction.",
+          "Only active identities count, not every stored scan or passive file."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0237",
+        "status": "needs_evidence",
+        "reason": "Active Bitworld minds are verified, but their changing support and control rules remain unresolved.",
+        "source_ids": [
+          "src-fall-author-synopsis"
+        ],
+        "analysis": "A computational afterlife can contain materially different phases and coercion. Uploading alone does not establish post-work access or justify one aggregate coordinate.",
+        "follow_up": "Skip the long novel reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0237",
+        "status": "zero_variant",
+        "reason": "Retain the active digital afterlife with period and personhood limits explicit.",
+        "source_ids": [
+          "src-fall-author-synopsis",
+          "src-fall-publisher-digital-souls"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "fall-bitworld-active-hierarchy-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "anathem-saecular-consumer-zero",
+        "candidate_id": "c0238",
+        "name": "Anathem (Arbre’s saecular consumer economy)",
+        "work": "Anathem",
+        "society": "Anathem (Arbre’s saecular consumer economy)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Published literary continuity and the explicitly scoped period",
+          "period": "The technologically changing saecular order outside mathic institutions",
+          "population": "Living humanlike saecular residents",
+          "human_population_proxy": true,
+          "exclusions": "Mathic provisioning is separate; consumer advertising is not proof of universal welfare.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Saecular Arbre combines consumer distraction, advertising and technological change outside the maths. The material-floor best guess is weak and conditional because consumer availability does not establish access independent of purchasing power or work. Broader production automation is a contextual estimate for this familiar technical civilization, with especially limited direct evidence in the short reference. The record is therefore a zero variant rather than an asserted post-scarcity welfare system.\n\n Humanlike commercial and civic actors receive moderate positive control weight, qualified by unequal ownership and institutional power. Technical change and public distraction do not themselves create autonomous AI sovereignty. The low nonworking scenario counts production, services, research, maintenance, administration, care and useful creation. Entertainment consumption is not proof that residents do no useful work during the rest of life. The broad bounds preserve different local circumstances without importing the maths’ separate organization or requiring a full novel reconstruction before retaining the recognizable consumer order.",
+        "axis": {
+          "guarantees": 0.7,
+          "control": 0.4,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.7,
+              0.99
+            ],
+            "confidence": "low",
+            "basis": "Consumer availability does not establish dependable equal necessities.",
+            "source_ids": [
+              "src-anathem-saecular-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.5,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Humanlike commercial/civic agency is central with unequal ownership.",
+            "source_ids": [
+              "src-anathem-saecular-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Useful roles remain; entertainment and advertising are not participation.",
+            "source_ids": [
+              "src-anathem-saecular-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-anathem-saecular-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference describes saecular consumer distraction, advertising and technological change.",
+            "source_ids": [
+              "src-anathem-saecular-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "General material automation and household distribution are contextual estimates.",
+          "Mathic institutions are not used to assign saecular residents identical rights."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          4
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the saecular technical-consumer model with especially limited automation evidence explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference describes saecular consumer distraction, advertising and technological change."
+        ],
+        "editorial_assumptions": [
+          "General material automation and household distribution are contextual estimates.",
+          "Mathic institutions are not used to assign saecular residents identical rights."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0238",
+        "status": "needs_evidence",
+        "reason": "Saecular consumer culture does not establish a material post-work support mechanism.",
+        "source_ids": [
+          "src-anathem-saecular-reference"
+        ],
+        "analysis": "Advertising, devices and rapid cultural change are not evidence that work has ceased to govern basic distribution. Mathic institutions cannot be imported.",
+        "follow_up": "Skip deeper reading."
+      },
+      "after": {
+        "candidate_id": "c0238",
+        "status": "zero_variant",
+        "reason": "Retain the saecular technical-consumer model with especially limited automation evidence explicit.",
+        "source_ids": [
+          "src-anathem-saecular-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "anathem-saecular-consumer-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "seveneves-late-orbital-order-zero",
+        "candidate_id": "c0239",
+        "name": "Seveneves (the later orbital-ring civilization)",
+        "work": "Seveneves",
+        "society": "Seveneves (the later orbital-ring civilization)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Published literary continuity and the explicitly scoped period",
+          "period": "The functioning orbital civilization five thousand years after the initial catastrophe",
+          "population": "Living active human-descended orbital residents",
+          "human_population_proxy": false,
+          "exclusions": "The early ark crisis and re-emerging Earth populations are separate; habitat scale and elapsed time are not labor rates.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The later orbital ring supports differentiated human descendants and a renewed relationship with Earth. Its engineered habitats imply extensive material infrastructure, but their size does not establish one uniform distribution system or complete freedom from work. The guarantee best guess is mixed and conditional, allowing a substantial shared life-support floor while preserving uncertain membership, ownership and access differences.\n\n Human-descended institutions receive positive control weight, with concentrated political and technical power inside the interval. Long adaptation and highly engineered bodies do not automatically imply rule by unrelated AI. This zero variant counts engineering, habitat operation, transport, research, administration, care and useful creation. The moderate nonworking scenario permits automation while retaining those roles. Neither the number of descendants nor the five-thousand-year interval supplies a work census. The point is bounded to the later active orbital order and does not give early disaster survivors or separate Earth populations identical material guarantees.",
+        "axis": {
+          "guarantees": 0.15,
+          "control": 0.4,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.9,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Engineered habitat support permits a floor with membership/ownership limits.",
+            "source_ids": [
+              "src-seveneves-late-ring-review"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.65,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Human-descended institutions retain agency with concentrated power possible.",
+            "source_ids": [
+              "src-seveneves-late-ring-review"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Active habitat and caring roles count; megastructure scale and elapsed time are not participation.",
+            "source_ids": [
+              "src-seveneves-late-ring-review"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-seveneves-late-ring-review"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference describes the later orbital ring and differentiated human descendants.",
+            "source_ids": [
+              "src-seveneves-late-ring-review"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary access, automation depth and participation are estimates.",
+          "The late orbital community is separate from the early ark and Earth populations."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          4
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the recognizable late orbital material model as a period-bounded zero variant.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference describes the later orbital ring and differentiated human descendants."
+        ],
+        "editorial_assumptions": [
+          "Ordinary access, automation depth and participation are estimates.",
+          "The late orbital community is separate from the early ark and Earth populations."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0239",
+        "status": "needs_evidence",
+        "reason": "The late orbital civilization is identifiable but its allocation system remains unclear in the quick reference.",
+        "source_ids": [
+          "src-seveneves-late-ring-review"
+        ],
+        "analysis": "Orbital habitability, robotics and differentiated descendants do not establish universal labor-independent necessities or one common ownership regime.",
+        "follow_up": "Skip a 5000-year social reconstruction; do not use fanfiction as canonical evidence."
+      },
+      "after": {
+        "candidate_id": "c0239",
+        "status": "zero_variant",
+        "reason": "Retain the recognizable late orbital material model as a period-bounded zero variant.",
+        "source_ids": [
+          "src-seveneves-late-ring-review"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "seveneves-late-orbital-order-zero"
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0227",
+        "status": "needs_evidence",
+        "reason": "The proposed post-conflict scope is not verified by the published sequel account.",
+        "source_ids": [
+          "src-superluminal-pw"
+        ],
+        "analysis": "The review explicitly describes an unresolved war installment. A future peaceful economic settlement cannot be supplied from the discovery label.",
+        "follow_up": "Skip the unsupported ending scope."
+      },
+      "after": {
+        "candidate_id": "c0227",
+        "status": "duplicate",
+        "reason": "The discovery label invented a completed post-conflict Solar order. The published sequel instead continues the same inner/outer conflict already retained in c0225 and c0226; use the outer diverse material model rather than manufacture a third resolved economy.",
+        "source_ids": [
+          "src-superluminal-pw",
+          "src-metaplanetary-pw"
+        ],
+        "analysis": "The review explicitly describes an unresolved war installment. A future peaceful economic settlement cannot be supplied from the discovery label.",
+        "follow_up": "Completed: correct unsupported post-conflict label; no distinct completed material regime to add.",
+        "duplicate_of": "metaplanetary-outer-diverse-order",
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "current_policy_review": true
+      }
+    }
+  ]
+}

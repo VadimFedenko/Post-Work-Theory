@@ -1,0 +1,1497 @@
+{
+  "revision_id": "revision-036",
+  "revised_on": "2026-10-17",
+  "reason": "Ten Piercy/Russ/Stross societies retained. Saturn free basics gain direct primary confirmation and remain separate from inner-system Economics 2.0. Android and metahuman work is explicit, Tikva differs from corporate indenture, and unwritten ReMastered plans are excluded. Eschaton cross-world constraints receive a completed separate comparison.",
+  "changes": [
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-piercy-gildina-classfuture",
+        "title": "Woman on the Edge of Time: the opposed future",
+        "author": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/wiki/Woman_on_the_Edge_of_Time",
+        "kind": "secondary_reference",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed Gildina and alternative-future passages read",
+        "read_scope": "Bounded account: New New York has class-separated skyscrapers, bodily commodification, contract sexual service and guards; it is distinct from Mattapoisett.",
+        "limitations": "Secondary synopsis; no whole-city labor census or complete automatic necessities system is supplied."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-accelerando-saturn-basics-primary",
+        "title": "Accelerando: Saturn’s free basics",
+        "author": "Charles Stross",
+        "url": "https://govdocs.nebraska.gov/epubs/creativecommons/stross-accelerando.pdf",
+        "kind": "primary_text",
+        "accessed_on": "2026-10-17",
+        "access_method": "Indexed primary Saturn orientation passage read",
+        "read_scope": "Indexed page 212: inhabited balloon habitat on Saturn, Economics 1.0 money for goods/services but free food, water, air, power, standard clothing, housing and entertainment.",
+        "limitations": "One bounded primary page; useful voluntary work and local political ownership still need estimates. This is not inner-system Economics 2.0."
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0155",
+        "status": "boundary_case",
+        "reason": "Eschaton constraints do not make all independent human worlds one uniformly provisioned economy.",
+        "source_ids": [
+          "src-stross-sfe",
+          "src-singularity-sky-reference"
+        ],
+        "analysis": "Causality enforcement and arms-control protection are not a universal household allocation system; materially different polities already exist within this setting.",
+        "follow_up": "Skip the broad aggregate; retain narrower polities only when their production/access arrangements are clear."
+      },
+      "after": {
+        "candidate_id": "c0155",
+        "status": "boundary_case",
+        "reason": "Completed cross-society constraint comparison; not one shared automated recipient economy.",
+        "source_ids": [
+          "src-stross-sfe",
+          "src-singularity-sky-reference"
+        ],
+        "analysis": "The Eschaton imposes causality constraints across independent human worlds, but that intervention does not give all of them one production and distribution system. The identified mechanism is external protection and coercive rule enforcement, not a single shared necessities economy. This receives a completed comparison while specific worlds and factions remain separately scoped in the database.\n\n The guarantee point is mixed across heterogeneous residents, and strongly negative control records the external machine constraint by analogy rather than ownership of every local productive asset. A modest nonworking scenario counts possible leisure alongside production, services, administration, care and useful creation. It is not a canonical galaxy-wide statistic. Protecting a timeline does not automatically supply food or shelter, and independent worlds can have different labor dependence. The case stays outside the society count for its cross-society constraint scope, not because an exact household law or fictional employment census could not be found.",
+        "follow_up": "Completed current-policy mechanism comparison; no deep reading required.",
+        "current_policy_review": true,
+        "reassessed_on": "2026-10-17",
+        "assessment_mode": "best_guess",
+        "comparison_assessment": {
+          "name": "Iron Sunrise (Eschaton constraints across human worlds)",
+          "media": [
+            "book"
+          ],
+          "scope": "Cross-society causality enforcement over independent human worlds, not one common resource institution",
+          "axis": {
+            "guarantees": 0.3,
+            "control": -0.8,
+            "nonworking": 0.3
+          },
+          "intervals": {
+            "guarantees": [
+              -0.95,
+              1
+            ],
+            "control": [
+              -1,
+              0.85
+            ],
+            "nonworking": [
+              0,
+              0.98
+            ]
+          },
+          "confidence": "low",
+          "canon_facts": [
+            "The Eschaton imposes causality constraints while human worlds retain distinct institutions."
+          ],
+          "editorial_assumptions": [
+            "Constraint power is not universal ownership or material provision.",
+            "Coordinates are cross-society analogies rather than a canonical common census."
+          ],
+          "source_ids": [
+            "src-stross-sfe",
+            "src-singularity-sky-reference"
+          ],
+          "counted_toward_goal": false
+        }
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "woman-edge-gildina-zero",
+        "candidate_id": "c0140",
+        "name": "Woman on the Edge of Time (Gildina’s corporate future)",
+        "work": "Woman on the Edge of Time",
+        "society": "Woman on the Edge of Time (Gildina’s corporate future)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published literary continuity and stated period only",
+          "period": "The opposed New New York future encountered by Connie",
+          "population": "Living biological human residents across the city’s classes",
+          "human_population_proxy": false,
+          "exclusions": "Mattapoisett is a separate possible future; manipulated bodies and contract roles do not imply equal secure access.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Gildina’s future combines class-separated skyscrapers, bodily commodification, contract sexual service and guards. Technical control over bodies coexists with hierarchy and useful or coerced roles. The guarantee best guess is very weak across residents, rather than copied from wealthy upper strata. This zero variant cautiously interprets advanced technical capacity with retained labor, without claiming a complete automatic necessities system from body modification alone.\n\n Concentrated human corporate and security authority receives control near the elite reference point, with machine operational power inside the interval. A modified body does not give its owner productive sovereignty or make every ruler an AI. The moderate nonworking scenario counts services, care, maintenance, administration, production and imposed roles. Sexual or domestic service remains work where assigned or useful; private intimacy is not automatically a job. The possible-future scope remains distinct from Mattapoisett, and the uncertainty of Connie’s visions is not turned into a canonical census.",
+        "axis": {
+          "guarantees": 0.9,
+          "control": 0.03,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.4,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Class and bodily commodification imply weak equal material security.",
+            "source_ids": [
+              "src-piercy-woman-author",
+              "src-piercy-gildina-classfuture"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.75,
+              0.45
+            ],
+            "confidence": "low",
+            "basis": "Human corporate/security concentration is central with machine discretion possible.",
+            "source_ids": [
+              "src-piercy-woman-author",
+              "src-piercy-gildina-classfuture"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.03,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Useful/coerced roles count; bodily modification and class are not participation.",
+            "source_ids": [
+              "src-piercy-woman-author",
+              "src-piercy-gildina-classfuture"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-piercy-woman-author",
+          "src-piercy-gildina-classfuture"
+        ],
+        "evidence": [
+          {
+            "claim": "The opposed New New York future has class-separated towers, bodily commodification, contract service and guards.",
+            "source_ids": [
+              "src-piercy-woman-author",
+              "src-piercy-gildina-classfuture"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "General automation and household rights remain estimates.",
+          "The opposed future and Mattapoisett are distinct narrative possibilities."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar corporate alternative with its body-technology qualification and possible-future scope explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The opposed New New York future has class-separated towers, bodily commodification, contract service and guards."
+        ],
+        "editorial_assumptions": [
+          "General automation and household rights remain estimates.",
+          "The opposed future and Mattapoisett are distinct narrative possibilities."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0140",
+        "status": "needs_evidence",
+        "reason": "The opposed corporate future is identifiable, but the quick sources do not establish its general automatic production/access system.",
+        "source_ids": [
+          "src-piercy-woman-author"
+        ],
+        "analysis": "Technological domination and inequality alone do not supply the missing economic mechanism.",
+        "follow_up": "Skip further deep reading in this pass; reopen only if a clear lore reference establishes material labor replacement."
+      },
+      "after": {
+        "candidate_id": "c0140",
+        "status": "zero_variant",
+        "reason": "Retain the familiar corporate alternative with its body-technology qualification and possible-future scope explicit.",
+        "source_ids": [
+          "src-piercy-woman-author",
+          "src-piercy-gildina-classfuture"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "woman-edge-gildina-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "hesheit-tikva-zero",
+        "candidate_id": "c0141",
+        "name": "He, She and It (Tikva’s autonomous information economy)",
+        "work": "He, She and It",
+        "society": "He, She and It (Tikva’s autonomous information economy)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published literary continuity and stated period only",
+          "period": "The functioning free town before a universal conflict outcome",
+          "population": "Living human Tikva residents",
+          "human_population_proxy": false,
+          "exclusions": "Corporate indentured citizens and Glop outsiders are different access groups; the defensive cyborg’s real contribution is separately disclosed.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Tikva is a free town in an information economy whose security includes a defensive cyborg. That is a concrete technical-service connection, while ordinary necessities still depend on resident institutions and useful work. The guarantee best guess allows a partial internal floor, qualified by membership, outside threats and unshown household coverage. Free-town status is not itself proof that all food, housing and care arrive automatically.\n\n Resident human collective and local agency receives positive control weight, unlike a corporate indenture regime. The cyborg’s defensive work does not automatically make him the town’s sovereign provider. The low nonworking scenario counts information work, services, administration, maintenance, care and useful creation. Choosing work freely does not make it leisure, and useful defense remains contribution. The scope does not extend Tikva’s assumed support to excluded Glop residents or corporate enclaves. Broad bounds preserve the limited material evidence while retaining the recognizable decentralized technical alternative.",
+        "axis": {
+          "guarantees": 0.15,
+          "control": 0.7,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.85,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "A local floor is plausible but membership and threat limit coverage.",
+            "source_ids": [
+              "src-hesheit-author"
+            ]
+          },
+          "control": {
+            "interval": [
+              0.15,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Human free-town agency is central alongside a contributing cyborg.",
+            "source_ids": [
+              "src-hesheit-author"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Information, service, defense and caring roles remain useful work.",
+            "source_ids": [
+              "src-hesheit-author"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-hesheit-author"
+        ],
+        "evidence": [
+          {
+            "claim": "The setting distinguishes free towns, corporate indenture and excluded Glop residents; Tikva uses a defensive cyborg.",
+            "source_ids": [
+              "src-hesheit-author"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The internal necessities floor and productive substitution depth are estimates.",
+          "Defensive artificial-person work is disclosed rather than erased."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          2
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the famous free-town technical-service model with its limited ordinary provision evidence explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The setting distinguishes free towns, corporate indenture and excluded Glop residents; Tikva uses a defensive cyborg."
+        ],
+        "editorial_assumptions": [
+          "The internal necessities floor and productive substitution depth are estimates.",
+          "Defensive artificial-person work is disclosed rather than erased."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0141",
+        "status": "needs_evidence",
+        "reason": "Tikva's autonomy, information economy and defensive cyborg do not by themselves establish labor-independent basic provision.",
+        "source_ids": [
+          "src-hesheit-author"
+        ],
+        "analysis": "The source explains the free town's security conflict, without giving a general automatic production and allocation system.",
+        "follow_up": "Skip after the reference check; do not read the novel to rescue this lead by default."
+      },
+      "after": {
+        "candidate_id": "c0141",
+        "status": "zero_variant",
+        "reason": "Retain the famous free-town technical-service model with its limited ordinary provision evidence explicit.",
+        "source_ids": [
+          "src-hesheit-author"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "hesheit-tikva-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "hesheit-yakamura-indentured-zero",
+        "candidate_id": "c0142",
+        "name": "He, She and It (Yakamura-Stichen’s indentured enclave)",
+        "work": "He, She and It",
+        "society": "He, She and It (Yakamura-Stichen’s indentured enclave)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published literary continuity and stated period only",
+          "period": "The functioning corporate dome during Shira’s employment",
+          "population": "Living human indentured corporate citizens and resident dependents",
+          "human_population_proxy": false,
+          "exclusions": "Tikva and Glop have different access; one professional’s privileges are not universal human welfare.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Yakamura-Stichen combines a corporate dome and information infrastructure with indentured citizenship and Shira’s interface profession. Engineered habitat and cognitive services therefore coexist with actual work and conditional status. The guarantee best guess is weak because support depends on corporate membership and control rather than an equal secure claim. The zero-variant qualification is technical service and habitation capacity, not a verified end to ordinary productive labor.\n\n Concentrated human corporate authority receives control near the elite reference point. AI infrastructure does not automatically own its users’ economy or overrule the corporation. The low nonworking scenario counts interface work, administration, production, services, maintenance, care and useful creation. Indenture and occupational rank are not a census of useful participation, and dependents may contribute unpaid care. The point preserves the corporate access population separately from free-town residents and excluded outsiders. Broad uncertainty avoids turning either technological comfort or a single worker’s experience into a complete canonical constitution.",
+        "axis": {
+          "guarantees": 0.65,
+          "control": 0.03,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.5,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Corporate membership and indenture make support conditional.",
+            "source_ids": [
+              "src-hesheit-author",
+              "src-hesheit-chapter1"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.7,
+              0.45
+            ],
+            "confidence": "low",
+            "basis": "Human corporate owners concentrate authority despite AI infrastructure.",
+            "source_ids": [
+              "src-hesheit-author",
+              "src-hesheit-chapter1"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Professional, service and caring roles count; indenture status is not participation.",
+            "source_ids": [
+              "src-hesheit-author",
+              "src-hesheit-chapter1"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-hesheit-author",
+          "src-hesheit-chapter1"
+        ],
+        "evidence": [
+          {
+            "claim": "Yakamura-Stichen has a dome, corporate information systems, indentured citizenship and Shira’s interface profession.",
+            "source_ids": [
+              "src-hesheit-author",
+              "src-hesheit-chapter1"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Wider household guarantees and automation depth remain uncertain.",
+          "Tikva and excluded Glop residents are not assigned corporate rights."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the materially different corporate technical enclave with its work dependence explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Yakamura-Stichen has a dome, corporate information systems, indentured citizenship and Shira’s interface profession."
+        ],
+        "editorial_assumptions": [
+          "Wider household guarantees and automation depth remain uncertain.",
+          "Tikva and excluded Glop residents are not assigned corporate rights."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0142",
+        "status": "needs_evidence",
+        "reason": "Corporate indenture and AI information infrastructure are established, but available general labor replacement is not.",
+        "source_ids": [
+          "src-hesheit-author",
+          "src-hesheit-chapter1"
+        ],
+        "analysis": "A zero variant requires more than coercive employment in an advanced corporation. The Glop is excluded from corporate citizenship, not evidence of a universal entitlement.",
+        "follow_up": "Skip further deep reading in this pass. Keep Tikva and Yakamura-Stichen separate if stronger evidence later appears."
+      },
+      "after": {
+        "candidate_id": "c0142",
+        "status": "zero_variant",
+        "reason": "Retain the materially different corporate technical enclave with its work dependence explicit.",
+        "source_ids": [
+          "src-hesheit-author",
+          "src-hesheit-chapter1"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "hesheit-yakamura-indentured-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "female-man-jael-zero",
+        "candidate_id": "c0144",
+        "name": "The Female Man (Jael’s segregated technological future)",
+        "work": "The Female Man",
+        "society": "The Female Man (Jael’s segregated technological future)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published literary continuity and stated period only",
+          "period": "The functioning segregated future around Jael’s labor-trade relationships",
+          "population": "Living human residents of the opposed social orders",
+          "human_population_proxy": false,
+          "exclusions": "Whileaway is a separate continuity; a robot companion is not proof of complete automatic household production.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Jael’s future combines robot companionship, enforced work and labor trade between societies. Its technical service capacity coexists with bodily hierarchy and real useful or imposed roles. The guarantee best guess is weak across residents, while the degree of automatic necessities remains unusually uncertain. This zero variant does not infer a whole machine-funded economy from one companion or import Whileaway’s different institutions.\n\n Concentrated human political and private authority receives control near the elite reference point, with more dispersed agency and machine discretion inside a broad interval. A robot partner is not automatically the sovereign owner of productive systems. The low nonworking scenario counts production, services, administration, maintenance, care and assigned labor. Contradictory ideological descriptions of work are kept distinct from actual contribution, and private intimacy is not automatically a job. The selected segregated future stays separate from the novel’s other worlds. Its sparse material evidence is labeled rather than converted into a confident uniform welfare claim.",
+        "axis": {
+          "guarantees": 0.8,
+          "control": 0.1,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.5,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Enforcement and bodily hierarchy suggest weak common material security.",
+            "source_ids": [
+              "src-female-man-hicks",
+              "src-female-man-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.8,
+              0.7
+            ],
+            "confidence": "low",
+            "basis": "Human political/private concentration is central with alternatives broad.",
+            "source_ids": [
+              "src-female-man-hicks",
+              "src-female-man-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Actual useful or assigned work counts; companion presence and ideology are not a census.",
+            "source_ids": [
+              "src-female-man-hicks",
+              "src-female-man-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-female-man-hicks",
+          "src-female-man-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "The critical account describes work enforcement, inter-society labor trade and Jael’s robot companion.",
+            "source_ids": [
+              "src-female-man-hicks",
+              "src-female-man-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "General material automation and internal coverage are low-confidence estimates.",
+          "Jael’s future and Whileaway have separate scopes."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the familiar technological coercion comparison without extrapolating a companion into universal provision.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The critical account describes work enforcement, inter-society labor trade and Jael’s robot companion."
+        ],
+        "editorial_assumptions": [
+          "General material automation and internal coverage are low-confidence estimates.",
+          "Jael’s future and Whileaway have separate scopes."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0144",
+        "status": "boundary_case",
+        "reason": "Jael's robot companion and inter-society labor trade do not establish general automatic material provision.",
+        "source_ids": [
+          "src-female-man-hicks",
+          "src-female-man-reference"
+        ],
+        "analysis": "Womanland/Manland are separate from Whileaway. Robot intimacy and outsourced human labor cannot supply a society-wide post-work mechanism.",
+        "follow_up": "Skip deeper reading under the faster-pass instruction; reopen only on an explicit economic reference."
+      },
+      "after": {
+        "candidate_id": "c0144",
+        "status": "zero_variant",
+        "reason": "Retain the familiar technological coercion comparison without extrapolating a companion into universal provision.",
+        "source_ids": [
+          "src-female-man-hicks",
+          "src-female-man-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "female-man-jael-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "fifthsacredthing-working-commons-zero",
+        "candidate_id": "c0145",
+        "name": "The Fifth Sacred Thing (San Francisco’s working ecological commons)",
+        "work": "The Fifth Sacred Thing",
+        "society": "The Fifth Sacred Thing (San Francisco’s working ecological commons)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published literary continuity and stated period only",
+          "period": "The functioning collective ecological city",
+          "population": "Living human San Francisco residents",
+          "human_population_proxy": false,
+          "exclusions": "Sustainable farming remains real labor; collective provision is not evidence of a verified machine-funded post-work system.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "San Francisco combines sustainable local agriculture and collective provision. The material floor is therefore not inferred from wealthy private consumers, but necessary human work remains visible. The guarantee best guess allows strong common access with resource and safety limits. This is a deliberately weakly qualified zero-variant comparison of a future ecological support system, not a claim that the short reference proves extensive robotic production or a deliberate rejection of machines.\n\n Distributed human resident agency gives strongly positive control weight, with local institutional bottlenecks possible inside the interval. Ecological organization is not automatically an independent AI ruler. The low nonworking scenario counts farming, food distribution, maintenance, care, administration and useful creation. Wage-free or voluntary contribution still counts, while private play does not automatically become a job. The exact technical labor-saving depth remains an editorial uncertainty. This keeps the familiar collective future reviewable without equating sustainability with either universal leisure or unlimited dependable abundance.",
+        "axis": {
+          "guarantees": -0.4,
+          "control": 0.9,
+          "nonworking": 0.15
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.95,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Collective local provision permits a strong floor with resource/safety limits.",
+            "source_ids": [
+              "src-fifth-sacred-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              0.35,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Distributed human community agency is central.",
+            "source_ids": [
+              "src-fifth-sacred-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Actual farming, care and distribution count despite voluntary or wage-free organization.",
+            "source_ids": [
+              "src-fifth-sacred-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-fifth-sacred-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "The reference describes sustainable local agriculture and collective provision.",
+            "source_ids": [
+              "src-fifth-sacred-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Technical labor-saving depth is uncertain and is not asserted as a canonical robot economy.",
+          "The zero-variant qualification is comparative and low confidence."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          2
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the recognizable working ecological commons with its especially weak automation qualification explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The reference describes sustainable local agriculture and collective provision."
+        ],
+        "editorial_assumptions": [
+          "Technical labor-saving depth is uncertain and is not asserted as a canonical robot economy.",
+          "The zero-variant qualification is comparative and low confidence."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0145",
+        "status": "boundary_case",
+        "reason": "The quick reference describes ecological and collective provision without establishing automatic replacement of necessary human production.",
+        "source_ids": [
+          "src-fifth-sacred-reference"
+        ],
+        "analysis": "Shared resources and local agriculture alone do not meet the automation criterion.",
+        "follow_up": "Skip deeper reading; preserve as an ecological-utopia comparison."
+      },
+      "after": {
+        "candidate_id": "c0145",
+        "status": "zero_variant",
+        "reason": "Retain the recognizable working ecological commons with its especially weak automation qualification explicit.",
+        "source_ids": [
+          "src-fifth-sacred-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "fifthsacredthing-working-commons-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "accelerando-early-human-transition",
+        "candidate_id": "c0146",
+        "name": "Accelerando (the early human automation transition)",
+        "work": "Accelerando",
+        "society": "Accelerando (the early human automation transition)",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Named published literary continuity and stated period only",
+          "period": "The early human economy before Economics 2.0 dominates the inner system",
+          "population": "Living human and active human-derived early-transition residents",
+          "human_population_proxy": true,
+          "exclusions": "Manfred’s patrons are not universal welfare; later Saturnian guarantees and destructive inner-system institutions are separate.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Early venture altruism and developing self-replicating production create a plausible transition before autonomous Economics 2.0 dominates. New technical capacity and shared ideas do not yet give every human secure necessities. The guarantee best guess is weak and conditional because private patrons, contracts and unequal access still matter. The point does not import Saturn’s later free basics into the whole earlier economy.\n\n Human commercial, civic and distributed technical agency receives positive control weight, with growing autonomous machine influence inside the interval. A useful artificial enterprise is not automatically sovereign over every resident. The moderate nonworking scenario permits routine substitution while counting research, services, administration, maintenance, care and useful creation. Venture altruism is not a population employment statistic, and gifted intellectual property is not proof of free physical housing. Active identities alone form the proxy population. This partial-transition record keeps the early emergence distinct from both later human refuge institutions and the destructive inner-system takeover.",
+        "axis": {
+          "guarantees": 0.6,
+          "control": 0.45,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.6,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Early technical gifts do not establish universal secure material coverage.",
+            "source_ids": [
+              "src-accelerando-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.8,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Human distributed/commercial agency coexists with growing machine autonomy.",
+            "source_ids": [
+              "src-accelerando-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.03,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Useful research, service and care remain; patrons and inventions are not a census.",
+            "source_ids": [
+              "src-accelerando-reference"
+            ]
+          }
+        },
+        "regime_primary": 4,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-accelerando-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "The narrative includes early venture altruism and self-replicating factory development.",
+            "source_ids": [
+              "src-accelerando-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The early transition is selected before Economics 2.0 domination.",
+          "Household rights and participation are estimates, not copied from later Saturn."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the distinct early automation transition with private support separated from universal welfare.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The narrative includes early venture altruism and self-replicating factory development."
+        ],
+        "editorial_assumptions": [
+          "The early transition is selected before Economics 2.0 domination.",
+          "Household rights and participation are estimates, not copied from later Saturn."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0146",
+        "status": "boundary_case",
+        "reason": "Early venture altruism and machine projects do not establish labor-independent necessities for the general human population.",
+        "source_ids": [
+          "src-accelerando-reference"
+        ],
+        "analysis": "Manfred's useful inventions and patronage remain a narrow individual arrangement within a changing working economy. Later successor institutions are a separate period.",
+        "follow_up": "No primary-text rescue in this pass; the late economy is assessed separately at c0147."
+      },
+      "after": {
+        "candidate_id": "c0146",
+        "status": "included",
+        "reason": "Retain the distinct early automation transition with private support separated from universal welfare.",
+        "source_ids": [
+          "src-accelerando-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "accelerando-early-human-transition"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "accelerando-saturn-free-basics",
+        "candidate_id": "c0148",
+        "name": "Accelerando (Saturn’s free-basics refuges)",
+        "work": "Accelerando",
+        "society": "Accelerando (Saturn’s free-basics refuges)",
+        "media": [
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Named published literary continuity and stated period only",
+          "period": "The functioning Saturnian balloon habitats before their later loss",
+          "population": "Active biological human and human-derived Saturnian residents",
+          "human_population_proxy": true,
+          "exclusions": "Inner-system Economics 2.0 has different access; inactive backups and absent refugees are not additional supported people.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Saturn’s inhabited balloon habitats retain Economics 1.0 money while providing food, water, air, power, standard clothing, housing and entertainment free. The guarantee best guess is strong for that concrete local floor, qualified by habitat dependence and the finite period before its later loss. Paid extras do not erase the independent basic support, while basic support does not make every resident idle.\n\n Human-derived resident institutions receive positive control weight, with powerful technical dependencies and concentrated political interests inside the interval. The hostile inner-system machine economy is not treated as the local government merely because it threatens the habitats. The moderate nonworking scenario counts maintenance, administration, services, research, care and useful creation alongside substantial leisure. Money use and refugee numbers are not employment statistics. Only active identities enter the proxy population. This record is materially distinct from the already-retained human remnant exposed to destructive Economics 2.0, whose security is much weaker.",
+        "axis": {
+          "guarantees": -0.75,
+          "control": 0.55,
+          "nonworking": 0.5
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.98,
+              0.45
+            ],
+            "confidence": "low",
+            "basis": "Primary free necessities establish a strong local floor, with temporal/habitat limits.",
+            "source_ids": [
+              "src-accelerando-reference",
+              "src-accelerando-gebhart",
+              "src-accelerando-saturn-basics-primary"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.65,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Local human-derived institutions retain agency despite technical and external pressures.",
+            "source_ids": [
+              "src-accelerando-reference",
+              "src-accelerando-gebhart",
+              "src-accelerando-saturn-basics-primary"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Free basics allow leisure, but useful voluntary and institutional work remains.",
+            "source_ids": [
+              "src-accelerando-reference",
+              "src-accelerando-gebhart",
+              "src-accelerando-saturn-basics-primary"
+            ]
+          }
+        },
+        "regime_primary": 2,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-accelerando-reference",
+          "src-accelerando-gebhart",
+          "src-accelerando-saturn-basics-primary"
+        ],
+        "evidence": [
+          {
+            "claim": "The primary Saturn orientation lists free food, water, air, power, standard clothing, housing and entertainment alongside money for other goods.",
+            "source_ids": [
+              "src-accelerando-reference",
+              "src-accelerando-gebhart",
+              "src-accelerando-saturn-basics-primary"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Local effective ownership and participation remain estimates.",
+          "Only active resident identities count; inner-system institutions are separate."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the directly confirmed free-basics refuge economy distinct from Economics 2.0 exclusion.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The primary Saturn orientation lists free food, water, air, power, standard clothing, housing and entertainment alongside money for other goods."
+        ],
+        "editorial_assumptions": [
+          "Local effective ownership and participation remain estimates.",
+          "Only active resident identities count; inner-system institutions are separate."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0148",
+        "status": "needs_evidence",
+        "reason": "Saturnian refugee communities are distinct, but the short reference check does not settle their general access and control arrangements.",
+        "source_ids": [
+          "src-accelerando-reference",
+          "src-accelerando-gebhart"
+        ],
+        "analysis": "Refugee rescue and human elections do not by themselves establish universal material guarantees or ownership of the production system.",
+        "follow_up": "Skip primary-text reconstruction under the faster-pass instruction; do not copy the inner-system coordinates into this local polity."
+      },
+      "after": {
+        "candidate_id": "c0148",
+        "status": "included",
+        "reason": "Retain the directly confirmed free-basics refuge economy distinct from Economics 2.0 exclusion.",
+        "source_ids": [
+          "src-accelerando-reference",
+          "src-accelerando-gebhart",
+          "src-accelerando-saturn-basics-primary"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "accelerando-saturn-free-basics"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "saturnchildren-android-hierarchy-zero",
+        "candidate_id": "c0151",
+        "name": "Saturn’s Children (the slave-chipped android hierarchy)",
+        "work": "Saturn’s Children",
+        "society": "Saturn’s Children (the slave-chipped android hierarchy)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published literary continuity and stated period only",
+          "period": "The functioning post-human Solar System android order",
+          "population": "Active synthetic-person android residents across class groups",
+          "human_population_proxy": true,
+          "exclusions": "Extinct humans and inactive hardware are excluded; artificial workers’ continued labor is not erased.",
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_synthetic_persons"
+        },
+        "description": "Humanity is extinct, while android aristo rulers own slave-chipped workers who perform low-status tasks. The relevant material needs are energy, components, embodiment and continued operation for active synthetic persons. The guarantee best guess is very weak across that population because ownership and coercion govern access. Human disappearance is not counted as one hundred percent human leisure.\n\n Independence from organic owners gives strongly negative control weight, while internal android ownership remains sharply unequal. The coordinate describes that independence rather than equal machine power. The low nonworking scenario counts production, maintenance, services, administration, care and imposed roles, including actual courier work. A slave chip does not make a conscious worker mere equipment, and an aristo’s wealth does not establish a common floor. Inactive bodies and destroyed identities are not leisure citizens. This zero variant preserves the working artificial civilization and its inequalities rather than treating every post-human setting as a comfortable post-work utopia.",
+        "axis": {
+          "guarantees": 0.95,
+          "control": -0.98,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.5,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Slave ownership and chips make equal secure support extremely weak.",
+            "source_ids": [
+              "src-saturn-children-publisher"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              -0.7
+            ],
+            "confidence": "low",
+            "basis": "Androids are independent of organic masters but unequal among themselves.",
+            "source_ids": [
+              "src-saturn-children-publisher"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Active synthetic workers retain useful and imposed roles; extinct humans are excluded.",
+            "source_ids": [
+              "src-saturn-children-publisher"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-saturn-children-publisher"
+        ],
+        "evidence": [
+          {
+            "claim": "After human extinction, android aristos rule slave-chipped workers; Freya undertakes courier work.",
+            "source_ids": [
+              "src-saturn-children-publisher"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Active android persons provide the explicit material proxy.",
+          "Internal resource coverage and participation are estimates."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the famous unequal robot civilization with actual work and no extinction-to-leisure inference.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "After human extinction, android aristos rule slave-chipped workers; Freya undertakes courier work."
+        ],
+        "editorial_assumptions": [
+          "Active android persons provide the explicit material proxy.",
+          "Internal resource coverage and participation are estimates."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Active synthetic-person participation, not a literal human rate.",
+          "control": "Independence from organic owners; internal ownership and machine hierarchy remain separate.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0151",
+        "status": "boundary_case",
+        "reason": "The depicted robot hierarchy has working slaves after human extinction, not a living human leisure population.",
+        "source_ids": [
+          "src-saturn-children-publisher"
+        ],
+        "analysis": "An android society is not disqualified merely for being artificial, but no distinct labor-independent person-level support system is established here; extinction cannot supply a nonworking fraction.",
+        "follow_up": "Preserve as a robot labor/slavery comparison and skip deeper reading."
+      },
+      "after": {
+        "candidate_id": "c0151",
+        "status": "zero_variant",
+        "reason": "Retain the famous unequal robot civilization with actual work and no extinction-to-leisure inference.",
+        "source_ids": [
+          "src-saturn-children-publisher"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "saturnchildren-android-hierarchy-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "neptunesbrood-metahuman-credit-zero",
+        "candidate_id": "c0152",
+        "name": "Neptune’s Brood (the metahuman credit economy)",
+        "work": "Neptune’s Brood",
+        "society": "Neptune’s Brood (the metahuman credit economy)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published literary continuity and stated period only",
+          "period": "The functioning interstellar metahuman finance and colony order",
+          "population": "Active synthetic-person metahuman residents descended from robots",
+          "human_population_proxy": true,
+          "exclusions": "Extinct biological humans, inactive backups and slow-money balances are not additional persons or nonworkers.",
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_synthetic_persons"
+        },
+        "description": "Robot-descended metahumans organize interstellar life through credit and finance. Their artificial continuation does not remove resource costs or useful labor, and the guarantee best guess is weak because access remains institutionally and financially mediated. Biological human extinction is not a welfare achievement. Energy, components, new bodies and colony infrastructure form the explicit synthetic-person material comparison.\n\n Independence from organic owners gives strongly negative control weight, while creditor power and unequal internal ownership remain separate. A market among artificial people is not equal collective command over production. The modest nonworking scenario counts finance, construction, navigation, administration, maintenance, care and useful creation. Long communication times, monetary units and copied hardware are not a population labor statistic. Only active identities count, without multiplying dormant backups. The zero variant retains the recognizable working metahuman economy rather than assuming credit technology or post-biological bodies establish universal leisure and secure necessities.",
+        "axis": {
+          "guarantees": 0.8,
+          "control": -0.95,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.5,
+              0.98
+            ],
+            "confidence": "low",
+            "basis": "Credit-mediated embodiment and resources suggest weak universal coverage.",
+            "source_ids": [
+              "src-neptunes-brood-publisher",
+              "src-stross-sfe"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              -0.55
+            ],
+            "confidence": "low",
+            "basis": "Synthetic independence coexists with concentrated creditors and owners.",
+            "source_ids": [
+              "src-neptunes-brood-publisher",
+              "src-stross-sfe"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Useful financial, productive and caring roles remain; monetary time is not participation.",
+            "source_ids": [
+              "src-neptunes-brood-publisher",
+              "src-stross-sfe"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-neptunes-brood-publisher",
+          "src-stross-sfe"
+        ],
+        "evidence": [
+          {
+            "claim": "Metahumans descend from robots after biological human extinction, in an interstellar credit-centered economy.",
+            "source_ids": [
+              "src-neptunes-brood-publisher",
+              "src-stross-sfe"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Energy/components and active embodiment are the explicit material proxy.",
+          "Internal support and useful-work participation remain broad estimates."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          6
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the famous synthetic finance economy with active identities and real work explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Metahumans descend from robots after biological human extinction, in an interstellar credit-centered economy."
+        ],
+        "editorial_assumptions": [
+          "Energy/components and active embodiment are the explicit material proxy.",
+          "Internal support and useful-work participation remain broad estimates."
+        ],
+        "axis_interpretation": {
+          "nonworking": "Active synthetic-person participation, not a literal human rate.",
+          "control": "Independence from organic owners; internal ownership and machine hierarchy remain separate.",
+          "literal_human_nonworking": null
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0152",
+        "status": "boundary_case",
+        "reason": "An interstellar metahuman credit economy does not itself establish release from useful labor or labor-dependent access.",
+        "source_ids": [
+          "src-neptunes-brood-publisher",
+          "src-stross-sfe"
+        ],
+        "analysis": "The protagonists are robot-descended metahumans in a finance and colonization system. Advanced bodies and slow credit are not a verified automatic-support arrangement.",
+        "follow_up": "Skip deeper reading; reconsider only on a clear general production/allocation reference."
+      },
+      "after": {
+        "candidate_id": "c0152",
+        "status": "zero_variant",
+        "reason": "Retain the famous synthetic finance economy with active identities and real work explicit.",
+        "source_ids": [
+          "src-neptunes-brood-publisher",
+          "src-stross-sfe"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "neptunesbrood-metahuman-credit-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "ironsunrise-remastered-zero",
+        "candidate_id": "c0156",
+        "name": "Iron Sunrise (the ReMastered order)",
+        "work": "Iron Sunrise",
+        "society": "Iron Sunrise (the ReMastered order)",
+        "media": [
+          "book"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Named published literary continuity and stated period only",
+          "period": "The published ReMastered society during its conflict with other worlds",
+          "population": "Living human and active human-derived ReMastered residents",
+          "human_population_proxy": true,
+          "exclusions": "The author’s unwritten third-book plans are excluded; military ideology alone is not asserted to prove automatic universal provision.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The ReMastered form an ideological and military faction in conflict with independent worlds and the Eschaton. The record keeps that published society distinct from mechanisms proposed for an unwritten sequel. The guarantee best guess is very weak because concentrated coercive authority does not establish equal necessities. Technical productive capacity is a low-confidence contextual qualification, not a claim that military power proves all household labor is already automatic.\n\n Human-derived institutional command receives control near the elite reference point, with a strongly machine-mediated interpretation inside the wide interval. Opposition to the Eschaton does not itself settle the faction’s internal ownership. The low nonworking scenario counts production, administration, services, maintenance, care and assigned military work. Ideology and augmentation are not employment statistics, and inactive minds are not leisure residents. This zero variant preserves a recognizable technological coercion model while keeping its sparse ordinary material detail and uncertain controller structure explicit rather than inventing a final post-war constitution.",
+        "axis": {
+          "guarantees": 0.95,
+          "control": 0.03,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.4,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Coercive factional authority suggests very weak equal secure access.",
+            "source_ids": [
+              "src-iron-sunrise-walker",
+              "src-iron-sunrise-author-unwritten"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.45
+            ],
+            "confidence": "low",
+            "basis": "Human-derived institutional concentration is central with machine mediation uncertain.",
+            "source_ids": [
+              "src-iron-sunrise-walker",
+              "src-iron-sunrise-author-unwritten"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Useful and assigned work remains; ideological identity and inactive minds are not participation.",
+            "source_ids": [
+              "src-iron-sunrise-walker",
+              "src-iron-sunrise-author-unwritten"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-iron-sunrise-walker",
+          "src-iron-sunrise-author-unwritten"
+        ],
+        "evidence": [
+          {
+            "claim": "The published narrative concerns independent worlds, Eschaton constraints and the ReMastered conflict.",
+            "source_ids": [
+              "src-iron-sunrise-walker",
+              "src-iron-sunrise-author-unwritten"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "The author separately describes plans for an unwritten later book.",
+            "source_ids": [
+              "src-iron-sunrise-walker",
+              "src-iron-sunrise-author-unwritten"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "General material automation and controller structure are uncertain.",
+          "Unwritten mechanisms are not treated as implemented canon."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Retain the published technological faction with weak material qualification and sequel limits explicit.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The published narrative concerns independent worlds, Eschaton constraints and the ReMastered conflict.",
+          "The author separately describes plans for an unwritten later book."
+        ],
+        "editorial_assumptions": [
+          "General material automation and controller structure are uncertain.",
+          "Unwritten mechanisms are not treated as implemented canon."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0156",
+        "status": "needs_evidence",
+        "reason": "The quick sources establish an ideological and military faction, not its general automatic material economy.",
+        "source_ids": [
+          "src-iron-sunrise-walker",
+          "src-iron-sunrise-author-unwritten"
+        ],
+        "analysis": "A proposed future god in an unwritten continuation cannot establish current AI rule or welfare in the published novel.",
+        "follow_up": "Skip deeper reading under the user's faster-pass instruction."
+      },
+      "after": {
+        "candidate_id": "c0156",
+        "status": "zero_variant",
+        "reason": "Retain the published technological faction with weak material qualification and sequel limits explicit.",
+        "source_ids": [
+          "src-iron-sunrise-walker",
+          "src-iron-sunrise-author-unwritten"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "ironsunrise-remastered-zero"
+      }
+    }
+  ]
+}

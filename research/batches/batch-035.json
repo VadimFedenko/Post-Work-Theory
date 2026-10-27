@@ -1,0 +1,116 @@
+{
+  "batch_id": "batch-035",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0184",
+    "c0185",
+    "c0186",
+    "c0187",
+    "c0188"
+  ],
+  "sources": [
+    {
+      "id": "src-house-suns-reference",
+      "title": "House of Suns",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/House_of_Suns",
+      "kind": "secondary_plot_and_setting_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed setting account read",
+      "read_scope": "Gentian shatterlings, independent machine civilization and the Line's history.",
+      "limitations": "Wealth, extreme longevity and powerful ships do not alone establish an unconditional support system; no primary novel read attempted."
+    },
+    {
+      "id": "src-house-suns-reader-reviews",
+      "title": "House of Suns: reader reviews",
+      "author": "Reader reviews displayed by Everand",
+      "url": "https://www.everand.com/audiobook/635877127/House-of-Suns",
+      "kind": "secondary_reader_reviews_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed Gentian/Vigilance discussion consulted",
+      "read_scope": "Long-lived wealthy travelers, occasional engineering/trade and Vigilance archives.",
+      "limitations": "User-generated reviews, not publisher verification; multiple reviewers share a page. Used as discovery/context only, not economic admission proof."
+    },
+    {
+      "id": "src-pushing-ice-reference",
+      "title": "Pushing Ice",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Pushing_Ice",
+      "kind": "secondary_plot_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed colony and Structure summary read",
+      "read_scope": "Multiple human settlement periods, alien technological trade and a later colony.",
+      "limitations": "The framing future, Janus settlement and later colony must not inherit one another's institutions; no household access constitution established."
+    },
+    {
+      "id": "src-blue-earth-wertzone",
+      "title": "Blue Remembered Earth by Alastair Reynolds",
+      "author": "The Wertzone, January 2012",
+      "url": "https://thewertzone.blogspot.com/2012/01/blue-remembered-earth-by-alastair.html?amp=1&m=0",
+      "kind": "secondary_literary_review_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed prosperity and surveillance discussion read",
+      "read_scope": "Economic development, AI crime intervention and differing coverage off Earth.",
+      "limitations": "Prosperity and automated policing do not establish that wages cease to be the main route to necessities or that AI owns production."
+    }
+  ],
+  "societies": [],
+  "decisions": [
+    {
+      "candidate_id": "c0184",
+      "status": "needs_evidence",
+      "reason": "Gentian wealth, longevity and advanced ships are clear, but the quick references do not establish a common labor-independent support arrangement.",
+      "source_ids": [
+        "src-house-suns-reference",
+        "src-house-suns-reader-reviews"
+      ],
+      "analysis": "The group also performs engineering and trade. An affluent clonal cohort cannot be admitted solely from the absence of visible subsistence labor.",
+      "follow_up": "Skip deeper reading under the pace instruction; require a concrete automatic production/access reference before admission."
+    },
+    {
+      "candidate_id": "c0185",
+      "status": "boundary_case",
+      "reason": "The Machine People are an independent robot civilization, without an established human support population or justified post-work person-level economy.",
+      "source_ids": [
+        "src-house-suns-reference"
+      ],
+      "analysis": "Artificial personhood is not denied, but a robot civilization alone supplies neither an applicable human work fraction nor evidence that its people are free of necessary labor.",
+      "follow_up": "Preserve as a machine-civilization comparison; skip further investigation."
+    },
+    {
+      "candidate_id": "c0186",
+      "status": "needs_evidence",
+      "reason": "The Vigilance's unusual archivists and information exchange do not establish general production or labor-independent material access.",
+      "source_ids": [
+        "src-house-suns-reader-reviews"
+      ],
+      "analysis": "Archival work, immense bodies and longevity are capabilities and occupations rather than a verified post-work distribution mechanism.",
+      "follow_up": "Skip a primary novel investigation."
+    },
+    {
+      "candidate_id": "c0187",
+      "status": "needs_evidence",
+      "reason": "The broad far-future settlement lead combines distinct periods without clear general access rules in the short references.",
+      "source_ids": [
+        "src-pushing-ice-reference"
+      ],
+      "analysis": "Alien technology gifts, bargaining and a later human colony do not by themselves establish who receives necessities independently of work. The early mining crew and the framing Congress are separate scopes.",
+      "follow_up": "Skip deeper reading; reopen only on a short, specific material-economy reference."
+    },
+    {
+      "candidate_id": "c0188",
+      "status": "needs_evidence",
+      "reason": "The short sources establish a prosperous surveilled Earth, but not labor-independent household access or ownership of automated production.",
+      "source_ids": [
+        "src-blue-earth-wertzone"
+      ],
+      "analysis": "AI intervention against crime is not sovereign AI control of the economy. A wealthy protagonist's family and eliminated poverty cannot alone establish the requested automation-distribution link across Earth and the United Aquatic Nations.",
+      "follow_up": "Skip further reading in this pass; preserve the distinction between security automation and material provision."
+    }
+  ],
+  "review_notes": [
+    "The user explicitly permits obscure economic leads to be skipped; no novel reading was used to rescue these five cases.",
+    "Long life, wealthy travelers, robot citizens, alien gifts and AI policing are not substituted for actual production/allocation arrangements.",
+    "Reader-review aggregation is identified as such and used for context only; no unsupported source is promoted into an admitted society record."
+  ]
+}

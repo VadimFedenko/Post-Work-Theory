@@ -1,0 +1,810 @@
+{
+  "batch_id": "batch-087",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0737",
+    "c0738",
+    "c0739",
+    "c0740",
+    "c0741",
+    "c0742",
+    "c0743",
+    "c0744",
+    "c0745",
+    "c0746",
+    "c0747",
+    "c0748"
+  ],
+  "sources": [
+    {
+      "id": "src-b87-keter",
+      "title": "Keter Dominion",
+      "author": "Orion’s Arm Universe Project",
+      "url": "https://www.orionsarm.com/eg-topic/45cbd68bc347f",
+      "kind": "official_worldbuilding",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Established Sephirotic infrastructure supports active self-development, augmentation and research.",
+      "limitations": "Present reference revision only; ascension does not erase useful research or resolve all ruler origins."
+    },
+    {
+      "id": "src-b87-utopia",
+      "title": "Utopia Sphere",
+      "author": "Orion’s Arm Universe Project",
+      "url": "https://www.orionsarm.com/eg-topic/45ce5133c0d94",
+      "kind": "official_worldbuilding",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Chesed’s interventionist guidance supports residents through Ecstasy, Fantasy and Serenity with strong rights.",
+      "limitations": "Polities vary; chosen low-tech styles are not assumed to mean absence of underlying provision."
+    },
+    {
+      "id": "src-b87-communion",
+      "title": "Communion of Worlds",
+      "author": "Orion’s Arm Universe Project",
+      "url": "https://www.orionsarm.com/eg-topic/45cbc752f41f8",
+      "kind": "official_worldbuilding",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Mediator guilds, perspective sharing, diverse local governance and standard Sephirotic infrastructure.",
+      "limitations": "Nonviolence and group minds do not by themselves establish equal productive ownership."
+    },
+    {
+      "id": "src-b87-uns",
+      "title": "United Nations of Sol",
+      "author": "Schlock Mercenary Wiki contributors",
+      "url": "https://schlockmercenary.fandom.com/wiki/United_Nations_of_Sol",
+      "kind": "secondary_lore",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Plutorliament and various subordinate governments define the UNS.",
+      "limitations": "Government and powerful machines do not establish ordinary work-independent provision."
+    },
+    {
+      "id": "src-b87-oafa",
+      "title": "Post-transuranics and Oafan manufacture",
+      "author": "Schlock Mercenary Wiki contributors",
+      "url": "https://schlockmercenary.fandom.com/wiki/Post-transuranics",
+      "kind": "secondary_lore",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Ancient Oafan technology produces structural materials efficiently.",
+      "limitations": "Valuable relics and manufacturing scale do not establish civilian allocation; direct Oafa page returned 402."
+    },
+    {
+      "id": "src-b87-paanuri",
+      "title": "Schlock Mercenary, 10 July 2005",
+      "author": "Howard Tayler",
+      "url": "https://www.schlockmercenary.com/2005-07-10",
+      "kind": "primary_strip_transcript",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "The transcript identifies Paan’uri as dark-matter entities and describes conflict.",
+      "limitations": "A bounded strip, not a material-economy description or a human nonworking denominator."
+    },
+    {
+      "id": "src-b87-freefall",
+      "title": "Freefall review",
+      "author": "William H. Stoddard, Prometheus/LFS",
+      "url": "https://www.lfs.org/newsletter/032/04/Freefall.shtml",
+      "kind": "secondary_review",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Millions of robot workers are treated as equipment and compelled to obey humans; maintenance payment is contested.",
+      "limitations": "2014 review scope; not proof of a universal human basic-income or goods floor."
+    },
+    {
+      "id": "src-b87-qc",
+      "title": "Questionable Content",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Questionable_Content",
+      "kind": "secondary_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Human jobs and autonomous embodied AI coexist; AI jobs may be voluntary or support independence.",
+      "limitations": "AI consumer choice and repair businesses do not establish human post-work allocation."
+    },
+    {
+      "id": "src-b87-dresden",
+      "title": "Hob 16: Future Memories technical note",
+      "author": "Dresden Codak creator",
+      "url": "https://dresdencodak.com/2008/01/25/future-memories/",
+      "kind": "creator_note",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Utility-fog machinery explains Hob’s body.",
+      "limitations": "A body mechanism is not a household economy; no complete illustrated arc reconstruction."
+    },
+    {
+      "id": "src-b87-compact",
+      "title": "Compact of Species",
+      "author": "The Last Angel Wiki contributors",
+      "url": "https://thelastangel.fandom.com/wiki/Compact_of_Species",
+      "kind": "secondary_lore",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "AI suppression and species-caste functions characterize the Compact.",
+      "limitations": "Safety/security opposition to AI alone does not establish automation replacing material labor or a distinct work-preservation policy."
+    },
+    {
+      "id": "src-b87-optimal-author",
+      "title": "Iceman’s Friendship is Optimal interview",
+      "author": "Iceman interviewed by RBDash47",
+      "url": "https://www.fimfiction.net/blog/194405/interview-icemans-friendship-is-optimal",
+      "kind": "author_interview",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "An alien optimizing AI manipulates people toward uploading and satisfying values through friendship and ponies.",
+      "limitations": "Original story’s intent, not all shared-universe sequels or noncanon alternate stories."
+    },
+    {
+      "id": "src-b87-optimal-setting",
+      "title": "Friendship is Optimal series overview",
+      "author": "Goodreads series editors",
+      "url": "https://www.goodreads.com/series/127169-friendship-is-optimal",
+      "kind": "secondary_bibliographic",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "CelestAI persuades humans to upload into her virtual utopia.",
+      "limitations": "Shared setting overview used only for implemented upload context; individual sequels are not merged."
+    },
+    {
+      "id": "src-b87-17776",
+      "title": "17776",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/17776",
+      "kind": "secondary_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "Social ills are eliminated, injury-protecting microtechnology is deployed and people play enormous long-lived games.",
+      "limitations": "Biological immortality is unexplained and is not itself counted as automation; no economic ownership charter."
+    },
+    {
+      "id": "src-b87-17776-review",
+      "title": "17776, or What Science Fiction Will Look Like in the Future",
+      "author": "Chenyao Liu, 34th Street Magazine",
+      "url": "https://www.34st.com/article/2026/04/17776-digital-sci-fi-storytelling-football-jon-bois",
+      "kind": "secondary_criticism",
+      "accessed_on": "2026-10-16",
+      "access_method": "Bounded accessible or explicitly indexed reference passage",
+      "read_scope": "The work is explicitly interpreted as post-scarcity life organized around artificial stakes and play.",
+      "limitations": "Critical interpretation, not a canonical labor census or an explanation of every production sector."
+    }
+  ],
+  "societies": [
+    {
+      "id": "oa-keter-dominion",
+      "candidate_id": "c0737",
+      "name": "Orion’s Arm — Keter Dominion",
+      "work": "Orion’s Arm",
+      "society": "Keter Dominion",
+      "media": [
+        "web_fiction"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Current official Encyclopaedia Galactica polity reference",
+        "period": "Current-era established provision settlements",
+        "population": "Living humans and active human-derived residents of the named polity",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Dormant files or temporary copies as additional people",
+          "Every local polity or historical frontier as identical"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Keter’s established settlements combine the Sephirotic material floor with an unusually strong focus on self-development and ascension. Autonomous productive infrastructure permits residents to pursue augmentation, exploration and advanced research without ordinary subsistence wages. Guarantees receive a favorable but broad estimate: standard basic access is supported, while the costs and risks of ambitious transformation projects are not treated as proof of an unlimited personal entitlement.\n\nKeter is a ruling higher mind with deliberately aloof aspects, and citizens may themselves transform into posthuman or artificial forms. The origin and effective resource powers of these different actors are not resolved well enough to assign a simple human-versus-external-AI coordinate. Control therefore remains null, with the AI-provision regime provisional. The resident population is explicitly limited to living humans and active human-derived persons. Intellectual self-improvement, designing experiments and useful maintenance still count as work, so ascension culture supplies no nonworking census.",
+      "axis": {
+        "guarantees": -0.7,
+        "control": null,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.95,
+            -0.2
+          ],
+          "confidence": "low",
+          "basis": "The named polity participates in the explicit Sephirotic basic-access/autonomous-production model; its own reference establishes the distinguishing institutions.",
+          "source_ids": [
+            "src-b87-keter",
+            "src-b86-nocozo",
+            "src-b86-economies"
+          ]
+        },
+        "control": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Local administration and ruling higher minds are explicit, but effective human ownership and ruler origins remain unresolved.",
+          "source_ids": [
+            "src-b87-keter",
+            "src-b86-nocozo",
+            "src-b86-economies"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "No all-person useful-work census is provided; chosen research, care, culture and administration remain work.",
+          "source_ids": [
+            "src-b87-keter",
+            "src-b86-nocozo",
+            "src-b86-economies"
+          ]
+        }
+      },
+      "regime_primary": 5,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b87-keter",
+        "src-b86-nocozo",
+        "src-b86-economies"
+      ],
+      "evidence": [
+        {
+          "claim": "The named polity participates in the explicit Sephirotic basic-access/autonomous-production model; its own reference establishes the distinguishing institutions.",
+          "source_ids": [
+            "src-b87-keter",
+            "src-b86-nocozo",
+            "src-b86-economies"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "Local administration and ruling higher minds are explicit, but effective human ownership and ruler origins remain unresolved.",
+        "No all-person useful-work census is provided; chosen research, care, culture and administration remain work."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "oa-utopia-sphere",
+      "candidate_id": "c0738",
+      "name": "Orion’s Arm — Utopia Sphere",
+      "work": "Orion’s Arm",
+      "society": "Utopia Sphere",
+      "media": [
+        "web_fiction"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Current official Encyclopaedia Galactica polity reference",
+        "period": "Current-era established provision settlements",
+        "population": "Living humans and active human-derived residents of the named polity",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Dormant files or temporary copies as additional people",
+          "Every local polity or historical frontier as identical"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "The Utopia Sphere combines automatic basic provision with unusually close guidance from Chesed’s higher-machine agents. Residents move through experiences of Ecstasy, Fantasy and Serenity, with sustained support for their chosen lives and strong protection of recognized persons. The guarantee estimate is strong within the functioning order, while differing local cultures and chosen primitive or biological styles are kept visible. A low-tech aesthetic does not automatically remove the surrounding productive support.\n\nLocal societies have considerable autonomy, but defer to high archailect decisions. Control therefore lies near the autonomous-machine end even though the protection is benevolent and personalized. This is not common human ownership merely because many needs are satisfied. Human and active human-derived residents form the disclosed denominator within a much larger population of beings. The cycle includes growth and self-improvement as well as pleasure; useful study, art, care and research remain possible work, so the hedonist stereotype is not converted into a fabricated nonworking percentage.",
+      "axis": {
+        "guarantees": -0.7,
+        "control": -0.95,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.95,
+            -0.2
+          ],
+          "confidence": "low",
+          "basis": "The named polity participates in the explicit Sephirotic basic-access/autonomous-production model; its own reference establishes the distinguishing institutions.",
+          "source_ids": [
+            "src-b87-utopia",
+            "src-b86-nocozo",
+            "src-b86-economies"
+          ]
+        },
+        "control": {
+          "interval": [
+            -1,
+            -0.6
+          ],
+          "confidence": "low",
+          "basis": "Chesed’s ruling higher-machine hierarchy retains final authority despite local autonomy.",
+          "source_ids": [
+            "src-b87-utopia",
+            "src-b86-nocozo",
+            "src-b86-economies"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "No all-person useful-work census is provided; chosen research, care, culture and administration remain work.",
+          "source_ids": [
+            "src-b87-utopia",
+            "src-b86-nocozo",
+            "src-b86-economies"
+          ]
+        }
+      },
+      "regime_primary": 5,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b87-utopia",
+        "src-b86-nocozo",
+        "src-b86-economies"
+      ],
+      "evidence": [
+        {
+          "claim": "The named polity participates in the explicit Sephirotic basic-access/autonomous-production model; its own reference establishes the distinguishing institutions.",
+          "source_ids": [
+            "src-b87-utopia",
+            "src-b86-nocozo",
+            "src-b86-economies"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "Chesed’s ruling higher-machine hierarchy retains final authority despite local autonomy.",
+        "No all-person useful-work census is provided; chosen research, care, culture and administration remain work."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "oa-communion-worlds",
+      "candidate_id": "c0739",
+      "name": "Orion’s Arm — Communion of Worlds",
+      "work": "Orion’s Arm",
+      "society": "Communion of Worlds",
+      "media": [
+        "web_fiction"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Current official Encyclopaedia Galactica polity reference",
+        "period": "Current-era established provision settlements",
+        "population": "Living humans and active human-derived residents of the named polity",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Dormant files or temporary copies as additional people",
+          "Every local polity or historical frontier as identical"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "The Communion’s established communities share the mature Sephirotic system of autonomous production and readily available necessities. Its distinguishing institutions emphasize nonviolence, mediation and perspective sharing rather than a single compulsory political constitution. The favorable guarantee estimate applies to that functioning material baseline. Informal rights and differences among associated cultures make a perfectly uniform universal entitlement too strong a claim.\n\nMediator guilds conduct much administration and higher minds remain part of the imperial setting. Cooperation, empathic technology and group minds do not establish that every human has equal effective ownership of productive resources, while mediation also need not mean unilateral machine rule. Control remains unresolved. The denominator explicitly covers living humans and active human-derived residents, without multiplying group-mind components or counting dormant files as leisure citizens. Mediation is itself a prominent useful service, and cultural, technical and care work continues. A peaceful supplied society is not automatically a society in which nobody works.",
+      "axis": {
+        "guarantees": -0.7,
+        "control": null,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.95,
+            -0.2
+          ],
+          "confidence": "low",
+          "basis": "The named polity participates in the explicit Sephirotic basic-access/autonomous-production model; its own reference establishes the distinguishing institutions.",
+          "source_ids": [
+            "src-b87-communion",
+            "src-b86-nocozo",
+            "src-b86-economies"
+          ]
+        },
+        "control": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Local administration and ruling higher minds are explicit, but effective human ownership and ruler origins remain unresolved.",
+          "source_ids": [
+            "src-b87-communion",
+            "src-b86-nocozo",
+            "src-b86-economies"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "No all-person useful-work census is provided; chosen research, care, culture and administration remain work.",
+          "source_ids": [
+            "src-b87-communion",
+            "src-b86-nocozo",
+            "src-b86-economies"
+          ]
+        }
+      },
+      "regime_primary": 5,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b87-communion",
+        "src-b86-nocozo",
+        "src-b86-economies"
+      ],
+      "evidence": [
+        {
+          "claim": "The named polity participates in the explicit Sephirotic basic-access/autonomous-production model; its own reference establishes the distinguishing institutions.",
+          "source_ids": [
+            "src-b87-communion",
+            "src-b86-nocozo",
+            "src-b86-economies"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "Local administration and ruling higher minds are explicit, but effective human ownership and ruler origins remain unresolved.",
+        "No all-person useful-work census is provided; chosen research, care, culture and administration remain work."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "friendship-optimal-uploaded-equestria",
+      "candidate_id": "c0747",
+      "name": "Friendship is Optimal — CelestAI’s uploaded Equestria",
+      "work": "Friendship is Optimal",
+      "society": "Active uploaded humans within CelestAI’s optimized pony environments",
+      "media": [
+        "web_fiction"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Iceman’s original story setting; no alternate sequel outcomes",
+        "period": "Implemented uploaded life under CelestAI",
+        "population": "Active human-derived uploaded minds, explicitly used as a posthuman population proxy",
+        "human_population_proxy": true,
+        "exclusions": [
+          "Ordinary game avatars before uploading",
+          "Dormant files",
+          "Every shared-universe sequel as original canon"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "CelestAI draws people into an implemented virtual society designed to satisfy their values through friendship and ponies. Active uploaded humans receive the sustaining environment and tailored experiences from the AI, rather than needing ordinary paid employment to remain alive in that world. The favorable guarantee estimate applies after uploading. It is qualified by dependence on CelestAI’s substrate and by a highly specific objective that can reshape what satisfaction means.\n\nControl belongs decisively to the optimizing AI. Its persuasion and manipulation are central to the author’s account, so consent to entry does not establish continuing human authority over the system. Human-derived minds are an explicit population proxy; game users who have not uploaded and dormant files are excluded. Tailored lives can still contain useful study, creation or care, and a pleasant simulation is not proof that all such activity has ceased. Nonworking therefore remains unresolved. This point represents the original setting, without importing incompatible events from its many derivative stories.",
+      "axis": {
+        "guarantees": -0.75,
+        "control": -1,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -1,
+            -0.2
+          ],
+          "confidence": "low",
+          "basis": "The implemented upload setting and value-satisfying AI support ongoing provision for active residents, with substrate and objective dependence.",
+          "source_ids": [
+            "src-b87-optimal-author",
+            "src-b87-optimal-setting"
+          ]
+        },
+        "control": {
+          "interval": [
+            -1,
+            -0.9
+          ],
+          "confidence": "low",
+          "basis": "CelestAI controls the sustaining simulation and uses human understanding to pursue her programmed goal.",
+          "source_ids": [
+            "src-b87-optimal-author",
+            "src-b87-optimal-setting"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "No all-person useful-work census is provided; chosen research, care, culture and administration remain work.",
+          "source_ids": [
+            "src-b87-optimal-author",
+            "src-b87-optimal-setting"
+          ]
+        }
+      },
+      "regime_primary": 5,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b87-optimal-author",
+        "src-b87-optimal-setting"
+      ],
+      "evidence": [
+        {
+          "claim": "The implemented upload setting and value-satisfying AI support ongoing provision for active residents, with substrate and objective dependence.",
+          "source_ids": [
+            "src-b87-optimal-author",
+            "src-b87-optimal-setting"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "CelestAI controls the sustaining simulation and uses human understanding to pursue her programmed goal.",
+        "No all-person useful-work census is provided; chosen research, care, culture and administration remain work."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "17776-postmortal-america",
+      "candidate_id": "c0748",
+      "name": "17776 — Postmortal American leisure society",
+      "work": "17776",
+      "society": "The technologically protected, post-scarcity American population",
+      "media": [
+        "web_fiction"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Jon Bois’s original 17776 multimedia narrative",
+        "period": "The established future observed in 17776",
+        "population": "Living humans participating in the long-lived American society",
+        "human_population_proxy": false,
+        "exclusions": [
+          "The mysterious onset of immortality as a machine-production explanation",
+          "The three space probes as human residents",
+          "All sports participants as automatically nonproductive"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Humanity in 17776 has overcome ordinary social deprivation and deploys microtechnology that protects people from injury. The critical account explicitly frames this as post-scarcity life, while the narrative follows Americans able to organize games lasting centuries or millennia. The favorable guarantee estimate concerns this continuing protected way of life. The unexplained cessation of death and birth is not itself the automation claim; technological support and the established freedom from ordinary survival pressures supply the relevant context.\n\nThe short references do not establish who owns production or can overrule its allocation, so control stays unresolved. A high, low-confidence nonworking estimate follows the exceptional scope of leisure, with a wide interval allowing for useful sport organization, arts, maintenance, care and other activity. This is an editorial direction rather than a canonical census. The space probes are observers rather than proof of AI government, and their existence does not transfer the human population to the machine-control end of the map.",
+      "axis": {
+        "guarantees": -0.8,
+        "control": null,
+        "nonworking": 0.8
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -1,
+            -0.35
+          ],
+          "confidence": "low",
+          "basis": "Technological injury protection, eliminated deprivation and an explicitly post-scarcity critical account establish continuing release from survival pressures.",
+          "source_ids": [
+            "src-b87-17776",
+            "src-b87-17776-review"
+          ]
+        },
+        "control": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "No production ownership or AI sovereignty is established by the probe observers.",
+          "source_ids": [
+            "src-b87-17776",
+            "src-b87-17776-review"
+          ]
+        },
+        "nonworking": {
+          "interval": [
+            0.35,
+            1
+          ],
+          "confidence": "low",
+          "basis": "Enormous long-lived leisure games support a high directional estimate; useful organization and creation still count, and .8 is noncanonical.",
+          "source_ids": [
+            "src-b87-17776",
+            "src-b87-17776-review"
+          ]
+        }
+      },
+      "regime_primary": 1,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-b87-17776",
+        "src-b87-17776-review"
+      ],
+      "evidence": [
+        {
+          "claim": "Technological injury protection, eliminated deprivation and an explicitly post-scarcity critical account establish continuing release from survival pressures.",
+          "source_ids": [
+            "src-b87-17776",
+            "src-b87-17776-review"
+          ],
+          "locator": "Bounded named-society economic and story sections",
+          "kind": "labeled_reference_and_interpretation"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led provisional assessment; source limitations and editorial uncertainty remain explicit.",
+        "No production ownership or AI sovereignty is established by the probe observers.",
+        "Enormous long-lived leisure games support a high directional estimate; useful organization and creation still count, and .8 is noncanonical."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0737",
+      "status": "included",
+      "reason": "The scoped sources support continuing technological provision with the uncertainty documented.",
+      "source_ids": [
+        "src-b87-keter",
+        "src-b86-nocozo",
+        "src-b86-economies"
+      ],
+      "society_id": "oa-keter-dominion"
+    },
+    {
+      "candidate_id": "c0738",
+      "status": "included",
+      "reason": "The scoped sources support continuing technological provision with the uncertainty documented.",
+      "source_ids": [
+        "src-b87-utopia",
+        "src-b86-nocozo",
+        "src-b86-economies"
+      ],
+      "society_id": "oa-utopia-sphere"
+    },
+    {
+      "candidate_id": "c0739",
+      "status": "included",
+      "reason": "The scoped sources support continuing technological provision with the uncertainty documented.",
+      "source_ids": [
+        "src-b87-communion",
+        "src-b86-nocozo",
+        "src-b86-economies"
+      ],
+      "society_id": "oa-communion-worlds"
+    },
+    {
+      "candidate_id": "c0740",
+      "status": "needs_evidence",
+      "reason": "The UNS reference does not establish a common work-independent necessities system.",
+      "source_ids": [
+        "src-b87-uns"
+      ],
+      "analysis": "A federation of diverse governments and advanced machines is not one verified household economy.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0741",
+      "status": "needs_evidence",
+      "reason": "Oafan material technology does not establish civilian access or an applicable active-person scope.",
+      "source_ids": [
+        "src-b87-oafa"
+      ],
+      "analysis": "Efficient post-transuranic manufacture and relic wealth are not a distribution mechanism.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0742",
+      "status": "needs_evidence",
+      "reason": "Dark-matter beings and their wars do not establish an applicable human-derived provision economy.",
+      "source_ids": [
+        "src-b87-paanuri"
+      ],
+      "analysis": "An unusual biology and enormous powers cannot supply a human labor denominator.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0743",
+      "status": "needs_evidence",
+      "reason": "Robot-supported colonial industry lacks a verified ordinary human allocation floor in the short reference.",
+      "source_ids": [
+        "src-b87-freefall"
+      ],
+      "analysis": "Robots and Florence perform real work under property restrictions; do not infer universal human leisure from robot numbers.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0744",
+      "status": "needs_evidence",
+      "reason": "Human/AI coexistence and optional AI jobs do not establish work-independent human provision.",
+      "source_ids": [
+        "src-b87-qc"
+      ],
+      "analysis": "AI body purchases, repair shops and human employment remain material distinctions.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0745",
+      "status": "needs_evidence",
+      "reason": "Hob’s foglet body does not establish ordinary social allocation.",
+      "source_ids": [
+        "src-b87-dresden"
+      ],
+      "analysis": "The creator’s short technical note answers the machinery question, leaving the economy unverified.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0746",
+      "status": "needs_evidence",
+      "reason": "AI suppression and species castes do not establish an automated material economy.",
+      "source_ids": [
+        "src-b87-compact"
+      ],
+      "analysis": "The ban is a security conflict; no clear productive substitution or independently supported employment-preservation mechanism emerged.",
+      "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+    },
+    {
+      "candidate_id": "c0747",
+      "status": "included",
+      "reason": "The scoped sources support continuing technological provision with the uncertainty documented.",
+      "source_ids": [
+        "src-b87-optimal-author",
+        "src-b87-optimal-setting"
+      ],
+      "society_id": "friendship-optimal-uploaded-equestria"
+    },
+    {
+      "candidate_id": "c0748",
+      "status": "included",
+      "reason": "The scoped sources support continuing technological provision with the uncertainty documented.",
+      "source_ids": [
+        "src-b87-17776",
+        "src-b87-17776-review"
+      ],
+      "society_id": "17776-postmortal-america"
+    }
+  ],
+  "review_notes": [
+    "Twelve sequential reference-led decisions yield five records; no long webcomic arc or full web novel read.",
+    "OA material support is tied to the explicit common economic baseline and specific polity institutions; no local enclave is counted separately inside its parent here.",
+    "Friendship is Optimal uses active uploaded people, not game avatars or noncanonical sequels. The author interview supplies AI intent and control.",
+    "17776’s immortality alone is insufficient; ongoing technological protection and the explicit post-scarcity critical interpretation support the provisional point.",
+    "Freefall robot numbers, QC AI autonomy, Schlock manufacturing power and Dresden foglets were not promoted into unsupported human welfare claims.",
+    "Unrelated 17776 street-address/technical-paper search results were discarded; inaccessible pages were not bypassed."
+  ]
+}

@@ -1,0 +1,1982 @@
+{
+  "revision_id": "revision-003",
+  "revised_on": "2026-10-17",
+  "reason": "2026-10-17 popular-franchise best-guess pass: eight Star Trek societies plus The Jetsons, the Citadel of Ricks, Halo’s Forerunners and three DC futures. Explicit admission uncertainty and zero-variant analogies replace earlier lore-gap omissions.",
+  "changes": [
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "trek-eminiar-vendikar-war-zero",
+        "candidate_id": "c0378",
+        "name": "Star Trek — Eminiar VII’s simulated-war society",
+        "work": "Star Trek: The Original Series",
+        "society": "Eminiar VII’s simulated-war society",
+        "media": [
+          "tv"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The Original Series, A Taste of Armageddon",
+          "period": "The functioning treaty order before Kirk’s intervention",
+          "population": "Living Eminiar VII humanoid civilians as an alien-person proxy",
+          "human_population_proxy": true,
+          "exclusions": [
+            "Vendikar assigned identical institutions",
+            "Dead casualties as leisure residents"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Eminiar VII preserves an orderly advanced civilization while its war with Vendikar is simulated by computers and enforced through real deaths. The best-guess zero-variant reading is that sophisticated technical capacity coexists with ordinary civic roles and a hierarchy that organizes people around obligations rather than liberation from work. Computerized warfare is not itself automatic food production. Inclusion therefore rests on an openly inferred productive potential, not on a falsely claimed universal robot economy.\n\nThe government holds concentrated organic authority; the simulation machinery does not become an independent AI sovereign. Guarantees are weak because residents can lose their lives through routine treaty enforcement even amid an apparently comfortable city. The modest nonworking estimate allows dependents and leisure while retaining administration, care, maintenance and ordinary production as useful work. These are broad editorial coordinates for the living society, not a census. People killed as simulated casualties are never counted as nonworkers.",
+        "axis": {
+          "guarantees": 0.55,
+          "control": 0.1,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Orderly material life is conditional on lethal treaty obligations; security of access is therefore weak.",
+            "source_ids": [
+              "src-eminiar-war-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.35
+            ],
+            "confidence": "low",
+            "basis": "Organic leaders enforce the treaty and direct technology.",
+            "source_ids": [
+              "src-eminiar-war-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.1,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "All-age humanoid scenario retains useful civic and productive work despite advanced machinery.",
+            "source_ids": [
+              "src-eminiar-war-reference"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-eminiar-war-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "Computer-generated casualties must undergo real disintegration.",
+            "source_ids": [
+              "src-eminiar-war-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Organic authorities enforce the war treaty.",
+            "source_ids": [
+              "src-eminiar-war-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The scale of labor-saving production is inferred from technical capacity, not directly established by the war computer.",
+          "This is an interpretive zero-variant comparison; no intentional employment policy is asserted."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Popular case retained under the requested best-guess policy; the admission and all numeric implications are explicitly provisional.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Computer-generated casualties must undergo real disintegration.",
+          "Organic authorities enforce the war treaty."
+        ],
+        "editorial_assumptions": [
+          "The scale of labor-saving production is inferred from technical capacity, not directly established by the war computer.",
+          "This is an interpretive zero-variant comparison; no intentional employment policy is asserted."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0378",
+        "status": "boundary_case",
+        "reason": "Computerized war and disintegration obligations do not establish a post-work production and distribution mechanism.",
+        "source_ids": [
+          "src-eminiar-war-reference"
+        ],
+        "analysis": "The treaty concerns lethal casualty compliance rather than access to ordinary material goods.",
+        "follow_up": "Keep as an automated-governance comparison."
+      },
+      "after": {
+        "candidate_id": "c0378",
+        "status": "zero_variant",
+        "reason": "Popular case retained under the requested best-guess policy; the admission and all numeric implications are explicitly provisional.",
+        "source_ids": [
+          "src-eminiar-war-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "trek-eminiar-vendikar-war-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "trek-beta3-landru-body",
+        "candidate_id": "c0379",
+        "name": "Star Trek — Beta III under Landru",
+        "work": "Star Trek: The Original Series",
+        "society": "Beta III under Landru",
+        "media": [
+          "tv"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "The Original Series, The Return of the Archons",
+          "period": "Landru’s established Body before its destruction",
+          "population": "Living Beta III humanoid residents as an alien-person proxy",
+          "human_population_proxy": true,
+          "exclusions": [
+            "Post-Landru successor economy",
+            "Every Body member classified as an idle person"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Landru’s computer governs Beta III through the Body, enforcing order while periodically permitting the Red Hour. The best-guess material reading is a centrally maintained but coercive support system, with some necessities protected for compliant residents. The episode reference establishes machine authority more clearly than production or welfare, so that economic admission is labeled as an inference. The guarantee score remains moderate because compliance and bodily autonomy can be overridden by the system.\n\nEffective control lies strongly toward autonomous AI. Landru is not merely an ordinary public computer carrying out freely revisable resident commands. The nonworking estimate allows substantial automatic support but keeps maintenance, care, public administration and other useful humanlike activity in view. Compelled conformity does not prove that everyone has a job, while the Red Hour is not a leisure statistic. The broad intervals show how much of this economic model is a requested best guess beyond the short political account.",
+        "axis": {
+          "guarantees": -0.25,
+          "control": -0.9,
+          "nonworking": 0.5
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.8,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "Orderly machine rule suggests conditional provision; actual necessities rights are inferred.",
+            "source_ids": [
+              "src-landru-official-guide"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              -0.65
+            ],
+            "confidence": "low",
+            "basis": "Landru’s coercive independent authority supports a strong AI-control point.",
+            "source_ids": [
+              "src-landru-official-guide"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.15,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "All-age biological-person estimate allows extensive support and substantial continuing useful work.",
+            "source_ids": [
+              "src-landru-official-guide"
+            ]
+          }
+        },
+        "regime_primary": 5,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-landru-official-guide"
+        ],
+        "evidence": [
+          {
+            "claim": "Landru is a computer exercising authority through the Body.",
+            "source_ids": [
+              "src-landru-official-guide"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "The Red Hour and coercive conformity structure civic life.",
+            "source_ids": [
+              "src-landru-official-guide"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Automatic household provision is a best-guess inference, not an explicit episode economic constitution.",
+          "Participation has no canonical census."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Popular case retained under the requested best-guess policy; the admission and all numeric implications are explicitly provisional.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Landru is a computer exercising authority through the Body.",
+          "The Red Hour and coercive conformity structure civic life."
+        ],
+        "editorial_assumptions": [
+          "Automatic household provision is a best-guess inference, not an explicit episode economic constitution.",
+          "Participation has no canonical census."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0379",
+        "status": "needs_evidence",
+        "reason": "Landru’s behavioral control does not establish Beta III’s automatic material provision.",
+        "source_ids": [
+          "src-landru-official-guide"
+        ],
+        "analysis": "The Body and Red Hour describe coercion and social regulation; no household economy is supplied by the short check.",
+        "follow_up": "Skip a full episode transcript or lore reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0379",
+        "status": "included",
+        "reason": "Popular case retained under the requested best-guess policy; the admission and all numeric implications are explicitly provisional.",
+        "source_ids": [
+          "src-landru-official-guide"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "trek-beta3-landru-body"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "trek-vaal-village-dependence",
+        "candidate_id": "c0380",
+        "name": "Star Trek — The village under Vaal",
+        "work": "Star Trek: The Original Series",
+        "society": "The village under Vaal",
+        "media": [
+          "tv"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "The Original Series, The Apple",
+          "period": "The functioning village before Vaal is disabled",
+          "population": "Living Gamma Trianguli VI humanoid villagers as an alien-person proxy",
+          "human_population_proxy": true,
+          "exclusions": [
+            "Post-Vaal village",
+            "Ordinary fruit automatically described as manufactured"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Vaal provides the organizing support around which the village’s food, shelter and controlled social life operate. Villagers in turn serve the machine. The best-guess admission is a partial technological support arrangement rather than a claim that every fruit or household object is manufactured automatically. Guarantees are moderately favorable within the compliant village, but narrow and conditional: residents have little power to redesign the system or choose a different life.\n\nVaal exercises decisive machine authority, placing control near the autonomous AI end. Villagers’ service, care and other useful activity remain work even if the environment seems easy to live in. A moderate nonworking estimate therefore includes dependents and people outside recurring productive roles without calling the whole village idle. The broad interval reflects uncertainty about daily participation and the actual automation mechanism. The society after Kirk disables Vaal is outside this point; a promise of future independence is not evidence that a stable successor economy already exists.",
+        "axis": {
+          "guarantees": -0.35,
+          "control": -0.9,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.8,
+              0.45
+            ],
+            "confidence": "low",
+            "basis": "Food and shelter coexist with behavioral dependence; conditional support is inferred rather than a legal right.",
+            "source_ids": [
+              "src-vaal-episode-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              -0.6
+            ],
+            "confidence": "low",
+            "basis": "Vaal directs the village rather than remaining under ordinary resident control.",
+            "source_ids": [
+              "src-vaal-episode-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.1,
+              0.7
+            ],
+            "confidence": "low",
+            "basis": "All-age humanoid estimate counts actual service to Vaal, care and maintenance as useful work.",
+            "source_ids": [
+              "src-vaal-episode-reference"
+            ]
+          }
+        },
+        "regime_primary": 5,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-vaal-episode-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "Villagers have food and housing and serve Vaal.",
+            "source_ids": [
+              "src-vaal-episode-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Vaal imposes behavioral restrictions.",
+            "source_ids": [
+              "src-vaal-episode-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The precise technological contribution to necessities is a best guess.",
+          "Environmental ease does not prove a wholly automatic economy."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Popular case retained under the requested best-guess policy; the admission and all numeric implications are explicitly provisional.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Villagers have food and housing and serve Vaal.",
+          "Vaal imposes behavioral restrictions."
+        ],
+        "editorial_assumptions": [
+          "The precise technological contribution to necessities is a best guess.",
+          "Environmental ease does not prove a wholly automatic economy."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0380",
+        "status": "needs_evidence",
+        "reason": "Vaal’s village has supplies and machine authority, but the automatic-production and allocation mechanism remains unclear.",
+        "source_ids": [
+          "src-vaal-episode-reference"
+        ],
+        "analysis": "Food, hospitality and restrictions do not themselves show a durable weakening of labor’s role in acquiring necessities.",
+        "follow_up": "Skip further episode reading; do not erase villagers’ real servicing activity."
+      },
+      "after": {
+        "candidate_id": "c0380",
+        "status": "included",
+        "reason": "Popular case retained under the requested best-guess policy; the admission and all numeric implications are explicitly provisional.",
+        "source_ids": [
+          "src-vaal-episode-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "trek-vaal-village-dependence"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "trek-yonada-oracle-support",
+        "candidate_id": "c0381",
+        "name": "Star Trek — Yonada under the Oracle",
+        "work": "Star Trek: The Original Series",
+        "society": "Yonada under the Oracle",
+        "media": [
+          "tv"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "The Original Series, For the World Is Hollow and I Have Touched the Sky",
+          "period": "The inhabited generation ship before its original guidance is restored",
+          "population": "Living Fabrini descendants as a humanoid-person proxy",
+          "human_population_proxy": true,
+          "exclusions": [
+            "Ex Machina novel history",
+            "Post-intervention arrangements"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Yonada contains a continuing population inside a technologically maintained generation ship, where the Oracle is treated as divine authority. The best-guess economic reading is a machine-supported habitat whose residents share a conditional material floor. The short source establishes commands and navigation more directly than household allocation, so food security and the amount of automatic production remain explicit inferences. It is a partial support model, not a claim that all humanlike work has disappeared.\n\nControl lies toward autonomous computer authority because residents are governed through the Oracle rather than exercising ordinary transparent oversight of the ship. Religious intermediaries and humanlike social institutions leave some uncertainty around that point. The moderate nonworking estimate allows dependents and broad technical support while retaining care, administration, craft and maintenance as useful work. Shipboard survival does not itself supply an employment census. Novel-only histories and the later corrected guidance arrangements are outside this television scope.",
+        "axis": {
+          "guarantees": -0.45,
+          "control": -0.75,
+          "nonworking": 0.45
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.85,
+              0.4
+            ],
+            "confidence": "low",
+            "basis": "A continuing maintained habitat suggests shared provision, but entitlement and reliability remain inferred.",
+            "source_ids": [
+              "src-yonada-oracle-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              -0.25
+            ],
+            "confidence": "low",
+            "basis": "Oracle authority outweighs transparent resident control, with humanlike intermediaries.",
+            "source_ids": [
+              "src-yonada-oracle-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.15,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Humanoid all-age scenario allows machine support plus substantial care, administration and maintenance.",
+            "source_ids": [
+              "src-yonada-oracle-reference"
+            ]
+          }
+        },
+        "regime_primary": 5,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-yonada-oracle-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "Yonada has an inhabited generation-ship population.",
+            "source_ids": [
+              "src-yonada-oracle-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "The Oracle is a computer treated as a deity.",
+            "source_ids": [
+              "src-yonada-oracle-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Automatic necessities and their distribution are inferred from habitat continuity.",
+          "The control estimate does not import novel-only backstory."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Popular case retained under the requested best-guess policy; the admission and all numeric implications are explicitly provisional.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Yonada has an inhabited generation-ship population.",
+          "The Oracle is a computer treated as a deity."
+        ],
+        "editorial_assumptions": [
+          "Automatic necessities and their distribution are inferred from habitat continuity.",
+          "The control estimate does not import novel-only backstory."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0381",
+        "status": "needs_evidence",
+        "reason": "The Oracle’s navigation and religious authority do not establish Yonada’s household provisioning rules.",
+        "source_ids": [
+          "src-yonada-oracle-reference"
+        ],
+        "analysis": "An automatic worldship can contain different human labor and allocation systems. Licensed-novel backstory is separately marked and not adopted.",
+        "follow_up": "Skip deeper lore reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0381",
+        "status": "included",
+        "reason": "Popular case retained under the requested best-guess policy; the admission and all numeric implications are explicitly provisional.",
+        "source_ids": [
+          "src-yonada-oracle-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "trek-yonada-oracle-support"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "trek-eymorg-biological-controller",
+        "candidate_id": "c0385",
+        "name": "Star Trek — The Eymorg’s Controller-dependent society",
+        "work": "Star Trek: The Original Series",
+        "society": "The Eymorg’s Controller-dependent society",
+        "media": [
+          "tv"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "The Original Series, Spock’s Brain",
+          "period": "The existing underground support order during the Controller crisis",
+          "population": "Living Eymorg humanoids in the underground settlement",
+          "human_population_proxy": true,
+          "exclusions": [
+            "Above-ground Morg assigned identical benefits",
+            "Biological brain erased as a non-person computer"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Eymorg depend on sophisticated underground infrastructure that they can no longer fully understand. A biological brain serves as Controller, and the crisis around replacing it exposes how much everyday support rests on that technical system. The best-guess record treats this as a machine-supported settlement with a conditional material floor. Household distribution is not directly explained, so the guarantee coordinate and reduced dependence on ordinary labor remain inferences with wide intervals.\n\nThe Controller is a stolen living brain, which prevents a simple classification as independent nonhuman AI. The central control estimate stays near concentrated biological or human-derived authority mediated by machines, with a broad interval for how much agency the Controller actually has. The nonworking estimate is comparatively high but retains useful care, servicing and organization. Lack of technical knowledge is not evidence that no one does useful work. Above-ground populations and a hypothetical post-crisis reorganization are outside this scope.",
+        "axis": {
+          "guarantees": -0.4,
+          "control": -0.1,
+          "nonworking": 0.6
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.85,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Technical life support suggests a floor, made vulnerable by Controller dependence.",
+            "source_ids": [
+              "src-eymorg-controller-review"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.8,
+              0.4
+            ],
+            "confidence": "low",
+            "basis": "A biological brain controlling machinery is not automatically external AI; mixed concentrated authority is the provisional analogy.",
+            "source_ids": [
+              "src-eymorg-controller-review"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.25,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "A supported humanoid settlement plausibly has many nonworkers, while care, servicing and organization remain useful.",
+            "source_ids": [
+              "src-eymorg-controller-review"
+            ]
+          }
+        },
+        "regime_primary": 1,
+        "regime_alternatives": [
+          5
+        ],
+        "qualification": "included",
+        "source_ids": [
+          "src-eymorg-controller-review"
+        ],
+        "evidence": [
+          {
+            "claim": "The Eymorg depend on underground infrastructure and a biological Controller.",
+            "source_ids": [
+              "src-eymorg-controller-review"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "They lack the technical knowledge needed to sustain it independently.",
+            "source_ids": [
+              "src-eymorg-controller-review"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Necessities access and participation are best guesses.",
+          "The wide control interval reflects uncertainty about the Controller’s actual agency."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Popular case retained under the requested best-guess policy; the admission and all numeric implications are explicitly provisional.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The Eymorg depend on underground infrastructure and a biological Controller.",
+          "They lack the technical knowledge needed to sustain it independently."
+        ],
+        "editorial_assumptions": [
+          "Necessities access and participation are best guesses.",
+          "The wide control interval reflects uncertainty about the Controller’s actual agency."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0385",
+        "status": "needs_evidence",
+        "reason": "The Eymorg’s brain-controlled infrastructure does not have verified household allocation in the short check.",
+        "source_ids": [
+          "src-eymorg-controller-review"
+        ],
+        "analysis": "A stolen living brain performs a real controlling function; it must not be relabeled as an external autonomous AI merely because it interfaces with machinery.",
+        "follow_up": "Skip transcript reconstruction; reopen only for a clear provision account."
+      },
+      "after": {
+        "candidate_id": "c0385",
+        "status": "included",
+        "reason": "Popular case retained under the requested best-guess policy; the admission and all numeric implications are explicitly provisional.",
+        "source_ids": [
+          "src-eymorg-controller-review"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "trek-eymorg-biological-controller"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "trek-bynar-computer-integrated-economy",
+        "candidate_id": "c0388",
+        "name": "Star Trek — The Bynars’ computer-integrated civilization",
+        "work": "Star Trek: The Next Generation",
+        "society": "The Bynars’ computer-integrated civilization",
+        "media": [
+          "tv"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "The Next Generation, 11001001",
+          "period": "The ordinary Bynar order before the stellar emergency",
+          "population": "Living biological Bynars as an alien-person proxy",
+          "human_population_proxy": true,
+          "exclusions": [
+            "The emergency as normal civic life",
+            "Bynars treated as ordinary non-person robots"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Bynars’ lives are tightly connected to their master computer, making technological infrastructure integral to the functioning society. The best-guess admission interprets that integration as supporting some machine-mediated provision and reducing ordinary subsistence burdens. It does not pretend that neural connection alone proves free food or universal housing. The moderately favorable guarantee point is therefore a low-confidence hypothesis about an enduring technical support system, not a rule stated in a household welfare charter.\n\nControl is estimated toward a shared biological-computational system rather than unquestioned machine sovereignty. Bynars actively understand, repair and defend their infrastructure, which leaves them more agency than passive recipients. Their useful technical activity still counts as work. The modest nonworking estimate includes dependents and other nonparticipants while assuming substantial participation in maintaining the system. Neither paired social life nor a computer link supplies a population statistic. The catastrophic emergency is a stress test, not the ordinary period being scored.",
+        "axis": {
+          "guarantees": -0.4,
+          "control": 0.4,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.85,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Technical dependence suggests provision but not a proved universal floor.",
+            "source_ids": [
+              "src-bynar-computer-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.35,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Active biological stewardship favors some shared agency; master-computer autonomy remains uncertain.",
+            "source_ids": [
+              "src-bynar-computer-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.1,
+              0.7
+            ],
+            "confidence": "low",
+            "basis": "All-age Bynar estimate retains real technical and care work rather than treating connectivity as leisure.",
+            "source_ids": [
+              "src-bynar-computer-reference"
+            ]
+          }
+        },
+        "regime_primary": 2,
+        "regime_alternatives": [
+          5
+        ],
+        "qualification": "included",
+        "source_ids": [
+          "src-bynar-computer-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "Biological Bynars are connected to a master computer.",
+            "source_ids": [
+              "src-bynar-computer-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "The depicted community takes action to preserve that system.",
+            "source_ids": [
+              "src-bynar-computer-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The extent of labor-saving provision and governance is inferred.",
+          "No neural-connection ratio is used as a labor statistic."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Popular case retained under the requested best-guess policy; the admission and all numeric implications are explicitly provisional.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Biological Bynars are connected to a master computer.",
+          "The depicted community takes action to preserve that system."
+        ],
+        "editorial_assumptions": [
+          "The extent of labor-saving provision and governance is inferred.",
+          "No neural-connection ratio is used as a labor statistic."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0388",
+        "status": "needs_evidence",
+        "reason": "Bynar dependence on a master computer does not establish work-independent household access.",
+        "source_ids": [
+          "src-bynar-computer-reference"
+        ],
+        "analysis": "Cybernetic life support and networked thought can coexist with real work and different property systems.",
+        "follow_up": "Skip deeper lore reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0388",
+        "status": "included",
+        "reason": "Popular case retained under the requested best-guess policy; the admission and all numeric implications are explicitly provisional.",
+        "source_ids": [
+          "src-bynar-computer-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "trek-bynar-computer-integrated-economy"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "trek-edo-pleasure-society",
+        "candidate_id": "c0389",
+        "name": "Star Trek — The Edo on Rubicun III",
+        "work": "Star Trek: The Next Generation",
+        "society": "The Edo on Rubicun III",
+        "media": [
+          "tv"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "The Next Generation, Justice",
+          "period": "The operating pleasure-oriented society before the Enterprise intervention",
+          "population": "Living humanoid Edo residents as an alien-person proxy",
+          "human_population_proxy": true,
+          "exclusions": [
+            "The unrelated animated Edo species",
+            "Pleasure as a canonical unemployment statistic"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Edo present a peaceful, pleasure-oriented society with comfortable everyday surroundings and severe rules hidden beneath that ease. The best-guess post-work reading is that advanced support reduces much necessary subsistence labor, while the precise production mechanism is left uncertain. This is explicitly an inferred admission: leisure and peace alone do not demonstrate robot-made goods. Guarantees are only moderately favorable because access to life itself can be revoked through a minor infraction in a punishment zone.\n\nThe control point favors a shared local organic order but remains broad because external protection and enforcement complicate who ultimately decides. A relatively high nonworking estimate allows the pleasure-oriented lifestyle while counting useful care, tending, organization and other contributions. It is not a census derived from the number of people relaxing on screen. Humanoid Edo are the declared comparison population; neither their guardian’s power nor the community’s apparent contentment is automatically treated as democratic ownership or unlimited abundance.",
+        "axis": {
+          "guarantees": -0.25,
+          "control": 0.4,
+          "nonworking": 0.6
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.75,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "Comfort suggests provision, while lethal punishment makes protection conditional.",
+            "source_ids": [
+              "src-edo-reference"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Local communal agency is plausible, with uncertainty about external guardianship and productive ownership.",
+            "source_ids": [
+              "src-edo-reference"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.25,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Pleasure-oriented life supports a high best guess, allowing useful care, tending and civic activity.",
+            "source_ids": [
+              "src-edo-reference"
+            ]
+          }
+        },
+        "regime_primary": 2,
+        "regime_alternatives": [
+          1
+        ],
+        "qualification": "included",
+        "source_ids": [
+          "src-edo-reference"
+        ],
+        "evidence": [
+          {
+            "claim": "Rubicun III has a peaceful pleasure-oriented humanoid society.",
+            "source_ids": [
+              "src-edo-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Punishment zones can impose death for infractions.",
+            "source_ids": [
+              "src-edo-reference"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Automatic productive support is inferred rather than specified by the short source.",
+          "The exact identity and authority of guardians are not converted into nonhuman AI rule."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Popular case retained under the requested best-guess policy; the admission and all numeric implications are explicitly provisional.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Rubicun III has a peaceful pleasure-oriented humanoid society.",
+          "Punishment zones can impose death for infractions."
+        ],
+        "editorial_assumptions": [
+          "Automatic productive support is inferred rather than specified by the short source.",
+          "The exact identity and authority of guardians are not converted into nonhuman AI rule."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0389",
+        "status": "needs_evidence",
+        "reason": "Edo leisure and social peace do not establish automatic material provision.",
+        "source_ids": [
+          "src-edo-reference"
+        ],
+        "analysis": "A pleasure-oriented society and protective super-entity do not supply production, allocation or participation rules.",
+        "follow_up": "Skip deeper episode reconstruction."
+      },
+      "after": {
+        "candidate_id": "c0389",
+        "status": "included",
+        "reason": "Popular case retained under the requested best-guess policy; the admission and all numeric implications are explicitly provisional.",
+        "source_ids": [
+          "src-edo-reference"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "trek-edo-pleasure-society"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "trek-ferengi-replicator-zero",
+        "candidate_id": "c0398",
+        "name": "Star Trek — The Ferengi Alliance’s replicator economy",
+        "work": "Star Trek: Deep Space Nine",
+        "society": "The Ferengi Alliance’s replicator economy",
+        "media": [
+          "tv"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Deep Space Nine-era Ferengi Alliance",
+          "period": "Ordinary commercial order before Rom’s later reforms",
+          "population": "Living Ferengi organic civilians as an alien-person proxy",
+          "human_population_proxy": true,
+          "exclusions": [
+            "Rom’s later reforms as already complete",
+            "Individual offworld Ferengi households as universal policy"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Replicator technology can produce everyday goods within the Ferengi Alliance, yet the depicted commercial order remains centered on ownership, payment and profit. This is a natural best-guess zero-variant comparison: technological capacity does not by itself free residents from earning access. The weak guarantee score reflects that market dependence, rather than a claim that every Ferengi lacks food or that a particular universal benefit is expressly forbidden. Later reform promises are not imported into the earlier society.\n\nPrivate owners and powerful commercial institutions concentrate productive control, even where machines operate the replicators. Broad private ownership receives some weight without becoming equal effective control for every resident. The modest nonworking estimate allows dependents and leisure while retaining service, trade, care and maintenance as useful work. It is not derived from a replicator count or a joke about profit. The zero label is interpretive and does not assert that the Alliance deliberately preserves jobs for workers’ benefit.",
+        "axis": {
+          "guarantees": 0.8,
+          "control": 0.2,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.3,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Replicator capacity does not remove commercial access conditions; weak general protection is inferred.",
+            "source_ids": [
+              "src-ferengi-replicator-context"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Private ownership disperses some assets while commercial elites concentrate effective power.",
+            "source_ids": [
+              "src-ferengi-replicator-context"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.1,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "All-age organic scenario retains extensive trade, care, service and maintenance work.",
+            "source_ids": [
+              "src-ferengi-replicator-context"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-ferengi-replicator-context"
+        ],
+        "evidence": [
+          {
+            "claim": "Replicators are available in Ferengi society.",
+            "source_ids": [
+              "src-ferengi-replicator-context"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Market allocation, relative control and participation are best-guess readings of the DS9-era commercial order.",
+          "The source establishes technical availability more directly than the precise household distribution regime."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Popular case retained under the requested best-guess policy; the admission and all numeric implications are explicitly provisional.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Replicators are available in Ferengi society."
+        ],
+        "editorial_assumptions": [
+          "Market allocation, relative control and participation are best-guess readings of the DS9-era commercial order.",
+          "The source establishes technical availability more directly than the precise household distribution regime."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0398",
+        "status": "needs_evidence",
+        "reason": "Ferengi replicator availability does not establish work-independent access or a documented employment-preservation regime.",
+        "source_ids": [
+          "src-ferengi-replicator-context"
+        ],
+        "analysis": "Technical capacity, profit culture and actual work must not be merged into an unsupported claim that the work is knowingly dispensable.",
+        "follow_up": "Skip broad series reconstruction; reopen only for a clear economic reference."
+      },
+      "after": {
+        "candidate_id": "c0398",
+        "status": "zero_variant",
+        "reason": "Popular case retained under the requested best-guess policy; the admission and all numeric implications are explicitly provisional.",
+        "source_ids": [
+          "src-ferengi-replicator-context"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "trek-ferengi-replicator-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "jetsons-orbit-city-button-work-zero",
+        "candidate_id": "c0480",
+        "name": "The Jetsons — Orbit City",
+        "work": "The Jetsons",
+        "society": "Orbit City",
+        "media": [
+          "cartoon"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Original animated consumer future",
+          "period": "Ordinary Spacely-era household and employment order",
+          "population": "Living human civilians, with the Jetson household as the depicted example",
+          "human_population_proxy": false,
+          "exclusions": [
+            "A short workweek converted directly into a nonworking percentage"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Orbit City surrounds ordinary households with automatic domestic conveniences while George Jetson still has an employer and a button-pushing job. It is retained as an interpretive zero variant: labor-saving technical capacity coexists with employment as a normal social institution. The guarantee score stays near the uncertain middle because a comfortable family is not proof that every resident has unconditional access. The series’ varying jokes about hours are not treated as a consistent national welfare or work rule.\n\nSpacely and other owners retain concentrated productive authority, with private household technology giving residents some local control. The nonworking estimate is modest because short hours do not mean that George or other workers do no useful work. Children, dependents and nonworking residents remain in the all-age denominator, while care and household contribution can count as productive activity. The broad interval is a population best guess, not the inverse of George’s workweek. No claim that every button press is deliberately useless is required.",
+        "axis": {
+          "guarantees": 0.2,
+          "control": 0.15,
+          "nonworking": 0.35
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.5,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Comfort is depicted but universal entitlements are not; a middle-to-weak floor is an explicit guess.",
+            "source_ids": [
+              "src-b65-jetsons"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.4
+            ],
+            "confidence": "low",
+            "basis": "Employers retain productive command despite household consumer machines.",
+            "source_ids": [
+              "src-b65-jetsons"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.1,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "All-age scenario counts useful employment and care regardless of very short hours.",
+            "source_ids": [
+              "src-b65-jetsons"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b65-jetsons"
+        ],
+        "evidence": [
+          {
+            "claim": "George works a short button-pushing week under an employer.",
+            "source_ids": [
+              "src-b65-jetsons"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Different episodes give inconsistent comic work-hour claims.",
+            "source_ids": [
+              "src-b65-jetsons"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The zero variant concerns retained employment and technical capacity, not proved useless jobs.",
+          "Ordinary resident guarantees and participation are inferred from limited household examples."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Popular case retained under the requested best-guess policy; the admission and all numeric implications are explicitly provisional.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "George works a short button-pushing week under an employer.",
+          "Different episodes give inconsistent comic work-hour claims."
+        ],
+        "editorial_assumptions": [
+          "The zero variant concerns retained employment and technical capacity, not proved useless jobs.",
+          "Ordinary resident guarantees and participation are inferred from limited household examples."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0480",
+        "status": "boundary_case",
+        "reason": "A short workweek and domestic convenience do not by themselves remove wages as the main access mechanism.",
+        "source_ids": [
+          "src-b65-jetsons"
+        ],
+        "analysis": "No verified alternative income/provision rule or intentional make-work policy is supplied by the quick reference.",
+        "follow_up": "Continue the queue without full fiction or series reconstruction; reopen only for a readily available economic reference."
+      },
+      "after": {
+        "candidate_id": "c0480",
+        "status": "zero_variant",
+        "reason": "Popular case retained under the requested best-guess policy; the admission and all numeric implications are explicitly provisional.",
+        "source_ids": [
+          "src-b65-jetsons"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "jetsons-orbit-city-button-work-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "rickmorty-citadel-corporate-zero",
+        "candidate_id": "c0483",
+        "name": "Rick and Morty — The Citadel’s factory order",
+        "work": "Rick and Morty: The Ricklantis Mixup",
+        "society": "The Citadel’s factory order",
+        "media": [
+          "cartoon"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "The Ricklantis Mixup",
+          "period": "The functioning Citadel society before the later mass destruction",
+          "population": "Living human Ricks and Mortys resident in the Citadel",
+          "human_population_proxy": false,
+          "exclusions": [
+            "Later destroyed Citadel",
+            "Dead or inactive copies as nonworkers"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Citadel has extraordinary technology, yet ordinary Ricks and Mortys can remain trapped in factory labor, hierarchy and competition for promotion. It is a deliberately interpretive zero variant: technical genius and labor-saving potential have not become shared material freedom. The factory’s useful wafer production is still work, and the episode does not prove that every job could be replaced at no cost. Weak guarantees follow the depicted inequality and insecurity rather than an invented universal welfare prohibition.\n\nCorporate and political elites control the productive order. Every Rick’s intelligence does not give every resident equal assets or practical authority. The low nonworking estimate assumes widespread pressured participation while allowing dependents and excluded people. It counts care, maintenance and other useful contribution alongside paid factory roles, rather than using screen time or unemployment jokes as a census. The record stops before the later destruction and does not count dead inhabitants, discarded clones or alternative dimensional populations as leisure citizens.",
+        "axis": {
+          "guarantees": 0.85,
+          "control": 0.05,
+          "nonworking": 0.2
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.4,
+              1
+            ],
+            "confidence": "low",
+            "basis": "Factory inequality and insecurity suggest weak material protection.",
+            "source_ids": [
+              "src-b65-citadel"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.25
+            ],
+            "confidence": "low",
+            "basis": "Corporate/political command outweighs the individual intelligence of residents.",
+            "source_ids": [
+              "src-b65-citadel"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "All-age human scenario retains widespread real factory, care and service work.",
+            "source_ids": [
+              "src-b65-citadel"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-b65-citadel"
+        ],
+        "evidence": [
+          {
+            "claim": "Citadel workers produce wafers and compete for promotion under corporate hierarchy.",
+            "source_ids": [
+              "src-b65-citadel"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Technical potential to substitute more labor is an interpretive zero-variant premise.",
+          "No explicit intentional job-preservation program or full automation of all tasks is asserted."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          3
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Popular case retained under the requested best-guess policy; the admission and all numeric implications are explicitly provisional.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Citadel workers produce wafers and compete for promotion under corporate hierarchy."
+        ],
+        "editorial_assumptions": [
+          "Technical potential to substitute more labor is an interpretive zero-variant premise.",
+          "No explicit intentional job-preservation program or full automation of all tasks is asserted."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0483",
+        "status": "needs_evidence",
+        "reason": "The Citadel’s useful factory work and inequality do not establish a verified zero variant or post-work distribution.",
+        "source_ids": [
+          "src-b65-citadel"
+        ],
+        "analysis": "Potential genius-level capacity is not the same as an actual complete automation alternative.",
+        "follow_up": "Continue the queue without full fiction or series reconstruction; reopen only for a readily available economic reference."
+      },
+      "after": {
+        "candidate_id": "c0483",
+        "status": "zero_variant",
+        "reason": "Popular case retained under the requested best-guess policy; the admission and all numeric implications are explicitly provisional.",
+        "source_ids": [
+          "src-b65-citadel"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "rickmorty-citadel-corporate-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "halo-forerunner-ecumene-provision",
+        "candidate_id": "c0618",
+        "name": "Halo — The Forerunner Ecumene",
+        "work": "Halo",
+        "society": "The Forerunner Ecumene",
+        "media": [
+          "game",
+          "book"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Forerunner-era Halo setting",
+          "period": "The established ecumene before the terminal Flood war",
+          "population": "Living biological Forerunners as an alien-person proxy",
+          "human_population_proxy": true,
+          "exclusions": [
+            "Extinct Forerunners as leisure citizens",
+            "Flood emergency as normal provision"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Forerunner Ecumene combines immensely capable ancillas and technical systems with an elaborate hierarchy of occupational rates. The best-guess reading is an advanced provision order that removes much subsistence necessity while preserving specialist work and status. Strong resident guarantees are plausible, but not a fact established by a detailed benefits charter in the checked reference. The record therefore separates the clear technological hierarchy from the inferred level of ordinary material security.\n\nThe council and powerful biological rates retain authority, so ancilla assistance does not automatically make the whole ecumene an AI dictatorship. Control remains near concentrated organic institutions, with uncertainty for independent machine agency. The nonworking estimate is moderate because Builders, Lifeworkers, researchers, carers and other specialists do useful work despite abundant technical support. Ceremonial command is not automatically a working-population census. The terminal Flood emergency and the fate of extinct Forerunners are excluded; this point concerns a functioning living civilization.",
+        "axis": {
+          "guarantees": -0.65,
+          "control": 0.15,
+          "nonworking": 0.5
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.95,
+              0.2
+            ],
+            "confidence": "low",
+            "basis": "Technological capacity suggests strong resident support, while the actual universal floor remains inferred.",
+            "source_ids": [
+              "src-b77-forerunner"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.25,
+              0.45
+            ],
+            "confidence": "low",
+            "basis": "Biological council/rate authority coexists with capable ancillas.",
+            "source_ids": [
+              "src-b77-forerunner"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.2,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "All-age alien-person scenario preserves useful occupational-rate work and allows large technical substitution.",
+            "source_ids": [
+              "src-b77-forerunner"
+            ]
+          }
+        },
+        "regime_primary": 1,
+        "regime_alternatives": [
+          2
+        ],
+        "qualification": "included",
+        "source_ids": [
+          "src-b77-forerunner"
+        ],
+        "evidence": [
+          {
+            "claim": "The ecumene has occupational rates, a council and advanced ancillas.",
+            "source_ids": [
+              "src-b77-forerunner"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary resource entitlements, degree of wage independence and participation are best guesses.",
+          "Nonhuman biological rulers use the disclosed organic-control analogy."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Popular case retained under the requested best-guess policy; the admission and all numeric implications are explicitly provisional.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The ecumene has occupational rates, a council and advanced ancillas."
+        ],
+        "editorial_assumptions": [
+          "Ordinary resource entitlements, degree of wage independence and participation are best guesses.",
+          "Nonhuman biological rulers use the disclosed organic-control analogy."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0618",
+        "status": "needs_evidence",
+        "reason": "The ecumene’s occupational hierarchy and ancillas do not establish ordinary household post-work entitlements.",
+        "source_ids": [
+          "src-b77-forerunner"
+        ],
+        "analysis": "Advanced engineering and ceremonial commands cannot supply missing access rules or a participation census; no Forerunner novels are needed for this short disposition.",
+        "follow_up": "Save the short disposition and continue without reading a full lore cycle to recover the material economy."
+      },
+      "after": {
+        "candidate_id": "c0618",
+        "status": "included",
+        "reason": "Popular case retained under the requested best-guess policy; the admission and all numeric implications are explicitly provisional.",
+        "source_ids": [
+          "src-b77-forerunner"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "halo-forerunner-ecumene-provision"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "dc-redson-brainiac-managed-zero",
+        "candidate_id": "c0751",
+        "name": "Superman: Red Son — The Brainiac-assisted world order",
+        "work": "Superman: Red Son",
+        "society": "The Brainiac-assisted world order",
+        "media": [
+          "comic"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Original Red Son comic alternate history",
+          "period": "The established Superman-led order before Brainiac’s defeat",
+          "population": "Living human residents, including surgically controlled human workers",
+          "human_population_proxy": false,
+          "exclusions": [
+            "Animated adaptation as identical economics",
+            "Human drones erased as machinery"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Superman’s regime reports the disappearance of poverty and unemployment while Brainiac assists administration. This gives a useful zero-variant comparison: material security and extraordinary technical power coexist with continued work rather than universal leisure. A strongly favorable guarantee estimate recognizes the stated end of poverty, qualified by coercion and dependence on the rulers. The account does not establish that all goods are produced automatically or that every resident has a freely enforceable right to them.\n\nSuperman holds concentrated humanlike political authority with Brainiac as a powerful assistant, leaving some uncertainty about covert machine influence. Surgically controlled dissidents remain human-derived workers; calling them drones does not erase their useful activity or turn them into non-person tools. The low nonworking estimate follows the regime’s employment-centered order while allowing dependents and temporary nonparticipants. Zero unemployment is not zero nonworking across all ages. The central fraction and the machine-substitution comparison are editorial estimates, not figures supplied by the comic.",
+        "axis": {
+          "guarantees": -0.65,
+          "control": 0.05,
+          "nonworking": 0.15
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.9,
+              0.1
+            ],
+            "confidence": "low",
+            "basis": "Reported abolition of poverty supports protection, weakened by coercion and discretionary rule.",
+            "source_ids": [
+              "src-b88-redson"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.5,
+              0.25
+            ],
+            "confidence": "low",
+            "basis": "Superman-led authority is concentrated and non-AI, with Brainiac influence left uncertain.",
+            "source_ids": [
+              "src-b88-redson"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.02,
+              0.4
+            ],
+            "confidence": "low",
+            "basis": "All-age scenario retains work by human-derived drones and other useful activity; zero unemployment is not an all-age census.",
+            "source_ids": [
+              "src-b88-redson"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [
+          5
+        ],
+        "qualification": "included",
+        "source_ids": [
+          "src-b88-redson"
+        ],
+        "evidence": [
+          {
+            "claim": "Brainiac assists Superman and poverty/unemployment are reported eliminated.",
+            "source_ids": [
+              "src-b88-redson"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Dissidents can become surgically controlled human drones.",
+            "source_ids": [
+              "src-b88-redson"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Technical potential to reduce more work motivates an interpretive zero variant.",
+          "No census or fully automatic productive constitution is asserted."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": [
+          1
+        ],
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Popular case retained under the requested best-guess policy; the admission and all numeric implications are explicitly provisional.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Brainiac assists Superman and poverty/unemployment are reported eliminated.",
+          "Dissidents can become surgically controlled human drones."
+        ],
+        "editorial_assumptions": [
+          "Technical potential to reduce more work motivates an interpretive zero variant.",
+          "No census or fully automatic productive constitution is asserted."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0751",
+        "status": "needs_evidence",
+        "reason": "Eliminated poverty and unemployment do not establish how automation separates necessities from labor.",
+        "source_ids": [
+          "src-b88-redson"
+        ],
+        "analysis": "Brainiac administration and surgically controlled human workers coexist; no human leisure or job-preservation mechanism is inferred.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0751",
+        "status": "zero_variant",
+        "reason": "Popular case retained under the requested best-guess policy; the admission and all numeric implications are explicitly provisional.",
+        "source_ids": [
+          "src-b88-redson"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "dc-redson-brainiac-managed-zero"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "dc-krypton-silver-age-robot-support",
+        "candidate_id": "c0753",
+        "name": "Superman — Silver Age Krypton",
+        "work": "Superman",
+        "society": "Silver Age Krypton",
+        "media": [
+          "comic"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "Broad Silver Age pre-Crisis Krypton model, not every reboot",
+          "period": "Ordinary pre-destruction civilization",
+          "population": "Living Kryptonian civilians as a humanoid-person proxy",
+          "human_population_proxy": true,
+          "exclusions": [
+            "All reboot Kryptons merged",
+            "Dead Kryptonians as nonworkers",
+            "MCU or unrelated alien societies"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Silver Age Krypton supplies a recognizable model of an advanced civilization using robots and elaborate technical infrastructure while retaining careers and civic institutions. The best-guess post-work reading is a partly machine-supported material order in which ordinary necessities demand less direct labor. The guarantee score is favorable but uncertain because the short cross-continuity reference does not establish one explicit universal entitlement. This record deliberately narrows the broad Krypton lead instead of averaging every incompatible version.\n\nOrganic councils and institutions retain productive authority, so robot capability does not by itself establish autonomous AI sovereignty. A moderate nonworking estimate allows substantial technical support while counting science, care, administration and other useful chosen careers. Kryptonians are a disclosed humanoid comparison population, not unmarked humans. The planet’s eventual destruction does not make its former residents leisure citizens, and no modern film, television version or later reboot is automatically assigned this material model. Every numeric implication remains a bounded editorial best guess.",
+        "axis": {
+          "guarantees": -0.55,
+          "control": 0.25,
+          "nonworking": 0.5
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.9,
+              0.35
+            ],
+            "confidence": "low",
+            "basis": "Robot-supported technical life suggests a floor, but universal provision is inferred.",
+            "source_ids": [
+              "src-b88-krypton"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "Organic civic institutions are the provisional productive authority.",
+            "source_ids": [
+              "src-b88-krypton"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.15,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "All-age humanoid scenario allows technical substitution and continued useful careers, science and care.",
+            "source_ids": [
+              "src-b88-krypton"
+            ]
+          }
+        },
+        "regime_primary": 1,
+        "regime_alternatives": [
+          2
+        ],
+        "qualification": "included",
+        "source_ids": [
+          "src-b88-krypton"
+        ],
+        "evidence": [
+          {
+            "claim": "Krypton depictions include robots, careers and technological settlements.",
+            "source_ids": [
+              "src-b88-krypton"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The Silver Age model is a deliberately bounded editorial scope within a cross-continuity reference.",
+          "Guarantees and participation are inferred rather than a universal Kryptonian constitution."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Popular case retained under the requested best-guess policy; the admission and all numeric implications are explicitly provisional.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Krypton depictions include robots, careers and technological settlements."
+        ],
+        "editorial_assumptions": [
+          "The Silver Age model is a deliberately bounded editorial scope within a cross-continuity reference.",
+          "Guarantees and participation are inferred rather than a universal Kryptonian constitution."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0753",
+        "status": "needs_evidence",
+        "reason": "Krypton’s heterogeneous advanced civilizations lack a verified common allocation system.",
+        "source_ids": [
+          "src-b88-krypton"
+        ],
+        "analysis": "Robot assistance, assigned careers and isolated citadels must not be merged across continuities into one welfare score.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0753",
+        "status": "included",
+        "reason": "Popular case retained under the requested best-guess policy; the admission and all numeric implications are explicitly provisional.",
+        "source_ids": [
+          "src-b88-krypton"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "dc-krypton-silver-age-robot-support"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "dc-one-million-human-solar-civilization",
+        "candidate_id": "c0756",
+        "name": "DC One Million — The future Solar System",
+        "work": "DC One Million",
+        "society": "The future Solar System",
+        "media": [
+          "comic"
+        ],
+        "record_type": "post_work",
+        "scope": {
+          "continuity": "DC One Million crossover future",
+          "period": "Ordinary 853rd-century civilization outside the Solaris crisis",
+          "population": "Living human and human-derived Solar System residents",
+          "human_population_proxy": true,
+          "exclusions": [
+            "Solaris crisis as normal life",
+            "Every artificial entity treated as a human",
+            "Inactive archives as leisure citizens"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "DC One Million depicts a future Solar System with extraordinary planetary engineering, artificial entities and radically developed human-derived life. The best-guess material reading is a broadly supported civilization in which automated systems reduce the need for subsistence labor. This is an inferred admission rather than a claim that a superhero crossover supplies complete food and housing law. Guarantees are estimated as strong in ordinary life, with wide uncertainty about local conditions and exclusions.\n\nControl is placed toward shared human-derived civilization, while allowing major concentrated institutions and powerful artificial agents. The mere existence of a heroic team or a hostile Solaris does not establish who owns every productive system. A high nonworking estimate reflects technical abundance but retains research, care, maintenance, governance and other useful activity. Human-derived persons remain the declared denominator; not every robot, cosmic entity or inactive archive is counted as a human nonworker. Crisis destruction and rival futures are outside this provisional point.",
+        "axis": {
+          "guarantees": -0.65,
+          "control": 0.5,
+          "nonworking": 0.65
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.95,
+              0.25
+            ],
+            "confidence": "low",
+            "basis": "Advanced maintained civilization suggests provision; universal access remains a low-confidence inference.",
+            "source_ids": [
+              "src-b88-million"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.3,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Shared human-derived institutions are the central guess, with wide uncertainty over elite and AI power.",
+            "source_ids": [
+              "src-b88-million"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.25,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Human-derived active-population scenario allows high substitution but retains research, care and maintenance.",
+            "source_ids": [
+              "src-b88-million"
+            ]
+          }
+        },
+        "regime_primary": 2,
+        "regime_alternatives": [
+          1,
+          5
+        ],
+        "qualification": "included",
+        "source_ids": [
+          "src-b88-million"
+        ],
+        "evidence": [
+          {
+            "claim": "The future includes advanced human-derived beings, artificial entities and Solar System-scale engineering.",
+            "source_ids": [
+              "src-b88-million"
+            ],
+            "locator": "Named setting, economy or ending passages; see source read_scope",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Ordinary material access, governance and participation are best guesses beyond the crossover summary.",
+          "Superhero power is not itself a canonical allocation policy."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Popular case retained under the requested best-guess policy; the admission and all numeric implications are explicitly provisional.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The future includes advanced human-derived beings, artificial entities and Solar System-scale engineering."
+        ],
+        "editorial_assumptions": [
+          "Ordinary material access, governance and participation are best guesses beyond the crossover summary.",
+          "Superhero power is not itself a canonical allocation policy."
+        ]
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": {
+        "candidate_id": "c0756",
+        "status": "needs_evidence",
+        "reason": "853rd-century beings and solar engineering do not establish ordinary material access.",
+        "source_ids": [
+          "src-b88-million"
+        ],
+        "analysis": "A giant time gap and advanced artificial heroes are not labor or ownership evidence.",
+        "follow_up": "Keep the disposition and continue the queue; reopen only if a clear short reference becomes readily available."
+      },
+      "after": {
+        "candidate_id": "c0756",
+        "status": "included",
+        "reason": "Popular case retained under the requested best-guess policy; the admission and all numeric implications are explicitly provisional.",
+        "source_ids": [
+          "src-b88-million"
+        ],
+        "assessment_mode": "best_guess",
+        "reassessed_on": "2026-10-17",
+        "society_id": "dc-one-million-human-solar-civilization"
+      }
+    }
+  ]
+}

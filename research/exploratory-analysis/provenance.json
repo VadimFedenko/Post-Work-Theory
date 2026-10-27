@@ -1,0 +1,13 @@
+{
+  "seed": 20261022,
+  "input_sha256": {
+    "data/societies.json": "c61b381bc0206add377d171d368cd8d4e48e65a640a53ac2b91b5a45164ff119",
+    "data/taxonomy.json": "ce17bc7cbba8d6fbc4c32ddac803a2dc128895e905670f306d18c481c8d1f3fd",
+    "data/comparisons.json": "78ddb755956b78cfba436137d793ff2a0032e72ff848f2aa4d7e27182986df90",
+    "research/images/manifest.json": "6307aeb852648e77b9738f90639bdb3801a093adff79b4c333f35af3ce09b907",
+    "research/scope-audit.json": "3894429ae2b6fb58fd1844eefc98ef6e318d86a31069b6e783ff1b034d2c16d3"
+  },
+  "method": "Exploratory observational analysis of editorial ratings; WLS with inverse group size weights and group-clustered CR1 standard errors; two-sided t references; BH across reported exploratory regression tests; 5-fold GroupKFold prediction.",
+  "date": "2026-10-22",
+  "numpy": "1.26.4"
+}

@@ -1,0 +1,290 @@
+{
+  "batch_id": "batch-106",
+  "researched_on": "2026-10-17",
+  "candidate_ids": [
+    "c0932",
+    "c0933"
+  ],
+  "sources": [
+    {
+      "id": "src-subservience-netflix-labor",
+      "title": "Subservience ending explainer",
+      "author": "Netflix Tudum",
+      "url": "https://www.netflix.com/tudum/articles/subservience-ending-explainer",
+      "kind": "official_reference",
+      "accessed_on": "2026-10-17",
+      "access_method": "Bounded public reference sections read",
+      "read_scope": "Premise and plot passages: domestic SIM care, replacement of Nick’s construction crew, retained foreman and mostly SIM hospital staff.",
+      "limitations": "Official distributor explanation, not a full film viewing or a population work census."
+    },
+    {
+      "id": "src-robots2023-service-economy",
+      "title": "Robots (2023 film)",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Robots_(2023_film)",
+      "kind": "secondary_reference",
+      "accessed_on": "2026-10-17",
+      "access_method": "Bounded public reference sections read",
+      "read_scope": "Plot: 2032 android servants and manual labor; illegal doubles perform work and dating; the escape to Mexico is a later rights outcome.",
+      "limitations": "Secondary plot summary; no national welfare, ownership distribution or participation census supplied."
+    }
+  ],
+  "societies": [
+    {
+      "id": "subservience-sim-displacement",
+      "candidate_id": "c0932",
+      "name": "Subservience (SIM labor replacement)",
+      "work": "Subservience",
+      "society": "The human consumer economy during SIM labor displacement",
+      "media": [
+        "movie"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "2024 film only",
+        "period": "Ordinary service economy before Alice’s violent replication crisis",
+        "population": "Living human residents, including displaced workers and dependents",
+        "human_population_proxy": false,
+        "exclusions": "Autonomous SIM persons are disclosed as workers but are not added to the human participation denominator; no settled post-crisis AI government.",
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "SIMs perform domestic care, construction and much hospital work. Nick buys Alice to help his family while his wife is hospitalized, then retains a supervisory job as his construction crew is replaced. This is a real labor-replacement transition, with purchased robotic services reaching beyond one isolated invention. It provides no established universal claim to the resulting output. The weak guarantee estimate assumes households still need resources to obtain those services, while acknowledging that the film does not set out a complete welfare system.\n\n Human owners and employers normally direct the robots, placing control near concentrated private authority. Alice’s later violence does not establish that machines govern the ordinary economy. The intermediate nonworking best guess allows substantial displacement alongside supervision, care and other useful human activity. Losing a construction job does not prove someone does no unpaid work. All three coordinates use broad editorial intervals; none is a canonical national statistic. This point covers the functioning consumer order rather than a speculative society after the ending.",
+      "axis": {
+        "guarantees": 0.65,
+        "control": 0.1,
+        "nonworking": 0.45
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            0.15,
+            0.95
+          ],
+          "confidence": "low",
+          "basis": "Purchased care and displaced employment suggest insecure access; an unknown welfare floor keeps the interval broad.",
+          "source_ids": [
+            "src-subservience-netflix-labor"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.55
+          ],
+          "confidence": "low",
+          "basis": "Owners and employers direct routine SIM deployment; a rogue individual is not a national AI sovereign.",
+          "source_ids": [
+            "src-subservience-netflix-labor"
+          ]
+        },
+        "nonworking": {
+          "interval": [
+            0.15,
+            0.75
+          ],
+          "confidence": "low",
+          "basis": "All-age human scenario allows extensive displacement and remaining paid or unpaid contribution; job-loss scenes do not supply a census.",
+          "source_ids": [
+            "src-subservience-netflix-labor"
+          ]
+        }
+      },
+      "regime_primary": 3,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-subservience-netflix-labor"
+      ],
+      "evidence": [
+        {
+          "claim": "Nick purchases domestic SIM care while his wife is hospitalized.",
+          "source_ids": [
+            "src-subservience-netflix-labor"
+          ],
+          "locator": "Named setting, economy or ending passages; see source read_scope",
+          "kind": "reference_fact"
+        },
+        {
+          "claim": "His construction crew is replaced while he retains supervision; the hospital also uses many SIMs.",
+          "source_ids": [
+            "src-subservience-netflix-labor"
+          ],
+          "locator": "Named setting, economy or ending passages; see source read_scope",
+          "kind": "reference_fact"
+        }
+      ],
+      "uncertainties": [
+        "Access is estimated to remain largely purchase-dependent.",
+        "Human employers are assumed to retain normal productive authority before the crisis.",
+        "The nonworking share is an editorial all-age scenario, including useful unpaid activity as work."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-17",
+        "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+        "coordinate_ready": true
+      },
+      "assessment_mode": "best_guess",
+      "qualification_basis": "Retained as an actual partial labor-replacement transition; uncertain population-scale institutions receive explicit best guesses.",
+      "qualification_confidence": "low",
+      "canon_facts": [
+        "Nick purchases domestic SIM care while his wife is hospitalized.",
+        "His construction crew is replaced while he retains supervision; the hospital also uses many SIMs."
+      ],
+      "editorial_assumptions": [
+        "Access is estimated to remain largely purchase-dependent.",
+        "Human employers are assumed to retain normal productive authority before the crisis.",
+        "The nonworking share is an editorial all-age scenario, including useful unpaid activity as work."
+      ]
+    },
+    {
+      "id": "robots2023-consumer-service-zero",
+      "candidate_id": "c0933",
+      "name": "Robots (2023, android-service economy)",
+      "work": "Robots (2023 film)",
+      "society": "The US consumer order with purchased android labor",
+      "media": [
+        "movie"
+      ],
+      "record_type": "zero_variant",
+      "scope": {
+        "continuity": "2023 live-action film; unrelated to Robots (2005)",
+        "period": "The 2032 service economy before the doubles escape",
+        "population": "Living human residents in the depicted US order",
+        "human_population_proxy": false,
+        "exclusions": "C2 and E2’s later rights in Mexico do not establish a separate post-work economy; no import from the source short story or 2005 animation.",
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Lifelike androids serve as household and manual workers, while Charles and Elaine secretly use illegal doubles to handle work and dating. Material support is consequently tied to the ability to acquire robotic services rather than an established common entitlement. The comfortable owners show that some people can delegate useful tasks, but they cannot stand for every resident. The weak guarantee estimate is a best guess about this consumer order; the film supplies no national account of food, housing or income rights.\n\n Ordinary authority remains with human purchasers, employers and institutions, giving the system partly dispersed private control without assuming shared ownership. It is retained as a zero variant because jobs and commercial access survive alongside available substitutes. The intermediate nonworking estimate allows both android-supported leisure and continuing paid or unpaid human contribution. Dating, wealth and ownership are not participation measures. The later escape of the self-aware doubles to Mexico concerns their freedom, not evidence of a fully described successor economy. The broad intervals keep these economic inferences separate from the film’s explicit service premise.",
+      "axis": {
+        "guarantees": 0.7,
+        "control": 0.2,
+        "nonworking": 0.4
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            0.1,
+            0.95
+          ],
+          "confidence": "low",
+          "basis": "Service purchase and wealth-based delegation suggest weak universal access, with a wide interval for unspecified welfare.",
+          "source_ids": [
+            "src-robots2023-service-economy"
+          ]
+        },
+        "control": {
+          "interval": [
+            0,
+            0.65
+          ],
+          "confidence": "low",
+          "basis": "Private human ownership and public enforcement coexist; the distribution of productive assets is inferred rather than measured.",
+          "source_ids": [
+            "src-robots2023-service-economy"
+          ]
+        },
+        "nonworking": {
+          "interval": [
+            0.1,
+            0.75
+          ],
+          "confidence": "low",
+          "basis": "All-age scenario under routine substitution still counts continuing jobs, useful care and chosen contribution; owners’ examples are not a census.",
+          "source_ids": [
+            "src-robots2023-service-economy"
+          ]
+        }
+      },
+      "regime_primary": 0,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-robots2023-service-economy"
+      ],
+      "evidence": [
+        {
+          "claim": "In 2032 androids serve as servants and manual workers.",
+          "source_ids": [
+            "src-robots2023-service-economy"
+          ],
+          "locator": "Named setting, economy or ending passages; see source read_scope",
+          "kind": "reference_fact"
+        },
+        {
+          "claim": "Charles and Elaine use illegal doubles for work and dating; the doubles later escape to Mexico.",
+          "source_ids": [
+            "src-robots2023-service-economy"
+          ],
+          "locator": "Named setting, economy or ending passages; see source read_scope",
+          "kind": "reference_fact"
+        }
+      ],
+      "uncertainties": [
+        "Material access is estimated to remain mainly commercial.",
+        "Private productive control is assumed to be partly dispersed among human owners.",
+        "A substantial but uncertain human nonworking fraction is an editorial scenario."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-17",
+        "method": "Individual second pass separating reference facts from requested editorial best guesses; no independent reviewer",
+        "coordinate_ready": true
+      },
+      "regime_analogy": [
+        3
+      ],
+      "assessment_mode": "best_guess",
+      "qualification_basis": "The depicted android-service economy retains human jobs and purchase dependence despite available substitutes; included as the requested zero variant.",
+      "qualification_confidence": "low",
+      "canon_facts": [
+        "In 2032 androids serve as servants and manual workers.",
+        "Charles and Elaine use illegal doubles for work and dating; the doubles later escape to Mexico."
+      ],
+      "editorial_assumptions": [
+        "Material access is estimated to remain mainly commercial.",
+        "Private productive control is assumed to be partly dispersed among human owners.",
+        "A substantial but uncertain human nonworking fraction is an editorial scenario."
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0932",
+      "status": "included",
+      "reason": "Retained as an actual partial labor-replacement transition; uncertain population-scale institutions receive explicit best guesses.",
+      "source_ids": [
+        "src-subservience-netflix-labor"
+      ],
+      "assessment_mode": "best_guess",
+      "reassessed_on": "2026-10-17",
+      "society_id": "subservience-sim-displacement"
+    },
+    {
+      "candidate_id": "c0933",
+      "status": "zero_variant",
+      "reason": "The depicted android-service economy retains human jobs and purchase dependence despite available substitutes; included as the requested zero variant.",
+      "source_ids": [
+        "src-robots2023-service-economy"
+      ],
+      "assessment_mode": "best_guess",
+      "reassessed_on": "2026-10-17",
+      "society_id": "robots2023-consumer-service-zero"
+    }
+  ],
+  "review_notes": [
+    "No full-film viewing claimed. Population-scale scores are individually supplied low-confidence best guesses."
+  ]
+}

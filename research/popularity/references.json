@@ -1,0 +1,105 @@
+{
+  "note": "Targeted calibration and identity checks, not a popularity census. Scores remain editorial inferences. Existing lore source_ids were not repurposed as audience measurements.",
+  "references": {
+    "pop-star-wars-anchor": {
+      "title": "Guinness World Records — Star Wars franchise historical commercial scale",
+      "url": "https://www.guinnessworldrecords.com/world-records/415766-most-valuable-movie-franchise",
+      "accessed_on": "2026-10-22",
+      "access_method": "web_search_snippet",
+      "read_scope": "Historical franchise valuation/merchandising record; used only as context for the user's explicit top anchor.",
+      "limitations": "Historical commercial figures are not current audience counts and were not converted into the score. Star Wars = 1 is the user-specified calibration."
+    },
+    "pop-banks-estate": {
+      "title": "Iain Banks estate — The Works",
+      "url": "https://iainbanks.co.uk/the-works/",
+      "accessed_on": "2026-10-22",
+      "access_method": "web_page_text",
+      "read_scope": "Bibliography and individual work descriptions, distinguishing Culture books from standalone Banks novels.",
+      "limitations": "Identity/grouping source; does not measure familiarity or establish a numerical score."
+    },
+    "pop-culture-publisher": {
+      "title": "Hachette India — November 2023 publisher sales information",
+      "url": "https://www.hachetteindia.com/stocklists/AIs%20%28New%20title%20info%29/2023/November/November%202023%20Procurements%20AI%20Pack.pdf",
+      "accessed_on": "2026-10-22",
+      "access_method": "web_search_snippet_only",
+      "read_scope": "Publisher sales-point snippet describing substantial Banks SF sales and the Culture's genre prominence.",
+      "limitations": "Full PDF fetch failed due to content type; no full-document reading claimed. Publisher marketing and aggregate author sales are not a public-recognition survey."
+    },
+    "pop-gundam-bandai": {
+      "title": "Bandai Namco — Chief Gundam Officer, Integrated Report 2025",
+      "url": "https://www.bandainamco.co.jp/en/ir/library/feature01_01_2025.html",
+      "accessed_on": "2026-10-22",
+      "access_method": "web_page_text",
+      "read_scope": "Long-lived Gundam franchise, international recognition, audience demographics and cross-category activity; historical group sales context.",
+      "limitations": "Company report and commercial signals, not an independent familiarity survey. Supports broad tier placement, not the exact 0.85 value."
+    },
+    "pop-sfe-automation": {
+      "title": "The Encyclopedia of Science Fiction — Automation",
+      "url": "https://sf-encyclopedia.com/entry/automation",
+      "accessed_on": "2026-10-22",
+      "access_method": "web_page_text",
+      "read_scope": "Historical bibliographic context for Forster, Bellamy, Reynolds and obscure early automation stories, including Mr Jonnemacher's Machine.",
+      "limitations": "Documents identity and historical significance. Low current familiarity is an editorial inference, not measured by an encyclopedia mention or search-result count."
+    },
+    "pop-sfe-manning": {
+      "title": "The Encyclopedia of Science Fiction — Laurence Manning",
+      "url": "https://sf-encyclopedia.com/entry/manning_laurence",
+      "accessed_on": "2026-10-22",
+      "access_method": "web_search_result_text",
+      "read_scope": "The Call of the Mech-Men and its Stranger Club publication/collection context.",
+      "limitations": "Bibliographic check only; the low-recognition score remains an editorial inference."
+    },
+    "pop-nexus-author": {
+      "title": "Ramez Naam — Books: The Nexus Trilogy",
+      "url": "https://www.rameznaam.com/p/books",
+      "accessed_on": "2026-10-22",
+      "access_method": "existing_saved_source_registry",
+      "read_scope": "Existing registered source title/URL identifies Apex with the Nexus trilogy.",
+      "limitations": "Not freshly read and not an audience source. Used to avoid confusing unrelated works called Apex."
+    },
+    "pop-perry-author": {
+      "title": "Robert Corvus — My contribution to Perry Rhodan",
+      "url": "https://www.robertcorvus.net/en/rc_en_perry_rhodan.shtml",
+      "accessed_on": "2026-10-22",
+      "access_method": "web_search_result_text",
+      "read_scope": "Contributing author's account of the long-running series, German origins and large cumulative circulation.",
+      "limitations": "Series cumulative issue sales are not unique readers; neither a global audience fraction nor a score formula."
+    },
+    "pop-midas-review": {
+      "title": "David Langford — review of Midas World",
+      "url": "https://ansible.uk/writing/midaswld.html",
+      "accessed_on": "2026-10-22",
+      "access_method": "web_search_result_text",
+      "read_scope": "Review identifies The Midas Plague and The Man Who Ate the World within the Midas World sequence.",
+      "limitations": "Used for grouping identity, not an audience estimate."
+    },
+    "pop-perry-hayakawa": {
+      "title": "Hayakawa Books & Magazines — Rhodan NEO commentary",
+      "url": "https://www.hayakawabooks.com/n/ne88113c15db1",
+      "accessed_on": "2026-10-22",
+      "access_method": "web_search_result_text",
+      "read_scope": "Japanese publisher context and historical print-circulation/readership discussion for Perry Rhodan.",
+      "limitations": "Historical, region-specific publisher reporting. Supports acknowledging substantial non-Anglophone recognition without equating circulation to universal awareness."
+    }
+  },
+  "work_reference_ids": {
+    "0": ["pop-banks-estate", "pop-culture-publisher"],
+    "16": ["pop-banks-estate"],
+    "456": ["pop-banks-estate"],
+    "1": ["pop-sfe-automation"],
+    "9": ["pop-midas-review"],
+    "31": ["pop-sfe-automation"],
+    "32": ["pop-sfe-automation"],
+    "53": ["pop-sfe-automation"],
+    "54": ["pop-sfe-automation"],
+    "55": ["pop-sfe-automation"],
+    "179": ["pop-star-wars-anchor"],
+    "220": ["pop-gundam-bandai"],
+    "499": ["pop-sfe-automation"],
+    "540": ["pop-nexus-author"],
+    "642": ["pop-sfe-manning", "pop-sfe-automation"],
+    "643": ["pop-sfe-automation"],
+    "644": ["pop-sfe-automation"],
+    "658": ["pop-perry-author", "pop-perry-hayakawa"]
+  }
+}

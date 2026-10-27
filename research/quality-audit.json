@@ -1,0 +1,27 @@
+{
+  "audited_on": "2026-10-21",
+  "status": "article_alignment_validated",
+  "taxonomy_version": "article-2026-10-21",
+  "checks": {
+    "all_three_coordinates_numeric": true,
+    "all_descriptions_two_paragraphs_110_words": true,
+    "english_names_and_descriptions": true,
+    "sources_registered_and_access_limits_recorded": true,
+    "best_guesses_separate_facts_and_assumptions": true,
+    "facts_do_not_claim_editorial_estimates": true,
+    "asset_overlay_matches_current_export": true,
+    "frozen_784_candidate_hash_unchanged": true,
+    "article_migration_validated": true
+  },
+  "counts": {
+    "retained": 890,
+    "post_work": 545,
+    "zero_variants": 345,
+    "sources": 1309
+  },
+  "limitations": [
+    "Editorial best guesses from saved sources, not independent verification of all fictional claims.",
+    "The old 2026-10-17 completion receipt is historical; this audit does not re-sign it.",
+    "Article disagreements and supplemental publication cases remain explicit in data/article-examples.json."
+  ]
+}

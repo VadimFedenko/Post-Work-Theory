@@ -1,0 +1,195 @@
+{
+  "batch_id": "batch-043",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0240",
+    "c0241",
+    "c0242",
+    "c0243",
+    "c0244",
+    "c0245",
+    "c0246",
+    "c0247",
+    "c0248",
+    "c0249"
+  ],
+  "sources": [
+    {
+      "id": "src-peripheral-sfra",
+      "title": "The (Cyber) Center Cannot Hold: Futures, Bodies and Minds in William Gibson’s The Peripheral",
+      "author": "Carmen M. Mendez-Garcia, SFRA Review 50(4), 2020",
+      "url": "https://sfrareview.org/2020/12/13/50-4-14/",
+      "kind": "secondary_scholarly_criticism",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public setting paragraphs on the two futures read",
+      "read_scope": "Assembler reconstruction, unequal access to advanced bodies and the distinction between the rural stub and later London.",
+      "limitations": "Reconstruction and medical technology do not alone establish continuing household provision. The Jackpot death toll is not a nonworking rate."
+    },
+    {
+      "id": "src-peripheral-marriage-review",
+      "title": "Review: Peripheral by William Gibson",
+      "author": "Jamie Marriage, hosted by Marianne de Pierres, 2015",
+      "url": "https://www.mariannedepierres.com/review-peripheral-by-william-gibson/",
+      "kind": "secondary_literary_review",
+      "accessed_on": "2026-10-16",
+      "access_method": "Identified review paragraphs 80-87 read",
+      "read_scope": "The later future is called post-scarcity, separate from Flynne’s precarious world.",
+      "limitations": "Broad qualitative label; no allocation constitution. Host is not the review author, and surrounding website material is excluded."
+    },
+    {
+      "id": "src-gibson-sfe",
+      "title": "Gibson, William",
+      "author": "The Encyclopedia of Science Fiction contributors",
+      "url": "https://sf-encyclopedia.com/entry/gibson_william",
+      "kind": "secondary_specialist_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Identified Neuromancer, Count Zero and Bridge-sequence paragraphs read",
+      "read_scope": "Corporate power, cyberspace intelligences, the Bridge settlement and the informational Idoru.",
+      "limitations": "Interpretive overview, not economic proof. Its separate Peripheral paragraph inaccurately calls Flynne’s supposed activity drug beta-testing; that detail is not adopted. Secret AI power is presented as conjectural, not universal fact."
+    },
+    {
+      "id": "src-tomorrows-parties-kara",
+      "title": "All Tomorrow’s Parties",
+      "author": "Kara Babcock, Kara.Reviews, 2015",
+      "url": "https://kara.reviews/all-tomorrows-parties/",
+      "kind": "secondary_literary_review",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public review’s nanofax and setting discussion read",
+      "read_scope": "Lucky Dragon fabrication appears as a hint of a developing technological future.",
+      "limitations": "A service and an impending transformation do not establish an already settled post-nanofax society."
+    },
+    {
+      "id": "src-agency-couchmagpie",
+      "title": "William Gibson: Agency",
+      "author": "couchmagpie, 2022",
+      "url": "https://couchmagpie.com/2022/06/12/william-gibson-agency/",
+      "kind": "secondary_literary_review_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed Eunice and security-service discussion read",
+      "read_scope": "Eunice and the later klept future occupy different narrative contexts.",
+      "limitations": "No household allocation rules or autonomous AI welfare government established; other timelines must remain separate."
+    },
+    {
+      "id": "src-schismatrix-reference",
+      "title": "Schismatrix",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Schismatrix",
+      "kind": "secondary_plot_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public economic-conflict and later-surplus paragraphs read",
+      "read_scope": "Changing Shaper/Mechanist rivalry, later economic surplus and different transformations.",
+      "limitations": "Later abundance is not a uniform entitlement across every earlier faction or a human participation census."
+    }
+  ],
+  "societies": [],
+  "decisions": [
+    {
+      "candidate_id": "c0240",
+      "status": "needs_evidence",
+      "reason": "Later London has assembler reconstruction and a post-scarcity label, but the short sources do not establish continuing labor-independent household access.",
+      "source_ids": [
+        "src-peripheral-sfra",
+        "src-peripheral-marriage-review"
+      ],
+      "analysis": "Unequal commodities and klept power are relevant but do not fill the missing production-to-access mechanism. Earlier rural jobs and the Jackpot’s dead are not assigned to the later population.",
+      "follow_up": "Skip deeper novel reading; reopen only on a concise material-economy account."
+    },
+    {
+      "candidate_id": "c0241",
+      "status": "needs_evidence",
+      "reason": "Agency does not yet establish a distinct AI-controlled post-Jackpot allocation system.",
+      "source_ids": [
+        "src-agency-couchmagpie",
+        "src-peripheral-sfra"
+      ],
+      "analysis": "Eunice in a stub is not automatically the ruler of 2136. Overlap with the earlier London future must be checked before adding a distinct point; neither lead is retained.",
+      "follow_up": "Skip deeper reading and avoid inflation from another book in the same future."
+    },
+    {
+      "candidate_id": "c0242",
+      "status": "needs_evidence",
+      "reason": "An orbital enclave and owned AI systems do not establish a continuing automation-funded provision arrangement for its population.",
+      "source_ids": [
+        "src-gibson-sfe"
+      ],
+      "analysis": "Wealth, cryogenic seclusion and powerful computers cannot substitute for a verified material access rule. No whole orbital economy is inferred from a family’s power.",
+      "follow_up": "Skip deeper reading."
+    },
+    {
+      "candidate_id": "c0243",
+      "status": "boundary_case",
+      "reason": "Corporate power and cyberspace activity do not themselves establish post-work distribution.",
+      "source_ids": [
+        "src-gibson-sfe"
+      ],
+      "analysis": "The quick account concerns hired operations and unequal power, without a demonstrated general support system or preserved unnecessary employment.",
+      "follow_up": "Keep as a corporate-cyberpunk comparison."
+    },
+    {
+      "candidate_id": "c0244",
+      "status": "boundary_case",
+      "reason": "Fragmented matrix intelligences do not supply an identified supported human leisure population.",
+      "source_ids": [
+        "src-gibson-sfe"
+      ],
+      "analysis": "AI self-awareness and virtual personhood are distinct from production and access. Their existence does not establish a denominator for human nonworking.",
+      "follow_up": "Skip the broad AI-society lead."
+    },
+    {
+      "candidate_id": "c0245",
+      "status": "boundary_case",
+      "reason": "A self-organized Bridge community is not by itself an automated provision society.",
+      "source_ids": [
+        "src-gibson-sfe"
+      ],
+      "analysis": "Informal settlement and resistance to corporate power do not establish technological replacement of subsistence labor.",
+      "follow_up": "Keep as a community comparison without reconstructing the novel."
+    },
+    {
+      "candidate_id": "c0246",
+      "status": "needs_evidence",
+      "reason": "The short Idoru reference establishes a virtual celebrity, not broad nanotechnological household provision.",
+      "source_ids": [
+        "src-gibson-sfe"
+      ],
+      "analysis": "An informational person and advanced Tokyo do not establish the discovery lead’s economic mechanism.",
+      "follow_up": "Skip deeper reading."
+    },
+    {
+      "candidate_id": "c0247",
+      "status": "needs_evidence",
+      "reason": "Nanofax is a developing service; the proposed completed successor economy is unverified.",
+      "source_ids": [
+        "src-tomorrows-parties-kara"
+      ],
+      "analysis": "Fabrication potential at the ending does not identify a settled population and realized access rules.",
+      "follow_up": "Skip speculative post-ending reconstruction."
+    },
+    {
+      "candidate_id": "c0248",
+      "status": "needs_evidence",
+      "reason": "Mechanist technology and factional rivalry do not establish one stable material-support system.",
+      "source_ids": [
+        "src-schismatrix-reference"
+      ],
+      "analysis": "Later system-wide surplus cannot be imported into all earlier Mechanist settlements or treated as a guarantee.",
+      "follow_up": "Skip deeper reading."
+    },
+    {
+      "candidate_id": "c0249",
+      "status": "needs_evidence",
+      "reason": "Shaper adaptation and later surplus do not establish a uniform post-work arrangement.",
+      "source_ids": [
+        "src-schismatrix-reference"
+      ],
+      "analysis": "Biological modification does not automatically replace human work; the changing Shaper factions require actual distribution evidence.",
+      "follow_up": "Skip deeper reading rather than generalizing the entire chronology."
+    }
+  ],
+  "review_notes": [
+    "Previous goal turn classified as progress: authoritative data advanced from 157 processed/71 retained to 239/84, with batches 030-042 and updated checkpoints.",
+    "Current state was reread before proceeding at c0240. No process is being waited on and there is no external blocker.",
+    "Ten fast dispositions; broad post-scarcity labels, AI celebrity and technological potential do not force admissions.",
+    "SFE’s Peripheral drug-beta-test wording is not adopted. The accessible literary review is by Jamie Marriage, not its site host."
+  ]
+}

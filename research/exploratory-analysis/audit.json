@@ -1,0 +1,65 @@
+{
+  "n": 890,
+  "groups": 496,
+  "exact_works": 674,
+  "regime_counts": {
+    "3": 128,
+    "1": 126,
+    "2": 109,
+    "5": 94,
+    "0": 345,
+    "4": 21,
+    "6": 67
+  },
+  "media_counts": {
+    "anime": 73,
+    "audio": 2,
+    "book": 362,
+    "cartoon": 37,
+    "comic": 38,
+    "game": 139,
+    "manga": 18,
+    "movie": 89,
+    "play": 2,
+    "short_story": 55,
+    "tabletop": 31,
+    "tv": 108,
+    "web_fiction": 29,
+    "webcomic": 4
+  },
+  "utopia_confidence": {
+    "low": 890
+  },
+  "popularity_confidence": {
+    "low": 890
+  },
+  "dates_works": 244,
+  "dates_rows": 324,
+  "date_method_counts": {
+    "wikipedia_saved_exact_title_intro": 173,
+    "wikipedia_saved_selected_intro": 35,
+    "tvmaze_exact_show_premiered": 36
+  },
+  "assessment_confidence": {
+    "guarantees": {
+      "high": 14,
+      "medium": 78,
+      "low": 798
+    },
+    "control": {
+      "low": 803,
+      "medium": 68,
+      "high": 19
+    },
+    "nonworking": {
+      "low": 886,
+      "medium": 4
+    }
+  },
+  "editorial_interval_median_width": {
+    "guarantees": 1.25,
+    "control": 0.75,
+    "nonworking": 0.75
+  },
+  "supplementary_count": 29
+}

@@ -1,0 +1,184 @@
+{
+  "batch_id": "batch-041",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0225",
+    "c0226",
+    "c0227",
+    "c0228",
+    "c0229",
+    "c0230",
+    "c0231",
+    "c0232"
+  ],
+  "sources": [
+    {
+      "id": "src-metaplanetary-pw",
+      "title": "Metaplanetary",
+      "author": "Publishers Weekly, 2001",
+      "url": "https://www.publishersweekly.com/978-0-06-105142-5",
+      "kind": "secondary_literary_review",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public review read",
+      "read_scope": "Grist, human-derived forms, inner dictatorship and outer diversity.",
+      "limitations": "Nanotechnology and political differences do not settle resident necessities or labor-independent allocation."
+    },
+    {
+      "id": "src-superluminal-pw",
+      "title": "Superluminal",
+      "author": "Publishers Weekly, 2004",
+      "url": "https://www.publishersweekly.com/9780061051432",
+      "kind": "secondary_literary_review",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public review read",
+      "read_scope": "The war continues between inner and outer systems; the published sequel has no final resolution.",
+      "limitations": "The discovery label post-conflict civilization is unsupported; do not invent a concluded third volume."
+    },
+    {
+      "id": "src-ware-tetralogy-reference",
+      "title": "Ware Tetralogy",
+      "author": "Wikipedia contributors, Kiwix mirror",
+      "url": "https://kiwix.drnathanhutchins.com/content/wikipedia_en_all_maxi_2026-02/Ware_Tetralogy",
+      "kind": "secondary_plot_reference_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed Software, Wetware, Freeware and Realware entries read",
+      "read_scope": "Bopper independence, moldie succession and the distinct later alla gift.",
+      "limitations": "Different periods cannot borrow Realware's universal fabrication device. Robot societies still need a justified person denominator and actual distribution mechanism."
+    },
+    {
+      "id": "src-freeware-synopsis",
+      "title": "Freeware",
+      "author": "Worlds Without End, publisher-description reproduction",
+      "url": "https://www.worldswithoutend.com/novel.asp?id=9457",
+      "kind": "publisher_synopsis_reproduction_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed synopsis read",
+      "read_scope": "Moldies as evolved artificial lifeforms and social conflict.",
+      "limitations": "The page contains inconsistent 2053/2953 dates; no exact date is adopted. Artificial life alone is not post-work economics."
+    },
+    {
+      "id": "src-postsingular-fantasyhive",
+      "title": "Postsingular by Rudy Rucker",
+      "author": "Fantasy Hive, 2021",
+      "url": "https://fantasy-hive.co.uk/2021/02/postsingular-by-rudy-rucker-book-review/",
+      "kind": "secondary_literary_review_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed nants and orphid-era setting discussion read",
+      "read_scope": "Distinct technological transformations rather than one stable singularity state.",
+      "limitations": "An information and consciousness transformation does not settle material production or ordinary access."
+    },
+    {
+      "id": "src-postsingular-draft-notes",
+      "title": "Notes for Postsingular",
+      "author": "Rudy Rucker, 2007",
+      "url": "https://rudyrucker.com/pdf/postsingularnotesposted.pdf",
+      "kind": "primary_author_working_notes_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed orphidnet and material-sharing notes read",
+      "read_scope": "Proposed sharing of leftovers, discovery of unused goods and AI assistance.",
+      "limitations": "Working notes include tentative and rejected ideas; not treated as enacted institutions in the finished novel. No PDF or novel read attempted."
+    },
+    {
+      "id": "src-hylozoic-tangent-context",
+      "title": "Interzone 220: After Everything Woke Up",
+      "author": "Tangent Online, 2009",
+      "url": "https://tangentonline.com/print-bi-monthly/interzone/interzone-220-february-2009/",
+      "kind": "secondary_related_story_review_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Identified Rucker story paragraph read",
+      "read_scope": "A related story presents ubiquitous sentience and anticipates Hylozoic.",
+      "limitations": "Related-story context only, not a verified material-economy account of the finished novel. Other stories in the issue are excluded."
+    }
+  ],
+  "societies": [],
+  "decisions": [
+    {
+      "candidate_id": "c0225",
+      "status": "needs_evidence",
+      "reason": "Inner-system grist and dictatorship do not settle the population's actual production and access arrangement.",
+      "source_ids": [
+        "src-metaplanetary-pw"
+      ],
+      "analysis": "Nanotech embodiment and transport do not prove labor-independent necessities or deliberate preservation of unnecessary jobs.",
+      "follow_up": "Skip deeper reading."
+    },
+    {
+      "candidate_id": "c0226",
+      "status": "needs_evidence",
+      "reason": "Outer-system freedom and diverse persons do not by themselves establish a post-work economy.",
+      "source_ids": [
+        "src-metaplanetary-pw"
+      ],
+      "analysis": "The outer coalition cannot inherit a uniform distribution rule from opposition to the Met.",
+      "follow_up": "Skip deeper reading; require a concise material-support account to reopen."
+    },
+    {
+      "candidate_id": "c0227",
+      "status": "needs_evidence",
+      "reason": "The proposed post-conflict scope is not verified by the published sequel account.",
+      "source_ids": [
+        "src-superluminal-pw"
+      ],
+      "analysis": "The review explicitly describes an unresolved war installment. A future peaceful economic settlement cannot be supplied from the discovery label.",
+      "follow_up": "Skip the unsupported ending scope."
+    },
+    {
+      "candidate_id": "c0228",
+      "status": "boundary_case",
+      "reason": "Bopper autonomy is established, but a robot society is not automatically a post-work society.",
+      "source_ids": [
+        "src-ware-tetralogy-reference"
+      ],
+      "analysis": "The short account does not identify a nonworking human-derived population supported by autonomous production or an equivalent justified proxy.",
+      "follow_up": "Keep as a robot-personhood comparison; skip deeper reading."
+    },
+    {
+      "candidate_id": "c0229",
+      "status": "boundary_case",
+      "reason": "Moldie evolution and social exclusion do not establish a labor-independent provision system.",
+      "source_ids": [
+        "src-ware-tetralogy-reference",
+        "src-freeware-synopsis"
+      ],
+      "analysis": "Artificial biological embodiment and unusual materials cannot substitute for actual economic rules or a clear person denominator.",
+      "follow_up": "Skip deeper reading; do not borrow the later alla device."
+    },
+    {
+      "candidate_id": "c0230",
+      "status": "needs_evidence",
+      "reason": "Orphid information access is clear, but durable material provision is not established in the short published account.",
+      "source_ids": [
+        "src-postsingular-fantasyhive",
+        "src-postsingular-draft-notes"
+      ],
+      "analysis": "Finding leftovers or unused goods through an information network differs from verified automatic production. Tentative author notes cannot fill the finished story's institutional gaps.",
+      "follow_up": "Skip novel and draft reconstruction."
+    },
+    {
+      "candidate_id": "c0231",
+      "status": "needs_evidence",
+      "reason": "Ubiquitous sentience does not yet establish the finished Hylozoic population's material support.",
+      "source_ids": [
+        "src-hylozoic-tangent-context"
+      ],
+      "analysis": "The related-story review verifies a premise, not who produces necessities or controls their distribution in the novel.",
+      "follow_up": "Skip deeper reading; no speculative working-note rescue."
+    },
+    {
+      "candidate_id": "c0232",
+      "status": "needs_evidence",
+      "reason": "The broad human-Earth lead conflates different Ware periods and technologies.",
+      "source_ids": [
+        "src-ware-tetralogy-reference"
+      ],
+      "analysis": "Bopper independence, moldie society and the later alla gift are separate stages. No concise account establishes one common human post-work arrangement across them.",
+      "follow_up": "Skip the aggregate; a later clear Realware-specific community can be a distinct lead."
+    }
+  ],
+  "review_notes": [
+    "Eight quick dispositions without reading novels or reconstructing tentative author drafts.",
+    "Discovery labels are hypotheses: Superluminal does not establish the proposed post-conflict order.",
+    "Rucker working notes are labeled as tentative, not substituted for the finished novels.",
+    "Nonhuman embodiment alone does not satisfy the economic admission rule."
+  ]
+}

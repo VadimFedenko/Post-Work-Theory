@@ -1,0 +1,387 @@
+{
+  "batch_id": "batch-032",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0169",
+    "c0170",
+    "c0171",
+    "c0172",
+    "c0173"
+  ],
+  "sources": [
+    {
+      "id": "src-diaspora-author",
+      "title": "Diaspora",
+      "author": "Greg Egan, official website",
+      "url": "https://www.gregegan.net/DIASPORA/DIASPORA.html",
+      "kind": "official_author_synopsis",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public synopsis read",
+      "read_scope": "Yatima, Konishi, the Coalition, Atlanta and the post-disaster expedition.",
+      "limitations": "Synopsis only; different human forms and polises are not automatically one economic institution."
+    },
+    {
+      "id": "src-diaspora-orphanogenesis",
+      "title": "Orphanogenesis (excerpt)",
+      "author": "Greg Egan, official primary excerpt",
+      "url": "https://www.gregegan.net/DIASPORA/01/Orphanogenesis.html",
+      "kind": "official_author_primary_excerpt",
+      "accessed_on": "2026-10-16",
+      "access_method": "Opening conceptory passages and final citizenship scene read",
+      "read_scope": "Non-sentient support software grows and supports Yatima, who is welcomed as a citizen.",
+      "limitations": "Targeted short excerpt check, not the full chapter or novel. Automatic development software is not itself a sentient sovereign."
+    },
+    {
+      "id": "src-diaspora-yee",
+      "title": "Diaspora",
+      "author": "Danny Yee, 2000 book review",
+      "url": "https://dannyreviews.com/h/Diaspora.html",
+      "kind": "secondary_literary_review",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public relevant setting paragraphs read",
+      "read_scope": "Humanity's three broad forms and differing polis charters and interests.",
+      "limitations": "A setting review, not exact hardware ownership or a participation census."
+    },
+    {
+      "id": "src-diaspora-reference",
+      "title": "Diaspora (novel)",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Diaspora_%28novel%29",
+      "kind": "secondary_plot_and_setting_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed setting and polis account read",
+      "read_scope": "Active digital citizens, Konishi's abstract pursuits, embodied gleisners and distinct flesher communities.",
+      "limitations": "General reference; bodies, stored copies and running citizens must not be conflated. No claim that all digital people are idle."
+    },
+    {
+      "id": "src-diaspora-pw",
+      "title": "Diaspora",
+      "author": "Publishers Weekly, 1998 review",
+      "url": "https://www.publishersweekly.com/9780061052811",
+      "kind": "secondary_trade_review",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public review read",
+      "read_scope": "Polis life, useful art/mathematics and non-sentient conceptory software.",
+      "limitations": "Broad review terms such as artificial intelligence do not establish autonomous governance over the citizens."
+    },
+    {
+      "id": "src-schild-author",
+      "title": "Schild's Ladder",
+      "author": "Greg Egan, official website",
+      "url": "https://www.gregegan.net/SCHILD/SCHILD.html",
+      "kind": "official_author_synopsis",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public synopsis read",
+      "read_scope": "Transmitted people, scientific institutions and competing responses to the novo-vacuum.",
+      "limitations": "Does not specify population-wide production and household allocation. No primary novel investigation attempted."
+    },
+    {
+      "id": "src-incandescence-author",
+      "title": "Incandescence",
+      "author": "Greg Egan, official website",
+      "url": "https://www.gregegan.net/INCANDESCENCE/Incandescence.html",
+      "kind": "official_author_synopsis",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public synopsis read",
+      "read_scope": "Cooperative Amalgam, data travel, Aloof boundary and the separate Splinter civilization.",
+      "limitations": "A heterogeneous meta-civilization, not a single centrally governed state; the Splinter does not inherit its technology."
+    },
+    {
+      "id": "src-amalgam-selfawarepatterns",
+      "title": "Greg Egan's Amalgam is close to the most likely interstellar civilization",
+      "author": "SelfAwarePatterns, 10 April 2015",
+      "url": "https://selfawarepatterns.com/2015/04/10/greg-egans-amalgam-is-close-to-the-most-likely-interstellar-civilization/",
+      "kind": "secondary_setting_essay",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public Amalgam discussion read",
+      "read_scope": "Self-replicating infrastructure, post-scarcity support and the shared setting of Incandescence, Glory and Riding the Crocodile.",
+      "limitations": "Its real-world plausibility claims are not adopted. No universal legal charter or useful-work census is established."
+    },
+    {
+      "id": "src-amalgam-fan-discussion",
+      "title": "Amalgam and Aloof",
+      "author": "Orion's Arm forum readers, August 2025",
+      "url": "https://www.orionsarm.com/forum/printthread.php?tid=6841",
+      "kind": "secondary_fan_setting_discussion",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed Amalgam discussion read",
+      "read_scope": "Local autonomy, broad abundance and self-replicating support in the depicted setting.",
+      "limitations": "Fan corroboration only. Orion's Arm's own technology and factions are not imported into Egan's universe."
+    }
+  ],
+  "societies": [
+    {
+      "id": "diaspora-konishi",
+      "candidate_id": "c0169",
+      "name": "Diaspora (Konishi polis)",
+      "work": "Diaspora",
+      "society": "Konishi's active digital citizens",
+      "media": [
+        "book"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Egan's Diaspora novel",
+        "period": "Konishi's established order during Yatima's upbringing and early life",
+        "population": "Active digital citizens of Konishi, including home-born people",
+        "human_population_proxy": true,
+        "exclusions": [
+          "All polises assigned Konishi's charter",
+          "Gleisner and flesher communities",
+          "Inactive backups and multiple icons counted as extra citizens"
+        ],
+        "branch": null,
+        "player_configurable": false,
+        "proxy_basis": "The running human-derived and home-born digital citizens are an explicit person proxy, not passive information files."
+      },
+      "description": "Konishi sustains active digital people through its computational infrastructure. Its non-sentient conceptory can create and support a new citizen without that person first earning resources through a job. Residents pursue mathematics, philosophy, art and social life within their environments. This supports strong basic provision for recognized citizens, rather than a commercial hosting model in which every moment must be purchased. It does not prove an unlimited right for any outsider to join.\n\nThe citizens have their own charter and substantial personal autonomy. The positive control estimate reflects a community of self-directed people, while remaining broad because the consulted sources do not detail hardware ownership. Ordinary automatic software does not make the polis an AI dictatorship. Home-born citizens remain people even without biological originals. Useful intellectual and creative contributions count as work; a post-scarcity setting cannot supply a precise nonworking percentage. Konishi's inward interests also must not be copied into the different Carter-Zimmerman polis or every community on Earth.",
+      "axis": {
+        "guarantees": -0.9,
+        "control": 0.8,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -1,
+            -0.65
+          ],
+          "confidence": "medium",
+          "basis": "Automatic support precedes Yatima's citizenship and continues without an employment barrier; the estimate is bounded to recognized residents.",
+          "source_ids": [
+            "src-diaspora-orphanogenesis",
+            "src-diaspora-reference",
+            "src-diaspora-pw"
+          ]
+        },
+        "control": {
+          "interval": [
+            0.3,
+            0.95
+          ],
+          "confidence": "low",
+          "basis": "Polis charters and self-directed citizen life support substantial human-derived agency; exact ownership and constitutional mechanics remain incompletely specified.",
+          "source_ids": [
+            "src-diaspora-yee",
+            "src-diaspora-reference"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Art, mathematics, philosophy and care may be useful contributions. No all-active-citizen participation rate is established.",
+          "source_ids": [
+            "src-diaspora-pw"
+          ]
+        }
+      },
+      "regime_primary": 2,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-diaspora-orphanogenesis",
+        "src-diaspora-reference",
+        "src-diaspora-pw",
+        "src-diaspora-author",
+        "src-diaspora-yee"
+      ],
+      "evidence": [
+        {
+          "claim": "Non-sentient software supports an orphan who becomes a citizen; active polis life includes self-chosen intellectual and creative activity.",
+          "source_ids": [
+            "src-diaspora-orphanogenesis",
+            "src-diaspora-reference",
+            "src-diaspora-pw"
+          ],
+          "locator": "Opening/final Orphanogenesis scenes and trade review",
+          "kind": "primary_excerpt_and_secondary_context"
+        }
+      ],
+      "uncertainties": [
+        "The control coordinate is a broad reference-led estimate, not a verified legal ownership fraction.",
+        "The active-person proxy and citizen/outsider boundary must stay visible.",
+        "No full novel read or independent review is claimed."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    },
+    {
+      "id": "incandescence-amalgam",
+      "candidate_id": "c0173",
+      "name": "Incandescence (The Amalgam)",
+      "work": "Incandescence",
+      "society": "Human-derived participants in the cooperative Amalgam's post-scarcity network",
+      "media": [
+        "book",
+        "short_story"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Egan's Amalgam/Aloof setting, as depicted in Incandescence and linked stories",
+        "period": "The established network during the Amalgam-era journeys",
+        "population": "Active human-derived persons within the Amalgam; alien members provide context but are not silently counted as humans",
+        "human_population_proxy": true,
+        "exclusions": [
+          "The Aloof's unknown internal economy",
+          "The Splinter's pre-industrial society",
+          "Every member species treated as one biological human population",
+          "Passive transmitted data counted as active residents"
+        ],
+        "branch": null,
+        "player_configurable": false,
+        "proxy_basis": "Human-derived active digital or embodied persons are the explicit proxy. Network membership does not erase distinct local cultures."
+      },
+      "description": "The Amalgam combines self-replicating infrastructure with a cooperative network in which people can travel as data and obtain the environments and embodiments needed for long lives. Clear setting accounts describe broad abundance rather than employment as the route to basic support. Strong guarantees are therefore plausible for its participants, with the estimate bounded to the established network. The Aloof's travel permissions do not establish identical institutions inside their separate territory.\n\nControl is dispersed across people and local communities rather than a single central ruler. Automatic infrastructure supports that autonomy; it is not evidence of a sovereign AI assigning everyone's life. The high positive estimate remains approximate because the Amalgam includes many cultures and species. Its human-derived participants are explicitly identified for the population axis. Exploration, art and care can remain useful work even amid abundance, so the sources do not yield a defensible nonworking fraction. The less advanced Splinter society is a separate case, and the linked short stories do not create extra copies of the same economic point.",
+      "axis": {
+        "guarantees": -0.9,
+        "control": 0.85,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -1,
+            -0.65
+          ],
+          "confidence": "medium",
+          "basis": "Setting accounts connect self-replicating support with broad post-scarcity access; legal universality across every species/locality is not asserted.",
+          "source_ids": [
+            "src-amalgam-selfawarepatterns",
+            "src-amalgam-fan-discussion"
+          ]
+        },
+        "control": {
+          "interval": [
+            0.6,
+            1
+          ],
+          "confidence": "medium",
+          "basis": "The author describes a cooperative meta-civilization; corroborating accounts emphasize local autonomy and individual travel rather than centralized rule.",
+          "source_ids": [
+            "src-incandescence-author",
+            "src-amalgam-selfawarepatterns",
+            "src-amalgam-fan-discussion"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "The stories feature chosen exploration and other meaningful activity; the references supply no all-active-person census.",
+          "source_ids": [
+            "src-incandescence-author",
+            "src-amalgam-selfawarepatterns",
+            "src-amalgam-fan-discussion"
+          ]
+        }
+      },
+      "regime_primary": 2,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-incandescence-author",
+        "src-amalgam-selfawarepatterns",
+        "src-amalgam-fan-discussion"
+      ],
+      "evidence": [
+        {
+          "claim": "The Amalgam is a cooperative network using data travel and self-replicating support.",
+          "source_ids": [
+            "src-incandescence-author",
+            "src-amalgam-selfawarepatterns",
+            "src-amalgam-fan-discussion"
+          ],
+          "locator": "Author synopsis and setting essay's Amalgam sections",
+          "kind": "author_description_and_secondary_lore"
+        }
+      ],
+      "uncertainties": [
+        "One economic reference point for a heterogeneous network, not a claim that local cultures are identical.",
+        "Some support details are secondary and drawn from the linked same-setting stories; no novel-scale primary read was attempted.",
+        "The Aloof and Splinter receive no borrowed guarantees."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0169",
+      "status": "included",
+      "reason": "The active digital community receives automatic support and substantial personal autonomy without an employment barrier.",
+      "source_ids": [
+        "src-diaspora-orphanogenesis",
+        "src-diaspora-reference",
+        "src-diaspora-pw",
+        "src-diaspora-yee"
+      ],
+      "society_id": "diaspora-konishi"
+    },
+    {
+      "candidate_id": "c0170",
+      "status": "needs_evidence",
+      "reason": "The gleisners' embodiment and exploration do not settle general production, access or ownership among their communities.",
+      "source_ids": [
+        "src-diaspora-author",
+        "src-diaspora-reference"
+      ],
+      "analysis": "Living in a robot body is not itself automatic support; human-derived technical and maintenance work still counts.",
+      "follow_up": "Skip deeper reading; do not copy Konishi's guarantees into the gleisner population."
+    },
+    {
+      "candidate_id": "c0171",
+      "status": "boundary_case",
+      "reason": "The diverse flesher enclaves are not one established automatic-support economy.",
+      "source_ids": [
+        "src-diaspora-author",
+        "src-diaspora-yee"
+      ],
+      "analysis": "Biological adaptation, a thriving enclave and later rescue offers do not establish labor-independent basic provision for all fleshers.",
+      "follow_up": "Preserve as a human-form comparison; skip primary-text reconstruction."
+    },
+    {
+      "candidate_id": "c0172",
+      "status": "needs_evidence",
+      "reason": "The short authoritative synopsis establishes advanced travel and scientific communities, without a concrete general production/access constitution.",
+      "source_ids": [
+        "src-schild-author"
+      ],
+      "analysis": "A general post-scarcity label in reader reviews is insufficient here to settle guarantees and control for all interstellar communities.",
+      "follow_up": "Skip deeper reading under the faster-pass instruction; do not borrow another Egan novel's institutions."
+    },
+    {
+      "candidate_id": "c0173",
+      "status": "included",
+      "reason": "Clear same-setting references connect self-replicating infrastructure, broad abundance and cooperative decentralized access.",
+      "source_ids": [
+        "src-incandescence-author",
+        "src-amalgam-selfawarepatterns",
+        "src-amalgam-fan-discussion"
+      ],
+      "society_id": "incandescence-amalgam"
+    }
+  ],
+  "review_notes": [
+    "Reference-led pass with one short targeted official excerpt check; no whole-novel reading or technical derivation was attempted.",
+    "Digital citizens and human-derived Amalgam participants have explicit active-person proxies. Ordinary support software and self-replicators are not automatically AI sovereigns.",
+    "Konishi, gleisners, fleshers, Schild's Ladder, the Amalgam, Aloof and Splinter do not inherit each other's institutions.",
+    "Second pass checked claim support and distinctness; no independent peer review or exact useful-work census is claimed."
+  ]
+}

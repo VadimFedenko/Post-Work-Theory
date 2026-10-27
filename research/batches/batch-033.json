@@ -1,0 +1,269 @@
+{
+  "batch_id": "batch-033",
+  "researched_on": "2026-10-16",
+  "candidate_ids": [
+    "c0174",
+    "c0175",
+    "c0176",
+    "c0177",
+    "c0178"
+  ],
+  "sources": [
+    {
+      "id": "src-incandescence-big-idea",
+      "title": "Incandescence: The Big Idea",
+      "author": "Greg Egan, official website",
+      "url": "https://www.gregegan.net/INCANDESCENCE/Idea/Idea.html",
+      "kind": "official_author_commentary",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public premise paragraphs read",
+      "read_scope": "The Splinter's deliberately pre-industrial scientific-discovery premise.",
+      "limitations": "The astrophysical explanation is not an automatic-production or allocation system; no further technical reading was needed."
+    },
+    {
+      "id": "src-learning-me-reference",
+      "title": "Learning to Be Me",
+      "author": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Learning_to_Be_Me",
+      "kind": "secondary_plot_reference",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed plot account read",
+      "read_scope": "The jewel, identity transfer and its relationship to the biological brain.",
+      "limitations": "Biomedical/mind-transfer capability alone does not establish a whole society's economic arrangements."
+    },
+    {
+      "id": "src-border-guards-author",
+      "title": "Border Guards",
+      "author": "Greg Egan, official website",
+      "url": "https://www.gregegan.net/BORDER/Border.html",
+      "kind": "official_author_synopsis",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public synopsis read",
+      "read_scope": "Noether, Jamil, quantum soccer and postmortal life.",
+      "limitations": "The synopsis does not describe necessities production or general access rights; no full story read was attempted."
+    },
+    {
+      "id": "src-crystal-nights-primary-indexed",
+      "title": "Crystal Nights",
+      "author": "Greg Egan, official story text",
+      "url": "https://www.gregegan.net/MISC/CRYSTAL/Crystal.html",
+      "kind": "primary_fiction_indexed_excerpt",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed passages on the simulated population read",
+      "read_scope": "Creator intervention, scarcity tests, Phite labor and later scientific development.",
+      "limitations": "Targeted indexed passages only. The population is nonhuman and the resource/work rules change over time; no single post-work point is inferred."
+    },
+    {
+      "id": "src-chasm-city-identity-thesis",
+      "title": "Restoration of identity from space in Alastair Reynolds's Chasm City",
+      "author": "Tampere University repository thesis",
+      "url": "https://trepo.tuni.fi/bitstream/10024/94688/1/GRADU-1386072830.pdf",
+      "kind": "secondary_scholarly_analysis_indexed_excerpt",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed page 39 discussion consulted",
+      "read_scope": "Automated city maintenance, service work, the Canopy/Mulch divide and the pre-plague post-scarcity order.",
+      "limitations": "Indexed excerpt, not a full PDF read or visual check. Its inference from the absence of unemployment discussion is not adopted as a labor census."
+    },
+    {
+      "id": "src-demarchy-linguistic-thesis",
+      "title": "Analysis of faction terminology in Revelation Space",
+      "author": "University of Oulu repository thesis, 2015",
+      "url": "https://oulurepo.oulu.fi/bitstream/10024/40695/1/nbnfioulu-201505261664.pdf",
+      "kind": "secondary_scholarly_analysis_indexed_excerpt",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed Demarchist entry read",
+      "read_scope": "Ubiquitous voting implants and participatory political decisions.",
+      "limitations": "The near-automatic voting interface is distinct from automatic production; original Greek lottery demarchy is not substituted for the novel's system."
+    },
+    {
+      "id": "src-yellowstone-grubstreet",
+      "title": "Chasm City discussion",
+      "author": "Grub Street literary review archive",
+      "url": "https://grubstreethack.wordpress.com/page/4/",
+      "kind": "secondary_literary_review_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed pre-plague setting paragraph read",
+      "read_scope": "Yellowstone's earlier near-post-scarcity prosperity and the later disruption.",
+      "limitations": "Archive page may contain unrelated reviews; only the identified Chasm City paragraph supports this record."
+    },
+    {
+      "id": "src-glitterband-sfandf",
+      "title": "Elysium Fire - Alastair Reynolds",
+      "author": "Sci-Fi and Fantasy Reviews, 13 December 2017",
+      "url": "https://sfandfreviews.blogspot.com/2017/12/?m=0",
+      "kind": "secondary_literary_review_indexed",
+      "accessed_on": "2026-10-16",
+      "access_method": "Public indexed setting paragraphs read",
+      "read_scope": "Glitter Band abundance, citizen votes, local habitat autonomy and different lifestyles.",
+      "limitations": "No uniform work census across all habitats. Comatose bodies do not automatically count as active leisure people; virtual minds require explicit treatment."
+    }
+  ],
+  "societies": [
+    {
+      "id": "yellowstone-demarchy-preplague",
+      "candidate_id": "c0178",
+      "name": "Revelation Space (The Yellowstone Demarchy before the Melding Plague)",
+      "work": "Revelation Space",
+      "society": "The pre-plague Yellowstone system's demarchic post-scarcity order",
+      "media": [
+        "book"
+      ],
+      "record_type": "post_work",
+      "scope": {
+        "continuity": "Reynolds's Revelation Space continuity, including its prequel depictions",
+        "period": "The established high-technology order before the Melding Plague; the Prefect-era Band supplies same-period institutional context",
+        "population": "Living residents of the Yellowstone demarchic system and its participating habitats",
+        "human_population_proxy": false,
+        "exclusions": [
+          "Post-plague Chasm City",
+          "All habitats assumed to have identical internal institutions",
+          "The Conjoiners or Ultras assigned demarchic rules",
+          "Stored bodies or passive files counted as active people"
+        ],
+        "branch": null,
+        "player_configurable": false
+      },
+      "description": "Before the Melding Plague, Yellowstone's demarchic civilization combines extensive automatic infrastructure with broad material abundance. Sources describe the earlier city and orbital communities as near or effectively post-scarcity, rather than societies whose basic output requires a large conventional workforce. This supports substantial guarantees for residents, qualified by the lack of a single documented universal entitlement charter. The later destruction of the system belongs to a different period.\n\nCitizen implants allow continuous participation in public decisions, and habitats retain considerable autonomy. These arrangements favor distributed human control rather than a single owner or an autonomous machine government. They also permit diverse local choices, so the system-wide coordinate is an approximate common reference point, not a claim that every habitat is identical. Police, artists and other useful workers remain. Neither abundance nor elaborate voting automation supplies an all-resident nonworking percentage. The orbital setting alone is not a reason to add another equivalent economic point when the Glitter Band lead is reached.",
+      "axis": {
+        "guarantees": -0.7,
+        "control": 0.85,
+        "nonworking": null
+      },
+      "axis_assessment": {
+        "guarantees": {
+          "interval": [
+            -0.9,
+            -0.35
+          ],
+          "confidence": "medium",
+          "basis": "Independent setting accounts describe broad abundance with automatic infrastructure; a universal formal guarantee is not established for every habitat.",
+          "source_ids": [
+            "src-chasm-city-identity-thesis",
+            "src-yellowstone-grubstreet",
+            "src-glitterband-sfandf"
+          ]
+        },
+        "control": {
+          "interval": [
+            0.6,
+            1
+          ],
+          "confidence": "medium",
+          "basis": "Continuous citizen voting and local habitat autonomy support dispersed effective human control, with local differences retained.",
+          "source_ids": [
+            "src-demarchy-linguistic-thesis",
+            "src-glitterband-sfandf"
+          ]
+        },
+        "nonworking": {
+          "interval": null,
+          "confidence": "low",
+          "basis": "Useful professions and varied habitat lifestyles remain; no all-resident participation estimate is supported.",
+          "source_ids": [
+            "src-glitterband-sfandf"
+          ]
+        }
+      },
+      "regime_primary": 2,
+      "regime_alternatives": [],
+      "qualification": "included",
+      "source_ids": [
+        "src-chasm-city-identity-thesis",
+        "src-yellowstone-grubstreet",
+        "src-glitterband-sfandf",
+        "src-demarchy-linguistic-thesis"
+      ],
+      "evidence": [
+        {
+          "claim": "The pre-plague system has broad abundance; demarchic public control coexists with diverse local communities.",
+          "source_ids": [
+            "src-chasm-city-identity-thesis",
+            "src-yellowstone-grubstreet",
+            "src-glitterband-sfandf",
+            "src-demarchy-linguistic-thesis",
+            "src-glitterband-sfandf"
+          ],
+          "locator": "Indexed pre-plague city, voting and Glitter Band setting accounts",
+          "kind": "secondary_lore_report"
+        }
+      ],
+      "uncertainties": [
+        "Reference-led umbrella record; materially different local economies would need their own evidence before a split.",
+        "The catastrophe is not silently included in an earlier guarantee score.",
+        "No complete primary novel read or work census is claimed."
+      ],
+      "assets": {
+        "status": "deferred",
+        "poster": null,
+        "icon": null
+      },
+      "review": {
+        "status": "reviewed",
+        "date": "2026-10-16",
+        "method": "Second pass against the gathered passages, including explicit uncertainty; no independent reviewer",
+        "coordinate_ready": false
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "c0174",
+      "status": "boundary_case",
+      "reason": "The Splinter is explicitly a pre-industrial discovery society, not a verified automatic-support economy.",
+      "source_ids": [
+        "src-incandescence-author",
+        "src-incandescence-big-idea"
+      ],
+      "analysis": "An unusual habitat and advanced scientific insight do not confer the Amalgam's productive technology or guarantees.",
+      "follow_up": "Preserve as a separate low-technology comparison; skip deeper reading."
+    },
+    {
+      "candidate_id": "c0175",
+      "status": "boundary_case",
+      "reason": "The jewel establishes mind replacement and longevity, not general automatic material provision.",
+      "source_ids": [
+        "src-learning-me-reference"
+      ],
+      "analysis": "A biomedical identity technology cannot establish population-wide work independence, ownership or guarantees.",
+      "follow_up": "Skip further investigation in this pass."
+    },
+    {
+      "candidate_id": "c0176",
+      "status": "needs_evidence",
+      "reason": "The short official account identifies a postmortal community but leaves its material production and allocation unstated.",
+      "source_ids": [
+        "src-border-guards-author"
+      ],
+      "analysis": "Immortality and leisure in a featured scene do not establish a complete economic regime.",
+      "follow_up": "Skip the full story under the user's faster-pass instruction."
+    },
+    {
+      "candidate_id": "c0177",
+      "status": "needs_evidence",
+      "reason": "The indexed passages show changing creator-imposed rules for a nonhuman simulated population, without a stable scoped post-work arrangement.",
+      "source_ids": [
+        "src-crystal-nights-primary-indexed"
+      ],
+      "analysis": "Substrate support, manipulated famines and later scientific labor must not be merged into one universal leisure society; the population proxy also needs justification.",
+      "follow_up": "Skip a full-story reconstruction in the faster pass."
+    },
+    {
+      "candidate_id": "c0178",
+      "status": "included",
+      "reason": "Clear references establish the pre-plague demarchic order's automatic support, abundance and distributed public control.",
+      "source_ids": [
+        "src-chasm-city-identity-thesis",
+        "src-yellowstone-grubstreet",
+        "src-glitterband-sfandf",
+        "src-demarchy-linguistic-thesis"
+      ],
+      "society_id": "yellowstone-demarchy-preplague"
+    }
+  ],
+  "review_notes": [
+    "Continues the user's faster reference pass without full-story reading, downloaded novels or technical reconstruction.",
+    "The Splinter, jewel technology and a postmortal sporting scene do not inherit another Egan society's economic arrangements.",
+    "The Yellowstone record deliberately covers the pre-plague demarchic system. The later Glitter Band lead must be checked for economic duplication, not counted again for location alone.",
+    "Second pass checked scope and sources; universal charters and participation rates remain unstated where not supported."
+  ]
+}

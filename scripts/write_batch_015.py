@@ -1,0 +1,91 @@
+from research_helpers import source, assessment, record, scope, evidence, decision, write_batch
+
+S = [
+    source("src-voyage-yesteryear-publisher", "Voyage From Yesteryear", "Baen Books; James P. Hogan",
+           "https://www.baen.com/voyage-from-yesteryear.html", "official_publisher_synopsis",
+           "Product page opened; synopsis and sample link inspected", "Chiron's robot-assisted founding, subsequent generations and resistance to the arriving terrestrial government.",
+           "The old public sample's frames page opened, but its frameless target was inaccessible. An ordinary network request was forbidden and was not bypassed. No primary mature-economy scene is claimed as read; the blurb simplifies the founding material as frozen sperm and ova."),
+    source("src-voyage-yesteryear-author", "The Hogan interview, part 3", "James P. Hogan interviewed by Michael Grossberg in 2001; Prometheus Blog publication",
+           "https://www.lfs.org/blog/the-hogan-interview-part-3-on-his-prometheus-winners-voyage-from-yesteryear-the-mirror-maze-and-writing-high-tech-sf-thrillers/", "author_interview",
+           "Substantial public indexed interview read", "The author's idea of a generation raised without inherited terrestrial conditioning and the novel's anti-authoritarian experiment.",
+           "Authorial intention supports the social premise, not a census or every institutional claim. Editorial introductory mistakes and the interview's loose dates are not used as bibliographic authorities."),
+    source("src-voyage-yesteryear-reference", "Voyage from Yesteryear", "Wikipedia contributors",
+           "https://en.wikipedia.org/wiki/Voyage_from_Yesteryear", "secondary_plot_reference",
+           "Detailed public synopsis read through search and opened page", "Robotic labor and fusion, lack of money and coercive central authority, talent-based standing, useful art and technology, and resistance to Mayflower II.",
+           "The mature economic institutions rest on secondary description and need direct scene confirmation. Art and technical achievement are productive activity, not evidence of 100% leisure."),
+    source("src-two-faces-publisher", "Cyber Rogues: The Two Faces of Tomorrow", "Baen Books; James P. Hogan",
+           "https://www.baen.com/Chapters/9781476780351/9781476780351__c_.htm", "official_omnibus_synopsis",
+           "Public introduction and sample table of contents opened", "A proposed global communications AI upgrade and a bounded space-habitat experiment with Spartacus.",
+           "The second novel in the omnibus is Realtime Interrupt and is not evidence for the first novel's economy. A trial system's possible hostile future is not a realized global allocation regime."),
+    source("src-two-faces-primary-one", "The Two Faces of Tomorrow: Chapter One", "James P. Hogan; Baen Books public sample",
+           "https://www.baen.com/Chapters/9781476780351/9781476780351___4.htm", "primary_fiction_publisher_sample",
+           "Public chapter opened and read", "Automated transport, TITAN network, flexible commuting patterns, and a working research unit with budgets, assistants and a supervisor.",
+           "The disappearance of the nine-to-five rush does not establish absence of employment or guaranteed necessities. No whole-novel reading is claimed."),
+    source("src-lifemaker-publisher", "Code of the Lifemaker", "Baen Books; James P. Hogan",
+           "https://www.baen.com/code-of-the-lifemaker.html", "official_publisher_synopsis",
+           "Public indexed product description read", "Thirg's dissent, rival nations, kings and priests, and human plans to exploit Titan and enslave its inhabitants.",
+           "The product is unavailable for new purchase. No download or account access was attempted. A robot civilization's existence alone does not establish post-work provision for its members or human residents."),
+    source("src-lifemaker-reference", "Code of the Lifemaker", "Wikipedia contributors",
+           "https://en.wikipedia.org/wiki/Code_of_the_Lifemaker", "secondary_plot_reference",
+           "Detailed publicly indexed plot account read", "The malfunctioning self-replicating factory ancestry, humanlike Taloids, early-civilization institutions, and the attempted exploitative human alliance.",
+           "An evolved robotic species is not simply a workforce serving a settled human population. Proposed factories and the concluding partnership need primary verification before any new economic snapshot."),
+    source("src-multiplex-publisher", "The Multiplex Man", "Baen Books; James P. Hogan",
+           "https://www.baen.com/the-multiplex-man.html", "official_publisher_synopsis",
+           "Product page opened and synopsis read; public sample link failed to load", "Jarrow's controlled education and media environment, industrial regulation, and contrasting claims about Eastern European and offworld prosperity.",
+           "The narration is presented through beliefs that the thriller challenges. Neither a regulated West nor a prosperous East establishes a single automated welfare civilization. No inaccessible sample text is claimed as read."),
+    source("src-multiplex-contemporary-review", "The Multiplex Man", "Publishers Weekly, 2 November 1992",
+           "https://www.publishersweekly.com/9780553089998", "contemporary_book_review",
+           "Public indexed review read", "Western bureaucracy, military personality-transfer experiments, and the open Eastern European/offworld destination sought by Ashling.",
+           "The review describes surveillance, mind control and political geography, not unconditional material provision. It is secondary and does not establish a labor census."),
+    source("src-genesis-publisher", "The Genesis Machine", "Random House Publishing Group; James P. Hogan, on Google Books",
+           "https://books.google.com/books/about/The_Genesis_Machine.html?id=nLHA9Jq-ngIC", "publisher_supplied_book_description",
+           "Public indexed publisher description read", "Clifford and Philipsz's theoretical breakthrough, the struggle over military use and their ambition for space travel.",
+           "A transformative invention and its intended use do not establish the productive and allocative institutions of a later population."),
+    source("src-genesis-contemporary-review", "The Genesis Machine", "Kirkus Reviews, 1 April 1978",
+           "https://www.kirkusreviews.com/book-reviews/a/james-p-hogan-4/the-genesis-machine-1/", "contemporary_book_review",
+           "Public indexed review read", "The military research setting, matter creation/annihilation breakthrough and attempts to prevent weaponization.",
+           "This is the Hogan novel, not the unrelated Amy Webb/Andrew Hessel nonfiction book. The review supplies no enacted post-work household economy."),
+    source("src-automatic-detective-primary", "The Automatic Detective: Chapter 1", "A. Lee Martinez; Tor / Macmillan public excerpt",
+           "https://us.macmillan.com/books/9781429925341/theautomaticdetective/", "primary_fiction_publisher_excerpt",
+           "Substantial public indexed Chapter 1 excerpt read", "Drones, autos, robot citizenship, Mack's cab employment, costly electricity and the Learned Council's probation and recall powers.",
+           "This establishes robot work and legal hierarchy, not the share of human labor displaced or a right to necessities. Mack's own military design is not an accomplished conquest of the city.")
+]
+
+v = ["src-voyage-yesteryear-publisher", "src-voyage-yesteryear-author", "src-voyage-yesteryear-reference"]
+R = [record(
+    "voyage-yesteryear-chiron", "c0085", "Voyage from Yesteryear (Chiron)", "Voyage from Yesteryear", "The established Chironian society", ["book"],
+    scope("Hogan's original novel", "The mature colony encountered by Mayflower II, before any hypothetical successful terrestrial takeover", "Living human Chironians raised through the colony's robot-supported founding and their descendants", ["Mayflower II's military-administrative hierarchy as Chiron's government", "Robotic carers and workers in the human denominator", "All future terrestrial settlements"]),
+    "Chiron's robotic production and plentiful energy support a society in which money and accumulation are no longer the route to an ordinary livelihood. Material security therefore lies toward the strong end. This is a claim about the settled colony's access to goods, not an inference from the colonists simply having advanced equipment. Direct confirmation of the mature arrangements remains a research priority because the detailed economic account consulted here is secondary.\n\nEffective authority is described as decentralized, with standing earned through ability rather than a coercive state or ownership monopoly. The arriving terrestrial government's attempt to impose itself does not become the colony's accepted governing constitution. Robots also do not become autonomous rulers merely because they raised the first children. The control estimate is consequently positive, with uncertainty about day-to-day productive decisions. Human art, technical work and freely chosen projects still count as work. An economy without wages cannot supply its own nonworking percentage, so that coordinate remains unresolved.",
+    {"guarantees": -0.9, "control": 0.85, "nonworking": None},
+    {"guarantees": assessment(-0.9, [-1, -0.65], "medium", "The detailed secondary account explicitly connects abundant robotic production with the disappearance of money-based material dependence. Direct household-access scenes remain to be checked.", v),
+     "control": assessment(0.85, [0.6, 1], "medium", "Decentralized human authority and resistance to imposed terrestrial hierarchy support broad effective control; the detailed productive decision process still needs primary confirmation.", v),
+     "nonworking": assessment(None, None, "low", "Useful art, technology and chosen projects remain. No all-age count distinguishes their participants from nonworkers.", ["src-voyage-yesteryear-reference"])},
+    2, v, [evidence("The colony combines robotic abundance, absence of money and decentralized social authority.", ["src-voyage-yesteryear-reference"], "Plot account of the mature colony before and during the Mayflower II confrontation", "secondary_report"),
+           evidence("Robot-supported founding and the colonists' resistance to terrestrial authority are integral to the premise.", ["src-voyage-yesteryear-publisher", "src-voyage-yesteryear-author"], "Publisher synopsis and author's interview about separating inherited conditioning", "author_or_publisher_commentary")],
+    ["Direct mature-economy passages are still needed; this is a provisional retained assessment.", "Reputational influence and specialist competence are not identical to formal equal ownership.", "Freedom from wages is not freedom from all productive activity."])]
+
+D = [
+    decision("c0085", "included", "The explicit robot-supported moneyless and decentralized economy qualifies, with primary-detail and participation gaps preserved.", v, society_id="voyage-yesteryear-chiron"),
+    decision("c0086", "needs_evidence", "The global automation proposal and the Spartacus habitat experiment do not yet establish a qualifying civilian allocation system.", ["src-two-faces-publisher", "src-two-faces-primary-one"],
+             "The public chapter shows useful automation alongside an actively working research organization, supervision and budgets. The publisher distinguishes a contemplated global upgrade from a deliberately bounded experiment. Neither proves how nonworkers obtain necessities or whether the eventual machine-human settlement changes that rule. Flexible hours do not by themselves qualify a zero variant or a post-work society.",
+             "Read the habitat's actual provisioning and the final settlement. Separate the existing TITAN network, the Spartacus experiment and any later global arrangement; do not map an unimplemented proposal or the other omnibus novel as the same economy."),
+    decision("c0087", "boundary_case", "An evolved robotic civilization is not a demonstrated leisure-supporting economy for a resident human population or for its working synthetic members.", ["src-lifemaker-publisher", "src-lifemaker-reference"],
+             "Self-replicating factory ancestry develops into Taloids with their own rulers, beliefs and ordinary civilizational needs. Humans arrive as outsiders and attempt exploitation; robot existence does not mean that a settled human population is freed from work. Nor does automatic ancestry establish that labor has ceased to determine the Taloids' own access. A promised partnership must be distinguished from an enacted later economic order.",
+             "Keep as an artificial-species and colonization comparison. Reopen for an expressly justified population proxy only after internal production, allocation and participation are evidenced; do not count machine replication as human leisure."),
+    decision("c0088", "needs_evidence", "The discovery label 'automated welfare civilization' is unsupported by the consulted publisher and contemporary review.", ["src-multiplex-publisher", "src-multiplex-contemporary-review"],
+             "The sources instead distinguish a controlled Western political order, personality-transfer research, and Eastern European/offworld claims to greater freedom and prosperity. These are multiple populations, not one demonstrated welfare civilization. Public control of information and industry does not establish free necessities or a labor-saving distributive mechanism. A character's propagandized initial beliefs are not an authoritative global account.",
+             "Locate specific societies' actual production and household income/access scenes. Correct the working scope to a named West, East or offworld population if qualified; do not import Chiron's automation from another Hogan novel."),
+    decision("c0089", "needs_evidence", "A matter-manipulation breakthrough and anti-weapon ambitions do not demonstrate the later society's household economy.", ["src-genesis-publisher", "src-genesis-contemporary-review"],
+             "The invention could transform production, but the consulted sources concern scientific research, military control and opening space travel. They do not establish whether universal material access is implemented, who owns the resulting productive system or what work remains. Technological capability cannot be substituted for the broad discovery label's post-breakthrough social arrangements.",
+             "Read the ending and any developed civilian applications, looking for actual distribution, ownership and a defined population. Keep the future ambition distinct from an already functioning post-work regime."),
+    decision("c0090", "boundary_case", "Empire City's working robots and legal hierarchy do not by themselves establish a post-work or deliberately work-preserving human economy.", ["src-automatic-detective-primary"],
+             "The primary opening depicts Mack earning money for scarce electricity, robot classes and citizenship restrictions. This is an artificial worker with expenses, not an automatic demonstration that humans receive output without working. The Learned Council's power over probation is relevant to civil status, but insufficient for a whole-city productive-ownership coordinate. A city full of unusual technology is not automatically post-work.",
+             "Retain as a robot-citizenship comparison. Reopen for direct evidence about human displacement, universal access or deliberate preservation of employment despite a specified available replacement; do not equate the protagonist's mechanical body with an automated welfare system.")
+]
+
+write_batch(15, [f"c{i:04}" for i in range(85, 91)], S, R, D, [
+    "Six sequential leads reviewed without borrowing the same author's institutional arrangements across unrelated novels.",
+    "Chiron's retained assessment discloses its reliance on a detailed secondary account and preserves productive voluntary activity; no employment percentage is invented.",
+    "The publisher's openly linked sample failures are documented honestly; no paywall, login or forbidden request was bypassed.",
+    "Second pass distinguished existing systems from proposals, robotic species from robot servants, wealth from universal rights, political propaganda from narrator authority, and energy scarcity from technological spectacle."
+])

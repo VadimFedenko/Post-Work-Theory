@@ -1,0 +1,1101 @@
+{
+  "revision_id": "revision-023",
+  "revised_on": "2026-10-17",
+  "reason": "Correct four early canon_facts lists that mixed depicted facts with absence-of-evidence or ending interpretation. All coordinates, scopes and counted records are preserved. The Not All Robots sabotage uncertainty is inspected and correctly retained as plot uncertainty, not a missing coordinate.",
+  "changes": [
+    {
+      "collection": "societies",
+      "before": {
+        "record_type": "zero_variant",
+        "id": "evitable-conflict-earth",
+        "candidate_id": "c0007",
+        "name": "The Evitable Conflict",
+        "work": "The Evitable Conflict",
+        "society": "Earth under the Machines",
+        "media": [
+          "book",
+          "short_story"
+        ],
+        "description": "The Machines coordinate the world's economy and protect its overall stability. Their decisions can quietly remove opponents from influential positions, leaving human officials with much less control than their titles suggest. That puts this society near the autonomous-machine end of the control axis, with a broadly protective material orientation. It is a useful analogue for the article's fifth regime.\n\nThe zero-variant label records that plant workers, layoffs and actual labor needs persist under machine coordination. Economic management is not automatically release from employment. The best-guess nonworking fraction is therefore modest, allowing dependents and displaced people while retaining useful factory, care and administrative work. It is not derived from the number of governing Machines or one local disturbance. The source-based control point remains near autonomous machine authority, whereas the favorable guarantee estimate describes a protective orientation rather than an explicit unconditional benefit. These are provisional reference-led judgments, with no new full-story reading or canonical census claimed.",
+        "scope": {
+          "continuity": "Original prose work",
+          "period": "The 2052 world economy under the four Machines",
+          "population": "Human inhabitants of the machine-coordinated world economy",
+          "human_population_proxy": false,
+          "exclusions": [
+            "Other adaptations",
+            "Later materially changed regimes"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "axis": {
+          "guarantees": -0.6,
+          "control": -0.9,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.9,
+              -0.2
+            ],
+            "confidence": "low",
+            "basis": "Machine protection and economic security are supported by secondary summaries; a universal entitlement is less explicit.",
+            "source_ids": [
+              "src-asimov-cove",
+              "src-asimov-litcharts"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              -0.7
+            ],
+            "confidence": "medium",
+            "basis": "The Machines make decisive economic choices beyond meaningful human oversight.",
+            "source_ids": [
+              "src-asimov-cove",
+              "src-asimov-litcharts"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.1,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "All-age human scenario retains plant workers, administration, care and other useful labor under machine coordination; layoffs are not a full population count.",
+            "source_ids": [
+              "src-asimov-cove",
+              "src-asimov-litcharts"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_analogy": 5,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "evidence": [
+          {
+            "claim": "Machine government is supported, but removal of human economic dependence on employment is not established.",
+            "source_ids": [
+              "src-asimov-cove",
+              "src-asimov-litcharts"
+            ],
+            "locator": "See source read_scope and the retained decision analysis",
+            "kind": "interpretation"
+          }
+        ],
+        "uncertainties": [
+          "Freedom from unemployment is not the same as freedom from employment.",
+          "New coordinates are editorial scenarios; no canonical census or new full-work reading claimed.",
+          "All-age human scenario retains plant workers, administration, care and other useful labor under machine coordination; layoffs are not a full population count."
+        ],
+        "source_ids": [
+          "src-asimov-cove",
+          "src-asimov-litcharts"
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual follow-up against gathered lore; source facts separated from broad central scenarios, no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "best_guess_axes": [
+          "nonworking"
+        ],
+        "qualification_basis": "Earlier source-based inclusion retained; this revision supplies missing coordinates under the requested best-guess policy.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Machine government is supported, but removal of human economic dependence on employment is not established."
+        ],
+        "editorial_assumptions": [
+          "All-age human scenario retains plant workers, administration, care and other useful labor under machine coordination; layoffs are not a full population count."
+        ]
+      },
+      "after": {
+        "record_type": "zero_variant",
+        "id": "evitable-conflict-earth",
+        "candidate_id": "c0007",
+        "name": "The Evitable Conflict",
+        "work": "The Evitable Conflict",
+        "society": "Earth under the Machines",
+        "media": [
+          "book",
+          "short_story"
+        ],
+        "description": "The Machines coordinate the world's economy and protect its overall stability. Their decisions can quietly remove opponents from influential positions, leaving human officials with much less control than their titles suggest. That puts this society near the autonomous-machine end of the control axis, with a broadly protective material orientation. It is a useful analogue for the article's fifth regime.\n\nThe zero-variant label records that plant workers, layoffs and actual labor needs persist under machine coordination. Economic management is not automatically release from employment. The best-guess nonworking fraction is therefore modest, allowing dependents and displaced people while retaining useful factory, care and administrative work. It is not derived from the number of governing Machines or one local disturbance. The source-based control point remains near autonomous machine authority, whereas the favorable guarantee estimate describes a protective orientation rather than an explicit unconditional benefit. These are provisional reference-led judgments, with no new full-story reading or canonical census claimed.",
+        "scope": {
+          "continuity": "Original prose work",
+          "period": "The 2052 world economy under the four Machines",
+          "population": "Human inhabitants of the machine-coordinated world economy",
+          "human_population_proxy": false,
+          "exclusions": [
+            "Other adaptations",
+            "Later materially changed regimes"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "axis": {
+          "guarantees": -0.6,
+          "control": -0.9,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.9,
+              -0.2
+            ],
+            "confidence": "low",
+            "basis": "Machine protection and economic security are supported by secondary summaries; a universal entitlement is less explicit.",
+            "source_ids": [
+              "src-asimov-cove",
+              "src-asimov-litcharts"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              -0.7
+            ],
+            "confidence": "medium",
+            "basis": "The Machines make decisive economic choices beyond meaningful human oversight.",
+            "source_ids": [
+              "src-asimov-cove",
+              "src-asimov-litcharts"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.1,
+              0.6
+            ],
+            "confidence": "low",
+            "basis": "All-age human scenario retains plant workers, administration, care and other useful labor under machine coordination; layoffs are not a full population count.",
+            "source_ids": [
+              "src-asimov-cove",
+              "src-asimov-litcharts"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_analogy": 5,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "evidence": [
+          {
+            "claim": "Machine government is supported, but removal of human economic dependence on employment is not established.",
+            "source_ids": [
+              "src-asimov-cove",
+              "src-asimov-litcharts"
+            ],
+            "locator": "See source read_scope and the retained decision analysis",
+            "kind": "interpretation"
+          },
+          {
+            "claim": "The Machines coordinate the world economy.",
+            "source_ids": [
+              "src-asimov-cove",
+              "src-asimov-litcharts"
+            ],
+            "locator": "Named economic, terminal or narrative passages; source read_scope records access limits",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "The accounts depict plant workers, layoffs and economic labor needs.",
+            "source_ids": [
+              "src-asimov-cove",
+              "src-asimov-litcharts"
+            ],
+            "locator": "Named economic, terminal or narrative passages; source read_scope records access limits",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Freedom from unemployment is not the same as freedom from employment.",
+          "New coordinates are editorial scenarios; no canonical census or new full-work reading claimed.",
+          "All-age human scenario retains plant workers, administration, care and other useful labor under machine coordination; layoffs are not a full population count."
+        ],
+        "source_ids": [
+          "src-asimov-cove",
+          "src-asimov-litcharts"
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual follow-up against gathered lore; source facts separated from broad central scenarios, no independent reviewer; quality audit separates depicted facts from source absence and open-ending interpretation",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "best_guess_axes": [
+          "nonworking"
+        ],
+        "qualification_basis": "Earlier source-based inclusion retained; this revision supplies missing coordinates under the requested best-guess policy.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The Machines coordinate the world economy.",
+          "The accounts depict plant workers, layoffs and economic labor needs."
+        ],
+        "editorial_assumptions": [
+          "All-age human scenario retains plant workers, administration, care and other useful labor under machine coordination; layoffs are not a full population count.",
+          "The bounded sources do not establish unconditional job-independent benefits; the favorable guarantee remains an interpretation of protective coordination."
+        ]
+      }
+    },
+    {
+      "collection": "societies",
+      "before": {
+        "record_type": "post_work",
+        "id": "detroit-before-revolution",
+        "candidate_id": "c0015",
+        "name": "Detroit: Become Human (before the android revolution)",
+        "work": "Detroit: Become Human",
+        "society": "United States before the android revolution",
+        "media": [
+          "game"
+        ],
+        "description": "Android service work has displaced a substantial part of the human workforce, while the machines are still treated as property. The result is an uneven transition: automation is widespread, but human society has not adopted an equally widespread entitlement to its output. The guarantee score therefore leans toward weak protection, with uncertainty about policies the consulted material does not describe.\n\nHuman owners and institutions still direct android labor, placing control near concentrated ownership with some dispersed private access. The best-guess nonworking fraction is substantial, reflecting displacement while allowing useful unpaid care, informal work and ordinary human careers. The game’s reported unemployment figure is not copied as an all-population participation percentage: children, nonparticipants and unpaid workers change both numerator and denominator. The estimate therefore has a wide interval. This is the society before liberation, and it does not import a later branch’s projected android rights or guarantee that displaced humans receive an adequate material floor.",
+        "axis": {
+          "guarantees": 0.65,
+          "control": 0.2,
+          "nonworking": 0.45
+        },
+        "scope": {
+          "continuity": "Original game continuity",
+          "period": "Detroit and the United States in November 2038, before a successful android uprising",
+          "population": "Humans in the android-disrupted United States economy, with Detroit as the depicted focus",
+          "human_population_proxy": false,
+          "exclusions": [
+            "Free android polities after a successful ending",
+            "An assumption that all humans have already stopped working"
+          ],
+          "branch": null,
+          "player_configurable": false,
+          "labor_phase": "partial labor-displacement transition"
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.2,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Major displacement and social conflict are supported; a universal material entitlement is not established.",
+            "source_ids": [
+              "src-detroit-official",
+              "src-detroit-new-home"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.55
+            ],
+            "confidence": "low",
+            "basis": "CyberLife's platform and manufacture coexist with many human purchasers and users.",
+            "source_ids": [
+              "src-detroit-official",
+              "src-detroit-new-home"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.25,
+              0.7
+            ],
+            "confidence": "low",
+            "basis": "The in-game unemployment figure uses a labor-force denominator. This all-human scenario separately allows dependents and unpaid care/informal work, so it is not a direct conversion.",
+            "source_ids": [
+              "src-detroit-official",
+              "src-detroit-new-home"
+            ]
+          }
+        },
+        "regime_primary": 3,
+        "regime_alternatives": [
+          4
+        ],
+        "qualification": "included",
+        "evidence": [
+          {
+            "claim": "Major displacement and social conflict are supported; a universal material entitlement is not established.",
+            "source_ids": [
+              "src-detroit-official",
+              "src-detroit-new-home"
+            ],
+            "locator": "See the named source read_scope and the entry's scoped period",
+            "kind": "interpretation"
+          },
+          {
+            "claim": "CyberLife's platform and manufacture coexist with many human purchasers and users.",
+            "source_ids": [
+              "src-detroit-official",
+              "src-detroit-new-home"
+            ],
+            "locator": "See the named source read_scope and the entry's scoped period",
+            "kind": "interpretation"
+          }
+        ],
+        "uncertainties": [
+          "Welfare and ownership arrangements need more in-game document review.",
+          "The official developer page gives 2038; an older regional store description still says 2036 and is not adopted.",
+          "New numeric axes are requested editorial best guesses, not canonical statistics.",
+          "The in-game unemployment figure uses a labor-force denominator. This all-human scenario separately allows dependents and unpaid care/informal work, so it is not a direct conversion."
+        ],
+        "source_ids": [
+          "src-detroit-official",
+          "src-detroit-new-home"
+        ],
+        "reported_labor_statistics": [
+          {
+            "metric": "reported_unemployment_rate",
+            "value": 0.373,
+            "denominator": "labor force as reported by in-universe news; not all humans",
+            "source_id": "src-detroit-new-home",
+            "locator": "A New Home, CTN job-loss report"
+          }
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual coordinate reassessment against saved lore; explicit central scenarios and intervals, no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "best_guess_axes": [
+          "nonworking"
+        ],
+        "qualification_basis": "Earlier source-based inclusion retained; this revision individually supplies uncertain coordinates under the 2026-10-17 instruction.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Major displacement and social conflict are supported; a universal material entitlement is not established.",
+          "CyberLife's platform and manufacture coexist with many human purchasers and users."
+        ],
+        "editorial_assumptions": [
+          "The in-game unemployment figure uses a labor-force denominator. This all-human scenario separately allows dependents and unpaid care/informal work, so it is not a direct conversion."
+        ]
+      },
+      "after": {
+        "record_type": "post_work",
+        "id": "detroit-before-revolution",
+        "candidate_id": "c0015",
+        "name": "Detroit: Become Human (before the android revolution)",
+        "work": "Detroit: Become Human",
+        "society": "United States before the android revolution",
+        "media": [
+          "game"
+        ],
+        "description": "Android service work has displaced a substantial part of the human workforce, while the machines are still treated as property. The result is an uneven transition: automation is widespread, but human society has not adopted an equally widespread entitlement to its output. The guarantee score therefore leans toward weak protection, with uncertainty about policies the consulted material does not describe.\n\nHuman owners and institutions still direct android labor, placing control near concentrated ownership with some dispersed private access. The best-guess nonworking fraction is substantial, reflecting displacement while allowing useful unpaid care, informal work and ordinary human careers. The game’s reported unemployment figure is not copied as an all-population participation percentage: children, nonparticipants and unpaid workers change both numerator and denominator. The estimate therefore has a wide interval. This is the society before liberation, and it does not import a later branch’s projected android rights or guarantee that displaced humans receive an adequate material floor.",
+        "axis": {
+          "guarantees": 0.65,
+          "control": 0.2,
+          "nonworking": 0.45
+        },
+        "scope": {
+          "continuity": "Original game continuity",
+          "period": "Detroit and the United States in November 2038, before a successful android uprising",
+          "population": "Humans in the android-disrupted United States economy, with Detroit as the depicted focus",
+          "human_population_proxy": false,
+          "exclusions": [
+            "Free android polities after a successful ending",
+            "An assumption that all humans have already stopped working"
+          ],
+          "branch": null,
+          "player_configurable": false,
+          "labor_phase": "partial labor-displacement transition"
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.2,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "Major displacement and social conflict are supported; a universal material entitlement is not established.",
+            "source_ids": [
+              "src-detroit-official",
+              "src-detroit-new-home"
+            ]
+          },
+          "control": {
+            "interval": [
+              0,
+              0.55
+            ],
+            "confidence": "low",
+            "basis": "CyberLife's platform and manufacture coexist with many human purchasers and users.",
+            "source_ids": [
+              "src-detroit-official",
+              "src-detroit-new-home"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.25,
+              0.7
+            ],
+            "confidence": "low",
+            "basis": "The in-game unemployment figure uses a labor-force denominator. This all-human scenario separately allows dependents and unpaid care/informal work, so it is not a direct conversion.",
+            "source_ids": [
+              "src-detroit-official",
+              "src-detroit-new-home"
+            ]
+          }
+        },
+        "regime_primary": 3,
+        "regime_alternatives": [
+          4
+        ],
+        "qualification": "included",
+        "evidence": [
+          {
+            "claim": "Major displacement and social conflict are supported; a universal material entitlement is not established.",
+            "source_ids": [
+              "src-detroit-official",
+              "src-detroit-new-home"
+            ],
+            "locator": "See the named source read_scope and the entry's scoped period",
+            "kind": "interpretation"
+          },
+          {
+            "claim": "CyberLife's platform and manufacture coexist with many human purchasers and users.",
+            "source_ids": [
+              "src-detroit-official",
+              "src-detroit-new-home"
+            ],
+            "locator": "See the named source read_scope and the entry's scoped period",
+            "kind": "interpretation"
+          },
+          {
+            "claim": "Androids perform service labor while treated as property before liberation.",
+            "source_ids": [
+              "src-detroit-official",
+              "src-detroit-new-home"
+            ],
+            "locator": "Named economic, terminal or narrative passages; source read_scope records access limits",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "The CTN report depicts human job losses and unemployment.",
+            "source_ids": [
+              "src-detroit-official",
+              "src-detroit-new-home"
+            ],
+            "locator": "Named economic, terminal or narrative passages; source read_scope records access limits",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Welfare and ownership arrangements need more in-game document review.",
+          "The official developer page gives 2038; an older regional store description still says 2036 and is not adopted.",
+          "New numeric axes are requested editorial best guesses, not canonical statistics.",
+          "The in-game unemployment figure uses a labor-force denominator. This all-human scenario separately allows dependents and unpaid care/informal work, so it is not a direct conversion."
+        ],
+        "source_ids": [
+          "src-detroit-official",
+          "src-detroit-new-home"
+        ],
+        "reported_labor_statistics": [
+          {
+            "metric": "reported_unemployment_rate",
+            "value": 0.373,
+            "denominator": "labor force as reported by in-universe news; not all humans",
+            "source_id": "src-detroit-new-home",
+            "locator": "A New Home, CTN job-loss report"
+          }
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual coordinate reassessment against saved lore; explicit central scenarios and intervals, no independent reviewer; quality audit separates depicted facts from source absence and open-ending interpretation",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "best_guess_axes": [
+          "nonworking"
+        ],
+        "qualification_basis": "Earlier source-based inclusion retained; this revision individually supplies uncertain coordinates under the 2026-10-17 instruction.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Androids perform service labor while treated as property before liberation.",
+          "The CTN report depicts human job losses and unemployment."
+        ],
+        "editorial_assumptions": [
+          "The in-game unemployment figure uses a labor-force denominator. This all-human scenario separately allows dependents and unpaid care/informal work, so it is not a direct conversion.",
+          "No universal material entitlement is asserted from the bounded references; unemployment is not an all-population nonworking rate."
+        ]
+      }
+    },
+    {
+      "collection": "societies",
+      "before": {
+        "record_type": "post_work",
+        "id": "fallout-prewar-appalachia",
+        "candidate_id": "c0017",
+        "name": "Fallout (prewar Appalachia)",
+        "work": "Fallout",
+        "society": "Prewar Appalachian automation economy",
+        "media": [
+          "game"
+        ],
+        "description": "Hornwright's records show a corporate drive to remove human labor from mining and expand automation further. Machines such as the Motherlode give this more substance than a general claim that the future has robots. The owners aim to preserve output while reducing their dependence on workers, and opposition to that policy is treated as an obstacle to corporate and political plans.\n\nCorporate owners direct the mining machinery, placing control near concentrated human command. The best-guess nonworking fraction is substantial because displacement is real, but it retains repair, care, remaining industrial activity and informal survival as useful work. A company’s staffing target cannot be converted directly into the share of all Appalachian people working. The broad interval includes uncertainty about dependents and the ability to find other work. Weak guarantees mean losing a wage can mean hardship even while productive output continues. The record stops before nuclear destruction, and neither later corpses nor empty automated sites become a population enjoying leisure.",
+        "axis": {
+          "guarantees": 0.75,
+          "control": 0.05,
+          "nonworking": 0.45
+        },
+        "scope": {
+          "continuity": "Original game continuity",
+          "period": "The prewar period documented by Fallout 76's Hornwright records, before October 2077",
+          "population": "Humans in Appalachia's corporate mining and automation conflict",
+          "human_population_proxy": false,
+          "exclusions": [
+            "All prewar America as a statistically uniform society",
+            "The postwar game date",
+            "The Institute in 2287"
+          ],
+          "branch": null,
+          "player_configurable": false,
+          "labor_phase": "partial labor-displacement transition"
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.35,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Automation's gains accrue to owners; no corresponding universal support is established by these records.",
+            "source_ids": [
+              "src-hornwright-terminals",
+              "src-bethesda-motherlode"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.05,
+              0.2
+            ],
+            "confidence": "low",
+            "basis": "Corporate leadership directs production and seeks political collaboration.",
+            "source_ids": [
+              "src-hornwright-terminals",
+              "src-bethesda-motherlode"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.15,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Regional all-age scenario permits substantial robot displacement while retaining remaining industrial, care, maintenance and informal work; company automation targets are not a census.",
+            "source_ids": [
+              "src-hornwright-terminals",
+              "src-bethesda-motherlode"
+            ]
+          }
+        },
+        "regime_primary": 3,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "evidence": [
+          {
+            "claim": "Automation's gains accrue to owners; no corresponding universal support is established by these records.",
+            "source_ids": [
+              "src-hornwright-terminals",
+              "src-bethesda-motherlode"
+            ],
+            "locator": "See the named source read_scope and the entry's scoped period",
+            "kind": "interpretation"
+          },
+          {
+            "claim": "Corporate leadership directs production and seeks political collaboration.",
+            "source_ids": [
+              "src-hornwright-terminals",
+              "src-bethesda-motherlode"
+            ],
+            "locator": "See the named source read_scope and the entry's scoped period",
+            "kind": "interpretation"
+          }
+        ],
+        "uncertainties": [
+          "More primary terminals should corroborate the welfare and protest response.",
+          "The record intentionally narrows the broader United States discovery lead.",
+          "New coordinates are editorial scenarios; no canonical census or new full-work reading claimed.",
+          "Regional all-age scenario permits substantial robot displacement while retaining remaining industrial, care, maintenance and informal work; company automation targets are not a census."
+        ],
+        "source_ids": [
+          "src-hornwright-terminals",
+          "src-bethesda-motherlode"
+        ],
+        "reported_labor_statistics": [],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual follow-up against gathered lore; source facts separated from broad central scenarios, no independent reviewer",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "best_guess_axes": [
+          "nonworking"
+        ],
+        "qualification_basis": "Earlier source-based inclusion retained; this revision supplies missing coordinates under the requested best-guess policy.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Automation's gains accrue to owners; no corresponding universal support is established by these records.",
+          "Corporate leadership directs production and seeks political collaboration."
+        ],
+        "editorial_assumptions": [
+          "Regional all-age scenario permits substantial robot displacement while retaining remaining industrial, care, maintenance and informal work; company automation targets are not a census."
+        ]
+      },
+      "after": {
+        "record_type": "post_work",
+        "id": "fallout-prewar-appalachia",
+        "candidate_id": "c0017",
+        "name": "Fallout (prewar Appalachia)",
+        "work": "Fallout",
+        "society": "Prewar Appalachian automation economy",
+        "media": [
+          "game"
+        ],
+        "description": "Hornwright's records show a corporate drive to remove human labor from mining and expand automation further. Machines such as the Motherlode give this more substance than a general claim that the future has robots. The owners aim to preserve output while reducing their dependence on workers, and opposition to that policy is treated as an obstacle to corporate and political plans.\n\nCorporate owners direct the mining machinery, placing control near concentrated human command. The best-guess nonworking fraction is substantial because displacement is real, but it retains repair, care, remaining industrial activity and informal survival as useful work. A company’s staffing target cannot be converted directly into the share of all Appalachian people working. The broad interval includes uncertainty about dependents and the ability to find other work. Weak guarantees mean losing a wage can mean hardship even while productive output continues. The record stops before nuclear destruction, and neither later corpses nor empty automated sites become a population enjoying leisure.",
+        "axis": {
+          "guarantees": 0.75,
+          "control": 0.05,
+          "nonworking": 0.45
+        },
+        "scope": {
+          "continuity": "Original game continuity",
+          "period": "The prewar period documented by Fallout 76's Hornwright records, before October 2077",
+          "population": "Humans in Appalachia's corporate mining and automation conflict",
+          "human_population_proxy": false,
+          "exclusions": [
+            "All prewar America as a statistically uniform society",
+            "The postwar game date",
+            "The Institute in 2287"
+          ],
+          "branch": null,
+          "player_configurable": false,
+          "labor_phase": "partial labor-displacement transition"
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.35,
+              0.95
+            ],
+            "confidence": "low",
+            "basis": "Automation's gains accrue to owners; no corresponding universal support is established by these records.",
+            "source_ids": [
+              "src-hornwright-terminals",
+              "src-bethesda-motherlode"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.05,
+              0.2
+            ],
+            "confidence": "low",
+            "basis": "Corporate leadership directs production and seeks political collaboration.",
+            "source_ids": [
+              "src-hornwright-terminals",
+              "src-bethesda-motherlode"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.15,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Regional all-age scenario permits substantial robot displacement while retaining remaining industrial, care, maintenance and informal work; company automation targets are not a census.",
+            "source_ids": [
+              "src-hornwright-terminals",
+              "src-bethesda-motherlode"
+            ]
+          }
+        },
+        "regime_primary": 3,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "evidence": [
+          {
+            "claim": "Automation's gains accrue to owners; no corresponding universal support is established by these records.",
+            "source_ids": [
+              "src-hornwright-terminals",
+              "src-bethesda-motherlode"
+            ],
+            "locator": "See the named source read_scope and the entry's scoped period",
+            "kind": "interpretation"
+          },
+          {
+            "claim": "Corporate leadership directs production and seeks political collaboration.",
+            "source_ids": [
+              "src-hornwright-terminals",
+              "src-bethesda-motherlode"
+            ],
+            "locator": "See the named source read_scope and the entry's scoped period",
+            "kind": "interpretation"
+          },
+          {
+            "claim": "Hornwright records seek to remove human mining labor through automation.",
+            "source_ids": [
+              "src-hornwright-terminals",
+              "src-bethesda-motherlode"
+            ],
+            "locator": "Named economic, terminal or narrative passages; source read_scope records access limits",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "The Motherlode is an automated mining bot.",
+            "source_ids": [
+              "src-hornwright-terminals",
+              "src-bethesda-motherlode"
+            ],
+            "locator": "Named economic, terminal or narrative passages; source read_scope records access limits",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Corporate leadership seeks political collaboration.",
+            "source_ids": [
+              "src-hornwright-terminals",
+              "src-bethesda-motherlode"
+            ],
+            "locator": "Named economic, terminal or narrative passages; source read_scope records access limits",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "More primary terminals should corroborate the welfare and protest response.",
+          "The record intentionally narrows the broader United States discovery lead.",
+          "New coordinates are editorial scenarios; no canonical census or new full-work reading claimed.",
+          "Regional all-age scenario permits substantial robot displacement while retaining remaining industrial, care, maintenance and informal work; company automation targets are not a census."
+        ],
+        "source_ids": [
+          "src-hornwright-terminals",
+          "src-bethesda-motherlode"
+        ],
+        "reported_labor_statistics": [],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual follow-up against gathered lore; source facts separated from broad central scenarios, no independent reviewer; quality audit separates depicted facts from source absence and open-ending interpretation",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "best_guess_axes": [
+          "nonworking"
+        ],
+        "qualification_basis": "Earlier source-based inclusion retained; this revision supplies missing coordinates under the requested best-guess policy.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Hornwright records seek to remove human mining labor through automation.",
+          "The Motherlode is an automated mining bot.",
+          "Corporate leadership seeks political collaboration."
+        ],
+        "editorial_assumptions": [
+          "Regional all-age scenario permits substantial robot displacement while retaining remaining industrial, care, maintenance and informal work; company automation targets are not a census.",
+          "Owner advantage and weak general guarantees are economic interpretations; source silence is not a canonical declaration that all assistance is absent."
+        ]
+      }
+    },
+    {
+      "collection": "societies",
+      "before": {
+        "record_type": "zero_variant",
+        "id": "algebraist-mercatoria",
+        "candidate_id": "c0031",
+        "name": "The Algebraist (Mercatoria)",
+        "work": "The Algebraist",
+        "society": "Mercatoria",
+        "media": [
+          "book"
+        ],
+        "scope": {
+          "continuity": "The Algebraist; not the Culture setting",
+          "period": "Mercatorial order before the novel's ending changes its strategic position",
+          "population": "Human and other biological inhabitants of the Mercatoria",
+          "human_population_proxy": true,
+          "exclusions": [
+            "Dweller Common entitlements",
+            "Hypothetical reforms after the ending",
+            "All imperial worlds assumed economically identical"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Mercatoria's persecution of machine intelligence makes it a zero variant with a direct technological basis. Capable AIs exist in the setting, but the imperial order seeks to prevent their open existence and authority. Production and government therefore cannot simply be described as an independent machine welfare system. The control placement remains near a concentrated biological hierarchy.\n\nThe guarantee best guess is weak because an imperial order with unequal ranks does not imply a common material floor, though exact local rights remain unknown. Concentrated biological institutions retain authority while suppressing machine intelligence. A modest nonworking estimate allows dependents and some elite leisure but keeps useful production, administration, care and military activity in the count. It is not derived from the number of capable AIs being persecuted or from a war passage. This zero variant is a technical-restraint comparison across a broad biological proxy population, with wide intervals rather than a claim that every subject world shares an identical employment or benefit policy.",
+        "axis": {
+          "guarantees": 0.8,
+          "control": 0.05,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.25,
+              1
+            ],
+            "confidence": "low",
+            "basis": "An imperial hierarchy suppressing machine intelligence plausibly provides weak universal protection, with unknown differences between ranks and worlds.",
+            "source_ids": [
+              "src-algebraist-machine-war",
+              "src-algebraist-martin"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.05,
+              0.25
+            ],
+            "confidence": "medium",
+            "basis": "The biological hierarchy persecutes rather than enfranchises autonomous AIs.",
+            "source_ids": [
+              "src-algebraist-machine-war",
+              "src-algebraist-martin"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "All-age biological-population scenario retains administrative, productive, military and care work; no machine-war count is used as a civilian labor rate.",
+            "source_ids": [
+              "src-algebraist-machine-war",
+              "src-algebraist-martin"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-algebraist-machine-war",
+          "src-algebraist-martin"
+        ],
+        "evidence": [
+          {
+            "claim": "AI persecution is an established imperial policy; later compromise is an interpretation of an open ending.",
+            "source_ids": [
+              "src-algebraist-machine-war",
+              "src-algebraist-martin"
+            ],
+            "locator": "Machine War explanation; Martin pages 186 and 193",
+            "kind": "interpretation"
+          }
+        ],
+        "uncertainties": [
+          "The institutional PDF could only be read in substantial indexed excerpts.",
+          "Normal labor and distribution need primary work beyond the ending exposition.",
+          "New coordinates are editorial scenarios; no canonical census or new full-work reading claimed.",
+          "An imperial hierarchy suppressing machine intelligence plausibly provides weak universal protection, with unknown differences between ranks and worlds.",
+          "All-age biological-population scenario retains administrative, productive, military and care work; no machine-war count is used as a civilian labor rate."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual follow-up against gathered lore; source facts separated from broad central scenarios, no independent reviewer",
+          "coordinate_ready": true
+        },
+        "regime_analogy": null,
+        "assessment_mode": "best_guess",
+        "best_guess_axes": [
+          "guarantees",
+          "nonworking"
+        ],
+        "qualification_basis": "Earlier source-based inclusion retained; this revision supplies missing coordinates under the requested best-guess policy.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "AI persecution is an established imperial policy; later compromise is an interpretation of an open ending."
+        ],
+        "editorial_assumptions": [
+          "An imperial hierarchy suppressing machine intelligence plausibly provides weak universal protection, with unknown differences between ranks and worlds.",
+          "All-age biological-population scenario retains administrative, productive, military and care work; no machine-war count is used as a civilian labor rate."
+        ]
+      },
+      "after": {
+        "record_type": "zero_variant",
+        "id": "algebraist-mercatoria",
+        "candidate_id": "c0031",
+        "name": "The Algebraist (Mercatoria)",
+        "work": "The Algebraist",
+        "society": "Mercatoria",
+        "media": [
+          "book"
+        ],
+        "scope": {
+          "continuity": "The Algebraist; not the Culture setting",
+          "period": "Mercatorial order before the novel's ending changes its strategic position",
+          "population": "Human and other biological inhabitants of the Mercatoria",
+          "human_population_proxy": true,
+          "exclusions": [
+            "Dweller Common entitlements",
+            "Hypothetical reforms after the ending",
+            "All imperial worlds assumed economically identical"
+          ],
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "The Mercatoria's persecution of machine intelligence makes it a zero variant with a direct technological basis. Capable AIs exist in the setting, but the imperial order seeks to prevent their open existence and authority. Production and government therefore cannot simply be described as an independent machine welfare system. The control placement remains near a concentrated biological hierarchy.\n\nThe guarantee best guess is weak because an imperial order with unequal ranks does not imply a common material floor, though exact local rights remain unknown. Concentrated biological institutions retain authority while suppressing machine intelligence. A modest nonworking estimate allows dependents and some elite leisure but keeps useful production, administration, care and military activity in the count. It is not derived from the number of capable AIs being persecuted or from a war passage. This zero variant is a technical-restraint comparison across a broad biological proxy population, with wide intervals rather than a claim that every subject world shares an identical employment or benefit policy.",
+        "axis": {
+          "guarantees": 0.8,
+          "control": 0.05,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0.25,
+              1
+            ],
+            "confidence": "low",
+            "basis": "An imperial hierarchy suppressing machine intelligence plausibly provides weak universal protection, with unknown differences between ranks and worlds.",
+            "source_ids": [
+              "src-algebraist-machine-war",
+              "src-algebraist-martin"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.05,
+              0.25
+            ],
+            "confidence": "medium",
+            "basis": "The biological hierarchy persecutes rather than enfranchises autonomous AIs.",
+            "source_ids": [
+              "src-algebraist-machine-war",
+              "src-algebraist-martin"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.65
+            ],
+            "confidence": "low",
+            "basis": "All-age biological-population scenario retains administrative, productive, military and care work; no machine-war count is used as a civilian labor rate.",
+            "source_ids": [
+              "src-algebraist-machine-war",
+              "src-algebraist-martin"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "qualification": "included",
+        "source_ids": [
+          "src-algebraist-machine-war",
+          "src-algebraist-martin"
+        ],
+        "evidence": [
+          {
+            "claim": "AI persecution is an established imperial policy; later compromise is an interpretation of an open ending.",
+            "source_ids": [
+              "src-algebraist-machine-war",
+              "src-algebraist-martin"
+            ],
+            "locator": "Machine War explanation; Martin pages 186 and 193",
+            "kind": "interpretation"
+          },
+          {
+            "claim": "The Mercatoria persecutes machine intelligence.",
+            "source_ids": [
+              "src-algebraist-machine-war",
+              "src-algebraist-martin"
+            ],
+            "locator": "Named economic, terminal or narrative passages; source read_scope records access limits",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Machine refugees and refuge are part of the described setting.",
+            "source_ids": [
+              "src-algebraist-machine-war",
+              "src-algebraist-martin"
+            ],
+            "locator": "Named economic, terminal or narrative passages; source read_scope records access limits",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "The institutional PDF could only be read in substantial indexed excerpts.",
+          "Normal labor and distribution need primary work beyond the ending exposition.",
+          "New coordinates are editorial scenarios; no canonical census or new full-work reading claimed.",
+          "An imperial hierarchy suppressing machine intelligence plausibly provides weak universal protection, with unknown differences between ranks and worlds.",
+          "All-age biological-population scenario retains administrative, productive, military and care work; no machine-war count is used as a civilian labor rate."
+        ],
+        "assets": {
+          "status": "deferred",
+          "poster": null,
+          "icon": null
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-17",
+          "method": "Individual follow-up against gathered lore; source facts separated from broad central scenarios, no independent reviewer; quality audit separates depicted facts from source absence and open-ending interpretation",
+          "coordinate_ready": true
+        },
+        "regime_analogy": null,
+        "assessment_mode": "best_guess",
+        "best_guess_axes": [
+          "guarantees",
+          "nonworking"
+        ],
+        "qualification_basis": "Earlier source-based inclusion retained; this revision supplies missing coordinates under the requested best-guess policy.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The Mercatoria persecutes machine intelligence.",
+          "Machine refugees and refuge are part of the described setting."
+        ],
+        "editorial_assumptions": [
+          "An imperial hierarchy suppressing machine intelligence plausibly provides weak universal protection, with unknown differences between ranks and worlds.",
+          "All-age biological-population scenario retains administrative, productive, military and care work; no machine-war count is used as a civilian labor rate.",
+          "A later political compromise is an interpretation of an open ending, not an implemented policy counted in this snapshot."
+        ]
+      }
+    }
+  ]
+}
