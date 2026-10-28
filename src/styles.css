@@ -78,7 +78,7 @@ html{scroll-padding-top:52px}
 /* The vertical control axis stays legible without competing with regime plaques. The horizontal axis
    is intentionally split around the centre label so the two coordinate systems do not read as one line. */
 .map-shell{--axis-center-gap:clamp(64px,9vw,120px);--axis-ink:#35564d}
-.plot{inset:22px 0 42px 0}
+.plot{inset:22px 0 22px 0}
 .axis-annotations{position:absolute;inset:0;z-index:8;pointer-events:none}
 .axis-annotation{position:absolute;left:50%;display:flex;align-items:center;justify-content:center;gap:4px;white-space:nowrap;color:var(--axis-ink);font:500 10px/1.2 'Golos Text',Arial,sans-serif;letter-spacing:.1px;text-align:center;background:transparent;border:0;border-radius:0;padding:0;box-shadow:none}
 .axis-annotation strong{font-weight:500}
@@ -102,7 +102,7 @@ html{scroll-padding-top:52px}
 .axis-guarantees .axis-bottom-label b{font-weight:500;color:var(--muted)}
 @media(max-width:740px){
   .map-shell{--axis-center-gap:52px}
-  .plot{inset:18px 0 42px 0}
+  .plot{inset:18px 0 20px 0}
   .axis-annotation{font-size:8px;gap:3px}
   .axis-annotation b{font-size:10px}
   .axis-annotation-top{top:1px}
@@ -243,7 +243,7 @@ table{min-width:1300px}
 .essay-figure{margin:24px 0 26px;padding:0}.essay-figure img{display:block;width:100%;height:auto;max-height:680px;object-fit:contain;border:1px solid var(--line);background:var(--soft)}.essay-section ul,.essay-section ol{font-size:11px;line-height:1.85;margin:0 0 18px;padding-left:22px}.essay-section li{padding-left:4px;margin:5px 0}.essay-section blockquote{margin:8px 0 20px;padding:10px 16px;border-left:2px solid var(--accent);font-size:11px;line-height:1.85;color:var(--muted);font-style:italic}.essay-caption{font-size:12px!important;line-height:1.6!important;color:var(--muted);font-weight:500!important;margin:18px 0 12px!important}.essay-inline-image{max-width:100%;height:auto;vertical-align:middle}.essay-section code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:.9em;background:var(--soft);padding:1px 4px;border-radius:3px}@media(min-width:741px){.expanded .essay-section ul,.expanded .essay-section ol{font-size:16px;line-height:1.95;margin-bottom:25px}.expanded .essay-section blockquote{font-size:16px;line-height:1.9;padding:14px 22px;margin:10px 0 28px}.expanded .essay-caption{font-size:17px!important;margin:28px 0 18px!important}.expanded .essay-figure{margin:34px 0 38px}.expanded .essay-figure img{max-height:900px}}
 /* Final axis treatment: labels live in the map margins and follow the site's quiet type system. */
 .map-shell{--axis-center-gap:clamp(64px,9vw,120px);--axis-ink:#35564d}
-.plot{inset:22px 0 42px 0}
+.plot{inset:22px 0 22px 0}
 .axis-annotations{position:absolute;inset:0;z-index:8;pointer-events:none}
 .axis-annotation{position:absolute;left:50%;display:flex;align-items:center;justify-content:center;gap:4px;white-space:nowrap;color:var(--axis-ink);font:500 10px/1.2 'Golos Text',Arial,sans-serif;letter-spacing:.1px;text-align:center;background:transparent;border:0;border-radius:0;padding:0;box-shadow:none}
 .axis-annotation strong{font-weight:500}
@@ -267,7 +267,7 @@ table{min-width:1300px}
 :root[data-theme=dark] .axis-line.horizontal-left::before,:root[data-theme=dark] .axis-line.horizontal-right::after{border-color:#dce8df88}
 @media(max-width:740px){
   .map-shell{--axis-center-gap:52px}
-  .plot{inset:18px 0 42px 0}
+  .plot{inset:18px 0 20px 0}
   .axis-annotation{font-size:8px;gap:3px}
   .axis-annotation b{font-size:10px}
   .axis-annotation-top{top:1px}

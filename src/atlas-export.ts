@@ -133,9 +133,11 @@ export async function createAtlasPng(plot: HTMLDivElement, labels: HTMLCanvasEle
   const regimeLayer = plot.querySelector<HTMLElement>('.region-labels');
   if (regimeLayer && Number(getComputedStyle(regimeLayer).opacity) > 0) for (const element of plot.querySelectorAll<HTMLElement>('.regime-label')) drawTextElement(ctx, element, localOrigin, true);
   for (const element of plot.querySelectorAll<HTMLElement>('.active-name,.family-map-caption,.family-society-label')) drawTextElement(ctx, element, localOrigin, true);
-  for (const element of shell.querySelectorAll<HTMLElement>('.axis-annotation')) drawTextElement(ctx, element, shellRect, true);
   ctx.restore();
   ctx.strokeStyle = getComputedStyle(plot).borderColor; ctx.lineWidth = 1; ctx.strokeRect(x, y, width, height);
+  // Axis annotations belong to the shell margins, so render them after restoring
+  // the plot translation/clip. Otherwise the plot offset is applied twice in PNGs.
+  for (const element of shell.querySelectorAll<HTMLElement>('.axis-annotation')) drawTextElement(ctx, element, shellRect, true);
   for (const element of shell.querySelectorAll<HTMLElement>('.axis-guarantees > *')) drawTextElement(ctx, element, shellRect);
   return new Promise((resolve, reject) => output.toBlob(blob => blob ? resolve(blob) : reject(new Error('PNG export failed')), 'image/png'));
 }
