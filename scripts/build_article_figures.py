@@ -121,41 +121,50 @@ def control(lang):
 
 
 def guarantees():
-    # Use the website's actual Columns markup and stylesheet; capture only the
-    # mini chart, without the Insight title, explanation or notes.
-    css=(ROOT/'src/fun-data.css').read_text('utf8')
-    fonts=(ROOT/'src/styles.css').read_text('utf8').splitlines()[0]
-    css=fonts+'\n'+css+'''\nhtml,body{margin:0;background:white;color:#25372f;font-family:'Golos Text',Arial,sans-serif}*{box-sizing:border-box}.fun-section{width:420px;padding:0;border:0}.fun-columns{width:420px;max-width:none;margin:0;min-height:218px}'''
-    metrics=[]
-    for without in [True,False]:
-        group=[r for r in RAW if (r['axis']['guarantees']>=0)==without]
-        count=sum(r['utopia_score']<=-.5 for r in group)
-        metrics.append({'count':count,'total':len(group),'percent':round(100*count/len(group))})
-    with sync_playwright() as p:
-        browser=p.chromium.launch(headless=True)
-        page=browser.new_page(viewport={'width':900,'height':400},device_scale_factor=2)
-        for lang in ['ru','en']:
-            labels=['Без гарантий','С гарантиями'] if lang=='ru' else ['Without guarantees','With guarantees']
-            dl='<dl class="fun-columns">'+''.join(f'<div><dt>{lab}</dt><dd class="fun-column"><span class="fun-column-number">{row["percent"]}%</span><i aria-hidden="true" style="height:{row["percent"]*1.4}px"></i></dd></div>' for lab,row in zip(labels,metrics))+'</dl>'
-            content='<!doctype html><html><meta charset="utf-8"><style>'+css+'</style><div class="fun-section">'+dl+'</div></html>'
-            (BUILD/f'guarantees-{lang}.html').write_text(content,encoding='utf8')
-            page.set_content(content,wait_until='load',timeout=20000)
-            page.evaluate('document.fonts.ready')
-            node=page.locator('dl');stem=f'06-guarantees-{lang}'
-            node.screenshot(path=str(OUT/(stem+'.png')))
-            # The optional SVG uses the browser's measured bar and text positions.
-            geometry=node.evaluate('''node=>{const o=node.getBoundingClientRect();return {width:o.width,height:o.height,bars:Array.from(node.querySelectorAll('i')).map(e=>{const r=e.getBoundingClientRect();return {x:r.x-o.x,y:r.y-o.y,w:r.width,h:r.height,color:getComputedStyle(e).backgroundColor}}),texts:Array.from(node.querySelectorAll('dt,span')).map(e=>{const r=e.getBoundingClientRect(),s=getComputedStyle(e);return {text:e.textContent,x:r.x-o.x+r.width/2,y:r.y-o.y+r.height/2,size:s.fontSize,font:s.fontFamily,weight:s.fontWeight,color:s.color,spacing:s.letterSpacing}})}}''')
-            svg=ET.Element('svg',{'xmlns':'http://www.w3.org/2000/svg','viewBox':f'0 0 {geometry["width"]} {geometry["height"]}'})
-            for bar in geometry['bars']:ET.SubElement(svg,'rect',{'x':str(bar['x']),'y':str(bar['y']),'width':str(bar['w']),'height':str(bar['h']),'fill':bar['color'],'rx':'2'})
-            for t in geometry['texts']:
-                e=ET.SubElement(svg,'text',{'x':str(t['x']),'y':str(t['y']),'text-anchor':'middle','dominant-baseline':'central','font-size':t['size'],'font-family':t['font'],'font-weight':t['weight'],'fill':t['color']})
-                if t['spacing']!='normal':e.set('letter-spacing',t['spacing'])
-                e.text=t['text']
-            ET.ElementTree(svg).write(OUT/(stem+'.svg'),encoding='utf-8',xml_declaration=True)
-            FIGURES.append({'key':'06-guarantees','lang':lang,'png':f'assets/infographics/article/{stem}.png','svg':f'assets/infographics/article/{stem}.svg','width':840,'height':round(geometry['height']*2),'website_component':'Columns','percentages':[r['percent'] for r in metrics]})
-        browser.close()
+    """Show the actual utopia-score distribution for post-work regime 2."""
+    scores=np.array([
+        r['utopia_score'] for r in RAW
+        if r.get('post_work_assessment',{}).get('status')=='post_work'
+        and r.get('regime_primary')==2
+    ],dtype=float)
+    assert len(scores)==80
+    dystopia=int(np.sum(scores<0));mixed=int(np.sum(scores==0));utopia=int(np.sum(scores>0))
+    median=float(np.median(scores))
+    bins=np.arange(-1.0,.21,.1)
+    counts,_=np.histogram(scores,bins=bins)
+    metrics=[
+        {'label':'dystopia','count':dystopia,'total':len(scores),'percent':round(100*dystopia/len(scores))},
+        {'label':'mixed','count':mixed,'total':len(scores),'percent':round(100*mixed/len(scores))},
+        {'label':'utopia','count':utopia,'total':len(scores),'percent':round(100*utopia/len(scores))},
+    ]
+    for lang in ['ru','en']:
+        fig=plt.figure(figsize=(12.8,4.8),dpi=125)
+        ax=fig.add_axes([.095,.25,.86,.56])
+        centers=(bins[:-1]+bins[1:])/2
+        colors=['#AD654D']*4+['#C7854D','#D69C46','#7C9B78','#277F75','#277F75','#277F75','#277F75','#277F75']
+        ax.bar(centers,counts,width=.088,color=colors,edgecolor='white',linewidth=1.4,zorder=2)
+        for x,c in zip(centers,counts):
+            if c:
+                ax.text(x,c+.9,str(int(c)),ha='center',va='bottom',fontsize=17,color=INK,fontweight='bold')
+        ax.axvline(median,color=INK,linewidth=2,linestyle=(0,(4,3)),zorder=3)
+        ax.text(median+.018,max(counts)*.83,('медиана' if lang=='ru' else 'median'),rotation=90,ha='left',va='top',fontsize=14,color=MUTED)
+        ax.set_xlim(-1.04,.24);ax.set_ylim(0,max(counts)*1.25)
+        ax.set_xticks([-1,-.8,-.6,-.4,-.2,0,.2])
+        ax.set_xticklabels(['−1','−0,8','−0,6','−0,4','−0,2','0','+0,2'] if lang=='ru' else ['−1','−0.8','−0.6','−0.4','−0.2','0','+0.2'],fontsize=16)
+        ax.set_yticks([])
+        ax.tick_params(axis='x',length=0,pad=10)
+        for s in ax.spines.values():s.set_visible(False)
+        label(fig,.18,.91,f'{metrics[0]["percent"]}%',32,'#AD654D',True,'center')
+        label(fig,.18,.84,'дистопий' if lang=='ru' else 'dystopias',15,MUTED,False,'center')
+        label(fig,.50,.91,f'{metrics[1]["percent"]}%',32,'#7C9B78',True,'center')
+        label(fig,.50,.84,'смешанных' if lang=='ru' else 'mixed',15,MUTED,False,'center')
+        label(fig,.82,.91,f'{metrics[2]["percent"]}%',32,'#277F75',True,'center')
+        label(fig,.82,.84,'утопий' if lang=='ru' else 'utopias',15,MUTED,False,'center')
+        label(fig,.095,.10,'дистопия' if lang=='ru' else 'dystopia',17,'#AD654D',True)
+        label(fig,.955,.10,'утопия' if lang=='ru' else 'utopia',17,'#277F75',True,'right')
+        label(fig,.52,.035,'оценка мира' if lang=='ru' else 'world score',16,MUTED,False,'center')
+        save(fig,'06-guarantees',lang)
     return metrics
-
 
 def block(key,alt):
     return f'![{alt}](assets/infographics/article/{key}-ru.png)\n\n<details markdown="1">\n<summary>English</summary>\n\n![{alt} — English](assets/infographics/article/{key}-en.png)\n\n</details>'
@@ -169,7 +178,7 @@ def embed():
         '03-six-regimes':'![Координаты укладов](reference.png)',
         '04-elite-guarantees-examples':'',
         '05-work-postwork-matrices':block('05-regime-composition','Распределение по укладам'),
-        '06-regime-dystopia':block('06-guarantees','Гарантии и дистопии'),
+        '06-regime-dystopia':block('06-guarantees','Распределение оценок мира во втором укладе'),
         '07-control-dystopia':block('07-control-dystopia','Контроль и дистопии'),
     }
     for old,replacement in replacements.items():
@@ -179,13 +188,20 @@ def embed():
             current={'05-work-postwork-matrices':'05-regime-composition','06-regime-dystopia':'06-guarantees'}.get(old,old)
             if replacement and ('reference.png' if old=='03-six-regimes' else current+'-ru.png') not in source:
                 raise ValueError('Insertion missing: '+old)
+    source=source.replace(
+        '![Гарантии и дистопии](assets/infographics/article/06-guarantees-ru.png)',
+        '![Распределение оценок мира во втором укладе](assets/infographics/article/06-guarantees-ru.png)'
+    ).replace(
+        '![Гарантии и дистопии — English](assets/infographics/article/06-guarantees-en.png)',
+        '![Распределение оценок мира во втором укладе — English](assets/infographics/article/06-guarantees-en.png)'
+    )
     source=re.sub(r'\n{4,}','\n\n\n',source)
     ARTICLE.write_text(source,encoding='utf8',newline='\n')
 
 
 def preview():
     body=markdown.markdown(ARTICLE.read_text('utf8'),extensions=['tables','fenced_code','md_in_html'])
-    css='body{margin:0;color:#203a42;background:#eef2f3;font:19px/1.75 Arial,sans-serif}main{max-width:1000px;padding:35px 35px 65px;margin:auto;background:white}img{max-width:100%;height:auto;display:block;margin:28px auto}img[src*="06-guarantees"]{width:420px}h1{line-height:1.25;margin-top:60px}a{color:#247f75}blockquote{border-left:3px solid #d49a43;padding-left:20px}details{margin:8px 0 24px}summary{cursor:pointer;font-size:14px;color:#62747a}@media(max-width:700px){main{padding:20px 12px;font-size:17px}}'
+    css='body{margin:0;color:#203a42;background:#eef2f3;font:19px/1.75 Arial,sans-serif}main{max-width:1000px;padding:35px 35px 65px;margin:auto;background:white}img{max-width:100%;height:auto;display:block;margin:28px auto}img[src*="06-guarantees"]{width:760px}h1{line-height:1.25;margin-top:60px}a{color:#247f75}blockquote{border-left:3px solid #d49a43;padding-left:20px}details{margin:8px 0 24px}summary{cursor:pointer;font-size:14px;color:#62747a}@media(max-width:700px){main{padding:20px 12px;font-size:17px}}'
     (AUDIT/'article-preview.html').write_text('<!doctype html><html lang="ru"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><base href="../../"><title>Статья</title><style>'+css+'</style><main>'+body+'</main></html>',encoding='utf8')
     pairs=[]
     for key in dict.fromkeys(r['key'] for r in FIGURES):
@@ -214,3 +230,5 @@ def main():
 
 
 if __name__=='__main__':main()
+
+

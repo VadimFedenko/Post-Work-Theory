@@ -14,8 +14,13 @@ function drawField(ctx: CanvasRenderingContext2D, width: number, height: number,
   for (let x = 0; x <= width; x += GRID_STEP) { ctx.moveTo(x, 0); ctx.lineTo(x, height); }
   for (let y = 0; y <= height; y += GRID_STEP) { ctx.moveTo(0, y); ctx.lineTo(width, y); }
   ctx.stroke();
-  ctx.strokeStyle = 'rgba(53,86,77,.333)';
-  ctx.beginPath(); ctx.moveTo(width / 2, 0); ctx.lineTo(width / 2, height); ctx.moveTo(0, height / 2); ctx.lineTo(width, height / 2); ctx.stroke();
+  ctx.strokeStyle = 'rgba(53,86,77,.55)';
+  ctx.beginPath();
+  ctx.moveTo(width / 2, 0); ctx.lineTo(width / 2, height);
+  const gap = Math.min(96, Math.max(46, width * .08));
+  ctx.moveTo(0, height / 2); ctx.lineTo(width / 2 - gap / 2, height / 2);
+  ctx.moveTo(width / 2 + gap / 2, height / 2); ctx.lineTo(width, height / 2);
+  ctx.stroke();
   ctx.restore();
 }
 
@@ -128,6 +133,7 @@ export async function createAtlasPng(plot: HTMLDivElement, labels: HTMLCanvasEle
   const regimeLayer = plot.querySelector<HTMLElement>('.region-labels');
   if (regimeLayer && Number(getComputedStyle(regimeLayer).opacity) > 0) for (const element of plot.querySelectorAll<HTMLElement>('.regime-label')) drawTextElement(ctx, element, localOrigin, true);
   for (const element of plot.querySelectorAll<HTMLElement>('.active-name,.family-map-caption,.family-society-label')) drawTextElement(ctx, element, localOrigin, true);
+  for (const element of shell.querySelectorAll<HTMLElement>('.axis-annotation')) drawTextElement(ctx, element, shellRect, true);
   ctx.restore();
   ctx.strokeStyle = getComputedStyle(plot).borderColor; ctx.lineWidth = 1; ctx.strokeRect(x, y, width, height);
   for (const element of shell.querySelectorAll<HTMLElement>('.axis-guarantees > *')) drawTextElement(ctx, element, shellRect);

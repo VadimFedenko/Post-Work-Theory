@@ -92,10 +92,14 @@ const Atlas = forwardRef<AtlasHandle, Props>(function Atlas({ data, lang, theme,
     if (n !== region.current) { region.current = n; onRegion(n); }
   };
   return <div className="map-shell" data-theme={theme}>
+    <div className="axis-annotations" aria-hidden="true">
+      <span className="axis-annotation axis-annotation-top"><b>↑ </b><strong>{t.axisSociety}</strong></span>
+      <span className="axis-annotation axis-annotation-center"><b>↑ </b><strong>{t.axisElites}</strong><b> ↓</b></span>
+    </div>
     <div className={'plot' + (hasFamily ? ' has-family' : '')} ref={host}>
       <ColorField width={size.width} height={size.height} />
       <div className="plot-grid" data-grid-step={GRID_STEP} aria-hidden="true" style={{ backgroundSize: `${GRID_STEP}px ${GRID_STEP}px` }} />
-      <div className="axis-line vertical" /><div className="axis-line horizontal" />
+      <div className="axis-line vertical" /><div className="axis-line horizontal horizontal-left" /><div className="axis-line horizontal horizontal-right" />
       {hasFamily && <svg className="family-graph" aria-hidden="true" viewBox={`0 0 ${size.width} ${size.height}`}>
         {connections.map(link => <g key={link.id} data-related-id={link.id}><line className="family-link-halo" x1={link.x1} y1={link.y1} x2={link.x2} y2={link.y2} /><line className="family-link" x1={link.x1} y1={link.y1} x2={link.x2} y2={link.y2} /></g>)}
         {familyPoints.map(p => <g key={p.record.id}>{markerShape(p.record.post_work_status) === 'circle' ? <><circle className="family-ring-halo" cx={p.x} cy={p.y} r={p.radius + 4} /><circle className="family-ring" cx={p.x} cy={p.y} r={p.radius + 4} /></> : <><polygon className="family-ring-halo" points={pentagonPoints(p.x, p.y, p.radius + 4)} /><polygon className="family-ring" points={pentagonPoints(p.x, p.y, p.radius + 4)} /></>}</g>)}
@@ -137,7 +141,7 @@ const Atlas = forwardRef<AtlasHandle, Props>(function Atlas({ data, lang, theme,
       <div className="family-society-labels">{familyLabels.map(label => <span className={'family-society-label' + (label.id === selected ? ' is-active' : '')} key={label.id} data-society-id={label.id} aria-label={label.text} title={label.text} style={{ left: label.x, top: label.y, width: label.w, height: label.h }}>{label.lines.join('\n')}</span>)}</div>
       {hasFamily && activePoint && <span className="family-map-caption">{familyName(activePoint.record)} · {familyPoints.length} {t.relatedOnMap}</span>}
     </div>
-    <div className="axis-guarantees"><span>← {t.guarantees}</span><strong>{t.guaranteeAxis}</strong><span>{t.noGuarantees} →</span></div>
+    <div className="axis-guarantees"><span>← {t.guarantees}</span><strong className="axis-bottom-label"><b>↓ </b>{t.axisAI}</strong><span>{t.noGuarantees} →</span></div>
   </div>;
 });
 export default Atlas;

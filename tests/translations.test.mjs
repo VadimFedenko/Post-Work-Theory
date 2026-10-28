@@ -14,6 +14,7 @@ test('every society has a Russian description matching the current English sourc
   for (const source of societies) {
     const record = await readJSON(`../public/data/records/${source.id}.json`);
     assert.equal(record.description, source.description, `${source.id}: English source preserved`);
+    assert.equal(catalog.translations[source.id].translation_method, 'direct_from_english', source.id);
     assert.equal(record.post_work_assessment.basis, source.post_work_assessment.basis);
     const ru = recordText(record, 'ru');
     assert.equal(ru.description, catalog.translations[source.id].description, source.id);
@@ -47,4 +48,6 @@ test('incomplete, orphaned or stale translations cannot enter the web build', ()
   assert.throws(() => validateTranslations([{ ...first, description: first.description + ' New evidence.' }], one), /Stale Russian translation/);
   const empty = { ...one.translations[first.id], description: '' };
   assert.throws(() => validateTranslations([first], { ...one, translations: { [first.id]: empty } }), /Missing Russian description/);
+  const machineDraft = { ...one.translations[first.id], translation_method: undefined };
+  assert.throws(() => validateTranslations([first], { ...one, translations: { [first.id]: machineDraft } }), /still needs direct translation/);
 });

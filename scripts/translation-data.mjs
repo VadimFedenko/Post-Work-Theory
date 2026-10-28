@@ -14,6 +14,7 @@ export function validateTranslations(societies, catalog) {
   for (const record of societies) {
     const translation = catalog.translations[record.id];
     if (!translation) throw new Error(`Missing Russian translation: ${record.id}`);
+    if (translation.translation_method !== 'direct_from_english') throw new Error(`Russian description still needs direct translation: ${record.id}`);
     if (translation.source_sha256 !== translationSourceHash(record)) throw new Error(`Stale Russian translation: ${record.id}`);
     for (const field of ['description', 'economy_basis']) {
       if (typeof translation[field] !== 'string' || !/[А-Яа-яЁё]/u.test(translation[field])) {

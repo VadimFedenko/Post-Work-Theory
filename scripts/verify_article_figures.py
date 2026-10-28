@@ -31,8 +31,8 @@ def main():
         assert not re.search(r'[CD]:[\\/]',text)
         if fig['lang']=='en':assert not re.search('[А-Яа-яЁё]',text)
         if fig['key']=='06-guarantees':
-            assert '58%' in text and '14%' in text
-            assert len(svg.findall('.//{http://www.w3.org/2000/svg}rect'))==2
+            assert all(x in text for x in ['95%','1%','4%'])
+            assert ('медиана' in text) if fig['lang']=='ru' else ('median' in text)
         if fig['key']=='05-regime-composition':
             assert all(str(n) in text for n in [345,75,470])
             assert ('65,5%' if fig['lang']=='ru' else '65.5%') in text
@@ -55,7 +55,7 @@ def main():
     assert not collisions,collisions
     result={'generated_images':8,'original_reference':True,'article_placements':5,'languages':['ru','en'],
             'no_generated_titles_sources_or_commentary':True,'article_has_no_methodology_links':True,
-            'guarantees_percentages':[r['percent'] for r in manifest['guarantees']],'text_collisions':collisions}
+            'regime2_distribution_percentages':[r['percent'] for r in manifest['guarantees']],'text_collisions':collisions}
     (AUDIT/'validation.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     print(json.dumps(result,ensure_ascii=False))
 

@@ -54,39 +54,37 @@
       "lang": "ru",
       "png": "assets/infographics/article/06-guarantees-ru.png",
       "svg": "assets/infographics/article/06-guarantees-ru.svg",
-      "width": 840,
-      "height": 436,
-      "website_component": "Columns",
-      "percentages": [
-        58,
-        14
-      ]
+      "width": 1600,
+      "height": 600
     },
     {
       "key": "06-guarantees",
       "lang": "en",
       "png": "assets/infographics/article/06-guarantees-en.png",
       "svg": "assets/infographics/article/06-guarantees-en.svg",
-      "width": 840,
-      "height": 436,
-      "website_component": "Columns",
-      "percentages": [
-        58,
-        14
-      ]
+      "width": 1600,
+      "height": 600
     }
   ],
   "reference": "reference.png",
   "guarantees": [
     {
-      "count": 302,
-      "total": 520,
-      "percent": 58
+      "label": "dystopia",
+      "count": 76,
+      "total": 80,
+      "percent": 95
     },
     {
-      "count": 51,
-      "total": 370,
-      "percent": 14
+      "label": "mixed",
+      "count": 1,
+      "total": 80,
+      "percent": 1
+    },
+    {
+      "label": "utopia",
+      "count": 3,
+      "total": 80,
+      "percent": 4
     }
   ],
   "style": "minimal inline figures; no titles, sources or commentary"
