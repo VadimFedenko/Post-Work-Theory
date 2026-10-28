@@ -127,6 +127,9 @@ function inline(text: string): ReactNode[] {
   return pieces;
 }
 
+function displayChapterTitle(chapter: Chapter, lang: Lang) {
+  return chapter.id === 'chapter-1' ? (lang === 'ru' ? 'Термины' : 'Terms') : chapter.title;
+}
 function renderBlock(block: Block, index: number) {
   if (block.kind === 'image') return <figure className="essay-figure" key={index}><img src={block.src} alt={block.alt} loading="lazy" /></figure>;
   if (block.kind === 'blockquote') return <blockquote key={index}>{inline(block.text)}</blockquote>;
@@ -159,8 +162,8 @@ export default function Article({ lang, expanded, region, onExpand, onBack }: { 
     <div className="article-scroll" ref={scroll} onWheel={() => { manual.current = Date.now() + 1800; }} onTouchStart={() => { manual.current = Date.now() + 1800; }}>
       <div className="article-inner">
         <header className="essay-heading"><h2>{t.articleTitle}</h2><p>{t.articleDesc}</p><div className="essay-rule" /></header>
-        <nav className="essay-toc" aria-label={t.contents}><span className="eyebrow">{t.contents}</span>{chapters.map((chapter, index) => <button key={chapter.id} onClick={() => { manual.current = Date.now() + 2500; moveTo(chapter.id); }}><span>{chapter.number ? String(chapter.number).padStart(2, '0') : String(index).padStart(2, '0')}</span>{chapter.title || t.intro}<ArrowUpRight size={12} /></button>)}</nav>
-        {chapters.map(chapter => <section key={chapter.id} ref={node => { targets.current[chapter.id] = node; }} className={'essay-section ' + (chapter.number === region ? 'current' : '')} data-chapter={chapter.id}>{chapter.title && <h2><span>{chapter.number ? String(chapter.number).padStart(2, '0') : '↗'}</span>{chapter.title}</h2>}{chapter.blocks.map(renderBlock)}</section>)}
+        <nav className="essay-toc" aria-label={t.contents}><span className="eyebrow">{t.contents}</span>{chapters.map((chapter, index) => <button key={chapter.id} onClick={() => { manual.current = Date.now() + 2500; moveTo(chapter.id); }}><span>{chapter.number ? String(chapter.number).padStart(2, '0') : String(index).padStart(2, '0')}</span>{displayChapterTitle(chapter, lang) || t.intro}<ArrowUpRight size={12} /></button>)}</nav>
+        {chapters.map(chapter => <section key={chapter.id} ref={node => { targets.current[chapter.id] = node; }} className={'essay-section ' + (chapter.number === region ? 'current' : '')} data-chapter={chapter.id}>{displayChapterTitle(chapter, lang) && <h2><span>{chapter.number ? String(chapter.number).padStart(2, '0') : '↗'}</span>{displayChapterTitle(chapter, lang)}</h2>}{chapter.blocks.map(renderBlock)}</section>)}
         <footer className="essay-footer">{t.estimates}<br />{t.enData}{expanded && <p><Credits /></p>}</footer>
       </div>
     </div>
