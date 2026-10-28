@@ -31,7 +31,7 @@ export const copy = {
     download: 'Скачать CSV', prev: 'Назад', next: 'Далее', of: 'из', methodology: 'Обозначения и шкалы',
     methodologyText: 'По горизонтали — гарантии доступа к благам: широкие слева, отсутствуют справа. По вертикали — кто контролирует ИИ: общество сверху, элиты в центре, автономный ИИ снизу. Размер иконки зависит от популярности произведения, цвет — от утопичности общества; предельный цвет достигается при ±0,7. Круг — посттрудовое общество, пятиугольник — переходное или трудовое. Каждое общество показано отдельно. Иконки раздвинуты для читаемости без изменения исходных данных.',
     scales: 'Шкалы 0–100: гарантии — от отсутствующих до широких; контроль — автономный ИИ (0), элиты (50), общество (100); утопичность — от дистопии до утопии. Это условные баллы, не проценты.',
-    light: 'Светлая тема', dark: 'Тёмная тема', back: 'К карте', translation: 'Английская версия статьи пока не добавлена.', translationSub: 'Карта, таблица и описания обществ доступны на английском. Для чтения статьи переключите язык на русский.',
+    light: 'Светлая тема', dark: 'Тёмная тема', back: 'К карте', translation: 'Английская версия статьи доступна.', translationSub: 'Полный английский текст статьи и англоязычные инфографики доступны в режиме чтения.',
   },
   en: {
     brand: 'Post-work societies', societies: 'Societies', article: 'Article', funData: 'Fun data', table: 'Table',
@@ -64,7 +64,7 @@ export const copy = {
     download: 'Download CSV', prev: 'Previous', next: 'Next', of: 'of', methodology: 'Key and scales',
     methodologyText: 'Horizontal: guarantees of material provision, broad on the left and absent on the right. Vertical: who controls AI, society at the top, elites in the centre, autonomous AI at the bottom. Icon size reflects the popularity of the work; colour reflects the society’s utopian character, reaching full saturation at ±0.7. Circles indicate post-work societies; pentagons indicate transitional or work-based societies. Every society is separate. Icons are displaced for readability without changing the underlying data.',
     scales: '0–100 scales: guarantees range from absent to broad; control runs from autonomous AI (0), through elites (50), to society (100); utopian character runs from dystopia to utopia. Scores are not percentages.',
-    light: 'Light theme', dark: 'Dark theme', back: 'Back to map', translation: 'The English article has not been added yet.', translationSub: 'The map, table and society descriptions are available in English. Switch to Russian to read the article.',
+    light: 'Light theme', dark: 'Dark theme', back: 'Back to map', translation: 'The English article is available.', translationSub: 'The full English article and English infographics are available in reading mode.',
   },
 };
 export const societyTypes: Record<Lang, Record<SocietyStatus, string>> = {
