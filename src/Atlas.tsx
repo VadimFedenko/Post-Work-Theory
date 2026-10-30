@@ -1,6 +1,6 @@
 import { forwardRef, useEffect, useImperativeHandle, useMemo, useRef, useState } from 'react';
 import type { Lang, Society } from './types';
-import { copy, regimes, societyTypes } from './i18n';
+import { copy, societyTypes } from './i18n';
 import { utopiaColor } from '../scripts/atlas-model.mjs';
 import { layoutSocieties } from '../scripts/atlas-layout.mjs';
 import { layoutAtlasLabels } from '../scripts/atlas-labels.mjs';
@@ -9,6 +9,7 @@ import { layoutFamilyLabels } from '../scripts/family-labels.mjs';
 import { GRID_STEP } from '../scripts/atlas-style.mjs';
 import { createAtlasPng } from './atlas-export';
 import ColorField from './ColorField';
+import CompassFrame from './CompassFrame';
 import SocietyIcon from './SocietyIcon';
 import { markerShape, pentagonPoints } from '../scripts/society-status.mjs';
 
@@ -35,13 +36,7 @@ const Atlas = forwardRef<AtlasHandle, Props>(function Atlas({ data, lang, theme,
   }, []);
   useEffect(() => { hovered.current = null; }, [data]);
   const points: Point[] = useMemo(() => {
-    const w = size.width, h = size.height, labelWidth = Math.min(280, w * .43);
-    const reserved = [0, 1].flatMap(side => [
-      { x: side ? w - labelWidth - 8 : 8, y: 0, width: labelWidth, height: 34 },
-      { x: side ? w - labelWidth - 8 : 8, y: h / 2 - 16, width: labelWidth, height: 32 },
-      { x: side ? w - labelWidth - 8 : 8, y: h - 34, width: labelWidth, height: 34 },
-    ]);
-    return layoutSocieties(data, w, h, reserved);
+    return layoutSocieties(data, size.width, size.height, []);
   }, [data, size]);
   const activePoint = points.find(p => p.record.id === selected);
   const activeFamily = activePoint ? familyKey(activePoint.record) : null;
@@ -91,29 +86,17 @@ const Atlas = forwardRef<AtlasHandle, Props>(function Atlas({ data, lang, theme,
     const n = regionOrder[Math.max(0, Math.min(2, Math.floor(wy * 3))) * 2 + (wx < .5 ? 0 : 1)];
     if (n !== region.current) { region.current = n; onRegion(n); }
   };
-  return <div className="map-shell" data-theme={theme}>
-    <div className="axis-annotations" aria-hidden="true">
-      <span className="axis-annotation axis-annotation-top"><b>↑ </b><strong>{t.axisSociety}</strong></span>
-      <span className="axis-annotation axis-annotation-center"><b>↑ </b><strong>{t.axisElites}</strong><b> ↓</b></span>
-    </div>
+  return <div className="map-shell compass-shell" data-theme={theme}>
+    <CompassFrame width={size.width + 34} height={size.height + 36} lang={lang} />
     <div className={'plot' + (hasFamily ? ' has-family' : '')} ref={host}>
       <ColorField width={size.width} height={size.height} />
       <div className="plot-grid" data-grid-step={GRID_STEP} aria-hidden="true" style={{ backgroundSize: `${GRID_STEP}px ${GRID_STEP}px` }} />
-      <div className="axis-line vertical" /><div className="axis-line horizontal horizontal-left" /><div className="axis-line horizontal horizontal-right" />
+      <svg className="zone-guides" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><path d="M50 0V100 M0 33.333H100 M0 66.667H100" /></svg>
       {hasFamily && <svg className="family-graph" aria-hidden="true" viewBox={`0 0 ${size.width} ${size.height}`}>
         {connections.map(link => <g key={link.id} data-related-id={link.id}><line className="family-link-halo" x1={link.x1} y1={link.y1} x2={link.x2} y2={link.y2} /><line className="family-link" x1={link.x1} y1={link.y1} x2={link.x2} y2={link.y2} /></g>)}
         {familyPoints.map(p => <g key={p.record.id}>{markerShape(p.record.post_work_status) === 'circle' ? <><circle className="family-ring-halo" cx={p.x} cy={p.y} r={p.radius + 4} /><circle className="family-ring" cx={p.x} cy={p.y} r={p.radius + 4} /></> : <><polygon className="family-ring-halo" points={pentagonPoints(p.x, p.y, p.radius + 4)} /><polygon className="family-ring" points={pentagonPoints(p.x, p.y, p.radius + 4)} /></>}</g>)}
         {familyLabels.filter(label => label.leader).map(label => <line className="family-label-link" key={'label-' + label.id} x1={label.leader!.x1} y1={label.leader!.y1} x2={label.leader!.x2} y2={label.leader!.y2} />)}
       </svg>}
-      <div className={'region-labels ' + (!data.length ? 'empty' : '')}>
-        {regionOrder.map((n, index) => {
-          const corner = index !== 2 && index !== 3;
-          return <button className={'regime-label direction-label label-' + index + (corner ? ' corner-label' : '')} key={n} onClick={() => onRegion(n)}>
-            <svg className="regime-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polygon points={corner ? '2,2 16,2 16,7 10.5,7 22,18.5 18.5,22 7,10.5 7,16 2,16' : '2,12 12,2 15.5,5.5 11.5,9.5 22,9.5 22,14.5 11.5,14.5 15.5,18.5 12,22'} /></svg>
-            <span className="regime-label-box"><span className="regime-number">{String(n).padStart(2, '0')}</span><span className="regime-name">{regimes[lang][n]}</span></span>
-          </button>;
-        })}
-      </div>
       <canvas ref={canvas} role="img" aria-label={lang === 'ru' ? 'Карта: ' + data.length + ' отдельных обществ. ' + t.hint : 'Map: ' + data.length + ' individual societies. ' + t.hint} data-point-count={points.length}
         onPointerMove={e => {
           const r = e.currentTarget.getBoundingClientRect(), x = e.clientX - r.left, y = e.clientY - r.top;
@@ -141,7 +124,6 @@ const Atlas = forwardRef<AtlasHandle, Props>(function Atlas({ data, lang, theme,
       <div className="family-society-labels">{familyLabels.map(label => <span className={'family-society-label' + (label.id === selected ? ' is-active' : '')} key={label.id} data-society-id={label.id} aria-label={label.text} title={label.text} style={{ left: label.x, top: label.y, width: label.w, height: label.h }}>{label.lines.join('\n')}</span>)}</div>
       {hasFamily && activePoint && <span className="family-map-caption">{familyName(activePoint.record)} · {familyPoints.length} {t.relatedOnMap}</span>}
     </div>
-    <div className="axis-guarantees"><span>← {t.guarantees}</span><strong className="axis-bottom-label"><b>↓ </b>{t.axisAI}</strong><span>{t.noGuarantees} →</span></div>
   </div>;
 });
 export default Atlas;

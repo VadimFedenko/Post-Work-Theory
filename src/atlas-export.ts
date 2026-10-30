@@ -14,12 +14,12 @@ function drawField(ctx: CanvasRenderingContext2D, width: number, height: number,
   for (let x = 0; x <= width; x += GRID_STEP) { ctx.moveTo(x, 0); ctx.lineTo(x, height); }
   for (let y = 0; y <= height; y += GRID_STEP) { ctx.moveTo(0, y); ctx.lineTo(width, y); }
   ctx.stroke();
-  ctx.strokeStyle = 'rgba(53,86,77,.55)';
+  ctx.strokeStyle = 'rgba(53,86,77,.4)';
   ctx.beginPath();
   ctx.moveTo(width / 2, 0); ctx.lineTo(width / 2, height);
-  const gap = Math.min(96, Math.max(46, width * .08));
-  ctx.moveTo(0, height / 2); ctx.lineTo(width / 2 - gap / 2, height / 2);
-  ctx.moveTo(width / 2 + gap / 2, height / 2); ctx.lineTo(width, height / 2);
+  ctx.moveTo(0, height / 3); ctx.lineTo(width, height / 3);
+  ctx.moveTo(0, height * 2 / 3); ctx.lineTo(width, height * 2 / 3);
+  ctx.setLineDash([6, 6]);
   ctx.stroke();
   ctx.restore();
 }
@@ -93,7 +93,7 @@ export async function createAtlasPng(plot: HTMLDivElement, labels: HTMLCanvasEle
   output.width = Math.round(shellRect.width * resolution); output.height = Math.round(shellRect.height * resolution);
   const ctx = output.getContext('2d'); if (!ctx) throw new Error('Canvas is unavailable');
   ctx.scale(resolution, resolution);
-  ctx.fillStyle = getComputedStyle(document.documentElement).getPropertyValue('--page').trim(); ctx.fillRect(0, 0, shellRect.width, shellRect.height);
+  ctx.fillStyle = '#101f22'; ctx.fillRect(0, 0, shellRect.width, shellRect.height);
   const sprites = [...plot.querySelectorAll<HTMLButtonElement>('.map-sprite')];
   await settleWithin(Promise.all(sprites.flatMap(element => { const img = element.querySelector('img'); return img && !img.complete ? [img.decode().catch(() => {})] : []; })), 1800);
   const x = plotRect.left - shellRect.left + plot.clientLeft, y = plotRect.top - shellRect.top + plot.clientTop;
@@ -134,10 +134,15 @@ export async function createAtlasPng(plot: HTMLDivElement, labels: HTMLCanvasEle
   if (regimeLayer && Number(getComputedStyle(regimeLayer).opacity) > 0) for (const element of plot.querySelectorAll<HTMLElement>('.regime-label')) drawTextElement(ctx, element, localOrigin, true);
   for (const element of plot.querySelectorAll<HTMLElement>('.active-name,.family-map-caption,.family-society-label')) drawTextElement(ctx, element, localOrigin, true);
   ctx.restore();
-  ctx.strokeStyle = getComputedStyle(plot).borderColor; ctx.lineWidth = 1; ctx.strokeRect(x, y, width, height);
-  // Axis annotations belong to the shell margins, so render them after restoring
-  // the plot translation/clip. Otherwise the plot offset is applied twice in PNGs.
-  for (const element of shell.querySelectorAll<HTMLElement>('.axis-annotation')) drawTextElement(ctx, element, shellRect, true);
-  for (const element of shell.querySelectorAll<HTMLElement>('.axis-guarantees > *')) drawTextElement(ctx, element, shellRect);
+  const frame = shell.querySelector<SVGSVGElement>('.compass-frame');
+  if (frame) {
+    const clone = frame.cloneNode(true) as SVGSVGElement;
+    clone.setAttribute('width', String(shellRect.width)); clone.setAttribute('height', String(shellRect.height));
+    const url = URL.createObjectURL(new Blob([new XMLSerializer().serializeToString(clone)], { type: 'image/svg+xml' }));
+    try {
+      const img = new Image(); img.src = url; await img.decode();
+      ctx.drawImage(img, 0, 0, shellRect.width, shellRect.height);
+    } finally { URL.revokeObjectURL(url); }
+  }
   return new Promise((resolve, reject) => output.toBlob(blob => blob ? resolve(blob) : reject(new Error('PNG export failed')), 'image/png'));
 }

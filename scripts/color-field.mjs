@@ -34,7 +34,7 @@ export function createColorField(width, height) {
     }
     for (let y = 0, p = 0; y < height; y++) for (let x = 0; x < width; x++, p += 4) {
       const u = x / (width - 1) + rowX[y] + columnX[x];
-      const v = Math.max(0, Math.min(1, y / (height - 1) + columnY[x] + rowY[y]));
+      const v = Math.max(0, Math.min(1, y / (height - 1) + (columnY[x] + rowY[y]) * .2));
       const at = Math.round(v * (steps - 1)) * 3;
       const mix = Math.max(0, Math.min(1, (u - .44) / .12));
       for (let c = 0; c < 3; c++) pixels[p + c] = left[at + c] + (right[at + c] - left[at + c]) * mix;

@@ -316,3 +316,14 @@ table{min-width:1300px}
 :root[data-theme=dark] .axis-line.vertical::before,:root[data-theme=dark] .axis-line.vertical::after{border-color:#35564d88}
 .axis-line.horizontal-left::before,.axis-line.horizontal-right::after,
 :root[data-theme=dark] .axis-line.horizontal-left::before,:root[data-theme=dark] .axis-line.horizontal-right::after{border-color:#35564d88}
+
+/* Reference compass: one continuous plot, with its scale in narrow margins. */
+.compass-shell{background:#101f22;--map-label-background:rgba(17,31,27,.9);--map-label-foreground:#edf3df}
+.compass-shell .plot{inset:36px 0 0 34px;border:0;border-radius:4px;clip-path:polygon(28px 0,100% 0,100% 100%,0 100%,0 28px)}
+.compass-frame{position:absolute;inset:0;width:100%;height:100%;z-index:7;pointer-events:none}
+.compass-shell .plot-grid{z-index:1;background-image:linear-gradient(#fff2 1px,transparent 1px),linear-gradient(90deg,#fff2 1px,transparent 1px);background-position:0 0;opacity:1}
+.compass-shell .zone-guides{position:absolute;inset:0;width:100%;height:100%;z-index:2;pointer-events:none;overflow:visible}
+.zone-guides path{fill:none;stroke:#35564d66;stroke-width:1;stroke-dasharray:6 6;vector-effect:non-scaling-stroke}
+.map-explainer{margin:5px 0 4px 34px;font-size:10px;line-height:1.5;color:var(--muted)}
+@media(min-width:741px){.atlas-workspace{grid-template-columns:minmax(0,1fr) 210px;gap:12px}.atlas-workspace>.article-panel{padding-left:12px}.atlas-workspace .essay-heading h2{font-size:21px}}
+@media(max-width:740px){.map-column{min-height:580px}.map-explainer{font-size:9px}}
