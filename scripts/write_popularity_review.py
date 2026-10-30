@@ -58,6 +58,7 @@ NOTES = {
     648: 'Kept separate from Noon Universe: a related author/character or disputed chronology does not automatically establish one recognition franchise.',
     652: 'Rated as the Alisa Seleznyova / Guest from the Future property, with strong Russian-speaking regional recognition.',
     658: 'Large and durable German-language SF recognition is credited; strong sales in one language are not equated with universal global familiarity.',
+    674: 'A widely recognized international game across multiple platforms; all three selected societies inherit the game score rather than the obscurity of their particular lore.',
 }
 SUBJECT_NAMES = {
     6: 'Noon Universe', 40: 'The Star Diaries', 124: 'Frostpunk', 141: 'Alastor trilogy',
@@ -142,12 +143,14 @@ def main():
             basis += ' ' + ' '.join(notes)
         overlay['subjects'][sid] = {
             'name': g['name'], 'score': score,
-            'subject_type': 'franchise_or_series' if len(g['members']) > 1 or n in SERIES_SINGLETONS or n in SUBJECT_NAMES else 'work',
+            'subject_type': g.get('subject_type', 'franchise_or_series' if len(g['members']) > 1 or n in SERIES_SINGLETONS or n in SUBJECT_NAMES else 'work'),
             'recognition_band': band(score), 'basis': basis,
             'work_labels': [works[i] for i in sorted(g['members'])],
             'manual_work_indices': sorted(g['members']),
             'reference_ids': list(dict.fromkeys(ref for i in g['members'] for ref in references['work_reference_ids'].get(str(i), []))),
         }
+        if g.get('assessed_on'):
+            overlay['subjects'][sid]['assessed_on'] = g['assessed_on']
     work_to_subject = {works[n]: sid for n, sid in membership.items()}
     for r in records:
         overlay['assignments'][r['id']] = {

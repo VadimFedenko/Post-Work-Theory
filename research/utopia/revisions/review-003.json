@@ -1,0 +1,90 @@
+{
+  "revision": 3,
+  "reviewed_on": "2026-10-30",
+  "reason": "Add three source-reviewed Genshin societies under the user limit; preserve all 890 existing assessments.",
+  "before_overlay_sha256": "b4570e9a3969dc187749d32be4948d04c467348b4be98385e75d759fa6d87b8d",
+  "after_overlay_sha256": "12e0ebcafeae6baf5e86a02c8c3969d52b64e297262e5dcd0c53a886546534f7",
+  "changes": [
+    {
+      "id": "genshin-fontaine-clockwork-economy",
+      "before": null,
+      "after": {
+        "score": 0.1,
+        "reviewed_record_sha256": "6a0cb93e0cd7e1c2701cc027e1f6ec5ee8831d4ff5f9f80375a8a5f3830a325e",
+        "assessment": {
+          "assessment_mode": "editorial_best_guess",
+          "confidence": "low",
+          "basis": "Urban services and technological comfort coexist with visible poverty and unequal access; this rates the functioning civilian economy before the prophecy crisis.",
+          "rationale_code": "B",
+          "scope_basis": "Existing record population, continuity and period; described exploitation or exclusion qualifies enclave benefits.",
+          "source_ids": [
+            "src-genshin-fontaine-official",
+            "src-genshin-construction-mek"
+          ],
+          "assessed_on": "2026-10-30",
+          "scale_version": "1.0"
+        }
+      }
+    },
+    {
+      "id": "genshin-deshret-automaton-civilization",
+      "before": null,
+      "after": {
+        "score": 0.0,
+        "reviewed_record_sha256": "53b3ed08d968c0c6e2742dbc510596d1f26e431aebb1b000ab40bb92446fb3e0",
+        "assessment": {
+          "assessment_mode": "editorial_best_guess",
+          "confidence": "low",
+          "basis": "The functioning kingdom’s ordinary living conditions are underdescribed; a promised paradise and later catastrophe do not supply a reliable everyday wellbeing assessment.",
+          "rationale_code": "U",
+          "scope_basis": "Existing record population, continuity and period; described exploitation or exclusion qualifies enclave benefits.",
+          "source_ids": [
+            "src-genshin-deshret-construct",
+            "src-genshin-deshret-network"
+          ],
+          "assessed_on": "2026-10-30",
+          "scale_version": "1.0"
+        }
+      }
+    },
+    {
+      "id": "genshin-ancient-dragon-city-overseers",
+      "before": null,
+      "after": {
+        "score": 0.0,
+        "reviewed_record_sha256": "25ea630149826f350505af6668dc039cf75510daca0a8c8f3002fe75f83cbdb5",
+        "assessment": {
+          "assessment_mode": "editorial_best_guess",
+          "confidence": "low",
+          "basis": "Large technical capacity and machine administration do not establish everyday security or civic freedom for the living dragon residents; the estimate remains near neutral.",
+          "rationale_code": "U",
+          "scope_basis": "Existing record population, continuity and period; described exploitation or exclusion qualifies enclave benefits.",
+          "source_ids": [
+            "src-genshin-dragon-overseer",
+            "src-genshin-dragon-city"
+          ],
+          "assessed_on": "2026-10-30",
+          "scale_version": "1.0"
+        }
+      }
+    }
+  ],
+  "supplemental_sources": {
+    "utopia-scythe-publisher": {
+      "title": "Scythe — official publisher synopsis and Chapter 1 excerpt",
+      "url": "https://www.simonandschuster.com/books/Scythe/Neal-Shusterman/Arc-of-a-Scythe/9781442472433",
+      "kind": "publisher_synopsis_and_primary_excerpt",
+      "accessed_on": "2026-10-21",
+      "read_scope": "About the Book and short Chapter 1 passage: material safety coexists with Scythes assigned to end lives for population control.",
+      "limitations": "No full-novel reading; the numeric score remains editorial."
+    },
+    "utopia-worldinside-sfe": {
+      "title": "The Encyclopedia of Science Fiction — Robert Silverberg",
+      "url": "https://sf-encyclopedia.com/entry/silverberg_robert",
+      "kind": "secondary_reference",
+      "accessed_on": "2026-10-21",
+      "read_scope": "Bounded paragraph characterizing The World Inside as a dystopian Urbmon society under high population density.",
+      "limitations": "Supports the broad characterization, not every social rule."
+    }
+  }
+}

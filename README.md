@@ -6,7 +6,7 @@ What happens to society when AI and robots can take over production, and a job
 ceases to be the main way people obtain a livelihood?
 
 **Post-Work Theory** explores that question through science fiction. Its
-interactive map brings together **890 societies** from books, films, television,
+interactive map brings together **893 societies** from books, films, television,
 games, anime and comics — from the Federation in *Star Trek* and the Noon
 Universe to the worlds of *WALL-E*, *Manna*, *The Matrix* and *Dune*.
 

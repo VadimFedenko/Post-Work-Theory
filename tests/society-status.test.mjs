@@ -12,7 +12,7 @@ test('the web index preserves the three assessed statuses, including the 75 part
     assert.equal(byId.get(record.id).post_work_status, record.post_work_assessment.status, record.id);
     assert.equal(byId.get(record.id).wage_dependence, record.post_work_assessment.wage_dependence, record.id);
   }
-  assert.deepEqual(countSocietyStatuses(index), { all: 890, post_work: 470, transition: 75, zero_variant: 345 });
+  assert.deepEqual(countSocietyStatuses(index), { all: 893, post_work: 470, transition: 75, zero_variant: 348 });
   const partial = index.filter(record => record.post_work_status === 'transition');
   assert.equal(partial.length, 75);
   assert.ok(partial.every(record => record.record_type === 'post_work' && markerShape(record.post_work_status) === 'pentagon'));

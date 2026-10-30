@@ -176,7 +176,19 @@ def main():
     }
     if (ROOT / 'data/taxonomy.json').exists():
         from validate_article import validate as validate_alignment
-        alignment = validate_alignment()
+        try:
+            alignment = validate_alignment()
+        except FileNotFoundError as error:
+            if Path(error.filename) != ROOT / 'article.txt':
+                raise
+            # Keep current corpus counts visible without claiming that a missing
+            # authoritative article was checked or suppressing the failure.
+            summary['taxonomy_version'] = json.loads((ROOT / 'data/taxonomy.json').read_text(encoding='utf-8'))['taxonomy_version']
+            summary['article_alignment'] = {'status': 'source_file_missing', 'source_path': 'article.txt'}
+            summary['data_ready_for_site'] = all(r['review']['coordinate_ready'] and r['assets']['status'] == 'ready' and 'utopia_score' in r and 'popularity_score' in r for r in societies)
+            summary['note'] = 'Corpus structural checks passed; article alignment could not finish because its authoritative article.txt source is absent. Web readiness is checked separately by build and tests.'
+            (ROOT / 'data/progress.json').write_text(json.dumps(summary, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+            raise
         summary['taxonomy_version'] = alignment['taxonomy_version']
         summary['article_alignment'] = {'status': alignment['status'], 'validation': 'research/article-alignment/validation.json', 'article_sha256': alignment['article_sha256']}
         from popularity_helpers import apply_popularity_overlay

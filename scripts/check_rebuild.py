@@ -46,7 +46,7 @@ def main():
         assert strip(original['societies']) == strip(synced['societies'])
         assert result['all_non_assets_unchanged'] is True
         assert target.is_relative_to((ROOT / 'tmp').resolve()), 'Cleanup target escaped intended temporary workspace'
-    report = {'checked_on': '2026-10-22', 'taxonomy_version': 'article-2026-10-21',
+    report = {'checked_on': max(r['review']['date'] for r in original['societies']), 'taxonomy_version': 'article-2026-10-21',
               'clean_rebuild_identical_files': len(FILES), 'files_sha256': before,
               'rated_records': len(original['societies']),
               'utopia_writer_idempotent': True, 'popularity_writer_idempotent': True,

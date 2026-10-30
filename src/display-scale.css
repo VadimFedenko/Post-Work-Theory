@@ -1,0 +1,5 @@
+/* Desktop sizes use the same 120% baseline as browser page zoom. */
+:root{--display-scale:1;--viewport-height:calc(100svh / var(--display-scale));--viewport-width:calc(100vw / var(--display-scale))}
+@supports (zoom:1.2){
+  @media(min-width:889px){:root{--display-scale:1.2;zoom:var(--display-scale)}}
+}

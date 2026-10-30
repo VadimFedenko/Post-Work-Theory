@@ -29,7 +29,7 @@
       "limitations": "Supports the broad characterization, not every social rule."
     }
   },
-  "manual_ratings_sha256": "c6149a160d5650c6dcad76a5487092014711a30c40574174302fdefd518f857b",
+  "manual_ratings_sha256": "869009a89a60d2d96be6660ec92962eda4204a75e6ac291f1b4873d3b5a5bfcf",
   "assessments": {
     "culture-main": {
       "score": 0.9,
@@ -14820,8 +14820,59 @@
         "assessed_on": "2026-10-21",
         "scale_version": "1.0"
       }
+    },
+    "genshin-fontaine-clockwork-economy": {
+      "score": 0.1,
+      "reviewed_record_sha256": "6a0cb93e0cd7e1c2701cc027e1f6ec5ee8831d4ff5f9f80375a8a5f3830a325e",
+      "assessment": {
+        "assessment_mode": "editorial_best_guess",
+        "confidence": "low",
+        "basis": "Urban services and technological comfort coexist with visible poverty and unequal access; this rates the functioning civilian economy before the prophecy crisis.",
+        "rationale_code": "B",
+        "scope_basis": "Existing record population, continuity and period; described exploitation or exclusion qualifies enclave benefits.",
+        "source_ids": [
+          "src-genshin-fontaine-official",
+          "src-genshin-construction-mek"
+        ],
+        "assessed_on": "2026-10-30",
+        "scale_version": "1.0"
+      }
+    },
+    "genshin-deshret-automaton-civilization": {
+      "score": 0.0,
+      "reviewed_record_sha256": "53b3ed08d968c0c6e2742dbc510596d1f26e431aebb1b000ab40bb92446fb3e0",
+      "assessment": {
+        "assessment_mode": "editorial_best_guess",
+        "confidence": "low",
+        "basis": "The functioning kingdom’s ordinary living conditions are underdescribed; a promised paradise and later catastrophe do not supply a reliable everyday wellbeing assessment.",
+        "rationale_code": "U",
+        "scope_basis": "Existing record population, continuity and period; described exploitation or exclusion qualifies enclave benefits.",
+        "source_ids": [
+          "src-genshin-deshret-construct",
+          "src-genshin-deshret-network"
+        ],
+        "assessed_on": "2026-10-30",
+        "scale_version": "1.0"
+      }
+    },
+    "genshin-ancient-dragon-city-overseers": {
+      "score": 0.0,
+      "reviewed_record_sha256": "25ea630149826f350505af6668dc039cf75510daca0a8c8f3002fe75f83cbdb5",
+      "assessment": {
+        "assessment_mode": "editorial_best_guess",
+        "confidence": "low",
+        "basis": "Large technical capacity and machine administration do not establish everyday security or civic freedom for the living dragon residents; the estimate remains near neutral.",
+        "rationale_code": "U",
+        "scope_basis": "Existing record population, continuity and period; described exploitation or exclusion qualifies enclave benefits.",
+        "source_ids": [
+          "src-genshin-dragon-overseer",
+          "src-genshin-dragon-city"
+        ],
+        "assessed_on": "2026-10-30",
+        "scale_version": "1.0"
+      }
     }
   },
-  "review_index": "research/utopia/review-index-v2.json",
+  "review_index": "research/utopia/review-index-v3.json",
   "research_alignment": "article-2026-10-21"
 }

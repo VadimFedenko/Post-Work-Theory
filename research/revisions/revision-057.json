@@ -1,0 +1,785 @@
+{
+  "revision_id": "revision-057",
+  "revised_on": "2026-10-30",
+  "reason": "Append three Genshin societies under the explicit maximum-three scope, using current article taxonomy and preserving the original migration order. Sources and new records are added after historical revisions.",
+  "changes": [
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-genshin-fontaine-official",
+        "title": "HoYoverse: Genshin Impact version 4.0 — Fontaine and clockwork meka",
+        "author": "Zhenzhong Yi / HoYoverse",
+        "url": "https://blog.playstation.com/2023/08/04/genshin-impact-version-4-0-launches-august-16-first-details/",
+        "kind": "developer_setting_description",
+        "accessed_on": "2026-10-30",
+        "access_method": "web_open_full_article_targeted_sections",
+        "read_scope": "A judgment, but also a performance; Dance with clockwork meka: public energy, commercial streets, patrolling meka, poor sewer district and Pneumousia-powered machines.",
+        "limitations": "Only the named article sections were read. No full-game replay or canonical employment statistics; economic coordinates and admission remain editorial judgments."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-genshin-construction-mek",
+        "title": "Genshin Impact archive: Construction Specialist Mek",
+        "author": "Genshin Impact Wiki contributors",
+        "url": "https://genshin-impact.fandom.com/wiki/Construction_Specialist_Mek",
+        "kind": "game_archive_description_mirrored",
+        "accessed_on": "2026-10-30",
+        "access_method": "web_search_indexed_excerpt",
+        "read_scope": "Indexed archive description identifies the machine and Fontaine device/energy technology; not evidence of universal machine intelligence.",
+        "limitations": "Only the named indexed passages were available; the full page was not accessible. No full-game replay or canonical employment statistics; economic coordinates and admission remain editorial judgments."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-genshin-deshret-construct",
+        "title": "Genshin Impact archive: Primal Construct — Prospector",
+        "author": "HoYoverse; archive text mirrored by Honey Hunter World",
+        "url": "https://gensh.honeyhunterworld.com/m_24040301/?lang=EN",
+        "kind": "game_archive_description_mirrored",
+        "accessed_on": "2026-10-30",
+        "access_method": "web_search_indexed_excerpt",
+        "read_scope": "Indexed in-game Description: surviving guardians of the desert ruins, the lord’s dream-paradise project and uncertain connection to forbidden knowledge. No beta-only statistics used.",
+        "limitations": "Only the named indexed passages were available; the full page was not accessible. No full-game replay or canonical employment statistics; economic coordinates and admission remain editorial judgments."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-genshin-deshret-network",
+        "title": "Genshin Impact archive: Algorithm of Semi-Intransient Matrix of Overseer Network",
+        "author": "Genshin Impact Wiki contributors",
+        "url": "https://genshin-impact.fandom.com/wiki/Algorithm_of_Semi-Intransient_Matrix_of_Overseer_Network",
+        "kind": "game_archive_description_mirrored",
+        "accessed_on": "2026-10-30",
+        "access_method": "web_search_indexed_excerpt",
+        "read_scope": "Indexed archive/description: autonomous machine, ancient network and King Deshret; persistence after the civilization’s fall. The term perpetual motion is fictional lore, not verified physics.",
+        "limitations": "Only the named indexed passages were available; the full page was not accessible. No full-game replay or canonical employment statistics; economic coordinates and admission remain editorial judgments."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-genshin-dragon-overseer",
+        "title": "Genshin Impact archive: Secret Source Automaton — Overseer Device",
+        "author": "Genshin Impact Wiki contributors",
+        "url": "https://genshin-impact.fandom.com/wiki/Secret_Source_Automaton%3A_Overseer_Device",
+        "kind": "game_archive_description_mirrored",
+        "accessed_on": "2026-10-30",
+        "access_method": "web_search_indexed_excerpt",
+        "read_scope": "Indexed Description: overseer controls multiple Secret Source machines; ancient race used phlogiston-engineered intelligence to oversee mega-cities.",
+        "limitations": "Only the named indexed passages were available; the full page was not accessible. No full-game replay or canonical employment statistics; economic coordinates and admission remain editorial judgments."
+      }
+    },
+    {
+      "collection": "sources",
+      "before": null,
+      "after": {
+        "id": "src-genshin-dragon-city",
+        "title": "HoYoWiki: Ochkanatlan — earlier dragon city of Chichen Uctokah",
+        "author": "HoYoWiki contributors",
+        "url": "https://wiki.hoyolab.com/pc/genshin/entry/7288?lang=en-us",
+        "kind": "secondary_reference",
+        "accessed_on": "2026-10-30",
+        "access_method": "web_search_indexed_excerpt",
+        "read_scope": "Indexed lore passage: city was formerly Chichen Uctokah; its dragonlord ruler was a Type-L Self-Regulating Overseer Array Integrated Processing Unit. Later human Och-Kan era is excluded.",
+        "limitations": "Only the named indexed passages were available; the full page was not accessible. No full-game replay or canonical employment statistics; economic coordinates and admission remain editorial judgments."
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "genshin-fontaine-clockwork-economy",
+        "candidate_id": "c0934",
+        "name": "Genshin Impact (Fontaine — clockwork economy)",
+        "work": "Genshin Impact",
+        "society": "Fontaine — clockwork economy",
+        "media": [
+          "game"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Genshin Impact — released game setting; historical societies kept separate from the present day",
+          "period": "The functioning Fontaine economy at the opening of Chapter IV, before the prophecy crisis is resolved",
+          "population": "Living human civilian residents of Fontaine, including poorer districts",
+          "human_population_proxy": false,
+          "exclusions": "Prison provision is not generalized to civilians; the Oratrice’s divine consciousness is not called ordinary AI; later flood and energy reforms are excluded.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "Fontaine integrates clockwork meka into the everyday operation of an inhabited industrial society. Machines patrol urban streets, and specialized models include construction equipment. Its research institutions develop the energy technologies that power these devices. This is stronger evidence of routine robotic deployment than merely encountering hostile ancient machines in a ruin. The selected period is the functioning economy at the opening of the Fontaine chapter, before the prophecy crisis and subsequent energy changes.\n\nAutomation coexists with shops, workshops, paid professions and a visibly poorer district. The available account does not establish an unconditional claim to machine-produced necessities for every resident, so Fontaine remains a work-based comparison. Control is assessed near concentrated institutional and owner authority, with uncertainty about access outside public services. The nonworking estimate concerns living human residents and counts useful care, research, maintenance and voluntary creation as work. It is an editorial scenario rather than an employment statistic. Prison support and the Oratrice’s divine consciousness do not establish a countrywide post-work AI economy.",
+        "axis": {
+          "guarantees": 0.4,
+          "control": 0.05,
+          "nonworking": 0.25
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              0,
+              0.8
+            ],
+            "confidence": "low",
+            "basis": "Visible prosperity and public infrastructure coexist with poverty; no universal entitlement is established.",
+            "source_ids": [
+              "src-genshin-fontaine-official",
+              "src-genshin-construction-mek"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.15,
+              0.4
+            ],
+            "confidence": "low",
+            "basis": "Public institutions and machine owners direct deployment; the machines are not shown to control the economy independently.",
+            "source_ids": [
+              "src-genshin-fontaine-official",
+              "src-genshin-construction-mek"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0.05,
+              0.5
+            ],
+            "confidence": "low",
+            "basis": "Useful human professions remain prominent; the active-person participation share is an uncertain editorial scenario.",
+            "source_ids": [
+              "src-genshin-fontaine-official",
+              "src-genshin-construction-mek"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "regime_analogy": 2,
+        "qualification": "included",
+        "source_ids": [
+          "src-genshin-fontaine-official",
+          "src-genshin-construction-mek"
+        ],
+        "evidence": [
+          {
+            "claim": "The developer describes patrolling clockwork meka, public energy infrastructure and an active urban commercial economy.",
+            "source_ids": [
+              "src-genshin-fontaine-official"
+            ],
+            "locator": "A judgment, but also a performance; Dance with clockwork meka: public energy, commercial streets, patrolling meka, poor sewer district and Pneumousia-powered machines.",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "Fontaine builds specialized meka, including a construction model; the developer also describes poverty beneath the prosperous city.",
+            "source_ids": [
+              "src-genshin-construction-mek"
+            ],
+            "locator": "Indexed archive description identifies the machine and Fontaine device/energy technology; not evidence of universal machine intelligence.",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Robots perform routine public and specialized tasks, while earnings and commercial access remain central; universal nonwage provision is not established.",
+          "Numerical coordinates are low-confidence editorial scenarios, not canonical measurements."
+        ],
+        "assets": {
+          "status": "ready",
+          "image_id": "img-genshin-impact-official-4-0",
+          "original": "assets/images/img-genshin-impact-official-4-0/original.jpg",
+          "poster": "assets/images/img-genshin-impact-official-4-0/poster-320.webp",
+          "icon": "assets/images/img-genshin-impact-official-4-0/icon-32.png",
+          "source_url": "https://blog.playstation.com/tachyon/2023/08/e3ffaf20107dbcb480eda37d01658f6f94283e35-scaled.jpg",
+          "source_page": "https://blog.playstation.com/2023/08/04/genshin-impact-version-4-0-launches-august-16-first-details/",
+          "author": "HoYoverse / miHoYo",
+          "rights": {
+            "status": "copyrighted_promotional_art",
+            "license": null,
+            "license_url": null,
+            "credit": "Genshin Impact Version 4.0 promotional artwork, HoYoverse, published on PlayStation.Blog.",
+            "notes": "Copyright remains with the rights holder. Publication in a developer article does not imply an open license."
+          },
+          "provider": "official_developer_blog",
+          "artwork_title": "Genshin Impact Version 4.0",
+          "illustration_scope": "representative_work_art",
+          "scope_note": "Shared game artwork for franchise recognition. The Fontaine promotional scene is not visual evidence of King Deshret’s or the ancient dragons’ society.",
+          "shared_with": [
+            "genshin-fontaine-clockwork-economy",
+            "genshin-deshret-automaton-civilization",
+            "genshin-ancient-dragon-city-overseers"
+          ],
+          "crop": {
+            "poster": {
+              "method": "contain",
+              "canvas": [
+                320,
+                480
+              ],
+              "content_box": [
+                0,
+                150,
+                320,
+                330
+              ]
+            },
+            "icon": {
+              "method": "square_crop",
+              "box": [
+                1000,
+                300,
+                1800,
+                1100
+              ],
+              "mask": "circle at display time"
+            }
+          },
+          "dimensions": {
+            "original": [
+              2560,
+              1440
+            ],
+            "poster": [
+              320,
+              480
+            ],
+            "icon": [
+              32,
+              32
+            ]
+          },
+          "original_sha256": "1364c82aa421b269c1b7d6acd72563b7a94cf98cd9b73b5df3bc89e9bf4f3e8a",
+          "accessed_on": "2026-10-30",
+          "selection_review": {
+            "status": "title_and_medium_matched",
+            "method": "Downloaded published developer artwork; inspected the original image and retained the full composition in the card poster.",
+            "visual_review": "reviewed_original_and_display_assets",
+            "reviewed_on": "2026-10-30"
+          }
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-30",
+          "method": "Targeted source review and separate economic interpretation; no independent reviewer or full-game replay.",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Robots perform routine public and specialized tasks, while earnings and commercial access remain central; universal nonwage provision is not established.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The developer describes patrolling clockwork meka, public energy infrastructure and an active urban commercial economy.",
+          "Fontaine builds specialized meka, including a construction model; the developer also describes poverty beneath the prosperous city."
+        ],
+        "editorial_assumptions": [
+          "Robots perform routine public and specialized tasks, while earnings and commercial access remain central; universal nonwage provision is not established.",
+          "Participation and material guarantees remain uncertain; technical capacity alone does not establish a post-work society."
+        ],
+        "taxonomy_version": "article-2026-10-21",
+        "post_work_assessment": {
+          "definition_version": "article-2026-10-21",
+          "manual_code": "w",
+          "status": "zero_variant",
+          "production_dependence": "mixed",
+          "wage_dependence": "primary",
+          "allocation_mechanisms": [
+            "wages_and_commercial_access"
+          ],
+          "basis": "Robots perform routine public and specialized tasks, while earnings and commercial access remain central; universal nonwage provision is not established.",
+          "confidence": "low",
+          "assessment_mode": "editorial_best_guess",
+          "source_ids": [
+            "src-genshin-fontaine-official",
+            "src-genshin-construction-mek"
+          ],
+          "assessed_on": "2026-10-30",
+          "participation_is_separate": true
+        },
+        "article_alignment": {
+          "version": "article-2026-10-21",
+          "article_sha256": "81a83c337be44c35b6b016768c8706b9e02a6ca20b97d17ef2013ddb90ce21f6",
+          "definition_lines": [
+            55,
+            57
+          ],
+          "reviewed_on": "2026-10-30"
+        },
+        "addition_review": "research/genshin-impact/review.json",
+        "added_on": "2026-10-30"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "genshin-deshret-automaton-civilization",
+        "candidate_id": "c0934",
+        "name": "Genshin Impact (King Deshret’s civilization — autonomous machine network)",
+        "work": "Genshin Impact",
+        "society": "King Deshret’s civilization — autonomous machine network",
+        "media": [
+          "game"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Genshin Impact — released game setting; historical societies kept separate from the present day",
+          "period": "The functioning ancient desert civilization under King Deshret, before its collapse",
+          "population": "Living human subjects of King Deshret’s desert civilization",
+          "human_population_proxy": false,
+          "exclusions": "Present-day Eremites and Akademiya society are separate; surviving ruins, disembodied Golden Slumber minds and Jinn labor are not counted as idle human residents or automatic production.",
+          "branch": null,
+          "player_configurable": false
+        },
+        "description": "King Deshret’s civilization left autonomous Primal Constructs and an Overseer Network whose machines continue to function long after the desert kingdom’s collapse. Their enduring guarding and coordinated mechanical functions establish an organized automaton tradition, rather than a single exceptional artificial companion. The archive associates this technology with the king’s dream of a paradise, while leaving important details of its origins uncertain. This record concerns the living society that built and used the network, not the empty ruins encountered by the Traveler.\n\nThe existence of a proposed paradise and persistent machines does not establish that ordinary subjects received necessities independently of work. Everyday distribution and the breadth of civilian production are poorly described, so the retained classification is a low-confidence work-based comparison. Control is placed near the king and his institutions, even where individual devices act autonomously. Material guarantees and useful participation receive broad uncertainty intervals. Jinn are persons rather than free automatic labor, and people absorbed into the Golden Slumber are excluded from the living participation denominator. Neither magical servitude nor archived minds are converted into evidence of mass leisure.",
+        "axis": {
+          "guarantees": 0.35,
+          "control": 0,
+          "nonworking": 0.3
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.55,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "The paradise project is not proof of implemented universal provision; ordinary access remains underdescribed.",
+            "source_ids": [
+              "src-genshin-deshret-construct",
+              "src-genshin-deshret-network"
+            ]
+          },
+          "control": {
+            "interval": [
+              -0.3,
+              0.35
+            ],
+            "confidence": "low",
+            "basis": "Machines preserve the king’s project; autonomous execution does not by itself displace his institutional authority.",
+            "source_ids": [
+              "src-genshin-deshret-construct",
+              "src-genshin-deshret-network"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.75
+            ],
+            "confidence": "low",
+            "basis": "The useful-work share of living human subjects is not reported; broad bounds exclude Jinn servitude and Golden Slumber archives as automation-based leisure.",
+            "source_ids": [
+              "src-genshin-deshret-construct",
+              "src-genshin-deshret-network"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "regime_analogy": 2,
+        "qualification": "included",
+        "source_ids": [
+          "src-genshin-deshret-construct",
+          "src-genshin-deshret-network"
+        ],
+        "evidence": [
+          {
+            "claim": "Primal Constructs remain active as guardians of the fallen desert civilization.",
+            "source_ids": [
+              "src-genshin-deshret-construct"
+            ],
+            "locator": "Indexed in-game Description: surviving guardians of the desert ruins, the lord’s dream-paradise project and uncertain connection to forbidden knowledge. No beta-only statistics used.",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "The Overseer Network boss is described as an autonomous machine associated with King Deshret’s ancient project.",
+            "source_ids": [
+              "src-genshin-deshret-network"
+            ],
+            "locator": "Indexed archive/description: autonomous machine, ancient network and King Deshret; persistence after the civilization’s fall. The term perpetual motion is fictional lore, not verified physics.",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "An extensive autonomous machine tradition is established, but ordinary material distribution is too poorly described to establish a technology-driven post-wage society.",
+          "Numerical coordinates are low-confidence editorial scenarios, not canonical measurements."
+        ],
+        "assets": {
+          "status": "ready",
+          "image_id": "img-genshin-impact-official-4-0",
+          "original": "assets/images/img-genshin-impact-official-4-0/original.jpg",
+          "poster": "assets/images/img-genshin-impact-official-4-0/poster-320.webp",
+          "icon": "assets/images/img-genshin-impact-official-4-0/icon-32.png",
+          "source_url": "https://blog.playstation.com/tachyon/2023/08/e3ffaf20107dbcb480eda37d01658f6f94283e35-scaled.jpg",
+          "source_page": "https://blog.playstation.com/2023/08/04/genshin-impact-version-4-0-launches-august-16-first-details/",
+          "author": "HoYoverse / miHoYo",
+          "rights": {
+            "status": "copyrighted_promotional_art",
+            "license": null,
+            "license_url": null,
+            "credit": "Genshin Impact Version 4.0 promotional artwork, HoYoverse, published on PlayStation.Blog.",
+            "notes": "Copyright remains with the rights holder. Publication in a developer article does not imply an open license."
+          },
+          "provider": "official_developer_blog",
+          "artwork_title": "Genshin Impact Version 4.0",
+          "illustration_scope": "representative_work_art",
+          "scope_note": "Shared game artwork for franchise recognition. The Fontaine promotional scene is not visual evidence of King Deshret’s or the ancient dragons’ society.",
+          "shared_with": [
+            "genshin-fontaine-clockwork-economy",
+            "genshin-deshret-automaton-civilization",
+            "genshin-ancient-dragon-city-overseers"
+          ],
+          "crop": {
+            "poster": {
+              "method": "contain",
+              "canvas": [
+                320,
+                480
+              ],
+              "content_box": [
+                0,
+                150,
+                320,
+                330
+              ]
+            },
+            "icon": {
+              "method": "square_crop",
+              "box": [
+                1000,
+                300,
+                1800,
+                1100
+              ],
+              "mask": "circle at display time"
+            }
+          },
+          "dimensions": {
+            "original": [
+              2560,
+              1440
+            ],
+            "poster": [
+              320,
+              480
+            ],
+            "icon": [
+              32,
+              32
+            ]
+          },
+          "original_sha256": "1364c82aa421b269c1b7d6acd72563b7a94cf98cd9b73b5df3bc89e9bf4f3e8a",
+          "accessed_on": "2026-10-30",
+          "selection_review": {
+            "status": "title_and_medium_matched",
+            "method": "Downloaded published developer artwork; inspected the original image and retained the full composition in the card poster.",
+            "visual_review": "reviewed_original_and_display_assets",
+            "reviewed_on": "2026-10-30"
+          }
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-30",
+          "method": "Targeted source review and separate economic interpretation; no independent reviewer or full-game replay.",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "An extensive autonomous machine tradition is established, but ordinary material distribution is too poorly described to establish a technology-driven post-wage society.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "Primal Constructs remain active as guardians of the fallen desert civilization.",
+          "The Overseer Network boss is described as an autonomous machine associated with King Deshret’s ancient project."
+        ],
+        "editorial_assumptions": [
+          "An extensive autonomous machine tradition is established, but ordinary material distribution is too poorly described to establish a technology-driven post-wage society.",
+          "Participation and material guarantees remain uncertain; technical capacity alone does not establish a post-work society."
+        ],
+        "taxonomy_version": "article-2026-10-21",
+        "post_work_assessment": {
+          "definition_version": "article-2026-10-21",
+          "manual_code": "u",
+          "status": "zero_variant",
+          "production_dependence": "uncertain",
+          "wage_dependence": "uncertain_primary_best_guess",
+          "allocation_mechanisms": [
+            "uncertain_earnings_based_access"
+          ],
+          "basis": "An extensive autonomous machine tradition is established, but ordinary material distribution is too poorly described to establish a technology-driven post-wage society.",
+          "confidence": "low",
+          "assessment_mode": "editorial_best_guess",
+          "source_ids": [
+            "src-genshin-deshret-construct",
+            "src-genshin-deshret-network"
+          ],
+          "assessed_on": "2026-10-30",
+          "participation_is_separate": true
+        },
+        "article_alignment": {
+          "version": "article-2026-10-21",
+          "article_sha256": "81a83c337be44c35b6b016768c8706b9e02a6ca20b97d17ef2013ddb90ce21f6",
+          "definition_lines": [
+            55,
+            57
+          ],
+          "reviewed_on": "2026-10-30"
+        },
+        "addition_review": "research/genshin-impact/review.json",
+        "added_on": "2026-10-30"
+      }
+    },
+    {
+      "collection": "societies",
+      "before": null,
+      "after": {
+        "id": "genshin-ancient-dragon-city-overseers",
+        "candidate_id": "c0934",
+        "name": "Genshin Impact (Ancient Natlan — dragon megacity and Secret Source overseers)",
+        "work": "Genshin Impact",
+        "society": "Ancient Natlan — dragon megacity and Secret Source overseers",
+        "media": [
+          "game"
+        ],
+        "record_type": "zero_variant",
+        "scope": {
+          "continuity": "Genshin Impact — released game setting; historical societies kept separate from the present day",
+          "period": "Chichen Uctokah as a functioning dragon city, before the later human city of Ochkanatlan",
+          "population": "Active living dragon-person inhabitants of the ancient city, used as a nonhuman person proxy",
+          "human_population_proxy": true,
+          "exclusions": "Modern Natlan’s human tribes, the later human empire of Och-Kan, dormant machines and empty ruins are excluded; machine governors are not counted as nonworking biological residents.",
+          "branch": null,
+          "player_configurable": false,
+          "person_proxy_kind": "active_dragon_persons"
+        },
+        "description": "Ancient Natlan’s dragon civilization used Secret Source machines and phlogiston-engineered intelligence to supervise its megacities. The Overseer Device archive explicitly assigns this intelligence a role in city operation and control of other machines. The earlier dragon city of Chichen Uctokah also had a ruler identified as a self-regulating overseer processing unit. These are unusually direct examples of infrastructure-scale artificial intelligence in Genshin Impact. The selected society predates the later human city of Ochkanatlan and is not an assessment of modern Natlan’s tribes.\n\nMachine administration is better documented than residents’ access to food, shelter or other resources. No reliable account establishes that technological provision displaced essential personal work or an earnings-based access rule for the city’s inhabitants. It therefore remains an uncertain work-based comparison, with an autonomous-control analogy rather than a confirmed post-work regime. The population proxy consists of active living dragon persons. Their useful activity is counted as work; dormant mechanisms and abandoned buildings are not nonworking citizens. Broad intervals acknowledge both the unclear distribution model and the possibility that overseer intelligence retained delegated authority within a wider dragon hierarchy.",
+        "axis": {
+          "guarantees": 0.25,
+          "control": -0.65,
+          "nonworking": 0.4
+        },
+        "axis_assessment": {
+          "guarantees": {
+            "interval": [
+              -0.6,
+              0.85
+            ],
+            "confidence": "low",
+            "basis": "Megacity operation does not establish universal entitlement or continuity of material access for each resident.",
+            "source_ids": [
+              "src-genshin-dragon-overseer",
+              "src-genshin-dragon-city"
+            ]
+          },
+          "control": {
+            "interval": [
+              -1,
+              0.15
+            ],
+            "confidence": "low",
+            "basis": "Engineered overseer intelligence coordinates machines and is identified with city rule; broader dragon authority may qualify its independence.",
+            "source_ids": [
+              "src-genshin-dragon-overseer",
+              "src-genshin-dragon-city"
+            ]
+          },
+          "nonworking": {
+            "interval": [
+              0,
+              0.9
+            ],
+            "confidence": "low",
+            "basis": "The denominator is active living dragon persons; no canonical participation share exists and dormant mechanisms are excluded.",
+            "source_ids": [
+              "src-genshin-dragon-overseer",
+              "src-genshin-dragon-city"
+            ]
+          }
+        },
+        "regime_primary": 0,
+        "regime_alternatives": [],
+        "regime_analogy": 6,
+        "qualification": "included",
+        "source_ids": [
+          "src-genshin-dragon-overseer",
+          "src-genshin-dragon-city"
+        ],
+        "evidence": [
+          {
+            "claim": "The Overseer Device archive explicitly describes phlogiston-engineered intelligence used to oversee ancient megacities and other machines.",
+            "source_ids": [
+              "src-genshin-dragon-overseer"
+            ],
+            "locator": "Indexed Description: overseer controls multiple Secret Source machines; ancient race used phlogiston-engineered intelligence to oversee mega-cities.",
+            "kind": "reference_fact"
+          },
+          {
+            "claim": "The earlier dragon city Chichen Uctokah is associated with a ruler identified as a Type-L Self-Regulating Overseer Array Integrated Processing Unit.",
+            "source_ids": [
+              "src-genshin-dragon-city"
+            ],
+            "locator": "Indexed lore passage: city was formerly Chichen Uctokah; its dragonlord ruler was a Type-L Self-Regulating Overseer Array Integrated Processing Unit. Later human Och-Kan era is excluded.",
+            "kind": "reference_fact"
+          }
+        ],
+        "uncertainties": [
+          "Infrastructure-scale artificial intelligence and machine coordination are explicit, but evidence does not establish a post-wage distribution system for the living dragon-person population.",
+          "Numerical coordinates are low-confidence editorial scenarios, not canonical measurements."
+        ],
+        "assets": {
+          "status": "ready",
+          "image_id": "img-genshin-impact-official-4-0",
+          "original": "assets/images/img-genshin-impact-official-4-0/original.jpg",
+          "poster": "assets/images/img-genshin-impact-official-4-0/poster-320.webp",
+          "icon": "assets/images/img-genshin-impact-official-4-0/icon-32.png",
+          "source_url": "https://blog.playstation.com/tachyon/2023/08/e3ffaf20107dbcb480eda37d01658f6f94283e35-scaled.jpg",
+          "source_page": "https://blog.playstation.com/2023/08/04/genshin-impact-version-4-0-launches-august-16-first-details/",
+          "author": "HoYoverse / miHoYo",
+          "rights": {
+            "status": "copyrighted_promotional_art",
+            "license": null,
+            "license_url": null,
+            "credit": "Genshin Impact Version 4.0 promotional artwork, HoYoverse, published on PlayStation.Blog.",
+            "notes": "Copyright remains with the rights holder. Publication in a developer article does not imply an open license."
+          },
+          "provider": "official_developer_blog",
+          "artwork_title": "Genshin Impact Version 4.0",
+          "illustration_scope": "representative_work_art",
+          "scope_note": "Shared game artwork for franchise recognition. The Fontaine promotional scene is not visual evidence of King Deshret’s or the ancient dragons’ society.",
+          "shared_with": [
+            "genshin-fontaine-clockwork-economy",
+            "genshin-deshret-automaton-civilization",
+            "genshin-ancient-dragon-city-overseers"
+          ],
+          "crop": {
+            "poster": {
+              "method": "contain",
+              "canvas": [
+                320,
+                480
+              ],
+              "content_box": [
+                0,
+                150,
+                320,
+                330
+              ]
+            },
+            "icon": {
+              "method": "square_crop",
+              "box": [
+                1000,
+                300,
+                1800,
+                1100
+              ],
+              "mask": "circle at display time"
+            }
+          },
+          "dimensions": {
+            "original": [
+              2560,
+              1440
+            ],
+            "poster": [
+              320,
+              480
+            ],
+            "icon": [
+              32,
+              32
+            ]
+          },
+          "original_sha256": "1364c82aa421b269c1b7d6acd72563b7a94cf98cd9b73b5df3bc89e9bf4f3e8a",
+          "accessed_on": "2026-10-30",
+          "selection_review": {
+            "status": "title_and_medium_matched",
+            "method": "Downloaded published developer artwork; inspected the original image and retained the full composition in the card poster.",
+            "visual_review": "reviewed_original_and_display_assets",
+            "reviewed_on": "2026-10-30"
+          }
+        },
+        "review": {
+          "status": "reviewed",
+          "date": "2026-10-30",
+          "method": "Targeted source review and separate economic interpretation; no independent reviewer or full-game replay.",
+          "coordinate_ready": true
+        },
+        "assessment_mode": "best_guess",
+        "qualification_basis": "Infrastructure-scale artificial intelligence and machine coordination are explicit, but evidence does not establish a post-wage distribution system for the living dragon-person population.",
+        "qualification_confidence": "low",
+        "canon_facts": [
+          "The Overseer Device archive explicitly describes phlogiston-engineered intelligence used to oversee ancient megacities and other machines.",
+          "The earlier dragon city Chichen Uctokah is associated with a ruler identified as a Type-L Self-Regulating Overseer Array Integrated Processing Unit."
+        ],
+        "editorial_assumptions": [
+          "Infrastructure-scale artificial intelligence and machine coordination are explicit, but evidence does not establish a post-wage distribution system for the living dragon-person population.",
+          "Participation and material guarantees remain uncertain; technical capacity alone does not establish a post-work society."
+        ],
+        "taxonomy_version": "article-2026-10-21",
+        "post_work_assessment": {
+          "definition_version": "article-2026-10-21",
+          "manual_code": "u",
+          "status": "zero_variant",
+          "production_dependence": "uncertain",
+          "wage_dependence": "uncertain_primary_best_guess",
+          "allocation_mechanisms": [
+            "uncertain_earnings_based_access"
+          ],
+          "basis": "Infrastructure-scale artificial intelligence and machine coordination are explicit, but evidence does not establish a post-wage distribution system for the living dragon-person population.",
+          "confidence": "low",
+          "assessment_mode": "editorial_best_guess",
+          "source_ids": [
+            "src-genshin-dragon-overseer",
+            "src-genshin-dragon-city"
+          ],
+          "assessed_on": "2026-10-30",
+          "participation_is_separate": true
+        },
+        "article_alignment": {
+          "version": "article-2026-10-21",
+          "article_sha256": "81a83c337be44c35b6b016768c8706b9e02a6ca20b97d17ef2013ddb90ce21f6",
+          "definition_lines": [
+            55,
+            57
+          ],
+          "reviewed_on": "2026-10-30"
+        },
+        "addition_review": "research/genshin-impact/review.json",
+        "added_on": "2026-10-30",
+        "axis_interpretation": {
+          "literal_human_nonworking": null,
+          "nonworking": "Fraction of active living dragon persons doing no useful work, not a literal human employment share.",
+          "control": "Effective control by engineered overseer systems; dragon biological identity does not itself determine AI control."
+        }
+      }
+    },
+    {
+      "collection": "decisions",
+      "before": null,
+      "after": {
+        "candidate_id": "c0934",
+        "status": "zero_variant",
+        "reason": "Retain at most three especially strong, distinct automation cases as work-based comparisons; no confirmed general post-wage distribution is established.",
+        "source_ids": [
+          "src-genshin-fontaine-official",
+          "src-genshin-construction-mek",
+          "src-genshin-deshret-construct",
+          "src-genshin-deshret-network",
+          "src-genshin-dragon-overseer",
+          "src-genshin-dragon-city"
+        ],
+        "society_id": "genshin-fontaine-clockwork-economy",
+        "society_ids": [
+          "genshin-fontaine-clockwork-economy",
+          "genshin-deshret-automaton-civilization",
+          "genshin-ancient-dragon-city-overseers"
+        ],
+        "split_rationale": "Different populations and periods: modern Fontaine civilians, ancient human desert subjects, and ancient living dragon-city inhabitants. Their machine functions and effective control differ.",
+        "reviewed_on": "2026-10-30"
+      }
+    }
+  ]
+}

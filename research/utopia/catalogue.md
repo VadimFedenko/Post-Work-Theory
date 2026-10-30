@@ -1,6 +1,6 @@
 # Utopian / dystopian assessment
 
-All **890 records** have an explicit editorial score. -1 = strong dystopia; 0 = mixed or unclear; +1 = strong utopia.
+All **893 records** have an explicit editorial score. -1 = strong dystopia; 0 = mixed or unclear; +1 = strong utopia.
 
 The numerical wellbeing scores were reaffirmed after article alignment; classifications and selected axes changed in research revision 056. Images were preserved. [Methodology](methodology.md) · [Validation](review-summary.json)
 
@@ -8,7 +8,7 @@ The numerical wellbeing scores were reaffirmed after article alignment; classifi
 | --- | ---: |
 | strongly_dystopian | 326 |
 | dystopian_leaning | 128 |
-| mixed_or_unclear | 246 |
+| mixed_or_unclear | 249 |
 | utopian_leaning | 123 |
 | strongly_utopian | 67 |
 
@@ -906,3 +906,6 @@ All ratings are low-confidence editorial judgments. Scores concern particular po
 | stealingworlds-distributed-game-economy-zero | Stealing Worlds (the distributed game and resource-agent economy) | +0.15 |
 | kilnpeople-active-originals-dittos-zero | Kiln People (originals and active human-derived dittos) | -0.45 |
 | logansrun-novel-age21-computer | Logan’s Run (the novel’s age-21 computer order) | -0.95 |
+| genshin-fontaine-clockwork-economy | Genshin Impact (Fontaine — clockwork economy) | +0.10 |
+| genshin-deshret-automaton-civilization | Genshin Impact (King Deshret’s civilization — autonomous machine network) | +0.00 |
+| genshin-ancient-dragon-city-overseers | Genshin Impact (Ancient Natlan — dragon megacity and Secret Source overseers) | +0.00 |

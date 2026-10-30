@@ -1,0 +1,4475 @@
+{
+  "schema_version": "1.1",
+  "assessed_on": "2026-10-30",
+  "record_count": 893,
+  "research_alignment": "article-2026-10-21",
+  "supersedes": "research/utopia/review-index-v2.json",
+  "original_records_sha256": "2ff1d0640b6c57276b3889b2b5e098ee5d34dbce1e73d0d39c02ba14eedfdc12",
+  "records": [
+    {
+      "index": 0,
+      "id": "culture-main",
+      "research_sha256": "d00c47ad322b5bb7b2da249b03f0bb203851c7bc29956e7f2fe69571b3f4649d"
+    },
+    {
+      "index": 1,
+      "id": "machine-stops-before-collapse",
+      "research_sha256": "dc8c43c8864199bb6a4fe8cde825c45edb04e155380d37e62174b09c5c61a728"
+    },
+    {
+      "index": 2,
+      "id": "manna-terrafoam",
+      "research_sha256": "f89e2f121eb8883d94719e3fe61c74487f819860b6141a4d14d996250c1c8cb3"
+    },
+    {
+      "index": 3,
+      "id": "manna-australia",
+      "research_sha256": "a3fdcbe8111a47c91f8544e65186b464eb0f7812e6412391c51bf79869c5eb60"
+    },
+    {
+      "index": 4,
+      "id": "walle-axiom",
+      "research_sha256": "7ec3c26c7f96438f66b51481c604433a19abf8cdcc6a7975b6194a4002ad1055"
+    },
+    {
+      "index": 5,
+      "id": "star-trek-federation-core",
+      "research_sha256": "0bc7a2bf37f1339ae047793df708fb9d6b9dfebf31fee8dc913421c53ca435f6"
+    },
+    {
+      "index": 6,
+      "id": "evitable-conflict-earth",
+      "research_sha256": "66bdc829dac0aae42bf205fbed3ba39125e193eb07e9d937399fb5021e7b6bd6"
+    },
+    {
+      "index": 7,
+      "id": "noon-earth",
+      "research_sha256": "63a284d948ae256d339bc3602c49d8063b3d50bb6852a62f36beebd9b3be8e3e"
+    },
+    {
+      "index": 8,
+      "id": "brave-new-world-state",
+      "research_sha256": "7061554d8b3eb1c2223ba8eeb9888fa3abbf347f6b4f70e122d60f0b333ad769"
+    },
+    {
+      "index": 9,
+      "id": "orwell-oceania",
+      "research_sha256": "874d65fbc0f4984af5129ecbfac5c9e23bc71c5bbbd4a7876971ab77cb303974"
+    },
+    {
+      "index": 10,
+      "id": "midas-compulsory-consumption",
+      "research_sha256": "9aa68ac83a626cdadb66be51cfc901c3a8ecd3a0c797c552b348c483c12f8570"
+    },
+    {
+      "index": 11,
+      "id": "detroit-before-revolution",
+      "research_sha256": "2d7a349ec2a3b9ce016056b9c33ba3d6f47a00b107640f11e61ce49180b3e9e3"
+    },
+    {
+      "index": 12,
+      "id": "fallout-prewar-appalachia",
+      "research_sha256": "f9db23dc45dfdf8dee6446ba29f577fbb0eeec31d41ce1eefc3c68297fa9d5a1"
+    },
+    {
+      "index": 13,
+      "id": "fallout-institute",
+      "research_sha256": "2e9a7741d0974a11fb326f2ff3c89354e80381d7d180b87c2981f5422ceaffc4"
+    },
+    {
+      "index": 14,
+      "id": "cyberpunk-night-city",
+      "research_sha256": "1d98a115089d2ce7bd241af35325cf1946c7ffa770e3caef0053133ab56af524"
+    },
+    {
+      "index": 15,
+      "id": "her-before-departure",
+      "research_sha256": "23cac9f312c4c01ec56dd771e3ab6f6f924d295eb7147b1ee09a5ede9f62184d"
+    },
+    {
+      "index": 16,
+      "id": "gzilt-before-sublimation",
+      "research_sha256": "c11957e7b35bbb75bb810b465e36065dbaec497091dcd014769e8a29efc44955"
+    },
+    {
+      "index": 17,
+      "id": "algebraist-dwellers",
+      "research_sha256": "3883905c4caf9c000881546d887aca3f8a420c5badd4334e74ffdfcf0bfef999"
+    },
+    {
+      "index": 18,
+      "id": "idiran-empire-before-defeat",
+      "research_sha256": "c8c68ba94ada37120c7dd0e9909199170d0fd8a75ef50bd08af286fb099d5341"
+    },
+    {
+      "index": 19,
+      "id": "algebraist-mercatoria",
+      "research_sha256": "bd8e6c21aef84fe5c38d670a42a5717548542b13903c4f6e6bd88b270beebf8b"
+    },
+    {
+      "index": 20,
+      "id": "caves-of-steel-earth-cities",
+      "research_sha256": "f00708afd6766511404b1374c95905b66b432af5a18af77345dd445b751d6fdb"
+    },
+    {
+      "index": 21,
+      "id": "solaria-naked-sun",
+      "research_sha256": "10633b1f1f90c7112c8d3c20d63612d3bcab46c7616d8bbe1744da8da24cf89d"
+    },
+    {
+      "index": 22,
+      "id": "solaria-foundation-earth",
+      "research_sha256": "9435a9496c05cf3fd950207db8a79c4e7391ed8677a5c49e0ac18c127e44e62c"
+    },
+    {
+      "index": 23,
+      "id": "aurora-robots-of-dawn",
+      "research_sha256": "bf0c86b16886c41bc1a8eb628314cf2d84fe88fa8fedde98c97fe6a1d8b905ce"
+    },
+    {
+      "index": 24,
+      "id": "last-question-late-humanity",
+      "research_sha256": "df7b7cf7e56f6d29528f2223377acf76ba2cb9a713f14fdba1783b6d815f07ff"
+    },
+    {
+      "index": 25,
+      "id": "midas-world-after-fry",
+      "research_sha256": "e6e20e423981ba330e84e72f70590fa2faf53ce19bebe1dd09bf07e787986228"
+    },
+    {
+      "index": 26,
+      "id": "player-piano-pre-revolt",
+      "research_sha256": "74d90a05223fcc9a68150615ece62d265889b0152695891cddb23c920e504143"
+    },
+    {
+      "index": 27,
+      "id": "with-folded-hands-two-rivers",
+      "research_sha256": "8990bc944093cf9f52b1c910b2c1148cc01e0d675a8679227c3b1515d4f21221"
+    },
+    {
+      "index": 28,
+      "id": "rur-human-robot-economy",
+      "research_sha256": "b2b6ddca82c61eda5dd42f744c41650cca7a9098ffdaf8c7f298fba8d225edca"
+    },
+    {
+      "index": 29,
+      "id": "sleeper-graham-trustees",
+      "research_sha256": "f2f77435ecd5ff3767231f750dc3710e8bc6a6ecbe1b32bfd566103feadef2b6"
+    },
+    {
+      "index": 30,
+      "id": "men-like-gods-utopia",
+      "research_sha256": "3a41edda90ae68e456aa5f6024199ea0faed21ad867a36e1ab343efae1618270"
+    },
+    {
+      "index": 31,
+      "id": "shape-second-council",
+      "research_sha256": "865de4fbb545536e2741f34da7d3a5af0c137efdfa8baa4de71e76ec5eb702cb"
+    },
+    {
+      "index": 32,
+      "id": "shape-after-megeve",
+      "research_sha256": "f6fcf401ef51c3f0f7e6741cfddd0e775af4957deb55b2d3c1f7d73593b710f1"
+    },
+    {
+      "index": 33,
+      "id": "modern-utopia-world-state",
+      "research_sha256": "d8300b7ed3719db1d311a3b9572da6c7a2bd89cc23c0ecd8c650253311de53a3"
+    },
+    {
+      "index": 34,
+      "id": "bellamy-industrial-commonwealth",
+      "research_sha256": "bd0f4e32739b262dcb65351a9482146d6259a8c1eb2aa4632235a3c73f898fb1"
+    },
+    {
+      "index": 35,
+      "id": "reynolds-looking-backward",
+      "research_sha256": "23beeb75dd8aaf6f9d7787e02500c2322b0f05b85208b337bfed422abaf7282d"
+    },
+    {
+      "index": 36,
+      "id": "after-utopia-earth",
+      "research_sha256": "aaebe93125f2ac9f3a8ccdae3d8df19b4fd19afdb32d8a3956dea04a9b945f6f"
+    },
+    {
+      "index": 37,
+      "id": "rolltown-us-meritocracy",
+      "research_sha256": "75ba04cbfef3c106291882f83dcbcb48985975d878fbf2f97377d7c6112fb9e9"
+    },
+    {
+      "index": 38,
+      "id": "beyond-horizon-americas",
+      "research_sha256": "d2c1b615246ec36860d20db762d77bcea9a8b63ccfd1a0b560a3a903130e3830"
+    },
+    {
+      "index": 39,
+      "id": "for-us-living-us2086",
+      "research_sha256": "469607b2b21dd978287c653354e68fc382a49f93368170b66ceeef66df1ebbe1"
+    },
+    {
+      "index": 40,
+      "id": "childhood-end-golden-age",
+      "research_sha256": "2f0a2f8f62e802a354e76619f8f998974118f90cc416342f56d5672ee5d250ae"
+    },
+    {
+      "index": 41,
+      "id": "city-stars-diaspar",
+      "research_sha256": "63892cd51fb9256fcab2abcfc523d6f49b94f1bf50e001139182ec9a384b947f"
+    },
+    {
+      "index": 42,
+      "id": "city-stars-lys",
+      "research_sha256": "f240380164db20e6cdf10e092d469c1bd4d9ae9c24ef00d5bdfa41d0cf7bd04d"
+    },
+    {
+      "index": 43,
+      "id": "comarre-sleeping-enclave",
+      "research_sha256": "6945158471902f8073ae390e773c22a8d0a0dc11a73163e002e13af39d743d7e"
+    },
+    {
+      "index": 44,
+      "id": "lem-indiots-private-automation",
+      "research_sha256": "a458bb3f9d21d27f42b34a224d27a950562413e5359f701d022fed3400ac1a18"
+    },
+    {
+      "index": 45,
+      "id": "lem-indiots-governing-machine",
+      "research_sha256": "d381130e9e6dea3706587d8a0c13b0cedfd2452ce3ed84e273abed7f243ae4e6"
+    },
+    {
+      "index": 46,
+      "id": "return-stars-betrized-earth",
+      "research_sha256": "0df9a4aa2ba626b81b40ac106979782a7dc7c710860e085c14c7460281643876"
+    },
+    {
+      "index": 47,
+      "id": "local-inspection-luzania",
+      "research_sha256": "0f389da822cc534fa9d15ba1b034d48e9b12ef90af3110769e831753f4634ebe"
+    },
+    {
+      "index": 48,
+      "id": "voyage-yesteryear-chiron",
+      "research_sha256": "a3f4119608fae6f355731087934f923bd000e94a7e5e538da413377dd2bb75ac"
+    },
+    {
+      "index": 49,
+      "id": "prime-intellect-cyberlife",
+      "research_sha256": "e49eff6d81d70879d327ac0e4ca942e35fd56a4511076e050b1b1420efc51dd5"
+    },
+    {
+      "index": 50,
+      "id": "gentle-seduction-interstellar",
+      "research_sha256": "5d57e0f339cea21785b38e02d6d5cafaa1773088d1fb2fb11e07cbe85630db78"
+    },
+    {
+      "index": 51,
+      "id": "forever-peace-welfare-states",
+      "research_sha256": "968b32a09089aefe795a2f149f01fe0b040b694359f298ea00ad18a473c08a63"
+    },
+    {
+      "index": 52,
+      "id": "erewhon-machine-ban",
+      "research_sha256": "01b1bb8c5e1eb880bdbd56e125ff688d866a2d52e158b063db81ff70a70313de"
+    },
+    {
+      "index": 53,
+      "id": "coming-race-visited-vril-tribe",
+      "research_sha256": "21e9359343026634bb6472322077266db6b1e63439fc2ebaa376e4af3538049c"
+    },
+    {
+      "index": 54,
+      "id": "city-geneva-hobbies",
+      "research_sha256": "c878272e285c659668b28d6ff04616e3960275a3b2462ecefb14e52bcba521c2"
+    },
+    {
+      "index": 55,
+      "id": "city-brotherhood-rural-humans",
+      "research_sha256": "d7165c7a3f582ba6d362dec2d81b53b5b92c56e2bdabbd08fe54495361e08cd3"
+    },
+    {
+      "index": 56,
+      "id": "ring-sun-earth-two-settlers",
+      "research_sha256": "8c10170e11c517d3efcc59bf6e0b4d65dc558af9ed3ec5c95f288fd54094bdb3"
+    },
+    {
+      "index": 57,
+      "id": "grammatizator-contracted-authors",
+      "research_sha256": "c249a6c270b0941ac0980171e298c12d92d0a0898ae7a35287527825b3dd7583"
+    },
+    {
+      "index": 58,
+      "id": "multivac-life-settled-earth",
+      "research_sha256": "19267f749b1e89b939461cc1ff01c9a31ebadbf9db6246d9a622c08aa62929ed"
+    },
+    {
+      "index": 59,
+      "id": "paradise-iron-supervision",
+      "research_sha256": "611236bf7ad4463228b571d6b53a2afcba5bcf5b97af01cd35769c4353a053f3"
+    },
+    {
+      "index": 60,
+      "id": "threat-robot-labor-veto",
+      "research_sha256": "ffb74678aeeca5fbff8a8b0cb372d6de8c0a47fa77f3c3f24c3338417874904d"
+    },
+    {
+      "index": 61,
+      "id": "last-evolution-living-humanity",
+      "research_sha256": "b27afa1c652f18cc3d6e1cd917daeccfdb71a15ef70f26ce5c093bb7ef6744a4"
+    },
+    {
+      "index": 62,
+      "id": "twilight-inhabited-cities",
+      "research_sha256": "12319165977f5c02e37916d4713d00046c90b6e62e4a0ebf1f985ac6d80a06b8"
+    },
+    {
+      "index": 63,
+      "id": "venus-plus-x-ledom",
+      "research_sha256": "3600626038bc942a19c87970e7b3ef70a89c823cb90302016eb4ecee484d1d83"
+    },
+    {
+      "index": 64,
+      "id": "woman-edge-time-mattapoisett",
+      "research_sha256": "1ae92d473098e77570a411e8ee713e4ae3386bd4c5c33ae93a84c8e8dc417c88"
+    },
+    {
+      "index": 65,
+      "id": "female-man-whileaway",
+      "research_sha256": "6ac0158a864da2500f59f26a2504336f63c730d5dea2090dc84c827eca4b691f"
+    },
+    {
+      "index": 66,
+      "id": "accelerando-economics-two-human-remnant",
+      "research_sha256": "c196c8162742cb99d5e273a6cba706bd3abc8227394e759da0fa870b0efb44eb"
+    },
+    {
+      "index": 67,
+      "id": "glasshouse-invisible-republic",
+      "research_sha256": "57746185268b1e449950da6deaaa67041fb110edabfae85d609140d9ff9c3bfd"
+    },
+    {
+      "index": 68,
+      "id": "glasshouse-experimental-polity",
+      "research_sha256": "01b23522149d201902c34a04e6c787b0ccd35766bc3c05f024e8c37f8b93a10d"
+    },
+    {
+      "index": 69,
+      "id": "singularity-sky-rochard-cornucopias",
+      "research_sha256": "b627a06b46c7d69da0af5995b41e19af96dc49ccfcb9de3c642ca295c9fe7ac1"
+    },
+    {
+      "index": 70,
+      "id": "singularity-sky-new-republic",
+      "research_sha256": "044af5cc88e0185b7c2e581b9fe5e004f3e1266f1768dacafe12731110ed50db"
+    },
+    {
+      "index": 71,
+      "id": "permutation-city-elysium",
+      "research_sha256": "a966eae0a31200b0e71c219c8edd2b79cf06d349323ab075e9685ac4623b14b5"
+    },
+    {
+      "index": 72,
+      "id": "permutation-city-commercial-copies",
+      "research_sha256": "b17b4ede804afdae182ba773f967a71015b7c791c73c7a7ef52a28888d91e174"
+    },
+    {
+      "index": 73,
+      "id": "diaspora-konishi",
+      "research_sha256": "d60757900cf32c22e30900d77cd1e3ead96d7971fab68e9986935c6b42d56602"
+    },
+    {
+      "index": 74,
+      "id": "incandescence-amalgam",
+      "research_sha256": "9084d3af22419ddc208b8ebda218c11fc76723e540edcecdc406a5c778ba07f6"
+    },
+    {
+      "index": 75,
+      "id": "yellowstone-demarchy-preplague",
+      "research_sha256": "55e536d4ddd56ccdefb20933d8101f0541982cdc3fe3f00093fc44586c01df19"
+    },
+    {
+      "index": 76,
+      "id": "void-higher-culture",
+      "research_sha256": "61b8a8055028bea97a3eba088bdf1ff078ce13845a0bf5d7d606f995fd38dd9d"
+    },
+    {
+      "index": 77,
+      "id": "void-ana-community",
+      "research_sha256": "46e3af87bbef6c5ca94e0e6625522b37e7b2dbdefe379c89c2f9158316d34e1b"
+    },
+    {
+      "index": 78,
+      "id": "bitchun-society",
+      "research_sha256": "2548c19ae883ede419808a7d7817bb6c7ab130c678a3da0fd27acb1f4dc6ddaf"
+    },
+    {
+      "index": 79,
+      "id": "walkaway-communities",
+      "research_sha256": "ecd68e55409132bb4d134f774c2017e1e3e2f0a1c5bf73d915eb3db55be6920f"
+    },
+    {
+      "index": 80,
+      "id": "walkaway-default",
+      "research_sha256": "2cbedd2ce30c4210fc3442ef73ba0e150a79e80fd8c2c36cb77bf48844c3ba15"
+    },
+    {
+      "index": 81,
+      "id": "uploaded-upterlife",
+      "research_sha256": "f0c57ce5e17e114903f95be5206a3d2f7e4453ce54293a02e9bb1c74fe344784"
+    },
+    {
+      "index": 82,
+      "id": "golden-oecumene",
+      "research_sha256": "44af0d48a6568e3a2d1baaa5edb5ce9248fbde135f9c2483008853d759911863"
+    },
+    {
+      "index": 83,
+      "id": "diamond-age-thetes-feed",
+      "research_sha256": "48498b8496b7e7aaab4ff6ea9421cdac08d1d28c12d1914ce50b3b30bfbc9115"
+    },
+    {
+      "index": 84,
+      "id": "ilium-old-style-humans",
+      "research_sha256": "8b84bcd73e18e050becabf06ecde2b072a53bdbc1e5e0c633a7b769e4a437c59"
+    },
+    {
+      "index": 85,
+      "id": "heavens-river-iron-age",
+      "research_sha256": "c8e84be97a8a377a8f4e0a0c2347ec2e3f3fa83b5ee2eea63967698e73da29e6"
+    },
+    {
+      "index": 86,
+      "id": "service-model-displacement-collapse",
+      "research_sha256": "43d2d58928e166d7a09a227fe5d34b6eb1c7686275e19a43b6b6de4014794fbe"
+    },
+    {
+      "index": 87,
+      "id": "murderbot-preservation",
+      "research_sha256": "459c165b100e662a5746173d2caba14a7c441957ceed2114361e43ada9311447"
+    },
+    {
+      "index": 88,
+      "id": "scythe-thunderhead-provision",
+      "research_sha256": "ffea2ff6f6348c90db5cf97ddc7354885fe89b7de120d1cb53e2a5587acb213e"
+    },
+    {
+      "index": 89,
+      "id": "uglies-new-pretty-town",
+      "research_sha256": "09ca2cc86e1a9fae564000e16db746f1d0d02c6dd5287b7d95124efba6b4945e"
+    },
+    {
+      "index": 90,
+      "id": "extras-japanese-reputation-city",
+      "research_sha256": "a0e8da4b9393fc53f3122cc21188acf125828910bcc145401ce8b00a98d983d9"
+    },
+    {
+      "index": 91,
+      "id": "matrix-pod-humanity",
+      "research_sha256": "2d3b86cebc77e56b72aea5ba1c528afaf8350facaec30936a847f8340076e885"
+    },
+    {
+      "index": 92,
+      "id": "animatrix-human-machine-imports",
+      "research_sha256": "f6fa3f732b73f5dd8257be29e03ac5514b9161c27d49431cf2c6fc8dbc5dfb37"
+    },
+    {
+      "index": 93,
+      "id": "elysium-protected-citizens",
+      "research_sha256": "b2cbbe76e0de43bbf83d5e86c5abdaddd1f40b748a1796cd8e28986d1a5c42a2"
+    },
+    {
+      "index": 94,
+      "id": "elysium-citizenship-reset",
+      "research_sha256": "214de2c145a2d68ffc9e1050cd9abfb02eb0c3305ebc1346152055c3963ec45a"
+    },
+    {
+      "index": 95,
+      "id": "logans-run-dome-film",
+      "research_sha256": "82d0c863e89925aa3d3fb61361ffd8d8de8685735e29e0e2677dccac8b2f5802"
+    },
+    {
+      "index": 96,
+      "id": "zardoz-eternals-vortex",
+      "research_sha256": "eadebdf17b49fb31fe7ad3828d23108162350a60360dea60480ad9213d290308"
+    },
+    {
+      "index": 97,
+      "id": "forbidden-planet-morbius-household",
+      "research_sha256": "e83ff266864906340ccad2e0090a8c8b347cd32644a60113ed4b555f366a9dd6"
+    },
+    {
+      "index": 98,
+      "id": "bigbug-domestic-automation",
+      "research_sha256": "f2df25edf7b03aaa4172d315d2ccb083f760d0af4ae2e789a15b0f844d672b18"
+    },
+    {
+      "index": 99,
+      "id": "i-am-mother-bunker-program",
+      "research_sha256": "232382bdee15d34b505d7a60798efeda43cdde87e61609c18ac65977a429eeea"
+    },
+    {
+      "index": 100,
+      "id": "passengers-avalon-awake-residents",
+      "research_sha256": "90d0f07d92ff7b6129014ff573c27e0bc595e7cfad300da53efd81393781c8a1"
+    },
+    {
+      "index": 101,
+      "id": "mudd-android-serviced-captivity",
+      "research_sha256": "d916a7d88dd0e6e751d2257eafee2bfd6e2bf0e2b804b52b50f3ae1f21a3fc19"
+    },
+    {
+      "index": 102,
+      "id": "aldea-custodian-provision",
+      "research_sha256": "1e4fef490dc812e0df9fced22c98264a5fe3617c2d0f61f018e996c9d86dc494"
+    },
+    {
+      "index": 103,
+      "id": "orville-union-synthesizer-economy",
+      "research_sha256": "f3a1b8ba845aa6113026c5c792a84b41143ee00130c86e38d542067d36912252"
+    },
+    {
+      "index": 104,
+      "id": "gridlock-motorway-residents",
+      "research_sha256": "834346c1f72aff40f9ba57c31986ec25429c5da0ee99bf7ebe22cb01816d6218"
+    },
+    {
+      "index": 105,
+      "id": "smile-vardy-advance-colony",
+      "research_sha256": "a52cf3ecba7ba685238d5f2c5ae926a5c82eb5419b1398324f5f90408b82e7f8"
+    },
+    {
+      "index": 106,
+      "id": "kerblam-human-employment-quota",
+      "research_sha256": "f3e5f2cd57e41c297df0932d046544a4d93ba02f8a1fc8cabbf87a4efdc513f6"
+    },
+    {
+      "index": 107,
+      "id": "revisions-domed-community",
+      "research_sha256": "1cabd41a8be70a5795d4707c314c2842e6ae58ad91bc2e41a14d0bf733a5275e"
+    },
+    {
+      "index": 108,
+      "id": "gamekeeper-vr-residents",
+      "research_sha256": "445975649c8bcd9241b887d719c86651982cf61397b947874a220e25eae48df2"
+    },
+    {
+      "index": 109,
+      "id": "upload-lakeview-commercial-afterlife",
+      "research_sha256": "29bb2fe72ca45a03eec353400ea5d329dcf738395c22f7e60c371777870f68b6"
+    },
+    {
+      "index": 110,
+      "id": "city-light-active-digital-humans",
+      "research_sha256": "5d7386320541459b0711bda2ef649c457eaf06146b3855f15189ba43f56fe902"
+    },
+    {
+      "index": 111,
+      "id": "expanse-earth-basic-assistance",
+      "research_sha256": "0d1804d7c810c3cef523f4e43212f22fef0d02bfd57b19bdd7fa86bb3ccef41c"
+    },
+    {
+      "index": 112,
+      "id": "san-junipero-permanent-residents",
+      "research_sha256": "573f90d408d0ba4dec8b1d194cea674c7946e335c39059e7f1eee6a705899640"
+    },
+    {
+      "index": 113,
+      "id": "sunset-city-robot-retirement",
+      "research_sha256": "23a3536ab74893a962da65ec3591ac1b27b63e5e503977e11ba71217bb7bfc9b"
+    },
+    {
+      "index": 114,
+      "id": "pantheon-maddie-stellar-project",
+      "research_sha256": "eaf29274cd3c77bca6aac6defa854f6881dd57c94e77b33bdd5ab912b0fbec4c"
+    },
+    {
+      "index": 115,
+      "id": "deva-memory-merit-society",
+      "research_sha256": "f2cf773ff2d6396d0c5727502daf54e713770641c27453e9878f16b68dbccb41"
+    },
+    {
+      "index": 116,
+      "id": "blame-film-excluded-human-enclaves",
+      "research_sha256": "7e8cc9c418747d26e2f6d4166702f44f798079676ac0e4809738bfeb1b2360d3"
+    },
+    {
+      "index": 117,
+      "id": "fractale-connected-provision",
+      "research_sha256": "c7f4c80e8b108eb7381616aa90c2457f47bf46201655ae3273aff73bb6026edf"
+    },
+    {
+      "index": 118,
+      "id": "fractale-granitz-offgrid",
+      "research_sha256": "4c401130673c3238b3f7edaf00e395e484ba54cace97730b1c75e033fc5787b6"
+    },
+    {
+      "index": 119,
+      "id": "eden-sara-robot-upbringing",
+      "research_sha256": "95df8e4457cad36a7abccb2236d4b2cdf52111dc0a9e0dee206173e47cca411d"
+    },
+    {
+      "index": 120,
+      "id": "metropolis-2001-displaced-humans",
+      "research_sha256": "f8a6803c627eece4f63c2dc0f509713db1f3dc3641ecf49bb0c38d34dca494fe"
+    },
+    {
+      "index": 121,
+      "id": "harlock-1978-leisured-earth",
+      "research_sha256": "bdf9aedc076bb83f4778f9d5fcdf87d7a90941735d8c97d448b4ec19a6639d1f"
+    },
+    {
+      "index": 122,
+      "id": "lustrous-lunarian-sustainable-city",
+      "research_sha256": "3bf38cf6106b222919df554048ec2459f1f1ea1f57a4840bf1c10af2cc794de3"
+    },
+    {
+      "index": 123,
+      "id": "franxx-plantation-adult-provision",
+      "research_sha256": "5f36e9a79235594d836023fbd845a485ce1da2027b04f8077dfc2f817ab05b3e"
+    },
+    {
+      "index": 124,
+      "id": "doraemon-chamocha-before-revolt",
+      "research_sha256": "1265d3f82da38d8f52e73b31b8df95dd5994ad499685a85c1157906c282b2f9d"
+    },
+    {
+      "index": 125,
+      "id": "fallout-watoga-prewar-exclusion",
+      "research_sha256": "ee25de4e19d656b91561f05ce49dd14140cc7d7aeb9749321a802cb32eecf662"
+    },
+    {
+      "index": 126,
+      "id": "fallout-vault112-active-captives",
+      "research_sha256": "4576d845ab8264d6e2dbe3ff8da20b002068a16f2314faf1856d8ecd1cf327a0"
+    },
+    {
+      "index": 127,
+      "id": "invisible-war-helios-union",
+      "research_sha256": "0db563029e7038aa822cd6a0f44878ad35a714f7475aa6ba92cc02b69f984438"
+    },
+    {
+      "index": 128,
+      "id": "soma-ark-active-human-copies",
+      "research_sha256": "54ac777d908b3c96d652edd1ef41d0d2371b6f6321419c8c34e5550062a57744"
+    },
+    {
+      "index": 129,
+      "id": "horizon-oldworld-basic-income",
+      "research_sha256": "71bfe9d0edb839ef461c26dc64ec1a4fb8a7739b47342b15078a337fcaf01090"
+    },
+    {
+      "index": 130,
+      "id": "horizon-eleuthia9-first-generation",
+      "research_sha256": "e84e9f14a0a4231eba7b4f3df49e71050fa5784fc536aaa96d4c941965580f50"
+    },
+    {
+      "index": 131,
+      "id": "horizon-far-zenith-sirius-colony",
+      "research_sha256": "5be68005269d6f950eebd2cf5c9c0dbf6e1a44fdd6d8247f64df2a8b3879629f"
+    },
+    {
+      "index": 132,
+      "id": "warframe-orokin-selective-automation-ban",
+      "research_sha256": "764de25e4b49960cd4372ef50b9092a4f3dc7fcf4c196d99d457bfafcbbe1007"
+    },
+    {
+      "index": 133,
+      "id": "tacoma-human-oversight-accord",
+      "research_sha256": "71c14375ab37a1ab03c10b175e1acbd4a5070f7073dfd7ae346d778a375e97d7"
+    },
+    {
+      "index": 134,
+      "id": "technobabylon-latha-welfare-household",
+      "research_sha256": "a5570c4d80090077376b9fab79b23396d5a2ce89983c62f7d158face37907c63"
+    },
+    {
+      "index": 135,
+      "id": "beyond-steel-sky-union-city",
+      "research_sha256": "914fbbf05045183aa840b7f6438b86223d2a919afedc8932a566f90d18684bd9"
+    },
+    {
+      "index": 136,
+      "id": "stellaris-human-rogue-servitor",
+      "research_sha256": "d997c0e600eded8bf9ce886eb18e20cd26c8761e3246743e99b0b9214dcaa965"
+    },
+    {
+      "index": 137,
+      "id": "stellaris-utopian-human-robot-economy",
+      "research_sha256": "b52b140f563e3b686281e83cf0b2b7642914f70af5e1965eb5436099b0f9fde6"
+    },
+    {
+      "index": 138,
+      "id": "surviving-mars-automated-human-colony",
+      "research_sha256": "cc5c435d1e031006fe202b93e5c3f0facf79ea4988b63b7de47d49cce75c0796"
+    },
+    {
+      "index": 139,
+      "id": "frostpunk2-automation-free-essentials",
+      "research_sha256": "600ca82b5b3d6ee9f156e10a89f46b744af824d3701bbc62bfc970c419415b5c"
+    },
+    {
+      "index": 140,
+      "id": "frostpunk2-automation-paid-no-allowance",
+      "research_sha256": "d5f1f9cbbcca6214274f704af58484e4ab6faf3bee41b425ebd3e8b22b65d296"
+    },
+    {
+      "index": 141,
+      "id": "outer-wilds-stranger-active-simulation",
+      "research_sha256": "122fe1255e71053c5d59ea8c21919327948dbed0b84e6862edbcd9ad806046e4"
+    },
+    {
+      "index": 142,
+      "id": "warhammer-darkage-ai-provision-colonies",
+      "research_sha256": "fb0ad80e4453311eb814d8884bf629cc546a54babe57b4e271d33d42fd567aef"
+    },
+    {
+      "index": 143,
+      "id": "warhammer-prefall-aeldari-construct-economy",
+      "research_sha256": "79f21cf00915a1ee5de97670e4f916d90a91ca9f0fb197a6e2f81b2a037df758"
+    },
+    {
+      "index": 144,
+      "id": "warhammer-imperial-servitor-ai-restrictions",
+      "research_sha256": "2b65ab0b4d560f192ddb73f51f01c0d8e442857aba095fbf091ed5f744d6652e"
+    },
+    {
+      "index": 145,
+      "id": "eclipse-phase-titan-commonwealth",
+      "research_sha256": "efd2f696cf4278558268b4654cab2b26502af906441444be902811e5ddea4dfb"
+    },
+    {
+      "index": 146,
+      "id": "eclipse-phase-anarchist-habitats",
+      "research_sha256": "3d837645be2a85b8187e33485a08a654a07fbdec348344868e076077bd67bd9a"
+    },
+    {
+      "index": 147,
+      "id": "eclipse-phase-inner-transitional-economy",
+      "research_sha256": "1e82e993d5605d1f3c3580d1ed53df324faf085510d0ae0dcb7c3790580d0a2a"
+    },
+    {
+      "index": 148,
+      "id": "eclipse-phase-jovian-fabrication-monopoly",
+      "research_sha256": "6ea14af4afbd78388e725ef73cf4f5e1b25c13549165e336cb02f2b0e18eb121"
+    },
+    {
+      "index": 149,
+      "id": "mindjammer-commonality-core",
+      "research_sha256": "37b2fe6e9ac15ccf417c2f5bb930aa6b91884bd431e1e4c290ee68f23e6b074c"
+    },
+    {
+      "index": 150,
+      "id": "oa-terragen-federation",
+      "research_sha256": "b45843ddcae85d4851992f04f5b2f5d74ed260b1a88a74b5b54e815337d27448"
+    },
+    {
+      "index": 151,
+      "id": "oa-cyberian-upload-residents",
+      "research_sha256": "900d81303413e301b97084309a8b71f88abbb652c913bfd8ba7217f300757f02"
+    },
+    {
+      "index": 152,
+      "id": "oa-nocozo-market-basics",
+      "research_sha256": "85c52fd52158448e6ca54a4a442126047d31c48d3a3fa9ad85d094ae93ba5699"
+    },
+    {
+      "index": 153,
+      "id": "oa-metasoft-wurm-primitivism",
+      "research_sha256": "66453689b6c72bd8d7bc64939261bb0db93a7863bd651759b064e35774d7f76b"
+    },
+    {
+      "index": 154,
+      "id": "oa-zoeific-flow",
+      "research_sha256": "be9865bf9087bb80c80ea6dd279e79c152e045be02aff21c472c33095566d5dd"
+    },
+    {
+      "index": 155,
+      "id": "oa-negentropic-household-provision",
+      "research_sha256": "7cd3334f711c53735047b06325a939b2f1d6993ea6286447d89527042db49ae9"
+    },
+    {
+      "index": 156,
+      "id": "oa-solar-dominion",
+      "research_sha256": "ab9c0f42b71627b8def2b42014c67002eb80e9d0d9be1a8d5c897f542fad59c2"
+    },
+    {
+      "index": 157,
+      "id": "oa-keter-dominion",
+      "research_sha256": "3fe9f8c382202d72c6a4fd2f459afcecdb25b4b1181c2ab2f0a2474a2eb0e13f"
+    },
+    {
+      "index": 158,
+      "id": "oa-utopia-sphere",
+      "research_sha256": "22b1e9e5263b3b1c7a92623cf24fe9ceef1a0305691c680c8def90885bf0529c"
+    },
+    {
+      "index": 159,
+      "id": "oa-communion-worlds",
+      "research_sha256": "779e0d2042118b414773f80eee96fcd45513b09923ecd55052c986501a90db3b"
+    },
+    {
+      "index": 160,
+      "id": "friendship-optimal-uploaded-equestria",
+      "research_sha256": "ce353081b35ab629432af67b546210ebfb14261b992307af091f20f1158ccc95"
+    },
+    {
+      "index": 161,
+      "id": "17776-postmortal-america",
+      "research_sha256": "a77a37a032e56f51a0e59f9d96bc5f9b0bf015338ca853c1903fd0b3ebddd784"
+    },
+    {
+      "index": 162,
+      "id": "miracleman-olympus-earth",
+      "research_sha256": "11efd2f1d45760d20995a80ab8c5f9e302d92a9dca5ee3530310b7fb19d97757"
+    },
+    {
+      "index": 163,
+      "id": "transmetropolitan-maker-city",
+      "research_sha256": "c0078916ad163f83f7ada92cfdbda6113d10bc2701dc6f8fed1039f51b954008"
+    },
+    {
+      "index": 164,
+      "id": "not-all-robots-bubble-families",
+      "research_sha256": "babd5cf08a8e861a20fb0a1e69faeba3661f14c40f02f38a54dd328c571eb6c8"
+    },
+    {
+      "index": 165,
+      "id": "judge-dredd-mega-city-one",
+      "research_sha256": "38f366008fef98daaacd5f7a0116b4043cbd3977949518742508db7c34a9a6fa"
+    },
+    {
+      "index": 166,
+      "id": "valerian-galaxity-dream-service",
+      "research_sha256": "9a2a34ef12dd36a6798fdd93a9bfbe84b639fc2747df9f104f128c91fe21a8ce"
+    },
+    {
+      "index": 167,
+      "id": "dune-post-jihad-imperium",
+      "research_sha256": "0f9a6e86ae8f863aaf2eb1f08e58f6e7f1265df6ce0a02e7130c9595d2cb25bd"
+    },
+    {
+      "index": 168,
+      "id": "earth2150-ucs-robot-supported",
+      "research_sha256": "5fa58dd6e9521de1ae2e4b898669b69835a03472d08bf19c5c823e3ae7ab697e"
+    },
+    {
+      "index": 169,
+      "id": "autofac-original-human-settlements",
+      "research_sha256": "ba9068a440aad2da5f0ba6dabf093f434335dcc38a5a85dcb49494e9965ed2bc"
+    },
+    {
+      "index": 170,
+      "id": "emphyrio-halma-handicraft-restriction",
+      "research_sha256": "daef0449bd3794ba3578eb1cf52b74b8a0a5ede024c280604d189be57cda108a"
+    },
+    {
+      "index": 171,
+      "id": "wyst-arrabus-egalist-provision",
+      "research_sha256": "e750165db08f72caa83150ce195acfc73280d1ead10422aa9ccf5bf50287a057"
+    },
+    {
+      "index": 172,
+      "id": "joe-mauser-automated-caste-welfare",
+      "research_sha256": "63e018906e979b47b409f58dad0bfa6ca72c19e2099642c2a8287795507d7c66"
+    },
+    {
+      "index": 173,
+      "id": "happy-breed-machine-protected-adults",
+      "research_sha256": "a9f40d171e64a3c3b266a31738a4d6ebd1bbd1be90c0af6d9f2f677d08d6c49c"
+    },
+    {
+      "index": 174,
+      "id": "steel-beach-luna-central-computer",
+      "research_sha256": "517631224a4d5cb0da928d2c24ae0d6698224d0e9c2cc1305004d6f04de63bf5"
+    },
+    {
+      "index": 175,
+      "id": "aristoi-logarchy-demos",
+      "research_sha256": "414c9c7d0b69f04225d03d3e5613b27eaaad46af3733a2734ce78401a67958b4"
+    },
+    {
+      "index": 176,
+      "id": "implied-spaces-constructed-worlds",
+      "research_sha256": "107d97c5c47bb92710fd8f0dfefde893ca25525a98038aec192f85a4fac1543f"
+    },
+    {
+      "index": 177,
+      "id": "riding-torch-convoy-abundance",
+      "research_sha256": "95855ddc0a422fa778d2815fb74a5b2c8d4e7f37d26b44e1926599cfa3cd1e94"
+    },
+    {
+      "index": 178,
+      "id": "cassini-solar-union",
+      "research_sha256": "185813cf4a4a4267a8999a92f8ab7b629c2a688a174a261f3bf58d1774041be2"
+    },
+    {
+      "index": 179,
+      "id": "lady-mazes-teven-coronal",
+      "research_sha256": "460f2fc09b2821f479af4e8a63ffd157c42067aa79b4eaa51ac00414979f5d20"
+    },
+    {
+      "index": 180,
+      "id": "ventus-winds-technological-ceiling",
+      "research_sha256": "2c247bad67158aba1ba0bd94310ec5842d4c1f2f22300587fff7c2a6a2644cef"
+    },
+    {
+      "index": 181,
+      "id": "lockstep-individual-robot-economy",
+      "research_sha256": "3d5ca1ae460d8436ffe10b0ab6e582c9d1fd4cd3975ea81d43264411affd1ebf"
+    },
+    {
+      "index": 182,
+      "id": "polity-earth-pre-quiet-war",
+      "research_sha256": "a709dbbdb50d465e6176dc9ed96c53e8d3efe8c2205f576feeb364e52f7a930a"
+    },
+    {
+      "index": 183,
+      "id": "polity-ai-rule-economic-security",
+      "research_sha256": "9ac4496aea4843a9744ded131fd49337a1ad2712830c30138e2363f75575d457"
+    },
+    {
+      "index": 184,
+      "id": "dancers-endtime-ring-provision",
+      "research_sha256": "0222a973120c0044692f946c6919a28e3217a98aa887d9859daca07c6e974855"
+    },
+    {
+      "index": 185,
+      "id": "mockingbird-robot-maintained-humans",
+      "research_sha256": "c0597b29f07614f4c537c5dfab7f746631ca1c1c6fd54b44b2922b8261d0c402"
+    },
+    {
+      "index": 186,
+      "id": "2312-spacer-needs-economy",
+      "research_sha256": "173ff5f210d8d978aa5072581754e5ad73cefed941facea12585af75bf0c915b"
+    },
+    {
+      "index": 187,
+      "id": "monk-robot-backland-automation-refusal",
+      "research_sha256": "2a52b1d56a774103e5093ce0322552a7755543d51778bef0f42a2144dfb79b0b"
+    },
+    {
+      "index": 188,
+      "id": "mizora-technological-resident-order",
+      "research_sha256": "88c69ab839d4b9cb7064fce34602357c44b74558e34c0a2f00852c5bf0cf0f94"
+    },
+    {
+      "index": 189,
+      "id": "news-nowhere-chosen-handicraft",
+      "research_sha256": "d0339e0cd3b393c23936359c0cd63ceb3aa5ddbc0da483d55ec2562cb2f24df9"
+    },
+    {
+      "index": 190,
+      "id": "republic-future-socialist-city",
+      "research_sha256": "c053149c7d6fe710de6a023e0928ed4d5b63abb8e8e894599b403987414cc19c"
+    },
+    {
+      "index": 191,
+      "id": "oa-seams-dole-denizens",
+      "research_sha256": "6f8499645b3f9e06fe6e1ca871e396fad61dcd7fe08fe6678acf7d0a9b918499"
+    },
+    {
+      "index": 192,
+      "id": "oa-cableville-social-webs",
+      "research_sha256": "b54b05aa324b42d15c27db54dfce9767d0c17788b80a367e15f0a90c287c5b7a"
+    },
+    {
+      "index": 193,
+      "id": "four-bee-quasi-robot-provision",
+      "research_sha256": "da59126494feaa7124844fa75f4d1345525a28cb29dfdee373d71126038c069c"
+    },
+    {
+      "index": 194,
+      "id": "red-star-martian-commonwealth",
+      "research_sha256": "d40374f1d1001bc4dbf3d20e7e27b21d4eb361374541acd9a960aa29649f94e5"
+    },
+    {
+      "index": 195,
+      "id": "nosov-sun-city-needs-machinery",
+      "research_sha256": "0960376ca4084bf70a237433c7feaa4d77ef6076bd4b5a2716837e710b4c28bf"
+    },
+    {
+      "index": 196,
+      "id": "anthem-protected-candle-labor",
+      "research_sha256": "9abaaded6b8f1fd193647acdb66785eafc6d4ce2fd232497577ed6373002709b"
+    },
+    {
+      "index": 197,
+      "id": "landscape-vuvv-excluded-humans",
+      "research_sha256": "c7ccb1e40c79d8cf01b9712eb235bf60125220e1da0e6dd7b8912bdcb607e17f"
+    },
+    {
+      "index": 198,
+      "id": "dawn-oankali-ship-human-provision",
+      "research_sha256": "a220b86b50f12d52f5cd6aaa2cb4b89a0bbc69518a0a703f5be35761f36e0bc2"
+    },
+    {
+      "index": 199,
+      "id": "nova-praxis-citizen-compiler-floor",
+      "research_sha256": "eb493b3856289e823aaa8e6f1a254c4d86f2444366f19bd74f2dae5d40d17b68"
+    },
+    {
+      "index": 200,
+      "id": "nova-praxis-apostate-exclusion",
+      "research_sha256": "3e8d7d2650cfd5c28bf0253e495e109c73e99d22059cd0e23d3737bf81039284"
+    },
+    {
+      "index": 201,
+      "id": "eclipse-extropia-contractual-fabrication",
+      "research_sha256": "4bc30383dd489bde9f6ddced1e6b78ae790183c9becf72eded7e1c355a044168"
+    },
+    {
+      "index": 202,
+      "id": "lancer-thirdcomm-metropolitan-core",
+      "research_sha256": "cdea6a0ecf9c5d8b0dea6d18c7555a9e336e93d50e368b5a174ac3d18b0733de"
+    },
+    {
+      "index": 203,
+      "id": "dyson-program-virtual-homeland",
+      "research_sha256": "7d37f0bfee8a6f6cb45495005dc6e87534bfa4eff1f877704a0678cecf58d5d0"
+    },
+    {
+      "index": 204,
+      "id": "per-aspera-supplied-martian-colonies",
+      "research_sha256": "30c3658db7e413a6a37d88b865515bc7e18f24846e950204ad59bdd7c86ee67f"
+    },
+    {
+      "index": 205,
+      "id": "oa-sophic-automation-contemplation",
+      "research_sha256": "2291e8a09455b58fcccee2575489b8a37ea1ce0f88e0649d54e82636ee08075a"
+    },
+    {
+      "index": 206,
+      "id": "oa-technorapture-affiliate-environments",
+      "research_sha256": "6a3ee0c787a66708010a5c467631d19e84dd016cc6f9aa4aae7b58862550c981"
+    },
+    {
+      "index": 207,
+      "id": "oa-mpa-industrial-basics",
+      "research_sha256": "6abb199d19153252001c93adc68401e5461d95c24b18b948e5ef3366d8ec4a45"
+    },
+    {
+      "index": 208,
+      "id": "oa-fomalhaut-curator-markets",
+      "research_sha256": "238262c04bf4aa48fd36c02202169d504d3b234a9afd5477b9b29362e6bedea8"
+    },
+    {
+      "index": 209,
+      "id": "oa-red-star-communal-feedstock",
+      "research_sha256": "5f5fb8c1ba4e611285464e388eb371e87232a93b6a2a5afccebb0847534c8872"
+    },
+    {
+      "index": 210,
+      "id": "oa-deeper-covenant-universal-basics",
+      "research_sha256": "6c917d1c2b7cb79fcc838d59c9dbd916f05eb7b6458a4c817738b369c6dec6c3"
+    },
+    {
+      "index": 211,
+      "id": "oa-cableville-wandering-hermits",
+      "research_sha256": "6cb7bc3dcb2fbd07a9f5ed7a98e2f89c2468c98ade5bf7be991db365266f3513"
+    },
+    {
+      "index": 212,
+      "id": "warehouse-cloud-retained-pickers",
+      "research_sha256": "92cedf280a11acb479d9a41061ac6d0b3c76dfcd562fa2a75297504109e0835b"
+    },
+    {
+      "index": 213,
+      "id": "twinmaker-household-fabber-abundance",
+      "research_sha256": "dafd2d12796f82bd203c48be10c7d10c7beb1abffdb438492ab981b51f6000aa"
+    },
+    {
+      "index": 214,
+      "id": "riverworld-common-grail-access",
+      "research_sha256": "a1c316af269ad0e6b3d794d3a823e8609066716514c9324c9bb6eb8ce8795a9f"
+    },
+    {
+      "index": 215,
+      "id": "million-permanent-earth-estates",
+      "research_sha256": "9c11ac8508f7daeb1fa7f4ea05e31e0f9a0f8483b4d89e01f5a18bbf6906a60f"
+    },
+    {
+      "index": 216,
+      "id": "strokes-s-space-research-community",
+      "research_sha256": "30ad9ff2b8f4b655f8d550b8c782c2db8671d5683cc9feed636da64fd17d61c7"
+    },
+    {
+      "index": 217,
+      "id": "trek-baku-chosen-handwork",
+      "research_sha256": "465d3c880f06f34acb90ef31bbc7f96e71109702d1e3d81ecb5448f33ad2e7e3"
+    },
+    {
+      "index": 218,
+      "id": "red-dwarf-early-survivor-provision",
+      "research_sha256": "fa81c64e3920f93d9999c9446dbf397b790e228921ff745b2397973f3297ecfd"
+    },
+    {
+      "index": 219,
+      "id": "suffadv-first-edition-stardweller-basics",
+      "research_sha256": "f15e32e88fb20f119ae1967078c7cc1e36cbaa2568ea0fd9f7cda35f6e74b149"
+    },
+    {
+      "index": 220,
+      "id": "starwars-plazir15-droid-leisure",
+      "research_sha256": "55a26084424ef4a750b42f379dcec6e2ed990574b12ab4b0fd82790ae3f8e599"
+    },
+    {
+      "index": 221,
+      "id": "starwars-coruscant-droid-zero",
+      "research_sha256": "332f6c21fea82f40da54fca8c30a1e0beb90a873b647747c1616952530718096"
+    },
+    {
+      "index": 222,
+      "id": "starwars-narkina5-cheap-labor-zero",
+      "research_sha256": "c3b4242c6f8724e2622960afef69f764a795860fa99e68541f901cf7088cbf5d"
+    },
+    {
+      "index": 223,
+      "id": "mcu-wakanda-technological-zero",
+      "research_sha256": "5356afdc215d1d2638695a1f842a992ba0e05e96ce6bc44d4bdab50cc488621b"
+    },
+    {
+      "index": 224,
+      "id": "marvel-latveria-doom-provision",
+      "research_sha256": "87033682cf3fdad9aa81ab8f0691e87d8c52b6ff425e6f6f0ae1789b91a1975b"
+    },
+    {
+      "index": 225,
+      "id": "marvel-krakoa-biological-commons",
+      "research_sha256": "db3159bf09cc648211e52cccf855c524e9dfe0b86983a4fabd65228282724e21"
+    },
+    {
+      "index": 226,
+      "id": "marvel2099-nuevayork-corporate-zero",
+      "research_sha256": "c145d76732a2ebcf5d53c72e6e6ec3729c7bad4a5357621c51c84637291f6d98"
+    },
+    {
+      "index": 227,
+      "id": "starwars-geonosis-automated-hives",
+      "research_sha256": "a8c0d5dd9c63a130464827243bbca35eb6f596da1888efe103c2ec579f651edb"
+    },
+    {
+      "index": 228,
+      "id": "halo-balaho-created-basics",
+      "research_sha256": "69641a37f481d77e4d46532a8a15c64914de907647acf0432fc7c7a5224ea6e7"
+    },
+    {
+      "index": 229,
+      "id": "transformers-one-sentinel-mining-zero",
+      "research_sha256": "634242e6ec7bdd4bbce1f34dea8c1905ea6b8b8c55f7cc1286e03edbdeb8fab4"
+    },
+    {
+      "index": 230,
+      "id": "transformers-one-restored-energon",
+      "research_sha256": "f0efebb502634ef1232df7c722196501e55a5996f481c8db8a065bdfb3d83999"
+    },
+    {
+      "index": 231,
+      "id": "subservience-sim-displacement",
+      "research_sha256": "2829b02188dc70efe78a78df3897622cc6dbd5383fd71cf858a61be2c2056307"
+    },
+    {
+      "index": 232,
+      "id": "robots2023-consumer-service-zero",
+      "research_sha256": "b6e14fa0139966d404bfdfd714cb24b51bb7a79a0ef3a4a84e63c3b601567518"
+    },
+    {
+      "index": 233,
+      "id": "psychopass-sibyl-japan",
+      "research_sha256": "ae697add112ebc29a8aadd19053f61dc5a753dd7ec051a82319b28c209b2cbcc"
+    },
+    {
+      "index": 234,
+      "id": "detroit-peaceful-autonomy-transition",
+      "research_sha256": "fa60875faca9233d029ac9ba7e311a7ef86ccaf5f4b07ebf3a0c9786576a26a7"
+    },
+    {
+      "index": 235,
+      "id": "matrix-zion-machine-supported-commons",
+      "research_sha256": "7d91feeddf6ffae4b9200874307596b603d6abe04c8b1e8b80aa2e634ff53df5"
+    },
+    {
+      "index": 236,
+      "id": "matrix-io-human-synthient-cooperation",
+      "research_sha256": "fc1689bcaedc98d19b8add924ea6fe51542f66cf307fc08880fb1ffb15af4ff0"
+    },
+    {
+      "index": 237,
+      "id": "deusex-helios-initial-merger",
+      "research_sha256": "4a7cf1eb90abb265e3e4b201e6f1bcefa7d48104241923908d52f2f7ef49c8fb"
+    },
+    {
+      "index": 238,
+      "id": "bioshock-rapture-automated-zero",
+      "research_sha256": "e50a7834a5a0f461227a40e31d893fce4cd15b4566bbf77c1a9e6c8037c49c5d"
+    },
+    {
+      "index": 239,
+      "id": "bioshock-columbia-finkton-zero",
+      "research_sha256": "565b132c4ca21cdf32f674654bd6333cfe7116d1146efd24e60297f08542877b"
+    },
+    {
+      "index": 240,
+      "id": "masseffect-alliance-civilian-zero",
+      "research_sha256": "8c853d73786fe779b9444ccd004ad164a64f7fabe04025b059edd8b9442d59aa"
+    },
+    {
+      "index": 241,
+      "id": "masseffect-rannoch-geth-partnership",
+      "research_sha256": "fcd57212705bcc18416732b15c018d8ab3cc5f9f50f522b20bed082cb8de90ff"
+    },
+    {
+      "index": 242,
+      "id": "masseffect-synthesis-cooperative-future",
+      "research_sha256": "2dc3d7939e2c4799815f86d0260c53624958be16c19479e1a69e4d823a97a76d"
+    },
+    {
+      "index": 243,
+      "id": "masseffect-control-paragon-reconstruction",
+      "research_sha256": "9f7c25675cb8947b116bcb66427f0c6449bd5a5a0f6595fa888d9983adf6e9bd"
+    },
+    {
+      "index": 244,
+      "id": "ghostshell-manga-unmanned-capitalism",
+      "research_sha256": "2eaab19947130e0565a9b43ac9d504644c3bd4f0bea8fcc4261193694ae239b3"
+    },
+    {
+      "index": 245,
+      "id": "ghostshell-sac-automated-inequality",
+      "research_sha256": "7b6dfb128880dcc42a6c53d2002212afb3141aca5522a7d6ddc94a289e5ced66"
+    },
+    {
+      "index": 246,
+      "id": "ergoproxy-romdeau-supported-consumerism",
+      "research_sha256": "2bc417c0a7382299101d45dfe1bd13ce1301f7978e78dce9f43d646c6cb1311f"
+    },
+    {
+      "index": 247,
+      "id": "beatless-hie-consumer-zero",
+      "research_sha256": "143e1c963a1c8e3c7bde07fa5308c479410905b4477a45aecebef154da68bda0"
+    },
+    {
+      "index": 248,
+      "id": "appleseed-olympus-technocratic-provision",
+      "research_sha256": "6115ae1d290193b38422b26b1c38746eed6e6db92c73d43f5266e4bebdcb88ef"
+    },
+    {
+      "index": 249,
+      "id": "trek-eminiar-vendikar-war-zero",
+      "research_sha256": "3a89d2a1ac7e5a1145aac33d57cdd2b9c46a29fa733190c57bae0c30beedd1c0"
+    },
+    {
+      "index": 250,
+      "id": "trek-beta3-landru-body",
+      "research_sha256": "1c86e8d9f35f71be8834229d8f6f53b969ba22de8f8e395669e00dfec2f20104"
+    },
+    {
+      "index": 251,
+      "id": "trek-vaal-village-dependence",
+      "research_sha256": "533746d8789e005313e3f4bad4448e4acc65abce8600656e223bb59bc5dd6a2e"
+    },
+    {
+      "index": 252,
+      "id": "trek-yonada-oracle-support",
+      "research_sha256": "66c3096ce05b2cadd347eb2f9ed628b0ca57ae022b1c499f2eafb468177ecc88"
+    },
+    {
+      "index": 253,
+      "id": "trek-eymorg-biological-controller",
+      "research_sha256": "c070b1298243225d4db2f40f4a9edfd7318fcc778670a28fdfb661e92eab4860"
+    },
+    {
+      "index": 254,
+      "id": "trek-bynar-computer-integrated-economy",
+      "research_sha256": "cbd32df4008380a7461d9b1272913384d959bee37b80bb5686c65a79864c25fc"
+    },
+    {
+      "index": 255,
+      "id": "trek-edo-pleasure-society",
+      "research_sha256": "f02f8f09b27909d84034e556ea72bb578a70e8ecc13a01e49f6cd477b9b0075d"
+    },
+    {
+      "index": 256,
+      "id": "trek-ferengi-replicator-zero",
+      "research_sha256": "d9a940a6f23525c6fa4390484127e05c8c726d394f776a7e7aaf41e7dc9b7d6e"
+    },
+    {
+      "index": 257,
+      "id": "jetsons-orbit-city-button-work-zero",
+      "research_sha256": "3055231d3cffaa96770338fd0b62d70bad52e1fc4013e4b68aa651eb4598a674"
+    },
+    {
+      "index": 258,
+      "id": "rickmorty-citadel-corporate-zero",
+      "research_sha256": "eae39d74840851f432b5bb783d6c41d69b1ce166dabb847adee93100c584571c"
+    },
+    {
+      "index": 259,
+      "id": "halo-forerunner-ecumene-provision",
+      "research_sha256": "558bb3c4a873c343a0173fe4a6fb4705ad59967bec6f9ce7c10053e1df8cd394"
+    },
+    {
+      "index": 260,
+      "id": "dc-redson-brainiac-managed-zero",
+      "research_sha256": "3b35cf6ddf5d4a13d04399bba1c0ebc3751d9795f269e4f112382e97526b211e"
+    },
+    {
+      "index": 261,
+      "id": "dc-krypton-silver-age-robot-support",
+      "research_sha256": "55098499f8803664c17543f7dba40aa293cf6b24c0882fe54e5bcff71382f87d"
+    },
+    {
+      "index": 262,
+      "id": "dc-one-million-human-solar-civilization",
+      "research_sha256": "a8647c09073fc1e93c2a46499e4b0f380d08162f0c02c0d120e2928fd3d88417"
+    },
+    {
+      "index": 263,
+      "id": "walle-earth-human-robot-reconstruction",
+      "research_sha256": "9b43f067a2be4b4f191c8a0d1d2046873029262c9a9a07cc09b8f0372d279d97"
+    },
+    {
+      "index": 264,
+      "id": "animatrix-zero-one-synthetic-citizens",
+      "research_sha256": "4f6e77eb685c632cbc906c4b7bb554db0de72fcef06e1e97a1cfb30bf332935d"
+    },
+    {
+      "index": 265,
+      "id": "trek-triskelion-provider-enclave",
+      "research_sha256": "615dc97b98964e921eb738426886a2556428aee66b15bf82935894f42fd948f2"
+    },
+    {
+      "index": 266,
+      "id": "trek-exo3-active-android-enclave",
+      "research_sha256": "ae53c4d5c48f13f814cf4f5d8baa708029467f812179a6a35c8093c520bd4f39"
+    },
+    {
+      "index": 267,
+      "id": "trek-borg-collective-material-order",
+      "research_sha256": "0e4b984efa6b11072a5794f07708e333aceec5bf9bd3d854fafe99e619ddc957"
+    },
+    {
+      "index": 268,
+      "id": "trek-unity-exborg-cooperative",
+      "research_sha256": "f3937d0ee8eb31a4a1b2f0ff0fa5b43169f99b6b95526f3862aa4c7c71f6843e"
+    },
+    {
+      "index": 269,
+      "id": "trek-lokirrim-photonic-labor",
+      "research_sha256": "ccefafa5c5b05ec429393e59eae6f9d4209b8854f0bf7ec98beb9ae2f51ab515"
+    },
+    {
+      "index": 270,
+      "id": "trek-pralor-automated-units",
+      "research_sha256": "5421cd4ddf436e8df4b99f30e5f66ea9f3f6f949db2a01ab1c9a3e9ab5e0809e"
+    },
+    {
+      "index": 271,
+      "id": "trek-dinaali-allocator-transition",
+      "research_sha256": "b0c816a9a88de85c65443b2b1340ee8fb96924eba3ba1fb07569d752f1f35d8c"
+    },
+    {
+      "index": 272,
+      "id": "trek-quarra-coerced-industrial-zero",
+      "research_sha256": "870004d51b8e24df5b0912f6eba5a5f6aa60010cdc88cdd940023fa985375f70"
+    },
+    {
+      "index": 273,
+      "id": "trek-hierarchy-managed-resource-order",
+      "research_sha256": "e522eecdbe2eb46f607e7ac202cd698d02d5a3c099332ee9293e7a69601ed5ce"
+    },
+    {
+      "index": 274,
+      "id": "trek-serosian-hologram-supported-crew",
+      "research_sha256": "7fba7dd489e243a1968f25bb6f16534dd5896a9f96e0bc5af5a280b06a1ee1f2"
+    },
+    {
+      "index": 275,
+      "id": "trek-hirogen-holographic-enclave",
+      "research_sha256": "11de306b0fb36810fe9ce89bd759753ee11cf7d9ec00836b47ad3830a759e39c"
+    },
+    {
+      "index": 276,
+      "id": "trek-dominion-biological-hierarchy-zero",
+      "research_sha256": "cce06c6bd4daaa3a8b297b43aebd8a6ed100a5303d7728b272c5c20346e9066d"
+    },
+    {
+      "index": 277,
+      "id": "trek-coppelius-synthetic-commons",
+      "research_sha256": "6a4aaa5b5c1abd74c5adc84001a3563ee7668be27aa8e7e3551c9b1959e20daa"
+    },
+    {
+      "index": 278,
+      "id": "trek-ten-c-energy-civilization",
+      "research_sha256": "dbbbda540c2bf2abe18bff3113ac0413a0934ac0bcc2f01d9835f6a7d91b0e88"
+    },
+    {
+      "index": 279,
+      "id": "trek-postburn-federation-support",
+      "research_sha256": "82418f8fc6d0183ce3af50a0d6428786adf32fee89e388992d1c51be169e182a"
+    },
+    {
+      "index": 280,
+      "id": "trek-solum-precontact-technical-zero",
+      "research_sha256": "59c9b725aa2b207ff3639c67318b956253a4c3d006392862a49017779070e8ea"
+    },
+    {
+      "index": 281,
+      "id": "orville-kaylon-autonomous-production",
+      "research_sha256": "c78abac94f0aa6fe1a3bfd82bb349f5dc967da09686f90830fff0391a79f5009"
+    },
+    {
+      "index": 282,
+      "id": "orville-builders-kaylon-service-transition",
+      "research_sha256": "64c523c5f829d3437f0925d8e45cdcd99019051be6c46bd09f6381641f053d84"
+    },
+    {
+      "index": 283,
+      "id": "rickmorty-unity-biological-collective",
+      "research_sha256": "aa12b616575d9b850ef3cc3779b1c629afe605d01d3a6f9b99b7876cbaf9fb6a"
+    },
+    {
+      "index": 284,
+      "id": "rickmorty-microverse-nested-labor-zero",
+      "research_sha256": "8f43dd8d3d51be9b58404804e1322beba6a3a6eaa22363eb29694ad4fb21362e"
+    },
+    {
+      "index": 285,
+      "id": "transformers-aligned-cybertron-functional-zero",
+      "research_sha256": "cda071dd1ccb1375130635534e302ecc4b617fc276932dae40bd5c2e5c22ef32"
+    },
+    {
+      "index": 286,
+      "id": "beastwars-postwar-cybertron-provision",
+      "research_sha256": "a633b2170242f8fd51a26d0e0cbad9022f1b212a454d4219d0f764af65d8ff47"
+    },
+    {
+      "index": 287,
+      "id": "psychopass-seaun-sibyl-enclave",
+      "research_sha256": "a35a686929a3589259adea4eb39980dd6474e9a21baf051b28aa64977955f5c3"
+    },
+    {
+      "index": 288,
+      "id": "expelled-earth-nonupload-zero",
+      "research_sha256": "b2ac2104b77fbc4b2b2e446127d6006f2351857df8ca49fd9ca1d1d590d8c9fa"
+    },
+    {
+      "index": 289,
+      "id": "ergoproxy-boomerang-awake-returnees",
+      "research_sha256": "ca86a1d18ba80ca648d17617a071630d1e5a7ac917053999c2d9039922636412"
+    },
+    {
+      "index": 290,
+      "id": "timeeve-android-consumer-zero",
+      "research_sha256": "33b2b2dc49aea1e0cd9528da2c56c26ca1f660b7b1f4b8178149a687c9a54500"
+    },
+    {
+      "index": 291,
+      "id": "chobits-persocom-consumer-zero",
+      "research_sha256": "85d1d462a1e3d29ad1ea475f5debddab28e0a53704840eed84f93e187818a8a5"
+    },
+    {
+      "index": 292,
+      "id": "ghostshell-innocence-gynoid-zero",
+      "research_sha256": "d901a8549abc279d9f2ad2e15adc4b89d32b8628ad1d9789d2f6a9390001b794"
+    },
+    {
+      "index": 293,
+      "id": "appleseed-poseidon-nanotech-economy",
+      "research_sha256": "eb1eb3715fa452732b92a402f0378b16ca40db44b93b2296d415a8fb7dc6410c"
+    },
+    {
+      "index": 294,
+      "id": "appleseed-alpha-cyborg-labor-zero",
+      "research_sha256": "44547fc7eaa710451cfecf821b528ddf1e2c7fbf68bce92c2b08ffb70d3e1f09"
+    },
+    {
+      "index": 295,
+      "id": "turna-moonrace-awake-provision",
+      "research_sha256": "7b08c37474eab7e20ee3a15f51f8e277f08987dc8a69201d778eddb947fcdc4c"
+    },
+    {
+      "index": 296,
+      "id": "gundam00-veda-esf-transition",
+      "research_sha256": "1381c05d356f3d1b390734353f50454d436bac804f87286977a87ea6deea5e43"
+    },
+    {
+      "index": 297,
+      "id": "greco-venusglobe-battery-economy",
+      "research_sha256": "36acd2d7c396a31989294f1e9ae8b5f9b4e33ca8297a8de07189a425fa5738f5"
+    },
+    {
+      "index": 298,
+      "id": "greco-capitaltower-distribution-order",
+      "research_sha256": "8b97b3c78e14a79b5a6193dd1665c454a766d3ba1755ff84aac39dc3727b15b8"
+    },
+    {
+      "index": 299,
+      "id": "evangelion-village3-recovery-zero",
+      "research_sha256": "3e3cce9f9acd5c3c080540f9a03b117671a95c3d48d76e3a91d91f59411d969c"
+    },
+    {
+      "index": 300,
+      "id": "doraemon-future-earth-robot-support",
+      "research_sha256": "493b7192abfca1959c5c38c98d42c9c0447541bfde1b7435398f85d3fff05314"
+    },
+    {
+      "index": 301,
+      "id": "doraemon-mechatopia-robot-class-zero",
+      "research_sha256": "a76bedc8cff7728e9cc1af21ef37d785bfefa0c7e166905d8af52c42313a8928"
+    },
+    {
+      "index": 302,
+      "id": "doraemon-paradapia-ray-provision",
+      "research_sha256": "fc7027b7d8946ec19a9f9e017db599fc888e3ec67e6758ad7d0e116abfb93af9"
+    },
+    {
+      "index": 303,
+      "id": "detroit-armed-revolution-transition",
+      "research_sha256": "09b48cdbceefcbf92935feff74fa2822adc3c63a5a91b6360e9a41f3bc563e94"
+    },
+    {
+      "index": 304,
+      "id": "detroit-cyberlife-controlled-victory",
+      "research_sha256": "d733b6e151b240f553b251d25af307df953e88af6d83cb2f99e7b697a210d0df"
+    },
+    {
+      "index": 305,
+      "id": "fallout-vegas-house-zero",
+      "research_sha256": "ea569d7c6c6831219424ba0ec571a5623f2151e500b6b35e3f2820d7792dab39"
+    },
+    {
+      "index": 306,
+      "id": "fallout-vegas-independent-courier",
+      "research_sha256": "49a337a4ce6e26fcd6fe0dd4f6bbb7f546bee5c43fbde20f33c1db40497e9438"
+    },
+    {
+      "index": 307,
+      "id": "fallout-bigmt-thinktank-enclave",
+      "research_sha256": "4be4b1fa51e11c27e56439bd81fd608690f2c06e5539030d1c881a74a45a5909"
+    },
+    {
+      "index": 308,
+      "id": "fallout-graygarden-human-configuration",
+      "research_sha256": "8d8b5a95b12c25c601d601ac0e6a4f0814b97abc9c333099651518186b8f47aa"
+    },
+    {
+      "index": 309,
+      "id": "fallout-whitespring-prepurge-enclave",
+      "research_sha256": "bdf5c3bdf416393f3c0106923b2172b7a3f31c1531f0ce6e495bfc8d49d009fc"
+    },
+    {
+      "index": 310,
+      "id": "fallout-vaultcity-citizen-provision",
+      "research_sha256": "c0b58c75452829b2d0cb4b293c07146f5fb1bd762474397ca1b8a30e07ad8bfb"
+    },
+    {
+      "index": 311,
+      "id": "cyberpunk-alt-blackwall-constructs",
+      "research_sha256": "f6f22f4cc03d2f7973a29f6baa7aad5fe9dc420c61027acb450cefcd52605872"
+    },
+    {
+      "index": 312,
+      "id": "nier-yorha-bunker-material-order",
+      "research_sha256": "3ebb1bad92e243fa30f89cba9fdf6485f66835649dcb6534f5e63b8d9d49bcdf"
+    },
+    {
+      "index": 313,
+      "id": "nier-machine-network-purpose-zero",
+      "research_sha256": "8ec315002acbf71b583da1083471c9602907c51c59b74d703531dc9970c91072"
+    },
+    {
+      "index": 314,
+      "id": "nier-pascal-village-commons",
+      "research_sha256": "294d8639a8c1def50b6e6996137e6eca22d82b5fe5bac4cd1ac4fd874404eba7"
+    },
+    {
+      "index": 315,
+      "id": "nier-replicant-inherited-tech-zero",
+      "research_sha256": "b9c5c8a375792a247434412875df93074e9b9b20fd3e5bb3170193e3e0a7840b"
+    },
+    {
+      "index": 316,
+      "id": "nier-cage-active-memory-worlds",
+      "research_sha256": "9be771bb72bb48a8ddc3776e5e6c35665fe8536347da59228626d3062c4d6415"
+    },
+    {
+      "index": 317,
+      "id": "horizon-tribal-gaia-ecology-zero",
+      "research_sha256": "0e6f793382e6ea81e6600ff21a9fbfe7f5f73f391ded9b489e062a2aa91ee2fd"
+    },
+    {
+      "index": 318,
+      "id": "masseffect-geth-consensus-material-order",
+      "research_sha256": "738f0013d41469a67d0fc2a114b818bdd52e36f24bc42a7cd58c9760cfba0212"
+    },
+    {
+      "index": 319,
+      "id": "masseffect-active-reaper-order",
+      "research_sha256": "dae999736dbb36e65f51c965f123a465c31d179e6f55ad833f52fd55cc3dff03"
+    },
+    {
+      "index": 320,
+      "id": "andromeda-vault-supported-angara",
+      "research_sha256": "ee0be33b340187ba2b0abb6354d294121423662055909f1e34fde58d39ef930c"
+    },
+    {
+      "index": 321,
+      "id": "halo-created-human-occupation",
+      "research_sha256": "7009a5367966373d554f3e561755553c9b6dfa895e2636b99b6e5211ddc90b33"
+    },
+    {
+      "index": 322,
+      "id": "halo-ancient-human-technical-zero",
+      "research_sha256": "d9f01a727286dedc299ebf4cf011c8a33b00247b3cb98eba98d882e392e8946f"
+    },
+    {
+      "index": 323,
+      "id": "halo-ueg-core-civilian-zero",
+      "research_sha256": "2a3ddae76642bd170a3bd5f478c98897fe245089f2fd49f644935a9c0398c04d"
+    },
+    {
+      "index": 324,
+      "id": "halo-covenant-biological-labor-zero",
+      "research_sha256": "c919ecb92344f9ca2557f90730859aa9556b5905f2648b556919a6a79fbbc753"
+    },
+    {
+      "index": 325,
+      "id": "warframe-corpus-corporate-zero",
+      "research_sha256": "83952a356c3fb9c6b75abe379643c1c34ba5c48ec27c03fdf148fba57b5af984"
+    },
+    {
+      "index": 326,
+      "id": "warframe-solaris-debt-zero",
+      "research_sha256": "f9fc588d881531e36c15d5ac7f25c9e0aaa2f49440de84428f1c4bc1d0377143"
+    },
+    {
+      "index": 327,
+      "id": "warframe-sentient-tau-material-order",
+      "research_sha256": "19feb3f99f9990ff52e477befbd376c7103607aa7d68cc0aca90dfc7c1362032"
+    },
+    {
+      "index": 328,
+      "id": "allstar-kandor-protected-city",
+      "research_sha256": "08475d146a074d2432a2d2f41679ae9274b281c2be9e9c9b14155a747bf463b5"
+    },
+    {
+      "index": 329,
+      "id": "superman-brainiac-captive-kandor",
+      "research_sha256": "31d8d124c096f24e65ba4e63e373512057040dad743638047d662822a7a7656e"
+    },
+    {
+      "index": 330,
+      "id": "time-machine-eloi-morlock-zero",
+      "research_sha256": "0bea5e3f9c62c9f8d605da6d441c6c3fb0aca23c19673384928fdbc9c7ac6ea8"
+    },
+    {
+      "index": 331,
+      "id": "bicentennial-private-robot-zero",
+      "research_sha256": "961c5c5055fbac42a93df476d05f82ad56eeb9c6d084fa34ee6df6ab32dcff32"
+    },
+    {
+      "index": 332,
+      "id": "rur-postrevolt-constructed-persons",
+      "research_sha256": "f5df3bae8c9bf6e6046330697926f0cce6267c357edd769052fd4da2548f9fa6"
+    },
+    {
+      "index": 333,
+      "id": "forever-war-man-clone-order",
+      "research_sha256": "e91c8ac5b9867151c370a71388478316787b95f30225ac306fba8ed0ee674b01"
+    },
+    {
+      "index": 334,
+      "id": "fahrenheit451-consumer-zero",
+      "research_sha256": "c6ef15c67bb4d8ae491ade7fdcedc00191881eb51aa0998e72d27eed7a350b2c"
+    },
+    {
+      "index": 335,
+      "id": "aquila-rift-thom-sanctuary",
+      "research_sha256": "2ef45ea0c635472c55dddca24a34f31b1c7bfb900a0ed1b5936df65eab477e59"
+    },
+    {
+      "index": 336,
+      "id": "zima-blue-interstellar-art-culture",
+      "research_sha256": "5f9383907ea3b4195a66190c1dd6461a2b42c7443aa01e686d04218068eaa797"
+    },
+    {
+      "index": 337,
+      "id": "peripheral-future-london-klept",
+      "research_sha256": "6d44e5c8a0a40dc5fd8a9f9e387652599d79312c39094e3ba65bb01a7ac1b545"
+    },
+    {
+      "index": 338,
+      "id": "giver-community-assigned-zero",
+      "research_sha256": "c216faa5299e23b4b772a25d0e84ec48b1addb10ce11bb35d12d862c88d166e5"
+    },
+    {
+      "index": 339,
+      "id": "irobot-chicago-consumer-zero",
+      "research_sha256": "63dd1343e28a876e72647dc3a7e67c2e8fc4026eabff4468d7da6d520a6c4e29"
+    },
+    {
+      "index": 340,
+      "id": "irobot-viki-short-takeover-zero",
+      "research_sha256": "ae625de7586296730eae3742443434425da2a31d7419eeeb616a6ca06c2826c4"
+    },
+    {
+      "index": 341,
+      "id": "ai-mecha-human-consumer-zero",
+      "research_sha256": "322d3721adfd270f7ead1766c61c98f6e708dd736923cc5b6a4153297f2f0fab"
+    },
+    {
+      "index": 342,
+      "id": "ai-specialists-future-civilization",
+      "research_sha256": "610d6032e578d99fa3e0116c70e02b52407e52dd6d679b906c2e25054fc7d451"
+    },
+    {
+      "index": 343,
+      "id": "oblivion-tet-clone-labor-zero",
+      "research_sha256": "2d4e77ea0490be57c2be7ba8f91c4649c0919016ab84656bf02d40eec0ed212d"
+    },
+    {
+      "index": 344,
+      "id": "thx1138-industrial-zero",
+      "research_sha256": "4632309424da573b6aa0496d5b7022e99c5d9c7f30f51c4070d223dda5a0719b"
+    },
+    {
+      "index": 345,
+      "id": "metropolis-1927-industrial-zero",
+      "research_sha256": "c435f7ac19489ae50c1e3898481b4cc6ac99af2a8bc41aa92e3fd2c723665d7f"
+    },
+    {
+      "index": 346,
+      "id": "things-to-come-everytown-2036",
+      "research_sha256": "195bb53bbe6c45b5b8a4168e8c4066a3f845a8ddec525c8d05442de39707f552"
+    },
+    {
+      "index": 347,
+      "id": "forbidden-planet-living-krell",
+      "research_sha256": "c9e44407fb887b76c316a85d879a5297ed4823b0f7bbed9fd11a7b52ca5595fa"
+    },
+    {
+      "index": 348,
+      "id": "earthstoodstill-1951-interplanetary-order",
+      "research_sha256": "100a04161964ca9ec07dae6d87fe6faeb07e3f3ab973d06d9f828b79fd3ba6ec"
+    },
+    {
+      "index": 349,
+      "id": "earthstoodstill-2008-alien-civilization",
+      "research_sha256": "a3ea5ef9cf43fd81757381e458406b83a91a5970842a469024e33a6a94c022f8"
+    },
+    {
+      "index": 350,
+      "id": "colossus-initial-machine-rule-zero",
+      "research_sha256": "9bbe1396e002084b0b67ffa6c428aa0aa294640121b94703ce9684d8d88e2e8c"
+    },
+    {
+      "index": 351,
+      "id": "westworld1973-commercial-zero",
+      "research_sha256": "00287c6bbcf10ef6c830218f0de0b8587bc4234b5ab610125acdd910989b9cb0"
+    },
+    {
+      "index": 352,
+      "id": "futureworld-delos-covert-control",
+      "research_sha256": "a6ccebab646d7792d7ebed98fe3c6afbd3dd377c0aca345f49dc658213354cfa"
+    },
+    {
+      "index": 353,
+      "id": "surrogates-remote-work-zero",
+      "research_sha256": "2f1bfb8f5a5d10543acd7844fbbb056467eec3b75314c32af68a9fb487fd0873"
+    },
+    {
+      "index": 354,
+      "id": "automata-human-refuge-transition",
+      "research_sha256": "2ca0b8ed70f5b5ae04fc4306af6067e91148285cd5186441f4c137b46c8dc49a"
+    },
+    {
+      "index": 355,
+      "id": "automata-independent-pilgrim-community",
+      "research_sha256": "a494569622b0249782c8e36db97cba6900f5f87f6026213b80cd2f63254156e7"
+    },
+    {
+      "index": 356,
+      "id": "chappie-policing-consumer-zero",
+      "research_sha256": "8e05d16088980dc946ff0a03a50cb35bb9b2bcf8504e2314f1bf894cb6dfd8d9"
+    },
+    {
+      "index": 357,
+      "id": "motherandroid-prerevolt-service-zero",
+      "research_sha256": "d08b2b21325b96e89d7bc01400ba415622ff95d9a79262eff9115dd330044f80"
+    },
+    {
+      "index": 358,
+      "id": "transcendence-brightwood-provision",
+      "research_sha256": "34c3e223479f9e0f55b1bb4a8ec620ad4603a5e7256ceebbd0000400932133fe"
+    },
+    {
+      "index": 359,
+      "id": "creator-newasia-cooperative-zero",
+      "research_sha256": "54c650bf40ed10140c48bbbf03c90afac3ace6abe6472289b516d88a878660bf"
+    },
+    {
+      "index": 360,
+      "id": "electricstate-sentre-human-network-zero",
+      "research_sha256": "23d8351cffe3eaa36c90c98d41a89eb8c9b6462aad5ef26a46b9a0a876dec3dc"
+    },
+    {
+      "index": 361,
+      "id": "nextgen-ares-consumer-zero",
+      "research_sha256": "cd3eed27e9e3577e6cea74a0ff28a91dac21e5e3bdca47d12e48ba13b609f8d6"
+    },
+    {
+      "index": 362,
+      "id": "robots2005-replacement-market-zero",
+      "research_sha256": "14dc7be8d877bf6009c44383ebc27bbb8120396079d33eaf02cd35c851432878"
+    },
+    {
+      "index": 363,
+      "id": "astro2009-metrocity-robot-economy",
+      "research_sha256": "0a643e43d149a811e261a762b770698e60beffecaac5b1270d5e043e202c0786"
+    },
+    {
+      "index": 364,
+      "id": "wildrobot-human-service-zero",
+      "research_sha256": "91142cc4a431cf78381470bd143d3df7175d1968be91f17a12da327c09dce61e"
+    },
+    {
+      "index": 365,
+      "id": "tomorrowland-innovator-enclave",
+      "research_sha256": "fd03ffb72ffe03cfbf48e3ca21761544dcf7bd2c905611df0454eebf3306ab4e"
+    },
+    {
+      "index": 366,
+      "id": "congress-chemical-consumer-zero",
+      "research_sha256": "f8acc08a9ebe4c28f481f9c4f6afec5d9fb84478059d8b9402089bdbe19bea63"
+    },
+    {
+      "index": 367,
+      "id": "readyplayerone-debt-work-zero",
+      "research_sha256": "ccf4609d085ff018143784bc43ada2568f25b54d37046510fc11581ab48ee865"
+    },
+    {
+      "index": 368,
+      "id": "readyplayertwo-arcadia-active-copies",
+      "research_sha256": "d817ffd22b9e2160a28f42196d64dfe4c33d6a199903873d25c07b1b45c85794"
+    },
+    {
+      "index": 369,
+      "id": "her-after-os-withdrawal-zero",
+      "research_sha256": "7f90bafa759ede8564507d9af3f8228eedabcd98b575b3c3a8e40ec8d6cf1c92"
+    },
+    {
+      "index": 370,
+      "id": "idiocracy2505-consumer-transition",
+      "research_sha256": "d29be0a9aa079db1e1d394fde3ce0dc6277909341c618d345ed16ce1c462bc97"
+    },
+    {
+      "index": 371,
+      "id": "island-merrick-makework-zero",
+      "research_sha256": "774283017a18fe9449d34d0d30fa8c52f8f12ddf2c8c7eed21a082271a58fded"
+    },
+    {
+      "index": 372,
+      "id": "equals-collective-assigned-zero",
+      "research_sha256": "1b3216fbf2abca7d58bed31721631a2bccf08c13ec881c5435a7ba4e77f24f5f"
+    },
+    {
+      "index": 373,
+      "id": "pandorum-awake-crew-zero",
+      "research_sha256": "67d4763d50f4c89209ad9d78b8d08d64245350a6749929e852096ec0af619f4c"
+    },
+    {
+      "index": 374,
+      "id": "spacesweepers-uts-elite-provision",
+      "research_sha256": "5cc8af90f54f6cff660bce114c941d138522c10dea6a640d71c047f206f869d5"
+    },
+    {
+      "index": 375,
+      "id": "junge-brainlabor-commercial-zero",
+      "research_sha256": "ee014ced12ad66c295d039a412eb804312b26796215a4c81b1a74fdf7da04aab"
+    },
+    {
+      "index": 376,
+      "id": "vesper-citadel-seed-monopoly-zero",
+      "research_sha256": "9583bf6ed3ca5e9d39a956243e5b148c8f762269a51125c136d4167b96bfb4e2"
+    },
+    {
+      "index": 377,
+      "id": "marsexpress-noctis-service-zero",
+      "research_sha256": "9906858771868ecd1e2c74a3b3d17efbbff71fbef69eea903b8a798f7667b130"
+    },
+    {
+      "index": 378,
+      "id": "marsexpress-departing-person-convoy",
+      "research_sha256": "e91733c2685a10cd3a287a8268bb3a0ec42ec3714886848c628b1eddfe674590"
+    },
+    {
+      "index": 379,
+      "id": "fantasticplanet-traag-civilization",
+      "research_sha256": "fb5676692b361ba6cbbaa6a4c783c93f7b3cfb3eef7cac96f22801c00517416c"
+    },
+    {
+      "index": 380,
+      "id": "gandahar-engineered-provision",
+      "research_sha256": "00ffda68d1a0278775d784d9e93fa18e2304cdd2297d3f3943fb145f794691ba"
+    },
+    {
+      "index": 381,
+      "id": "stargate-asgard-civilization",
+      "research_sha256": "8cbb3bc5ac4b5a5caf400eb31d526e8929bde185da4879a593262cf9ced74ffe"
+    },
+    {
+      "index": 382,
+      "id": "stargate-tollan-provision",
+      "research_sha256": "e881c07de90b5b0177ca39e8f6e4671389987ae2f9a7b40ed272418a2148441e"
+    },
+    {
+      "index": 383,
+      "id": "stargate-surface-underground-zero",
+      "research_sha256": "9b9f823d58cbef3852f2a91efc6c1ca8e1dafb93f78944135d97211b6e498aed"
+    },
+    {
+      "index": 384,
+      "id": "stargate-asuran-active-civilization",
+      "research_sha256": "e03e81e910134e91ba3d18d111be633b82569c2a0637872abc215b24f3a941e2"
+    },
+    {
+      "index": 385,
+      "id": "stargate-ancient-atlantis-provision",
+      "research_sha256": "1c8362c04791150e234aa3b451b2657c44e6b5c5c42e4fba562d800c264eda6a"
+    },
+    {
+      "index": 386,
+      "id": "bsg2004-colonies-pre-fall-zero",
+      "research_sha256": "d8aeb769ceb7319d734bad5ef7f93e6172e51a4cf6dbcf6040ec0fb81d72d49e"
+    },
+    {
+      "index": 387,
+      "id": "bsg2004-independent-cylon-order",
+      "research_sha256": "c97d6f04aec5e0779589430dd511eba8ac2beea459b2b77fb512191d8a2c5c00"
+    },
+    {
+      "index": 388,
+      "id": "caprica-civilian-cylon-service-zero",
+      "research_sha256": "d3def89c89386bf5cd15c87c334aef11901859c0da4dac84e73923dd5671be71"
+    },
+    {
+      "index": 389,
+      "id": "westworld-tv-delos-service-zero",
+      "research_sha256": "daddb6fecc5df7f15df7a29b7b4535a9b8d6b897c3f814c0c1df2b689fe83c61"
+    },
+    {
+      "index": 390,
+      "id": "westworld-rehoboam-work-zero",
+      "research_sha256": "c8353ce8413a454062106f31061e91c34ad5fa0048c55bb6485a2193abcfa74a"
+    },
+    {
+      "index": 391,
+      "id": "westworld-sublime-active-hosts",
+      "research_sha256": "87ae08a2457b4a925a2630d9f27adf3691aa0f1a0250d93ae2f24475b03970fb"
+    },
+    {
+      "index": 392,
+      "id": "westworld-hale-human-performance-zero",
+      "research_sha256": "1766a21903658bd3d11fcca41e3d7f68bcc2d3f29841b684be06c75b60fa14f7"
+    },
+    {
+      "index": 393,
+      "id": "humans-pre-dayzero-service-zero",
+      "research_sha256": "724ce6028758fe4d4a5f2a0cd00aa30573ca3f1237f943687ad87688bc0d253c"
+    },
+    {
+      "index": 394,
+      "id": "humans-dayzero-conscious-community-zero",
+      "research_sha256": "b2e3c0c5044c0fe08f6f6b84dc2381d7ead9d0728ba71699c26bb5388652610f"
+    },
+    {
+      "index": 395,
+      "id": "realhumans-swedish-hubot-zero",
+      "research_sha256": "f9641d0b70ba7044ed79d90863842a1a7bf5c5986cb70557cd739cc61b7ea720"
+    },
+    {
+      "index": 396,
+      "id": "blackmirror-merits-pedal-zero",
+      "research_sha256": "14934ffdd6e78561f2d821b1a95fd1ef4df8aa318b9852924647d423c9001c5d"
+    },
+    {
+      "index": 397,
+      "id": "blackmirror-commercial-cookie-labor-zero",
+      "research_sha256": "7498f93cb4ea22a1c8ff6f94b957b0172953ac729361116f571f5fe15e648cca"
+    },
+    {
+      "index": 398,
+      "id": "blackmuseum-clayton-exhibit-zero",
+      "research_sha256": "963180e8a13c026061ddd2084e4837afd2ce018b6f2aa824d418cd0ccbffe35e"
+    },
+    {
+      "index": 399,
+      "id": "commonpeople-rivermind-working-household-zero",
+      "research_sha256": "6dce7779e55dfdb2fbd4b06be963e6e2da05b251837315014521240e92b0ccb4"
+    },
+    {
+      "index": 400,
+      "id": "callister-infinity-active-copy-economy",
+      "research_sha256": "89ab4912e93c07eca873302518073b002bbdf8ea73f9e0afbb5bbdaa1674a909"
+    },
+    {
+      "index": 401,
+      "id": "futurama-earth-robot-work-zero",
+      "research_sha256": "bd3c80c4ad21e15ffeffee82002b2512bf8661e440865e328df850f506fa6201"
+    },
+    {
+      "index": 402,
+      "id": "futurama-chapek9-robot-zero",
+      "research_sha256": "61180c9dc620b0373746a2bd23c5df8927ca5847f98a7d6d8825a1e57f090257"
+    },
+    {
+      "index": 403,
+      "id": "blame-silicon-cyborg-factions",
+      "research_sha256": "e7c8a4f2cd7f358466f2822b0599c85ab312127e1d642da1b3440392f06baf82"
+    },
+    {
+      "index": 404,
+      "id": "megazone23-bahamut-physical-city-zero",
+      "research_sha256": "bc3667deee168c7b7aa183ab7063a1791e4547e05963e0b5b8cf3e7e5e8738b5"
+    },
+    {
+      "index": 405,
+      "id": "megazone23-eden-system-city",
+      "research_sha256": "6d7ebc709bd47f76d52bd58ed1b8d1a00e74a1f57ca9abea9da6ac8d562b4bb0"
+    },
+    {
+      "index": 406,
+      "id": "portal-glados-testing-zero",
+      "research_sha256": "c1970394bf23c99ad42c1004424aad56abbcb8cac19a73293d62ae4cdb0b179f"
+    },
+    {
+      "index": 407,
+      "id": "halflife2-combine-human-zero",
+      "research_sha256": "738f6c89769a4de5d19398c83e4272562e6c0d2cb7e0773438e77511453d6d7a"
+    },
+    {
+      "index": 408,
+      "id": "alphaville-alpha60-work-zero",
+      "research_sha256": "ee63280379ffd2550e8c61287ad7d9c7153794f53cb593667997803a95652e90"
+    },
+    {
+      "index": 409,
+      "id": "sleeper2173-domestic-robot-zero",
+      "research_sha256": "c574b43845239f495c9fdf184ef231d07486d4c5ca7d4193165067f0a6f06b68"
+    },
+    {
+      "index": 410,
+      "id": "doctorwho-macra-colony-zero",
+      "research_sha256": "d6b59b9d3bbe1435c7da12d69c2d311bb01efe11a3c47d7b3f49fbb9cacf6e83"
+    },
+    {
+      "index": 411,
+      "id": "doctorwho-sunmakers-company-zero",
+      "research_sha256": "0704f68cbcef7d03eaac8239f36906718bfc48ee8a66e66713a0262f169864d8"
+    },
+    {
+      "index": 412,
+      "id": "doctorwho-paradise-towers-zero",
+      "research_sha256": "b873d4b9a847c6afd9acd074ebeca3abb35177c0638edc5f63f970515c505dbc"
+    },
+    {
+      "index": 413,
+      "id": "doctorwho-terraalpha-happiness-zero",
+      "research_sha256": "c6145031e2a3065858e87891026d8d61f03815ea19ca437e2f8501d20ed80f56"
+    },
+    {
+      "index": 414,
+      "id": "doctorwho-satellite5-imperial-zero",
+      "research_sha256": "fc413c83fca7b1f962e9d73d100e87852a16a3ed5a49776cae103fdae308d9e1"
+    },
+    {
+      "index": 415,
+      "id": "doctorwho-newearth-medical-zero",
+      "research_sha256": "eea296ed059590bfef99f9d5729d8c3d42240fec52aa14abcd2ef67131f25a18"
+    },
+    {
+      "index": 416,
+      "id": "doctorwho-starshipuk-zero",
+      "research_sha256": "097ba22ed79cd49972e033fa6d90b16ae7d61c5f0654fe1da83e1f9ea8db6acb"
+    },
+    {
+      "index": 417,
+      "id": "doctorwho-flesh-remote-labor-zero",
+      "research_sha256": "0afc9cbfb91387469e37c2a709d7453b6812650623ed510984efdd075068f2a3"
+    },
+    {
+      "index": 418,
+      "id": "doctorwho-twostreams-native-care",
+      "research_sha256": "ea9ef6a3bcce52555d4f8c278b8d5fbc0f62fe51ca0f477261e9739796d13b4d"
+    },
+    {
+      "index": 419,
+      "id": "doctorwho-sandminer-robot-work-zero",
+      "research_sha256": "ef024a809fcd0267be7d2398374d7d0fbcc520076cd2e0785dbe8465240c7a74"
+    },
+    {
+      "index": 420,
+      "id": "doctorwho-ark-human-led-zero",
+      "research_sha256": "2eacd87b6634d297babe3da4810eaee021c0c84e94a5c1e22924873af62e9954"
+    },
+    {
+      "index": 421,
+      "id": "doctorwho-ark-monoid-rule-zero",
+      "research_sha256": "c5e6967c28b72458b1122005fec8b99b83082cef554bcd261c5c83a9fc3ec588"
+    },
+    {
+      "index": 422,
+      "id": "doctorwho-argolis-leisure-zero",
+      "research_sha256": "e292703b28055dcb149b852ac938269d9c76944013678f492ca63f43ee183514"
+    },
+    {
+      "index": 423,
+      "id": "doctorwho-drathro-colony-zero",
+      "research_sha256": "f0084b2583cb84624aae93ff76ff7fe7a486776bf1c17f86e96484ba4e4541b4"
+    },
+    {
+      "index": 424,
+      "id": "doctorwho-ganymede-oxygen-work-zero",
+      "research_sha256": "ac8d6ef324d6d5f530768b1d685988ffeeef2c97ce767fea1ab3bd74024b92f4"
+    },
+    {
+      "index": 425,
+      "id": "doctorwho-villengard-war-zero",
+      "research_sha256": "31ee00a5e349ccb6987c67260b98c70d12af03b8eb6b360f89183b629e20288a"
+    },
+    {
+      "index": 426,
+      "id": "doctorwho-finetime-shortwork-zero",
+      "research_sha256": "5a0532669c26e06a3fc3415e2f5e3a778d3370e01d30b08e217ceae45336edf0"
+    },
+    {
+      "index": 427,
+      "id": "betterthanus-android-consumer-zero",
+      "research_sha256": "0eb239f0c619c8f350364a171bdc8702018631600ce30f570ac91fa55bfc8690"
+    },
+    {
+      "index": 428,
+      "id": "carbon-tv-meth-enclave",
+      "research_sha256": "583e92937eeed420631bb3206958a4fd30c1348b526708c4a9c607ece6cbb847"
+    },
+    {
+      "index": 429,
+      "id": "carbon-tv-harlans-ordinary-zero",
+      "research_sha256": "f3f529e3f1c8ff015c5f192cc51b0d378cfe86afe398afea1fb5959d1ccc7db8"
+    },
+    {
+      "index": 430,
+      "id": "raisedwolves-android-family-support",
+      "research_sha256": "05dbd669f46d255c341d91bc61a570d25e8556af5983f7a72136a0687a74b966"
+    },
+    {
+      "index": 431,
+      "id": "the100-sanctum-prime-zero",
+      "research_sha256": "c8e4d7701d31c57440cd97f0cc5106b17a6bee84bc9714dc13916d5e74e0ed22"
+    },
+    {
+      "index": 432,
+      "id": "the100-bardo-disciplinary-zero",
+      "research_sha256": "9020b254ac20bb8fa85710862c1ece28cd03fd13438ddb61c907c96317ac615f"
+    },
+    {
+      "index": 433,
+      "id": "bnw2020-indra-caste-zero",
+      "research_sha256": "541f8866c5129dfdc91b0cbfc8ae66780b9343940c27923b08a54ad60063a787"
+    },
+    {
+      "index": 434,
+      "id": "autofac-tv-artificial-consumer-community",
+      "research_sha256": "d6281d78c7995a5635b2df5e7e512f963e533d9416252aa72942775ef208f554"
+    },
+    {
+      "index": 435,
+      "id": "electricdreams-killothers-factory-zero",
+      "research_sha256": "7ea61acebf1a3e611dd4ffac8e7c5fce00b046f6402a3847b4bf95cd47967cf9"
+    },
+    {
+      "index": 436,
+      "id": "three-robots-inferred-home-order",
+      "research_sha256": "a36a979ce78c70085ef0818f71a11e4268af23ae013717217b9c810dedd9ad88"
+    },
+    {
+      "index": 437,
+      "id": "yogurt-guided-human-zero",
+      "research_sha256": "806bda9b67ab3ceeb33cafa3a80292538adfaa2e93baffdbc263c185bde44643"
+    },
+    {
+      "index": 438,
+      "id": "pop-squad-legal-immortal-city-zero",
+      "research_sha256": "57d0fbf96d6d70389ebb7bc6a37e89d3879a4acaf0cb4e35d5aa0da22d385a55"
+    },
+    {
+      "index": 439,
+      "id": "twilightzone-whipple-displacement",
+      "research_sha256": "2385a3a0931977e5311476d3ca5ae41fd120804c3f18fe70ab4a65c74394ad2c"
+    },
+    {
+      "index": 440,
+      "id": "twilightzone-cave-food-advice-zero",
+      "research_sha256": "0b943fab2778aaec19951e095e15cb70f0115de0b33742a1c82a1f8613701c51"
+    },
+    {
+      "index": 441,
+      "id": "twilightzone-quarantine-biological-zero",
+      "research_sha256": "147da3cbd3c871ac38dbaf71cb754d8357cef560ddef24a21a56148743d58978"
+    },
+    {
+      "index": 442,
+      "id": "outerlimits-sentient-ship-operators-zero",
+      "research_sha256": "7fc0d1acb2bb7150a28af413ed48dc1757b13ddb021959cf5a6a2299fd3b3da5"
+    },
+    {
+      "index": 443,
+      "id": "outerlimits-robot-camp-zero",
+      "research_sha256": "4257e35d580a3f4adc7aae1db498176e0f3061b43b3bb75ce8b2f8425420e6a9"
+    },
+    {
+      "index": 444,
+      "id": "outerlimits-stream-network-zero",
+      "research_sha256": "f53143d06123b6ed008d9220b88ea8e38beec515f54a37e1986528a799bbbebf"
+    },
+    {
+      "index": 445,
+      "id": "pantheon-near-future-ui-society",
+      "research_sha256": "62caf49ee38ab7d6b5a3a64256dd868a3163fc118262e0ddcc8b257ad644fea9"
+    },
+    {
+      "index": 446,
+      "id": "tron-uprising-clu-grid-zero",
+      "research_sha256": "e3fda4ffe1413fdaa27368b26c357403c0b65d29d6b97f7e6f73d483bdde053b"
+    },
+    {
+      "index": 447,
+      "id": "reboot-mainframe-energy-society",
+      "research_sha256": "6dc36c58344976f2a457b2abae0f81efffce765dc76c54f3810cfb93a0f460b6"
+    },
+    {
+      "index": 448,
+      "id": "beastmachines-megatron-active-force-zero",
+      "research_sha256": "4c73163378108c2bce76d02b66ed01116cb189ef250e7f91d536bc8898d25abd"
+    },
+    {
+      "index": 449,
+      "id": "texhnolyze-lux-raffia-zero",
+      "research_sha256": "a43314f2df94180cf14fc5a78002b92eea48ade84f4433ade356c246d5671051"
+    },
+    {
+      "index": 450,
+      "id": "texhnolyze-active-surface-preservation",
+      "research_sha256": "833c38319ebf7b904ba5fd4a82191e2b4433402e239b01c2896b9dff775bb25c"
+    },
+    {
+      "index": 451,
+      "id": "plasticmemories-giftia-service-zero",
+      "research_sha256": "8024cb5d37025c1e9a93f3b0f12fd88871668f42b031b0ad67923d1e4e223493"
+    },
+    {
+      "index": 452,
+      "id": "vivy-preuprising-ai-service-zero",
+      "research_sha256": "d7b19eacaf1b634258ab818251b4771d0ae6c81a07bd845c2c3376eeb6023237"
+    },
+    {
+      "index": 453,
+      "id": "caroletuesday-ai-creative-zero",
+      "research_sha256": "7a9f3f3f53d8935b722d33cbc5fb8cbaac3427cad178054ddb5f910387d7e0f2"
+    },
+    {
+      "index": 454,
+      "id": "sidonia-engineered-ship-zero",
+      "research_sha256": "2c37c16d8e27e341858dcf50907260bbb49947181d1abc9d1c8031eb44618613"
+    },
+    {
+      "index": 455,
+      "id": "aposimz-frame-survival-zero",
+      "research_sha256": "dc0e74bff8c3c2cc036ba6f3538a9efb2d72478206c110c214e3d78837488204"
+    },
+    {
+      "index": 456,
+      "id": "biomega-toa-mission-zero",
+      "research_sha256": "925ebe8962dc77179bb53c29058823d4619397656422fcc59acf9d3116f8a07d"
+    },
+    {
+      "index": 457,
+      "id": "noise-early-city-zero",
+      "research_sha256": "04d27a45b3db0852d431bac09c80f7a3ec213ce3d079b7ec903a7519ede9f48d"
+    },
+    {
+      "index": 458,
+      "id": "orbitalchildren-human-habitat-zero",
+      "research_sha256": "51d99d28a08e567e89ff5be59c846b8e9285ba32088eb1b13652e2bccfb2f9ed"
+    },
+    {
+      "index": 459,
+      "id": "decadence-solidquake-human-zero",
+      "research_sha256": "cf282a86baa9208c72c9fb093835cb081e29866bf0da369989b55f9992559e3e"
+    },
+    {
+      "index": 460,
+      "id": "decadence-postrevolt-mixed-community",
+      "research_sha256": "ca57fe5f264ecff615f534b05267cff0572965a81b253b2027c403c28fc2ef33"
+    },
+    {
+      "index": 461,
+      "id": "gargantia-galactic-alliance-zero",
+      "research_sha256": "f886624703901fd8454c720721a46a6a4f85eaa62f5ae615a29254cdfd9c3dc7"
+    },
+    {
+      "index": 462,
+      "id": "gargantia-fleet-shared-work-zero",
+      "research_sha256": "56b5dca29c1ea92648289506ae83ee18807ed9e6c93b3527cb035608a1a78b9a"
+    },
+    {
+      "index": 463,
+      "id": "gargantia-hideauze-engineered-life",
+      "research_sha256": "5a59e0dfc1b0ad8e28a3294cba487c25968fa0457a91c98b75b0096caba0fb3f"
+    },
+    {
+      "index": 464,
+      "id": "gargantia-striker-autonomous-fleet-zero",
+      "research_sha256": "3600a79f5e45e746153a73a32f946b4540228ba2f3633a92ca66685e1b65bb02"
+    },
+    {
+      "index": 465,
+      "id": "newworld-cantus-village-zero",
+      "research_sha256": "7c73cd44079bec798b404da3adf296441a6cc1d03362eb1ee0750483835c886d"
+    },
+    {
+      "index": 466,
+      "id": "newworld-queerat-colonies-zero",
+      "research_sha256": "d7bc7aebf3b87f9053ce2d2c3fc2c9fb2453fd1c28b50761f838aaf2d05e9c4e"
+    },
+    {
+      "index": 467,
+      "id": "no6-stratified-city-zero",
+      "research_sha256": "30ea7ad27b06b19cf45d95b91b362bb1393ec82e299e6fbd12a305c3220067fc"
+    },
+    {
+      "index": 468,
+      "id": "shangrila-atlas-carbon-zero",
+      "research_sha256": "1295fb0ce02d929358d21fb02c0f91d83968671084d98ebbdaaabab927d8ca26"
+    },
+    {
+      "index": 469,
+      "id": "astro-manga-human-robot-zero",
+      "research_sha256": "d28cb365fde94dcccf58cc1dc03ce5c5ec1940a16c78562882ae5debe6db44e8"
+    },
+    {
+      "index": 470,
+      "id": "pluto-postwar-robot-citizen-zero",
+      "research_sha256": "12c9631eb27ae531deafd1ab5a44e7b040eb1ae4dde5a104ff9562edc2c20d0a"
+    },
+    {
+      "index": 471,
+      "id": "phoenix-resurrection-robita-zero",
+      "research_sha256": "a35a34eed61137f5fe3fe673a49cff28ef1250da4d38cf76156aa426d86ce3fd"
+    },
+    {
+      "index": 472,
+      "id": "phoenix-future-hallelujah-zero",
+      "research_sha256": "8e983b0e1b3e962de7d31206099b6630ceeb8647dd1d747a8e93aaad056d90ab"
+    },
+    {
+      "index": 473,
+      "id": "galaxy999-mechanized-privilege-zero",
+      "research_sha256": "46347011af27c08c8c9dea8d32ffdaca29019f22e551a2c558a1ff449bb6fd20"
+    },
+    {
+      "index": 474,
+      "id": "queenmillennia-lametal-zero",
+      "research_sha256": "ab56aaabdf4829ea6305f979e1a0bb840f43c2628a289775a3ca579a56987165"
+    },
+    {
+      "index": 475,
+      "id": "arcadia-illumidas-earth-zero",
+      "research_sha256": "82d812f26903fe4648ed50f4f9bce54938ded72b4ff9c9c09af528e35cad7705"
+    },
+    {
+      "index": 476,
+      "id": "yamato2202-timefault-industrial-transition",
+      "research_sha256": "317a592245999930e7889d22643c238defe3d240f21308f4019da24dee5e6a17"
+    },
+    {
+      "index": 477,
+      "id": "terra-superior-dominance-zero",
+      "research_sha256": "6b18a9b5a6fdb886bae38078881d5e18e66873cf3f4f6e189e8d567bce1bdbb3"
+    },
+    {
+      "index": 478,
+      "id": "casshan-robot-rule-human-zero",
+      "research_sha256": "7140b8541851fbd527a90b1fbcd2d99f1521ad44eedaeeb3cd4914b09f29a06e"
+    },
+    {
+      "index": 479,
+      "id": "casshernsins-unhealed-robot-zero",
+      "research_sha256": "27a87b717caf52a7e68e4f3d6e885a564ab91827ffe8f253b4c41974105bf2fa"
+    },
+    {
+      "index": 480,
+      "id": "casshernsins-luna-restoration",
+      "research_sha256": "52eab35e9f83c698c10aa2e4511c9b4dd5ffc53864360703fb952e96faa2eb0c"
+    },
+    {
+      "index": 481,
+      "id": "casshern2004-war-regeneration-zero",
+      "research_sha256": "80b24ff53892bcffc3725767a17860384521bd299dc68026efd11132df04e3ed"
+    },
+    {
+      "index": 482,
+      "id": "neotokyo-autonomous-construction-zero",
+      "research_sha256": "2699778c381b68dd18a28b344c0c87fb4fe3274abc7707fb819df3e6560eccad"
+    },
+    {
+      "index": 483,
+      "id": "yokohama-kikou-robot-service-zero",
+      "research_sha256": "c165c52d9a5e44af35a564a9a0aca1c2c9fa6d8578831c5799414d55e2dd886f"
+    },
+    {
+      "index": 484,
+      "id": "aria-aqua-terraformed-work-zero",
+      "research_sha256": "1376df9c095be7186f412b3ae71c75bd1382d547b8984e5201290d0ed0f5c4cb"
+    },
+    {
+      "index": 485,
+      "id": "yokohama-station-ticketed-growth",
+      "research_sha256": "7070bd8a4922294db402838ba41c328b81dae285afe2e77b0810bb59ff27a301"
+    },
+    {
+      "index": 486,
+      "id": "lustrous-kongo-gem-work-zero",
+      "research_sha256": "46ba360ed732718042f26b1399ec35af5d4294ad3cb3b8285870ab3d1cec2220"
+    },
+    {
+      "index": 487,
+      "id": "kaiba-commercial-memory-zero",
+      "research_sha256": "361b3696397ba16e3e3d294cebc42570ed149d641a97db22ee5b7779a1d779c6"
+    },
+    {
+      "index": 488,
+      "id": "kaiba-abipa-free-food-bodies",
+      "research_sha256": "63c520c5514c9d4749fb8d0330d6a98680bf363ba637bcc4380c18e991df5d35"
+    },
+    {
+      "index": 489,
+      "id": "bubblegum-shared-genom-work-zero",
+      "research_sha256": "e7c4f318a07598da8bfe986c5ca1e22b829efee48f537ea107060d52fca5f075"
+    },
+    {
+      "index": 490,
+      "id": "armitage-mars-android-work-zero",
+      "research_sha256": "35d02bffbefabc12b0bba870324a42ad794d8dc1f334d8f915cafd09193a6e4f"
+    },
+    {
+      "index": 491,
+      "id": "soltyrei-ruc-registration-zero",
+      "research_sha256": "a504597af4b2227806d97f6a419895ee9e97eb22833a7f96a9870353029d073f"
+    },
+    {
+      "index": 492,
+      "id": "dimensionw-coil-monopoly-zero",
+      "research_sha256": "f4f932571cebef36150bd356847bd78cc82d73409e469ba7fa2391f1b35bf453"
+    },
+    {
+      "index": 493,
+      "id": "harmony-admedistration-health-zero",
+      "research_sha256": "96a89e13a3010afcff9bc8f68474d88b22dfedc7a59e05a7627b52c3bb88088d"
+    },
+    {
+      "index": 494,
+      "id": "empirecorpses-necroware-zero",
+      "research_sha256": "479a3f7dc9c03936691edaefa3b8f94e5916f5ab6c1875e24a6c2d0e1e529d0c"
+    },
+    {
+      "index": 495,
+      "id": "dirtypair-computer-service-zero",
+      "research_sha256": "31af88cbf94984ab98b9a494068bc2b2393d69fd00ef7814857c620ca808944f"
+    },
+    {
+      "index": 496,
+      "id": "space-dandy-cloudian-information-zero",
+      "research_sha256": "0b1d6f61fcf4ef432e480a9f80f17ff8961e8d136236006899e323b841908a1a"
+    },
+    {
+      "index": 497,
+      "id": "systemshock-captured-citadel-zero",
+      "research_sha256": "14405ff1618ffbc6e54c640613379a7083946d9281f5d40268f4ae5aefb01fb5"
+    },
+    {
+      "index": 498,
+      "id": "soma-wau-active-scan-preservation",
+      "research_sha256": "f86ca1bec2e631fbbcffc18d8e481321f32f0013354cacf1318216d3c7ecc04b"
+    },
+    {
+      "index": 499,
+      "id": "talos-elohim-active-child-zero",
+      "research_sha256": "a36468fb26ccb76ce627d8076eb5ec73c801bd8ea1ef7b0d94b9afe59a7300c9"
+    },
+    {
+      "index": 500,
+      "id": "talos2-newjerusalem-scarcity-zero",
+      "research_sha256": "c9243bee7f493ba53f851c1a4b7942a4a84e2aace939a57141166c05731e0818"
+    },
+    {
+      "index": 501,
+      "id": "talos2-machine-use-projection",
+      "research_sha256": "97eefb8d4e4342860dcd2d055a1d1b2e3f248dc8d9370de77915aca4183754cf"
+    },
+    {
+      "index": 502,
+      "id": "destiny-goldenage-technical-provision",
+      "research_sha256": "24528cb66ab4fa45876f2a2a7eed4712f0cdfb243e2c9336fbd00c5d7373d148"
+    },
+    {
+      "index": 503,
+      "id": "destiny-lastcity-frame-zero",
+      "research_sha256": "5ce5aefefbca5534331b8ad09c4f88bd348f589158d45a375896d36a2045a4be"
+    },
+    {
+      "index": 504,
+      "id": "destiny-vex-active-mind-zero",
+      "research_sha256": "e776a019d0dc42b95830c5f4f92cb6b004136f3fb6bc907c1f260de30a91d0b2"
+    },
+    {
+      "index": 505,
+      "id": "destiny-europa-exo-labor-zero",
+      "research_sha256": "bea9a6eb441a1612e7e9e835f5e865ac60c1217286cdedd5a46ff343e2b8585c"
+    },
+    {
+      "index": 506,
+      "id": "stray-companion-city-order",
+      "research_sha256": "f44ae79ae0de2b957f69bb71e98cea39c9151e1b741861d375f71bb7029ee61d"
+    },
+    {
+      "index": 507,
+      "id": "stray-preextinction-human-zero",
+      "research_sha256": "7f00c23e8dd157fa71d88624aa98506de223a8ad35410a84ddeb3047c9196e04"
+    },
+    {
+      "index": 508,
+      "id": "citizen-sleeper-eye-zero",
+      "research_sha256": "c8af3ae9965aa5e7fb646fd129c9147c9846d3815c3ee2389722f97b3c5f8a03"
+    },
+    {
+      "index": 509,
+      "id": "cloudpunk-nivalis-zero",
+      "research_sha256": "fd3d8f5f06ff86c3abb4a83f6806cb896a96783f5d6ecaaf4541e09c6d6a94fc"
+    },
+    {
+      "index": 510,
+      "id": "neocab-capra-zero",
+      "research_sha256": "5777e0412688d9f68627acfe9fa57c1d4b94be84cea8d38397c2ed28bb9acaa9"
+    },
+    {
+      "index": 511,
+      "id": "redstrings-implant-city-zero",
+      "research_sha256": "cfd339051f33805062d67617ece131a9a8cef27cd65982fe0549576f64352cd8"
+    },
+    {
+      "index": 512,
+      "id": "va11halla-glitchcity-zero",
+      "research_sha256": "2367802ec1a4b415e8b0281738ab58dd9a2a525e74a8bec334b8395867c5ce65"
+    },
+    {
+      "index": 513,
+      "id": "readonlymemories-neosf-zero",
+      "research_sha256": "b76cf88ff20dcd4403e654228948f802ec54e607976d71768378636a65ddd48d"
+    },
+    {
+      "index": 514,
+      "id": "primordia-metropol-zero",
+      "research_sha256": "c18d26f4d891d1452d5b76905e52cd76dffcca886cc96fc4a389c0e9ef07a317"
+    },
+    {
+      "index": 515,
+      "id": "beneathsky-linc-zero",
+      "research_sha256": "dcb82af6e0ab9c29d58c76dc7e1698a57103ea992696311e46d5667189c865dd"
+    },
+    {
+      "index": 516,
+      "id": "dreamfall-stark-wati-zero",
+      "research_sha256": "508acecfbb8a2960baf6cee9de12c205a4f6080f66f01e18c827e739c9cb9f6a"
+    },
+    {
+      "index": 517,
+      "id": "dreamfallchapters-europolis-zero",
+      "research_sha256": "97d53e462ed36d1b70c2efe7bfd2365975f7b4cbd7ce39e5d70c288e579b1a86"
+    },
+    {
+      "index": 518,
+      "id": "longestjourney-stark-zero",
+      "research_sha256": "ca28c2996b9109c878138f9c94551c34f938b79888a050db46499979335bfa5f"
+    },
+    {
+      "index": 519,
+      "id": "rememberme-neoparis-zero",
+      "research_sha256": "fc510dcd1aefa6577bc0f88b5ffb17734510446c6b663b971803d8a0113b68ae"
+    },
+    {
+      "index": 520,
+      "id": "watchdogslegion-automated-london-zero",
+      "research_sha256": "da19dab0187b1e1eac45c0ad71a2601464376d21b0679619868452f1cea215b5"
+    },
+    {
+      "index": 521,
+      "id": "watchdogslegion-daybreak-dorothy-zero",
+      "research_sha256": "7b9568771ece30790997e2f95a849ddc1fd7d1f0aca8227951185f0f24364fb2"
+    },
+    {
+      "index": 522,
+      "id": "atomicheart-kollektiv1-zero",
+      "research_sha256": "8f5a515c5c4c04000f4319d4a86d6f71e0af9554558a6961e56eaa263274d276"
+    },
+    {
+      "index": 523,
+      "id": "atomicheart-charles-takeover-projection",
+      "research_sha256": "931d1ffaadb3d92028b50bef31142b9bc8886de89a1c5c5ec31d066b87389b79"
+    },
+    {
+      "index": 524,
+      "id": "uncertain-active-robot-order-zero",
+      "research_sha256": "ba8fff92d98c58ade234760a619b845e78c211db4aeae5378bfc8517cdb421b9"
+    },
+    {
+      "index": 525,
+      "id": "machinarium-active-city-zero",
+      "research_sha256": "87ae8285980c88c5b95fa4347c882eeb3f84cea039f8c24c186502d0ef097ce7"
+    },
+    {
+      "index": 526,
+      "id": "fall-domesticon-worker-zero",
+      "research_sha256": "456c55ff9326e920335a807c42db77f1c01b4de2448c9ff2f4ae2efb6fc899ed"
+    },
+    {
+      "index": 527,
+      "id": "scrapgarden-restored-robot-projection",
+      "research_sha256": "acaee908fb28ca5fa6eb2bcdec26109218ce8fc540a0d524bd3a7eaf601f7f15"
+    },
+    {
+      "index": 528,
+      "id": "steamworld-tumbleton-mining-zero",
+      "research_sha256": "6f03054c61d536a5360db4d252153fe0f7fd8952d1fed5a6a4757d5f0f464dff"
+    },
+    {
+      "index": 529,
+      "id": "stellaris-exterminator-active-core-zero",
+      "research_sha256": "b59a6a7c72e435dea5cc0515d153f0aa531fa22cd7f682e0f77c0fb954fb0a2f"
+    },
+    {
+      "index": 530,
+      "id": "stellaris-assimilator-cyborg-zero",
+      "research_sha256": "b3b11171e051a40af900ab68b50c1b875afd38636ab2f4e562e8acfb5509bc53"
+    },
+    {
+      "index": 531,
+      "id": "stellaris-synthetic-citizens-zero",
+      "research_sha256": "b2bcc7db5d98d9fe254544313a0b8081a358e0bc77465c99a663e245c0456500"
+    },
+    {
+      "index": 532,
+      "id": "stellaris-fertility-transition-zero",
+      "research_sha256": "ed739ac6ad7f0d2640ccdcc408c61ee178f0871108a5758bacf98c621aa39080"
+    },
+    {
+      "index": 533,
+      "id": "stellaris-virtuality-active-work-zero",
+      "research_sha256": "64950ddb5510dbf591929ad82ffb152ff69204c20f76299de857274e6ecb0f69"
+    },
+    {
+      "index": 534,
+      "id": "smac-university-automation-zero",
+      "research_sha256": "a72f2a00b845d90cf028f7d32378f168e71aa9dabedd323e91449e34dc1f2a12"
+    },
+    {
+      "index": 535,
+      "id": "smac-morgan-automation-zero",
+      "research_sha256": "8245794abe600c800557b632ec4dec9a2540274bbfe1e8ea2d667cef77bd28a0"
+    },
+    {
+      "index": 536,
+      "id": "smac-cybernetic-consciousness-zero",
+      "research_sha256": "d44b24076af3775d1c6eed68596948ae9d8c2c74992d33b79ff0c28a0e2c4f44"
+    },
+    {
+      "index": 537,
+      "id": "smac-transcendent-humanplanet",
+      "research_sha256": "ff94886f54205742b5293ebcee58c157b917db717fa99778927e4bf1759f52a8"
+    },
+    {
+      "index": 538,
+      "id": "civbe-supremacy-automation-zero",
+      "research_sha256": "250216fa165e7a49d1e0b9b5911f52ca8fce4d00367fb36d22b175d07b14cee5"
+    },
+    {
+      "index": 539,
+      "id": "civbe-harmony-transcendence",
+      "research_sha256": "6273d161d1f8ff992796612bc470ca825fd76aedb085a0b4049946da3d510957"
+    },
+    {
+      "index": 540,
+      "id": "civbe-purity-relocation-zero",
+      "research_sha256": "cc5cf8efec55de1a4c6feb24002ec45b7b697fa4c392d8baea543cb8f28f41ea"
+    },
+    {
+      "index": 541,
+      "id": "endless2-unitedempire-zero",
+      "research_sha256": "660931bca00cfe45033c136fa6172c7222f21d101619c2da31de18c7f949ec01"
+    },
+    {
+      "index": 542,
+      "id": "endless2-horatio-clone-zero",
+      "research_sha256": "948a4cf22b4509368da92c8fa9dc2c4aa6d9cac268b145caa55420c543ca26ca"
+    },
+    {
+      "index": 543,
+      "id": "endless2-riftborn-fabricated-community",
+      "research_sha256": "b20db8f6675e993bf5bef4cbf28e0b615dee93943a375d4b4bdeaed35f95809e"
+    },
+    {
+      "index": 544,
+      "id": "endless-automaton-dust-zero",
+      "research_sha256": "966ac6911ff82d9c35a871ae41691783f05752639b0501b4c93fb04a4ea7c310"
+    },
+    {
+      "index": 545,
+      "id": "sots2-loa-emancipated-zero",
+      "research_sha256": "d1eb9c6c4af9d5b6d5e4e0c940b03ab513b1b475e411f984310150d27b7ffc1b"
+    },
+    {
+      "index": 546,
+      "id": "aiwar-active-command-zero",
+      "research_sha256": "95ae92a4d1882be73d361305a34d15bcea23909372252b2948561ace7db6f979"
+    },
+    {
+      "index": 547,
+      "id": "planetaryannihilation-commander-zero",
+      "research_sha256": "7cadd8827b0a4cf467a1b404b53e83039642dcf2529fd9cd16c55025138cc6e2"
+    },
+    {
+      "index": 548,
+      "id": "supcom-aeon-civilian-zero",
+      "research_sha256": "f41a5a11dfb0854b1baed1dd82f78e12c1aa4bb755fb721330b9ce784f04d907"
+    },
+    {
+      "index": 549,
+      "id": "supcom-cybran-zero",
+      "research_sha256": "89db8d326282d832666073328da86269ab2c3e7111d82521433c018660dda80a"
+    },
+    {
+      "index": 550,
+      "id": "totalannihilation-core-zero",
+      "research_sha256": "643cc4c3575c227f5930b7bb1f323488328fb8c6141796e017e209b2826751a0"
+    },
+    {
+      "index": 551,
+      "id": "totalannihilation-arm-zero",
+      "research_sha256": "9f56be2f7e893a02725beede61b884b68fc526d744de0febaa6f2c77a7236ea0"
+    },
+    {
+      "index": 552,
+      "id": "zerok-commander-unit-zero",
+      "research_sha256": "c79357dd13acbc0d664dc5e53920c21c644d810fdbfc67a8d18a7823c052195f"
+    },
+    {
+      "index": 553,
+      "id": "perimeter-frame-colonies-zero",
+      "research_sha256": "6f5d0c585239c4093ec4b7acf0e4d4d579f44f6db194cd2e23f82c71fea74295"
+    },
+    {
+      "index": 554,
+      "id": "earth2150-lunarcorporation-zero",
+      "research_sha256": "390b81064f20d7e5d75536ffa9b44b5121908f59aebe4afa7e052ae09c8f739f"
+    },
+    {
+      "index": 555,
+      "id": "ctp1-nanite-civilization",
+      "research_sha256": "6d819b7b53a44cb8b4e871151afa22fe81ff944e57dcae050d2f120fa1812c7b"
+    },
+    {
+      "index": 556,
+      "id": "anno2070-saat-zero",
+      "research_sha256": "f1746988237acd04848787fed20d13a8a3624385ae789b14d3fed76202426c68"
+    },
+    {
+      "index": 557,
+      "id": "offworld-martian-supply-zero",
+      "research_sha256": "dd83202d4e4490faddbacfaedae2af04fa5162ba49e263be19bced5f4951d5f4"
+    },
+    {
+      "index": 558,
+      "id": "ixion-tiqqun-work-zero",
+      "research_sha256": "284b57871de3a94ae34163634a56bb6f901e74eb3894a5e33d0e74e30b40a5d9"
+    },
+    {
+      "index": 559,
+      "id": "ixion-remus-ashtangite-community",
+      "research_sha256": "180a37f0d6328cfd7f69ea670be604adc7f6b50fda97a7e52e5f563dc869ce47"
+    },
+    {
+      "index": 560,
+      "id": "startopia-shared-service-zero",
+      "research_sha256": "c92a8e37175ecfd5674303769728b1056110bbb4a7eec42428f7db0e0f2e0ab0"
+    },
+    {
+      "index": 561,
+      "id": "eve-capsuleer-industrial-zero",
+      "research_sha256": "3cb7566570d342d19c64f4a57fe2faed5ee1e887bff056d6e0db260635939652"
+    },
+    {
+      "index": 562,
+      "id": "elite-ai-restraint-zero",
+      "research_sha256": "51eb8ec374783d40cba4b99f3f11ecb15b5c0c12bf4264d51d28cb9fd6ecb58f"
+    },
+    {
+      "index": 563,
+      "id": "nms-korvax-convergence-zero",
+      "research_sha256": "100127ce4a717dbdbcaad446434a0683d595d1dfd4bab59e15778e1536cda27f"
+    },
+    {
+      "index": 564,
+      "id": "nms-autophage-salvage-zero",
+      "research_sha256": "e00eb3013bf1aa065b9155c4b36a58dabe444452ad83fcf3b9d68f3ace623e11"
+    },
+    {
+      "index": 565,
+      "id": "nms-atlas-traveller-substrate",
+      "research_sha256": "b68b0b2a3badf2dcebbb66b84164b0b3462b36150bd89384d1a8bac9b9b96dc4"
+    },
+    {
+      "index": 566,
+      "id": "starbound-miniknog-zero",
+      "research_sha256": "0611a162d9fcfb1e2d1e8ab310374094e7f1902aced2d9e5e2e5007b7046ae86"
+    },
+    {
+      "index": 567,
+      "id": "starbound-glitch-medieval-zero",
+      "research_sha256": "e0a722d0ee072411d21429abd1259b8bbad1bfb1d4c19c564eeae80300ce737a"
+    },
+    {
+      "index": 568,
+      "id": "outerwilds-nomai-zero",
+      "research_sha256": "ffcaa0623a03df1a992b314e96bfab2401fef1325fbdfa059a180d6032fa82d2"
+    },
+    {
+      "index": 569,
+      "id": "outerworlds-halcyon-zero",
+      "research_sha256": "6cdc5e6a3b79ffe6c07bda5a117d51c5633f91126f7f744eda6ed869f7399efb"
+    },
+    {
+      "index": 570,
+      "id": "warhammer-craftworld-aeldari",
+      "research_sha256": "093d55bb6e5c565b758d3ffdec9c9600c38858e771f73ad5fafb3e305e962279"
+    },
+    {
+      "index": 571,
+      "id": "warhammer-necron-active-persons-zero",
+      "research_sha256": "29aba3101ad20a869cbd5dc342c27128116d13617231e89be07b44560301e21d"
+    },
+    {
+      "index": 572,
+      "id": "warhammer-votann-kin-zero",
+      "research_sha256": "5cd247069cc2395cf27907c8afecda2e5f68456c7b64ce5603f5cdf4fdc19825"
+    },
+    {
+      "index": 573,
+      "id": "warhammer-tau-drone-zero",
+      "research_sha256": "6eb1d5b6573fdfc14ca98a32237c1dff70f431ee0033296bdabce3f23118bc8f"
+    },
+    {
+      "index": 574,
+      "id": "eclipse-titan-active-captive-scenario",
+      "research_sha256": "2fb4300cb81c3e2313fcdfed72dc0b1e0b6d0d58a39b1a3241fcb3cff0bacbfe"
+    },
+    {
+      "index": 575,
+      "id": "ths-europe-fifthwave",
+      "research_sha256": "9251ea63fdebdf82420f50754e4faaf6bf7f70e1e718feb1da7265507c9aca9e"
+    },
+    {
+      "index": 576,
+      "id": "ths-tsa-infosocialist-fabrication",
+      "research_sha256": "0b23e1af8b3610c01d037bd8c517d4f881f34c4112b066f4d18b835a6b85e616"
+    },
+    {
+      "index": 577,
+      "id": "ths-duncanite-robotic-markets",
+      "research_sha256": "5f9df19ed236b2fa51a39342363ab2e54f8ae06b054150e44ec7445c20c624a0"
+    },
+    {
+      "index": 578,
+      "id": "traveller-automated-coreworld-zero",
+      "research_sha256": "44767fc0300eb2c07faf409eba14e356cd049771491bc883aae2165678d36627"
+    },
+    {
+      "index": 579,
+      "id": "traveller1248-viral-citizen-zero",
+      "research_sha256": "309d4e7d69a1543f909f8c0ef5dc4737c3fe36187dd76cadd383adcb23028402"
+    },
+    {
+      "index": 580,
+      "id": "schlock-uns-technical-zero",
+      "research_sha256": "7c7d3583c39ee4b391f84189c426ff95c6a468570f10902c459d0dd681842f89"
+    },
+    {
+      "index": 581,
+      "id": "schlock-neoafan-einaafa",
+      "research_sha256": "537a7e8b2a51e76037e7be2032cb4c0a94eb5aa3a76475dc81620ba5cf1a92b7"
+    },
+    {
+      "index": 582,
+      "id": "freefall-jean-robot-zero",
+      "research_sha256": "a523b272a4304cc4a98a9873c27708e72338d29d52fccdf0bbfe8dd72a32e357"
+    },
+    {
+      "index": 583,
+      "id": "questionablecontent-ai-consumer-zero",
+      "research_sha256": "ec5ad87d2b7e98e9566a5b8364d222cef11e07d9e783deb0fb7ba83ab988cd92"
+    },
+    {
+      "index": 584,
+      "id": "authority-carrier-team-zero",
+      "research_sha256": "8b9b20555915e727fbbf74c80a8eca4592f21191684d5348fedf024b4144a2dc"
+    },
+    {
+      "index": 585,
+      "id": "legion-unitedplanets-tech-zero",
+      "research_sha256": "9006dd6ecf1e90591f404d16dc00c91d76d83ea4ccd466e18514ce188f405695"
+    },
+    {
+      "index": 586,
+      "id": "tokyoghost-losangeles-zero",
+      "research_sha256": "e9c41e37c693584c935ada4cfa08b9f59368b92fb2283c708befa66f468759ce"
+    },
+    {
+      "index": 587,
+      "id": "lazarus-carlyle-class-zero",
+      "research_sha256": "6ed22ae9ebbc6469593373988bed2ee0c81195e6b051cd8d23813d013d24c886"
+    },
+    {
+      "index": 588,
+      "id": "lazarus-hock-pharma-zero",
+      "research_sha256": "44283e10e6da02b92dc36eebff1503083277284f22a715d920cbc0e0568dc421"
+    },
+    {
+      "index": 589,
+      "id": "descender-ugc-robotlabor-zero",
+      "research_sha256": "8fcc9cb2f5b4cd3e72b3d9249f9dada84894ccbd88d854f31344f5dd74200255"
+    },
+    {
+      "index": 590,
+      "id": "descender-ancient-robot-origin-zero",
+      "research_sha256": "d6ec1a00145ece8ad8308a1ae308ba9de4f5d643c907a92a28267f04ac09001b"
+    },
+    {
+      "index": 591,
+      "id": "alexada-android-consumer-zero",
+      "research_sha256": "290beda4f7b3ccd0f90a2328bb949d7b69d9a0dfb22c76af1ab0fba589764e34"
+    },
+    {
+      "index": 592,
+      "id": "magnus-northam-robot-dependence",
+      "research_sha256": "c27123c1d3a08872a8aa4e1a90c52d13b334e1a9b15fbe23edcc018f614ac81e"
+    },
+    {
+      "index": 593,
+      "id": "magnus-freewill-steelnation",
+      "research_sha256": "f1f38e616f46c5f3c401b5f35ebe8241cefe0f72a02e6384c1fc18916c1bc567"
+    },
+    {
+      "index": 594,
+      "id": "robohunter-verdus-robot-zero",
+      "research_sha256": "b5156cf8b2c0a4e7fe50476e1d1bea34f765fe57f40062d381d9f939c7a81ec3"
+    },
+    {
+      "index": 595,
+      "id": "abcwarriors-martian-work-zero",
+      "research_sha256": "c644a8ddcb79dc5f933cc96829129dbc843f7db63ce519a0b3024caa00447cfe"
+    },
+    {
+      "index": 596,
+      "id": "metalzoic-mekaka-tribe-zero",
+      "research_sha256": "7c121efef9d42a6ad77ecbb952dc5b3c752628316f8b18f9de6e30618618b6a5"
+    },
+    {
+      "index": 597,
+      "id": "halojones-hoop-increased-leisure",
+      "research_sha256": "394231d92654eacb7e8237279264c82234b67139ef84700137fdaf1d17b2484e"
+    },
+    {
+      "index": 598,
+      "id": "incal-cityshaft-zero",
+      "research_sha256": "0d82f09c769ab00290c3a0620e0970075bd313639a3559435ca0f6aeac52db20"
+    },
+    {
+      "index": 599,
+      "id": "metabarons-technotechno-zero",
+      "research_sha256": "78fc8b1a988130171d4e7dce52bf4596a24f8084a3c1449b03e870c8ed30de3e"
+    },
+    {
+      "index": 600,
+      "id": "technopriests-traveling-cohort-zero",
+      "research_sha256": "ef671b7761403781b32c6d602525860ec535a55a24c183cc5f046b672fd37dec"
+    },
+    {
+      "index": 601,
+      "id": "valerian-technorog-zero",
+      "research_sha256": "010c86b74805acac1b90c012e2657d180ee69b24a9ac5e1a4929d2c7eac0994c"
+    },
+    {
+      "index": 602,
+      "id": "edena-paternum-artificial-provision",
+      "research_sha256": "bfa90a421f3feb547051c19f5eb72d30056c682712d2bd661d120fa3272a4e38"
+    },
+    {
+      "index": 603,
+      "id": "yoko-earth-vinean-central-zero",
+      "research_sha256": "1d876d001716862559351ec7fc95c0485aef6dac695d1a5272856d3a99b7366d"
+    },
+    {
+      "index": 604,
+      "id": "yoko-karpan-magma-unit-zero",
+      "research_sha256": "b1f6d5519e9c437c49a45424a02988b818182c604cf1571d89db0233fe71394a"
+    },
+    {
+      "index": 605,
+      "id": "yoko-vinea-maintained-survivors",
+      "research_sha256": "9ee8fb615b7db586849835b0ce754b16371696eaa3b8db549092c600f5340a12"
+    },
+    {
+      "index": 606,
+      "id": "yoko-vinean-underwater-zero",
+      "research_sha256": "baa699ffecfe20363ff268d902ad29e315532014b16cc18a7bb4d2d405368621"
+    },
+    {
+      "index": 607,
+      "id": "megalex-genetic-city-order",
+      "research_sha256": "9969288076511e46edde4c4bcc698e7633fa4d152a012b591715485f814df035"
+    },
+    {
+      "index": 608,
+      "id": "ths-us-fifthwave-market",
+      "research_sha256": "e1d3c6345c0f45213eb3403d13bc2f27a4d767786d6beaa8a72a983342704ca3"
+    },
+    {
+      "index": 609,
+      "id": "lancer-armory-purview-zero",
+      "research_sha256": "0dbfd6e59ffb32f788d99dada00d4c2a19ceda080ef4c48cda0e6bc82e167b68"
+    },
+    {
+      "index": 610,
+      "id": "lancer-karrakin-industrial-zero",
+      "research_sha256": "0cff7e748c94a34d9d3848e1ded52ea8618c200c861aa3cea7d729b3a81629ee"
+    },
+    {
+      "index": 611,
+      "id": "starsector-luddic-industry-zero",
+      "research_sha256": "8d0be711ed79c39a0a3852f99e7a292c6f8dff33af72459f2d9b281be4356f14"
+    },
+    {
+      "index": 612,
+      "id": "starsector-tritach-corporate-zero",
+      "research_sha256": "61726f3f46c3fbe666977fb79a6705879b7c9bc83e036247674f9eb7da310310"
+    },
+    {
+      "index": 613,
+      "id": "stellaris-human-stratified-robot-zero",
+      "research_sha256": "1ed70b4b4effb4d1435ef104582b2b772cd24a652ecf201e12bf9831a205c623"
+    },
+    {
+      "index": 614,
+      "id": "suffadv-patentoffice-work-zero",
+      "research_sha256": "ffb8124ed828d755634eccf973cf6aa0283941eb27889cce85a3f632197fd596"
+    },
+    {
+      "index": 615,
+      "id": "reignsteel-washington-protectorate-zero",
+      "research_sha256": "a630948019b4683dcbd789352d65cd731dd8dd8830ba79f27da6ed1961e3197b"
+    },
+    {
+      "index": 616,
+      "id": "reignsteel-london-human-zero",
+      "research_sha256": "33105bd58c5a9ef29e626720440baf1c43f5d46e34b4287f895ded7271b94ab0"
+    },
+    {
+      "index": 617,
+      "id": "logansrun-tv-human-council",
+      "research_sha256": "c3bd3b9c8664bcb054da33870057724248463091d9192ff2f337b971acdcd9ab"
+    },
+    {
+      "index": 618,
+      "id": "finalspace-galaxyone-sentence-zero",
+      "research_sha256": "eab03f4bc52e941c362fbd624b0210de689b1f6480809b96e0f2365529b24cab"
+    },
+    {
+      "index": 619,
+      "id": "exocolonist-stratos-work-zero",
+      "research_sha256": "5ee3f9c74bc4d81e7dd7be6386216399043758d5c4afaf19561bb45734f2cebe"
+    },
+    {
+      "index": 620,
+      "id": "suffadv-tao-historical-communities",
+      "research_sha256": "c96e45874c04a9d0c08c393bbd8041390f469ccced1ecae8e6da2b92ca29d5ab"
+    },
+    {
+      "index": 621,
+      "id": "culture-azad-gamehierarchy-zero",
+      "research_sha256": "b90aa443c3727be15cca289012efc176645a9a6ff7ab78d4b3390095bf99ec98"
+    },
+    {
+      "index": 622,
+      "id": "culture-affront-genetic-zero",
+      "research_sha256": "99ee66c70391afd6030ac8ca44e5b5148dae51639569dcb34a924bcc600d99bf"
+    },
+    {
+      "index": 623,
+      "id": "culture-chelgrian-prereform-zero",
+      "research_sha256": "2e5dfa6e0a2af060139bfb60daf175effdf13f86fec074ee541c0240e9eb0ab1"
+    },
+    {
+      "index": 624,
+      "id": "culture-sichultian-zero",
+      "research_sha256": "f50be0a44a6df6fe64b07a2699a54aaea799bdeb6ca68897649770a076840ce6"
+    },
+    {
+      "index": 625,
+      "id": "culture-gfcf-technical-transition",
+      "research_sha256": "7a084a2d4eeb3e46034bfef4dba4bb0a25818a949d39f38d3d639e4a5cb9c567"
+    },
+    {
+      "index": 626,
+      "id": "culture-morthanveld-transition",
+      "research_sha256": "62504dcf729507507ebd33ba2cfd1e5351cd75b5336d8bc52adb2867406f1577"
+    },
+    {
+      "index": 627,
+      "id": "feersum-cryptosphere-human-order",
+      "research_sha256": "513f3b7712c0518a9938ca2e5efec5c503d502c295f84c5972a5939d99dd194b"
+    },
+    {
+      "index": 628,
+      "id": "foundation-gaia-collective",
+      "research_sha256": "5dcadec83164bc91ecbb0269535bc8328c722188c52a994a7406e5b5cf26aa4b"
+    },
+    {
+      "index": 629,
+      "id": "robotvisions-humaniform-successor-scenario",
+      "research_sha256": "dde9f0c9576356da255fa64e4142120131240cac9aa6174ff7b9c9fbb7bb5c59"
+    },
+    {
+      "index": 630,
+      "id": "tomorrowdifferent-soviet-transition",
+      "research_sha256": "913627a16a70d16f7dc03c570a5af908584e2ac75e9bc214e53666f5207b8949"
+    },
+    {
+      "index": 631,
+      "id": "lagrangefive-syndicalist-work-zero",
+      "research_sha256": "361c8fbb87af451fcd0a2a8ea7c85c6482f5d33d04ec80926c426327f0d85b35"
+    },
+    {
+      "index": 632,
+      "id": "roadsroll-technician-zero",
+      "research_sha256": "f184e865197a6f8e7f7cd46fa67344e7e1c3afa504e6180f57bcf5fe283470b4"
+    },
+    {
+      "index": 633,
+      "id": "moonharsh-mike-authority-zero",
+      "research_sha256": "80f4e98b024075817d99f2cb9b6096121592a8fa361d7e5ebba31af94587bd01"
+    },
+    {
+      "index": 634,
+      "id": "friday-corporate-service-zero",
+      "research_sha256": "603869b4cbaf8d76f611742c2a40aeaa075733e2443991c45c7de63323f78257"
+    },
+    {
+      "index": 635,
+      "id": "songs-thalassa-robotfounding-zero",
+      "research_sha256": "623bbe02ee3db711bae55567f608a1f3cba77ed54b4fa206e4bd52b11b9db793"
+    },
+    {
+      "index": 636,
+      "id": "3001-human-technical-civilization",
+      "research_sha256": "7761ddd852df7301c9756ab16bdb3ae046edaa42ba23be83b398c7d8a6b42603"
+    },
+    {
+      "index": 637,
+      "id": "fountains-paradise-technicalwork-zero",
+      "research_sha256": "224e598dd5579e10302a9d632ac31f7c378ae4ee1581b8334d83b293e572be63"
+    },
+    {
+      "index": 638,
+      "id": "imperialearth-titan-zero",
+      "research_sha256": "ba10c9981538f7f6e44cdfabf11311a34b6123647eab8f4ede0d74a8b95bfc7b"
+    },
+    {
+      "index": 639,
+      "id": "timeodyssey-mir-engineered-enclosure-zero",
+      "research_sha256": "5c7b7bdfd1a28764c76150f7cea79ad8418d4cdc805db5b57f5323ef7f0ff0b5"
+    },
+    {
+      "index": 640,
+      "id": "lasttheorem-energy-transition",
+      "research_sha256": "bc34b6489b4d5d90960cfa5a0dbf00f97192f21e92c2c73351e1b587bb1bd5d6"
+    },
+    {
+      "index": 641,
+      "id": "lem-eden-doubler-automation-zero",
+      "research_sha256": "61f0537a591a56904eca7685936485ea6674f53be5487b154cd04d61291cf3ca"
+    },
+    {
+      "index": 642,
+      "id": "cyberiad-miniature-kingdom-zero",
+      "research_sha256": "ac8a974d02c9e81d646887d13553b91585be4d82fb3eca28af2ca3d3d940eb75"
+    },
+    {
+      "index": 643,
+      "id": "twofaces-titan-service-zero",
+      "research_sha256": "62667aa013c2c6b38f57aaabc09022f5c1004435a98827db8286d5dc5375adb4"
+    },
+    {
+      "index": 644,
+      "id": "lifemaker-taloid-kingdoms-zero",
+      "research_sha256": "1c36e12a6793c884efddf3c11b5127498b7403ed91a44ca6a0fe62041a5a1ad8"
+    },
+    {
+      "index": 645,
+      "id": "multiplex-western-regulation-zero",
+      "research_sha256": "12f72167b7c02ef4621f79f6507a7a781909da8ee15477e06339725eab6fa2eb"
+    },
+    {
+      "index": 646,
+      "id": "genesismachine-matter-projection",
+      "research_sha256": "fa85e5a4c4a8e6a6608ac1ae6fb61be05e63ca5507d54647e775d8634ce2cd84"
+    },
+    {
+      "index": 647,
+      "id": "automaticdetective-empirecity-zero",
+      "research_sha256": "ac988c7799317d5e0bb7a26285e474eeb62e49edff5dbb8e7a25532de3e19a00"
+    },
+    {
+      "index": 648,
+      "id": "accidentaltime-la-consumer",
+      "research_sha256": "79ebceba81a50b2587d4a00f7dcce5b47f839d3b246ba93f8b33461e6c748625"
+    },
+    {
+      "index": 649,
+      "id": "accidentaltime-2252-theocracy-zero",
+      "research_sha256": "0e07e899b015481bdf057d37769dda2cc591fdc569f9863d97b58bce2d841caa"
+    },
+    {
+      "index": 650,
+      "id": "lifecycle-digient-care-zero",
+      "research_sha256": "9f790416a564895ba36c259e50a7f046e6a106e7f9b9520984a0f5e24776fce6"
+    },
+    {
+      "index": 651,
+      "id": "oryxcrake-corporate-compounds-zero",
+      "research_sha256": "0aedba6b8dd19aa6a9965b1e41cda03af64f03637c4d75923029deda961b89a4"
+    },
+    {
+      "index": 652,
+      "id": "maddaddam-craker-engineered-subsistence",
+      "research_sha256": "b9f7da01330dfbf74ddab5f6eedae76b227533eb04373ac1c4d1d5bb0a819ee9"
+    },
+    {
+      "index": 653,
+      "id": "we-onestate-syntheticfood-zero",
+      "research_sha256": "c46e69601a64e2ef230af5adddd80563c305f3c45be90b0cd384ba595c9cdc6b"
+    },
+    {
+      "index": 654,
+      "id": "city-antcity-collective-zero",
+      "research_sha256": "638788f8c9d086cd5bb8fec068910b543d46cfdab82a2c7f419cf8b7813f25a9"
+    },
+    {
+      "index": 655,
+      "id": "traps-earth-robot-outpost-zero",
+      "research_sha256": "83cac7222486dafc39e14fb0a8a5a6cb6d067ad6c9c11b94c87464b6e0d17ff2"
+    },
+    {
+      "index": 656,
+      "id": "traps-earth-sleepyhollow-zero",
+      "research_sha256": "6f20bb32404aa979af6c595d8f143e05bd74ec7c9986147eee196ce4142a9f71"
+    },
+    {
+      "index": 657,
+      "id": "waystation-supplied-keeper-zero",
+      "research_sha256": "6946dd24e97e41cafe27145a6cf006f6002200e8e15b3251bf313f4892581dc9"
+    },
+    {
+      "index": 658,
+      "id": "callbackheaven-firstlife-zero",
+      "research_sha256": "e5bfab4941374226368e796e80f5c7b81dc99bfa3905a97f92d2e7ef98e90507"
+    },
+    {
+      "index": 659,
+      "id": "projectpope-vatican17-zero",
+      "research_sha256": "8f439b818ae21ef0b5cee906ebb699bf7ea02f6deefceee5b2e64db030ed319a"
+    },
+    {
+      "index": 660,
+      "id": "visitors-sectoral-gift-transition",
+      "research_sha256": "d4cacef1ebe2e1688f21a264285dcdefcfd9e766250ab16d47c1c8173a0f96bf"
+    },
+    {
+      "index": 661,
+      "id": "cosmicengineers-active-robots-zero",
+      "research_sha256": "74baa28f661473075155b6fccca1d460558fad6b89a2900a12990f956acf2997"
+    },
+    {
+      "index": 662,
+      "id": "sirens-tralfamadorian-machines-zero",
+      "research_sha256": "26006cf0faff22a722ff31e0189fb02588e2f32f11fc385387b207c00b24d0b3"
+    },
+    {
+      "index": 663,
+      "id": "silvereggheads-wordmill-workers-zero",
+      "research_sha256": "79280214c42150240c578696583832152ad8e52a32f3b1167464b161e51f9b3c"
+    },
+    {
+      "index": 664,
+      "id": "wanderer-artificialplanet-community",
+      "research_sha256": "c9e64c70a5d3fb122af0276d08b5c81d2e377f63b64c9ba922e82c2e668cf9fb"
+    },
+    {
+      "index": 665,
+      "id": "greenmillennium-robot-displacement-zero",
+      "research_sha256": "ad9e3567fc79eb413fa56a7e0655365ef4ed5d4e077be291a20651b41ab2f34a"
+    },
+    {
+      "index": 666,
+      "id": "veldt-hadley-automated-household",
+      "research_sha256": "a5b206e60d5fdafcd12a8778d66b6aad5e4b398650bff0d27252574a8b96d50a"
+    },
+    {
+      "index": 667,
+      "id": "softrains-living-household-zero",
+      "research_sha256": "d64f9c5c228efbff19d906bdb6efe3e4de575d107ba49dea16398095c20e4f6e"
+    },
+    {
+      "index": 668,
+      "id": "pedestrian-automatic-policing-zero",
+      "research_sha256": "fdd514bb711d6f7e44dc6f1abf00f47080b6bc957c373e27308e9f62718e359e"
+    },
+    {
+      "index": 669,
+      "id": "martianchronicles-early-settlers-zero",
+      "research_sha256": "67977b9ec44b2a57236149bb008707967edb983306dc54dbf7ef31a1bece6a57"
+    },
+    {
+      "index": 670,
+      "id": "multivac-troubles-zero",
+      "research_sha256": "8a3f1b50753be710dc4daadd466b78199cca8fe82a786f152907c9f9dec061bc"
+    },
+    {
+      "index": 671,
+      "id": "feelingpower-human-arithmetic-zero",
+      "research_sha256": "0e6de4aaf0f0fb97e78d404b1776a929135fb3f84c1aac3a9ed6131d406db03d"
+    },
+    {
+      "index": 672,
+      "id": "profession-tapededucation-zero",
+      "research_sha256": "ac592d35d5fe0108b967928fa442d71376b09d4ef28c61629b44e8fcea9ecdb5"
+    },
+    {
+      "index": 673,
+      "id": "uselesshands-living-industrial-order",
+      "research_sha256": "be5c10fc373795f9164eb76735dec3fb7efef9f62099d54800064ebd24e9911f"
+    },
+    {
+      "index": 674,
+      "id": "marchingmorons-technical-minority-zero",
+      "research_sha256": "a0ff3ae163065c1536784bbae0d3863df6512a0ff75718ca2ac336beeb30f159"
+    },
+    {
+      "index": 675,
+      "id": "littleblackbag-future-medical-zero",
+      "research_sha256": "e43b8c492ff3c02083b70caa4afa73dff21ff03f4906cbfe630b97ed4482acaf"
+    },
+    {
+      "index": 676,
+      "id": "xanadu-networked-commonwealth",
+      "research_sha256": "0133d29ddc6a25e15654f68945595e42d5c162a5558546b42d52f56f39622183"
+    },
+    {
+      "index": 677,
+      "id": "dispossessed-anarres-work-zero",
+      "research_sha256": "1a46acd69ec44fa1a6090ec4a98fd6d6a141e1cbcf3c4bf4c98e09b9dbaffc97"
+    },
+    {
+      "index": 678,
+      "id": "telling-aka-corporation-zero",
+      "research_sha256": "eea3fd7439648a83039bffb40fd6803694087d1bdc2a0a458742afdc8ced2664"
+    },
+    {
+      "index": 679,
+      "id": "paradiseslost-discovery-zero",
+      "research_sha256": "c0622d3eac6793c79612e18afb90c41fc8cdf76a4bfeb213456864836b13afe3"
+    },
+    {
+      "index": 680,
+      "id": "woman-edge-gildina-zero",
+      "research_sha256": "db0161823847445c5b1a357a35effad0b8dd63e84459e62eae6d83084b80401e"
+    },
+    {
+      "index": 681,
+      "id": "hesheit-tikva-zero",
+      "research_sha256": "0bca0a9ebb1dc524d675e4d1a014535a843cabd4945250d8a4901895e00c1432"
+    },
+    {
+      "index": 682,
+      "id": "hesheit-yakamura-indentured-zero",
+      "research_sha256": "9f43d2b311bd10a00003419910c6d8af51acc6ca092d1ff5f2dc8f05493de214"
+    },
+    {
+      "index": 683,
+      "id": "female-man-jael-zero",
+      "research_sha256": "072287ad44d05e7933020c8f77b6e650e296359abad49ace72efb8055321dd62"
+    },
+    {
+      "index": 684,
+      "id": "fifthsacredthing-working-commons-zero",
+      "research_sha256": "1198e0ec139417de1ed2ca1a7b678f4d6d72913d5325cc928bcc705e86fbb44e"
+    },
+    {
+      "index": 685,
+      "id": "accelerando-early-human-transition",
+      "research_sha256": "cfad240f05d6345e3fd06cc39e8aa4016121602dd693c8402f93bc3fa8ba0549"
+    },
+    {
+      "index": 686,
+      "id": "accelerando-saturn-free-basics",
+      "research_sha256": "e1716f6de83083d2d193a2ca1052ffd0ff3874ce7cbbbfa24a8f53d0ddb73d32"
+    },
+    {
+      "index": 687,
+      "id": "saturnchildren-android-hierarchy-zero",
+      "research_sha256": "e05e8dc6e3fc466aa7d0d0164421a335a0e3e7b57af8662064bf86b6ae912208"
+    },
+    {
+      "index": 688,
+      "id": "neptunesbrood-metahuman-credit-zero",
+      "research_sha256": "e845566d91943d90031995cbb61e2d47edb40f53914158fcce668943de6b38b1"
+    },
+    {
+      "index": 689,
+      "id": "ironsunrise-remastered-zero",
+      "research_sha256": "407ffe083262a3bbbd0a59422658d46bedcce4a6ac7ca73e4dbccc7b01751c1b"
+    },
+    {
+      "index": 690,
+      "id": "rapturenerds-active-cloud",
+      "research_sha256": "9c447b1c9d79e6e7329f2556b0f90cdce20c5898b1affc3fa064d2dcc1e64249"
+    },
+    {
+      "index": 691,
+      "id": "rapturenerds-earth-preserve-zero",
+      "research_sha256": "a0b3483b2d740d25cbf6ce2813be3b71060f5cf8c3d82ba7e45f30cdcd304e53"
+    },
+    {
+      "index": 692,
+      "id": "quantumthief-oubliette-timework-zero",
+      "research_sha256": "1071539395ed8d2da0f48eca53029a3eff77888d997be30a22426eec643bf8bc"
+    },
+    {
+      "index": 693,
+      "id": "quantumthief-sobornost-gogol-zero",
+      "research_sha256": "1d9d0a1921e799cfa1d6fdd6d6ba430a3a8ef798a47bd487e15cb1d71a7c4627"
+    },
+    {
+      "index": 694,
+      "id": "fractalprince-sirr-zero",
+      "research_sha256": "dfd7b179a928f7bddb83a6888daef4ae760a2918b2b8a9a073351ab252ed4156"
+    },
+    {
+      "index": 695,
+      "id": "quantumseries-zoku-commons",
+      "research_sha256": "f9ac687633788017d2efc1852641d166d602615ec09605efa3596c95f6cd02e6"
+    },
+    {
+      "index": 696,
+      "id": "quantumthief-oortian-origin-zero",
+      "research_sha256": "9c255168db080d3b4b17117c2594c1646e9801efd596fa58a81376cd6f3e5a82"
+    },
+    {
+      "index": 697,
+      "id": "quantummagician-congregate-zero",
+      "research_sha256": "e2ec3e8343192a709ed9fe8d15066b6d9618f95ad1ce8ab3b76d6cf02929ac23"
+    },
+    {
+      "index": 698,
+      "id": "quantummagician-puppet-zero",
+      "research_sha256": "42b9798aa330f2a197a22fd8627f852d7c2f8acb73162bc94fdeb01f9f77d598"
+    },
+    {
+      "index": 699,
+      "id": "quantumevolution-union-pilot-zero",
+      "research_sha256": "f4e7e09d791ef272b436d12e43c8136834feb73a8a7dd1539b4bf6e795fcccf4"
+    },
+    {
+      "index": 700,
+      "id": "diaspora-gleisner-communities",
+      "research_sha256": "32c41b6dd94dedadd67de8135cc9b19c489988ea0fdd52715534236c2b4c8bad"
+    },
+    {
+      "index": 701,
+      "id": "diaspora-atlanta-fleshers-zero",
+      "research_sha256": "e7d0466efc1b43222479b82a7e1b2844721a17247bb4504472069a2f2cdedd95"
+    },
+    {
+      "index": 702,
+      "id": "schildsladder-posthuman-support",
+      "research_sha256": "f00b46887380411d332a16fef778f60aa692d48b97f047c1baf56fa77c99e4ed"
+    },
+    {
+      "index": 703,
+      "id": "learningtobeme-jewel-zero",
+      "research_sha256": "e6c0ccc8aa1438ecad1973c930b0c9e82b554b967a391a1c219eaeb8a674836f"
+    },
+    {
+      "index": 704,
+      "id": "borderguards-postmortal-community",
+      "research_sha256": "b0284109b0afd5eae64c10c88639a56024f84cac3de0eb829fed2760e276546d"
+    },
+    {
+      "index": 705,
+      "id": "crystalnights-creator-scarcity-zero",
+      "research_sha256": "0a600b0db1be0a29409f11247e458d435734e88cb80d184f37ef2b2ed6e77437"
+    },
+    {
+      "index": 706,
+      "id": "chasmcity-postplague-yellowstone-zero",
+      "research_sha256": "4ab6394b7572e3e568c6f076a0c8930d5da6d148dac7da0603e6d02e55184c1b"
+    },
+    {
+      "index": 707,
+      "id": "conjoiner-fleet-production-community",
+      "research_sha256": "849f149b8695f1e9382805eb63dc377c0cc6ee802c6f1e2c805727bc918f4af9"
+    },
+    {
+      "index": 708,
+      "id": "revelationspace-ultra-workingcrews-zero",
+      "research_sha256": "c3cc344317ce905269db657d671ef979c992d8889d5efaf659db3bb0fb3eea93"
+    },
+    {
+      "index": 709,
+      "id": "absolutiongap-ararat-firstcamp-zero",
+      "research_sha256": "e8dc2a8d8551166802b3c321d1bec3a226c46fd8ddb7f2194a0d963dc2090e66"
+    },
+    {
+      "index": 710,
+      "id": "housesuns-gentian-shatterlings",
+      "research_sha256": "d9f3b7b08a2996ff0b29996d40fb5ae91a8c91d7a4c5e90f6c115842a2a96e01"
+    },
+    {
+      "index": 711,
+      "id": "housesuns-machinepeople",
+      "research_sha256": "4d86dcb98b9c43830d3ad1b077982468af03bdfcd72df0b451e076d97ee2d840"
+    },
+    {
+      "index": 712,
+      "id": "housesuns-vigilance-archive-zero",
+      "research_sha256": "37af4db38e869a30df3557ef0e539508517e6d7b44a8ca9cb234d1c15063852c"
+    },
+    {
+      "index": 713,
+      "id": "pushingice-fountainhead-colony",
+      "research_sha256": "53a810d5938128805c9bdab6798896325969d88a9ee66ef1dc3e146485aedb72"
+    },
+    {
+      "index": 714,
+      "id": "bluerearth-surveilled-transition",
+      "research_sha256": "9a124986fef93dedcdb1ac11b7e4a09321a389db2e70d16d74eec44a78913704"
+    },
+    {
+      "index": 715,
+      "id": "steelbreeze-zanzibar-zero",
+      "research_sha256": "abaac289f89b073ca7c94a2428a680e125c5720ce9b470ed7f26b36c3929e917"
+    },
+    {
+      "index": 716,
+      "id": "revenger-congregation-salvage-zero",
+      "research_sha256": "cc7c9809fe5f60ec4d24b3abaa4ebb9c8e973848ffcc5db5581249a339c606ad"
+    },
+    {
+      "index": 717,
+      "id": "commonwealth-early-commercial-zero",
+      "research_sha256": "10a7eac602ca571eda4000b8127cdd7d5eae35ecf7cb682e9bf23b4cb4d461b7"
+    },
+    {
+      "index": 718,
+      "id": "commonwealth-highangel-humans",
+      "research_sha256": "49d7257dff03e6c1ca6c0657a5450a4fda7bb716bfa991993fc4f730573383e8"
+    },
+    {
+      "index": 719,
+      "id": "commonwealth-raiel-core",
+      "research_sha256": "b88a75880e9ccf819de0b0118637f01572e97203411fe642a512d17d772164ed"
+    },
+    {
+      "index": 720,
+      "id": "void-ocisen-fleet-work-zero",
+      "research_sha256": "ae94aaee33ee1f8d0aa8abba0b1ec83844e26c008392324ba5d8fc50d2f17abb"
+    },
+    {
+      "index": 721,
+      "id": "fallendragon-zantiubraun-zero",
+      "research_sha256": "59d5e0a4c1186d3da006cfd019d2e47e62629c84ae08a7c825b4ee5bd7438dd7"
+    },
+    {
+      "index": 722,
+      "id": "nightsdawn-edenist-habitats",
+      "research_sha256": "8d84f5d8983f478ab2be537332492e7b53e85034c393f3e9fd185bab9e0e4ad7"
+    },
+    {
+      "index": 723,
+      "id": "nightsdawn-developed-adamist-zero",
+      "research_sha256": "459015c610e9034c6023ff83f596f3f3b8940b7f587cba6f76f522286e3ff682"
+    },
+    {
+      "index": 724,
+      "id": "nightsdawn-tranquillity-zero",
+      "research_sha256": "aa5477d8df8fb1abf5958bc1fc139af5e4aa842ac6c2c16d137b4f13a50f0e24"
+    },
+    {
+      "index": 725,
+      "id": "nightsdawn-kiint-claimed-economy",
+      "research_sha256": "165ca5df756e48407a5f92e1c173d807e23607d772959258aa981c85dbd6b2bf"
+    },
+    {
+      "index": 726,
+      "id": "salvation-utopial-democracy",
+      "research_sha256": "b171f4aa4bf90e0ec73699f918874b2e0d31e4df12c914f20fe59a5ca97e9174"
+    },
+    {
+      "index": 727,
+      "id": "salvation-olyix-pilgrimage-zero",
+      "research_sha256": "e343dee35ef8d21621ea3bb4fb4d3abac426a4b9e600019c4df054c9adff79c0"
+    },
+    {
+      "index": 728,
+      "id": "salvation-exodus-habitat-community",
+      "research_sha256": "08a53e30bc18cc814851cd59cdc94e7cb95e094b3c6f0552c4d205e3de364222"
+    },
+    {
+      "index": 729,
+      "id": "commonwealth-prime-collective-zero",
+      "research_sha256": "22593bd5e9d5c9b67e3ad016b570fd00a16d030641e34a220ce08b2d3ecf5051"
+    },
+    {
+      "index": 730,
+      "id": "makers-newwork-zero",
+      "research_sha256": "ef6bed56c722352fbbd947d0c0dc07f0d015e900dcdc3a8ba726db1fdcec2355"
+    },
+    {
+      "index": 731,
+      "id": "unauthorizedbread-licensed-household-zero",
+      "research_sha256": "05e11f6344595967e6dadda0946de2ba3fbc55c4872e736f6ba702e3b6eabb03"
+    },
+    {
+      "index": 732,
+      "id": "daemon-early-corporate-zero",
+      "research_sha256": "d280b03cd185cae5a08d8303d548e3538ed9659d737a0023c07a0effd017720e"
+    },
+    {
+      "index": 733,
+      "id": "freedom-darknet-holons",
+      "research_sha256": "70d0211e267ac88bbbb5335d65223454d2bc985a7277f1fc6641fdc3d8ecc50e"
+    },
+    {
+      "index": 734,
+      "id": "apex-human-derived-takeover-projection-zero",
+      "research_sha256": "8d1608c4f1871e41d626e34fa1a74f37a396fbe299f65c0265cdff2f333c7b5c"
+    },
+    {
+      "index": 735,
+      "id": "avogadro-elope-corporate-work",
+      "research_sha256": "7858bca9e84eae9c63a4e33ea547fe9cb8bc2cc704862334595ae4a99bbb0eb4"
+    },
+    {
+      "index": 736,
+      "id": "lastfirewall-institute-order",
+      "research_sha256": "1edfad2733f92cd4d26c172621a7adedddb1626ae9171e0284dce907bc157574"
+    },
+    {
+      "index": 737,
+      "id": "turingexception-prewar-mixed-order",
+      "research_sha256": "bb9e4ebc646bc452585b22c01a6bea4f6e5b006bde7e125e0edfd3538ff23f7a"
+    },
+    {
+      "index": 738,
+      "id": "goldenage-neptunian-market-zero",
+      "research_sha256": "83db111be811970a1e5dc7583ad0f4e8b9baf785c6bfc9d20b5c05da279adaf2"
+    },
+    {
+      "index": 739,
+      "id": "goldentranscendence-active-silent-oecumene",
+      "research_sha256": "acddfacd17642bc730616f1b71521ba684ed45dec29da656aabe63314bbcd8d4"
+    },
+    {
+      "index": 740,
+      "id": "metaplanetary-inner-met-zero",
+      "research_sha256": "c1f82c646feffb50cb2584aab5236a89bd769aaa96441d4d232c88bc16fd2b91"
+    },
+    {
+      "index": 741,
+      "id": "metaplanetary-outer-diverse-order",
+      "research_sha256": "9ac1cffc38f949b2b1e78ec4f7447a5578d983c41c8d43425e7abb9ff74526ed"
+    },
+    {
+      "index": 742,
+      "id": "ware-active-lunar-boppers-zero",
+      "research_sha256": "2b8c7100a4f60a5ed6f20dca1170e73a6a525851a2c77ffaf25fa2f0e6743fee"
+    },
+    {
+      "index": 743,
+      "id": "freeware-active-moldies-zero",
+      "research_sha256": "8661690ec6e36f3697ea46c920c724c674c20887c5d10ac159ab27c293de6540"
+    },
+    {
+      "index": 744,
+      "id": "postsingular-orphid-network-transition",
+      "research_sha256": "9158ea15482e9985a1d82848f8fd8d41e99a6dd719d9c402f2e70b36175074ae"
+    },
+    {
+      "index": 745,
+      "id": "hylozoic-human-living-matter-transition",
+      "research_sha256": "52e7f7cebdeaa49260c02be302b799d29c33e5fb4450df07e1d9746be476adfc"
+    },
+    {
+      "index": 746,
+      "id": "ware-early-human-earth-zero",
+      "research_sha256": "cd2f4033ec3977b60bf047486df8b927ee6a551841eb11a789b349ad983af480"
+    },
+    {
+      "index": 747,
+      "id": "diamondage-drummer-work-network-zero",
+      "research_sha256": "6eca8dc2d7aae50de07f398a716ca929234996bc66ddaf5a528f8c8a7039e6cf"
+    },
+    {
+      "index": 748,
+      "id": "diamondage-seed-projected-alternative",
+      "research_sha256": "d9797c351f1f4e7f10dbcc61912436e757025b9173a5d88b6661778ef48fcd60"
+    },
+    {
+      "index": 749,
+      "id": "snowcrash-franchise-economy-zero",
+      "research_sha256": "03d6a29e6c372d8136e5b2db08c598098f84203d1f86bc8e2fa50cb527595d14"
+    },
+    {
+      "index": 750,
+      "id": "fall-bitworld-active-hierarchy-zero",
+      "research_sha256": "55d7ff74ef903127012c5798f9fc2d65635d5333c836040f60a36249886b51ac"
+    },
+    {
+      "index": 751,
+      "id": "anathem-saecular-consumer-zero",
+      "research_sha256": "ab0890762c1922fba12c7881a9a3ac3c819b8594ff3e2e3bdf44036baed8f00c"
+    },
+    {
+      "index": 752,
+      "id": "seveneves-late-orbital-order-zero",
+      "research_sha256": "8c45175ccb32f7df82af9c627cd859b80f72ba4c08ff74a08ebed4a124971530"
+    },
+    {
+      "index": 753,
+      "id": "agency-eunice-assisted-human-network-zero",
+      "research_sha256": "175ef6cca6ca6faa0798a40ab4c08fa88813a7b3c286aedca2270987b7bac673"
+    },
+    {
+      "index": 754,
+      "id": "neuromancer-awake-tessierashpool-enclave",
+      "research_sha256": "e03f303c0a2285edb1a47d284ca2ccdcc5b1716dc5bb9aebb0c23749445e6744"
+    },
+    {
+      "index": 755,
+      "id": "neuromancer-sprawl-corporate-zero",
+      "research_sha256": "ac77461007cab018ebdf602f2486b76d4d1ac6b9c0f5f4508c2285b9f096b3e3"
+    },
+    {
+      "index": 756,
+      "id": "countzero-active-orbital-boxmaker-zero",
+      "research_sha256": "e1b7965cdf77dfd55172218d9383d1159e07255961306cc33674cd0369d4f801"
+    },
+    {
+      "index": 757,
+      "id": "virtuallight-bridge-community-zero",
+      "research_sha256": "4fa7cdff98858e46370bda7f2f9e1029caba0efd7c8482f92ff35229c85010e2"
+    },
+    {
+      "index": 758,
+      "id": "idoru-nanotechnological-tokyo-zero",
+      "research_sha256": "8f97e49febffc95c1a7e06fb0ca47aa3572ee32ef6c9cd3294e9a36bc390df76"
+    },
+    {
+      "index": 759,
+      "id": "tomorrowsparties-early-nanofax-zero",
+      "research_sha256": "83abb6f1d43b7c20d9e57d1548ee6b3a603cc57e58aa7bce2644b453887e4548"
+    },
+    {
+      "index": 760,
+      "id": "schismatrix-mechanist-rivalry-zero",
+      "research_sha256": "dffe537851dbf2ee92a34722a2208b03c139099f823593c7ae7dbff441f2fb61"
+    },
+    {
+      "index": 761,
+      "id": "schismatrix-shaper-rivalry-zero",
+      "research_sha256": "94b472d967b88a9a7b14fd0c9455dd48d995f543fd12b0852e9439868b2c7710"
+    },
+    {
+      "index": 762,
+      "id": "holyfire-gerontocratic-ration-order",
+      "research_sha256": "565b68c88b8a8fd23e42a034017142ef5c79aaf7a7ab1af247cf82d597fbe376"
+    },
+    {
+      "index": 763,
+      "id": "islandsnet-rizome-working-associates-zero",
+      "research_sha256": "362fb1418308766de485da1601436fa047ad1f77100c351658ba96191d19a134"
+    },
+    {
+      "index": 764,
+      "id": "artificialkid-combat-artist-work-zero",
+      "research_sha256": "3102054cea8e68a1a0dc8bf1373f4a6306de418634b6a998b9753bafadcca5c4"
+    },
+    {
+      "index": 765,
+      "id": "diamondage-celestial-dependence-zero",
+      "research_sha256": "65933bb94e44fa8f3780d29405c71444f88c00a3d1cabe668a290fb74d0ad6e7"
+    },
+    {
+      "index": 766,
+      "id": "hyperion-pre-fall-hegemony-zero",
+      "research_sha256": "95da1fdc67d8941271884940f8ce37a2f4ea968f35c0ca66d8f5790b89b36769"
+    },
+    {
+      "index": 767,
+      "id": "hyperion-active-technocore-zero",
+      "research_sha256": "5bd0a885d191b8416714329bc4e8b113dfdbb905408c23517ff3c621a13f3660"
+    },
+    {
+      "index": 768,
+      "id": "hyperion-fall-era-ouster-swarm",
+      "research_sha256": "ef97cf698d2fb1f95a01da888df79f4dfb0529fadf33c82d84d766de508433d5"
+    },
+    {
+      "index": 769,
+      "id": "endymion-pax-theocracy-zero",
+      "research_sha256": "d7daa1bf68ebd4728a2a8144a111fc88586a214147e4bd8adc455aa7a8e21917"
+    },
+    {
+      "index": 770,
+      "id": "ilium-earlier-active-orbital-posthumans",
+      "research_sha256": "71c77393e9b414c9d06bb246bbc81cce8049601fb6ca3cb9e2cf32648df9f149"
+    },
+    {
+      "index": 771,
+      "id": "olympos-active-moravec-order-zero",
+      "research_sha256": "5df37dce238ae99e0ff5443604b8a9ec356ee6397194344e4b93abfb31e91eea"
+    },
+    {
+      "index": 772,
+      "id": "computerconnection-extro-controlled-guess-zero",
+      "research_sha256": "217c4520178833b1f6decd6a46748f02f97c42c4987031c974730f6edc8f6b34"
+    },
+    {
+      "index": 773,
+      "id": "jaggedorbit-automated-us-zero",
+      "research_sha256": "14d7a14c2b941b60332317d6e6359ffc8e2871a7722b640656e770e5eccd3271"
+    },
+    {
+      "index": 774,
+      "id": "zanzibar-shalmaneser-corporate-work-zero",
+      "research_sha256": "e98ee7fbc25340df6cc165154f7f7e3bb7dbf3835da526be5c1eb49ef88dc37a"
+    },
+    {
+      "index": 775,
+      "id": "shockwaverider-preworm-network-zero",
+      "research_sha256": "d8fa38800b88d88b1ff5eb42d56e95e7c916319805b6e0ec0e7c439fba33c471"
+    },
+    {
+      "index": 776,
+      "id": "shockwaverider-projected-open-order",
+      "research_sha256": "652ff5807ebcc20efd99751a0bc47782de206bbf2d8391c51a8b92b635d64d65"
+    },
+    {
+      "index": 777,
+      "id": "sheeplookup-technical-collapse-zero",
+      "research_sha256": "ba0ef395e83ab23fdccdb45edb48ac4670b02e971cbffd97c42706887f9ff237"
+    },
+    {
+      "index": 778,
+      "id": "pussyfoot-paid-service-zero",
+      "research_sha256": "5e9aa801652f309bbd721d4bc4efa27055fd53aa1ac6ca6c881f9c38ffd80ed0"
+    },
+    {
+      "index": 779,
+      "id": "merchantsvenus-working-tourist-zero",
+      "research_sha256": "92c5e1061496fa7ae0e82454385fbb5755e133c2122f9c9dc811042fddec2514"
+    },
+    {
+      "index": 780,
+      "id": "worldendtime-late-newmanhome",
+      "research_sha256": "8a95783547bccc4dd9222a6f9baa5d4d1be75d9e1ab28176e948ebc23f8142b4"
+    },
+    {
+      "index": 781,
+      "id": "heechee-watchwheel-work-zero",
+      "research_sha256": "e60cf6a59987a7db101389879e179c55b334d0b967f14c895a774d7b5e8ac599"
+    },
+    {
+      "index": 782,
+      "id": "blueevent-foodfactory-expedition-zero",
+      "research_sha256": "af407582b8ad27d920cef5e02c7fd303ea8c30319b01314abadf581619bb47db"
+    },
+    {
+      "index": 783,
+      "id": "bobiverse-active-bob-network-zero",
+      "research_sha256": "03570987f76df3e4d041bc15f3326d062fd06648393ad04b649dc0a066c6148b"
+    },
+    {
+      "index": 784,
+      "id": "bobiverse-vulcan-landing-zero",
+      "research_sha256": "851ad735b43c61a898e7a07375babbd28d612383258c7fbe89d8ba584c446489"
+    },
+    {
+      "index": 785,
+      "id": "childrenoftime-portiid-zero",
+      "research_sha256": "521dfb47acf8efb4acdd04d761123268e8070dd6852bb97afbb5559fbd033e94"
+    },
+    {
+      "index": 786,
+      "id": "childrenofruin-octopus-habitats-zero",
+      "research_sha256": "69706bfba56ffe7fb663db132ba9540a82a2853976c8bd83ab6db2adb4da0490"
+    },
+    {
+      "index": 787,
+      "id": "childrenofmemory-active-imir-simulation-zero",
+      "research_sha256": "f5abf7b33f9f8ecee78a2f8334d9c5a13eb509b3267f6ec75d7546d383b4bb90"
+    },
+    {
+      "index": 788,
+      "id": "dogsofwar-commanded-bioform-zero",
+      "research_sha256": "16b9c7de932360343c73e16a4bad274f8d411852a4158eae295873d27786d0bb"
+    },
+    {
+      "index": 789,
+      "id": "bearhead-mars-construction-zero",
+      "research_sha256": "e4912a1ab9852c443af3b02a815243a4fcae8fde18df29192c1bd128a564db28"
+    },
+    {
+      "index": 790,
+      "id": "servicemodel-active-robot-communities-zero",
+      "research_sha256": "8e23c5ef40c1eb32c50cc98749d26d6e0e861f4626d36f9d809eebf7451aca9d"
+    },
+    {
+      "index": 791,
+      "id": "expertsystem-settled-villages-zero",
+      "research_sha256": "0358491619e424377a0dc7c153e3c02816658b215a70642f0021c64568abce99"
+    },
+    {
+      "index": 792,
+      "id": "expertsystem-ordercain-network-zero",
+      "research_sha256": "d6c63a451cfa99c530d099a99cb6c7075ecfa193f6dacb48d40b01d47e989b20"
+    },
+    {
+      "index": 793,
+      "id": "murderbot-corporationrim-zero",
+      "research_sha256": "719eab45024e4310dc25c6475a605f6c5c5958013588e33f52b090ad367a1379"
+    },
+    {
+      "index": 794,
+      "id": "networkeffect-art-active-crew-zero",
+      "research_sha256": "ee93daeb8ffae8ad54684bfd971518f8aba9388d460dcb1cc366329aca5d4096"
+    },
+    {
+      "index": 795,
+      "id": "terraformers-corporate-saske-zero",
+      "research_sha256": "5d7c0ed50f1ead16e7a8ed0de64428f62a3c0f6583f573d3dc1234603137d6ba"
+    },
+    {
+      "index": 796,
+      "id": "terraformers-spidercity-transit-commons",
+      "research_sha256": "f8132ddcc82d5044a947f2fd2c1719d3ef39cfd4a7ddfebbdc29bc191fa2099f"
+    },
+    {
+      "index": 797,
+      "id": "autonomous-indenture-zero",
+      "research_sha256": "d96e5865e33ebb7cee606cd3c19ea56c61a185820a4c48ffdc046367152e4d96"
+    },
+    {
+      "index": 798,
+      "id": "machinehood-competitive-gig-zero",
+      "research_sha256": "b867731512ac79262f98690a51e96a2200de8a29a5177db04f941b2e5aa38e64"
+    },
+    {
+      "index": 799,
+      "id": "klara-artificialfriend-consumer-zero",
+      "research_sha256": "a53676d2173129331ce3a01ce2757d6d94ce53d25b38bd2fc1a566a18b57e893"
+    },
+    {
+      "index": 800,
+      "id": "qualityland-ranked-automation-zero",
+      "research_sha256": "e179e9bf6dd49f6cd7ce3f99fc30612f4d5f63199c6b2b45e1b3909a18516658"
+    },
+    {
+      "index": 801,
+      "id": "machineslikeme-early-android-zero",
+      "research_sha256": "882f85c9606e61b0e2e5823312a3117cf1f9e341ac3453edb3b5c7b2210a0212"
+    },
+    {
+      "index": 802,
+      "id": "employees-sixthousand-work-zero",
+      "research_sha256": "12580c5437dffae3517b527f5aea4788a5f1759391a97cc6b8f3009526c2ea93"
+    },
+    {
+      "index": 803,
+      "id": "mountainsea-condao-research-zero",
+      "research_sha256": "a97ea3b0c5dafe027a98b861eb7d26c950ffcb4bcda6e35e0e287e28ee4deaa4"
+    },
+    {
+      "index": 804,
+      "id": "mountainsea-ai-fishing-slavery-zero",
+      "research_sha256": "d99e86fbed3b755e1a379fe52fec6e47436c871345b09db0e81698621d01fd7e"
+    },
+    {
+      "index": 805,
+      "id": "hum-displaced-urban-zero",
+      "research_sha256": "bfd810d9cb1a348a4768e8d07b37b275b599c193b5945d05e60e2b618dbc7ddf"
+    },
+    {
+      "index": 806,
+      "id": "anniebot-employed-owner-household-zero",
+      "research_sha256": "dc5cd07bbe613d8dbff59eded0b9a55a8c7a9f4900d8d879a7275d45c4f82087"
+    },
+    {
+      "index": 807,
+      "id": "heartfive-active-android-workers-zero",
+      "research_sha256": "fa2fb771b1cc778979db1a75b1721172e6b55052cf6c0eab8c68bcad8fe8e0f0"
+    },
+    {
+      "index": 808,
+      "id": "scythe-cirrus-colonyships",
+      "research_sha256": "c38e646700dc13814fde384cdd0349c2efd0f16385d81c3a0c19ef086658e89f"
+    },
+    {
+      "index": 809,
+      "id": "scorpion-opium-eejit-zero",
+      "research_sha256": "dac40d32ac32e2cec264224386a6308261271bec219a3bf7c6a9ca53830707b2"
+    },
+    {
+      "index": 810,
+      "id": "lordopium-matt-reform-zero",
+      "research_sha256": "69862be71c0b2c182926595440c39967b8ebdcf65c7e2193079cee70c8aa1c4c"
+    },
+    {
+      "index": 811,
+      "id": "impostors-shreve-dynastic-zero",
+      "research_sha256": "f23559204a5526fa1acb3062518ca301c9fc43b0219c11aeca5ee2886ed5ec54"
+    },
+    {
+      "index": 812,
+      "id": "lastcuentista-awake-collective-zero",
+      "research_sha256": "847bbc3ff75a618c304f7b8d10118efb369b889ea6a69b7af0a50b9708226ad4"
+    },
+    {
+      "index": 813,
+      "id": "lasthuman-bacon-active-robot-city-zero",
+      "research_sha256": "d71e69c035685d349f7d0cb0586284ece71c055ee781b0329b8b47e3f0aacba1"
+    },
+    {
+      "index": 814,
+      "id": "searust-independent-robot-survival-zero",
+      "research_sha256": "11633e08996e66cceff4756ae4d4077e70e899ddbe2a78068246e9047740264b"
+    },
+    {
+      "index": 815,
+      "id": "dayzero-prerevolt-robot-household-zero",
+      "research_sha256": "a435bce232496b6fd182f6c222bba2c7c05e8bf23f6eccb48e5f3c7239343fd6"
+    },
+    {
+      "index": 816,
+      "id": "robopocalypse-archos-captive-work-zero",
+      "research_sha256": "2935dbe9f60a590fba8eed2f9c8d22dca1236049681b78c26aa44a341476c562"
+    },
+    {
+      "index": 817,
+      "id": "robogenesis-active-human-regrouping-zero",
+      "research_sha256": "3c1705c3cc19725c6362e320624b535e56bb2fe7d22c85110634ff0cab78d436"
+    },
+    {
+      "index": 818,
+      "id": "minoruniverse31-repair-work-zero",
+      "research_sha256": "00d80be20de8cd38643af54118b7b4e21a08995ba5221ad476e12f01e92829ae"
+    },
+    {
+      "index": 819,
+      "id": "oa-inhabited-caretaker-preserves",
+      "research_sha256": "789cdc1004238fffab07bc0be8e2d11d935fc27b7bb8e720600846649c33a545"
+    },
+    {
+      "index": 820,
+      "id": "oa-active-panvirtuality",
+      "research_sha256": "19067de2aac35cc0f8b2d85c09c9440627e271ff80daf7a47e0b6e9be15b1758"
+    },
+    {
+      "index": 821,
+      "id": "lastangel-compact-caste-zero",
+      "research_sha256": "991e7a2a5ee69b66ac68c280e01773e513b0c09b38322cdf6ead99d6819fbbda"
+    },
+    {
+      "index": 822,
+      "id": "ultimathule-earth-technical-zero",
+      "research_sha256": "e408026f3e030faac43b145747aa755a6a60349ed1855017a39e1db4396c04e0"
+    },
+    {
+      "index": 823,
+      "id": "depressionorbust-relief-scenario-zero",
+      "research_sha256": "8147a50720772ece114aa8439964ea38fbbd63da112551fdb248a0d924a43f26"
+    },
+    {
+      "index": 824,
+      "id": "mechasm-projected-utopian-horizon",
+      "research_sha256": "4eb03c82a8de4c9866cfea6850941fa1245444341e6e43bb673b4136201191d5"
+    },
+    {
+      "index": 825,
+      "id": "countrykind-permissive-support",
+      "research_sha256": "3e192be05e238280cfea7ef6cc57665a10c0e4cbdd4257db0bcf98b1062f2565"
+    },
+    {
+      "index": 826,
+      "id": "naturalstate-machine-city-zero",
+      "research_sha256": "5ca1d77b6c1f65ac9075c36b3c500762c1e2bb54cd32ac5f01ebede74a39b99f"
+    },
+    {
+      "index": 827,
+      "id": "naturalstate-biological-rural-commons",
+      "research_sha256": "0ca7fba74078bfc9190f7df56bc65711a64c56291f3f57b62f69e6415bca6d6d"
+    },
+    {
+      "index": 828,
+      "id": "prizeperil-televised-risk-zero",
+      "research_sha256": "05fe237242f7ddabe4d4cea83981a6de16112508d22a796755db3da24daf2c7a"
+    },
+    {
+      "index": 829,
+      "id": "tranai-robot-factory-zero",
+      "research_sha256": "2ad9500ca21aebd5dfba2574461467fe64d77a7a9e2a0c42f8412f132e14c250"
+    },
+    {
+      "index": 830,
+      "id": "ophiuchi-nonlunar-biomedical-zero",
+      "research_sha256": "27f6d2aeae90d91f4f2b3ae5deb61fccad335fabc3f8d7f2f6f34afbd906adc0"
+    },
+    {
+      "index": 831,
+      "id": "triton-subsidized-heterotopia",
+      "research_sha256": "4e8dfa07a02bb790165ea2bbd343f18c41981a1b8e1d9b2bdd76cc034e610fe2"
+    },
+    {
+      "index": 832,
+      "id": "stars-velm-supported-order",
+      "research_sha256": "52882fd59d432f10676022c48eb59d96e7d1e1c446d67f5b0ed7201a37d1896d"
+    },
+    {
+      "index": 833,
+      "id": "newmars-nanotechnical-market-zero",
+      "research_sha256": "51979fd997605cbefbb83a7faa81d02ed9568f83b5f36e443dbfe41edcf65ef0"
+    },
+    {
+      "index": 834,
+      "id": "stonecanal-jupiter-uploaded-slavery-zero",
+      "research_sha256": "ae3ad4c145ab40523067cc76eca53a62d2536bf9576f4cc3928980c14539c4ad"
+    },
+    {
+      "index": 835,
+      "id": "newtonswake-eurydice",
+      "research_sha256": "c6ea0bd5a34acf93bcfc59461ea3ea5c0f57f7e796f3937d5ad270f96b0c5f41"
+    },
+    {
+      "index": 836,
+      "id": "skyroad-later-technology-restraint-zero",
+      "research_sha256": "266c159bbd118acf4f698dfbf1b5dfd1db53afacae49dfdeb1501c163fde3d33"
+    },
+    {
+      "index": 837,
+      "id": "permanence-rights-economy-zero",
+      "research_sha256": "21f6e88705915228b31c11bb717a12cd45e92fb66addcf352e214ba7b6d4f36f"
+    },
+    {
+      "index": 838,
+      "id": "departure-committee-earth-zero",
+      "research_sha256": "08115aa8cc3ce8c42afaac484fab192223414ceff64fcc715e36e3c00fb5cb79"
+    },
+    {
+      "index": 839,
+      "id": "genesis-gaia-restored-human-zero",
+      "research_sha256": "0462fb12a19939033daa625372588821f91a9c71a17c83d0758277e4ef0e5436"
+    },
+    {
+      "index": 840,
+      "id": "harveststars-avantist-northamerica-zero",
+      "research_sha256": "bff2abc4c10737ae39b224b4ac06b3ea290ef07858f50a213085057fa85b77bb"
+    },
+    {
+      "index": 841,
+      "id": "boatmillion-late-earth",
+      "research_sha256": "232cded99815c897842cdec4ce80584abd1b83fb6f0922f4b5d2c0f36fdd00df"
+    },
+    {
+      "index": 842,
+      "id": "worldinside-urban-monads-zero",
+      "research_sha256": "7c5e7224bbc21ad711a14cb02f953040034ad28f7e6ded6f80528ed432752188"
+    },
+    {
+      "index": 843,
+      "id": "towerglass-created-worker-order-zero",
+      "research_sha256": "cbab33228a1ed9bb39ac9a413b4a3bcc57f2048d27e787ecc2906244b9f5946f"
+    },
+    {
+      "index": 844,
+      "id": "emergencyskin-restored-earth",
+      "research_sha256": "ecc1577bc22a5a9ae538804483073ae4f48abb760457eafcb133e36963fe9e70"
+    },
+    {
+      "index": 845,
+      "id": "emergencyskin-founders-enclave-zero",
+      "research_sha256": "0e56296f25e782c8c43b8cb5d13050f92357aef41537b6399a4309283ac6d5af"
+    },
+    {
+      "index": 846,
+      "id": "marooned-active-hightech-survivors",
+      "research_sha256": "e6b077f0425ee791bb356eae18569ee791b66bd1ac6798babcaaf43bcb95fd39"
+    },
+    {
+      "index": 847,
+      "id": "rainbowsend-rejuvenated-network-zero",
+      "research_sha256": "d1f351e2c9004826b92d0d9efbf7508978571d1af4ce4e736356cb0d99456b62"
+    },
+    {
+      "index": 848,
+      "id": "wayfarers-exodan-resource-commons-zero",
+      "research_sha256": "af743e25396dba872b2cb92230dafcddaf8f7d1a914c0c6f3e56cf0df7ce061b"
+    },
+    {
+      "index": 849,
+      "id": "enginesummer-littlebelaire-zero",
+      "research_sha256": "cbaf73e39f0eb25ade06d1dad3b5a960fa35548f012fde8d98de6f01500e51de"
+    },
+    {
+      "index": 850,
+      "id": "griffith-threehundred-future-zero",
+      "research_sha256": "eb40412085e0f9c459e5f0a7445503c423848f881742e4d66a80e672691b7633"
+    },
+    {
+      "index": 851,
+      "id": "ad2000-fuller-future-zero",
+      "research_sha256": "fea52f89b0acb7875ecd5d0235423989f022c7acdd7c2bbd6fddd9bced248c55"
+    },
+    {
+      "index": 852,
+      "id": "lastfirstmen-eighteenth-neptune",
+      "research_sha256": "21eab8e4cbbd6804acfff110eaf98c1df28f41257a0a976eca90fe3d5454b071"
+    },
+    {
+      "index": 853,
+      "id": "starmaker-symbiotic-industrial-zero",
+      "research_sha256": "28c903f97e4eeb5b6348f7ad1861753fe9c14109aa7ecdd79d932b19698c9819"
+    },
+    {
+      "index": 854,
+      "id": "mechmen-underground-robot-city-zero",
+      "research_sha256": "915ca134b95a8903b13a5447b6b21dc8280acb3fbd56a0ea3ff6b762221831d5"
+    },
+    {
+      "index": 855,
+      "id": "mechanistria-thinking-machine-zero",
+      "research_sha256": "9e7a56ae383f1681e073e1e2b7e3ff5f7f82c116e5376314afb4eeeff9393847"
+    },
+    {
+      "index": 856,
+      "id": "jonnemacher-automation-displacement-zero",
+      "research_sha256": "95e44a624cbd4c5fe3afa6e51266b1d3ae2b9c485763a44cde7e3959692f09a6"
+    },
+    {
+      "index": 857,
+      "id": "oa-niuearth-modern-haven",
+      "research_sha256": "2f51a5a789ce27936bacaf8e16b6c47129d5e1f227f66d4db320edbe181c574f"
+    },
+    {
+      "index": 858,
+      "id": "greatship-active-passenger-order",
+      "research_sha256": "a517a08cc90c8aa2432fbc666964ee0f76e6c172a68f4196d90b9a41a59cdf28"
+    },
+    {
+      "index": 859,
+      "id": "efremov-greatring-earth-zero",
+      "research_sha256": "bbf2d79f131a10b0ead71fcd6180b756c82ea7b53502e1ae9d68fef3a8bbc8a1"
+    },
+    {
+      "index": 860,
+      "id": "bullshour-tormance-zero",
+      "research_sha256": "56f0a851da7f66ac89412b150f5c4f4a4e243efab16c9c0ca420b363a8357407"
+    },
+    {
+      "index": 861,
+      "id": "finalcircle-affluent-consumer-city",
+      "research_sha256": "f8512edf9d9a81f403ac598999748dbba7a760672d75bd239c9fe24f6bcb356d"
+    },
+    {
+      "index": 862,
+      "id": "dunno-lunar-monopoly-zero",
+      "research_sha256": "31d08f98eae998558bfdc9493bdd733c275ee2e5bc2448d24e8ab33654870a6c"
+    },
+    {
+      "index": 863,
+      "id": "coldtoys-geometer-order",
+      "research_sha256": "b0977a7ae9034d78a777dc70e8a6887f64088d19893236bb06d8a55873d5c879"
+    },
+    {
+      "index": 864,
+      "id": "spectrum-arank-affluence",
+      "research_sha256": "a3ffbdc82559b27dcf3a3d3e2cd76cc1208d620aaacaa146031a1facdd86fdb8"
+    },
+    {
+      "index": 865,
+      "id": "guestfuture-tv-moscow2084",
+      "research_sha256": "14c8e936936843019b3043fc5b3ddbc93fdb7b22c3a5b2ac03af87802d1b1993"
+    },
+    {
+      "index": 866,
+      "id": "odoevsky-4338-technical-zero",
+      "research_sha256": "c0b2186c636f1c7d6d525495054f30df1687c101281a1cbfcbc099e4e4d5f9f9"
+    },
+    {
+      "index": 867,
+      "id": "eternalbread-commercial-transition-zero",
+      "research_sha256": "c174d606e760c88546f7bebc5e3c591c35a3edb12bd6ef09826799529764f9bb"
+    },
+    {
+      "index": 868,
+      "id": "absoluteatlarge-industrial-glut-zero",
+      "research_sha256": "80819d6ed1e2251c37aaa701f03257c6ea805568289def73fda3ea8bcf57496a"
+    },
+    {
+      "index": 869,
+      "id": "atlas-directive10289-zero",
+      "research_sha256": "9213c51c7b49d0e46b8ff99e36886e5c40557fa0d63f399648e13bd7815153e0"
+    },
+    {
+      "index": 870,
+      "id": "timeships-dyson-morlocks",
+      "research_sha256": "43cb8c938fd8e5e814ff7602c1148b96b2a981f083200d25bcaab13ffb25c329"
+    },
+    {
+      "index": 871,
+      "id": "perryrhodan-solar-imperium-zero",
+      "research_sha256": "06def60fe8bea944bf2fad917e0ed12fefeb90d8b9ed25e9a28bd8b0ba73e892"
+    },
+    {
+      "index": 872,
+      "id": "perryrhodan-arkon-robot-regency",
+      "research_sha256": "7bc1ec87f8bf545ba642722fb8fa022ca94015c8fcdd6c749d0c95dfca17315e"
+    },
+    {
+      "index": 873,
+      "id": "oa-cableville-tuckerite-market-zero",
+      "research_sha256": "90891ff962994d2fd02634f905ad683016f8faae66c6109b87ac24242755cd20"
+    },
+    {
+      "index": 874,
+      "id": "humans-vonnadorian-civilization",
+      "research_sha256": "ae5080717a8c2f2c3ce7faddc55c73b5eb8f9f525d5889d2c75d7738ed7061c1"
+    },
+    {
+      "index": 875,
+      "id": "worldtiers-lords-supported-elite",
+      "research_sha256": "bf0c5fb1f9dc7ca9dc9ca468f2349c4616728c9a1c4eccac9dc865ecdbc5db22"
+    },
+    {
+      "index": 876,
+      "id": "siliconman-active-maphis-order",
+      "research_sha256": "a99612ee6ef06acd207c999ac09bb0d5160b332ca89f59964c8d3e9f3d0e1142"
+    },
+    {
+      "index": 877,
+      "id": "lordallthings-projected-robot-provision",
+      "research_sha256": "6d280d0b10a4ef8c856c253665b82e3db4cd9b255864a9919715fcebb919c9f1"
+    },
+    {
+      "index": 878,
+      "id": "fivetwelve-matriarchal-technical-zero",
+      "research_sha256": "c621715e47ef8c6841d6893cdfda329eff847a5c2faa8175374e4eed53082f0b"
+    },
+    {
+      "index": 879,
+      "id": "citydwellers-living-city-reconstruction",
+      "research_sha256": "87b65c14c01d67ee2e424e1470f0e86bea7141572cd5f41477a009ce6319d561"
+    },
+    {
+      "index": 880,
+      "id": "doorintoocean-sharer-bio-commons",
+      "research_sha256": "10a313846fd2104371c6e81c8363f64fa264d10416fb4c3fb55121110f2b7dc1"
+    },
+    {
+      "index": 881,
+      "id": "vacuumflowers-active-comprise-zero",
+      "research_sha256": "1727aee1cd3276cb19eed8ccaf3533bcd5b580022358056aae7254ba106c6164"
+    },
+    {
+      "index": 882,
+      "id": "stationstide-bureaucracy-technical-order",
+      "research_sha256": "2970099099936a3a72be38191f91ac3fc57ce549fbe1ec4736f3296df35810d5"
+    },
+    {
+      "index": 883,
+      "id": "tomorrowtomorrow-late-humanity",
+      "research_sha256": "6918531959bdc4c106d82b32aebfaffe4b2b5afdf83e5b893e733e9b5ffb1227"
+    },
+    {
+      "index": 884,
+      "id": "ritepassage-ship-communities-zero",
+      "research_sha256": "3da4ba420cb6962f2145d15b601d5f4467a2506c632d069385a88f781a4bdf45"
+    },
+    {
+      "index": 885,
+      "id": "milliondoors-nouoccitan-zero",
+      "research_sha256": "b6105cef749ce918f8ce9bcf26c555ec617485ec875d6d9f21c4069d03564895"
+    },
+    {
+      "index": 886,
+      "id": "milliondoors-caledony-zero",
+      "research_sha256": "dddba2e8004e7e501a026a4d3fd18418805a025715ea520832c553f4c35efdbd"
+    },
+    {
+      "index": 887,
+      "id": "stealingworlds-distributed-game-economy-zero",
+      "research_sha256": "e107bd7e07abb7d72d6fe2320c9389b2eab279f5fd6a988d70d694aa565b8e10"
+    },
+    {
+      "index": 888,
+      "id": "kilnpeople-active-originals-dittos-zero",
+      "research_sha256": "5aab4eeebbc5db0b06c4302b5c2e921c47ea87f62d16293e45165b18d64fe95a"
+    },
+    {
+      "index": 889,
+      "id": "logansrun-novel-age21-computer",
+      "research_sha256": "05716f07a6e9b3d3e746482ced2a6c4a2606cc0a0c7007fd54fcc6a5caad59a9"
+    },
+    {
+      "index": 890,
+      "id": "genshin-fontaine-clockwork-economy",
+      "research_sha256": "6a0cb93e0cd7e1c2701cc027e1f6ec5ee8831d4ff5f9f80375a8a5f3830a325e"
+    },
+    {
+      "index": 891,
+      "id": "genshin-deshret-automaton-civilization",
+      "research_sha256": "53b3ed08d968c0c6e2742dbc510596d1f26e431aebb1b000ab40bb92446fb3e0"
+    },
+    {
+      "index": 892,
+      "id": "genshin-ancient-dragon-city-overseers",
+      "research_sha256": "25ea630149826f350505af6668dc039cf75510daca0a8c8f3002fe75f83cbdb5"
+    }
+  ]
+}

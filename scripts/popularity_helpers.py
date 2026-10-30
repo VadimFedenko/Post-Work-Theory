@@ -81,7 +81,7 @@ def apply_popularity_overlay(societies, overlay=None):
             'subject_type': subject['subject_type'], 'basis': subject['basis'],
             'reference_ids': subject['reference_ids'],
             'scope_basis': 'Named work or franchise recognition, inherited equally by its societies and periods; not recognition of the particular society.',
-            'audience': overlay['audience'], 'assessed_on': overlay['assessed_on'],
+            'audience': overlay['audience'], 'assessed_on': subject.get('assessed_on', overlay['assessed_on']),
             'scale_version': overlay['scale_version'],
         })
     if used != set(subjects):

@@ -80,6 +80,16 @@
       "access_method": "web_search_result_text",
       "read_scope": "Japanese publisher context and historical print-circulation/readership discussion for Perry Rhodan.",
       "limitations": "Historical, region-specific publisher reporting. Supports acknowledging substantial non-Anglophone recognition without equating circulation to universal awareness."
+    },
+    "pop-genshin-developer": {
+      "title": "HoYoverse: Genshin Impact version 4.0 — Fontaine and clockwork meka",
+      "author": "Zhenzhong Yi / HoYoverse",
+      "url": "https://blog.playstation.com/2023/08/04/genshin-impact-version-4-0-launches-august-16-first-details/",
+      "kind": "developer_setting_description",
+      "accessed_on": "2026-10-30",
+      "access_method": "web_open_full_article_targeted_sections",
+      "read_scope": "A judgment, but also a performance; Dance with clockwork meka: public energy, commercial streets, patrolling meka, poor sewer district and Pneumousia-powered machines.",
+      "limitations": "Only the named article sections were read. No full-game replay or canonical employment statistics; economic coordinates and admission remain editorial judgments."
     }
   },
   "work_reference_ids": {
@@ -100,6 +110,7 @@
     "642": ["pop-sfe-manning", "pop-sfe-automation"],
     "643": ["pop-sfe-automation"],
     "644": ["pop-sfe-automation"],
-    "658": ["pop-perry-author", "pop-perry-hayakawa"]
+    "658": ["pop-perry-author", "pop-perry-hayakawa"],
+    "674": ["pop-genshin-developer"]
   }
 }

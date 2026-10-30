@@ -19,7 +19,7 @@ test('popularity, rather than participation in work, determines circle size', ()
   assert.ok(radii.every((radius, i) => !i || radius > radii[i - 1]));
   assert.ok(radii[4] / radii[0] > 4);
 });
-test('all 890 societies keep their own unchanged data and independent visual positions', () => {
+test('all societies keep their own unchanged data and independent visual positions', () => {
   const before = JSON.stringify(societies);
   const nodes = layoutSocieties(societies, 1100, 700);
   assert.equal(nodes.length, societies.length);

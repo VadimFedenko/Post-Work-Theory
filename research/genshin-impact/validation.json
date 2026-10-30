@@ -1,0 +1,27 @@
+{
+  "checked_on": "2026-10-30",
+  "added_societies": 3,
+  "total_societies": 893,
+  "original_890_records_preserved_exactly_including_order": true,
+  "original_records_sha256": "caf6ee6a729e7487f9d6474501401c2ae740a6bc83240bfc031501a986d0f259",
+  "checks": {
+    "npm_run_build_pages": "passed",
+    "npm_test": {
+      "passed": 29,
+      "failed": 0
+    },
+    "validate_popularity": "passed",
+    "validate_utopia": "passed",
+    "deterministic_rebuild": "passed: 10 corpus files identical",
+    "structural_corpus_checks": "passed before article-source verification",
+    "english_and_russian_web_records": "passed",
+    "display_assets": "original and poster visually inspected; icon inspected",
+    "git_diff_check": "passed"
+  },
+  "limitation": {
+    "check": "validate_data / validate_article",
+    "status": "source_file_missing",
+    "path": "article.txt",
+    "detail": "The pre-existing taxonomy points to an absent authoritative text. Its original hash and the historical migration baseline were retained; full article validation is not claimed."
+  }
+}

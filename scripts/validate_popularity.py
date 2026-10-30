@@ -24,14 +24,14 @@ def main():
     index = read('research/popularity/review-index.json')
     originals = [original_record(r) for r in records]
     assert export['schema_version'] == '1.2'
-    assert len(records) == len(index['records']) == len(overlay['assignments']) == 890
-    assert len({r['id'] for r in records}) == 890
+    assert len(records) == len(index['records']) == len(overlay['assignments'])
+    assert len({r['id'] for r in records}) == len(records)
     assert [r['id'] for r in records] == [x['id'] for x in index['records']]
     assert digest(originals) == index['original_records_sha256'], 'Pre-existing record fields changed'
     for r, saved in zip(originals, index['records']):
         assert digest(r) == saved['original_record_sha256'], r['id']
     assert list(dict.fromkeys(r['work'] for r in records)) == index['works']
-    assert len(index['works']) == 674
+    assert len(index['works']) == len({r['work'] for r in records})
     byid = {r['id']: deepcopy(r) for r in records}
     apply_popularity_overlay(byid, overlay)
     for r in records:
@@ -97,12 +97,12 @@ def main():
              '| Франшиза / произведение | Балл | Обществ | Ключ |', '| --- | ---: | ---: | --- |']
     ordered = sorted(subjects.items(), key=lambda item: (-item[1]['score'], item[1]['name'].casefold()))
     lines += [f"| {g['name'].replace('|', '/')} | {g['score']:.2f} | {totals[sid]} | {sid} |" for sid, g in ordered]
-    lines += ['', '## Все 890 обществ', '', '| ID | Название | Группа узнаваемости | Балл |', '| --- | --- | --- | ---: |']
+    lines += ['', f'## Все {len(records)} обществ', '', '| ID | Название | Группа узнаваемости | Балл |', '| --- | --- | --- | ---: |']
     lines += [f"| {r['id']} | {r['name'].replace('|', '/')} | {r['popularity_assessment']['subject'].replace('|', '/')} | {r['popularity_score']:.2f} |" for r in records]
     (folder / 'catalogue.md').write_text('\n'.join(lines) + '\n', encoding='utf-8')
     workmap = {w: (sid, g) for sid, g in subjects.items() for w in g['work_labels']}
     lines = ['# Ручной проход по всем названиям', '',
-             'Все 674 исходных значения work получили явный балл; неизвестные названия не подставляются в общий default.', '',
+             f"Все {len(index['works'])} исходных значения work получили явный балл; неизвестные названия не подставляются в общий default.", '',
              '| Индекс | Исходное work | Группа | Балл |', '| ---: | --- | --- | ---: |']
     for i, work in enumerate(index['works']):
         sid, g = workmap[work]

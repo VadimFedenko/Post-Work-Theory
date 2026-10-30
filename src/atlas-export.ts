@@ -1,5 +1,6 @@
 import { GRID_STEP } from '../scripts/atlas-style.mjs';
 import { traceMarker } from '../scripts/society-status.mjs';
+import { displayScale } from './display-scale';
 
 async function settleWithin(promise: Promise<unknown>, milliseconds: number) {
   let timer = 0;
@@ -24,12 +25,13 @@ function drawField(ctx: CanvasRenderingContext2D, width: number, height: number,
   ctx.restore();
 }
 
-function drawTextElement(ctx: CanvasRenderingContext2D, element: HTMLElement, origin: DOMRect, box = false) {
-  const bounds = element.getBoundingClientRect(), css = getComputedStyle(element);
+function drawTextElement(ctx: CanvasRenderingContext2D, element: HTMLElement, origin: DOMRect, box = false, coordinateScale = 1) {
+  const rect = element.getBoundingClientRect(), css = getComputedStyle(element);
+  const bounds = new DOMRect((rect.left - origin.left) / coordinateScale, (rect.top - origin.top) / coordinateScale, rect.width / coordinateScale, rect.height / coordinateScale);
   if (!bounds.width || !bounds.height) return;
   const scale = element.offsetWidth ? bounds.width / element.offsetWidth : 1;
   const fontSize = parseFloat(css.fontSize) * scale;
-  const x = bounds.left - origin.left, y = bounds.top - origin.top;
+  const x = bounds.left, y = bounds.top;
   const paddingX = (parseFloat(css.paddingLeft) || 0) * scale;
   const paddingY = (parseFloat(css.paddingTop) || 0) * scale;
   if (box) {
@@ -41,7 +43,7 @@ function drawTextElement(ctx: CanvasRenderingContext2D, element: HTMLElement, or
     const arrow = element.querySelector<SVGSVGElement>(':scope > .regime-arrow');
     const polygon = arrow?.querySelector('polygon'), matrix = arrow?.getScreenCTM();
     if (polygon && matrix) {
-      ctx.save(); ctx.transform(matrix.a, matrix.b, matrix.c, matrix.d, matrix.e - origin.left, matrix.f - origin.top);
+      ctx.save(); ctx.transform(matrix.a / coordinateScale, matrix.b / coordinateScale, matrix.c / coordinateScale, matrix.d / coordinateScale, (matrix.e - origin.left) / coordinateScale, (matrix.f - origin.top) / coordinateScale);
       ctx.beginPath();
       for (let i = 0; i < polygon.points.numberOfItems; i++) {
         const point = polygon.points.getItem(i);
@@ -50,7 +52,7 @@ function drawTextElement(ctx: CanvasRenderingContext2D, element: HTMLElement, or
       ctx.closePath(); ctx.fillStyle = getComputedStyle(polygon).fill; ctx.fill(); ctx.restore();
     }
     for (const child of element.querySelectorAll<HTMLElement>(':scope > span')) {
-      drawTextElement(ctx, child, origin, element.classList.contains('direction-label'));
+      drawTextElement(ctx, child, origin, element.classList.contains('direction-label'), coordinateScale);
     }
     return;
   }
@@ -88,15 +90,16 @@ export async function createAtlasPng(plot: HTMLDivElement, labels: HTMLCanvasEle
   await settleWithin(document.fonts.ready, 1200);
   const shell = plot.closest('.map-shell') as HTMLDivElement;
   const shellRect = shell.getBoundingClientRect(), plotRect = plot.getBoundingClientRect();
+  const scale = displayScale(), shellWidth = shellRect.width / scale, shellHeight = shellRect.height / scale;
   const output = document.createElement('canvas');
   const resolution = Math.min(2, 4096 / Math.max(shellRect.width, shellRect.height));
   output.width = Math.round(shellRect.width * resolution); output.height = Math.round(shellRect.height * resolution);
   const ctx = output.getContext('2d'); if (!ctx) throw new Error('Canvas is unavailable');
-  ctx.scale(resolution, resolution);
-  ctx.fillStyle = '#101f22'; ctx.fillRect(0, 0, shellRect.width, shellRect.height);
+  ctx.scale(resolution * scale, resolution * scale);
+  ctx.fillStyle = getComputedStyle(shell).backgroundColor; ctx.fillRect(0, 0, shellWidth, shellHeight);
   const sprites = [...plot.querySelectorAll<HTMLButtonElement>('.map-sprite')];
   await settleWithin(Promise.all(sprites.flatMap(element => { const img = element.querySelector('img'); return img && !img.complete ? [img.decode().catch(() => {})] : []; })), 1800);
-  const x = plotRect.left - shellRect.left + plot.clientLeft, y = plotRect.top - shellRect.top + plot.clientTop;
+  const x = (plotRect.left - shellRect.left) / scale + plot.clientLeft, y = (plotRect.top - shellRect.top) / scale + plot.clientTop;
   const width = plot.clientWidth, height = plot.clientHeight;
   ctx.save(); ctx.translate(x, y); ctx.beginPath(); ctx.rect(0, 0, width, height); ctx.clip();
   const field = plot.querySelector<HTMLCanvasElement>('.color-field');
@@ -116,9 +119,9 @@ export async function createAtlasPng(plot: HTMLDivElement, labels: HTMLCanvasEle
   }
   ctx.drawImage(labels, 0, 0, width, height);
   for (const element of sprites.sort((a, b) => Number(a.classList.contains('is-selected')) - Number(b.classList.contains('is-selected')))) {
-    const box = element.getBoundingClientRect(), style = getComputedStyle(element), radius = box.width / 2;
+    const box = element.getBoundingClientRect(), style = getComputedStyle(element), radius = box.width / scale / 2;
     ctx.save(); ctx.globalAlpha = Number(style.opacity);
-    const cx = box.left - plotRect.left - plot.clientLeft + radius, cy = box.top - plotRect.top - plot.clientTop + radius;
+    const cx = (box.left - plotRect.left) / scale - plot.clientLeft + radius, cy = (box.top - plotRect.top) / scale - plot.clientTop + radius;
     const icon = element.querySelector<HTMLElement>('.society-icon'); if (!icon) { ctx.restore(); continue; }
     const iconStyle = getComputedStyle(icon), shape = element.dataset.shape || 'circle';
     ctx.fillStyle = iconStyle.backgroundColor; traceMarker(ctx, shape, cx, cy, radius); ctx.fill();
@@ -129,19 +132,19 @@ export async function createAtlasPng(plot: HTMLDivElement, labels: HTMLCanvasEle
     }
     ctx.restore();
   }
-  const localOrigin = new DOMRect(plotRect.left + plot.clientLeft, plotRect.top + plot.clientTop, width, height);
+  const localOrigin = new DOMRect(plotRect.left + plot.clientLeft * scale, plotRect.top + plot.clientTop * scale, width, height);
   const regimeLayer = plot.querySelector<HTMLElement>('.region-labels');
-  if (regimeLayer && Number(getComputedStyle(regimeLayer).opacity) > 0) for (const element of plot.querySelectorAll<HTMLElement>('.regime-label')) drawTextElement(ctx, element, localOrigin, true);
-  for (const element of plot.querySelectorAll<HTMLElement>('.active-name,.family-map-caption,.family-society-label')) drawTextElement(ctx, element, localOrigin, true);
+  if (regimeLayer && Number(getComputedStyle(regimeLayer).opacity) > 0) for (const element of plot.querySelectorAll<HTMLElement>('.regime-label')) drawTextElement(ctx, element, localOrigin, true, scale);
+  for (const element of plot.querySelectorAll<HTMLElement>('.active-name,.family-map-caption,.family-society-label')) drawTextElement(ctx, element, localOrigin, true, scale);
   ctx.restore();
   const frame = shell.querySelector<SVGSVGElement>('.compass-frame');
   if (frame) {
     const clone = frame.cloneNode(true) as SVGSVGElement;
-    clone.setAttribute('width', String(shellRect.width)); clone.setAttribute('height', String(shellRect.height));
+    clone.setAttribute('width', String(shellWidth)); clone.setAttribute('height', String(shellHeight));
     const url = URL.createObjectURL(new Blob([new XMLSerializer().serializeToString(clone)], { type: 'image/svg+xml' }));
     try {
       const img = new Image(); img.src = url; await img.decode();
-      ctx.drawImage(img, 0, 0, shellRect.width, shellRect.height);
+      ctx.drawImage(img, 0, 0, shellWidth, shellHeight);
     } finally { URL.revokeObjectURL(url); }
   }
   return new Promise((resolve, reject) => output.toBlob(blob => blob ? resolve(blob) : reject(new Error('PNG export failed')), 'image/png'));

@@ -13888,6 +13888,27 @@
       "society_id": "robots2023-consumer-service-zero",
       "legacy_reason": "The depicted android-service economy retains human jobs and purchase dependence despite available substitutes; included as the requested zero variant.",
       "article_alignment_version": "article-2026-10-21"
+    },
+    {
+      "candidate_id": "c0934",
+      "status": "zero_variant",
+      "reason": "Retain at most three especially strong, distinct automation cases as work-based comparisons; no confirmed general post-wage distribution is established.",
+      "source_ids": [
+        "src-genshin-fontaine-official",
+        "src-genshin-construction-mek",
+        "src-genshin-deshret-construct",
+        "src-genshin-deshret-network",
+        "src-genshin-dragon-overseer",
+        "src-genshin-dragon-city"
+      ],
+      "society_id": "genshin-fontaine-clockwork-economy",
+      "society_ids": [
+        "genshin-fontaine-clockwork-economy",
+        "genshin-deshret-automaton-civilization",
+        "genshin-ancient-dragon-city-overseers"
+      ],
+      "split_rationale": "Different populations and periods: modern Fontaine civilians, ancient human desert subjects, and ancient living dragon-city inhabitants. Their machine functions and effective control differ.",
+      "reviewed_on": "2026-10-30"
     }
   ]
 }

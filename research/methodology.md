@@ -81,12 +81,16 @@ Separate saved canonical facts, editorial assumptions and article interpretation
 Source records disclose access method, exact reading scope and limitations. No
 claim of independent peer review or a full reread of every work is made.
 
-All 890 main records have an explicit manual allocation choice in
+The initial 890 main records have an explicit manual allocation choice in
 `article-alignment/manual-classification.txt`, keyed by `article-alignment/review-index.json`. Their new judgments are
 low-confidence. Revision 056 stores complete before/after records and decisions.
 Main JSON exports are rebuilt from historical batches, ordered revisions, image
 overlay and independently reviewed wellbeing overlay. The latter rejects stale
 research until its assessment is reconsidered and logged.
+
+Subsequent additions use the current taxonomy directly and carry a separate
+hashed editorial review. The three Genshin Impact additions are documented in
+`research/genshin-impact/`; they do not alter the historical 890-record migration.
 
 The 29 supplementary scored records use another publication schema and have
 `article_fit` judgments. The Futurological Congress book and Girls' Last Tour now

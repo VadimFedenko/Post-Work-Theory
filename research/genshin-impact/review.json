@@ -1,0 +1,58 @@
+{
+  "reviewed_on": "2026-10-30",
+  "reason": "User requested Genshin societies and then limited scope to a maximum of two or three with the strongest AI/robot automation.",
+  "baseline_records": 890,
+  "added_records": 3,
+  "total_records": 893,
+  "candidate_id": "c0934",
+  "taxonomy_version": "article-2026-10-21",
+  "article_sha256": "81a83c337be44c35b6b016768c8706b9e02a6ca20b97d17ef2013ddb90ce21f6",
+  "records": [
+    {
+      "id": "genshin-fontaine-clockwork-economy",
+      "manual_code": "w",
+      "research_sha256": "6a0cb93e0cd7e1c2701cc027e1f6ec5ee8831d4ff5f9f80375a8a5f3830a325e",
+      "utopia_score": 0.1,
+      "utopia_basis": "Urban services and technological comfort coexist with visible poverty and unequal access; this rates the functioning civilian economy before the prophecy crisis."
+    },
+    {
+      "id": "genshin-deshret-automaton-civilization",
+      "manual_code": "u",
+      "research_sha256": "53b3ed08d968c0c6e2742dbc510596d1f26e431aebb1b000ab40bb92446fb3e0",
+      "utopia_score": 0,
+      "utopia_basis": "The functioning kingdom’s ordinary living conditions are underdescribed; a promised paradise and later catastrophe do not supply a reliable everyday wellbeing assessment."
+    },
+    {
+      "id": "genshin-ancient-dragon-city-overseers",
+      "manual_code": "u",
+      "research_sha256": "25ea630149826f350505af6668dc039cf75510daca0a8c8f3002fe75f83cbdb5",
+      "utopia_score": 0,
+      "utopia_basis": "Large technical capacity and machine administration do not establish everyday security or civic freedom for the living dragon residents; the estimate remains near neutral."
+    }
+  ],
+  "selection_basis": "Fontaine has routine urban robotic deployment; Deshret has an enduring autonomous machine network; the dragon megacity has explicit engineered overseer intelligence.",
+  "omitted": [
+    {
+      "society": "Khaenri’ah",
+      "reason": "Strong military robotics, but omitted under the three-record cap in favor of explicit civilian/urban and network-scale automation."
+    },
+    {
+      "society": "Inazuma",
+      "reason": "A highly capable ruling puppet does not establish broad robotic production; omitted under the cap."
+    },
+    {
+      "society": "Sumeru under the Akasha",
+      "reason": "Important cognitive automation, but weaker evidence of broad physical automation than the selected cases; no additional regional record."
+    },
+    {
+      "society": "Nod-Krai",
+      "reason": "Domestic and workshop robots are relevant, but another contemporary regional record is unnecessary under the cap."
+    }
+  ],
+  "limits": [
+    "The selected cases are particularly clear examples, not a measured canonical ranking.",
+    "All three remain zero variants: automated capability does not prove post-wage material access.",
+    "A shared official game image identifies the franchise; it does not depict each historical society."
+  ],
+  "revision": "research/revisions/revision-057.json"
+}

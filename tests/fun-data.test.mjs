@@ -6,17 +6,17 @@ import { buildFunData, compositionRegime, median, percent } from '../scripts/fun
 const { societies } = JSON.parse(await readFile(new URL('../data/societies.json', import.meta.url), 'utf8'));
 const stats = buildFunData(societies);
 test('fun data reproduces the catalogue comparisons with the correct denominators', () => {
-  assert.equal(stats.total, 890);
-  assert.deepEqual(stats.guarantees.without, { count: 302, total: 520, percent: 58 });
+  assert.equal(stats.total, 893);
+  assert.deepEqual(stats.guarantees.without, { count: 302, total: 523, percent: 58 });
   assert.deepEqual(stats.guarantees.with, { count: 51, total: 370, percent: 14 });
   assert.equal(stats.dystopiaRatio, 4);
   assert.deepEqual(stats.control.map(row => [row.regime, row.count, row.total, row.percent]), [[3, 116, 128, 91], [5, 66, 94, 70], [1, 53, 126, 42]]);
   assert.deepEqual(stats.media.map(row => [row.media, row.count, row.total, row.percent]), [['book', 187, 362, 52], ['anime', 54, 73, 74], ['tv', 87, 108, 81]]);
   assert.deepEqual(stats.mediaLeaders.map(row => [row.media, ...row.leaders.map(leader => [leader.regime, leader.count, leader.total, leader.percent])]), [['book', [3, 75, 189, 40]], ['anime', [1, 13, 33, 39]], ['game', [5, 19, 64, 30]]]);
-  assert.deepEqual(stats.participation.map(row => [row.stage, row.total, row.percent]), [['zero_variant', 345, 75], ['post_work', 470, 60]]);
+  assert.deepEqual(stats.participation.map(row => [row.stage, row.total, row.percent]), [['zero_variant', 348, 75], ['post_work', 470, 60]]);
 });
 test('stage pies reproduce the slide, projecting only zero regimes and preserving all counts', () => {
-  assert.deepEqual(stats.stages.map(row => row.regimes.map(regime => regime.count)), [[17, 226, 11, 42, 1, 48], [11, 29, 12, 10, 5, 8], [115, 80, 116, 11, 89, 59]]);
+  assert.deepEqual(stats.stages.map(row => row.regimes.map(regime => regime.count)), [[17, 228, 11, 42, 1, 49], [11, 29, 12, 10, 5, 8], [115, 80, 116, 11, 89, 59]]);
   assert.deepEqual(stats.stages.map(row => row.elite.percent), [66, 39, 17]);
   for (const stage of stats.stages) assert.equal(stage.regimes.reduce((sum, row) => sum + row.count, 0), stage.total);
   for (const control of [-1 / 3, 0, 1 / 3, 1]) for (const guarantees of [-.1, 0]) {

@@ -1,6 +1,6 @@
 # Популярность произведений и франшиз
 
-890 обществ; 674 исходных названия; 496 групп узнаваемости. Оценка: 22 октября 2026 года.
+893 обществ; 675 исходных названия; 497 групп узнаваемости. Оценка: 22 октября 2026 года.
 
 Редакторская международная узнаваемость от 0 до 1; шаг 0,05. Star Wars = 1. Все общества одной группы получают одинаковый балл.
 
@@ -33,6 +33,7 @@
 | Evangelion | 0.85 | 1 | work-223 |
 | Fahrenheit 451 | 0.85 | 1 | work-237 |
 | Futurama | 0.85 | 2 | futurama |
+| Genshin Impact | 0.85 | 3 | genshin-impact |
 | Gundam | 0.85 | 4 | gundam |
 | Half-Life | 0.85 | 1 | work-296 |
 | Halo | 0.85 | 6 | work-185 |
@@ -507,7 +508,7 @@
 | The Threat of the Robot | 0.05 | 1 | work-054 |
 | Useless Hands / Les condamnés à mort | 0.05 | 1 | work-499 |
 
-## Все 890 обществ
+## Все 893 обществ
 
 | ID | Название | Группа узнаваемости | Балл |
 | --- | --- | --- | ---: |
@@ -1401,3 +1402,6 @@
 | stealingworlds-distributed-game-economy-zero | Stealing Worlds (the distributed game and resource-agent economy) | Stealing Worlds | 0.20 |
 | kilnpeople-active-originals-dittos-zero | Kiln People (originals and active human-derived dittos) | Kiln People | 0.35 |
 | logansrun-novel-age21-computer | Logan’s Run (the novel’s age-21 computer order) | Logan's Run | 0.65 |
+| genshin-fontaine-clockwork-economy | Genshin Impact (Fontaine — clockwork economy) | Genshin Impact | 0.85 |
+| genshin-deshret-automaton-civilization | Genshin Impact (King Deshret’s civilization — autonomous machine network) | Genshin Impact | 0.85 |
+| genshin-ancient-dragon-city-overseers | Genshin Impact (Ancient Natlan — dragon megacity and Secret Source overseers) | Genshin Impact | 0.85 |

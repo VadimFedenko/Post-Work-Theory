@@ -3,7 +3,7 @@
   "created_on": "2026-10-16",
   "scope": "Append-only unverified ordered expansion; not retained societies",
   "frozen_initial_count": 784,
-  "candidate_count": 149,
+  "candidate_count": 150,
   "candidates": [
     {
       "id": "c0785",
@@ -2244,6 +2244,21 @@
       "discovery_status": "pending",
       "metadata_verified": false,
       "discovery_rationale": "Purchased android servants and illegal human doubles replace routine work; distinct from the unrelated 2005 animated film."
+    },
+    {
+      "id": "c0934",
+      "order": 934,
+      "work": "Genshin Impact",
+      "society": "Three selected societies with especially clear systemic automation",
+      "media": [
+        "game"
+      ],
+      "discovery_locations": [
+        "user-request-2026-10-30: maximum three strongest automation cases"
+      ],
+      "discovery_status": "pending",
+      "metadata_verified": false,
+      "discovery_rationale": "Mass-deployed urban meka, a long-lived autonomous desert network and explicit megacity overseer intelligence; other regional variants intentionally omitted."
     }
   ],
   "tranches": [
@@ -2276,6 +2291,12 @@
       "first": "c0932",
       "last": "c0933",
       "count": 2
+    },
+    {
+      "id": "expansion-007",
+      "first": "c0934",
+      "last": "c0934",
+      "count": 1
     }
   ]
 }

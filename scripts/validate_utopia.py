@@ -16,7 +16,7 @@ def main():
     index = read(overlay.get('review_index', 'research/utopia/review-index.json'))
     sources = {s['id'] for s in read('data/sources.json')['sources']}
     ids = [r['id'] for r in records]
-    assert len(ids) == len(set(ids)) == len(index['records']) == 890
+    assert len(ids) == len(set(ids)) == len(index['records'])
     assert ids == [r['id'] for r in index['records']]
     assert set(ids) == set(overlay['assessments'])
     for r, original in zip(records, index['records']):

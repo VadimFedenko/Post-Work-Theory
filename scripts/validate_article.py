@@ -58,8 +58,29 @@ def check_record(r, old, code, taxonomy):
 def validate(write_report=True):
     taxonomy = read('data/taxonomy.json')
     export = read('data/societies.json')
-    records = export['societies']
+    all_records = export['societies']
     baseline = read('research/article-alignment/baseline-societies.json')['societies']
+    # Preserve the historical migration receipt; later additions use current
+    # numbering directly and carry their own explicit, hashed editorial review.
+    records = all_records[:len(baseline)]
+    additions = all_records[len(baseline):]
+    from utopia_helpers import digest, research_record
+    for r in additions:
+        review = read(r['addition_review'])
+        assert review['taxonomy_version'] == taxonomy['taxonomy_version']
+        assert review['article_sha256'] == taxonomy['article']['sha256']
+        assert review['added_records'] == len(review['records'])
+        assert {item['id'] for item in review['records']} <= {item['id'] for item in additions}
+        item = next(item for item in review['records'] if item['id'] == r['id'])
+        assert item['research_sha256'] == digest(research_record(r)), r['id']
+        a = r['post_work_assessment']
+        assert a['manual_code'] == item['manual_code']
+        assert a['definition_version'] == r['taxonomy_version'] == taxonomy['taxonomy_version']
+        assert r['article_alignment']['article_sha256'] == taxonomy['article']['sha256']
+        assert a['confidence'] == 'low' and a['participation_is_separate'] is True
+        assert a['source_ids'] == r['source_ids']
+        assert r['record_type'] == taxonomy['manual_codes'][a['manual_code']]['record_type']
+        assert (r['regime_primary'] == 0) == (r['record_type'] == 'zero_variant')
     index = read('research/article-alignment/review-index.json')
     manual = choices()
     assert len(records) == len(baseline) == len(manual) == 890
@@ -75,7 +96,7 @@ def validate(write_report=True):
         assert r['utopia_score'] == old['utopia_score'], ('Unreviewed wellbeing change', r['id'])
     expected_axes = {'manna-terrafoam', 'fallout-institute', 'solaria-naked-sun', 'psychopass-sibyl-japan'}
     assert {r['id'] for r, o in zip(records, baseline) if r['axis'] != o['axis']} == expected_axes
-    byid = {r['id']: r for r in records}
+    byid = {r['id']: r for r in all_records}
     for identity, regime in {'brave-new-world-state': 1, 'orwell-oceania': 2,
                             'evitable-conflict-earth': 5, 'noon-earth': 3,
                             'star-trek-federation-core': 3, 'dune-post-jihad-imperium': 0,
@@ -113,10 +134,11 @@ def validate(write_report=True):
     assert comparison_map['c0558']['regime_primary'] == 6
     assert all(r.get('article_fit', {}).get('definition_version') == taxonomy['taxonomy_version'] for r in comparison_map.values())
     summary = {'status': 'validated', 'taxonomy_version': taxonomy['taxonomy_version'],
-               'article_sha256': taxonomy['article']['sha256'], 'records': len(records),
-               'manual_coverage': len(manual), 'regimes': dict(sorted(Counter(r['regime_primary'] for r in records).items())),
-               'post_work': sum(r['record_type'] == 'post_work' for r in records),
-               'zero_variant': sum(r['record_type'] == 'zero_variant' for r in records),
+               'article_sha256': taxonomy['article']['sha256'], 'records': len(all_records),
+               'historical_migration_records': len(records), 'subsequent_reviewed_additions': len(additions),
+               'manual_coverage': len(manual) + len(additions), 'regimes': dict(sorted(Counter(r['regime_primary'] for r in all_records).items())),
+               'post_work': sum(r['record_type'] == 'post_work' for r in all_records),
+               'zero_variant': sum(r['record_type'] == 'zero_variant' for r in all_records),
                'supplementary_article_qualifying_records': sum(r['article_fit']['status'] == 'post_work' for r in comparison_map.values()),
                'all_assets_and_wellbeing_scores_preserved': True,
                'old_numbering_guard_tested': True, 'participation_independence_tested': True,

@@ -38,8 +38,8 @@ test('working participation has the correct denominator and direction', () => {
   assert.equal(workingPercent({ axis: { nonworking: 0 } }), 100);
   assert.equal(workingPercent({ axis: { nonworking: 1 } }), 0);
 });
-test('all 890 separate societies have valid coordinates, scores and local display assets', async () => {
-  assert.equal(societies.length, 890); assert.equal(new Set(societies.map(s => s.id)).size, 890);
+test('all 893 separate societies have valid coordinates, scores and local display assets', async () => {
+  assert.equal(societies.length, 893); assert.equal(new Set(societies.map(s => s.id)).size, 893);
   const assets = new Set();
   for (const record of societies) {
     assert.ok(Number.isFinite(record.axis.guarantees) && Math.abs(record.axis.guarantees) <= 1);

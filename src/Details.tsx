@@ -7,6 +7,7 @@ import { controlLevel, guaranteeLevel, societySubtitle, utopiaColor, welfareLeve
 import { familyName } from '../scripts/society-families.mjs';
 import { recordText } from '../scripts/record-localization.mjs';
 import SocietyIcon from './SocietyIcon';
+import { layoutViewport } from './display-scale';
 
 const cache = new Map<string, RecordDetail>();
 let sourceRegistry: Promise<Source[]> | null = null;
@@ -61,8 +62,9 @@ export default function Details({ selection, lang, familyMembers, visibleIds, on
   const naturalCardWidth = fullHeightPosterWidth + 482;
   const stacked = cardSize.width > 0 && cardSize.width - fullHeightPosterWidth < 320;
   const posterWidth = stacked ? Math.min(cardSize.width * .42, cardSize.height * .55 * aspect) : fullHeightPosterWidth;
-  const floatingWidth = placement ? Math.min(document.documentElement.clientWidth - 24, (placement.height - 2) * aspect + 482) : 0;
-  const floatingPlacement = placement ? { ...placement, width: floatingWidth, left: Math.max(12, Math.min(placement.left, document.documentElement.clientWidth - floatingWidth - 12)) } : undefined;
+  const viewportWidth = placement ? layoutViewport().width : 0;
+  const floatingWidth = placement ? Math.min(viewportWidth - 24, (placement.height - 2) * aspect + 482) : 0;
+  const floatingPlacement = placement ? { ...placement, width: floatingWidth, left: Math.max(12, Math.min(placement.left, viewportWidth - floatingWidth - 12)) } : undefined;
   useEffect(() => {
     if (!cardElement.current) return;
     const observer = new ResizeObserver(([entry]) => {

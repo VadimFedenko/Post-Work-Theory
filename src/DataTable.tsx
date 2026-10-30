@@ -9,6 +9,7 @@ import type { Selection } from './Atlas';
 import { familyKey } from '../scripts/society-families.mjs';
 import SocietyIcon from './SocietyIcon';
 import SocietyFilter, { type SocietyFilterProps } from './SocietyFilter';
+import { displayScale, layoutViewport } from './display-scale';
 type SortKey = 'work' | 'status' | 'guarantees' | 'control' | 'working' | 'utopia' | 'popularity' | 'regime';
 export default function DataTable({ data, families, lang, query, onQuery, societyFilter }: { data: Society[]; families: FamilyIndex; lang: Lang; query: string; onQuery: (q: string) => void; societyFilter: SocietyFilterProps }) {
   const t = copy[lang];
@@ -22,9 +23,10 @@ export default function DataTable({ data, families, lang, query, onQuery, societ
   const showCard = (record: Society, target: HTMLElement, pinned: boolean) => {
     cancelClose();
     const bounds = target.getBoundingClientRect();
-    const width = Math.min(700, window.innerWidth - 24), height = Math.min(480, window.innerHeight - 110);
-    const left = Math.max(12, Math.min(window.innerWidth - width - 12, bounds.right + 12));
-    const top = Math.max(80, Math.min(window.innerHeight - height - 12, bounds.top - 40));
+    const viewport = layoutViewport(), scale = displayScale();
+    const width = Math.min(700, viewport.width - 24), height = Math.min(480, viewport.height - 110);
+    const left = Math.max(12, Math.min(viewport.width - width - 12, bounds.right / scale + 12));
+    const top = Math.max(80, Math.min(viewport.height - height - 12, bounds.top / scale - 40));
     setCard(old => old?.selection.pinned && !pinned ? old : { selection: { record, pinned }, placement: { left, top, width, height } });
   };
   useEffect(() => { setCard(null); }, [data, sort, page]);

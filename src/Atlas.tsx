@@ -8,6 +8,7 @@ import { familyConnections, familyKey, familyName } from '../scripts/society-fam
 import { layoutFamilyLabels } from '../scripts/family-labels.mjs';
 import { GRID_STEP } from '../scripts/atlas-style.mjs';
 import { createAtlasPng } from './atlas-export';
+import { displayScale } from './display-scale';
 import ColorField from './ColorField';
 import CompassFrame from './CompassFrame';
 import SocietyIcon from './SocietyIcon';
@@ -57,7 +58,7 @@ const Atlas = forwardRef<AtlasHandle, Props>(function Atlas({ data, lang, theme,
   };
   useEffect(() => {
     const element = canvas.current; if (!element) return;
-    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    const dpr = Math.min((window.devicePixelRatio || 1) * displayScale(), 2);
     element.width = Math.round(size.width * dpr); element.height = Math.round(size.height * dpr);
     const ctx = element.getContext('2d'); if (!ctx) return;
     const css = getComputedStyle(element);
@@ -87,7 +88,7 @@ const Atlas = forwardRef<AtlasHandle, Props>(function Atlas({ data, lang, theme,
     if (n !== region.current) { region.current = n; onRegion(n); }
   };
   return <div className="map-shell compass-shell" data-theme={theme}>
-    <CompassFrame width={size.width + 34} height={size.height + 36} lang={lang} />
+    <CompassFrame width={size.width + 34} height={size.height + 36} lang={lang} theme={theme} />
     <div className={'plot' + (hasFamily ? ' has-family' : '')} ref={host}>
       <ColorField width={size.width} height={size.height} />
       <div className="plot-grid" data-grid-step={GRID_STEP} aria-hidden="true" style={{ backgroundSize: `${GRID_STEP}px ${GRID_STEP}px` }} />
@@ -99,14 +100,14 @@ const Atlas = forwardRef<AtlasHandle, Props>(function Atlas({ data, lang, theme,
       </svg>}
       <canvas ref={canvas} role="img" aria-label={lang === 'ru' ? 'Карта: ' + data.length + ' отдельных обществ. ' + t.hint : 'Map: ' + data.length + ' individual societies. ' + t.hint} data-point-count={points.length}
         onPointerMove={e => {
-          const r = e.currentTarget.getBoundingClientRect(), x = e.clientX - r.left, y = e.clientY - r.top;
+          const r = e.currentTarget.getBoundingClientRect(), x = (e.clientX - r.left) * size.width / r.width, y = (e.clientY - r.top) * size.height / r.height;
           setRegionAt(x, y);
           const point = pointAt(x, y);
           if (point) { cancelClose(); if (hovered.current !== point.record.id) { hovered.current = point.record.id; onSelect({ record: point.record, pinned: false }); } }
           else { hovered.current = null; scheduleClose(); }
         }}
         onPointerLeave={scheduleClose}
-        onPointerUp={e => { const r = e.currentTarget.getBoundingClientRect(); const p = pointAt(e.clientX - r.left, e.clientY - r.top); if (p) onSelect({ record: p.record, pinned: true }); }}
+        onPointerUp={e => { const r = e.currentTarget.getBoundingClientRect(); const p = pointAt((e.clientX - r.left) * size.width / r.width, (e.clientY - r.top) * size.height / r.height); if (p) onSelect({ record: p.record, pinned: true }); }}
       />
       <div className="sprite-layer" role="group" aria-label={t.societies}>{[...points].reverse().map((p, index) => <button
         className={'map-sprite ' + (p.record.id === selected ? 'is-selected' : '') + (p.radius < 4.5 ? ' small-dot' : '') + (hasFamily && familyKey(p.record) === activeFamily ? ' family-member' : '')}

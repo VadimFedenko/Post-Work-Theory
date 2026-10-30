@@ -87,10 +87,11 @@ SPECIFIC_BASES['fallout-institute'] = 'Human enclave comfort is qualified by con
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--revision-reason', help='Record an explicit annotation revision')
+    parser.add_argument('--review-index', help='Use an explicitly extended review index for new records')
     args = parser.parse_args()
     records = json.loads((ROOT / 'data/societies.json').read_text(encoding='utf-8'))['societies']
     current_overlay = json.loads((ROOT / 'data/society-utopia.json').read_text(encoding='utf-8')) if (ROOT / 'data/society-utopia.json').exists() else {}
-    index_path = ROOT / current_overlay.get('review_index', 'research/utopia/review-index.json')
+    index_path = ROOT / (args.review_index or current_overlay.get('review_index', 'research/utopia/review-index.json'))
     index = json.loads(index_path.read_text(encoding='utf-8'))
     assert [r['id'] for r in records] == [r['id'] for r in index['records']], 'Review order changed'
     assert all(digest(research_record(r)) == x['research_sha256']
@@ -126,16 +127,26 @@ def main():
     for field in ('review_index', 'research_alignment'):
         if field in current_overlay:
             overlay[field] = current_overlay[field]
+    if args.review_index:
+        overlay['review_index'] = args.review_index
     for number, record in enumerate(records):
         score, code = chosen[number]
+        basis = SPECIFIC_BASES.get(record['id'], REASONS[code])
+        assessed_on = DATE
+        if record.get('addition_review'):
+            review = json.loads((ROOT / record['addition_review']).read_text(encoding='utf-8'))
+            judgment = next(item for item in review['records'] if item['id'] == record['id'])
+            assert judgment['research_sha256'] == digest(research_record(record)), 'Stale addition review'
+            assert judgment['utopia_score'] == score, 'Manual addition rating differs from its review'
+            basis, assessed_on = judgment['utopia_basis'], review['reviewed_on']
         overlay['assessments'][record['id']] = {
             'score': score,
             'reviewed_record_sha256': index['records'][number]['research_sha256'],
             'assessment': {
                 'assessment_mode': 'editorial_best_guess', 'confidence': 'low',
-                'basis': SPECIFIC_BASES.get(record['id'], REASONS[code]), 'rationale_code': code,
+                'basis': basis, 'rationale_code': code,
                 'scope_basis': 'Existing record population, continuity and period; described exploitation or exclusion qualifies enclave benefits.',
-                'source_ids': record['source_ids'], 'assessed_on': DATE, 'scale_version': '1.0',
+                'source_ids': record['source_ids'], 'assessed_on': assessed_on, 'scale_version': '1.0',
             },
         }
         if record['id'] in SUPPLEMENTAL_LINKS:
@@ -151,7 +162,7 @@ def main():
             changes = [{'id': identity, 'before': previous['assessments'].get(identity), 'after': after}
                        for identity, after in overlay['assessments'].items()
                        if previous['assessments'].get(identity) != after]
-            revision = {'revision': number, 'reviewed_on': DATE, 'reason': args.revision_reason,
+            revision = {'revision': number, 'reviewed_on': max(a['assessment']['assessed_on'] for a in overlay['assessments'].values()), 'reason': args.revision_reason,
                         'before_overlay_sha256': digest(previous), 'after_overlay_sha256': digest(overlay),
                         'changes': changes, 'supplemental_sources': SUPPLEMENTAL_SOURCES}
             (revisions / f'review-{number:03}.json').write_text(json.dumps(revision, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')

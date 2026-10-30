@@ -7,8 +7,8 @@ const { societies } = await read('data/societies.json');
 const overlay = await read('data/society-popularity.json');
 
 test('all society scores inherit one complete explicitly reviewed recognition unit', () => {
-  assert.equal(societies.length, 890);
-  assert.equal(Object.keys(overlay.assignments).length, 890);
+  assert.equal(societies.length, 893);
+  assert.equal(Object.keys(overlay.assignments).length, 893);
   const seen = new Map();
   for (const record of societies) {
     const score = record.popularity_score;
@@ -22,7 +22,7 @@ test('all society scores inherit one complete explicitly reviewed recognition un
     if (seen.has(record.work)) assert.equal(subjectId, seen.get(record.work));
     seen.set(record.work, subjectId);
   }
-  assert.equal(seen.size, 674);
+  assert.equal(seen.size, 675);
   assert.equal(overlay.subjects['star-wars'].score, 1);
   assert.equal(overlay.subjects['culture'].score, .55);
 });

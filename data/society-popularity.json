@@ -11,8 +11,8 @@
     "interpretation": "Ordinal editorial recognition index; not a percentage, probability, sales estimate or measurement of the specific society."
   },
   "methodology": "research/popularity/methodology.md",
-  "manual_scores_sha256": "649307f11b3bcfc8b2b3defcc50781ad7c00aaa96acf21d98625f7d5364bf5e2",
-  "manual_groups_sha256": "d46faa3004f5670f134ca11eb0116930fb91ddd0bd42be2e66c787faee6b62fa",
+  "manual_scores_sha256": "1c6f06e620e94bdec3016d1bb5dc52a31d074c658e830e4fc66a75f5fc220050",
+  "manual_groups_sha256": "9ffa98758f653b73555c36a1f6306b66964a2beb4a07c53a47718ec59a1a8553",
   "references": {
     "pop-star-wars-anchor": {
       "title": "Guinness World Records — Star Wars franchise historical commercial scale",
@@ -93,6 +93,16 @@
       "access_method": "web_search_result_text",
       "read_scope": "Japanese publisher context and historical print-circulation/readership discussion for Perry Rhodan.",
       "limitations": "Historical, region-specific publisher reporting. Supports acknowledging substantial non-Anglophone recognition without equating circulation to universal awareness."
+    },
+    "pop-genshin-developer": {
+      "title": "HoYoverse: Genshin Impact version 4.0 — Fontaine and clockwork meka",
+      "author": "Zhenzhong Yi / HoYoverse",
+      "url": "https://blog.playstation.com/2023/08/04/genshin-impact-version-4-0-launches-august-16-first-details/",
+      "kind": "developer_setting_description",
+      "accessed_on": "2026-10-30",
+      "access_method": "web_open_full_article_targeted_sections",
+      "read_scope": "A judgment, but also a performance; Dance with clockwork meka: public energy, commercial streets, patrolling meka, poor sewer district and Pneumousia-powered machines.",
+      "limitations": "Only the named article sections were read. No full-game replay or canonical employment statistics; economic coordinates and admission remain editorial judgments."
     }
   },
   "subjects": {
@@ -1748,6 +1758,23 @@
         647
       ],
       "reference_ids": []
+    },
+    "genshin-impact": {
+      "name": "Genshin Impact",
+      "score": 0.85,
+      "subject_type": "franchise_or_series",
+      "recognition_band": "broad_recognition",
+      "basis": "Genshin Impact: Broad recognition supported by substantial mainstream, international, screen, gaming or literary-cultural visibility, below the most ubiquitous brands. A widely recognized international game across multiple platforms; all three selected societies inherit the game score rather than the obscurity of their particular lore.",
+      "work_labels": [
+        "Genshin Impact"
+      ],
+      "manual_work_indices": [
+        674
+      ],
+      "reference_ids": [
+        "pop-genshin-developer"
+      ],
+      "assessed_on": "2026-10-30"
     },
     "work-001": {
       "name": "The Machine Stops",
@@ -10996,6 +11023,18 @@
     "logansrun-novel-age21-computer": {
       "subject_id": "logans-run",
       "reviewed_identity_sha256": "016e8f43c364cd8eb3600f72d12a3965a1841af4a93937604e675309eff145ec"
+    },
+    "genshin-fontaine-clockwork-economy": {
+      "subject_id": "genshin-impact",
+      "reviewed_identity_sha256": "bdabbac5d25fd6ba4c96c1874744ffaf2a01876cf64cbf0d40c8ffeb0f2a9bdf"
+    },
+    "genshin-deshret-automaton-civilization": {
+      "subject_id": "genshin-impact",
+      "reviewed_identity_sha256": "bdabbac5d25fd6ba4c96c1874744ffaf2a01876cf64cbf0d40c8ffeb0f2a9bdf"
+    },
+    "genshin-ancient-dragon-city-overseers": {
+      "subject_id": "genshin-impact",
+      "reviewed_identity_sha256": "bdabbac5d25fd6ba4c96c1874744ffaf2a01876cf64cbf0d40c8ffeb0f2a9bdf"
     }
   }
 }

@@ -150,7 +150,7 @@ export default function Article({ lang, expanded, region, onExpand, onBack }: { 
   const moveTo = (id: string) => {
     const node = targets.current[id];
     if (!node || !scroll.current) return;
-    scroll.current.scrollTo({ top: node.getBoundingClientRect().top - scroll.current.getBoundingClientRect().top + scroll.current.scrollTop - 28, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
+    node.scrollIntoView({ block: 'start', behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
   };
   useEffect(() => {
     if (expanded || Date.now() <= manual.current) return;
